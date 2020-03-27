@@ -1,0 +1,80 @@
+---
+description: 특정 작업을 실행합니다.
+seo-description: 특정 작업을 실행합니다.
+seo-title: executeJob
+solution: Experience Manager
+title: executeJob
+topic: Scene7 Image Production System API
+uuid: e73223c1-9032-4745-92b6-a5840949a824
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# executeJob{#executejob}
+
+특정 작업을 실행합니다.
+
+구문
+
+## 인증된 사용자 유형 {#section-8199e8599ea64e7097a2acb633417b15}
+
+* `IpsUser`
+* `IpsAdmin`
+* `TrialSiteAdmin`
+* `TrialSiteAdmin`
+* `TrialSiteUser`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+
+## 매개 변수 {#section-2c61b2bffcf9479a9391f2c13fdf7d53}
+
+**입력(executeJobParam)**
+
+<table id="table_FA410513908F4084A21A5F0A9431006C"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>이름 </p> </th> 
+   <th colname="col2" class="entry"> <p>유형 </p> </th> 
+   <th colname="col3" class="entry"> <p>필수 </p> </th> 
+   <th colname="col4" class="entry"> <p>설명 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col3"> <p>예 </p> </td> 
+   <td colname="col4"> <p>작업이 속한 회사의 핸들 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 작업 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col3"> <p>예 </p> </td> 
+   <td colname="col4"> <p>실행할 작업에 대한 핸들 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**출력(executeJobReturn)**
+
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+
+## 예제 {#section-96f71aa58a954293b9a98ff96d86f232}
+
+이 코드 샘플은 IPS에서 실행되도록 예약된 작업을 실행합니다.
+
+**요청**
+
+```java
+<executeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
+   <companyHandle>47</companyHandle>
+   <jobHandle>47|My Test Job|</jobHandle>
+</executeJobParam>
+```
+
+**응답**
+
+없음.

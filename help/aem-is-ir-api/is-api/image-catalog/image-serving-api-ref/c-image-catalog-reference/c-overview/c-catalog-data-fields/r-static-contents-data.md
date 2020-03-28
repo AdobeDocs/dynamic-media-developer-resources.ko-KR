@@ -1,0 +1,49 @@
+---
+description: 정적(이미지가 아님) 컨텐츠 카탈로그에 대해 다음 필드가 지원됩니다.
+seo-description: 정적(이미지가 아님) 컨텐츠 카탈로그에 대해 다음 필드가 지원됩니다.
+seo-title: 정적 컨텐츠 데이터
+solution: Experience Manager
+title: 정적 컨텐츠 데이터
+topic: Scene7 Image Serving - Image Rendering API
+uuid: a890ffef-55b2-4880-afa5-ced8598642d1
+translation-type: tm+mt
+source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+
+---
+
+
+# 정적 컨텐츠 데이터{#static-contents-data}
+
+정적(이미지가 아님) 컨텐츠 카탈로그에 대해 다음 필드가 지원됩니다.
+
+<table id="simpletable_D1DEF6268BA744AD804B9BA3D9AEE800"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> Id <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"></a></span> </p></td> 
+  <td class="stentry"> <p>카탈로그 레코드 식별자(색인 키). </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 만료 <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> 기간</a></span> </p></td> 
+  <td class="stentry"> <p>HTTP 응답에 대한 만료(실시간 시간)입니다. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 타임스탬프 <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"></a></span> </p></td> 
+  <td class="stentry"> <p>파일 수정 타임스탬프 </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 사용자 <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md" type="reference" format="dita" scope="local"> 유형</a></span> </p></td> 
+  <td class="stentry"> <p>사용자 정의 객체 유형입니다. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 사용자 <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> 데이터</a></span> </p></td> 
+  <td class="stentry"> <p>사용자 정의 속성입니다. </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 비디오 <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md" type="reference" format="dita" scope="local"> 비트 전송률</a></span> </p></td> 
+  <td class="stentry"> <p>비디오 비트 전송률 </p></td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="codeph"> 비디오 <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md" type="reference" format="dita" scope="local"> 크기</a></span> </p></td> 
+  <td class="stentry"> <p>비디오 크기. </p></td> 
+ </tr> 
+</table>
+

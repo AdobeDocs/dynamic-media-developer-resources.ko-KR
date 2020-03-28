@@ -1,0 +1,65 @@
+---
+description: 프로젝트에서 자산을 제거합니다. 자산을 제거하지 않습니다.
+seo-description: 프로젝트에서 자산을 제거합니다. 자산을 제거하지 않습니다.
+seo-title: removeProjectAssets
+solution: Experience Manager
+title: removeProjectAssets
+topic: Scene7 Image Production System API
+uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# removeProjectAssets{#removeprojectassets}
+
+프로젝트에서 자산을 제거합니다. 자산을 제거하지 않습니다.
+
+구문
+
+## 인증된 사용자 유형 {#section-b0b333a1f3b648ac8cd6bb3d135d2c6f}
+
+* `IpsUser`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+
+## 매개 변수 {#section-169d8e317417415b87df86242f65710e}
+
+**입력(removeProjectAssetsParam)**
+
+| 이름 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들 |
+| ` *`projectHandle`*` | `xsd:string` | 예 | 이동할 프로젝트 에셋의 핸들입니다. |
+| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 이동할 자산에 대한 핸들 배열입니다. |
+
+**출력(removeProjectAssetsReturn)**
+
+| 이름 | 유형 | 필수 | 설명 |
+|---|---|---|---|
+| ` *`successCount`*` | `xsd:int` | 예 | 자산 수를 제거했습니다. |
+| ` *`warningCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 경고 수입니다. |
+| ` *`errorCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성되는 오류 수입니다. |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에서 경고를 제거하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 오류를 제거하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+
+## 예제 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
+
+이 코드 샘플은 프로젝트에서 2개의 에셋을 제거합니다(프로젝트 핸들에 의해 지정됨).
+
+**요청**
+
+```java
+<removeProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <companyHandle>c|6</companyHandle>
+   <projectHandle>p|6|ProjectTestAPI</projectHandle>
+   <assetHandleArray>
+      <items>a|732|1|535</items>
+      <items>a|739|1|537</items>
+   </assetHandleArray>
+</removeProjectAssetsParam>
+```
+

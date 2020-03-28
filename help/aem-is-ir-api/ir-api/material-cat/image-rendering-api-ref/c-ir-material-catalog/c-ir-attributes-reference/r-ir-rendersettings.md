@@ -1,0 +1,29 @@
+---
+description: 기본 고급 렌더링 설정. 카탈로그 RenderSettings의 기본값입니다.
+seo-description: 기본 고급 렌더링 설정. 카탈로그 RenderSettings의 기본값입니다.
+seo-title: RenderSettings
+solution: Experience Manager
+title: RenderSettings
+topic: Scene7 Image Serving - Image Rendering API
+uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# RenderSettings{#rendersettings}
+
+기본 고급 렌더링 설정. 카탈로그 기본값::RenderSettings.
+
+## 속성 {#section-fa89db09aeeb420292cf783f07b8547a}
+
+텍스트 문자열. 지정하는 경우 비네팅 작성 도구(Scene7 이미지 작성 패키지의 일부)로 정의된 대로 유효한 렌더링 설정 문자열이어야 합니다.
+
+## 기본값 {#section-4e76784aeecd4f09a33124aded7406cb}
+
+`default::RenderSettings` if not specified or if empty.
+
+## 참조 {#section-f35d7772f4b744d1846331e19ea99173}
+
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

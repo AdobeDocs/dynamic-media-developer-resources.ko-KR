@@ -1,0 +1,105 @@
+---
+description: 널
+seo-description: 널
+seo-title: 검색 단추
+solution: Experience Manager
+title: 검색 단추
+topic: Dynamic media
+uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
+translation-type: tm+mt
+source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+
+---
+
+
+# 검색 단추{#search-button}
+
+<!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
+
+**기본 뷰어 영역의 CSS 속성**
+
+버튼의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+
+`.s7ecatalogsearchviewer .s7searchbutton`
+
+<table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p> CSS 속성 </p> </th> 
+   <th colname="col2" class="entry"> <p>설명 </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>단추의 폭입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대의 위쪽에서 오프셋입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> 왼쪽의 다음 단추까지의 거리 또는 행의 첫 번째 단추인 경우 컨트롤 막대의 왼쪽입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>이 버튼은 `state` 및 `selected` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>
+>특히 `selected='false'` 초기 스크롤 단추 상태에 해당하며 검색 패널이 활성 상태일 때의 상태에 `selected='true'` 해당합니다.
+
+단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 현지화를 참조하십시오.
+
+예 - 28 x 28픽셀인 검색 단추를 설정하고 선택 또는 선택 안 함 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하려면
+
+```
+.s7ecatalogsearchviewer .s7searchbutton{ 
+ margin-top: 4px; 
+ margin-left: 10px; 
+ width:28px; 
+ height:28px;  
+ display: inline-block; 
+ background-size:contain; 
+} 
+ 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='false'][state='up'] { 
+ background-image:url(images/v2/Search_dark_up.png); 
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='false'][state='over'] { 
+ background-image:url(images/v2/Search_dark_over.png);  
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='false'][state='down'] { 
+ background-image:url(images/v2/Search_dark_down.png); 
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='false'][state='disabled'] { 
+ background-image:url(images/v2/Search_dark_disabled.png); 
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='true'][state='up'] { 
+ background-image:url(images/v2/Search_dark_over.png); 
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='true'][state='over'] { 
+ background-image:url(images/v2/Search_dark_over.png);  
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='true'][state='down'] { 
+ background-image:url(images/v2/Search_dark_over.png);  
+} 
+.s7ecatalogsearchviewer.s7mouseinput .s7searchbutton[selected='true'][state='disabled'] { 
+ background-image:url(images/v2/Search_dark_disabled.png);  
+}
+```
+

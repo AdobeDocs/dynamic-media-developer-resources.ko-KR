@@ -1,0 +1,44 @@
+---
+description: 널
+seo-description: 널
+seo-title: FlyoutZoomView.iscommand
+solution: Experience Manager
+title: FlyoutZoomView.iscommand
+topic: Dynamic media
+uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# FlyoutZoomView.iscommand{#flyoutzoomview-iscommand}
+
+` [FlyoutZoomView.|<containerId>_flyout.]iscommand= *`isCommand`*`
+
+<table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> is <span class="varname"> Command</span></span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>FlyoutZoomView 기본 이미지와 확대된 보기에 적용되는 Image Serving 명령 문자열. URL에 지정된 경우 &amp; <span class="codeph"> 및</span> =를 모두 HTTP로 인코딩해야 합니다. <span class="codeph"> (%26</span> 및 <span class="codeph"> %3D</span> , <span class="codeph"> 각각)</span>. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 속성 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+
+선택 사항입니다.
+
+## 기본값 {#section-a08032f0fcf041c09e63c0238a339fc9}
+
+없음.
+
+## 예 {#section-0338be21edd04ff1a3bed5c8319b61a4}
+
+뷰어 URL에 지정된 경우:
+
+`iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
+
+구성 데이터에 지정된 경우:
+
+`iscommand=op_sharpen=1&op_colorize=0xff0000`

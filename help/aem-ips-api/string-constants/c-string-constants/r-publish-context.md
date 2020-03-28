@@ -1,0 +1,27 @@
+---
+description: getActivePublishContextsReturn/publishContext에서 사용됩니다.
+seo-description: getActivePublishContextsReturn/publishContext에서 사용됩니다.
+seo-title: 컨텍스트 게시
+solution: Experience Manager
+title: 컨텍스트 게시
+topic: Scene7 Image Production System API
+uuid: 50347cd3-ce36-46d7-9b88-9da02a571768
+translation-type: tm+mt
+source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+
+---
+
+
+# 컨텍스트 게시{#publish-context}
+
+getActivePublishContextsReturn/publishContext에서 사용됩니다.
+
+구문
+
+## 값 {#section-704faf94b5214a368d659dae178dc7c0}
+
+* [!DNL `ImageServing`]
+* [!DNL `ImageRendering`]
+* [!DNL `Video`]
+* [!DNL `ServerDirectory`]
+

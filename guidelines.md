@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Adobe Dynamic Media 개발자 리소스 설명서 기여 지침
 
-## Adobe Dynamic Media 개발자 리소스 설명서 철학
+## 설명서 철학
 
 Adobe Dynamic Media 사용자는 경쟁업체와 차별화된 디지털 경험을 제작하기 위해 노력하고 있습니다. 따라서 Adobe가 새로운 고급 툴을 제공할 때 고객이 다이내믹 미디어 투자를 즉시 활용하고 ROI를 극대화할 수 있도록 정확하고 명확한 설명서와 함께 이러한 툴을 보완해야 합니다.
 
@@ -35,9 +35,9 @@ Adobe는 설명서에 대한 기여를 환영하지만, 당사의 기여 요청�
 
 문서를 개선하기 위해 필요한 모든 아이디어는 공헌 활동입니다. 그러나 댓글, 문제 및 풀 요청은 *기여도만을* 위한 것입니다. Dynamic Media 사용 방법, 프로젝트 구현 또는 기술 문제 해결 방법에 대한 귀하의 질문에 답변하기 위해 고안된 것이 아닙니다.
 
-다이내믹 미디어 사용 또는 기술 오류에 대한 모든 질문은 일반적인 지원 프로세스를 통해 보고해야 합니다.
+다이내믹 미디어 사용 또는 기술 오류에 대한 모든 질문은 Experience Cloud 엔터프라이즈 지원 포털을 [통해 보고하거나 Experience Manager 커뮤니티에서](https://helpx.adobe.com/contact/enterprise-support.ec.html) [논의해야 합니다.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***설명서 기부는 Adobe 지원을*** 대체한 것이 아니며 지원 관련 질문에 대한 답변을 요구하는 이러한 기부는 거부됩니다.
+***설명서 기부는 Adobe 고객 지원 센터를 대체한*** 것이 아니며 지원 관련 질문에 대한 답변을 요구하는 이러한 기부는 거부됩니다.
 
 ### 기여도는 해당 문서 페이지를 명확하게 참조해야 합니다.
 

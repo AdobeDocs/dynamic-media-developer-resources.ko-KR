@@ -7,7 +7,7 @@ title: 처음 설치
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    이미지 제공 및/또는 이미지 렌더링 라이센스 키 파일( [!DNL .sc8] 파일 접미사 포함)을 사용할 수 있는 경우 이 폴더에 복사합니다. 그렇지 않은 경우 설치를 진행하고 나중에 라이센스 키를 설치합니다.
 1. 이미지 제공 배포 tar 파일의 압축을 풀고 압축을 해제합니다.
 1. 폴더에 [!DNL ./install-is]있는 [!DNL Setup] 을 실행하여 설치 마법사를 시작합니다.
+
    라이센스 키를 찾을 수 없는 경우 라이센스 파일을 얻는 방법을 설명하는 지침이 표시됩니다. 이 시점에서 이렇게 하거나 Image Serving 설치를 진행하고 나중에 라이센스 키를 설치합니다.
 1. EULA(End User License Agreement)가 표시되면 사용권 계약을 읽은 다음 Enter 키를 눌러 `y` 계속 진행합니다.
 

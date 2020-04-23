@@ -7,14 +7,14 @@ title: 색상 처리
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # 색상 처리{#color-handling}
 
-RTF 사양에서는 \colortbl으로 지정된 RGB 색상 값을 허용합니다. 각 구성 요소는 \red, \green 및 \blue 명령과 별도로 제공됩니다.
+RTF 사양에서는 로 지정된 RGB 색상 값을 허용합니다 `\colortbl`. 각 구성 요소는 `\red`, `\green`및 `\blue` 명령과 별도로 제공됩니다.
 
 독점적인 RTF 확장 명령을 `\cmykcolortbl` 사용하면 CMYK 색상을 지정할 수 있으며 각 색상 구성 요소는 `\cyan``\magenta`및 `\yellow`명령과 함께 `\black` 제공됩니다.
 

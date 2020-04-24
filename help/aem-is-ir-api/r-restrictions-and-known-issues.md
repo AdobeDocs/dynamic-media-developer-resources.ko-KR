@@ -7,7 +7,7 @@ title: 제한 및 알려진 문제
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ Digimarc 라이브러리가 이미 감지된 경우 이미지에 Digimarc 워터
 
 * 비피라미드형 Tiff 또는 비네팅 요청은
 
-   *&quot;이미지 C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt에 유효한 DSF가 없으며 2.25MPixel 영역이 최대 2MPixel을 초과합니다&quot;* .
+   *&quot;이미지에 올바른 DSF가`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`없으며 2.25MPixel의 영역이 최대 2MPixel을 초과합니다&quot;* .
 
    가장 좋은 방법은 피라미드 스티프와 비네팅을 사용하는 것입니다. 비피라미드형 또는 비네팅을 사용해야 하는 경우 아래 지침에 따라 크기 제한을 늘리십시오.
 

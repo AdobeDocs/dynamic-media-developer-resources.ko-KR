@@ -1,13 +1,11 @@
 ---
-description: RTF 사양에서는 \colortbl으로 지정된 RGB 색상 값을 허용합니다. 각 구성 요소는 \red, \green 및 \blue 명령과 별도로 제공됩니다.
-seo-description: RTF 사양에서는 \colortbl으로 지정된 RGB 색상 값을 허용합니다. 각 구성 요소는 \red, \green 및 \blue 명령과 별도로 제공됩니다.
-seo-title: 색상 처리
+description: RTF 사양은 &bsol;colortbl으로 지정된 RGB 색상 값을 허용합니다. 각 구성 요소는 &bsol;red, &bsol;green, &bsol;blue 명령과 별도로 제공됩니다.
 solution: Experience Manager
 title: 색상 처리
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
+source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
 
 ---
 

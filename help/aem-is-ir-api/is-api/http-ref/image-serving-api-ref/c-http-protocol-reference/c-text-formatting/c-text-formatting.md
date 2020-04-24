@@ -7,7 +7,7 @@ title: 텍스트 서식
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
    <td> <p>복사 맞춤 </p> </td> 
    <td> <p>아니오 </p> </td> 
    <td> <p>예 </p> </td> 
-   <td> 복사 맞춤 <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> 복사 맞춤 <p>, <pre>\자동 맞춤</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>텍스트 상자 여백 </p> </td> 
    <td> <p>아니오 </p> </td> 
    <td> <p>예 </p> </td> 
-   <td> <p>\margl, \margarr, \margart, \margb </p> </td> 
+   <td> <p><pre>\margin</pre>, <pre>\margarr</pre>, <pre>\margart</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>전체 단락 맞춤 </p> </td> 
    <td> <p>아니오 </p> </td> 
    <td> <p>예 </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>마지막 줄 맞춤 </p> </td> 

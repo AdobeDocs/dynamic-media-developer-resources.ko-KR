@@ -7,22 +7,25 @@ title: createFolder
 topic: Scene7 Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 20%
 
 ---
 
 
-# createFolder{#createfolder}
+# [!DNL createFolder]{#createfolder}
 
 폴더를 생성합니다.
 
 >[!NOTE]
 >
->새 폴더는 회사의 루트를 `/` 나타내는 Images 폴더에 종속됩니다.
+>새 폴더는 회사의 루트 `/` 를 나타내는 폴더를 지정하더라도 이미지 폴더에 종속됩니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## 공인 사용자 유형 {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | The Handle to the company |
-| ` *`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더. 제외된 경우 회사 루트가 사용됩니다. |
+| ` *`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더입니다. 제외되면 회사 루트가 사용됩니다. |
 
 **출력(createFolderParam)**
 

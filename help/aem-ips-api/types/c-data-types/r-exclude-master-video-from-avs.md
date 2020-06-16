@@ -1,18 +1,21 @@
 ---
-description: 응용 비디오 세트에서 마스터 비디오를 제외합니다.
-seo-description: 응용 비디오 세트에서 마스터 비디오를 제외합니다.
+description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
+seo-description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
 seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
-응용 비디오 세트에서 마스터 비디오를 제외합니다.
+응용 비디오 세트에서 기본 비디오를 제외합니다.
 
 구문
 

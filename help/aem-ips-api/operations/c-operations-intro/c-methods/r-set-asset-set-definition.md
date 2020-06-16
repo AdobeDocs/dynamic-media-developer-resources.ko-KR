@@ -7,7 +7,10 @@ title: setAssetSetDefinition
 topic: Scene7 Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 구문
 
-## 인증된 사용자 유형 {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 공인 사용자 유형 {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +36,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 세트가 있는 회사에 대한 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 세트 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 세트가 있는 회사의 핸들입니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 집합 핸들 |
 | ` *`setDefinition`*` | `xsd:string` | 예 | 정의 문자열. 아래를 참조하십시오. |
 
-**출력(set 파섹**
+**출력(setAssetSetDefinitionReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
-## setDefinition 매개 변수:정보 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition 매개 변수: 정보 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **setDefinition 함수**
 
-대체 함수를 `setDefinition` 오프라인으로 지정합니다. 이러한 문제는 카탈로그 조회 또는 게시 중에 해결됩니다. 대체 문자열에는 형식이 `${<substitution_func>}`있으며 다음을 포함합니다.
+대체 `setDefinition` 함수를 온라인으로 지정합니다. 이러한 문제는 카탈로그 조회 또는 게시 중에 해결됩니다. 대체 문자열에는 형식 `${<substitution_func>}`이 있으며 다음을 포함합니다.
 
 >[!NOTE]
 >
@@ -55,13 +58,13 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 대체 함수 </th> 
-   <th colname="col2" class="entry"> 자산의 </th> 
+   <th colname="col2" class="entry"> 자산 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 마스터 파일 경로입니다. </td> 
+   <td colname="col2"> 기본 파일 경로입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalygd([ <span class="varname"> asset_handle </span>]) </span> </td> 
@@ -73,7 +76,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 카탈로그 ID. 이미지 기반 자산(이미지, 조정된 보기, 레이어 보기)에 적용됩니다. <p>다른 자산의 경우 thumb 자산의 카탈로그 ID(있는 경우)를 반환합니다. thumb 자산이 자산과 연결되지 않으면 함수는 빈 문자열을 반환합니다. </p> </td> 
+   <td colname="col2"> 카탈로그 ID. 이미지 기반 자산(이미지, 조정된 보기, 레이어 보기)에 적용됩니다. <p>다른 자산의 경우 thumb 자산의 카탈로그 ID(있는 경우)를 반환합니다. 엄지 자산이 자산과 연결되어 있지 않으면 함수는 빈 문자열을 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

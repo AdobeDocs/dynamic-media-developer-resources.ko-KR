@@ -7,7 +7,10 @@ title: 서버 구성 및 관리
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 이 섹션에는 이미지 렌더링 서버를 설정하고 관리하는 데 도움이 되는 정보가 포함되어 있습니다.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >이미지 렌더링의 올바른 기능을 위해 이미지 제공 기능이 제대로 구성되고 작동되어야 합니다.
 

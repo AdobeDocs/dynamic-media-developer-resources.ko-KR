@@ -7,9 +7,9 @@ title: 비네팅 변환기
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vignette Converter(vntc)는 이미지 렌더링을 사용하여 배포하기 위
 
 [!DNL vntc] 기본적으로 최대 3GB의 메모리로 제한됩니다. Vntc가 이 제한에 도달하면 처리가 중지되고 오류가 발생합니다. 이 제한은 를 사용하여 변경할 수 있습니다 `-maxmem`.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >이미지 작성의 비네팅 업데이트 도구를 사용하여 이미지 렌더링 사용을 위한 비네팅을 준비할 수도 있습니다. 마찬가지로 컨텐츠 작성 툴에서도 이미지 렌더링에 사용할 캐비닛 스타일 파일을 생성할 수 있습니다. 처리를 자동화하려면 [!DNL vntc] 사용합니다. 이미지 작성의 도구에는 그래픽 사용자 인터페이스가 포함되어 있으므로 일반적으로 상호 작용 방식으로 사용하기 쉽습니다.
 

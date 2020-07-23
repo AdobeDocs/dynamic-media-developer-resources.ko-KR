@@ -7,10 +7,10 @@ title: ReprocessAssetsJob
 topic: Scene7 Image Production System API
 uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 1%
+source-wordcount: '484'
+ht-degree: 2%
 
 ---
 
@@ -55,7 +55,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3">기존 자르기 정의에 대한 보존을 제어합니다. 기본값은 <span class="codeph"> true입니다</span>. </td> 
+   <td colname="col3"> <p>기존 자르기 정의에 대한 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면</i> preserveCrop의 값이 유지됩니다. 그리고, true인 경우, 기존 preserveCrop 값이 유지됩니다. false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;<br />160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 

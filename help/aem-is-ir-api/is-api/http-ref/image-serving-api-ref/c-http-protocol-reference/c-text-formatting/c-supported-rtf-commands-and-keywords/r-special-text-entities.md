@@ -7,7 +7,10 @@ title: 특수 텍스트 엔티티
 topic: Scene7 Image Serving - Image Rendering API
 uuid: efcc3962-7097-4395-8b9f-f37c6e7f5b75
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -41,29 +44,29 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \{ </span> </td> 
+   <td> <span class="codeph"> &amp;lbraces; </span> </td> 
    <td> <p>중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \} </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
    <td> <p>중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
-   <td> <p>분리 금지 공간. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 전용입니다. </p> </td> 
+   <td> <p>분리 가능한 공간. </p> </td> 
+   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>줄바꿈 없는 하이픈. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 전용입니다. </p> </td> 
+   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
-   <td> <p>하이픈(선택 사항). </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 전용입니다. </p> </td> 
+   <td> <p>하이픈(선택 사항) </p> </td> 
+   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

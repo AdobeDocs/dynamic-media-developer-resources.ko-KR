@@ -7,7 +7,10 @@ title: PageView.enableHD
 topic: Dynamic media
 uuid: 34c0e59f-4ed0-4b62-b661-aff20ff64ec4
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> devicePixelRatio가 <span class="codeph"> 1</span> <span class="codeph"></span>이상인 디바이스, 즉 iPhone4 및 유사한 디바이스와 같은 고밀도 디스플레이를 사용하는 디바이스에 대한 최적화를 활성화, 제한 또는 비활성화할 수 있습니다. 활성 상태인 경우 구성 요소는 IS 이미지 요청의 크기를 마치 장치가 픽셀 비율만 <span class="codeph"> 1</span> 가지고 있는 것처럼 제한하므로 대역폭을 줄입니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 디바이스PixelRatio가 <span class="codeph"> 1보다</span> <span class="codeph"></span>크고 iPhone4 및 유사한 디바이스와 같은 고밀도 디스플레이가 있는 디바이스에 대한 최적화를 활성화, 제한 또는 비활성화할 수 있습니다. 활성 상태인 경우 구성 요소는 마치 장치가 픽셀 비율만 <span class="codeph"> 1</span> 가지며 대역폭을 줄이는 것처럼 IS 이미지 요청의 크기를 제한합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 수</span></span> </p> </td> 
-   <td colname="col2"> <p> 제한 설정을 사용하는 경우 구성 요소는 지정된 제한까지 높은 픽셀 밀도를 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 제한 설정을 사용하는 경우 구성 요소는 지정된 제한까지 높은 픽셀 밀도만 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 
 ## 기본값 {#section-50b22de303c1432094530e6583132c02}
 
-[!DNL `limit,1500`
+`limit,1500`
 
 ## 예 {#section-09433488774245d985acef6c0341ece0}
 
@@ -60,15 +63,15 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 안 함</span> </p> </td> 
-   <td colname="col2"> <p>이 플러그인은 항상 픽셀 밀도를 1로 사용하며 장치의 HD 기능을 무시합니다. 따라서 요청된 이미지는 항상 1000 x 1000입니다. </p> </td> 
+   <td colname="col2"> <p>이 플러그인은 항상 1의 픽셀 밀도를 사용하며 장치의 HD 기능을 무시합니다. 따라서 요청된 이미지는 항상 1000 x 1000입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> &lt;number&gt;</span> </p> </td> 
    <td colname="col2"> <p>장치 픽셀 밀도는 결과 이미지가 지정된 제한보다 낮은 경우에만 요청되고 제공됩니다. </p> <p>제한 번호는 너비 또는 높이 차원에 적용됩니다. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>제한 번호가 1600이고 픽셀 밀도가 1.5이면 1500 x 1500 이미지가 제공됩니다. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>제한 번호가 1600이고 픽셀 밀도가 2이면 2000 x 2000 이미지가 한계를 초과하므로 1000 x 1000 이미지가 제공됩니다. </p> </li> 
-     </ul> </p> <p><b>우수 사례</b>:최대 크기 이미지를 위해 회사 설정과 함께 제한 번호가 작동해야 합니다. 따라서 한도 번호를 회사 최대 이미지 크기 설정과 같게 설정합니다. </p> </td> 
+     </ul> </p> <p><b>모범 사례</b>:최대 크기 이미지를 위해 한도 번호는 회사 설정과 연동되어야 합니다. 따라서 한도 번호를 회사 최대 이미지 크기 설정과 같도록 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

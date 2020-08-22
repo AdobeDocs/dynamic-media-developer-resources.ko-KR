@@ -1,22 +1,25 @@
 ---
-description: 자료 파일. 단일 자료 카탈로그 참조 형식으로 또는 한 개 또는 두 개의 이미지 또는 자료 데이터 파일로 쉼표로 구분하여 재료 데이터를 지정합니다.
-seo-description: 자료 파일. 단일 자료 카탈로그 참조 형식으로 또는 한 개 또는 두 개의 이미지 또는 자료 데이터 파일로 쉼표로 구분하여 재료 데이터를 지정합니다.
+description: 자료 파일. 단일 자료 카탈로그 참조 형태로 또는 하나의 이미지 또는 자료 데이터 파일로 쉼표로 구분된 자료 데이터를 지정합니다.
+seo-description: 자료 파일. 단일 자료 카탈로그 참조 형태로 또는 하나의 이미지 또는 자료 데이터 파일로 쉼표로 구분된 자료 데이터를 지정합니다.
 seo-title: src
 solution: Experience Manager
 title: src
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 2%
 
 ---
 
 
 # src{#src}
 
-자료 파일. 단일 자료 카탈로그 참조 형식으로 또는 한 개 또는 두 개의 이미지 또는 자료 데이터 파일로 쉼표로 구분하여 재료 데이터를 지정합니다.
+자료 파일. 단일 자료 카탈로그 참조 형태로 또는 하나의 이미지 또는 자료 데이터 파일로 쉼표로 구분된 자료 데이터를 지정합니다.
 
-`src = *`catalogEntrymaterialFileembeddedReqmaterialFile`*|{{ *``*| *``*}[, *``*]`
+`src = *``*|{{ *``*| *``*}[, *`catalogEntrymaterialFileembeddedReqmaterialFile`*]`
 
 `srcE= *`name`*`
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">{'is{'is<span class="varname"> Req</span>'}'}|{'ir{'<span class="varname"> irReq</span>'}'|{'{'<span class="varname"> foreignReq</span>'}'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbradance;'<span class="varname"> is</span>&amp;rbradance;'&amp;rbradance;'ir&amp;lbrace;'ir&amp;<span class="varname"> r&amp;brace</span>;'r&amp;rbrace;'|&amp;'&amp;brackance;'<span class="varname"> foreignReq</span>'&amp;</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -41,11 +44,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>자재 카탈로그 항목(<span class="codeph"> catalog::Id</span>). </p></td> 
+  <td class="stentry"> <p>자재 카탈로그 항목(<span class="codeph"> 카탈로그::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
-  <td class="stentry"> <p>재료 스타일 파일(<span class="filepath"> .vnc</span> 또는 <span class="filepath"> .vnw</span>)입니다. </p></td> 
+  <td class="stentry"> <p>재료 스타일 파일(<span class="filepath"> .vnc</span> 또는 <span class="filepath"> .vnw</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
@@ -73,29 +76,29 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-반복 가능한 텍스처, 기울기 및 배경 무늬 재질을 사용하려면 하나의 이미지가 필요하며, 이 이미지는 파일 또는 포함된 요청으로 지정할 수 있습니다.
+반복 가능한 텍스처, 십자 및 배경 무늬 재질을 사용하려면 하나의 이미지가 필요하며 이 이미지는 파일 또는 포함된 요청으로 지정할 수 있습니다.
 
 캐비닛 자료에 캐비닛 스타일 파일( [!DNL .vnc])이 필요하며 중첩된 요청으로 지정할 수 없습니다. 텍스처 이미지 파일은 캐비닛에 대해 선택 사항이며, 지정한 경우 파일 또는 포함된 요청일 수 있습니다.
 
-창 커버링 재질에는 중첩된 요청으로 지정할 수 없는 창 커버링 스타일 파일( [!DNL .vnw])이 필요합니다. 텍스처 파일은 선택 사항이며, 지정된 경우 파일 또는 포함된 요청일 수 있습니다.
+창 커버 자료에 중첩 요청으로 지정할 수 없는 창 커버 스타일 파일( [!DNL .vnw])이 필요합니다. 텍스처 파일은 선택 사항이며, 지정된 경우 파일 또는 포함된 요청일 수 있습니다.
 
-이미지 렌더링은 자료 카탈로그, 카탈로그 항목 및 데이터 파일을 조회하기 위해 이미지 제공과 동일한 규칙을 사용합니다. 자세한 내용은 이미지 제공 *`object`* 설명서의 데이터 유형에 대한 설명을 참조하십시오.
+이미지 렌더링은 자료 카탈로그, 카탈로그 항목 및 데이터 파일을 조회하기 위해 이미지 제공과 동일한 규칙을 사용합니다. 자세한 내용은 이미지 제공 설명서의 *`object`* 데이터 유형에 대한 설명을 참조하십시오.
 
-*`materialFile`* 은 을(를) 기준으로 하는 `attribute::RootPath`경로입니다.
+*`materialFile`* 의 상대 경로입니다 `attribute::RootPath`.
 
-*`foreignReq`* 에 대한 상대 URL이거나 `attribute::RootUrl`설정된 경우 절대 URL일 `attribute::AllowDirectUrls` 수 있습니다.
+*`foreignReq`* 에 상대적인 URL이거나 `attribute::RootUrl`설정된 경우 절대 URL일 수 `attribute::AllowDirectUrls` 있습니다.
 
-을 지정하지 *`catId`* 않으면 세션 카탈로그가 사용됩니다.
+이 *`catId`* 를 지정하지 않으면 세션 카탈로그가 사용됩니다.
 
-`srcE=` 비네팅에 임베드된 자료에 대한 액세스를 `srcN=` 제공합니다.
+`srcE=` 비네팅에 포함된 자료에 대한 액세스를 `srcN=` 제공합니다.
 
 ## 지원되는 파일 포맷 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-이미지 렌더링은 Scene7 이미지 제공과 동일한 소스 이미지 형식을 지원합니다.
+이미지 렌더링은 Scene7 이미지 서비스와 동일한 소스 이미지 형식을 지원합니다.
 
-여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 피라미드 TIFF(다중 해상도) 형식을 사용할 때 가장 적합합니다. 이미지 제공에는 지원되는 모든 포맷의 PTIFF 이미지를 만드는 IC(Image Converter) 유틸리티가 포함되어 있습니다.
+다양한 해상도의 이미지 데이터가 필요한 애플리케이션은 Scene7 피라미드 TIFF(PTIFF) 다중 해상도 포맷을 사용할 때 가장 적합합니다. 이미지 제공에는 지원되는 모든 포맷의 PTIFF 이미지를 만드는 IC(Image Converter) 유틸리티가 포함되어 있습니다.
 
-지원되는 파일 포맷의 전체 목록은 이미지 제공 설명서의 IC 유틸리티에 대한 설명을 참조하십시오.
+지원되는 파일 포맷의 전체 목록은 이미지 제공 문서의 IC 유틸리티에 대한 설명을 참조하십시오.
 
 ## 속성 {#section-e68d03788d534e2184147987d51dfd0f}
 
@@ -107,15 +110,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예 {#section-675865444f8a4d35b9fc6e58b36e3438}
 
-별도의 반복 가능한 텍스처가 있는 색상화된 캐비닛용 MSS:
+별도의 반복 가능한 텍스처를 가진 색상화된 캐비닛용 MSS:
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-동일한 자료가 &#39; `'cat`&#39; 레코드의 자료 카탈로그 `12-3-2`&#39;에 있을 수 있습니다.
+같은 자료가 &#39;&#39; 레코드 `'cat`의 &#39;자료 카탈로그&#39;에 있을 수 `12-3-2`있습니다.
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
-텍스처 이미지를 얻기 위해 이미지 제공 서비스에 중첩된 요청입니다.
+텍스처 이미지를 얻기 위한 이미지 제공 중첩 요청:
 
 `…&obj=main&src=is{texCatalog/texture123?res=30}&res=30&…`
 

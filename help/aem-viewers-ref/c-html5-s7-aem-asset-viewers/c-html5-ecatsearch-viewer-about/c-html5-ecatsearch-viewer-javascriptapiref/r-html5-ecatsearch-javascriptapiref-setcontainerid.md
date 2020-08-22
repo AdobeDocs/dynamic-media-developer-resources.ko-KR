@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +21,15 @@ eCatalog 뷰어용 JavaScript API 참조.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-뷰어가 삽입되는 [!DNL `DOM` 컨테이너(일반적으로 a)의 ID를 [!DNL `DIV`]설정합니다. 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요는 없습니다. 그러나 컨테이너는 실행될 때 존재해야 [!DNL `init()`] 합니다. 그 전에 전화해야 [!DNL `init()`]합니다.
+뷰어가 삽입되는 `DOM` 컨테이너(일반적으로 a)의 ID를 `DIV`설정합니다. 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요는 없습니다. 그러나 이 컨테이너는 실행될 때 존재해야 `init()` 합니다. 그 전에 전화해야 한다 `init()`.
 
-이 메서드는 뷰어 구성 정보가 JSON 개체와 함께 생성자에 전달될 경우 [!DNL `config`] 선택 사항입니다.
+이 메서드는 뷰어 구성 정보가 JSON 개체와 함께 생성자에 전달될 경우 `config` 선택 사항입니다.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 컨테이너 <span class="varname"> ID </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너의 ID입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string} </span> ID입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

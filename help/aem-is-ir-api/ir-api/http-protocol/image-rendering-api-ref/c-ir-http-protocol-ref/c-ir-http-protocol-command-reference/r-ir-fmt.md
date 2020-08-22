@@ -1,22 +1,25 @@
 ---
-description: 응답 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다.
-seo-description: 응답 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다.
+description: 회신 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
+seo-description: 회신 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
 seo-title: fmt
 solution: Experience Manager
 title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 4%
 
 ---
 
 
 # fmt{#fmt}
 
-응답 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다.
+회신 이미지 형식. 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
 
-` fmt= *``*[,[ *``*][, *`formatpixelTypeffCompression`*`]
+` fmt= *``*[,[ *``*][, *`formatpixelTypetiffCompression`*]]`
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
@@ -52,7 +55,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf </p> </td> 
-  <td class="stentry"> <p>Macromedia swf 파일에 임베드된 손실 JPEG </p> </td> 
+  <td class="stentry"> <p>Macromedia swf 파일에 포함된 손실 JPEG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -72,7 +75,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif </p> </td> 
-  <td class="stentry"> <p>256색 GIF. </p> </td> 
+  <td class="stentry"> <p>GIF(256 색상) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -87,7 +90,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>회색 </p> </td> 
-  <td class="stentry"> <p>회색 음영 이미지 데이터를 반환합니다. </p> </td> 
+  <td class="stentry"> <p>회색 크기 이미지 데이터를 반환합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -107,7 +110,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>zip </p> </td> 
-  <td class="stentry"> <p>"Deflate" 압축(손실 없음). </p> </td> 
+  <td class="stentry"> <p>"Deflate" 압축(손실 없음) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -116,15 +119,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-*`pixelType`* 지정하지 `icc=` 않은 경우 효과 출력 색상 공간 변환에 해당하는 기본 색상 프로필이 *`pixelType`* 적용됩니다. 색상 관리가 비활성화되면 자동 변환이 적용됩니다. *`pixelType`* 가 지정된 경우 무시되며, `icc=` 이 경우 출력 픽셀 유형이 결정됩니다.
+*`pixelType`* 지정한 경우 효과 출력 색상 공간 변환 `icc=` ;에 해당하는 기본 색상 프로필 *`pixelType`* 이 적용됩니다. 색상 관리가 비활성화되면 자동 변환이 적용됩니다. *`pixelType`* 은 출력 픽셀 유형 `icc=` 을 결정하는 지정 시 무시됩니다.
 
-*`compression`* 은 tif, tif-alpha 또는 PDF가 *`format`*&#x200B;로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
+*`compression`* 은 tif, tif-alpha 또는 PDF가 *`format`* 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt-` 다음과 같은 형식의 JPEG 인코딩 옵션을 설정합니다.JPEG, JPEG 압축 TIFF, JPEG 압축 PDF 및 SWF 파일 if `quantize=` or `fmt=gif` 을 `fmt=gif-alpha`사용하십시오. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt-` 다음 포맷에 대한 JPEG 인코딩 옵션을 설정합니다.JPEG, JPEG 압축 TIFF, JPEG 압축 PDF 및 SWF 파일 if `quantize=` or `fmt=gif` 을 사용합니다 `fmt=gif-alpha`. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
-픽셀 구성 요소당 8비트는 모든 포맷 및 픽셀 유형에 대해 반환됩니다.
+모든 형식 및 픽셀 유형에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 
-다음 표에는 ICC 프로필을 포함할 수 있는지 여부(iccEmbed= *`format`* 참조) *`pixelType`*&#x200B;및 [해당 HTTP 응답 MIME 유형의 유효한 조합과 적용할 수 있는](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)형식별 옵션 명령이 나와 있습니다.
+다음 표에는 ICC 프로필 *`format`* 을 포함할 수 있는지 여부(iccEmbed= *`pixelType`*&#x200B;참조) 및 적용할 수 있는 형식별 옵션 명령 [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)의 유효한 조합과 해당 HTTP 응답 MIME 유형이 나와 있습니다.
 
 <table id="table_3461A367632E4B5A8AB578850A439024"> 
  <thead> 
@@ -159,25 +162,25 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>tif, tif, alpha </p> </td> 
+   <td colname="col1"> <p>tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> 는 tiff <span class="varname"> Compression이 'jpeg' </span> 로 설정되어 있지 않으면 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> is ignored without <span class="varname"> is set to 'jpeg' </span> ). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, 회색 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> <p>Flash Player는 포함된 ICC 프로필을 무시합니다. </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+   <td colname="col4"> <p>아니요 </p> <p>Flash Player은 포함된 ICC 프로필을 무시합니다. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> 특성::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pdf </p> </td> 
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (없음|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> 는 tiff <span class="varname"> Compression이 'jpeg' </span> 로 설정되어 있지 않으면 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> is ignored without <span class="varname"> is set to 'jpeg' </span> ). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -198,7 +201,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 클라이언트에 전송된 응답 이미지 데이터의 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다.
 
-`png-alpha` 연결되지 않은 알파(즉, 알파는 픽셀 값에 미리 곱하지 않음)를 반환하고 관련 알파 `tif-alpha`값을 `swf-alpha` 반환합니다. 즉, 알파 값은 알파 값과 미리 곱해집니다. 알파 채널은 비네팅의 배경 마스크의 반대와 `req=img`경우에 해당하는 그룹 또는 개체 마스크에 해당합니다 `req=object`. 중첩된 IR 요청을 사용할 때 알파를 적용하려면 포함된 IR 요청 및 기본 요청에 적절한 알파 파일 `fmt=` 형식과 함께 추가합니다. CMYK 또는 회색 음영 ICC 프로파일이 로 지정된 경우 알파 데이터가 반환되지 `icc=`않습니다.
+`png-alpha` 연결되어 있지 않은 알파(즉, 알파는 픽셀 값에 사전 곱하지 않음)를 반환하고 관련 알파 `tif-alpha`를 `swf-alpha` 반환합니다(즉, 알파 값은 알파 값과 사전 곱해집니다). 알파 채널은 비네팅 배경 마스크의 반전 `req=img`및 경우에 해당하는 그룹 또는 개체 마스크에 해당합니다 `req=object`. 중첩된 IR 요청을 사용할 때 알파를 적용하려면 포함된 IR 요청 및 기본 요청에 적절한 알파 파일 형식 `fmt=` 과 함께 추가하십시오. CMYK 또는 회색 음영 ICC 프로파일이 와 함께 지정된 경우 알파 데이터가 반환되지 않습니다 `icc=`.
 
 ## 속성 {#section-eb12a82c69d84622bcea153dd84d95b3}
 
@@ -206,8 +209,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 기본값 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* 의 기본값은 `attribute::Format`로 설정되어 있고 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`로 설정되어 있습니다. *`pixelType`* 가 지정되지 `rgb` 않은 `icc=` 경우 기본값을 지정하고, 그렇지 않은 경우 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
+*`format`* 기본값 `attribute::Format`과 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`입니다. *`pixelType`* 기본값이 `rgb` 지정되지 않은 경우 `icc=` , 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
 
 ## 참조 {#section-c55efc881fc94c70bff91b870e026a7b}
 
-[속성::Format](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [속성::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [속성::TiffLt=](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e), iccEmbed= [](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)[, qembed=embed, pathEmbed=Path, Represq=qualze=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)
+[속성::Format](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2) , [속성::JpegQuality](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50), [속성::TiffEncoding](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e)= [, tifflt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f)[](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)[, iccEmbed=cembed,_pathEmbed=embed=,PathEmbed=,Primeq=z](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38)

@@ -7,7 +7,10 @@ title: 기술 지원
 topic: Scene7 Image Serving - Image Rendering API
 uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 420021e6c15bb7434379b90990ed4f6c7d695f4e
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 기술 지원에 문의하려면 다음을 사용하십시오.
 
-| Phone: | 미국 태평양 표준시 월요일부터 금요일까지 오전 6시부터 오후 6시까지 800-898-9743(공휴일 제외) |
-|---|---|
-| 이메일: | s7support@adobe.com |
+* **전화** - 공휴일을 제외한 미국 태평양 표준시, 월요일부터 금요일까지 06:00부터 18:00까지 800-898-9743입니다.
+* **지원 사례 만들기** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 

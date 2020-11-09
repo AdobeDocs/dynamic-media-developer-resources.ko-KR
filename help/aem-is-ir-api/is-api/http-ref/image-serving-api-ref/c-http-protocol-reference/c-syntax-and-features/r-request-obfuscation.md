@@ -7,7 +7,7 @@ title: 난독화 요청
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 기능을 활성화하면 다음과 같은 특정 사용 제한 사항이 있음을 알 수 있습니다.<br>- Dynamic Media 사용자 인터페이스에 **[!UICONTROL 마지막 게시됨]** 필드에 대한 올바른 세부 정보가 표시되지 않을 수 있습니다. 그러나 이는 게시에 영향을 주지 않습니다.<br>- 현재, 요청 난독화 및&#x200B;**[!UICONTROL 요청 잠금이]**&#x200B;활성화되면 HLS 비디오 스트리밍이 **[!UICONTROL 작동하지]** 않습니다.
+>이 기능을 활성화하면 다음과 같은 특정 사용 제한 사항이 있습니다.<br>- Dynamic Media 사용자 인터페이스에 **[!UICONTROL 마지막으로 게시된]** 필드에 대한 올바른 세부 정보가 표시되지 않을 수 있습니다. 그러나 이는 게시에 영향을 주지 않습니다.<br>- 현재, 요청 난독화 및&#x200B;**[!UICONTROL 요청 잠금이]**&#x200B;활성화되면 HLS 비디오 스트리밍이 **[!UICONTROL 작동하지]** 않습니다.
 
 ## 예 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

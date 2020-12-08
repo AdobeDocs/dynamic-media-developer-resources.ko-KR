@@ -1,16 +1,12 @@
 ---
-source-git-commit: 250f3499a23461ed1fd6fb5440d74c71767f6ef3
+source-git-commit: ef87bdd7a1346be76cef7e59ab70de41eba4f331
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '157'
-ht-degree: 3%
+source-wordcount: '75'
+ht-degree: 0%
 
 ---
 # Adobe Dynamic Media 개발자 리소스 설명서
-
-| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
-|--- |--- |--- |--- |--- |--- |
-| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-developer-resources.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe EDynamic Media Developer Resources 설명서를 위한 저장소입니다.
 

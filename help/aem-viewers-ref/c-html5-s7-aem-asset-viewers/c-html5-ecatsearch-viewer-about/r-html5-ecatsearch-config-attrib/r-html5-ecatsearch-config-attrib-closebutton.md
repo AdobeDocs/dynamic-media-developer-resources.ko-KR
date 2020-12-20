@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>닫기 단추를 표시하려면 <span class="codeph"> 1로 </span> 설정합니다. 또는 닫기 단추를 숨기려면 <span class="codeph"> 0으로 </span> 설정합니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다.데스크톱 시스템에는 표시할 수 없습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>닫기 단추 표시를 활성화하려면 <span class="codeph"> 1 </span>로 설정합니다. 또는 <span class="codeph"> 0 </span>으로 설정하여 닫기 단추를 숨깁니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다.데스크탑 시스템에 표시할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

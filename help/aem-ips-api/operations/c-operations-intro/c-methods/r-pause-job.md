@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`jobHandle`*` | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
 
 **출력(PauseJobReturn)**

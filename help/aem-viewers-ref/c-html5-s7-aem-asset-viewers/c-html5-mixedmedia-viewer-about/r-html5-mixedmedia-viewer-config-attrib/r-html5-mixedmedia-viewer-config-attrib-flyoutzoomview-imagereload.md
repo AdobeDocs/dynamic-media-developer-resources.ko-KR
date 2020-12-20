@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5cded4cb-7b02-47da-9e2d-b236548cc61d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p>0으로 설정하면 구성 요소가 크기 조정 중에 새 이미지를 로드하지 <span class="codeph"> </span>않고 플라이아웃 보기의 이미지 해상도는 변경되지 않습니다. </p> <p>[ <span class="codeph"> 1]로 설정하면 기본 보기로 로드된 이미지에 대해 하나 이상의 폭 중단점을 지정할 </span> 수 있습니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 0 </span>으로 설정하면 구성 요소가 크기 조정 중에 새 이미지를 로드하지 않고 플라이아웃 보기의 이미지 해상도는 변경되지 않습니다. </p> <p><span class="codeph"> 1 </span>으로 설정하면 기본 보기로 로드된 이미지에 대해 하나 이상의 폭 중단점을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 중단점, <span class="varname"> 폭 </span>[; <span class="varname"> 너비 </span>] </span> </p> </td> 
-   <td colname="col2"> <p>기본 보기로 로드된 이미지의 폭 중단점입니다. 구성 요소는 항상 초기 로드에 가장 적합한 크기를 사용합니다. 크기를 조정하면 기본 보기의 이미지가 항상 가장 큰 중단점과 같은 너비로 다운로드되고 클라이언트에서 축소되도록 합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 중단점,  <span class="varname"> 너비  </span>[; <span class="varname"> 너비  </span>]  </span> </p> </td> 
+   <td colname="col2"> <p>기본 보기로 로드된 이미지의 폭 중단점입니다. 구성 요소는 항상 초기 로드에 가장 적합한 크기를 사용합니다. 크기를 조정한 후에는 기본 보기의 이미지가 항상 가장 큰 중단점과 같은 너비로 다운로드되고 클라이언트에서 축소되도록 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

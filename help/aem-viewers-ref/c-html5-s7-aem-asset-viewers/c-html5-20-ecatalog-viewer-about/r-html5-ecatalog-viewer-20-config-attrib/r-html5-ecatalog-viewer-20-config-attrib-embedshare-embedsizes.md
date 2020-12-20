@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 13a93677-5221-48d9-bea8-d291f8612f09
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 27%
 
 ---
 
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`위젯 위젯 높이`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthhewidthheight`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>포함 너비. </p> </td> 
+   <td colname="col2"> <p>너비 포함. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 처음에 콤보 상자에서 이 목록 항목을 미리 선택할지 여부를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 콤보 상자에서 이 목록 항목을 처음에 미리 선택할지 여부를 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 050e932b-089f-448e-a9de-38cc04c55a49
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 인터랙티브한 견본이 비디오 재생 도중 등 각 미디어 전환과 함께 자동으로 스크롤되는 기능을 활성화하거나 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p> 비디오 재생 도중 등 각 미디어 전환과 함께 자동으로 스크롤할 수 있는 대화형 색상 견본을 활성화하거나 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

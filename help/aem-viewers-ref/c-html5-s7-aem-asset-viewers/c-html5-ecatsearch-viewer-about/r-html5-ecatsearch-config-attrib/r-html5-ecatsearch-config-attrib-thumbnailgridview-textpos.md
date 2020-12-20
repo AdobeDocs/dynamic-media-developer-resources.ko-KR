@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d38c614b-01ed-4fad-a510-30386ac9a63d
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> 축소판 이미지를 기준으로 레이블을 그릴 위치를 지정합니다.즉, 축소판과 관련하여 지정된 위치의 가운데에 레이블이 표시됩니다. </p> <p>툴팁을 <span class="codeph"></span> 지정하면 레이블 텍스트가 축소판 이미지 위에 부동 도구 팁으로 표시됩니다. 레이블을 끄려면 <span class="codeph"> [없음]으로</span> 설정합니다. </p> </td> 
+   <td> <p> 축소판 이미지를 기준으로 레이블을 그릴 위치를 지정합니다.즉, 축소판과 관련하여 지정된 위치 중앙에 레이블이 배치됩니다. </p> <p><span class="codeph"> tooltip</span>을 지정하면 레이블 텍스트가 축소판 이미지 위에 부동 도구 팁으로 표시됩니다. 레이블을 끄려면 <span class="codeph"> none</span>으로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

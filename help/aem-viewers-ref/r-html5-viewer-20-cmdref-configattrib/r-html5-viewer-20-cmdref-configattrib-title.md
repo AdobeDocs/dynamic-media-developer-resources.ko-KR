@@ -3,11 +3,14 @@ description: 널
 seo-description: 널
 seo-title: title
 solution: Experience Manager
-title: title
+title: 제목
 topic: Dynamic media
 uuid: ff6c0e2e-ac59-4bcf-9ab9-227ba686914e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 창 <span class="varname"> 제목 이미지</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> windowTitleimage</span> </span> </p> </td> 
    <td colname="col2"> <p>뷰어가 포함된 브라우저 창의 제목을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 

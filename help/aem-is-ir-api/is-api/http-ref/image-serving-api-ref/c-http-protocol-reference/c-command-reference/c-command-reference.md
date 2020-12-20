@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
@@ -16,12 +19,12 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 이 섹션에서는 HTTP 프로토콜 명령에 대해 설명합니다.
 
-**AEM의 다이내믹 미디어에만 해당**:사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도 AEM( [!DNL Dynamic Media] ) [!DNL Adobe Experience Manager]에서 이미지 수정자 **필드에 지정할 수 있는 다양한 고급 이미지 수정을 지원합니다** . 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
+**AEM의 Dynamic Media에만 해당**:사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도 AEM() [!DNL Dynamic Media] 에서 이미지 수정 필드에 지정할 수 있는 다양한 고급 이미지 수정 [!DNL Adobe Experience Manager]을  **** 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 다음 기능은 AEM의 Dynamic Media에서 지원되지 않습니다.
 
-* 색상 교정 명령: `icc=` 및 `iccEmbed=`Adobe
-* 기본 템플릿 및 텍스트 렌더링 명령: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`Adobe
-* 현지화 명령: `locale=` 및 `req=xlate`Adobe
-* `req=set` 은 일반 용도로 사용할 수 없습니다.
+* 색상 교정 명령:`icc=` 및 `iccEmbed=`.
+* 기본 템플릿 및 텍스트 렌더링 명령:`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`.
+* 현지화 명령:`locale=` 및 `req=xlate`.
+* `req=set` 은(는) 일반적인 사용에 사용할 수 없습니다.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
@@ -30,7 +33,7 @@ source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 설명서의 [다이내믹 미디어](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) 이미지 사전 설정 옵션을 참조하십시오.
+AEM 6.5 설명서의 Dynamic Media [이미지 사전 설정 옵션](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options)을 참조하십시오.
 
 * [정렬](r-align.md)
 * [앵커](r-anchor.md)
@@ -49,7 +52,7 @@ AEM 6.5 설명서의 [다이내믹 미디어](https://docs.adobe.com/content/hel
 * [effectMask](r-effectmask.md)
 * [extend](r-extend.md)
 * [맞춤](r-fit.md)
-* [furm](r-flip.md)
+* [flip](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [숨기기](r-hide.md)
@@ -66,7 +69,7 @@ AEM 6.5 설명서의 [다이내믹 미디어](https://docs.adobe.com/content/hel
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
-* [op_coloriize](r-op-colorize.md)
+* [op_colorize](r-op-colorize.md)
 * [op_contrast](r-op-contrast.md)
 * [op_grow](r-op-grow.md)
 * [op_growMask](r-op-growmask.md)
@@ -83,7 +86,7 @@ AEM 6.5 설명서의 [다이내믹 미디어](https://docs.adobe.com/content/hel
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [원근](r-perspective.md)
-* [pos](r-pos.md)
+* [오퍼](r-pos.md)
 * [printRes](r-printres.md)
 * [pscan](r-pscan.md)
 * [qlt](r-is-http-qlt.md)

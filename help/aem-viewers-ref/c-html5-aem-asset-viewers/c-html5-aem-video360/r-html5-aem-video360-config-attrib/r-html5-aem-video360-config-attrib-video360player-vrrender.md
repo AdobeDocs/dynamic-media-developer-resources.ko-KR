@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 28%
 
 ---
 
@@ -22,7 +25,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>가상 현실 렌더링 모드가 활성화되어 있는지 여부를 지정합니다. VR 헤드셋에서 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>가상 현실 렌더링 모드가 활성화되어 있는지 지정합니다. VR 헤드셋에서 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

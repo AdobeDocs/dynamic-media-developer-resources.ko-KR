@@ -1,6 +1,6 @@
 ---
-description: 재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 아이콘 효과 매개 변수도 달라집니다.
-seo-description: 재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 아이콘 효과 매개 변수도 달라집니다.
+description: 재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 iconeffect 매개 변수도 달라집니다.
+seo-description: 재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 iconeffect 매개 변수도 달라집니다.
 seo-title: 아이콘 효과
 solution: Experience Manager
 title: 아이콘 효과
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a1e7d877-097c-4f43-8a6d-9627dc4924b1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# 아이콘 효과{#icon-effect}
 
-재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 아이콘 효과 매개 변수도 달라집니다.
+재생 아이콘은 기본 보기 영역에 오버레이됩니다. 비디오가 일시 중지될 때 또는 비디오 끝에 도달할 때 표시되며 iconeffect 매개 변수도 달라집니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,12 +32,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> 재생 아이콘에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,9 +50,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-아이콘 효과는 `state` 속성 선택기를 지원합니다. `state="play"` 재생이 진행되는 동안 비디오가 일시 중지될 때 사용되며 재생 헤드가 스트림 끝에 있을 `state="replay"` 때 사용됩니다.
+아이콘 효과는 `state` 속성 선택기를 지원합니다. `state="play"` 재생 중에 비디오가 일시 정지될 때 사용되며 재생 헤드가 스트림 끝 `state="replay"` 에 있을 때 사용됩니다.
 
-**예** - 100 x 100픽셀 재생 아이콘을 설정합니다.
+**예**  - 100 x 100픽셀 재생 아이콘을 설정합니다.
 
 ```
 .s7video360viewer .s7videoplayer .s7iconeffect { 

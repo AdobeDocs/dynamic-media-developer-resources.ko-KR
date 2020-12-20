@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 
@@ -34,8 +37,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 데이터를 가져올 회사의 핸들 |
-| ` *`metadataKey`*` | `xsd:string` | 예 | 메타데이터 키(점 표기법) |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 데이터를 가져올 회사의 핸들입니다. |
+| ` *`metadataKey`*` | `xsd:string` | 예 | 메타데이터 키를 도트 표기법으로 표시합니다. |
 
 **출력(getDistinctMetadataValuesReturn)**
 

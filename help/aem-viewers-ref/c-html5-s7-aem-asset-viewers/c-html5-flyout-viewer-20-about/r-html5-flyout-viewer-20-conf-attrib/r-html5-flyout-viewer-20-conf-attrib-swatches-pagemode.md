@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 67fb7f83-b7be-4f83-9bac-9772de39d35e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 전환하면 스크롤 단추를 사용하면 견본이 전체 페이지 길이를 자동으로 이동합니다. </p> <p>견본이 맞지 않는 경우 마지막 페이지에 추가 공백이 표시됩니다. 또한 마지막 페이지의 셀 수는 이전 페이지와 동일합니다. </p> <p>스크롤 단계는 무시되고 마우스 스크롤은 전체 페이지에서만 처리됩니다. </p> </td> 
+   <td colname="col2"> <p> 전환하면 스크롤 버튼이 자동으로 견본 전체를 한 페이지로 이동합니다. </p> <p>견본이 맞지 않을 경우 마지막 페이지에 추가 공백이 표시됩니다. 또한 마지막 페이지의 셀 수는 이전 페이지와 동일합니다. </p> <p>스크롤 단계는 무시되고 마우스 스크롤은 전체 페이지에서만 진행됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

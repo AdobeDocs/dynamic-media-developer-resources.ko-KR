@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e48b39bb-c23d-42ce-9dc6-6e8b0d9b04ea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 3%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_0002BE81371D4E16A56FBEDD13FDF3C2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|fit-vertical|fit-portable </span> </p> </td> 
-   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> 위로, <span class="codeph"> 아래로, </span>왼쪽으로 <span class="codeph"> 또는 </span>오른쪽으로 설정하면, 추가 경계 확인 <span class="codeph"> </span><span class="codeph"> </span>없이 패널이 지정된 방향으로 롤아웃됩니다. 이 동작을 수행하면 외부 컨테이너가 패널 클리핑을 초래할 수 있습니다. </p> <p>세로 <span class="codeph"> </span>맞춤으로 설정하면 구성 요소가 먼저 기본 패널 위치를 SocialShare의 맨 아래로 이동하고, 이러한 기본 위치에서 아래쪽, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 각 시도가 있을 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 위쪽으로 이동하고 위쪽, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p>측선에 <span class="codeph"> 맞추도록 설정하면 구성 요소는 수직과 유사한 로직을 </span>사용하지만, 대신 베이스를 오른쪽 첫 번째 시도 오른쪽, 아래쪽 및 위쪽 롤아웃 방향으로 이동한 다음, 왼쪽, 아래쪽 및 위쪽 롤아웃 방향을 시도합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|맞춤-세로|맞춤  </span> </p> </td> 
+   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> <span class="codeph">, </span> 아래쪽 <span class="codeph">, </span> 왼쪽 <span class="codeph"> 또는 오른쪽 </span> 오른쪽 <span class="codeph">으로 설정하면 추가 경계 확인 없이 지정된 방향으로 패널이 롤아웃됩니다. </span> 이 비헤이비어는 외부 컨테이너로 패널 클리핑을 초래할 수 있습니다. </p> <p><span class="codeph"> fit-vertical </span>으로 설정하면 구성 요소가 먼저 기본 패널 위치를 SocialShare의 맨 아래로 이동하고, 이러한 기본 위치에서 아래쪽, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 구성 요소는 시도할 때마다 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> 적당한 측면 </span>으로 설정하면 구성 요소는 수직에 맞는 것과 유사한 로직을 사용하지만 대신 기본을 오른쪽 첫 번째 시도 오른쪽으로, 아래로, 위쪽 롤아웃으로 이동합니다. 그런 다음 베이스를 왼쪽, 아래쪽, 위쪽 롤아웃 방향으로 이동합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

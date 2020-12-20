@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 플라이아웃이 활성 상태일 때 기본 보기 강조 표시 모양을 제어합니다. 0으로 <span class="codeph"> 설정하면</span>현재 플라이아웃 창에서 볼 수 있는 영역은 .s7highlight <span class="codeph"> 또는</span> .s7cursor <span class="codeph"> CSS 클래스 이름(</span> <span class="codeph"></span> highlightmodeModifier 값에 따라 다름)에 의해 제공되는 스타일을 사용하여 강조 표시됩니다. 1 <span class="codeph"> 구성 요소로 설정하면 현재 표시된 영역이 완전히 투명한 "Inverse</span> " 모드로 전환되거나(이 경우 <span class="codeph"> highlight</span> 가 <span class="codeph"> Highlight로 설정됨), 스타일이 적용된 .CSS 클래스 이름으로</span>강조 <span class="codeph"> 표시됩니다(Case Highlightroom이 Lightroom이 커서로 설정된 경우</span> ) <span class="codeph"></span> <span class="codeph"></span><span class="codeph"></span> . Case Lightroom은 커서로 설정되어 있지만, 주위의 Overlay를 사용하여 .s7Class CLASS를 채웁니다. </p> </td> 
+   <td colname="col2"> <p> 플라이아웃이 활성 상태일 때 기본 보기 강조 표시 모양을 제어합니다. <span class="codeph"> 0</span>으로 설정하면 플라이아웃 창에 현재 표시되는 영역이 <span class="codeph"> .s7highlight</span> 또는 <span class="codeph"> .s7cursor</span> CSS 클래스 이름( <span class="codeph"> highlightmode</span> 수정자 값에 따라)에서 제공하는 스타일을 사용하여 강조 표시됩니다. <span class="codeph"> 1</span> 구성 요소로 설정하면 현재 표시된 영역이 완전히 투명하게(예: <span class="codeph"> highlightmode</span>이(가) <span class="codeph"> highlight</span>로 설정됨) 또는 <span class="codeph"> .s7cursor</span> CSS 클래스 이름(예: <span class="codeph"> hightlightmode</span>가 있음)으로 스타일이 지정된 경우) <span class="codeph"> 커서</span>)로 설정되었지만, 주변 영역은 <span class="codeph"> .s7overlay</span> CSS 클래스 이름으로 제공되는 스타일을 사용하여 채워집니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

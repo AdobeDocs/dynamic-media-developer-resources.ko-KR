@@ -1,6 +1,6 @@
 ---
-description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지와 단색 레이어에 첨부된 마스크에 적용됩니다.
-seo-description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지와 단색 레이어에 첨부된 마스크에 적용됩니다.
+description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지 및 단색 색상 레이어에 첨부된 마스크에 적용됩니다.
+seo-description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지 및 단색 색상 레이어에 첨부된 마스크에 적용됩니다.
 seo-title: 소스 이미지 작업
 solution: Experience Manager
 title: 소스 이미지 작업
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
 
 # 소스 이미지 작업{#source-image-operations}
 
-이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지와 단색 레이어에 첨부된 마스크에 적용됩니다.
+이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지 및 단색 색상 레이어에 첨부된 마스크에 적용됩니다.
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 

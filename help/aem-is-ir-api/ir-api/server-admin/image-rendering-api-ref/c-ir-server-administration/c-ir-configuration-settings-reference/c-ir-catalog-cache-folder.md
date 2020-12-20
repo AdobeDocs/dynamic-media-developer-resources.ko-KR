@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18d400f4-7827-44a1-b09b-2292b97cd6cb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 카탈로그 시스템 캐시에 대한 루트 폴더입니다.
 
-절대 경로이거나 [!DNL]에 상대적인 경로일 수 *[!DNL install_folder]*&#x200B;있습니다. 기본값은 [!DNL ./cache][!DNL *[!DNL install_folder]*/cache]에 해당합니다.
+절대 경로이거나 [!DNL *[!DNL install_folder]*]에 상대적인 경로일 수 있습니다. 기본값은 [!DNL *[!DNL install_folder]*/cache]에 해당하는 [!DNL ./cache]입니다.

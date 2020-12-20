@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d3db8c8b-fcf0-405b-837f-c1a11e4b2f31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '19'
+ht-degree: 36%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 스크롤 막대 사용을 활성화하거나 비활성화합니다. </p> </td> 
+   <td> <p> 스크롤 막대 사용을 활성화 또는 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

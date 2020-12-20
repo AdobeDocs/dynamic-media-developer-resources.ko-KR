@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**입력(set 파섹**
+**입력(setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -45,19 +48,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 회사의 손잡이입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 자산 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4">사용 가능한 상태: 
@@ -67,8 +70,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> contextHandleArray <span class="varname"></span></span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문  </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -81,7 +84,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c31ead6d0e594317a12c120509527792}
 
-이 코드 샘플은 를 사용하여 자산의 게시 상태를 설정합니다 `NotMarkedForPublish`.
+이 코드 샘플은 `NotMarkedForPublish`을 사용하여 자산의 게시 상태를 설정합니다.
 
 **요청**
 

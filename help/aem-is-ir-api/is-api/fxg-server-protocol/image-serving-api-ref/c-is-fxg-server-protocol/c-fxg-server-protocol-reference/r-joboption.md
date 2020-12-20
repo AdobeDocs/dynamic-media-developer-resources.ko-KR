@@ -1,6 +1,6 @@
 ---
-description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
-seo-description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
+description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
+seo-description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
 seo-title: 작업 옵션
 solution: Experience Manager
 title: 작업 옵션
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
 # 작업 옵션{#joboption}
 
-PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
+PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 값</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
   <td class="stentry"> <p>작업 옵션 파일의 IPSID입니다. </p></td> 
  </tr> 
 </table>
@@ -77,7 +80,7 @@ IPS/SPS에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>표준 </p></td> 
-  <td class="stentry"> <p>규정 준수 표준 </p></td> 
+  <td class="stentry"> <p>규정 준수 표준. </p></td> 
  </tr> 
 </table>
 

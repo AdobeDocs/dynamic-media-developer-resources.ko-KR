@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 원본 파일 경로를 가져올 자산의 핸들 배열입니다. |
+| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 가져오려는 원본 파일 경로를 가진 자산의 핸들 배열입니다. |
 
 **출력(getOriginalFilePathsReturn)**
 
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-이 코드 샘플은 자산 핸들 배열에서 고유한 자산 핸들로 지정된 자산의 파일 경로를 반환합니다.
+이 코드 샘플은 자산 핸들 배열에서 고유한 자산 핸들을 사용하여 지정된 자산의 파일 경로를 반환합니다.
 
 **요청**
 

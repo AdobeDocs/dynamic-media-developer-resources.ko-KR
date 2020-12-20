@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 27eb2a48-008b-455e-9a03-41bb4030271b
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 9%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 단계</span></span> </p> </td> 
-   <td colname="col2"> <p> 해상도를 2배로 늘리거나 줄이는 데 필요한 확대 및 축소 동작 수를 구성합니다. 각 확대/축소 작업에 대한 해상도 변경은 단계당 2^1입니다. 단일 확대/축소 동작을 사용하여 전체 해상도로 확대하려면 <span class="codeph"> 0으로</span> 설정합니다. </p> </td> 
+   <td colname="col2"> <p> 해상도를 2배로 늘리거나 줄이는 데 필요한 확대 및 축소 작업 수를 구성합니다. 각 확대/축소 작업에 대한 해상도 변경 사항은 단계당 2^1입니다. 한 번의 확대/축소 작업으로 전체 해상도로 확대하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 제한</span></span> </p> </td> 
-   <td colname="col2"> <p> 전체 해상도 이미지를 기준으로 최대 확대/축소 해상도를 지정합니다. 기본값은 <span class="codeph"> 1.0이며</span>, 전체 해상도를 넘는 확대/축소를 허용하지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 전체 해상도 이미지를 기준으로 최대 확대/축소 해상도를 지정합니다. 기본값은 <span class="codeph"> 1.0</span>입니다. 이 경우 전체 해상도를 넘는 확대/축소를 허용하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

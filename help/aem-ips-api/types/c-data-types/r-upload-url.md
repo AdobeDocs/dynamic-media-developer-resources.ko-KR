@@ -1,6 +1,6 @@
 ---
-description: URL 파섹
-seo-description: URL 파섹
+description: URL을 통해 자산을 업로드하는 경우.
+seo-description: URL을 통해 자산을 업로드하는 경우.
 seo-title: UploadUrl
 solution: Experience Manager
 title: UploadUrl
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 83869ee3-a5bb-4f6f-8b09-6611861ed618
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
 
 # UploadUrl{#uploadurl}
 
-URL 파섹
+URL을 통해 자산을 업로드하는 경우.
 
 구문
 

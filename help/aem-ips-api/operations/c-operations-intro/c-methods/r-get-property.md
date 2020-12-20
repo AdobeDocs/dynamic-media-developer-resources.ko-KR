@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 10%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 * `VideoRootUrl`
 * `swfRootUrl`
 * `SvgRenderRootUrl`:SVG 에셋 렌더링을 위한 URL 접두어.
-* `SvgRenderEnabled`:SVG 에셋을 렌더링할 수 있는 경우 True `SvgRenderRootUrl`입니다.
+* `SvgRenderEnabled`:SVG 에셋을 렌더링할 수 있는 경우 true입니다 `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`:업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]입니다. 시스템이 최대 제한보다 큰 파일을 거부합니다.
+* `UploadPostMaxFileSize`:업로드에 허용되는 파일 데이터의 최대 크기(바이트)입니다 [!DNL POST]. 시스템이 최대 제한보다 큰 파일을 거부합니다.
 
 ## 인증된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
 

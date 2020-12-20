@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9393e197-450a-4b7d-90ad-a6ea0204ee26
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 속성 {#section-e8449b2225294518a5f9ddb698f68360}
 
-텍스트 문자열 값. 카탈로그 폴더에 상대적인 절대 파일 경로 또는 경로입니다.
+텍스트 문자열 값입니다. 카탈로그 폴더를 기준으로 하는 절대 파일 경로 또는 경로입니다.
 
 ## 기본값 {#section-20a9d535d64347abaf0233595b2ad089}
 
-비어 있음 - 이 이미지 카탈로그에 비공개 요청 전처리 규칙이 없음을 나타냅니다.
+비어 있음 - 이 이미지 카탈로그에 비공개 요청 사전 처리 규칙이 없음을 나타냅니다.
 
 ## 참조 {#section-83a41bf1a953429ab6f35249e0e6c27f}
 

@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 11%
 
 ---
 
@@ -42,31 +45,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 이름</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>이미지가 포함된 회사의 핸들 </p> </td> 
+   <td colname="col4"> <p>이미지가 포함된 회사의 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 자산 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>이미지 자산의 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 폴더 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>이미지를 복사할 폴더의 핸들 </p> </td> 
+   <td colname="col4"> <p>이미지를 복사할 폴더에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 이름</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>새 이미지의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> url <span class="varname"> 수정자</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -87,10 +90,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 자산 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>복사한 이미지의 핸들입니다. </p> </td> 
+   <td colname="col4"> <p>복사된 이미지의 핸들입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

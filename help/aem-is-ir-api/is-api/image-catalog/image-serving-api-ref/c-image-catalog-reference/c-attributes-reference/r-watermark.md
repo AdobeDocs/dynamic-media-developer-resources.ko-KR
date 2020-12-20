@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
 
 ## 속성 {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-텍스트 문자열. 지정된 경우 이 이미지 카탈로그의 유효한 `Catalog::Id` 값이어야 합니다(또는 에 지정된 경우 기본 카탈로그의 [!DNL default.ini]값).
+텍스트 문자열. 지정된 경우 이 이미지 카탈로그의 유효한 `Catalog::Id` 값이거나 [!DNL default.ini]에 지정된 경우 기본 카탈로그에 있어야 합니다.
 
 ## 기본값 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-정의되지 `default::Watermark` 않은 경우 상속됩니다. 정의되어 있지만 비어 있으면 이 이미지 카탈로그에 워터마크가 적용되지 않습니다( `default::Watermark` 정의된 경우에도).
+정의되지 않은 경우 `default::Watermark`에서 상속됩니다. `default::Watermark`이(가) 정의되어 있어도 이 이미지 카탈로그에 워터마크가 적용되지 않습니다.
 
 ## 참조 {#section-f15dbe31013849828d78588742dde58e}
 

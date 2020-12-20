@@ -1,13 +1,16 @@
 ---
 description: 모든 회사의 배열을 반환합니다.
 seo-description: 모든 회사의 배열을 반환합니다.
-seo-title: getAllCompanies
+seo-title: getAllCompany
 solution: Experience Manager
-title: getAllCompanies
+title: getAllCompany
 topic: Scene7 Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
@@ -24,21 +27,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 매개 변수 {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**입력(getAllCompaniesParam)**
+**입력(getAllCompanyParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`includeExpired`*` | `xsd:boolean` | 예 | 만료되거나 만료되지 않은 회사를 반품하려면 true로 설정합니다. |
+| ` *`includeExpired`*` | `xsd:boolean` | 예 | 만료되거나 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
 
-**출력(getAllCompaniesReturn)**
+**출력(getAllCompanyReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyArray`*` | `types:CompanyArray` | 예 | 다양한 회사 |
+| ` *`companyArray`*` | `types:CompanyArray` | 예 | 기업 배열입니다. |
 
 ## 예제 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-이 코드 샘플은 IPS에 있는 모든 회사를 배열로 반환합니다. 참고: 샘플 응답은 간결하게 잘립니다.
+이 코드 샘플은 배열에 있는 IPS의 모든 회사를 반환합니다. 참고: 샘플 응답은 간결성에 대해 잘립니다.
 
 **요청**
 

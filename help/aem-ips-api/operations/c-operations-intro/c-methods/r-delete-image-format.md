@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 10%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들입니다. |
 | ` *`imageFormatHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식의 핸들입니다. |
 
 **출력(deleteImageFormatParam)**

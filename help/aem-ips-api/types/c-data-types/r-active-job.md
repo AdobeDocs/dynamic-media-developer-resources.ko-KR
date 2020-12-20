@@ -21,9 +21,9 @@ ht-degree: 1%
 
 작업은 3개 주에 있습니다.
 
-* 실행이 예약되었습니다.
+* 실행되도록 예약되었습니다.
 * 현재 실행 중입니다.
-* 실행을 완료했으며 작업 로그에 정보를 이미 기록했습니다.
+* 실행 완료(및 작업 로그에 이미 정보를 기록함).
 
 작업 유형을 반환할 작업 유형 값을 지정합니다. 다음 작업을 반환할 수 있습니다.
 
@@ -63,7 +63,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3">작업에 제출된 <span class="codeph"> ActiveJob</span> 유형의 원래 이름입니다. </td> 
+   <td colname="col3">작업과 함께 제출된 <span class="codeph"> ActiveJob</span> 유형의 원래 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -83,12 +83,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 로케일</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3">작업 로그 세부 사항 및 이메일 현지화를 위한 로케일입니다. <p>언어 코드가 ISO-639에서 지정한 소문자, 두 문자 코드인 소문자, ISO-3166에서 지정한 대소문자, 두 문자 코드인 경우 <span class="codeph"></span>로케일을 &lt;language_code&gt;[-&lt;country_code&gt;]로 지정합니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. <span class="codeph"> 미국</span>. </p></td> 
+   <td colname="col3">작업 로그 세부 사항 및 이메일 현지화를 위한 로케일입니다. <p>언어 코드가 ISO-639에 지정된 소문자 2자 코드이고, 선택적 국가 코드는 ISO-3166에서 지정한 대소문자 2자 코드인 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>로 로케일을 지정합니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다.<span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3">제출 작업에 원래 지정된 <span class="codeph"> 작업 설명입니다</span>. </td> 
+   <td colname="col3">작업 설명은 원래 <span class="codeph"> submitJob</span>에 지정되었습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -108,17 +108,17 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 진행률</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 작업 진행(즉, 작업이 완료되는 시간). </td> 
+   <td colname="col3"> 작업 진행 상태(즉, 작업이 완료되는 시간). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> 작업 진행 상황을 설명하는 텍스트 메시지입니다. </td> 
+   <td colname="col3"> 작업 진행 상태를 설명하는 텍스트 메시지입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> lastProgressUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> 마지막 진행 상태 업데이트에 대한 날짜, 시간 및 시간대입니다. </td> 
+   <td colname="col3"> 마지막 진행 업데이트에 대한 날짜, 시간 및 시간대. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
@@ -138,21 +138,21 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:VideoPublishJob</span> </td> 
-   <td colname="col3"> 비디오 게시 작업의 작업 세부 정보입니다. </td> 
+   <td colname="col3"> 비디오 게시 작업에 대한 작업 세부 정보입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> 서버 디렉토리 게시 작업의 작업 세부 정보입니다. </td> 
+   <td colname="col3"> 서버 디렉토리 게시 작업에 대한 작업 세부 정보입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UploadUrlJob</span> </td> 
-   <td colname="col3"> 업로드 URL 작업의 작업 세부 정보입니다. </td> 
+   <td colname="col3"> 업로드 URL 작업에 대한 작업 세부 정보입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:RipPdfs작업</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:RipPdfJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -168,12 +168,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UploadPostJob</span> </td> 
-   <td colname="col3"> 작업 세부 사항 추적 데스크톱 업로드입니다. </td> 
+   <td colname="col3"> 데스크톱 업로드를 추적하는 작업 세부 사항. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ExportJob</span> </td> 
-   <td colname="col3">이전에 업로드한 파일의 인증된 내보내기를 허용합니다. 내보내기 작업 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 을 참조하십시오</a>. </td> 
+   <td colname="col3">이전에 업로드한 파일의 허가된 내보내기를 허용합니다. <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>을 참조하십시오. </td> 
   </tr> 
  </tbody> 
 </table>

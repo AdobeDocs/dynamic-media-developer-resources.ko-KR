@@ -1,6 +1,6 @@
 ---
-description: 지정된 회사와 연결된 속성 집합 유형 또는 회사를 지정하지 않은 경우 전역 속성 집합 형식을 가져옵니다.
-seo-description: 지정된 회사와 연결된 속성 집합 유형 또는 회사를 지정하지 않은 경우 전역 속성 집합 형식을 가져옵니다.
+description: 지정된 회사와 연결된 속성 집합 유형이나 회사를 지정하지 않은 경우 전역 속성 집합 유형을 가져옵니다.
+seo-description: 지정된 회사와 연결된 속성 집합 유형이나 회사를 지정하지 않은 경우 전역 속성 집합 유형을 가져옵니다.
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 11%
 
 ---
 
 
 # getPropertySetTypes{#getpropertysettypes}
 
-지정된 회사와 연결된 속성 집합 유형 또는 회사를 지정하지 않은 경우 전역 속성 집합 형식을 가져옵니다.
+지정된 회사와 연결된 속성 집합 유형이나 회사를 지정하지 않은 경우 전역 속성 집합 유형을 가져옵니다.
 
 구문
 
@@ -45,10 +48,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">속성 집합 유형이 연결된 회사에 대한 핸들 <p>전역 속성 집합 유형을 반환하려면 생략하십시오. </p> </td> 
+   <td colname="col4">속성 집합 유형이 연결되어 있는 회사의 핸들입니다. <p>전역 속성 집합 유형을 반환하려면 생략합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +60,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`typeArray`*` | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 형식의 배열이나 회사를 지정하지 않은 경우 전역 속성 집합 형식입니다. |
+| ` *`typeArray`*` | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 유형의 배열이나 회사를 지정하지 않은 경우 글로벌 속성 집합 유형입니다. |
 
 ## 예제 {#section-280c406a90864409856aee44d4069a52}
 

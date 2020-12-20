@@ -1,6 +1,6 @@
 ---
-description: 자산의 확장 가능한 메타데이터 플랫폼 키워드입니다.
-seo-description: 자산의 확장 가능한 메타데이터 플랫폼 키워드입니다.
+description: 자산의 확장 가능한 메타데이터 플랫폼 키워드.
+seo-description: 자산의 확장 가능한 메타데이터 플랫폼 키워드.
 seo-title: XmpKeywords
 solution: Experience Manager
 title: XmpKeywords
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
 
 # XmpKeywords{#xmpkeywords}
 
-자산의 확장 가능한 메타데이터 플랫폼 키워드입니다.
+자산의 확장 가능한 메타데이터 플랫폼 키워드.
 
 구문
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 항목</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 항목</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> <p>dc:subject=XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다 <span class="codeph"></span> . 쉼표가 개별 값에 표시되는 경우 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> dc:subject=</span> XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다. 쉼표가 개별 값에 나타날 경우 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

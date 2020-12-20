@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 438c18d7-e7ac-4834-8445-def590264448
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +25,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 현재 시스템에서 응용 비디오 재생을 지원하지 않는 경우 응용 비디오 세트에서 재생할 원하는 비디오 비트 전송률을 초(kbps)로 지정합니다. </p> <p>구성 요소는 지정된 값에 가장 가까운(하지만 초과하지 않는) 비트 전송률로 비디오 스트림을 선택합니다. 응용 비디오 세트의 모든 비디오 스트림의 품질이 지정된 값보다 높은 경우 논리는 가장 낮은 품질로 비트 전송률을 선택합니다. </p> </td> 
+   <td colname="col2"> <p> 현재 시스템에서 응용 비디오 재생을 지원하지 않는 경우 응용 비디오 세트에서 재생할 원하는 비디오 비트 전송률을 초 단위로 지정합니다. </p> <p>구성 요소는 지정된 값에 가장 가까운(하지만 초과되지 않음) 비트 전송률을 사용하여 비디오 스트림을 선택합니다. 응용 비디오 세트의 모든 비디오 스트림의 품질이 지정된 값보다 높은 경우 논리는 품질이 가장 낮은 비트 전송률을 선택합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

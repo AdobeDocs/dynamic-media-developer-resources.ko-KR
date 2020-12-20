@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
@@ -43,13 +46,13 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경( `#FFFFFF`)을 사용하여 플라이아웃 뷰어를 설정하고 크기를 260 x 500픽셀로 만들려면
+예 - 흰색 배경( `#FFFFFF`)을 사용하여 플라이아웃 뷰어를 설정하고 크기를 260 x 500픽셀로 설정하려면
 
 ```
 .s7flyoutviewer { 

@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ec8a5f86-be10-494e-bc06-5c81520696f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -23,6 +26,6 @@ PDF 파일의 텍스트를 윤곽선으로 변환할 수 있습니다.
  </tr> 
 </table>
 
-URL 명령을 `convertTextToOutlines=1` 사용하여 PDF 파일의 모든 텍스트를 윤곽선으로 표시할 수 있습니다.
+URL 명령 `convertTextToOutlines=1`을 사용하여 PDF 파일의 모든 텍스트를 윤곽선 경로로 변경합니다.
 
-텍스트를 윤곽선으로 변환하는 등 PDF 파일의 텍스트에 효과가 적용되면 최종 렌더링된 이미지가 축소되거나 크기가 &quot;병합&quot;됩니다.
+텍스트를 윤곽선으로 변환하는 등 PDF 파일의 텍스트에 효과가 적용되면 최종 렌더링된 이미지가 축소되거나 크기가 &quot;병합됨&quot;됩니다.

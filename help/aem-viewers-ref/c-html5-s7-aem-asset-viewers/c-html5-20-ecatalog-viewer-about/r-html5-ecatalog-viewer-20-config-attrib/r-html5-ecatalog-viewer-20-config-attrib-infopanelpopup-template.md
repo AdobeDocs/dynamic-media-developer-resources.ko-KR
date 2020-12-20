@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c7063907-78e8-47f8-9424-78ab9d123ad1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 템플릿</span></span> </p> </td> 
-   <td> <p>정보 서버에서 반환된 데이터가 병합되는 컨텐츠 템플릿입니다. </p> <p>컨텐츠 템플릿은 이 DTD 다음에 나오는 XML입니다. </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>정보 서버에서 반환된 데이터가 병합되는 콘텐츠 템플릿입니다. </p> <p>컨텐츠 템플릿은 이 DTD 다음에 나오는 XML입니다. </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
@@ -29,14 +32,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
       ]&gt;</code> </p> <p>컨텐츠 템플릿의 실제 구문은 다음과 같습니다. </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
-      &lt;/info&gt;</code> </p> <p>즉, 템플릿은 선택적 기본값 <span class="codeph"> &lt;var&gt;</span> 요소를 포함할 수 있는 <span class="codeph"> &lt;info&gt;</span> 요소로 시작해야 합니다. 템플릿 컨텐츠 자체인 TEMPLATE_ <span class="codeph"> CONTENT는</span> HTML 텍스트입니다. 또한 컨텐츠 템플릿에는 <span class="codeph"> $</span> 문자로 둘러싸인 변수 이름이 포함되며, 이 이름은 정보 서버가 반환하거나 기본 값으로 대체됩니다. </p> <p>템플릿에 정의된 기본 변수는 global(rollover 속성이 설정되지 않은 경우) 또는 특정 롤오버 키(rollover 속성이 있는 경우)에 특정할 수 있습니다. </p> <p>보다 롤오버하는 특정 템플릿 처리 변수는 전역 변수보다 우선합니다. </p> </td> 
+      &lt;/info&gt;</code> </p> <p>즉, 템플릿은 선택적 기본 <span class="codeph"> &lt;var&gt;</span> 요소를 포함할 수 있는 <span class="codeph"> &lt;info&gt;</span> 요소로 시작해야 합니다. 템플릿 내용 자체인 <span class="codeph"> TEMPLATE_CONTENT</span>은(는) HTML 텍스트입니다. 또한 컨텐츠 템플릿에는 정보 서버가 반환하는 변수 값 또는 기본 값으로 대체되는 <span class="codeph"> $</span> 문자로 둘러싸인 변수 이름이 포함될 수 있습니다. </p> <p>템플릿에 정의된 기본 변수는 global(rollover 속성이 설정되지 않은 경우) 또는 특정 롤오버 키(rollover 속성이 있는 경우)에만 적용될 수 있습니다. </p> <p>키보다 롤오버하는 특정 템플릿 처리 변수는 글로벌 변수보다 우선합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->정보 패널 팝업을 구성할 때 정보 패널에 전달된 HTML 코드 및 JavaScript 코드가 클라이언트의 컴퓨터에서 실행된다는 점에 유의하십시오. 따라서 이러한 HTML 코드와 JavaScript 코드가 안전한지 확인하십시오.
+>정보 패널 팝업을 구성할 때 정보 패널에 전달되는 HTML 코드 및 JavaScript 코드는 클라이언트의 컴퓨터에서 실행됩니다. 따라서 이러한 HTML 코드와 JavaScript 코드가 안전한지 확인하십시오.
 
 ## 속성 {#section-6dd7785357d740d095fa9f7fd0f67da4}
 
@@ -48,6 +51,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예 {#section-16d184665c484964af9a22f79ff3f840}
 
-정보 서버 응답이 제품 이름을 변수로 `$1$` 반환하고 제품 이미지 URL이 변수로 반환된다고 가정하고 `$2$`있습니다.
+정보 서버 응답이 제품 이름을 `$1$` 변수로 반환하고 제품 이미지 URL이 `$2$` 변수로 반환된다고 가정할 때
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`

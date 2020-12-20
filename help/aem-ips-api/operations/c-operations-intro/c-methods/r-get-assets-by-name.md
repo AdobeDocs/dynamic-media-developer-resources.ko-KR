@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e86b3b16-ad93-4f70-9f59-b72395513c4c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 10%
 
 ---
 
@@ -48,61 +51,61 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 회사의 손잡이입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 액세스 <span class="varname"> UserHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 다른 사용자로 액세스를 제공합니다. 관리자만 사용할 수 있습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 액세스 <span class="varname"> 그룹</span> 핸들 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 특정 그룹별로 필터링하는 데 사용됩니다. </td> 
+   <td colname="col4"> 특정 그룹으로 필터링하는 데 사용됩니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> name <span class="varname"> Array</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nameArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 검색할 자산 이름의 배열입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 검색된 자산에 대해 허용되는 자산 유형 배열. </td> 
+   <td colname="col4"> 검색된 자산에 대해 허용되는 자산 유형의 배열입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> excludeAssetTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 검색된 자산에 대해 제외된 자산 유형 배열. </td> 
+   <td colname="col4"> 검색된 자산에 대해 제외된 자산 유형 배열입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetSubTypeArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 검색된 자산에 대해 허용되는 자산 하위 유형 배열. </td> 
+   <td colname="col4"> 검색된 자산에 대해 허용되는 자산 하위 유형 배열입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> strict <span class="varname"> SubTypeCheck</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>true <span class="codeph"> 및</span> assetSubTypeArray가 <span class="codeph"> 비어 있지 않으면 하위 유형이 assetSubTypeArray에 있는</span> 자산만 <span class="codeph"></span> 반환됩니다. </p> <p>false <span class="codeph"> 이면</span>정의된 하위 유형이 없는 자산이 포함됩니다. </p> <p>The default value is <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> true</span> 및 <span class="codeph"> assetSubTypeArray</span>이(가) 비어 있지 않으면 하위 유형이 <span class="codeph"> assetSubTypeArray</span>에 있는 자산만 반환됩니다. </p> <p><span class="codeph"> false</span>이면 정의된 하위 유형이 없는 자산이 포함됩니다. </p> <p>기본값은 <span class="codeph"> false</span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 응답 <span class="varname"> FieldArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 응답에 포함된 필드 및 하위 필드 목록을 포함합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> excludeFieldArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 응답에서 제외된 필드 및 하위 필드 목록을 포함합니다. </td> 
@@ -118,7 +121,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 
-이 코드 샘플은 두 개의 이미지 유형 자산을 반환합니다.
+이 코드 샘플은 2개의 이미지 유형 에셋을 반환합니다.
 
 **요청**
 

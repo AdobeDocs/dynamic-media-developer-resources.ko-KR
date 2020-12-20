@@ -1,6 +1,6 @@
 ---
-description: 뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
-seo-description: 뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+seo-description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 seo-title: 핫스팟 및 이미지 맵
 solution: Experience Manager
 title: 핫스팟 및 이미지 맵
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
 
 # 핫스팟 및 이미지 맵{#hotspots-and-image-maps}
 
-뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>핫스팟 아이콘 아트워크. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>핫스팟 아이콘 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -83,16 +86,16 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색상 </p> <p>#RGGBB, <span class="codeph"> RGB(R,G,B) </span>또는 <span class="codeph"> RGBA(R,G,B,A) </span><span class="codeph"> </span> 포맷으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경  </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색상입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색상 </p> <p>#RGGBB, <span class="codeph"> RGB(R,G,B) </span>또는 <span class="codeph"> RGBA(R,G,B,A) </span><span class="codeph"> </span> 포맷으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색상입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. "폭 <span class="codeph"> "으로 지정해야 합니다. 여기서 </span> 색상이 표현되는 색상은 #RRBB, RGB(R, G, B), RGBA 또는 RGBA(R, G, B, A)로 설정되어 <span class="codeph"> 있고 </span><span class="codeph"> </span> <span class="codeph"> </span> <span class="codeph"> </span><span class="codeph"> </span><span class="codeph"> </span>색상은 #RBB, RGB(R, G B, A)로 설정됩니다. </p> </td> 
+   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. <span class="codeph"> 너비 </span> <span class="codeph"> 단색 </span>"으로 지정해야 합니다. 여기서 <span class="codeph"> 너비 </span>은 픽셀로 표현되며 <span class="codeph"> 색상 </span>은 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a11 1/&gt; 또는 <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

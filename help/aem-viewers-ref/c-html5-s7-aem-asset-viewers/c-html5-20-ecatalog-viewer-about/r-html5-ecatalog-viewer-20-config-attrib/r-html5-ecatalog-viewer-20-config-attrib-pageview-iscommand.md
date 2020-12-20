@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6c853c6a-a57d-4cab-ad71-74baf9e870d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 페이지 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 &amp; <span class="codeph"></span><span class="codeph"> 및</span> =의 모든 항목은 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>,각각 HTTP로 인코딩되어야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 페이지 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP로 인코딩되어야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예 {#section-813de2905d6c44c0991cfe0931581462}
 
-뷰어 URL 파섹
+뷰어 URL에 지정된 경우.
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 

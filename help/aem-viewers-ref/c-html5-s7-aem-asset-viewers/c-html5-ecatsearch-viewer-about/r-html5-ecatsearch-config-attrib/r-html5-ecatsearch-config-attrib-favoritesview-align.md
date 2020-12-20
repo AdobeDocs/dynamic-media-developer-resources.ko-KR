@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 4ff25cb3-3383-4ef2-90db-660fa774e109
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 왼쪽|가운데|오른쪽,위쪽|가운데|아래쪽</span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 수평 정렬 또는 고정을 지정합니다. </p> <p>Favoriteview에서 내부 축소판 컨테이너의 크기는 전체 수의 축소판만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. </p> <p>이 수정자는 내부 축소판 컨테이너가 구성 요소 내에서 가로로 위치하는 방식을 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 가로 정렬 또는 정박 지정을 지정합니다. </p> <p>FavoritesView에서 내부 축소판 컨테이너의 크기는 전체 축소판 수만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. </p> <p>이 수정자는 구성 요소 내에서 내부 축소판 컨테이너가 수평으로 위치하는 방식을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

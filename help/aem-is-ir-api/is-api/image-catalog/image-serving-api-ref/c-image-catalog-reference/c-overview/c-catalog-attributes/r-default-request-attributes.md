@@ -1,6 +1,6 @@
 ---
-description: 카탈로그 속성 파일은 이러한 기본 요청 속성을 인식합니다.
-seo-description: 카탈로그 속성 파일은 이러한 기본 요청 속성을 인식합니다.
+description: 카탈로그 속성 파일은 이러한 기본 요청 특성을 인식합니다.
+seo-description: 카탈로그 속성 파일은 이러한 기본 요청 특성을 인식합니다.
 seo-title: 기본 요청 속성
 solution: Experience Manager
 title: 기본 요청 속성
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
 
-# Default request attributes{#default-request-attributes}
+# 기본 요청 특성{#default-request-attributes}
 
-카탈로그 속성 파일은 이러한 기본 요청 속성을 인식합니다.
+카탈로그 속성 파일은 이러한 기본 요청 특성을 인식합니다.
 
 <table id="table_129CE5F9711F44D2A90ADADF5EDC3BE4"> 
  <tbody> 
@@ -48,10 +51,10 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 리샘플링 모드. </p> </td> 
+   <td colname="col2"> <p> 기본 리샘플링 모드입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> 기본 로케일</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> DefaultLocale</a></span> </p> </td> 
    <td colname="col2"> <p> 기본 로케일 ID. </p> </td> 
   </tr> 
  </tbody> 

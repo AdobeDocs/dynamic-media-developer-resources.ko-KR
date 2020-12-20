@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -30,8 +33,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 태그 필드를 포함하는 회사의 핸들 |
-| ` *`fieldHandle`*` | `xsd:string` | 예 | 수정할 태그 필드의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 태그 필드를 포함하는 회사의 핸들입니다. |
+| ` *`fieldHandle`*` | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
 | ` *`valueArray`*` | `xsd:string` | 예 | 필드의 기존 사전에 추가할 태그 값의 배열입니다. |
 
 **출력(addTagFieldValuesParam)**

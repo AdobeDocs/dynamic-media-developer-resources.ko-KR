@@ -1,6 +1,6 @@
 ---
-description: 기존 자산 세트에 대한 설정 정의를 업데이트합니다.
-seo-description: 기존 자산 세트에 대한 설정 정의를 업데이트합니다.
+description: 기존 자산 집합에 대한 세트 정의를 업데이트합니다.
+seo-description: 기존 자산 집합에 대한 세트 정의를 업데이트합니다.
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-기존 자산 세트에 대한 설정 정의를 업데이트합니다.
+기존 자산 집합에 대한 세트 정의를 업데이트합니다.
 
 구문
 
-## 공인 사용자 유형 {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## 인증된 사용자 유형 {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,46 +42,46 @@ ht-degree: 6%
 
 **출력(setAssetSetDefinitionReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
-## setDefinition 매개 변수: 정보 {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## setDefinition 매개 변수:{#section-f88e066bf5294b4f8c12d5d652a5c94c} 정보
 
 **setDefinition 함수**
 
-대체 `setDefinition` 함수를 온라인으로 지정합니다. 이러한 문제는 카탈로그 조회 또는 게시 중에 해결됩니다. 대체 문자열에는 형식 `${<substitution_func>}`이 있으며 다음을 포함합니다.
+`setDefinition` 대체 함수를 인라인 형식으로 지정합니다. 이러한 문제는 카탈로그 조회 또는 게시 중에 해결됩니다. 대체 문자열에는 `${<substitution_func>}` 형식이 있으며 다음을 포함합니다.
 
 >[!NOTE]
 >
->매개 변수 목록의 핸들 리터럴은 대괄호로 둘러싸야 합니다 `([])`. 대체 문자열 외부의 텍스트는 해상도 동안 출력 문자열에 복사됩니다.
+>매개 변수 목록의 핸들 리터럴은 대괄호 `([])`로 둘러싸야 합니다. 대체 문자열 외부의 텍스트는 해상도 동안 출력 문자열에 복사됩니다.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 대체 함수 </th> 
-   <th colname="col2" class="entry"> 자산 </th> 
+   <th colname="col2" class="entry"> 자산의 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 기본 파일 경로입니다. </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col2"> 기본 파일 경로. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalygd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalygd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> 카탈로그 ID. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> 메타데이터 값. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> 카탈로그 ID. 이미지 기반 자산(이미지, 조정된 보기, 레이어 보기)에 적용됩니다. <p>다른 자산의 경우 thumb 자산의 카탈로그 ID(있는 경우)를 반환합니다. 엄지 자산이 자산과 연결되어 있지 않으면 함수는 빈 문자열을 반환합니다. </p> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col2"> 카탈로그 ID. 이미지 기반 자산(이미지, 조정된 보기, 레이어 보기)에 적용됩니다. <p>다른 자산에 대해서는 thumb 자산의 카탈로그 ID(있는 경우)를 반환합니다. 축소판 자산이 자산과 연결되어 있지 않으면 이 함수는 빈 문자열을 반환합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**setDefinition 예제**
+**setDefinition 예**
 
 이 미디어 집합 정의 문자열:
 
@@ -91,7 +91,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-조회 또는 게시 시간에 다음 문제를 해결합니다.
+조회 또는 게시 시간에 다음 사항을 해결합니다.
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 

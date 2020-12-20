@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: eda844e5-8ad2-4617-b38a-da0f7e981f68
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 뷰어에서 비디오 재생 완료 시 "클릭유도문안" 패널을 표시할지 여부를 나타냅니다. </p> </td> 
+   <td colname="col2"> <p> 비디오 재생 완료 시 뷰어에 "클릭유도문안" 패널을 표시하는지 여부를 나타냅니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

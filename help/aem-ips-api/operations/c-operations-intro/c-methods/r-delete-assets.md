@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 구문
 
-## 인증된 사용자 유형 {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 허가된 사용자 유형 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -42,14 +45,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>자산이 속한 회사의 핸들. </p> </td> 
+   <td colname="col4"> <p>자산이 속하는 회사의 취급자. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> assetHandleArray <span class="varname"></span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 유형:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>삭제할 자산의 배열입니다. </p> </td> 
   </tr> 
@@ -69,41 +72,41 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 성공</span> 수 </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>성공적으로 삭제된 자산의 수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 경고</span> 수 </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>작업이 경고를 삭제하려고 할 때 경고를 생성한 자산입니다. </p> </td> 
+   <td colname="col4"> <p>작업을 삭제할 때 경고를 생성한 자산입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> error <span class="varname"> Count</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 경고 <span class="varname"> DetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>작업이 경고를 생성했던 자산과 연결된 세부 사항의 배열입니다. </p> </td> 
+   <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 경고를 생성한 에셋과 연결된 세부 사항의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> error <span class="varname"> DetailArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>작업이 오류를 삭제하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. </p> </td> 
+   <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋과 연결된 세부 사항의 배열입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 예제 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-이 코드 샘플은 웹 서비스 서버에 대한 `deleteAssetsParam` 요청에서 회사와 자산 핸들의 배열을 전송합니다. `deleteAssetsReturn` 두 자산이 모두 삭제되었음을 나타내는 성공 수 2를 반환합니다.
+이 코드 샘플은 `deleteAssetsParam` 요청에서 회사에 핸들을 보내고 에셋 핸들 배열을 웹 서비스 서버로 보냅니다. `deleteAssetsReturn` 두 자산이 모두 삭제되었음을 나타내는 성공 카운트 2를 반환합니다.
 
 **요청**
 

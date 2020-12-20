@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5fef90d1-0507-497b-9187-869672996852
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 1%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
-  <td class="stentry"> <p>주 효과 색상 및 불투명도를 지정합니다. </p></td> 
+  <td class="stentry"> <p>기본 효과 색상 및 불투명도를 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135" type="reference" format="dita" scope="local"> 효과</a> </p></td> 
-  <td class="stentry"> <p>효과 레이어 세그먼트를 시작하고 z 순서를 지정합니다. </p></td> 
+  <td class="stentry"> <p>효과 레이어 세그먼트를 시작하고 z-순서를 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464" type="reference" format="dita" scope="local"> maskUse</a> </p></td> 
@@ -50,7 +53,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
   <td class="stentry"> <p>레이어 불투명도를 줄입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> pos</a> </p></td> 
-  <td class="stentry"> <p>효과 레이어를 상위 레이어를 기준으로 배치합니다. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> 오퍼</a> </p></td> 
+  <td class="stentry"> <p>효과 레이어를 부모 레이어를 기준으로 배치합니다. </p></td> 
  </tr> 
 </table>

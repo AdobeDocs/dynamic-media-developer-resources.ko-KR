@@ -1,6 +1,6 @@
 ---
-description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
-seo-description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
+seo-description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
 seo-title: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 58da2850-4abe-4d24-af30-0e79d9c904e9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
 
-# Close button{#close-button}
+# 닫기 단추{#close-button}
 
-이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -36,19 +39,19 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p>패딩을 포함하여 위쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>패딩과 같이 위쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p>패딩 등 오른쪽 테두리에서 위치를 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>패딩과 같이 오른쪽 테두리에서 위치를 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p>패딩 등 왼쪽 테두리에서 위치를 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>패딩과 같이 왼쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>패딩을 포함하여 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>패딩과 같이 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -59,23 +62,23 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 사용자 [인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 32 x 32픽셀인 닫기 단추를 설정하고 뷰어 위쪽 및 오른쪽 가장자리에서 6픽셀을 배치하고 서로 다른 네 가지 단추 상태에 대해 서로 다른 이미지를 표시합니다.
+예 - 32 x 32픽셀인 닫기 단추를 설정하고 뷰어 위쪽 및 오른쪽 가장자리에서 6픽셀을 배치하여 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7zoomviewer .s7closebutton { 

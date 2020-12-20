@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 자산을 처리합니다. |
 
 **출력(getViewerConfigSettingsReturn)**

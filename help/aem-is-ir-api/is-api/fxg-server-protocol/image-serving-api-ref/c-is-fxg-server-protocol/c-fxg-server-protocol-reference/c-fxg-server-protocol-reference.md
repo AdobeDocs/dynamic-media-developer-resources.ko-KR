@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 
 이 문서에서는 FXG 서버 프로토콜 및 해당 구문에 대한 정보를 제공합니다.
 
-* [표백률](r-bleedmargin.md)
+* [표백표](r-bleedmargin.md)
 * [캐시](r-is-fxg-cache.md)
 * [convertTextToOutlines](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)

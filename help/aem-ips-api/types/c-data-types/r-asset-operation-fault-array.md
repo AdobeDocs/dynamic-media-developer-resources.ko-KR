@@ -1,6 +1,6 @@
 ---
-description: 자산 작업 장애 배열입니다.
-seo-description: 자산 작업 장애 배열입니다.
+description: 자산 작업 오류가 발생한 배열입니다.
+seo-description: 자산 작업 오류가 발생한 배열입니다.
 seo-title: AssetOperationFaultArray
 solution: Experience Manager
 title: AssetOperationFaultArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 78a77da2-2d0e-40d2-916f-28db0dd68154
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
-자산 작업 장애 배열입니다.
+자산 작업 오류가 발생한 배열입니다.
 
 구문
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`항목`*` | `types:AssetOperationFault` | 자산 작업 장애 항목의 배열입니다. |
+| ` *`항목`*` | `types:AssetOperationFault` | 자산 작업 오류 항목의 배열입니다. |
 

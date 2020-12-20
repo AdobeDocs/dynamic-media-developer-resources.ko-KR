@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d6e1542d-83a2-4b25-a986-2465e9e5a145
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 21%
 
 ---
 
@@ -36,11 +39,11 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | 예 | 그룹 배열. |
+| ` *`groupArray`*` | `types:GroupArray` | 예 | 그룹 배열입니다. |
 
 ## 예제 {#section-ed0708f611574354bf0c6ea83912b531}
 
-이 코드는 특정 회사에 속하는 모든 그룹과 각 그룹에 대한 특정 정보가 포함된 배열을 반환합니다.
+이 코드는 특정 회사에 속하는 모든 그룹과 각 그룹에 대한 특정 정보를 포함하는 배열을 반환합니다.
 
 **요청**
 

@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 9%
 
 ---
 
@@ -34,13 +37,13 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
 * [설정](r-set.md)
 * [목표](r-targets.md)
 * [tmb](r-tmb.md)
-* [사용자 데이터](r-userdata.md)
+* [userdata](r-userdata.md)
 * [유효성 확인](r-is-http-validate.md)
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-자세한 설명에 별도로 명시되지 않는 한, 서버는 MIME 유형의 `text` 응답을 반환합니다 `text/plain`. 많은 요청 유형을 사용하여 일반적으로 기본값, `text``javascript`또는 `xml``json`같은 응답 유형을 지정할 수 있습니다. 연결된 응답 MIME 유형은 `text/plain`각각 `text/javascript`, `text/xml`및 `text/javascript`입니다.
+자세한 설명에 달리 명시되어 있지 않는 한, 서버는 MIME 유형이 `text/plain`인 `text` 응답을 반환합니다. 많은 요청 유형을 사용하여 일반적으로 기본값인 `text`, `xml` 또는 `json`과 같은 응답 유형을 지정할 수 있습니다. `javascript` 연결된 응답 MIME 유형은 각각 `text/plain`, `text/javascript`, `text/xml` 및 `text/javascript`입니다.
 
-별도로 언급되지 않는 한 응답은 `name=value` 쌍 세트로 형식을 지정합니다.
+별도의 언급이 없는 한 응답은 응답의 형식을 `name=value` 쌍 집합으로 지정합니다.
 
-속성을 [참조하십시오](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).
+[속성](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9)을 참조하십시오.

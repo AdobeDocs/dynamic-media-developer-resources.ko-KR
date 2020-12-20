@@ -1,6 +1,6 @@
 ---
-description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 뷰어에 대해 정보 패널 기능이 올바르게 구성된 경우 [정보 패널 팝업]이 뷰어 영역 가운데에 표시됩니다.
-seo-description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 뷰어에 대해 정보 패널 기능이 올바르게 구성된 경우 [정보 패널 팝업]이 뷰어 영역 가운데에 표시됩니다.
+description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
+seo-description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
 seo-title: 정보 패널 팝업
 solution: Experience Manager
 title: 정보 패널 팝업
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 2%
 
 ---
 
 
 # 정보 패널 팝업{#info-panel-popup}
 
-사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 뷰어에 대해 정보 패널 기능이 올바르게 구성된 경우 [정보 패널 팝업]이 뷰어 영역 가운데에 표시됩니다.
+사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
 
 정보 패널 배경은 전체 뷰어 영역을 포함하며 다음 CSS 클래스 선택기로 제어됩니다.
 
@@ -29,17 +32,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>정보 패널 배경 채우기 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>정보 패널 배경 채우기. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 반투명 검은색 배경을 사용하도록 정보 패널 팝업을 설정합니다.
+예 - 반투명 검정 배경을 사용하도록 정보 패널 팝업을 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay { 
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 }
 ```
 
-정보 패널 대화 상자는 기본적으로 뷰어 영역 중앙에 표시됩니다. 그러나 CSS 클래스 선택기를 사용하여 크기, 정렬, 배경 및 테두리를 제어할 수 있습니다.
+[정보] 패널 대화 상자는 기본적으로 뷰어 영역 중앙에 표시됩니다. 그러나 CSS 클래스 선택기를 사용하여 크기, 정렬, 배경 및 테두리를 제어할 수 있습니다.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
@@ -73,14 +76,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자 높이입니다. </p> </td> 
+   <td colname="col2"> <p>대화 상자 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
    <td colname="col2"> <p>정보 패널 대화 상자의 왼쪽 여백을 가운데 맞추기 위해 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 위쪽 여백  </span> </p> </td> 
    <td colname="col2"> <p>정보 패널 대화 상자의 위쪽 여백을 가운데 맞추기 위해 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -88,21 +91,21 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p>내부 대화 상자 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>대화 상자 배경색. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>대화 상자 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상자 그림자  </span> </p> </td> 
    <td colname="col2"> <p>대화 상자 그림자. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 뷰어 영역 가운데에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다.의 위쪽에는 40픽셀 패딩이 있고 다른 모든 면에 10픽셀 패딩, 밝은 회색 배경, 10픽셀 테두리 반경 및 그림자가 있습니다.
+예 - 뷰어 영역 중앙에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다.위쪽에는 40픽셀의 패딩이 있고 다른 모든 면에서 패딩이 10픽셀이며 밝은 회색 배경이 있고 10픽셀의 테두리 반경 및 그림자가 있습니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -142,7 +145,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자의 오른쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>대화 상자의 오른쪽 테두리에서 배치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
@@ -153,31 +156,31 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
    <td colname="col2"> <p>대화 상자의 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하면 다른 단추 상태에 다른 스킨을 적용할 수 있습니다.
+>이 단추는 `state` 속성 선택기를 지원하므로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
 
-예 - 28 x 28픽셀인 대화 상자 닫기 단추를 설정하고 정보 패널 대화 상자의 위쪽 및 오른쪽 가장자리에서 5픽셀을 배치하고 서로 다른 네 개의 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀인 대화 상자 닫기 단추를 설정하고, 정보 패널 대화 상자의 위쪽 및 오른쪽 가장자리에서 5픽셀을 배치하며, 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 

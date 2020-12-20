@@ -1,6 +1,6 @@
 ---
-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해서는 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
-seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해서는 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
+description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
+seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
 seo-title: 공통 레이어 명령
 solution: Experience Manager
 title: 공통 레이어 명령
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
 # 공통 레이어 명령{#common-layer-commands}
 
-이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해서는 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
+이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
@@ -27,7 +30,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> extend</a> </p></td> 
-  <td class="stentry"> <p>레이어 사각형을 확장(또는 자르기)합니다. </p></td> 
+  <td class="stentry"> <p>레이어 사각형을 확장하거나 잘라냅니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
@@ -50,7 +53,7 @@ source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
   <td class="stentry"> <p>레이어 원점을 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> pos</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> 오퍼</a> </p></td> 
   <td class="stentry"> <p>레이어 0을 기준으로 레이어를 배치합니다. </p></td> 
  </tr> 
  <tr class="strow"> 

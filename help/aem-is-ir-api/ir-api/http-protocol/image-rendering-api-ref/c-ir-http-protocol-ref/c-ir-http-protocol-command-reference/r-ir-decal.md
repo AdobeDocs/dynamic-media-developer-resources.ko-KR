@@ -1,6 +1,6 @@
 ---
-description: 십자 질감 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(자재 사양 세그먼트)를 시작합니다.
-seo-description: 십자 질감 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(자재 사양 세그먼트)를 시작합니다.
+description: 디캘러 재질 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(Material Specification Segment)를 시작합니다.
+seo-description: 디캘러 재질 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(Material Specification Segment)를 시작합니다.
 seo-title: 십자
 solution: Experience Manager
 title: 십자
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
-# decal{#decal}
+# decar{#decal}
 
-십자 질감 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(자재 사양 세그먼트)를 시작합니다.
+디캘러 재질 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(Material Specification Segment)를 시작합니다.
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
   <td class="stentry"> <p>무시됨. </p> </td> 
  </tr> 
 </table>

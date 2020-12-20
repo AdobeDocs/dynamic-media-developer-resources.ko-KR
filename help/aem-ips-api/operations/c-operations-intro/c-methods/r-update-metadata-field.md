@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 12%
 
 ---
 
@@ -39,31 +42,31 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 회사 핸들 </td> 
+   <td colname="col4"> 회사 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 메타데이터 필드 핸들입니다. </td> 
+   <td colname="col4"> 메타데이터 필드 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 메타데이터 필드 이름. </td> 
+   <td colname="col4"> 메타데이터 필드 이름입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> defaultValue <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 메타데이터 필드 값. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 숨김</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> IPS 시스템별 메타데이터를 숨기거나 표시합니다. </td> 
@@ -72,13 +75,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제(유효성 검사)되는지 여부를 나타내는 부울 플래그. </p> <p>true로 설정된 경우 setAssetMetadata /batchSetAssetMetadata에 잘못된 값이 설정되어 있으면 <span class="codeph"> 오류가</span> 발생합니다<span class="codeph"></span>. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제(유효성이 확인됨)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 선택한 태그가 가리킬 수 있는 열거형 공유 값 집합을 만들 수 있습니다. </td> 
+   <td colname="col4"> 선택한 태그가 가리킬 수 있는 열거된 공유 값 세트를 만들 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +90,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`fieldHandle`*` | `xsd:string` | 예 | 메타데이터 필드 핸들입니다. |
+| ` *`fieldHandle`*` | `xsd:string` | 예 | 메타데이터 필드 핸들. |
 
 ## 예제 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 

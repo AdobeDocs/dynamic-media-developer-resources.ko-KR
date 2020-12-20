@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 3%
 
 ---
 
 
-# 속성 참조{#attributes-reference}
+# 특성 참조{#attributes-reference}
 
 카탈로그::RootId를 제외한 모든 카탈로그 속성은 선택 사항입니다.
 
@@ -32,7 +35,7 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 * [DefaultFont](r-defaultfont.md)
 * [DefaultImage](r-is-cat-defaultimage.md)
 * [DefaultImageMode](r-defaultimagemode.md)
-* [기본 로케일](r-defaultlocale.md)
+* [DefaultLocale](r-defaultlocale.md)
 * [DefaultPix](r-defaultpix.md)
 * [DefaultThumbPix](r-defaultthumbpix.md)
 * [DigimarcId](r-digimarcid.md)
@@ -66,15 +69,15 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 * [RequestObfuscation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [해상도](r-resolution.md)
-* [RootId](r-rootid.md)
+* [루트 ID](r-rootid.md)
 * [루트 경로](r-rootpath.md)
-* [RootUrl](r-rooturl.md)
+* [루트 URL](r-rooturl.md)
 * [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SynthizeFontStyles](r-synthesizefontstyles.md)
+* [SyncizeFontStyles](r-synthesizefontstyles.md)
 * [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)

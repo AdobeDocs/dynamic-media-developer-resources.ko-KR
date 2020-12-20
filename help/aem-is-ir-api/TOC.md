@@ -2,8 +2,8 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: 다이내믹 미디어 이미지 제공 및 렌더링 API
-breadcrumb-title: 다이내믹 미디어 이미지 제공 및 렌더링 API
+user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
+breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
 translation-type: tm+mt
 source-git-commit: 901f0c3986715279e0c696db93be2048343d2bc5
 workflow-type: tm+mt
@@ -13,10 +13,10 @@ ht-degree: 10%
 ---
 
 
-# 다이내믹 미디어 이미지 제공 및 렌더링 API {#image-serving-api}
+# Dynamic Media 이미지 제공 및 렌더링 API {#image-serving-api}
 
 + [Dynamic Media 개발자 리소스 홈](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [다이내믹 미디어 이미지 제공 및 이미지 렌더링 API 홈](home.md)
++ [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](home.md)
 + [이 릴리스 정보](r-about-this-release.md)
 + [시스템 요구 사항 및 필수 조건](r-requirements-and-prerequisites.md)
 + [디스크 공간 요구 사항 및 권장 사항](r-disk-space-reqs.md)
@@ -27,20 +27,20 @@ ht-degree: 10%
    + [설치 개요](c-installation/c-installation.md)
    + [라이선스](c-installation/c-licensing.md)
    + [목차](c-installation/c-contents.md)
-   + [설치 폴더](c-installation/c-install-folder.md)
-   + Windows에서 설치 {#windows-install}
+   + [폴더 설치](c-installation/c-install-folder.md)
+   + Windows {#windows-install}에 설치
       + [Windows에서 설치](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [처음 설치](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [관리자가 아닌 다른 사용자 계정으로 설치](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/t-installing-on-windows/t-update-win.md)
       + [설치 확인](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Linux에서 설치 {#linux-install}
+   + Linux {#linux-install}에 설치
       + [Linux에서 설치](c-installation/c-installing-linux/c-installing-linux.md)
       + [처음 설치](c-installation/c-installing-linux/t-first-install-lin.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/c-installing-linux/t-update-lin.md)
       + [설치 확인](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 이미지 서비스 시작 및 중지 {#start-stop-image-servicing}
-      + [이미지 서비스 시작 및 중지](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
+   + {#start-stop-image-servicing} 이미지 제공 시작 및 중지
+      + [이미지 제공 시작 및 중지](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Windows에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Linux에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-linux.md)
 + 이미지 제공 API {#image-serving-api}
@@ -73,7 +73,7 @@ ht-degree: 10%
          + [SSL](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-ssl.md)
          + [서버](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-server-settings.md)
          + [액세스 로깅](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md)
-         + [Debug_trace 로깅](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md)
+         + [디버그_추적 로깅](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md)
          + [오류 리디렉션](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-error-redirection.md)
          + [캐시 클러스터링](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md)
          + [모니터링 및 경고 시스템](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-monitoring-and-alerting-system.md)
@@ -114,7 +114,7 @@ ht-degree: 10%
          + 이미지 제공 HTTP 프로토콜 명령 {#image-serving-http}
             + [이미지 제공 HTTP 프로토콜 명령 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/c-command-overview.md)
             + [요청 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-request-commands-and-attributes.md)
-            + [명령 보기](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
+            + [보기 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md)
             + [일반적인 작업](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-operations-and-attributes.md)
             + [소스 이미지 작업](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-source-image-operations-and-attributes.md)
             + [공통 레이어 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-common-layer-commands-and-attributes.md)
@@ -123,7 +123,7 @@ ht-degree: 10%
             + [단색 레이어 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
             + [레이어 효과 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-layer-effect-commands-and-attributes.md)
          + 계층화 {#layering}
-            + [레이어링 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
+            + [레이어 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
             + [레이어 지정](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-specifying-layers.md)
             + [레이어 순서](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
             + [레이어 유형](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-types.md)
@@ -138,7 +138,7 @@ ht-degree: 10%
          + [개체 ID 변환](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md)
          + [텍스트 문자열 현지화](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)
          + [SVG 지원](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-svg-support.md)
-         + [요청 사전 처리](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md)
+         + [사전 처리 요청](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md)
          + [이미지 맵](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md)
          + [이미지 제공 색상 관리](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md)
          + [이미지 제공 HTTP 인코딩](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md)
@@ -160,14 +160,14 @@ ht-degree: 10%
             + [문서(텍스트 상자) 속성](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-document-text-box-properties.md)
             + [단락 서식](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-paragraph-formatting.md)
             + [기본 문자 서식](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-basic-character-formatting.md)
-            + [고급 텍스트 서식](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-advanced-text-formatting.md)
+            + [고급 텍스트 서식 지정](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-advanced-text-formatting.md)
             + [특수 텍스트 엔티티](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-special-text-entities.md)
             + [문자 인코딩](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-supported-rtf-commands-and-keywords/r-is-http-character-encoding.md)
          + [RTF 인코딩 예제](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-rtf-encoding-examples.md)
       + 데이터 유형 {#data-types}
          + [데이터 유형 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/c-data-types.md)
          + [color](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
-         + [코드](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coord.md)
+         + [coord](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coord.md)
          + [coordN](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-coordn.md)
          + [개체](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md)
          + [크기](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-size.md)
@@ -208,7 +208,7 @@ ht-degree: 10%
          + [op_blur](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md)
          + [op_brightness](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md)
          + [op_colorbalance](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md)
-         + [op_coloriize](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md)
+         + [op_colorize](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md)
          + [op_contrast](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md)
          + [op_grow](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-grow.md)
          + [op_growMask](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-growmask.md)
@@ -225,7 +225,7 @@ ht-degree: 10%
          + [pathAttr](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathattr.md)
          + [pathEmbed](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md)
          + [원근](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md)
-         + [pos](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md)
+         + [오퍼](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md)
          + [printRes](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md)
          + [pscan](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md)
          + [qlt](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md)
@@ -249,7 +249,7 @@ ht-degree: 10%
             + [설정](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md)
             + [목표](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-targets.md)
             + [tmb](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-tmb.md)
-            + [사용자 데이터](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-userdata.md)
+            + [userdata](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-userdata.md)
             + [유효성 확인](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-is-http-validate.md)
             + [xlate](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xlate.md)
             + [xmp](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-xmp.md)
@@ -282,19 +282,19 @@ ht-degree: 10%
             + [XML 속성](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-xml-properties.md)
             + [JSONP 속성](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/r-json-properties.md)
          + [오류](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/r-errors.md)
-      + 서버 동작 {#server-behavior}
+      + 서버 비헤이비어 {#server-behavior}
          + [서버 비헤이비어에 대한 참고 사항](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/c-notes-on-server-behavior.md)
          + [합성 캔버스](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-the-compositing-canvas.md)
          + [레이어 변형](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-transforms.md)
          + [축소판 크기 조정](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md)
          + [축소판 규칙](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-rules.md)
          + [레이어 배치](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-layer-placement.md)
-         + [이미지에 맞는 변형 보기](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
+         + [이미지에 대한 변형 보기](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-images.md)
          + [축소판의 변형 보기](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-view-transform-for-thumbnails.md)
       + 템플릿 {#templates}
-         + [템플릿 예제](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
+         + [템플릿 예](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md)
          + [예 A](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md)
-         + [예제 B](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-b.md)
+         + [예 B](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-b.md)
          + [예 C](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-c.md)
    + FXG 서버 프로토콜 참조 {#fxg-server-protocol-ref}
       + [FXG 서버 프로토콜 참조](is-api/image-serving-api-ref/c-is-fxg-server-protocol/c-is-fxg-server-protocol.md)
@@ -310,14 +310,14 @@ ht-degree: 10%
             + [hei](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-hei.md)
             + [imageRes](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-imageres.md)
             + [작업 옵션](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-joboption.md)
-            + [markFlowingTextFrames](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-markoverflowingtextframes.md)
+            + [markOverflowingTextFrames](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-markoverflowingtextframes.md)
             + [mediaMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-mediamargin.md)
             + [페이지](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-page.md)
             + [printerMark](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-printermark.md)
             + [qlt](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-qlt.md)
             + [수량화](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-quantize.md)
             + [req](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-req-oversetstatus.md)
-            + [scale](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-scale.md)
+            + [크기 조절](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-scale.md)
             + [trimMargin](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-trimmargin.md)
             + [wid](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-fxg-server-protocol-reference/r-is-fxg-wid.md)
          + [대체 변수](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
@@ -335,10 +335,10 @@ ht-degree: 10%
             + [setVal](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-setval.md)
          + 일괄 처리 명령 {#batch-process-commands}
             + [일괄 처리 명령](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/c-batch-processing-commands.md)
-            + [batchjoblocapstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
+            + [batchjobapstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobbriefstatus.md)
             + [batchjobdelete](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdelete.md)
             + [batchjobdetailedstatus](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobdetailedstatus.md)
-            + [batchjobgetoutput](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobgetoutput.md)
+            + [batchjobogetoutput](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobgetoutput.md)
             + [batchjobsubmit](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-batchjobsubmit.md)
             + [jobdata](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobdata.md)
             + [조비드](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-batch-processing-commands/r-jobid.md)
@@ -347,18 +347,18 @@ ht-degree: 10%
       + [개요](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
       + [이미지 카탈로그 업데이트](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)
       + [기본 카탈로그](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-default-catalog.md)
-      + 카탈로그 속성 {#catalog-attributes}
+      + 카탈로그 특성 {#catalog-attributes}
          + [카탈로그 속성 개요](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/c-catalog-attributes.md)
          + [카탈로그 관리](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-catalog-management.md)
          + [요청 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-request-attributes.md)
          + [기본 요청 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-default-request-attributes.md)
-         + [색상 관리 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-color-management-attributes.md)
-         + [일반적인 축소판 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
+         + [색상 관리 특성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-color-management-attributes.md)
+         + [공통 축소판 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-common-thumbnail-attributes.md)
          + [카탈로그 필드의 기본값](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-defaults-for-catalog-fields.md)
          + [비디오 속성](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-attributes/r-video-attributes.md)
       + 카탈로그 데이터 필드 {#catalog-data-fields}
          + [카탈로그 데이터 필드](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md)
-         + [Image_SVG 데이터](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
+         + [이미지_SVG 데이터](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-image-svg-data.md)
          + [정적 컨텐츠 데이터](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-static-contents-data.md)
          + [매크로 정의](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-macro-definitions.md)
          + [글꼴 맵](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/r-font-maps.md)
@@ -394,7 +394,7 @@ ht-degree: 10%
       + [DefaultFont](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md)
       + [DefaultImage](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md)
       + [DefaultImageMode](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultimagemode.md)
-      + [기본 로케일](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md)
+      + [DefaultLocale](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md)
       + [DefaultPix](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md)
       + [DefaultThumbPix](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultthumbpix.md)
       + [DigimarcId](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md)
@@ -425,7 +425,7 @@ ht-degree: 10%
       + [PublishInfo](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-publishinfo.md)
       + [인쇄 해상도](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-printresolution.md)
       + [RequestLock](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md)
-      + [요청 난독화](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md)
+      + [RequestObfuscation](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md)
       + [ResMode](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md)
       + [해상도](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-resolution.md)
       + [루트 ID](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md)
@@ -447,7 +447,7 @@ ht-degree: 10%
       + [트러스트된 도메인](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-trusteddomains.md)
       + [UseLastModified](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md)
       + [VideoBitRate](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md)
-      + [비디오 크기](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md)
+      + [VideoSize](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md)
       + [워터마크](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md)
    + 이미지/SVG 데이터 참조 {#image-svg-ref}
       + [이미지/SVG 데이터 참조](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-svg-data-reference.md)
@@ -472,7 +472,7 @@ ht-degree: 10%
          + [ThumbType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md)
          + [타임스탬프](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md)
          + [사용자 데이터](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
-         + [사용자 유형](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+         + [UserType](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
       + SVG 데이터 참조 {#svg-data-reference}
          + [SVG 데이터 참조](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/c-svg-data-reference.md)
          + [만료](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-svg-data-reference/r-expiration-svg.md)
@@ -511,7 +511,7 @@ ht-degree: 10%
       + [대체](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [이미지 서버 프록시](is-api/image-serving-api-ref/r-image-server-proxy.md)
    + [이미지 서버 예제](is-api/image-serving-api-ref/r-examples-is.md)
-   + 반응형 정적 이미지 라이브러리 {#responsive-static-image-library}
+   + 응답형 정적 이미지 라이브러리 {#responsive-static-image-library}
       + [반응형 정적 이미지 라이브러리](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [반응형 이미지 라이브러리 사용](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
       + [명령 참조 - 구성 속성](is-api/image-serving-api-ref/c-about-responsive-static-image-library/r-responsive-static-image-library-config-attrib.md)
@@ -522,7 +522,7 @@ ht-degree: 10%
       + [라이선스](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [IR 3.x 호환성 모듈 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [이미지 렌더링 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 이미지 렌더링 제거 {#uninstalling-image-rendering}
+      + 이미지 렌더링 제거 중 {#uninstalling-image-rendering}
          + [이미지 렌더링 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Linux 및 Solaris에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Windows에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -530,7 +530,7 @@ ht-degree: 10%
       + [서버 관리](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [서버 관리 서문](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [서버 관리 개요](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + 서버 구성 및 관리 {#configuring-and-managing-the-server}
+      + 서버 {#configuring-and-managing-the-server} 구성 및 관리
          + [서버 개요 구성 및 관리](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [구성 파일](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [서버 시작 및 중지](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -541,7 +541,7 @@ ht-degree: 10%
          + [비네팅 크기 제한](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
          + 컨텐츠 관리 {#managing-content}
             + [컨텐츠 관리](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
-            + [재료 카탈로그](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
+            + [자료 카탈로그](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [소스 데이터](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
             + [소스 데이터 파일 삭제 또는 바꾸기](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-deleting-or-replacing-source-data-files.md)
       + 구성 설정 참조 {#configuration-settings-reference}
@@ -559,7 +559,7 @@ ht-degree: 10%
             + [이미지 렌더링 HTTP 프로토콜 명령 개요](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/c-ir-command-overview.md)
             + [속성 보기](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-view-attributes.md)
             + [선택 명령](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-selection-commands.md)
-            + [재료 속성](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-material-attributes.md)
+            + [재료 특성](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-material-attributes.md)
             + [기타 명령](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-overview/r-ir-miscellaneous-commands.md)
          + 비네팅 {#vignettes}
             + [비네팅](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-vignettes.md)
@@ -572,29 +572,29 @@ ht-degree: 10%
             + [벽 테두리](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-wall-borders.md)
             + [디칼스](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-decals.md)
             + [캐비닛](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-cabinets.md)
-            + [창 커버](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
+            + [윈도우 커버](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-window-coverings.md)
          + 고급 렌더링 효과 {#advanced-render-effects}
             + [고급 렌더링 효과](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
             + [여러 조명 맵 사용](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-use-multiple-illumination-maps.md)
             + [재질 색상화](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-colorizing-materials.md)
-            + [다양한 재료 불투명도](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-varying-material-opacity.md)
+            + [다양한 재질 불투명도](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-varying-material-opacity.md)
             + [반사](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [광택 효과](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [고급 렌더링 설정](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + 중첩 및 포함 요청 {#request-nesting-and-embedding}
-            + [요청 중첩 및 포함 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
+         + {#request-nesting-and-embedding} 중첩 및 포함 요청
+            + [중첩 및 포함 요청 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [포함된 이미지 서버 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [중첩된 이미지 렌더링 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
             + [외부 이미지 소스](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-foreign-image-sources.md)
             + [제한 사항](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-restrictions.md)
-         + 재료 카탈로그 {#material-catalogs}
+         + 자료 카탈로그 {#material-catalogs}
             + [자료 카탈로그 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
             + [세션 카탈로그](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/r-ir-session-catalog.md)
          + [사전 처리 요청 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-pre-processing.md)
-         + Custom variables {#custom-variables}
+         + 사용자 지정 변수 {#custom-variables}
             + [사용자 지정 변수 개요](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-custom-variables.md)
-            + [중첩 요청의 변수 처리](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
-            + [포함된 외부 요청의 변수 처리](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
+            + [중첩된 요청의 변수 처리](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-nested-requests.md)
+            + [임베디드 외부 요청의 변수 처리](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-variable-processing-in-embedded-foreign-requests.md)
             + [기본값](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/c-ir-default.md)
             + [예제](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-custom-variables/r-ir-examples.md)
          + [명령 매크로 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-command-macros.md)
@@ -612,7 +612,7 @@ ht-degree: 10%
          + [플래그](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md)
          + [fmt](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-fmt.md)
          + [광택](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md)
-         + [광선 지도](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md)
+         + [매끄러운 지도](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md)
          + [그루트](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md)
          + [hei](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md)
          + [숨기기](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md)
@@ -623,19 +623,19 @@ ht-degree: 10%
          + [opac](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-opac.md)
          + [pathEmbed](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md)
          + [printRes](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-printres.md)
-         + [pos](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md)
+         + [오퍼](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md)
          + [qlt](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md)
          + [반복](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md)
          + [req](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md)
          + [res](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md)
          + [resMode](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md)
-         + [rotate](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md)
+         + [회전](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md)
          + [거친](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md)
          + [rs](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md)
          + [scl](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-scl.md)
          + [sel](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md)
          + [날카로운](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md)
-         + [선명](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md)
+         + [선명 효과](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md)
          + [표시](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md)
          + [크기](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md)
          + [src](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
@@ -648,8 +648,8 @@ ht-degree: 10%
          + [이미지](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-images.md)
          + [속성](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md)
          + [오류](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-errors.md)
-   + 자재 카탈로그 {#material-catalog}
-      + [자재 카탈로그](ir-api/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-catalog.md)
+   + 재료 카탈로그 {#material-catalog}
+      + [재료 카탈로그](ir-api/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-catalog.md)
       + [소개](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-cat-ref-intro.md)
       + 자료 카탈로그 개요 {#material-catalog-overview}
          + [자료 카탈로그 개요 *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-cat-overview.md)
@@ -662,7 +662,7 @@ ht-degree: 10%
             + [카탈로그 데이터 파일](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-catalog-data-files.md)
             + [문자 인코딩](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/c-ir-file-formats/c-ir-character-encoding.md)
          + [일반적인 데이터 유형](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-cat-overview/r-ir-common-data-types.md)
-      + 속성 참조 {#attributes-reference}
+      + 특성 참조 {#attributes-reference}
          + [속성 참조](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/c-ir-attributes-reference.md)
          + [AllowDirectURL](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md)
          + [CacheValidationPolicy](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)
@@ -697,7 +697,7 @@ ht-degree: 10%
          + [RuleSetFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rulesetfile.md)
          + [샤프](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md)
          + [선명하게](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md)
-         + [ShowOverlapObjects](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md)
+         + [개체 표시](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md)
          + [TiffEncoding](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md)
          + [타임스탬프](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md)
          + [트러스트된 도메인 *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
@@ -708,10 +708,10 @@ ht-degree: 10%
          + [정렬](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [앵커](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
          + [AuxPath](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md)
-         + [BaseColor](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md)
+         + [기본 색상](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md)
          + [색상](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-color.md)
          + [만료](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md)
-         + [광택](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md)
+         + [광택 효과](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md)
          + [ID](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md)
          + [Illum](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md)
          + [경로 *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md)
@@ -752,13 +752,13 @@ ht-degree: 10%
       + [이미지 제공 유틸리티](is-api/is-utils/utilities/c-utils-home.md)
       + [유틸리티 위치](is-api/is-utils/utilities/c-location-of-utilities.md)
       + [ic](is-api/is-utils/utilities/r-ic.md)
-      + [이미지 제공](is-api/is-utils/utilities/r-imageserving.md)
+      + [ImageServing](is-api/is-utils/utilities/r-imageserving.md)
       + [유효성 확인](is-api/is-utils/utilities/r-is-utils-validate.md)
       + [&#39;playlog&#39; 유틸리티](is-api/is-utils/utilities/c-playlog.md)
    + 비네팅 변환기(vntc){#vignette-converter-vntc}
       + [비네팅 변환기(vntc)](utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
       + [비네팅 변환기](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
-      + [비네팅 크기 조절](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
+      + [비네팅 비율](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
       + [사용](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-usage.md)
       + [일반적인 옵션](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
       + [비네팅 옵션](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-vignettes.md)

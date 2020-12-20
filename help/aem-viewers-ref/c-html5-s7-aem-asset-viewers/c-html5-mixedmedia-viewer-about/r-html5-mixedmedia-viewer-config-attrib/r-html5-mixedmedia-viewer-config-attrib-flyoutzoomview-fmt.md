@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 지정된 형식이 <span class="codeph"> -alpha로</span>끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 포맷의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> <p>기본적으로 구성 요소에는 흰색 배경이 있습니다. 따라서 완전히 투명하게 만들려면 <span class="codeph"> 배경색</span> CSS 속성을 <span class="codeph"> 투명하게</span>설정합니다. </p> </td> 
+   <td colname="col2"> <p> 지정된 형식이 <span class="codeph"> -alpha</span>로 끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> <p>기본적으로 구성 요소에는 흰색 배경이 있습니다. 따라서 이 속성을 완전히 투명하게 만들려면 <span class="codeph"> background-color</span> CSS 속성을 <span class="codeph"> transparent</span>로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

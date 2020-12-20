@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
 
 # deleteGroup{#deletegroup}
 
-Deletes a group.
+그룹을 삭제합니다.
 
 구문
 
@@ -30,8 +33,8 @@ Deletes a group.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 그룹에 속한 회사의 핸들 |
-| ` *`groupHandle`*` | `xsd:string` | 예 | 삭제할 그룹의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 그룹에 속하는 회사의 핸들입니다. |
+| ` *`groupHandle`*` | `xsd:string` | 예 | 삭제할 그룹의 핸들입니다. |
 
 **출력(deleteGroupParam)**
 

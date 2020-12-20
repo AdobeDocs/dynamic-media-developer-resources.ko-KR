@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6aaac931-af78-4f63-9345-6c2580f52414
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 이미지 서버와 클라이언트 브라우저에서 지원하는 모든 값이 될 수 있습니다. 지정된 형식이 <span class="codeph"> -alpha로</span>끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 포맷의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> </td> 
+   <td> <p>구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 이미지 서버 및 클라이언트 브라우저에서 지원하는 모든 값이 될 수 있습니다. 지정된 형식이 <span class="codeph"> -alpha</span>로 끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

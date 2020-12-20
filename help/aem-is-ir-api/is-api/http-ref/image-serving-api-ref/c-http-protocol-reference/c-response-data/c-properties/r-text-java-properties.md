@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -33,6 +36,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 ...
 ```
 
-*`propertyValue`* 비어 있을 수 있습니다. 공백은 각 줄의 시작 및 끝과 = 구분 기호 앞 및 뒤의 선택 사항입니다. 문자열 값을 묶는 데 작은따옴표 또는 큰따옴표를 사용할 수 있지만 필수는 아닙니다.
+*`propertyValue`* 비어 있을 수 있습니다. 공백 문자는 각 행의 시작 및 끝과 = 구분 기호 앞/뒤에 선택 사항입니다. 문자열 값을 묶는 데 작은따옴표 또는 큰따옴표를 사용할 수 있지만 필수는 아닙니다.
 
-문자열 값에는 `\n`, `\t``\:`또는 `\\`같은 JAVA 스타일 이스케이프 문자가 포함될 수 있습니다.
+문자열 값에는 `\n`, `\t`, `\:` 또는 `\\` 등의 JAVA 스타일 이스케이프 문자가 포함될 수 있습니다.

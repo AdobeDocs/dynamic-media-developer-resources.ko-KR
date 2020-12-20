@@ -1,6 +1,6 @@
 ---
-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일의 재처리를 허용하는 작업 유형입니다.
-seo-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일의 재처리를 허용하는 작업 유형입니다.
+description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
+seo-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
 seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # ReprocessAssetsJob{#reprocessassetsjob}
 
-PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일의 재처리를 허용하는 작업 유형입니다.
+PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
 
 구문
 
@@ -40,32 +40,32 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> readyForPublish</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>파일을 게시할 준비가 되었는지 여부 </p> </td> 
+   <td colname="col3"> <p>파일을 게시할 준비가 되었는지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>덮어쓸 때 기존 자산의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
+   <td colname="col3"> <p>덮어쓸 때 기존 에셋의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>마스크를 만들지 여부 </p> </td> 
+   <td colname="col3"> <p>마스크를 만들지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>기존 자르기 정의에 대한 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면</i> preserveCrop의 값이 유지됩니다. 그리고, true인 경우, 기존 preserveCrop 값이 유지됩니다. false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;<br />160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 상관없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않는 경우 preserveCrop의 값이 유지됩니다. </i> 그리고, true이면 기존 preserveCrop 값이 유지됩니다.false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ManualCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>수동 자르기 옵션 </p> </td> 
+   <td colname="col3"> <p>수동 자르기 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>색상 기반의 이미지 자동 자르기 옵션 </p> </td> 
+   <td colname="col3"> <p>색상을 기반으로 이미지를 자동으로 자르는 옵션 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
@@ -75,17 +75,17 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>Photoshop 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 Photoshop 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PostScriptOptions</span> </p> </td> 
-   <td colname="col3"> <p>PostScript 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 PostScript 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>PDF 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 PDF 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -95,7 +95,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>Illustrator 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 Illustrator 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
@@ -145,30 +145,30 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 InDesign 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 제목 이미지 외부에 투명도가 있는 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p>자세한 내용은<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions를 참조하십시오.</a> </p> </td> 
+   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p><a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> 참조 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>최적화된 피라미드형 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션. 이 설정을 사용하여 이미지 선명도를 높일 수 있습니다. </p> <p>UnsharpMaskOptions <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> 를 참조하십시오</a>. </p> </td> 
+   <td colname="col3"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션. 이 설정을 사용하여 이미지 선명도를 향상시킬 수 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **주의**
 
-선택 `*CropOptions` 사항은 다음과 같습니다.
+`*CropOptions`에 대한 선택 사항은 다음과 같습니다.
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-선택 `*PublishJob` 사항은 다음과 같습니다.
+`*PublishJob`에 대한 선택 사항은 다음과 같습니다.
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

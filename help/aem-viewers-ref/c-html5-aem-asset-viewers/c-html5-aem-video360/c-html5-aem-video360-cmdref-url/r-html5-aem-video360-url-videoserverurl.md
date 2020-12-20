@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +24,7 @@ Video360 뷰어에 대한 URL 명령.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 비디오 <span class="varname"> RootPath</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 도메인을 지정하지 않으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 

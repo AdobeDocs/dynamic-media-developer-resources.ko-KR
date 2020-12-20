@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
@@ -33,18 +36,18 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 새 프로젝트와 연결된 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 새 프로젝트와 연결된 회사의 취급입니다. |
 | ` *`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
 
 **출력(createProjectParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | 예 | 새 프로젝트의 핸들 |
+| ` *`projectHandle`*` | `xsd:string` | 예 | 새 프로젝트의 핸들입니다. |
 
 ## 예제 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-이 코드 샘플은 해당 핸들에 의해 지정된 `ApiTestProject` 회사에서 호출된 프로젝트를 만듭니다. 응답은 프로젝트에 대한 핸들을 반환합니다.
+이 코드 샘플은 해당 핸들에 의해 지정된 회사에 `ApiTestProject`이라는 프로젝트를 만듭니다. 응답은 프로젝트에 대한 핸들을 반환합니다.
 
 **요청**
 

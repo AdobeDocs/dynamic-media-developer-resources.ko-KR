@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 92bd8ced-1c41-4147-96fa-5f77bdd6a316
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>정보 패널을 표시할 시기를 지정합니다. </p> <p>1로 <span class="codeph"> 설정하면</span>마우스가 이미지 맵 영역에 들어올 때 정보 패널이 표시됩니다(이미지 맵에 비어 있지 않은 <span class="codeph"> rollover_key</span> 속성이 있는 경우). </p> <p>0 <span class="codeph"></span> 정보 패널로 설정하면 이미지 맵을 클릭할 때 트리거됩니다(이미지 맵에 비어 있지 않은 <span class="codeph"> rollover_key</span> 및 빈 href <span class="codeph"></span> 속성이 있는 경우). </p> <p> 터치 지원 데스크탑 시스템을 비롯한 터치 장치에서 무시되고 <span class="codeph"> 0으로</span>자동 설정됩니다. </p> </td> 
+   <td colname="col2"> <p>정보 패널을 표시할 시기를 지정합니다. </p> <p><span class="codeph"> 1</span>으로 설정하면 마우스가 이미지 맵 영역에 들어올 때 정보 패널이 표시됩니다(이미지 맵에 비어 있지 않은 경우 <span class="codeph"> rollover_key</span> 속성). </p> <p>이미지 맵을 클릭할 때 <span class="codeph"> 0</span> 정보 패널로 설정된 경우(이미지 맵에 비어 있지 않은 <span class="codeph"> rollover_key</span> 및 빈 <span class="codeph"> href</span> 특성 포함) 트리거됩니다. </p> <p> 터치 지원 데스크톱 시스템을 포함한 터치 장치에서 무시되고 자동으로 <span class="codeph"> 0</span>으로 설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

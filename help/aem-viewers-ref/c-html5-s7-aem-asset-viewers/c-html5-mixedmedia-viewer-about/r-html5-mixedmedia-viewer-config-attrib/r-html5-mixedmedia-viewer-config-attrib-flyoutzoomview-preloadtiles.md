@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9989916-d0f3-4268-932a-e12c693f5b74
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 확대된 이미지의 미리 로드를 활성화하려면 <span class="codeph"> 1로</span> 설정합니다. </p> <p>필요에 따라 확대/축소 이미지를 점진적으로 로드하려면 <span class="codeph"> 0으로</span> 설정합니다. </p> <p> <p>참고: 이 옵션을 활성화하면 확대/축소 작업을 수행하지 않더라도 확대된 이미지를 전체적으로 로드해야 하므로 대역폭 사용량이 상당히 증가할 수 있습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 확대된 이미지의 미리 로드를 활성화하려면 <span class="codeph"> 1</span>로 설정합니다. </p> <p>필요에 따라 확대/축소 이미지를 증분적으로 로드하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> <p> <p>참고: 이 옵션을 활성화하면 확대/축소 작업을 하지 않아도 확대된 이미지를 전체적으로 로드해야 하므로 대역폭 사용이 상당히 증가할 수 있습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

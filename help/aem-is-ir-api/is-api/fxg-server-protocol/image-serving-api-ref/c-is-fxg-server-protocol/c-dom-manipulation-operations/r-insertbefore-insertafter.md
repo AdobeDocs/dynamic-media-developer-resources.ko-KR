@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5ac0f675-333b-4f85-abe0-642cf96de425
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-FXG 노드 요소에 `s7:elementID` 정의된 경우 이 명령을 사용하여 해당 노드 앞 또는 뒤의 XML 조각을 추가할 수 있습니다.
+FXG 노드 요소에 `s7:elementID`이 정의된 경우 이 명령을 사용하여 해당 노드 앞이나 뒤에 XML 조각을 추가할 수 있습니다.
 
 ## 예 {#section-1fc8d4135ef94b60b838391e1568e70e}
 

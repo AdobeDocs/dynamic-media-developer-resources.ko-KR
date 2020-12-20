@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-이 코드 샘플은 프로젝트 배열에서 모든 프로젝트 핸들을 반환합니다.
+이 코드 샘플은 프로젝트 배열의 모든 프로젝트 핸들을 반환합니다.
 
 **요청**
 

@@ -19,7 +19,7 @@ ht-degree: 6%
 
 getActiveJobs를 사용하여 데스크톱 업로드를 추적합니다.
 
-HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+업로드...에 HTTP POST를 통해 자산 업로드 [를 참조하십시오.](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:AutoColorCropOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>색상 기반의 이미지 자동 자르기 옵션 </p> </td> 
+   <td colname="col4"> <p>색상을 기반으로 이미지를 자동으로 자르는 옵션 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
@@ -65,7 +65,7 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p><b>예</b> </p> </td> 
-   <td colname="col4"> <p>마스크를 만들지 여부 </p> </td> 
+   <td colname="col4"> <p>마스크를 만들지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -77,31 +77,31 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:InDesignOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col4"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:IllustratorOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>Illustrator 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col4"> <p>이미지 서버에 Illustrator 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:KnockoutBackgroundOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 제목 이미지 외부에 투명도가 있는 다른 레이어에 오버레이할 수 있습니다. 선택 사항입니다. </p> <p>KnockoutBackgroundOptions를 참조하십시오<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"></a>. </p> </td> 
+   <td colname="col4"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. 선택 사항입니다. </p> <p><a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ManualCropOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>수동으로 이미지 자르기를 위한 옵션 </p> </td> 
+   <td colname="col4"> <p>수동으로 이미지 자르기를 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:MediaOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>비디오에서 축소판 이미지를 설정할 수 있는 옵션입니다. </p> <p>미디어 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 옵션을 참조하십시오</a>. </p> </td> 
+   <td colname="col4"> <p>비디오에서 축소판 이미지를 설정할 수 있는 옵션입니다. </p> <p><a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 덮어쓰기</span> </span> </td> 
@@ -113,13 +113,13 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:PDFOptions</span> </td> 
    <td colname="col3"> <p>아니요</p> </td> 
-   <td colname="col4"> <p>PDF 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col4"> <p>이미지 서버에 PDF 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:PhotoshopOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>Photoshop 파일을 이미지 서버에 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col4"> <p>이미지 서버에 Photoshop 파일을 업로드하기 위한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -137,13 +137,13 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>기존 자르기 정의에 대한 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면</i> preserveCrop의 값이 유지됩니다. 그리고, true인 경우, 기존 preserveCrop 값이 유지됩니다. false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;<br />160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;&lt;/manualCropOptions&gt;</p></td> 
+   <td colname="col4"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 상관없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않는 경우 preserveCrop의 값이 유지됩니다. </i> 그리고, true이면 기존 preserveCrop 값이 유지됩니다.false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p><b>예</b> </p> </td> 
-   <td colname="col4"> <p>덮어쓸 때 기존 자산의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
+   <td colname="col4"> <p>덮어쓸 때 기존 에셋의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
@@ -155,19 +155,19 @@ HTTP [POST를 통해 업로드에 자산 업로드를 참조하십시오.](../..
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p><b>예</b> </p> </td> 
-   <td colname="col4"> <p>파일을 게시할 준비가 되었는지 여부 </p> </td> 
+   <td colname="col4"> <p>파일을 게시할 준비가 되었는지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 형식:UnCompressOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:UnCompressOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>이러한 선택적 설정을 사용하여 업로드된 TAR/ZIP 파일의 내용을 추출하고 처리할 수 있습니다. </p> <p>UnCompressOptions <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> 를 참조하십시오</a>. </p> </td> 
+   <td colname="col4"> <p>이러한 선택적 설정을 사용하여 업로드된 TAR/ZIP 파일의 내용을 추출하고 처리할 수 있습니다. </p> <p><a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>최적화된 피라미드형 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션. 이 설정을 사용하여 이미지 선명도를 높일 수 있습니다. </p> <p>UnsharpMaskOptions <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> 를 참조하십시오</a>. </p> </td> 
+   <td colname="col4"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션. 이 설정을 사용하여 이미지 선명도를 향상시킬 수 있습니다. </p> <p><a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> xmpKeywords</span></span> </td> 

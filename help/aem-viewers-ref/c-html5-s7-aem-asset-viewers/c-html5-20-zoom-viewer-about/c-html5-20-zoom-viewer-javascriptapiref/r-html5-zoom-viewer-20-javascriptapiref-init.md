@@ -1,6 +1,6 @@
 ---
-description: 비디오 뷰어용 JavaScript API 참조
-seo-description: 비디오 뷰어용 JavaScript API 참조
+description: 비디오 뷰어용 JavaScript API 참조.
+seo-description: 비디오 뷰어용 JavaScript API 참조.
 seo-title: init
 solution: Experience Manager
 title: init
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: 74d660a1-95b3-4009-92f3-228cbe6aedc7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
 
 # init{#init}
 
-비디오 뷰어용 JavaScript API 참조
+비디오 뷰어용 JavaScript API 참조.
 
 `init()`
 
-비디오 뷰어의 초기화를 시작합니다. 이 시점까지 뷰어 코드가 ID로 이를 찾을 수 있도록 컨테이너 DOM 요소를 만들어야 합니다.
+비디오 뷰어의 초기화를 시작합니다. 이때 뷰어 코드가 해당 ID로 이를 찾을 수 있도록 컨테이너 DOM 요소를 만들어야 합니다.
 
-컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: 지정된 `display:none` 스타일을 사용하여 숨겨질 수 있음) 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져올 때까지 뷰어는 초기화 프로세스를 일시 중단합니다. 이 경우 뷰어 부하가 자동으로 다시 시작됩니다.
+컨테이너 요소가 웹 페이지 레이아웃의 일부가 아닌 경우(예: 컨테이너 요소에 할당된 `display:none` 스타일을 사용하여 숨겨질 수 있으므로 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져올 때까지 뷰어는 초기화 프로세스를 일시 중단합니다. 이 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
 이 메서드는 뷰어 수명 주기 동안 한 번만 호출합니다.후속 호출은 무시됩니다.
 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 없음.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
 
 `{Object}` 뷰어 인스턴스에 대한 참조입니다.
 

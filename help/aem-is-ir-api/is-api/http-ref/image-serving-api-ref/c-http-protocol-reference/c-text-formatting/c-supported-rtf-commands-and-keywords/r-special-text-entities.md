@@ -30,7 +30,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \par</span> </td> 
-   <td> <p>단락 나누기 </p> </td> 
+   <td> <p>단락 나누기. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -44,29 +44,29 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbraces; </span> </td> 
+   <td> <span class="codeph"> &amp;lbraces;  </span> </td> 
    <td> <p>중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
    <td> <p>중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
-   <td> <p>분리 가능한 공간. </p> </td> 
-   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
+   <td> <p>줄바꿈하지 않는 공백. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>줄바꿈 없는 하이픈. </p> </td> 
-   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
+   <td> <p>줄바꿈하지 않는 하이픈. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
-   <td> <p>하이픈(선택 사항) </p> </td> 
-   <td> <p><span class="codeph"> textPs=only</span> . </p> </td> 
+   <td> <p>하이픈(선택 사항). </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
  </tbody> 
 </table>

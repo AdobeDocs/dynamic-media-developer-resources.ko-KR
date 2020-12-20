@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-뷰어 사용자 인터페이스에서 소셜 공유 도구의 위치와 크기는 다음과 같이 제어됩니다.
+뷰어 사용자 인터페이스에서 소셜 공유 도구의 위치 및 크기는 다음과 같이 제어됩니다.
 
 ```
 .s7video360viewer .s7socialshare
@@ -30,11 +33,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 컨테이너를 기준으로 소셜 공유 도구의 세로 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어 컨테이너를 기준으로 하는 소셜 공유 도구의 세로 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 컨테이너를 기준으로 소셜 공유 도구의 수평 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어 컨테이너를 기준으로 하는 소셜 공유 도구의 수평 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,7 +50,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-**예** - 뷰어 컨테이너의 위쪽에서 4픽셀, 오른쪽에서 5픽셀로 크기가 28 x 28픽셀인 소셜 공유 도구를 설정하려면
+**예**  - 뷰어 컨테이너의 상단에서 4픽셀, 오른쪽에서 5픽셀, 크기가 28 x 28픽셀인 소셜 공유 도구를 설정하려면.
 
 ```
 .s7interactivevideoviewer .s7socialshare { 
@@ -58,7 +61,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-소셜 공유 도구 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+소셜 공유 도구 단추의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton
@@ -69,23 +72,23 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 사용자 [인터페이스 요소의](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
 
-**예** - 서로 다른 네 가지 단추 상태에 대해 서로 다른 이미지를 표시하는 소셜 공유 도구 단추를 설정하려면
+**예**  - 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하는 소셜 공유 도구 단추를 설정하려면
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -102,7 +105,7 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-개별 소셜 공유 아이콘이 포함된 패널의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+개별 소셜 공유 아이콘이 포함된 패널의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel
@@ -113,13 +116,13 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>패널의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예** - 투명한 색상을 포함하도록 패널을 설정하려면
+**예**  - 투명한 색상을 갖도록 패널을 설정하려면:
 
 ```
 .s7video360viewer .s7socialshare .s7socialsharepanel { 

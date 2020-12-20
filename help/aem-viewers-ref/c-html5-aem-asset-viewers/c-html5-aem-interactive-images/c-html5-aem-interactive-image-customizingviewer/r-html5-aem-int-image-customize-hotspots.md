@@ -1,6 +1,6 @@
 ---
-description: 뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
-seo-description: 뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+seo-description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 seo-title: 핫스팟
 solution: Experience Manager
 title: 핫스팟
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 2%
 
 ---
 
 
 # 핫스팟{#hotspots}
 
-뷰어는 AEM Assets의 다이내믹 미디어에서 원래 핫스팟이 작성되었던 위치의 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>핫스팟 아이콘 아트워크. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>핫스팟 아이콘 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 

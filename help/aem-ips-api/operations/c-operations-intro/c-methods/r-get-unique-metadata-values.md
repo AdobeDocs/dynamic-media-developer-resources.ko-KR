@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
 
@@ -34,7 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`fieldHandle`*` | `xsd:string` | 아니요 | 메타데이터 필드를 처리합니다. |
 
 **출력(getUniqueMetadataValuesReturn)**

@@ -1,6 +1,6 @@
 ---
-description: 어레이의 모든 사용자를 가져옵니다.
-seo-description: 어레이의 모든 사용자를 가져옵니다.
+description: 배열에 있는 모든 사용자를 가져옵니다.
+seo-description: 배열에 있는 모든 사용자를 가져옵니다.
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
 
 # getAllUsers{#getallusers}
 
-어레이의 모든 사용자를 가져옵니다.
+배열에 있는 모든 사용자를 가져옵니다.
 
 구문
 
@@ -40,13 +43,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> includeInvalid <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4">설정: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 잘못된 사용자를 포함하려면 true</span> 입니다. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> 잘못된</span> 사용자를 생략하려면 false를 사용하십시오. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 트루에에 잘못된 </span> 사용자가 포함되어 있습니다. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> 잘못된 사용자</span> 를 생략하기 위한 false </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -61,7 +64,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-9c9a2d335513478da20652c1b1443731}
 
-이 코드 샘플은 모든 사용자를 반환합니다. 간결한 경우 응답이 잘립니다.
+이 코드 샘플은 모든 사용자를 반환합니다. 잠시 동안 응답이 잘립니다.
 
 **요청**
 

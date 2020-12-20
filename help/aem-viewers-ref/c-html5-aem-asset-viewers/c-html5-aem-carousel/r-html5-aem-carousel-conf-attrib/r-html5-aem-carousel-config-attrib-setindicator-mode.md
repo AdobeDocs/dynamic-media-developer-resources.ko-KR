@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cfb549c2-e0cf-46c3-b5b7-219c8c1bee94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 숫자|점선</span> </p> </td> 
-   <td colname="col2"> <p> 세트 표시기의 렌더링 스타일을 구성합니다. </p> <p>점선으로 <span class="codeph"></span> 설정하면 구성 요소는 모든 페이지에 대해 동일한 표시기를 렌더링합니다. </p> <p>숫자로 설정하면 <span class="codeph"></span> 각 지표 요소 안에 1부터 시작하는 페이지 번호가 표시됩니다. </p> <p>터치 입력 기능이 있는 장치에서는 <span class="codeph"> 숫자</span> 작업 모드가 지원되지 않습니다. 대신, 구성 요소는 그러한 장치에서 <span class="codeph"> 점선을</span> 사용합니다. </p> </td> 
+   <td colname="col2"> <p> 세트 표시기의 렌더링 스타일을 구성합니다. </p> <p><span class="codeph"> 점선</span>으로 설정하면 구성 요소는 모든 페이지에 대해 동일한 표시기를 렌더링합니다. </p> <p><span class="codeph"> numeric</span>으로 설정하면 각 표시기 요소 안에 1개의 기반 페이지 번호가 배치됩니다. </p> <p>터치 입력을 할 수 있는 장치에서는 <span class="codeph"> 숫자</span> 작업 모드가 지원되지 않습니다. 대신 구성 요소는 해당 장치에서 <span class="codeph"> 점선</span>을 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

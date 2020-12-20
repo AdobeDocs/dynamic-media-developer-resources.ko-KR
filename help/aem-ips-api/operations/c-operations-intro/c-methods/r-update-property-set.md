@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | 예 | 속성 세트에 대한 핸들입니다. |
-| ` *`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 `true` 바꾸도록 설정합니다. |
+| ` *`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정합니다. |
 | ` *`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대한 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**
@@ -46,7 +49,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-이 코드 샘플은 속성 배열에서 속성이 있는 속성 집합을 업데이트합니다.
+이 코드 샘플은 속성 배열의 속성이 있는 속성 집합을 업데이트합니다.
 
 **요청**
 

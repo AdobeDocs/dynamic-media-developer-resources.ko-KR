@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -29,16 +32,16 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> 아이콘에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>아이콘의 너비입니다. </p> </td> 
+   <td colname="col2"> <p>아이콘의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -47,7 +50,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-예 - 36 x 36 픽셀 즐겨찾기 아이콘을 설정합니다.
+예 - 36 x 36픽셀 즐겨찾기 아이콘을 설정합니다.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon { 
@@ -57,26 +60,26 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `cursortype` 속성 선택기를 지원하며 `.s7favoriteseffect` 클래스에 적용할 수 있으며 선택한 사용자 작업에 따라 커서 유형을 제어합니다. The following `cursortype` values are supported:
+데스크톱 시스템에서 구성 요소는 `cursortype` 속성 선택기를 지원하며 이 선택기는 선택한 사용자 작업을 기반으로 합니다. `.s7favoriteseffect` 다음 `cursortype` 값이 지원됩니다.
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_add  </span> </p> </td> 
    <td colname="col2"> <p>표시된 사용자가 새 즐겨찾기 아이콘을 추가하고 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_remove  </span> </p> </td> 
    <td colname="col2"> <p>표시된 사용자가 기존 즐겨찾기 아이콘을 제거하고 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>즐겨찾기 편집이 활성 상태가 아닐 때 일반 작업 모드로 표시됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col2"> <p>즐겨찾기 편집이 활성화되지 않은 경우 일반 작업 모드로 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 각 구성 요소 상태 유형에 대해 서로 다른 마우스 커서를 가지고 있습니다.
+예 - 각 구성 요소 상태 유형에 대해 서로 다른 마우스 커서를 갖습니다.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 

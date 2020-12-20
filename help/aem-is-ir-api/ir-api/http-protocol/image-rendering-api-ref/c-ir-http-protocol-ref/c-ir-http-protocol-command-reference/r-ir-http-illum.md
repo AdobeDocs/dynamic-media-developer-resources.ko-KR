@@ -1,26 +1,29 @@
 ---
-description: 조명 맵 선택기입니다. 이 자료가 렌더링할 때 사용하는 조명 맵을 지정합니다.
-seo-description: 조명 맵 선택기입니다. 이 자료가 렌더링할 때 사용하는 조명 맵을 지정합니다.
-seo-title: 실실
+description: 조명 맵 선택기입니다. 이 자료를 렌더링할 대상 조명 맵을 지정합니다.
+seo-description: 조명 맵 선택기입니다. 이 자료를 렌더링할 대상 조명 맵을 지정합니다.
+seo-title: 실음
 solution: Experience Manager
-title: 실실
+title: 실음
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
 
-# 실실{#illum}
+# ilum{#illum}
 
-조명 맵 선택기입니다. 이 자료가 렌더링할 때 사용하는 조명 맵을 지정합니다.
+조명 맵 선택기입니다. 이 자료를 렌더링할 대상 조명 맵을 지정합니다.
 
 `illum=-1|0|1|2`
 
 지정된 조명 맵을 대상 비네팅에서 사용할 수 없는 경우 가장 가까운 사용 가능한 맵이 대신 사용됩니다.
 
-`illum=-1` 조명 맵이 `gloss=` 값에 따라 자동으로 선택되도록 지정합니다.
+`illum=-1` 값을 기반으로 조명 맵이 자동으로 선택되도록  `gloss=` 지정합니다.
 
 ## 속성 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

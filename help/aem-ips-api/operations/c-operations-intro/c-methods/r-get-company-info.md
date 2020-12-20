@@ -1,6 +1,6 @@
 ---
-description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 검색할 정보의 companyHandle 또는 companyName을 지정해야 합니다.
-seo-description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 검색할 정보의 companyHandle 또는 companyName을 지정해야 합니다.
+description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함한 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
+seo-description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함한 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
 
 # getCompanyInfo{#getcompanyinfo}
 
-회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 검색할 정보의 companyHandle 또는 companyName을 지정해야 합니다.
+회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함한 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
 
 구문
 
@@ -44,15 +47,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td colname="col3"> <p>company <span class="codeph"> Handle <span class="varname"></span> 또는 </span> companyName <span class="codeph"> 이 <span class="varname"> 필요합니다</span> </span> . </p> </td> 
-   <td colname="col4"> <p>정보를 얻고자 하는 회사의 취급자. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이(가) 필요합니다. </p> </td> 
+   <td colname="col4"> <p>정보를 받으려는 회사의 취급자. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 이름</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td colname="col3"> <p>company <span class="codeph"> Handle <span class="varname"></span> 또는 </span> companyName <span class="codeph"> 이 <span class="varname"> 필요합니다</span> </span> . </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이(가) 필요합니다. </p> </td> 
    <td colname="col4"> <p>정보를 받으려는 회사의 이름입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +74,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 정보</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:회사</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사에 대한 기타 설명 정보를 처리합니다. </p> </td> 

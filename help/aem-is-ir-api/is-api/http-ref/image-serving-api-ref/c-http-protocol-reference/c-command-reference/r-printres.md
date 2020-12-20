@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -25,13 +28,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-일반적으로 인쇄 해상도는 카탈로그 항목의 `catalog::PrintResolution` 경우 정의되며, 그렇지 않으면 소스 이미지에 포함된 인쇄 해상도 값으로 정의됩니다. 템플릿 또는 레이어로 구성된 합성 이미지의 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
+인쇄 해상도는 카탈로그 항목의 경우 일반적으로 `catalog::PrintResolution`에 의해 정의되며, 그렇지 않은 경우에는 소스 이미지에 포함된 인쇄 해상도 값으로 정의됩니다. 템플릿 또는 레이어로 구성된 합성 이미지의 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
 
 인쇄 해상도를 설정해도 회신 이미지의 픽셀 크기는 변경되지 않습니다.
 
 ## 속성 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다.
+요청 속성을 참조하십시오. 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 기본값 {#section-d7d89fd235cc418fb381014612530f00}
 

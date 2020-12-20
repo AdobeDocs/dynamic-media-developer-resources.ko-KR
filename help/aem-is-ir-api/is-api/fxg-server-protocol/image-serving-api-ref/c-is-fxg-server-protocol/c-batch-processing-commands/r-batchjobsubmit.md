@@ -23,7 +23,7 @@ ht-degree: 2%
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
   <td class="stentry"> <p>전체 작업 데이터의 XML 조각. </p> </td> 
  </tr> 
 </table>
@@ -33,7 +33,7 @@ ht-degree: 2%
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>작업 상태 </p> </td> 
-  <td class="stentry"> <p>제출이 성공 또는 실패했는지 여부성공 시 XML 형식의 작업 ID입니다. </p> </td> 
+  <td class="stentry"> <p>제출이 성공했는지 실패했는지 여부;성공한 경우 작업 ID를 XML 형식으로 표시합니다. </p> </td> 
  </tr> 
 </table>
 

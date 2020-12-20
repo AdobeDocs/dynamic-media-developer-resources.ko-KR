@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 프로젝트와 연결된 회사의 이름입니다. |
+| ` *`companyName`*` | `xsd:string` | 예 | 프로젝트와 연결된 회사의 이름. |
 | ` *`projectHandle`*` | `xsd:string` | 예 | 삭제할 프로젝트의 핸들입니다. |
 
 **출력(deleteProjectReturn)**

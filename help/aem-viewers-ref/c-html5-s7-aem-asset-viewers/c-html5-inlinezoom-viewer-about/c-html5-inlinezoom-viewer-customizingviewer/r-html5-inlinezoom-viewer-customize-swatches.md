@@ -1,6 +1,6 @@
 ---
-description: 색상 견본은 선택 사항인 왼쪽 및 오른쪽에 있는 축소판 이미지 행으로 구성됩니다.
-seo-description: 색상 견본은 선택 사항인 왼쪽 및 오른쪽에 있는 축소판 이미지 행으로 구성됩니다.
+description: 견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추가 있는 일련의 축소판 이미지로 구성됩니다.
+seo-description: 견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추가 있는 일련의 축소판 이미지로 구성됩니다.
 seo-title: 견본
 solution: Experience Manager
 title: 견본
@@ -8,21 +8,24 @@ topic: Dynamic media
 uuid: 92360088-7199-49c3-80ee-e175d234a78e
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 3%
 
 ---
 
 
 # 견본{#swatches}
 
-색상 견본은 선택 사항인 왼쪽 및 오른쪽에 있는 축소판 이미지 행으로 구성됩니다.
+견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추가 있는 일련의 축소판 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-스크롤 단추는 모든 축소판이 컨테이너 너비에 맞지 않는 경우에만 바탕 화면에 표시됩니다. 모바일 장치에서는 축소판이 컨테이너 너비에 맞는 경우 스크롤 단추가 표시되지 않습니다.
+스크롤 단추는 모든 축소판이 컨테이너의 폭에 맞지 않는 경우에만 데스크탑에서 볼 수 있습니다. 모바일 장치에서는 축소판이 컨테이너 폭에 들어갈 수 있는 경우에는 스크롤 단추가 표시되지 않습니다.
 
 **견본의 CSS 속성**
 
-색상 견본 컨테이너의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+견본 컨테이너의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7flyoutviewer .s7swatches
@@ -38,11 +41,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 견본의 폭입니다. </p> </td> 
+   <td colname="col2"> <p> 견본 폭입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>견본의 높이입니다. </p> </td> 
+   <td colname="col2"> <p>견본 높이입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
@@ -51,7 +54,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-예 - 견본을 460 x 100픽셀로 설정하려면
+예 - 견본을 460 x 100픽셀로 설정하려면:
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -78,12 +81,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 각 축소판의 가로 및 세로 여백의 크기입니다. 실제 축소판 간격은 <span class="codeph"> .s7thumbcell에 대해 설정된 왼쪽 및 오른쪽 여백의 합과 </span>같습니다. </p> </td> 
+   <td colname="col2"> <p> 각 축소판을 둘러싼 가로 및 세로 여백의 크기입니다. 실제 축소판 간격은 <span class="codeph"> .s7thumbcell </span>에 대해 설정된 왼쪽 및 오른쪽 여백의 합과 같습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 세로 및 가로 모두 10픽셀로 간격을 설정하려면:
+예 - 세로 및 가로 모두 10픽셀로 간격을 설정하려면 다음을 수행합니다.
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -108,25 +111,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p> 축소판 견본의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>축소판 견본의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>축소판 색상 견본의 테두리 </p> </td> 
+   <td colname="col2"> <p>축소판 견본 테두리입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->축소판은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 축소판 상태에 다른 스킨을 적용하는 데 사용됩니다. 특히 `state="selected"` , 현재 기본 보기에 표시된 이미지의 축소판과 `state="default"` 해당 축소판은 나머지 축소판에 해당하며, 마우스 커서 위에 `state="over"` 사용됩니다.
+>축소판은 다른 축소판 상태에 다른 스킨을 적용하는 데 사용되는 `state` 속성 선택기를 지원합니다. 특히, `state="selected"`은 현재 기본 보기에 표시된 이미지의 축소판에 해당하고, `state="default"`는 나머지 축소판에 해당하며, 마우스 가리키기에 `state="over"`가 사용됩니다.
 
-예 - 56 x 56픽셀의 축소판을 설정하려면 밝은 회색의 기본 테두리와 어두운 회색을 선택합니다.
+예 - 56 x 56픽셀의 축소판을 설정하고, 밝은 회색의 기본 테두리를 사용하고, 어두운 회색을 선택한 테두리를 설정하려면:
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,7 +153,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-CSS, `top``left`및 `bottom``right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리는 자동으로 위치를 지정합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리는 자동으로 위치를 지정합니다.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,31 +164,31 @@ CSS, `top``left`및 `bottom``right` 속성을 사용하여 스크롤 단추를 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>스크롤 단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 `up`선택기는 단추 상태, `down``over`및 `disabled`에 다른 스킨을 적용하는 데 사용됩니다.
+>이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 단추 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용됩니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)의 현지화를 참조하십시오.
 
-예 - 56 x 56픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하려면:
+예 - 56 x 56픽셀이고 각 상태에 대해 서로 다른 아트웍을 포함하는 스크롤 단추를 설정하려면 다음과 같이 하십시오.
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

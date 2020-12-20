@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3747fef9-b065-4dc4-9c96-0ea483f1fd56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | 글꼴 경로. |
+| ` *`originalPath`*` | `xsd:string` | 글꼴 경로입니다. |
 | ` *`originalFile`*` | `xsd:string` | 글꼴 이름. |
 | ` *`fileSize`*` | `xsd:int` | 글꼴 크기. |
 

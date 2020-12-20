@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
 
 ## 매개 변수 {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-자산은 각 게시 상태와 컨텍스트에 대해 별도의 마커를 유지합니다. setAssetsContextState를 사용하여 게시 [상태를 설정합니다](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+자산은 각 게시 상태 및 컨텍스트에 대해 별도의 마커를 유지합니다. 게시 상태를 [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7)로 설정합니다.
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -46,8 +49,8 @@ source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
    <td colname="col2"><span class="codeph"> xsd:문자열</span></td>
    <td colname="col3">게시 컨텍스트의 유형입니다. 포함: 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
-     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> 이미지 제공</span></li>
-     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
+     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
+     <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> 이미지 렌더링</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> 비디오</span></li>
      <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> ServerDirectory</span></li>
     </ul></td>

@@ -1,6 +1,6 @@
 ---
-description: IPS API 버전 3.8의 새로운 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
-seo-description: IPS API 버전 3.8의 새로운 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+description: IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+seo-description: IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
 seo-title: 작업 새로 만들기 및 수정됨
 solution: Experience Manager
 title: 작업 새로 만들기 및 수정됨
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 1%
 
 ---
 
 
 # 작업:새로 만들기 및 수정됨{#operations-new-and-modified}
 
-IPS API 버전 3.8의 새로운 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
 
 구문
 
@@ -28,7 +31,7 @@ IPS API 버전 3.8의 새로운 작업 방법 및 변경된 작업 방법에 대
 * `createImageSet`
 * `getImageSetMembers`
 
-## 수정된 작업 {#section-25eee732b69c49d0a27b1f3290f8654a}
+## 수정한 작업 {#section-25eee732b69c49d0a27b1f3290f8654a}
 
 **searchAssets**
 

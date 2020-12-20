@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`logMessage`*` | `xsd:string` | 보조 메시지 |
-| ` *`logType`*` | `xsd:string` | 로그 유형: `IPSJobLog.gcUploadWarning` 또는 `IPSJobLog.gcUploadError`. |
+| ` *`logMessage`*` | `xsd:string` | 보조 메시지입니다. |
+| ` *`logType`*` | `xsd:string` | 로그 유형:`IPSJobLog.gcUploadWarning` 또는 `IPSJobLog.gcUploadError`. |
 | ` *`dateCreated`*` | `xsd:dateTime` | 보조 작업 로그 생성 날짜입니다. |
 

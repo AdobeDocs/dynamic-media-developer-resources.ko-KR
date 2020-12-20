@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 13%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 일괄 처리 작업에서 설정하려는 메타데이터가 있는 회사에 대한 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 일괄 처리 작업에서 메타데이터를 설정할 회사의 핸들입니다. |
 | ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | 예 | 자산에 적용되는 메타데이터 업데이트 배열입니다. |
 
 **출력(batchSetAssetMetadataParam)**
@@ -43,8 +46,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`successCount`*` | `xsd:int` | 예 | 성공적으로 메타데이터를 설정한 횟수입니다. |
 | ` *`warningCount`*` | `xsd:int` | 예 | 작업이 메타데이터를 설정하려고 할 때 생성된 경고 수입니다. |
 | ` *`errorCount`*` | `xsd:int` | 예 | 작업이 메타데이터를 설정하려고 할 때 생성되는 오류 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 자산에 대한 메타데이터를 일괄 설정하려고 할 때 경고를 생성하는 자산과 연관된 세부 사항의 배열입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 자산에 대한 메타데이터를 일괄 설정하려고 할 때 오류를 생성하는 자산과 연관된 세부 사항의 배열입니다. |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 자산에 대한 메타데이터를 일괄 설정하려고 할 때 경고를 생성하는 자산과 연결된 세부 사항의 배열입니다. |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 자산에 대한 메타데이터를 일괄 설정하려고 할 때 오류를 생성하는 자산과 연결된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-2de798ac920e4b47b971b1729a64395b}
 

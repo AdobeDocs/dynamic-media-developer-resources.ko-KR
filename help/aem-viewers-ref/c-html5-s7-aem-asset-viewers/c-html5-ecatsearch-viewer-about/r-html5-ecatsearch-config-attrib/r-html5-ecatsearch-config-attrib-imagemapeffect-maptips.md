@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8ed79fd8-e265-4cfb-b235-f4c0d657a3f5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 개별 맵 영역 요소에 대해 도구 설명을 사용할지 여부를 지정합니다. </p> <p> 터치 지원 데스크톱 시스템을 포함하여 터치 장치에서 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 개별 지도 영역 요소에 도구 설명을 사용할지 여부를 지정합니다. </p> <p> 터치 지원 데스크톱 시스템을 포함하여 터치 장치에서 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

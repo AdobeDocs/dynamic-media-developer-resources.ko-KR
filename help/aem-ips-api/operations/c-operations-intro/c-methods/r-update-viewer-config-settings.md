@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +34,7 @@ SWF 뷰어 구성 설정을 업데이트합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
 | ` *`configSettingArray`*` | `types:ConfigSettingArray` | 예 | 뷰어에 적용할 구성 설정의 배열입니다. |
 

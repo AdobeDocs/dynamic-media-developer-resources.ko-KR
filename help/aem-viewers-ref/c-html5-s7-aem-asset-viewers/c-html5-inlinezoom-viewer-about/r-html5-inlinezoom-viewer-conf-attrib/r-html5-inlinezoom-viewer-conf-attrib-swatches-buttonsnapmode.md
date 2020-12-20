@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: effab705-cfe9-4316-8239-ae49531f2d39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 스냅인</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
    <td> <p>단추가 견본 옆에 정렬됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> snapout</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapout</span> </span> </p> </td> 
    <td> <p>단추가 구성 요소 테두리 옆에 정렬됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 오버레이</span></span> </p> </td> 
-   <td> <p>단추가 견본 위에 렌더링되도록 합니다. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 오버레이</span> </span> </p> </td> 
+   <td> <p>단추가 견본 위에서 렌더링되도록 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

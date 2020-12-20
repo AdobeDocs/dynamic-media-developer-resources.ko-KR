@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 791164a1-93fa-411f-9fb8-f78efb96f16b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 회전 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 &amp; <span class="codeph"></span><span class="codeph"> 및</span> =의 모든 항목은 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>,각각 HTTP로 인코딩되어야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 회전 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP로 인코딩되어야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

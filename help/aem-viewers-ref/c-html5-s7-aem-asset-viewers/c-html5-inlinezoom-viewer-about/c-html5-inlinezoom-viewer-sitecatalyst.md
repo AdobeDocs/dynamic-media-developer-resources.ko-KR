@@ -1,6 +1,6 @@
 ---
-description: 플라이아웃 뷰어는 즉시 사용 가능한 Adobe Analytics 추적을 지원합니다.
-seo-description: 플라이아웃 뷰어는 즉시 사용 가능한 Adobe Analytics 추적을 지원합니다.
+description: 플라이아웃 뷰어는 즉시 Adobe Analytics 추적을 지원합니다.
+seo-description: 플라이아웃 뷰어는 즉시 Adobe Analytics 추적을 지원합니다.
 seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
@@ -8,23 +8,26 @@ topic: Dynamic media
 uuid: ac5a2de9-6275-434f-ae09-a588f4a71aa6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 2%
 
 ---
 
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-플라이아웃 뷰어는 즉시 사용 가능한 Adobe Analytics 추적을 지원합니다.
+플라이아웃 뷰어는 즉시 Adobe Analytics 추적을 지원합니다.
 
 ## 즉시 사용 가능한 추적 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-인라인 확대/축소 뷰어는 즉시 사용 가능한 [!DNL Adobe Analytics] 추적을 지원합니다. 추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수로 전달합니다.
+인라인 확대/축소 뷰어는 [!DNL Adobe Analytics] 즉시 사용 가능한 항목 추적을 지원합니다. 추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수로 전달합니다.
 
-또한 뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
+뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 핸들러 함수의 예입니다.
 
 ```
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
@@ -66,7 +69,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>setAsset() API를 사용하여 뷰어에서 <span class="codeph"> 자산이 </span> 교체되었습니다. </p> </td> 
+   <td colname="col2"> <p>뷰어에서 <span class="codeph"> setAsset() </span> API를 사용하여 에셋이 교체되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 확대/축소 </span> </p> </td> 
@@ -74,7 +77,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패닝 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> 이미지가 팬됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 견본 </span> </p> </td> 

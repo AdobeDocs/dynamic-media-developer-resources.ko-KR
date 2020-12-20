@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 14%
 
 ---
 
@@ -44,16 +47,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>작업이 속한 회사의 핸들 </p> </td> 
+   <td colname="col4"> <p>작업이 속한 회사의 핸들. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 작업 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>실행할 작업에 대한 핸들 </p> </td> 
+   <td colname="col4"> <p>실행할 작업에 대한 핸들입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

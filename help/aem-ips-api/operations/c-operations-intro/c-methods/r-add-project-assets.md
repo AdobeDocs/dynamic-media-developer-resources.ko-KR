@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -43,13 +46,13 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|---|
 | ` *`successCount`*` | `xsd:int` | 예 | 추가된 자산의 수입니다. |
 | ` *`warningCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성되는 오류 수입니다. |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 자산을 추가하려고 할 때 자산에서 생성된 경고 배열입니다. |
+| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
+| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업에 프로젝트를 추가하려고 할 때 자산에 의해 생성된 경고 배열입니다. |
 | ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 에셋을 추가하려고 할 때 에셋에 의해 생성된 오류 배열입니다. |
 
 ## 예제 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-이 예에서는 자산 핸들 배열의 단일 자산(핸들에서 참조됨)을 요청에 지정된 프로젝트에 추가합니다. 응답이 `successCount` 반환되면 작업이 성공적으로 완료되었습니다 `1`.
+이 예에서는 자산 핸들 배열의 단일 자산(핸들에서 참조됨)을 요청에 지정된 프로젝트에 추가합니다. 응답 `successCount`이 `1`을(를) 반환하면 작업이 성공적으로 완료되었습니다.
 
 **요청**
 

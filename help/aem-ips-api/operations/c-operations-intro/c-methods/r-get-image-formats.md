@@ -1,6 +1,6 @@
 ---
-description: PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
-seo-description: PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
+description: PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
+seo-description: PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
 seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 17%
 
 ---
 
 
 # getImageFormats{#getimageformats}
 
-PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
+PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
 
 구문
 
@@ -34,7 +37,7 @@ PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 가져오려는 이미지 형식이 있는 회사에 대한 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 가져올 이미지 형식이 있는 회사에 대한 핸들입니다. |
 
 **출력(getImageFormatsParam)**
 

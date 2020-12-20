@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1b776481-c40b-4892-9891-ebf3e713a4dc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> is <span class="varname"> Command</span></span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>FlyoutZoomView 기본 이미지와 확대된 보기에 적용되는 Image Serving 명령 문자열. URL에 지정된 경우 &amp; <span class="codeph"> 및</span> =를 모두 HTTP로 인코딩해야 합니다. <span class="codeph"> (%26</span> 및 <span class="codeph"> %3D</span> , <span class="codeph"> 각각)</span>. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>FlyoutZoomView 기본 이미지에 적용되는 Image Serving 명령 문자열 및 확대된 보기의 보기입니다. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> = </span> 등의 모든 항목을 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP에서 인코딩해야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(창 커버링 프레임 객체 포함)를 표시합니다.
-seo-description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(창 커버링 프레임 객체 포함)를 표시합니다.
+description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(윈도우 커버 프레임 객체 포함)를 표시합니다.
+seo-description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(윈도우 커버 프레임 객체 포함)를 표시합니다.
 seo-title: 표시
 solution: Experience Manager
 title: 표시
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 31255529-9277-40d9-9c57-205d22479600
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 8%
 
 ---
 
 
 # 표시{#show}
 
-오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(창 커버링 프레임 객체 포함)를 표시합니다.
+오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(윈도우 커버 프레임 객체 포함)를 표시합니다.
 
 `Show[= *`val`*]`
 
@@ -27,11 +30,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 속성 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-현재 선택 항목에 겹치는 개체가 포함되어 있지 않거나 겹쳐진 개체가 숨겨져 있지 않으면 무시됩니다.
+현재 선택 영역에 겹치는 개체가 없거나 겹쳐진 개체가 숨겨지지 않은 경우에는 무시됩니다.
 
 ## 기본값 {#section-04972797d24d4b9f93790a31dfaa4743}
 
-없음, 객체 가시성이 변경되지 않습니다.
+없음. 객체 가시성이 변경되지 않습니다.
 
 ## 참조 {#section-2a1a37a35dfb41758897164e14f0105f}
 

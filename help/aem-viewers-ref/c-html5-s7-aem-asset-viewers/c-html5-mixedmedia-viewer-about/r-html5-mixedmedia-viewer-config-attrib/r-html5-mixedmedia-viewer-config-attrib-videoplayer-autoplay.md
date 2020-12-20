@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 07576390-dd17-4a28-b372-7bba207bdebe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 25%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어가 로드 시 비디오 재생을 시작하는지 여부를 나타냅니다. 특정 모바일 디바이스와 같은 일부 시스템은 AutoPlay를 지원하지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어가 로드 시 비디오 재생을 시작하는지 여부를 나타냅니다. 특정 모바일 장치와 같은 일부 시스템은 AutoPlay를 지원하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

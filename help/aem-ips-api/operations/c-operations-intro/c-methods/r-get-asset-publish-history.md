@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -36,18 +39,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사의 핸들. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사에 대한 핸들입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 검사할 게시 내역이 있는 자산입니다. |
 
 **출력(getAssetPublishHistoryReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 내역. |
+| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 작업 내역입니다. |
 
 ## 예제 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-이 코드 샘플은 자산의 게시 내역을 반환합니다. 서버가 빈 배열을 반환하는 경우 자산이 게시된 적이 없습니다.
+이 코드 샘플은 자산의 게시 내역을 반환합니다. 서버가 빈 배열을 반환하는 경우 에셋이 게시된 적이 없습니다.
 
 **요청**
 

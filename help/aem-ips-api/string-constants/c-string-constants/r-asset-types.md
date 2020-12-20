@@ -1,6 +1,6 @@
 ---
-description: 다양한 입력 매개 변수에 사용되는 값에 대해 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
-seo-description: 다양한 입력 매개 변수에 사용되는 값에 대해 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
+description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
+seo-description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
 seo-title: 자산 유형
 solution: Experience Manager
 title: 자산 유형
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 14%
 
 ---
 
 
 # 자산 유형{#asset-types}
 
-다양한 입력 매개 변수에 사용되는 값에 대해 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
+다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
 
 구문
 
-## 사용 방법 {#section-2d471a1b240b4f5794454f0e5fcc5206}
+## {#section-2d471a1b240b4f5794454f0e5fcc5206}에서 사용됨
 
 * [!DNL `Input(searchAssetsParam)/assetTypeArray`]
 * [!DNL `Asset/type`]

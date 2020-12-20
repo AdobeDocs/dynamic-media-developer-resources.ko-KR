@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
@@ -31,16 +34,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:sting` | 아니요 | 사용자 핸들 |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 다양한 회사 |
+| ` *`userHandle`*` | `xsd:sting` | 아니요 | 사용자 핸들. |
+| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 다양한 회사. |
 
-**출력(set 파섹**
+**출력(setCompanyMembershipParam)**
 
 IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-862c0cc32ce0407ab248028e690a8386}
 
-이 코드 샘플은 사용자를 회사에 추가합니다. 필요한 경우 회사 핸들 어레이에 여러 회사를 지정합니다.
+이 코드 샘플은 사용자를 회사에 추가합니다. 필요한 경우 회사 핸들 배열에 여러 회사를 지정하십시오.
 
 **요청**
 

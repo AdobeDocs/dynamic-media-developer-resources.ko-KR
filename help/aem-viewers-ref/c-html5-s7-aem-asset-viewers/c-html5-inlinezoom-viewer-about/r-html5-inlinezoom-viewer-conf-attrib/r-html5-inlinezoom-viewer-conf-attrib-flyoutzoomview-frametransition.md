@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: c9cd5df1-fb7b-4acb-afc1-a62b563d8654
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. </p> <p><span class="codeph"> 전환 없이</span> 기본 보기 변경이 즉시 발생합니다. </p> <p><span class="codeph"> 페이드</span> - 이전 이미지가 페이드 아웃되고 새 이미지가 페이드 인 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. </p> <p><span class="codeph"> 전환 </span> 없이 기본 보기를 변경하면 기본 보기가 즉시 변경됩니다. </p> <p><span class="codeph"> </span> 페이드된 이전 이미지와 새 이미지가 페이드 인되는 크로스 페이드 전환을 활성화합니다. </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 애니메이션이 완료되는 데 걸리는 시간(초)입니다. </p> </td> 
+   <td colname="col2"> <p> 애니메이션이 완료하는 데 걸리는 시간(초)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

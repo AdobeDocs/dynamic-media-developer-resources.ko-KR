@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
@@ -25,4 +28,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-HTTP 응답에 액세스할 수 없습니다. MIME 유형이 있는 빈 응답이 반환됩니다 `text/plain`.
+HTTP 응답을 액세스할 수 없습니다. MIME 유형이 `text/plain`인 빈 응답이 반환됩니다.

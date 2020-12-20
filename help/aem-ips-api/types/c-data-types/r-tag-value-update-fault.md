@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e557c7da-2366-4f97-a354-c2d603aa996f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`value`*` | `xsd:string` | 업데이트에 실패한 태그 값. |
+| ` *`value`*` | `xsd:string` | 업데이트에 실패한 태그 값입니다. |
 | ` *`코드`*` | `xsd:int` | 오류 코드 번호입니다. |
 | ` *`이유`*` | `xsd:string` | 오류 메시지(일반 텍스트). |
 

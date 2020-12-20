@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0abdf72c-f445-41d0-bd88-63b7ad1359d5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-28de12bab79045a5977c68855e37ae3d}
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 맵이 들어 있는 회사에 대한 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 맵을 포함하는 회사의 핸들입니다. |
 | ` *`imageMapHandle`*` | `xsd:string` | 예 | 삭제할 이미지 맵의 핸들입니다. |
 
 **출력(deleteImageMapParam)**

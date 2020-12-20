@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: abd9624d-b24d-491c-afe2-1aafbdf90ae1
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 장 레이블의 제목 표시줄을 활성화/비활성화합니다. 제목 표시줄이 비활성화되면 장 시작 시간이 표시되지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 장 레이블의 제목 표시줄을 활성화/비활성화합니다. 제목 표시줄이 비활성화되어 있으면 장 시작 시간이 표시되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 1 <span class="codeph"> 로</span> 설정하면 구성 요소가 정의된 레이블이 없는 페이지에도 모든 페이지의 요소로 드롭다운 패널을 채웁니다. </p> <p>0으로 <span class="codeph"></span> 설정하면 명확한 레이블이 있는 항목만 드롭다운 패널에 표시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> 1</span>으로 설정하면 레이블이 정의되지 않은 페이지에 대해서도 모든 페이지의 요소로 드롭다운 패널을 채웁니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 명확한 레이블이 있는 항목만 드롭다운 패널에 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-description: 자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열을 사용하여 값을 일괄적으로 설정할 수 있습니다.
-seo-description: 자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열을 사용하여 값을 일괄적으로 설정할 수 있습니다.
+description: 자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열로 작업하여 값을 일괄적으로 설정할 수 있습니다.
+seo-description: 자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열로 작업하여 값을 일괄적으로 설정할 수 있습니다.
 seo-title: setAssetMetadata
 solution: Experience Manager
 title: setAssetMetadata
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
 
 # setAssetMetadata{#setassetmetadata}
 
-자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열을 사용하여 값을 일괄적으로 설정할 수 있습니다.
+자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열로 작업하여 값을 일괄적으로 설정할 수 있습니다.
 
 구문
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->사용자는 자산에 대한 읽기 액세스 권한이 있어야 합니다.
+>사용자에게 자산에 대한 읽기 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-bcdcff30905e444388811e897b2824bd}
 
@@ -37,11 +40,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 업데이트할 자산이 있는 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 업데이트할 자산이 있는 회사에 대한 핸들입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 자산의 핸들입니다. |
 | ` *`updateArray`*` | `types:MetadataUpdateArray` | 예 | 메타데이터 업데이트 배열에서 업데이트합니다. |
 
-**출력(set 파섹**
+**출력(setAssetMetadataReturn)**
 
 IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 

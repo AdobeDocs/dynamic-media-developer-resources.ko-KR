@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 10%
 
 ---
 
@@ -31,11 +34,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
 | ` *`name`*` | `xsd:string` | 예 | 자산 이름. |
 | ` *`type`*` | `xsd:string` | 예 | 뷰어 구성을 적용할 자산의 유형입니다. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 예 | 자산에 `ConfigSettings` 적용되는 배열... |
+| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 예 | 자산에 적용된 `ConfigSettings` 배열.. |
 
 **출력(setViewerConfigSettingsParam)**
 

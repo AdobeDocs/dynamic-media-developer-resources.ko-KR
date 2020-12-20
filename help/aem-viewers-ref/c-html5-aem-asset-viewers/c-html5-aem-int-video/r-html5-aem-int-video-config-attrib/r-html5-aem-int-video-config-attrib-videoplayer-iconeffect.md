@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a403d44d-d5b5-4d09-876e-39146585704f
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 일시 중지 상태일 때 비디오 상단에 IconEffect가 표시되도록 합니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이러한 경우 iconeffect <span class="codeph"></span> 수정자는 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 일시 중지된 상태에서 비디오 위에 표시되도록 IconEffect를 활성화합니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이 경우 <span class="codeph"> 아이콘 효과</span> 수정자는 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 계수</span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffect가 표시되고 다시 표시되는 최대 횟수를 지정합니다. 값이 <span class="codeph"> -1</span> 이면 아이콘이 무기한 다시 나타납니다. </p> </td> 
+   <td colname="col2"> <p> IconEffect가 나타나고 다시 나타나는 최대 횟수를 지정합니다. <span class="codeph"> -1</span>의 값은 아이콘이 무기한 다시 표시됨을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 페이드</span></span> </p> </td> 
@@ -34,7 +37,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> IconEffect가 자동 숨김 전에 완전히 표시되는 시간(초)을 설정합니다. 즉, 페이드 인 애니메이션이 완료된 후 페이드 아웃 애니메이션이 시작되기 전의 시간입니다. 자동 숨기기 동작을 비활성화하려면 <span class="codeph"> 0으로</span> 설정합니다. </p> </td> 
+   <td colname="col2"> <p> IconEffect가 자동으로 가려지기 전에 완전히 표시되는 상태로 유지되는 시간(초)을 설정합니다. 즉, 애니메이션의 페이드가 완료된 후 페이드 아웃 애니메이션이 시작되기 전의 시간입니다. 자동 숨기기 비헤이비어를 비활성화하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

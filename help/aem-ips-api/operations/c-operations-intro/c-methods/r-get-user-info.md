@@ -1,6 +1,6 @@
 ---
-description: 사용자에 대한 정보를 가져옵니다. 시스템 사용자의 이메일 주소와 암호를 요청 인증을 위한 자격 증명으로 사용하십시오. 그렇지 않으면 기본 사용자에 대한 정보를 가져옵니다.
-seo-description: 사용자에 대한 정보를 가져옵니다. 시스템 사용자의 이메일 주소와 암호를 요청 인증을 위한 자격 증명으로 사용하십시오. 그렇지 않으면 기본 사용자에 대한 정보를 가져옵니다.
+description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
+seo-description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
 seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 9%
 
 ---
 
 
 # getUserInfo{#getuserinfo}
 
-사용자에 대한 정보를 가져옵니다. 시스템 사용자의 이메일 주소와 암호를 요청 인증을 위한 자격 증명으로 사용하십시오. 그렇지 않으면 기본 사용자에 대한 정보를 가져옵니다.
+사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
 
 구문
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userInfo`*` | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할뿐만 아니라 사용자의 유효 여부 및 암호가 만료된 시기 |
+| ` *`userInfo`*` | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할뿐만 아니라 사용자의 유효 여부 및 사용자 암호가 만료될 때 |
 
 ## 예제 {#section-98d77a2e360a438dbe240099bea26a65}
 

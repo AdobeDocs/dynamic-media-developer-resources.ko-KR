@@ -1,6 +1,6 @@
 ---
-description: 그룹별로 자산을 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
-seo-description: 그룹별로 자산을 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
+description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
+seo-description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
 seo-title: 권한
 solution: Experience Manager
 title: 권한
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
 
-# Permission{#permission}
+# 권한{#permission}
 
-그룹별로 자산을 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
+그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
 
 구문
 
@@ -23,8 +26,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | ` *`groupHandle`*` | `xsd:string` | 그룹 핸들. |
-| ` *`groupName`*` | `xsd:string` | 그룹 이름입니다. |
-| ` *`permissionType`*` | `xsd:string` | 권한 유형 선택 |
-| ` *`isAllowed`*` | `xsd:boolean` | 권한이 허용되는지 여부를 결정합니다. |
-| ` *`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 무시할지 여부를 결정합니다. |
+| ` *`groupName`*` | `xsd:string` | 그룹 이름. |
+| ` *`permissionType`*` | `xsd:string` | 권한 유형 선택. |
+| ` *`isAllowed`*` | `xsd:boolean` | 권한이 허용되는지 확인합니다. |
+| ` *`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 확인합니다. |
 

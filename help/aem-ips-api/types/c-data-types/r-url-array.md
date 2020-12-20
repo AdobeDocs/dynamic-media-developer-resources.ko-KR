@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
 
 CDN 캐시를 무효화하기 위한 URL 배열입니다.
 
-**지원 날짜**
+**지원 날짜:**
 
 4.5.0, 패치 2011-02
 
@@ -32,9 +35,9 @@ CDN 캐시를 무효화하기 위한 URL 배열입니다.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 항목</span></span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 항목</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td> <p> 무효화할 URL 목록. WSDL 정의에 의한 최대 1000개의 URL로 제한됩니다. </p> </td> 
+   <td> <p> 무효화할 URL 목록. WSDL 정의로 최대 1000개의 URL로 제한됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

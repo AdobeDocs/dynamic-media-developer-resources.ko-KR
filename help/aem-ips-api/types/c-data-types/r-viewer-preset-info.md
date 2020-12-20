@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0117488d-b89d-48d4-b081-af177a22f71f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
@@ -22,6 +25,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`type`*` | `xsd:string` | 뷰어 유형 선택 |
+| ` *`type`*` | `xsd:string` | 뷰어 유형 선택. |
 | ` *`configSettingArray`*` | `types:ConfigSettingArray` | 뷰어 구성 설정 배열입니다. |
 

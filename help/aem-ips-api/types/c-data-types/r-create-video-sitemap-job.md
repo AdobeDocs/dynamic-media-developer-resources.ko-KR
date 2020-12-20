@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 강제 <span class="varname"> 업데이트</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">true로 설정된 경우 사이트 맵을 <span class="codeph"> 생성합니다</span>. <p><p>참고:사이트 맵 생성 구성이 수작업으로 설정되어 있고 강제 <span class="codeph"> 업데이트가</span> 설정되어 있지 않으면 사이트 맵이 생성되지 않습니다. </p></p></td> 
+   <td colname="col3"><span class="codeph"> true</span>로 설정되면 사이트 맵을 생성합니다. <p><p>참고:Sitemap 생성 구성이 수작업으로 설정되어 있고 <span class="codeph"> forceUpdate</span>이(가) 설정되어 있지 않으면 사이트 맵이 생성되지 않습니다. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

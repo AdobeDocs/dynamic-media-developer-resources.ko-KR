@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b0f1ddb3-2051-4f14-a791-f06efcbfaef2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '21'
+ht-degree: 33%
 
 ---
 
@@ -21,5 +24,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | ` *`setHandle`*` | `xsd:string` | 속성 세트에 대한 핸들입니다. |
-| ` *`permissionsArray`*` | `types:PermissionUpdateArray` | 일련의 권한. |
+| ` *`permissionsArray`*` | `types:PermissionUpdateArray` | 권한 배열입니다. |
 

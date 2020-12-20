@@ -1,20 +1,23 @@
 ---
-description: 업로드 중에 지정된 옵션. 업로드에 대한 색상 관리 방식에 영향을 줍니다.
-seo-description: 업로드 중에 지정된 옵션. 업로드에 대한 색상 관리 방식에 영향을 줍니다.
-seo-title: ColorManagement옵션
+description: 업로드 중에 지정된 옵션. 업로드할 색상이 관리되는 방식에 영향을 줍니다.
+seo-description: 업로드 중에 지정된 옵션. 업로드할 색상이 관리되는 방식에 영향을 줍니다.
+seo-title: ColorManagementOptions
 solution: Experience Manager
-title: ColorManagement옵션
+title: ColorManagementOptions
 topic: Scene7 Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
-# ColorManagement옵션{#colormanagementoptions}
+# ColorManagementOptions{#colormanagementoptions}
 
-업로드 중에 지정된 옵션. 업로드에 대한 색상 관리 방식에 영향을 줍니다.
+업로드 중에 지정된 옵션. 업로드할 색상이 관리되는 방식에 영향을 줍니다.
 
 구문
 
@@ -23,6 +26,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | ` *`colorManagement`*` | `xsd:string` | 색상 관리 모드 선택 |
-| ` *`sourceProfileHandle`*` | `xsd:string` | 소스 프로필 핸들입니다. |
-| ` *`outputProfileHandle`*` | `xsd:string` | 출력 프로파일 핸들 |
+| ` *`sourceProfileHandle`*` | `xsd:string` | 소스 프로필 핸들. |
+| ` *`outputProfileHandle`*` | `xsd:string` | 출력 프로파일 핸들. |
 

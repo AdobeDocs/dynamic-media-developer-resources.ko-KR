@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
@@ -37,8 +40,8 @@ source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들 |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 삭제할 폴더의 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
+| ` *`folderHandle`*` | `xsd:string` | 예 | 삭제할 폴더의 핸들. |
 
 **출력(deleteFolderParam)**
 

@@ -1,6 +1,6 @@
 ---
-description: 이미지 세트와 관련된 자산 목록을 설정합니다.
-seo-description: 이미지 세트와 관련된 자산 목록을 설정합니다.
+description: 이미지 세트와 연관된 자산 목록을 설정합니다.
+seo-description: 이미지 세트와 연관된 자산 목록을 설정합니다.
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 8%
 
 ---
 
 
 # setImageSetMembers{#setimagesetmembers}
 
-이미지 세트와 관련된 자산 목록을 설정합니다.
+이미지 세트와 연관된 자산 목록을 설정합니다.
 
-이 작업은 에 대한 `pageReset` 매개 변수를 `ImageSets` 무시하고 `SpinSets` 값을 true로 강제 적용합니다.
+이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 설정합니다.
 
 ## 인증된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->사용자는 이미지 집합 자산에 대한 읽기 및 쓰기 액세스 권한과 각 구성원 자산에 대한 읽기 액세스 권한이 있어야 합니다.
+>사용자는 이미지 세트 자산에 대한 읽기 및 쓰기 액세스 권한과 각 멤버 자산에 대한 읽기 액세스 권한을 가지고 있어야 합니다.
 
 ## 매개 변수 {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -46,19 +49,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>회사 핸들 </p> </td> 
+   <td colname="col4"> <p>회사 핸들. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 자산 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 이미지 세트 핸들 </td> 
+   <td colname="col4"> 이미지 세트 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> memberArray <span class="varname"></span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 세트에 속하는 자산 멤버의 배열입니다. </td> 

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 미리 로드 동작을 지정합니다. </p> <p>-1 <span class="codeph"> 로</span>설정하면 구성 요소가 초기화되거나 자산이 변경될 때 모든 축소판이 동시에 로드됩니다. </p> <p>0으로 <span class="codeph"> 설정하면</span>보이는 축소판만 로드됩니다. </p> <p> preloadnbr <span class="codeph"><span class="varname"> 으로</span></span>설정하면 표시 영역 주위에 표시되는 행 수가 미리 로드되도록 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 미리 로드 동작을 지정합니다. </p> <p><span class="codeph"> -1</span>으로 설정하면 구성 요소가 초기화되거나 자산이 변경될 때 모든 축소판이 동시에 로드됩니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 보이는 축소판만 로드됩니다. </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>로 설정하면 표시 영역 주위에 미리 로드되는 보이지 않는 행 수를 지정할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

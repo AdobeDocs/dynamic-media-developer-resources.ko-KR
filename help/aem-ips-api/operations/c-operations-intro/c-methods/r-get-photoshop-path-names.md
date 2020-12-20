@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 이미지 자산에 대한 핸들 |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 이미지 에셋으로 처리합니다. |
 
 **출력(getPhotoshopPathNamesReturn)**
 

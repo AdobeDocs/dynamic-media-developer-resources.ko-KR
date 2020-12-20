@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 22%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 설정을 검색할 회사의 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 설정을 검색하려는 회사의 핸들입니다. |
 
 **출력(getCompanySettingsReturn)**
 

@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 26%
 
 ---
 
@@ -35,11 +38,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 예 | 비네팅 게시 형식 배열입니다. |
+| ` *`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 예 | 비네팅 게시 형식의 배열입니다. |
 
 ## 예제 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-이 코드 샘플은 특정 회사와 연결된 두 개의 비네팅 게시 형식을 반환합니다. 정보가 배열로 반환되며 간결하게 잘립니다.
+이 코드 샘플은 특정 회사와 연결된 2개의 비네팅 게시 형식을 반환합니다. 정보가 배열 내에 반환되어 간결하게 잘립니다.
 
 **요청**
 

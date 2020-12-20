@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | 자산이 속하는 회사의 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 검색할 작업 로그와 함께 자산에 대한 핸들. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 검색할 작업 로그가 있는 에셋에 대한 핸들입니다. |
 
 **출력(getAssetJobLogsReturn)**
 
@@ -47,7 +50,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-이 코드 샘플은 특정 자산의 작업 로그를 검색합니다. 응답은 자산이 사용된 모든 작업에 대한 자세한 정보가 포함된 작업 로그 배열을 반환합니다.
+이 코드 샘플은 특정 자산의 작업 로그를 검색합니다. 응답에서는 자산이 사용된 모든 작업에 대한 자세한 정보가 포함된 작업 로그 배열을 반환합니다.
 
 **요청**
 

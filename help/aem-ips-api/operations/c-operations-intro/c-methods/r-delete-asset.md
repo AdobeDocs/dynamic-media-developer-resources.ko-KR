@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->사용자는 자산에 대한 읽기 및 삭제 액세스 권한이 있어야 합니다.
+>사용자에게 자산에 대한 읽기 및 삭제 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -37,8 +40,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들 |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
 
 **출력(deleteAssetParam)**
 

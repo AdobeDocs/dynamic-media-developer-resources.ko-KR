@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 87852fcc-026f-4a1d-b4a4-3ce532872b85
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽|가운데|오른쪽</span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 가로 정렬(또는 고정)을 지정합니다. </p> <p>클릭유도에서 내부 축소판 컨테이너의 크기는 전체 축소판 수만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. </p> <p>이 수정자는 내부 축소판 컨테이너가 구성 요소 내에서 가로로 위치하는 방식을 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 가로 정렬(또는 고정)을 지정합니다. </p> <p>클릭유도에서 내부 축소판 컨테이너의 크기는 전체 축소판 수만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. </p> <p>이 수정자는 구성 요소 내에서 내부 축소판 컨테이너가 수평으로 위치하는 방식을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

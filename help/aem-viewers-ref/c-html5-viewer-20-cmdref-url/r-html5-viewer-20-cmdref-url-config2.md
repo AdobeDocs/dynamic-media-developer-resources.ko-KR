@@ -1,6 +1,6 @@
 ---
-description: 모든 뷰어에 공통으로 사용되는 매개 변수입니다.
-seo-description: 모든 뷰어에 공통으로 사용되는 매개 변수입니다.
+description: 모든 뷰어에 공통되는 매개 변수입니다.
+seo-description: 모든 뷰어에 공통되는 매개 변수입니다.
 seo-title: config2
 solution: Experience Manager
 title: config2
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
 
 
 # config2{#config}
 
-모든 뷰어에 공통으로 사용되는 매개 변수입니다.
+모든 뷰어에 공통되는 매개 변수입니다.
 
 >[!NOTE]
 >
@@ -25,8 +28,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span></span> </p> </td> 
-   <td colname="col2"> <p> Adobe Analytics <span class="keyword"> 구성</span> 사전 설정의 이름입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Analytics</span> 구성 사전 설정의 이름입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

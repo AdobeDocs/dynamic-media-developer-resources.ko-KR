@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 기본적으로 뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 핸들러 함수의 예입니다.
 
 ```
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -57,7 +60,7 @@ var carouselViewer = new s7viewers.CarouselViewer({
    <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배너 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배너  </span> </p> </td> 
    <td colname="col2"> <p>회전판 배너 이미지가 변경되었습니다. </p> </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,6 @@
 ---
-description: 모든 뷰어에 공통으로 사용되는 매개 변수입니다.
-seo-description: 모든 뷰어에 공통으로 사용되는 매개 변수입니다.
+description: 모든 뷰어에 공통되는 매개 변수입니다.
+seo-description: 모든 뷰어에 공통되는 매개 변수입니다.
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: ef9870f9-599b-449d-b713-66abafb80311
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
 
 # videoServerUrl{#videoserverurl}
 
-모든 뷰어에 공통으로 사용되는 매개 변수입니다.
+모든 뷰어에 공통되는 매개 변수입니다.
 
 >[!NOTE]
 >
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 비디오 <span class="varname"> RootPath</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 도메인을 지정하지 않으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 속성 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-선택 사항입니다. 서비스 사용으로서 표준 소프트웨어에는 필요하지 않습니다.
+선택 사항입니다. 서비스 사용으로서 표준 소프트웨어에 필요하지 않습니다.
 
 ## 기본값 {#section-d411e450028c460392cb8508f8ccc5d9}
 

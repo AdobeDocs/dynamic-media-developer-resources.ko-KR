@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
@@ -42,28 +45,28 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 회사 <span class="varname"> 핸들</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>재설정할 자산이 들어 있는 회사를 처리합니다. </p> </td> 
+   <td colname="col4"> <p>재설정할 자산이 있는 회사를 처리합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> 다시 게시파일</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>자산의 파일이 배달 서버에 다시 게시되도록 지정합니다. 기본값은 <span class="codeph"> true입니다</span>. </p> </td> 
+   <td colname="col4"> <p>자산의 파일이 배달 서버에 다시 게시되도록 지정합니다. 기본값은 <span class="codeph"> true</span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> 다시 <span class="varname"> 동기화</span> 카탈로그 </span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>자산을 제공하는 데 사용되는 카탈로그 메타데이터가 최신 메타데이터임을 보장하기 위해 동기화되도록 지정합니다. 이 매개 변수는 동일한 레코드에 대한 동시 업데이트 시 발생할 수 있는 경합 조건을 해결하는 데 사용됩니다. 기본값은 <span class="codeph"> false입니다</span>. </p> </td> 
+   <td colname="col4"> <p>자산을 제공하는 데 사용된 카탈로그 메타데이터가 최신 메타데이터임을 보장하기 위해 동기화되도록 지정합니다. 이 매개 변수는 동일한 레코드에 대한 동시 업데이트에 발생할 수 있는 경합 조건을 해결하는 데 사용됩니다. 기본값은 <span class="codeph"> false</span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> assetHandleArray <span class="varname"></span></span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:HandleArray</span> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>게시 상태를 재설정할 자산의 핸들 배열입니다. </p> </td> 
+   <td colname="col4"> <p>게시 상태를 재설정할 자산에 대한 핸들 배열입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +84,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> publishStateUpdateArray <span class="varname"> 게시</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>게시 상태 업데이트 배열입니다. </p> </td> 

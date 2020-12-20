@@ -1,6 +1,6 @@
 ---
-description: 형식 아이디와 연결된 속성 집합을 가져옵니다.
-seo-description: 형식 아이디와 연결된 속성 집합을 가져옵니다.
+description: 유형 아이디와 연결된 속성 집합을 가져옵니다.
+seo-description: 유형 아이디와 연결된 속성 집합을 가져옵니다.
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
 
 # getPropertySets{#getpropertysets}
 
-형식 아이디와 연결된 속성 집합을 가져옵니다.
+유형 아이디와 연결된 속성 집합을 가져옵니다.
 
 구문
 
@@ -37,14 +40,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`typeHandle`*` | `xsd:string` | 예 | 속성 집합 유형의 핸들입니다. |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | 예 | 데이터베이스 개체에 바인딩된 데이터의 기본 소유자입니다. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 데이터의 보조 소유자(선택 사항) |
+| ` *`primaryOwnerHandle`*` | `xsd:string` | 예 | 데이터베이스 객체에 바인딩된 데이터의 기본 소유자입니다. |
+| ` *`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 데이터의 보조 소유자(선택 사항). |
 
 **출력(getPropertySetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | 예 | 속성 집합. |
+| ` *`setArray`*` | `types:PropertySetArray` | 예 | 속성 집합 배열. |
 
 ## 예제 {#section-1358af974eab4259864910337a6f0bd2}
 

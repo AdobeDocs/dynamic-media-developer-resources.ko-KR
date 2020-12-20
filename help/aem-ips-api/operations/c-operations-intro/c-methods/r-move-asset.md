@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cabeb7b7-ab0b-44d0-ad90-623f76e4323d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
@@ -33,9 +36,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 이동할 자산을 처리합니다. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 대상 폴더로 이동합니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 이동할 에셋을 처리합니다. |
+| ` *`folderHandle`*` | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
 
 **출력(moveAssetReturn)**
 

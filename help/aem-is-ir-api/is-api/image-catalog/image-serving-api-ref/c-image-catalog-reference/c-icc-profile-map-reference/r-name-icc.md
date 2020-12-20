@@ -1,6 +1,6 @@
 ---
-description: 프로필 바로 가기 이름입니다. 색상 프로파일의 바로 가기 이름입니다.
-seo-description: 프로필 바로 가기 이름입니다. 색상 프로파일의 바로 가기 이름입니다.
+description: 프로필 바로 가기 이름. 색상 프로파일의 바로 가기 이름입니다.
+seo-description: 프로필 바로 가기 이름. 색상 프로파일의 바로 가기 이름입니다.
 seo-title: 이름
 solution: Experience Manager
 title: 이름
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: eca98f72-f863-4b7f-961e-81252f907d45
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 11%
 
 ---
 
 
 # 이름{#name}
 
-프로필 바로 가기 이름입니다. 색상 프로파일의 바로 가기 이름입니다.
+프로필 바로 가기 이름. 색상 프로파일의 바로 가기 이름입니다.
 
 ## 속성 {#section-30fc50f71f4a4ea7b14b2524d1f2b698}
 

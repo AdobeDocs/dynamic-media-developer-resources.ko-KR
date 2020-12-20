@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 17%
 
 ---
 
@@ -44,7 +47,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-이 코드 샘플은 시스템 속성의 배열을 반환합니다. 간결한 응답입니다.
+이 코드 샘플은 시스템 속성의 배열을 반환합니다. 간결성에 대해 응답이 잘렸습니다.
 
 **요청**
 

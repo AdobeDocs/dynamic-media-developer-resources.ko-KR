@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원을 설정하려는 사용자의 핸들 |
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 회사 핸들 |
-| ` *`groupHandleArray`*` | `types:HandleArray` | 예 | 사용자가 속한 그룹에 대한 핸들 배열입니다. |
+| ` *`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원 자격을 설정하려는 사용자에 대한 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 아니요 | 회사 핸들. |
+| ` *`groupHandleArray`*` | `types:HandleArray` | 예 | 사용자가 속한 그룹의 핸들 배열입니다. |
 
 **출력(setGroupMembershipReturn)**
 

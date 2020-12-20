@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
@@ -16,15 +19,15 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 비디오 뷰어에 대한 구성 속성입니다.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`위젯 위젯 높이`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthhewidthheight`*[,0|1]]`
 
-포함 공유 모달 대화 상자에서 크기 콤보 상자의 포함 크기 목록을 지정합니다.
+포함 공유 양식 대화 상자에서 크기 콤보 상자의 포함 크기 목록을 지정합니다.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> 포함 너비. </p> </td> 
+   <td colname="col2"> <p> 너비 포함. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 처음에 콤보 상자에서 이 목록 항목을 미리 선택할지 여부를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 콤보 상자에서 이 목록 항목을 처음에 미리 선택할지 여부를 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

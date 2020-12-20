@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 18%
 
 ---
 
@@ -33,8 +36,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 회사 핸들 |
-| ` *`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들 |
+| ` *`companyName`*` | `xsd:string` | 예 | 회사 핸들. |
+| ` *`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들. |
 | ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들 배열입니다. |
 
 **출력(setProjectAssetsReturn)**
@@ -45,7 +48,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-이 코드 샘플은 프로젝트에 자산을 할당합니다. 요청이 성공 카운트를 반환합니다.
+이 코드 샘플은 프로젝트에 에셋을 할당합니다. 요청은 성공 카운트를 1로 반환합니다.
 
 **요청**
 

@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 2%
 
 ---
 
@@ -36,28 +39,28 @@ IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니�
 * `PublishContext`
 * `PublishContextArray`
 
-## 수정된 유형 {#section-56b834b1a3b843279d8715b4a4f3890b}
+## 수정된 형식 {#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **추가됨**
 
-* 에 `numUrls` 추가되었습니다 `UploadUrlsJob`.
+* `numUrls`을(를) `UploadUrlsJob`에 추가했습니다.
 
-* 에 `fileName` 추가됨 `Asset.`
+* `Asset.`에 `fileName`을(를) 추가했습니다.
 
-* 에 `isHidden` 추가되었습니다 `MetadataField`.
+* `isHidden`을(를) `MetadataField`에 추가했습니다.
 
-* 에 `taskState` 추가되었습니다 `TaskProgress`.
+* `taskState`을(를) `TaskProgress`에 추가했습니다.
 
-* 및 `exportJob` 에 `ActiveJob` 추가되었습니다 `ScheduledJob`.
+* `exportJob`을(를) `ActiveJob` 및 `ScheduledJob`에 추가했습니다.
 
-* 에 `optmizedPath` 및 `optimizedFile` 을 `PsdInfo`추가했습니다.
+* `optmizedPath` 및 `optimizedFile`을(를) `PsdInfo`에 추가했습니다.
 
-* 추가된 `contextHandle` 위치:
+* 다음에 `contextHandle`을(를) 추가했습니다.
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 다음 매개 변수를 `Asset`추가했습니다.
+* 다음 매개 변수를 `Asset`에 추가했습니다.
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -66,9 +69,9 @@ IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니�
 
 **변경**
 
-* 에서 `User`로 `role` `defaultRole`변경되었습니다.
+* `User`에서 `role`을(를) `defaultRole`(으)로 변경했습니다.
 
-* 에서 `Folder`로 `permissions` `permissionsSetHandle`변경되었습니다.
+* `Folder`에서 `permissions`을(를) `permissionsSetHandle`(으)로 변경했습니다.
 
-* in `AssetSummary`및 `type` `name` 이제 선택 사항입니다.
+* 이제 `AssetSummary`에서 `type` 및 `name`는 선택 사항입니다.
 

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">[0|1][,지속 시간][,방향]</span> </p> </td> 
-   <td colname="col2"> <p> 회전 메뉴에 각 배너를 표시할 시간(설정/해제)과 자동 루프의 방향을 지정합니다. </p> <p>자동 루프가 꺼지려면 <span class="codeph"> 0으로</span> 설정합니다. </p> <p>전환 지속 시간(초)을 기준으로 <span class="codeph"> 자동 루프가 설정되도록</span> 1 <span class="codeph"> 을</span>설정할 수 있습니다. </p> <p>자동 루프의 방향은 <span class="codeph"> 방향으로</span>제어됩니다. 방향은 <span class="codeph"></span> 1 <span class="codeph"> 오른쪽에서 왼쪽으로,</span> 0 <span class="codeph"> 왼쪽에서 오른쪽으로</span> 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 회전 메뉴에 각 배너를 표시할 시작/해제 시간 및 자동 루프 방향을 지정합니다. </p> <p>자동 루프를 해제하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> <p><span class="codeph"> 1</span>을(를) 전환 지속 시간이 <span class="codeph"> 기간</span>에 의해 제어되는 자동 루프되도록 설정합니다. </p> <p>자동 루프 방향은 <span class="codeph"> 방향</span>으로 제어됩니다. <span class="codeph"> 방향</span>의 범위는 <span class="codeph"> 1</span> 오른쪽에서 왼쪽으로 <span class="codeph"> 0</span> 왼쪽에서 오른쪽 사이의 범위입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 17df4a68-a251-427c-a3c4-1e0679e3f8f1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> devicePixelRatio가 <span class="codeph"> 1</span> <span class="codeph"></span>이상인 디바이스, 즉 iPhone4 및 유사한 디바이스와 같은 고밀도 디스플레이를 사용하는 디바이스에 대한 최적화를 활성화, 제한 또는 비활성화할 수 있습니다. </p> <p>활성 상태인 경우 구성 요소는 IS 이미지 요청의 크기를 장치가 픽셀 비율만 <span class="codeph"> 1</span> 가지며 그렇게 하면 대역폭을 줄일 수 있습니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> iPhone4 및 이와 유사한 장치와 같은 고밀도 디스플레이가 있는 장치인 <span class="codeph"> devicePixelRatio</span>이(가) <span class="codeph"> 1</span>보다 큰 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. </p> <p>활성 상태인 경우, 구성 요소는 마치 장치가 <span class="codeph"> 1</span>의 픽셀 비율만 있고 이렇게 하면 대역폭이 감소되는 것처럼 IS 이미지 요청의 크기를 제한합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 수</span></span> </p> </td> 
-   <td colname="col2"> <p> 제한 <span class="codeph"></span> 설정을 사용하는 경우 구성 요소는 지정된 제한까지 높은 픽셀 밀도를 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 제한</span> 설정을 사용하는 경우 구성 요소는 지정된 제한까지 높은 픽셀 밀도를 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

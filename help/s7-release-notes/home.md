@@ -5,10 +5,13 @@ description: Adobe Dynamic Media Classic 릴리스 노트
 seo-description: Adobe Dynamic Media 릴리스 노트
 translation-type: tm+mt
 source-git-commit: 00791121b8c345c461d33067926424d5c2f2966b
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 0%
 
 ---
 
 
-# Dynamic Media 릴리스 정보{#dynamic-media-release-notes}
+# Dynamic Media 릴리스 노트{#dynamic-media-release-notes}
 
-솔루션의 [!DNL Adobe Dynamic Media Classic]일부에 대한 최신 릴리스 노트입니다 [!DNL Adobe Experience Manager][!DNL Adobe Experience Cloud].
+[!DNL Adobe Experience Cloud]의 [!DNL Adobe Experience Manager] 솔루션에 포함된 [!DNL Adobe Dynamic Media Classic] 최신 릴리스 노트입니다.

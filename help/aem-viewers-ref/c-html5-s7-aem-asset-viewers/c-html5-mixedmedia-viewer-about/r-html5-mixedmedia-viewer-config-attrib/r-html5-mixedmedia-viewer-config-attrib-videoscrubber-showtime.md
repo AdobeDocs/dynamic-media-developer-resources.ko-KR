@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fe4e7327-5f2e-4eb4-a3ea-57a901fec1ca
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '21'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 노브 위치를 조정할 때 재생된 시간 버블을 활성화하거나 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p> 노브 위치를 조정할 때 재생된 버블 시간을 활성화 또는 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-description: PostScript 파일 속성을 참조하십시오.
-seo-description: PostScript 파일 속성을 참조하십시오.
+description: PostScript 파일 속성입니다.
+seo-description: PostScript 파일 속성입니다.
 seo-title: GenerationInfo
 solution: Experience Manager
 title: GenerationInfo
@@ -17,7 +17,7 @@ ht-degree: 13%
 
 # GenerationInfo{#generationinfo}
 
-PostScript 파일 속성을 참조하십시오.
+PostScript 파일 속성입니다.
 
 구문
 
@@ -28,5 +28,5 @@ PostScript 파일 속성을 참조하십시오.
 | ` *`엔진`*` | `xsd:string` | 사용되는 생성 엔진(값에 대한 &quot;생성 정보&quot; 참조). |
 | ` *`작성자`*` | `types:Asset` | 생성에 사용된 기본 자산의 자산 레코드입니다. |
 | ` *`생성됨`*` | `types:Asset` | 생성된 자산의 자산 레코드입니다. |
-| ` *`attributeArray`*` | `types:GenerationAttributeArray` | 생성 프로세스와 연관된 속성 배열. |
+| ` *`attributeArray`*` | `types:GenerationAttributeArray` | 생성 프로세스와 연관된 속성 배열입니다. |
 

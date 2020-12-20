@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원을 제거하려는 회사의 핸들 |
+| ` *`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원을 제거하려는 회사의 핸들입니다. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | 예 | 회사를 제거할 그룹에 대한 핸들 배열입니다. |
 
 **출력(removeGroupMembershipReturn)**

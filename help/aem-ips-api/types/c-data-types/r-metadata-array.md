@@ -1,6 +1,6 @@
 ---
-description: 메타데이터의 배열입니다.
-seo-description: 메타데이터의 배열입니다.
+description: 메타데이터 배열입니다.
+seo-description: 메타데이터 배열입니다.
 seo-title: MetadataArray
 solution: Experience Manager
 title: MetadataArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
 
 # MetadataArray{#metadataarray}
 
-메타데이터의 배열입니다.
+메타데이터 배열입니다.
 
 구문
 
@@ -30,9 +33,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 항목</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 항목</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:메타데이터</span> </p> </td> 
-   <td colname="col3"> <p>메타데이터의 배열입니다. </p> </td> 
+   <td colname="col3"> <p>메타데이터 배열입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

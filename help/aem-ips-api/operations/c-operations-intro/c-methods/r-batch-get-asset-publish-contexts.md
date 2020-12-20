@@ -1,20 +1,23 @@
 ---
-description: 게시용으로 표시된 자산의 게시 컨텍스트를 반환합니다.
-seo-description: 게시용으로 표시된 자산의 게시 컨텍스트를 반환합니다.
-seo-title: batch 파섹
+description: 게시용으로 표시된 자산에 대한 게시 컨텍스트를 반환합니다.
+seo-description: 게시용으로 표시된 자산에 대한 게시 컨텍스트를 반환합니다.
+seo-title: batchGetAssetPublishContext
 solution: Experience Manager
-title: batch 파섹
+title: batchGetAssetPublishContext
 topic: Scene7 Image Production System API
 uuid: 7f442019-37a9-4473-be92-a952a7a67664
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 14%
 
 ---
 
 
-# batch 파섹{#batchgetassetpublishcontexts}
+# batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-게시용으로 표시된 자산의 게시 컨텍스트를 반환합니다.
+게시용으로 표시된 자산에 대한 게시 컨텍스트를 반환합니다.
 
 구문
 
@@ -34,6 +37,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 >
 >* 사용자에게 자산을 반환하려면 읽기 권한이 있어야 합니다.
 >* 모든 사용자는 공유 회사에 액세스할 수 있습니다.
+
 >
 
 
@@ -44,8 +48,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | 예 | 활성(게시로 표시됨) 컨텍스트에 대해 쿼리할 자산 목록. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | 예 | 활성(게시용으로 표시됨) 컨텍스트에 대해 쿼리할 자산 목록. |
 
 **출력(batchGetAssetPublishContextsReturn)**
 

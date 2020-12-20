@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
@@ -33,19 +36,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 교체할 이미지가 있는 회사 핸들 |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 바꾸려는 자산의 핸들 |
-| ` *`urlModifier`*` | `xsd:string` | 예 | 새 이미지 데이터를 생성하는 이미지 서버 명령 |
+| ` *`companyName`*` | `xsd:string` | 예 | 교체할 이미지가 포함된 회사 핸들입니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 바꾸려는 자산의 핸들입니다. |
+| ` *`urlModifier`*` | `xsd:string` | 예 | 새 이미지 데이터를 생성하는 이미지 서버 명령. |
 
 **출력(replaceImageReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 예 | 새 자산을 처리합니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 새 에셋을 처리합니다. |
 
 ## 예제 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-이 코드 샘플은 이미지를 대신하고 이미지 서버가 교체 시 작업을 수행하지 않도록 `urlModifier` 지정하는 명령으로 를 적용합니다.
+이 코드 샘플은 이미지를 대신하고 `urlModifier`을(를) 교체 시 이미지 서버가 작업을 수행하지 않도록 지정하는 명령으로 적용합니다.
 
 **요청**
 

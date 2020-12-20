@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 425624c5-3cbe-4b63-8c6b-eff31f2ed919
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>구성 요소 미리 로드 동작을 지정합니다. </p> <p>-1 <span class="codeph"> 로</span> 설정하면 구성 요소가 유휴 상태일 때 모든 카탈로그 프레임을 미리 로드합니다. </p> <p> 0으로 <span class="codeph"> 설정하면</span> 구성 요소는 현재 표시되는 프레임, 이전 프레임 및 다음 프레임만 로드합니다. </p> <p>프리로딩 <span class="codeph"><span class="varname"> 막대를</span></span> 설정하여 현재 표시된 프레임 주위의 보이지 않는 프레임 수가 유휴 상태에서 미리 로드되도록 정의할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>구성 요소 미리 로드 동작을 지정합니다. </p> <p><span class="codeph"> -1</span>으로 설정하면 구성 요소가 유휴 상태일 때 모든 카탈로그 프레임을 미리 로드합니다. </p> <p> <span class="codeph"> 0</span>으로 설정하면 구성 요소는 현재 표시된 프레임, 이전 프레임 및 다음 프레임만 로드합니다. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 을 설정하여 현재 표시된 프레임 주위에 유휴 상태로 미리 로드되는 보이지 않는 프레임 수를 정의합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

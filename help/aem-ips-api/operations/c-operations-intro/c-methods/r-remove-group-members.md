@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 9%
 
 ---
 
@@ -33,9 +36,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 작업할 사용자와 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 함께 작업하려는 사용자와 회사의 핸들입니다. |
 | ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| ` *`userHandleArray`*` | `types:HandleArray` | 예 | 제거할 그룹 구성원 자격을 가진 사용자를 위한 일련의 핸들 |
+| ` *`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원 자격을 제거하려는 사용자를 위한 핸들 배열입니다. |
 
 **출력(removeGroupMembersParam)**
 
@@ -43,7 +46,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-이 코드 샘플에서는 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열을 사용하여 그룹에서 여러 사용자를 제거합니다.
+이 코드 샘플에서는 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열이 있는 그룹에서 여러 사용자를 제거합니다.
 
 **요청**
 

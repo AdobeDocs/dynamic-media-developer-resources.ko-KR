@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2a41d489-5a35-4f60-a492-e6403bcf31dc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> 정규화된 좌표에 대한 관심 영역의 초기 영역입니다. 이 값을 지정하지 않으면 전체 이미지가 초기 뷰포트 내에 맞춰집니다. </p> </td> 
+   <td colname="col2"> <p> 정규화된 좌표에 대한 관심 영역의 초기 영역입니다. 이 옵션을 지정하지 않으면 전체 이미지가 초기 뷰포트에 맞춰집니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

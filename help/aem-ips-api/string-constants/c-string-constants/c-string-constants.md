@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 
 * [활성 작업 상태](r-active-job-states.md)
 * [자산 검색 시스템 필드](r-asset-search-system-fields.md)
-* [자산 덮어쓰기 모드](r-asset-overwrite-modes.md)
+* [에셋 덮어쓰기 모드](r-asset-overwrite-modes.md)
 * [자산 정렬 필드](r-asset-sort-fields.md)
 * [자산 유형](r-asset-types.md)
-* [자동 자르기 모서리](r-auto-crop-corner.md)
+* [자동 자르기 모퉁이](r-auto-crop-corner.md)
 * [색상 관리 모드](r-color-management-modes.md)
 * [색상 공간](r-color-spaces.md)
 * [이메일 설정](r-email-settings.md)
@@ -41,7 +44,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [PostScript 색상 공간 모드](r-postscript-colorspace-modes.md)
 * [프로필 클래스](r-profile-classes.md)
 * [게시 상태](r-publish-state.md)
-* [속성 집합 유형](r-property-set-types.md)
+* [속성 세트 유형](r-property-set-types.md)
 * [컨텍스트 게시](r-publish-context.md)
 * [게시 유형](r-publish-types.md)
 * [영역 모양](r-region-shape.md)

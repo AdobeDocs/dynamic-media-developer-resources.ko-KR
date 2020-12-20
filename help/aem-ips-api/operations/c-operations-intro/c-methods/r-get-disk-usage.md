@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 디스크 사용을 받으려는 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 디스크 사용을 가져올 회사의 핸들입니다. |
 
 **출력(getDiskUsageReturn)**
 
@@ -39,7 +42,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-이 요청의 이름이 오해의 소지가 있습니다. 회사가 사용하는 디스크 공간의 양을 반영하는 스칼라 값만 반환하는 대신 회사 구조에 대한 다른 정보도 얻을 수 있습니다.
+이 요청의 이름이 오해의 소지가 있습니다. 회사에서 사용 중인 디스크 공간의 양을 반영하는 스칼라 값만 반환하는 대신 회사 구조에 대한 다른 정보도 얻을 수 있습니다.
 
 **요청**
 

@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 10%
 
 ---
 
@@ -30,16 +33,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 메타데이터 필드를 포함하는 회사에 대한 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 메타데이터 필드가 포함된 회사의 핸들입니다. |
 | ` *`fieldHandle`*` | `xsd:string` | 예 | 삭제할 메타데이터 필드의 핸들입니다. |
 
-**출력(delete 파섹)**
+**출력(deleteMetadataFieldParam)**
 
 IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. IPS 웹 서비스 서버에 `deleteMetadataFieldParam` 전달된 필드의 회사 핸들 및 메타데이터 핸들을 사용하여 이 작업을 수행합니다.
+이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. 이 작업을 수행하려면 IPS 웹 서비스 서버에 전달된 `deleteMetadataFieldParam`의 필드로 회사 핸들 및 메타데이터 핸들을 사용합니다.
 
 **요청**
 

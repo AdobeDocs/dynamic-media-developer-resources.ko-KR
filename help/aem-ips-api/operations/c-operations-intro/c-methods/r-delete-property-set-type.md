@@ -1,6 +1,6 @@
 ---
-description: 속성 집합 유형과 관련 속성 집합 및 속성을 삭제합니다.
-seo-description: 속성 집합 유형과 관련 속성 집합 및 속성을 삭제합니다.
+description: 속성 세트 유형과 해당 관련 속성 세트와 속성을 삭제합니다.
+seo-description: 속성 세트 유형과 해당 관련 속성 세트와 속성을 삭제합니다.
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 10%
 
 ---
 
 
 # deletePropertySetType{#deletepropertysettype}
 
-속성 집합 유형과 관련 속성 집합 및 속성을 삭제합니다.
+속성 세트 유형과 해당 관련 속성 세트와 속성을 삭제합니다.
 
 구문
 
@@ -39,7 +42,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-이 코드 샘플은 IPS 웹 서비스 서버로 `deletePropertySetTypeParam` 전송된 ID에서 해당 유형의 핸들을 필드로 사용하여 속성 집합 유형을 삭제합니다.
+이 코드 샘플에서는 속성 집합 유형을 삭제하기 위해 IPS 웹 서비스 서버로 보낸 `deletePropertySetTypeParam`의 필드로 형식의 핸들을 사용합니다.
 
 **요청**
 

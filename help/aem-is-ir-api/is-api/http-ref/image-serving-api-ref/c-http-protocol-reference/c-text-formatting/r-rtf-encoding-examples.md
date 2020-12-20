@@ -1,20 +1,23 @@
 ---
-description: 다음 예에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여줍니다.
-seo-description: 다음 예에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여줍니다.
-seo-title: RTF 인코딩 예
+description: 다음 예제에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여 줍니다.
+seo-description: 다음 예제에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여 줍니다.
+seo-title: RTF 인코딩 예제
 solution: Experience Manager
-title: RTF 인코딩 예
+title: RTF 인코딩 예제
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
 
-# RTF 인코딩 예{#rtf-encoding-examples}
+# RTF 인코딩 예제{#rtf-encoding-examples}
 
-다음 예에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여줍니다.
+다음 예제에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여 줍니다.
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
@@ -54,4 +57,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 참조 {#section-e702276fd0e847779cb75a6ccb92fbc8}
 
-[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) , [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [HTTP 인코딩](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)[, RTF 1.6 사양](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)
+[text=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-text.md#reference-84634052e48548539a1ef63cbe41f22f) ,  [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767),  [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d),  [HTTP 인코딩](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-http-encoding.md#reference-bb34dd13f316462695448acfa8f92df7)  [,RTF 1.6 사양](http://msdn.microsoft.com/en-us/library/aa140277%28office.10%29.aspx)

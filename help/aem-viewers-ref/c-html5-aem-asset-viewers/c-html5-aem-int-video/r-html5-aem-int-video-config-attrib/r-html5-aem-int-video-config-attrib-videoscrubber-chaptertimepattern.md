@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: bb021ecb-e169-4cf1-b121-7289311353ed
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 장 레이블의 제목 표시줄에 표시되는 시간에 대한 패턴을 설정합니다. 여기서 <span class="codeph"> h는 시간, 분</span> 단위, 초 단위의 <span class="codeph"></span><span class="codeph"> 시간을 나타냅니다</span> . </p> <p>각 시간 단위에 사용되는 문자 수는 해당 단위에 대해 표시할 자릿수를 결정합니다. 해당 숫자가 지정된 숫자에 맞지 않으면 해당 값이 다음 단위에 표시됩니다. </p> <p>예를 들어 현재 무비 시간이 67분 5초인 경우 <span class="codeph"> m:ss의</span> 시간 패턴이 67:05로 표시됩니다. 시간 패턴이 <span class="codeph"> h:mm:s인 경우 동일한 시간이 1:07:5로 표시됩니다</span>. </p> </td> 
+   <td colname="col2"> <p> 장 레이블의 제목 표시줄에 표시되는 시간의 패턴을 설정합니다. 여기서 <span class="codeph"> h</span>은 시간을 나타내고, <span class="codeph"> m</span>(분) 및 <span class="codeph"> s</span>(초)는 시간을 나타냅니다. </p> <p>각 시간 단위에 사용된 문자 수는 해당 단위에 대해 표시할 자릿수를 결정합니다. 숫자가 지정된 숫자에 맞지 않을 경우, 해당 값이 후속 단위에 표시됩니다. </p> <p>예를 들어 현재 동영상 시간이 67분 5초이면 <span class="codeph"> m:ss</span>의 시간 패턴이 67:05로 표시됩니다. 시간 패턴이 <span class="codeph"> h:mm:s</span>이면 같은 시간이 1:07:5으로 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

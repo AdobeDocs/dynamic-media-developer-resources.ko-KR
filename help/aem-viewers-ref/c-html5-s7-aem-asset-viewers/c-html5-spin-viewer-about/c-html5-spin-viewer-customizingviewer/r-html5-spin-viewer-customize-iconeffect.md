@@ -1,6 +1,6 @@
 ---
-description: 회전 표시기가 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되고 아이콘 효과 매개 변수에도 따라 달라집니다.
-seo-description: 회전 표시기가 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되고 아이콘 효과 매개 변수에도 따라 달라집니다.
+description: 회전 표시기는 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
+seo-description: 회전 표시기는 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
 seo-title: 아이콘 효과
 solution: Experience Manager
 title: 아이콘 효과
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 1%
 
 ---
 
 
-# Icon effect{#icon-effect}
+# 아이콘 효과{#icon-effect}
 
-회전 표시기가 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되고 아이콘 효과 매개 변수에도 따라 달라집니다.
+회전 표시기는 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +38,12 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 회전 표시기 아트워크. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> 회전 표시기 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,9 +56,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </tbody> 
 </table>
 
-스핀 표시기는 1차원 스핀 세트의 `state` 경우, 그리고 다차원 스핀 세트의 `spin_1D` `spin_2D` 경우 으로 설정된 속성 선택기를 지원합니다.
+스핀 표시기는 1차원 스핀 세트의 경우 `spin_1D`, 다차원 스핀 세트의 경우 `spin_2D`로 설정된 `state` 속성 선택기를 지원합니다.
 
-예 - 100 x 100픽셀 확대/축소 표시기를 설정합니다.
+예 - 100 x 100픽셀 확대/축소 표시기를 설정하려면
 
 ```
 .s7spinviewer .s7spinview .s7iconeffect { 

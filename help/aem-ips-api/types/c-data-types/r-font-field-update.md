@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`assetHandle`*` | `xsd:string` | 글꼴 에셋 핸들. |
 | ` *`fontName`*` | `xsd:string` | 글꼴 이름. |
 | ` *`postscriptName`*` | `xsd:string` | PostScript 글꼴 이름. |
-| ` *`rtfName`*` | `xsd:string` | 리치 텍스트 글꼴 이름. |
+| ` *`rtfName`*` | `xsd:string` | 리치 텍스트 글꼴 이름입니다. |
 | ` *`글꼴 모음`*` | `xsd:string` | 글꼴 모음 이름. |
 | ` *`style`*` | `xsd:string` | 글꼴 스타일(값에 대한 글꼴 스타일 참조). |
 | ` *`typeName`*` | `xsd:string` | 글꼴 유형 이름입니다. |

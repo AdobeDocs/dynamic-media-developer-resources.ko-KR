@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별로 메타데이터 필드 배열 |
+| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별로 메타데이터 필드의 배열입니다. |
 
 ## 예제 {#section-d79ab85f29144635b0b61416e52f4f3f}
 

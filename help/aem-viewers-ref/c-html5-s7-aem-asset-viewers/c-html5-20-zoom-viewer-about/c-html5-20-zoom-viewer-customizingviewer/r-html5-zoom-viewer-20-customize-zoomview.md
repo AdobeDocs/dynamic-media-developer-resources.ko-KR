@@ -1,6 +1,6 @@
 ---
-description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
-seo-description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
+description: 기본 보기는 확대 가능 이미지로 구성됩니다.
+seo-description: 기본 보기는 확대 가능 이미지로 구성됩니다.
 seo-title: 확대/축소 보기
 solution: Experience Manager
 title: 확대/축소 보기
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# 확대/축소 보기{#zoom-view}
 
-기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
+기본 보기는 확대 가능 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,11 +38,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 커서 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 커서  </span> </p> </td> 
    <td colname="col2"> <p>기본 보기 위에 커서가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +56,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원합니다 `.s7zoomview` . 구성 요소 상태 및 사용자 작업을 기반으로 커서의 유형을 제어합니다. The following `cursortype` values are supported:
+데스크톱 시스템에서 구성 요소는 `.s7zoomview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원합니다. 구성 요소 상태 및 사용자 작업을 기반으로 커서의 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
 
 * `default`
 
@@ -69,9 +72,9 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 * `drag`
 
-   사용자가 확대된 상태의 이미지를 이동할 때 표시됩니다.
+   사용자가 확대 상태의 이미지를 이동할 때 표시됩니다.
 
 * `slide`
 
-   사용자가 가로 스와이프 또는 터치를 수행하여 이미지 교환을 수행할 때 표시됩니다.
+   사용자가 가로로 스와이프 또는 터치를 수행하여 이미지 교환을 수행할 때 표시됩니다.
 

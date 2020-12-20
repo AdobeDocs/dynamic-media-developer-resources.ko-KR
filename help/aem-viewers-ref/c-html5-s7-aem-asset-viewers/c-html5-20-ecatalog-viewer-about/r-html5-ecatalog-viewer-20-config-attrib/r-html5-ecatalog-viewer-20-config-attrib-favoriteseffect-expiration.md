@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7d78a9b5-6daf-47cb-a220-aa2d8c1a5634
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 일</span></span> </p> </td> 
-   <td colname="col2"> <p> 즐겨찾기의 컬렉션이 만료되기 전에 클라이언트의 시스템에 보관되는 일 수입니다. 사용자가 카탈로그를 방문하고 즐겨찾기를 추가 또는 제거와 같이 변경할 때마다 만료 타이머가 재설정됩니다. </p> </td> 
+   <td colname="col2"> <p> 즐겨찾기의 컬렉션이 만료되기 전에 클라이언트의 시스템에 보관되는 일 수입니다. 사용자가 카탈로그를 방문하고 추가 또는 제거와 같이 즐겨찾기를 변경할 때마다 만료 타이머가 재설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

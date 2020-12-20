@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 19%
 
 ---
 
@@ -24,8 +27,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 들어 있는 회사의 핸들 |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트에 대한 핸들입니다. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
+| ` *`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
 | ` *`memberArray`*` | `types:ImageSetMemberUpdateArray` | 아니요 | 이미지 집합 구성원을 재설정합니다. |
 | ` *`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판으로 사용되는 자산의 핸들입니다. |
 

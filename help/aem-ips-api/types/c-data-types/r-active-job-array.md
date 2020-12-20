@@ -1,6 +1,6 @@
 ---
-description: 일련의 활성 작업.
-seo-description: 일련의 활성 작업.
+description: 활성 작업의 배열입니다.
+seo-description: 활성 작업의 배열입니다.
 seo-title: ActiveJobArray
 solution: Experience Manager
 title: ActiveJobArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 05b01068-ba54-45f8-8c26-ec462df768e2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
 
 # ActiveJobArray{#activejobarray}
 
-일련의 활성 작업.
+활성 작업의 배열입니다.
 
 구문
 
@@ -22,5 +25,5 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`항목`*` | `types:ActiveJob` | 활성 작업 배열. |
+| ` *`항목`*` | `types:ActiveJob` | 활성 작업 배열입니다. |
 

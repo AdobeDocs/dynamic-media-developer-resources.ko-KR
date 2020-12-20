@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7b1850ca-6a8c-402d-8c8f-4528d978245f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -24,6 +27,6 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 |---|---|---|
 | ` *`groupHandle`*` | `xsd:string` | 그룹 핸들. |
 | ` *`permissionType`*` | `xsd:string` | 권한 유형. |
-| ` *`isAllowed`*` | `xsd:boolean` | 권한 업데이트가 허용되는지 여부를 결정합니다. |
-| ` *`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 무시할지 여부를 결정합니다. |
+| ` *`isAllowed`*` | `xsd:boolean` | 권한 업데이트가 허용되는지 확인합니다. |
+| ` *`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 확인합니다. |
 

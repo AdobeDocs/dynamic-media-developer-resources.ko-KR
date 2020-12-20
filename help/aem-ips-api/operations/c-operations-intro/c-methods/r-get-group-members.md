@@ -1,6 +1,6 @@
 ---
-description: 특정 회사 및 그룹에 속한 사용자를 가져옵니다.
-seo-description: 특정 회사 및 그룹에 속한 사용자를 가져옵니다.
+description: 특정 회사 및 그룹에 속하는 사용자를 가져옵니다.
+seo-description: 특정 회사 및 그룹에 속하는 사용자를 가져옵니다.
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 16%
 
 ---
 
 
 # getGroupMembers{#getgroupmembers}
 
-특정 회사 및 그룹에 속한 사용자를 가져옵니다.
+특정 회사 및 그룹에 속하는 사용자를 가져옵니다.
 
 구문
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`groupHandle`*` | `xsd:string` |  | 그룹에 대한 핸들입니다. |
+| ` *`groupHandle`*` | `xsd:string` |  | 그룹의 핸들입니다. |
 
 **출력(getGroupMembersReturn)**
 

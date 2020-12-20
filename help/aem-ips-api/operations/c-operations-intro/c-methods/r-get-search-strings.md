@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 14%
 
 ---
 
@@ -31,18 +34,18 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사를 담당하세요. |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | 자산을 처리합니다. |
 
 **출력(getSearchStringsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`searchStringArray`*` | `types:SearchStrings` | 예 | 자산 검색 문자열 배열입니다. |
+| ` *`searchStringArray`*` | `types:SearchStrings` | 예 | 자산 검색 문자열의 배열입니다. |
 
 ## 예제 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-이 코드 샘플은 자산별 검색 문자열을 반환합니다. 응답은 빈 배열을 반환합니다.
+이 코드 샘플은 자산별 검색 문자열을 반환합니다. 응답에서 빈 배열을 반환합니다.
 
 **요청**
 

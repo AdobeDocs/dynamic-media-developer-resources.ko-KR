@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 미리 로드 이미지 기능을 활성화(<span class="codeph"> 1</span>)하거나 비활성화(<span class="codeph"> 0</span>)합니다. </p> <p>이미지 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 미리 로드를</a>참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 이미지 미리 로드 기능을 활성화(<span class="codeph"> 1</span>) 또는 비활성화(<span class="codeph"> 0</span>)합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> 이미지 미리 로드</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

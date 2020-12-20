@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 8%
 
 ---
 
@@ -20,8 +23,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 속성 {#section-09ff67290f064411baeb503a1aac2953}
 
-레이어 특성. 에 대해 지정할 때 레이어 0에 `layer=comp`적용됩니다.
+레이어 속성입니다. `layer=comp`에 대해 지정된 경우 레이어 0에 적용됩니다.
 
 ## 기본값 {#section-ec9f5130be1b435c84ba1bba54e38a48}
 
-`hide=0` for a visible layer.
+`hide=0` 를 선택합니다.

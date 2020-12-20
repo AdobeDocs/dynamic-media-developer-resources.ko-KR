@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 999edcab-dbe6-4ebe-8c29-ce4e4b9c9b1a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '82'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
    <td colname="col2"> <p> 가로 견본 정렬을 설정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 위쪽|가운데|아래쪽</span> </p> </td> 
    <td colname="col2"> <p> 세로 견본 정렬을 설정합니다. </p> </td> 
   </tr> 
  </tbody> 

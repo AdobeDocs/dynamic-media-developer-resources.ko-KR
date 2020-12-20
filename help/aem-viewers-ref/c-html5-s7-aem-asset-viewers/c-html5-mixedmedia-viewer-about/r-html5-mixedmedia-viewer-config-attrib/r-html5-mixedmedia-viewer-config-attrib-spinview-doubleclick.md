@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 8e78d91e-e4c6-40f1-9421-8da8bc404ee0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_2D828A5750644B9CB95A2989C36F15F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> 두 번 클릭/탭으로 스핀 동작 매핑을 구성합니다. 없음으로 설정하면 두 번 클릭/탭 회전이 <span class="codeph"> </span> 비활성화됩니다. 이미지를 <span class="codeph"> 확대/축소하도록 설정하면 한 단계 내에서 </span> 회전됩니다.Ctrl+Click을 누르면 한 회전 단계가 회전됩니다. 재설정을 <span class="codeph"> </span> 설정하면 이미지를 한 번 클릭하여 초기 회전 수준으로 회전을 재설정합니다. 확대/ <span class="codeph"> 축소 재설정의 </span>경우, 현재 회전 인수가 지정된 제한 범위 이상이면 재설정이 적용되고, 그렇지 않으면 회전이 적용됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 없음|확대/축소|재설정|확대/축소 재설정  </span> </p> </td> 
+   <td colname="col2"> <p> 회전 동작에 대한 두 번 클릭/탭 매핑을 구성합니다. <span class="codeph"> none </span>으로 설정하면 두 번 클릭/탭 회전을 사용할 수 없습니다. <span class="codeph"> zoom </span>으로 설정된 경우 이미지를 클릭하는 것은 한 회전 단계에서 회전합니다.Ctrl+Click은 한 회전 단계를 축소합니다. <span class="codeph"> 재설정 </span>으로 설정하면 이미지를 한 번 클릭하면 회전이 초기 회전 수준으로 재설정됩니다. <span class="codeph"> zoomReset </span>의 경우 현재 스핀 인수가 지정된 한도 이상이면 재설정이 적용되며, 그렇지 않은 경우 회전이 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 기본값 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 
-`reset` 데스크탑 컴퓨터에서터치 `zoomReset` 디바이스에서 사용
+`reset` 데스크톱 컴퓨터에; `zoomReset` 터치 디바이스에서 사용
 
 ## 예 {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 9%
 
 ---
 
@@ -20,19 +23,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 자동 회전 애니메이션을 활성화하거나 비활성화합니다. 최상의 자동 회전 환경을 얻으려면 maxloadradius를 <span class="codeph"></span> -1로 설정하여 모든 프레임을 미리 로드하는 것이 좋습니다 <span class="codeph"></span>. 그러나 이로 인해 로드 시간이 증가하고 대역폭 사용량이 높아집니다. </p> </td> 
+   <td colname="col2"> <p> 자동 회전 애니메이션을 활성화하거나 비활성화합니다. 최상의 자동 회전 경험을 얻으려면 <span class="codeph"> maxloadradius</span>를 <span class="codeph"> -1</span>으로 설정하여 모든 프레임을 미리 로드하는 것이 좋습니다. 그러나 이로 인해 로드 시간이 증가하고 대역폭 사용량이 높아집니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 1회당 초 수입니다. </p> </td> 
+   <td colname="col2"> <p> 1회 전체 회전 당 초 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 방향</span></span> </p> </td> 
-   <td colname="col2"> <p> 회전 방향: <span class="codeph"> 0</span> 회전, 서쪽 회전을 위한 <span class="codeph"> 1</span> . </p> </td> 
+   <td colname="col2"> <p> 회전하는 동쪽을 위한 <span class="codeph"> 0</span>, 서쪽을 회전하는 경우 <span class="codeph"> 1</span>인 회전 방향입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 자동 회전이 중지되기 전에 수행된 전체 회전 수입니다. 숫자는 부동 소수점 숫자입니다. 무한 자동 회전을 <span class="codeph"> 위해</span> -1로 설정합니다. </p> </td> 
+   <td colname="col2"> <p> 자동 회전이 중지되기 전에 수행되는 전체 회전 수입니다. 숫자는 부동 소수점 숫자입니다. 무한 자동 회전을 위해 <span class="codeph"> -1</span>으로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

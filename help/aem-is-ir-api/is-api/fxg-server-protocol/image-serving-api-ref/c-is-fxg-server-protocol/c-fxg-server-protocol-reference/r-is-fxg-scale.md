@@ -1,26 +1,29 @@
 ---
-description: 이미지 크기 조정 전체 해상도 이미지를 기준으로 배율을 배율합니다.
-seo-description: 이미지 크기 조정 전체 해상도 이미지를 기준으로 배율을 배율합니다.
+description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 배율을 배율로 합니다.
+seo-description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 배율을 배율로 합니다.
 seo-title: scale
 solution: Experience Manager
-title: scale
+title: 크기 조절
 topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
 
 # scale{#scale}
 
-이미지 크기 조정 전체 해상도 이미지를 기준으로 배율을 배율합니다.
+이미지 비율 조정 전체 해상도 이미지를 기준으로 배율을 배율로 합니다.
 
-`scale= *`계수`*`
+`scale= *`인자`*`
 
 <table id="simpletable_AC0974B79E064BA99C1F76461BDE808A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 계수</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 인자</span></span> </p> </td> 
   <td class="stentry"> <p>비율 인수(실제, 0 이상). </p></td> 
  </tr> 
 </table>

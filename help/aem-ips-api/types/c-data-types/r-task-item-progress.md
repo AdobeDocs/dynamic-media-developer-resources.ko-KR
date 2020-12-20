@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 7cca2ad9-c8f9-4dff-a055-d03fa2c50cec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
 
-# 작업 항목 진행{#taskitemprogress}
+# TaskItemProgress{#taskitemprogress}
 
 작업 항목 진행 정보.
 

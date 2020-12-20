@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4a484a3f-18b9-4fa7-bcbb-2dee947e9c2a
 translation-type: tm+mt
 source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 14%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: b58b25ff4b2f6258a010097eb0a254105b0d912e
 
 기울임체 플래그.
 
-RTF 기울임체( `\i`) 명령으로 이 글꼴 맵 레코드에서 참조한 글꼴 파일을 사용할지 여부를 지정합니다.
+RTF 기울임체( `\i`) 명령에서 이 글꼴 맵 레코드에서 참조하는 글꼴 파일을 사용하도록 할지 여부를 지정합니다.
 
 ## 속성 {#section-607e76490e87418496d1c6763018a14f}
 
-플래그. 글꼴 맵에 대한 선택적 세 번째 색인 키.
+플래그. 글꼴 맵에 대한 세 번째 색인 키(선택 사항).
 
 ## 기본값 {#section-0b88057d00ce4160929c23fbf138b309}
 

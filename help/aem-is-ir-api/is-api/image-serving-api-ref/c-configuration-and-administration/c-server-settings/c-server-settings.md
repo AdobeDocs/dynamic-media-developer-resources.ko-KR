@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
 * [SSL](r-ssl.md)
 * [서버](r-server-server-settings.md)
 * [액세스 로깅](r-access-logging.md)
-* [Debug_trace 로깅](r-debug-trace-logging.md)
+* [디버그_추적 로깅](r-debug-trace-logging.md)
 * [오류 리디렉션](r-error-redirection.md)
 * [캐시 클러스터링](r-cache-clustering.md)
 * [모니터링 및 경고 시스템](r-monitoring-and-alerting-system.md)

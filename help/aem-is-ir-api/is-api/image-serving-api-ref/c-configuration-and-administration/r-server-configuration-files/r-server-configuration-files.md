@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 02905b23-bbf3-4ae7-828d-915b22d8f167
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 >[!NOTE]
 >
->대부분의 서버 구성 파일에는 이 문서에 설명되어 있지 않은 추가 속성과 값이 포함되어 있습니다. 이러한 속성은 내부 서버 사용을 위한 것이며 Scene7 기술 지원에서 특별히 지침을 따르지 않는 한 수정해서는 안 됩니다.
+>대부분의 서버 구성 파일에는 이 문서에 설명되어 있지 않은 추가 속성과 값이 포함되어 있습니다. 이러한 속성은 내부 서버 사용을 위한 것이며 Scene7 기술 지원에서 구체적으로 지침을 따르지 않는 한 수정해서는 안 됩니다.
 
 이 문서에서는 다음 구성 파일에 대한 설정에 대해 설명합니다.
 
@@ -32,7 +35,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>서버 수퍼바이저 구성을 참조하십시오. </p> </td> 
+   <td> <p>서버 관리자 구성을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -57,4 +60,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tbody> 
 </table>
 
-구성 파일은 이 문서의 후반부에 자세히 설명되어 있습니다.
+구성 파일은 이 문서의 후반부에 자세히 설명합니다.

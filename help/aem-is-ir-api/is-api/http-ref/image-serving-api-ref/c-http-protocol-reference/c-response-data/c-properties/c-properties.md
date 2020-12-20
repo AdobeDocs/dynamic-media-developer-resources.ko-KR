@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # 속성{#properties}
 
-속성 데이터는 다음 `req=` 유형에 따라 반환됩니다.
+속성 데이터는 다음 `req=` 유형에 대한 응답으로 반환됩니다.
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` 응답은 컨텐츠가 속성 형식을 `catalog::UserData` 따를 때만 속성으로 형식이 지정됩니다.
+`userdata` 응답의 내용은 속성 형식을  `catalog::UserData` 따를 때에만 속성 형식으로 지정됩니다.
 
 * [텍스트(Java) 속성](r-text-java-properties.md)
 * [JavaScript 속성](r-javascript-properties.md)

@@ -1,6 +1,6 @@
 ---
-description: 재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
-seo-description: 재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
+description: 재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
+seo-description: 재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
 seo-title: 유형
 solution: Experience Manager
 title: 유형
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 22%
 
 ---
 
 
 # 유형{#type}
 
-재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
+재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
 
 `type=0...19`
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>알 수 없음, 서버는 기본값을 사용합니다. </p></td> 
+  <td class="stentry"> <p>알 수 없음, 서버가 기본값을 사용합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -41,7 +44,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
-  <td class="stentry"> <p>Antique Metal </p></td> 
+  <td class="stentry"> <p>Antipeed Metal </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
@@ -49,7 +52,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>에나멜/라퀴어 </p></td> 
+  <td class="stentry"> <p>에나멜/라케어 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -96,12 +99,12 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   <td class="stentry"> <p>순천 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>19 </p></td> 
+  <td class="stentry"> <p>19년 </p></td> 
   <td class="stentry"> <p>카펫 </p></td> 
  </tr> 
 </table>
 
-반사 `gloss=` 및 광택 효과 비헤이비어와 함께 `rough=` 사용할 수 있습니다. 서로 다른 재료는 `gloss=` 동일하더라도 다른 효과를 `rough=` 낸다.
+`gloss=` 및 `rough=`과 함께 사용하여 반사 및 광택 효과 동작을 제어합니다. `gloss=` 및 `rough=`이 동일한 경우에도 다른 재질이 다른 효과를 생성합니다.
 
 ## 속성 {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +112,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 기본값 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 Otherwise `type=0`. 지정하지 않거나 `type=0`지정하지 않으면 서버는 대상 개체 및 기타 재료 속성에 따라 적절한 기본값을 선택합니다.
+`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않은 경우 `type=0`. 지정되지 않았거나 `type=0` 인 경우 서버는 대상 객체 및 기타 재료 속성에 따라 적절한 기본값을 선택합니다.
 
 ## 참조 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[글로스=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [러프=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

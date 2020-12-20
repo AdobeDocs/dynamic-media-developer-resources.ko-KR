@@ -1,6 +1,6 @@
 ---
-description: 속성을 FXG 루트 요소로 설정합니다.
-seo-description: 속성을 FXG 루트 요소로 설정합니다.
+description: 특성을 FXG 루트 요소로 설정합니다.
+seo-description: 특성을 FXG 루트 요소로 설정합니다.
 seo-title: setAttr.rootElement
 solution: Experience Manager
 title: setAttr.rootElement
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: dda16612-57c7-4abe-8aa4-00e599a8ea69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 1%
 
 ---
 
 
 # setAttr.rootElement{#setattr-rootelement}
 
-속성을 FXG 루트 요소로 설정합니다.
+특성을 FXG 루트 요소로 설정합니다.
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 

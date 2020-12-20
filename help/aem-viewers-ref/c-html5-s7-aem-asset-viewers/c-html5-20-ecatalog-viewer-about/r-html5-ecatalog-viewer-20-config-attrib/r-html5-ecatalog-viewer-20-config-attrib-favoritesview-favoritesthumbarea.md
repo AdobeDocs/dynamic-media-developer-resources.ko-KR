@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5c362eb3-dece-4546-8a79-fd79c2852a78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 영역</span></span> </p> </td> 
-   <td colname="col2"> <p> 즐겨찾기 축소판의 자르기 영역을 지정합니다. 전체 프레임 크기에 대한 상대적 값으로 표현되며 범위는 <span class="codeph"> 0</span> ~ <span class="codeph"> 1.0입니다</span>. </p> <p>값이 <span class="codeph"> 1</span> 이면 축소판에 전체 프레임 이미지가 사용됩니다. </p> <p>값이 <span class="codeph"> 0.1이면</span> 프레임 크기의 10%만 사용됩니다. </p> </td> 
+   <td colname="col2"> <p> 즐겨찾기 축소판의 자르기 영역을 지정합니다. 전체 프레임 크기에 대한 상대 값으로 표현되며, 범위는 <span class="codeph"> 0</span>에서 <span class="codeph"> 1.0</span>까지입니다. </p> <p><span class="codeph"> 1</span> 값은 축소판에 전체 프레임 이미지가 사용됨을 의미합니다. </p> <p><span class="codeph"> 0.1</span> 값은 프레임 크기의 10%만 사용됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

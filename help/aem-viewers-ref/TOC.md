@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: 다이내믹 미디어 뷰어 참조 안내서
+user-guide-title: Dynamic Media 뷰어 참조 안내서
 translation-type: tm+mt
 source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
 workflow-type: tm+mt
@@ -12,10 +12,10 @@ ht-degree: 4%
 ---
 
 
-# 다이내믹 미디어 뷰어 참조 안내서 {#library}
+# Dynamic Media 뷰어 참조 안내서 {#library}
 
 + [Dynamic Media 개발자 리소스 홈](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [다이내믹 미디어 뷰어 참조 안내서](/help/aem-viewers-ref/home.md)
++ [Dynamic Media 뷰어 참조 안내서](/help/aem-viewers-ref/home.md)
 + [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [시스템 요구 사항](c-system-requirements-and-prerequisites.md)
 + [동일한 서버에 여러 뷰어 설치](t-installing-the-viewers.md)
@@ -35,11 +35,11 @@ ht-degree: 4%
       + [Scene7 뷰어 5.0.1 릴리스 노트](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Scene7 뷰어 4.9.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [호환성 정보](c-compatibility-notes.md)
-+ AEM Assets 및 Dynamic Media Classic용 뷰어 {#viewers-aem-assets-dmc}
-   + [AEM Assets 및 Dynamic Media Classic용 뷰어](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
++ AEM Assets 및 Dynamic Media Classic {#viewers-aem-assets-dmc} 뷰어
+   + [AEM Assets 및 Dynamic Media Classic 뷰어](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + 기본 확대/축소 {#basic-zoom}
       + [기본 확대/축소 뷰어](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-basic-zoom}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-basic-zoom}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib.md)
          + [종료 단추](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-closebutton.md)
          + [ZoomView.doubleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-doubleclick.md)
@@ -53,7 +53,7 @@ ht-degree: 4%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/r-html5-basic-zoom-viewer-20-config-attrib/r-html5-basic-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 기본 확대/축소 뷰어용 Javascript API 참조 {#jsapi-basic-zoom}
+      + 기본 확대/축소 뷰어에 대한 Javascript API 참조 {#jsapi-basic-zoom}
          + [기본 확대/축소 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/c-html5-20-basic-zoom-viewer-javascriptapiref.md)
          + [BasicZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-basiczoomviewer.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-dispose.md)
@@ -66,7 +66,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setaram.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md)
-      + 기본 확대/축소 뷰어 사용자 정의 {#customizing-basic-zoom}
+      + 기본 확대/축소 뷰어 {#customizing-basic-zoom} 사용자 정의
          + [기본 확대/축소 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-closebutton.md)
          + [초점 강조 표시](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/r-html5-basic-zoom-viewer-20-customize-focushighlight.md)
@@ -85,15 +85,15 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + eCatalog {#ecatalog}
       + [eCatalog](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-ecatalog}
+      + 명령 참조 - Configuration-attributes {#command-reference-configuration-attributes-ecatalog}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib.md)
-         + [[닫기] 단추](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-closebutton.md)
+         + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-controlbar-transition.md)
          + [방향](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-direction.md)
          + [EmailShare.emailurl](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-emailshare-emailurl.md)
          + [EmbedShare.embedsizes](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-embedshare-embedsizes.md)
          + [FavoritesEffect.expiration](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoriteseffect-expiration.md)
-         + [FavoritesMenu.bearing](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoritesmenu-bearing.md)
+         + [즐겨찾기 메뉴.베어링](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoritesmenu-bearing.md)
          + [FavoritesView.align](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoritesview-align.md)
          + [FavoritesView.favoritesThumbView](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoritesview-favoritesthumbarea.md)
          + [FavoritesView.fmt](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-favoritesview-fmt.md)
@@ -128,10 +128,10 @@ ht-degree: 4%
          + [ThumbnailGridView.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-enabledragging.md)
          + [ThumbnailGridView.fmt](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-fmt.md)
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-maxloadradius.md)
-         + [ThumbnailGridView.scrolbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
+         + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-thumbnailgridview-textpos.md)
-      + eCatalog 뷰어용 Javascript API 참조 {#jsapi-ecatalog}
-         + [eCatalog 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
+      + eCatalog 뷰어에 대한 Javascript API 참조 {#jsapi-ecatalog}
+         + [eCatalog 뷰어에 대한 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/c-html5-20-ecatalog-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-dispose.md)
          + [eCatalogViewer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-ecatalogviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-getcomponent.md)
@@ -143,7 +143,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md)
-      + eCatalog 뷰어 사용자 정의 {#customizing-ecatalog}
+      + eCatalog 뷰어 사용자 지정 {#customizing-ecatalog}
          + [eCatalog 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md)
          + [즐겨찾기 추가 단추](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-addfavorite.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-closebutton.md)
@@ -195,15 +195,15 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md)
    + eCatalog 검색 {#ecatalog-search}
       + [eCatalog 검색](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-ecatalog-search}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-ecatalog-search}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
-         + [[닫기] 단추](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-closebutton.md)
+         + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-controlbar-transition.md)
          + [방향](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-direction.md)
          + [EmailShare.emailurl](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-emailshare-emailurl.md)
          + [EmbedShare.embedsizes](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-embedshare-embedsizes.md)
          + [FavoritesEffect.expiration](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoriteseffect-expiration.md)
-         + [FavoritesMenu.bearing](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoritesmenu-bearing.md)
+         + [즐겨찾기 메뉴.베어링](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoritesmenu-bearing.md)
          + [FavoritesView.align](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoritesview-align.md)
          + [FavoritesView.favoritesThumbView](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoritesview-favoritesthumbarea.md)
          + [FavoritesView.fmt](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-favoritesview-fmt.md)
@@ -244,7 +244,7 @@ ht-degree: 4%
          + [ThumbnailGridView.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-enabledragging.md)
          + [ThumbnailGridView.fmt](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-fmt.md)
          + [ThumbnailGridView.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-maxloadradius.md)
-         + [ThumbnailGridView.scrolbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
+         + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
       + eCatalog 검색 뷰어에 대한 Javascript API 참조 {#jsapi-ecatalog-search}
          + [eCatalog 검색 뷰어에 대한 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
@@ -259,7 +259,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-event-callbacks.md)
-      + eCatalog 검색 뷰어 사용자 정의 {#customize-ecatalog-search}
+      + eCatalog 검색 뷰어 사용자 지정 {#customize-ecatalog-search}
          + [eCatalog 검색 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md)
          + [즐겨찾기 추가 단추](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-addfavorite.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/r-html5-ecatsearch-customize-closebutton.md)
@@ -314,7 +314,7 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-html5-viewer-sdk-namespace.md)
    + 플라이아웃 {#flyout}
       + [플라이아웃](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-flyout}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-flyout}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-flyouttransition.md)
          + [FlyoutZoomView.fmt](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-fmt.md)
@@ -326,19 +326,19 @@ ht-degree: 4%
          + [FlyoutZoomView.preloadtiles](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-preloadtiles.md)
          + [FlyoutZoomView.tip](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-tip.md)
          + [FlyoutZoomView.zoomfactor](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-flyoutzoomview-zoomfactor.md)
-         + [Swatches.align](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-align.md)
+         + [색상 견본.정렬](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-align.md)
          + [Swatches.buttonsnapmode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-buttonsnapmode.md)
-         + [Swatches.direction](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-direction.md)
-         + [Swatches.enabledragging](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-enabledragging.md)
+         + [색상 견본.방향](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-direction.md)
+         + [색상 견본.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-enabledragging.md)
          + [Swatches.iscommand](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-iscommand.md)
-         + [Swatches.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-maxloadradius.md)
-         + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
-         + [Swatches.partalswatches](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
+         + [색상 견본.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-maxloadradius.md)
+         + [색상 견본.pagemode](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-pagemode.md)
+         + [견본.부분 견본](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/r-html5-flyout-viewer-20-conf-attrib/r-html5-flyout-viewer-20-conf-attrib-swatches-scrollstep.md)
-      + 플라이아웃 뷰어용 JavaScript API 참조 {#jsapi-flyout}
-         + [플라이아웃 뷰어용 JavaScript API 참조](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
+      + 플라이아웃 뷰어에 대한 JavaScript API 참조 {#jsapi-flyout}
+         + [플라이아웃 뷰어에 대한 JavaScript API 참조](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/c-html5-flyout-viewer-20-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
-         + [플라이아웃 뷰어](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
+         + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md)
          + [setAsset](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-setasset.md)
@@ -361,7 +361,7 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-namespace.md)
    + 인라인 확대/축소 {#inline-zoom}
       + [인라인 확대/축소](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-inline-zoom}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-inline-zoom}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib.md)
          + [FlyoutZoomView.flyouttransition](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-flyouttransition.md)
          + [FlyoutZoomView.fmt](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-fmt.md)
@@ -371,19 +371,19 @@ ht-degree: 4%
          + [FlyoutZoomView.preloadtiles](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-preloadtiles.md)
          + [FlyoutZoomView.tip](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-tip.md)
          + [FlyoutZoomView.zoomfactor](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-flyoutzoomview-zoomfactor.md)
-         + [Swatches.align](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-align.md)
+         + [색상 견본.정렬](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-align.md)
          + [Swatches.buttonsnapmode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-buttonsnapmode.md)
-         + [Swatches.direction](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-direction.md)
-         + [Swatches.enabledragging](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-enabledragging.md)
+         + [색상 견본.방향](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-direction.md)
+         + [색상 견본.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-enabledragging.md)
          + [Swatches.iscommand](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-iscommand.md)
-         + [Swatches.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-maxloadradius.md)
-         + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-pagemode.md)
-         + [Swatches.partalswatches](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-partialswatches.md)
+         + [색상 견본.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-maxloadradius.md)
+         + [색상 견본.pagemode](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-pagemode.md)
+         + [견본.부분 견본](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/r-html5-inlinezoom-viewer-conf-attrib/r-html5-inlinezoom-viewer-conf-attrib-swatches-scrollstep.md)
       + 인라인 확대/축소 뷰어에 대한 JavaScript API 참조 {#jsapi-inline-zoom}
          + [인라인 확대/축소 뷰어에 대한 JavaScript API 참조](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/c-html5-inlinezoom-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
-         + [플라이아웃 뷰어](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
+         + [FlyoutViewer](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-init.md)
          + [setAsset](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setasset.md)
@@ -393,7 +393,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-javascriptapiref/r-html5-inlinezoom-viewer-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-event-callbacks.md)
-      + 인라인 확대/축소 뷰어 사용자 정의 {#customing-inline-zoom}
+      + 인라인 확대/축소 뷰어 {#customing-inline-zoom} 사용자 정의
          + [인라인 확대/축소 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md)
          + [기본 뷰어 영역](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-mainviewerarea.md)
          + [플라이아웃 확대/축소 보기](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/r-html5-inlinezoom-viewer-customize-inlinezoomview.md)
@@ -406,7 +406,7 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-namespace.md)
    + 혼합 미디어 {#mixed-media}
       + [혼합 미디어](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-mixed-media}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-mixed-media}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib.md)
          + [종료 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-controlbar-transition.md)
@@ -425,28 +425,28 @@ ht-degree: 4%
          + [SpinView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-spinview-singleclick.md)
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-spinview-zoomstep.md)
-         + [Swatches.align](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-align.md)
+         + [색상 견본.정렬](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-align.md)
          + [Swatches.buttonsnapmode](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-buttonsnapmode.md)
-         + [Swatches.direction](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-direction.md)
-         + [Swatches.enabledragging](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-enabledragging.md)
-         + [Swatches.fmt](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-fmt.md)
+         + [색상 견본.방향](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-direction.md)
+         + [색상 견본.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-enabledragging.md)
+         + [색상 견본.fmt](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-fmt.md)
          + [Swatches.iscommand](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-iscommand.md)
-         + [Swatches.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-maxloadradius.md)
-         + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-pagemode.md)
-         + [Swatches.partalswatches](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-partialswatches.md)
+         + [색상 견본.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-maxloadradius.md)
+         + [색상 견본.pagemode](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-pagemode.md)
+         + [견본.부분 견본](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-scrollstep.md)
-         + [Swatches.textpos](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-textpos.md)
+         + [색상 견본.텍스트 포스](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatches-textpos.md)
          + [스왓초베르레이](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-swatchoverlay.md)
          + [VideoPlayer.자동 재생](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-autoplay.md)
          + [VideoPlayer.iconeffect](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-iconeffect.md)
          + [VideoPlayer.initialbitrate](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-initialbitrate.md)
          + [VideoPlayer.loop](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-loop.md)
-         + [VideoPlayer.multilurme](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-mutevolume.md)
+         + [VideoPlayer.multilenme](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-mutevolume.md)
          + [VideoPlayer.playback](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-playback.md)
-         + [VideoPlayer.포스터 이미지](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md)
+         + [VideoPlayer.posterimage](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md)
          + [VideoPlayer.preload](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-preload.md)
          + [VideoPlayer.progressivebitrate](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-progressivebitrate.md)
-         + [VideoPlayer.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-singleclick.md)
+         + [VideoPlayer.singlick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-singleclick.md)
          + [VideoPlayer.ssl](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md)
          + [VideoPlayer.waiticon](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-waiticon.md)
          + [VideoScrubber.showtime](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoscrubber-showtime.md)
@@ -464,8 +464,8 @@ ht-degree: 4%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-zoomview-zoomstep.md)
-      + 혼합 미디어 뷰어용 Javascript API 참조 {#jsapi-mixed-media}
-         + [혼합 미디어 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
+      + 혼합 미디어 뷰어에 대한 Javascript API 참조 {#jsapi-mixed-media}
+         + [혼합 미디어 뷰어에 대한 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/c-html5-mixedmedia-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md)
@@ -477,7 +477,7 @@ ht-degree: 4%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + 혼합 미디어 뷰어 사용자 정의 {#customing-mixed-media}
+      + 혼합 미디어 뷰어 {#customing-mixed-media} 사용자 정의
          + [혼합 미디어 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [캡션 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -488,7 +488,7 @@ ht-degree: 4%
          + [전체 화면 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-fullscreenbutton.md)
          + [기본 색상 견본](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainswatches.md)
          + [기본 뷰어 영역](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mainviewerarea.md)
-         + [가변 볼륨](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mutablevolume.md)
+         + [변경 가능한 볼륨](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-mutablevolume.md)
          + [재생/일시 정지 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-playpausebutton.md)
          + [표시기 설정](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-setindicator.md)
          + [왼쪽 회전 단추](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-spinleftbutton.md)
@@ -513,8 +513,8 @@ ht-degree: 4%
       + [전체 화면 지원](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-full-screen-support.md)
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-namespace.md)
    + 회전 {#spin}
-      + [스핀 뷰어](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-spin}
+      + [회전 뷰어](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-about.md)
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-spin}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib.md)
          + [종료 단추](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-closebutton.md)
          + [SpinView.doubleclick](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-doubleclick.md)
@@ -529,8 +529,8 @@ ht-degree: 4%
          + [SpinView.transition](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-transition.md)
          + [SpinView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-spinview-zoomstep.md)
          + [ZoomView.enableHD](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/r-html5-spin-viewer-config-attrib/r-html5-spin-viewer-config-attrib-zoomview-enablehd.md)
-      + 스핀 뷰어용 Javascript API 참조 {#jsapi-spin}
-         + [스핀 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
+      + 회전 뷰어에 대한 Javascript API 참조 {#jsapi-spin}
+         + [회전 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/c-html5-spin-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md)
@@ -542,8 +542,8 @@ ht-degree: 4%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-setparams.md)
          + [SpinViewer](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-event-callbacks.md)
-      + 스핀 뷰어 사용자 정의 {#customizing-spin}
-         + [스핀 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
+      + 회전 뷰어 사용자 지정 {#customizing-spin}
+         + [회전 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-closebutton.md)
          + [초점 강조 표시](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-focushighlight.md)
          + [전체 화면 단추](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/r-html5-spin-viewer-customize-fullscreenbutton.md)
@@ -563,7 +563,7 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-namespace.md)
    + 비디오 {#video}
       + [비디오](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-reference.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-video}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-video}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/c-html5-video-cmdref.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-controlbar-transition.md)
          + [EmailShare.emailurl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-emailshare-emailurl.md)
@@ -573,12 +573,12 @@ ht-degree: 4%
          + [VideoPlayer.iconeffect](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-iconeffect.md)
          + [VideoPlayer.initialbitrate](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-initialbitrate.md)
          + [VideoPlayer.loop](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-loop.md)
-         + [VideoPlayer.multilurme](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-mutevolume.md)
+         + [VideoPlayer.multilenme](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-mutevolume.md)
          + [VideoPlayer.playback](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-playback.md)
-         + [VideoPlayer.포스터 이미지](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md)
+         + [VideoPlayer.posterimage](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md)
          + [VideoPlayer.preload](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-preload.md)
          + [VideoPlayer.progressivebitrate](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-progressivebitrate.md)
-         + [VideoPlayer.singleclick](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-singleclick.md)
+         + [VideoPlayer.singlick](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-singleclick.md)
          + [VideoPlayer.ssl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-ssl.md)
          + [VideoPlayer.waiticon](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-waiticon.md)
          + [VideoScrubber.chaptertimepattern](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoscrubber-chaptertimepattern.md)
@@ -592,7 +592,7 @@ ht-degree: 4%
          + [탐색](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [비디오](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + 비디오 뷰어에 대한 Javascript API 참조 {#jsapi-video}
+      + 비디오 뷰어 {#jsapi-video}에 대한 Javascript API 참조
          + [비디오 뷰어용 JavaScript API 참조](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)
@@ -606,7 +606,7 @@ ht-degree: 4%
          + [setVideo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md)
          + [VideoViewer](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-videoviewer.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-event-callbacks.md)
-      + 비디오 뷰어 사용자 정의 {#customizing-video-viewer}
+      + 비디오 뷰어 사용자 지정 {#customizing-video-viewer}
          + [비디오 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md)
          + [캡션 단추](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-captionbutton.md)
          + [컨트롤 막대](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-controlbar.md)
@@ -618,7 +618,7 @@ ht-degree: 4%
          + [아이콘 효과](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-iconeffect.md)
          + [링크 공유](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-linkshare.md)
          + [기본 뷰어 영역](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-mainviewerarea.md)
-         + [가변 볼륨](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-mutablevolume.md)
+         + [변경 가능한 볼륨](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-mutablevolume.md)
          + [재생/일시 정지 단추](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-20-customize-playpausebutton.md)
          + [소셜 공유](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-socialshare.md)
          + [툴팁](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/r-html5-viewer-customize-tooltips.md)
@@ -635,18 +635,18 @@ ht-degree: 4%
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md)
    + 확대/축소 {#zoom}
       + [확대/축소](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-about.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-zoom}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-zoom}
          + [명령 참조 - 구성 속성](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib.md)
          + [종료 단추](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-closebutton.md)
-         + [Swatches.align](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-align.md)
+         + [색상 견본.정렬](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-align.md)
          + [Swatches.buttosnapmode](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-buttonsnapmode.md)
-         + [Swatches.direction](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-direction.md)
-         + [Swatches.enabledragging](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-enabledragging.md)
-         + [Swatches.fmt](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-fmt.md)
+         + [색상 견본.방향](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-direction.md)
+         + [색상 견본.enabledrag](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-enabledragging.md)
+         + [색상 견본.fmt](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-fmt.md)
          + [Swatches.iscommand](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-iscommand.md)
-         + [Swatches.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-maxloadradius.md)
-         + [Swatches.pagemode](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-pagemode.md)
-         + [Swatches.partalswatches](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-partialswatches.md)
+         + [색상 견본.maxloadradius](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-maxloadradius.md)
+         + [색상 견본.pagemode](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-pagemode.md)
+         + [견본.부분 견본](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-partialswatches.md)
          + [Swatches.scrollstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatches-scrollstep.md)
          + [스왓초베르레이](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-swatchoverlay.md)
          + [ZoomView.doubleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-doubleclick.md)
@@ -659,8 +659,8 @@ ht-degree: 4%
          + [ZoomView.singleclick](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-singleclick.md)
          + [ZoomView.transition](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-transition.md)
          + [ZoomView.zoomstep](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/r-html5-zoom-viewer-20-config-attrib/r-html5-zoom-viewer-20-config-attrib-zoomview-zoomstep.md)
-      + 확대/축소 뷰어용 Javascript API 참조 {#jsapi-zoom}
-         + [확대/축소 뷰어용 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
+      + 확대/축소 뷰어에 대한 Javascript API 참조 {#jsapi-zoom}
+         + [확대/축소 뷰어에 대한 Javascript API 참조](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/c-html5-20-zoom-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-getcomponent.md)
          + [init](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md)
@@ -672,7 +672,7 @@ ht-degree: 4%
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-setparams.md)
          + [ZoomViewer](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-zoomviewer.md)
       + [이벤트 콜백](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-event-callbacks.md)
-      + 확대/축소 뷰어 사용자 정의 {#customizing-zoom}
+      + 확대/축소 뷰어 {#customizing-zoom} 사용자 정의
          + [확대/축소 뷰어 사용자 정의](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md)
          + [닫기 단추](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-closebutton.md)
          + [초점 강조 표시](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/r-html5-zoom-viewer-20-customize-focushighlight.md)
@@ -691,13 +691,13 @@ ht-degree: 4%
       + [사용자 인터페이스 요소의 로컬라이제이션](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md)
       + [전체 화면 지원](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-full-screen-support.md)
       + [뷰어 SDK 네임스페이스](c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-namespace.md)
-+ AEM Assets 전용 뷰어 {#viewers-for-aem-assets-only}
++ AEM Assets용 뷰어 전용 {#viewers-for-aem-assets-only}
    + [AEM Assets 전용 뷰어](c-html5-aem-asset-viewers/c-html5-aem-asset-viewers.md)
    + 회전식 {#carousel}
       + [회전식](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-carousel}
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-carousel}
          + [명령 참조 - 구성 속성](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-conf-attrib.md)
-         + [CarouselView.자동 재생](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-autoplay.md)
+         + [CarouselView.autoplay](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-autoplay.md)
          + [CarouselView.frametransition](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-frametransition.md)
          + [CarouselView.iscommand](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-iscommand.md)
          + [CarouselView.maxloadradius](c-html5-aem-asset-viewers/c-html5-aem-carousel/r-html5-aem-carousel-conf-attrib/r-html5-aem-carousel-config-attrib-carouselview-maxloadradius.md)
@@ -710,7 +710,7 @@ ht-degree: 4%
          + [명령 참조 - URL](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/c-html5-aem-carousel-cmdref-url.md)
          + [preloadimage**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-cmdref-url/r-html5-aem-carousel-cmdref-url-preloadimage.md)
       + 회전판 뷰어에 대한 Javascript API 참조 {#jsapi-carousel}
-         + [회전판 뷰어용 JavaScript API 참조](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
+         + [회전판 뷰어에 대한 JavaScript API 참조](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/c-html5-aem-carousel-javascriptapiref.md)
          + [CarouselViewer](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-carouselviewer.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-dispose.md)
          + [getComponent**](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-getcomponent.md)
@@ -722,14 +722,14 @@ ht-degree: 4%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-event-callbacks.md)
-      + 회전판 뷰어 사용자 정의 {#customizing-carousel}
+      + 회전판 뷰어 사용자 지정 {#customizing-carousel}
          + [회전판 뷰어 사용자 정의](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md)
          + [회전판 보기](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-carouselview.md)
          + [초점 강조 표시](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-focushighlight.md)
          + [핫스팟 및 이미지 맵](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md)
          + [기본 뷰어 영역](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-mainviewerarea.md)
          + [다음 슬라이드](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-nextslide.md)
-         + [재생일시 정지 단추](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-playpausebutton.md)
+         + [재생 일시 정지 단추](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-playpausebutton.md)
          + [이전 슬라이드](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-previousslide.md)
          + [표시기 설정](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-setindicator.md)
          + [툴팁](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-tooltips.md)
@@ -739,9 +739,9 @@ ht-degree: 4%
       + [핫스팟 및 이미지 맵 지원](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
       + [이미지 미리 로드](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [뷰어 SDK 네임스페이스](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
-   + 인터랙티브한 이미지 {#interactive-images}
-      + [인터랙티브한 이미지](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-interactive-images}
+   + 대화형 이미지 {#interactive-images}
+      + [대화형 이미지](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-interactive-images}
          + [명령 참조 - 구성 속성](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-conf-attrib.md)
          + [ZoomView.enableHD](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-enablehd.md)
          + [ZoomView.fmt](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/r-html5-aem-interactive-image-conf-attrib/r-html5-aem-interactive-image-config-attrib-zoomview-fmt.md)
@@ -749,7 +749,7 @@ ht-degree: 4%
       + 명령 참조 - URL {#command-reference-interactive-images}
          + [명령 참조 - URL](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/c-html5-aem-int-image-cmdref-url.md)
          + [사전 로딩 이미지](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-int-image-cmdref-url/r-html5-aem-int-image-cmdref-url-preloadimage.md)
-      + 대화형 이미지 뷰어용 Javascript API 참조 {#jsapi-interactive-image}
+      + 대화형 이미지 뷰어에 대한 Javascript API 참조 {#jsapi-interactive-image}
          + [대화형 이미지 뷰어용 JavaScript API 참조](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/c-html5-aem-interactive-image-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-getcomponent.md)
@@ -761,7 +761,7 @@ ht-degree: 4%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md)
-      + 대화형 이미지 뷰어 사용자 정의 {#customizing-interactive-image}
+      + 대화형 이미지 뷰어 사용자 지정 {#customizing-interactive-image}
          + [대화형 이미지 뷰어 사용자 정의](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md)
          + [초점 강조 표시](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-focushighlight.md)
          + [핫스팟](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md)
@@ -774,16 +774,16 @@ ht-degree: 4%
       + [핫스팟 지원](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-hotspot-support.md)
       + [이미지 미리 로드](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md)
       + [뷰어 SDK 네임스페이스](c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-namespace.md)
-   + 인터랙티브한 비디오 {#interactive-video}
-      + [인터랙티브한 비디오](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-interactive-video}
+   + 대화형 비디오 {#interactive-video}
+      + [대화형 비디오](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video.md)
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-interactive-video}
          + [명령 참조 - 구성 속성](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib.md)
          + [CallToAction.align](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-align.md)
          + [CallToAction.direction](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-direction.md)
-         + [CallToAction.enabledragging](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-enabledragging.md)
+         + [CallToAction.enabledrag](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-enabledragging.md)
          + [CallToAction.fmt](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-fmt.md)
          + [CallToAction.maxloadradius](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-maxloadradius.md)
-         + [CallToAction.scrolbar](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-scrollbar.md)
+         + [CallToAction.scrollbar](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-scrollbar.md)
          + [CallToAction.textpos](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoaction-textpos.md)
          + [callToActionRecap](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-controlbar-transition.md)
@@ -793,19 +793,19 @@ ht-degree: 4%
          + [InteractiveSwatches.enabledrag](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-enabledragging.md)
          + [InteractiveSwatches.fmt](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-fmt.md)
          + [InteractiveSwatches.maxloadradius](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-maxloadradius.md)
-         + [InteractiveSwatches.scrolstep](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-scrollstep.md)
+         + [InteractiveSwatches.scrollstep](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-scrollstep.md)
          + [InteractiveSwatches.textpos](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-interactiveswatches-textpos.md)
          + [SocialShare.bearing](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-socialshare-bearing.md)
          + [VideoPlayer.자동 재생](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-autoplay.md)
          + [VideoPlayer.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-iconeffect.md)
          + [VideoPlayer.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-initialbitrate.md)
          + [VideoPlayer.loop](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-loop.md)
-         + [VideoPlayer.multilurme](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-mutevolume.md)
+         + [VideoPlayer.multilenme](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-mutevolume.md)
          + [VideoPlayer.playback](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-playback.md)
-         + [VideoPlayer.포스터 이미지](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md)
+         + [VideoPlayer.posterimage](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md)
          + [VideoPlayer.preload](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-preload.md)
          + [VideoPlayer.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-progressivebitrate.md)
-         + [VideoPlayer.singleclick](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-singleclick.md)
+         + [VideoPlayer.singlick](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-singleclick.md)
          + [VideoPlayer.ssl](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md)
          + [VideoPlayer.waiticon](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-waiticon.md)
          + [VideoScrubber.chaptertimepattern](c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoscrubber-chaptertimepattern.md)
@@ -816,10 +816,10 @@ ht-degree: 4%
       + 명령 참조 - URL {#command-reference-url-interactive-video}
          + [명령 참조 - URL](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/c-html5-aem-int-video-cmdref-url.md)
          + [캡션](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-caption.md)
-         + [인터랙티브한 데이터](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
+         + [상호 작용 데이터](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [탐색](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + 대화형 비디오용 Javascript API 참조 {#jsapi-interactive-video}
+      + 대화형 비디오 {#jsapi-interactive-video}에 대한 Javascript API 참조
          + [대화형 비디오 뷰어용 JavaScript API 참조](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -832,7 +832,7 @@ ht-degree: 4%
          + [setParam](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparam.md)
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [이벤트 콜백](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
-      + 대화형 비디오 뷰어 사용자 정의 {#customizing-interactive-video}
+      + 대화형 비디오 뷰어 사용자 지정 {#customizing-interactive-video}
          + [대화형 비디오 뷰어 사용자 정의](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [조치 수행 질문](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [캡션 단추](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
@@ -844,7 +844,7 @@ ht-degree: 4%
          + [인터랙티브한 색상 견본](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-intswatches.md)
          + [링크 공유](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
          + [기본 뷰어 영역](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-mainviewerarea.md)
-         + [가변 볼륨](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-mutablevolume.md)
+         + [변경 가능한 볼륨](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-mutablevolume.md)
          + [재생/일시 정지 단추](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-playpausebutton.md)
          + [소셜 공유](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-socialshare.md)
          + [툴팁](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-tooltips.md)
@@ -860,8 +860,8 @@ ht-degree: 4%
       + [전체 화면 지원](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-full-screen-support.md)
       + [뷰어 SDK 네임스페이스](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md)
    + Video360 {#video360}
-      + [Video360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
-      + 명령 참조 - 구성 속성 {#command-reference-configuration-attributes-video360}
+      + [비디오360](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360.md)
+      + 명령 참조 - 구성 특성 {#command-reference-configuration-attributes-video360}
          + [명령 참조 - 구성 속성](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib.md)
          + [ControlBar.transition](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-controlbar-transition.md)
          + [EmbedShare.embedsizes](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-embedshare-embedsizes.md)
@@ -870,14 +870,14 @@ ht-degree: 4%
          + [Video360Player.iconeffect](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-iconeffect.md)
          + [Video360Player.initialbitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-initialbitrate.md)
          + [Video360Player.loop](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-loop.md)
-         + [Video360Player.mutevolume](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-mutevolume.md)
+         + [Video360Player.multilinowme](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-mutevolume.md)
          + [Video360Player.playback](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-playback.md)
          + [Video360Player.posterimage](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-posterimage.md)
          + [Video360Player.preload](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-preload.md)
          + [Video360Player.progressivebitrate](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-progressivebitrate.md)
-         + [Video360Player.singleclick](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-singleclick.md)
+         + [Video360Player.singlick](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-singleclick.md)
          + [Video360Player.ssl](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md)
-         + [Video360Player.vrrender](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-vrrender.md)
+         + [Video360Player.vrender](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-vrrender.md)
          + [Video360Player.waiticon](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-waiticon.md)
          + [VideoScrubber.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videoscrubber-timepattern.md)
          + [VideoTime.timepattern](c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-conf-attrib-videotime-timepattern.md)
@@ -885,7 +885,7 @@ ht-degree: 4%
          + [명령 참조 - URL](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md)
          + [비디오](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-video.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/r-html5-aem-video360-url-videoserverurl.md)
-      + Video360 뷰어용 Javascript API 참조 {#jsapi-video360}
+      + Video360 뷰어에 대한 Javascript API 참조 {#jsapi-video360}
          + [Video360 뷰어용 JavaScript API 참조](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/c-html5-aem-video360-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-getcomponent.md)
@@ -899,7 +899,7 @@ ht-degree: 4%
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [이벤트 콜백](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
-      + Video360 뷰어 사용자 정의 {#customizing-video360}
+      + Video360 뷰어 사용자 지정 {#customizing-video360}
          + [Video360 뷰어 사용자 정의](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md)
          + [컨트롤 막대](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-controlbar.md)
          + [공유 포함](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-embedshare.md)
@@ -909,12 +909,12 @@ ht-degree: 4%
          + [아이콘 효과](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-iconeffect.md)
          + [링크 공유](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-int-video-customize-linkshare.md)
          + [기본 뷰어 영역](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mainviewerarea.md)
-         + [가변 볼륨](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mutablevolume.md)
+         + [변경 가능한 볼륨](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-mutablevolume.md)
          + [재생/일시 정지 단추](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-playpausebutton.md)
          + [소셜 공유](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-socialshare.md)
          + [툴팁](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-tooltips.md)
          + [Twitter 공유](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-twittershare.md)
-         + [Video360 플레이어](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
+         + [비디오360 플레이어](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-video360player.md)
          + [비디오 스크러버](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videoscrubber.md)
          + [비디오 시간](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/r-html5-aem-video360-customize-videotime.md)
       + [Adobe Analytics 추적 지원](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-sitecatalyst.md)
@@ -924,13 +924,13 @@ ht-degree: 4%
       + [전체 화면 지원](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-full-screen-support.md)
       + [외부 비디오 지원](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md)
       + [뷰어 SDK 네임스페이스](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md)
-+ 모든 뷰어에 공통인 명령 참조 - 구성 속성 {#command-reference-common-to-all-viewers-config-attrib}
++ 모든 뷰어에 공통되는 명령 참조 - 구성 특성 {#command-reference-common-to-all-viewers-config-attrib}
    + [모든 뷰어에 공통인 명령 참조 - 구성 속성](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md)
    + [stageSize](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-stagesize.md)
    + [style](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-style.md)
    + [title](r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib-title.md)
 + 모든 뷰어에 공통되는 명령 참조 - URL {#command-reference-common-to-all-viewers-url}
-   + [모든 뷰어에 공통되는 명령 참조 - URL](c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md)
+   + [모든 뷰어에 공통인 명령 참조 - URL](c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md)
    + [asset](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-asset.md)
    + [캡션](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-caption.md)
    + [config](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-config.md)

@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6f521aa4-9155-4f14-bc89-e7af24af25f0
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 단계</span></span> </p> </td> 
-   <td colname="col2"> <p>해당 스크롤 단추를 누를 때마다 스크롤할 견본 수를 지정합니다. </p> <p>지정된 값이 표시되는 대화형 색상 견본 수보다 큰 경우, 각 탭에서는 보이는 견본 수로만 스크롤하여 견본을 생략하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>해당 스크롤 단추를 누를 때마다 스크롤할 색상 견본 수를 지정합니다. </p> <p>지정한 값이 표시되는 대화형 견본 수보다 큰 경우 각 탭을 누르면 견본 수가 표시되는 견본 수로만 스크롤되므로 견본 누락이 방지됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

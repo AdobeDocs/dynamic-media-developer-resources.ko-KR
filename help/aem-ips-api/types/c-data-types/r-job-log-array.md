@@ -1,6 +1,6 @@
 ---
-description: 작업 로그의 배열입니다.
-seo-description: 작업 로그의 배열입니다.
+description: 작업 로그 배열입니다.
+seo-description: 작업 로그 배열입니다.
 seo-title: JobLogArray
 solution: Experience Manager
 title: JobLogArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 92b9d0ce-80e5-4bfb-b604-74e690bedc1c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
 
 # JobLogArray{#joblogarray}
 
-작업 로그의 배열입니다.
+작업 로그 배열입니다.
 
 구문
 

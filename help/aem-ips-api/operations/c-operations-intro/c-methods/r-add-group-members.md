@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 382d36a8-7c93-48e6-a54b-425c5e6414fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 
@@ -31,7 +34,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들 |
+| ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
 | ` *`userHandleArray`*` | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 핸들 배열입니다. |
 
 **출력(addGroupMembersParam)**
@@ -40,7 +43,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-이 예제에서는 ` *`addGroupMembersParam`*` 을 사용하여 한 회사에 사용자를 추가합니다. IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+이 예에서는 ` *`addGroupMembersParam`*`을 사용하여 사용자를 단일 회사에 추가합니다. IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 **요청**
 

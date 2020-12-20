@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b8800e9c-a940-42a8-81cb-1798daf65477
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`setHandle`*` | `xsd:string` | 속성 세트 핸들입니다. |
+| ` *`setHandle`*` | `xsd:string` | 속성 집합 핸들. |
 | ` *`typeHandle`*` | `xsd:string` | 속성 세트 유형에 대한 핸들입니다. |
 | ` *`propertyArray`*` | `types:PropertyArray` | 이름-값 쌍. 0개 항목을 포함할 수 있습니다. |
 

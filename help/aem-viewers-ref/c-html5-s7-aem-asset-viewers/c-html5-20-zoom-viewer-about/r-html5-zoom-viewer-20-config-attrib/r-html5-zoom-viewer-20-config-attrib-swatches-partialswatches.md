@@ -1,18 +1,21 @@
 ---
 description: 널
 seo-description: 널
-seo-title: 색상 견본.부분 견본
+seo-title: Swatches.partialswatches
 solution: Experience Manager
-title: 색상 견본.부분 견본
+title: Swatches.partialswatches
 topic: Dynamic media
 uuid: f783f75f-02ea-4a71-88e2-6857c981de27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
 
 
-# 색상 견본.부분 견본{#swatches-partialswatches}
+# Swatches.partialswatches{#swatches-partialswatches}
 
 `[Swatches.|<containerId>_swatches.]partialswatches=0|1`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 색상 견본 중 일부를 볼 때(스크롤이 정렬되지 않음) 구성 요소에서 스크롤을 중지할 수 있는지 여부를 지정합니다. 권장 값은 <span class="codeph"> false</span> 또는 <span class="codeph"> 0입니다</span>. </p> </td> 
+   <td> <p> 색상 견본 중 일부를 볼 때(스크롤이 정렬되지 않음) 구성 요소에서 스크롤을 중지할 수 있는지 여부를 지정합니다. 권장 값은 <span class="codeph"> false</span> 또는 <span class="codeph"> 0</span>입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

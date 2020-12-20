@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 272e4416-4b2f-4f6e-bb04-584d3aad29f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 왼쪽|가운데|오른쪽</span> </p> </td> 
-   <td> <p> 가로 색상 견본의 정렬을 설정합니다. </p> </td> 
+   <td> <p> 가로 견본 정렬을 설정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td> <p> 세로 색상 견본의 정렬을 설정합니다. </p> </td> 
+   <td> <p><span class="codeph"> 위쪽|가운데|아래쪽</span> </p> </td> 
+   <td> <p> 세로 견본 정렬을 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

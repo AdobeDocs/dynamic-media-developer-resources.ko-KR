@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 02c5a8d9-c382-4762-84a6-120255a97840
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 17%
 
 ---
 
@@ -22,7 +25,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 초기 로드 시 비디오 재생을 위한 음소거 모드를 설정합니다. 1로 <span class="codeph"> 설정하면 </span> 볼륨이 음소거됩니다.그렇지 않으면 비디오가 사운드로 재생됩니다. 특정 장치에서 로드에서 비디오 재생을 음소거하는 경우에도 비디오가 자동 재생됩니다. </p> </td> 
+   <td colname="col2"> <p> 초기 로드 시 비디오 재생에 대해 음소거 모드를 설정합니다. <span class="codeph"> 1 </span>으로 설정하면 볼륨이 음소거됩니다.그렇지 않으면 비디오가 사운드와 함께 재생됩니다. 특정 장치에서 로드 시 비디오 재생을 사용하는 경우에도 비디오가 자동 재생됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

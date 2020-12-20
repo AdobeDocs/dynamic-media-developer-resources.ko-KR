@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
@@ -36,7 +39,7 @@ Zip 파일 데이터를 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 들어 있는 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 들어 있는 회사의 핸들입니다. |
 | ` *`assetHandle`*` | `xsd:string` | 예 | Zip 파일을 처리합니다. |
 
 **출력(getZipEntriesReturn)**

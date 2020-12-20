@@ -1,6 +1,6 @@
 ---
-description: eCatalog 뷰어용 JavaScript API 참조.
-seo-description: eCatalog 뷰어용 JavaScript API 참조.
+description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
+seo-description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
@@ -17,24 +17,24 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-eCatalog 뷰어용 JavaScript API 참조.
+eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-뷰어가 삽입되는 `DOM` 컨테이너(일반적으로 a)의 ID를 `DIV`설정합니다. 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요는 없습니다. 그러나 이 컨테이너는 실행될 때 존재해야 `init()` 합니다. 그 전에 전화해야 한다 `init()`.
+뷰어가 삽입되는 `DOM` 컨테이너(일반적으로 `DIV`)의 ID를 설정합니다. 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 `init()`이(가) 실행될 때는 컨테이너가 존재해야 합니다. `init()` 이전에 호출해야 합니다.
 
-이 메서드는 뷰어 구성 정보가 JSON 개체와 함께 생성자에 전달될 경우 `config` 선택 사항입니다.
+이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달될 때 선택 사항입니다.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string} </span> ID입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string}  </span> ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
 
 없음.
 

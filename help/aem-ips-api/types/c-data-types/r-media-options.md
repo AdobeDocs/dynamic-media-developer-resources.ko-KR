@@ -8,11 +8,14 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 5%
 
 ---
 
 
-# 미디어 옵션{#mediaoptions}
+# MediaOptions{#mediaoptions}
 
 비디오에 사용할 축소판 이미지를 생성합니다.
 
@@ -30,19 +33,19 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">PropertySet의 <span class="codeph"> 배열에서</span> 비디오를 트랜스코딩하기 위한 비디오 인코딩 사전 설정을 참조합니다. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:HandleArray</span> </td> 
+   <td colname="col3"><span class="codeph"> PropertySet</span> 배열은 비디오를 트랜스코딩하기 위한 비디오 인코딩 사전 설정을 처리합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 축소판 <span class="varname"> 생성</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> true이면 비디오의 첫 번째 프레임이 추출되어 축소판 이미지로 사용됩니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 축소판 <span class="varname"> 옵션</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:축소판 옵션</span> </td> 
-   <td colname="col3">선택 사항입니다. 축소판 이미지로 사용할 특정 비디오 프레임을 선택할 수 있습니다. <p>축소판 이미지를 지정하려면 사용할 프레임에 대한 시간(비디오 시작에서 밀리초 단위)을 전달합니다. 값의 범위는 0부터 비디오 끝까지입니다. <p>참고:시간을 잘못 지정하면 Thumbnail <span class="codeph"> 이</span> true로 설정됩니다. </p></p><p>축소판 옵션을 <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> 참조하십시오</a>. </p></td> 
+   <td colname="col3">선택 사항입니다. 축소판 이미지로 사용할 특정 비디오 프레임을 선택할 수 있습니다. <p>축소판 이미지를 지정하려면 사용할 프레임에 대한 시간(비디오 시작 후 밀리초)을 전달합니다. 값은 0부터 비디오 끝까지의 범위입니다. <p>참고:시간을 잘못 지정하면 <span class="codeph"> generateThumbnail</span> 기본값은 true입니다. </p></p><p><a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>을 참조하십시오. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,9 +62,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
     </complexType>
 ```
 
-## 사용 방법 {#section-87cb83407198432c95eaa2db9f12f9db}
+## {#section-87cb83407198432c95eaa2db9f12f9db}에서 사용
 
-이 `mediaOptions` 유형은 다음과 같이 사용됩니다.
+`mediaOptions` 유형은 다음 사용자에 의해 사용됩니다.
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

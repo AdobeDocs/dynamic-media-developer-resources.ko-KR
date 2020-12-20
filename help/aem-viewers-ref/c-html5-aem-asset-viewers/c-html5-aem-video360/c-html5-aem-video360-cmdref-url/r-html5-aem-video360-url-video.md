@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +24,7 @@ Video360 뷰어에 대한 URL 명령.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 비디오 <span class="varname"> URL</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
    <td colname="col2"> <p> 외부 비디오에 대한 절대 URL. </p> </td> 
   </tr> 
  </tbody> 
@@ -29,7 +32,7 @@ Video360 뷰어에 대한 URL 명령.
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-필수. (매개 변수를 사용하지 않는 `asset` 경우) 외부 [비디오 지원을 참조하십시오](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+필수. (`asset` 매개 변수가 사용되지 않는 경우). [외부 비디오 지원](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)을 참조하십시오.)
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

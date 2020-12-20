@@ -1,6 +1,6 @@
 ---
-description: 기본 보기는 현재 자산이 스핀 세트인 경우 스핀 이미지로 구성됩니다.
-seo-description: 기본 보기는 현재 자산이 스핀 세트인 경우 스핀 이미지로 구성됩니다.
+description: 기본 보기는 현재 자산이 스핀 세트일 때 스핀 이미지로 구성됩니다.
+seo-description: 기본 보기는 현재 자산이 스핀 세트일 때 스핀 이미지로 구성됩니다.
 seo-title: 회전 보기
 solution: Experience Manager
 title: 회전 보기
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
 
-# Spin view{#spin-view}
+# 회전 보기{#spin-view}
 
-기본 보기는 현재 자산이 스핀 세트인 경우 스핀 이미지로 구성됩니다.
+기본 보기는 현재 자산이 스핀 세트일 때 스핀 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +38,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 회전 보기 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 

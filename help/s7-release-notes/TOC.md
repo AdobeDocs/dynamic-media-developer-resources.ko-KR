@@ -1,7 +1,7 @@
 ---
 title: Adobe Dynamic Media Classic 릴리스 노트
 seo-title: Adobe Dynamic Media Classic 릴리스 노트
-description: Adobe Dynamic Media Classic의 릴리스 노트
+description: Adobe Dynamic Media Classic에 대한 릴리스 노트
 seo-description: Adobe Experience Cloud에서 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 릴리스 노트입니다.
 author: Rick Brough
 cloud: experience-cloud
@@ -10,11 +10,14 @@ archtype: end-user
 user-guide: null
 translation-type: tm+mt
 source-git-commit: e10e2b836bbfb394a7d0e1f16ae2ac44005401b4
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 
 
-# Dynamic Media 릴리스 정보 {#release-notes}
+# Dynamic Media 릴리스 노트 {#release-notes}
 
 + [Dynamic Media 개발자 리소스 홈](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
 + [최신 릴리스 노트](s7rn2017.md)

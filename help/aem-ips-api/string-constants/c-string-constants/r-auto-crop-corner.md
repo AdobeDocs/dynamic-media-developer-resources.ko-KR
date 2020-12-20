@@ -1,13 +1,16 @@
 ---
 description: AutoCropColorOptions/corner에서 사용됩니다.
 seo-description: AutoCropColorOptions/corner에서 사용됩니다.
-seo-title: 자동 자르기 모서리
+seo-title: 자동 자르기 모퉁이
 solution: Experience Manager
-title: 자동 자르기 모서리
+title: 자동 자르기 모퉁이
 topic: Scene7 Image Production System API
 uuid: 684b4651-2978-4a11-b034-9423fe199b5e
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '20'
+ht-degree: 10%
 
 ---
 

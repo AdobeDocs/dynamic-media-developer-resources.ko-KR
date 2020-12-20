@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 1%
 
 ---
 
@@ -22,14 +25,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 <table id="simpletable_AACB976615FF4888A0816328DC48DCA3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 조입찰</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 조비드</span> </p> </td> 
   <td class="stentry"> <p>제출 시 획득한 작업 ID. </p></td> 
  </tr> 
 </table>
 
 반환:
 
-삭제 요청을 받은 때의 작업 상태, 잘못된 경우 오류 `jobid` 또는 작업이 이미 삭제된 경우 오류
+삭제 요청을 받은 때의 작업 상태, `jobid`이(가) 잘못되었거나 작업이 이미 삭제되었을 때 오류가 발생했습니다.
 
 ## 예 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

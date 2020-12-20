@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 연속|세그먼트</span> </p> </td> 
-   <td colname="col2"> <p> 세그먼트 경계 또는 빈 공간에 상관없이 인터랙티브한 견본을 계속 축소판으로 채울 수 있으며 세그먼트 경계를 기록할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 세그먼트 경계 또는 빈 공간에 상관없이 인터랙티브한 견본을 계속 축소판으로 채울 수 있으므로 세그먼트 경계를 기록할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

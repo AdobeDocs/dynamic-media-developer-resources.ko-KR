@@ -1,18 +1,21 @@
 ---
 description: 널
 seo-description: 널
-seo-title: InfoPanelPopup.showhidettransition
+seo-title: InfoPanelPopup.showhidetransition
 solution: Experience Manager
-title: InfoPanelPopup.showhidettransition
+title: InfoPanelPopup.showhidetransition
 topic: Dynamic media
 uuid: ddd78693-e8f3-473c-91b3-8038e99c8ff1
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 25%
 
 ---
 
 
-# InfoPanelPopup.showhidettransition{#infopanelpopup-showhidetransition}
+# InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
 [!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`시간`*]`]
 
@@ -24,7 +27,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 시간</span></span> </p> </td> 
-   <td> <p> 애니메이션을 표시하거나 숨기는 지속 시간(초)입니다. </p> </td> 
+   <td> <p> 애니메이션 표시 또는 숨기기의 지속 시간(초)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

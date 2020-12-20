@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </tr> 
 </table>
 
-렌더링 모양을 세밀하게 조정하는 데 사용됩니다. 비네팅 작성 도구(Scene7 이미지 제작 패키지의 일부)의 렌더링 기능을 사용하여 렌더링 설정 문자열을 만듭니다.
+렌더링 모양을 미세 조정하는 데 사용됩니다. 렌더링 설정 문자열을 만들려면 비네팅 제작 도구(Scene7 이미지 제작 패키지의 일부)의 렌더링 기능을 사용합니다.
 
 ## 속성 {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +40,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예 {#section-47e4811882574441a4d517e42a35f352}
 
-이미지 작성에서 몇 가지 실험을 거친 후 USM(언샵 마스킹)이 주어진 애플리케이션 및 자료에 대해 선명하게 하기 정확한 양을 제공한다고 결정됩니다. USM 파섹 `rs=`
+이미지 작성에서 몇 가지 실험을 거친 후 USM(언샵 마스킹)이 주어진 애플리케이션 및 자료에 대해 선명하게 하기 정확한 양을 제공하는 것으로 결정됩니다. USM을 구성하는 렌더링 설정 문자열이 이 자료에 사용할 `rs=` 명령에 복사됩니다.
 
 `…&rs=U2V20W50X2&…`
 

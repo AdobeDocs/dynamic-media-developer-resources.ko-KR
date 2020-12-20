@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 작업이 속한 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 작업이 속한 회사의 핸들. |
 | ` *`jobHandle`*` | `xsd:string` | 예 | 삭제할 작업에 대한 핸들입니다. |
 
 **출력**

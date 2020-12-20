@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -33,7 +36,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 이름을 변경할 프로젝트가 있는 회사를 처리합니다. |
+| ` *`companyName`*` | `xsd:string` | 예 | 이름을 바꾸려는 프로젝트가 있는 회사를 처리합니다. |
 | ` *`projectHandle`*` | `xsd:string` | 예 | 프로젝트를 처리합니다. |
 | ` *`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
 

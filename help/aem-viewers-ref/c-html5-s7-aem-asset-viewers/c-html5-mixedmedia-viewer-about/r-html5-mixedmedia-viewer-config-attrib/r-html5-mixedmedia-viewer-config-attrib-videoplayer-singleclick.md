@@ -1,26 +1,29 @@
 ---
 description: 널
 seo-description: 널
-seo-title: VideoPlayer.singlick
+seo-title: VideoPlayer.singleclick
 solution: Experience Manager
-title: VideoPlayer.singlick
+title: VideoPlayer.singleclick
 topic: Dynamic media
 uuid: 90664bad-10e4-47fb-a630-a5c25a5beb79
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
 
-# VideoPlayer.singlick{#videoplayer-singleclick}
+# VideoPlayer.singleclick{#videoplayer-singleclick}
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`none|playPause`*`
 
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span></span> </p> </td> 
-   <td colname="col2"> <p> 재생/일시 중지를 전환하도록 한 번 클릭/누르기의 매핑을 구성합니다. [없음]으로 <span class="codeph"> 설정하면</span> 한 번의 클릭/탭을 사용하여 재생/일시 정지합니다. [재생 일시 중지] <span class="codeph"> 로 설정된</span>경우 비디오를 클릭하면 비디오 재생과 일시 중지 간에 전환됩니다. 일부 장치에서는 기본 컨트롤을 사용할 수 있습니다. 이러한 경우 <span class="codeph"> 단일 클릭</span> 동작이 비활성화됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> 재생/일시 중지를 전환하도록 한 번의 클릭/탭 매핑을 구성합니다. <span class="codeph"> none</span>으로 설정하면 재생/일시 정지하기 위해 한 번의 클릭/탭을 사용할 수 없습니다. <span class="codeph"> playPause</span>로 설정된 경우 비디오를 클릭하면 비디오 재생과 일시 중지 간에 전환됩니다. 일부 장치에서는 기본 컨트롤을 사용할 수 있습니다. 이 경우 <span class="codeph"> singlick</span> 비헤이비어가 비활성화됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

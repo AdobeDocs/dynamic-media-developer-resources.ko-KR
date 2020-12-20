@@ -1,6 +1,6 @@
 ---
-description: 데스크톱 시스템에서 버튼과 같은 일부 사용자 인터페이스 요소에는 마우스로 가리키면 표시되는 도구 설명이 있습니다.
-seo-description: 데스크톱 시스템에서 버튼과 같은 일부 사용자 인터페이스 요소에는 마우스로 가리키면 표시되는 도구 설명이 있습니다.
+description: 데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+seo-description: 데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 seo-title: 툴팁
 solution: Experience Manager
 title: 툴팁
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 763cdda7-4938-4884-8040-7e4017e6a0d8
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 6%
 
 ---
 
 
-# Tooltips{#tooltips}
+# 도구 설명{#tooltips}
 
-데스크톱 시스템에서 버튼과 같은 일부 사용자 인터페이스 요소에는 마우스로 가리키면 표시되는 도구 설명이 있습니다.
+데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,15 +38,15 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> 배경 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 색상 </span> </p> </td> 
-   <td colname="col2"> <p> 배경 테두리 색상. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col2"> <p> 배경 테두리 색상입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 배경색. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>텍스트 글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
    <td colname="col2"> <p>텍스트 글꼴 크기. </p> </td> 
   </tr> 
  </tbody> 
@@ -67,7 +70,7 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
 
 ## 예 {#section-59e009fd05b14019936aba04d7ca779d}
 
-3픽셀 모서리 반경, 검정 배경 및 흰색 텍스트가 Arial로 표시된 회색 테두리가 있는 툴팁을 설정하려면 11픽셀입니다.
+회색 테두리가 있고 가로 모퉁이 반경 3픽셀, 검정 배경 및 흰색 텍스트가 있는 도구 설명을 설정하려면 11픽셀:
 
 ```
 .s7tooltip { 

@@ -1,6 +1,6 @@
 ---
-description: 스핀 뷰어용 JavaScript API 참조.
-seo-description: 스핀 뷰어용 JavaScript API 참조.
+description: 스핀 뷰어용 JavaScript API 참조입니다.
+seo-description: 스핀 뷰어용 JavaScript API 참조입니다.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
@@ -8,30 +8,33 @@ topic: Dynamic media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 
 # setAsset{#setasset}
 
-스핀 뷰어용 JavaScript API 참조.
+스핀 뷰어용 JavaScript API 참조입니다.
 
 ` setAsset( *`asset`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산</span></span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"></span>String}의 새로운 자산 ID, 단일 또는 다차원 스핀 세트, 선택적 이미지 제공 수정자가 뒤에 <span class="codeph"> 추가됩니다.</span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산</span> </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>} 새 자산 ID, 선택적 이미지 제공 수정자가 추가된 단일 또는 다차원 스핀 세트, <span class="codeph"> ?</span> </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-새 자산을 설정합니다. 이 매개 변수는 그 전후에 언제든지 호출할 수 `init()`있습니다. 이후에 호출되면 뷰어는 런타임 시 자산을 `init()`교체합니다.
+새 자산을 설정합니다. 이 매개 변수는 `init()` 이전 또는 이후에 언제든지 호출할 수 있습니다. `init()` 이후에 호출되는 경우 뷰어는 런타임에 에셋을 교환합니다.
 
-또한 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)를 참조하십시오.
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)도 참조하십시오.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
 
 없음.
 
@@ -43,7 +46,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
 ```
 
-명시적 스핀 세트:
+명시적 회전 집합:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Frame-1,Scene7SharedAssets/Frame-2,Scene7SharedAssets/Frame-3,Scene7SharedAssets/Frame-4,Scene7SharedAssets/Frame-5,Scene7SharedAssets/Frame-6,Scene7SharedAssets/Frame-7,Scene7SharedAssets/Frame-8")

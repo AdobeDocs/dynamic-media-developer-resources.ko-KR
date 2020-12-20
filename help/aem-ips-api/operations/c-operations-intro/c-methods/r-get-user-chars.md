@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -37,20 +40,20 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 | ` *`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사를 기반으로 결과를 필터링합니다. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | 아니요 | 그룹을 기반으로 결과를 필터링합니다. |
 | ` *`userRoleArray`*` | `types:StringArray` | 아니요 | 사용자 역할에 따라 결과를 필터링합니다. |
-| ` *`numChars`*` | `xsd:int` | 아니요 | 활성화 > 1자 |
+| ` *`numChars`*` | `xsd:int` | 아니요 | 활성화 > 1자. |
 
 **출력(getUserCharsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userCharsArray`*` | `types:StringArray` | 예 | 문자 접두사의 배열입니다. |
+| ` *`userCharsArray`*` | `types:StringArray` | 예 | 문자 접두어의 배열입니다. |
 
 ## 예제 {#section-3702f165e8b041139a6144f4a76ca25f}
 
 이 코드 샘플은 다음을 반환합니다.
 
-* 특정 회사 사용자의 성 이름입니다.
-* 그룹 집합.
+* 특정 회사 사용자의 성명의 첫 번째 문자.
+* 그룹 세트입니다.
 * 사용자 역할 집합.
 
 사용자 문자 필터 필드 문자열 상수는 반환된 사용자 문자 유형을 결정합니다.

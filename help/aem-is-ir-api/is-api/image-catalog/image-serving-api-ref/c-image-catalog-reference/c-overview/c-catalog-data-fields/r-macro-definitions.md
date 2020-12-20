@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '41'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
   <td class="stentry"> <p>매크로 이름(색인 키). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> 정의( <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> Definition)</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> 정의</a></span> </p></td> 
   <td class="stentry"> <p>매크로 정의입니다. </p></td> 
  </tr> 
 </table>

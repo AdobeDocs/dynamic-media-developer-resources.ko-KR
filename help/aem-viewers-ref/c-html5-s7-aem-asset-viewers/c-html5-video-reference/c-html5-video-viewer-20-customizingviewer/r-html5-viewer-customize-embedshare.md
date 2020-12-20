@@ -1,6 +1,6 @@
 ---
-description: 포함 공유 도구는 도구를 활성화하면 표시되는 모달 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추 위치는 Social 공유 도구로 완전히 관리됩니다.
-seo-description: 포함 공유 도구는 도구를 활성화하면 표시되는 모달 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추 위치는 Social 공유 도구로 완전히 관리됩니다.
+description: 포함 공유 도구는 도구를 활성화하면 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
+seo-description: 포함 공유 도구는 도구를 활성화하면 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
 seo-title: 공유 포함
 solution: Experience Manager
 title: 공유 포함
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 04fec93c-68e5-442d-b3ce-2b4012ae4687
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '2620'
+ht-degree: 2%
 
 ---
 
 
 # 공유 포함{#embed-share}
 
-포함 공유 도구는 도구를 활성화하면 표시되는 모달 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추 위치는 Social 공유 도구로 완전히 관리됩니다.
+포함 공유 도구는 도구를 활성화하면 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-포함 공유 버튼의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+포함 공유 버튼의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embedshare
@@ -37,25 +40,25 @@ source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-CSS 클래스에서 CSS 속성을 설정하여 소셜 공유 패널에서 단추를 제거할 `display:none` 수 있습니다.
+CSS 클래스에서 `display:none` CSS 속성을 설정하여 소셜 공유 패널에서 단추를 제거할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)의 현지화를 참조하십시오.
 
-예 - 28 x 28픽셀의 포함 공유 단추를 설정하고 서로 다른 네 개의 단추 상태에 대해 다른 이미지를 표시하려면 다음을 수행합니다.
+예 - 28 x 28픽셀의 포함 공유 단추를 설정하고 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embedshare { 
@@ -76,7 +79,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7backoverlay
@@ -87,17 +90,17 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 불투명도 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 불투명도  </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 불투명도. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 색상. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 배경 오버레이를 70% 불투명도로 회색으로 설정하려면
+예 - 70%의 불투명도를 사용하여 회색으로 배경 오버레이를 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7backoverlay { 
@@ -106,7 +109,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-기본적으로 모달 대화 상자는 데스크톱 시스템의 화면 중앙에 표시되며 터치 장치의 전체 웹 페이지 영역을 가져옵니다. 모든 경우 대화 상자의 위치와 크기는 구성 요소에 의해 관리됩니다. 이 대화 상자는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+기본적으로 모달 대화 상자는 데스크톱 시스템의 화면 중앙에 표시되며 터치 장치에서 전체 웹 페이지 영역을 가져옵니다. 모든 경우 대화 상자의 위치 지정 및 크기는 구성 요소에 의해 관리됩니다. 대화 상자는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialog
@@ -117,25 +120,25 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> 대화 상자에서 전체 브라우저를 사용하지 않는 경우 대화 상자의 테두리 반경을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col2"> <p> 대화 상자에서 전체 브라우저를 사용하지 않는 경우 대화 상자 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자 배경색. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col2"> <p>대화 상자의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 기본 설정). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 기본 설정). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 기본 설정). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 기본 설정). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 대화 상자를 설정하여 전체 브라우저 창을 사용하고 터치 장치에서 흰색 배경을 만들려면:
+예 - 터치 장치에서 전체 브라우저 창을 사용하고 흰색 배경이 되도록 대화 상자를 설정하려면:
 
 ```
 .s7videoviewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -157,7 +160,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 머리글 컨텐츠에 대한 내부 패딩. </p> </td> 
+   <td colname="col2"> <p> 머리글 컨텐츠에 대한 내부 패딩입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,55 +182,55 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-헤더 아이콘은 다음 CSS 클래스 선택기로 제어됩니다.
+머리글 아이콘은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**대화 상자 헤더 아이콘의 CSS 속성**
+**대화 상자 머리글 아이콘의 CSS 속성**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 이미지. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-머리글 제목은 다음 CSS 클래스 선택기로 제어됩니다.
+머리글 제목은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheadertext
 ```
 
-**대화 상자 헤더 텍스트의 CSS 속성**
+**대화 상자 머리글 텍스트의 CSS 속성**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
    <td colname="col2"> <p>글꼴 두께. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
    <td colname="col2"> <p>글꼴 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>글꼴 모음. </p> </td> 
   </tr> 
   <tr> 
@@ -237,7 +240,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-닫기 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+닫기 버튼은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7closebutton
@@ -256,35 +259,35 @@ background-color: #ffffff;
    <td colname="col2"> <p> 머리글 컨테이너를 기준으로 하는 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>단추의 내부 패딩. </p> </td> 
+   <td colname="col2"> <p>단추의 내부 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 현지화를 참조하십시오.
+닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)의 현지화를 참조하십시오.
 
-예 - 패딩이 있는 대화 상자 헤더를 설정하려면, 24 x 14픽셀 아이콘, 굵은 16포인트 제목 및 28 x 28픽셀 닫기 버튼, 위쪽에서 2픽셀, 대화 상자 컨테이너 오른쪽에서 2픽셀을 지정합니다.
+예 - 패딩, 24 x 14픽셀 아이콘, 굵은 16포인트 제목 및 28 x 28픽셀 닫기 단추, 위쪽에서 2픽셀, 대화 상자 컨테이너의 오른쪽에서 2픽셀 등을 사용하여 대화 상자 헤더를 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogheader { 
@@ -341,7 +344,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-바닥글에는 단추를 유지하는 내부 컨테이너가 있습니다. 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+바닥글에는 단추를 유지하는 내부 컨테이너가 있습니다. 이 컨트롤은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbuttoncontainer
@@ -353,37 +356,37 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩. </p> </td> 
+   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-모두 선택 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+[모두 선택] 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogactionbutton
 ```
 
-이 단추는 데스크톱 시스템에서만 사용할 수 있습니다.
+이 버튼은 데스크탑 시스템에서만 사용할 수 있습니다.
 
 **모두 선택 단추의 CSS 속성**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색상입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,9 +394,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->모두 선택 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>[모두 선택] 단추는 `state` 속성 선택기를 지원하므로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-취소 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+취소 버튼은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcancelbutton
@@ -404,19 +407,19 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색상입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,48 +427,48 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->취소 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 서로 다른 단추 상태에 다른 스킨을 적용할 수 있습니다.
+>취소 단추는 `state` 속성 선택기를 지원하므로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-또한 두 버튼은 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 버튼은 다른 대화 상자 버튼과 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogfooter .s7button
 ```
 
-**단추의 CSS 속성**
+**버튼의 CSS 속성**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 두께. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 크기. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 모음. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 선 높이 </span> </p> </td> 
-   <td colname="col2"> <p> 단추 안의 텍스트 높이입니다. 세로 정렬에 영향을 줍니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 선 높이  </span> </p> </td> 
+   <td colname="col2"> <p> 단추 안의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
-   <td colname="col2"> <p>그림자. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상자 그림자  </span> </p> </td> 
+   <td colname="col2"> <p>그림자 효과. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백  </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 단추 여백. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)의 현지화를 참조하십시오.
 
-예 - 각 단추 상태에 대해 텍스트 색상과 배경색이 서로 다른 64 x 34 취소 단추를 사용하여 대화 상자 바닥글을 설정하려면 다음을 수행합니다.
+예 - 각 단추 상태에 대해 텍스트 색상과 배경색이 다른 64 x 34 [취소] 단추를 사용하여 대화 상자 바닥글을 설정하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogfooter { 
@@ -525,7 +528,7 @@ background-color: #ffffff;
 }
 ```
 
-머리글과 바닥글 사이의 기본 대화 영역에는 스크롤 가능한 대화 상자 내용과 오른쪽의 스크롤 패널이 있습니다. 모든 경우, 구성 요소는 이 영역의 너비를 관리하므로 CSS에서 설정할 수 없습니다. 기본 대화 상자 영역은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+머리글과 바닥글 사이의 기본 대화 상자 영역에는 스크롤 가능한 대화 상자 내용과 오른쪽의 스크롤 패널이 있습니다. 모든 경우 구성 요소는 이 영역의 너비를 관리하므로 CSS로 설정할 수 없습니다. 기본 대화 상자 영역은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogviewarea
@@ -536,11 +539,11 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. 대화 상자가 데스크톱 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지할 때는 적용되지 않습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 이 대화 상자를 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 지정된 경우에는 적용되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +553,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 기본 대화 상자 영역을 300픽셀 높이로 설정하려면 10픽셀 여백을 사용하고 흰색 배경을 사용합니다.
+예 - 기본 대화 상자 영역을 높이 300픽셀로 설정하고 10픽셀 여백을 사용하며 흰색 배경을 사용하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogviewarea { 
@@ -560,13 +563,13 @@ background-color: #ffffff;
 }
 ```
 
-모든 양식 컨텐츠(레이블 및 입력 필드 등)는
+모든 양식 컨텐츠(예: 레이블 및 입력 필드)는
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbody
 ```
 
-이 컨테이너의 높이가 기본 대화 상자 영역보다 클 경우 구성 요소에 의해 세로 스크롤이 자동으로 활성화됩니다.
+이 컨테이너의 높이가 기본 대화 상자 영역보다 큰 것으로 나타나면 구성 요소에 의해 자동으로 세로 스크롤이 활성화됩니다.
 
 **대화 상자 본문의 CSS 속성 **
 
@@ -579,7 +582,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 10픽셀 패딩이 있도록 양식 컨텐츠를 설정하려면
+예 - 10픽셀 패딩이 있도록 양식 컨텐츠를 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogbody { 
@@ -600,27 +603,27 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께 </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 두께에 레이블을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 두께. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
    <td colname="col2"> <p>레이블 글꼴 크기. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Label font family. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 모음 레이블을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 색상 레이블을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
+   <td colname="col2"> <p>텍스트 색상에 레이블을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-대화 상자 레이블 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 현지화를 참조하십시오.
+대화 상자 레이블 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)의 현지화를 참조하십시오.
 
-예 - 9픽셀 글꼴로 모든 레이블을 회색으로 설정하려면 다음을 수행합니다.
+예 - 9픽셀 글꼴로 모든 레이블을 회색으로 굵게 설정하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoglabel { 
@@ -630,7 +633,7 @@ background-color: #ffffff;
 }
 ```
 
-포함 코드 맨 위에 표시되는 텍스트 사본의 크기는 다음 CSS 클래스 선택기로 제어됩니다.
+포함 코드 상단에 표시되는 텍스트 사본의 크기는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputwide
@@ -641,7 +644,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>입력 필드 너비. </p> </td> 
   </tr> 
   <tr> 
@@ -651,7 +654,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 텍스트 사본을 너비가 430픽셀이고 아래쪽에 10픽셀 패딩이 있도록 설정하려면:
+예 - 텍스트 복사본을 430픽셀 너비로 설정하고 아래쪽에 10픽셀 패딩이 있도록 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputwide { 
@@ -660,7 +663,7 @@ background-color: #ffffff;
 }
 ```
 
-포함 코드는 컨테이너로 래핑되고 다음 CSS 클래스 선택기로 제어됩니다.
+포함 코드는 컨테이너로 래핑되고 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
@@ -671,12 +674,12 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>포함 코드 컨테이너의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>포함 코드 컨테이너 주위의 테두리 </p> </td> 
+   <td colname="col2"> <p>포함 코드 컨테이너 주위의 테두리입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
@@ -685,7 +688,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 임베드 코드 텍스트 주위에 1픽셀 회색 테두리를 설정하려면 너비가 430픽셀이고 10픽셀 패딩이 있어야 합니다.
+예 - 포함 코드 텍스트 주위에 1픽셀 회색 테두리를 설정하려면 너비가 430픽셀이고 10픽셀 패딩이 있어야 합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -695,7 +698,7 @@ background-color: #ffffff;
 }
 ```
 
-실제 포함 코드 텍스트는 다음 CSS 클래스 선택기로 제어됩니다.
+실제 포함 코드 텍스트는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialoginputcontainer
@@ -706,13 +709,13 @@ background-color: #ffffff;
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> word-wrap </span> </p> </td> 
-   <td colname="col2"> <p>Word 래핑 스타일입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> word-wrap  </span> </p> </td> 
+   <td colname="col2"> <p>Word 줄바꿈 스타일입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - `break-word` 워드 래핑 사용을 위한 포함 코드를 설정하려면
+예 - `break-word` 단어 래핑 기능을 사용하도록 포함 코드를 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +723,7 @@ background-color: #ffffff;
 }
 ```
 
-포함 크기 레이블 및 드롭다운은 대화 상자의 하단에 있으며 다음 CSS 클래스 선택기로 제어되는 컨테이너에 배치됩니다.
+포함 크기 레이블 및 드롭다운은 대화 상자의 하단에 있으며 다음 CSS 클래스 선택기로 제어되는 컨테이너에 넣습니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizepanel
@@ -756,17 +759,17 @@ background-color: #ffffff;
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> vertical-align </span> </p> </td> 
-   <td colname="col2"> <p>세로 레이블 정렬을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 수직 정렬  </span> </p> </td> 
+   <td colname="col2"> <p>세로 레이블 정렬. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>레이블 너비. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 임베드 크기 레이블을 상위 정렬과 80픽셀 폭으로 설정합니다.
+예 - 임베드 크기 레이블을 위쪽 정렬과 80픽셀 폭으로 설정합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -786,7 +789,7 @@ background-color: #ffffff;
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 너비. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,7 +797,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->콤보 상자는 `expanded` 속성 선택기를 지원하며 `true` 및 `false`값이 가능합니다. `true` 가 사용되는 경우는 미리 정의된 포함 크기 중 하나를 콤보 상자에 표시할 때 사용되므로 사용 가능한 모든 너비를 사용합니다. `false` 은 콤보 상자에서 사용자 정의 크기 옵션을 선택할 때 사용되므로 사용자 정의 폭 및 높이 입력 필드의 공간을 허용하려면 축소해야 합니다.
+>콤보 상자는 `true` 및 `false` 값이 가능한 `expanded` 속성 선택기를 지원합니다. `true` 는 미리 정의된 포함 크기 중 하나를 콤보 상자에 표시할 때 사용되므로 사용 가능한 너비를 모두 사용해야 합니다. `false` 은 콤보 상자에서 사용자 정의 크기 옵션을 선택할 때 사용되므로 사용자 정의 폭 및 높이 입력 필드에 대한 공간을 허용하려면 축소해야 합니다.
 
 예 - 사전 정의된 항목을 표시할 때 포함 크기 콤보 상자의 너비가 300픽셀이고 사용자 정의 크기를 표시할 때 너비가 110픽셀인 경우:
 
@@ -818,7 +821,7 @@ background-color: #ffffff;
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 텍스트 높이. </p> </td> 
   </tr> 
  </tbody> 
@@ -844,34 +847,34 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p>콤보 상자 안의 세로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p>콤보 상자 내부의 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p>콤보 상자 안의 가로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p>콤보 상자 내의 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-이 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-예 - &quot;drop down&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대해 별도의 이미지를 만들려면:
+예 - &quot;drop down&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대해 별도의 이미지를 유지하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -892,7 +895,7 @@ background-color: #ffffff;
 }
 ```
 
-콤보 상자를 열 때 임베드 크기 목록이 표시된 패널은 다음 CSS 클래스 선택기로 제어됩니다.
+콤보 상자를 열 때 포함된 크기 목록이 표시된 패널은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7comboboxdropdown
@@ -906,12 +909,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>패널 테두리 </p> </td> 
+   <td colname="col2"> <p>패널 테두리. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 콤보 상자 패널을 1픽셀 회색 테두리로 설정하려면 다음을 수행합니다.
+예 - 콤보 상자 패널을 1픽셀 회색 테두리로 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7comboboxdropdown { 
@@ -930,13 +933,13 @@ background-color: #ffffff;
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>항목 배경. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 콤보 상자 패널 항목을 흰색 배경으로 설정하려면
+예 - 콤보 상자 패널 항목을 흰색 배경으로 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dropdownitemanchor { 
@@ -944,36 +947,36 @@ background-color: #ffffff;
 }
 ```
 
-다음 CSS 클래스 선택기로 제어되는 콤보 상자 패널 내에서 선택한 항목의 왼쪽에 표시되는 확인 표시
+다음 CSS 클래스 선택기로 제어되는 콤보 상자 패널 내에서 선택한 항목의 왼쪽에 표시되는 확인 표시입니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7checkmark
 ```
 
-**확인란 CSS 속성**
+**체크 표시 상자의 CSS 속성**
 
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>항목 이미지. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 확인 표시 아이콘을 25 x 25픽셀로 설정하려면
+예 - 확인 표시 아이콘을 25 x 25픽셀로 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7checkmark { 
@@ -983,7 +986,7 @@ background-color: #ffffff;
 }
 ```
 
-포함 크기 콤보 상자에서 &quot;사용자 정의 크기&quot; 옵션을 선택하면 대화 상자에 사용자가 사용자 정의 포함 크기를 입력할 수 있도록 두 개의 추가 입력 필드가 오른쪽에 표시됩니다. 이러한 필드는 다음 CSS 클래스 선택기로 제어되는 컨테이너로 래핑됩니다.
+포함 크기 콤보 상자에서 &quot;사용자 정의 크기&quot; 옵션을 선택하면 대화 상자에 사용자가 사용자 정의 포함 크기를 입력할 수 있도록 오른쪽에 2개의 추가 입력 필드가 표시됩니다. 이러한 필드는 다음 CSS 클래스 선택기로 제어되는 컨테이너로 래핑됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsizepanel
@@ -995,7 +998,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 임베드 크기 콤보 상자의 거리입니다. </p> </td> 
+   <td colname="col2"> <p> 포함 크기 콤보 상자의 거리입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1008,7 +1011,7 @@ background-color: #ffffff;
 }
 ```
 
-각 사용자 정의 크기 입력 필드는 테두리를 렌더링하고 필드 사이의 여백을 설정하는 컨테이너로 래핑됩니다. 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+각 사용자 정의 크기 입력 필드는 테두리를 렌더링하고 필드 사이의 여백을 설정하는 컨테이너에 둘러싸여 있습니다. 이 컨트롤은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsize
@@ -1023,21 +1026,21 @@ background-color: #ffffff;
    <td colname="col2"> <p>입력 필드 주위의 테두리 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin  </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 여백. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 입력 필드 패딩. </p> </td> 
+   <td colname="col2"> <p> 필드 패딩 입력 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 사용자 정의 크기 입력 필드를 1픽셀 회색 테두리, 여백, 패딩 및 70픽셀로 설정하려면 다음을 수행하십시오.
+예 - 사용자 정의 크기 입력 필드를 1픽셀 회색 테두리, 여백, 패딩 및 너비가 70픽셀로 설정하려면:
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1049,7 +1052,7 @@ background-color: #ffffff;
 }
 ```
 
-세로 스크롤이 필요한 경우 스크롤 막대가 대화 상자의 오른쪽 가장자리 근처에 있는 패널에서 렌더링되어 다음 CSS 클래스 선택기로 제어됩니다.
+세로 스크롤이 필요한 경우 스크롤 막대가 대화 상자의 오른쪽 가장자리 근처에 있는 패널에서 렌더링되며, 이 패널은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7dialogscrollpanel
@@ -1060,7 +1063,7 @@ background-color: #ffffff;
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>스크롤 패널 너비. </p> </td> 
   </tr> 
  </tbody> 
@@ -1074,7 +1077,7 @@ background-color: #ffffff;
 }
 ```
 
-스크롤 막대 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+스크롤 막대 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar
@@ -1085,7 +1088,7 @@ background-color: #ffffff;
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 폭입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -1098,7 +1101,7 @@ background-color: #ffffff;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 스크롤 패널의 오른쪽 가장자리에서 오프셋된 가로 스크롤 막대. </p> </td> 
+   <td colname="col2"> <p> 스크롤 패널의 오른쪽 가장자리에서 수평 스크롤 막대 오프셋입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1125,17 +1128,17 @@ background-color: #ffffff;
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>트랙 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p> 배경색을 추적합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 가로 28픽셀이고 배경이 회색인 스크롤 막대 트랙을 설정하려면:
+예 - 폭이 28픽셀이고 배경이 회색인 스크롤 막대 트랙을 설정하려면 다음과 같이 하십시오.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1144,7 +1147,7 @@ background-color: #B2B2B2;
 }
 ```
 
-스크롤 막대 축소판 표시는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 논리로 완전히 제어됩니다. 그러나 축소판 높이는 콘텐츠의 양에 따라 동적으로 변경되지 않습니다. thumb 높이 및 기타 측면을 다음 CSS 클래스 선택기로 구성할 수 있습니다.
+스크롤 막대 축소판 표시는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 논리로 완전히 제어됩니다. 그러나 축소판 높이는 내용의 양에 따라 동적으로 변경되지 않습니다. thumb 높이 및 기타 측면을 다음과 같은 CSS 클래스 선택기로 구성할 수 있습니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollthumb
@@ -1155,23 +1158,23 @@ background-color: #B2B2B2;
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>축소판 너비. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col2"> <p>축소판 폭 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>축소판 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
-   <td colname="col2"> <p>트랙 위쪽 사이의 세로 패딩. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 위쪽  </span> </p> </td> 
+   <td colname="col2"> <p>트랙 위쪽 사이의 세로 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 하단 </span> </p> </td> 
-   <td colname="col2"> <p> 트랙 아래쪽 사이의 세로 패딩. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 하단  </span> </p> </td> 
+   <td colname="col2"> <p> 트랙 아래쪽 사이의 세로 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> 주어진 축소판 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1179,9 +1182,9 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->Thumb는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over`및 `disabled`를 참조하십시오.
+>Thumb는 다른 축소판 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 속성 선택기를 지원합니다.`up`, `down`, `over` 및 `disabled`.
 
-예 - 28 x 45픽셀인 스크롤 막대 축소판을 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트워크를 사용합니다.
+예 - 28 x 45픽셀인 스크롤 막대 축소판을 설정하고 위쪽과 아래쪽에는 10픽셀 여백이 있으며 각 상태에 대해 서로 다른 아트웍을 설정하는 방법은 다음과 같습니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1204,7 +1207,7 @@ background-color: #B2B2B2;
 }
 ```
 
-위쪽 및 아래쪽 스크롤 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+위쪽 및 아래쪽 스크롤 단추의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton 
@@ -1221,31 +1224,31 @@ CSS 위쪽, 왼쪽, 아래쪽 및 오른쪽 속성을 사용하여 스크롤 단
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내에서 위치를 지정할 수 있습니다. </p> <p>CSS <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> 스프라이트를 참조하십시오 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이러한 버튼은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over`및 `disabled`를 참조하십시오.
+>이러한 단추는 `state` 속성 선택기를 지원하며, 이를 사용하여 서로 다른 단추 상태에 다른 스킨을 적용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 [내용은 사용자 인터페이스 요소의](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 현지화를 참조하십시오.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)의 현지화를 참조하십시오.
 
-예 - 28 x 32픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하려면:
+예 - 28 x 32픽셀이고 각 상태에 대해 서로 다른 아트웍을 포함하는 스크롤 단추를 설정하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

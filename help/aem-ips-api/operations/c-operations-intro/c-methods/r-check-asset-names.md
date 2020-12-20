@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 10%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
 | ` *`assetNamesArray`*` | `types:StringArray` | 예 | 확인할 자산 이름의 배열입니다. |
 
 **출력(checkAssetNamesReturn)**
@@ -46,7 +49,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-bc5d120d74614a63a425ca3acc337219}
 
-이 샘플 코드는 지정된 회사에 대해 사용 중인 자산 이름을 요청합니다. 응답은 사용 중인 자산 이름의 배열을 반환합니다.
+이 샘플 코드는 지정된 회사에 대해 사용 중인 자산 이름을 요청합니다. 응답에서는 사용 중인 자산 이름의 배열을 반환합니다.
 
 **요청**
 

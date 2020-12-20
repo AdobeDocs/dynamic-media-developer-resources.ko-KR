@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batch 파섹](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContext](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -63,7 +66,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
 * [getActivePublishContext](r-get-active-publish-contexts.md)
-* [getAllCompanies](r-get-all-companies.md)
+* [getAllCompany](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
 * [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
@@ -149,8 +152,8 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [setGroupMembership](r-set-group-membership.md)
 * [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
-* [set 파섹](r-set-image-rendering-publish-settings.md)
-* [set 파섹](r-set-image-serving-publish-settings.md)
+* [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
+* [setImageServingPublishSettings](r-set-image-serving-publish-settings.md)
 * [setPassword](r-set-password.md)
 * [setProjectAssets](r-set-project-assets.md)
 * [setTagFieldValues](r-set-tag-field-values.md)

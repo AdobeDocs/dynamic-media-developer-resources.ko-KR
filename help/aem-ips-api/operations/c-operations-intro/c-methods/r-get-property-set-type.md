@@ -1,6 +1,6 @@
 ---
-description: 회사에 대한 아이디와 속성 집합 형식의 이름을 사용하여 속성 집합 형식을 가져옵니다. 속성 유형뿐만 아니라 해당 유형에 대한 핸들의 형식 구조를 가져옵니다.
-seo-description: 회사에 대한 아이디와 속성 집합 형식의 이름을 사용하여 속성 집합 형식을 가져옵니다. 속성 유형뿐만 아니라 해당 유형에 대한 핸들의 형식 구조를 가져옵니다.
+description: 회사에 대한 핸들과 속성 집합 유형의 이름을 사용하여 속성 집합 유형을 가져옵니다. 속성 유형은 물론 유형에 대한 핸들의 형식 구조도 가져옵니다.
+seo-description: 회사에 대한 핸들과 속성 집합 유형의 이름을 사용하여 속성 집합 유형을 가져옵니다. 속성 유형은 물론 유형에 대한 핸들의 형식 구조도 가져옵니다.
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 8%
 
 ---
 
 
 # getPropertySetType{#getpropertysettype}
 
-회사에 대한 아이디와 속성 집합 형식의 이름을 사용하여 속성 집합 형식을 가져옵니다. 속성 유형뿐만 아니라 해당 유형에 대한 핸들의 형식 구조를 가져옵니다.
+회사에 대한 핸들과 속성 집합 유형의 이름을 사용하여 속성 집합 유형을 가져옵니다. 속성 유형은 물론 유형에 대한 핸들의 형식 구조도 가져옵니다.
 
 구문
 
@@ -52,14 +55,14 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 유형</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4">다음 항목이 포함된 형식 구조 
+   <td colname="col4">다음 항목이 포함된 형식 구조입니다. 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 
      <li id="li_9F36539C51ED48EDBECCD6A07A4FDD4A">핸들. </li> 
-     <li id="li_6004406A0D1341648A714FF3C61E4004">유형 이름. </li> 
-     <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">속성 유형. </li> 
+     <li id="li_6004406A0D1341648A714FF3C61E4004">이름을 입력합니다. </li> 
+     <li id="li_29F6CA9D8B134ED3B10B6BDBB41BF607">속성 유형입니다. </li> 
      <li id="li_A2354354541A4F1AB7234F65F2B61A40">형식에 여러 속성 유형이 허용되는지 여부를 나타내는 값입니다. </li> 
     </ul> </td> 
   </tr> 

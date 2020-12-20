@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad9404e4-a546-4db7-bb2d-d81a304dcb36
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 너비</span>,<span class="varname"> 높이</span></span> </p> </td> 
-   <td colname="col2"> <p> 뷰어의 전체 너비와 높이입니다. 0, <span class="codeph"> 0</span> 값은 뷰어의 크기가 CSS 규칙 및 웹 페이지 레이아웃에 따라 조정됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어의 전체 너비와 높이. <span class="codeph"> 0,0</span> 값은 뷰어의 크기가 CSS 규칙 및 웹 페이지 레이아웃에 따라 조절됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

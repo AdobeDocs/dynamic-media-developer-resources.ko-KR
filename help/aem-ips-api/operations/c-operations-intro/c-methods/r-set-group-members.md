@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 특정 회사에 속하는 사용자의 그룹 구성원을 설정합니다.
 
-이 작업을 수행할 권한이 없는 경우 작업에 인증 오류가 발생합니다. 사용자 핸들 배열의 사용자 중 어느 누구도 회사 핸들에 지정된 회사에 속하지 않는 경우에도 마찬가지입니다.
+이 작업을 수행할 권한이 없는 경우 작업에 인증 오류가 발생합니다. 사용자 핸들 배열에 있는 사용자 중 회사 핸들에 지정된 회사에 속하지 않는 사용자도 마찬가지입니다.
 
 ## 인증된 사용자 유형 {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,17 +33,17 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
 | ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
 | ` *`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자에 대한 핸들 배열입니다. |
 
-**출력(set 파섹**
+**출력(setGroupMemberesReturn)**
 
 IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-이 코드 샘플은 단일 사용자에 대한 그룹 구성원을 설정합니다.
+이 코드 샘플은 단일 사용자의 그룹 구성원을 설정합니다.
 
 **요청**
 

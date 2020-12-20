@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
 translation-type: tm+mt
 source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +21,11 @@ IR 3.x 호환성 모듈을 설정하고 구성해야 합니다.
 
 1. 중지 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. ImageServer 웹 앱 디렉토리로 변경합니다.
-1. 디렉토리의 컨텐츠를 [!DNL ir] [!DNL ROOT] 디렉토리로 복사합니다.
-1. 텍스트 [!DNL ROOT/WEB-INF/web.xml] 편집기에서 엽니다.
-1. 라인 검색 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. 및 `<servlet>` 태그의 주석을 `<servlet-mapping>` 해제합니다.
-1. Restart `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
+1. [!DNL ir] 디렉토리의 내용을 [!DNL ROOT] 디렉토리로 복사합니다.
+1. 텍스트 편집기에서 [!DNL ROOT/WEB-INF/web.xml]을(를) 엽니다.
+1. `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->` 행 검색
+1. `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 해제합니다.
+1. `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`을(를) 다시 시작합니다.
 
 **Linux 예**
 
@@ -32,12 +35,12 @@ IR 3.x 호환성 모듈을 설정하고 구성해야 합니다.
 
 `cd WEB-INF`
 
-자주 사용하는 편집기를 [!DNL web.xml]사용하여 편집하면 `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 취소할 수 있습니다.
+그런 다음 즐겨찾기 편집기를 사용하여 [!DNL web.xml]을 편집하여 `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 해제합니다.
 
 **Windows 예**
 
-Explorer를 열고 로 `C:\Program Files\Scene7\ImageServing\webapps\ir`이동합니다.
+탐색기를 열고 `C:\Program Files\Scene7\ImageServing\webapps\ir`으로 이동합니다.
 
-모든 파일 및 폴더를 선택하고 안에 있는 파일을 복사합니다 `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
+모든 파일과 폴더를 선택하고 `C:\Program Files\Scene7\ImageServing\webapps\ROOT` 내에 복사합니다.
 
-그런 다음 파일을 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`편집하여 `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 해제합니다.
+그런 다음 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` 파일을 편집하고 `<servlet>` 및 `<servlet-mapping>` 태그를 주석 해제합니다.

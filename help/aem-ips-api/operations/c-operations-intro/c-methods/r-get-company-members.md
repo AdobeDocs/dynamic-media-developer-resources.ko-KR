@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
@@ -31,8 +34,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 당신이 얻고자 하는 일원이 있는 회사의 핸들. |
-| ` *`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사 포함 |
+| ` *`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사에 대한 핸들입니다. |
+| ` *`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사 포함. |
 
 **출력(getCompanyMembersReturn)**
 
@@ -42,7 +45,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## 예제 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-이 코드 샘플은 사용자 배열에 있는 회사의 모든 멤버를 반환합니다. 간결한 경우 응답이 잘렸습니다.
+이 코드 샘플은 사용자 배열에 있는 회사의 모든 구성원을 반환합니다. 잠시 동안 응답이 잘렸습니다.
 
 **요청**
 

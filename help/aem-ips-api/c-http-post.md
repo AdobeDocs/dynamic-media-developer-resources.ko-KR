@@ -7,10 +7,10 @@ title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -66,22 +66,22 @@ https://<server>/scene7/UploadFile
 >
 >업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 발생해야 합니다.
 
-| HTTP POST 양식 부분 | 설명 |
-|-|-|
-|`auth` |  필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서입니다. [SOAP](/help/aem-ips-api/c-wsdl-versions.md)에서 **인증 요청**을 참조하십시오. |
-|`file params` |  선택 사항입니다. 각 POST 요청에 업로드할 하나 이상의 파일을 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 각 파일 부분은 Content-Disposition 헤더에 파일 이름 매개 변수를 포함할 수 있으며, 이 매개 변수는 IPS에서 대상 파일 이름으로 사용됩니다. |
+|  HTTP POST 양식 부분  |  설명  |
+|---|---|
+| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서입니다. [SOAP](/help/aem-ips-api/c-wsdl-versions.md)에서 **인증 요청**&#x200B;을 참조하십시오. |
+| `file params`  |   선택 사항입니다. 각 POST 요청에 업로드할 하나 이상의 파일을 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 각 파일 부분은 Content-Disposition 헤더에 파일 이름 매개 변수를 포함할 수 있으며, 이 매개 변수는 IPS에서 대상 파일 이름으로 사용됩니다. |
 
-| HTTP POST 양식 부분  | uploadPostParams 요소 이름  | 문자  | 설명  |
-|-|-|-||
-|`uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)  |  `companyHandle` | `xsd:string` | 필수. 파일이 업로드되는 회사에 대해 처리합니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`jobName` | `xsd:string` | `jobName` 또는 `jobHandle` 중 하나가 필요합니다. 업로드 작업의 이름입니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`jobHandle` | `xsd:string` | `jobName` 또는 `jobHandle` 중 하나가 필요합니다. 이전 요청에서 시작된 업로드 작업을 처리합니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`locale` | `xsd:string` | 선택 사항입니다. 현지화를 위한 언어 및 국가 코드. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`description` | `xsd:string` | 선택 사항입니다. 작업에 대한 설명입니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`destFolder` | `xsd:string` | 선택 사항입니다. 파일 이름 속성에 접두사를 지정할 Target 폴더 경로, 특히 파일 이름의 전체 경로를 지원하지 않을 수 있는 브라우저 및 기타 클라이언트의 경우. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`fileName` | `xsd:string` | 선택 사항입니다. 대상 파일의 이름입니다. filename 속성을 무시합니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`endJob` | `xsd:boolean` | 선택 사항입니다. 기본값은 false입니다. |
-|`uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서|`uploadParams` | `types:UploadPostJob` | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams`은 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)을 참조하십시오. |
+|  HTTP POST 양식 부분   |  uploadPostParams 요소 이름   |  유형   |  설명   |
+|---|---|---|---|
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일이 업로드되는 회사에 대해 처리합니다.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobName`  |  `xsd:string`  | `jobName` 또는 `jobHandle` 중 하나가 필요합니다. 업로드 작업의 이름입니다.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobHandle`  |  `xsd:string`  | `jobName` 또는 `jobHandle` 중 하나가 필요합니다. 이전 요청에서 시작된 업로드 작업을 처리합니다.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택 사항입니다. 현지화를 위한 언어 및 국가 코드.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택 사항입니다. 작업에 대한 설명입니다.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택 사항입니다. 파일 이름 속성에 접두사를 지정할 Target 폴더 경로, 특히 파일 이름의 전체 경로를 지원하지 않을 수 있는 브라우저 및 기타 클라이언트의 경우.  |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `fileName`  |  `xsd:string`  | 선택 사항입니다. 대상 파일의 이름입니다. filename 속성을 무시합니다. |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택 사항입니다. 기본값은 false입니다. |
+| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams`은 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)을 참조하십시오. |
 
 `<uploadPostParams>` 블록 내에 포함된 파일의 처리를 지정하는 `<uploadParams>` 블록이 있습니다.
 

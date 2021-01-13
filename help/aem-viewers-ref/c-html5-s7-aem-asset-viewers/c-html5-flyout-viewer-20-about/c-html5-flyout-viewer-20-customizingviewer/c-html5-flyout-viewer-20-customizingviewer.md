@@ -1,16 +1,14 @@
 ---
-description: 널
+description: 플라이아웃 뷰어 사용자 지정
 keywords: responsive
-seo-description: 널
-seo-title: 플라이아웃 뷰어 사용자 지정
 solution: Experience Manager
 title: 플라이아웃 뷰어 사용자 지정
 topic: Dynamic media
 uuid: 10b5caa4-5298-43fa-af86-4f0b77be967b
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,14 @@
 ---
-description: 널
-seo-description: 널
-seo-title: 데이터 유형
+description: 데이터 유형
 solution: Experience Manager
 title: 데이터 유형
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 5%
+source-wordcount: '226'
+ht-degree: 4%
 
 ---
 

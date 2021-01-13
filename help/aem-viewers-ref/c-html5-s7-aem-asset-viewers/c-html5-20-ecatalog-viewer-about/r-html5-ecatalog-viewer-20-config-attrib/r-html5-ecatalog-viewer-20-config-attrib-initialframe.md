@@ -1,16 +1,14 @@
 ---
-description: 널
-seo-description: 널
-seo-title: 초기 프레임
+description: 초기 프레임
 solution: Experience Manager
 title: 초기 프레임
 topic: Dynamic media
 uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 13%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 

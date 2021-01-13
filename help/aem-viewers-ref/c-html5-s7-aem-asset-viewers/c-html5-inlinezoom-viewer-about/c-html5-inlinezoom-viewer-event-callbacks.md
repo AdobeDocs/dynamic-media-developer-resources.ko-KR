@@ -1,16 +1,14 @@
 ---
-description: 널
-seo-description: 널
-seo-title: 이벤트 콜백
+description: 이벤트 콜백
 solution: Experience Manager
 title: 이벤트 콜백
 topic: Dynamic media
 uuid: d98074f1-7dd9-4a7f-9ef8-ebd47b698869
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 

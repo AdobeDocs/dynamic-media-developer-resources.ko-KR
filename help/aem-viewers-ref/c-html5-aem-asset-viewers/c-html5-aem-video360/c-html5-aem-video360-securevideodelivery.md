@@ -1,15 +1,13 @@
 ---
-description: 널
-seo-description: 널
-seo-title: HTTPS 비디오 전달
+description: HTTPS 비디오 전달
 solution: Experience Manager
 title: HTTPS 비디오 전달
 topic: Dynamic media
 uuid: 68984ba1-2802-496a-8ad0-ba46b59514ad
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---

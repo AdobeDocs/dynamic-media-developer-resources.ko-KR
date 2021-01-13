@@ -1,15 +1,12 @@
 ---
+title: 동일한 서버에 여러 Dynamic Media 뷰어 설치
 description: Dynamic Media 뷰어 API 설치 지침
-seo-description: Dynamic Media 뷰어 API 설치 지침
-seo-title: 동일한 서버에 여러 뷰어 설치
 solution: Experience Manager
-title: 동일한 서버에 여러 뷰어 설치
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 동일한 서버에 여러 뷰어 설치{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Dynamic Media 뷰어 API 설치 지침
 
@@ -27,12 +24,12 @@ IS 뷰어 파일을 하드 드라이브에 복사한 다음 `s7viewers.war` 파�
 
 >[!NOTE]
 >
->이미지 제공 뷰어에는 업그레이드 설치가 없습니다. 설치를 계속하기 전에 기존 Dynamic Media 뷰어 디렉토리를 백업하는 것이 좋습니다.
+>이미지 제공 뷰어에는 업그레이드 설치가 없습니다. 설치를 계속하기 전에 기존 Dynamic Media 뷰어(s7viewers) 디렉토리를 백업하는 것이 좋습니다.
 
-**동일한 서버에 뷰어를 설치하려면**
+**동일한 서버에 여러 뷰어를 설치하려면**
 
 1. 뷰어 .war의 이름을 원하는 컨텍스트로 변경하고 파일을 원하는 위치에 배포합니다.
 1. `config.js`에서 `this.isViewerRoot` 매개 변수를 설정합니다.
 1. 새로 만든 뷰어 폴더의 루트에 있는 `config.js`을 엽니다.
-1. 매개 변수 `this.isViewerRoot = "/s7viewers"`을 `s7viewers.war` 파일의 컨텍스트에 설정합니다. (예: `"/s7viewers-4.0"`) 파일을 저장하고 닫습니다.
+1. 매개 변수 `this.isViewerRoot = "/s7viewers"`을 `s7viewers.war` 파일의 컨텍스트에 설정합니다. (예: `"/s7viewers-4.0"`)
 1. 파일을 저장하고 닫습니다.

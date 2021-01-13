@@ -1,16 +1,14 @@
 ---
-description: 널
-seo-description: 널
-seo-title: 타임스탬프
+description: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ce5e42e-573a-4e1c-97d4-98888e16ca56
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 2%
 
 ---
 

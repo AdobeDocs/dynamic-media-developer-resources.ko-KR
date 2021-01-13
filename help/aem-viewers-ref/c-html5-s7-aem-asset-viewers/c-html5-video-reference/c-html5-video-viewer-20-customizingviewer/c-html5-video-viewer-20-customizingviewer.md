@@ -1,16 +1,14 @@
 ---
-description: 널
+description: 비디오 뷰어 사용자 정의
 keywords: responsive
-seo-description: 널
-seo-title: 비디오 뷰어 사용자 정의
 solution: Experience Manager
 title: 비디오 뷰어 사용자 정의
 topic: Dynamic media
 uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1256'
 ht-degree: 0%
 
 ---

@@ -1,15 +1,13 @@
 ---
-description: 널
-seo-description: 널
-seo-title: 뷰어 SDK 네임스페이스
+description: 뷰어 SDK 네임스페이스
 solution: Experience Manager
 title: 뷰어 SDK 네임스페이스
 topic: Dynamic media
 uuid: ce696dc2-3558-4fd4-8874-b58a0639099d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---

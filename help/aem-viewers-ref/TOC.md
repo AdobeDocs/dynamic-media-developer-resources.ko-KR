@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 translation-type: tm+mt
-source-git-commit: 636edb2fe860a75af66ab5143ab91020a2eb47ec
+source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1901'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 4%
 + [시스템 요구 사항](c-system-requirements-and-prerequisites.md)
 + [동일한 서버에 여러 뷰어 설치](t-installing-the-viewers.md)
 + 뷰어 릴리스 노트 {#viewers-release-notes}
-   + [뷰어 릴리스 노트(5.14.1)](c-release-notes/c-rn-06-03-20.md)
+   + [뷰어 릴리스 노트(5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + 보관 {#archive}
       + [릴리스 노트 아카이브](c-release-notes/c-archive/c-archive.md)
+      + [뷰어 릴리스 노트(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [뷰어 릴리스 노트(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [뷰어 릴리스 노트(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [뷰어 릴리스 노트(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
@@ -35,6 +36,8 @@ ht-degree: 4%
       + [Scene7 뷰어 5.0.1 릴리스 노트](c-release-notes/c-archive/c-rn-04-29-14.md)
       + [Scene7 뷰어 4.9.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [호환성 정보](c-compatibility-notes.md)
++ [키보드 액세스 가능성 및 내비게이션](c-keyboard-accessibility.md)
++ [뷰어 SDK 자습서](c-tutorial.md)
 + AEM Assets 및 Dynamic Media Classic {#viewers-aem-assets-dmc} 뷰어
    + [AEM Assets 및 Dynamic Media Classic 뷰어](c-html5-s7-aem-asset-viewers/c-html5-s7-aem-asset-viewers.md)
    + 기본 확대/축소 {#basic-zoom}
@@ -939,5 +942,4 @@ ht-degree: 4%
    + [initialFrame](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-initialframe.md)
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
-+ [키보드 액세스 가능성 및 내비게이션](c-keyboard-accessibility.md)
-+ [뷰어 SDK 자습서](c-tutorial.md)
+

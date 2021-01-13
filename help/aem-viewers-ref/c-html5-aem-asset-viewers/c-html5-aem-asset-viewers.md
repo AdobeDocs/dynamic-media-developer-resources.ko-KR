@@ -1,16 +1,14 @@
 ---
-description: 널
-seo-description: 널
-seo-title: AEM Assets 전용 뷰어
+description: AEM Assets 전용 뷰어
 solution: Experience Manager
 title: AEM Assets 전용 뷰어
 topic: Dynamic media
 uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '31'
+ht-degree: 6%
 
 ---
 

@@ -7,7 +7,7 @@ title: 호환성 정보
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # 호환성 정보{#compatibility-notes}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13,2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 운영 체제, 브라우저 및 모바일 디바이스에 대한 호환성 정보
 
@@ -76,4 +76,3 @@ ht-degree: 1%
 * Safari 6.1 이상:인터넷 플러그인 설정으로 인해 Flash 비디오 재생이 불가능할 수 있습니다.
 * Safari에서 HLS 스트리밍을 사용하는 비디오 검색이 일관되지 않을 수 있습니다.
 * HLS 스트리밍을 사용하여 Safari 6에서 비디오를 종료할 수 없습니다.
-

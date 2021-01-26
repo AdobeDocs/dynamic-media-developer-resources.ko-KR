@@ -1,15 +1,15 @@
 ---
-description: 이 문서에서는 Scene7 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
-seo-description: 이 문서에서는 Scene7 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
+description: 이 문서에서는 Dynamic Media 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
+seo-description: 이 문서에서는 Dynamic Media 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
 seo-title: 소개
 solution: Experience Manager
 title: 소개
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 소개{#introduction}
 
-이 문서에서는 Scene7 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
+이 문서에서는 Dynamic Media 이미지 렌더링을 위한 재료 카탈로그에 대해 설명합니다.
 
 **대상**
 
-이 문서는 웹 사이트 또는 사용자 정의 애플리케이션에 Scene7 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 위해 작성되었습니다.
+이 문서는 웹 사이트 또는 사용자 정의 애플리케이션에 Dynamic Media 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 위해 작성되었습니다.
 
-독자는 Scene7 이미지 작성 및 이미지 렌더링, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미지 용어에 익숙하다고 가정합니다.
+독자는 Dynamic Media 이미지 작성 및 이미지 렌더링, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미지 용어에 익숙하다고 가정합니다.
 
 **문서 규칙**
 

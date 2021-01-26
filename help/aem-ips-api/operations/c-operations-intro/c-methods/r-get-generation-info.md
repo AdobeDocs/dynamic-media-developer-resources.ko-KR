@@ -4,10 +4,10 @@ seo-description: 전달된 매개 변수를 기반으로 2개의 다른 유형�
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 8%
@@ -39,18 +39,18 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`코드 구문`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`코드 구문`*` | `xsd:string` | 아니요 | 세대에 사용된 엔진입니다. 글꼴 스타일을 참조하십시오. |
-| ` *`코드 구문`*` | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들. |
-| ` *`코드 구문`*` | `xsd:string` | 아니요 | 생성에 사용된 자산 및 엔진을 쿼리할 자산의 핸들. |
-| ` *`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에 포함된 속성입니다. |
-| ` *`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에서 제외된 속성입니다. |
+| `*`코드 구문`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| `*`코드 구문`*` | `xsd:string` | 아니요 | 세대에 사용된 엔진입니다. 글꼴 스타일을 참조하십시오. |
+| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들. |
+| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성에 사용된 자산 및 엔진을 쿼리할 자산의 핸들. |
+| `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에 포함된 속성입니다. |
+| `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에서 제외된 속성입니다. |
 
 **출력(getGenerationInfoReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`generationArray`*` | `types:GenerationInfoArray` | 예 | 생성 정보의 배열입니다. |
+| `*`generationArray`*` | `types:GenerationInfoArray` | 예 | 생성 정보의 배열입니다. |
 
 ## 예제 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

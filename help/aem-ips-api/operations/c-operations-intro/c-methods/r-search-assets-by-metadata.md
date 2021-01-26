@@ -4,10 +4,10 @@ seo-description: 지정된 검색어에 대한 메타데이터 인덱스 저장�
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 7%
@@ -127,8 +127,8 @@ null 값을 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | 아니요 | 일치 항목 수입니다. |
-| ` *`assetArray`*` | `types:AssetArray` | 아니요 | 검색에서 반환된 자산 배열입니다. |
+| `*`totalRows`*` | `xsd:int` | 아니요 | 일치 항목 수입니다. |
+| `*`assetArray`*` | `types:AssetArray` | 아니요 | 검색에서 반환된 자산 배열입니다. |
 
 ## metadataConditionArray 세부 사항 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 

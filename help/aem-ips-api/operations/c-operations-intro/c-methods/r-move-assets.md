@@ -4,10 +4,10 @@ seo-description: 여러 자산을 서로 독립적으로 이동합니다. 이 �
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 8%
@@ -36,8 +36,8 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사에 대한 핸들입니다. |
-| ` *`assetMoveArray`*` | `types:AssetMoveArray` | 예 | 자산 이동 배열입니다. 자산 및 자산 대상 폴더가 포함되어 있습니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사에 대한 핸들입니다. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | 예 | 자산 이동 배열입니다. 자산 및 자산 대상 폴더가 포함되어 있습니다. |
 
 **출력(moveAssetsReturn)**
 

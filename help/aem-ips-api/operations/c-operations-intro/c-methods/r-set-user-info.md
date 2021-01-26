@@ -4,10 +4,10 @@ seo-description: '사용자 특성(예: 이름, 이메일, 역할 등)을 설정
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 16%
@@ -34,14 +34,14 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 사용자 핸들. |
-| ` *`firstName`*` | `xsd:string` | 예 | 이름. |
-| ` *`lastName`*` | `xsd:string` | 예 | 성. |
-| ` *`이메일`*` | `xsd:string` | 예 | 사용자 이메일. |
-| ` *`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 회사별 다른 설정을 무시합니다. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료일을 설정합니다. |
-| ` *`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 사용자 핸들. |
+| `*`firstName`*` | `xsd:string` | 예 | 이름. |
+| `*`lastName`*` | `xsd:string` | 예 | 성. |
+| `*`이메일`*` | `xsd:string` | 예 | 사용자 이메일. |
+| `*`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 회사별 다른 설정을 무시합니다. |
+| `*`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료일을 설정합니다. |
+| `*`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
 
 **출력(setUserInfoReturn)**
 

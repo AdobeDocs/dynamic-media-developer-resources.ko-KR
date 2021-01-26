@@ -1,15 +1,15 @@
 ---
-description: 이 섹션에서는 HTTP 프로토콜 구문과 Scene7 이미지 렌더링을 위한 기능에 대해 설명합니다.
-seo-description: 이 섹션에서는 HTTP 프로토콜 구문과 Scene7 이미지 렌더링을 위한 기능에 대해 설명합니다.
+description: 이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이미지 렌더링을 위한 기능에 대해 설명합니다.
+seo-description: 이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이미지 렌더링을 위한 기능에 대해 설명합니다.
 seo-title: HTTP 프로토콜 구문 및 기능
 solution: Experience Manager
 title: HTTP 프로토콜 구문 및 기능
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '98'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # HTTP 프로토콜 구문 및 기능{#http-protocol-syntax-and-features}
 
-이 섹션에서는 HTTP 프로토콜 구문과 Scene7 이미지 렌더링을 위한 기능에 대해 설명합니다.
+이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이미지 렌더링을 위한 기능에 대해 설명합니다.
 
 * [이미지 렌더링 HTTP 프로토콜 기본 구문](r-ir-basic-syntax.md)
 * [이미지 렌더링 HTTP 프로토콜 명령 개요](c-ir-command-overview/c-ir-command-overview.md)

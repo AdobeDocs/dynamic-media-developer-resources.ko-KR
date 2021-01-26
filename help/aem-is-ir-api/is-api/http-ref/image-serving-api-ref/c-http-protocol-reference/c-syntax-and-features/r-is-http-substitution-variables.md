@@ -4,10 +4,10 @@ seo-description: 대체 변수는 요청 URL에서 이미지 카탈로그에 저
 seo-title: 대체 변수
 solution: Experience Manager
 title: 대체 변수
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 ## 사전 정의된 경로 변수 {#section-930d0dd12e8f49499becc9fe8df24092}
 
-요청 경로에 지정된 *`object`*&#x200B;은 사전 정의된 변수 ` *`$object`*`에 할당됩니다. &#39; ` $ *`object`*$`&#39;는 요청에서 참조한 템플릿 또는 `src=` 및 `mask=` 값과 중첩/포함된 요청의 경로를 포함하여 해당 개체가 허용되는 중첩/포함된 요청에서 요청의 어느 곳에나 배치할 수 있습니다.
+요청 경로에 지정된 *`object`*&#x200B;은 사전 정의된 변수 `*`$object`*`에 할당됩니다. &#39; ` $ *`object`*$`&#39;는 요청에서 참조한 템플릿 또는 `src=` 및 `mask=` 값과 중첩/포함된 요청의 경로를 포함하여 해당 개체가 허용되는 중첩/포함된 요청에서 요청의 어느 곳에나 배치할 수 있습니다.
 
 예를 들어, 다음 요청은 경로에 지정된 이미지를 중첩 요청에서 레이어의 소스로 재사용합니다.
 
@@ -92,13 +92,13 @@ ht-degree: 0%
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-` *`$object`*`의 정의는 원하는 값으로 ` $ *`object`*=`을 명시적으로 지정하여 재정의할 수 있습니다.
+`*`$object`*`의 정의는 원하는 값으로 ` $ *`object`*=`을 명시적으로 지정하여 재정의할 수 있습니다.
 
 사전 정의된 경로 변수는 일반적으로 `template=`과 함께 사용됩니다.
 
 ## 기본값 {#section-b02483d15529444586a2e9504805b155}
 
-없음. 정의된 변수만 서버에 의해 대체됩니다(사전 정의된 경로 변수 $object 제외(항상 대체됨). ` *`var`*`이(가) 기존 변수 정의와 일치할 수 없는 경우 ` $ *`var`*$`의 모든 항목은 리터럴로 유지됩니다.
+없음. 정의된 변수만 서버에 의해 대체됩니다(사전 정의된 경로 변수 $object 제외(항상 대체됨). `*`var`*`이(가) 기존 변수 정의와 일치할 수 없는 경우 ` $ *`var`*$`의 모든 항목은 리터럴로 유지됩니다.
 
 ## 예제 {#section-fba9393df6984247b7e30b3f93992e86}
 

@@ -4,10 +4,10 @@ seo-description: 그룹의 구성원을 반환합니다.
 seo-title: getGroupMembership
 solution: Experience Manager
 title: getGroupMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 18%
@@ -37,14 +37,14 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 사용자에 대한 핸들입니다. |
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 사용자에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
 
 **출력(getGroupMembershipReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`groupArray`*` | `types:GroupArray` | 예 | 그룹 배열입니다. |
+| `*`groupArray`*` | `types:GroupArray` | 예 | 그룹 배열입니다. |
 
 ## 예제 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 

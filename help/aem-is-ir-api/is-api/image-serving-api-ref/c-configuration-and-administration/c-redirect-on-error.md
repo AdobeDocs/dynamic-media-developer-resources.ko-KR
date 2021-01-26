@@ -4,10 +4,10 @@ seo-description: IS 서버는 성공적으로 열거나 읽을 수 없는 소스
 seo-title: 오류 시 리디렉션
 solution: Experience Manager
 title: 오류 시 리디렉션
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

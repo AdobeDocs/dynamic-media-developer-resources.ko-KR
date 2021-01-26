@@ -4,10 +4,10 @@ seo-description: 이미지 제공에서 지원되는 명령은 아래에 대략�
 seo-title: 이미지 제공 HTTP 프로토콜 명령 개요
 solution: Experience Manager
 title: 이미지 제공 HTTP 프로토콜 명령 개요
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

@@ -4,12 +4,12 @@ seo-description: 대상 데이터를 확대/축소합니다. 확대/축소 대�
 seo-title: 목표
 solution: Experience Manager
 title: 목표
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 스핀 및 브로셔 뷰어 클라이언트가 포함된 응용 프로그램의 경우 확대/축소 타겟을 이미지 세트를 정의하는 동일한 카탈로그 레코드에 정의해야 합니다. 이미지 집합 구성원의 카탈로그 레코드에 있는 확대/축소 대상 정의는 뷰어에서 무시됩니다.
 
-Scene7 뷰어는 `catalog::Modifier`의 명령으로 이미 조정된 전체 해상도 이미지의 좌표에 확대/축소 타겟이 있을 것으로 예상합니다.
+Dynamic Media 뷰어는 `catalog::Modifier`의 명령으로 이미 조정된 전체 해상도 이미지의 좌표에 확대/축소 타겟이 있을 것으로 예상합니다.
 
 ## 속성 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

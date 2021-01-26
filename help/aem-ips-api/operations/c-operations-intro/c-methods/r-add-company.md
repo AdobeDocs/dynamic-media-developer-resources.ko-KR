@@ -1,15 +1,12 @@
 ---
 description: 시스템에 회사를 추가합니다.
-seo-description: 시스템에 회사를 추가합니다.
-seo-title: addCompany
 solution: Experience Manager
 title: addCompany
-topic: Scene7 Image Production System API
-uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 9%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 9%
 
 시스템에 추가할 회사의 이름을 보내고 선택적으로 회사가 만료되는지 여부를 전송합니다.
 
-이 작업을 호출하면 시스템이 회사 핸들 및 설명 필드를 포함하는 ` *`companyInfo`*` 유형을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이(가) 발생합니다.
+이 작업을 호출하면 시스템이 회사 핸들 및 설명 필드를 포함하는 `*`companyInfo`*` 유형을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이(가) 발생합니다.
 
 ## 인증된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 

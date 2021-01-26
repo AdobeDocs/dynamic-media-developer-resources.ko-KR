@@ -4,10 +4,10 @@ seo-description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하�
 seo-title: 작업 오류
 solution: Experience Manager
 title: 작업 오류
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 9%
@@ -27,6 +27,6 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시�
 
 | ** 이름** | ** 유형** | ** 설명** |
 |---|---|---|
-| ` *`코드`*` | `xsd:int` | CDN에서 제공된 오류 코드 |
-| ` *`이유`*` | `xsd:string` | CDN에서 제공된 오류 메시지 |
+| `*`코드`*` | `xsd:int` | CDN에서 제공된 오류 코드 |
+| `*`이유`*` | `xsd:string` | CDN에서 제공된 오류 메시지 |
 

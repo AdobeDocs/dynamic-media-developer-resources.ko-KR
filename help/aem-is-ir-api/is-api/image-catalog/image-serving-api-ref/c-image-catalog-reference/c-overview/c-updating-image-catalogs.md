@@ -4,10 +4,10 @@ seo-description: 서버는 카탈로그 폴더를 지속적으로 모니터링�
 seo-title: 이미지 카탈로그 업데이트
 solution: Experience Manager
 title: 이미지 카탈로그 업데이트
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%

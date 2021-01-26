@@ -1,15 +1,15 @@
 ---
-description: Scene7 Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
-seo-description: Scene7 Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
+description: Dynamic Media Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
+seo-description: Dynamic Media Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
 seo-title: IS 4.7.4 이상에서 업데이트
 solution: Experience Manager
 title: IS 4.7.4 이상에서 업데이트
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # IS 4.7.4 이상{#updating-from-is-or-later}에서 업데이트
 
-Scene7 Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
+Dynamic Media Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
 
 이전 버전의 Image Serving에서 업그레이드하는 경우 올바른 프로세스에 대해서는 지원 센터에 문의하십시오.
 

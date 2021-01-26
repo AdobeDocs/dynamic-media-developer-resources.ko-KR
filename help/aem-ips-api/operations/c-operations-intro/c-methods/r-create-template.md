@@ -4,10 +4,10 @@ seo-description: 여러 텍스트 및 이미지 레이어를 포함할 수 있�
 seo-title: createTemplate
 solution: Experience Manager
 title: createTemplate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c54bd47c-13e1-4b0d-a24c-9829b0a6d5bf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 10%
@@ -35,18 +35,18 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 템플릿이 속한 회사. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 템플릿이 있는 폴더를 나타내는 폴더 핸들. |
-| ` *`name`*` | `xsd:string` | 예 | 템플릿 이름. |
-| ` *`type`*` | `xsd:string` | 예 | 템플릿 유형. |
-| ` *`urlModifier`*` | `xsd:string` | 예 | URL에서 사용자가 제공하는 명령 이전에 적용되는 IS 카탈로그에 저장된 이미지 서버 명령을 지정합니다. |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 충돌하는 사용자 제공 설정을 덮어쓰는 모든 URL 명령 다음에 적용되는 프로토콜 명령을 지정합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 템플릿이 속한 회사. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 템플릿이 있는 폴더를 나타내는 폴더 핸들. |
+| `*`name`*` | `xsd:string` | 예 | 템플릿 이름. |
+| `*`type`*` | `xsd:string` | 예 | 템플릿 유형. |
+| `*`urlModifier`*` | `xsd:string` | 예 | URL에서 사용자가 제공하는 명령 이전에 적용되는 IS 카탈로그에 저장된 이미지 서버 명령을 지정합니다. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 충돌하는 사용자 제공 설정을 덮어쓰는 모든 URL 명령 다음에 적용되는 프로토콜 명령을 지정합니다. |
 
 **출력(createTemplateParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 예 | 템플릿의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 템플릿의 핸들입니다. |
 
 ## 예제 {#section-09adb4d2f0c944af875c4463a461f55d}
 

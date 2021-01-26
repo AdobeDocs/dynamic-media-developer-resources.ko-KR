@@ -4,10 +4,10 @@ seo-description: 자산에 대한 이미지 맵을 설정합니다.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -36,15 +36,15 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | 예 | 미리 정의된 이미지 맵의 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | 예 | 미리 정의된 이미지 맵의 배열입니다. |
 
 **출력(setImageMapsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | 예 | 자산에 이미지 맵 핸들이 있는 배열입니다. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | 예 | 자산에 이미지 맵 핸들이 있는 배열입니다. |
 
 ## 예제 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

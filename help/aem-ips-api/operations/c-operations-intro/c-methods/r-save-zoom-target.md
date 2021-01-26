@@ -4,10 +4,10 @@ seo-description: 확대/축소 대상을 만들거나 편집합니다.
 seo-title: saveZoomTarget
 solution: Experience Manager
 title: saveZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 197f7a2a-39ea-41cc-8e3a-76f9fe1b37d0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 20%
@@ -36,21 +36,21 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 저장할 확대/축소 타겟이 있는 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 확대/축소 대상에 대한 핸들입니다. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | 아니요 | 확대/축소 대상을 편집하거나 만듭니다. |
-| ` *`name`*` | `xsd:string` | 예 | 확대/축소 대상 이름. |
-| ` *`xPosition`*` | `xsd:int` | 예 | 왼쪽 픽셀 위치. |
-| ` *`yPosition`*` | `xsd:int` | 예 | 위쪽 픽셀 위치. |
-| ` *`width`*` | `xsd:int` | 예 | 대상 너비를 확대/축소합니다. |
-| ` *`height`*` | `xsd:int` | 예 | 대상 높이를 확대/축소합니다. |
-| ` *`사용자 데이터`*` | `xsd:string` | 예 | 고객별 정보를 참조하십시오. 모든 유형의 데이터를 포함할 수 있습니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 저장할 확대/축소 타겟이 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 확대/축소 대상에 대한 핸들입니다. |
+| `*`zoomTargetHandle`*` | `xsd:string` | 아니요 | 확대/축소 대상을 편집하거나 만듭니다. |
+| `*`name`*` | `xsd:string` | 예 | 확대/축소 대상 이름. |
+| `*`xPosition`*` | `xsd:int` | 예 | 왼쪽 픽셀 위치. |
+| `*`yPosition`*` | `xsd:int` | 예 | 위쪽 픽셀 위치. |
+| `*`width`*` | `xsd:int` | 예 | 대상 너비를 확대/축소합니다. |
+| `*`height`*` | `xsd:int` | 예 | 대상 높이를 확대/축소합니다. |
+| `*`사용자 데이터`*` | `xsd:string` | 예 | 고객별 정보를 참조하십시오. 모든 유형의 데이터를 포함할 수 있습니다. |
 
 **출력(saveZoomTargetReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`zoomTargetHandle`*` | `xsd:string` | 예 | 새로 만든 확대/축소 타겟을 처리합니다. |
+| `*`zoomTargetHandle`*` | `xsd:string` | 예 | 새로 만든 확대/축소 타겟을 처리합니다. |
 
 ## 예제 {#section-509c472c316549cdb228d7e1cfa8400a}
 

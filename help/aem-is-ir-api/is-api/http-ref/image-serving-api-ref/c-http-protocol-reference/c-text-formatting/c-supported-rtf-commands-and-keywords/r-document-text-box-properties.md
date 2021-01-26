@@ -4,12 +4,12 @@ seo-description: 텍스트 상자에서는 다음 문서 속성이 지원됩니�
 seo-title: 문서(텍스트 상자) 속성
 solution: Experience Manager
 title: 문서(텍스트 상자) 속성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>CMYK 색상표. </p> </td> 
-   <td> <p>Scene7 확장 </p> </td> 
+   <td> <p>Dynamic Media 확장 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>이미지 제공 색상에 대한 색상표입니다. </p> </td> 
-   <td> <p>Scene7 확장;<span class="codeph"> textPs= </span>만 </p> </td> 
+   <td> <p>Dynamic Media 확장;<span class="codeph"> textPs= </span>만 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>청록 색상 구성 요소. </p> </td> 
-   <td> <p>Scene7 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>자홍 색상 구성 요소. </p> </td> 
-   <td> <p>Scene7 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \yellow  <span class="varname"> N  </span> </span> </td> 
    <td> <p>노란색 색상 구성 요소 </p> </td> 
-   <td> <p>Scene7 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>검정 색상 구성 요소. </p> </td> 
-   <td> <p>Scene7 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장;는 <span class="codeph"> \cmykcolortbl </span>;에만 표시됩니다.0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 

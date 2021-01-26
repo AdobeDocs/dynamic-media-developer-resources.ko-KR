@@ -4,13 +4,13 @@ seo-description: 레이어 이미지.
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4396848-b992-4371-a8ae-4ff1781ae1be
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 2%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
@@ -43,10 +43,6 @@ ht-degree: 2%
 중첩 또는 포함된 요청은 중괄호로 묶입니다. 포함된 이미지 제공 요청에 `is`, `ir`로 포함된 이미지 렌더링 요청 및 `fxg`로 FXG 그래픽 렌더링 요청을 접두어로 지정합니다. 접두어가 지정되지 않은 경우 외국 서버에 대한 요청은 가정합니다.
 
 [요청 중첩 및 포함](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)을 참조하십시오.
-
->[!NOTE]
->
->FXG 그래픽 렌더링은 Scene7 호스팅 환경에서만 사용할 수 있으며 추가 라이선스가 필요할 수 있습니다. 자세한 내용은 Scene7 지원 센터에 문의하십시오.
 
 ## 속성 {#section-2c22bb89a35d470f833df8ba898efd93}
 

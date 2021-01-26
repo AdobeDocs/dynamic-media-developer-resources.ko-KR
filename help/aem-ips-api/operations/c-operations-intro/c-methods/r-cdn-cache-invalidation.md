@@ -1,15 +1,12 @@
 ---
-description: 제공된 URL 목록을 Scene7 CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
-seo-description: 제공된 URL 목록을 Scene7 CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
-seo-title: cdnCacheInvalidation
+description: 제공된 URL 목록을 Dynamic Media CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Scene7 Image Production System API
-uuid: 16cf53d4-4101-405c-b008-009b6ac62169
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -17,19 +14,19 @@ ht-degree: 3%
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-제공된 URL 목록을 Scene7 CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
+제공된 URL 목록을 Dynamic Media CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
 
 ## cdnCacheInvalidation:{#section-4f70d2bc79d64288b961836ab17e9690} 정보
 
-CDN 캐시 무효화는 CDN 네트워크를 통해 이 무효화 요청이 처리되면 Scene7 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 재유효성 검사를 강제로 수행합니다. Scene7 서비스 URL 구조에 연결되지 않고 회사를 만들 때 할당된 Scene7 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대해 API 오류가 발생합니다. CDN이 무효라고 간주하는 것을 지원하지 않는 잘못된 URL은 전체 요청에 대한 API 오류도 초래할 수 있습니다.
+CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 재유효성 검사를 강제 수행합니다. Dynamic Media 서비스 URL 구조에 연결되지 않고 회사를 만들 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대해 API 오류가 발생합니다. CDN이 무효라고 간주하는 것을 지원하지 않는 잘못된 URL은 전체 요청에 대한 API 오류도 초래할 수 있습니다.
 
 **사용 빈도:규칙**
 
-이 기능의 사용 빈도를 제어하는 규칙은 Scene7의 CDN 파트너가 제어합니다. CDN은 사용자에게 최적의 서비스 성능을 유지하기 위해 이러한 무효화의 응답성을 저하시키는 재량을 보유합니다. Scene7에 이 기능의 초과 사용에 대한 통보를 받는 경우 회사별로 또는 전체 서비스에서 해당 기능을 비활성화하는 방법을 사용해야 합니다.
+이 기능의 사용 빈도를 제어하는 규칙은 Dynamic Media의 CDN 파트너가 제어합니다. CDN은 사용자에게 최적의 서비스 성능을 유지하기 위해 이러한 무효화의 응답성을 저하시키는 재량을 보유합니다. Dynamic Media에 이 기능의 초과 사용에 대한 통보를 받는 경우 회사별로 또는 전체 서비스에서 해당 기능을 비활성화하는 방법을 사용해야 합니다.
 
 **확인 이메일**
 
-Scene7 CDN 파트너의 확인 이메일을 목록 작성자 또는 최대 5개의 다른 이메일 주소로 보낼 수 있습니다. 이메일에서 참조되는 URL이 지워졌다는 알림을 전체 CDN 네트워크에 보낸 경우 API는 확인을 보냅니다. 제공된 URL 수가 단일 알림에서 Scene7이 CDN 파트너에게 전달할 수 있는 수를 초과하는 경우 `cdnCacheInvalidation`에 대한 단일 호출은 여러 이메일을 보낼 수 있습니다. 현재, 요청이 100개의 URL을 초과하는 경우이지만, CDN 파트너의 요청에 따라 변경될 수 있습니다.
+Dynamic Media CDN 파트너의 확인 이메일을 목록 작성자 또는 최대 5개의 다른 이메일 주소로 보낼 수 있습니다. 이메일에서 참조되는 URL이 지워졌다는 알림을 전체 CDN 네트워크에 보낸 경우 API는 확인을 보냅니다. 제공된 URL 수가 단일 알림에서 Dynamic Media이 CDN 파트너에게 전달할 수 있는 수를 초과하는 경우 `cdnCacheInvalidation`에 대한 단일 호출은 여러 이메일을 보낼 수 있습니다. 현재, 요청이 100개의 URL을 초과하는 경우이지만, CDN 파트너의 요청에 따라 변경될 수 있습니다.
 
 **지원 날짜:**
 
@@ -64,7 +61,7 @@ Scene7 CDN 파트너의 확인 이메일을 목록 작성자 또는 최대 5개�
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 유형:UrlArray</span> </p> </td> 
    <td> <p> 예 </p> </td> 
-   <td> <p> CDN 캐시에서 무효화할 최대 1,000개의 URL 목록. 모든 URL은 무효화하려면 Scene7 회사 루트 ID를 포함해야 합니다. </p> </td> 
+   <td> <p> CDN 캐시에서 무효화할 최대 1,000개의 URL 목록. 모든 URL은 무효화하려면 Dynamic Media 회사 루트 ID를 포함해야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

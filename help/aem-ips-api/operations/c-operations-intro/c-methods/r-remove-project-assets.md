@@ -4,10 +4,10 @@ seo-description: 프로젝트에서 에셋을 제거합니다. 자산을 파괴�
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 10%
@@ -35,19 +35,19 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사에 대한 핸들입니다. |
-| ` *`projectHandle`*` | `xsd:string` | 예 | 이동할 프로젝트 에셋의 핸들입니다. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 이동할 자산에 대한 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사에 대한 핸들입니다. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 이동할 프로젝트 에셋의 핸들입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 이동할 자산에 대한 핸들 배열입니다. |
 
 **출력(removeProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 자산 수를 제거했습니다. |
-| ` *`warningCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성되는 오류 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 프로젝트에서 경고를 제거하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 오류를 제거하려고 할 때 오류가 발생한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 자산 수를 제거했습니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성되는 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 프로젝트에서 경고를 제거하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 오류를 제거하려고 할 때 오류가 발생한 자산과 연결된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 

@@ -1,16 +1,13 @@
 ---
 description: 그룹 배열에 사용자를 추가합니다.
-seo-description: 그룹 배열에 사용자를 추가합니다.
-seo-title: addGroupMembership
 solution: Experience Manager
 title: addGroupMembership
-topic: Scene7 Image Production System API
-uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 11%
+source-wordcount: '94'
+ht-degree: 12%
 
 ---
 
@@ -62,7 +59,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-이 예제에서는 ` *`groupHandleArray`*`가 있는 회사에 그룹을 추가합니다. 이 예에서는 하나의 그룹만 사용합니다.
+이 예제에서는 `*`groupHandleArray`*`가 있는 회사에 그룹을 추가합니다. 이 예에서는 하나의 그룹만 사용합니다.
 
 **요청**
 

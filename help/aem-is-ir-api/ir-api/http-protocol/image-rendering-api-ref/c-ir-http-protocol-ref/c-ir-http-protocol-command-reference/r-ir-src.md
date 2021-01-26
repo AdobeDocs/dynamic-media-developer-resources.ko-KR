@@ -4,12 +4,12 @@ seo-description: 자료 파일. 단일 자료 카탈로그 참조 형태로 또�
 seo-title: src
 solution: Experience Manager
 title: src
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 ## 지원되는 파일 형식 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
-이미지 렌더링은 Scene7 이미지 서비스와 동일한 소스 이미지 형식을 지원합니다.
+이미지 렌더링은 Dynamic Media 이미지 서비스와 동일한 소스 이미지 형식을 지원합니다.
 
 여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 PTIFF(Pyramid TIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. 이미지 제공에는 지원되는 모든 포맷의 PTIFF 이미지를 만드는 IC(Image Converter) 유틸리티가 포함되어 있습니다.
 

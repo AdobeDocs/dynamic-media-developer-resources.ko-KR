@@ -4,10 +4,10 @@ seo-description: 자산에 대한 XMP 메타데이터 패킷을 설정하거나 
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 22%
@@ -37,15 +37,15 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| ` *`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷입니다. |
 
 **출력(updateXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`성공`*` | `xsd:boolean` | 예 | 패킷이 업데이트된 경우 `true`을 반환합니다. |
+| `*`성공`*` | `xsd:boolean` | 예 | 패킷이 업데이트된 경우 `true`을 반환합니다. |
 
 ## 예제 {#section-38b556b94e5044bf97a954519ff6c212}
 

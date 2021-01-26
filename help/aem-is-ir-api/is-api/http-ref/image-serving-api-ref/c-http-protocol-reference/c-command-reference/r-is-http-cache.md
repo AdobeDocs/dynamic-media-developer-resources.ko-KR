@@ -4,10 +4,10 @@ seo-description: 캐시 컨트롤을 참조하십시오. 선택적으로 클라�
 seo-title: 캐시
 solution: Experience Manager
 title: 캐시
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-` *`cacheControl`*` 값을 하나만 지정하면 클라이언트와 서버 캐시 모두에 적용됩니다.
+`*`cacheControl`*` 값을 하나만 지정하면 클라이언트와 서버 캐시 모두에 적용됩니다.
 
 `validate` 키워드를 사용하면 캐시 항목이 자동으로 만료될 때까지 기다릴 필요 없이 이미지 파일이 변경된 후 캐시 항목을 업데이트할 수 있습니다. 클라이언트 캐싱은 이 명령의 영향을 받지 않습니다.
 

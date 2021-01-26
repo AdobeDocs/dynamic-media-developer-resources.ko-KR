@@ -4,10 +4,10 @@ seo-description: 지정된 기준에 따라 자산을 검색합니다.
 seo-title: searchAssets
 solution: Experience Manager
 title: searchAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 125e9e0d-1856-4e80-9778-ca93cd04b766
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 7%
@@ -240,8 +240,8 @@ ht-degree: 7%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`totalRows`*` | `xsd:int` | 아니요 | 페이지당 레코드가 제한되지 않을 때 검색이 반환하는 행 수입니다. |
-| ` *`assetArray`*` | `types:AssetArray` | 아니요 | 검색이 반환하는 자산. |
+| `*`totalRows`*` | `xsd:int` | 아니요 | 페이지당 레코드가 제한되지 않을 때 검색이 반환하는 행 수입니다. |
+| `*`assetArray`*` | `types:AssetArray` | 아니요 | 검색이 반환하는 자산. |
 
 ## 예제 {#section-725484cc09b54772a838ad2cc930b94b}
 

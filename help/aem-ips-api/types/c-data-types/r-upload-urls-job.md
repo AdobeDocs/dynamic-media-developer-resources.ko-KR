@@ -4,10 +4,10 @@ seo-description: 파일을 가져올 위치에서 URL을 업로드합니다.
 seo-title: UploadUrlJob
 solution: Experience Manager
 title: UploadUrlJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6140e969-bf61-4b62-9a60-29609626b0b4
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 1%

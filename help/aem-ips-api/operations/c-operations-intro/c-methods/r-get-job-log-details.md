@@ -4,10 +4,10 @@ seo-description: 회사 작업 로그의 세부 사항을 가져옵니다.
 seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e4314348-2160-4775-a02f-b4892924f064
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 11%
@@ -101,7 +101,7 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types:JobLogArray` | 예 | 작업 로그 배열입니다. |
+| `*`jobLogArray`*` | `types:JobLogArray` | 예 | 작업 로그 배열입니다. |
 
 ## 예제 {#section-007678b8b8d94e8f91d09f6bc855f394}
 

@@ -4,10 +4,10 @@ seo-description: 이전에 업로드한 파일의 허가된 내보내기를 허�
 seo-title: 내보내기 작업
 solution: Experience Manager
 title: 내보내기 작업
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 10%

@@ -4,12 +4,12 @@ seo-description: 구성 속성은 응답형 이미지 라이브러리가 관리�
 seo-title: 명령 참조 - 구성 속성
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-다음의 두 가지 스마트 자르기 모드는 AEM 6.4 이상 및 Scene7 Viewers 5.9 이상에서 사용할 수 있습니다.
+다음의 두 가지 스마트 자르기 모드는 AEM 6.4 이상 및 Dynamic Media Viewers 5.9 이상에서 사용할 수 있습니다.
 
 * **사용자**  정의 중단점 및 해당 이미지 서비스 명령은 이미지 요소의 특성 내에 정의됩니다.
 * **스마트 자르기**  - 계산된 스마트 자르기 변환은 배달 서버에서 자동으로 검색됩니다. 이미지 요소의 런타임 크기를 사용하여 최상의 변환이 선택됩니다.

@@ -4,12 +4,12 @@ seo-description: 이미지 카탈로그는 서버에 이미지 및 지원 데이
 seo-title: 개요
 solution: Experience Manager
 title: 개요
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ ht-degree: 1%
 
 카탈로그 특성 파일은 [!DNL .ini] 파일 접미어를 가져야 하며 플랫폼 서버의 카탈로그 폴더( `PlatformServer::catalog.rootPath`)에 있어야 합니다. 카탈로그 데이터 파일은 동일한 폴더 또는 플랫폼 서버에서 액세스할 수 있는 다른 폴더에 위치할 수 있습니다.
 
-이 문서에서는 Scene7 Image Serving 시스템의 이미지 카탈로그 파일 형식을 설명합니다. 의도한 대상은 웹 또는 맞춤형 애플리케이션에 Scene7 Image Serving을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자입니다.
+이 문서에서는 Dynamic Media Image Serving 시스템의 이미지 카탈로그 파일 형식을 설명합니다. 의도한 대상은 웹 또는 맞춤형 애플리케이션에 Dynamic Media Image Serving을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자입니다.
 
-독자는 일반적으로 Scene7 Image Serving 시스템, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.
+독자는 일반적으로 Dynamic Media Image Serving 시스템, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.

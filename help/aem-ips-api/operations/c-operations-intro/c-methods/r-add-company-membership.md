@@ -1,16 +1,13 @@
 ---
 description: 하나 이상의 회사에 사용자를 추가합니다.
-seo-description: 하나 이상의 회사에 사용자를 추가합니다.
-seo-title: addCompanyMembership
 solution: Experience Manager
 title: addCompanyMembership
-topic: Scene7 Image Production System API
-uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 13%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
@@ -34,8 +31,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 멤버십을 추가할 사용자의 핸들입니다. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 사용자를 추가할 회사의 배열입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 멤버십을 추가할 사용자의 핸들입니다. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 사용자를 추가할 회사의 배열입니다. |
 
 **출력(addCompanyMembershipReturn)**
 
@@ -43,7 +40,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-5469f88bac7047cca131faa6b021e437}
 
-이 예에서는 ` *`companyHandleArray`*`를 사용하여 사용자를 단일 회사에 추가합니다.
+이 예에서는 `*`companyHandleArray`*`를 사용하여 사용자를 단일 회사에 추가합니다.
 
 **요청**
 

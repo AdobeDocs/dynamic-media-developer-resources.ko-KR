@@ -4,10 +4,10 @@ seo-description: 자산 세트를 업데이트합니다.
 seo-title: updateAssetSet
 solution: Experience Manager
 title: updateAssetSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e844a395-0ab3-45a7-bcec-8e9e15efc70e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 20%
@@ -27,10 +27,10 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
-| ` *`setDefinition`*` | `xsd:string` | 아니요 | 이미지 집합 구성원을 재설정합니다. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판으로 사용되는 자산의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
+| `*`setDefinition`*` | `xsd:string` | 아니요 | 이미지 집합 구성원을 재설정합니다. |
+| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판으로 사용되는 자산의 핸들입니다. |
 
 **출력(updateAssetSetReturn)**
 

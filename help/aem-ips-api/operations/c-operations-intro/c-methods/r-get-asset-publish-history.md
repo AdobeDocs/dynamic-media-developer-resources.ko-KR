@@ -4,10 +4,10 @@ seo-description: 자산에 대한 게시 내역을 반환합니다.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 16%
@@ -39,14 +39,14 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사에 대한 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 검사할 게시 내역이 있는 자산입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사에 대한 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 검사할 게시 내역이 있는 자산입니다. |
 
 **출력(getAssetPublishHistoryReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 작업 내역입니다. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 작업 내역입니다. |
 
 ## 예제 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

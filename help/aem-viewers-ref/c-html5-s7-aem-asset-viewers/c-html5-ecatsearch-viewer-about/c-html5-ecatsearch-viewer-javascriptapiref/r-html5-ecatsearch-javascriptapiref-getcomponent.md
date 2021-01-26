@@ -7,7 +7,7 @@ title: getComponent
 topic: Dynamic media
 uuid: 4e5b79b5-4a2b-427a-b527-81247a6b740d
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 1%
@@ -25,7 +25,7 @@ eCatalog 뷰어에 대한 JavaScript API 참조
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*`   `{String}` - 뷰어에서 사용하는 뷰어 SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
+`*`componentID`*`   `{String}` - 뷰어에서 사용하는 뷰어 SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 

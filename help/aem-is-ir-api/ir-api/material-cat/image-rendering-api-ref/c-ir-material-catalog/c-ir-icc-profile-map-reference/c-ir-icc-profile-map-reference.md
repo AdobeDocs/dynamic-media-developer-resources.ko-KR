@@ -4,10 +4,10 @@ seo-description: 이미지 카탈로그에 ICC 프로필 맵이 필요한 경우
 seo-title: ICC 프로필 맵 참조
 solution: Experience Manager
 title: ICC 프로필 맵 참조
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3f95a24b-98fe-408c-bdc2-4272266b7e86
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

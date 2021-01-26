@@ -4,10 +4,10 @@ seo-description: 자산을 게시로 표시된 게시 컨텍스트에 자산을 
 seo-title: AssetPublishContext
 solution: Experience Manager
 title: AssetPublishContext
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 7%
@@ -25,6 +25,6 @@ ht-degree: 7%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 자산을 처리합니다. |
-| ` *`publishContextArray`*` | `types:PublishContextArray` | 자산이 게시에 대해 표시되어 있는 게시 컨텍스트의 배열입니다. |
+| `*`assetHandle`*` | `xsd:string` | 자산을 처리합니다. |
+| `*`publishContextArray`*` | `types:PublishContextArray` | 자산이 게시에 대해 표시되어 있는 게시 컨텍스트의 배열입니다. |
 

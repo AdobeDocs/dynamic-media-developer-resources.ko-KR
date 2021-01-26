@@ -4,10 +4,10 @@ seo-description: Scene 7 개발자에게만 제공됩니다. 이미지 렌더링
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 12%
@@ -27,7 +27,7 @@ Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`publishSettingsArray`*` | `types:ConfigSettingArray` | 예 | Scene 7 개발자에게만 제공됩니다. |
-| ` *`contextHandle`*` | `xsd:string` | 아니요 | 게시 컨텍스트를 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | 예 | Scene 7 개발자에게만 제공됩니다. |
+| `*`contextHandle`*` | `xsd:string` | 아니요 | 게시 컨텍스트를 처리합니다. |
 

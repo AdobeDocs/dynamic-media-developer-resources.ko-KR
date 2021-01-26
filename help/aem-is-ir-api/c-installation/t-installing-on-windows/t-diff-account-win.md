@@ -4,10 +4,10 @@ seo-description: 설치 후 다른 사용자 계정에서 실행하려면 서비
 seo-title: 관리자가 아닌 다른 사용자 계정으로 설치
 solution: Experience Manager
 title: 관리자가 아닌 다른 사용자 계정으로 설치
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c5944515-c378-45c3-bc18-3261133ba009
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

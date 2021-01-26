@@ -1,15 +1,12 @@
 ---
 description: 이미지 제공은 간단한 시각적 워터마크 기능을 구현합니다.
-seo-description: 이미지 제공은 간단한 시각적 워터마크 기능을 구현합니다.
-seo-title: 워터마크
 solution: Experience Manager
 title: 워터마크
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 1%
 
 워터마크는 워터마크 이미지나 템플릿을 포함하는 유효한 카탈로그 항목으로 `attribute::Watermark`을(를) 설정하여 사용할 수 있습니다. `attribute::Watermark`이(가) 명명된 카탈로그에 설정된 경우 서버는 요청 URL에서 카탈로그 ID를 참조하는 모든 이미지 요청에 워터마크를 추가합니다. `default::Watermark`이(가) 기본 카탈로그의 [!DNL default.ini])인 경우, 워터마크는 카탈로그를 참조하는지 여부에 관계없이 모든 이미지 요청에 적용됩니다.
 
-워터마크는 축소판 요청( `req=tmb`) 및 Scene7 뷰어의 특정 요청에 응답하여 반환된 이미지에 적용되지 않습니다.
+워터마크는 축소판 요청( `req=tmb`) 및 Dynamic Media 뷰어의 특정 요청에 응답하여 반환된 이미지에 적용되지 않습니다.
 
 ## 크기 조절 및 정렬 {#section-89ef9e5926ae438abbd8e70332749b76}
 

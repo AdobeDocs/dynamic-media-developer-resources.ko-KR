@@ -4,10 +4,10 @@ seo-description: 이미지 제공에서는 외부 개체 ID를 로케일별 개�
 seo-title: 개체 ID 변환
 solution: Experience Manager
 title: 개체 ID 변환
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 `attribute::LocaleMap` 일반 개체 ID 및 값을 입력하도록 제공된 지역화된 컨텐츠의 ID를 결정하기 위해 서버가 사용하는 규칙을  `locale=` 정의합니다.
 
-`attribute::LocaleMap` 은 입력 로케일 목록 ** (지정된 값과 일치)으로 구성되며, 출력 로케일 접미사 `locale=`가 없음(  ` *`locSufficences)이 있습니다`*`.
+`attribute::LocaleMap` 은 입력 로케일 목록 ** (지정된 값과 일치)으로 구성되며, 출력 로케일 접미사 `locale=`가 없음(  `*`locSufficences)이 있습니다`*`.
 
 예를 들어 `attribute::LocaleMap`은(는) 다음과 같을 수 있습니다.
 

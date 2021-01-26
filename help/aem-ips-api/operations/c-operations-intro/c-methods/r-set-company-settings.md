@@ -4,10 +4,10 @@ seo-description: 다양한 회사별 구성 값을 설정합니다.
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 12%
@@ -34,15 +34,15 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`overwriteMode`*` | `xsd:string` | 아니요 | 에셋 덮어쓰기 모드입니다. |
-| ` *`retainPublishState`*` | `xsd:boolean` | 아니요 | 자산을 다시 업로드할 때 게시 상태를 유지하려면 `true`으로 설정합니다. |
-| ` *`defaultSourceProfileHandle`*` | `xsd:string` | 아니요 | 기본 소스 색상 프로파일로 사용할 IccProfile 에셋입니다. |
-| ` *`defaultDisplayProfileHandle`*` | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 IccProfile 에셋입니다. |
-| ` *`iptcExifMappingXsltHandle`*` | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
-| ` *`xmpMappingXsltHandle`*` | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
-| ` *`diskSpaceWarningMin`*` | `xsd:int` | 아니요 | 경고 메시지가 전송되기 전에 사용 가능한 최소 디스크 공간(KB)입니다. |
-| ` *`emailTrashCleanupWarning`*` | `xsd:boolean` | 아니요 | 자산을 휴지통에서 비울 때마다 회사 관리자에게 알림을 보내려면 `true`으로 설정합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`overwriteMode`*` | `xsd:string` | 아니요 | 에셋 덮어쓰기 모드입니다. |
+| `*`retainPublishState`*` | `xsd:boolean` | 아니요 | 자산을 다시 업로드할 때 게시 상태를 유지하려면 `true`으로 설정합니다. |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | 아니요 | 기본 소스 색상 프로파일로 사용할 IccProfile 에셋입니다. |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 IccProfile 에셋입니다. |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
+| `*`diskSpaceWarningMin`*` | `xsd:int` | 아니요 | 경고 메시지가 전송되기 전에 사용 가능한 최소 디스크 공간(KB)입니다. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 아니요 | 자산을 휴지통에서 비울 때마다 회사 관리자에게 알림을 보내려면 `true`으로 설정합니다. |
 
 **출력(setCompanySettingsReturn)**
 

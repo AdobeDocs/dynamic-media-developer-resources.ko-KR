@@ -4,12 +4,12 @@ seo-description: 4가지 일반적인 제작 비네팅이 지원됩니다.
 seo-title: 비네팅 비율
 solution: Experience Manager
 title: 비네팅 비율
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
    원하는 렌더링 이미지 크기를 모두 알고 있는 경우에 권장됩니다. 렌더링 후에 이미지를 크기 조정할 필요가 없으므로 단일 해상도 및 피라미드 비네팅보다 품질과 빠른 렌더링을 제공합니다.
 * 피라미드형
 
-   Scene7 Flash 확대/축소 뷰어 중 하나를 사용하는 경우, 여러 이미지 크기가 필요하고 정확한 크기를 미리 정하지 않은 경우에 권장됩니다.
+   Dynamic Media 확대/축소 뷰어를 사용하는 경우 여러 이미지 크기가 필요하고 정확한 크기를 미리 정하지 않은 경우에 권장됩니다.
 * 하나 이상의 해상도가 있는 피라미드
 
    뷰어 지원 및 확대/축소를 유연하게 제공하면서 특정 크기에 고품질의 컨텐츠를 제공합니다.

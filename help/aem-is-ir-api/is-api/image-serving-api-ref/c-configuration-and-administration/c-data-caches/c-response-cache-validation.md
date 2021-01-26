@@ -4,12 +4,12 @@ seo-description: 캐시 항목은 CacheValidationPolicy 속성(default.ini 또�
 seo-title: 응답 캐시 유효성 검사
 solution: Experience Manager
 title: 응답 캐시 유효성 검사
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Scene7 피라미드 TIFF(PTIFF) 이미지는 유효성 검사를 위해 파일 헤더의 내부 파일 날짜를 유지합니다. 파일 시스템에서 유지 관리하는 파일 수정 시간은 PTIFF가 아닌 파일이 변경되었는지 확인하는 데 사용됩니다.
+>Dynamic Media 피라미드 TIFF(PTIFF) 이미지는 유효성 검사를 위해 파일 헤더의 내부 파일 날짜를 유지합니다. 파일 시스템에서 유지 관리하는 파일 수정 시간은 PTIFF가 아닌 파일이 변경되었는지 확인하는 데 사용됩니다.
 
 이미지 파일만 캐시 유효성 검사 프로세스에 참여할 수 있습니다. 글꼴 파일 또는 ICC 프로필 파일을 변경하면 캐시 항목이 자동으로 무효화되지 않습니다.

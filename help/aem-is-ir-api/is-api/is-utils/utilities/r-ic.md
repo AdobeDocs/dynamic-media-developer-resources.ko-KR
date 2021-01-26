@@ -4,10 +4,10 @@ seo-description: 이미지 변환 유틸리티.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ## 사용 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -104,7 +104,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autoprop  &lt;&gt; 모서리  </span>&gt;  &lt;&gt; 모드  </span>&gt;  &lt;&gt; 허용치  </span>&gt;  &lt;&gt;   </span>infoFile&gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"> </span></span></span></span></p> </td> 
-   <td colname="col2"> <p>단색 배경을 최소화하기 위해 자르기 사각형을 계산합니다. 자동 자르기 알고리즘으로 인해 전체 이미지가 잘릴 경우 자르기 정보가 출력되지 않습니다. </p> <p>이미지를 변환하지 않고 자르기 사각형을 계산하려면 <span class="codeph"> 없이 </span> -autoprop </span> -convert &lt;a3/&gt; 및 <span class="codeph"> <span class="varname"> destFile 없이 </span> </span> 키를 지정합니다.<span class="codeph"></span></p>
+   <td colname="col2"> <p>단색 배경을 최소화하기 위해 자르기 사각형을 계산합니다. 자동 자르기 알고리즘으로 인해 전체 이미지가 잘릴 경우 자르기 정보가 출력되지 않습니다. </p> <p>이미지를 변환하지 않고 자르기 사각형을 계산하려면 <span class="codeph"> 없이 </span> -autoprop </span> -convert <span class="codeph"> 및 <span class="codeph"> <span class="varname"> destFile 없이 </span> </span> 키를 지정합니다.</span></p>
 
 <p><i><b>모서리</b></i> -ul | url | ll | lr </p>
    <p> 시드 점을 사용할 이미지의 모서리를 지정합니다. 모드가 1이면 무시됩니다.</p>
@@ -256,7 +256,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> BMP</b> <p> (Windows 비트맵) </p> </td> 
    <td> <p> RGB | 인덱스 </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> 압축되지 않음 | RLE </p> </td> 
    <td> <p> 5/6비트/채널은 16비트 RGB(5-5-5 및 5-6-5 비트/채널)에 대한 지원을 나타냅니다. </p> </td> 
   </tr> 
@@ -291,7 +291,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 압축되지 않음 | 압축 </p> </td> 
    <td> <p> 병합된 이미지만 해당;레이어와 기타 채널은 무시됩니다. </p> </td> 
   </tr> 
@@ -305,14 +305,14 @@ ht-degree: 2%
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RGB | RGBA | 회색 | grayA | 인덱스 </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 압축 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | grayA | 인덱스 </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> 압축되지 않음 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | 패키지 </p> </td> 
    <td> <p> 연결된 첫 번째 알파 채널을 제외하고 추가 채널은 무시됩니다. </p> </td> 
   </tr> 

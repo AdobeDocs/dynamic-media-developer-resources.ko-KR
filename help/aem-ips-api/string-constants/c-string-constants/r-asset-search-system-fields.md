@@ -4,10 +4,10 @@ seo-description: SystemFieldCondition/필드에서 사용됩니다.
 seo-title: 자산 검색 시스템 필드
 solution: Experience Manager
 title: 자산 검색 시스템 필드
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2af88d8a-4f04-4a90-8f60-ff0c32197023
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 7%

@@ -4,10 +4,10 @@ seo-description: 이미지 렌더링은 비네팅의 그룹 또는 개체에 자
 seo-title: 자료
 solution: Experience Manager
 title: 자료
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

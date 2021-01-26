@@ -4,10 +4,10 @@ seo-description: layer= 명령을 사용하면 레이어에 이름을 지정할 
 seo-title: 이름이 지정된 레이어
 solution: Experience Manager
 title: 이름이 지정된 레이어
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dad30027-338b-4387-9a14-b26c1b925b18
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%

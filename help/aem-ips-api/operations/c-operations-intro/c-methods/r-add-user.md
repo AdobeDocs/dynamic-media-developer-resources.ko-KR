@@ -1,16 +1,13 @@
 ---
 description: 사용자 계정을 만들고 하나 이상의 회사에 해당 계정을 추가합니다.
-seo-description: 사용자 계정을 만들고 하나 이상의 회사에 해당 계정을 추가합니다.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | 예 | 사용자의 이름입니다. |
-| ` *`lastName`*` | `xsd:string` | 예 | 사용자의 성입니다. |
-| ` *`이메일`*` | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
-| ` *`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 회사별 다른 설정을 무시합니다. |
-| ` *`암호`*` | `xsd:string` | 예 | 사용자의 암호를 설정합니다. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료 기간을 설정합니다. 요청을 전달할 때 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. |
-| ` *`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한지 확인합니다. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
+| `*`firstName`*` | `xsd:string` | 예 | 사용자의 이름입니다. |
+| `*`lastName`*` | `xsd:string` | 예 | 사용자의 성입니다. |
+| `*`이메일`*` | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
+| `*`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 회사별 다른 설정을 무시합니다. |
+| `*`암호`*` | `xsd:string` | 예 | 사용자의 암호를 설정합니다. |
+| `*`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료 기간을 설정합니다. 요청을 전달할 때 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. |
+| `*`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한지 확인합니다. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
 
 **출력(addUserParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 예 | 사용자에 대한 핸들입니다. |
+| `*`userHandle`*` | `xsd:string` | 예 | 사용자에 대한 핸들입니다. |
 
 ## 예제 {#section-2547cef622734b71919eef849960b5cb}
 

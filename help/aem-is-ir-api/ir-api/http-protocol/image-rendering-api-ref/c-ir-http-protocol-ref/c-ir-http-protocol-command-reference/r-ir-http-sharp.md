@@ -4,10 +4,10 @@ seo-description: 텍스처를 선명하게 합니다. 이 자료를 렌더링할
 seo-title: 날카로운
 solution: Experience Manager
 title: 날카로운
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 5%

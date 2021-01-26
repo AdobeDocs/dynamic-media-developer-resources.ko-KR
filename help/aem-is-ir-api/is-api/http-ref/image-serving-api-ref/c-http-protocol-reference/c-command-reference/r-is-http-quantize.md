@@ -4,10 +4,10 @@ seo-description: 색상 양자화 GIF 출력 변환의 색상 양자화 특성�
 seo-title: 수량화
 solution: Experience Manager
 title: 수량화
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 3%
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 요청 속성을 참조하십시오. 현재 레이어 설정에 관계없이 적용됩니다. `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` 또는 `fmt=png8-alpha`인 경우에만 사용됩니다. 그렇지 않으면 무시됩니다.
 
-` *`colorList`*`로 지정된 색상은 &#39; `0x`&#39; 접두어 없이 hex6 형식( ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)` 참조)의 RGB 값으로 구성되어야 합니다. 다른 색상 지정자는 사용할 수 없습니다. *`numColors`* 는 2-256 사이여야 합니다.
+`*`colorList`*`로 지정된 색상은 &#39; `0x`&#39; 접두어 없이 hex6 형식( ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)` 참조)의 RGB 값으로 구성되어야 합니다. 다른 색상 지정자는 사용할 수 없습니다. *`numColors`* 는 2-256 사이여야 합니다.
 
 ## 기본값 {#section-ca3e817617244e8798ccff67b2023a32}
 

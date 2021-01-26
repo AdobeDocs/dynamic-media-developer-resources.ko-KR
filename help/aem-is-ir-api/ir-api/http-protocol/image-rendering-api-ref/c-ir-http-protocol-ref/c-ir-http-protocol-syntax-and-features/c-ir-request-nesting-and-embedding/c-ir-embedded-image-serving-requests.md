@@ -4,10 +4,10 @@ seo-description: IS(이미지 서버) 요청을 재료 이미지로 사용할 �
 seo-title: 포함된 이미지 서버 요청
 solution: Experience Manager
 title: 포함된 이미지 서버 요청
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

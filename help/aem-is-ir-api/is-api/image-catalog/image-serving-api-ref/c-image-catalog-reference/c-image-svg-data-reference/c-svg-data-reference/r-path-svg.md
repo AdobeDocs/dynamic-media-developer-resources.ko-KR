@@ -2,12 +2,12 @@
 description: 경로
 solution: Experience Manager
 title: 경로
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1ed8a98-60eb-4bdb-884e-ea08c018d834
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 6%
 
 지원되는 이미지 파일 형식의 전체 목록은 IC(Image Converter) 유틸리티의 설명을 참조하십시오.
 
-여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 PTIFF(Pyramid TIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 포맷에서 PTIFF 이미지를 만드는 데 사용됩니다.
+여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media PTIFF(Pyramid TIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 포맷에서 PTIFF 이미지를 만드는 데 사용됩니다.
 
 ## 기본값 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

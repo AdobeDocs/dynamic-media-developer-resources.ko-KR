@@ -4,10 +4,10 @@ seo-description: 캐시 제어. 선택적으로 클라이언트측 캐싱(브라
 seo-title: 캐시
 solution: Experience Manager
 title: 캐시
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 10332f0d-4ed3-4981-8034-46dffa5d68b0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%

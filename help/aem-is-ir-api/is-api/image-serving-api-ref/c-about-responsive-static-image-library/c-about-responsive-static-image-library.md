@@ -1,15 +1,12 @@
 ---
-description: 반응형 이미지 라이브러리는 Scene7에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
-seo-description: 반응형 이미지 라이브러리는 Scene7에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
-seo-title: 반응형 이미지 라이브러리 정보
+description: 반응형 이미지 라이브러리는 Dynamic Media에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
 solution: Experience Manager
 title: 반응형 이미지 라이브러리 정보
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # 응답형 이미지 라이브러리 정보{#about-responsive-image-library}
 
-반응형 이미지 라이브러리는 Scene7에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
+반응형 이미지 라이브러리는 Dynamic Media에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
 
 ## 데모 URL {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-응답형 이미지 라이브러리의 가장 간단한 사용 사례는 이미지 너비에 대한 중단점 값 목록을 정의하는 것입니다. 이 목록은 사용자가 브라우저 창의 크기를 조절하거나 장치의 방향을 변경하여 웹 페이지 레이아웃 변경 사항으로 인해 이미지 크기를 조절할 때 적절한 변환이 로드되고 표시되도록 합니다. 라이브러리는 화면의 이미지 크기를 지속적으로 모니터링하며, 새 중단점 너비에 도달할 때마다 Scene7의 새 이미지 변환을 가져옵니다.
+응답형 이미지 라이브러리의 가장 간단한 사용 사례는 이미지 너비에 대한 중단점 값 목록을 정의하는 것입니다. 이 목록은 사용자가 브라우저 창의 크기를 조절하거나 장치의 방향을 변경하여 웹 페이지 레이아웃 변경 사항으로 인해 이미지 크기를 조절할 때 적절한 변환이 로드되고 표시되도록 합니다. 라이브러리는 화면의 이미지 크기를 지속적으로 모니터링하며, 새 중단점 너비에 도달할 때마다 Dynamic Media의 새 이미지 변환을 가져옵니다.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ ht-degree: 0%
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>다음 Bootstrap 예제에서는 웹 페이지에서 동일한 사용 사례를 보여 줍니다. Bootstrap CSS에 따르면 응답형 이미지가 추가된 레이아웃 셀은 다음 폭 중 하나를 사용할 수 있습니다.360, 720 및 940픽셀 반응형 이미지 라이브러리에 중단점으로 전달되는 정확한 값입니다. 따라서 Scene7은 클라이언트의 네트워크 대역폭이 효과적으로 사용되도록 합니다. 또한 클라이언트 측 브라우저의 크기를 조절하여 시각적으로 확인할 필요 없이 현재 웹 페이지 레이아웃에 필요한 정확한 크기로 이미지가 표시되도록 할 수 있습니다. </p> <p>URL을 클릭하여 웹 페이지를 열고 브라우저 창의 크기를 조정하여 다양한 레이아웃 중단점에 맞추고 네트워크 트래픽을 모니터링합니다. </p> <p>더 많은 고급 사용 사례로는 다른 이미지 사전 설정 또는 이미지 제공 명령 또는 둘 다를 다른 중단점 값과 연결하는 것이 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>다음 Bootstrap 예제에서는 웹 페이지에서 동일한 사용 사례를 보여 줍니다. Bootstrap CSS에 따르면 응답형 이미지가 추가된 레이아웃 셀은 다음 폭 중 하나를 사용할 수 있습니다.360, 720 및 940픽셀 반응형 이미지 라이브러리에 중단점으로 전달되는 정확한 값입니다. 따라서 Dynamic Media은 클라이언트의 네트워크 대역폭이 효과적으로 사용되도록 합니다. 또한 클라이언트 측 브라우저의 크기를 조절하여 시각적으로 확인할 필요 없이 현재 웹 페이지 레이아웃에 필요한 정확한 크기로 이미지가 표시되도록 할 수 있습니다. </p> <p>URL을 클릭하여 웹 페이지를 열고 브라우저 창의 크기를 조정하여 다양한 레이아웃 중단점에 맞추고 네트워크 트래픽을 모니터링합니다. </p> <p>더 많은 고급 사용 사례로는 다른 이미지 사전 설정 또는 이미지 제공 명령 또는 둘 다를 다른 중단점 값과 연결하는 것이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ ht-degree: 0%
 
 **서버 하드웨어 및 소프트웨어**
 
-* Scene7 Image Serving 6.0.1 이상.
+* Dynamic Media Image Serving 6.0.1 이상.
 
 **클라이언트 브라우저 최소 요구 사항**
 

@@ -1,15 +1,12 @@
 ---
 description: 웹 페이지에 응답형 이미지 라이브러리를 추가하고 라이브러리를 사용하여 기존 이미지를 관리하려면 다음 단계를 완료하십시오.
-seo-description: 웹 페이지에 응답형 이미지 라이브러리를 추가하고 라이브러리를 사용하여 기존 이미지를 관리하려면 다음 단계를 완료하십시오.
-seo-title: 반응형 이미지 라이브러리 사용
 solution: Experience Manager
 title: 반응형 이미지 라이브러리 사용
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ ht-degree: 0%
 
 **스마트 자르기 사용**
 
-AEM 6.4 및 Scene7 Viewers 5.9에서는 두 가지 스마트 자르기 모드를 사용할 수 있습니다.
+AEM 6.4 및 Dynamic Media Viewers 5.9에서는 두 가지 스마트 자르기 모드를 사용할 수 있습니다.
 
 * **사용자**  정의 중단점 및 해당 이미지 서비스 명령은 이미지 요소의 특성 내에 정의됩니다.
 * **스마트 자르기**  - 계산된 스마트 자르기 변환은 배달 서버에서 자동으로 검색됩니다. 이미지 요소의 런타임 크기를 사용하여 최상의 변환이 선택됩니다.

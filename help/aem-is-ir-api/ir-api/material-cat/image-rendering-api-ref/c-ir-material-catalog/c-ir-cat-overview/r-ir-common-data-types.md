@@ -4,10 +4,10 @@ seo-description: 카탈로그 속성 및 필드에는 다음 유형 중 하나�
 seo-title: 일반적인 데이터 유형
 solution: Experience Manager
 title: 일반적인 데이터 유형
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

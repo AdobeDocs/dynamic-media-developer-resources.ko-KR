@@ -4,10 +4,10 @@ seo-description: 값 문자열에 예약된 문자 '=', '&' 및 '%'가 포함되
 seo-title: 이미지 제공 HTTP 인코딩
 solution: Experience Manager
 title: 이미지 제공 HTTP 인코딩
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 21%

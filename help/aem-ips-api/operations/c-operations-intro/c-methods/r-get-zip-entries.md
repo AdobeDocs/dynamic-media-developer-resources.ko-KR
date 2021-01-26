@@ -4,10 +4,10 @@ seo-description: Zip 파일 데이터를 반환합니다.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 21%
@@ -39,14 +39,14 @@ Zip 파일 데이터를 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 들어 있는 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | Zip 파일을 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 들어 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | Zip 파일을 처리합니다. |
 
 **출력(getZipEntriesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | 예 | Zip 파일의 항목 배열입니다. |
+| `*`zipArray`*` | `types:ZipEntryArray` | 예 | Zip 파일의 항목 배열입니다. |
 
 ## 예제 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

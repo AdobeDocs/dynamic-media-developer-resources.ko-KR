@@ -4,10 +4,10 @@ seo-description: 하나 이상의 이미지 자산에 대한 이미지 특정 �
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 9%
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 이미지 에셋이 포함된 회사의 핸들입니다. |
-| ` *`updateArray`*` | `types:ImageFieldUpdateArray` | 예 | 이미지 필드의 배열이 업데이트됩니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 에셋이 포함된 회사의 핸들입니다. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | 예 | 이미지 필드의 배열이 업데이트됩니다. |
 
 **출력(batchSetImageFields)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 이미지 필드를 성공적으로 설정한 횟수입니다. |
-| ` *`warningCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성되는 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성되는 오류 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 이미지 필드를 성공적으로 설정한 횟수입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성되는 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성되는 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

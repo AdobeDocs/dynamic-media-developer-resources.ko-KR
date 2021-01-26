@@ -4,10 +4,10 @@ seo-description: 이 섹션에서는 카탈로그 데이터 필드에 대해 설
 seo-title: 카탈로그 데이터 필드
 solution: Experience Manager
 title: 카탈로그 데이터 필드
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

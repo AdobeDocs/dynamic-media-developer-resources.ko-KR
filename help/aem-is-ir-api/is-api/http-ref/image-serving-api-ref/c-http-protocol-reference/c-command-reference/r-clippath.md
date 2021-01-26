@@ -4,10 +4,10 @@ seo-description: 레이어 클립 경로를 참조하십시오. 현재 레이어
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ ht-degree: 1%
 
 `clipPath=`에 의해 정의된 영역을 벗어나는 레이어의 모든 부분은 투명하게 렌더링됩니다.
 
-` *`경로 `*` 이름은 레이어 소스 이미지에 포함된 경로의 이름입니다. 패스가 자동으로 변형되어 이미지 내용에 상대적인 정렬을 유지합니다. 둘 이상의 ` *`pathName`*`을(를) 지정한 경우 서버는 해당 경로의 교차점에 이미지를 클립합니다. 소스 이미지에 없는 ` *`pathName`*`은 무시됩니다.
+`*`경로 `*` 이름은 레이어 소스 이미지에 포함된 경로의 이름입니다. 패스가 자동으로 변형되어 이미지 내용에 상대적인 정렬을 유지합니다. 둘 이상의 `*`pathName`*`을(를) 지정한 경우 서버는 해당 경로의 교차점에 이미지를 클립합니다. 소스 이미지에 없는 `*`pathName`*`은 무시됩니다.
 
 >[!NOTE]
 >
->` *`pathName`*`에는 ASCII 문자열만 지원됩니다.
+>`*`pathName`*`에는 ASCII 문자열만 지원됩니다.
 
-` *`path`*` Definitioneylayer 픽셀 좌표에 명시적인 경로 데이터를 지정할 수 있습니다.
+`*`path`*` Definitioneylayer 픽셀 좌표에 명시적인 경로 데이터를 지정할 수 있습니다.
 
 `size=`이 0이 아닌 지정된 경우 레이어 크기가 미리 조정됩니다. 이 경우 패스 좌표는 레이어 사각형의 왼쪽 위 모서리를 기준으로 하며 레이어는 `origin=` 또는 해당 기본값을 기반으로 배치됩니다. 레이어 사각형 외부에 있는 패스의 모든 영역은 투명하게 유지됩니다.
 
@@ -52,9 +52,9 @@ ht-degree: 1%
 >
 >`scale=`,  `rotate=`및  `anchor=` 명령은 자체 크기 단색 레이어의 경우 허용되지 않습니다.
 
-` *``*` pathDefinitioninceptions는 값을 구분하는 공백 대신 쉼표를 사용한다는 점을 제외하고 SVG  `d=` 요소의 속성 값과 비슷한 문자열을  `<path>` 허용합니다. ` *`path`*` Definitionlightroom에는 하나 이상의 닫힌 루프 하위 경로가 포함될 수 있습니다.
+`*``*` pathDefinitioninceptions는 값을 구분하는 공백 대신 쉼표를 사용한다는 점을 제외하고 SVG  `d=` 요소의 속성 값과 비슷한 문자열을  `<path>` 허용합니다. `*`path`*` Definitionlightroom에는 하나 이상의 닫힌 루프 하위 경로가 포함될 수 있습니다.
 
-다음 경로 명령은 ` *`pathDefinition`*`에서 지원됩니다.
+다음 경로 명령은 `*`pathDefinition`*`에서 지원됩니다.
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 

@@ -4,10 +4,10 @@ seo-description: 기존 기본 소스 이미지 자산에서 파생된 새 자�
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
@@ -42,19 +42,19 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 새 에셋을 파생시킬 에셋이 포함된 회사의 핸들입니다. |
-| ` *`ownerHandle`*` | `xsd:string` | 예 | 새 이미지가 파생되는 기본 이미지 자산의 핸들입니다. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 새 파생 자산을 만들 폴더의 핸들 |
-| ` *`name`*` | `xsd:string` | 예 | 파생된 자산의 이름입니다. |
-| ` *`type`*` | `xsd:string` | 예 | 파생된 새 자산의 자산 유형:`AdjustedView` 또는 `LayerView`. |
-| ` *`urlModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 *요청 또는 `urlPostApplyModifier` 명령 앞에 적용되었습니다.* |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 *after* 요청 또는 `urlPostApplyModifier` 명령에 적용되었습니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 새 에셋을 파생시킬 에셋이 포함된 회사의 핸들입니다. |
+| `*`ownerHandle`*` | `xsd:string` | 예 | 새 이미지가 파생되는 기본 이미지 자산의 핸들입니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 새 파생 자산을 만들 폴더의 핸들 |
+| `*`name`*` | `xsd:string` | 예 | 파생된 자산의 이름입니다. |
+| `*`type`*` | `xsd:string` | 예 | 파생된 새 자산의 자산 유형:`AdjustedView` 또는 `LayerView`. |
+| `*`urlModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 *요청 또는 `urlPostApplyModifier` 명령 앞에 적용되었습니다.* |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 *after* 요청 또는 `urlPostApplyModifier` 명령에 적용되었습니다. |
 
 **출력(createDerivedAssetParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 예 | 파생된 자산의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 파생된 자산의 핸들입니다. |
 
 ## 예제 {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

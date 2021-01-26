@@ -4,10 +4,10 @@ seo-description: 응답 이미지 형식을 참조하십시오.
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 5%
@@ -154,7 +154,7 @@ ht-degree: 5%
    <td> <p>rgb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td> <p>아니요 </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression  </span> </span> (  <span class="codeph"> 손실  </span>,  <span class="codeph"> 손실 없음  </span>) </p> <p> <span class="codeph"> qlt= </span> 는 무손실 시  <span class="codeph"> 무시됩니다  </span>. </p> <p>WebP 형식의 chrominance 다운샘플링이란 개념이 없으므로 <span class="codeph"> qlt </span>(예: <span class="codeph"> qlt=80,1 </span>)에 두 번째 값( <span class="codeph"> 1 </span>)을 사용할 경우 두 번째 값( &lt;a4/&gt; 1 &lt;a5/&gt;)은 무시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression  </span> </span> (  <span class="codeph"> 손실  </span>,  <span class="codeph"> 손실 없음  </span>) </p> <p> <span class="codeph"> qlt= </span> 는 무손실 시  <span class="codeph"> 무시됩니다  </span>. </p> <p>WebP 형식의 chrominance 다운샘플링이란 개념이 없으므로 <span class="codeph"> qlt </span>(예: <span class="codeph"> qlt=80,1 </span>)에 두 번째 값( <span class="codeph"> 1 </span>)을 사용할 경우 두 번째 값(  1 )은 무시됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 

@@ -1,15 +1,12 @@
 ---
 description: 프로젝트에 하나 이상의 자산을 추가합니다.
-seo-description: 프로젝트에 하나 이상의 자산을 추가합니다.
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 현재 프로젝트와 연결된 회사를 처리합니다. |
-| ` *`projectHandle`*` | `xsd:string` | 예 | 자산을 추가할 프로젝트를 처리합니다. |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가할 자산의 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 현재 프로젝트와 연결된 회사를 처리합니다. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 자산을 추가할 프로젝트를 처리합니다. |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가할 자산의 배열입니다. |
 
 **출력(addProjectAssetsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 추가된 자산의 수입니다. |
-| ` *`warningCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업에 프로젝트를 추가하려고 할 때 자산에 의해 생성된 경고 배열입니다. |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 에셋을 추가하려고 할 때 에셋에 의해 생성된 오류 배열입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 추가된 자산의 수입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업에 프로젝트를 추가하려고 할 때 자산에 의해 생성된 경고 배열입니다. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 에셋을 추가하려고 할 때 에셋에 의해 생성된 오류 배열입니다. |
 
 ## 예제 {#section-bee5be2402f54cb9a3a02cc07def4135}
 

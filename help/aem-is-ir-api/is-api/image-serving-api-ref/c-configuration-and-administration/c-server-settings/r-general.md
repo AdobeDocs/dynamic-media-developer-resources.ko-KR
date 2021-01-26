@@ -4,12 +4,12 @@ seo-description: 일반 서버 설정
 seo-title: 일반
 solution: Experience Manager
 title: 일반
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## TC::PsPort - 기본 수신 대기 포트 {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-플랫폼 서버의 기본 수신 포트를 지정합니다. 이 포트는 이미지 제공, 이미지 렌더링 및 Scene7 뷰어(설치된 경우)에 대한 설명서 및 예제 페이지에 액세스하는 데에도 사용됩니다.
+플랫폼 서버의 기본 수신 포트를 지정합니다. 이 포트는 이미지 제공, 이미지 렌더링 및 Dynamic Media 뷰어(설치된 경우)에 대한 설명서 및 예제 페이지에 액세스하는 데에도 사용됩니다.
 
 ## IS::CacheServerUrl - 서비스 루트 Url {#section-bcca227a1f91453b834db4ea050968e2} 캐싱
 

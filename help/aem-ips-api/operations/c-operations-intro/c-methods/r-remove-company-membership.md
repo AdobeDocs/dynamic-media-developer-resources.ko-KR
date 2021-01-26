@@ -4,10 +4,10 @@ seo-description: 하나 이상의 회사에서 사용자를 제거합니다.
 seo-title: removeCompanyMembership
 solution: Experience Manager
 title: removeCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: af57fde0-2297-41da-87bf-f063fc313264
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 11%
@@ -34,8 +34,8 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자에 대한 핸들입니다. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | 예 | 사용자를 제거하는 회사의 핸들입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자에 대한 핸들입니다. |
+| `*`companyHandleArray`*` | `types:HandleArray` | 예 | 사용자를 제거하는 회사의 핸들입니다. |
 
 **출력(removeCompanyMembershipReturn)**
 

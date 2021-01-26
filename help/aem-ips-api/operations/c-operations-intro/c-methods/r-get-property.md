@@ -4,10 +4,10 @@ seo-description: 이미지 포털과 관련된 시스템 속성의 문자열 값
 seo-title: getProperty
 solution: Experience Manager
 title: getProperty
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 38ea08a6-c948-4a01-bc9a-d1609197224e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 10%
@@ -48,13 +48,13 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`name`*` | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
+| `*`name`*` | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
 
 **출력(getPropertyReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`value`*` | `xsd:string` | 예 | 속성 값입니다. |
+| `*`value`*` | `xsd:string` | 예 | 속성 값입니다. |
 
 ## 예제 {#section-3f80a78dd60c404181b34d3a912d7a36}
 

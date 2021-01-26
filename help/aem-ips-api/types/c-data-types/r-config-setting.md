@@ -1,23 +1,20 @@
 ---
-description: Scene7 개발자에게만 사용됩니다.
-seo-description: Scene7 개발자에게만 사용됩니다.
-seo-title: 구성 설정
+description: Dynamic Media 개발자에게만 사용됩니다.
 solution: Experience Manager
 title: 구성 설정
-topic: Scene7 Image Production System API
-uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
 
 # ConfigSetting{#configsetting}
 
-Scene7 개발자에게만 사용됩니다.
+Dynamic Media 개발자에게만 사용됩니다.
 
 구문
 
@@ -25,7 +22,7 @@ Scene7 개발자에게만 사용됩니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | 구성 이름입니다. |
-| ` *`value`*` | `xsd:string` | 구성 값. |
-| ` *`처리`*` | `xsd:string` | 저장된 구성을 처리합니다. |
+| `*`name`*` | `xsd:string` | 구성 이름입니다. |
+| `*`value`*` | `xsd:string` | 구성 값. |
+| `*`처리`*` | `xsd:string` | 저장된 구성을 처리합니다. |
 

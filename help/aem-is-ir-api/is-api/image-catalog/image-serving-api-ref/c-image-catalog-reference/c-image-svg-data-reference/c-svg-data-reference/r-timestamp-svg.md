@@ -2,10 +2,10 @@
 description: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ce5e42e-573a-4e1c-97d4-98888e16ca56
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Java 형식의 날짜/시간 값. 1970년 1월 1일 자정 이후 정수(밀리�
 
 *`offset`* 은 시간 단위 또는 GMT를 기준으로 하는  `hours:minutes`시간대 오프셋입니다. 예를 들어 &#39;PDT&#39;는 &#39;GMT -7&#39;와 같습니다.
 
-문자열 형식 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바로 지정되지 않으면 무시되고 ` *`catalog`*.ini` 파일의 수정 시간이 대신 사용됩니다.
+문자열 형식 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바로 지정되지 않으면 무시되고 `*`catalog`*.ini` 파일의 수정 시간이 대신 사용됩니다.
 
 ## 기본값 {#section-0cbf801401ff4857bdda168fd12358af}
 

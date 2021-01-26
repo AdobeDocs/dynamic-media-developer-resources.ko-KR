@@ -4,12 +4,12 @@ seo-description: 소스 개체 지정자. 이미지 카탈로그 항목 또는 �
 seo-title: 개체
 solution: Experience Manager
 title: 개체
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 소스 개체 지정자. 이미지 카탈로그 항목 또는 상대 파일 경로로 이미지, SVG 및 ICC 프로필 개체를 지정할 수 있습니다.
 
-` *`ObjectrootIdobjIdpath `*[/]{[ *``*/] *``*}| *``*`
+`*`ObjectrootIdobjIdpath `*[/]{[ *``*/] *``*}| *``*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 지원되는 파일 형식의 전체 목록은 IC(Image Converter) 유틸리티의 설명을 참조하십시오.
 
-여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 PTIF(Pyramid TIFF) 다중 해상도 형식을 사용할 때 가장 적합합니다. IC 유틸리티는 지원되는 모든 이미지 포맷에서 PTIF 이미지를 만드는 데 사용됩니다.
+여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media PTIF(Pyramid TIFF) 다중 해상도 형식을 사용할 때 가장 적합합니다. IC 유틸리티는 지원되는 모든 이미지 포맷에서 PTIF 이미지를 만드는 데 사용됩니다.
 
 ## 예제 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

@@ -4,12 +4,12 @@ seo-description: 고급 렌더링 설정. 현재 선택 항목을 렌더링할 �
 seo-title: rs
 solution: Experience Manager
 title: rs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ff7fcb4-a10a-4e82-80a1-edf79ae1f717
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-렌더링 모양을 미세 조정하는 데 사용됩니다. 렌더링 설정 문자열을 만들려면 비네팅 제작 도구(Scene7 이미지 제작 패키지의 일부)의 렌더링 기능을 사용합니다.
+렌더링 모양을 미세 조정하는 데 사용됩니다. 렌더링 설정 문자열을 만들려면 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)의 렌더링 기능을 사용합니다.
 
 ## 속성 {#section-9a2b2228789046658cb80eddf343af75}
 

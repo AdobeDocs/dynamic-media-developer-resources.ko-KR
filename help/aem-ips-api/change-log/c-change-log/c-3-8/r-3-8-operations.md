@@ -4,10 +4,10 @@ seo-description: IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 �
 seo-title: 작업 새로 만들기 및 수정됨
 solution: Experience Manager
 title: 작업 새로 만들기 및 수정됨
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%

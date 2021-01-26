@@ -1,31 +1,28 @@
 ---
-description: 이 문서에서는 Scene7 이미지 렌더링을 위한 HTTP 프로토콜을 설명합니다.
-seo-description: 이 문서에서는 Scene7 이미지 렌더링을 위한 HTTP 프로토콜을 설명합니다.
-seo-title: 소개
+description: 이 문서에서는 Dynamic Media 이미지 렌더링을 위한 HTTP 프로토콜을 설명합니다.
 solution: Experience Manager
 title: 소개
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
 # 소개{#introduction}
 
-이 문서에서는 Scene7 이미지 렌더링을 위한 HTTP 프로토콜을 설명합니다.
+이 문서에서는 Dynamic Media 이미지 렌더링을 위한 HTTP 프로토콜을 설명합니다.
 
-프로토콜의 공개적으로 사용 가능한 측면만 설명되어 있습니다. 서버는 Scene7 클라이언트 소프트웨어에서 사용하도록 예약된 추가 명령을 지원할 수 있습니다.
+프로토콜의 공개적으로 사용 가능한 측면만 설명되어 있습니다. 서버는 Dynamic Media 클라이언트 소프트웨어에서 사용하도록 예약된 추가 명령을 지원할 수 있습니다.
 
 **대상**
 
-이 문서는 웹 사이트 또는 사용자 정의 애플리케이션에 Scene7 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 위해 작성되었습니다.
+이 문서는 웹 사이트 또는 사용자 정의 애플리케이션에 Dynamic Media 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 위해 작성되었습니다.
 
-독자는 Scene7 이미지 작성 및 이미지 렌더링, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미지 용어에 익숙하다고 가정합니다.
+독자는 Dynamic Media 이미지 작성 및 이미지 렌더링, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미지 용어에 익숙하다고 가정합니다.
 
 **문서 규칙**
 
@@ -100,4 +97,4 @@ ht-degree: 2%
 
 ** *`MSS`* ** 자재 사양 세그먼트:요청에 있는 두 선택 명령 간의 재료 속성 집합.
 
-** *`vignette`* ** 이미지 렌더링에 사용하기 위해 Scene7 이미지 작성에서 준비된 이미지입니다.
+** *`vignette`* ** 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성에서 준비된 이미지입니다.

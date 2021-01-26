@@ -1,15 +1,12 @@
 ---
-description: 뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Scene7에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있도록 허용하는 웹 기반 응용 프로그램입니다.
-seo-description: 뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Scene7에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있도록 허용하는 웹 기반 응용 프로그램입니다.
-seo-title: 뷰어 SDK 자습서
+description: 뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 응용 프로그램입니다.
 solution: Experience Manager
 title: 뷰어 SDK 자습서
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # 뷰어 SDK 자습서{#viewer-sdk-tutorial}
 
-뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Scene7에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있도록 허용하는 웹 기반 응용 프로그램입니다.
+뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 응용 프로그램입니다.
 
-예를 들어 SDK는 대화형 확대/축소 및 상하좌우 이동을 제공합니다. 또한 SPS(Scene7 Publishing System)라는 백엔드 애플리케이션을 통해 Adobe Scene7에 업로드된 자산의 360° 보기 및 비디오 재생을 제공합니다.
+예를 들어 SDK는 대화형 확대/축소 및 상하좌우 이동을 제공합니다. 또한 SPS(Scene7 Publishing System)라는 백엔드 애플리케이션을 통해 Adobe Dynamic Media에 업로드된 자산의 360° 보기 및 비디오 재생을 제공합니다.
 
 구성 요소는 HTML5 기능을 사용하더라도 Android 및 Apple iOS 장치, Internet Explorer 이상을 비롯한 데스크탑에서 작동하도록 디자인되었습니다. 이러한 종류의 경험은 지원되는 모든 플랫폼에 대해 단일 워크플로우를 제공할 수 있음을 의미합니다.
 
@@ -67,8 +64,8 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 이루어집니다. 
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 이루어집니다. 
 
    기본 확대/축소 뷰어가 이제 완료되었습니다.
 
-   이 뷰어 자습서는 Scene7 Viewer SDK에서 제공하는 내용의 기본 사항을 살펴봅니다. SDK를 사용하여 작업할 때 다양한 표준 구성 요소를 사용하여 대상 고객을 위한 풍부한 보기 경험을 쉽게 만들고 스타일을 지정할 수 있습니다.
+   이 뷰어 자습서는 Dynamic Media Viewer SDK에서 제공하는 내용의 기본 사항을 살펴봅니다. SDK를 사용하여 작업할 때 다양한 표준 구성 요소를 사용하여 대상 고객을 위한 풍부한 보기 경험을 쉽게 만들고 스타일을 지정할 수 있습니다.
 

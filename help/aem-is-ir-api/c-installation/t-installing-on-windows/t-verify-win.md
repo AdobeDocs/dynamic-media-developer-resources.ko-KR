@@ -1,15 +1,15 @@
 ---
-description: Scene7 Image Serving을 설치한 후 설치를 확인해야 합니다.
-seo-description: Scene7 Image Serving을 설치한 후 설치를 확인해야 합니다.
+description: Dynamic Media Image Serving을 설치한 후 설치를 확인해야 합니다.
+seo-description: Dynamic Media Image Serving을 설치한 후 설치를 확인해야 합니다.
 seo-title: 설치 확인
 solution: Experience Manager
 title: 설치 확인
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ccc7688d-3d7f-4066-a19e-8a36ca56d711
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # 설치 확인 중{#verifying-the-installation}
 
-Scene7 Image Serving을 설치한 후 설치를 확인해야 합니다.
+Dynamic Media Image Serving을 설치한 후 설치를 확인해야 합니다.
 
 이미지 서버가 Windows 서비스로 설치됩니다.
 
-1. 서비스 Campaign 컨트롤 패널을 열고 &quot;Scene7 Image Serving&quot;이 &quot;Started&quot; 상태로 있는지 확인합니다.
+1. 서비스 Campaign 컨트롤 패널을 열고 &quot;Dynamic Media Image Serving&quot;이 &quot;Started&quot; 상태로 있는지 확인합니다.
 1. 동일한 호스트 또는 다른 호스트에서 인터넷 브라우저를 열고 기본 서버 응답을 확인합니다.
 
    `http:// server:port /is/image`

@@ -4,10 +4,10 @@ seo-description: 특정 회사에 속하는 사용자의 그룹 구성원을 설
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| ` *`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자에 대한 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
+| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자에 대한 핸들 배열입니다. |
 
 **출력(setGroupMemberesReturn)**
 

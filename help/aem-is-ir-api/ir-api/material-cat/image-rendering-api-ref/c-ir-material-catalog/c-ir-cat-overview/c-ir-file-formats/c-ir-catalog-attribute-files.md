@@ -4,10 +4,10 @@ seo-description: 카탈로그 특성 파일은 모든 이름을 가질 수 있�
 seo-title: 카탈로그 속성 파일
 solution: Experience Manager
 title: 카탈로그 속성 파일
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 카탈로그 속성 파일은 단일 `<CR>`(ASCII 코드 0xD), 단일 `<LF>`(ASCII 코드 0xA) 또는 `<CR><LF>` 쌍으로 구분된 텍스트 레코드 세트로 구성됩니다. 각 레코드는 속성 이름과 하나 이상의 쉼표로 구분된 속성 값으로 구성됩니다.
 
-` *``*= *``*&#42;[, *`이름 평가값`*]{<CR>|<LF>|<CR><LF>}`
+`*``*= *``*&#42;[, *`이름 평가값`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 

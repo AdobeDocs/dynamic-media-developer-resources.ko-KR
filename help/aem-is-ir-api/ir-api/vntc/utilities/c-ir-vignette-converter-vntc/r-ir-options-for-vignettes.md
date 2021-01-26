@@ -4,12 +4,12 @@ seo-description: 다음 옵션은 비네팅 파일의 처리를 제어합니다.
 seo-title: 비네팅 옵션
 solution: Experience Manager
 title: 비네팅 옵션
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -피라미드</span> </p></td> 
-  <td class="stentry"> <p>피라미드형 비네팅을 만듭니다. Scene7 확대/축소 뷰어를 사용하여 렌더링된 이미지를 표시하는 데 필요합니다. 자세한 내용은 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> 비네팅 크기 조절</a>을 참조하십시오. </p></td> 
+  <td class="stentry"> <p>피라미드형 비네팅을 만듭니다. Dynamic Media 확대/축소 뷰어를 사용하여 렌더링된 이미지를 표시하는 데 필요합니다. 자세한 내용은 <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> 비네팅 크기 조절</a>을 참조하십시오. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 

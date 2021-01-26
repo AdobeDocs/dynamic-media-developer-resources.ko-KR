@@ -4,10 +4,10 @@ seo-description: 이미지 서비스를 사용하려면 먼저 이미지 제공�
 seo-title: 설치
 solution: Experience Manager
 title: 설치
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%

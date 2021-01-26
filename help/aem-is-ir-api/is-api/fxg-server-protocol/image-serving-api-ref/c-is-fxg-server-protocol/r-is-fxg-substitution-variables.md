@@ -4,10 +4,10 @@ seo-description: 대체 변수는 요청 URL에서 서버에 저장된 FXG 템�
 seo-title: 대체 변수
 solution: Experience Manager
 title: 대체 변수
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -34,6 +34,6 @@ ht-degree: 0%
 
 * 변수 정의 및 참조는 요청 URL의 쿼리 부분에서 발생할 수 있습니다.
 * 변수는 다른 IS 명령과 유사하게 위와 같이 정의됩니다.행간 &#39;$&#39;은(는) 명령을 변수 정의로 식별합니다.
-* 변수 이름 ` *`var`*`은 대/소문자를 구분하며 문자, 숫자, &#39;-&#39; 및 &#39;_&#39;의 조합으로 구성될 수 있습니다.
+* 변수 이름 `*`var`*`은 대/소문자를 구분하며 문자, 숫자, &#39;-&#39; 및 &#39;_&#39;의 조합으로 구성될 수 있습니다.
 * 중요 값은 안전한 HTTP 전송을 위해 단일 패스 URL로 인코딩되어야 합니다.
 

@@ -4,13 +4,13 @@ seo-description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 * 공개적으로 액세스할 수 있는 라이브 서버에 대해 레벨 0이 권장됩니다.
 * 단계 2는 스테이징, 품질 보증 및 애플리케이션 개발 서버에 권장됩니다.
-* 수준 3 정보는 Scene7 기술 지원에 문제를 보고할 때 유용할 수 있습니다.
+* 수준 3 정보는 Dynamic Media 기술 지원에 문제를 보고할 때 유용할 수 있습니다.
 
 ## 속성 {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

@@ -4,10 +4,10 @@ seo-description: IR 3.x 호환성 모듈을 설정하고 구성해야 합니다.
 seo-title: IR 3.x 호환성 모듈 설정 및 구성
 solution: Experience Manager
 title: IR 3.x 호환성 모듈 설정 및 구성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 609a6ac9-1a4e-4cca-ab08-aa0f957b0e31
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%

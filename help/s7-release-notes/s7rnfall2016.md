@@ -7,9 +7,9 @@ title: Scene7 2016 가을 릴리스
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe S
 * [뷰어(이미지 제공 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [뷰어(이미지 제공 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [뷰어(이미지 제공 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Scene7 HTML5 뷰어 SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 이미지 제공 6.3.2 및 이미지 렌더링 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [HTML5 뷰어 SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media 이미지 제공 6.3.2 및 이미지 렌더링 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 일반 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
    * 배경이 iPad 장치에서 흰색/투명으로 설정되어 있으면 VideoPlayer 구성 요소의 측면에 검정 테두리가 표시됩니다.
    * iOS 7을 사용하여 iPad에서 비디오의 마지막 프레임이 왜곡될 수 있습니다.
    * Chrome, Firefox 및 Internet Explorer 브라우저의 HLS 스트리밍 모드에서 비디오를 검색하는 동안 Macromedia가 가끔 차단될 수 있습니다.
-   * 처음으로 Microsoft Edge 브라우저에 포스터 이미지가 표시되지 않을 수 있습니다.
-   * 점진적 재생이 사용될 때 Internet Explorer 9에서 비디오가 로드된 후 포스터 이미지가 숨겨질 수 있습니다.
+      * 처음으로 Microsoft Edge 브라우저에 포스터 이미지가 표시되지 않을 수 있습니다.
+      * 점진적 재생이 사용될 때 Internet Explorer 9에서 비디오가 로드된 후 포스터 이미지가 숨겨질 수 있습니다.
 
 ## Scene7 HTML5 뷰어 SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
    * 처음으로 Microsoft Edge 브라우저에 포스터 이미지가 표시되지 않을 수 있습니다.
    * 점진적 재생이 사용될 때 Internet Explorer 9에서 비디오가 로드된 후 포스터 이미지가 숨겨질 수 있습니다.
 
-## Scene7 이미지 제공 6.3.2 및 이미지 렌더링 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media 이미지 제공 6.3.2 및 이미지 렌더링 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * IC 유틸리티 - `downsample2x2` 플래그가 더 이상 지원되지 않습니다. 이 플래그는 IPS에서 더 이상 사용되지 않는 품질이 낮은 2x2 다운샘플러 입니다.
 * CORS 헤더 - 현재, CORS 헤더는 `/is/content/` 요청에 대해 구성됩니다.

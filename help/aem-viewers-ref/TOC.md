@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 translation-type: tm+mt
-source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 4%
       + [뷰어 릴리스 노트(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [뷰어 릴리스 노트(5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [뷰어 릴리스 노트(5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Scene7 뷰어 5.8.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Scene7 뷰어 5.5.2 릴리스 노트](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Scene7 뷰어 5.4.2 릴리스 노트](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Scene7 뷰어 5.2.3 릴리스 노트](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Scene7 뷰어 5.2.2 릴리스 노트](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Scene7 뷰어 5.1.1 릴리스 노트](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Scene7 뷰어 5.0.1 릴리스 노트](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Scene7 뷰어 4.9.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [뷰어 5.8.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [뷰어 5.5.2 릴리스 노트](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [뷰어 5.4.2 릴리스 노트](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [뷰어 5.2.3 릴리스 노트](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [뷰어 5.2.2 릴리스 노트](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [뷰어 5.1.1 릴리스 노트](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [뷰어 5.0.1 릴리스 노트](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [뷰어 4.9.2 릴리스 노트](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [호환성 정보](c-compatibility-notes.md)
 + [키보드 액세스 가능성 및 내비게이션](c-keyboard-accessibility.md)
 + [뷰어 SDK 자습서](c-tutorial.md)

@@ -1,15 +1,12 @@
 ---
 description: Scene7 Production System에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정할 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
-seo-description: Scene7 Production System에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정할 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
-seo-title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 solution: Experience Manager
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 발생해야 합니다.
 
-**Scene7 지역의 URL 액세스**
+**Dynamic Media 지역의 URL 액세스**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 

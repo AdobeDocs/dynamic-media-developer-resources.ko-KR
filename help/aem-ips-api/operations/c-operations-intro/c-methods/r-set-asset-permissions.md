@@ -4,10 +4,10 @@ seo-description: 권한 자산을 사용하여 단일 자산의 권한을 설정
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 8%
@@ -33,9 +33,9 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 작업할 폴더가 포함된 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| ` *`permissionArray`*` | `types:PermissionsUpdateArray` | 예 | 사용 권한 배열로 이동합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 폴더가 포함된 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 예 | 사용 권한 배열로 이동합니다. |
 
 **출력(setAssetPermissonsReturn)**
 

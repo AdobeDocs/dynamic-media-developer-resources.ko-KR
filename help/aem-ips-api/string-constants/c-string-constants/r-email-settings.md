@@ -4,10 +4,10 @@ seo-description: 다양한 입력 매개 변수에 사용되는 값을 설명합
 seo-title: 이메일 설정
 solution: Experience Manager
 title: 이메일 설정
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
 translation-type: tm+mt
-source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 14%

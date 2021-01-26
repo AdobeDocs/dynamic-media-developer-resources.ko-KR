@@ -4,10 +4,10 @@ seo-description: 특정 자산에 대한 사용자 정의 필드 정의
 seo-title: MetadataField
 solution: Experience Manager
 title: MetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6156be6e-efa5-4e90-928d-2ab936668154
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%

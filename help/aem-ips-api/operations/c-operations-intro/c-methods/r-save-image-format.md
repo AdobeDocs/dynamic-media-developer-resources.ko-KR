@@ -4,10 +4,10 @@ seo-description: 이미지 형식을 만듭니다.
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%
@@ -36,16 +36,16 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지 형식이 있는 회사의 핸들입니다. |
-| ` *`imageFormatHandle`*` | `xsd:string` | 아니요 | 저장할 이미지 형식 핸들. |
-| ` *`name`*` | `xsd:string` | 예 | 이미지 형식 이름입니다. |
-| ` *`urlModifier`*` | `xsd:string` | 예 | IPS 프로토콜 쿼리 문자열일 수 있습니다. URL 수정자를 생성하는 가장 쉬운 방법은 IPS 사용자 인터페이스로 만든 다음 쿼리 문자열을 잘라내어 붙여넣는 것입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지 형식이 있는 회사의 핸들입니다. |
+| `*`imageFormatHandle`*` | `xsd:string` | 아니요 | 저장할 이미지 형식 핸들. |
+| `*`name`*` | `xsd:string` | 예 | 이미지 형식 이름입니다. |
+| `*`urlModifier`*` | `xsd:string` | 예 | IPS 프로토콜 쿼리 문자열일 수 있습니다. URL 수정자를 생성하는 가장 쉬운 방법은 IPS 사용자 인터페이스로 만든 다음 쿼리 문자열을 잘라내어 붙여넣는 것입니다. |
 
 **출력(saveImageFormatReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | 예 | 이미지 형식을 처리합니다. |
+| `*`imageFormatHandle`*` | `xsd:string` | 예 | 이미지 형식을 처리합니다. |
 
 ## 예제 {#section-c7bd733212ef494297a97093f3af193f}
 

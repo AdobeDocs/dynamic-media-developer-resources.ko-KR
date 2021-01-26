@@ -4,10 +4,10 @@ seo-description: 자산을 삭제합니다.
 seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 12%
@@ -40,8 +40,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
 
 **출력(deleteAssetParam)**
 

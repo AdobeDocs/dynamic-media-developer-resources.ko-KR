@@ -4,10 +4,10 @@ seo-description: 글꼴 메타데이터 필드를 설정합니다.
 seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 14%
@@ -33,18 +33,18 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 글꼴이 포함된 회사를 처리합니다. |
-| ` *`updateArray`*` | `types:FontFieldUpdateArray` | 예 | 글꼴 필드 업데이트 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 글꼴이 포함된 회사를 처리합니다. |
+| `*`updateArray`*` | `types:FontFieldUpdateArray` | 예 | 글꼴 필드 업데이트 배열입니다. |
 
 **출력(batchSetFontFieldsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 글꼴 필드를 성공적으로 설정한 횟수입니다. |
-| ` *`warningCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 생성된 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 발생한 오류 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 글꼴 필드를 성공적으로 설정한 횟수입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 발생한 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

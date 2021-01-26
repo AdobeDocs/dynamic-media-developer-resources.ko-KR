@@ -1,15 +1,12 @@
 ---
-description: 이미지 집합 데이터. Scene7 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
-seo-description: 이미지 집합 데이터. Scene7 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
-seo-title: 이미지 집합
+description: 이미지 집합 데이터. Dynamic Media 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
 solution: Experience Manager
 title: 이미지 집합
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 2%
 
 # 이미지 집합{#imageset}
 
-이미지 집합 데이터. Scene7 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
+이미지 집합 데이터. Dynamic Media 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
 
 이미지 세트는 하나 이상의 하위 항목(이미지 ID, 견본 ID, 미디어 파일 경로, 레이블 등)을 세미콜론 및/또는 콜론으로 구분하여 정렬된 쉼표로 구분된 항목 목록으로 구성됩니다.
 
@@ -49,24 +46,24 @@ ht-degree: 2%
 
 기본 견본 세트의 각 항목은 이미지 레코드에 대한 참조와 견본으로 사용되는 이미지 레코드에 대한 별도의 참조(선택 사항)로 구성됩니다.
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *``*[';' *`imageIdswatch`*]` |
-| ` *`견본`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | IS 이미지 참조(카탈로그/ID) |
-| ` *`swatchId`*` | IS 이미지 참조(카탈로그/ID) |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`rggbblabel`*]'}'` |
-| ` *`rggbb`*` | 단색 색상 견본을 위한 6자리 16진수 RGB 색상 값 압축 |
-| ` *`레이블`*` | 단색 색상 견본을 위한 텍스트 레이블(선택 사항) |
+| `*`swatchItem`*` | `*``*[';' *`imageIdswatch`*]` |
+| `*`견본`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | IS 이미지 참조(카탈로그/ID) |
+| `*`swatchId`*` | IS 이미지 참조(카탈로그/ID) |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rggbblabel`*]'}'` |
+| `*`rggbb`*` | 단색 색상 견본을 위한 6자리 16진수 RGB 색상 값 압축 |
+| `*`레이블`*` | 단색 색상 견본을 위한 텍스트 레이블(선택 사항) |
 
 **계층적 견본 집합**
 
 계층 구조 견본 세트의 각 항목은 기본 견본 항목 또는 견본 집합 레코드에 대한 참조로 구성될 수 있습니다(이러한 항목에 대한 견본은 필수).
 
-| ` *`hierarchicalSwatchSet`*` | ` *``* &#42;[ ',' *`hierarchicalSwatchItemetricSwatchItem`* ]` |
+| `*`hierarchicalSwatchSet`*` | `*``* &#42;[ ',' *`hierarchicalSwatchItemetricSwatchItem`* ]` |
 |---|---|
-| ` *`hierarchicalSwatchItem`*` | ` *``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | 기본 견본 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(카탈로그/ID) |
+| `*`hierarchicalSwatchItem`*` | `*``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | 기본 견본 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(카탈로그/ID) |
 
 **기본 스핀 세트**
 
@@ -78,38 +75,38 @@ ht-degree: 2%
 
 2차원 회전 집합의 각 항목은 간단한 이미지, 기본 회전 집합 참조 또는 중괄호로 구분된 인라인 기본 회전 집합으로 구성될 수 있습니다. 중괄호 대신 괄호를 사용할 수 있습니다.
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | 기본 회전 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(카탈로그/ID) |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | 기본 회전 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(카탈로그/ID) |
 
 **페이지 세트**
 
 페이지 세트의 각 항목은 콜론으로 구분된 최대 3개의 페이지 이미지로 구성될 수 있습니다.
 
-| ` *`pageSet`*` | ` *``* &#42;[ , *`pageItemItem`* ]` |
+| `*`pageSet`*` | `*``* &#42;[ , *`pageItemItem`* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
 
 **미디어 집합**
 
 미디어 세트의 각 항목은 이미지, 기본 견본 세트, 계층적 견본 세트, 기본 스핀 세트, 2차원 스핀 세트, 페이지 세트 또는 비디오 에셋으로 구성될 수 있습니다. 각 미디어 세트 항목에는 선택 사항 견본 및 유형 식별자가 포함될 수도 있습니다.
 
-| ` *`mediaSet`*` | ` *``* &#42;[ , *`항목`* ]` |
+| `*`mediaSet`*` | `*``* &#42;[ , *`항목`* ]` |
 |---|---|
-| ` *`항목`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | IS 이미지 ID |
-| ` *`비디오`*` | 비디오/애니메이션 파일 경로 또는 정적 카탈로그 ID |
-| ` *`recut`*` | 정의 XML 파일 경로 또는 정적 카탈로그 ID 다시 자르기 |
-| ` *`imageId`*` | IS 이미지 ID |
-| ` *`setId`*` | 이미지, 회전 또는 카탈로그 집합에 대한 참조임 |
-| ` *`inlineSet`*` | 이미지, 회전 또는 카탈로그 세트 |
-| ` *`reserved`*` | 향후 사용을 위해 예약됨 |
+| `*`항목`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | IS 이미지 ID |
+| `*`비디오`*` | 비디오/애니메이션 파일 경로 또는 정적 카탈로그 ID |
+| `*`recut`*` | 정의 XML 파일 경로 또는 정적 카탈로그 ID 다시 자르기 |
+| `*`imageId`*` | IS 이미지 ID |
+| `*`setId`*` | 이미지, 회전 또는 카탈로그 집합에 대한 참조임 |
+| `*`inlineSet`*` | 이미지, 회전 또는 카탈로그 세트 |
+| `*`reserved`*` | 향후 사용을 위해 예약됨 |
 
 **Video Sets**
 

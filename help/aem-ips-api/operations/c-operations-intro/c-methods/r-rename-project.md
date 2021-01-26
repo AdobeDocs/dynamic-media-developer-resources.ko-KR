@@ -4,10 +4,10 @@ seo-description: 프로젝트의 이름을 변경합니다.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 22%
@@ -36,15 +36,15 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 이름을 바꾸려는 프로젝트가 있는 회사를 처리합니다. |
-| ` *`projectHandle`*` | `xsd:string` | 예 | 프로젝트를 처리합니다. |
-| ` *`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
+| `*`companyName`*` | `xsd:string` | 예 | 이름을 바꾸려는 프로젝트가 있는 회사를 처리합니다. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트를 처리합니다. |
+| `*`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
 
 **출력(renameProjectParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | 예 | 이름이 변경된 프로젝트의 핸들입니다. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 이름이 변경된 프로젝트의 핸들입니다. |
 
 ## 예제 {#section-a0a06d9244774795b695a10b92b2a5e7}
 

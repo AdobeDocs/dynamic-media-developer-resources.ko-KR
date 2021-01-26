@@ -4,10 +4,10 @@ seo-description: 이미지 렌더링은 피라미드가 아닌 비네팅에 대�
 seo-title: 비네팅 크기 제한
 solution: Experience Manager
 title: 비네팅 크기 제한
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 0%

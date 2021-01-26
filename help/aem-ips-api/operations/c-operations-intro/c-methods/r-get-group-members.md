@@ -4,10 +4,10 @@ seo-description: 특정 회사 및 그룹에 속하는 사용자를 가져옵니
 seo-title: getGroupMembers
 solution: Experience Manager
 title: getGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 02322b66-1c0c-4d84-a3eb-97a4fb605318
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 16%
@@ -33,14 +33,14 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`groupHandle`*` | `xsd:string` |  | 그룹의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| `*`groupHandle`*` | `xsd:string` |  | 그룹의 핸들입니다. |
 
 **출력(getGroupMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandleArray`*` | `type:HandleArray` | 예 | 사용자 핸들의 배열입니다. |
+| `*`userHandleArray`*` | `type:HandleArray` | 예 | 사용자 핸들의 배열입니다. |
 
 ## 예제 {#section-aaa340dba6b64cce9bcd8303cf999166}
 

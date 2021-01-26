@@ -4,10 +4,10 @@ seo-description: 이러한 명령은 요청에서 나타나는 위치에 관계�
 seo-title: 보기 명령
 solution: Experience Manager
 title: 보기 명령
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%

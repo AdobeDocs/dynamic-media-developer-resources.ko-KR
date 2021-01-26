@@ -4,10 +4,10 @@ seo-description: 하나 이상의 회사에 사용자 멤버십을 설정합니�
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 13%
@@ -34,8 +34,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:sting` | 아니요 | 사용자 핸들. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 다양한 회사. |
+| `*`userHandle`*` | `xsd:sting` | 아니요 | 사용자 핸들. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 다양한 회사. |
 
 **출력(setCompanyMembershipParam)**
 

@@ -2,10 +2,10 @@
 description: 키워드
 solution: Experience Manager
 title: 키워드
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 147b7dcd-dd6d-4530-b046-18925e851eb1
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 36%
@@ -21,10 +21,10 @@ ht-degree: 36%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`키워드`*` | `xsd:string` | 키워드. |
-| ` *`status`*` | `xsd:boolean` | 키워드 유효성. |
-| ` *`x`*` | `xsd:int` | x축에 있는 키워드 위치(픽셀 단위). |
-| ` *`y`*` | `xsd:int` | y축에서의 키워드 위치(픽셀 단위). |
-| ` *`width`*` | `xsd:int` | 키워드 너비(픽셀 단위)입니다. |
-| ` *`height`*` | `xsd:int` | 키워드 높이(픽셀 단위)입니다. |
+| `*`키워드`*` | `xsd:string` | 키워드. |
+| `*`status`*` | `xsd:boolean` | 키워드 유효성. |
+| `*`x`*` | `xsd:int` | x축에 있는 키워드 위치(픽셀 단위). |
+| `*`y`*` | `xsd:int` | y축에서의 키워드 위치(픽셀 단위). |
+| `*`width`*` | `xsd:int` | 키워드 너비(픽셀 단위)입니다. |
+| `*`height`*` | `xsd:int` | 키워드 높이(픽셀 단위)입니다. |
 

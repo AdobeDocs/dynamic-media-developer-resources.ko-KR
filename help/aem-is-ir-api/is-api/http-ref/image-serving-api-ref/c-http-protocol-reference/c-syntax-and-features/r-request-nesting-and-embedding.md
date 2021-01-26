@@ -4,12 +4,12 @@ seo-description: 이미지 제공은 이미지 제공 요청을 무제한으로 
 seo-title: 중첩 및 포함 요청
 solution: Experience Manager
 title: 중첩 및 포함 요청
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 포함된 이미지 렌더링 요청 {#section-69c5548db930412b9b90d9b2951a6969}
 
-서버에서 Scene7 이미지 렌더링을 사용하는 경우 렌더링 요청을 src= (또는 mask=) 명령에서 지정하여 레이어 소스로 사용할 수 있습니다. 다음 구문을 사용합니다.
+서버에서 Dynamic Media 이미지 렌더링을 사용하는 경우 렌더링 요청을 src= (또는 mask=) 명령에서 지정하여 레이어 소스로 사용할 수 있습니다. 다음 구문을 사용합니다.
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ FXG 그래픽 렌더러(즉, [!DNL AGMServer])가 설치되고 이미지 제공 
 
 >[!NOTE]
 >
->FXG 그래픽 렌더링은 Scene7 호스팅 환경에서만 사용할 수 있으며 추가 라이선스가 필요할 수 있습니다. 자세한 내용은 Scene7 지원 센터에 문의하십시오.
+>FXG 그래픽 렌더링은 Dynamic Media 호스팅 환경에서만 사용할 수 있으며 추가 라이선스가 필요할 수 있습니다. 자세한 내용은 Dynamic Media 기술 지원에 문의하십시오.
 
 *[!DNL renderRequest]* 는 HTTP 루트 경로를 제외한 일반적인 FXG 렌더링 요청입니다 ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ FXG 그래픽 렌더러(즉, [!DNL AGMServer])가 설치되고 이미지 제공 
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Scene7 이미지 렌더링에 대한 요청 포함**
+**Dynamic Media 이미지 렌더링에 대한 요청 포함**
 
-[!DNL myCatalog/myTemplate];에 저장된 템플릿 사용scene7 이미지 렌더링을 사용하여 템플릿의 layer2 이미지를 생성합니다.
+[!DNL myCatalog/myTemplate];에 저장된 템플릿 사용dynamic media 이미지 렌더링을 사용하여 템플릿의 layer2 이미지를 생성합니다.
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

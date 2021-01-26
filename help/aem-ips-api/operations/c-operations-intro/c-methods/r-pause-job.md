@@ -4,10 +4,10 @@ seo-description: 활성 작업을 일시 중지합니다.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 18%
@@ -38,8 +38,8 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
-| ` *`jobHandle`*` | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`jobHandle`*` | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
 
 **출력(PauseJobReturn)**
 

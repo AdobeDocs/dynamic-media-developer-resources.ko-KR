@@ -4,12 +4,12 @@ seo-description: jsonp가 응답 형식으로 지정된 경우 응답 데이터�
 seo-title: JSONP 속성
 solution: Experience Manager
 title: JSONP 속성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ JSONP 응답 형식을 지원하는 요청에서는 `req=` 매개 변수의 확�
 
 `<reqHandler>` 는 JSONP 응답에 있는 JS 핸들러의 이름입니다. a-z, A-Z 및 0-9자만 사용할 수 있습니다. 선택 사항입니다. 기본값은 `s7jsonResponse`입니다.
 
-Scene7 Image Serving Viewers 패키지에는 이미지 제공에서 JSONP 형식 데이터를 요청 및 구문 분석하는 유틸리티가 포함되어 있습니다.
+Dynamic Media Image Serving Viewers 패키지에는 이미지 제공에서 JSONP 형식 데이터를 요청 및 구문 분석하는 유틸리티가 포함되어 있습니다.
 
 JSONP 형식에 대한 자세한 내용은 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP)을 참조하십시오.
 

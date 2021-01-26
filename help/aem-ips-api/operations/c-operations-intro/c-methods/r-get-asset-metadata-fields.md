@@ -4,10 +4,10 @@ seo-description: 자산 유형별로 그룹화된 모든 메타데이터 필드�
 seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 20%
@@ -37,13 +37,13 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 메타데이터를 검색할 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 메타데이터를 검색할 회사의 핸들입니다. |
 
 **출력(getAssetMetadataFieldsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별로 메타데이터 필드의 배열입니다. |
+| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별로 메타데이터 필드의 배열입니다. |
 
 ## 예제 {#section-d79ab85f29144635b0b61416e52f4f3f}
 

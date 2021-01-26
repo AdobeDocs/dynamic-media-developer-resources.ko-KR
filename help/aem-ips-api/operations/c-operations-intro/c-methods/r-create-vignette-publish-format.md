@@ -4,10 +4,10 @@ seo-description: 비네팅에 대한 새 게시 형식을 만듭니다.
 seo-title: createVignettePublishFormat
 solution: Experience Manager
 title: createVignettePublishFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 834ebe6a-e105-4075-8004-172237980933
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 14%
@@ -123,7 +123,7 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`vignetteFormatHandle`*` | `xsd:string` | 예 | 만든 비네팅 형식의 핸들입니다. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | 예 | 만든 비네팅 형식의 핸들입니다. |
 
 ## 예제 {#section-0564752d439642b9bb8de2903db6de1e}
 

@@ -4,10 +4,10 @@ seo-description: 적절한 구성 파일을 편집하여 이미지 제공 및 �
 seo-title: 서버 구성
 solution: Experience Manager
 title: 서버 구성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%

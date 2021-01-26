@@ -4,10 +4,10 @@ seo-description: 속성 배열을 사용하여 속성 세트를 업데이트합�
 seo-title: updatePropertySet
 solution: Experience Manager
 title: updatePropertySet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 13%
@@ -39,9 +39,9 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`setHandle`*` | `xsd:string` | 예 | 속성 세트에 대한 핸들입니다. |
-| ` *`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정합니다. |
-| ` *`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대한 업데이트된 속성의 배열입니다. |
+| `*`setHandle`*` | `xsd:string` | 예 | 속성 세트에 대한 핸들입니다. |
+| `*`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정합니다. |
+| `*`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대한 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**
 

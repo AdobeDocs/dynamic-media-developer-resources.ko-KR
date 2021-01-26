@@ -4,10 +4,10 @@ seo-description: 이미지 세트를 만듭니다.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 14%
@@ -40,17 +40,17 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 이미지 세트가 속하는 회사의 핸들입니다. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 폴더에 대한 핸들입니다. |
-| ` *`name`*` | `xsd:string` | 예 | 이미지 세트 이름. |
-| ` *`type`*` | `xsd:string` | 예 | 이미지 집합 유형입니다. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | 아니요 | 새 이미지 세트의 축소판으로 사용되는 에셋을 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용하려고 합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 세트가 속하는 회사의 핸들입니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 폴더에 대한 핸들입니다. |
+| `*`name`*` | `xsd:string` | 예 | 이미지 세트 이름. |
+| `*`type`*` | `xsd:string` | 예 | 이미지 집합 유형입니다. |
+| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 새 이미지 세트의 축소판으로 사용되는 에셋을 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용하려고 합니다. |
 
 **출력**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | 예 | 새 이미지 세트의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 새 이미지 세트의 핸들입니다. |
 
 ## 예제 {#section-385fe3b0af8044b0a2451336ec137fc5}
 

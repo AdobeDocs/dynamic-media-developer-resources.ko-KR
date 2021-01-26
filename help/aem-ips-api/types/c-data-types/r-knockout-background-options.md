@@ -4,10 +4,10 @@ seo-description: 선택한 이미지의 배경을 마스크(녹아웃)합니다.
 seo-title: 녹아웃 배경 옵션
 solution: Experience Manager
 title: 녹아웃 배경 옵션
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 2%

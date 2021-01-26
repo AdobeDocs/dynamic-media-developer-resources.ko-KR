@@ -4,10 +4,10 @@ seo-description: 지정된 이미지에 대한 Photoshop 경로 이름의 배열
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 17%
@@ -37,14 +37,14 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 이미지 에셋으로 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 에셋으로 처리합니다. |
 
 **출력(getPhotoshopPathNamesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | 예 | 이미지의 Photoshop 경로 이름 배열입니다. |
+| `*`pathNameArray`*` | `types:StringArray` | 예 | 이미지의 Photoshop 경로 이름 배열입니다. |
 
 ## 예제 {#section-6d316f14b4184d42af4ca3f717b042dd}
 

@@ -4,10 +4,10 @@ seo-description: 기존 자산 집합에 대한 세트 정의를 업데이트합
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 6%
@@ -36,9 +36,9 @@ ht-degree: 6%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산 세트가 있는 회사의 핸들입니다. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 집합 핸들 |
-| ` *`setDefinition`*` | `xsd:string` | 예 | 정의 문자열. 아래를 참조하십시오. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산 세트가 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산 집합 핸들 |
+| `*`setDefinition`*` | `xsd:string` | 예 | 정의 문자열. 아래를 참조하십시오. |
 
 **출력(setAssetSetDefinitionReturn)**
 

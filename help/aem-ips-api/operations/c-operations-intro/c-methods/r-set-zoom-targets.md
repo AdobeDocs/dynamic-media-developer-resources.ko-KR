@@ -4,10 +4,10 @@ seo-description: 자산 이미지와 연결된 확대/축소 대상을 설정합
 seo-title: setZoomTargets
 solution: Experience Manager
 title: setZoomTargets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 5d0aecec-ebd8-4c69-9514-c29fae347ee6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 12%
@@ -36,15 +36,15 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 설정할 확대/축소 대상이 있는 에셋. |
-| ` *`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 설정할 확대/축소 대상이 있는 에셋. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의 배열입니다. |
 
 **출력(setZoomTargetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`zoomTargetHandleArray`*` | `types:HandleArray` | 예 | 이 작업으로 만든 확대/축소 대상에 대한 핸들 세트입니다. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 예 | 이 작업으로 만든 확대/축소 대상에 대한 핸들 세트입니다. |
 
 ## 예제 {#section-a2f14c7a1499443e96d099ea8a76c182}
 

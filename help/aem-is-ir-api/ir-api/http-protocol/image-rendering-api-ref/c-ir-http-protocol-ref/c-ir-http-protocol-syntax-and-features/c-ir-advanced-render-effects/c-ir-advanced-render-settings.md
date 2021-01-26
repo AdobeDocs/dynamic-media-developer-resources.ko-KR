@@ -1,15 +1,15 @@
 ---
-description: 비네팅 제작 도구(Scene7 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
-seo-description: 비네팅 제작 도구(Scene7 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
+description: 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
+seo-description: 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
 seo-title: 고급 렌더링 설정
 solution: Experience Manager
 title: 고급 렌더링 설정
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # 고급 렌더링 설정{#advanced-render-settings}
 
-비네팅 제작 도구(Scene7 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
+비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
 
 >[!NOTE]
 >
@@ -55,14 +55,14 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>수 </p> </td> 
    <td colname="col2"> <p>USM 금액(%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM 반경(픽셀). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>100년 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -76,7 +76,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>크기 조정 모드입니다. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -112,7 +112,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>수퍼샘플링:무작위 속도. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>20년 </p> </td> 
    <td colname="col5"> <p>기본값은 5입니다. </p> </td> 
   </tr> 
@@ -133,7 +133,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>포송:샘플/픽셀. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>기본값은 1입니다. </p> </td> 
   </tr> 
@@ -141,7 +141,7 @@ ht-degree: 24%
    <td colname="col1"> <p>Y </p> </td> 
    <td colname="col2"> <p>포송:전환. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>기본값은 1입니다. </p> </td> 
   </tr> 
   <tr> 

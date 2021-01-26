@@ -4,10 +4,10 @@ seo-description: 사용자가 볼 수 있는 내용을 결정하는 사전 설�
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 뷰어 사전 설정과 에셋이 포함된 회사의 핸들입니다. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 에셋이 포함된 폴더의 핸들. |
-| ` *`name`*` | `xsd:string` | 예 | 뷰어 이름. |
-| ` *`type`*` | `xsd:string` | 예 | 뷰어 유형. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | 아니요 | 사전 설정을 적용할 이미지의 이름, 값 및 핸들이 포함된 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 뷰어 사전 설정과 에셋이 포함된 회사의 핸들입니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 에셋이 포함된 폴더의 핸들. |
+| `*`name`*` | `xsd:string` | 예 | 뷰어 이름. |
+| `*`type`*` | `xsd:string` | 예 | 뷰어 유형. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | 아니요 | 사전 설정을 적용할 이미지의 이름, 값 및 핸들이 포함된 배열입니다. |
 
 **출력(createViewerPresetReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | 예 | 뷰어에 대한 사전 설정 핸들. |
+| `*`viewerPresetHandle`*` | `xsd:string` | 예 | 뷰어에 대한 사전 설정 핸들. |
 
 ## 예제 {#section-c88ea63536f3461cbe4677ba53f875dd}
 

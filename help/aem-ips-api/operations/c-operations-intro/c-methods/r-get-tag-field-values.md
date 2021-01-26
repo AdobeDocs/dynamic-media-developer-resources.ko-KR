@@ -4,10 +4,10 @@ seo-description: 하나 이상의 태그 필드에 대해 정의된 모든 태�
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 16%
@@ -39,14 +39,14 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 태그 필드를 포함하는 회사의 핸들입니다. |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | 예 | 반환하려는 태그 값에 대한 필드 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 태그 필드를 포함하는 회사의 핸들입니다. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | 예 | 반환하려는 태그 값에 대한 필드 핸들 배열입니다. |
 
 **출력(getTagFieldValuesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`fieldArray`*` | `types:TagFieldValuesArray` | 예 | 요청된 각 필드에 대한 사전의 태그 값 배열입니다. |
+| `*`fieldArray`*` | `types:TagFieldValuesArray` | 예 | 요청된 각 필드에 대한 사전의 태그 값 배열입니다. |
 
 ## 예제 {#section-4492742614e44bb191a7d397dc1a1407}
 

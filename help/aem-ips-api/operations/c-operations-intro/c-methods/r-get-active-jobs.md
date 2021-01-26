@@ -4,10 +4,10 @@ seo-description: 현재 활성 작업을 모두 가져옵니다.
 seo-title: getActiveJobs
 solution: Experience Manager
 title: getActiveJobs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 3231d349-b254-4dd0-804d-8beaab116b56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 15%
@@ -38,15 +38,15 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
-| ` *`jobHandle`*` | `xsd:string` | 아니요 | 작업에 대한 핸들입니다. |
-| ` *`originalName`*` | `xsd:string` | 아니요 | 원래 작업 이름. |
+| `*`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
+| `*`jobHandle`*` | `xsd:string` | 아니요 | 작업에 대한 핸들입니다. |
+| `*`originalName`*` | `xsd:string` | 아니요 | 원래 작업 이름. |
 
 **출력(getActiveJobsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`jobArray`*` | `xsd:string` | 예 | 활성 작업 배열입니다. |
+| `*`jobArray`*` | `xsd:string` | 예 | 활성 작업 배열입니다. |
 
 ## 예제 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 

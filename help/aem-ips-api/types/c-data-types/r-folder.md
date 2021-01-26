@@ -4,10 +4,10 @@ seo-description: 계층적 파일 또는 자산 저장소 객체입니다. 폴�
 seo-title: 폴더
 solution: Experience Manager
 title: 폴더
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 10%
@@ -25,11 +25,11 @@ ht-degree: 10%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | 폴더 핸들. |
-| ` *`경로`*` | `xsd:string` | 폴더 경로. |
-| ` *`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜. |
-| ` *`childLastModified`*` | `xsd:dateTime` | 하위 폴더 및 하위 폴더 자산에 대한 마지막 수정 날짜. |
-| ` *`permissionsSetHandle`*` | `xsd:string` | 폴더 권한 핸들. |
-| ` *`hasSubfolder`*` | `types:Boolean` | 폴더에 하위 폴더가 있는지 확인합니다. |
-| ` *`subfolderArray`*` | `types:FolderArray` | 폴더의 하위 폴더 배열입니다. |
+| `*`folderHandle`*` | `xsd:string` | 폴더 핸들. |
+| `*`경로`*` | `xsd:string` | 폴더 경로. |
+| `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜. |
+| `*`childLastModified`*` | `xsd:dateTime` | 하위 폴더 및 하위 폴더 자산에 대한 마지막 수정 날짜. |
+| `*`permissionsSetHandle`*` | `xsd:string` | 폴더 권한 핸들. |
+| `*`hasSubfolder`*` | `types:Boolean` | 폴더에 하위 폴더가 있는지 확인합니다. |
+| `*`subfolderArray`*` | `types:FolderArray` | 폴더의 하위 폴더 배열입니다. |
 

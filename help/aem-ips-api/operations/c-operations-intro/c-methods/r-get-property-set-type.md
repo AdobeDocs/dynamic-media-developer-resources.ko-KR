@@ -4,10 +4,10 @@ seo-description: 회사에 대한 핸들과 속성 집합 유형의 이름을 �
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 8%
@@ -39,8 +39,8 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. 속성 집합 유형은 여러 회사에 속할 수 있으므로 선택 사항입니다. |
-| ` *`name`*` | `xsd:string` | 예 | 속성 집합 유형 이름입니다. |
+| `*`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. 속성 집합 유형은 여러 회사에 속할 수 있으므로 선택 사항입니다. |
+| `*`name`*` | `xsd:string` | 예 | 속성 집합 유형 이름입니다. |
 
 **출력(getPropertySetTypeReturn)**
 

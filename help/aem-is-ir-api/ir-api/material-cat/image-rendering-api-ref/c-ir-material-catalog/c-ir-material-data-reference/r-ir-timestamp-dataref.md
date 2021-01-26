@@ -4,10 +4,10 @@ seo-description: 파일 수정 타임스탬프. 이 카탈로그 레코드에 �
 seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%

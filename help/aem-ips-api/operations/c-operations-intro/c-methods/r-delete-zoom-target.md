@@ -4,10 +4,10 @@ seo-description: 확대/축소 대상을 삭제합니다.
 seo-title: deleteZoomTarget
 solution: Experience Manager
 title: deleteZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
-source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 12%
@@ -38,8 +38,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 확대/축소 대상이 속하는 회사의 핸들입니다. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | 예 | 삭제할 확대/축소 대상에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 확대/축소 대상이 속하는 회사의 핸들입니다. |
+| `*`zoomTargetHandle`*` | `xsd:string` | 예 | 삭제할 확대/축소 대상에 대한 핸들입니다. |
 
 **출력(deleteZoomTargetParam)**
 

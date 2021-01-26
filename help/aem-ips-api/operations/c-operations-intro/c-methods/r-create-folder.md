@@ -4,10 +4,10 @@ seo-description: 폴더를 생성합니다.
 seo-title: createFolder
 solution: Experience Manager
 title: createFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 20%
@@ -44,14 +44,14 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들 |
-| ` *`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들 |
+| `*`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
 
 **출력(createFolderParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | 예 | 새 폴더의 핸들. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 새 폴더의 핸들. |
 
 ## 예제 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

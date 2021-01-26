@@ -4,10 +4,10 @@ seo-description: 에셋 이름을 변경합니다.
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ ht-degree: 7%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산이 속하는 회사의 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 이름을 변경할 자산의 핸들입니다. |
-| ` *`newName`*` | `xsd:string` | 예 | 자산의 새 이름입니다. |
-| ` *`validateName`*` | `xsd:boolean` | 예 | `validateName`이 `true`이고 자산 유형에 고유한 IPS ID가 필요한 경우 새 이름이 전역 고유한지 확인되고 고유하지 않은 경우 `renameAsset`에 오류가 발생합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산이 속하는 회사의 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 이름을 변경할 자산의 핸들입니다. |
+| `*`newName`*` | `xsd:string` | 예 | 자산의 새 이름입니다. |
+| `*`validateName`*` | `xsd:boolean` | 예 | `validateName`이 `true`이고 자산 유형에 고유한 IPS ID가 필요한 경우 새 이름이 전역 고유한지 확인되고 고유하지 않은 경우 `renameAsset`에 오류가 발생합니다. |
 
 **출력(renameAssetReturn)**
 

@@ -4,10 +4,10 @@ seo-description: 자산 배치를 게시할 준비가 되었는지 확인합니�
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -40,18 +40,18 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 예 | 자산에 대한 게시 상태 값의 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 예 | 자산에 대한 게시 상태 값의 배열입니다. |
 
 **출력(setAssetsPublishStateParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 성공적으로 업데이트된 자산의 수입니다. |
-| ` *`warningCount`*` | `xsd:int` | 예 | 작업이 경고를 업데이트하려고 할 때 경고를 생성한 자산의 수입니다. |
-| ` *`errorCount`*` | `xsd:int` | 예 | 작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋의 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 경고를 생성한 자산 업데이트와 관련된 세부 사항입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 오류가 발생한 자산 업데이트와 관련된 세부 사항입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 업데이트된 자산의 수입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업이 경고를 업데이트하려고 할 때 경고를 생성한 자산의 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋의 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 경고를 생성한 자산 업데이트와 관련된 세부 사항입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 오류가 발생한 자산 업데이트와 관련된 세부 사항입니다. |
 
 ## 예제 {#section-38cfdd3436214a06a1bae16875501d51}
 

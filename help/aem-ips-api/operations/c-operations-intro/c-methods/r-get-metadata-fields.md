@@ -4,10 +4,10 @@ seo-description: 자산과 연결된 사용자 정의 메타데이터 필드를 
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 14%
@@ -37,14 +37,14 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
-| ` *`assetType`*` | `xsd:string` | 예 | 메타데이터를 가져올 자산 유형입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`assetType`*` | `xsd:string` | 예 | 메타데이터를 가져올 자산 유형입니다. |
 
 **출력(getMetadataFieldsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`코드 구문`*` | `Code Phrase` |  |  |
+| `*`코드 구문`*` | `Code Phrase` |  |  |
 
 ## 예제 {#section-dbfde1483d614b5aac2b491cb32115d7}
 

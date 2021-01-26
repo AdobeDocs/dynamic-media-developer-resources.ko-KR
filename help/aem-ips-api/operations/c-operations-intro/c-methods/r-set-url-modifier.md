@@ -4,10 +4,10 @@ seo-description: 지정된 자산에 대한 이미지 제공 또는 이미지 �
 seo-title: setUrlModifier
 solution: Experience Manager
 title: setUrlModifier
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 6%
@@ -36,10 +36,10 @@ ht-degree: 6%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| ` *`urlModifier`*` | `xsd:string` | 아니요 | 요청 또는 `urlPostApplyModifier` 명령 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 |
-| ` *`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 사용하여 `urlModifier` 뒤에 적용하고 명령을 요청합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
+| `*`urlModifier`*` | `xsd:string` | 아니요 | 요청 또는 `urlPostApplyModifier` 명령 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 사용하여 `urlModifier` 뒤에 적용하고 명령을 요청합니다. |
 
 **출력(setUrlModifierReturn)**
 

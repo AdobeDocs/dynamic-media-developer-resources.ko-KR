@@ -4,10 +4,10 @@ seo-description: 폴더 경로에서 시작하여 모든 폴더 및 하위 폴�
 seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 8%
@@ -46,20 +46,20 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`accessUserHandle`*` | `xsd:string` | 아니요 | 관리자가 특정 사용자를 가장하는 데 사용됩니다. |
-| ` *`accessGroupHandle`*` | `xsd:string` | 아니요 | 특정 그룹별로 필터링합니다. |
-| ` *`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
-| ` *`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
-| ` *`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외할 필드 목록을 포함합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| `*`accessUserHandle`*` | `xsd:string` | 아니요 | 관리자가 특정 사용자를 가장하는 데 사용됩니다. |
+| `*`accessGroupHandle`*` | `xsd:string` | 아니요 | 특정 그룹별로 필터링합니다. |
+| `*`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
+| `*`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
+| `*`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
+| `*`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외할 필드 목록을 포함합니다. |
 
 **출력(getFoldersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`folderArray`*` | `types:FolderArray` | 아니요 | 필터 기준과 일치하는 폴더 배열입니다. 응답은 최대 100,000개의 폴더로 제한됩니다. |
-| ` *`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`folderArray`*` | `types:FolderArray` | 아니요 | 필터 기준과 일치하는 폴더 배열입니다. 응답은 최대 100,000개의 폴더로 제한됩니다. |
+| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 예제 {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

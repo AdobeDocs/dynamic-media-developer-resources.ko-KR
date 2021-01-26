@@ -4,10 +4,10 @@ seo-description: 새 프로젝트를 만듭니다.
 seo-title: createProject
 solution: Experience Manager
 title: createProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 18%
@@ -36,14 +36,14 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 새 프로젝트와 연결된 회사의 취급입니다. |
-| ` *`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 새 프로젝트와 연결된 회사의 취급입니다. |
+| `*`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
 
 **출력(createProjectParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | 예 | 새 프로젝트의 핸들입니다. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 새 프로젝트의 핸들입니다. |
 
 ## 예제 {#section-a0cd532b67e346d088fbec141231a0e5}
 

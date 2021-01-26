@@ -4,10 +4,10 @@ seo-description: Vignette Converter(vntc)는 이미지 렌더링으로 배포하
 seo-title: 비네팅 변환기
 solution: Experience Manager
 title: 비네팅 변환기
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 위해 이미
 
 [!DNL vntc]의 사용은 선택 사항이지만 최상의 서버 성능을 위해 권장됩니다. [!DNL vntc] 또한 광범위한 오류 검사를 구현하며, 올바로 사용될 때 충돌을 비롯한 심각한 서버 문제를 방지할 수 있습니다.
 
-제작 비네팅을 생성할 때 출력 비네팅의 픽셀 너비(피라미드 또는 다중 해상도 비네팅의 경우 0)가 생성된 출력 비네팅 파일의 이름에 추가됩니다. 캐비닛 스타일 파일을 처리할 때 출력 해상도가 출력 파일 이름에 추가됩니다. 선택 사항인 축소판, 이미지 및 로그 파일과 *[!DNL sourceFile]*&#x200B;이(가) 지정되지 않은 경우 프로덕션 비네팅 또는 캐비닛 스타일 파일을 포함한 모든 출력 파일은 &lt;a0/>이(가) 있는 같은 디렉토리에 배치됩니다.`-destPath`
+제작 비네팅을 생성할 때 출력 비네팅의 픽셀 너비(피라미드 또는 다중 해상도 비네팅의 경우 0)가 생성된 출력 비네팅 파일의 이름에 추가됩니다. 캐비닛 스타일 파일을 처리할 때 출력 해상도가 출력 파일 이름에 추가됩니다. 선택 사항인 축소판, 이미지 및 로그 파일과 *[!DNL sourceFile]*&#x200B;이(가) 지정되지 않은 경우 프로덕션 비네팅 또는 캐비닛 스타일 파일을 포함한 모든 출력 파일은 `-destPath`이(가) 있는 같은 디렉토리에 배치됩니다.
 
 [!DNL vntc] 기본적으로 최대 3GB의 메모리로 제한됩니다. Vntc가 이 제한에 도달하면 처리가 중지되고 오류가 발생합니다. 이 제한은 `-maxmem`을(를) 사용하여 변경할 수 있습니다.
 

@@ -4,10 +4,10 @@ seo-description: IPS 휴지통에서 에셋을 비웁니다.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ IPS 휴지통에서 에셋을 비웁니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 자산을 소유한 회사의 핸들입니다. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 휴지통에서 비울 항목을 나타내는 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산을 소유한 회사의 핸들입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 휴지통에서 비울 항목을 나타내는 핸들 배열입니다. |
 
 **출력(emptyAssetsFromTrashParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | 예 | 휴지통에서 성공적으로 비운 자산 수입니다. |
-| ` *`warningCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비우기 시도할 때 생성된 경고 수입니다. |
-| ` *`errorCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비울 때 생성된 오류 수입니다. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 경고를 제거하려고 할 때 경고를 생성한 자산과 연관된 세부 사항의 배열입니다. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 오류를 제거하려고 할 때 오류가 발생한 자산과 연관된 세부 사항의 배열입니다. |
+| `*`successCount`*` | `xsd:Int` | 예 | 휴지통에서 성공적으로 비운 자산 수입니다. |
+| `*`warningCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비우기 시도할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비울 때 생성된 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 경고를 제거하려고 할 때 경고를 생성한 자산과 연관된 세부 사항의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 오류를 제거하려고 할 때 오류가 발생한 자산과 연관된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-6154a873b6c342bf92e2036280cafdcf}
 

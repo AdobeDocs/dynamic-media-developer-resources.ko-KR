@@ -4,12 +4,12 @@ seo-description: 고급 텍스트 서식에 다음 명령을 사용합니다.
 seo-title: 고급 텍스트 서식 지정
 solution: Experience Manager
 title: 고급 텍스트 서식 지정
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>세로 문자 비율. </p> </td> 
-   <td> <p>긍정적 또는 부정적 퍼센트;기본값은 100입니다.Scene7 확장 </p> <p> <span class="codeph"> \charscaley는  </span> text=와 함께 적용할 때  <span class="codeph"> 행 간격도  </span>조정합니다. <span class="codeph"> textPs= </span> 는 세로 문자 비율 조정 양에 상관없이 항상 행 간격을 유지합니다. </p> </td> 
+   <td> <p>긍정적 또는 부정적 퍼센트;기본값은 100입니다.Dynamic Media 확장 </p> <p> <span class="codeph"> \charscaley는  </span> text=와 함께 적용할 때  <span class="codeph"> 행 간격도  </span>조정합니다. <span class="codeph"> textPs= </span> 는 세로 문자 비율 조정 양에 상관없이 항상 행 간격을 유지합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \자동맞춤  <span class="varname"> N  </span> </span> </td> 
    <td> <p>복사 맞춤을 활성화하고 허용되는 최대 글꼴 크기를 설정합니다. </p> </td> 
-   <td> <p>글꼴 크기(반점);<span class="codeph"> textPs= </span> 전용;Scene7 확장 </p> </td> 
+   <td> <p>글꼴 크기(반점);<span class="codeph"> textPs= </span> 전용;Dynamic Media 확장 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>최대 복사 맞춤 선(소프트 제한). </p> </td> 
-   <td> <p>0(라인 제한 없음)<span class="codeph"> textPs= </span> 전용;Scene7 확장 </p> </td> 
+   <td> <p>0(라인 제한 없음)<span class="codeph"> textPs= </span> 전용;Dynamic Media 확장 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>최대 복사 맞춤 선(자르기)입니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> only;Scene7 확장 </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> only;Dynamic Media 확장 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 

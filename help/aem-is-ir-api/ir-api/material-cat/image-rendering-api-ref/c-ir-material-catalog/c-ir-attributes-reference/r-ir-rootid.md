@@ -4,10 +4,10 @@ seo-description: 카탈로그 식별자. HTTP 요청의 비네팅, 재료 또는
 seo-title: 루트 ID
 solution: Experience Manager
 title: 루트 ID
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd726466-6dca-4612-a342-50689ed1469f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 4%

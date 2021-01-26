@@ -4,10 +4,10 @@ seo-description: 특정 회사(ID로 식별), 이메일 주소 및 암호를 가
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 11%
@@ -41,15 +41,15 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
-| ` *`이메일`*` | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
-| ` *`암호`*` | `xsd:string` | 예 | 사용자의 암호입니다. |
+| `*`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
+| `*`이메일`*` | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
+| `*`암호`*` | `xsd:string` | 예 | 사용자의 암호입니다. |
 
 **출력(checkLoginParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`status`*` | `xsd:string` | 예 | 사용자의 로그인 상태입니다. |
+| `*`status`*` | `xsd:string` | 예 | 사용자의 로그인 상태입니다. |
 
 ## 예제 {#section-23f90100a9d94bc7b4045634cccd1b98}
 

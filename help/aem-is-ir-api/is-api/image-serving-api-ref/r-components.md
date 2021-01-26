@@ -4,12 +4,12 @@ seo-description: 'Scene 7 이미지 제공 구성 요소는 다음과 같습니�
 seo-title: 이미지 제공 구성 요소
 solution: Experience Manager
 title: 이미지 제공 구성 요소
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다.
    <td colname="col2"> <p>독립 실행형 Java 응용 프로그램(Tomcat에서 호스팅되지 않음). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Scene7 이미지 렌더링(일명. 렌더링 서버) </p> </td> 
+   <td colname="col1"> <p>Dynamic Media 이미지 렌더링(일명. 렌더링 서버) </p> </td> 
    <td colname="col2"> <p>활성화하려면 별도의 라이선스가 필요합니다. <span class="filepath"> /ir/render</span>에서 HTTP 액세스. 모든 이미지 렌더링 기능은 별도의 실행 구성 요소가 없이 플랫폼 서버 및 이미지 서버에 통합됩니다. </p> </td> 
   </tr> 
  </tbody> 

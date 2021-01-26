@@ -1,16 +1,13 @@
 ---
 description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지에 대한 세부 정보 수준을 error.message 값으로 지정합니다.
-seo-description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지에 대한 세부 정보 수준을 error.message 값으로 지정합니다.
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>전체 디버그 정보. 해당되는 경우 Java 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않으며 대신 반환 수준 2 정보가 <span class="codeph"> $error.message</span>에 있습니다. 이 정보는 Scene7 기술 지원에 문제를 보고할 때 유용합니다. </p></td> 
+  <td class="stentry"> <p>전체 디버그 정보. 해당되는 경우 Java 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않으며 대신 반환 수준 2 정보가 <span class="codeph"> $error.message</span>에 있습니다. 이 정보는 Dynamic Media 기술 지원에 문제를 보고할 때 유용합니다. </p></td> 
  </tr> 
 </table>
 

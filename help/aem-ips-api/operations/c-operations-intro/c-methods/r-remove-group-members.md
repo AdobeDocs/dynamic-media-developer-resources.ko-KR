@@ -4,10 +4,10 @@ seo-description: 특정 그룹에서 회사 사용자를 제거합니다.
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 9%
@@ -36,9 +36,9 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 함께 작업하려는 사용자와 회사의 핸들입니다. |
-| ` *`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| ` *`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원 자격을 제거하려는 사용자를 위한 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 함께 작업하려는 사용자와 회사의 핸들입니다. |
+| `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
+| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원 자격을 제거하려는 사용자를 위한 핸들 배열입니다. |
 
 **출력(removeGroupMembersParam)**
 

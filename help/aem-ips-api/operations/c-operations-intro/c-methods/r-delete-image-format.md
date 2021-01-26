@@ -4,10 +4,10 @@ seo-description: 이미지 형식을 삭제합니다. saveImageFormat에서 이�
 seo-title: deleteImageFormat
 solution: Experience Manager
 title: deleteImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 70dddde9-830b-4267-8ef5-df5241f549e3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 10%
@@ -34,8 +34,8 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들입니다. |
-| ` *`imageFormatHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들입니다. |
+| `*`imageFormatHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식의 핸들입니다. |
 
 **출력(deleteImageFormatParam)**
 

@@ -4,10 +4,10 @@ seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어�
 seo-title: 공통 레이어 명령
 solution: Experience Manager
 title: 공통 레이어 명령
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 2%

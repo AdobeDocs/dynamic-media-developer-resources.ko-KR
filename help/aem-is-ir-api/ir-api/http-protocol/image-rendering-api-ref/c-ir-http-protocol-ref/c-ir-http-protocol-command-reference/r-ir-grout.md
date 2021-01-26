@@ -4,10 +4,10 @@ seo-description: 그라우트 색상 및 두께를 바둑판식으로 배열합�
 seo-title: 그루트
 solution: Experience Manager
 title: 그루트
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ grout= *`color`*[,*`width`*]
 
 ## 속성 {#section-de78b678245b4ffda48097c345949e77}
 
-재료 속성. ` *`색상`*` 은 RGB 색상 값이어야 합니다. ` *`너비`*` 는 실제 값 0 이상이어야 합니다.
+재료 속성. `*`색상`*` 은 RGB 색상 값이어야 합니다. `*`너비`*` 는 실제 값 0 이상이어야 합니다.
 
 반복 가능한 텍스처가 아닌 재질에 대해 반복 = 4, 5, 7, 8, 9, 14 이상이 지정되면 무시됩니다.
 
 ## 기본값 {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-`grout=`을(를) 지정하지 않으면 이미지의 그룹이 수정되지 않습니다. ` grout= *`color`*`이 지정된 경우 ` *`width`*`의 기본값은 `catalog::GroutWidth`입니다.
+`grout=`을(를) 지정하지 않으면 이미지의 그룹이 수정되지 않습니다. ` grout= *`color`*`이 지정된 경우 `*`width`*`의 기본값은 `catalog::GroutWidth`입니다.
 
 ## 참조 {#section-8d472906a44943f5a8557e98f2fbc71f}
 

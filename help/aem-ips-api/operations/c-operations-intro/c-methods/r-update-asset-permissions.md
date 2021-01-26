@@ -4,10 +4,10 @@ seo-description: 자산 권한을 업데이트합니다.
 seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 22%
@@ -33,9 +33,9 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | 예 | 자산에 적용할 권한입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | 예 | 자산에 적용할 권한입니다. |
 
 **출력(updateAssetPermissionsReturn)**
 

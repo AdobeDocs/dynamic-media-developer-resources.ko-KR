@@ -4,10 +4,10 @@ seo-description: 명령 매크로는 명령 집합에 대해 명명된 단축키
 seo-title: 명령 매크로
 solution: Experience Manager
 title: 명령 매크로
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-` *`이름`*` 은 대/소문자를 구분하지 않으며 ASCII 문자, 숫자, &#39;-&#39;, &#39;_&#39; 및 &#39;&#39;의 조합으로 구성할 수 있습니다. 문자.
+`*`이름`*` 은 대/소문자를 구분하지 않으며 ASCII 문자, 숫자, &#39;-&#39;, &#39;_&#39; 및 &#39;&#39;의 조합으로 구성할 수 있습니다. 문자.
 
 매크로는 요청에 있는 &#39;?&#39; 뒤에, 그리고 `catalog::Modifier` 또는 `catalog::PostModifier` 필드 내의 어디서나 호출할 수 있습니다. 매크로는 하나 이상의 완전한 이미지 제공 명령만 나타낼 수 있으며 &#39;&amp;&#39; 구분 기호가 있는 다른 명령과 구분해야 합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 1%
 
 `http://server/cat/1345?$view$ http://server/cat/1435?$view$ http://server/cat/8243?$view$&wid=480`
 
-`wid=`은(는) 세 번째 요청에 대해 다르므로, 매크로가 호출된 후 *after* 값을 무시하면 됩니다(*`$view$`&lt;a5/> 에는 아무런 영향이 없습니다.).`wid=`*
+`wid=`은(는) 세 번째 요청에 대해 다르므로, 매크로가 호출된 후 *after* 값을 무시하면 됩니다(*`$view$``wid=`* 에는 아무런 영향이 없습니다.).
 
 ## 참조 {#section-8cdba0ed2480444ca61e719e54f8871c}
 

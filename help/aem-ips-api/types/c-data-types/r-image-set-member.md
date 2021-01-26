@@ -4,10 +4,10 @@ seo-description: 이미지 세트에 속하는 자산입니다.
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -25,6 +25,6 @@ ht-degree: 6%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`asset`*` | `type:Asset` | 이미지 집합 배열의 에셋입니다. |
-| ` *`pageReset`*` | `xsd:boolean` | 새 페이지를 시작합니다. 설정이 무시되고 값이 `eCatalog` 및 `RenderSet` 집합에 대해 `true`에 강제 적용됩니다. |
+| `*`asset`*` | `type:Asset` | 이미지 집합 배열의 에셋입니다. |
+| `*`pageReset`*` | `xsd:boolean` | 새 페이지를 시작합니다. 설정이 무시되고 값이 `eCatalog` 및 `RenderSet` 집합에 대해 `true`에 강제 적용됩니다. |
 

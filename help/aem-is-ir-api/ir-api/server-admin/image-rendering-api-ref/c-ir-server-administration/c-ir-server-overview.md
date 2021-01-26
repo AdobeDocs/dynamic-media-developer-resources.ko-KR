@@ -1,15 +1,15 @@
 ---
-description: 이 문서에서는 Scene7 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
-seo-description: 이 문서에서는 Scene7 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
+description: 이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
+seo-description: 이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
 seo-title: 서버 관리 개요
 solution: Experience Manager
 title: 서버 관리 개요
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 서버 관리 개요{#server-administration-overview}
 
-이 문서에서는 Scene7 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
+이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
 
 이미지 렌더링은 두 가지 주요 구성 요소로 이루어집니다.
 

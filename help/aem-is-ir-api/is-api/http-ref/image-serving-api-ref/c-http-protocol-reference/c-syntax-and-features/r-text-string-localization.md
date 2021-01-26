@@ -4,10 +4,10 @@ seo-description: 텍스트 문자열 현지화를 사용하면 이미지 카탈�
 seo-title: 텍스트 문자열 현지화
 solution: Experience Manager
 title: 텍스트 문자열 현지화
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 여러 *`locId`* 값을 번역 맵의 각 *`locale`*&#x200B;과 연결할 수 있습니다. 이를 통해 대부분의 컨텐츠를 공통 기본 로케일(예: 국제 영어)로 처리하는 동안 일부 국가 또는 지역 특정 변형(예: 미국 영어 대 영국 영어)을 선택할 수 있습니다. *`stringElements`*
 
-예를 들어 미국 전용 영어( ` *`locId`* EUS`) 및 영국 전용 영어( ` *`locId`* EUK`)에 대한 지원을 추가하여 경우에 따라 대체 철자를 사용할 수 있도록 지원합니다. EUK 또는 EUS가 없는 경우 E로 돌아옵니다. 마찬가지로, 필요한 경우 대부분의 시간에 일반 독일어 *`localizedStrings`*(`D`로 표시됨)을 반환하면서 오스트리아 특정 독일어 변형( `DAT`)을 사용할 수 있습니다.
+예를 들어 미국 전용 영어( `*`locId`* EUS`) 및 영국 전용 영어( `*`locId`* EUK`)에 대한 지원을 추가하여 경우에 따라 대체 철자를 사용할 수 있도록 지원합니다. EUK 또는 EUS가 없는 경우 E로 돌아옵니다. 마찬가지로, 필요한 경우 대부분의 시간에 일반 독일어 *`localizedStrings`*(`D`로 표시됨)을 반환하면서 오스트리아 특정 독일어 변형( `DAT`)을 사용할 수 있습니다.
 
 `attribute::LocaleStrMap` 다음과 같습니다.
 

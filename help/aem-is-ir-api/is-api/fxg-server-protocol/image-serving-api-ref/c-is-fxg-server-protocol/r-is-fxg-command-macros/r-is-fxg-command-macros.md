@@ -4,10 +4,10 @@ seo-description: 명령 매크로는 명령 집합에 대해 명명된 단축키
 seo-title: 명령 매크로
 solution: Experience Manager
 title: 명령 매크로
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f90d5132-aa5b-424f-a123-838723ed891a
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -47,6 +47,6 @@ ht-degree: 0%
 
 [!DNL http://server/cat/8243?$view$&wid=480]
 
-`wid=`은(는) 세 번째 요청에 대해 다르므로, 매크로가 호출된 후 *after* 값을 무시하면 됩니다(*`$view$`&lt;a5/> 에는 아무런 영향이 없습니다.).`wid=`*
+`wid=`은(는) 세 번째 요청에 대해 다르므로, 매크로가 호출된 후 *after* 값을 무시하면 됩니다(*`$view$``wid=`* 에는 아무런 영향이 없습니다.).
 
 + [name](r-name.md)

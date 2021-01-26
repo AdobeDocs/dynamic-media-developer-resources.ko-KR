@@ -4,10 +4,10 @@ seo-description: 기본 이미지 수정 타임스탬프. 카탈로그 타임스
 seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## 기본값 {#section-ac465313c97943ed97d41ea852329177}
 
-비어 있거나 정의되지 않은 경우 서버는 이 ` *`catalog`*.ini` 파일의 파일 수정 시간을 사용합니다.
+비어 있거나 정의되지 않은 경우 서버는 이 `*`catalog`*.ini` 파일의 파일 수정 시간을 사용합니다.
 
 ## 참조 {#section-ea19bcefa4a04d7eb5d9480cf0e2ca26}
 

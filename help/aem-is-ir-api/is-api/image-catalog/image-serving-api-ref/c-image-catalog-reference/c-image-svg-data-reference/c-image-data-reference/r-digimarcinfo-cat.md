@@ -4,10 +4,10 @@ seo-description: Digimarc 이미지 정보. Digimarc 임베딩을 활성화하�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 12%
@@ -23,9 +23,9 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
 
 4개의 정수 값을 쉼표로 구분합니다.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *`Typekit을 `*` 사용하여 Digimarc 포함을 사용하고 워터마크 유형을 지정합니다.
+`*`Typekit을 `*` 사용하여 Digimarc 포함을 사용하고 워터마크 유형을 지정합니다.
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
  </tbody> 
 </table>
 
-` *`값이 3개인 `*` 비트 필드를 플래그로 지정합니다. 복사 방지 컨텐츠를 나타내려면 비트 0을, 제한된 컨텐츠를 나타내려면 비트 1을, 성인용 컨텐츠를 나타내려면 비트 2를 설정합니다.
+`*`값이 3개인 `*` 비트 필드를 플래그로 지정합니다. 복사 방지 컨텐츠를 나타내려면 비트 0을, 제한된 컨텐츠를 나타내려면 비트 1을, 성인용 컨텐츠를 나타내려면 비트 2를 설정합니다.
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -73,7 +73,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>복사 방지. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>제한됨. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>복사 방지, 제한적 </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
  </tbody> 
 </table>
 
-` *`val1`*` 및 ` *`val2`*`의 해석은 ` *`type`*`에 따라 다릅니다.
+`*`val1`*` 및 `*`val2`*`의 해석은 `*`type`*`에 따라 다릅니다.
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -120,7 +120,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>사용되지 않습니다. </p> </td> 
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 
@@ -130,7 +130,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>거래 ID. </p> </td> 
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 

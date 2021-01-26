@@ -7,7 +7,7 @@ title: setAsset
 topic: Dynamic media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`에셋`*` - { `String`} 새 에셋 ID 또는 명시적 혼합 미디어 세트와 선택적으로 이미지 제공 수정자가 다음에 추가됩니다 `?`.
+`*`에셋`*` - { `String`} 새 에셋 ID 또는 명시적 혼합 미디어 세트와 선택적으로 이미지 제공 수정자가 다음에 추가됩니다 `?`.
 
 IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다.
 
-` *`새 캡션 파일의 데이터`*` - {  `JSON`} 위치.
+`*`새 캡션 파일의 데이터`*` - {  `JSON`} 위치.
 
 지정하지 않으면 사용자 인터페이스에 캡션 단추가 표시되지 않습니다. 이 매개 변수로 지정된 캡션은 혼합 미디어 세트에서 먼저 오는 비디오에 적용됩니다.후속 비디오에서는 캡션 없이 재생됩니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
 

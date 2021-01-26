@@ -4,10 +4,10 @@ seo-description: 계층 트리 구조의 폴더 및 하위 폴더를 반환합�
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 8%
@@ -41,21 +41,21 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`accessUserHandle`*` | `xsd:string` | 아니요 | 특정 사용자를 가장하기 위해 관리자만 사용합니다. |
-| ` *`accessGroupHandle`*` | `xsd:string` | 아니요 | 회사가 속한 그룹을 포함하여 특정 그룹으로 필터링하는 데 사용됩니다. |
-| ` *`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
-| ` *`깊이`*` | `xsd:int` | 예 | 0은 최상위 폴더를 가져옵니다. 다른 값은 트리 안으로 내려갈 깊이를 지정합니다. |
-| ` *`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
-| ` *`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외하려는 필드 목록을 포함합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| `*`accessUserHandle`*` | `xsd:string` | 아니요 | 특정 사용자를 가장하기 위해 관리자만 사용합니다. |
+| `*`accessGroupHandle`*` | `xsd:string` | 아니요 | 회사가 속한 그룹을 포함하여 특정 그룹으로 필터링하는 데 사용됩니다. |
+| `*`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
+| `*`깊이`*` | `xsd:int` | 예 | 0은 최상위 폴더를 가져옵니다. 다른 값은 트리 안으로 내려갈 깊이를 지정합니다. |
+| `*`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
+| `*`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
+| `*`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외하려는 필드 목록을 포함합니다. |
 
 **출력(getFolderTreeReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`폴더`*` | `types:folders` | 아니요 | 트리 구조의 폴더 계층. 응답은 최대 100,000개의 폴더로 제한됩니다. |
-| ` *`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| `*`폴더`*` | `types:folders` | 아니요 | 트리 구조의 폴더 계층. 응답은 최대 100,000개의 폴더로 제한됩니다. |
+| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 예제 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 

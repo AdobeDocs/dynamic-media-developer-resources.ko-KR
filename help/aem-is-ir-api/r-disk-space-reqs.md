@@ -1,15 +1,12 @@
 ---
 description: '소프트웨어 설치에 필요한 공간 외에도 이미지 서비스에는 다음과 같은 디스크 공간 요구 사항이 있습니다 '
-seo-description: '소프트웨어 설치에 필요한 공간 외에도 이미지 서비스에는 다음과 같은 디스크 공간 요구 사항이 있습니다 '
-seo-title: 디스크 공간 요구 사항 및 권장 사항
 solution: Experience Manager
 title: 디스크 공간 요구 사항 및 권장 사항
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ ht-degree: 0%
 
 ## 소스 이미지 {#section-317da75099ad480d9a461c7e706d4f1c}에 대한 디스크 공간 요구 사항
 
-이미지 변환기 명령줄 도구(IC)를 사용하여 모든 소스 이미지를 피라미드형 TIFF 파일 형식(PTIFF)으로 변환하는 것이 좋습니다. 이러한 전환으로 모든 애플리케이션에 대한 이미지 제공 서비스의 최적의 런타임 성능을 보장합니다. 이미지 서버는 IC에서 허용하는 모든 소스 파일 형식을 처리할 수 있지만 Scene7은 이러한 사용을 지원하지 않습니다.
+이미지 변환기 명령줄 도구(IC)를 사용하여 모든 소스 이미지를 피라미드형 TIFF 파일 형식(PTIFF)으로 변환하는 것이 좋습니다. 이러한 전환으로 모든 애플리케이션에 대한 이미지 제공 서비스의 최적의 런타임 성능을 보장합니다. 이미지 서버는 IC에서 허용하는 모든 소스 파일 형식을 처리할 수 있지만 Dynamic Media은 이러한 사용을 지원하지 않습니다.
 
 PTIFF 파일을 사용할 때 다음 축소판 규칙을 사용하여 공간 요구 사항을 결정할 수 있습니다.
 

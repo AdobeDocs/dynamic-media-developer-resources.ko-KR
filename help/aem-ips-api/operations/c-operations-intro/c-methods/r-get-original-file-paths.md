@@ -4,10 +4,10 @@ seo-description: 회사 자산의 원본 파일 경로를 가져옵니다.
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 14%
@@ -41,14 +41,14 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 가져오려는 원본 파일 경로를 가진 자산의 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 가져오려는 원본 파일 경로를 가진 자산의 핸들 배열입니다. |
 
 **출력(getOriginalFilePathsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | 예 | 원본 파일 경로를 나타내는 문자열 배열입니다. |
+| `*`originalFileArray`*` | `types:StringArray` | 예 | 원본 파일 경로를 나타내는 문자열 배열입니다. |
 
 ## 예제 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

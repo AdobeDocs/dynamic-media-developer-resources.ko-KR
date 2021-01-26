@@ -1,15 +1,15 @@
 ---
-description: 이 문서에서는 서버 관리 문제에 대해 설명하고 Scene7 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
-seo-description: 이 문서에서는 서버 관리 문제에 대해 설명하고 Scene7 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
+description: 이 문서에서는 서버 관리 문제에 대해 설명하고 Dynamic Media 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
+seo-description: 이 문서에서는 서버 관리 문제에 대해 설명하고 Dynamic Media 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
 seo-title: 서버 관리 서문
 solution: Experience Manager
 title: 서버 관리 서문
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 # 서버 관리 서문{#server-administration-preface}
 
-이 문서에서는 서버 관리 문제에 대해 설명하고 Scene7 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
+이 문서에서는 서버 관리 문제에 대해 설명하고 Dynamic Media 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
 
 **대상**
 
-이 설명서는 Scene7 이미지 렌더링을 설치, 구성 및 관리해야 하는 시스템 관리자와 웹 마스터를 대상으로 합니다.
+이 설명서는 Dynamic Media 이미지 렌더링을 설치, 구성 및 관리해야 하는 시스템 관리자와 웹 마스터를 대상으로 합니다.
 
 **문서 규칙**
 

@@ -4,10 +4,10 @@ seo-description: 이미지를 확장하거나 축소합니다. 형태학적 딜�
 seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-` *`합성 `*` 이미지를 기준으로 하는 픽셀 단위 라디유시입니다. 이미지가 색상이면 각 구성 요소가 독립적으로 처리됩니다.
+`*`합성 `*` 이미지를 기준으로 하는 픽셀 단위 라디유시입니다. 이미지가 색상이면 각 구성 요소가 독립적으로 처리됩니다.
 
 레이어 효과의 크기를 수정하는 데 주로 사용됩니다. 또한 마스크가 있는 텍스트 레이어 또는 단색 레이어에 특수 효과를 적용하는 데에도 유용합니다.
 

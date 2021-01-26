@@ -4,12 +4,12 @@ seo-description: 이미지 제공에서는 text= 및 textPs= 명령을 사용하
 seo-title: 텍스트 서식
 solution: Experience Manager
 title: 텍스트 서식
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ ht-degree: 6%
 
 RTF 호환 문자열은 수동으로 어셈블하거나 RTF 파일을 저장할 수 있는 텍스트 편집기 또는 워드 프로세서에서 원하는 텍스트의 서식을 지정하여 어셈블할 수 있습니다. 그런 다음 RTF 파일을 일반 텍스트 편집기에서 열 수 있으며, 요청 URL에 복사한 파일의 관련 원시 RTF 콘텐트입니다.
 
-일부 워드 프로세서는 Scene7 이미지 서비스 기능에서 사용하지 않는 수준 높은 전문을 포함하는 대용량 파일을 생성합니다. 텍스트 명령에 문자열을 전달하기 전에 문자열에서 사용하지 않는 RTF 요소를 제거하는 것이 좋습니다.
+일부 워드 프로세서는 Dynamic Media 이미지 서비스 기능에서 사용하지 않는 수준 높은 전문을 포함하는 대용량 파일을 생성합니다. 텍스트 명령에 문자열을 전달하기 전에 문자열에서 사용하지 않는 RTF 요소를 제거하는 것이 좋습니다.
 
 UTF-8 및 ISO 표준을 기반으로 하는 언어 인코딩은 표준 RTF 문자 인코딩 메커니즘의 대안으로 RTF 문자열에서 지원됩니다. 따라서 응용 프로그램에서 RTF 인코딩에 대한 지식 없이 영어 이외의 텍스트를 서버로 보낼 수 있습니다.
 

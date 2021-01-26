@@ -2,10 +2,10 @@
 description: RTF 사양은 &bsol;colortbl과 함께 지정된 RGB 색상 값을 허용합니다. 각 구성 요소는 &bsol;red, &bsol;green, &bsol;blue 명령을 사용하여 별도로 제공됩니다.
 solution: Experience Manager
 title: 색상 처리
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%

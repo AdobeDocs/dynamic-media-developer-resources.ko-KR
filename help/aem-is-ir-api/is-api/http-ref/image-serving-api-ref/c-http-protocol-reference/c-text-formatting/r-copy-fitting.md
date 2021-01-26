@@ -4,10 +4,10 @@ seo-description: textPs=는 글꼴 크기를 자동으로 조정하여 텍스트
 seo-title: 복사 맞춤
 solution: Experience Manager
 title: 복사 맞춤
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

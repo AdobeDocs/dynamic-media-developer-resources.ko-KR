@@ -4,10 +4,10 @@ seo-description: 이러한 속성은 선택한 객체에 적용할 재질을 정
 seo-title: 재료 특성
 solution: Experience Manager
 title: 재료 특성
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: afdff304-f607-4820-bdb2-f428271efb87
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

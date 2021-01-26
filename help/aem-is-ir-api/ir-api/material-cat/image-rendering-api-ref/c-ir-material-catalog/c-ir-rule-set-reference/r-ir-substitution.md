@@ -4,10 +4,10 @@ seo-description: 대체 문자열 요소입니다. <rule> 요소의 선택 사�
 seo-title: 대체
 solution: Experience Manager
 title: 대체
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f72902b1-0b0f-4401-9c3c-46573048cb25
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%

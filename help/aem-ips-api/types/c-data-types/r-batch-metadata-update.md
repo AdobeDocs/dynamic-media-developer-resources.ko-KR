@@ -4,10 +4,10 @@ seo-description: 일괄 처리 모드에서 메타데이터를 업데이트합�
 seo-title: BatchMetadataUpdate
 solution: Experience Manager
 title: BatchMetadataUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 306e0349-64d6-4b70-9748-9431f1c799a7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 14%
@@ -25,6 +25,6 @@ ht-degree: 14%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ` *`assetHandleArray`*` | `types:HandleArray` | 자산 핸들 배열입니다. |
-| ` *`updateArray`*` | `types:MetadataUpdateArray` | 메타데이터 업데이트 핸들의 배열입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 자산 핸들 배열입니다. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | 메타데이터 업데이트 핸들의 배열입니다. |
 

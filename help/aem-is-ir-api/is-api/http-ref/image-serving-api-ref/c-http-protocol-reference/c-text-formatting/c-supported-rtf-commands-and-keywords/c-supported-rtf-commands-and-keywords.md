@@ -4,10 +4,10 @@ seo-description: 다음은 Scene 7 이미지 제공 텍스트 엔진에서 지�
 seo-title: 지원되는 RTF 명령 및 키워드
 solution: Experience Manager
 title: 지원되는 RTF 명령 및 키워드
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b77d0c5-c4cc-4de7-b51d-6f2ca02316f5
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

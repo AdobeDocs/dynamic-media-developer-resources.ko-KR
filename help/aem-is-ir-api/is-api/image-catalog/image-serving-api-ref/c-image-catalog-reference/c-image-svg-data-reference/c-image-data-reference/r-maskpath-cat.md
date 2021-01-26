@@ -4,10 +4,10 @@ seo-description: 마스크 파일 경로입니다. 이 카탈로그 레코드와
 seo-title: 마스크 패스
 solution: Experience Manager
 title: 마스크 패스
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 3%

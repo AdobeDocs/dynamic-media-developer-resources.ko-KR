@@ -4,10 +4,10 @@ seo-description: 레이어 원점.
 seo-title: 기원
 solution: Experience Manager
 title: 기원
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 3%

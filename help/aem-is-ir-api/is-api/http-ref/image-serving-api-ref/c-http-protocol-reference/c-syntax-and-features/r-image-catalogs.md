@@ -4,10 +4,10 @@ seo-description: 이미지 카탈로그의 기능 및 구문은 이 섹션에 �
 seo-title: 이미지 카탈로그
 solution: Experience Manager
 title: 이미지 카탈로그
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 * 특정 메타데이터 및 수정자 명령을 사용하여 이미지를 지속적으로 연결할 수 있습니다.
 
-   이미지 카탈로그의 항목은 단축키 표기법 ` *`rootId/objId`*`을 사용하여 참조되며, 여기서 ` *`rootId`*`는 이미지 카탈로그를 식별하고 ` *`objId`*`는 카탈로그의 데이터 레코드를 식별합니다.
+   이미지 카탈로그의 항목은 단축키 표기법 `*`rootId/objId`*`을 사용하여 참조되며, 여기서 `*`rootId`*`는 이미지 카탈로그를 식별하고 `*`objId`*`는 카탈로그의 데이터 레코드를 식별합니다.
 * JPEG 품질이나 워터마크를 적용할지 여부와 같은 특정 요청 속성의 기본값을 제공합니다.
 * 글꼴, ICC 프로파일, 매크로 정의 및 요청 템플릿 관리
 
 특정 이미지 카탈로그를 정의하지 않아도 기본 카탈로그( [!DNL default.ini])를 통해 이미지 카탈로그의 모든 기능을 사용할 수 있습니다.
 
-요청의 URL 경로에 있는 ` *`rootId`*`가 특정 이미지 카탈로그의 `attribute::RootId`과(와) 일치하는 경우 해당 카탈로그는 이 요청에 대한 기본 카탈로그가 됩니다. 기본 카탈로그는 전체 요청에 대한 기본 속성과 설정을 제공합니다. 일치하는 항목이 없으면 기본 카탈로그가 대신 사용됩니다.
+요청의 URL 경로에 있는 `*`rootId`*`가 특정 이미지 카탈로그의 `attribute::RootId`과(와) 일치하는 경우 해당 카탈로그는 이 요청에 대한 기본 카탈로그가 됩니다. 기본 카탈로그는 전체 요청에 대한 기본 속성과 설정을 제공합니다. 일치하는 항목이 없으면 기본 카탈로그가 대신 사용됩니다.
 
 `src=` 또는 `mask=` 명령에서 식별된 카탈로그는 현재 레이어에 다음과 같은 카탈로그 속성과 데이터를 제공합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 `icc=` 명령에 식별된 카탈로그는 카탈로그의 ICC 프로필 테이블에서 항목을 찾는 데만 사용됩니다. 다른 카탈로그 특성 또는 데이터는 포함되지 않습니다.
 
-` *`rootId`*`가 카탈로그로 확인되고 ` *`objId`*`가 이 카탈로그의 `catalog::Id`와 일치하면 ` *`rootId/objId`*`가 다음과 같은 카탈로그 항목으로 효과적으로 대체됩니다.
+`*`rootId`*`가 카탈로그로 확인되고 `*`objId`*`가 이 카탈로그의 `catalog::Id`와 일치하면 `*`rootId/objId`*`가 다음과 같은 카탈로그 항목으로 효과적으로 대체됩니다.
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 

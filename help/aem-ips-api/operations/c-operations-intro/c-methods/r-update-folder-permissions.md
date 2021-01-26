@@ -4,10 +4,10 @@ seo-description: 폴더 권한을 업데이트합니다.
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 18%
@@ -33,10 +33,10 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| ` *`updateChildren`*` | `xsd:boolean` | 예 | 최상위 폴더에 대한 권한이 설정된 하위 폴더를 업데이트할지 여부를 결정합니다. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
+| `*`updateChildren`*` | `xsd:boolean` | 예 | 최상위 폴더에 대한 권한이 설정된 하위 폴더를 업데이트할지 여부를 결정합니다. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
 
 **출력(updateFolderPermissionsReturn)**
 

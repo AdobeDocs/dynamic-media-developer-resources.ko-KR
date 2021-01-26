@@ -4,10 +4,10 @@ seo-description: 내부 용도로만 사용하십시오. 사용자는 이미지 
 seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 13%
@@ -34,12 +34,12 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 제작 설정을 제공하는 이미지가 있는 회사에 대한 핸들입니다. |
-| ` *`contextHandle`*` | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 제작 설정을 제공하는 이미지가 있는 회사에 대한 핸들입니다. |
+| `*`contextHandle`*` | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
 
 **출력**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`publishSettingArray`*` | `xsd:string` | 예 | 이미지 서버 제작 설정의 배열입니다. |
+| `*`publishSettingArray`*` | `xsd:string` | 예 | 이미지 서버 제작 설정의 배열입니다. |
 

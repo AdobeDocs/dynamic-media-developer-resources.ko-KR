@@ -4,10 +4,10 @@ seo-description: 정적 컨텐츠 유형 필터입니다. /is/content를 통해 
 seo-title: 유형
 solution: Experience Manager
 title: 유형
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 5%

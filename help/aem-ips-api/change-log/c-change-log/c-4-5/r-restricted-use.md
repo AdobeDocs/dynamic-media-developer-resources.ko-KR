@@ -1,15 +1,12 @@
 ---
-description: 베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Scene7 개발 응용 프로그램 외부에서 사용되지 않습니다.
-seo-description: 베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Scene7 개발 응용 프로그램 외부에서 사용되지 않습니다.
-seo-title: 제한된 사용
+description: 베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media 개발 응용 프로그램 외부에서 사용되지 않습니다.
 solution: Experience Manager
 title: 제한된 사용
-topic: Scene7 Image Production System API
-uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 제한된 사용{#restricted-use}
 
-베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Scene7 개발 응용 프로그램 외부에서 사용되지 않습니다.
+베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media 개발 응용 프로그램 외부에서 사용되지 않습니다.
 
 이러한 작업 및 유형은 이후 시스템 업데이트를 비활성화, 변경 또는 사용하지 않을 수 있습니다.
 

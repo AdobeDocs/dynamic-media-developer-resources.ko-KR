@@ -4,10 +4,10 @@ seo-description: 이러한 서버 설정을 사용하여 추적 로깅을 디버
 seo-title: 디버그_추적 로깅
 solution: Experience Manager
 title: 디버그_추적 로깅
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33f1d093-007d-453b-965a-9d701a845954
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%

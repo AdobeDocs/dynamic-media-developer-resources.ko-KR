@@ -4,10 +4,10 @@ seo-description: 프로젝트에서 에셋을 할당하거나 업데이트합니
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 18%
@@ -36,15 +36,15 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | 예 | 회사 핸들. |
-| ` *`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들 배열입니다. |
+| `*`companyName`*` | `xsd:string` | 예 | 회사 핸들. |
+| `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들 배열입니다. |
 
 **출력(setProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | 예 | 성공적으로 추가된 자산의 수입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 추가된 자산의 수입니다. |
 
 ## 예제 {#section-33c1a909c3dc4aa98da474c23a036596}
 

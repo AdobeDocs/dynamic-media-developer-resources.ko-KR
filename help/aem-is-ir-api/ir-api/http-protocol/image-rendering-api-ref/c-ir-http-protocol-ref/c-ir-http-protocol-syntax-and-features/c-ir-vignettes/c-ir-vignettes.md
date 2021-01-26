@@ -1,15 +1,12 @@
 ---
-description: 비네팅은 이미지 렌더링에 사용하기 위해 Scene7 이미지 작성으로 제작한 이미지입니다.
-seo-description: 비네팅은 이미지 렌더링에 사용하기 위해 Scene7 이미지 작성으로 제작한 이미지입니다.
-seo-title: 비네팅
+description: 비네팅은 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성으로 제작한 이미지입니다.
 solution: Experience Manager
 title: 비네팅
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 비네팅{#vignettes}
 
-비네팅은 이미지 렌더링에 사용하기 위해 Scene7 이미지 작성으로 제작한 이미지입니다.
+비네팅은 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성으로 제작한 이미지입니다.
 
 IR는 두 가지 기본 비네팅 유형 *2D* 및 *3D*&#x200B;을 지원합니다. 방 장면은 일반적으로 반사를 렌더링할 수 있는 3D 비네팅이며, 의류 또는 업홀스터리와 같은 대부분의 다른 장면은 일반적으로 반사 렌더링 기능이 없는 2D 비네팅입니다.
 

@@ -1,15 +1,12 @@
 ---
-description: 이미지 프로덕션 시스템 API 호출 및 더 이상 사용되지 않는 관련 매개 변수.
-seo-description: 이미지 프로덕션 시스템 API 호출 및 더 이상 사용되지 않는 관련 매개 변수.
-seo-title: 사용되지 않는 호출
-solution: Experience Manager
 title: 사용되지 않는 호출
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: Dynamic Media에서 더 이상 사용되지 않는 이미지 프로덕션 시스템 API 호출 및 관련 매개 변수.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 ## 사용되지 않는 호출 {#topic-654c0466e6434fe4a95953322255b08c}
 
-이미지 프로덕션 시스템 API 호출 및 더 이상 사용되지 않는 관련 매개 변수.
+Dynamic Media에서 더 이상 사용되지 않는 이미지 프로덕션 시스템 API 호출 및 관련 매개 변수.
 
 * `addMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 사용하여 IPS에 미디어 포털 이벤트를 추가할 수 있습니다.
 * `getMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 사용하여 지정된 기준과 일치하는 미디어 포털 이벤트를 가져올 수 있습니다.

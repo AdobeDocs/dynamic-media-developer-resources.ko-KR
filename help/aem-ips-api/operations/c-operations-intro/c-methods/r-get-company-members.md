@@ -4,10 +4,10 @@ seo-description: 회사 취급에 의해 지정된 회사의 사용자를 반환
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 15%
@@ -34,14 +34,14 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사에 대한 핸들입니다. |
-| ` *`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사 포함. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사에 대한 핸들입니다. |
+| `*`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사 포함. |
 
 **출력(getCompanyMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| ` *`memberArray`*` | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열입니다. |
+| `*`memberArray`*` | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열입니다. |
 
 ## 예제 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

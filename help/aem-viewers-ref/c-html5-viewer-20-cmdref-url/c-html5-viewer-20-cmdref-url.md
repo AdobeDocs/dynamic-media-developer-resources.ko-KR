@@ -4,10 +4,10 @@ seo-description: 모든 뷰어에서 일반적으로 사용되는 명령 참조 
 seo-title: 모든 뷰어에 공통되는 명령 참조 - URL
 solution: Experience Manager
 title: 모든 뷰어에 공통되는 명령 참조 - URL
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5fe3d1eb-28b6-41c9-9116-5b900664cd83
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 0%

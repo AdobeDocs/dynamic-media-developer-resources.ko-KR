@@ -1,16 +1,13 @@
 ---
 description: 플라이아웃 뷰어는 이미지 뷰어입니다. 사용자가 활성화한 플라이아웃 보기에 축소된 버전이 표시된 정적 이미지가 표시됩니다. 이 뷰어는 이미지 세트와 연동하며 견본을 사용하여 탐색합니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 keywords: responsive
-seo-description: 플라이아웃 뷰어는 이미지 뷰어입니다. 사용자가 활성화한 플라이아웃 보기에 축소된 버전이 표시된 정적 이미지가 표시됩니다. 이 뷰어는 이미지 세트와 연동하며 견본을 사용하여 탐색합니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
-seo-title: 플라이아웃
 solution: Experience Manager
 title: 플라이아웃
-topic: Dynamic media
-uuid: 588e1baa-4165-4aec-8fbe-1a916c0f409f
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2084'
 ht-degree: 0%
 
 ---
@@ -104,7 +101,7 @@ ht-degree: 0%
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-뷰어가 Adobe Scene7 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않은 경우 IS-Viewers가 설치된 Adobe Scene7 서버 중 하나에 대한 전체 경로를 지정합니다.
+뷰어가 Adobe Dynamic Media 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-뷰어가 설치된 Adobe Dynamic Media 서버 중 하나에 대한 전체 경로를 지정합니다.
 
 상대 경로는 다음과 같습니다.
 

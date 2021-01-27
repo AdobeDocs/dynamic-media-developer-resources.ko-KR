@@ -4,10 +4,10 @@ seo-description: 모드 매개 변수의 값에 따라 뷰어는 맵을 원래 S
 seo-title: 이미지 맵 효과
 solution: Experience Manager
 title: 이미지 맵 효과
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 193d2f4e-77a2-4741-bf36-90ca31c600c6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%

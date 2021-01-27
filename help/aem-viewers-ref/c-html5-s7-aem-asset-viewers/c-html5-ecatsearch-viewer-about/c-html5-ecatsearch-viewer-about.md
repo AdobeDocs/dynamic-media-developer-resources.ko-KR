@@ -1,16 +1,14 @@
 ---
 description: eCatalog Search Viewer는 스프레드 또는 페이지별로 스프레드에 전자 브로셔를 표시하는 카탈로그 뷰어로서, eCatalog를 사용하면 추가 사용자 인터페이스 요소 또는 전용 축소판 모드를 사용하여 카탈로그를 탐색할 수 있습니다. 또한 모든 페이지를 확대하여 자세히 볼 수 있습니다.
 keywords: responsive
-seo-description: eCatalog Search Viewer는 스프레드 또는 페이지별로 스프레드에 전자 브로셔를 표시하는 카탈로그 뷰어로서, eCatalog를 사용하면 추가 사용자 인터페이스 요소 또는 전용 축소판 모드를 사용하여 카탈로그를 탐색할 수 있습니다. 또한 모든 페이지를 확대하여 자세히 볼 수 있습니다.
-seo-title: eCatalog 검색
 solution: Experience Manager
 title: eCatalog 검색
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 기본 제어
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-뷰어가 Adobe Scene7 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않은 경우 IS-Viewers가 설치된 Adobe Scene7 서버 중 하나에 대한 전체 경로를 지정합니다.
+뷰어가 Adobe Dynamic Media 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-뷰어가 설치된 Adobe Dynamic Media 서버 중 하나에 대한 전체 경로를 지정합니다.
 
 상대 경로는 다음과 같습니다.
 

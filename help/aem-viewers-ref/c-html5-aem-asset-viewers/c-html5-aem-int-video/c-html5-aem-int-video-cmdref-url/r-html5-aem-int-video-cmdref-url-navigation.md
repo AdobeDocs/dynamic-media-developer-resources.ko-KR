@@ -4,10 +4,10 @@ seo-description: 대화형 비디오 뷰어용 URL 명령.
 seo-title: 탐색
 solution: Experience Manager
 title: 탐색
-topic: Dynamic media
+topic: Dynamic Media
 uuid: eecc7458-153c-4f36-b29e-97451f275c0c
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 14%

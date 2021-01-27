@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 보기의 이미
 seo-title: 축소 단추
 solution: Experience Manager
 title: 축소 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cf1c62eb-e0a4-413d-93d3-3aed31e9a444
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 2%

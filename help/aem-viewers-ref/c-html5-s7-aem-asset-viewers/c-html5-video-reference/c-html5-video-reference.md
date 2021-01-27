@@ -1,16 +1,13 @@
 ---
-description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Scene7 Publishing System 또는 AEM Dynamic Media에서 제공됩니다.
+description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 AEM Dynamic Media에서 제공됩니다.
 keywords: responsive
-seo-description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Scene7 Publishing System 또는 AEM Dynamic Media에서 제공됩니다.
-seo-title: 비디오
 solution: Experience Manager
 title: 비디오
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # 비디오{#video}
 
-비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Scene7 Publishing System 또는 AEM Dynamic Media에서 제공됩니다.
+비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 AEM Dynamic Media에서 제공됩니다.
 
 [시스템 요구 사항 및 사전 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)을 참조하십시오.
 
@@ -152,7 +149,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    `.s7videoviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 수정자 `stagesize`를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   CSS에서 크기 조정을 HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 정의 뷰어 CSS 파일에 배치할 수 있습니다.
+   CSS에서 크기 조정을 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 정의 뷰어 CSS 파일에 배치할 수 있습니다.
 
    CSS를 사용하여 뷰어의 스타일 지정에 대한 자세한 내용은 [비디오 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)을 참조하십시오.
 
@@ -165,7 +162,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
    }
    ```
 
-   다음과 같이 Scene7 Publishing System의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   다음과 같이 Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, `params` 컬렉션을 사용하여 뷰어 초기화 코드를 명시적으로 전달하거나 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
 
    ```
    videoViewer.setParam("stagesize", "640,480");

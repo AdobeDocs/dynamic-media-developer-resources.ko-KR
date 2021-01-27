@@ -1,15 +1,12 @@
 ---
-description: 뷰어는 SPS 또는 AEM Dynamic Media 외부에서 호스팅되는 비디오 재생을 지원합니다.
-seo-description: 뷰어는 SPS 또는 AEM Dynamic Media 외부에서 호스팅되는 비디오 재생을 지원합니다.
-seo-title: 외부 비디오 지원
+description: 뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media 외부에 호스팅된 비디오 재생을 지원합니다.
 solution: Experience Manager
 title: 외부 비디오 지원
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # 외부 비디오 지원{#external-video-support}
 
-뷰어는 SPS 또는 AEM Dynamic Media 외부에서 호스팅되는 비디오 재생을 지원합니다.
+뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media 외부에 호스팅된 비디오 재생을 지원합니다.
 
 외부 비디오에 대해 지원되는 형식은 H.264 형식의 MP4 또는 HLS 스트림에 대한 M3U8 매니페스트입니다.
 

@@ -5,10 +5,10 @@ seo-description: 회전 뷰어는 적절한 회전 집합을 사용하는 경우
 seo-title: 회전
 solution: Experience Manager
 title: 회전
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%

@@ -1,15 +1,12 @@
 ---
-description: 모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Scene7 Publishing System에서 만든 위치에서 기본 보기 위에 이미지 맵 아이콘을 표시하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링합니다.
-seo-description: 모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Scene7 Publishing System에서 만든 위치에서 기본 보기 위에 이미지 맵 아이콘을 표시하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링합니다.
-seo-title: 이미지 맵 효과
+description: 모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Dynamic Media Classic에서 제작하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링하는 위치의 기본 보기 위에 이미지 맵 아이콘을 표시합니다.
 solution: Experience Manager
 title: 이미지 맵 효과
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # 이미지 맵 효과{#image-map-effect}
 
-모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Scene7 Publishing System에서 만든 위치에서 기본 보기 위에 이미지 맵 아이콘을 표시하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링합니다.
+모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Dynamic Media Classic에서 제작하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링하는 위치의 기본 보기 위에 이미지 맵 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

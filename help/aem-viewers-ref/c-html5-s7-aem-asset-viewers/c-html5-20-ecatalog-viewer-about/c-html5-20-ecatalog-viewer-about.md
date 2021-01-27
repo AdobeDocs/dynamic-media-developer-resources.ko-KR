@@ -1,16 +1,13 @@
 ---
 description: eCatalog Viewer는 스프레드 또는 페이지별로 스프레드에 전자 브로셔를 표시하는 카탈로그 뷰어로서, eCatalog를 사용하면 추가 사용자 인터페이스 요소 또는 전용 축소판 모드를 사용하여 카탈로그를 탐색할 수 있습니다. 또한 모든 페이지를 확대하여 자세히 볼 수 있습니다.
 keywords: responsive
-seo-description: eCatalog Viewer는 스프레드 또는 페이지별로 스프레드에 전자 브로셔를 표시하는 카탈로그 뷰어로서, eCatalog를 사용하면 추가 사용자 인터페이스 요소 또는 전용 축소판 모드를 사용하여 카탈로그를 탐색할 수 있습니다. 또한 모든 페이지를 확대하여 자세히 볼 수 있습니다.
-seo-title: eCatalog
 solution: Experience Manager
 title: eCatalog
 topic: Dynamic Media
-uuid: 6950306d-637e-4932-ae96-c5366e5477f3
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2163'
 ht-degree: 0%
 
 ---
@@ -173,7 +170,7 @@ eCatalog 뷰어는 소셜 공유 도구를 지원합니다. 기본 제어 막대
 
    `.s7ecatalogviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 수정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 CSS로 크기를 조정할 수 있습니다.
+   CSS 크기를 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 직접 배치할 수 있습니다.
 
    CSS로 뷰어의 스타일 지정에 대한 자세한 내용은 [eCatalog 뷰어 사용자 정의](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)를 참조하십시오.
 
@@ -186,7 +183,7 @@ eCatalog 뷰어는 소셜 공유 도구를 지원합니다. 기본 제어 막대
    }
    ```
 
-   다음과 같이 Scene7 Publishing System의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 다음과 같이 `params` 컬렉션을 사용하여 뷰어 초기화 코드를 명시적으로 전달하거나 명령 참조 섹션에 설명된 API 호출로 전달할 수 있습니다.
 
    ```
    eCatalogViewer.setParam("stagesize", 

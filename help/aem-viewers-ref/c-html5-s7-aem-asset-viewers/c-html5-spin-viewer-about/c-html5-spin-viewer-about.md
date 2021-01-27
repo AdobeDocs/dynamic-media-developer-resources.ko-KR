@@ -8,9 +8,9 @@ title: 회전
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ target="_blank">Open popup viewer</a>
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   뷰어가 Adobe Scene7 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않은 경우 IS-Viewers가 설치된 Adobe Scene7 서버 중 하나에 대한 전체 경로를 지정합니다.
+   뷰어가 Adobe Dynamic Media 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-뷰어가 설치된 Adobe Dynamic Media 서버 중 하나에 대한 전체 경로를 지정합니다.
 
    상대 경로는 다음과 같습니다.
 
@@ -165,7 +165,7 @@ target="_blank">Open popup viewer</a>
 
    `.s7spinviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 수정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 CSS로 크기를 조정할 수 있습니다.
+   CSS 크기를 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 직접 배치할 수 있습니다.
 
    CSS로 뷰어의 스타일 지정에 대한 자세한 내용은 [스핀 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55)을 참조하십시오.
 
@@ -178,7 +178,7 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   다음과 같이 Scene7 Publishing System의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 다음과 같이 `params` 컬렉션을 사용하여 뷰어 초기화 코드를 명시적으로 전달하거나 명령 참조 섹션에 설명된 API 호출로 전달할 수 있습니다.
 
    ```
     spinViewer.setParam("stagesize", 

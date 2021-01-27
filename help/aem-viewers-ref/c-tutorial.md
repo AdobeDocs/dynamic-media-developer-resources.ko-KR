@@ -2,9 +2,9 @@
 description: 뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 응용 프로그램입니다.
 solution: Experience Manager
 title: 뷰어 SDK 자습서
-topic: Dynamic media
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%

@@ -4,10 +4,10 @@ seo-description: 포함 공유 도구는 도구를 활성화하면 표시되는 
 seo-title: 공유 포함
 solution: Experience Manager
 title: 공유 포함
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04fec93c-68e5-442d-b3ce-2b4012ae4687
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 2%

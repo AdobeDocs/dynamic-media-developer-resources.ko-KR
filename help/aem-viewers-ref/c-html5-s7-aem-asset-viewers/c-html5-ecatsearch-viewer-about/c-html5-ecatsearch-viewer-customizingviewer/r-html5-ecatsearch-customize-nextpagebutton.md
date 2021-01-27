@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 카탈로그의 다음 
 seo-title: 다음 페이지 단추
 solution: Experience Manager
 title: 다음 페이지 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: dce92ce7-94c0-4f94-9842-8621d1112bea
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%

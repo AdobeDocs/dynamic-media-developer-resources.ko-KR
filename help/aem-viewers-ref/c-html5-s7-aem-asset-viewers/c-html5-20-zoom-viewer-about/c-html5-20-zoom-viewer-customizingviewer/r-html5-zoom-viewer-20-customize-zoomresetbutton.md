@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이
 seo-title: 확대/축소 재설정 단추
 solution: Experience Manager
 title: 확대/축소 재설정 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 2%

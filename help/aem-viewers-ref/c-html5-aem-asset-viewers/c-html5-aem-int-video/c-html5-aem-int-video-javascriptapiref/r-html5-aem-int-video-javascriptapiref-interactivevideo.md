@@ -4,10 +4,10 @@ seo-description: 대화형 비디오 뷰어용 JavaScript API 참조입니다.
 seo-title: InteractiveVideoViewer
 solution: Experience Manager
 title: InteractiveVideoViewer
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 10514580-408f-4cbf-a2e4-be2040aa8a85
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 3%

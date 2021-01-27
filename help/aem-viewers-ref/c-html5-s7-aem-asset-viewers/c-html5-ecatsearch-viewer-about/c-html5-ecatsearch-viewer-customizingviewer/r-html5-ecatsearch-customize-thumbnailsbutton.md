@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 뷰어와 축소
 seo-title: 축소판 단추
 solution: Experience Manager
 title: 축소판 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히 축소판 모드가 활성 상태이고 `selected='true'`은 기본 보기가 있는 기본 상태에 해당하는 경우 뷰어 상태에 해당합니다.`selected='false'`
+>이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히 축소판 모드가 활성 상태이고 `selected='false'`은 기본 보기가 있는 기본 상태에 해당하는 경우 뷰어 상태에 해당합니다.`selected='true'`
 
 단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
 

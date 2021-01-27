@@ -4,10 +4,10 @@ seo-description: 포커스가 있는 뷰어 UI 요소 주위에 표시되는 입
 seo-title: 초점 강조 표시
 solution: Experience Manager
 title: 초점 강조 표시
-topic: Dynamic media
+topic: Dynamic Media
 uuid: cf5acb11-168e-4303-a637-d959687a0548
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%

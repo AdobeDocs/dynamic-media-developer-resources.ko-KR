@@ -4,10 +4,10 @@ seo-description: 기본 보기 영역은 확대/축소 이미지 및 색상 견�
 seo-title: 기본 뷰어 영역
 solution: Experience Manager
 title: 기본 뷰어 영역
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 689116cb-bbb9-4e26-9c16-9229330c4034
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%

@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 이미지가 기본 보
 seo-title: 오른쪽 회전 단추
 solution: Experience Manager
 title: 오른쪽 회전 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5c754e53-9311-4d4f-96e7-2bb9a5a7babf
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%

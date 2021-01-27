@@ -4,10 +4,10 @@ seo-description: 대화형 비디오 뷰어용 URL 명령.
 seo-title: 상호 작용 데이터
 solution: Experience Manager
 title: 상호 작용 데이터
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 72360679-7a39-46dd-ab10-7228d9c42a98
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 5%

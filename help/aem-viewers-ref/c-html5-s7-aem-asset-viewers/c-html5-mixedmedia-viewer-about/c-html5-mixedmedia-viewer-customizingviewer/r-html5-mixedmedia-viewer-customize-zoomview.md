@@ -4,10 +4,10 @@ seo-description: 연속 확대/축소 모드에서 기본 보기는 현재 자�
 seo-title: 확대/축소 보기
 solution: Experience Manager
 title: 확대/축소 보기
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%

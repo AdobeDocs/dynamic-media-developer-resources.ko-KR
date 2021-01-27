@@ -4,10 +4,10 @@ seo-description: 비디오 플레이어는 뷰어 내에서 비디오 컨텐츠�
 seo-title: 비디오360 플레이어
 solution: Experience Manager
 title: 비디오360 플레이어
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%

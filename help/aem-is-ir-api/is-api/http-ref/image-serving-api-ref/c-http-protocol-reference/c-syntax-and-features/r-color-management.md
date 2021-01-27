@@ -1,15 +1,12 @@
 ---
 description: 이미지 제공은 ICC(International Color Consortium) 사양을 준수하는 색상 공간 프로파일을 기반으로 색상 공간 변환을 지원합니다.
-seo-description: 이미지 제공은 ICC(International Color Consortium) 사양을 준수하는 색상 공간 프로파일을 기반으로 색상 공간 변환을 지원합니다.
-seo-title: 이미지 제공 색상 관리
 solution: Experience Manager
 title: 이미지 제공 색상 관리
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 6291372e-ec4c-4fbd-bffc-b55b1bf2f8cf
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -95,15 +92,15 @@ ht-degree: 0%
 |`sRGB`|sRGB IEC61966-2.1|sRgb 색상 공간 프로필.icm|
 |`WideGamutRGB`|넓은 색상 영역 RGB|WideCarouselandRGB.icc|
 |**CMYK**||
-|`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
-|`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
+|`CoatedFogra27`|Coated FOGRA27(ISO 12647-2:2004)|CoatedFOGRA27.icc|
+|`CoatedFogra39`|Coated FOGRA39(ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`CoatedGraCol`|Coated GRACoL 2006(ISO 12647-2:2004)|CoatedGRACoL2006.icc|
 |`EuropeISOCoated`|유럽 ISO Coated FOGRA27|EuropeISOCograFOGRA27.icc|
 |`EuroscaleCoated`|Euroscale Coated|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc|
 |`JapanColorCoated`|일본 색상 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|일본 색상 2002 신문|일본 색상2002Newspaper.icc|
-|`JapanColorUncoated`|Japan Color 2001 Uncoated|JapanColor2001Uncoated.icc|
+|`JapanColorNewspaper`|일본 색상 2002 신문|JapanColor2002Newspaper.icc|
+|`JapanColorUncoated`|일본 색상 2001 Uncoated|JapanColor2001Uncoated.icc|
 |`JapanColorWebCoated`|일본 색상 2003 웹 코팅|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|일본 웹 코팅(광고)|JapanWebCoated.icc|
 |`NewsprintSNAP2007`|미국 신문(SNAP 2007)|USNewsprintSNAP2007.icc|
@@ -111,7 +108,7 @@ ht-degree: 0%
 |`PS5Default`|Photoshop 5 기본 CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|미국Sheetfed Coated v2|USSheetfedCoated.icc|
 |`SheetfedUncoated`|미국Sheetfed Uncoated v2|USSheetfedUncoated.icc|
-|`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc|
+|`UncoatedFogra29`|Uncoated FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`WebCoated`|미국웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`WebCoatedGrade3`|Web Coated SWOP 2006 Grade 3 Paper|WebCoatedSWOP2006Grade3.icc|
@@ -134,14 +131,14 @@ ht-degree: 0%
 |`sRGB`|sRGB IEC61966-2.1|sRgb 색상 공간 프로필.icm|
 |`WideGamutRGB`|넓은 색상 영역 RGB|WideCarouselandRGB.icc|
 |**CMYK**||
-|`CoatedFogra27`|Coated FOGRA27 (ISO 12647-2:2004)|CoatedFOGRA27.icc|
-|`CoatedFogra39`|Coated FOGRA39 (ISO 12647-2:2004)|CoatedFOGRA39.icc|
+|`CoatedFogra27`|Coated FOGRA27(ISO 12647-2:2004)|CoatedFOGRA27.icc|
+|`CoatedFogra39`|Coated FOGRA39(ISO 12647-2:2004)|CoatedFOGRA39.icc|
 |`Coated GRACoL 2006 (ISO 12647-2:2004)`|Coated GRACoL 2006(ISO 12647-2:2004)|CoatedGRACoL2006.icc|
 |`EuropeISOCoated`|유럽 ISO Coated FOGRA27|EuropeISOCograFOGRA27.icc|
 |`Euroscale Coated v2`|Euroscale Coated v2|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Uncoated v2|EuroscaleUncoated.icc|
 |`JapanColorCoated`|일본 색상 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|Japan Color 2002 Newspaper|JapanColor2002Newspaper.icc|
+|`JapanColorNewspaper`|일본 색상 2002 신문|JapanColor2002Newspaper.icc|
 |`JapanColorUncoated`|일본 색상 2001 Uncoated|JapanColor2001Uncoated.icc|
 |`Japan Color 2003 Web Coated`|일본 색상 2003 웹 코팅|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|일본 웹 코팅(광고)|JapanWebCoated.icc|
@@ -149,7 +146,7 @@ ht-degree: 0%
 |`PS5Default`|Photoshop 5 기본 CMYK|Photoshop5DefaultCMYK.icc|
 |`SheetfedCoated`|미국Sheetfed Coated v2|USSheetfedCoated.icc|
 |`SheetfedUncoated`|미국Sheetfed Uncoated v2|USSheetfedUncoated.icc|
-|`UncoatedFogra29`|Uncoated FOGRA29 (ISO 12647-2:2004)|UncoatedFOGRA29.icc|
+|`UncoatedFogra29`|Uncoated FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`US Newsprint (SNAP 2007)`|미국 신문(SNAP 2007)|USNewsprintSNAP2007.icc|
 |`WebCoated`|미국웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
@@ -159,4 +156,4 @@ ht-degree: 0%
 
 ## 참조 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[국제 색상 컨소시엄](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [속성::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*, [특성::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [속성::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [속성::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [특성::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b),  [ICC 프로필 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c),  [color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[국제 색상 컨소시엄](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [속성::icc프로필](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)  [ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)*, 속성: icc프로필src, src*, icc 속성:icc:renderIntendRenderIntendRenderInBlackPoint보정,: 기타, ICC Profile Map Reference, color=bgc=.  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

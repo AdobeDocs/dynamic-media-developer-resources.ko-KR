@@ -4,10 +4,10 @@ seo-description: 단추의 위치는 즐겨찾기 메뉴에서 완전히 관리�
 seo-title: 모든 즐겨찾기 보기 단추
 solution: Experience Manager
 title: 모든 즐겨찾기 보기 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f9fd2110-d225-4eba-8e21-acc9c0e1dfd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%

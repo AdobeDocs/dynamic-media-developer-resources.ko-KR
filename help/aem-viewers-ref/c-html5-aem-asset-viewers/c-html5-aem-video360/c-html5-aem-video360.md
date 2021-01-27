@@ -1,15 +1,12 @@
 ---
-description: HTML5 Video360 뷰어는 Scene7 Publishing System 또는 AEM Dynamic Media에서 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
-seo-description: HTML5 Video360 뷰어는 Scene7 Publishing System 또는 AEM Dynamic Media에서 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
-seo-title: 비디오360
+description: HTML5 Video360 뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media에서 제공되는 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
 solution: Experience Manager
 title: 비디오360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-HTML5 Video360 뷰어는 Scene7 Publishing System 또는 AEM Dynamic Media에서 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
+HTML5 Video360 뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media에서 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
 
 몰입형 비디오 또는 구형 비디오라고도 하는 360도 비디오는 전방향 카메라나 카메라 컬렉션을 사용하여 촬영한 영상을 동시에 모든 방향의 보기를 녹화하는 비디오 레코딩입니다. 단일 비디오 세트와 응용 비디오 세트가 모두 지원됩니다. 또한 뷰어는 외부 위치에서 호스팅되는 점진적 비디오 및 HLS 스트림 작업을 추가로 지원합니다.
 

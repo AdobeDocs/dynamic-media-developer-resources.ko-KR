@@ -4,10 +4,10 @@ seo-description: 클릭유도문안 패널은 비디오가 종료되고 특정 �
 seo-title: 조치 수행 질문
 solution: Experience Manager
 title: 조치 수행 질문
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 3%

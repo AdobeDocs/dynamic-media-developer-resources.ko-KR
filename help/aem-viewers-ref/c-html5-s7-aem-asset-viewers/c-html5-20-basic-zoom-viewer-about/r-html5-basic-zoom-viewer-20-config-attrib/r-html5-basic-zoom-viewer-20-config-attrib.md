@@ -4,10 +4,10 @@ seo-description: 기본 확대/축소 뷰어에 대한 구성 속성 설명서�
 seo-title: 명령 참조 - 구성 속성
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6a96ed89-5ef3-4efd-82ed-08f3ad8c73cf
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

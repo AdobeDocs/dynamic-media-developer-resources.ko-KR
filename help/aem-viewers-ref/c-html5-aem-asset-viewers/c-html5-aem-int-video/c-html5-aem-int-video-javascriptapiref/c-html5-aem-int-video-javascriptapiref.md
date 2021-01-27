@@ -4,10 +4,10 @@ seo-description: 대화형 이미지 뷰어의 기본 클래스는 InteractiveVi
 seo-title: 대화형 비디오 뷰어용 JavaScript API 참조
 solution: Experience Manager
 title: 대화형 비디오 뷰어용 JavaScript API 참조
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a389d884-1e16-4ba8-86e4-f00956be0465
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 0%

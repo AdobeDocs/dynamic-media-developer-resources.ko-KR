@@ -5,10 +5,10 @@ title: 다운로드
 topic: Dynamic Media
 uuid: 84c1c9f5-ad96-447e-be78-bae2b7095a29
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 3%
 
 ---
 
@@ -21,5 +21,5 @@ ht-degree: 4%
 
 * 실제 PDF 파일이 고객 회사에 있습니다.
 * 이 이름은 뷰어에 전달되는 전자 카탈로그 에셋의 이름과 일치하며 `.pdf` 확장명을 포함합니다.
-* PDF 파일이 SPS에 게시됩니다.
+* PDF 파일은 Dynamic Media Classic에 게시됩니다.
 

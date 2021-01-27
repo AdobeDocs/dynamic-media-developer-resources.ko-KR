@@ -1,10 +1,10 @@
 ---
-description: Scene7 Production System에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정할 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
+description: Dynamic Media Classic에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
 solution: Experience Manager
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # HTTP POST를 통해 UploadFile 서블릿에 자산 업로드{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Scene7 Production System에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정할 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
+Dynamic Media Classic에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
 
 다음 URL을 사용하여 UploadFile 서블릿에 액세스합니다.
 

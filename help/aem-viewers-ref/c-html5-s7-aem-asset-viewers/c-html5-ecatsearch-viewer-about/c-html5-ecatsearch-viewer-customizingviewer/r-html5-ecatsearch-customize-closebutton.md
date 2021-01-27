@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지
 seo-title: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 312325a8-e10d-4c9f-a008-18ab666fbdd2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%

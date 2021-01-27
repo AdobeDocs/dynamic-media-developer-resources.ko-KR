@@ -5,10 +5,10 @@ seo-description: 기본 확대/축소 뷰어는 단일 확대/축소 가능 이�
 seo-title: 기본 확대/축소
 solution: Experience Manager
 title: 기본 확대/축소
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 0%

@@ -4,10 +4,10 @@ seo-description: 플라이아웃 뷰어에 표시되는 특정 컨텐츠는 로�
 seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-topic: Dynamic media
+topic: Dynamic Media
 uuid: efba09ad-200b-4540-8876-c9e462ec233a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%

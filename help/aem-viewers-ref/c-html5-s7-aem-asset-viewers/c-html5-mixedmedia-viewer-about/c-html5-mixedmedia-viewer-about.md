@@ -1,16 +1,13 @@
 ---
 description: 혼합 미디어 뷰어는 미디어 뷰어입니다. 이미지, 견본 집합, 스핀 집합, 비디오 및 응용 비디오 집합이 포함된 미디어 집합을 지원합니다.
 keywords: responsive
-seo-description: 혼합 미디어 뷰어는 미디어 뷰어입니다. 이미지, 견본 집합, 스핀 집합, 비디오 및 응용 비디오 집합이 포함된 미디어 집합을 지원합니다.
-seo-title: 혼합 미디어
 solution: Experience Manager
 title: 혼합 미디어
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-뷰어가 Adobe Scene7 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않은 경우 IS-Viewers가 설치된 Adobe Scene7 서버 중 하나에 대한 전체 경로를 지정합니다.
+뷰어가 Adobe Dynamic Media Classic 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-Viewers가 설치된 Adobe Dynamic Media Classic 서버 중 하나에 대한 전체 경로를 지정합니다.
 
 상대 경로는 다음과 같습니다.
 
@@ -175,7 +172,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    이 뷰어는 다중 항목 세트로 작업할 때 축소판을 표시합니다. 데스크탑 시스템에서 축소판은 기본 보기 아래에 표시됩니다. 동시에 뷰어는 `setAsset()` API를 사용하여 런타임 중에 기본 에셋을 교환하도록 허용합니다. 개발자는 새 에셋에 항목이 하나만 있을 때 뷰어가 맨 아래에 있는 축소판 영역을 관리하는 방법을 제어할 수 있습니다. 외부 뷰어 크기를 그대로 유지하면서 기본 보기의 높이가 증가하여 축소판 영역을 차지하도록 할 수 있습니다. 또는 기본 보기 크기를 정적으로 유지하거나 외부 뷰어 영역을 축소하여 웹 페이지 콘텐츠를 위로 이동한 다음 축소판에서 남은 무료 페이지 공간을 사용할 수 있습니다.
 
-   외부 뷰어 경계를 그대로 유지하려면 `.s7mixedmediaviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS의 크기 조정은 HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 바로 적용될 수 있습니다.
+   외부 뷰어 경계를 그대로 유지하려면 `.s7mixedmediaviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS의 크기 조정은 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 바로 적용될 수 있습니다.
 
    뷰어를 CSS로 스타일링하는 방법에 대한 자세한 내용은 [혼합 미디어 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)을 참조하십시오.
 
@@ -207,7 +204,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   다음과 같이 Scene7 Publishing System의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나, 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   다음과 같이 Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나, 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");

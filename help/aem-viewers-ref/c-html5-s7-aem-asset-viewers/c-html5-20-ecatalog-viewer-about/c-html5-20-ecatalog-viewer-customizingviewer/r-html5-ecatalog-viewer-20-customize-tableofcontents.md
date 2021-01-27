@@ -4,10 +4,10 @@ seo-description: 목차는 기본 컨트롤 막대에 있는 단추입니다. �
 seo-title: 목차
 solution: Experience Manager
 title: 목차
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 2%

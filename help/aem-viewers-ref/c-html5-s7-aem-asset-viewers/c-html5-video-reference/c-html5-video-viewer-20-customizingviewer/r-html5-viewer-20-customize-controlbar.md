@@ -4,10 +4,10 @@ seo-description: 컨트롤 막대는 재생/일시 정지 단추, 볼륨 컨트�
 seo-title: 컨트롤 막대
 solution: Experience Manager
 title: 컨트롤 막대
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 5686b670-3c8c-4bef-b428-dc468f6ca05d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 1%

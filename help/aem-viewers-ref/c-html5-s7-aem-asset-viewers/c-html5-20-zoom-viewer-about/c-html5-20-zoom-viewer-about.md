@@ -8,7 +8,7 @@ title: 확대/축소
 topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -167,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    이 뷰어는 다중 항목 세트로 작업할 때 축소판을 표시합니다. 데스크톱 시스템 축소판은 기본 보기 아래에 있습니다. 동시에 뷰어는 `setAsset()` API를 사용하여 런타임에 기본 에셋을 교환하도록 허용합니다. 개발자는 새 에셋에 항목이 하나만 있을 때 뷰어가 맨 아래에 있는 축소판 영역을 관리하는 방법을 제어할 수 있습니다. 외부 뷰어 크기를 그대로 유지하면서 기본 보기를 통해 높이를 늘리고 축소판 영역을 점유할 수 있습니다. 또는 기본 보기 크기를 정적으로 유지하거나 외부 뷰어 영역을 축소하고 웹 페이지 내용을 위로 이동하고 축소판에서 남은 무료 화면 공간을 사용할 수 있습니다.
 
-   외부 뷰어 경계를 그대로 유지하려면 `.s7zoomviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS에서 크기 조정을 HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 정의 뷰어 CSS 파일에 배치할 수 있습니다.
+   외부 뷰어 경계를 그대로 유지하려면 `.s7zoomviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS에서 크기 조정을 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 정의 뷰어 CSS 파일에 배치할 수 있습니다.
 
    CSS로 뷰어의 스타일 지정에 대한 자세한 내용은 [확대/축소 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)을 참조하십시오.
 
@@ -199,7 +199,7 @@ target="_blank">Open popup viewer</a>
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/ZoomViewer-fixed-main-view.html)
 
-   다음과 같이 Scene7 Publishing System의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 뷰어 초기화 코드를 `params` 컬렉션으로 명시적으로 전달하거나 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 뷰어 초기화 코드를 사용하여 또는 API 호출로 명시적으로 전달할 수 있습니다.`params`
 
    ```
     zoomViewer.setParam("stagesize", 

@@ -4,10 +4,10 @@ seo-description: Carousel Viewer의 기본 클래스는 CarouselViewer입니다.
 seo-title: 회전판 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
 title: 회전판 뷰어에 대한 JavaScript API 참조
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d235ca5e-9c5b-44e2-84b1-2704bf8c6ca5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

@@ -4,10 +4,10 @@ seo-description: 즐겨찾기 메뉴 드롭다운 목록이 컨트롤 막대에 
 seo-title: 즐겨찾기 메뉴
 solution: Experience Manager
 title: 즐겨찾기 메뉴
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 816e614d-8253-49a8-b57e-0b57b44db535
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%

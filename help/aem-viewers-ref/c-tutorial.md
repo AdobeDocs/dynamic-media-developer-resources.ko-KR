@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 뷰어 SDK 자습서
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 뷰어 SDK는 사용자 정의 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 응용 프로그램입니다.
 
-예를 들어 SDK는 대화형 확대/축소 및 상하좌우 이동을 제공합니다. 또한 SPS(Scene7 Publishing System)라는 백엔드 애플리케이션을 통해 Adobe Dynamic Media에 업로드된 자산의 360° 보기 및 비디오 재생을 제공합니다.
+예를 들어 SDK는 대화형 확대/축소 및 상하좌우 이동을 제공합니다. 또한 Dynamic Media Classic이라는 백엔드 애플리케이션을 통해 Adobe Dynamic Media에 업로드된 에셋의 360° 보기 및 비디오 재생을 제공합니다.
 
 구성 요소는 HTML5 기능을 사용하더라도 Android 및 Apple iOS 장치, Internet Explorer 이상을 비롯한 데스크탑에서 작동하도록 디자인되었습니다. 이러한 종류의 경험은 지원되는 모든 플랫폼에 대해 단일 워크플로우를 제공할 수 있음을 의미합니다.
 

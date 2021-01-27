@@ -5,7 +5,7 @@ solution: Experience Manager
 title: 플라이아웃
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 0%
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    이 뷰어는 다중 항목 세트로 작업할 때 축소판을 표시합니다. 데스크탑 시스템에서 축소판은 기본 보기 아래에 표시됩니다. 동시에 뷰어는 `setAsset()` API를 사용하여 런타임 중에 기본 에셋을 교환하도록 허용합니다. 개발자는 새 에셋에 항목이 하나만 있을 때 뷰어가 하단 영역에서 축소판 영역을 관리하는 방법을 제어할 수 있습니다. 외부 뷰어 크기를 그대로 유지하면서 기본 보기의 높이가 증가하여 축소판 영역을 차지하도록 할 수 있습니다. 또는 기본 보기 크기를 정적으로 유지하고 외부 뷰어 영역을 축소하여 웹 페이지 내용을 이동한 다음 축소판에서 나머지 무료 페이지 공간을 사용할 수 있습니다.
 
-   외부 뷰어 경계를 그대로 유지하려면 `.s7flyoutviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS의 크기 조정은 HTML 페이지 또는 나중에 Scene7 Publishing System의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 바로 적용될 수 있습니다.
+   외부 뷰어 경계를 그대로 유지하려면 `.s7flyoutviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의합니다. CSS의 크기 조정은 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 바로 적용될 수 있습니다.
 
    CSS를 사용하여 뷰어의 스타일 지정에 대한 자세한 내용은 [플라이아웃 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451)을 참조하십시오.
 

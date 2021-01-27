@@ -8,9 +8,9 @@ title: 기본 확대/축소
 topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2076'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ IS-뷰어와 함께 제공되거나, 문서화된 API를 사용하여 대상 웹
 
    `.s7basiczoomviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 수정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   HTML 페이지 또는 나중에 SPS의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 정의 뷰어 CSS 파일에서 바로 CSS의 크기를 조정할 수 있습니다.
+   CSS 크기를 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 정의 뷰어 CSS 파일에서 직접 배치할 수 있습니다.
 
    CSS로 뷰어의 스타일 지정에 대한 자세한 내용은 [기본 확대/축소 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)을 참조하십시오.
 
@@ -176,7 +176,7 @@ IS-뷰어와 함께 제공되거나, 문서화된 API를 사용하여 대상 웹
    }
    ```
 
-   SPS의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 다음과 같이 `params` 컬렉션을 사용하여 뷰어 초기화 코드를 명시적으로 전달하거나 명령 참조 섹션에 설명된 대로 API 호출로 전달할 수 있습니다.
+   Dynamic Media Classic의 뷰어 사전 설정 레코드에 `stagesize` 수정자를 설정하거나, 다음과 같이 `params` 컬렉션을 사용하여 뷰어 초기화 코드를 명시적으로 전달하거나 명령 참조 섹션에 설명된 API 호출로 전달할 수 있습니다.
 
    ```
    basicZoomViewer.setParam("stagesize", "640,480");

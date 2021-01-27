@@ -4,10 +4,10 @@ seo-description: 즐겨찾기 제거 단추의 위치는 즐겨찾기 메뉴에�
 seo-title: 즐겨찾기 제거 단추
 solution: Experience Manager
 title: 즐겨찾기 제거 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9a0ab584-d299-43d2-9850-3dac4f332cd4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%

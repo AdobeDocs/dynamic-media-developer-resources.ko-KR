@@ -4,10 +4,10 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 보기의 이미
 seo-title: 확대 단추
 solution: Experience Manager
 title: 확대 단추
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 35b7797c-e0d2-4ce4-bf69-0fe20ab4c8f1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 2%

@@ -4,10 +4,10 @@ seo-description: 비디오 뷰어에 표시되는 특정 컨텐츠는 확대/축
 seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 00df92c5-3a10-4973-904d-de5a6b3b9258
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

@@ -4,10 +4,10 @@ seo-description: 회전 표시기는 기본 보기 영역에 오버레이됩니�
 seo-title: 아이콘 효과
 solution: Experience Manager
 title: 아이콘 효과
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 1%

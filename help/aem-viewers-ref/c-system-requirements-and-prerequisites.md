@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 
 ## 서버 하드웨어 및 소프트웨어 {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic(이전 Scene7) Image Serving 6.7.1 이상.
+* Dynamic Media Classic Image Serving 6.7.1 이상.
 * HTML5 뷰어를 사용하려면 SDK JavaScript 서버측 라이브러리 3.10.2 이상이 필요합니다.
 * &quot;친구에게 이메일 보내기&quot; 소셜 기능을 사용하려면 s7ondemand 5.0.9 이상이 필요합니다.
 * eCatalog 뷰어 - 정보 패널을 지원하려면 정보 서버 2.1.8 이상이 필요합니다.

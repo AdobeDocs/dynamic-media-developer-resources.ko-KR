@@ -4,10 +4,10 @@ seo-description: 확대/축소 표시기가 기본 보기 영역에 오버레이
 seo-title: 아이콘 효과
 solution: Experience Manager
 title: 아이콘 효과
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9e8c0c6f-2c45-4acb-9acb-5b8494bfc69b
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 1%

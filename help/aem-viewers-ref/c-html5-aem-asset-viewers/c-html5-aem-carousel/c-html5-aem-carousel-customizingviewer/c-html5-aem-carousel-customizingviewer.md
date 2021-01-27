@@ -5,10 +5,10 @@ seo-description: 사용자 정의 CSS를 만들어 Carousel Viewer에 대한 모
 seo-title: 회전판 뷰어 사용자 정의
 solution: Experience Manager
 title: 회전판 뷰어 사용자 정의
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a35dac3c-8785-42bf-8284-e400128f213c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 0%

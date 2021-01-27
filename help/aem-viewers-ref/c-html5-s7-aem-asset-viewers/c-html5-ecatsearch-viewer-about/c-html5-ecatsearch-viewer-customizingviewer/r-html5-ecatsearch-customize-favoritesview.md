@@ -4,10 +4,10 @@ seo-description: 즐겨찾기 보기는 축소판 이미지 열로 구성됩니�
 seo-title: 즐겨찾기 보기
 solution: Experience Manager
 title: 즐겨찾기 보기
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%

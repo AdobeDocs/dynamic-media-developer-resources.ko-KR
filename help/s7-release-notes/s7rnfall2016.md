@@ -1,15 +1,12 @@
 ---
 description: Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe Scene7 2016년 가을 릴리스에 대한 최신 릴리스 노트입니다.
-seo-description: Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe Scene7 2016년 가을 릴리스에 대한 최신 릴리스 노트입니다.
-seo-title: Scene7 2016 가을 릴리스
 solution: Experience Manager
 title: Scene7 2016 가을 릴리스
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe S
 [!DNL Adobe Marketing Cloud]에 있는 [!DNL Adobe Experience Manager] 솔루션의 [!DNL Adobe Scene7] 2016년 가을 릴리스의 최신 릴리스 노트입니다.
 
 * [일반](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [뷰어(이미지 제공 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [뷰어(이미지 제공 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [뷰어(이미지 제공 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [HTML5 뷰어 SDK 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media 이미지 제공 6.3.2 및 이미지 렌더링 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 및 이미지 렌더링 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## 일반 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
 * [!DNL Adobe Scene7 Publishing System] 사용자 인터페이스에서 비디오 다시 자르기 기능을 제거했습니다.
 * 필요한 경우 가능한 모든 Scene7 서버에 인증을 추가했습니다.
 * 휴지통의 목록 보기와 관련된 버그 수정.
-* 보안 문제로 인해 사용자 관리에서 **SPSAdmin** 사용자 기능 만들기를 제거했습니다.
+* 보안 문제로 인해 사용자 관리에서 **Dynamic Media Classic 만들기(Scene7) 관리자** 사용자 기능이 제거되었습니다.
 * 이제 FTP WebAdmin이 OKTA 인증을 지원합니다.
 * 새 Media Portal 사용자에 대해 만든 기본 암호 기능을 제거했습니다.
 * 새 사용자를 추가할 때 생성된 임시 암호가 포함된 버그 수정 암호가 필요한 암호 요구 사항을 충족하지 않았습니다.

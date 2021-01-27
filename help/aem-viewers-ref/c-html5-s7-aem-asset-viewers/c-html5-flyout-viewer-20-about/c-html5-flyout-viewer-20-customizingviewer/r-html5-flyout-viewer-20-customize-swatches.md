@@ -4,10 +4,10 @@ seo-description: 견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추
 seo-title: 견본
 solution: Experience Manager
 title: 견본
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ee91385d-a0ff-4419-8a86-e2b106030f98
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 3%

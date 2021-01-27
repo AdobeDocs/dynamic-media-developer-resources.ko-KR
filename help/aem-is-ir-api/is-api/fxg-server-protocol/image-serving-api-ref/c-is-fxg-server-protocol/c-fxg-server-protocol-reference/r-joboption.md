@@ -7,9 +7,9 @@ title: 작업 옵션
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 42%
 
 ---
@@ -28,7 +28,7 @@ PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesi
  </tr> 
 </table>
 
-IPS/SPS에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF가 생성될 때 사용됩니다.
+작업 옵션 파일은 IPS/Dynamic Media Classic에서 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF가 생성될 때 사용됩니다.
 
 현재 지원되는 옵션은 다음과 같습니다.
 

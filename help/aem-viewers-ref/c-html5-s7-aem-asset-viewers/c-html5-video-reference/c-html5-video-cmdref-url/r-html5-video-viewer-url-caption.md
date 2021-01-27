@@ -4,10 +4,10 @@ seo-description: 비디오 뷰어용 URL 명령.
 seo-title: 캡션
 solution: Experience Manager
 title: 캡션
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 670d83c2-bfc5-411a-8581-5103a62aa8cf
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 11%

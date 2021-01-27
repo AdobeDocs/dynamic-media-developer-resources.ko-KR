@@ -4,10 +4,10 @@ seo-description: 뷰어는 Scene7 Publishing System 또는 AEM Dynamic Media 외
 seo-title: 외부 비디오 지원
 solution: Experience Manager
 title: 외부 비디오 지원
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 24739a5a-3a5d-49b8-9a15-bcf3a95fc192
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

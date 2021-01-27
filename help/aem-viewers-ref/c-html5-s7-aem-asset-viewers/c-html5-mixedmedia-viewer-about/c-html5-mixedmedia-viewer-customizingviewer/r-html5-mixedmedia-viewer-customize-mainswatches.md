@@ -4,10 +4,10 @@ seo-description: 기본 색상 견본은 왼쪽 및 오른쪽에 선택적 스�
 seo-title: 기본 색상 견본
 solution: Experience Manager
 title: 기본 색상 견본
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%

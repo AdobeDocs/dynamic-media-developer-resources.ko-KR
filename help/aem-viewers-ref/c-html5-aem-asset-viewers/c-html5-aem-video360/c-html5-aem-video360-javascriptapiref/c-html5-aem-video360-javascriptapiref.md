@@ -4,10 +4,10 @@ seo-description: Video360Viewer의 기본 클래스는 Video360Viewer입니다. 
 seo-title: Video360 뷰어용 JavaScript API 참조
 solution: Experience Manager
 title: Video360 뷰어용 JavaScript API 참조
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3c700c45-c3a1-4ff2-899d-702bf2e4d230
 translation-type: tm+mt
-source-git-commit: 94b8dde58cda2670f3e2f22f217599c23601e450
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

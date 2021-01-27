@@ -4,10 +4,10 @@ seo-description: 기본 보기는 현재 자산이 스핀 세트일 때 스핀 �
 seo-title: 회전 보기
 solution: Experience Manager
 title: 회전 보기
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%

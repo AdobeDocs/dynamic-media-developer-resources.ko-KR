@@ -4,10 +4,10 @@ seo-description: 기본적으로 소셜 공유 도구는 왼쪽 위 모서리에
 seo-title: 소셜 공유
 solution: Experience Manager
 title: 소셜 공유
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 045a5525-dc7b-4ea4-b5ee-830a7ddf233a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%

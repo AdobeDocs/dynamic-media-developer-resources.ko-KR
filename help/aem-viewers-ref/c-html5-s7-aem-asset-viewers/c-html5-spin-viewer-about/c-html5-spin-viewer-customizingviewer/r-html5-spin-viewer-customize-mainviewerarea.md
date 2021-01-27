@@ -4,10 +4,10 @@ seo-description: 기본 보기 영역은 스핀 이미지로 점유되는 영역
 seo-title: 기본 뷰어 영역
 solution: Experience Manager
 title: 기본 뷰어 영역
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8395386b-4039-4a47-8d31-a341813c2647
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 2%

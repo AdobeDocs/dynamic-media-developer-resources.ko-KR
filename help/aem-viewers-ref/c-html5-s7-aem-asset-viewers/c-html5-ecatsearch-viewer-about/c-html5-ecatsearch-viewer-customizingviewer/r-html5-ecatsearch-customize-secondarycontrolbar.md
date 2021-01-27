@@ -4,10 +4,10 @@ seo-description: 보조 컨트롤 막대는 [첫 번째 페이지] 및 [마지�
 seo-title: 보조 컨트롤 막대
 solution: Experience Manager
 title: 보조 컨트롤 막대
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 2%

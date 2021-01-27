@@ -4,10 +4,10 @@ seo-description: 대화형 비디오 뷰어는 구성 매개 변수로 뷰어에
 seo-title: 인터랙티브한 데이터 지원
 solution: Experience Manager
 title: 인터랙티브한 데이터 지원
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
 translation-type: tm+mt
-source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

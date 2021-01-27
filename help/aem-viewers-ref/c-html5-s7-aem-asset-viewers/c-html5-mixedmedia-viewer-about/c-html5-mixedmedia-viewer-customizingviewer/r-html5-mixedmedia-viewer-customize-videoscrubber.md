@@ -4,10 +4,10 @@ seo-description: 비디오 스크러버는 사용자가 현재 재생 중인 비
 seo-title: 비디오 스크러버
 solution: Experience Manager
 title: 비디오 스크러버
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%

@@ -1,23 +1,20 @@
 ---
-description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
-seo-description: 사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
-seo-title: 정보 패널 팝업
+description: 사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
 solution: Experience Manager
 title: 정보 패널 팝업
 topic: Dynamic Media
-uuid: a5c50e54-1ea7-4908-a8a5-dbeea5c8eabb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # 정보 패널 팝업{#info-panel-popup}
 
-사용자가 Scene7 Publishing System에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
+사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
 
 정보 패널 배경은 전체 뷰어 영역을 포함하며 다음 CSS 클래스 선택기로 제어됩니다.
 

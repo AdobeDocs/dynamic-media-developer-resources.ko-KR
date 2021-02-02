@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 이미지 제공 색상 관리
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 0%
 |`WebCoatedGrade5`|Web Coated SWOP 2006 Grade 5 Paper|WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|미국Web Uncoated v2|USWebUncoated.icc|
 
-다음 표는 *Dynamic Media Classic(Scene7) 이미지 제공* 및 *Dynamic Media*(`dynamicmedia_scene7` 실행 모드에서 실행)에 적용됩니다.
+다음 표는 *Dynamic Media Classic 이미지 제공* 및 *Dynamic Media*(`dynamicmedia_scene7` 실행 모드에서 실행 중)에 적용됩니다.
 
 |식별자|일반 이름|파일 이름|
 |— |— |— |

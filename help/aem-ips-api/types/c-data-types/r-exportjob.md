@@ -7,9 +7,9 @@ title: 내보내기 작업
 topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '217'
 ht-degree: 10%
 
 ---
@@ -56,7 +56,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:문자열  </span> </p> </td> 
-   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> 요청에 추가되는 <span class="codeph"> ImageServer</span> 렌더링 URL 문자열을 지정합니다. </p> <p>IS 수정자를 보내는 방법에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS 설명서</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> 요청에 추가되는 <span class="codeph"> ImageServer</span> 렌더링 URL 문자열을 지정합니다. </p> <p>IS 수정자를 보내는 방법에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> IS 설명서</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 매크로</span> </span> </p> </td> 

@@ -7,9 +7,9 @@ title: ScheduledJob
 topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '264'
 ht-degree: 4%
 
 ---
@@ -39,14 +39,14 @@ ht-degree: 4%
 | `*`triggerState`*` | `xsd:int` | 작업 트리거 상태 선택. |
 | `*`imageServingPublishJob`*` | `types:ImageServingPublishJob` | 이미지 제공 게시 작업에 대한 작업 세부 정보입니다. |
 | `*`imageServingRenderJob`*` | `types:ImageServingRenderJob` | 이미지 렌더링 작업에 대한 작업 세부 정보입니다. |
-| `*`videoPublishJob`*` | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보입니다. [VideoPublishJob](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하십시오. |
+| `*`videoPublishJob`*` | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보입니다. [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하십시오. |
 | `*`serverDirectoryPublishJob`*` | `types:ServerDirectoryPublishJob` | 서버 디렉토리 게시 작업에 대한 작업 세부 정보입니다. |
 | `*`uploadDirectoryJob`*` | `types:UploadDirectoryJob` | 업로드 디렉토리 작업에 대한 작업 세부 정보입니다. |
 | `*`uploadUrlJob`*` | `types:UploadUrlsJob` | 업로드 URL 작업에 대한 작업 세부 정보입니다. |
 | `*`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | `*`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | `*`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| `*`exportJob`*` | `types:ExportJob` | 이전에 업로드한 파일의 허가된 내보내기를 허용합니다. [내보내기 작업](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하십시오. |
+| `*`exportJob`*` | `types:ExportJob` | 이전에 업로드한 파일의 허가된 내보내기를 허용합니다. [내보내기 작업](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하십시오. |
 
 ## 주의 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

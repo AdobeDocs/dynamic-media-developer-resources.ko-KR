@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Scene7 2016 가을 릴리스
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe S
 
 Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있음을 발표하게 되어 매우 기쁩니다.
 
-[콘텐츠 FAQ ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)의 HTTP2 제공을 참조하십시오.
+[콘텐츠 FAQ ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)의 HTTP2 제공을 참조하십시오.
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-전체 설명서는 [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)을(를) 참조하십시오.
+전체 설명서는 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)을(를) 참조하십시오.
 
 **새로운 기능, 개선 사항 및 버그 수정**
 
@@ -58,7 +58,7 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
 
 ## 뷰어(이미지 제공 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-전체 설명서는 [뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
+전체 설명서는 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
 
 **이미지 제공 5.5.3 버그 수정**
 
@@ -68,7 +68,7 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
 
 ## 뷰어(이미지 제공 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-전체 설명서는 [뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
+전체 설명서는 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
 
 **이미지 제공 5.5.2 버그 수정**
 
@@ -77,7 +77,7 @@ Adobe은 향상된 성능을 통해 HTTP/2 컨텐츠 전달을 사용할 수 있
 
 ## 뷰어(이미지 제공 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-전체 설명서는 [뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
+전체 설명서는 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
 
 **Image Serving 5.5.1의 새로운 기능, 개선 사항 및 버그 수정**
 

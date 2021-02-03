@@ -7,9 +7,9 @@ title: ActiveJob
 topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -173,7 +173,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ExportJob</span> </td> 
-   <td colname="col3">이전에 업로드한 파일의 허가된 내보내기를 허용합니다. <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>을 참조하십시오. </td> 
+   <td colname="col3">이전에 업로드한 파일의 허가된 내보내기를 허용합니다. <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>을 참조하십시오. </td> 
   </tr> 
  </tbody> 
 </table>

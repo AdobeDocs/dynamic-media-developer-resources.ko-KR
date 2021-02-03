@@ -4,9 +4,9 @@ solution: Experience Manager
 title: 반응형 이미지 라이브러리 사용
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **반응형 이미지 라이브러리를 사용하려면**
 
-1. 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획이면 Dynamic Media Classic에서 [이미지 사전 설정](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html)을(를) 만듭니다.
+1. 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획이면 Dynamic Media Classic에서 [이미지 사전 설정](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing)을(를) 만듭니다.
 
    응답형 이미지 라이브러리에 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=` 등의 이미지 크기에 영향을 주는 설정을 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 두십시오.
 1. 웹 페이지에 라이브러리 JavaScript 파일을 추가합니다.

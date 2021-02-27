@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1905'
 ht-degree: 4%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 4%
 
 # Dynamic Media 뷰어 참조 안내서 {#library}
 
-+ [Dynamic Media 개발자 리소스 홈](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
-+ [Dynamic Media 뷰어 참조 안내서](/help/aem-viewers-ref/home.md)
++ [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
++ [Dynamic Media 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
 + [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [시스템 요구 사항](c-system-requirements-and-prerequisites.md)
 + [동일한 서버에 여러 뷰어 설치](t-installing-the-viewers.md)
@@ -897,8 +897,8 @@ ht-degree: 4%
          + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md)
          + [setLocalizedText](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setlocalizedtexts.md)
-         + [setParam](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparam.html#viewers-for-aem-assets-only)
-         + [setParams](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparams.html#viewers-for-aem-assets-only)
+         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparam.md)
+         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Video360Viewer](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [이벤트 콜백](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)

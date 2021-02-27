@@ -7,9 +7,9 @@ product: Dynamic Media Classic
 archtype: end-user
 user-guide: null
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Dynamic Media 릴리스 노트 {#release-notes}
 
-+ [Dynamic Media 개발자 리소스 홈](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
 + [최신 릴리스 노트](s7rn2017.md)
 + 보관 {#archive-release-notes}
    + [Scene7 2016년 가을 릴리스](s7rnfall2016.md)

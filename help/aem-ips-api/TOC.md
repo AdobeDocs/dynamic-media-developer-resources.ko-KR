@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '632'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Dynamic Media 이미지 제작 시스템 API {#image-production-api}
 
-+ [Dynamic Media 개발자 리소스 홈](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
++ [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
 + [Dynamic Media Image Production System API 정보](c-overview.md)
 + [사용되지 않는 호출](c-deprecated-calls.md)
 + [IPS 웹 서비스 WSDL 버전](c-wsdl-versions.md)

@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
 breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1457'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 # Dynamic Media 이미지 제공 및 렌더링 API {#image-serving-api}
 
 + [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
-+ [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
++ [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [이 릴리스 정보](r-about-this-release.md)
 + [시스템 요구 사항 및 필수 조건](r-requirements-and-prerequisites.md)
 + [디스크 공간 요구 사항 및 권장 사항](r-disk-space-reqs.md)

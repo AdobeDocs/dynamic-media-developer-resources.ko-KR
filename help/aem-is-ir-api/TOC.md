@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
 breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
+feature-set: Experience Manager Assets
+user-guide-description: IS(Image Serving) 및 IR(Image Rendering) API 및 관련 기술에 대한 설명서를 볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1466'
 ht-degree: 10%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 10%
 
 # Dynamic Media 이미지 제공 및 렌더링 API {#image-serving-api}
 
-+ [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
 + [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [이 릴리스 정보](r-about-this-release.md)
 + [시스템 요구 사항 및 필수 조건](r-requirements-and-prerequisites.md)

@@ -1,12 +1,12 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Dynamic Media 뷰어 참조 안내서
+feature-set: Experience Manager Assets
+user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 사용자 정의할 수 있습니다. 인터랙티브한 이미지 및 비디오, Carousel, 회전 집합 등을 포함할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1913'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 4%
 
 # Dynamic Media 뷰어 참조 안내서 {#library}
 
-+ [Dynamic Media 개발자 리소스 홈](/help/landing/home.md)
 + [Dynamic Media 뷰어 참조 안내서](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [시스템 요구 사항](c-system-requirements-and-prerequisites.md)

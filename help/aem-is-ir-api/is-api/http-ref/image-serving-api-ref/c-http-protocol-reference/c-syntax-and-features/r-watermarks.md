@@ -2,11 +2,12 @@
 description: 이미지 제공은 간단한 시각적 워터마크 기능을 구현합니다.
 solution: Experience Manager
 title: 워터마크
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 1%
 
 워터마크를 지정하면 서버가 먼저 워터마크를 적용해야 하는 합성 이미지(보기 변환을 적용하기 전)를 생성합니다. ** 그런 다음 서버는 다른 이미지(*워터마크 이미지*)와 마찬가지로 워터마크의 합성 이미지를 생성합니다.
 
-표준 이미지와 달리 워터마크 이미지의 layer=0 또는 layer=comp에 대해 `sizeN=`을 지정할 수 있습니다. 따라서 대상 이미지를 기준으로 워터마크 이미지의 크기를 조정할 수 있습니다. `sizeN=`을(를) 지정하지 않으면 대상 이미지와 병합될 때 워터마크 이미지의 픽셀 크기가 유지됩니다.
+표준 이미지와 달리 워터마크 이미지의 레이어=0이나 layer=comp에 대해 `sizeN=`을 지정할 수 있습니다. 따라서 대상 이미지를 기준으로 워터마크 이미지의 크기를 조정할 수 있습니다. `sizeN=`을(를) 지정하지 않으면 대상 이미지와 병합될 때 워터마크 이미지의 픽셀 크기가 유지됩니다.
 
 요청 명령(예: `fmt=`)과 보기 명령(예: `wid=`)은 워터마크 레코드에 무시되며 `align=`를 제외하고 무시됩니다. `align=` 대상 이미지를 기준으로 워터마크 이미지를 기준으로 배치하기 위해 워터마크 이미지를 사용할 수 있습니다. 따라서 대상 이미지의 모서리 또는 가장자리를 기준으로 워터마크를 배치할 수 있습니다.
 

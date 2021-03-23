@@ -2,11 +2,12 @@
 title: 동일한 서버에 여러 Dynamic Media 뷰어 설치
 description: Dynamic Media 뷰어 API 설치 지침
 solution: Experience Manager
-topic: Dynamic Media
+feature: Dynamic Media Classic,뷰어,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---

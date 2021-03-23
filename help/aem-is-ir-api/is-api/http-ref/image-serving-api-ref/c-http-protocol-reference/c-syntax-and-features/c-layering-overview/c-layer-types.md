@@ -4,12 +4,13 @@ seo-description: 4가지 유형의 레이어가 지원됩니다.
 seo-title: 레이어 유형
 solution: Experience Manager
 title: 레이어 유형
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d88b2163-7c9f-4885-9722-be3339e7127a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---

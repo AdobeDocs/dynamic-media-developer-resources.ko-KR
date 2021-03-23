@@ -4,13 +4,14 @@ seo-description: 절대 소스 URL 허용
 seo-title: AllowDirectURL
 solution: Experience Manager
 title: AllowDirectURL
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6b03abd1-bff6-4ff2-9945-9905355de87e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 

@@ -4,12 +4,13 @@ seo-description: 기본 보기는 정적 이미지로 구성됩니다.
 seo-title: 확대/축소 보기
 solution: Experience Manager
 title: 확대/축소 보기
-topic: Dynamic Media
 uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---

@@ -4,13 +4,14 @@ seo-description: 활성 작업을 일시 중지합니다.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
-topic: Dynamic Media Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '73'
+ht-degree: 16%
 
 ---
 

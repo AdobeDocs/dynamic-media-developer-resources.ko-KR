@@ -4,13 +4,14 @@ seo-description: Video360 뷰어에 대한 구성 속성입니다.
 seo-title: Video360Player.waiticon
 solution: Experience Manager
 title: Video360Player.waiticon
-topic: Dynamic Media
 uuid: c28cfba4-2bc9-4f02-9f99-7a8fa96ac592
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 32%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
 

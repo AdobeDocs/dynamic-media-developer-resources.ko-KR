@@ -4,13 +4,14 @@ seo-description: JobLogDefault/assetType에서 사용됩니다.
 seo-title: 작업 로그 파일 유형
 solution: Experience Manager
 title: 작업 로그 파일 유형
-topic: Dynamic Media Image Production System API
 uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 7%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 

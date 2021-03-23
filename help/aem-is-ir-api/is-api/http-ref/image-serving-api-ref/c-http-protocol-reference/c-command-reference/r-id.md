@@ -4,12 +4,13 @@ seo-description: 이미지/메타데이터 버전. 자주 변경되는 컨텐츠
 seo-title: id
 solution: Experience Manager
 title: id
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 3%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-이미지 제공에는 오래된 캐시 항목을 응용 프로그램에서 사용할 수 있는 가능성을 줄이는 데 도움이 되는 버전 관리 메커니즘이 포함되어 있습니다. 이 메커니즘은 이미지 데이터 및 메타데이터(예: 이미지 맵 또는 확대/축소 대상 데이터)에 대한 버전 식별자 문자열을 얻기 위해 `req=props`을(를) 사용하는 것입니다. 그런 다음 버전 식별자 문자열이 `id=` 명령으로 캐시 가능한 이미지 제공 요청에 추가됩니다.
+이미지 제공에는 오래된 캐시 항목을 응용 프로그램에서 사용할 수 있는 가능성을 줄이는 데 도움이 되는 버전 관리 메커니즘이 포함되어 있습니다. 이 메커니즘은 이미지 데이터 및 메타데이터(예: 이미지 맵 또는 확대/축소 대상 데이터)에 대한 버전 식별자 문자열을 얻기 위해 `req=props`을(를) 사용하여 이루어집니다. 그런 다음 버전 식별자 문자열이 `id=` 명령으로 캐시 가능한 이미지 제공 요청에 추가됩니다.
 
 소스 이미지 또는 메타데이터가 변경되면 해당 버전 ID 값도 변경됩니다. `id=` 명령에 최신 버전 ID 값을 포함하면 이전 캐시 항목에 더 이상 액세스할 수 없습니다.
 

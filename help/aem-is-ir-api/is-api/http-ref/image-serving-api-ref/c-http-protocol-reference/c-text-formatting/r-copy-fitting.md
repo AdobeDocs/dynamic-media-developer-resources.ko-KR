@@ -4,12 +4,13 @@ seo-description: textPs=는 글꼴 크기를 자동으로 조정하여 텍스트
 seo-title: 복사 맞춤
 solution: Experience Manager
 title: 복사 맞춤
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---

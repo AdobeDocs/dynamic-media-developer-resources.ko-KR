@@ -4,12 +4,13 @@ seo-description: 기본 이미지 모드입니다. 요청에 지정된 이미지
 seo-title: DefaultImageMode
 solution: Experience Manager
 title: DefaultImageMode
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5640f09-e1e3-473b-8fbc-84c6bfce2460
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---

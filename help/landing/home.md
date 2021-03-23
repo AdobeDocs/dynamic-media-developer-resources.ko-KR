@@ -3,10 +3,12 @@ title: Adobe Dynamic Media 개발자 리소스
 seo-title: 뷰어, 이미지 제공, 이미지 렌더링 및 이미지 제작을 위한 Adobe Dynamic Media 개발자 리소스 가이드
 description: Adobe Dynamic Media 개발자 리소스
 seo-description: 뷰어, 이미지 제공, 이미지 렌더링 및 이미지 제작을 위한 Adobe Dynamic Media 개발자 리소스 가이드
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---

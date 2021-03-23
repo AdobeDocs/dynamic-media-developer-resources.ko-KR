@@ -4,12 +4,13 @@ seo-description: 자산 배치를 게시할 준비가 되었는지 확인합니�
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '172'
 ht-degree: 11%
 
 ---

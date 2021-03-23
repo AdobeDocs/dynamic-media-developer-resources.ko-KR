@@ -4,12 +4,13 @@ seo-description: 기본 로케일 ID. locale=가 요청에 지정되지 않은 �
 seo-title: DefaultLocale
 solution: Experience Manager
 title: DefaultLocale
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '93'
 ht-degree: 3%
 
 ---

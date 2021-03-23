@@ -4,12 +4,13 @@ seo-description: eCatalog 검색 뷰어의 기본 클래스는 eCatalogSearchVie
 seo-title: eCatalog 검색 뷰어에 대한 Javascript API 참조
 solution: Experience Manager
 title: eCatalog 검색 뷰어에 대한 Javascript API 참조
-topic: Dynamic Media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

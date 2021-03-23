@@ -4,13 +4,14 @@ seo-description: 혼합 미디어 비디오 뷰어에 대한 구성 속성입니
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
-topic: Dynamic Media
 uuid: 2eb19ab7-fc9f-45c1-b7a3-d06a02f8b6aa
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 

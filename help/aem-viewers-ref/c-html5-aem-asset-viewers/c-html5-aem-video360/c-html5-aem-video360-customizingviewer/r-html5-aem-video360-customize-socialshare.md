@@ -4,12 +4,13 @@ seo-description: 기본적으로 소셜 공유 도구는 오른쪽 위 모서리
 seo-title: 소셜 공유
 solution: Experience Manager
 title: 소셜 공유
-topic: Dynamic Media
 uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '368'
 ht-degree: 1%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**예**  - 뷰어 컨테이너의 상단에서 4픽셀, 오른쪽에서 5픽셀, 크기가 28 x 28픽셀인 소셜 공유 도구를 설정하려면.
+**예**  - 뷰어 컨테이너의 상단에서 4픽셀, 오른쪽에서 5픽셀로 배치하고 크기가 28 x 28픽셀인 소셜 공유 도구를 설정하려면
 
 ```
 .s7interactivevideoviewer .s7socialshare { 

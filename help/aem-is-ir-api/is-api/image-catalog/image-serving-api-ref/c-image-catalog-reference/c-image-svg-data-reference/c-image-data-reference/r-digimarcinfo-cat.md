@@ -4,13 +4,14 @@ seo-description: Digimarc 이미지 정보. Digimarc 임베딩을 활성화하�
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 12%
+source-wordcount: '256'
+ht-degree: 11%
 
 ---
 
@@ -73,7 +74,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>복사 방지. </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +82,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>제한됨. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>복사 방지, 제한적 </p> </td> 
   </tr> 
   <tr> 

@@ -4,12 +4,13 @@ seo-description: 카탈로그 특성 파일은 모든 이름을 가질 수 있�
 seo-title: 카탈로그 속성 파일
 solution: Experience Manager
 title: 카탈로그 속성 파일
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>속성 값. 줄바꿈 문자 바로 앞에 하나의 백슬래시로 이스케이프되지 않는 한 <span class="codeph"> </span> 또는 <span class="codeph"> &lt;LF&gt;</span> 문자를 포함할 수 없습니다. </p></td> 
+  <td class="stentry"> <p>속성 값. 줄바꿈 문자 바로 앞의 단일 백슬래시로 이스케이프되지 않는 한 <span class="codeph"> </span> 또는 <span class="codeph"> &lt;LF&gt;</span> 문자를 포함할 수 없습니다. </p></td> 
  </tr> 
 </table>
 

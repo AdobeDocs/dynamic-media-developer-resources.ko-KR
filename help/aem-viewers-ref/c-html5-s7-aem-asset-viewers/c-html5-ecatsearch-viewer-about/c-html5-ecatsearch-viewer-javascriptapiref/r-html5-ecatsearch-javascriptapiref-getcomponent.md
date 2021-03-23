@@ -4,12 +4,13 @@ seo-description: eCatalog 뷰어에 대한 JavaScript API 참조
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: 4e5b79b5-4a2b-427a-b527-81247a6b740d
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---

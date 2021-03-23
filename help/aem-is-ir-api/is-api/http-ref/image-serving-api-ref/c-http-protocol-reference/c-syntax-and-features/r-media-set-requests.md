@@ -4,12 +4,13 @@ seo-description: 이미지 제공은 특정 레코드에 대한 카탈로그 Ima
 seo-title: 미디어 집합 요청
 solution: Experience Manager
 title: 미디어 집합 요청
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---

@@ -4,13 +4,14 @@ seo-description: 이미지를 회전합니다. 이미지, 텍스트 또는 단�
 seo-title: 회전
 solution: Experience Manager
 title: 회전
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 

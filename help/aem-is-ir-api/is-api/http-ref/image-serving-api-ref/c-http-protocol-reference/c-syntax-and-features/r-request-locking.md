@@ -4,12 +4,13 @@ seo-description: 요청 변경 기회를 줄이기 위해 간단한 잠금 기�
 seo-title: 요청 잠금
 solution: Experience Manager
 title: 요청 잠금
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---

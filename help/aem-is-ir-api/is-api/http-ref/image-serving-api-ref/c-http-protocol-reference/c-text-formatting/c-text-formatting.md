@@ -4,12 +4,13 @@ seo-description: 이미지 제공에서는 text= 및 textPs= 명령을 사용하
 seo-title: 텍스트 서식
 solution: Experience Manager
 title: 텍스트 서식
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 이미지 제공에서는 text= 및 textPs= 명령을 사용하여 액세스할 수 있는 텍스트 렌더링에 대한 여러 가지 대체 요소를 제공합니다.
 
-`textPs=` adobe photoshop 및 Illustrator으로 렌더링된 텍스트와 유사성이 높은 수준을 제공합니다. `text=` 은 Windows Wordpad에서 렌더링된 텍스트와 상당히 호환됩니다.
+`textPs=` Adobe Photoshop 및 Illustrator으로 렌더링된 텍스트와 유사성이 높은 수준을 제공합니다. `text=` 은 Windows Wordpad에서 렌더링된 텍스트와 상당히 호환됩니다.
 
 >[!NOTE]
 >

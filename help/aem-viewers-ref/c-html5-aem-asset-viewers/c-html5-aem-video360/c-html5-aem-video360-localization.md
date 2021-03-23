@@ -4,12 +4,13 @@ seo-description: 뷰어가 표시하는 특정 컨텐츠는 현지화를 따릅�
 seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-topic: Dynamic Media
 uuid: d5e75af0-03d6-4357-a540-4094313ed026
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---

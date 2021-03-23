@@ -4,12 +4,13 @@ seo-description: 모든 뷰어 구성 요소는 ARIA(Accessible Rich Internet Ap
 seo-title: 보조 기술 지원
 solution: Experience Manager
 title: 보조 기술 지원
-topic: Dynamic Media
 uuid: 6312f2f7-e1fa-4536-bae4-d8bc7735d5af
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합,접근성
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

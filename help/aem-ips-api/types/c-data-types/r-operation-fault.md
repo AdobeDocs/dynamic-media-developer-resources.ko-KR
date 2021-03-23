@@ -4,13 +4,14 @@ seo-description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하�
 seo-title: 작업 오류
 solution: Experience Manager
 title: 작업 오류
-topic: Dynamic Media Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '70'
+ht-degree: 8%
 
 ---
 

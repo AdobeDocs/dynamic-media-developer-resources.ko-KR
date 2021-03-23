@@ -4,12 +4,13 @@ seo-description: layer= 명령을 사용하면 레이어에 이름을 지정할 
 seo-title: 이름이 지정된 레이어
 solution: Experience Manager
 title: 이름이 지정된 레이어
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dad30027-338b-4387-9a14-b26c1b925b18
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---

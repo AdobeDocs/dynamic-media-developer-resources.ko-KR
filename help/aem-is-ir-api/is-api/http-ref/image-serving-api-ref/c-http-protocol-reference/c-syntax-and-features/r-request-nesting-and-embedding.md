@@ -4,12 +4,13 @@ seo-description: 이미지 제공은 이미지 제공 요청을 무제한으로 
 seo-title: 중첩 및 포함 요청
 solution: Experience Manager
 title: 중첩 및 포함 요청
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -154,7 +155,7 @@ FXG 그래픽 렌더러(즉, [!DNL AGMServer])가 설치되고 이미지 제공 
 
 **Dynamic Media 이미지 렌더링에 대한 요청 포함**
 
-[!DNL myCatalog/myTemplate];에 저장된 템플릿 사용dynamic media 이미지 렌더링을 사용하여 템플릿의 layer2 이미지를 생성합니다.
+[!DNL myCatalog/myTemplate];에 저장된 템플릿 사용Dynamic Media 이미지 렌더링을 사용하여 템플릿의 layer2 이미지를 생성합니다.
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

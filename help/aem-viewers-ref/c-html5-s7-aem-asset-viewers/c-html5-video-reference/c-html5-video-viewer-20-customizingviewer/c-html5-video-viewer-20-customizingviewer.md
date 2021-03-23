@@ -1,14 +1,15 @@
 ---
 description: 비디오 뷰어 사용자 정의
-keywords: responsive
+keywords: 반응형
 solution: Experience Manager
 title: 비디오 뷰어 사용자 정의
-topic: Dynamic Media
 uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
@@ -118,7 +119,7 @@ CSS 마커 접근 방식의 예로 기본 뷰어 CSS 파일을 사용합니다.
 
 CSS 미디어 쿼리 접근 방식을 사용하면 다음과 같이 장치 감지를 사용하여 CSS를 구성해야 합니다.
 
-* 먼저, 데스크톱 관련 섹션은 모든 화면에 공통으로 또는 데스크톱 관련 모든 속성을 정의합니다.
+* 먼저, 데스크탑별 섹션에서는 데스크탑별 속성이나 모든 화면에 공통되는 모든 속성을 정의합니다.
 * 둘째, 4개의 미디어 쿼리는 위에서 정의한 순서대로 진행되어야 하며 해당 장치 유형에 대한 CSS 규칙을 제공해야 합니다.
 
 각 미디어 쿼리에서 전체 뷰어 CSS를 복제할 필요가 없습니다. 지정된 장치에 고유한 속성만 미디어 쿼리 내에서 재정의됩니다.

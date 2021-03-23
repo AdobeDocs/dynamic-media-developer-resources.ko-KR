@@ -4,12 +4,13 @@ seo-description: 캐시 제어. 선택적으로 클라이언트측 캐싱(브라
 seo-title: 캐시
 solution: Experience Manager
 title: 캐시
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8af89b67-39d5-43e5-a58d-2cd509a1e373
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---

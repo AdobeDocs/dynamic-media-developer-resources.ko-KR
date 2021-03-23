@@ -4,12 +4,13 @@ seo-description: 포함 공유 도구는 도구를 활성화하면 표시되는 
 seo-title: 공유 포함
 solution: Experience Manager
 title: 공유 포함
-topic: Dynamic Media
 uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2635'
+source-wordcount: '2646'
 ht-degree: 2%
 
 ---
@@ -663,7 +664,7 @@ background-color: #ffffff;
 }
 ```
 
-포함 코드는 컨테이너로 래핑되고 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+포함 코드는 컨테이너로 래핑되고 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer

@@ -4,12 +4,13 @@ seo-description: 이 단추는 닫힌 캡션 표시를 켜거나 끕니다. 캡�
 seo-title: 캡션 단추
 solution: Experience Manager
 title: 캡션 단추
-topic: Dynamic Media
 uuid: a3895a9a-972a-4259-9418-b78f7c904bd4
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---

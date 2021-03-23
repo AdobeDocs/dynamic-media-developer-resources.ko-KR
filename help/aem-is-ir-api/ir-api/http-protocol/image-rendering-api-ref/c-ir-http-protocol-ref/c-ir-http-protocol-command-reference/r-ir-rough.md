@@ -4,12 +4,13 @@ seo-description: 재료 서피스 거칠음. 재료 서피스의 상대 거칠�
 seo-title: 거친
 solution: Experience Manager
 title: 거친
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '194'
 ht-degree: 2%
 
 ---

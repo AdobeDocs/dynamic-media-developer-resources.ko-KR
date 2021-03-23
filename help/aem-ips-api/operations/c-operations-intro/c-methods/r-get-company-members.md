@@ -4,13 +4,14 @@ seo-description: 회사 취급에 의해 지정된 회사의 사용자를 반환
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '108'
+ht-degree: 14%
 
 ---
 

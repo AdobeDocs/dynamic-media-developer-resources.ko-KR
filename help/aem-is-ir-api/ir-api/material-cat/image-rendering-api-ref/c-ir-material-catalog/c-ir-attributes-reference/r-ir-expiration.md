@@ -4,12 +4,13 @@ seo-description: 기본 클라이언트 캐시 시간을 라이브로 설정합�
 seo-title: 만료
 solution: Experience Manager
 title: 만료
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---

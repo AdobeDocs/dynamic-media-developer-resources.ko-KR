@@ -4,12 +4,13 @@ seo-description: 세션 카탈로그는 모든 src=, vignette= 및 icc= 명령�
 seo-title: 세션 카탈로그
 solution: Experience Manager
 title: 세션 카탈로그
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---

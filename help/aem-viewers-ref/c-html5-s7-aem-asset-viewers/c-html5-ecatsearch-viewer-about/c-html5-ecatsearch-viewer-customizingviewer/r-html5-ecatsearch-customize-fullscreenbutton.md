@@ -4,12 +4,13 @@ seo-description: 사용자가 클릭할 때 뷰어가 전체 화면 모드로 �
 seo-title: 전체 화면 단추
 solution: Experience Manager
 title: 전체 화면 단추
-topic: Dynamic Media
 uuid: f3b4d5b5-56ec-4169-ba7d-92bdd51a9e83
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---

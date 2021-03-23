@@ -2,11 +2,12 @@
 description: 모든 로그 파일은 TC 디렉토리에 지정된 동일한 로그 폴더에 기록됩니다.
 solution: Experience Manager
 title: 서버 로깅
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---

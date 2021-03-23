@@ -2,11 +2,12 @@
 description: 이미지 집합 데이터. Dynamic Media 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
 solution: Experience Manager
 title: 이미지 집합
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API,이미지 세트
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 2%
 
 ---
@@ -90,7 +91,7 @@ ht-degree: 2%
 
 **미디어 집합**
 
-미디어 세트의 각 항목은 이미지, 기본 견본 세트, 계층적 견본 세트, 기본 스핀 세트, 2차원 스핀 세트, 페이지 세트 또는 비디오 에셋으로 구성될 수 있습니다. 각 미디어 세트 항목에는 선택 사항 견본 및 유형 식별자가 포함될 수도 있습니다.
+미디어 세트의 각 항목은 이미지, 기본 견본 세트, 계층적 견본 세트, 기본 스핀 세트, 2차원 스핀 세트, 페이지 세트 또는 비디오 에셋으로 구성될 수 있습니다. 각 미디어 세트 항목에는 선택 사항 견본 및 문자 식별자가 포함될 수도 있습니다.
 
 | `*`mediaSet`*` | `*``* &#42;[ , *`항목`* ]` |
 |---|---|

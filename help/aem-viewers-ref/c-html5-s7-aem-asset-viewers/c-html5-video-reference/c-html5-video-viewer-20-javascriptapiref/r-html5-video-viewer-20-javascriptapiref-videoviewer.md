@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어용 JavaScript API 참조.
 seo-title: VideoViewer
 solution: Experience Manager
 title: VideoViewer
-topic: Dynamic Media
 uuid: ad180d92-3e5c-4ded-b82b-79c23aa5c597
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---

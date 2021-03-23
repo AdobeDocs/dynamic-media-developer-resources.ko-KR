@@ -4,12 +4,13 @@ seo-description: vntc는 처리 중 오류가 발생하는지에 따라 다음 �
 seo-title: 반환
 solution: Experience Manager
 title: 반환
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 06c216c9-7618-439c-9900-1cdf1b3ba06f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---

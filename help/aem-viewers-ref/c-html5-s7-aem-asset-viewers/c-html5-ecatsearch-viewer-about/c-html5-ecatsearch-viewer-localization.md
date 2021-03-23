@@ -4,12 +4,13 @@ seo-description: eCatalog 뷰어에 표시되는 특정 컨텐츠는 확대/축�
 seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -397,7 +398,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY]  </span> </p> </td> 
-   <td colname="col2"> <p>로드 시 뷰어에서 생성하는 페이지 레이블입니다. </p> <p>해당 심볼의 이름은 템플릿입니다. 여기서 <span class="codeph"> XX </span>은 가로 방향에서 0의 스프레드 색인이고, 선택적 <span class="codeph"> YY </span>는 <span class="codeph"> XX </span>가 대상으로 하는 스프레드 내에 0의 기반 페이지 색인입니다. </p> <p>처음에 로드된 에셋에만 적용됩니다.<span class="codeph"> setAsset() </span> API 호출을 사용하여 자산이 변경되는 경우 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>로드 시 뷰어에서 생성하는 페이지 레이블입니다. </p> <p>해당 심볼의 이름은 템플릿입니다. 여기서 <span class="codeph"> XX </span>은 가로 방향에서 0의 스프레드 색인이고, 선택적 <span class="codeph"> Y </span>은 <span class="codeph"> XX </span>가 대상으로 하는 스프레드 내에 0의 기반 페이지 색인입니다. </p> <p>처음에 로드된 에셋에만 적용됩니다.<span class="codeph"> setAsset() </span> API 호출을 사용하여 자산이 변경되는 경우 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM  </span> </p> </td> 

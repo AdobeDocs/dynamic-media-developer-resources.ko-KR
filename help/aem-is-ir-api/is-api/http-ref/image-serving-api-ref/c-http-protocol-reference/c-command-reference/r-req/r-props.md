@@ -4,12 +4,13 @@ seo-description: 응답 데이터 속성입니다. 현재 요청을 이미지 �
 seo-title: props
 solution: Experience Manager
 title: prop
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '401'
 ht-degree: 7%
 
 ---

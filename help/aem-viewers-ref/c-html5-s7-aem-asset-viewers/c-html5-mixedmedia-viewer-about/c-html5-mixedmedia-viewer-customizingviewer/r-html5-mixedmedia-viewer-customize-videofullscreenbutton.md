@@ -4,12 +4,13 @@ seo-description: 사용자가 전체 화면 단추를 클릭하면 뷰어가 전
 seo-title: 비디오 전체 화면 단추
 solution: Experience Manager
 title: 비디오 전체 화면 단추
-topic: Dynamic Media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---

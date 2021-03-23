@@ -4,13 +4,14 @@ seo-description: Video360 뷰어에 대한 구성 속성입니다.
 seo-title: Video360Player.progressivebitrate
 solution: Experience Manager
 title: Video360Player.progressivebitrate
-topic: Dynamic Media
 uuid: 438c18d7-e7ac-4834-8445-def590264448
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 9%
+source-wordcount: '114'
+ht-degree: 8%
 
 ---
 

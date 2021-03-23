@@ -4,12 +4,13 @@ seo-description: 확대/축소 상호 작용 유형을 설정합니다.
 seo-title: zoomMode
 solution: Experience Manager
 title: zoomMode
-topic: Dynamic Media
 uuid: fdbe7ab6-47db-46cf-8a0d-085c66d4b0f8
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---

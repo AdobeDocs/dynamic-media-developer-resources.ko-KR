@@ -4,12 +4,13 @@ seo-description: searchAssets에 사용할 검색어를 추가합니다.
 seo-title: 메타데이터 조건
 solution: Experience Manager
 title: 메타데이터 조건
-topic: Dynamic Media Image Production System API
 uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+feature: Dynamic Media Classic,SDK/API,메타데이터
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---

@@ -4,12 +4,13 @@ seo-description: SvgRender 구성 요소는 독립적인 Java 애플리케이션
 seo-title: SVG 구성
 solution: Experience Manager
 title: SVG 구성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f6e131af-283e-4649-b349-123489c0838d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '83'
 ht-degree: 2%
 
 ---

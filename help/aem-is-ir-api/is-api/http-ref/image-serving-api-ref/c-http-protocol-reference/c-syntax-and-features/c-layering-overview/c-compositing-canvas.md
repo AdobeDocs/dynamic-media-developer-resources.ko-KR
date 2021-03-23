@@ -4,12 +4,13 @@ seo-description: 레이어는 레이어= 명령으로 지정한 순서대로 합
 seo-title: 합성 캔버스
 solution: Experience Manager
 title: 합성 캔버스
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

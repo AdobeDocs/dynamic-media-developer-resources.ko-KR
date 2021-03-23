@@ -4,13 +4,14 @@ seo-description: 비디오 이미지 뷰어용 JavaScript API 참조.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: b5f01b3b-6ea8-4604-860b-edc9ccc900b3
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 3%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 

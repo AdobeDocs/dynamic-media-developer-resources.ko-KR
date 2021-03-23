@@ -4,12 +4,13 @@ seo-description: 100% 크기 decal material 객체의 폭, 높이 및 두께입�
 seo-title: 크기
 solution: Experience Manager
 title: 크기
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
@@ -29,7 +30,7 @@ decal 객체에 그림자를 추가하려면 두께 값을 제공합니다. 다�
 
 ## 기본값 {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0 이것은 decal 크기를 카탈로그::Resolution에 따라 결정하고 개체에 두께가 없으므로 그림자가 렌더링되지 않음을 나타냅니다.
+0,0,0 이것은 decal 크기를 카탈로그::Resolution에 따라 결정하며 개체에 두께가 없으므로 그림자가 렌더링되지 않음을 나타냅니다.
 
 ## 예제 {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

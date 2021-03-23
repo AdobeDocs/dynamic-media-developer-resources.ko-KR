@@ -2,12 +2,13 @@
 description: HTTPS 비디오 전달
 solution: Experience Manager
 title: HTTPS 비디오 전달
-topic: Dynamic Media
 uuid: acda9c8f-e8f4-4855-9b14-82838ec5a1b9
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---

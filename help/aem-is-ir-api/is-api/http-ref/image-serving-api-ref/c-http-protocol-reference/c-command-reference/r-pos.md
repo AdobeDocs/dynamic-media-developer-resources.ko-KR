@@ -4,13 +4,14 @@ seo-description: 레이어 위치.
 seo-title: 오퍼
 solution: Experience Manager
 title: 오퍼
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 3%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 

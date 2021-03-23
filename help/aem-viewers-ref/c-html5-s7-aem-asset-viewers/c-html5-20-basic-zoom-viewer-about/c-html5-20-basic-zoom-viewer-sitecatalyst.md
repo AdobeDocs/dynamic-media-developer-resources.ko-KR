@@ -4,12 +4,13 @@ seo-description: 기본 확대/축소 뷰어는 기본적으로 Adobe Analytics 
 seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-topic: Dynamic Media
 uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
+feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
+role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---

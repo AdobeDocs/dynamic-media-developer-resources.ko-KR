@@ -4,13 +4,14 @@ seo-description: PostScriptOptions/colorspace에서 사용됩니다.
 seo-title: PostScript 색상 공간 모드
 solution: Experience Manager
 title: PostScript 색상 공간 모드
-topic: Dynamic Media Image Production System API
 uuid: 88fb9809-cff6-4a6b-8f45-dec528dce600
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '30'
+ht-degree: 6%
 
 ---
 

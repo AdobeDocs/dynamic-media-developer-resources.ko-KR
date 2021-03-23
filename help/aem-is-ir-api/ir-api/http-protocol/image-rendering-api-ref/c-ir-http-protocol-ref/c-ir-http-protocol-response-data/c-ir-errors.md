@@ -4,12 +4,13 @@ seo-description: 요청을 성공적으로 완료할 수 없는 경우 서버는
 seo-title: 오류
 solution: Experience Manager
 title: 오류
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5984fa9e-63c8-426b-be5f-48f66fc918c3
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '204'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 이미지 색상화 어두운 영역과 밝은 영역을 유지
 seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '329'
 ht-degree: 4%
 
 ---

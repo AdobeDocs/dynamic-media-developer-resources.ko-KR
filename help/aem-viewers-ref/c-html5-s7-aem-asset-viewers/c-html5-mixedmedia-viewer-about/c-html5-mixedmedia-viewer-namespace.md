@@ -2,12 +2,13 @@
 description: 뷰어 SDK 네임스페이스
 solution: Experience Manager
 title: 뷰어 SDK 네임스페이스
-topic: Dynamic Media
 uuid: f0a00ad4-8b3e-4ee6-8071-41bf8fa6bf33
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---

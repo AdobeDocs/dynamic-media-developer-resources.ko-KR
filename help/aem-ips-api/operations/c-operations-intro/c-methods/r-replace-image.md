@@ -4,13 +4,14 @@ seo-description: 이미지 자산에 대한 이미지 데이터를 대체합니�
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
-topic: Dynamic Media Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 15%
+source-wordcount: '120'
+ht-degree: 14%
 
 ---
 

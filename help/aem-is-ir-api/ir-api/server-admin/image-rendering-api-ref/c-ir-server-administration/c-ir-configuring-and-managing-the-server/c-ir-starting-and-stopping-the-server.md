@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링은 Image Serving의 이미지 서버 및 �
 seo-title: 서버 시작 및 중지
 solution: Experience Manager
 title: 서버 시작 및 중지
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: edd588ce-fbc0-4003-b007-a5dc9a84ad8a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---

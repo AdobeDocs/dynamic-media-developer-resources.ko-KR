@@ -4,13 +4,14 @@ seo-description: Jpeg 크기(KB)입니다. JPEG 응답의 최대 크기(KB)를 �
 seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 832163ca-0554-481d-b87f-bf322f415274
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 4%
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +29,7 @@ Jpeg 크기(KB)입니다. JPEG 응답의 최대 크기(KB)를 지정합니다.
  </tr> 
 </table>
 
-이 값이 양의 값으로 설정되고 지정된 JPEG 품질에 대한 JPEG 응답이 이 값을 초과하지 않으면 해당 이미지가 응답으로 반환됩니다. 그렇지 않으면 JPEG 품질이 지정된 크기에 맞는 이미지를 만들거나 맞지 않는 이미지를 만들 때까지 감소합니다. 후자의 경우, 요청이 오류와 함께 실패합니다.
+이 값이 양의 값으로 설정되어 있고 지정된 JPEG 품질로 구성된 JPEG 응답이 이 값을 초과하지 않으면 해당 이미지가 응답으로 반환됩니다. 그렇지 않으면 JPEG 품질이 지정된 크기에 맞는 이미지를 만들거나 맞지 않는 이미지를 만들 때까지 감소합니다. 후자의 경우, 요청이 오류와 함께 실패합니다.
 
 값이 0이면 응답이 크기에 의해 제한되지 않음을 의미합니다.
 

@@ -4,12 +4,13 @@ seo-description: 블랙포인트 보상. icc=로 명시적으로 선택하지 �
 seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 4%
 
 ## 속성 {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-플래그. 블랙포인트 보정을 사용하려면 0으로, 검은 점 보정을 사용하려면 1로 설정합니다.
+플래그. 블랙포인트 보상을 활성화하려면 0을, 비활성화는 1을 설정합니다.
 
 ## 기본값 {#section-5bc6703a43a149f18af88b70baae568f}
 

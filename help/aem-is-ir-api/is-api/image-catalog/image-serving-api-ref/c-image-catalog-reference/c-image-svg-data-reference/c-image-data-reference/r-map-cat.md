@@ -4,12 +4,13 @@ seo-description: 이미지 맵 데이터. HTML <AREA> 요소 없음, 앞뒤로 �
 seo-title: 맵
 solution: Experience Manager
 title: 맵
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 5%
 
 ---

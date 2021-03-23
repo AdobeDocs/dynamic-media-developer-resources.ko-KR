@@ -4,13 +4,14 @@ seo-description: URL을 통해 자산을 업로드하는 경우.
 seo-title: UploadUrl
 solution: Experience Manager
 title: UploadUrl
-topic: Dynamic Media Image Production System API
 uuid: 83869ee3-a5bb-4f6f-8b09-6611861ed618
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -25,6 +26,6 @@ URL을 통해 자산을 업로드하는 경우.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`sourceUrl`*` | `xsd:string` | 자산이 업로드되는 소스 URL입니다. |
+| `*`sourceUrl`*` | `xsd:string` | 자산이 업로드된 소스 URL입니다. |
 | `*`destPath`*` | `xsd:string` | 업로드할 파일의 IPS 파일 경로 및 이름입니다. |
 

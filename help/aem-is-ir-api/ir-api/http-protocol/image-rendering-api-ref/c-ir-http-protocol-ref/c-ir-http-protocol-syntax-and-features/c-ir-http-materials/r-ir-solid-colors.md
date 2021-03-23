@@ -4,12 +4,13 @@ seo-description: 이 재료 부문에는 벽, 목조목 및 트림, 자동차, �
 seo-title: 단색
 solution: Experience Manager
 title: 단색
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---

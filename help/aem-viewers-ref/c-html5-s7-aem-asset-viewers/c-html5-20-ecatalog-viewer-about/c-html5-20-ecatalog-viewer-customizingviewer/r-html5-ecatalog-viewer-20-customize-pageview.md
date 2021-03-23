@@ -4,12 +4,13 @@ seo-description: 기본 보기는 카탈로그 이미지로 구성됩니다. 다
 seo-title: 페이지 보기
 solution: Experience Manager
 title: 페이지 보기
-topic: Dynamic Media
 uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '411'
 ht-degree: 2%
 
 ---

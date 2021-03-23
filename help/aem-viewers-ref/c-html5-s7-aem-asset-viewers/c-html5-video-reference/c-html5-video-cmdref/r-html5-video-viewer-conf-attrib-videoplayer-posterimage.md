@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어에 대한 구성 속성입니다.
 seo-title: VideoPlayer.posterimage
 solution: Experience Manager
 title: VideoPlayer.posterimage
-topic: Dynamic Media
 uuid: 59d81a72-ac17-4c32-ab47-89bd14dc17a5
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---

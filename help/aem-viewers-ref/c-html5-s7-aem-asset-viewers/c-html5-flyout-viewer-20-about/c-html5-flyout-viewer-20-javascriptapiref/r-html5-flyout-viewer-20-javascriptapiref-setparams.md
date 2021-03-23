@@ -4,12 +4,13 @@ seo-description: 플라이아웃 뷰어에 대한 JavaScript API 참조입니다
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 12a513d3-32a9-411d-965f-f0eaf553d98d
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---

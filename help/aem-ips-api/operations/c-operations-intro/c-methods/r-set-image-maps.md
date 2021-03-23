@@ -4,12 +4,13 @@ seo-description: 자산에 대한 이미지 맵을 설정합니다.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '148'
 ht-degree: 10%
 
 ---

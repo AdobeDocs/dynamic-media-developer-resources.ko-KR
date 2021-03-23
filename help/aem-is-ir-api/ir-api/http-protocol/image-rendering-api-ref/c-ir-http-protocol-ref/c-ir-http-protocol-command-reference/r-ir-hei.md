@@ -4,12 +4,13 @@ seo-description: 이미지 높이를 회신합니다. 이미지의 종횡비를 
 seo-title: hei
 solution: Experience Manager
 title: hei
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -32,7 +33,7 @@ ht-degree: 2%
 
 `wid=` 서버 `hei=` 에서 반환되는 이미지의 크기를 정의하려면 함께 작업합니다. `scl=`이 URL에서 `wid=` 또는 `hei=` 뒤에 오는 경우 이러한 명령을 취소하고 `scl=`은 서버에서 반환되는 이미지의 크기를 정의합니다.
 
-그러나 URL에서 `scl=` 뒤에 `wid=` 또는 `hei=`이 오는 경우 `scl=` 및 `wid=`/ `hei=`는 서버에서 반환되는 이미지의 크기를 정의합니다.
+그러나 URL에서 `scl=` 뒤에 `wid=` 또는 `hei=`이 오는 경우 `scl=` 및 `wid=`/ `hei=`는 서버에서 반환된 이미지의 크기를 정의합니다.
 
 >[!NOTE]
 >

@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어용 JavaScript API 참조.
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: 2ee5bddc-957c-4813-9285-d64b9ac7d590
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: '[재생/일시 정지] 단추를 사용하면 회전판 자동
 seo-title: 재생 일시 정지 단추
 solution: Experience Manager
 title: 재생 일시 정지 단추
-topic: Dynamic Media
 uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
+feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 주소 필터 요소를 참조하십시오. <rule> 요소의 �
 seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '171'
 ht-degree: 4%
 
 ---

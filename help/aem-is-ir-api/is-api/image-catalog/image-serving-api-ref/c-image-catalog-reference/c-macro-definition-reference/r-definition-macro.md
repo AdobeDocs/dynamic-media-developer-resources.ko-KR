@@ -4,12 +4,13 @@ seo-description: 매크로 정의입니다. 하나 이상의 전체 명령으로
 seo-title: 정의
 solution: Experience Manager
 title: 정의
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '130'
 ht-degree: 5%
 
 ---

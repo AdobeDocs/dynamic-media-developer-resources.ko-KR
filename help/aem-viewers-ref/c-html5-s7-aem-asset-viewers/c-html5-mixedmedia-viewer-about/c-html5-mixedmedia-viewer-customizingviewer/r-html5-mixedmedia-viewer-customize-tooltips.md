@@ -4,12 +4,13 @@ seo-description: 데스크톱 시스템에서는 단추와 같은 일부 사용�
 seo-title: 툴팁
 solution: Experience Manager
 title: 툴팁
-topic: Dynamic Media
 uuid: 8c080915-4b5b-4d81-b109-61f4e8a2d524
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '165'
 ht-degree: 5%
 
 ---

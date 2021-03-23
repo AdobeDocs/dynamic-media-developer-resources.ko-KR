@@ -4,12 +4,13 @@ seo-description: 페이지 표시기에는 현재 페이지 색인과 총 페이
 seo-title: 페이지 표시기
 solution: Experience Manager
 title: 페이지 표시기
-topic: Dynamic Media
 uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '307'
 ht-degree: 3%
 
 ---

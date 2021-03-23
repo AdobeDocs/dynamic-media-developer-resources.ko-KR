@@ -4,13 +4,14 @@ seo-description: 이미지의 일부를 마스크합니다. 마스크는 항상 
 seo-title: 마스크
 solution: Experience Manager
 title: 마스크
-topic: Dynamic Media Image Production System API
 uuid: 06ac0f76-13ce-434b-ac60-6a2af9648f92
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 

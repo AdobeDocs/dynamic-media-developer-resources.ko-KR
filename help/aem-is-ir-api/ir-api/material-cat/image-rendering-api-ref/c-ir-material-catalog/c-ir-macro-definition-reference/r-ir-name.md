@@ -4,13 +4,14 @@ seo-description: 매크로 이름. 매크로 이름은 $를 제외하고 알파,
 seo-title: 이름
 solution: Experience Manager
 title: 이름
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5b81b450-5c3d-4a9e-95dd-6f12b6a9a5ae
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 

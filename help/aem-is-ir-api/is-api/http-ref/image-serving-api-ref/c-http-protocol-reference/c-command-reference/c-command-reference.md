@@ -4,12 +4,13 @@ seo-description: 이 섹션에서는 HTTP 프로토콜 명령에 대해 설명�
 seo-title: 명령 참조
 solution: Experience Manager
 title: 명령 참조
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '230'
 ht-degree: 10%
 
 ---

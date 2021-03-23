@@ -4,13 +4,14 @@ seo-description: 텍스처 반복 모드. 대상 표면을 칠하기 위해 텍�
 seo-title: 반복
 solution: Experience Manager
 title: 반복
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 19%
+source-wordcount: '150'
+ht-degree: 18%
 
 ---
 

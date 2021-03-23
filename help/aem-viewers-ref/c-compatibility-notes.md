@@ -4,12 +4,13 @@ seo-description: 운영 체제, 브라우저 및 모바일 디바이스에 대�
 seo-title: 호환성 정보
 solution: Experience Manager
 title: 호환성 정보
-topic: Dynamic Media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
+feature: Dynamic Media Classic,뷰어,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---

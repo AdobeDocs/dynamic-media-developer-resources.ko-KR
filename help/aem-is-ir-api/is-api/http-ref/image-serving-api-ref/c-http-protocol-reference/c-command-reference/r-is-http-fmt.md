@@ -4,12 +4,13 @@ seo-description: 응답 이미지 형식을 참조하십시오.
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '864'
 ht-degree: 5%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 5%
 | `swf` | Adobe AS2 swf 파일에 포함된 손실 JPEG |
 | `swf-alpha` | Adobe AS2 swf 파일에 임베드된 손실 JPEG 및 압축 마스크 |
 | `swf3` | Adobe AS3 swf 파일에 포함된 손실 JPEG |
-| `swf3-alpha` | Adobe AS3 swf 파일에 포함된 손실 JPEG 및 압축 마스크입니다. **참고**:swf 및 swf-alpha 형식은 ActionScript 2 응용 프로그램(Flash Player 8 및 이전 버전)에 가장 적합합니다. actionscript3 응용 프로그램(Flash Player 9 이상)에 사용하는 경우 swf3 및 swf3-alpha를 사용하는 것이 좋습니다. |
+| `swf3-alpha` | Adobe AS3 swf 파일에 포함된 손실 JPEG 및 압축 마스크입니다. **참고**:swf 및 swf-alpha 형식은 ActionScript 2 응용 프로그램(Flash Player 8 및 이전 버전)에 가장 적합합니다. ActionScript3 응용 프로그램(Flash Player 9 이상)에 사용하는 경우 swf3 및 swf3-alpha를 사용하는 것이 좋습니다. |
 | `m3u8` | Apple 스트리밍 서버 매니페스트 형식 |
 | `f4m` | Flash 스트리밍 서버 매니페스트 형식 |
 | `webp` | 손실 및 손실 없는 WebP |

@@ -4,12 +4,13 @@ seo-description: 이 문서에서는 서버 관리 문제에 대해 설명하고
 seo-title: 서버 관리 서문
 solution: Experience Manager
 title: 서버 관리 서문
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>규칙 세트::항목 </p></td> 
-  <td class="stentry"> <p>'ruleset::'이 접두사로 붙은 이름은 URL 사전 처리 규칙 세트의 요소를 나타냅니다. </p></td> 
+  <td class="stentry"> <p>'규칙 세트::'이 접두사로 붙은 이름은 URL 사전 처리 규칙 세트의 요소를 나타냅니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>기본값::Item </p></td> 

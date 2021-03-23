@@ -4,12 +4,13 @@ seo-description: 텍스트 문자열 현지화를 사용하면 이미지 카탈�
 seo-title: 텍스트 문자열 현지화
 solution: Experience Manager
 title: 텍스트 문자열 현지화
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '693'
 ht-degree: 3%
 
 ---
@@ -54,7 +55,7 @@ ht-degree: 3%
 
 ## 문자열 구문 {#section-d12320edf300409f8e17565b143acafc}
 
-이미지 카탈로그의 현지화 사용 가능 *`string`* 요소는 하나 이상의 현지화된 문자열로 구성되며 각각 현지화 토큰이 표시됩니다.
+이미지 카탈로그의 현지화 사용 가능 *`string`* 요소는 하나 이상의 현지화된 문자열로 구성되어 있으며 각 문자열은 현지화 토큰으로 이어집니다.
 
 <table id="simpletable_CEFDAE8395E6493E902D58A7E5A25BC7"> 
  <tr class="strow"> 

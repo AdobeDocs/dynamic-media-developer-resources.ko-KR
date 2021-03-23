@@ -4,12 +4,13 @@ seo-description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거�
 seo-title: 압축 해제 옵션
 solution: Experience Manager
 title: 압축 해제 옵션
-topic: Dynamic Media Image Production System API
 uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '121'
 ht-degree: 4%
 
 ---

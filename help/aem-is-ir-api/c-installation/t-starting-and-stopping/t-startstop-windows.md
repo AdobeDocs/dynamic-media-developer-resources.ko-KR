@@ -2,11 +2,12 @@
 description: Windows에서 이미지 서버 및 플랫폼 서버를 시작/중지하기 위한 몇 가지 메커니즘이 있습니다.
 solution: Experience Manager
 title: Windows에서 시작 또는 중지
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---

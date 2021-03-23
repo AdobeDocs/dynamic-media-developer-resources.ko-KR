@@ -4,12 +4,13 @@ seo-description: Dynamic Media Image Serving을 업그레이드할 때 이 절�
 seo-title: IS 4.7.4 이상에서 업데이트
 solution: Experience Manager
 title: IS 4.7.4 이상에서 업데이트
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

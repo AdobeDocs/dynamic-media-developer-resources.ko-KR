@@ -1,16 +1,17 @@
 ---
 description: 기본 확대/축소 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 비헤이비어 사용자 지정은 사용자 정의 CSS를 만들어 수행합니다.
-keywords: responsive
+keywords: 반응형
 seo-description: 기본 확대/축소 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 비헤이비어 사용자 지정은 사용자 정의 CSS를 만들어 수행합니다.
 seo-title: 기본 확대/축소 뷰어 사용자 정의
 solution: Experience Manager
 title: 기본 확대/축소 뷰어 사용자 정의
-topic: Dynamic Media
 uuid: 9f3c203e-ff6f-4bf1-a1dc-26495412af45
+feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---

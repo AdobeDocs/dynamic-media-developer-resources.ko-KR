@@ -4,12 +4,13 @@ seo-description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단�
 seo-title: Twitter 공유
 solution: Experience Manager
 title: Twitter 공유
-topic: Dynamic Media
 uuid: f5f1182f-f95c-43c4-b39f-1b50ed4a5458
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---

@@ -4,12 +4,13 @@ seo-description: IPS 휴지통에서 에셋을 비웁니다.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '260'
 ht-degree: 7%
 
 ---

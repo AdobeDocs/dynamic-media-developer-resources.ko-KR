@@ -4,13 +4,14 @@ seo-description: Apple 스트리밍 서버 URL 접두어. req=mbrSet을 사용�
 seo-title: HttpAppleStreamingContext
 solution: Experience Manager
 title: HttpAppleStreamingContext
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e333c24b-b48f-439f-aa86-d223b533b9b6
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 6%
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 

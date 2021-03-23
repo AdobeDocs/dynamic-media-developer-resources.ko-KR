@@ -4,12 +4,13 @@ seo-description: 뷰어를 사용하면 카탈로그 내용을 프린터로 출�
 seo-title: 인쇄 기능
 solution: Experience Manager
 title: 인쇄 기능
-topic: Dynamic Media
 uuid: 4932042a-1421-4589-8bf5-88bbe38d774d
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 기본 보기는 정적 이미지, 정적 이미지 위쪽의 �
 seo-title: 플라이아웃 확대/축소 보기
 solution: Experience Manager
 title: 플라이아웃 확대/축소 보기
-topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
+feature: Dynamic Media Classic,뷰어,SDK/API,인라인 확대/축소
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---

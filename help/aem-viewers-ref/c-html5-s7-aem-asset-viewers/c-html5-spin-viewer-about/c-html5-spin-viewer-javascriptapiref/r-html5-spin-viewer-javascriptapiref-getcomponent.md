@@ -4,12 +4,13 @@ seo-description: 회전 뷰어용 JavaScript API 참조
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic Media
 uuid: c7585cd5-6a95-43b1-8f68-c1eba868164c
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---

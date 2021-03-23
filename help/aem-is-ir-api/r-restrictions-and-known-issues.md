@@ -4,12 +4,13 @@ seo-description: Dynamic Media 이미지 제공 사용 시 고려해야 하는 �
 seo-title: 제한 및 알려진 문제
 solution: Experience Manager
 title: 제한 및 알려진 문제
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -56,7 +57,7 @@ Dynamic Media 이미지 제공 사용 시 고려해야 하는 몇 가지 제한 
 
 ## 타사 라이브러리 {#section-79768b96bf634e44ab672c5b893f343d}에 적용되는 제한 사항
 
-Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이미지에 적용되지 않습니다. 기본 이미지에 충분한 편집 작업을 수행한 경우 Digimarc 라이브러리는 워터마크가 적용되었음을 인식할 수 있습니다. 그러나 해당 정보를 읽을 수 없을 수도 있습니다. 이렇게 하면 원래 이미지에 적용된 원본 Digimarc 정보를 가져올 수 없는 새 이미지가 만들어집니다. 이제 이미지 제공에서 회사 카탈로그에 정의된 Digimarc 워터마크를 적용할 수 있습니다.
+Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이미지에 적용되지 않습니다. 기본 이미지를 충분히 편집하는 경우에도 Digimarc 라이브러리가 워터마크가 적용되었음을 인식할 수 있습니다. 그러나 해당 정보를 읽을 수 없을 수도 있습니다. 이렇게 하면 원래 이미지에 적용된 원본 Digimarc 정보를 가져올 수 없는 새 이미지가 만들어집니다. 이제 이미지 제공에서 회사 카탈로그에 정의된 Digimarc 워터마크를 적용할 수 있습니다.
 
 ## 이미지 제공 및 이미지 렌더링 모두에 적용 가능한 제한 사항 {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 

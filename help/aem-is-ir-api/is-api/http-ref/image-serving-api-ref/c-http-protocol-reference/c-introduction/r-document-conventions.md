@@ -4,12 +4,13 @@ seo-description: 이 문서에서는 다음 규칙을 사용합니다.
 seo-title: 문서 규칙
 solution: Experience Manager
 title: 문서 규칙
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---

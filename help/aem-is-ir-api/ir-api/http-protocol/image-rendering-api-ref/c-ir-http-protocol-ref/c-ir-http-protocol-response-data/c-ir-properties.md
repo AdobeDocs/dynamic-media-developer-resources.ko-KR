@@ -4,13 +4,14 @@ seo-description: 속성 데이터는 다음 req= 유형 imageprop 및 prop에 �
 seo-title: 속성
 solution: Experience Manager
 title: 속성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 5%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 

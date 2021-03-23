@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링에서 지원하는 명령은 아래에 범�
 seo-title: 이미지 렌더링 HTTP 프로토콜 명령 개요
 solution: Experience Manager
 title: 이미지 렌더링 HTTP 프로토콜 명령 개요
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3278c781-968a-4bde-b469-84e8dcfb0e9a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---

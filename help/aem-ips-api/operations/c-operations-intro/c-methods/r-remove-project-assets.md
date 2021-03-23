@@ -4,12 +4,13 @@ seo-description: 프로젝트에서 에셋을 제거합니다. 자산을 파괴�
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 10%
 
 ---

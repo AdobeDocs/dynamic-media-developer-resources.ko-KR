@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링은 ISO-8859-1 및 UTF-8 인코딩을 사용
 seo-title: 문자 인코딩
 solution: Experience Manager
 title: 문자 인코딩
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: efc3971b-dca1-4b47-a197-c10270ce17c9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---

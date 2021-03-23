@@ -4,12 +4,13 @@ seo-description: 플라이아웃 뷰어에 대한 JavaScript API 참조입니다
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: e5d990af-1c5a-4253-8ecd-b51119cee3a2
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---

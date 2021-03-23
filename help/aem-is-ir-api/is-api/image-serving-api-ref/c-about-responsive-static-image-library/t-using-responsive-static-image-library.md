@@ -2,11 +2,12 @@
 description: 웹 페이지에 응답형 이미지 라이브러리를 추가하고 라이브러리를 사용하여 기존 이미지를 관리하려면 다음 단계를 완료하십시오.
 solution: Experience Manager
 title: 반응형 이미지 라이브러리 사용
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 1. 라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다.
 
-   라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다. 이러한 호출 후에 라이브러리는 웹 페이지 레이아웃의 `IMG` 요소 런타임 크기 및 장치 화면의 밀도에 따라 이미지 제공 기능에서 다운로드한 이미지로 원본 이미지를 대체합니다.
+   라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다. 이러한 호출 후에 라이브러리는 웹 페이지 레이아웃의 `IMG` 요소 런타임 크기 및 장치 화면의 밀도에 따라 이미지 제공 시 다운로드한 이미지로 원본 이미지를 대체합니다.
 
    다음 코드는 `responsiveImage`이(가) 해당 이미지의 ID라고 가정하고 이미지에서 `s7responsiveImage` API 함수를 호출하는 예입니다.
 

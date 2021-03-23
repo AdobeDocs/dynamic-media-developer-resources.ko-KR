@@ -4,12 +4,13 @@ seo-description: 이미지 앵커. 이 이미지가 템플릿 또는 합성 이�
 seo-title: 앵커
 solution: Experience Manager
 title: 앵커
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 81069578-8470-4ec0-b755-47b0a8124024
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---

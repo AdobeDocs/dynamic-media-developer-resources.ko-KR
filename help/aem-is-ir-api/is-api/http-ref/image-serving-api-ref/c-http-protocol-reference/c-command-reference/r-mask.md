@@ -4,12 +4,13 @@ seo-description: 이미지 마스크. 연결되지 않은 마스크로 사용할
 seo-title: 마스크
 solution: Experience Manager
 title: 마스크
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -40,7 +41,7 @@ ht-degree: 1%
 
 단색 레이어에 마스크를 첨부하면 이미지 레이어의 이미지에 사용되는 것과 동일한 규칙을 사용하여 잘리고 크기를 조절할 수 있습니다. `size=`, 또는 마스크를 크기 조절하는 데 사용할  `scale=`  `res=` 수 있습니다.
 
-레이어 마스크는 *`nestedRequest`* 형식으로 지정할 수도 있습니다. 중첩 또는 포함된 요청은 중괄호로 묶입니다. `is`으로 포함된 이미지 제공 요청과 `ir`로 포함된 이미지 렌더링 요청에 접두사를 붙입니다. 접두어가 지정되지 않은 경우 외국 서버에 대한 요청은 가정합니다. 자세한 내용은 [중첩 요청 및 포함](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)을 참조하십시오.
+레이어 마스크는 *`nestedRequest`* 형식으로 지정할 수도 있습니다. 중첩 또는 포함된 요청은 중괄호로 묶입니다. `is`으로 포함된 이미지 제공 요청과 `ir`로 포함된 이미지 렌더링 요청에 접두사를 붙입니다. 접두어가 지정되지 않은 경우 외국 서버에 대한 요청은 가정합니다. 자세한 내용은 [요청 중첩 및 포함](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b)을 참조하십시오.
 
 ## 속성 {#section-a093043dc249423b8ae322cefb0d545d}
 

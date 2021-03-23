@@ -4,12 +4,13 @@ seo-description: 실제 숫자 데이터 유형.
 seo-title: 실수
 solution: Experience Manager
 title: 실수
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 36e34cb8-7976-4c2b-8ac1-aa1c946f14fa
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '39'
 ht-degree: 0%
 
 ---

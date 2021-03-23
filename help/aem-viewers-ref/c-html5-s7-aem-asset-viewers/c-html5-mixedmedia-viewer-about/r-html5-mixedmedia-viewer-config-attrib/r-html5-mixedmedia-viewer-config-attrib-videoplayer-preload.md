@@ -4,12 +4,13 @@ seo-description: 재생이 시작되기 전에 뷰어가 비디오 내용 로드
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic Media
 uuid: 7fd801cf-8307-4b4e-a338-aa4d62b86d2f
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---

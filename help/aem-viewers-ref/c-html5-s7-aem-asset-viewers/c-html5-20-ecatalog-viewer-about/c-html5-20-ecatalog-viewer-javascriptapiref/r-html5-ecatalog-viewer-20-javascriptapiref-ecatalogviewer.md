@@ -4,12 +4,13 @@ seo-description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다
 seo-title: eCatalogViewer
 solution: Experience Manager
 title: eCatalogViewer
-topic: Dynamic Media
 uuid: b87b6f6b-3e83-47b3-b867-30eca5eae56b
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '221'
 ht-degree: 3%
 
 ---

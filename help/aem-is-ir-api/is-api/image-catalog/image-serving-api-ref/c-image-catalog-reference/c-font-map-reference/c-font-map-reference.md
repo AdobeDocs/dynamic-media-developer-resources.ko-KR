@@ -4,12 +4,13 @@ seo-description: 이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴
 seo-title: 글꼴 맵 참조
 solution: Experience Manager
 title: 글꼴 맵 참조
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7a6c5eda-3b47-4c23-8a33-7b7e39de29c9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---

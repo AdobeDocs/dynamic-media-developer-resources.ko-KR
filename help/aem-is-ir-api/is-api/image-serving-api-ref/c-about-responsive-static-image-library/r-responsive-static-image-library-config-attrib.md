@@ -4,12 +4,13 @@ seo-description: 구성 속성은 응답형 이미지 라이브러리가 관리�
 seo-title: 명령 참조 - 구성 속성
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 선택 사항입니다.
 
-이미지 제공에서 제공하는 이미지의 URL. URL이 없으면 라이브러리는 `src` 속성에 설정된 값을 폴백으로 사용합니다. 이 속성은 응답형 이미지 라이브러리가 다른 위치에서 관리하는 초기 이미지와 동적 이미지를 제공합니다.
+이미지 제공에서 제공하는 이미지의 URL. URL이 없으면 라이브러리는 `src` 속성에 설정된 값을 폴백으로 사용합니다. 이 속성은 반응형 이미지 라이브러리가 다른 위치에서 관리하는 초기 이미지와 동적 이미지를 제공합니다.
 
 **예**
 

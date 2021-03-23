@@ -4,12 +4,13 @@ seo-description: 원근 변형 원근 변형을 레이어 소스 이미지에 �
 seo-title: 원근
 solution: Experience Manager
 title: 원근
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b22d7b49-db08-48df-80bc-5b7237aea475
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -50,7 +51,7 @@ ht-degree: 2%
 
 원근 사선형 좌표는 합성 이미지 외부에 있을 수 있습니다.
 
-사각형이 원근 변형에 적합하지 않을 경우(예: 두 개 이상의 정점이 일치하거나 세 개 또는 모든 정점이 동일한 선에 있는 경우 또는 4각형이 자체 교차하거나 오목한 경우) 동작이 정의되지 않습니다.
+사각형이 원근 변환에 적합하지 않을 경우(예: 두 개 이상의 정점이 일치하거나, 3개 또는 모든 정점이 동일한 선에 있는 경우 또는 4각형이 자체 교차하거나 오목한 경우) 동작이 정의되지 않습니다.
 
 ## 품질 고려 사항 {#section-7cc9056afa614300a9b8844d39739fc3}
 

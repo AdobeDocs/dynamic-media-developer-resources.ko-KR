@@ -4,12 +4,13 @@ seo-description: 뷰어는 사용자가 원래 추가한 위치에서 기본 보
 seo-title: 즐겨찾기 효과
 solution: Experience Manager
 title: 즐겨찾기 효과
-topic: Dynamic Media
 uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---

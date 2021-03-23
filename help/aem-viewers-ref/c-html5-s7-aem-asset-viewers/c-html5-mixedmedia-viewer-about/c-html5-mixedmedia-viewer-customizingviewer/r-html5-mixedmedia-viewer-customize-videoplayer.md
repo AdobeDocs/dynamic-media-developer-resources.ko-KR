@@ -4,12 +4,13 @@ seo-description: 비디오 플레이어는 뷰어 내에서 비디오 컨텐츠�
 seo-title: 비디오 플레이어
 solution: Experience Manager
 title: 비디오 플레이어
-topic: Dynamic Media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '308'
 ht-degree: 1%
 
 ---

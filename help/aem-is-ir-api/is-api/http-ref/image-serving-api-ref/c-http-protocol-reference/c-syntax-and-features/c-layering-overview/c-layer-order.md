@@ -4,12 +4,13 @@ seo-description: 레이어 번호도 z 순서를 결정합니다.
 seo-title: 레이어 순서
 solution: Experience Manager
 title: 레이어 순서
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 090f3873-8355-4b11-b05f-f34c74f02a5b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 고급 텍스트 서식에 다음 명령을 사용합니다.
 seo-title: 고급 텍스트 서식 지정
 solution: Experience Manager
 title: 고급 텍스트 서식 지정
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---

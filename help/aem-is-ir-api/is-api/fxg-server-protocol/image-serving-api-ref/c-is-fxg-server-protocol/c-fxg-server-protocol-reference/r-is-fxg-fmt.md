@@ -4,12 +4,13 @@ seo-description: 응답 이미지 형식입니다.
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '296'
 ht-degree: 3%
 
 ---
@@ -28,7 +29,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다. </p> <p> <span class="codeph">  jpeg  </span>:손실 JPEG </p> <p> <span class="codeph"> png  </span>:손실 없는 PNG </p> <p> <span class="codeph"> png 알파  </span>:알파 채널이 포함된 손실 없는 PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:알파 채널이 포함된 TIFF </p> <p> <span class="codeph">  swf  </span>:adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf  </span>:PDF에 포함된 이미지 </p> <p> <span class="codeph"> gif  </span>:2~256색 GIF </p> <p> <span class="codeph"> gif-alpha  </span>:2~255색 및 키 색상 투명도가 포함된 GIF </p> <p> <span class="codeph"> fxg  </span>:변수 및 DOM 조작이 적용된 FXG </p> <p> <span class="codeph">  fxgraw  </span>:서버에 저장된 원본 FXG </p> </td> 
+  <td class="stentry"> <p> 클라이언트에 전송된 이미지 데이터의 이미지 인코딩 형식 및 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다. </p> <p> <span class="codeph">  jpeg  </span>:손실 JPEG </p> <p> <span class="codeph"> png  </span>:손실 없는 PNG </p> <p> <span class="codeph"> png 알파  </span>:알파 채널이 포함된 손실 없는 PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:알파 채널이 포함된 TIFF </p> <p> <span class="codeph">  swf  </span>:Adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf  </span>:PDF에 포함된 이미지 </p> <p> <span class="codeph"> gif  </span>:2~256색 GIF </p> <p> <span class="codeph"> gif-alpha  </span>:2~255색 및 키 색상 투명도가 포함된 GIF </p> <p> <span class="codeph"> fxg  </span>:변수 및 DOM 조작이 적용된 FXG </p> <p> <span class="codeph">  fxgraw  </span>:서버에 저장된 원본 FXG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 

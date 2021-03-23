@@ -4,12 +4,13 @@ seo-description: 정적 컨텐츠 유형 필터입니다. /is/content를 통해 
 seo-title: 유형
 solution: Experience Manager
 title: 유형
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '131'
 ht-degree: 5%
 
 ---

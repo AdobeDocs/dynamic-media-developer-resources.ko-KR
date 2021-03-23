@@ -4,13 +4,14 @@ seo-description: 투명도를 기반으로 이미지를 자동으로 자를 때 
 seo-title: 자동 투명 자르기 옵션
 solution: Experience Manager
 title: 자동 투명 자르기 옵션
-topic: Dynamic Media Image Production System API
 uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 10%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 

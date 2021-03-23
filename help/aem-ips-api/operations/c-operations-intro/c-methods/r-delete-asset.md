@@ -4,13 +4,14 @@ seo-description: 자산을 삭제합니다.
 seo-title: deleteAsset
 solution: Experience Manager
 title: deleteAsset
-topic: Dynamic Media Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 11%
 
 ---
 

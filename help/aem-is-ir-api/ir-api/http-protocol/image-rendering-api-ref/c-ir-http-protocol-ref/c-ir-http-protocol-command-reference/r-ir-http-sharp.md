@@ -4,12 +4,13 @@ seo-description: 텍스처를 선명하게 합니다. 이 자료를 렌더링할
 seo-title: 날카로운
 solution: Experience Manager
 title: 날카로운
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 5%
 
 ---

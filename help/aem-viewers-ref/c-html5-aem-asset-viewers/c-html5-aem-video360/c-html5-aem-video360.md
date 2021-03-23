@@ -2,11 +2,12 @@
 description: HTML5 Video360 뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media에서 제공되는 H.264 형식으로 인코딩된 스트리밍 및 점진적 360 비디오를 재생하는 360도 비디오 플레이어입니다.
 solution: Experience Manager
 title: 비디오360
-topic: Dynamic Media
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2593'
 ht-degree: 0%
 
 ---

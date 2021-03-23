@@ -4,12 +4,13 @@ seo-description: 플라이아웃 뷰어에 대한 JavaScript API 참조입니다
 seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-topic: Dynamic Media
 uuid: 69341735-5ebe-4e3b-acad-b6b916b11bb5
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---

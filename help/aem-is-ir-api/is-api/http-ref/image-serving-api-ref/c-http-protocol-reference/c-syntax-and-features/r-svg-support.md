@@ -4,12 +4,13 @@ seo-description: 이미지 제공은 소스 데이터로 SVG(Scalable Vector Gra
 seo-title: SVG 지원
 solution: Experience Manager
 title: SVG 지원
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---

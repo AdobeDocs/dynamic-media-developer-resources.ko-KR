@@ -4,12 +4,13 @@ seo-description: 카탈로그 식별자. 요청의 이미지 개체 지정자에
 seo-title: 루트 ID
 solution: Experience Manager
 title: 루트 ID
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 5%
 
 ---

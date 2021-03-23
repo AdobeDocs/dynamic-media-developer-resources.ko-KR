@@ -4,12 +4,13 @@ seo-description: 이 단추를 클릭하면 사용자가 전체 화면 모드로
 seo-title: 전체 화면 단추
 solution: Experience Manager
 title: 전체 화면 단추
-topic: Dynamic Media
 uuid: 22d10ec1-83f3-4f86-a0a1-0fc2e43232b1
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -78,7 +79,7 @@ ht-degree: 2%
 
 단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98)의 현지화를 참조하십시오.
 
-예 - 32 x 32픽셀인 전체 화면 단추를 설정하고, 뷰어의 위쪽과 오른쪽 가장자리에서 6픽셀을 배치하고, 선택 또는 선택하지 않을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면 다음을 수행합니다.
+예 - 32 x 32픽셀인 전체 화면 단추를 설정하고, 뷰어 위쪽 및 오른쪽 가장자리에서 6픽셀을 배치하고, 선택 또는 선택하지 않을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면:
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

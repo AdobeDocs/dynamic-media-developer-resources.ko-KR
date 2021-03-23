@@ -4,12 +4,13 @@ seo-description: 요청에 대한 ApplyEffectMask 속성 값을 무시합니다.
 seo-title: effectMask
 solution: Experience Manager
 title: effectMask
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b90cc36-1e33-4116-a11d-74eafa9b366a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---

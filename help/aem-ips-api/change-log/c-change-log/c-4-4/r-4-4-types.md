@@ -2,12 +2,13 @@
 description: IPS API 버전 4.4의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
 solution: Experience Manager
 title: 데이터 유형 새로 만들기 및 수정됨
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 

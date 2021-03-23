@@ -4,12 +4,13 @@ seo-description: Photoshop 스타일 레이어 그림자 및 광선 효과는 �
 seo-title: 레이어 효과
 solution: Experience Manager
 title: 레이어 효과
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 076e98de-cbbb-457b-984a-367a935b4356
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '520'
 ht-degree: 2%
 
 ---
@@ -29,7 +30,7 @@ Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 lay
 
 ## 부모 레이어 {#section-eb8bfc4f754a42fc973b562821d6f2d3}와의 관계
 
-효과 레이어는 상위 레이어와 일치하도록 자동으로 크기가 조정되고 배치됩니다(즉, 효과 레이어는 상위 레이어의 `size=` 및 `origin=` 값을 상속함). `pos=` 효과 레이어를 부모 레이어로부터 다른 위치로 이동하는 데 사용할 수 있습니다. 이는 일반적으로 드롭 및 내부 그림자 효과에 필요합니다. 표준 레이어의 경우 `pos=`은 이 레이어의 원점과 레이어 0 사이의 오프셋을 지정합니다. 효과 레이어의 경우 `pos=` 효과 레이어와 상위 레이어의 원본 사이의 오프셋을 지정합니다.
+효과 레이어는 상위 레이어와 일치하도록 자동으로 크기가 조정되고 배치됩니다(즉, 효과 레이어는 상위 레이어의 `size=` 및 `origin=` 값을 상속함). `pos=` 효과 레이어를 부모 레이어로부터 다른 위치로 이동하는 데 사용할 수 있습니다. 이는 일반적으로 그림자 및 내부 그림자 효과에 필요합니다. 표준 레이어의 경우 `pos=`은 이 레이어의 원점과 레이어 0 사이의 오프셋을 지정합니다. 효과 레이어의 경우 `pos=` 효과 레이어와 상위 레이어의 원본 사이의 오프셋을 지정합니다.
 
 ## 지원되는 명령 및 속성 {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 

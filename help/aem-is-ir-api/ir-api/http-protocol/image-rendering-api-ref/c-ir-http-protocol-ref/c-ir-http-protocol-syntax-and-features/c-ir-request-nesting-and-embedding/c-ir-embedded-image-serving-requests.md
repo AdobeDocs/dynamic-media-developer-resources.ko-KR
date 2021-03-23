@@ -4,12 +4,13 @@ seo-description: IS(이미지 서버) 요청을 재료 이미지로 사용할 �
 seo-title: 포함된 이미지 서버 요청
 solution: Experience Manager
 title: 포함된 이미지 서버 요청
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dd72880d-8824-40b3-a5da-0f6ff4922939
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ IS(이미지 서버) 요청을 재료 이미지로 사용할 수 있습니다.
 
 중첩된 요청에는 이미지 제공 루트 경로(일반적으로 [!DNL http:// *[!DNL server]*/is/image/&quot;])가 포함되지 않아야 하지만 사전 처리 규칙 토큰이 포함될 수 있습니다.
 
-다음 IS 명령은 요청 URL 또는 `catalog::Modifier` 또는 `catalog::PostModifier`에서 중첩 요청에 지정된 경우 무시됩니다.
+다음 IS 명령은 중첩 요청에 지정된 경우 무시됩니다(요청 URL 또는 `catalog::Modifier` 또는 `catalog::PostModifier`).
 
 * `bgc=`
 * `fmt=`

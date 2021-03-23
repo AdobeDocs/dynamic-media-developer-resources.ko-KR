@@ -4,13 +4,14 @@ seo-description: 폴더를 삭제합니다.
 seo-title: deleteFolder
 solution: Experience Manager
 title: deleteFolder
-topic: Dynamic Media Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '107'
+ht-degree: 10%
 
 ---
 

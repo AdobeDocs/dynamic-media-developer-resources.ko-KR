@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링은 이미지 제공 캐싱 기능을 사용
 seo-title: 데이터 캐싱
 solution: Experience Manager
 title: 데이터 캐싱
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---

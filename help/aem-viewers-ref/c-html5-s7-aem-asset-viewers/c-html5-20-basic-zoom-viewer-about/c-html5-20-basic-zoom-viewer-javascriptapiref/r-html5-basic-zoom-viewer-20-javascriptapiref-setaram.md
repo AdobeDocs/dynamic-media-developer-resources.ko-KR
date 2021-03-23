@@ -4,12 +4,13 @@ seo-description: 기본 확대/축소 뷰어용 JavaScript API 참조.
 seo-title: setParam
 solution: Experience Manager
 title: setParam
-topic: Dynamic Media
 uuid: 9e3fa66f-2817-4969-9532-99cd75b3e22a
+feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '100'
 ht-degree: 2%
 
 ---

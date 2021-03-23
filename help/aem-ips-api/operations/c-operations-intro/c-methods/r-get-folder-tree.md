@@ -4,12 +4,13 @@ seo-description: 계층 트리 구조의 폴더 및 하위 폴더를 반환합�
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-topic: Dynamic Media Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '285'
 ht-degree: 8%
 
 ---
@@ -59,7 +60,7 @@ ht-degree: 8%
 
 ## 예제 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-이 코드 샘플은 회사 핸들 및 깊이 매개 변수를 사용하여 응답에서 반환해야 하는 깊이 수준을 결정합니다. 응답에는 관련된 폴더와 하위 폴더 배열이 포함됩니다. 폴더 트리를 더 깊이 검색하려면 깊이 값을 더 작은 숫자로 설정합니다.
+이 코드 샘플은 회사 핸들과 깊이 매개 변수를 사용하여 응답에서 반환해야 하는 깊이 수준을 결정합니다. 응답에는 관련된 폴더와 하위 폴더 배열이 포함됩니다. 폴더 트리를 더 깊이 검색하려면 깊이 값을 더 작은 숫자로 설정합니다.
 
 **요청**
 

@@ -4,12 +4,13 @@ seo-description: 다음 지침에 따라 Linux 또는 Solaris 시스템에서 �
 seo-title: Linux 및 Solaris에서 제거
 solution: Experience Manager
 title: Linux 및 Solaris에서 제거
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---

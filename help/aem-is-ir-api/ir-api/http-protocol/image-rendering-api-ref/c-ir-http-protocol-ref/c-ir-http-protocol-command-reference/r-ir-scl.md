@@ -4,12 +4,13 @@ seo-description: 비율 보기. 전체 해상도 비네팅을 기준으로 렌�
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -30,7 +31,7 @@ ht-degree: 3%
 
 `scl=`이 URL에서 `wid=` 또는 `hei=` 뒤에 오는 경우 이러한 명령을 취소하고 `scl=`은 서버에서 반환되는 이미지의 크기를 정의합니다.
 
-그러나 URL에서 `scl=` 뒤에 `wid=` 또는 `hei=`이 오는 경우 `scl=` 및 `wid=`/ `hei=`는 서버에서 반환되는 이미지의 크기를 정의합니다.
+그러나 URL에서 `scl=` 뒤에 `wid=` 또는 `hei=`이 오는 경우 `scl=` 및 `wid=`/ `hei=`는 서버에서 반환된 이미지의 크기를 정의합니다.
 
 >[!NOTE]
 >

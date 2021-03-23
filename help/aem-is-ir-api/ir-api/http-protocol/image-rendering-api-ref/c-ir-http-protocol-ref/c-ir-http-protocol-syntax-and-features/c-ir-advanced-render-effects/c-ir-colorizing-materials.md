@@ -4,12 +4,13 @@ seo-description: 대부분의 재료는 동적으로 색상화할 수 있습니�
 seo-title: 재질 색상화
 solution: Experience Manager
 title: 재질 색상화
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

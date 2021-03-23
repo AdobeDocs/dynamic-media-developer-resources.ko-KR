@@ -4,12 +4,13 @@ seo-description: 메타데이터 필드를 만들거나 편집합니다. 선택�
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic,SDK/API,메타데이터
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '243'
 ht-degree: 8%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 기본 보기 영역은 캐러셀 배너 이미지가 차지하
 seo-title: 기본 뷰어 영역
 solution: Experience Manager
 title: 기본 뷰어 영역
-topic: Dynamic Media
 uuid: 0e796f75-36a6-4961-9980-b634ab50c7ff
+feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---

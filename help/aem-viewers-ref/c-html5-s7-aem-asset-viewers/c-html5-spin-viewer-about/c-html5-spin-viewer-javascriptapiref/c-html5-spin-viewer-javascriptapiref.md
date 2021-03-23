@@ -4,12 +4,13 @@ seo-description: Spin 뷰어의 기본 클래스는 SpinViewer입니다. s7viewe
 seo-title: 회전 뷰어용 Javascript API 참조
 solution: Experience Manager
 title: 회전 뷰어용 Javascript API 참조
-topic: Dynamic Media
 uuid: c38d3336-504b-4b14-9a6a-ba8eab9e2f3e
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---

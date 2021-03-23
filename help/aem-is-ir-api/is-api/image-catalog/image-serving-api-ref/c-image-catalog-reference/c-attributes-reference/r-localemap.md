@@ -4,12 +4,13 @@ seo-description: ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환
 seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 1%
 
 ---
@@ -40,7 +41,7 @@ ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하는 데 사용
 
 빈 *`locSuffix`* 값이 허용됩니다. *`locSuffix`* 값을 검색할 순서대로 정렬해야 합니다. 첫 번째 일치 항목이 반환됩니다.
 
-이미지 제공은 *`locId`* 값을 검색하여 대/소문자를 구분하지 않고 요청에 지정된 `locale=` 값과 일치시킵니다. 일치하는 항목이 있으면 연결된 첫 번째 *`locSuffix`* 값이 원래 카탈로그 ID에 추가됩니다. 이 카탈로그 항목이 있는 경우 이 항목을 사용하는 경우 다음 *`locSuffix`* 값이 시도됩니다. *`locSuffix`* 값이 카탈로그 항목과 일치하지 않으면 Image Serving에서 오류 또는 기본 이미지를 반환합니다.
+이미지 제공은 *`locId`* 값을 검색하여 대소문자를 구분하지 않고 요청에 지정된 `locale=` 값과 일치시킵니다. 일치하는 항목이 있으면 연결된 첫 번째 *`locSuffix`* 값이 원래 카탈로그 ID에 추가됩니다. 이 카탈로그 항목이 있는 경우 이 항목을 사용하는 경우 다음 *`locSuffix`* 값이 시도됩니다. *`locSuffix`* 값이 카탈로그 항목과 일치하지 않으면 Image Serving에서 오류 또는 기본 이미지를 반환합니다.
 
 빈 *`locId`* 값은 비어 있고 알 수 없는 `locale=` 문자열을 찾습니다. 알 수 없는 로케일에 대한 기본 규칙을 정의할 수 있습니다.
 

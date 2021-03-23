@@ -4,13 +4,14 @@ seo-description: Video360 뷰어에 대한 URL 명령.
 seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-topic: Dynamic Media
 uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 

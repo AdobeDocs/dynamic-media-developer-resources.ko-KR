@@ -4,12 +4,13 @@ seo-description: 카탈로그 속성 파일은 이러한 공통 축소판 특성
 seo-title: 공통 축소판 속성
 solution: Experience Manager
 title: 공통 축소판 속성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 937988ba-43c3-4542-8e48-9f94cf3f61ad
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---

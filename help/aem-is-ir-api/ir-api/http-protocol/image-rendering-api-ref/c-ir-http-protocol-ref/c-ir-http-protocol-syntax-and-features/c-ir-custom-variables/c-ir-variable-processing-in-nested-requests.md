@@ -4,12 +4,13 @@ seo-description: $var$ 참조는 '?'의 왼쪽에 포함하여 중첩된 이미�
 seo-title: 중첩된 요청의 변수 처리
 solution: Experience Manager
 title: 중첩된 요청의 변수 처리
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2f3fefac-d45e-4c53-854f-1fe16d0cedd9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---

@@ -4,13 +4,14 @@ seo-description: 이 섹션에서는 이미지 데이터 속성에 대해 설명
 seo-title: 이미지 데이터 참조
 solution: Experience Manager
 title: 이미지 데이터 참조
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 22%
+source-wordcount: '58'
+ht-degree: 18%
 
 ---
 

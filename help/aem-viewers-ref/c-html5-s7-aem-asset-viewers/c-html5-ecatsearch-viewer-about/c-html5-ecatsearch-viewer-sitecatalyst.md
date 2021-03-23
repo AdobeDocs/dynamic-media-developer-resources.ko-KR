@@ -4,12 +4,13 @@ seo-description: eCatalog 검색 뷰어는 즉시 사용 가능한 Adobe Analyti
 seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-topic: Dynamic Media
 uuid: 2e1e2bc6-5372-4ba2-b6d7-8b760b1b0a8a
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---

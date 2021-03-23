@@ -4,12 +4,13 @@ seo-description: 레이어 클립 경로를 참조하십시오. 현재 레이어
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---

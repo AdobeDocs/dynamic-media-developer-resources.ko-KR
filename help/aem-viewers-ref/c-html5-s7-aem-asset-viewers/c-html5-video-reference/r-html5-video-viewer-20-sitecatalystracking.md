@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어는 Adobe Analytics 즉시 사용 가능한 추
 seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-topic: Dynamic Media
 uuid: c53b3d3b-42e5-4c87-8a1e-87c73eb32341
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '180'
 ht-degree: 3%
 
 ---

@@ -2,12 +2,13 @@
 description: IPS API 버전 3.7의 새 문자열 상수와 변경된 문자열 상수에 대해 설명합니다.
 solution: Experience Manager
 title: 문자열 상수 새로 만들기 및 수정됨
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 7%
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 

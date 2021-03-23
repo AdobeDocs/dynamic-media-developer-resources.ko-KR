@@ -4,12 +4,13 @@ seo-description: 보기 너비. 응답 이미지의 너비를 지정합니다(�
 seo-title: wid
 solution: Experience Manager
 title: wid
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 4%
 
 ---

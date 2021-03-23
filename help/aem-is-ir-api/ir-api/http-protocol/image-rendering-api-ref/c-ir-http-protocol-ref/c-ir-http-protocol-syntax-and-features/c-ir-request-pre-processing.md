@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링은 정규 표현식 일치 및 대체 규�
 seo-title: 사전 처리 요청 *
 solution: Experience Manager
 title: 사전 처리 요청 *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---

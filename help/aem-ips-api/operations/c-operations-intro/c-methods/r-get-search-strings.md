@@ -4,13 +4,14 @@ seo-description: 자산 검색 문자열, 키워드 및 기타 정보를 가져�
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-topic: Dynamic Media Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 14%
+source-wordcount: '122'
+ht-degree: 13%
 
 ---
 

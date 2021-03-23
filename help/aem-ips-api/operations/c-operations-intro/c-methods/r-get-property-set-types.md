@@ -4,13 +4,14 @@ seo-description: 지정된 회사와 연결된 속성 집합 유형이나 회사
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
-topic: Dynamic Media Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 11%
+source-wordcount: '141'
+ht-degree: 10%
 
 ---
 

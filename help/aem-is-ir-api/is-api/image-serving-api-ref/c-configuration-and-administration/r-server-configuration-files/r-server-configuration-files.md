@@ -2,11 +2,12 @@
 description: 모든 구성 파일은 install_folder/conf에 있으며 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작해야 할 수 있습니다.
 solution: Experience Manager
 title: 서버 구성 파일
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---

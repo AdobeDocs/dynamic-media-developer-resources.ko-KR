@@ -4,12 +4,13 @@ seo-description: 이미지 자르기를 참조하십시오. 전체 해상도 소
 seo-title: 자르기
 solution: Experience Manager
 title: 자르기
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c8eca467-7564-48a6-82d7-17f68a1399e1
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---

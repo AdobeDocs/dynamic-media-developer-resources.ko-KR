@@ -4,12 +4,13 @@ seo-description: 필드 메타데이터를 업데이트합니다.
 seo-title: updateMetadataField
 solution: Experience Manager
 title: updateMetadataField
-topic: Dynamic Media Image Production System API
 uuid: 8712b09b-b02a-4fb3-a0ed-084dc48a717a
+feature: Dynamic Media Classic,SDK/API,메타데이터
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '165'
 ht-degree: 12%
 
 ---

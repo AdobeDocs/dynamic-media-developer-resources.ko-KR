@@ -4,12 +4,13 @@ seo-description: 즐겨찾기 제거 단추의 위치는 즐겨찾기 메뉴에�
 seo-title: 즐겨찾기 제거 단추
 solution: Experience Manager
 title: 즐겨찾기 제거 단추
-topic: Dynamic Media
 uuid: 9a0ab584-d299-43d2-9850-3dac4f332cd4
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'`은 사용자가 클릭하거나 탭하여 새 즐겨찾기 아이콘을 추가할 수 있는 상태에 해당합니다. `selected='false'` 사용자가 페이지를 확대/축소, 이동 및 교체할 수 있는 일반적인 작업 모드에 해당합니다.
+>이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'`은 사용자가 클릭하거나 탭하여 새 즐겨찾기 아이콘을 추가할 수 있는 경우의 상태에 해당합니다. `selected='false'` 사용자가 페이지를 확대/축소, 이동 및 교체할 수 있는 일반적인 작업 모드에 해당합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
 

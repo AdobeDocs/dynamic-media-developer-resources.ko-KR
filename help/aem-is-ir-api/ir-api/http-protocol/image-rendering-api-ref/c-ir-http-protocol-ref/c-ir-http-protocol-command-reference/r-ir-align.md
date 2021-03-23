@@ -4,13 +4,14 @@ seo-description: 텍스처 렌더링 정렬. 선택한 비네팅 객체가 사�
 seo-title: 정렬
 solution: Experience Manager
 title: 정렬
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b24cd82-f9b2-48f4-9052-8c2026370ff7
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 4%
+source-wordcount: '205'
+ht-degree: 3%
 
 ---
 

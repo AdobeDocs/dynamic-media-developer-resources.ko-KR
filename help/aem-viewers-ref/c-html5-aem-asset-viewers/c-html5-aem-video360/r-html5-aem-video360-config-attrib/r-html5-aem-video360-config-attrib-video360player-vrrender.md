@@ -4,13 +4,14 @@ seo-description: Video360 뷰어에 대한 구성 속성입니다.
 seo-title: Video360Player.vrrender
 solution: Experience Manager
 title: Video360Player.vrrender
-topic: Dynamic Media
 uuid: 773ee479-012c-4649-adae-1f520ec37abb
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 28%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 

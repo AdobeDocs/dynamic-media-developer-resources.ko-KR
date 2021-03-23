@@ -4,13 +4,14 @@ seo-description: 오디오 비트 전송률. 비디오 에셋의 오디오 비�
 seo-title: AudioBitRate
 solution: Experience Manager
 title: AudioBitRate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cdcfd6b9-e0ce-4a00-b80b-4bfc4fad4b9c
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '87'
+ht-degree: 16%
 
 ---
 

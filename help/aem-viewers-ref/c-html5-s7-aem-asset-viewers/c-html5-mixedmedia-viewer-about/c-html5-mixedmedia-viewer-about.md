@@ -1,13 +1,14 @@
 ---
 description: 혼합 미디어 뷰어는 미디어 뷰어입니다. 이미지, 견본 집합, 스핀 집합, 비디오 및 응용 비디오 집합이 포함된 미디어 집합을 지원합니다.
-keywords: responsive
+keywords: 반응형
 solution: Experience Manager
 title: 혼합 미디어
-topic: Dynamic Media
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2673'
 ht-degree: 0%
 
 ---

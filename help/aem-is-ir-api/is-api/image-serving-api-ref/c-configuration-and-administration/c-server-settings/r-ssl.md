@@ -4,13 +4,14 @@ seo-description: SSL에 대해 이러한 서버 설정을 사용합니다.
 seo-title: SSL
 solution: Experience Manager
 title: SSL
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 

@@ -4,12 +4,13 @@ seo-description: 이미지 제공에서는 외부 개체 ID를 로케일별 개�
 seo-title: 개체 ID 변환
 solution: Experience Manager
 title: 개체 ID 변환
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '749'
 ht-degree: 9%
 
 ---

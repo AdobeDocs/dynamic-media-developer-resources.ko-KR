@@ -4,12 +4,13 @@ seo-description: 이미지 제공을 사용하여 카탈로그에서 이미지�
 seo-title: 정적(이미지가 아님) 컨텐츠 제공
 solution: Experience Manager
 title: 정적(이미지가 아님) 컨텐츠 제공
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---

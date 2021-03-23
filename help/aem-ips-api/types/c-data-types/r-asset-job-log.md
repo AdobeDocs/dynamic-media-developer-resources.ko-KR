@@ -4,12 +4,13 @@ seo-description: 특정 자산과 연관된 작업 로그 항목의 세부 정�
 seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-topic: Dynamic Media Image Production System API
 uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '131'
 ht-degree: 5%
 
 ---

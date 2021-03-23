@@ -4,12 +4,13 @@ seo-description: 예제 A와 유사한 요구 사항이지만 단색 배경을 �
 seo-title: 예 B
 solution: Experience Manager
 title: 예 B
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 13120562-9201-4733-bd9d-4a54eac913e9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---

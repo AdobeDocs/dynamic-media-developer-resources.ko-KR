@@ -4,12 +4,13 @@ seo-description: IPS API v4.0의 새로운 변경 사항 및 구현된 변경 �
 seo-title: 새로운 추가 및 변경 사항
 solution: Experience Manager
 title: 새로운 추가 및 변경 사항
-topic: Dynamic Media Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -169,7 +170,7 @@ API 작업의 로케일을 설정하기 위해 `authHeader` SOAP 헤더에 선�
 
 gzip 응답 제어에 대한 SOAP 및 HTTP 헤더 지원을 구현했습니다.
 
-`authHeader`에 `gzipResponse` 플래그를 추가했습니다. 없는 경우 API는 HTTP `Accept-Encoding` 헤더도 확인합니다.
+`authHeader`에 `gzipResponse` 플래그가 추가되었습니다. 없는 경우 API는 HTTP `Accept-Encoding` 헤더도 확인합니다.
 
 강력한 형식의 메타데이터 필드 조건에 대한 searchAssets 지원을 추가했습니다.
 
@@ -177,7 +178,7 @@ gzip 응답 제어에 대한 SOAP 및 HTTP 헤더 지원을 구현했습니다.
 * 부울 필드의 경우 `boolVal`이(가) `Equals` 연산으로 전달될 수 있습니다.
 * int 필드의 경우 `longVal`을(를) 숫자 비교 연산자( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)와 함께 전달하거나 `minLong/maxLong`를 숫자 범위 작업( `Between, NotBetween`)과 함께 전달할 수 있습니다.
 * 부동 필드의 경우 `doubleVal`을(를) 숫자 비교 연산자( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)와 함께 전달하거나 `minDouble/maxDouble`를 숫자 범위 작업( `Between, NotBetween`)과 함께 전달할 수 있습니다.
-* 날짜 필드의 경우 숫자 비교 연산자( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)를 사용하여 `dateVal`을(를) 전달하거나 숫자 범위 작업( `Between, NotBetween`)을 사용하여 minDate/maxDate를 전달할 수 있습니다.
+* 날짜 필드의 경우 숫자 비교 연산자( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)를 사용하여 `dateVal`을 전달하거나 숫자 범위 작업( `Between, NotBetween`)을 사용하여 minDate/maxDate를 전달할 수 있습니다.
 
 `JobLog` 유형에 설명, `jobSubType` 및 `originalJobName` 필드를 추가했습니다.
 

@@ -4,13 +4,14 @@ seo-description: 이미지 제공 API 안내서에는 이미지 제공 API 설�
 seo-title: 이미지 제공 API
 solution: Experience Manager
 title: 이미지 제공 API
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90088a8-94f4-4e36-aaa2-03c07e8522b0
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 

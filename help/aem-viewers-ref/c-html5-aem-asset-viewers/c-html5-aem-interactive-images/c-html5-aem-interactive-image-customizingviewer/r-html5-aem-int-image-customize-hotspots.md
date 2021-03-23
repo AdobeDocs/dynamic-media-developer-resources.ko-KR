@@ -4,13 +4,14 @@ seo-description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이
 seo-title: 핫스팟
 solution: Experience Manager
 title: 핫스팟
-topic: Dynamic Media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 

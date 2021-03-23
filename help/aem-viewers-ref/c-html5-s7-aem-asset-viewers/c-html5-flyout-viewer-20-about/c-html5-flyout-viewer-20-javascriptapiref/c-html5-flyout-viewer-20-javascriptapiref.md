@@ -4,12 +4,13 @@ seo-description: 플라이아웃 뷰어의 기본 클래스는 FlyoutViewer입�
 seo-title: 플라이아웃 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
 title: 플라이아웃 뷰어에 대한 JavaScript API 참조
-topic: Dynamic Media
 uuid: 45621805-8aa5-4ced-a36a-ebecb2a606a0
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---

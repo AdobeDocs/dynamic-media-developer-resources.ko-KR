@@ -4,13 +4,14 @@ seo-description: 이러한 명령은 요청에서 나타나는 위치에 관계�
 seo-title: 보기 명령
 solution: Experience Manager
 title: 보기 명령
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 

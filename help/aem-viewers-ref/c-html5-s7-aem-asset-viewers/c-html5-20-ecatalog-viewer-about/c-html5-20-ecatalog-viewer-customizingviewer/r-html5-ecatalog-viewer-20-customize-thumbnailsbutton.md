@@ -4,12 +4,13 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 뷰어와 축소
 seo-title: 축소판 단추
 solution: Experience Manager
 title: 축소판 단추
-topic: Dynamic Media
 uuid: a1a7f4b0-672e-4b83-9b21-0b8c6fc3f24a
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---

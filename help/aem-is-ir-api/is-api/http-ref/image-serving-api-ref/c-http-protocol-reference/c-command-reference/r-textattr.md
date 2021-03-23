@@ -4,12 +4,13 @@ seo-description: 텍스트 레이어 속성입니다. rtf 명령으로 사용할
 seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---

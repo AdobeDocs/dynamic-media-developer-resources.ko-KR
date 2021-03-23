@@ -4,12 +4,13 @@ seo-description: 모든 뷰어에 공통되는 매개 변수입니다.
 seo-title: 캡션
 solution: Experience Manager
 title: 캡션
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Media Classic,뷰어,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 6%
 
 ---

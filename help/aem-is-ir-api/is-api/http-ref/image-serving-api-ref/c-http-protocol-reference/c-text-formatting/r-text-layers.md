@@ -4,12 +4,13 @@ seo-description: textPs=는 이 섹션에 설명된 다양한 사용 모델을 �
 seo-title: 텍스트 레이어
 solution: Experience Manager
 title: 텍스트 레이어
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---

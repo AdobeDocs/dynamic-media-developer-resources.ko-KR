@@ -4,13 +4,14 @@ seo-description: 레이어 텍스트. 텍스트 레이어의 텍스트와 서식
 seo-title: 텍스트
 solution: Experience Manager
 title: 텍스트
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5b4f9282-83a3-488d-b5d2-deb2c92de564
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '189'
+ht-degree: 5%
 
 ---
 

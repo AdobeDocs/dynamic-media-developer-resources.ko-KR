@@ -4,12 +4,13 @@ seo-description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이
 seo-title: 확대/축소 재설정 단추
 solution: Experience Manager
 title: 확대/축소 재설정 단추
-topic: Dynamic Media
 uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
@@ -37,7 +38,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p>패딩을 포함하여 기본 컨트롤 막대(데스크톱 및 태블릿) 또는 뷰어(휴대 전화의 경우)의 위쪽 테두리에서 위치를 조정합니다. </p> </td> 
+   <td colname="col2"> <p>안쪽 여백 등 기본 컨트롤 막대(데스크톱 및 태블릿의 경우) 또는 뷰어(휴대 전화의 경우)의 위쪽 테두리에서 위치를 조정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 

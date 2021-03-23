@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어용 JavaScript API 참조.
 seo-title: setLocalizedText
 solution: Experience Manager
 title: setLocalizedText
-topic: Dynamic Media
 uuid: 8c9e0d6d-d7b0-494f-b7b7-6542fb51466a
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---

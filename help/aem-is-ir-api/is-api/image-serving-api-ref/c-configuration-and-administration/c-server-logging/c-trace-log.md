@@ -4,12 +4,13 @@ seo-description: 플랫폼 서버는 이 로그 파일에 레코드를 작성하
 seo-title: 추적 로그
 solution: Experience Manager
 title: 추적 로그
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 227b4c6c-38d3-4acd-8cfd-aa812c3f260d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---

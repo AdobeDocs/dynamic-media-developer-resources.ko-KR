@@ -4,12 +4,13 @@ seo-description: 파일 수정 타임스탬프. 이 카탈로그 레코드에 �
 seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---

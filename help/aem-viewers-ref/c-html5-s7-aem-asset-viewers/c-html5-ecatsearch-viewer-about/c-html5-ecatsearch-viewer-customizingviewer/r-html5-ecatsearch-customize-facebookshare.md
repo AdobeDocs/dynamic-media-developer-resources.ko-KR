@@ -4,12 +4,13 @@ seo-description: Facebook 공유 도구는 소셜 공유 패널에 추가된 단
 seo-title: Facebook 공유
 solution: Experience Manager
 title: Facebook 공유
-topic: Dynamic Media
 uuid: 1b79ad43-7fdf-4046-a225-1f585ff839b6
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 캐시 클러스터링을 사용하면 여러 로드 밸런싱�
 seo-title: 캐시 클러스터링
 solution: Experience Manager
 title: 캐시 클러스터링
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---

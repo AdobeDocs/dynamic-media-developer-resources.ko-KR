@@ -4,12 +4,13 @@ seo-description: Linux에 이미지 제공을 설치한 후 설치를 확인합�
 seo-title: 설치 확인
 solution: Experience Manager
 title: 설치 확인
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---

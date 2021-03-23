@@ -4,12 +4,13 @@ seo-description: 이미지 세트와 연관된 자산 목록을 설정합니다.
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic,SDK/API,이미지 세트
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 8%
 
 ---

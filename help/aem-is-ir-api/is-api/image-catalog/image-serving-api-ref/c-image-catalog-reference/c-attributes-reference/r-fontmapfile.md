@@ -4,12 +4,13 @@ seo-description: 글꼴 맵 파일 경로. 이 이미지 카탈로그의 글꼴 
 seo-title: FontMapFile
 solution: Experience Manager
 title: FontMapFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84774ae3-c038-444b-ba00-d8528e6d0de8
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---

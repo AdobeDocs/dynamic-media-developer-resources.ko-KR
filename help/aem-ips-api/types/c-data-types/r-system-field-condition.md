@@ -4,12 +4,13 @@ seo-description: searchAssets 작업에 대한 시스템 필드 검색 조건.
 seo-title: SystemFieldCondition
 solution: Experience Manager
 title: SystemFieldCondition
-topic: Dynamic Media Image Production System API
 uuid: 811095df-732d-48a3-a6ff-55d6dc602b54
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 5%
 
 ---

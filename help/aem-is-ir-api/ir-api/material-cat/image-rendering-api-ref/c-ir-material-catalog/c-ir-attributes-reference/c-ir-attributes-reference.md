@@ -4,12 +4,13 @@ seo-description: 카탈로그 RootId를 제외한 모든 카탈로그 속성은 
 seo-title: 속성 참조
 solution: Experience Manager
 title: 속성 참조
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 613f1f3c-9abb-4d3e-b8b7-c2ba74f46011
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---

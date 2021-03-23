@@ -4,13 +4,14 @@ seo-description: 다양한 회사별 구성 값을 설정합니다.
 seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-topic: Dynamic Media Image Production System API
 uuid: 5908082f-6743-4444-ba73-757ad4664890
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 12%
+source-wordcount: '164'
+ht-degree: 11%
 
 ---
 

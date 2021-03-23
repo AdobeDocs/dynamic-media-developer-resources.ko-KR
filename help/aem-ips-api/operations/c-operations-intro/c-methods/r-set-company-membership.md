@@ -4,13 +4,14 @@ seo-description: 하나 이상의 회사에 사용자 멤버십을 설정합니�
 seo-title: setCompanyMembership
 solution: Experience Manager
 title: setCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 13%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 

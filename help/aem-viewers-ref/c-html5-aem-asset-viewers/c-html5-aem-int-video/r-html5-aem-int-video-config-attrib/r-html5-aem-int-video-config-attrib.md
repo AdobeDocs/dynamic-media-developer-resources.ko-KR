@@ -4,12 +4,13 @@ seo-description: 대화형 비디오 뷰어에 대한 구성 속성 설명서입
 seo-title: 명령 참조 - 구성 속성
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-topic: Dynamic Media
 uuid: eaf7a1a2-b0ec-4df2-926b-5e2c4cd0b3d1
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---

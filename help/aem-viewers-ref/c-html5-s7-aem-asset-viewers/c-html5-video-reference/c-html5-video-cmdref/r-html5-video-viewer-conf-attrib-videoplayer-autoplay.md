@@ -4,13 +4,14 @@ seo-description: 비디오 뷰어에 대한 구성 속성입니다.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
-topic: Dynamic Media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 

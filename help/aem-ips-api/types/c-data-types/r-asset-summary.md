@@ -4,13 +4,14 @@ seo-description: 자산에 대한 요약된 정보가 포함된 메타데이터 
 seo-title: 자산 요약
 solution: Experience Manager
 title: 자산 요약
-topic: Dynamic Media Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
+feature: Dynamic Media Classic,SDK/API,자산 관리
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '142'
+ht-degree: 10%
 
 ---
 

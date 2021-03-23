@@ -4,12 +4,13 @@ seo-description: 기본 인쇄 해상도입니다. 특정 카탈로그 레코드
 seo-title: 인쇄 해상도
 solution: Experience Manager
 title: 인쇄 해상도
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 4%
 
 ---

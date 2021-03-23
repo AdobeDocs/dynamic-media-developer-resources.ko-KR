@@ -4,12 +4,13 @@ seo-description: 기본 응답 이미지를 참조하십시오. 이미지를 찾
 seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 기본 축소판 유형. 특정 카탈로그 레코드에 유�
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---

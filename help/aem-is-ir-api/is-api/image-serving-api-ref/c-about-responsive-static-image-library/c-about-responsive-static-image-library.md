@@ -2,11 +2,12 @@
 description: 반응형 이미지 라이브러리는 Dynamic Media에서 제공되는 이미지 품질을 동적으로 조정하여 반응형 웹 페이지에 삽입하는 JavaScript 모듈입니다. 또한 고밀도 화면을 사용하는 디바이스에서 향상된 이미지 품질을 제공합니다. 또한 라이브러리는 스마트 자르기 및 스마트 색상 견본의 결과를 응답적으로 렌더링할 수 있습니다.
 solution: Experience Manager
 title: 반응형 이미지 라이브러리 정보
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---

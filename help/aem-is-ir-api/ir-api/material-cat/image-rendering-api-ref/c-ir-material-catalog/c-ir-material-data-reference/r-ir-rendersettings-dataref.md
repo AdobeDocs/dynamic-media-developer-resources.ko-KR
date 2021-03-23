@@ -2,11 +2,12 @@
 description: 고급 렌더링 설정. 고급 렌더링 설정은 재료 선명 효과 유형 및 매개 변수 또는 조명 알고리즘의 특정 매개 변수와 같은 렌더링 엔진의 하위 수준 측면을 제어하는 데 사용됩니다.
 solution: Experience Manager
 title: RenderSettings
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 3%
 
 ---

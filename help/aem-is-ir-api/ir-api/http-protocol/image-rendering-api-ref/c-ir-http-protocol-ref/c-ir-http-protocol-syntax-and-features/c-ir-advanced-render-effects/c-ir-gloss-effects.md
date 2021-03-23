@@ -4,12 +4,13 @@ seo-description: 비네팅에서 활성화된 경우 렌더러는 조명 알고�
 seo-title: 광택 효과
 solution: Experience Manager
 title: 광택 효과
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e4424b04-2d8c-47e5-8474-b5271c923451
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

@@ -4,13 +4,14 @@ seo-description: Video360 뷰어에 대한 구성 속성입니다.
 seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-topic: Dynamic Media
 uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '74'
+ht-degree: 9%
 
 ---
 

@@ -4,12 +4,13 @@ seo-description: 기본 축소판 크기. 축소판 요청에 대해 DefaultPix 
 seo-title: DefaultThumbPix
 solution: Experience Manager
 title: DefaultThumbPix
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---

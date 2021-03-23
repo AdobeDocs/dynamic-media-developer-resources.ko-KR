@@ -4,12 +4,13 @@ seo-description: 명령 매크로는 명령 집합에 대해 명명된 단축키
 seo-title: 명령 매크로 *
 solution: Experience Manager
 title: 명령 매크로 *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0a131488-6296-4c7f-9bc7-3053df908899
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---

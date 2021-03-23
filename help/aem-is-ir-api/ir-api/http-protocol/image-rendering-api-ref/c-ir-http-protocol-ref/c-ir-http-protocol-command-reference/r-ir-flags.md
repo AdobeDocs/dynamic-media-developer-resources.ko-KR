@@ -4,13 +4,14 @@ seo-description: 플래그를 적용합니다. 추가 렌더링 옵션을 지정
 seo-title: 플래그
 solution: Experience Manager
 title: 플래그
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 

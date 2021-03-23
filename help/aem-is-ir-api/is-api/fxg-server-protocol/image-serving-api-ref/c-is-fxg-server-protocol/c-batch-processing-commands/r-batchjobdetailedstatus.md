@@ -4,12 +4,13 @@ seo-description: 제출한 작업의 세부 상태를 검색합니다.
 seo-title: batchjobdetailedstatus
 solution: Experience Manager
 title: batchjobdetailedstatus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a79302ce-745b-44d8-9cb6-ed8d37530197
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---

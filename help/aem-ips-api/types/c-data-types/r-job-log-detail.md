@@ -4,13 +4,14 @@ seo-description: 작업 로그 정보.
 seo-title: 작업 로그 세부 사항
 solution: Experience Manager
 title: 작업 로그 세부 사항
-topic: Dynamic Media Image Production System API
 uuid: cb1879d7-a554-4ff0-bba0-0758c43f2a99
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 7%
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 

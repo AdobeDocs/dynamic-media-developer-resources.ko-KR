@@ -2,11 +2,12 @@
 description: '소프트웨어 설치에 필요한 공간 외에도 이미지 서비스에는 다음과 같은 디스크 공간 요구 사항이 있습니다 '
 solution: Experience Manager
 title: 디스크 공간 요구 사항 및 권장 사항
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 다음 슬라이드 단추를 클릭하거나 탭하면 회전�
 seo-title: 다음 슬라이드
 solution: Experience Manager
 title: 다음 슬라이드
-topic: Dynamic Media
 uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
+feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---

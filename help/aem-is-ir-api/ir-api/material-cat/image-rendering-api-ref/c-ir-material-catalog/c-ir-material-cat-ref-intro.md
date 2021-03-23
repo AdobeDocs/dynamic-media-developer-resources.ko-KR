@@ -4,12 +4,13 @@ seo-description: 이 문서에서는 Dynamic Media 이미지 렌더링을 위한
 seo-title: 소개
 solution: Experience Manager
 title: 소개
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 38da0561-7730-4170-bf29-02de325b3ad9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -58,7 +59,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 규칙 세트::항목  </span> </p> </td> 
-  <td class="stentry"> <p>'ruleset::'이 접두사로 붙은 이름은 URL 사전 처리 규칙 세트의 요소를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p>'규칙 세트::'이 접두사로 붙은 이름은 URL 사전 처리 규칙 세트의 요소를 나타냅니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 기본값::Item  </span> </p> </td> 

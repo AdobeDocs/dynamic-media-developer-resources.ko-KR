@@ -4,12 +4,13 @@ seo-description: 이미지 렌더링에 사용되는 자료에 대한 자세한 
 seo-title: 자료
 solution: Experience Manager
 title: 자료
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a4bbdd77-56b4-4a62-8fc4-2162b00420e7
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---

@@ -2,11 +2,12 @@
 description: IPS API 버전 6의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
 solution: Experience Manager
 title: 작업 새로 만들기 및 수정됨
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---

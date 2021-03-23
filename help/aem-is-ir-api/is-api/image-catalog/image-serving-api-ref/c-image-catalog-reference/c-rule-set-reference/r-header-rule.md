@@ -4,12 +4,13 @@ seo-description: HTTP 응답 헤더 요소입니다. <rule> 요소의 선택 사
 seo-title: 헤더
 solution: Experience Manager
 title: 헤더
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '154'
 ht-degree: 4%
 
 ---
@@ -37,7 +38,7 @@ HTTP 응답 헤더 요소입니다. `<rule>` 요소의 선택 사항입니다.
 
 ## 예 {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
-다음 규칙은 요청에 변수로 헤더 값을 지정할 때 사용자 지정 헤더를 적용합니다.
+헤더 값이 요청에 변수로 지정된 경우 다음 규칙은 사용자 지정 헤더를 적용합니다.
 
 ```
 <rule OnMatch="continue">

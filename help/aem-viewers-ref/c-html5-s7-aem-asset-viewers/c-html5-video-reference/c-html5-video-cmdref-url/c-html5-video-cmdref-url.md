@@ -4,12 +4,13 @@ seo-description: 비디오 뷰어에 대한 명령 참조 설명서를 참조하
 seo-title: 명령 참조 - URL
 solution: Experience Manager
 title: 명령 참조 - URL
-topic: Dynamic Media
 uuid: 4f9e4a79-6865-4e41-b30b-84ff2c6f6045
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 흐림 이미지. 이미지 데이터에 흐림 필터를 적�
 seo-title: op_blur
 solution: Experience Manager
 title: op_blur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8405bbb5-fe09-412e-9b52-0af2c01f48b9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '114'
 ht-degree: 2%
 
 ---

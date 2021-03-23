@@ -4,10 +4,12 @@ seo-description: 대화형 이미지 뷰어에 표시되는 특정 컨텐트는 
 seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 title: 사용자 인터페이스 요소의 로컬라이제이션
 uuid: 1a22570b-8435-4e57-a022-34428bddc7f7
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---

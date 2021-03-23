@@ -4,12 +4,13 @@ seo-description: 합성된 글꼴 변형을 활성화합니다. 이러한 스타
 seo-title: SyncizeFontStyles
 solution: Experience Manager
 title: SyncizeFontStyles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---

@@ -4,13 +4,14 @@ seo-description: 스핀 뷰어용 JavaScript API 참조입니다.
 seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-topic: Dynamic Media
 uuid: 6ed57f8f-5a5e-4dfa-9ab5-0f724603a0bf
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 2%
+source-wordcount: '104'
+ht-degree: 1%
 
 ---
 

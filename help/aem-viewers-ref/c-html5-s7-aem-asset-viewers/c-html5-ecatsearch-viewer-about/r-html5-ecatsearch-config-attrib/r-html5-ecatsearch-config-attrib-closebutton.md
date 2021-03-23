@@ -2,13 +2,14 @@
 description: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
-topic: Dynamic Media
 uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 

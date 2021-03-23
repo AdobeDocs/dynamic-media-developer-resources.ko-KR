@@ -4,13 +4,14 @@ seo-description: 더하기 기호가 있는 넘치는 텍스트 프레임을 표
 seo-title: markOverflowingTextFrames
 solution: Experience Manager
 title: markOverflowingTextFrames
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 68%
+source-wordcount: '193'
+ht-degree: 65%
 
 ---
 

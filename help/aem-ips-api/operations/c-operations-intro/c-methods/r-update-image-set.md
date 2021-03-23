@@ -4,13 +4,14 @@ seo-description: 이미지 세트를 업데이트합니다.
 seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-topic: Dynamic Media Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
+feature: Dynamic Media Classic,SDK/API,이미지 세트
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 19%
+source-wordcount: '92'
+ht-degree: 17%
 
 ---
 

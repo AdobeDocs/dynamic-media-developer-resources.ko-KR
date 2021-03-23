@@ -4,12 +4,13 @@ seo-description: 픽셀 크기. 이미지 크기 또는 사각형 크기를 픽�
 seo-title: 크기
 solution: Experience Manager
 title: 크기
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 765700ae-aeb2-435c-89ab-61d7007a1b8a
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '75'
 ht-degree: 4%
 
 ---

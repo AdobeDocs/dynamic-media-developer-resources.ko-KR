@@ -1,16 +1,17 @@
 ---
 description: 회전 뷰어는 적절한 회전 집합을 사용하는 경우 이미지의 360도 보기 또는 다차원 보기를 제공하는 이미지 뷰어입니다. 확대/축소 및 회전 도구, 전체 화면 지원 및 닫기 버튼(선택 사항)이 있습니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
-keywords: responsive
+keywords: 반응형
 seo-description: 회전 뷰어는 적절한 회전 집합을 사용하는 경우 이미지의 360도 보기 또는 다차원 보기를 제공하는 이미지 뷰어입니다. 확대/축소 및 회전 도구, 전체 화면 지원 및 닫기 버튼(선택 사항)이 있습니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 seo-title: 회전
 solution: Experience Manager
 title: 회전
-topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
+feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---

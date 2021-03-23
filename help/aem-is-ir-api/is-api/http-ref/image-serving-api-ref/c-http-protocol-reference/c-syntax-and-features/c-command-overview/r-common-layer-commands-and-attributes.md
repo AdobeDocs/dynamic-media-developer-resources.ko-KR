@@ -4,12 +4,13 @@ seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어�
 seo-title: 공통 레이어 명령
 solution: Experience Manager
 title: 공통 레이어 명령
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: IPS(Image Production System) 웹 서비스 API를 사용하면 
 seo-title: 이미지 제작 시스템 API 정보
 solution: Experience Manager
 title: 이미지 제작 시스템 API 정보
-topic: Image Production System API
 uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---

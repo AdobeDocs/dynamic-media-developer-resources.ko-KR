@@ -4,12 +4,13 @@ seo-description: 이 페이지는 여러 이미지 서버 예로 링크됩니다
 seo-title: 이미지 서버 예제
 solution: Experience Manager
 title: 이미지 서버 예제
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0db0350f-017b-43d8-8dbb-69234b21a747
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 5%
 
 ---

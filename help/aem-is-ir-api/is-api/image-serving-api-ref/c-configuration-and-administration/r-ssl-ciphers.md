@@ -4,12 +4,13 @@ seo-description: server.xml의 Connector 태그는 SSL 연결에 대해 선택�
 seo-title: SSL 암호 정의
 solution: Experience Manager
 title: SSL 암호 정의
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---

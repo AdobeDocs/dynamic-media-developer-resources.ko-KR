@@ -4,12 +4,13 @@ seo-description: 이 섹션에서는 Dynamic Media 이미지 렌더링 HTTP 프�
 seo-title: 이미지 렌더링 HTTP 프로토콜 기본 구문
 solution: Experience Manager
 title: 이미지 렌더링 HTTP 프로토콜 기본 구문
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---

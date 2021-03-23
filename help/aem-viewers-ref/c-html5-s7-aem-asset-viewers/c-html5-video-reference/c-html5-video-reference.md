@@ -1,13 +1,14 @@
 ---
 description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 AEM Dynamic Media에서 제공됩니다.
-keywords: responsive
+keywords: 반응형
 solution: Experience Manager
 title: 비디오
-topic: Dynamic Media
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2383'
 ht-degree: 0%
 
 ---
@@ -47,7 +48,7 @@ IS-뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
 뷰어가 팝업 모드에서 작동하면 사용자 인터페이스에서 전체 화면 단추를 사용할 수 없습니다.
 
-비디오 장(chapter) 작업이 활성화되면 비디오 컨텐츠를 신속하게 탐색할 수 있습니다. 비디오 장은 비디오 스크러버 트랙에 마커로 표시되며 터치 시스템을 한 번 누르거나 마우스 롤에 장 제목 및 관련 설명을 표시합니다. 장 마커를 클릭하거나 장 설명 버블을 탭하여 특정 장을 검색할 수 있습니다.
+비디오 장(chapter) 작업이 활성화되면 비디오 컨텐츠를 신속하게 탐색할 수 있습니다. 비디오 장은 비디오 스크러버 트랙에 마커로 표시되며 터치 시스템을 한 번 탭하거나 마우스 롤에 장 제목 및 관련 설명을 표시합니다. 장 마커를 클릭하거나 장 설명 버블을 탭하여 특정 장을 검색할 수 있습니다.
 
 뷰어는 터치 스크린과 마우스로 Windows 장치에서 터치 입력 및 마우스 입력을 모두 지원합니다. 그러나 이러한 지원은 Chrome, Internet Explorer 11 및 Edge 웹 브라우저에만 제한됩니다.
 

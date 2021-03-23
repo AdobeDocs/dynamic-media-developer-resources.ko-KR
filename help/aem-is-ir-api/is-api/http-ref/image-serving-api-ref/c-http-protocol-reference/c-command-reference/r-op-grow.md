@@ -4,12 +4,13 @@ seo-description: 이미지를 확장하거나 축소합니다. 형태학적 딜�
 seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---

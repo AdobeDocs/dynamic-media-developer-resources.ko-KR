@@ -4,12 +4,13 @@ seo-description: RTF 문자열에서 참조하는 모든 글꼴은 기본 카탈
 seo-title: 글꼴 처리
 solution: Experience Manager
 title: 글꼴 처리
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---

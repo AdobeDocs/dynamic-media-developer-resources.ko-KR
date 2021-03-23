@@ -4,12 +4,13 @@ seo-description: 이미지 앵커(핫스팟). 반복 가능한 텍스처 또는 
 seo-title: 앵커
 solution: Experience Manager
 title: 앵커
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---

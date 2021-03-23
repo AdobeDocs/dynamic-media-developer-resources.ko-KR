@@ -4,12 +4,13 @@ seo-description: 이메일 공유 도구는 도구를 활성화하면 표시되�
 seo-title: 이메일 공유
 solution: Experience Manager
 title: 이메일 공유
-topic: Dynamic Media
 uuid: e080ae49-c38f-43c3-a7b9-d5f8f41ba6d0
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3073'
+source-wordcount: '3083'
 ht-degree: 1%
 
 ---

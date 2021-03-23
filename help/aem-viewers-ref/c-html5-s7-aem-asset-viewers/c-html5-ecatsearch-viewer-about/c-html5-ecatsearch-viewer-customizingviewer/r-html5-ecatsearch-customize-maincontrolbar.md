@@ -4,12 +4,13 @@ seo-description: 주 제어 막대는 eCatalog 검색 뷰어에 사용할 수 �
 seo-title: 기본 컨트롤 막대
 solution: Experience Manager
 title: 기본 컨트롤 막대
-topic: Dynamic Media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**예**  - 높이가 36픽셀이고 뷰어 컨테이너의 상단에 위치한 회색 기본 컨트롤 막대를 설정하려면
+**예**  - 높이가 36픽셀이고 뷰어 컨테이너의 상단에 배치된 회색 기본 컨트롤 막대를 설정하려면
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 

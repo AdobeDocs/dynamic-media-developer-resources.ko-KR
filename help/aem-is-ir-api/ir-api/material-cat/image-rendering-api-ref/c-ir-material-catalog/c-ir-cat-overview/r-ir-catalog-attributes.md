@@ -4,12 +4,13 @@ seo-description: 다음 속성은 카탈로그 속성 파일에서 인식됩니�
 seo-title: 카탈로그 속성
 solution: Experience Manager
 title: 카탈로그 속성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 91e1fbf8-cb0f-4509-814c-40f7bdbd74db
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '307'
 ht-degree: 3%
 
 ---

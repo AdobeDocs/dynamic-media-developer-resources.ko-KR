@@ -4,13 +4,14 @@ seo-description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주
 seo-title: 초점 강조 표시
 solution: Experience Manager
 title: 초점 강조 표시
-topic: Dynamic Media
 uuid: 44057e10-98b6-4316-bf6c-9bf569be6a50
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 1%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 

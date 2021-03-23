@@ -4,13 +4,14 @@ seo-description: ImageMap/shapeType 및 saveImageMapParam/shapType에서 사용�
 seo-title: 영역 모양
 solution: Experience Manager
 title: 영역 모양
-topic: Dynamic Media Image Production System API
 uuid: ea879108-5277-479b-afa5-fa06328c61cd
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 6%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 

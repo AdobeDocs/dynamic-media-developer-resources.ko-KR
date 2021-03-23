@@ -4,13 +4,14 @@ seo-description: 이 문서에서는 FXG 서버 프로토콜 및 해당 구문�
 seo-title: FXG 서버 프로토콜 참조
 solution: Experience Manager
 title: FXG 서버 프로토콜 참조
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59544a37-bd4f-494e-9c1f-3e6746287846
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '71'
+ht-degree: 5%
 
 ---
 

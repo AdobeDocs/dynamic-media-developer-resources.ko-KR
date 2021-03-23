@@ -4,12 +4,13 @@ seo-description: 기본 보기 영역은 플라이아웃 보기 및 견본이 �
 seo-title: 기본 뷰어 영역
 solution: Experience Manager
 title: 기본 뷰어 영역
-topic: Dynamic Media
 uuid: bc0beeaf-3e7d-4ede-9a7d-04afb1724e44
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---

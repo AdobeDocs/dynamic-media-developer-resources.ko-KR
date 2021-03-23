@@ -1,14 +1,15 @@
 ---
 description: 플라이아웃 뷰어 사용자 지정
-keywords: responsive
+keywords: 반응형
 solution: Experience Manager
 title: 플라이아웃 뷰어 사용자 지정
-topic: Dynamic Media
 uuid: 10b5caa4-5298-43fa-af86-4f0b77be967b
+feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 색조 조정 레이어나 합성 이미지의 보이는 각 �
 seo-title: op_hue
 solution: Experience Manager
 title: op_hue
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 23da539e-0192-4dc4-a19b-41aa94a82730
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '121'
 ht-degree: 1%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 요청 유효성 검사.
 seo-title: 유효성 확인
 solution: Experience Manager
 title: 유효성 확인
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5322c484-2cf5-4022-9863-73fc525beb56
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---

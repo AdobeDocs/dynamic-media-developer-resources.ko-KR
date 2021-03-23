@@ -4,13 +4,14 @@ seo-description: 색상을 반전. 음수 이미지 효과의 각 색상 구성 
 seo-title: op_invert
 solution: Experience Manager
 title: op_invert
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bca91ce1-b105-42bf-b4ff-691f26218285
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '70'
+ht-degree: 2%
 
 ---
 

@@ -4,12 +4,13 @@ seo-description: 축소판의 세로 정렬 wid= 및 hei= 또는 DefaultThumbPix
 seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---

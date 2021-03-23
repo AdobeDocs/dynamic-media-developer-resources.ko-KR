@@ -4,12 +4,13 @@ seo-description: 값 문자열에 예약된 문자 '=', '&' 및 '%'가 포함되
 seo-title: 이미지 렌더링 HTTP 인코딩
 solution: Experience Manager
 title: 이미지 렌더링 HTTP 인코딩
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---

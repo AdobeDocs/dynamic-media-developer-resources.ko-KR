@@ -4,12 +4,13 @@ seo-description: 서버 캐시에 이 서버 설정을 사용합니다.
 seo-title: 서버 캐시
 solution: Experience Manager
 title: 서버 캐시
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 73745363-2011-453f-b7a0-96de4b44186d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---

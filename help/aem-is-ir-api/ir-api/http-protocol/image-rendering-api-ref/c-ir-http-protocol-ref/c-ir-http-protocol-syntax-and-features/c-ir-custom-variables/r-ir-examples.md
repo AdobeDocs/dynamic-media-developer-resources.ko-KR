@@ -4,12 +4,13 @@ seo-description: 이 예제에서는 [이미지 제공]을 사용하여 객체�
 seo-title: 예제
 solution: Experience Manager
 title: 예제
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f8e4346-6efe-4f21-982d-613328bd708d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---

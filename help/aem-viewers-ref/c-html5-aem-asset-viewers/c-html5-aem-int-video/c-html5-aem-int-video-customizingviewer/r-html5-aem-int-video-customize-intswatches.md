@@ -4,12 +4,13 @@ seo-description: 대화형 데이터가 구성에서 뷰어에 전달된 경우 
 seo-title: 인터랙티브한 색상 견본
 solution: Experience Manager
 title: 인터랙티브한 색상 견본
-topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---

@@ -2,11 +2,12 @@
 description: 이미지 제공은 ICC(International Color Consortium) 사양을 준수하는 색상 공간 프로파일을 기반으로 색상 공간 변환을 지원합니다.
 solution: Experience Manager
 title: 이미지 제공 색상 관리
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->현재 `bgc=`은(는) 색상 관리에 완전히 참여하지 않습니다. `bgc=`로 지정하면 &#39;S&#39; 접미사가 무시되고, `bgc=`로 지정된 색상 값의 픽셀 유형이 출력 이미지의 픽셀 유형과 다를 때 잘못된 변환이 적용됩니다. 그렇지 않으면 `bgc=`이(가) 실제 출력 색상 공간과 연결됩니다.
+>현재 `bgc=`은(는) 색상 관리에 완전히 참여하지 않습니다. `bgc=`로 지정하면 &#39;S&#39; 접미사가 무시되고, `bgc=`로 지정된 색상 값의 픽셀 유형이 출력 이미지의 픽셀 유형과 다를 경우 기본 변환이 적용됩니다. 그렇지 않으면 `bgc=`이(가) 실제 출력 색상 공간과 연결됩니다.
 
 ## 중첩 및 포함된 요청 {#section-bdda638c31504f26a77e51ebb1ea6e3b}
 
@@ -44,7 +45,7 @@ ht-degree: 0%
 
 ## 색상 공간 변환 {#section-ca87b80b8e364ea59d8a92d87121b0fb}
 
-이미지 제공에서는 일반적으로 처리 중에 색상 변환을 지연하려고 합니다. 이미지의 모든 레이어가 동일한 레이어 색상 공간을 갖는 경우 병합 및 최종 크기 조절 후 출력 색상 공간으로 변환이 수행됩니다. 여러 개의 레이어 색상 공백이 포함된 경우 병합하기 전에 각 레이어가 출력 색상 공간으로 변형됩니다.
+이미지 제공에서는 일반적으로 처리 중에 색상 변환을 지연하려고 합니다. 이미지의 모든 레이어가 동일한 레이어 색상 공간을 갖는 경우 병합 및 최종 크기 조정 후 출력 색상 공간으로 변환이 수행됩니다. 여러 개의 레이어 색상 공백이 포함된 경우 병합하기 전에 각 레이어가 출력 색상 공간으로 변형됩니다.
 
 >[!NOTE]
 >
@@ -156,4 +157,4 @@ ht-degree: 0%
 
 ## 참조 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[국제 색상 컨소시엄](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [속성::icc프로필](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)  [ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)*, 속성: icc프로필src, src*, icc 속성:icc:renderIntendRenderIntendRenderInBlackPoint보정,: 기타, ICC Profile Map Reference, color=bgc=.  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[국제 색상 컨소시엄](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), 속성::icc프로필 [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b)  [ ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)  [ ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)  [ ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88)*, 속성: icc프로필프로필src, src*, icc 속성:icc속성: RenderIntendRenderIntendRenderIn특성: 검정Compensation: 기타, ICC Profile Map Reference, color=bgc=.  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

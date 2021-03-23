@@ -1,16 +1,17 @@
 ---
 description: eCatalog 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 비헤이비어 사용자 지정은 사용자 정의 CSS를 만들어 수행합니다.
-keywords: responsive
+keywords: 반응형
 seo-description: eCatalog 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 비헤이비어 사용자 지정은 사용자 정의 CSS를 만들어 수행합니다.
 seo-title: eCatalog 뷰어 사용자 정의
 solution: Experience Manager
 title: eCatalog 뷰어 사용자 정의
-topic: Dynamic Media
 uuid: 20d0d342-acb8-421f-9ec1-447edeafda86
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ eCatalog 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 비
 
 사용자 지정 CSS 파일은 기본 CSS와 동일한 클래스 선언을 포함해야 합니다. 클래스 선언을 생략하면 사용자 인터페이스 요소에 대한 기본 스타일을 제공하지 않으므로 뷰어가 제대로 작동하지 않습니다.
 
-사용자 지정 CSS 규칙을 제공하는 대체 방법은 웹 페이지 또는 연결된 외부 CSS 규칙 중 하나에서 직접 포함된 스타일을 사용하는 것입니다.
+사용자 지정 CSS 규칙을 제공하는 다른 방법은 웹 페이지 또는 연결된 외부 CSS 규칙 중 하나에서 직접 포함된 스타일을 사용하는 것입니다.
 
 사용자 정의 CSS를 만들 때는 뷰어가 해당 컨테이너 DOM 요소에 `.s7ecatalogviewer` 클래스를 할당한다는 것을 염두에 두십시오. `style=` 명령으로 전달된 외부 CSS 파일을 사용하는 경우 CSS 규칙에 대해 하위 선택기에서 `.s7ecatalogviewer` 클래스를 상위 클래스로 사용합니다. 웹 페이지에서 포함된 스타일을 수행하는 경우 다음과 같이 컨테이너 DOM 요소의 ID를 사용하여 이 선택기의 자격을 추가로 지정합니다.
 
@@ -72,7 +73,7 @@ CSS 마커의 두 번째 그룹에는 `.s7mouseinput` 및 `.s7touchinput`이 포
 }
 ```
 
-CSS 마커를 사용하는 것은 반응형 디자인 CSS를 빌드하는 가장 유연한 방법입니다. 이 방식을 사용하면 장치 화면 크기만 아니라 실제 뷰어 크기를 대상으로 할 수 있으므로 반응형 디자인 페이지 레이아웃에 유용할 수 있습니다.
+CSS 마커를 사용하는 것은 반응형 디자인 CSS를 빌드하는 가장 유연한 방법입니다. 이를 통해 장치 화면 크기만 아니라 실제 뷰어 크기를 대상으로 할 수 있으므로 반응형 디자인 페이지 레이아웃에 유용할 수 있습니다.
 
 CSS 마커 접근 방식의 예로 기본 뷰어 CSS 파일을 사용합니다.
 

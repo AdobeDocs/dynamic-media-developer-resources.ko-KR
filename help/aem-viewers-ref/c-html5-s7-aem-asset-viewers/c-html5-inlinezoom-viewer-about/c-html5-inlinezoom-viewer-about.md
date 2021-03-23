@@ -1,13 +1,14 @@
 ---
 description: 인라인 확대/축소 뷰어는 이미지 뷰어입니다. 사용자가 기본 보기를 롤오버하거나 터치하면 해당 정적 이미지 위에 확대된 버전이 표시된 정적 이미지가 표시됩니다. 이 뷰어는 이미지 세트와 연동하며 견본을 사용하여 탐색합니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
-keywords: responsive
+keywords: 반응형
 solution: Experience Manager
 title: 인라인 확대/축소
-topic: Dynamic Media
+feature: Dynamic Media Classic,뷰어,SDK/API,인라인 확대/축소
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 0%
 
 인라인 확대/축소 뷰어는 런타임에 뷰어가 다운로드한 기본 JavaScript 파일 및 도우미 파일 집합(단일 JavaScript에는 이 특정 뷰어에서 사용하는 모든 뷰어 SDK 구성 요소, 자산, CSS)을 나타냅니다.
 
-인라인 확대/축소 뷰어는 이미지 제공 뷰어와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하거나 문서화된 API를 사용하여 대상 웹 페이지에 통합되는 내장 모드에서 팝업 모드에서 둘 다 사용할 수 있습니다.
+인라인 확대/축소 뷰어는 이미지 제공 뷰어와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하거나 문서화된 API를 사용하여 대상 웹 페이지에 통합되는 내장 모드에서 팝업 모드에서 둘 다 사용할 수 있습니다.
 
 구성 및 스키닝은 다른 뷰어의 구성과 유사합니다. 사용자 지정 CSS를 사용하여 스키닝을 적용할 수 있습니다.
 

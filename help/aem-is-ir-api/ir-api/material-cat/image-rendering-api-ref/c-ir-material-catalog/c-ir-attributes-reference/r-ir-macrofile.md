@@ -4,12 +4,13 @@ seo-description: 매크로 정의 파일 경로입니다. 이 자료 카탈로�
 seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cbf7fd62-b868-4891-8b95-0aaf38078a36
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '91'
 ht-degree: 4%
 
 ---

@@ -2,11 +2,12 @@
 description: 제공된 URL 목록을 Dynamic Media CDN(Content Distribution Network) 제공자에게 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
 solution: Experience Manager
 title: cdnCacheInvalidation
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '483'
 ht-degree: 3%
 
 ---

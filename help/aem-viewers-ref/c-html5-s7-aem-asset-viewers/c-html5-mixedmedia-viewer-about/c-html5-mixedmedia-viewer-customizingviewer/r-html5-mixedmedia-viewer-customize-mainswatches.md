@@ -4,12 +4,13 @@ seo-description: 기본 색상 견본은 왼쪽 및 오른쪽에 선택적 스�
 seo-title: 기본 색상 견본
 solution: Experience Manager
 title: 기본 색상 견본
-topic: Dynamic Media
 uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
+feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '589'
 ht-degree: 2%
 
 ---
@@ -150,7 +151,7 @@ ht-degree: 2%
 
 오버레이는 다음과 같은 값을 갖는 `type` 속성 선택기를 지원합니다.`image`(단일 이미지의 경우), `swatchset`(견본 세트의 경우), `spinset`(스핀 세트의 경우) 및 `video`(단일 비디오 또는 응용 비디오 세트의 경우).
 
-예 - 스핀 세트, 견본 세트 및 비디오에 대한 아이콘 오버레이를 설정하려면 다음을 수행합니다.
+예 - 스핀 세트, 견본 집합 및 비디오에 대한 아이콘 오버레이를 설정하려면 다음을 수행하십시오.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay[type="swatchset"] { 

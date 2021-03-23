@@ -2,11 +2,12 @@
 description: IPS 웹 서비스 API에서 처리하는 일반적인 작업 매개 변수에 대해 설명합니다.
 solution: Experience Manager
 title: 작업 방법
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 `userHandle` 매개 변수는 특정 사용자를 대상으로 하는 작업에 대한 선택적 매개 변수입니다. 기본적으로 이러한 작업은 호출하는 사용자(인증을 위해 자격 증명을 전달받은 사용자)를 대상으로 합니다. 그러나 적절한 권한을 가진 관리자 사용자는 다른 사용자를 지정할 수 있습니다. 예를 들어 `setPassword` 작업은 일반적으로 인증된 사용자의 암호를 설정하지만 관리자는 `userHandle` 매개 변수를 사용하여 다른 사용자의 암호를 설정할 수 있습니다.
 
-회사 컨텍스트가 필요한 작업(`companyHandle` 매개 변수 사용)의 경우 인증된 사용자와 대상 사용자 모두 지정된 회사의 구성원이어야 합니다. 회사 컨텍스트를 필요로 하지 않는 작업의 경우, 인증된 사용자와 타겟 사용자 모두 적어도 하나의 공통 회사의 구성원이어야 합니다.
+회사 컨텍스트가 필요한 작업(`companyHandle` 매개 변수 사용)의 경우 인증된 사용자와 대상 사용자 모두 지정된 회사의 구성원이어야 합니다. 회사 컨텍스트를 필요로 하지 않는 작업의 경우, 인증된 사용자와 대상 사용자는 둘 다 적어도 하나의 공통 회사의 구성원이어야 합니다.
 
 다음 작업은 사용자 핸들을 검색할 수 있습니다.
 
@@ -106,4 +107,4 @@ IPS 4.0부터 IPS API는 `authHeader` 로케일 매개 변수를 전달하여 �
 
 로케일 매개 변수는 `<language_code>[-<country_code>]` 형식을 사용합니다.
 
-언어 코드가 ISO-639에 의해 지정된 소문자 2자 코드이고, 선택적 국가 코드는 ISO-3266에서 지정한 대문자 2자 코드입니다. 예를 들어 미국 영어에 대한 로케일 문자열은 `en-US`입니다.
+언어 코드가 ISO-639에 의해 지정된 소문자 2자 코드이고 옵션 국가 코드는 ISO-3266에서 지정한 대문자 2자 코드입니다. 예를 들어 미국 영어에 대한 로케일 문자열은 `en-US`입니다.

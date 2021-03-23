@@ -4,13 +4,14 @@ seo-description: 이미지 집합에 포함된 멤버 배열을 가져옵니다.
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
+feature: Dynamic Media Classic,SDK/API,이미지 세트
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 15%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 

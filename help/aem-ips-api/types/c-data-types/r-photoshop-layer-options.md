@@ -4,13 +4,14 @@ seo-description: Photoshop 이미지 레이어 옵션.
 seo-title: PhotoshopLayerOptions
 solution: Experience Manager
 title: PhotoshopLayerOptions
-topic: Dynamic Media Image Production System API
 uuid: af4d5c28-f7c1-4f89-943e-386a5f83474f
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 

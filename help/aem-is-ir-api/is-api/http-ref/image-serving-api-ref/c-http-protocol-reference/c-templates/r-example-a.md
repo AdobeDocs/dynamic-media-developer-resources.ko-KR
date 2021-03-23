@@ -4,12 +4,13 @@ seo-description: 정적 배경 이미지를 사용하여 고정 크기의 템플
 seo-title: 예 A
 solution: Experience Manager
 title: 예 A
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -42,7 +43,7 @@ ht-degree: 0%
 
 레이어 1 이미지의 앵커는 왼쪽 가운데에 배치됩니다.이 값은 `pos=` 값과 함께 레이어 1 이미지의 종횡비에 상관없이 배경과 레이어 1 이미지 간의 왼쪽 가운데 정렬을 수행합니다.
 
-마찬가지로 텍스트 레이어의 앵커는 자동 크기 텍스트 상자의 오른쪽 가운데에 배치됩니다. pos=와 함께 사용하면 글꼴 크기 및 문자열 길이에 상관없이 회전된 텍스트에 대해 원하는 오른쪽 가운데 정렬을 수행할 수 있습니다.
+마찬가지로 텍스트 레이어의 앵커는 자동 크기 텍스트 상자의 오른쪽 가운데에 배치됩니다. pos=와 함께 사용하면 글꼴 크기 및 문자열 길이에 상관없이 회전된 텍스트에 대해 원하는 오른쪽 가운데 맞춤이 수행됩니다.
 
 실제 표시 텍스트는 런타임 시 제공되므로 변수를 사용하여 텍스트를 rtf 서식 봉투와 분리합니다. 레이어 1 이미지에 기본 변수 `$object`을 사용합니다. 이렇게 하면 요청 경로에서 이 이미지를 지정할 수 있습니다.
 

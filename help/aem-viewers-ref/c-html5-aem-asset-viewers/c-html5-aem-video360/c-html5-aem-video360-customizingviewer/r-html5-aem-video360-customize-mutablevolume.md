@@ -4,12 +4,13 @@ seo-description: 사용자가 비디오 플레이어 사운드를 음소거하�
 seo-title: 변경 가능한 볼륨
 solution: Experience Manager
 title: 변경 가능한 볼륨
-topic: Dynamic Media
 uuid: 6ac8f777-11d8-4a20-b7ed-23f947426cdf
+feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---

@@ -4,12 +4,13 @@ seo-description: 텍스트 흐름 영역. textPs=로 지정된 텍스트를 흐�
 seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---

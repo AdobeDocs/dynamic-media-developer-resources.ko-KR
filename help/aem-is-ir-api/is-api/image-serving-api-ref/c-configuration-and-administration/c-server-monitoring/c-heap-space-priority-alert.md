@@ -4,12 +4,13 @@ seo-description: Java 가비지 수집 주기 바로 다음에 사용 가능한 
 seo-title: 공백 우선 순위 경고
 solution: Experience Manager
 title: 공백 우선 순위 경고
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

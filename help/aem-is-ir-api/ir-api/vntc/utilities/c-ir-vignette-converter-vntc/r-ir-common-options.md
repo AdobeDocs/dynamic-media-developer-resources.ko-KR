@@ -4,12 +4,13 @@ seo-description: sourceFile 유형에 관계없이 다음 옵션을 적용할 �
 seo-title: 일반적인 옵션
 solution: Experience Manager
 title: 일반적인 옵션
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fdf09873-4102-4ed6-a315-a87cba5c44c7
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---

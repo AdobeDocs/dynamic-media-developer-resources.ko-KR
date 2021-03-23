@@ -4,12 +4,13 @@ seo-description: 소스 개체 지정자. 이미지 카탈로그 항목 또는 �
 seo-title: 개체
 solution: Experience Manager
 title: 개체
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---

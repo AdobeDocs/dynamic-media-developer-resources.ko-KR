@@ -4,12 +4,13 @@ seo-description: 기본 컨트롤 모음은 전자 카탈로그 뷰어에 사용
 seo-title: 기본 컨트롤 막대
 solution: Experience Manager
 title: 기본 컨트롤 막대
-topic: Dynamic Media
 uuid: 0900f678-d7ec-4653-bc8a-21b8da7d5044
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -52,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-**예**  - 높이가 36픽셀이고 뷰어 컨테이너의 상단에 위치한 회색 기본 컨트롤 막대를 설정하려면
+**예**  - 높이가 36픽셀이고 뷰어 컨테이너의 상단에 배치된 회색 기본 컨트롤 막대를 설정하려면
 
 ```
 .s7ecatalogviewer .s7controlbar { 

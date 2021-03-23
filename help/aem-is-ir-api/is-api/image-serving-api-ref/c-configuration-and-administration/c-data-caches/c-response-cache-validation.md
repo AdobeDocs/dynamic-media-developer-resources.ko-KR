@@ -4,12 +4,13 @@ seo-description: 캐시 항목은 CacheValidationPolicy 속성(default.ini 또�
 seo-title: 응답 캐시 유효성 검사
 solution: Experience Manager
 title: 응답 캐시 유효성 검사
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---

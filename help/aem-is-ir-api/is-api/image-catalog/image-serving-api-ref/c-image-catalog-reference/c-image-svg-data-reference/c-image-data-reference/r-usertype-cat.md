@@ -4,13 +4,14 @@ seo-description: 정적 컨텐츠 사용자 유형. 정적 컨텐츠 항목에 �
 seo-title: UserType
 solution: Experience Manager
 title: UserType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0ce53373-7896-434c-8249-39037089fab9
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 7%
 
 ---
 

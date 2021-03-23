@@ -4,12 +4,13 @@ seo-description: 검색 결과 패널은 상단에 있는 검색 입력 상자�
 seo-title: 검색 결과 패널
 solution: Experience Manager
 title: 검색 결과 패널
-topic: Dynamic Media
 uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
+feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---

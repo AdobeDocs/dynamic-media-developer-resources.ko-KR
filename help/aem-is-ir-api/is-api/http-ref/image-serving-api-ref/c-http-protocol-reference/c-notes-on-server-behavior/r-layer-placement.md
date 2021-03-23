@@ -4,12 +4,13 @@ seo-description: 레이어 원점(원본=)을 배경 레이어 원점과 함께 
 seo-title: 레이어 배치
 solution: Experience Manager
 title: 레이어 배치
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---

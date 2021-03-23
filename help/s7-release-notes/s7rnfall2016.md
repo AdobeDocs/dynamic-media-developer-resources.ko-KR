@@ -1,12 +1,13 @@
 ---
-description: Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe Scene7 2016년 가을 릴리스에 대한 최신 릴리스 노트입니다.
+description: '"Adobe Marketing Cloud의 Adobe Experience Manager 솔루션에 포함된 Adobe Scene7 2016 가을 릴리스의 최신 릴리스 노트입니다."'
 solution: Experience Manager
 title: Scene7 2016 가을 릴리스
-topic: Dynamic Media
+feature: Dynamic Media Classic
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---

@@ -2,11 +2,12 @@
 description: IPS 웹 서비스는 IPS 웹 서비스 구성 요소가 설치된 모든 IPS 설치에서 액세스하는 WSDL(웹 서비스 설명 언어) 문서에서 지원됩니다. 각 IPS API 릴리스에는 버전 관리 대상 XML 네임스페이스를 참조하는 새로운 WSDL 파일이 포함되어 있습니다. 이전 WSDL 네임스페이스 버전도 지원되므로 기존 응용 프로그램과의 역호환성을 지원합니다.
 solution: Experience Manager
 title: IPS 웹 서비스 WSDL 버전
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---

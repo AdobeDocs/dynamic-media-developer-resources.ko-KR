@@ -4,12 +4,13 @@ seo-description: 대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있
 seo-title: 대화형 이미지
 solution: Experience Manager
 title: 대화형 이미지
-topic: Dynamic Media
 uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
+feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---

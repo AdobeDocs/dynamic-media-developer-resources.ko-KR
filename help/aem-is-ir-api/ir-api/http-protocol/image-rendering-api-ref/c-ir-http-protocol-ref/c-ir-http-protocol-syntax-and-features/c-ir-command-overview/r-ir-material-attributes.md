@@ -4,12 +4,13 @@ seo-description: 이러한 속성은 선택한 객체에 적용할 재질을 정
 seo-title: 재료 특성
 solution: Experience Manager
 title: 재료 특성
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: afdff304-f607-4820-bdb2-f428271efb87
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---

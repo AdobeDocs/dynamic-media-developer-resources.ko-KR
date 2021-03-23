@@ -4,13 +4,14 @@ seo-description: 비디오 뷰어용 JavaScript API 참조
 seo-title: setVideo
 solution: Experience Manager
 title: setVideo
-topic: Dynamic Media
 uuid: 0a1b3caa-ded6-4020-962c-41c3ece0a865
+feature: Dynamic Media Classic,뷰어,SDK/API,비디오
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 3%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 

@@ -4,12 +4,13 @@ seo-description: 회사의 이미지 제공/이미지 렌더링 카탈로그 네
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '144'
 ht-degree: 10%
 
 ---

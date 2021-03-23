@@ -4,12 +4,13 @@ seo-description: 이미지 변환 유틸리티.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 2%
 
 ---
@@ -291,7 +292,7 @@ ht-degree: 2%
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | grayA </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 압축되지 않음 | 압축 </p> </td> 
    <td> <p> 병합된 이미지만 해당;레이어와 기타 채널은 무시됩니다. </p> </td> 
   </tr> 
@@ -312,7 +313,7 @@ ht-degree: 2%
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | grayA | 인덱스 </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 압축되지 않음 | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | 패키지 </p> </td> 
    <td> <p> 연결된 첫 번째 알파 채널을 제외하고 추가 채널은 무시됩니다. </p> </td> 
   </tr> 

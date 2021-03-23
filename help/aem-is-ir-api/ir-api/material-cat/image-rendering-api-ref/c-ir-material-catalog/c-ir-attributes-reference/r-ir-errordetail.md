@@ -4,12 +4,13 @@ seo-description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 4%
 
 ---

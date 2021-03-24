@@ -1,17 +1,14 @@
 ---
 description: 회전 뷰어용 JavaScript API 참조
-seo-description: 회전 뷰어용 JavaScript API 참조
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 50db47ee-c1bb-4e45-bfcf-fae0fff6e0e8
 feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 

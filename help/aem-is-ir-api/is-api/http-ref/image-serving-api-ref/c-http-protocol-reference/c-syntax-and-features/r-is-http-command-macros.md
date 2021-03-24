@@ -1,16 +1,13 @@
 ---
 description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다. 매크로는 이미지 카탈로그 또는 기본 카탈로그에 첨부할 수 있는 별도의 매크로 정의 파일에 정의됩니다.
-seo-description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다. 매크로는 이미지 카탈로그 또는 기본 카탈로그에 첨부할 수 있는 별도의 매크로 정의 파일에 정의됩니다.
-seo-title: 명령 매크로
 solution: Experience Manager
 title: 명령 매크로
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 비디오 뷰어용 JavaScript API 참조.
-seo-description: 비디오 뷰어용 JavaScript API 참조.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: 7688134f-ab85-43ce-9ff8-9965bd33acd0
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '90'
 ht-degree: 2%
 
 ---

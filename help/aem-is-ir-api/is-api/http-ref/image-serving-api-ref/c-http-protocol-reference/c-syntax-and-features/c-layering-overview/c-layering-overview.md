@@ -1,17 +1,14 @@
 ---
 description: 이미지 제공 기능을 사용하면 원하는 수의 이미지, 텍스트 및 단색 레이어를 합성 이미지에 결합할 수 있습니다.
-seo-description: 이미지 제공 기능을 사용하면 원하는 수의 이미지, 텍스트 및 단색 레이어를 합성 이미지에 결합할 수 있습니다.
-seo-title: 레이어 개요
 solution: Experience Manager
 title: 레이어 개요
-uuid: 74c0855b-050a-4631-adea-9488bca67fd2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 2%
+source-wordcount: '61'
+ht-degree: 3%
 
 ---
 

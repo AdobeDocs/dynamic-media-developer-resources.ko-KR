@@ -1,16 +1,13 @@
 ---
 description: 밝기 조정 이미지 밝기를 줄이거나 늘립니다.
-seo-description: 밝기 조정 이미지 밝기를 줄이거나 늘립니다.
-seo-title: op_brightness
 solution: Experience Manager
 title: op_brightness
-uuid: 751ec9e5-4a70-438d-950c-deff4db034b1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---

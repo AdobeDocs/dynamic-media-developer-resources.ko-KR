@@ -1,16 +1,13 @@
 ---
 description: 다음 옵션은 캐비닛 스타일 파일의 처리를 제어합니다. sourceFile이 캐비닛 스타일 파일이 아니거나 -info가 지정된 경우 무시됩니다.
-seo-description: 다음 옵션은 캐비닛 스타일 파일의 처리를 제어합니다. sourceFile이 캐비닛 스타일 파일이 아니거나 -info가 지정된 경우 무시됩니다.
-seo-title: 캐비닛 스타일 파일 옵션
 solution: Experience Manager
 title: 캐비닛 스타일 파일 옵션
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---

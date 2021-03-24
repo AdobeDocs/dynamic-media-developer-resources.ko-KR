@@ -1,17 +1,14 @@
 ---
 description: RGB 기본 입력 색상 프로파일. 색상 프로파일을 포함하지 않는 RGB 소스 이미지 및 color=와 같은 다양한 이미지 제공 명령으로 지정된 특정 RGB 색상 값에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
-seo-description: RGB 기본 입력 색상 프로파일. 색상 프로파일을 포함하지 않는 RGB 소스 이미지 및 color=와 같은 다양한 이미지 제공 명령으로 지정된 특정 RGB 색상 값에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
-seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
+source-wordcount: '163'
+ht-degree: 2%
 
 ---
 

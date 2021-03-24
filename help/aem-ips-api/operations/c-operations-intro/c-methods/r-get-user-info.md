@@ -1,17 +1,14 @@
 ---
 description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
-seo-description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
-seo-title: getUserInfo
 solution: Experience Manager
 title: getUserInfo
-uuid: b305c108-22e9-4268-a5b3-25fddd844c24
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 9%
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 

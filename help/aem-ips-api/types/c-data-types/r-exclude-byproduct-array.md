@@ -1,17 +1,14 @@
 ---
 description: searchAssets 작업에서 부산물 필터링을 지원합니다.
-seo-description: searchAssets 작업에서 부산물 필터링을 지원합니다.
-seo-title: ExcludeMozineArray
 solution: Experience Manager
 title: ExcludeMozineArray
-uuid: 35c97446-ca7e-465d-9575-15d9480d5a87
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 

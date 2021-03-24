@@ -1,17 +1,14 @@
 ---
 description: 회사별 구성 설정.
-seo-description: 회사별 구성 설정.
-seo-title: 회사 설정
 solution: Experience Manager
 title: 회사 설정
-uuid: a807d5c1-058d-4313-b4f8-6ee203284003
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 

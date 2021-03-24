@@ -1,16 +1,13 @@
 ---
 description: 다음 필드는 매크로 정의 파일에서 인식됩니다.
-seo-description: 다음 필드는 매크로 정의 파일에서 인식됩니다.
-seo-title: 매크로 정의
 solution: Experience Manager
 title: 매크로 정의
-uuid: 806f6394-0af8-4f69-83ec-6fe3b41efa27
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---

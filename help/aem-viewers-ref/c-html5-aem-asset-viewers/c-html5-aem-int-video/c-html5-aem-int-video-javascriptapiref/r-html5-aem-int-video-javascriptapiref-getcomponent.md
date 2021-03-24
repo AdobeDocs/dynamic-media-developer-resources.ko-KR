@@ -1,16 +1,13 @@
 ---
 description: 대화형 비디오 뷰어용 JavaScript API 참조입니다.
-seo-description: 대화형 비디오 뷰어용 JavaScript API 참조입니다.
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: e69da809-584c-4311-95c6-3efe9d15ad1f
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '223'
 ht-degree: 1%
 
 ---

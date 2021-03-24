@@ -1,17 +1,14 @@
 ---
 description: 이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이미지 렌더링을 위한 기능에 대해 설명합니다.
-seo-description: 이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이미지 렌더링을 위한 기능에 대해 설명합니다.
-seo-title: HTTP 프로토콜 구문 및 기능
 solution: Experience Manager
 title: HTTP 프로토콜 구문 및 기능
-uuid: 5badae8e-0874-43b1-b019-bd7445e6c2ce
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 

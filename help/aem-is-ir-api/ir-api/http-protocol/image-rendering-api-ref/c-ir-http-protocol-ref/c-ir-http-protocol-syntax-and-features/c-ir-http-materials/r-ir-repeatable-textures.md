@@ -1,16 +1,13 @@
 ---
 description: 반복 가능한 텍스처에는 직물(의류 및 업홀스터리 모두), 담벼락 바닥 커버, 벽면 커버링, 벽면 재질, 카운터톱 재질, 나무 그레인 텍스처, 지붕 및 측판 재질, 기타 일반적인 텍스처와 같은 실내 및 외부 재질이 포함됩니다.
-seo-description: 반복 가능한 텍스처에는 직물(의류 및 업홀스터리 모두), 담벼락 바닥 커버, 벽면 커버링, 벽면 재질, 카운터톱 재질, 나무 그레인 텍스처, 지붕 및 측판 재질, 기타 일반적인 텍스처와 같은 실내 및 외부 재질이 포함됩니다.
-seo-title: 반복 가능한 텍스처
 solution: Experience Manager
 title: 반복 가능한 텍스처
-uuid: 11a55d9f-a1d7-490e-af0e-9bf2c3a35501
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '248'
 ht-degree: 3%
 
 ---

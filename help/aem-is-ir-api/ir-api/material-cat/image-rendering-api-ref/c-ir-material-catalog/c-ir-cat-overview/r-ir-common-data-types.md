@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 속성 및 필드에는 다음 유형 중 하나의 데이터가 포함될 수 있습니다.
-seo-description: 카탈로그 속성 및 필드에는 다음 유형 중 하나의 데이터가 포함될 수 있습니다.
-seo-title: 일반적인 데이터 유형
 solution: Experience Manager
 title: 일반적인 데이터 유형
-uuid: b36cf09d-dee2-4e8b-9500-e8fa4c5c112f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---

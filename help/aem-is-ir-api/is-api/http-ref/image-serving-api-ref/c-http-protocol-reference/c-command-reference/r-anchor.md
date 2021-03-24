@@ -1,16 +1,13 @@
 ---
 description: 이미지 앵커. 변형(자르기=, 비율=, 회전=, 뒤집기=)을 적용하기 전에 이미지, 단색 또는 텍스트 테두리 상자 사각형의 기준점을 정의합니다. rotate=의 중심 회전 기능도 제공합니다.
-seo-description: 이미지 앵커. 변형(자르기=, 비율=, 회전=, 뒤집기=)을 적용하기 전에 이미지, 단색 또는 텍스트 테두리 상자 사각형의 기준점을 정의합니다. rotate=의 중심 회전 기능도 제공합니다.
-seo-title: 앵커
 solution: Experience Manager
 title: 앵커
-uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '216'
 ht-degree: 3%
 
 ---

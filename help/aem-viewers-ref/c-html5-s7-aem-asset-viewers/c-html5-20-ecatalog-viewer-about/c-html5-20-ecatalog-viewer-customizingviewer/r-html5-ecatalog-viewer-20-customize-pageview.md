@@ -1,17 +1,14 @@
 ---
 description: 기본 보기는 카탈로그 이미지로 구성됩니다. 다른 페이지로 이동하거나 확대하기 위해 스와이프할 수 있습니다.
-seo-description: 기본 보기는 카탈로그 이미지로 구성됩니다. 다른 페이지로 이동하거나 확대하기 위해 스와이프할 수 있습니다.
-seo-title: 페이지 보기
 solution: Experience Manager
 title: 페이지 보기
-uuid: 5e247f56-f0da-487b-8e03-587b9d36aa39
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 2%
+source-wordcount: '391'
+ht-degree: 3%
 
 ---
 

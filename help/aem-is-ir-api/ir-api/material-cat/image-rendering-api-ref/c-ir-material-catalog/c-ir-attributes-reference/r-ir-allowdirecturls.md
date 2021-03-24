@@ -1,16 +1,13 @@
 ---
 description: 절대 소스 URL 허용
-seo-description: 절대 소스 URL 허용
-seo-title: AllowDirectURL
 solution: Experience Manager
 title: AllowDirectURL
-uuid: 6b03abd1-bff6-4ff2-9945-9905355de87e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '51'
 ht-degree: 7%
 
 ---

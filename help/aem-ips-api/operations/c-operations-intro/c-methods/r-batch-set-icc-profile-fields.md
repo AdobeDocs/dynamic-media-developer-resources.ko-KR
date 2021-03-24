@@ -1,16 +1,13 @@
 ---
 description: ICC 프로필 메타데이터 필드를 설정합니다.
-seo-description: ICC 프로필 메타데이터 필드를 설정합니다.
-seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
-uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '144'
 ht-degree: 13%
 
 ---

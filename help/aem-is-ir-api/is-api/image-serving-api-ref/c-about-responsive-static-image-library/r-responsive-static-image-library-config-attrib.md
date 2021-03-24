@@ -1,16 +1,13 @@
 ---
 description: 구성 속성은 응답형 이미지 라이브러리가 관리하는 IMG 요소에 직접 속성으로 정의됩니다. 각 이미지에는 고유한 특성 세트가 있을 수 있습니다.
-seo-description: 구성 속성은 응답형 이미지 라이브러리가 관리하는 IMG 요소에 직접 속성으로 정의됩니다. 각 이미지에는 고유한 특성 세트가 있을 수 있습니다.
-seo-title: 명령 참조 - 구성 속성
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---

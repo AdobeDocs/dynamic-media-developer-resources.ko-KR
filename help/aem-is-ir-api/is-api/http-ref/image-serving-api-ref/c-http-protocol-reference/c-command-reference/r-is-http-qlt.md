@@ -1,17 +1,14 @@
 ---
 description: JPEG 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 결과 이미지의 파일 크기(응답 데이터의 양)와 시각적 품질이 간접적으로 달라집니다.
-seo-description: JPEG 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 결과 이미지의 파일 크기(응답 데이터의 양)와 시각적 품질이 간접적으로 달라집니다.
-seo-title: qlt
 solution: Experience Manager
 title: qlt
-uuid: 9f69845d-3b25-41a7-b6c0-83cf1d2bc450
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 5%
+source-wordcount: '241'
+ht-degree: 6%
 
 ---
 

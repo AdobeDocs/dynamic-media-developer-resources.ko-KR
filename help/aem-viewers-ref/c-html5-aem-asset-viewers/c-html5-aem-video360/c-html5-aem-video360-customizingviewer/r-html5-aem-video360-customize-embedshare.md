@@ -1,16 +1,13 @@
 ---
 description: 포함 공유 도구는 도구를 활성화하면 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-description: 포함 공유 도구는 도구를 활성화하면 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-title: 공유 포함
 solution: Experience Manager
 title: 공유 포함
-uuid: 768e8eb5-ec35-4028-be96-268f8220fe07
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2606'
 ht-degree: 2%
 
 ---

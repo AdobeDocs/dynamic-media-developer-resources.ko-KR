@@ -1,17 +1,14 @@
 ---
 description: 카탈로그 레코드 식별자. 렌더링 서버에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 재료 식별자입니다.
-seo-description: 카탈로그 레코드 식별자. 렌더링 서버에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 재료 식별자입니다.
-seo-title: ID
 solution: Experience Manager
 title: ID
-uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 7%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 

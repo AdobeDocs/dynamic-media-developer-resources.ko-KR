@@ -1,17 +1,14 @@
 ---
 description: 출력 색상 프로필.
-seo-description: 출력 색상 프로필.
-seo-title: icc
 solution: Experience Manager
 title: icc
-uuid: cfbd18aa-cbba-4085-920d-1f54645d0f89
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 5%
+source-wordcount: '275'
+ht-degree: 4%
 
 ---
 

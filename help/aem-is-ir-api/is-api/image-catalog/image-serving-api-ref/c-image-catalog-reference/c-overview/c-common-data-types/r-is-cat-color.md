@@ -1,17 +1,14 @@
 ---
 description: 색상 데이터 유형.
-seo-description: 색상 데이터 유형.
-seo-title: 색상
 solution: Experience Manager
 title: 색상
-uuid: ff431b92-7936-41df-9372-b97267cdffd2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 7%
+source-wordcount: '35'
+ht-degree: 5%
 
 ---
 

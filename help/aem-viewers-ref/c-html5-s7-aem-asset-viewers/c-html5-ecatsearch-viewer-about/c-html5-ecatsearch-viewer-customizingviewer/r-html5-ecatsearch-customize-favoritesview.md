@@ -1,16 +1,13 @@
 ---
 description: 즐겨찾기 보기는 축소판 이미지 열로 구성됩니다.
-seo-description: 즐겨찾기 보기는 축소판 이미지 열로 구성됩니다.
-seo-title: 즐겨찾기 보기
 solution: Experience Manager
 title: 즐겨찾기 보기
-uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---

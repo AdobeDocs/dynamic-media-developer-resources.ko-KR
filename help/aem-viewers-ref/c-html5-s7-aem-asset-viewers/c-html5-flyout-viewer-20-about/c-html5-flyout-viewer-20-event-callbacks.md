@@ -2,11 +2,10 @@
 description: 이벤트 콜백
 solution: Experience Manager
 title: 이벤트 콜백
-uuid: 15d9e064-c076-4f6d-9222-d2c51160b60c
 feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

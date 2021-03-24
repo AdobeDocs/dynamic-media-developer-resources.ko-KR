@@ -1,17 +1,14 @@
 ---
 description: 확대/축소 뷰어는 확대/축소 가능한 이미지를 표시하는 이미지 뷰어입니다. 이 뷰어는 이미지 세트와 연동하며 견본을 사용하여 탐색합니다. 확대/축소 툴, 전체 화면 지원, 색상 견본 및 닫기 버튼(선택 사항)을 제공합니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 keywords: 반응형
-seo-description: 확대/축소 뷰어는 확대/축소 가능한 이미지를 표시하는 이미지 뷰어입니다. 이 뷰어는 이미지 세트와 연동하며 견본을 사용하여 탐색합니다. 확대/축소 툴, 전체 화면 지원, 색상 견본 및 닫기 버튼(선택 사항)을 제공합니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
-seo-title: 확대/축소
 solution: Experience Manager
 title: 확대/축소
-uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2423'
 ht-degree: 0%
 
 ---

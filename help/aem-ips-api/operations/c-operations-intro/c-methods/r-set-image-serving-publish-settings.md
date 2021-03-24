@@ -1,17 +1,14 @@
 ---
 description: Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
-seo-description: Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
-seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 11%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
 

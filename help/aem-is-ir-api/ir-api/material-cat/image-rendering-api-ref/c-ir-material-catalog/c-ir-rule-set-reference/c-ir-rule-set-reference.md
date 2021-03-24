@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 정규 표현식 일치 및 대체 규칙을 기반으로 하는 간단한 요청 사전 처리 메커니즘을 지원합니다.
-seo-description: 이미지 렌더링은 정규 표현식 일치 및 대체 규칙을 기반으로 하는 간단한 요청 사전 처리 메커니즘을 지원합니다.
-seo-title: 규칙 세트 참조
 solution: Experience Manager
 title: 규칙 세트 참조
-uuid: aeec7597-4d23-4cf8-8bdc-3a133152eadb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---

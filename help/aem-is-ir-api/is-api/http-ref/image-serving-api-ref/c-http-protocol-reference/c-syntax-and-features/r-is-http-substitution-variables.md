@@ -1,16 +1,13 @@
 ---
 description: 대체 변수는 요청 URL에서 이미지 카탈로그에 저장된 합성 템플릿으로 값을 전송하는 데 사용됩니다. 변수를 사용하여 복잡한 요청의 다른 위치에 동일한 값을 전달할 수도 있습니다.
-seo-description: 대체 변수는 요청 URL에서 이미지 카탈로그에 저장된 합성 템플릿으로 값을 전송하는 데 사용됩니다. 변수를 사용하여 복잡한 요청의 다른 위치에 동일한 값을 전달할 수도 있습니다.
-seo-title: 대체 변수
 solution: Experience Manager
 title: 대체 변수
-uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---

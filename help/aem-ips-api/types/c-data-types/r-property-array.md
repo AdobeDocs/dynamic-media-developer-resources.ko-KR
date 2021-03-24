@@ -1,17 +1,14 @@
 ---
 description: 속성의 배열입니다.
-seo-description: 속성의 배열입니다.
-seo-title: PropertyArray
 solution: Experience Manager
 title: PropertyArray
-uuid: a28dd70f-953c-472a-9c23-020db134e1af
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 

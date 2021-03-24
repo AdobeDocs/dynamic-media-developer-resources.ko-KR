@@ -1,17 +1,14 @@
 ---
 description: 자산 업로드를 위한 URL 배열입니다.
-seo-description: 자산 업로드를 위한 URL 배열입니다.
-seo-title: UploadUrlArray
 solution: Experience Manager
 title: UploadUrlArray
-uuid: cb7338cd-5873-4e84-bf6d-39abff3166cd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 

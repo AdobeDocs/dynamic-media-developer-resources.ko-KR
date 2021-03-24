@@ -1,17 +1,14 @@
 ---
 description: 글꼴 파일 경로. 파일 접미사를 포함하여 기본 글꼴 파일의 경로 및 이름입니다.
-seo-description: 글꼴 파일 경로. 파일 접미사를 포함하여 기본 글꼴 파일의 경로 및 이름입니다.
-seo-title: FontPath
 solution: Experience Manager
 title: FontPath
-uuid: 199a2acd-2b7f-41a0-88b2-4955a9bc9c63
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 8%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 

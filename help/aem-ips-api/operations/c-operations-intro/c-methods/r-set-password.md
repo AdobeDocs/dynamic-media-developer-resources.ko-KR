@@ -1,16 +1,13 @@
 ---
 description: 사용자 핸들 지정 여부에 따라 특정 사용자 또는 기본 사용자의 암호를 특정 값으로 설정합니다.
-seo-description: 사용자 핸들 지정 여부에 따라 특정 사용자 또는 기본 사용자의 암호를 특정 값으로 설정합니다.
-seo-title: setPassword
 solution: Experience Manager
 title: setPassword
-uuid: 78067f8d-4191-4580-a5a8-adb6edfcfab8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '233'
 ht-degree: 5%
 
 ---

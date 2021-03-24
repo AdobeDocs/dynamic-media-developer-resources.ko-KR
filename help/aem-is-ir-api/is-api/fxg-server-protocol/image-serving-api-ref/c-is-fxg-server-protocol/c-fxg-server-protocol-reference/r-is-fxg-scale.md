@@ -1,17 +1,14 @@
 ---
 description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 배율을 배율로 합니다.
-seo-description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 배율을 배율로 합니다.
-seo-title: scale
 solution: Experience Manager
-title: 크기 조절
-uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
+title: scale
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 

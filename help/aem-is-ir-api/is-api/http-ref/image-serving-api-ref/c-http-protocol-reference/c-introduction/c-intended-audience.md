@@ -1,17 +1,14 @@
 ---
 description: 웹 사이트 또는 맞춤형 애플리케이션에 Dynamic Media Image Serving을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자
-seo-description: 웹 사이트 또는 맞춤형 애플리케이션에 Dynamic Media Image Serving을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자
-seo-title: 대상
 solution: Experience Manager
 title: 대상
-uuid: 610fe9a9-897d-4e20-8879-334587c54a5b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 6%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 

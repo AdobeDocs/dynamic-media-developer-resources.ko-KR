@@ -1,16 +1,13 @@
 ---
 description: 소스 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택된 속성을 반환합니다.
-seo-description: 소스 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택된 속성을 반환합니다.
-seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '334'
 ht-degree: 6%
 
 ---

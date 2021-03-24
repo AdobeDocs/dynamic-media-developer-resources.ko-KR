@@ -1,16 +1,13 @@
 ---
 description: RTF 문자열에서 참조하는 모든 글꼴은 기본 카탈로그나 현재 이미지 카탈로그의 글꼴 맵 파일에서 사용할 수 있어야 합니다. 그렇지 않으면 오류가 반환됩니다.
-seo-description: RTF 문자열에서 참조하는 모든 글꼴은 기본 카탈로그나 현재 이미지 카탈로그의 글꼴 맵 파일에서 사용할 수 있어야 합니다. 그렇지 않으면 오류가 반환됩니다.
-seo-title: 글꼴 처리
 solution: Experience Manager
 title: 글꼴 처리
-uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---

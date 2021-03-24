@@ -1,17 +1,14 @@
 ---
 description: 다음 예제에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여 줍니다.
-seo-description: 다음 예제에서는 텍스트 명령의 샘플과 텍스트에 미치는 영향을 보여 줍니다.
-seo-title: RTF 인코딩 예제
 solution: Experience Manager
 title: RTF 인코딩 예제
-uuid: 29fb4f59-b4bf-4768-a6e1-cc50926da936
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '58'
+ht-degree: 3%
 
 ---
 

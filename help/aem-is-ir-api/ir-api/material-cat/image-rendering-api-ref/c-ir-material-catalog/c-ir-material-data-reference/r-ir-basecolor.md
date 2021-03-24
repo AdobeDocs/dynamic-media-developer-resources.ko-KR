@@ -1,17 +1,14 @@
 ---
 description: 주요 이미지 색상입니다. 텍스처 색상에 사용되는 빼기 색상입니다. 텍스처 이미지의 평균 지배적인 색상이어야 합니다.
-seo-description: 주요 이미지 색상입니다. 텍스처 색상에 사용되는 빼기 색상입니다. 텍스처 이미지의 평균 지배적인 색상이어야 합니다.
-seo-title: 기본 색상
 solution: Experience Manager
 title: 기본 색상
-uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 

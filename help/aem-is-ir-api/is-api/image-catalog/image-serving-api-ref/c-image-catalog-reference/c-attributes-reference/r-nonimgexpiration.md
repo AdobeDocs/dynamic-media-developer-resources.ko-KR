@@ -1,17 +1,14 @@
 ---
 description: 비이미지 응답에 대한 클라이언트 캐시 TTL입니다. 이미지가 아닌 특정 응답에 대한 만료 간격을 제공합니다.
-seo-description: 비이미지 응답에 대한 클라이언트 캐시 TTL입니다. 이미지가 아닌 특정 응답에 대한 만료 간격을 제공합니다.
-seo-title: NonImgExpiration
 solution: Experience Manager
 title: NonImgExpiration
-uuid: 19b37bd4-f7cf-4b5f-be1a-b2d9fda5b4b1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '125'
+ht-degree: 3%
 
 ---
 

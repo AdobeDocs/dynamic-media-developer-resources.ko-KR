@@ -1,16 +1,13 @@
 ---
 description: 선명하게 하기. Sharpening 속성을 사용하여 렌더링하는 동안 질감이 선명하게 되는 시기를 결정합니다.
-seo-description: 선명하게 하기. Sharpening 속성을 사용하여 렌더링하는 동안 질감이 선명하게 되는 시기를 결정합니다.
-seo-title: 샤프
 solution: Experience Manager
 title: 샤프
-uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '117'
 ht-degree: 10%
 
 ---

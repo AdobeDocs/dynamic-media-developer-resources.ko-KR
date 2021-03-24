@@ -1,17 +1,14 @@
 ---
 description: 기본 문자 서식에 다음 명령을 사용합니다.
-seo-description: 기본 문자 서식에 다음 명령을 사용합니다.
-seo-title: 기본 문자 서식
 solution: Experience Manager
 title: 기본 문자 서식
-uuid: cc8f276a-ebcc-479b-bd86-7ac0dc755f11
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 7%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: IPS에서 자산을 반환합니다.
-seo-description: IPS에서 자산을 반환합니다.
-seo-title: getAssets
 solution: Experience Manager
 title: getAssets
-uuid: ca06af8c-1753-4dfa-a7e6-1196ea769730
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '127'
 ht-degree: 14%
 
 ---

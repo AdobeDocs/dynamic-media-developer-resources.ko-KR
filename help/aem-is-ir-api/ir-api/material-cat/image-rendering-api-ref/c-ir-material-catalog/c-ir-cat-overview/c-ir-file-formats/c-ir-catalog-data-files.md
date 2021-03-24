@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 데이터 파일에는 모든 이름과 파일 접미사(.ini 제외)가 있을 수 있습니다.
-seo-description: 카탈로그 데이터 파일에는 모든 이름과 파일 접미사(.ini 제외)가 있을 수 있습니다.
-seo-title: 카탈로그 데이터 파일
 solution: Experience Manager
 title: 카탈로그 데이터 파일
-uuid: 33d991d6-5aa7-4cc6-88d4-10c4bb83d786
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

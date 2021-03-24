@@ -1,16 +1,13 @@
 ---
 description: 이 예제에서는 [이미지 제공]을 사용하여 객체에 색상을 적용하고 비네팅 집합 중 하나에 사용자 정의 텍스트를 포함하는 데모를 적용합니다.
-seo-description: 이 예제에서는 [이미지 제공]을 사용하여 객체에 색상을 적용하고 비네팅 집합 중 하나에 사용자 정의 텍스트를 포함하는 데모를 적용합니다.
-seo-title: 예제
 solution: Experience Manager
 title: 예제
-uuid: 9f8e4346-6efe-4f21-982d-613328bd708d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '149'
 ht-degree: 1%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이름별로 개체를 선택합니다. 이름으로 지정된 비네팅 그룹을 선택하고 새 MSS를 시작합니다.
-seo-description: 이름별로 개체를 선택합니다. 이름으로 지정된 비네팅 그룹을 선택하고 새 MSS를 시작합니다.
-seo-title: obj
 solution: Experience Manager
 title: obj
-uuid: 2fede992-6759-45bd-b2f1-36e2c791d536
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '147'
 ht-degree: 3%
 
 ---

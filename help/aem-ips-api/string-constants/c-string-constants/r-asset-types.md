@@ -1,16 +1,13 @@
 ---
 description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
-seo-description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
-seo-title: 자산 유형
 solution: Experience Manager
 title: 자산 유형
-uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '47'
 ht-degree: 12%
 
 ---

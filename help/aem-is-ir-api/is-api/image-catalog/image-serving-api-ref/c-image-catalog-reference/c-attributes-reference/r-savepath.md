@@ -1,17 +1,14 @@
 ---
 description: saveToFile=의 루트 경로입니다. req=saveToFile을 사용하여 생성된 이미지를 작성해야 하는 루트 폴더의 상대 경로입니다.
-seo-description: saveToFile=의 루트 경로입니다. req=saveToFile을 사용하여 생성된 이미지를 작성해야 하는 루트 폴더의 상대 경로입니다.
-seo-title: SavePath
 solution: Experience Manager
 title: SavePath
-uuid: 02b88e83-7fee-40d4-95ea-daba9a608e8e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 

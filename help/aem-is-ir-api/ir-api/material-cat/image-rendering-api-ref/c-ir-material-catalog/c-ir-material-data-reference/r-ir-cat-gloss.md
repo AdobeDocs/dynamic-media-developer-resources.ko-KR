@@ -1,17 +1,14 @@
 ---
 description: 표면 광택 재료 서피스의 상대 광택 효과를 지정합니다.
-seo-description: 표면 광택 재료 서피스의 상대 광택 효과를 지정합니다.
-seo-title: 광택 효과
 solution: Experience Manager
 title: 광택 효과
-uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 

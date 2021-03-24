@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공 구성 요소는 Linux 데몬 또는 Windows 서비스(서비스 Campaign 컨트롤 패널에서 'Dynamic Media 이미지 제공'으로 나열된 S7Supervisor.exe)인 서버 수퍼바이저가 관리합니다.
-seo-description: 이미지 제공 구성 요소는 Linux 데몬 또는 Windows 서비스(서비스 Campaign 컨트롤 패널에서 'Dynamic Media 이미지 제공'으로 나열된 S7Supervisor.exe)인 서버 수퍼바이저가 관리합니다.
-seo-title: 서버 관리자
 solution: Experience Manager
 title: 서버 관리자
-uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---

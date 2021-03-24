@@ -1,17 +1,14 @@
 ---
 description: 계층 트리 구조의 폴더 및 하위 폴더를 반환합니다. getFolderTree 응답은 최대 100,000개의 폴더로 제한됩니다
-seo-description: 계층 트리 구조의 폴더 및 하위 폴더를 반환합니다. getFolderTree 응답은 최대 100,000개의 폴더로 제한됩니다
-seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
-uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 8%
+source-wordcount: '265'
+ht-degree: 9%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 진행 중인 작업을 중지합니다.
-seo-description: 진행 중인 작업을 중지합니다.
-seo-title: stopJob
 solution: Experience Manager
 title: stopJob
-uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 17%
+source-wordcount: '61'
+ht-degree: 19%
 
 ---
 

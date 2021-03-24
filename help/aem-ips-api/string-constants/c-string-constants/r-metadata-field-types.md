@@ -1,16 +1,13 @@
 ---
 description: MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fieldType에서 사용됩니다.
-seo-description: MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fieldType에서 사용됩니다.
-seo-title: 메타데이터 필드 유형
 solution: Experience Manager
 title: 메타데이터 필드 유형
-uuid: 57d292bb-848a-4e6e-bd08-4e6af1f9fc72
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '103'
 ht-degree: 1%
 
 ---

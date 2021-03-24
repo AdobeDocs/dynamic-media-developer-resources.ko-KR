@@ -1,17 +1,14 @@
 ---
 description: 혼합 미디어 뷰어에 대한 JavaScript API 참조입니다.
-seo-description: 혼합 미디어 뷰어에 대한 JavaScript API 참조입니다.
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 56d82392-1c6f-422a-ab5b-2e407d78ba74
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 

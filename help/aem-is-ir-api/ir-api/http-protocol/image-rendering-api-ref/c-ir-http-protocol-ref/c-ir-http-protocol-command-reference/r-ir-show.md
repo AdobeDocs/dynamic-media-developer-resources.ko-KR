@@ -1,17 +1,14 @@
 ---
 description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(윈도우 커버 프레임 객체 포함)를 표시합니다.
-seo-description: 오버랩 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 객체(윈도우 커버 프레임 객체 포함)를 표시합니다.
-seo-title: 표시
 solution: Experience Manager
 title: 표시
-uuid: 31255529-9277-40d9-9c57-205d22479600
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 

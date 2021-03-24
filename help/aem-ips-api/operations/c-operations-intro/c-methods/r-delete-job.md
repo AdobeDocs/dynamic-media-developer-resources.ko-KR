@@ -1,17 +1,14 @@
 ---
 description: 현재 또는 예약된 작업을 삭제합니다.
-seo-description: 현재 또는 예약된 작업을 삭제합니다.
-seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 11%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 

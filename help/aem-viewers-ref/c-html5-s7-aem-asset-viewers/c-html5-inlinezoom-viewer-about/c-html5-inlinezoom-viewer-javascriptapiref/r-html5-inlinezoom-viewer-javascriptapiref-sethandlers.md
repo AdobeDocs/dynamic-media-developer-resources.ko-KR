@@ -1,17 +1,14 @@
 ---
 description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
-seo-description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 357b0e33-befa-4b89-add5-67cc9e7fd9e7
 feature: Dynamic Media Classic,뷰어,SDK/API,인라인 확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 

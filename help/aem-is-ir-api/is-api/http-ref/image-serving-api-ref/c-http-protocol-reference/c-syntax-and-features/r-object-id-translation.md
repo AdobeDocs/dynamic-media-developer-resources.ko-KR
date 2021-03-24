@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공에서는 외부 개체 ID를 로케일별 개체(카탈로그) ID로 변환하는 메커니즘을 제공합니다. 기본 응용 프로그램은 로케일별 개체 ID를 알아야 하는 클라이언트 응용 프로그램 없이 여러 로케일에서 공유되는 로케일별 컨텐츠 및 컨텐츠를 제공하기 위한 것입니다.
-seo-description: 이미지 제공에서는 외부 개체 ID를 로케일별 개체(카탈로그) ID로 변환하는 메커니즘을 제공합니다. 기본 응용 프로그램은 로케일별 개체 ID를 알아야 하는 클라이언트 응용 프로그램 없이 여러 로케일에서 공유되는 로케일별 컨텐츠 및 컨텐츠를 제공하기 위한 것입니다.
-seo-title: 개체 ID 변환
 solution: Experience Manager
 title: 개체 ID 변환
-uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '706'
 ht-degree: 9%
 
 ---

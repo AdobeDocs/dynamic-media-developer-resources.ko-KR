@@ -1,16 +1,13 @@
 ---
 description: 프로젝트에서 에셋을 제거합니다. 자산을 파괴하지 않습니다.
-seo-description: 프로젝트에서 에셋을 제거합니다. 자산을 파괴하지 않습니다.
-seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '187'
 ht-degree: 10%
 
 ---

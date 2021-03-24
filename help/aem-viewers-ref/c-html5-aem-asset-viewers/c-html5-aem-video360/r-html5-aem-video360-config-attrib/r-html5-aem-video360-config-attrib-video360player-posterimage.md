@@ -1,17 +1,14 @@
 ---
 description: Video360 뷰어에 대한 구성 속성입니다.
-seo-description: Video360 뷰어에 대한 구성 속성입니다.
-seo-title: Video360Player.posterimage
 solution: Experience Manager
 title: Video360Player.posterimage
-uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 12%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 

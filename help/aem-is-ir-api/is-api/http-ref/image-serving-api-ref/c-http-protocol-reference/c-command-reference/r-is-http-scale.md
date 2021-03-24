@@ -1,16 +1,13 @@
 ---
 description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 한 배율로 레이어 소스 이미지의 비율을 조정합니다.
-seo-description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 한 배율로 레이어 소스 이미지의 비율을 조정합니다.
-seo-title: scale
 solution: Experience Manager
-title: 크기 조절
-uuid: f5540df8-60d9-4efc-99fe-733cdc8268ea
+title: scale
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '114'
 ht-degree: 5%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 난독화 요청 모드. 유효한 요청에 적용해야 하는 난독화의 유형을 지정합니다.
-seo-description: 난독화 요청 모드. 유효한 요청에 적용해야 하는 난독화의 유형을 지정합니다.
-seo-title: RequestObfuscation
 solution: Experience Manager
 title: RequestObfuscation
-uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---

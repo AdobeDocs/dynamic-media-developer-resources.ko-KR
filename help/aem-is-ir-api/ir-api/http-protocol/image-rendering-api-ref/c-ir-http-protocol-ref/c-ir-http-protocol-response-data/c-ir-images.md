@@ -1,11 +1,11 @@
 ---
-description: 요청이 성공적으로 완료되면 이미지 데이터가 반환되고 요청에 req= 명령이 포함되어 있지 않거나 req=에 img 값 중 하나가 있는 경우, debug
+description: 요청이 성공적으로 완료되면 이미지 데이터가 반환되고 요청에 req= 명령이 포함되지 않거나 req=에 img, debug 값 중 하나가 있는 경우 이미지 데이터가 반환됩니다.
 solution: Experience Manager
 title: 이미지
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%

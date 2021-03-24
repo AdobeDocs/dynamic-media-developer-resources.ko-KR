@@ -1,16 +1,13 @@
 ---
 description: 미리 로드 이미지는 init() 메서드를 호출한 후 바로 로드되고 뷰어 SDK 라이브러리, 에셋 및 사전 설정 정보가 다운로드되는 동안 표시되는 정적 에셋 미리 보기 이미지입니다. 미리 로드 이미지의 목적은 뷰어 로드 시간을 시각적으로 향상시키고 컨텐츠를 사용자에게 빠르게 전달하는 것입니다.
-seo-description: 미리 로드 이미지는 init() 메서드를 호출한 후 바로 로드되고 뷰어 SDK 라이브러리, 에셋 및 사전 설정 정보가 다운로드되는 동안 표시되는 정적 에셋 미리 보기 이미지입니다. 미리 로드 이미지의 목적은 뷰어 로드 시간을 시각적으로 향상시키고 컨텐츠를 사용자에게 빠르게 전달하는 것입니다.
-seo-title: 이미지 미리 로드
 solution: Experience Manager
 title: 이미지 미리 로드
-uuid: cb5db16d-b496-40e4-b8ef-5573c42d2850
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---

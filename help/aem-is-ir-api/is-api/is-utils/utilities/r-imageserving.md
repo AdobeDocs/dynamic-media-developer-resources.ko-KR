@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공 제어 스크립트. 이 스크립트는 Image Serving Server Supervisor를 시작, 중지 또는 다시 시작하는 데 사용되며 다른 모든 Image Serving 구성 요소를 시작, 중지 또는 다시 시작합니다.
-seo-description: 이미지 제공 제어 스크립트. 이 스크립트는 Image Serving Server Supervisor를 시작, 중지 또는 다시 시작하는 데 사용되며 다른 모든 Image Serving 구성 요소를 시작, 중지 또는 다시 시작합니다.
-seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
-uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---

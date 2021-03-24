@@ -1,16 +1,13 @@
 ---
 description: IPS API v4.0의 새로운 변경 사항 및 구현된 변경 사항에 대해 설명합니다.
-seo-description: IPS API v4.0의 새로운 변경 사항 및 구현된 변경 사항에 대해 설명합니다.
-seo-title: 새로운 추가 및 변경 사항
 solution: Experience Manager
 title: 새로운 추가 및 변경 사항
-uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1227'
 ht-degree: 2%
 
 ---

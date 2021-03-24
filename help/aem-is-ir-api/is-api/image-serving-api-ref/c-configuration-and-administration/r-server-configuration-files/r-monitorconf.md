@@ -1,16 +1,13 @@
 ---
 description: 모니터링/경고 시스템에 대한 설정을 포함합니다.
-seo-description: 모니터링/경고 시스템에 대한 설정을 포함합니다.
-seo-title: monitor.conf
 solution: Experience Manager
 title: monitor.conf
-uuid: 31949797-df2c-4b7c-841b-4c623299a228
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---

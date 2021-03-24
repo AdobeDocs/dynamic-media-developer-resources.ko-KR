@@ -1,16 +1,13 @@
 ---
 description: 절대 URL을 이미지 소스로 허용합니다.
-seo-description: 절대 URL을 이미지 소스로 허용합니다.
-seo-title: AllowDirectUrl
 solution: Experience Manager
 title: AllowDirectUrl
-uuid: 91d46cc5-8ada-4bd4-b7ff-3d021f4f32ea
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '58'
 ht-degree: 6%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 레이어 텍스트(Adobe Photoshop 호환). 텍스트 레이어의 텍스트 본문을 지정합니다.
-seo-description: 레이어 텍스트(Adobe Photoshop 호환). 텍스트 레이어의 텍스트 본문을 지정합니다.
-seo-title: textPs
 solution: Experience Manager
 title: textPs
-uuid: 45e587b6-8dc8-408c-ade6-d70025fd1117
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '130'
 ht-degree: 4%
 
 ---

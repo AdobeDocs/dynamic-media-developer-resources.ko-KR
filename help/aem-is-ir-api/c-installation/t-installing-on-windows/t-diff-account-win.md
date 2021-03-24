@@ -1,16 +1,13 @@
 ---
 description: 설치 후 다른 사용자 계정에서 실행하려면 서비스를 설정해야 합니다.
-seo-description: 설치 후 다른 사용자 계정에서 실행하려면 서비스를 설정해야 합니다.
-seo-title: 관리자가 아닌 다른 사용자 계정으로 설치
 solution: Experience Manager
 title: 관리자가 아닌 다른 사용자 계정으로 설치
-uuid: c5944515-c378-45c3-bc18-3261133ba009
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---

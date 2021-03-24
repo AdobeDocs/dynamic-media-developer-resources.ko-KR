@@ -1,16 +1,13 @@
 ---
 description: '새 데이터 파일을 추가하는 것은 간단하면서도 직접 진행되지만 서버에서 적극적으로 사용하는 기존 데이터 파일을 교체할 때는 특별한 주의를 기울여야 합니다. 이러한 파일을 단순히 교체하는 대신 새 이름으로 대체 파일을 지정하는 것이 좋습니다(예: 파일 이름에 버전 접미사 첨부). 새 파일을 라이브한 후 이전 버전을 삭제할 수 있습니다.'
-seo-description: '새 데이터 파일을 추가하는 것은 간단하면서도 직접 진행되지만 서버에서 적극적으로 사용하는 기존 데이터 파일을 교체할 때는 특별한 주의를 기울여야 합니다. 이러한 파일을 단순히 교체하는 대신 새 이름으로 대체 파일을 지정하는 것이 좋습니다(예: 파일 이름에 버전 접미사 첨부). 새 파일을 라이브한 후 이전 버전을 삭제할 수 있습니다.'
-seo-title: 데이터 파일 삭제 또는 바꾸기
 solution: Experience Manager
 title: 데이터 파일 삭제 또는 바꾸기
-uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---

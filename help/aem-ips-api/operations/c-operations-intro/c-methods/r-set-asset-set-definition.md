@@ -1,17 +1,14 @@
 ---
 description: 기존 자산 집합에 대한 세트 정의를 업데이트합니다.
-seo-description: 기존 자산 집합에 대한 세트 정의를 업데이트합니다.
-seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 5%
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 

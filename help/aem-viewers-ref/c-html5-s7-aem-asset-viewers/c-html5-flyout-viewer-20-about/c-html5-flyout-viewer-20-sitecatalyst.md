@@ -1,16 +1,13 @@
 ---
 description: 플라이아웃 뷰어는 즉시 Adobe Analytics 추적을 지원합니다.
-seo-description: 플라이아웃 뷰어는 즉시 Adobe Analytics 추적을 지원합니다.
-seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
 feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
 role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---

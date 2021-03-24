@@ -1,16 +1,13 @@
 ---
 description: 기존 PDF 에셋을 다시 가져오는 프로세스입니다.
-seo-description: 기존 PDF 에셋을 다시 가져오는 프로세스입니다.
-seo-title: RipPdf작업
 solution: Experience Manager
 title: RipPdf작업
-uuid: 95990d53-4baf-44a2-8d84-3cab2b5c9105
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '221'
 ht-degree: 2%
 
 ---

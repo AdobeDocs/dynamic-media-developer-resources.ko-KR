@@ -1,17 +1,14 @@
 ---
 description: 카탈로그 식별자. HTTP 요청의 비네팅, 재료 또는 ICC 프로필 개체 지정자에서 이 카탈로그를 식별하는 데 사용되는 HTTP 경로 요소입니다.
-seo-description: 카탈로그 식별자. HTTP 요청의 비네팅, 재료 또는 ICC 프로필 개체 지정자에서 이 카탈로그를 식별하는 데 사용되는 HTTP 경로 요소입니다.
-seo-title: 루트 ID
 solution: Experience Manager
 title: 루트 ID
-uuid: fd726466-6dca-4612-a342-50689ed1469f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 4%
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 

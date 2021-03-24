@@ -1,17 +1,14 @@
 ---
 description: 검색 결과에서 제외할 생성 엔진 및 생성된 자산 유형을 결정합니다.
-seo-description: 검색 결과에서 제외할 생성 엔진 및 생성된 자산 유형을 결정합니다.
-seo-title: 제외 부산물 조건
 solution: Experience Manager
 title: 제외 부산물 조건
-uuid: 70581512-7b26-4319-b12b-27fbb205d871
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: IS 서버는 성공적으로 열거나 읽을 수 없는 소스 이미지가 포함된 요청에 대해 대체 서버로 장애 조치(failover)하도록 구성할 수 있습니다.
-seo-description: IS 서버는 성공적으로 열거나 읽을 수 없는 소스 이미지가 포함된 요청에 대해 대체 서버로 장애 조치(failover)하도록 구성할 수 있습니다.
-seo-title: 오류 시 리디렉션
 solution: Experience Manager
 title: 오류 시 리디렉션
-uuid: 894babe9-9c3c-4972-ae8f-387d65b4167d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---

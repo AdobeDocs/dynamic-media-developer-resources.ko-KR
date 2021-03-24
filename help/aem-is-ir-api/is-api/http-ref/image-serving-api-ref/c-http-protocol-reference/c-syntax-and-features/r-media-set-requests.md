@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공은 특정 레코드에 대한 카탈로그 ImageSet와 연관된 모든 리소스 및 메타데이터를 나타내는 계층 텍스트 응답(xml 또는 json)을 가져오기 위한 메커니즘을 제공합니다.
-seo-description: 이미지 제공은 특정 레코드에 대한 카탈로그 ImageSet와 연관된 모든 리소스 및 메타데이터를 나타내는 계층 텍스트 응답(xml 또는 json)을 가져오기 위한 메커니즘을 제공합니다.
-seo-title: 미디어 집합 요청
 solution: Experience Manager
 title: 미디어 집합 요청
-uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---

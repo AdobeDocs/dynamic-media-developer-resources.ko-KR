@@ -1,16 +1,13 @@
 ---
 description: '이미지 렌더링에 사용되는 메모리 양은 널리 달라질 수 있으며 실제 서버 부하 및 사용에 따라 상당히 달라집니다(예: 서로 다른 비네팅이 몇 개, 서로 다른 비네팅의 크기 및 복잡도 등).'
-seo-description: '이미지 렌더링에 사용되는 메모리 양은 널리 달라질 수 있으며 실제 서버 부하 및 사용에 따라 상당히 달라집니다(예: 서로 다른 비네팅이 몇 개, 서로 다른 비네팅의 크기 및 복잡도 등).'
-seo-title: 메모리 고려 사항
 solution: Experience Manager
 title: 메모리 고려 사항
-uuid: 21247081-ff27-4237-93da-5fc996417dfd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---

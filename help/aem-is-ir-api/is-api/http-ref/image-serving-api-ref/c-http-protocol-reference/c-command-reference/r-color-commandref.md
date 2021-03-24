@@ -1,16 +1,13 @@
 ---
 description: 레이어 색상을 참조하십시오. 단색 및 효과 레이어의 전경색과 불투명도, 텍스트 레이어의 텍스트 상자 채우기 색상을 지정합니다.
-seo-description: 레이어 색상을 참조하십시오. 단색 및 효과 레이어의 전경색과 불투명도, 텍스트 레이어의 텍스트 상자 채우기 색상을 지정합니다.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---

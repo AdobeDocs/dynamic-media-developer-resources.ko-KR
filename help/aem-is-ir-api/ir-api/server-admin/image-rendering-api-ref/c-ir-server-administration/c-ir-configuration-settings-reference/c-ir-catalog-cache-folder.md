@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 시스템 캐시에 대한 루트 폴더입니다.
-seo-description: 카탈로그 시스템 캐시에 대한 루트 폴더입니다.
-seo-title: 카탈로그 캐시 폴더(ir.catalogCacheRoot)
 solution: Experience Manager
 title: 카탈로그 캐시 폴더(ir.catalogCacheRoot)
-uuid: 18d400f4-7827-44a1-b09b-2292b97cd6cb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---

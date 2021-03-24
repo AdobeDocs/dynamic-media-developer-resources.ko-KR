@@ -1,16 +1,13 @@
 ---
 description: 이러한 명령은 공통 레이어 명령 외에도 단색 레이어에 적용됩니다.
-seo-description: 이러한 명령은 공통 레이어 명령 외에도 단색 레이어에 적용됩니다.
-seo-title: 단색 레이어 명령
 solution: Experience Manager
 title: 단색 레이어 명령
-uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---

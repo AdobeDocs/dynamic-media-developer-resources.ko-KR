@@ -1,17 +1,14 @@
 ---
 description: 뷰어 구성 설정을 자산에 첨부합니다. 뷰어 사전 설정 또는 뷰어의 소스 에셋이 될 수 있습니다.
-seo-description: 뷰어 구성 설정을 자산에 첨부합니다. 뷰어 사전 설정 또는 뷰어의 소스 에셋이 될 수 있습니다.
-seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-uuid: d83d866e-9243-479f-9b33-727aad8158e5
 feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '112'
+ht-degree: 11%
 
 ---
 

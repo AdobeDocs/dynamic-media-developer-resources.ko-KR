@@ -1,16 +1,13 @@
 ---
 description: 세트 표시기는 뷰어 아래쪽에 렌더링된 일련의 점입니다. 세트 내의 현재 위치를 표시합니다.
-seo-description: 세트 표시기는 뷰어 아래쪽에 렌더링된 일련의 점입니다. 세트 내의 현재 위치를 표시합니다.
-seo-title: 표시기 설정
 solution: Experience Manager
 title: 표시기 설정
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---

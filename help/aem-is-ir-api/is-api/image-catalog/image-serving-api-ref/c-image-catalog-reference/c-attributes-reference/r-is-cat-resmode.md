@@ -1,17 +1,14 @@
 ---
 description: 기본 리샘플링 모드입니다. 이미지 데이터의 크기 조정에 사용할 기본 리샘플링 및 보간 특성을 지정합니다.
-seo-description: 기본 리샘플링 모드입니다. 이미지 데이터의 크기 조정에 사용할 기본 리샘플링 및 보간 특성을 지정합니다.
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 14d184bd-6664-4f8f-b551-a92cb92a0d84
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 4%
+source-wordcount: '85'
+ht-degree: 5%
 
 ---
 

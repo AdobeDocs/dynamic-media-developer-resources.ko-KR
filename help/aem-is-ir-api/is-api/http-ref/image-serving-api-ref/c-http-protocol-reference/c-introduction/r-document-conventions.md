@@ -1,16 +1,13 @@
 ---
 description: 이 문서에서는 다음 규칙을 사용합니다.
-seo-description: 이 문서에서는 다음 규칙을 사용합니다.
-seo-title: 문서 규칙
 solution: Experience Manager
 title: 문서 규칙
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ ht-degree: 0%
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>리터럴 </p> </td> 
-  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다.공백 및 기호 [ ] { }에는 적용되지 않습니다. | *. </p> </td> 
+  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다. 이 규칙은 공백 및 기호 [ ] { }에는 적용되지 않습니다. | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -71,11 +68,11 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> 옵션  </span>]  </span> </p> </td> 
-  <td class="stentry"> <p><span class="varname"> 선택적 </span> 구문 요소를 하나 이상 반복하지 않을 수 있습니다. </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 선택적 </span> 구문 요소를 하나 이상 반복할 수 없습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> item2  </span> </span> </p> </td> 
-  <td class="stentry"> <p>세로 막대는 왼쪽에 있는 단일 구문 항목이나 오른쪽에 있는 항목이 사용될 수 있음을 나타냅니다. 정확하게 하나의 항목을 선택해야 합니다. </p> </td> 
+  <td class="stentry"> <p>세로 막대는 왼쪽에 있는 단일 구문 항목 또는 오른쪽에 있는 항목을 사용할 수 있음을 나타냅니다. 정확하게 하나의 항목을 선택해야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> {  <span class="varname"> group  </span>}  </span> </p> </td> 
@@ -83,7 +80,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *{  <span class="varname"> 그룹  </span>}  </span> </p> </td> 
-  <td class="stentry"> <p>그룹 내의 구문 요소를 한 번 이상 반복할 수 있습니다. </p> </td> 
+  <td class="stentry"> <p>그룹 내의 구문 요소를 하나 이상 반복할 수 있습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>흰색 공간 </p> </td> 

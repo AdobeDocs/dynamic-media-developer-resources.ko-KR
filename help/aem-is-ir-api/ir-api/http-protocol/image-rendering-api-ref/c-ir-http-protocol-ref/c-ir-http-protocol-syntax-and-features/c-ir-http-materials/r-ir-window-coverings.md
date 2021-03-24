@@ -1,16 +1,13 @@
 ---
 description: 창문 덮개에 덮여있는 재질에는 부드러운 창문 커버(커튼포장, 장식, 카페 커튼)와 단단한 창문 커버(차양 및 블라인드)가 모두 포함된다.
-seo-description: 창문 덮개에 덮여있는 재질에는 부드러운 창문 커버(커튼포장, 장식, 카페 커튼)와 단단한 창문 커버(차양 및 블라인드)가 모두 포함된다.
-seo-title: 윈도우 커버
 solution: Experience Manager
 title: 윈도우 커버
-uuid: 3d74466a-b7c3-43b0-9b0b-f8bb809e2773
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---

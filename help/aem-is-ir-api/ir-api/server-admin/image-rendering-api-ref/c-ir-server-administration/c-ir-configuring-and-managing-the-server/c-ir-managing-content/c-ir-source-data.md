@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링 소스 데이터 파일에는 비네팅 파일, 재질 파일(반복 가능한 텍스처 및 디캘용 이미지, 스타일 파일을 덮는 캐비닛 및 창 포함)과 ICC 프로필이 포함되어 있습니다.
-seo-description: 이미지 렌더링 소스 데이터 파일에는 비네팅 파일, 재질 파일(반복 가능한 텍스처 및 디캘용 이미지, 스타일 파일을 덮는 캐비닛 및 창 포함)과 ICC 프로필이 포함되어 있습니다.
-seo-title: 소스 데이터
 solution: Experience Manager
 title: 소스 데이터
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---

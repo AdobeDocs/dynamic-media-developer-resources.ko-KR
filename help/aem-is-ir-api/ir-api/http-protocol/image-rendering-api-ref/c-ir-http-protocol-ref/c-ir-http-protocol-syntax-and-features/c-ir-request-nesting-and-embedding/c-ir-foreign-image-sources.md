@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공은 외부 HTTP 및 FTP 서버에서 소스 이미지에 대한 액세스를 지원합니다.
-seo-description: 이미지 제공은 외부 HTTP 및 FTP 서버에서 소스 이미지에 대한 액세스를 지원합니다.
-seo-title: 외부 이미지 소스
 solution: Experience Manager
 title: 외부 이미지 소스
-uuid: 28a17400-4807-4e14-937a-80309be53d55
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

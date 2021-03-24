@@ -1,17 +1,14 @@
 ---
 description: 메타데이터 필드에 대한 모든 값을 반환합니다.
-seo-description: 메타데이터 필드에 대한 모든 값을 반환합니다.
-seo-title: getDistinctMetadataValues
 solution: Experience Manager
 title: getDistinctMetadataValues
-uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 19%
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 

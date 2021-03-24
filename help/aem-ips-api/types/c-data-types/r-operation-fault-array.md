@@ -1,17 +1,14 @@
 ---
 description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배열입니다.
-seo-description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배열입니다.
-seo-title: OperationFaultArray
 solution: Experience Manager
 title: OperationFaultArray
-uuid: dbf4ab5e-50fb-42f1-a97a-f8d07022b303
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '59'
+ht-degree: 6%
 
 ---
 

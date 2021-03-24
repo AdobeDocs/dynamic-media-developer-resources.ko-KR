@@ -1,17 +1,14 @@
 ---
 description: 주 작업 로그 메시지(JobDetail)와 연결된 보조 메시지를 포함합니다. 현재 처리된 자산과 관련된 경고 및 기타 세부 사항을 포함합니다.
-seo-description: 주 작업 로그 메시지(JobDetail)와 연결된 보조 메시지를 포함합니다. 현재 처리된 자산과 관련된 경고 및 기타 세부 사항을 포함합니다.
-seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 5%
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 

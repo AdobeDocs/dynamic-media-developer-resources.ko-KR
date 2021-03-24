@@ -1,16 +1,13 @@
 ---
 description: 이미지 서버에 게시할 원시 세트 정의 문자열을 사용하여 일반 에셋 세트를 만듭니다.
-seo-description: 이미지 서버에 게시할 원시 세트 정의 문자열을 사용하여 일반 에셋 세트를 만듭니다.
-seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '312'
 ht-degree: 6%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 내부 용도로만 사용하십시오. 사용자는 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
-seo-description: 내부 용도로만 사용하십시오. 사용자는 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
-seo-title: getImageServingPublishSettings
 solution: Experience Manager
 title: getImageServingPublishSettings
-uuid: 2f00198d-0262-430b-8ac5-80f52adcff67
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 12%
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 

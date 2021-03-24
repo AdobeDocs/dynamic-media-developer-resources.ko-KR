@@ -1,17 +1,14 @@
 ---
 description: 기본 보기는 현재 자산이 스핀 세트일 때 스핀 이미지로 구성됩니다.
-seo-description: 기본 보기는 현재 자산이 스핀 세트일 때 스핀 이미지로 구성됩니다.
-seo-title: 회전 보기
 solution: Experience Manager
 title: 회전 보기
-uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 0%
+source-wordcount: '87'
+ht-degree: 1%
 
 ---
 

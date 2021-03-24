@@ -1,17 +1,14 @@
 ---
 description: SWC 파일 자산의 속성입니다.
-seo-description: SWC 파일 자산의 속성입니다.
-seo-title: SwcInfo
 solution: Experience Manager
 title: SwcInfo
-uuid: 930b2ccd-5f32-4cc2-bef7-1f6eeb48dd1b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 15%
+source-wordcount: '38'
+ht-degree: 18%
 
 ---
 

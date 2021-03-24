@@ -1,17 +1,14 @@
 ---
 description: 특정 회사에 대한 IPS 설정을 반환합니다.
-seo-description: 특정 회사에 대한 IPS 설정을 반환합니다.
-seo-title: getCompanySettings
 solution: Experience Manager
 title: getCompanySettings
-uuid: 28ee706d-aaef-45a1-9655-3805f158cdc3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
 

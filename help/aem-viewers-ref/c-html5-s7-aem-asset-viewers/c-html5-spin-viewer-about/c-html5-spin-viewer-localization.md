@@ -1,16 +1,13 @@
 ---
 description: 스핀 뷰어에 표시되는 특정 컨텐츠는 확대/축소 버튼 및 전체 화면 버튼 등 로컬라이제이션이 적용됩니다.
-seo-description: 스핀 뷰어에 표시되는 특정 컨텐츠는 확대/축소 버튼 및 전체 화면 버튼 등 로컬라이제이션이 적용됩니다.
-seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-uuid: bf38bdef-a31f-4f2f-a8f5-3d3d4eac95ab
 feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---

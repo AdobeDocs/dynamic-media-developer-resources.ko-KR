@@ -1,17 +1,14 @@
 ---
 description: 비디오 스크러버는 사용자가 현재 재생 중인 비디오 내의 임의의 시간 위치를 동적으로 검색할 수 있도록 하는 수평 슬라이더 컨트롤입니다.
-seo-description: 비디오 스크러버는 사용자가 현재 재생 중인 비디오 내의 임의의 시간 위치를 동적으로 검색할 수 있도록 하는 수평 슬라이더 컨트롤입니다.
-seo-title: 비디오 스크러버
 solution: Experience Manager
 title: 비디오 스크러버
-uuid: c68d3693-3772-470a-893a-b701ddec3414
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '366'
+ht-degree: 3%
 
 ---
 

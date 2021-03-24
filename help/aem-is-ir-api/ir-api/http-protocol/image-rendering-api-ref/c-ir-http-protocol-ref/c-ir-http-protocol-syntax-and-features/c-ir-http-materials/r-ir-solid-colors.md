@@ -1,17 +1,14 @@
 ---
 description: 이 재료 부문에는 벽, 목조목 및 트림, 자동차, 텍스처가 필요하지 않은 기타 애플리케이션용 페인트가 포함되어 있습니다.
-seo-description: 이 재료 부문에는 벽, 목조목 및 트림, 자동차, 텍스처가 필요하지 않은 기타 애플리케이션용 페인트가 포함되어 있습니다.
-seo-title: 단색
 solution: Experience Manager
 title: 단색
-uuid: 75b60e44-1727-4f3e-a186-df66fabeec0d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 

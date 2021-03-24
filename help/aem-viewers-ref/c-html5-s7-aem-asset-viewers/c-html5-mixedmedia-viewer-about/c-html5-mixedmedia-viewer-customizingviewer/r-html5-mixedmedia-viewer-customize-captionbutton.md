@@ -1,16 +1,13 @@
 ---
 description: 닫힌 캡션 표시를 켜거나 끕니다. 캡션 매개 변수를 지정하지 않으면 표시되지 않습니다. CSS를 사용하여 이 단추가 포함된 컨트롤 막대를 기준으로 크기를 조정하고 스킨 후 위치를 지정할 수 있습니다.
-seo-description: 닫힌 캡션 표시를 켜거나 끕니다. 캡션 매개 변수를 지정하지 않으면 표시되지 않습니다. CSS를 사용하여 이 단추가 포함된 컨트롤 막대를 기준으로 크기를 조정하고 스킨 후 위치를 지정할 수 있습니다.
-seo-title: 캡션 단추
 solution: Experience Manager
 title: 캡션 단추
-uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 다음 옵션은 비네팅 파일의 처리를 제어합니다. sourceFile이 비네팅이 아닌 경우 무시됩니다.
-seo-description: 다음 옵션은 비네팅 파일의 처리를 제어합니다. sourceFile이 비네팅이 아닌 경우 무시됩니다.
-seo-title: 비네팅 옵션
 solution: Experience Manager
 title: 비네팅 옵션
-uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---

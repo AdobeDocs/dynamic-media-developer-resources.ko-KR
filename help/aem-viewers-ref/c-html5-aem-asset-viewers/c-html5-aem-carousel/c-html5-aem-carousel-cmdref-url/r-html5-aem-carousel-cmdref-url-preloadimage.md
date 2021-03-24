@@ -1,17 +1,14 @@
 ---
 description: 회전판 뷰어에 대한 URL 명령.
-seo-description: 회전판 뷰어에 대한 URL 명령.
-seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
-uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 

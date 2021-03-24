@@ -1,16 +1,13 @@
 ---
 description: 이미지를 파일에 저장합니다.
-seo-description: 이미지를 파일에 저장합니다.
-seo-title: saveToFile
 solution: Experience Manager
 title: saveToFile
-uuid: 32a56d77-89e2-4f78-9fab-1b528e9a024a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '187'
 ht-degree: 3%
 
 ---

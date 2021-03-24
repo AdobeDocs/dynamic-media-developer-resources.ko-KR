@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 피라미드가 아닌 비네팅에 대해 2메가픽셀 크기 제한을 적용합니다.
-seo-description: 이미지 렌더링은 피라미드가 아닌 비네팅에 대해 2메가픽셀 크기 제한을 적용합니다.
-seo-title: 비네팅 크기 제한
 solution: Experience Manager
 title: 비네팅 크기 제한
-uuid: 218e8c7e-f313-47cb-af42-30c585d4ec12
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 지정된 자산과 연관된 자산 및 해당 관계에 대한 세부 사항을 가져옵니다.
-seo-description: 지정된 자산과 연관된 자산 및 해당 관계에 대한 세부 사항을 가져옵니다.
-seo-title: getAssociatedAssets
 solution: Experience Manager
 title: getAssociatedAssets
-uuid: 70c2f8aa-9104-42b0-b85b-14f90f1ead52
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 6%
+source-wordcount: '416'
+ht-degree: 7%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 매크로 정의입니다. 하나 이상의 전체 명령으로 구성된 이미지 제공 프로토콜 조각이며 '&' 문자로 구분됩니다.
-seo-description: 매크로 정의입니다. 하나 이상의 전체 명령으로 구성된 이미지 제공 프로토콜 조각이며 '&' 문자로 구분됩니다.
-seo-title: 정의
 solution: Experience Manager
 title: 정의
-uuid: f576d5e7-cd80-4b7b-a6b6-2dc38cafbc7f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---

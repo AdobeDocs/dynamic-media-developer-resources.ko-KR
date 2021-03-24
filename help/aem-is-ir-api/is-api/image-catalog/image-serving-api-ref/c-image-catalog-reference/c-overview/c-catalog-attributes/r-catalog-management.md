@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 속성 파일은 이러한 카탈로그 관리 특성을 인식합니다.
-seo-description: 카탈로그 속성 파일은 이러한 카탈로그 관리 특성을 인식합니다.
-seo-title: 카탈로그 관리
 solution: Experience Manager
 title: 카탈로그 관리
-uuid: ef714ec5-8133-4d6f-bed0-29553fdb2af3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

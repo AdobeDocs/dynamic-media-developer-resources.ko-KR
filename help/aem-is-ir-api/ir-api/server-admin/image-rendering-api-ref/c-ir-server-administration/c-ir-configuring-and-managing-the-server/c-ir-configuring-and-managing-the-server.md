@@ -1,16 +1,13 @@
 ---
 description: 이 섹션에는 이미지 렌더링 서버를 설정하고 관리하는 데 도움이 되는 정보가 포함되어 있습니다.
-seo-description: 이 섹션에는 이미지 렌더링 서버를 설정하고 관리하는 데 도움이 되는 정보가 포함되어 있습니다.
-seo-title: 서버 구성 및 관리
 solution: Experience Manager
 title: 서버 구성 및 관리
-uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---

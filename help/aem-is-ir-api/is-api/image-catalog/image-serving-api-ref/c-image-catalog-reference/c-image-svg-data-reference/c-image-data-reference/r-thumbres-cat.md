@@ -1,17 +1,14 @@
 ---
 description: 축소판 해상도를 참조하십시오. 축소판 이미지의 개체 해상도를 지정합니다.
-seo-description: 축소판 해상도를 참조하십시오. 축소판 이미지의 개체 해상도를 지정합니다.
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 10bbad31-a0fd-4ed3-b708-87822777acdd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 

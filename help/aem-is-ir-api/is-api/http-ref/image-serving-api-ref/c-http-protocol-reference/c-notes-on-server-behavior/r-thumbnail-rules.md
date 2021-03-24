@@ -1,16 +1,13 @@
 ---
 description: 이러한 축소판 규칙에 주의하십시오.
-seo-description: 이러한 축소판 규칙에 주의하십시오.
-seo-title: 축소판 규칙
 solution: Experience Manager
 title: 축소판 규칙
-uuid: 7d04b923-e062-4764-9e48-99a7bba72d3f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---

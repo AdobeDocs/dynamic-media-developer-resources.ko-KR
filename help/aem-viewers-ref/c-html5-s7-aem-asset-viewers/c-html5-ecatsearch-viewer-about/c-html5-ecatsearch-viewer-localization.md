@@ -1,16 +1,13 @@
 ---
 description: eCatalog 뷰어에 표시되는 특정 컨텐츠는 확대/축소 단추, 페이지 변경 단추, 축소판 단추, 전체 화면 단추, 닫기 단추 및 스크롤 막대 단추를 포함하여 로컬라이제이션에 적용됩니다.
-seo-description: eCatalog 뷰어에 표시되는 특정 컨텐츠는 확대/축소 단추, 페이지 변경 단추, 축소판 단추, 전체 화면 단추, 닫기 단추 및 스크롤 막대 단추를 포함하여 로컬라이제이션에 적용됩니다.
-seo-title: 사용자 인터페이스 요소의 로컬라이제이션
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-uuid: 836cb874-2ce6-4737-9c10-f41af003a285
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---

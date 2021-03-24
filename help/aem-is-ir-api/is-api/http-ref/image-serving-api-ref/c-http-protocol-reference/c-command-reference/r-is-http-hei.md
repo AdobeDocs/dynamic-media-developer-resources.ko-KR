@@ -1,17 +1,14 @@
 ---
 description: 보기 높이. 요청에 맞지 않는 응답 이미지(이미지 보기)의 높이를 지정합니다.
-seo-description: 보기 높이. 요청에 맞지 않는 응답 이미지(이미지 보기)의 높이를 지정합니다.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 307952bb-604f-49b4-bce3-b7a7fc7ec63b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 4%
+source-wordcount: '287'
+ht-degree: 3%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 기본 이미지 수정 타임스탬프. 카탈로그 타임스탬프에 대한 기본값을 제공합니다.
-seo-description: 기본 이미지 수정 타임스탬프. 카탈로그 타임스탬프에 대한 기본값을 제공합니다.
-seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-uuid: 0670e53a-ad7d-46cf-8e18-4c52a766df6f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: '194'
+ht-degree: 2%
 
 ---
 

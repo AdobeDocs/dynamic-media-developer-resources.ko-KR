@@ -1,16 +1,13 @@
 ---
 description: '[재생/일시 정지] 단추를 사용하면 회전판 자동 재생 동작을 일시 정지하거나 다시 시작할 수 있습니다.'
-seo-description: '[재생/일시 정지] 단추를 사용하면 회전판 자동 재생 동작을 일시 정지하거나 다시 시작할 수 있습니다.'
-seo-title: 재생 일시 정지 단추
 solution: Experience Manager
 title: 재생 일시 정지 단추
-uuid: 342def36-9dfb-487c-bed5-b0f301ce8430
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---

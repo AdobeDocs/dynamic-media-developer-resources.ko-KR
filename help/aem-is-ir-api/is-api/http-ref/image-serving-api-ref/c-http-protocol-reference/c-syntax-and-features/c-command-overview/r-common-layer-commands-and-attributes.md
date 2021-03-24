@@ -1,17 +1,14 @@
 ---
 description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
-seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 대부분 합성 이미지와 레이어가 없는 간단한 요청에 대해 의미가 없습니다. 효과 레이어에는 적용되지 않습니다.
-seo-title: 공통 레이어 명령
 solution: Experience Manager
 title: 공통 레이어 명령
-uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '144'
+ht-degree: 3%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 fileinstall_folder/conf/ImageRendering.conf폴더로 구성됩니다.
-seo-description: 이미지 렌더링은 fileinstall_folder/conf/ImageRendering.conf폴더로 구성됩니다.
-seo-title: 이미지 렌더링 설정 및 구성
 solution: Experience Manager
 title: 이미지 렌더링 설정 및 구성
-uuid: ce76282d-d942-4378-b083-41c95ba97980
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---

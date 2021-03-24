@@ -1,17 +1,14 @@
 ---
 description: 광택 맵 이미지. 반복 가능한 텍스처, 배경 무늬/테두리 또는 디칼의 매끄러운 광택을 픽셀 단위로 제어할 수 있습니다.
-seo-description: 광택 맵 이미지. 반복 가능한 텍스처, 배경 무늬/테두리 또는 디칼의 매끄러운 광택을 픽셀 단위로 제어할 수 있습니다.
-seo-title: 매끄러운 지도
 solution: Experience Manager
 title: 매끄러운 지도
-uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 

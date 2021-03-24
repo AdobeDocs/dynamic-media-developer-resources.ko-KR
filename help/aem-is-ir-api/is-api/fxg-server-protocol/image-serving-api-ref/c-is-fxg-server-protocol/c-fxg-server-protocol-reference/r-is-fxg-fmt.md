@@ -1,16 +1,13 @@
 ---
 description: 응답 이미지 형식입니다.
-seo-description: 응답 이미지 형식입니다.
-seo-title: fmt
 solution: Experience Manager
 title: fmt
-uuid: 78ee7545-5ad9-4240-bbfc-20efe3e42ed3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '292'
 ht-degree: 3%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. 이 단추는 데스크톱 시스템에서 사용할 수 없습니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-description: 이 단추를 클릭하거나 탭하면 포함된 웹 페이지가 닫힙니다. 이 단추는 closebutton 매개 변수가 1로 설정된 경우에만 나타납니다. 이 단추는 데스크톱 시스템에서 사용할 수 없습니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-title: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
-uuid: 312325a8-e10d-4c9f-a008-18ab666fbdd2
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '276'
 ht-degree: 2%
 
 ---

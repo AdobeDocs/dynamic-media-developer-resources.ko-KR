@@ -1,16 +1,13 @@
 ---
 description: 이러한 명령은 위치에 영향을 받지 않으며 요청의 모든 위치에서 실행될 수 있습니다.
-seo-description: 이러한 명령은 위치에 영향을 받지 않으며 요청의 모든 위치에서 실행될 수 있습니다.
-seo-title: 속성 보기
 solution: Experience Manager
 title: 속성 보기
-uuid: eae8d998-a4ba-4871-9a8a-c15c22a20580
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '120'
 ht-degree: 1%
 
 ---

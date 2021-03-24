@@ -5,7 +5,7 @@ title: opac
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -28,9 +28,9 @@ ht-degree: 3%
 
 다음 재료/개체 조합은 가변 불투명도를 지원합니다.
 
-* 텍스처 가능한 오버랩 개체에 적용된 단색 및 반복 가능한 텍스처
+* 텍스처 오버랩 개체에 적용된 단색 및 반복 가능한 텍스처
 * 윈도우 커버 프레임 오브젝트에 적용된 윈도우 커버 재질.
-* 텍스처 가능한 개체 또는 벽 개체에 적용되는 디캘입니다.
+* 텍스처 개체나 벽 개체에 적용되는 디캘입니다.
 
 자료에 알파 채널이 있는 이미지가 포함된 경우 이미지를 보다 투명하게 만드는 데 `opac=`을 사용할 수 있지만 더 이상 불투명하지 않습니다.
 

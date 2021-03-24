@@ -1,16 +1,13 @@
 ---
 description: 가변 불투명도는 겹쳐진 오브젝트뿐만 아니라 디캘과 윈도 덮는 재질에 적용되는 단색 및 반복 가능한 텍스처에 지원됩니다.
-seo-description: 가변 불투명도는 겹쳐진 오브젝트뿐만 아니라 디캘과 윈도 덮는 재질에 적용되는 단색 및 반복 가능한 텍스처에 지원됩니다.
-seo-title: 다양한 재질 불투명도
 solution: Experience Manager
 title: 다양한 재질 불투명도
-uuid: 6af07ea8-44ba-4253-8a26-614725af2f46
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---

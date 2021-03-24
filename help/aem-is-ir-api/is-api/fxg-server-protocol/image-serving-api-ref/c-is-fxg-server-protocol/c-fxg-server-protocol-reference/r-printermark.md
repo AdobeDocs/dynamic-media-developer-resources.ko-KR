@@ -1,17 +1,14 @@
 ---
 description: 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
-seo-description: 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
-seo-title: printerMark
 solution: Experience Manager
 title: printerMark
-uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 28%
+source-wordcount: '123'
+ht-degree: 30%
 
 ---
 

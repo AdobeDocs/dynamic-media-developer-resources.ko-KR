@@ -1,17 +1,14 @@
 ---
 description: 업로드 작업을 위한 자동 설정 생성 스크립트 목록. 업로드에 대해 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
-seo-description: 업로드 작업을 위한 자동 설정 생성 스크립트 목록. 업로드에 대해 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
-seo-title: AutoSetCreationOptions
 solution: Experience Manager
 title: AutoSetCreationOptions
-uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 5%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 

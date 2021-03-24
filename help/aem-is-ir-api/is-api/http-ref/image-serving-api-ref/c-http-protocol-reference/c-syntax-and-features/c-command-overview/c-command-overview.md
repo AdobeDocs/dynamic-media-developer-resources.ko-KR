@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공에서 지원되는 명령은 아래에 대략적인 범주로 그룹화되어 있습니다. 사용 및 적용 가능성에 대한 자세한 내용은 특정 명령 설명을 참조하십시오.
-seo-description: 이미지 제공에서 지원되는 명령은 아래에 대략적인 범주로 그룹화되어 있습니다. 사용 및 적용 가능성에 대한 자세한 내용은 특정 명령 설명을 참조하십시오.
-seo-title: 이미지 제공 HTTP 프로토콜 명령 개요
 solution: Experience Manager
 title: 이미지 제공 HTTP 프로토콜 명령 개요
-uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

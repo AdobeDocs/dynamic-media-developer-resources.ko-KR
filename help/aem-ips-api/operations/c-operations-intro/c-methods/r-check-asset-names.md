@@ -1,17 +1,14 @@
 ---
 description: 회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스에 있는 모든 이름과 자산 이름을 비교하여 IPS ID 충돌을 확인합니다.
-seo-description: 회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스에 있는 모든 이름과 자산 이름을 비교하여 IPS ID 충돌을 확인합니다.
-seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 10%
+source-wordcount: '123'
+ht-degree: 12%
 
 ---
 

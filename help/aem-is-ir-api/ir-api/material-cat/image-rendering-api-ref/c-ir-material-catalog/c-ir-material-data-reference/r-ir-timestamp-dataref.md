@@ -1,16 +1,13 @@
 ---
 description: 파일 수정 타임스탬프. 이 카탈로그 레코드에 첨부된 이미지 및/또는 데이터 파일이 마지막으로 수정된 날짜/시간을 지정합니다.
-seo-description: 파일 수정 타임스탬프. 이 카탈로그 레코드에 첨부된 이미지 및/또는 데이터 파일이 마지막으로 수정된 날짜/시간을 지정합니다.
-seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-uuid: 77ce8bee-7b55-4ff8-8dfb-ebd3ce9c7a8a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---

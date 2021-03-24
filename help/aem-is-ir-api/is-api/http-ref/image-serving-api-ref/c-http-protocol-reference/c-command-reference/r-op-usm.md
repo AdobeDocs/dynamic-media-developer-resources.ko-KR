@@ -1,16 +1,13 @@
 ---
 description: 언샵 마스크. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지의 선명도를 해제합니다.
-seo-description: 언샵 마스크. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지의 선명도를 해제합니다.
-seo-title: op_usm
 solution: Experience Manager
 title: op_usm
-uuid: c647e063-2405-489b-b14d-a70638ac8af7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '155'
 ht-degree: 6%
 
 ---

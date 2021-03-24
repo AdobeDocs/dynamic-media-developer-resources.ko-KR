@@ -1,17 +1,14 @@
 ---
 description: 축소판의 가로 정렬. wid= 및 hei= 또는 DefaultThumbPix 속성으로 지정된 응답 이미지 사각형에 축소판 이미지의 가로 정렬을 지정합니다.
-seo-description: 축소판의 가로 정렬. wid= 및 hei= 또는 DefaultThumbPix 속성으로 지정된 응답 이미지 사각형에 축소판 이미지의 가로 정렬을 지정합니다.
-seo-title: ThumbHorizAlign
 solution: Experience Manager
 title: ThumbHorizAlign
-uuid: 2fbe71e2-1227-415b-ad4c-0d0752f8f729
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 

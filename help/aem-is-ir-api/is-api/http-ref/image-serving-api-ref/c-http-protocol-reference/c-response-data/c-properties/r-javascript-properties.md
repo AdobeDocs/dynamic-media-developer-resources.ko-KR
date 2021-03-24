@@ -1,26 +1,23 @@
 ---
-description: javascript가 응답 형식으로 지정된 경우 응답 데이터의 형식이 JavaScript 포함 파일로 구문 분석됩니다.
-seo-description: javascript가 응답 형식으로 지정된 경우 응답 데이터의 형식이 JavaScript 포함 파일로 구문 분석됩니다.
-seo-title: JavaScript 속성
+description: JavaScript™이 응답 형식으로 지정된 경우 응답 데이터의 형식이 JavaScript™ 포함 파일로 구문 분석됩니다.
 solution: Experience Manager
-title: JavaScript 속성
-uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+title: JavaScript™ 속성
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 
-# JavaScript 속성{#javascript-properties}
+# JavaScript™ 속성{#javascript-properties}
 
-javascript가 응답 형식으로 지정된 경우 응답 데이터의 형식이 JavaScript 포함 파일로 구문 분석됩니다.
+JavaScript™이 응답 형식으로 지정된 경우 응답 데이터의 형식이 JavaScript™ 포함 파일로 구문 분석됩니다.
 
-일반적인 JavaScript 속성 응답에는 다음과 같은 일반 구조가 있습니다.
+일반적인 JavaScript™ 속성 응답에는 다음과 같은 일반 구조가 있습니다.
 
 ```
            
@@ -35,7 +32,7 @@ javascript가 응답 형식으로 지정된 경우 응답 데이터의 형식이
 
 *`propertyValue`* 비어 있을 수 있습니다. 공백 문자는 각 행의 시작 및 끝과 = 구분 기호 앞/뒤에 선택 사항입니다. 모든 값은 작은 따옴표로 묶습니다. 문자열의 작은 따옴표는 연속해서 두 개의 작은 따옴표로 이스케이프됩니다.
 
-JavaScript 속성 응답을 구문 분석하려면 속성 파일을 로드하기 전에 응답에서 참조되는 모든 객체를 만들어야 합니다. 다음은 `req=props`을 사용하여 JavaScript에서 응답 이미지 크기를 가져오는 예입니다.
+JavaScript™ 속성 응답을 구문 분석하려면 속성 파일을 로드하기 전에 응답에서 참조되는 모든 객체 또는 객체를 만들어야 합니다. 다음은 `req=props`을 사용하여 JavaScript™에서 응답 이미지 크기를 가져오는 예입니다.
 
 ```
 <script> image = new Object; </script> 

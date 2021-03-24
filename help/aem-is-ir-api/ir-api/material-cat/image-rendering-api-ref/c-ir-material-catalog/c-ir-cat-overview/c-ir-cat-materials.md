@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링에 사용되는 자료에 대한 자세한 내용은 HTTP 프로토콜 참조 자료의 자료를 참조하십시오.
-seo-description: 이미지 렌더링에 사용되는 자료에 대한 자세한 내용은 HTTP 프로토콜 참조 자료의 자료를 참조하십시오.
-seo-title: 자료
 solution: Experience Manager
 title: 자료
-uuid: a4bbdd77-56b4-4a62-8fc4-2162b00420e7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---

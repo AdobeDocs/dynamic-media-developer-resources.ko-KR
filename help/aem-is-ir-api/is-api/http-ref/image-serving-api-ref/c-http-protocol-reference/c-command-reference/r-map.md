@@ -1,16 +1,13 @@
 ---
 description: 이미지 맵 데이터를 참조하십시오. 이 레이어의 이미지 맵 데이터를 제공합니다. 이 레이어에 대한 카탈로그 맵의 데이터를 무시합니다.
-seo-description: 이미지 맵 데이터를 참조하십시오. 이 레이어의 이미지 맵 데이터를 제공합니다. 이 레이어에 대한 카탈로그 맵의 데이터를 무시합니다.
-seo-title: 맵
 solution: Experience Manager
 title: 맵
-uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---

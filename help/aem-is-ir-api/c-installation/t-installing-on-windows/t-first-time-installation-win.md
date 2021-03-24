@@ -1,16 +1,13 @@
 ---
 description: 다음 단계에 따라 Windows에서 처음으로 이미지 제공을 설치합니다.
-seo-description: 다음 단계에 따라 Windows에서 처음으로 이미지 제공을 설치합니다.
-seo-title: 처음 설치
 solution: Experience Manager
 title: 처음 설치
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---

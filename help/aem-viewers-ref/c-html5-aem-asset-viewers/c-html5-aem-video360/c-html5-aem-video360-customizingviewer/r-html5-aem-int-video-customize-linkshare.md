@@ -1,16 +1,13 @@
 ---
 description: 링크 공유 도구는 도구가 활성화될 때 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-description: 링크 공유 도구는 도구가 활성화될 때 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-title: 링크 공유
 solution: Experience Manager
 title: 링크 공유
-uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---

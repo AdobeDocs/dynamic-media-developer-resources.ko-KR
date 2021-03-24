@@ -1,16 +1,13 @@
 ---
 description: 이미지 서버 프록시를 사용하여 일본어 휴대폰용 이미지 크기를 조정할 수 있습니다.
-seo-description: 이미지 서버 프록시를 사용하여 일본어 휴대폰용 이미지 크기를 조정할 수 있습니다.
-seo-title: 이미지 서버 프록시
 solution: Experience Manager
 title: 이미지 서버 프록시
-uuid: 49aa0861-9b03-4a62-8604-67e6cb7a621f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---

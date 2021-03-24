@@ -1,16 +1,13 @@
 ---
 description: 정규 표현식 패턴 요소입니다. <rule> 요소의 선택 사항입니다.
-seo-description: 정규 표현식 패턴 요소입니다. <rule> 요소의 선택 사항입니다.
-seo-title: 식
 solution: Experience Manager
 title: 식
-uuid: e7ef3769-0090-42d6-8021-1c213f1ee391
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '154'
 ht-degree: 4%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이러한 서버 설정을 사용하여 서버를 구성합니다.
-seo-description: 이러한 서버 설정을 사용하여 서버를 구성합니다.
-seo-title: 서버
 solution: Experience Manager
 title: 서버
-uuid: 50db98cc-8354-4884-9416-00808828061b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---

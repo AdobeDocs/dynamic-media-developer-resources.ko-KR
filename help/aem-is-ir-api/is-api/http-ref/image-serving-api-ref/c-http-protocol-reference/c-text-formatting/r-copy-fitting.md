@@ -1,16 +1,13 @@
 ---
 description: textPs=는 글꼴 크기를 자동으로 조정하여 텍스트 영역을 텍스트로 최적으로 채우도록 하고 오버플로를 방지하면서 하단의 추가 공간을 최소화하도록 하는 독점적인 복사 맞춤 알고리즘을 구현합니다.
-seo-description: textPs=는 글꼴 크기를 자동으로 조정하여 텍스트 영역을 텍스트로 최적으로 채우도록 하고 오버플로를 방지하면서 하단의 추가 공간을 최소화하도록 하는 독점적인 복사 맞춤 알고리즘을 구현합니다.
-seo-title: 복사 맞춤
 solution: Experience Manager
 title: 복사 맞춤
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 속성 세트의 유형 및 값입니다.
-seo-description: 속성 세트의 유형 및 값입니다.
-seo-title: PropertySet
 solution: Experience Manager
 title: PropertySet
-uuid: b8800e9c-a940-42a8-81cb-1798daf65477
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 9%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 

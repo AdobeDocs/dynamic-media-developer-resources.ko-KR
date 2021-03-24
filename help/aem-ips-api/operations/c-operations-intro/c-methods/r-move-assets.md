@@ -1,17 +1,14 @@
 ---
 description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 형식을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
-seo-description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 형식을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
-seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 8%
+source-wordcount: '218'
+ht-degree: 9%
 
 ---
 

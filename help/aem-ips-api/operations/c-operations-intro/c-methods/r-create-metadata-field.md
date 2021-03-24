@@ -1,16 +1,13 @@
 ---
 description: 관리자가 컨텐츠 관리 시스템 또는 템플릿 작업을 조정할 새 메타데이터 필드를 만들 수 있습니다. 만들어진 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
-seo-description: 관리자가 컨텐츠 관리 시스템 또는 템플릿 작업을 조정할 새 메타데이터 필드를 만들 수 있습니다. 만들어진 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
-seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
-uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '290'
 ht-degree: 7%
 
 ---

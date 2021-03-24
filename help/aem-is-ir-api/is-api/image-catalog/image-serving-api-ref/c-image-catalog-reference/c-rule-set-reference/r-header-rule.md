@@ -1,16 +1,13 @@
 ---
 description: HTTP 응답 헤더 요소입니다. <rule> 요소의 선택 사항입니다.
-seo-description: HTTP 응답 헤더 요소입니다. <rule> 요소의 선택 사항입니다.
-seo-title: 헤더
 solution: Experience Manager
 title: 헤더
-uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 4%
 
 ---

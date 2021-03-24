@@ -1,17 +1,14 @@
 ---
 description: 회사에 대한 핸들과 속성 집합 유형의 이름을 사용하여 속성 집합 유형을 가져옵니다. 속성 유형은 물론 유형에 대한 핸들의 형식 구조도 가져옵니다.
-seo-description: 회사에 대한 핸들과 속성 집합 유형의 이름을 사용하여 속성 집합 유형을 가져옵니다. 속성 유형은 물론 유형에 대한 핸들의 형식 구조도 가져옵니다.
-seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 8%
+source-wordcount: '160'
+ht-degree: 10%
 
 ---
 

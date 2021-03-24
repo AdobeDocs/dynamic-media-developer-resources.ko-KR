@@ -1,16 +1,13 @@
 ---
 description: 기본 이미지 응답에 대한 클라이언트 캐시 TTL입니다. 기본 이미지 응답에 대한 만료 간격을 제공합니다(defaultImage= 또는 DefaultImage 속성으로 지정된 기본 이미지를 반환하는 응답).
-seo-description: 기본 이미지 응답에 대한 클라이언트 캐시 TTL입니다. 기본 이미지 응답에 대한 만료 간격을 제공합니다(defaultImage= 또는 DefaultImage 속성으로 지정된 기본 이미지를 반환하는 응답).
-seo-title: DefaultExpiration
 solution: Experience Manager
 title: DefaultExpiration
-uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---

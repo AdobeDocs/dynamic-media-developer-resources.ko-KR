@@ -1,17 +1,14 @@
 ---
 description: 작업 항목 진행 정보.
-seo-description: 작업 항목 진행 정보.
-seo-title: 작업 항목 진행
 solution: Experience Manager
 title: 작업 항목 진행
-uuid: 7cca2ad9-c8f9-4dff-a055-d03fa2c50cec
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
 

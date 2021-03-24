@@ -1,17 +1,14 @@
 ---
 description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 602fbf82-429b-443c-9163-f4d2e2b922dd
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 

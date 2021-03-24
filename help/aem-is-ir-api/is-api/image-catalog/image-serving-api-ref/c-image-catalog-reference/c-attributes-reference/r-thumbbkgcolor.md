@@ -1,17 +1,14 @@
 ---
 description: 축소판의 기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 출력 축소판 이미지의 영역을 채우는 데 사용되는 RGB 값입니다.
-seo-description: 축소판의 기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 출력 축소판 이미지의 영역을 채우는 데 사용되는 RGB 값입니다.
-seo-title: ThumbBkgColor
 solution: Experience Manager
 title: ThumbBkgColor
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 4%
+source-wordcount: '86'
+ht-degree: 5%
 
 ---
 

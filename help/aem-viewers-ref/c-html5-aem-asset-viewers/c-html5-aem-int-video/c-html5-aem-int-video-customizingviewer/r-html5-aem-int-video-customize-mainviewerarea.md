@@ -1,17 +1,14 @@
 ---
 description: 기본 보기 영역은 인터랙티브한 견본이 차지하는 영역입니다. 일반적으로 크기를 지정하지 않으면 사용 가능한 장치 화면에 맞게 설정됩니다.
-seo-description: 기본 보기 영역은 인터랙티브한 견본이 차지하는 영역입니다. 일반적으로 크기를 지정하지 않으면 사용 가능한 장치 화면에 맞게 설정됩니다.
-seo-title: 기본 뷰어 영역
 solution: Experience Manager
 title: 기본 뷰어 영역
-uuid: 3e04c578-dcb2-4034-8809-dc949be80097
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 2%
+source-wordcount: '129'
+ht-degree: 3%
 
 ---
 

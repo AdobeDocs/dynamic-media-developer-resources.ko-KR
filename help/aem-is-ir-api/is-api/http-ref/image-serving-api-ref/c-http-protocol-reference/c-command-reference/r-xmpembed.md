@@ -1,16 +1,13 @@
 ---
 description: XMP 메타데이터 포함. XMP 메타데이터를 응답 이미지에 포함할지 여부를 지정합니다.
-seo-description: XMP 메타데이터 포함. XMP 메타데이터를 응답 이미지에 포함할지 여부를 지정합니다.
-seo-title: xmpEmbed
 solution: Experience Manager
 title: xmpEmbed
-uuid: c0dfd0e5-16d1-4a6e-957a-ecc276b9361a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---

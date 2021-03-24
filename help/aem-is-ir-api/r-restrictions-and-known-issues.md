@@ -1,16 +1,13 @@
 ---
 description: Dynamic Media 이미지 제공 사용 시 고려해야 하는 몇 가지 제한 사항과 알려진 문제가 있습니다.
-seo-description: Dynamic Media 이미지 제공 사용 시 고려해야 하는 몇 가지 제한 사항과 알려진 문제가 있습니다.
-seo-title: 제한 및 알려진 문제
 solution: Experience Manager
 title: 제한 및 알려진 문제
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---

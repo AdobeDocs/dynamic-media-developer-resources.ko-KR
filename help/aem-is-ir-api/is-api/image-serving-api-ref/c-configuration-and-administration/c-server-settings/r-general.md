@@ -1,17 +1,14 @@
 ---
 description: 일반 서버 설정
-seo-description: 일반 서버 설정
-seo-title: 일반
 solution: Experience Manager
 title: 일반
-uuid: d7ec3dba-64b8-431b-b446-84ab6139ba8a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 1%
+source-wordcount: '236'
+ht-degree: 0%
 
 ---
 

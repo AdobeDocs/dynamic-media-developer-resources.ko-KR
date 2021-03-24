@@ -1,17 +1,14 @@
 ---
 description: 선명 효과 댓글 이미지 렌더링된 이미지가 wid= 또는 hei=를 기반으로 크기를 조절하면 선택적으로 선명하게 할 수 있습니다.
-seo-description: 선명 효과 댓글 이미지 렌더링된 이미지가 wid= 또는 hei=를 기반으로 크기를 조절하면 선택적으로 선명하게 할 수 있습니다.
-seo-title: 선명 효과
 solution: Experience Manager
 title: 선명 효과
-uuid: 0fc0b694-f332-4a16-9970-6b699528f165
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 

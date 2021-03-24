@@ -1,17 +1,14 @@
 ---
 description: CMYK 기본 색상 공간. icc=로 지정된 출력 색상 공간이 없을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
-seo-description: CMYK 기본 색상 공간. icc=로 지정된 출력 색상 공간이 없을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
-seo-title: IccProfileCmyk
 solution: Experience Manager
 title: IccProfileCmyk
-uuid: d923d0fd-f00b-4fce-8ce9-8b177b4dba96
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 

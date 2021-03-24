@@ -1,17 +1,14 @@
 ---
 description: 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
-seo-description: 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
-seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-uuid: b68f527b-7fa7-43e3-9517-57a6c3700b06
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 2%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: '이미지 레이어 변형 2단계는 축소판의 다음과 같이 수정됩니다(예: req=tmb).'
-seo-description: '이미지 레이어 변형 2단계는 축소판의 다음과 같이 수정됩니다(예: req=tmb).'
-seo-title: 축소판 크기 조정
 solution: Experience Manager
 title: 축소판 크기 조정
-uuid: df935d40-84c6-4018-9e41-faef4653ff1f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---

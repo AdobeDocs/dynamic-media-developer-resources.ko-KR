@@ -1,16 +1,13 @@
 ---
 description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
-seo-description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
-seo-title: ExcludeMasterVideoFromAVS
 title: ExcludeMasterVideoFromAVS
-uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 

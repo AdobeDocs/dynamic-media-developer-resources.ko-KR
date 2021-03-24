@@ -1,16 +1,13 @@
 ---
 description: 비디오 뷰어에 대한 명령 참조 설명서를 참조하십시오.
-seo-description: 비디오 뷰어에 대한 명령 참조 설명서를 참조하십시오.
-seo-title: 명령 참조 - URL
 solution: Experience Manager
 title: 명령 참조 - URL
-uuid: 4f9e4a79-6865-4e41-b30b-84ff2c6f6045
 feature: Dynamic Media Classic,뷰어,SDK/API,비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---

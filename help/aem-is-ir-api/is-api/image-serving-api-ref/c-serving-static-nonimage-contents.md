@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공을 사용하여 카탈로그에서 이미지가 아닌 컨텐츠를 관리하고 별도의 /is/content 컨텍스트를 통해 제공할 수 있습니다.
-seo-description: 이미지 제공을 사용하여 카탈로그에서 이미지가 아닌 컨텐츠를 관리하고 별도의 /is/content 컨텍스트를 통해 제공할 수 있습니다.
-seo-title: 정적(이미지가 아님) 컨텐츠 제공
 solution: Experience Manager
 title: 정적(이미지가 아님) 컨텐츠 제공
-uuid: bdb1383a-e02d-499f-be79-4a6dc501705c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---

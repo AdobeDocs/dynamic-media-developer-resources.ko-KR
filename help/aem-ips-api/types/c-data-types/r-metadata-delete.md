@@ -1,17 +1,14 @@
 ---
 description: 자산에서 삭제할 메타데이터.
-seo-description: 자산에서 삭제할 메타데이터.
-seo-title: MetadataDelete
 solution: Experience Manager
 title: MetadataDelete
-uuid: 7bd80931-4b7a-4a70-a505-b351653549af
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 

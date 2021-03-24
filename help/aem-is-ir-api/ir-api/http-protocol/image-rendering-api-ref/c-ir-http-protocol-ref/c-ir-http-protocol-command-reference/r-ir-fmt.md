@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -199,11 +199,11 @@ ht-degree: 4%
 
 클라이언트에 전송된 응답 이미지 데이터에 대한 인코딩 형식과 HTTP 응답 헤더에 대한 해당 응답 MIME 형식을 지정합니다.
 
-`png-alpha` 연결되지 않은 알파(즉, 알파는 픽셀 값에 사전 곱하지 않음)를 반환하고, 관련 알파 `tif-alpha`를  `swf-alpha` 반환합니다(즉, 알파 값은 알파 값과 미리 곱해집니다). 알파 채널은 `req=img`에 대한 비네팅 배경 마스크의 반대와 `req=object`에 대한 그룹 또는 개체 마스크에 해당합니다. 중첩된 IR 요청을 사용할 때 알파를 적용하려면 포함된 IR 요청 및 기본 요청에 적절한 알파 파일 형식의 `fmt=`을(를) 추가합니다. CMYK 또는 회색 음영 ICC 프로파일이 `icc=`으로 지정된 경우 알파 데이터가 반환되지 않습니다.
+`png-alpha` 연결되지 않은 알파(즉, 알파는 픽셀 값에 사전 곱하지 않음)를 반환하고, 관련 알파 `tif-alpha`를  `swf-alpha` 반환합니다(즉, 알파 값은 알파 값과 미리 곱해집니다). 알파 채널은 `req=img`에 대한 비네팅 배경 마스크의 반대와 `req=object`이 있는 그룹 또는 개체 마스크에 해당합니다. 중첩된 IR 요청을 사용할 때 알파를 적용하려면 포함된 IR 요청 및 기본 요청에 적절한 알파 파일 형식의 `fmt=`을(를) 추가합니다. CMYK 또는 회색 음영 ICC 프로파일이 `icc=`으로 지정된 경우 알파 데이터가 반환되지 않습니다.
 
 ## 속성 {#section-eb12a82c69d84622bcea153dd84d95b3}
 
-요청에서 어느 곳에서나 발생할 수 있습니다.
+요청에서 아무 곳에서나 발생할 수 있습니다.
 
 ## 기본값 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 

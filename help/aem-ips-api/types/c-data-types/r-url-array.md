@@ -1,17 +1,14 @@
 ---
 description: CDN 캐시를 무효화하기 위한 URL 배열입니다.
-seo-description: CDN 캐시를 무효화하기 위한 URL 배열입니다.
-seo-title: UrlArray
 solution: Experience Manager
 title: UrlArray
-uuid: 59568d38-6e05-45ca-8054-cec2c5ea8c02
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 

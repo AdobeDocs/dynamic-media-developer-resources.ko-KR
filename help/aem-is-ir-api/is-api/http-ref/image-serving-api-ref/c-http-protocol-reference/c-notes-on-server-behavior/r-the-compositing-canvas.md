@@ -1,16 +1,13 @@
 ---
 description: req=img인 경우 합성 캔버스의 크기는 레이어 0의 크기에 의해 완전히 결정됩니다.
-seo-description: req=img인 경우 합성 캔버스의 크기는 레이어 0의 크기에 의해 완전히 결정됩니다.
-seo-title: 합성 캔버스
 solution: Experience Manager
 title: 합성 캔버스
-uuid: 7ec2f1b3-61fc-4bfe-96d2-a5946a238e74
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---

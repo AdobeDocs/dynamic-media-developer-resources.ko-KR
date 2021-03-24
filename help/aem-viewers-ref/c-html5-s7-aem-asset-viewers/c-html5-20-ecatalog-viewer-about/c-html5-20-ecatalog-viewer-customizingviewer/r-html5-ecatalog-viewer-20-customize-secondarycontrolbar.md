@@ -1,17 +1,14 @@
 ---
 description: 보조 컨트롤 막대는 [첫 번째 페이지] 및 [마지막 페이지] 단추가 포함된 사각형 영역과 CSS로 사용할 수 있도록 만든 경우 [페이지 표시기]입니다.
-seo-description: 보조 컨트롤 막대는 [첫 번째 페이지] 및 [마지막 페이지] 단추가 포함된 사각형 영역과 CSS로 사용할 수 있도록 만든 경우 [페이지 표시기]입니다.
-seo-title: 보조 컨트롤 막대
 solution: Experience Manager
 title: 보조 컨트롤 막대
-uuid: 9a91da6b-0d9b-4b4c-9659-86a64e624947
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 

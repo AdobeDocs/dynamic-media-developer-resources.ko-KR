@@ -1,16 +1,13 @@
 ---
 description: 이 섹션의 설정은 SVG 렌더링이 필요한 경우에만 고려해야 합니다.
-seo-description: 이 섹션의 설정은 SVG 렌더링이 필요한 경우에만 고려해야 합니다.
-seo-title: SVG
 solution: Experience Manager
 title: SVG
-uuid: 9e69b150-46ac-480f-96db-afadccc40fe4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---

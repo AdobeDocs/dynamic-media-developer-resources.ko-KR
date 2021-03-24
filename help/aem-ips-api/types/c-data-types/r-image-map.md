@@ -1,16 +1,13 @@
 ---
 description: Target을 참조하십시오.
-seo-description: Target을 참조하십시오.
-seo-title: 이미지 맵
 solution: Experience Manager
 title: 이미지 맵
-uuid: 1a09ab27-7ee1-4162-8047-575f3f5ca8fe
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '104'
 ht-degree: 12%
 
 ---

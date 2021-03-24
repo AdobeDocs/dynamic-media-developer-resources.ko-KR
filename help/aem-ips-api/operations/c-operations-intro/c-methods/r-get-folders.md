@@ -1,17 +1,14 @@
 ---
 description: 폴더 경로에서 시작하여 모든 폴더 및 하위 폴더를 반환합니다. getFolders 응답은 최대 100,000개의 폴더를 반환합니다.
-seo-description: 폴더 경로에서 시작하여 모든 폴더 및 하위 폴더를 반환합니다. getFolders 응답은 최대 100,000개의 폴더를 반환합니다.
-seo-title: getFolders
 solution: Experience Manager
 title: getFolders
-uuid: 06e9d745-b711-43e3-8dc6-93da66b981b1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 7%
+source-wordcount: '244'
+ht-degree: 8%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 대화형 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다.
-seo-description: 대화형 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다.
-seo-title: 대화형 비디오
 solution: Experience Manager
 title: 대화형 비디오
-uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---

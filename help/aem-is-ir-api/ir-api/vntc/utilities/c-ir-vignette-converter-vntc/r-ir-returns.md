@@ -1,16 +1,13 @@
 ---
 description: vntc는 처리 중 오류가 발생하는지에 따라 다음 값을 반환합니다.
-seo-description: vntc는 처리 중 오류가 발생하는지에 따라 다음 값을 반환합니다.
-seo-title: 반환
 solution: Experience Manager
 title: 반환
-uuid: 06c216c9-7618-439c-9900-1cdf1b3ba06f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---

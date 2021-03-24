@@ -1,17 +1,14 @@
 ---
 description: 단일 요청에서 모든 시스템 속성을 검색합니다.
-seo-description: 단일 요청에서 모든 시스템 속성을 검색합니다.
-seo-title: getSystemProperties
 solution: Experience Manager
 title: getSystemProperties
-uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '62'
+ht-degree: 17%
 
 ---
 

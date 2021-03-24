@@ -1,17 +1,14 @@
 ---
 description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
-seo-description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
-seo-title: 권한
 solution: Experience Manager
 title: 권한
-uuid: 3b3580d3-e5bc-42bf-bfbe-ab0ec2dea574
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 프로필 파일 경로. 파일 접미사를 포함한 ICC 색상 프로파일 파일의 경로 및 이름입니다.
-seo-description: 프로필 파일 경로. 파일 접미사를 포함한 ICC 색상 프로파일 파일의 경로 및 이름입니다.
-seo-title: 프로필 경로
 solution: Experience Manager
 title: 프로필 경로
-uuid: 82fd2cee-ad15-4dd3-8864-9976470fc847
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '63'
+ht-degree: 9%
 
 ---
 

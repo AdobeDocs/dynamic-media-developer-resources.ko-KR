@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 특성 파일은 모든 이름을 가질 수 있지만 .ini 파일 접미어를 사용해야 합니다. 텍스트 편집기를 사용하여 언제든지 유지 관리할 수 있습니다.
-seo-description: 카탈로그 특성 파일은 모든 이름을 가질 수 있지만 .ini 파일 접미어를 사용해야 합니다. 텍스트 편집기를 사용하여 언제든지 유지 관리할 수 있습니다.
-seo-title: 카탈로그 속성 파일
 solution: Experience Manager
 title: 카탈로그 속성 파일
-uuid: ea2bddad-2c4a-43c1-9b62-6e724fcfb8a0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---

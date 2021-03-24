@@ -1,16 +1,13 @@
 ---
 description: 이미지 카탈로그의 기능 및 구문은 이 섹션에 설명되어 있습니다.
-seo-description: 이미지 카탈로그의 기능 및 구문은 이 섹션에 설명되어 있습니다.
-seo-title: 이미지 카탈로그
 solution: Experience Manager
 title: 이미지 카탈로그
-uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---

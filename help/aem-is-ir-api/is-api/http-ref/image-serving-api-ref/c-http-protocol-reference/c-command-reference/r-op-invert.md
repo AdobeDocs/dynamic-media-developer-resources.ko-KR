@@ -1,17 +1,14 @@
 ---
 description: 색상을 반전. 음수 이미지 효과의 각 색상 구성 요소를 반전합니다.
-seo-description: 색상을 반전. 음수 이미지 효과의 각 색상 구성 요소를 반전합니다.
-seo-title: op_invert
 solution: Experience Manager
 title: op_invert
-uuid: bca91ce1-b105-42bf-b4ff-691f26218285
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '57'
+ht-degree: 3%
 
 ---
 

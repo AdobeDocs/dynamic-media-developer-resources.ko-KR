@@ -1,16 +1,13 @@
 ---
 description: 파일을 덮어쓰기 직전에 req=release 명령을 사용하여 서버를 라이브하는 동안 비네팅 파일을 교체하거나 삭제할 수 있습니다.
-seo-description: 파일을 덮어쓰기 직전에 req=release 명령을 사용하여 서버를 라이브하는 동안 비네팅 파일을 교체하거나 삭제할 수 있습니다.
-seo-title: 소스 데이터 파일 삭제 또는 바꾸기
 solution: Experience Manager
 title: 소스 데이터 파일 삭제 또는 바꾸기
-uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---

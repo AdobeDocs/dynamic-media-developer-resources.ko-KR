@@ -1,17 +1,14 @@
 ---
 description: 하나 이상의 자산에 대한 게시 상태를 설정하거나 업데이트합니다. 회사의 각 게시 컨텍스트에 대해 별도의 게시 상태를 설정할 수 있습니다.
-seo-description: 하나 이상의 자산에 대한 게시 상태를 설정하거나 업데이트합니다. 회사의 각 게시 컨텍스트에 대해 별도의 게시 상태를 설정할 수 있습니다.
-seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
-uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 9%
+source-wordcount: '167'
+ht-degree: 10%
 
 ---
 

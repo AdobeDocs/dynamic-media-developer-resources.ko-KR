@@ -2,11 +2,10 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-uuid: ea7dc440-52a6-4601-809c-6c187c24eb91
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 5%

@@ -1,16 +1,13 @@
 ---
 description: 응답 이미지 너비. 이미지의 종횡비를 유지하면서 응답 이미지가 지정된 값보다 크지 않도록 렌더링된 이미지의 비율을 지정합니다.
-seo-description: 응답 이미지 너비. 이미지의 종횡비를 유지하면서 응답 이미지가 지정된 값보다 크지 않도록 렌더링된 이미지의 비율을 지정합니다.
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---

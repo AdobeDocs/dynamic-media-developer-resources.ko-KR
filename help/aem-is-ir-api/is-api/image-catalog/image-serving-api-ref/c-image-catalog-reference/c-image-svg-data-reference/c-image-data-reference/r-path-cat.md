@@ -2,11 +2,10 @@
 description: 이미지 파일 경로입니다.
 solution: Experience Manager
 title: 경로
-uuid: 0fca88bb-de00-4eff-83ad-c0f5e3b8ece0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 4%

@@ -1,17 +1,14 @@
 ---
 description: 자산 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함됩니다.
-seo-description: 자산 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함됩니다.
-seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 13%
+source-wordcount: '102'
+ht-degree: 16%
 
 ---
 

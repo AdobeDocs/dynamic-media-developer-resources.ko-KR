@@ -1,17 +1,14 @@
 ---
 description: 규칙 세트 정의 파일 경로입니다. 이 이미지 카탈로그에 대한 규칙 세트 정의가 포함된 파일을 지정합니다.
-seo-description: 규칙 세트 정의 파일 경로입니다. 이 이미지 카탈로그에 대한 규칙 세트 정의가 포함된 파일을 지정합니다.
-seo-title: RuleSetFile
 solution: Experience Manager
 title: RuleSetFile
-uuid: 9393e197-450a-4b7d-90ad-a6ea0204ee26
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 

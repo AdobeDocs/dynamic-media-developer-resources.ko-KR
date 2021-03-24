@@ -1,16 +1,13 @@
 ---
 description: 기본 축소판 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 ThumbRes 값이 없는 경우 축소판 개체 해상도의 기본값을 제공합니다.
-seo-description: 기본 축소판 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 ThumbRes 값이 없는 경우 축소판 개체 해상도의 기본값을 제공합니다.
-seo-title: ThumbRes
 solution: Experience Manager
 title: ThumbRes
-uuid: 4a77d673-9d2e-4e62-a014-c99fa3df294a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---

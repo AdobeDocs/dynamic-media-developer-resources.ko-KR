@@ -1,17 +1,14 @@
 ---
 description: 선택한 회사에 대해 지정된 작업 로그를 가져옵니다. 문자, 방향, 시작 및 종료 날짜, 행 수로 정렬할 수 있습니다.
-seo-description: 선택한 회사에 대해 지정된 작업 로그를 가져옵니다. 문자, 방향, 시작 및 종료 날짜, 행 수로 정렬할 수 있습니다.
-seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 9%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 

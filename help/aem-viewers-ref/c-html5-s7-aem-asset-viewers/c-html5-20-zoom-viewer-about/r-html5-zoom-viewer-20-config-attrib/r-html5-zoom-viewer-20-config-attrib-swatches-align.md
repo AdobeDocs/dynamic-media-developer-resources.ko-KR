@@ -2,11 +2,10 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-uuid: 5cff285b-69f0-4ffe-b165-c2d1fdc8aa75
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 4%

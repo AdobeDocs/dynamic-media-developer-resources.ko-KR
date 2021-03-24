@@ -1,17 +1,14 @@
 ---
 description: 비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트 전송률을 지정할 수 있습니다.
-seo-description: 비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트 전송률을 지정할 수 있습니다.
-seo-title: VideoBitRate
 solution: Experience Manager
 title: VideoBitRate
-uuid: dff00d03-5fea-42cf-9b81-cd3488e666e4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 6%
+source-wordcount: '62'
+ht-degree: 8%
 
 ---
 

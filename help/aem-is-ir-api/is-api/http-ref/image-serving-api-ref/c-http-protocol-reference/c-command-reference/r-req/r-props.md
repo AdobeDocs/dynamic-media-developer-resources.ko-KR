@@ -1,16 +1,13 @@
 ---
 description: 응답 데이터 속성입니다. 현재 요청을 이미지 요청인 것처럼 평가하지만(req=img), 이미지를 반환하는 대신 서버는 응답 이미지의 선택된 속성을 반환합니다.
-seo-description: 응답 데이터 속성입니다. 현재 요청을 이미지 요청인 것처럼 평가하지만(req=img), 이미지를 반환하는 대신 서버는 응답 이미지의 선택된 속성을 반환합니다.
-seo-title: props
 solution: Experience Manager
-title: prop
-uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+title: props
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '369'
 ht-degree: 7%
 
 ---

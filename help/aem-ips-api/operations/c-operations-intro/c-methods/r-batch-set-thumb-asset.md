@@ -1,17 +1,14 @@
 ---
 description: 하나 이상의 에셋에 대한 축소판 이미지를 설정합니다.
-seo-description: 하나 이상의 에셋에 대한 축소판 이미지를 설정합니다.
-seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '180'
+ht-degree: 13%
 
 ---
 

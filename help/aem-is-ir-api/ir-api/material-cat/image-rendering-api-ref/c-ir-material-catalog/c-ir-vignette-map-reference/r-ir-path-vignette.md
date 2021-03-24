@@ -1,17 +1,14 @@
 ---
 description: 비네팅 파일 경로입니다. 비네팅 파일의 상대 경로 및 이름입니다.
-seo-description: 비네팅 파일 경로입니다. 비네팅 파일의 상대 경로 및 이름입니다.
-seo-title: 경로
 solution: Experience Manager
 title: 경로
-uuid: 470cee37-9840-402a-bde5-ace8988996d2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 9%
+source-wordcount: '80'
+ht-degree: 10%
 
 ---
 

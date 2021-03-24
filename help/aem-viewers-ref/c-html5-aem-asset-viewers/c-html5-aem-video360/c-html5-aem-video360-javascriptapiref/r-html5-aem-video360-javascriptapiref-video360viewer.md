@@ -1,16 +1,13 @@
 ---
 description: Video360 뷰어용 JavaScript API 참조 설명서.
-seo-description: Video360 뷰어용 JavaScript API 참조 설명서.
-seo-title: Video360Viewer
 solution: Experience Manager
 title: Video360Viewer
-uuid: b5d5e270-687c-40aa-9de4-c5bc2a7806f7
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '215'
 ht-degree: 5%
 
 ---

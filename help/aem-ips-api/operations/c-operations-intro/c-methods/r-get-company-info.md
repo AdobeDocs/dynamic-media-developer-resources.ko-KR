@@ -1,17 +1,14 @@
 ---
 description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함한 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
-seo-description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함한 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
-seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
-uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 6%
+source-wordcount: '175'
+ht-degree: 8%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 이미지 마스크. 연결되지 않은 마스크로 사용할 별도의 마스크 이미지를 지정합니다.
-seo-description: 이미지 마스크. 연결되지 않은 마스크로 사용할 별도의 마스크 이미지를 지정합니다.
-seo-title: 마스크
 solution: Experience Manager
 title: 마스크
-uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---

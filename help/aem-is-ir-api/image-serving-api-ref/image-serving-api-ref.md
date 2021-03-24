@@ -1,10 +1,12 @@
 ---
 description: Dynamic Media Image Serving API 참조 도움말을 참조하십시오.
 title: 이미지 제공 API 참조
+feature: Dynamic Media Classic,SDK/API
+role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---

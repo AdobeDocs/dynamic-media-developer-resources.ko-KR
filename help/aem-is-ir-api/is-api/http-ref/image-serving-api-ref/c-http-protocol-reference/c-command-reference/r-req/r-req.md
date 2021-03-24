@@ -1,17 +1,14 @@
 ---
 description: 요청 유형. 요청 유형을 지정합니다.
-seo-description: 요청 유형. 요청 유형을 지정합니다.
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: b888be10-89e5-4b41-a2bd-f83533ea2481
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 8%
+source-wordcount: '98'
+ht-degree: 9%
 
 ---
 

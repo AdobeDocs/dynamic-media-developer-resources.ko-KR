@@ -1,16 +1,13 @@
 ---
 description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추를 클릭하면 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추를 클릭하면 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
-seo-title: Twitter 공유
 solution: Experience Manager
 title: Twitter 공유
-uuid: 15fed20e-89c4-4c4b-8f0d-1f0bac0c0af7
 feature: Dynamic Media Classic,뷰어,SDK/API,비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---

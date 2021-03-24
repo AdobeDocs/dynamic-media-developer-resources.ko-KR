@@ -1,16 +1,13 @@
 ---
 description: 자산 핸들 목록 배열을 사용하여 파일을 세트로 그룹화합니다.
-seo-description: 자산 핸들 목록 배열을 사용하여 파일을 세트로 그룹화합니다.
-seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '183'
 ht-degree: 3%
 
 ---

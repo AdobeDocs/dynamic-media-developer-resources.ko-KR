@@ -1,17 +1,14 @@
 ---
 description: 회사 작업 로그의 세부 사항을 가져옵니다.
-seo-description: 회사 작업 로그의 세부 사항을 가져옵니다.
-seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-uuid: e4314348-2160-4775-a02f-b4892924f064
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 10%
+source-wordcount: '222'
+ht-degree: 11%
 
 ---
 

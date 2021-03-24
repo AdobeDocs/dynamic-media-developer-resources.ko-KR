@@ -1,17 +1,14 @@
 ---
 description: 합성된 글꼴 변형을 활성화합니다. 이러한 스타일을 요청했지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지, 굵게, 기울임체 또는 굵은 기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
-seo-description: 합성된 글꼴 변형을 활성화합니다. 이러한 스타일을 요청했지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지, 굵게, 기울임체 또는 굵은 기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
-seo-title: SyncizeFontStyles
 solution: Experience Manager
 title: SyncizeFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 

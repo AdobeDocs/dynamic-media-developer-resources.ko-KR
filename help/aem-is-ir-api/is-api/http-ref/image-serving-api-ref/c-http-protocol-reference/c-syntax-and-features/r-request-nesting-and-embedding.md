@@ -1,16 +1,13 @@
 ---
 description: 이미지 제공은 이미지 제공 요청을 무제한으로 중첩하고 이미지 렌더링 요청을 임베드할 수 있을 뿐만 아니라 외부 서버에서 검색한 이미지를 임베드할 수 있도록 지원합니다. 레이어 이미지와 레이어 마스크만 이러한 메커니즘을 지원합니다.
-seo-description: 이미지 제공은 이미지 제공 요청을 무제한으로 중첩하고 이미지 렌더링 요청을 임베드할 수 있을 뿐만 아니라 외부 서버에서 검색한 이미지를 임베드할 수 있도록 지원합니다. 레이어 이미지와 레이어 마스크만 이러한 메커니즘을 지원합니다.
-seo-title: 중첩 및 포함 요청
 solution: Experience Manager
 title: 중첩 및 포함 요청
-uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---

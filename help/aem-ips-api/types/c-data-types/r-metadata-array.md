@@ -1,17 +1,14 @@
 ---
 description: 메타데이터 배열입니다.
-seo-description: 메타데이터 배열입니다.
-seo-title: MetadataArray
 solution: Experience Manager
 title: MetadataArray
-uuid: ad814354-9fba-47fc-9011-53d6e88dd81b
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 수정 타임스탬프. 비네팅을 마지막으로 수정한 날짜/시간을 지정합니다.
-seo-description: 수정 타임스탬프. 비네팅을 마지막으로 수정한 날짜/시간을 지정합니다.
-seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---

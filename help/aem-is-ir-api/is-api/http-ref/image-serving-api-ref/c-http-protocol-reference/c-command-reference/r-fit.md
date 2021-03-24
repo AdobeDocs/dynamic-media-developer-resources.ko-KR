@@ -1,16 +1,13 @@
 ---
 description: 응답 이미지 맞추기 모드. wid= 및 hei= 및 scl=로 응답 크기가 지정되지 않은 경우 복합 이미지를 응답 이미지로 크기 조절하는 데 사용되는 비율 인수를 계산하는 방법을 지정합니다.
-seo-description: 응답 이미지 맞추기 모드. wid= 및 hei= 및 scl=로 응답 크기가 지정되지 않은 경우 복합 이미지를 응답 이미지로 크기 조절하는 데 사용되는 비율 인수를 계산하는 방법을 지정합니다.
-seo-title: 맞춤
 solution: Experience Manager
 title: 맞춤
-uuid: 669fe757-f3a1-4cd4-b46c-6fbe5a039ce0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '494'
 ht-degree: 2%
 
 ---

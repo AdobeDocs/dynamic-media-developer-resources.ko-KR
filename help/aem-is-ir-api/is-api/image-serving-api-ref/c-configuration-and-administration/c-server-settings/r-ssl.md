@@ -1,16 +1,13 @@
 ---
 description: SSL에 대해 이러한 서버 설정을 사용합니다.
-seo-description: SSL에 대해 이러한 서버 설정을 사용합니다.
-seo-title: SSL
 solution: Experience Manager
 title: SSL
-uuid: dec9bd09-8191-4010-8898-2890ffbe9ca7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '98'
 ht-degree: 4%
 
 ---

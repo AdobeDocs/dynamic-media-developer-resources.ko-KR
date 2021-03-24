@@ -1,17 +1,14 @@
 ---
 description: 레이어 숨기기를 참조하십시오. 요청 문자열에서 레이어를 제거하지 않고 레이어를 숨길 수 있습니다.
-seo-description: 레이어 숨기기를 참조하십시오. 요청 문자열에서 레이어를 제거하지 않고 레이어를 숨길 수 있습니다.
-seo-title: 숨기기
 solution: Experience Manager
 title: 숨기기
-uuid: fb50f2c4-fbac-4f0e-aa78-9cb1e47cc591
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '50'
+ht-degree: 8%
 
 ---
 

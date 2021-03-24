@@ -1,16 +1,13 @@
 ---
 description: 이러한 서버 설정을 사용하여 경고 임계값을 구성합니다.
-seo-description: 이러한 서버 설정을 사용하여 경고 임계값을 구성합니다.
-seo-title: 경고 임계값
 solution: Experience Manager
 title: 경고 임계값
-uuid: 032cb396-1a03-4ba9-82d6-ed2cb06e8cf2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---

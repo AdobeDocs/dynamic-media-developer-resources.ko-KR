@@ -1,17 +1,14 @@
 ---
 description: 기본 보기는 정적 이미지, 플라이아웃 보기에 표시된 확대/축소 이미지, 정적 이미지 위에 표시된 강조 표시 탐색 영역 및 정적 이미지 위에 표시된 팁 메시지로 구성됩니다.
-seo-description: 기본 보기는 정적 이미지, 플라이아웃 보기에 표시된 확대/축소 이미지, 정적 이미지 위에 표시된 강조 표시 탐색 영역 및 정적 이미지 위에 표시된 팁 메시지로 구성됩니다.
-seo-title: 플라이아웃 확대/축소 보기
 solution: Experience Manager
 title: 플라이아웃 확대/축소 보기
-uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
 feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 2%
+source-wordcount: '631'
+ht-degree: 3%
 
 ---
 

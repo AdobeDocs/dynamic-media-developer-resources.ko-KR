@@ -1,16 +1,13 @@
 ---
 description: 텍스트 상자에서는 다음 문서 속성이 지원됩니다.
-seo-description: 텍스트 상자에서는 다음 문서 속성이 지원됩니다.
-seo-title: 문서(텍스트 상자) 속성
 solution: Experience Manager
 title: 문서(텍스트 상자) 속성
-uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---

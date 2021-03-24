@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 특성 파일은 이러한 요청 특성을 인식합니다.
-seo-description: 카탈로그 특성 파일은 이러한 요청 특성을 인식합니다.
-seo-title: 요청 속성
 solution: Experience Manager
 title: 요청 속성
-uuid: 02156b81-9f18-461e-94c1-43b1155c4ab6
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---

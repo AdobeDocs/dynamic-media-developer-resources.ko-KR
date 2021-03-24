@@ -1,16 +1,13 @@
 ---
 description: 선택한 이미지의 배경을 마스크(녹아웃)합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. 기본적으로 꺼져 있는 선택적 매개 변수입니다.
-seo-description: 선택한 이미지의 배경을 마스크(녹아웃)합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. 기본적으로 꺼져 있는 선택적 매개 변수입니다.
-seo-title: 녹아웃 배경 옵션
 solution: Experience Manager
 title: 녹아웃 배경 옵션
-uuid: 1486d646-f42a-4ed4-9450-313950969c39
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '174'
 ht-degree: 2%
 
 ---

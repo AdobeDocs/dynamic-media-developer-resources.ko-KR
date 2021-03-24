@@ -1,16 +1,13 @@
 ---
 description: 포함된 외래 요청의 중괄호 내에서 발생하는 $var$ 참조는 일치하는 변수 정의 값으로 대체됩니다.
-seo-description: 포함된 외래 요청의 중괄호 내에서 발생하는 $var$ 참조는 일치하는 변수 정의 값으로 대체됩니다.
-seo-title: 임베디드 외부 요청의 변수 처리
 solution: Experience Manager
 title: 임베디드 외부 요청의 변수 처리
-uuid: b4334a2e-dab1-4458-ab3d-bb79d2c4fdd4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---

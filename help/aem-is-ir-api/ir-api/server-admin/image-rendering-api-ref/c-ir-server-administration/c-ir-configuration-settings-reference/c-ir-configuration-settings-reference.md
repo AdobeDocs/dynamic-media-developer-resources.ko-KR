@@ -1,16 +1,13 @@
 ---
 description: 모든 렌더링 서버 설정은 install_root/ImageServing/conf/PlatformServer.conf에 있습니다. 구성 변수의 이름은 괄호 안에 표시됩니다.
-seo-description: 모든 렌더링 서버 설정은 install_root/ImageServing/conf/PlatformServer.conf에 있습니다. 구성 변수의 이름은 괄호 안에 표시됩니다.
-seo-title: 구성 설정 참조
 solution: Experience Manager
 title: 구성 설정 참조
-uuid: fd9629d6-901d-4015-a49e-d3a36e18a7a3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---

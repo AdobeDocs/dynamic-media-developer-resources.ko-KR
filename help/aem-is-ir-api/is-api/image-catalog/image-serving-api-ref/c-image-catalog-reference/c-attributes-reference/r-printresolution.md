@@ -1,17 +1,14 @@
 ---
 description: 기본 인쇄 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 PrintResolution 값이 포함되지 않을 경우 기본 인쇄 해상도를 제공합니다.
-seo-description: 기본 인쇄 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 PrintResolution 값이 포함되지 않을 경우 기본 인쇄 해상도를 제공합니다.
-seo-title: 인쇄 해상도
 solution: Experience Manager
 title: 인쇄 해상도
-uuid: 6333c630-2df1-4eb1-b2fb-e67692f747eb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
 

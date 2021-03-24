@@ -1,17 +1,14 @@
 ---
 description: JobLogDefault/assetType에서 사용됩니다.
-seo-description: JobLogDefault/assetType에서 사용됩니다.
-seo-title: 작업 로그 파일 유형
 solution: Experience Manager
 title: 작업 로그 파일 유형
-uuid: 52ec039f-51ef-4e4a-a927-2616d3675e86
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 

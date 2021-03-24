@@ -1,16 +1,13 @@
 ---
 description: 오류 응답 이미지. 이미지 제공에서는 일반적으로 오류가 발생할 때 텍스트 메시지와 함께 오류 상태를 반환합니다.
-seo-description: 오류 응답 이미지. 이미지 제공에서는 일반적으로 오류가 발생할 때 텍스트 메시지와 함께 오류 상태를 반환합니다.
-seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---

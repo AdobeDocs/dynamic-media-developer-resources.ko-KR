@@ -1,17 +1,14 @@
 ---
 description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
-seo-description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
-seo-title: 핫스팟
 solution: Experience Manager
 title: 핫스팟
-uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 

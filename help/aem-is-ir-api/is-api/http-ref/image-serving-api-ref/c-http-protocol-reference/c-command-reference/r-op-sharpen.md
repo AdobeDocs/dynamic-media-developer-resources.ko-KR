@@ -1,16 +1,13 @@
 ---
 description: 이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명 효과 필터를 적용합니다.
-seo-description: 이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명 효과 필터를 적용합니다.
-seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
-uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 7%
 
 ---

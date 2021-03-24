@@ -1,17 +1,14 @@
 ---
 description: color= 및 bgc= 속성에 대한 색상 값은 HTML과 유사한 소수점 또는 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
-seo-description: color= 및 bgc= 속성에 대한 색상 값은 HTML과 유사한 소수점 또는 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
-seo-title: 색상 값
 solution: Experience Manager
 title: 색상 값
-uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '127'
+ht-degree: 11%
 
 ---
 

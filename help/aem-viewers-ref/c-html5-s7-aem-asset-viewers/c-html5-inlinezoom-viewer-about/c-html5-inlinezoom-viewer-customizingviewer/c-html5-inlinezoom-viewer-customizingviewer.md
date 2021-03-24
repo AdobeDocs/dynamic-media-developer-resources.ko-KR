@@ -3,11 +3,10 @@ description: 인라인 확대/축소 뷰어 사용자 정의
 keywords: 반응형
 solution: Experience Manager
 title: 인라인 확대/축소 뷰어 사용자 정의
-uuid: c9203ea7-47dc-40f6-add8-04e4258da7c9
 feature: Dynamic Media Classic,뷰어,SDK/API,인라인 확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%

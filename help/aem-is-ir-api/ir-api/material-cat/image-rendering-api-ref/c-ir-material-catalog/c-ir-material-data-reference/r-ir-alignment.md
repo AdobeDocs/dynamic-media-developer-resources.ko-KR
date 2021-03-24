@@ -1,17 +1,14 @@
 ---
 description: 텍스처 정렬. 가구 항목의 등록 부분과 같이 서로 관련된 비네팅 개체에 적용할 때의 텍스처 정렬. 주로 렌더링 애플리케이션을 업로드하는 데 사용되며, 고급 의류 애플리케이션용일 수도 있습니다.
-seo-description: 텍스처 정렬. 가구 항목의 등록 부분과 같이 서로 관련된 비네팅 개체에 적용할 때의 텍스처 정렬. 주로 렌더링 애플리케이션을 업로드하는 데 사용되며, 고급 의류 애플리케이션용일 수도 있습니다.
-seo-title: 정렬
 solution: Experience Manager
 title: 정렬
-uuid: c64d7986-9bb9-4566-8e2f-dca7f459049e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 4%
+source-wordcount: '115'
+ht-degree: 5%
 
 ---
 

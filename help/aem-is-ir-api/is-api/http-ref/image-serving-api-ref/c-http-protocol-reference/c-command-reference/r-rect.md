@@ -1,16 +1,13 @@
 ---
 description: 최종 보기 사각형. 최종 보기 이미지를 여러 조각이나 타일로 분해하여 클라이언트가 별도로 배달하고 다시 조합할 수 있으며 가장자리에 가공물이 없습니다.
-seo-description: 최종 보기 사각형. 최종 보기 이미지를 여러 조각이나 타일로 분해하여 클라이언트가 별도로 배달하고 다시 조합할 수 있으며 가장자리에 가공물이 없습니다.
-seo-title: rect
 solution: Experience Manager
 title: rect
-uuid: c4830fc5-d102-4789-8753-0a660d4a557e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '372'
 ht-degree: 1%
 
 ---

@@ -2,11 +2,10 @@
 description: 종료 단추
 solution: Experience Manager
 title: 종료 단추
-uuid: 474ee727-8afc-4f5e-9bad-0d0e5da998ef
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 14%

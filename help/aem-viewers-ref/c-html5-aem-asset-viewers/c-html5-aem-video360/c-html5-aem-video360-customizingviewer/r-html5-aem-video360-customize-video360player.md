@@ -1,16 +1,13 @@
 ---
 description: 비디오 플레이어는 뷰어 내에서 비디오 컨텐츠가 표시되는 사각형 영역입니다.
-seo-description: 비디오 플레이어는 뷰어 내에서 비디오 컨텐츠가 표시되는 사각형 영역입니다.
-seo-title: 비디오360 플레이어
 solution: Experience Manager
 title: 비디오360 플레이어
-uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---

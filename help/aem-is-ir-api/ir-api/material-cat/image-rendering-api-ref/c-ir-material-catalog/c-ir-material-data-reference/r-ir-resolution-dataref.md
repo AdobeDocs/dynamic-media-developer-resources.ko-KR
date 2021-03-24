@@ -1,16 +1,13 @@
 ---
 description: 해상도. "실제와 같은" 이미지 해상도로, 일반적으로 인치당 픽셀로 표현되지만 미터당 픽셀 수와 같은 다른 단위로도 표현될 수 있습니다.
-seo-description: 해상도. "실제와 같은" 이미지 해상도로, 일반적으로 인치당 픽셀로 표현되지만 미터당 픽셀 수와 같은 다른 단위로도 표현될 수 있습니다.
-seo-title: 해상도
 solution: Experience Manager
 title: 해상도
-uuid: 281c7ff6-8f78-4654-98ec-0db4299b80d9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---

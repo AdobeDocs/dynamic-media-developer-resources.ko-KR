@@ -1,16 +1,13 @@
 ---
 description: 회전 뷰어는 즉시 사용 가능한 Adobe Analytics 추적을 지원합니다.
-seo-description: 회전 뷰어는 즉시 사용 가능한 Adobe Analytics 추적을 지원합니다.
-seo-title: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
 feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
 role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '171'
 ht-degree: 2%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 선택 오류 처리를 선택합니다. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 있지 않으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
-seo-description: 선택 오류 처리를 선택합니다. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 있지 않으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
-seo-title: OnFailSel
 solution: Experience Manager
 title: OnFailSel
-uuid: 073b6651-970c-460c-b044-e3ef37cc677a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 10%
+source-wordcount: '128'
+ht-degree: 12%
 
 ---
 

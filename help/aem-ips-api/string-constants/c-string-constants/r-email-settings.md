@@ -1,17 +1,14 @@
 ---
 description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
-seo-description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
-seo-title: 이메일 설정
 solution: Experience Manager
 title: 이메일 설정
-uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 

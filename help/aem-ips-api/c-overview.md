@@ -1,16 +1,13 @@
 ---
 description: IPS(Image Production System) 웹 서비스 API를 사용하면 외부 애플리케이션과 타사 개발자는 프로그래밍 방식으로 IPS 에셋 및 기능에 액세스할 수 있습니다.
-seo-description: IPS(Image Production System) 웹 서비스 API를 사용하면 외부 애플리케이션과 타사 개발자는 프로그래밍 방식으로 IPS 에셋 및 기능에 액세스할 수 있습니다.
-seo-title: 이미지 제작 시스템 API 정보
 solution: Experience Manager
 title: 이미지 제작 시스템 API 정보
-uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

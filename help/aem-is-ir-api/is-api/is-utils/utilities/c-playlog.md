@@ -1,16 +1,13 @@
 ---
 description: 재생 로그 유틸리티를 사용하여 HTTP 응답 캐시에 대한 컨텐츠를 미리 생성할 수 있습니다.
-seo-description: 재생 로그 유틸리티를 사용하여 HTTP 응답 캐시에 대한 컨텐츠를 미리 생성할 수 있습니다.
-seo-title: '''playlog'' 유틸리티'
 solution: Experience Manager
 title: '''playlog'' 유틸리티'
-uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---

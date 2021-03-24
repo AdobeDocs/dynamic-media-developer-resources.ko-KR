@@ -1,16 +1,13 @@
 ---
 description: 뷰어는 전체 화면 작업 모드를 지원합니다.
-seo-description: 뷰어는 전체 화면 작업 모드를 지원합니다.
-seo-title: 전체 화면 지원
 solution: Experience Manager
 title: 전체 화면 지원
-uuid: 054b10bd-02f2-49a9-83e4-e9b7cb71a4fd
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---

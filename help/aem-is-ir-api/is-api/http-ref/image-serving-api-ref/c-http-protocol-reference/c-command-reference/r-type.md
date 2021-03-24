@@ -1,16 +1,13 @@
 ---
 description: 정적 컨텐츠 유형 필터입니다. /is/content를 통해 배달되는 정적 컨텐츠에 대한 필터 문자열을 지정합니다.
-seo-description: 정적 컨텐츠 유형 필터입니다. /is/content를 통해 배달되는 정적 컨텐츠에 대한 필터 문자열을 지정합니다.
-seo-title: 유형
 solution: Experience Manager
 title: 유형
-uuid: 44906190-516c-481c-9714-bb19d77af33c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '115'
 ht-degree: 5%
 
 ---

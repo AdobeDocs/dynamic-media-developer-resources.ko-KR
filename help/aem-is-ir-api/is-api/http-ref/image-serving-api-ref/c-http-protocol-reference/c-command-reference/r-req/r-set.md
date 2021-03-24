@@ -1,17 +1,14 @@
 ---
 description: 미디어 세트 정보.
-seo-description: 미디어 세트 정보.
-seo-title: 설정
 solution: Experience Manager
 title: 설정
-uuid: ebd78249-45ea-47cd-8845-786070f92f21
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 3%
+source-wordcount: '144'
+ht-degree: 2%
 
 ---
 

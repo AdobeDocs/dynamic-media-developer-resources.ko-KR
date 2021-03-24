@@ -1,17 +1,14 @@
 ---
 description: 블랙포인트 보상. icc=로 명시적으로 선택하지 않은 경우 색상 변환에 블랙포인트 보정을 적용할지 여부를 지정합니다.
-seo-description: 블랙포인트 보상. icc=로 명시적으로 선택하지 않은 경우 색상 변환에 블랙포인트 보정을 적용할지 여부를 지정합니다.
-seo-title: IccBlackPointCompensation
 solution: Experience Manager
 title: IccBlackPointCompensation
-uuid: 284339b1-e6fd-499a-a581-c87aa1765c0e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 

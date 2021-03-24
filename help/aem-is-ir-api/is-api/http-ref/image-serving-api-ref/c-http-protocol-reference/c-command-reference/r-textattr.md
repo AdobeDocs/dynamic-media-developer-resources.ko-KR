@@ -1,16 +1,13 @@
 ---
 description: 텍스트 레이어 속성입니다. rtf 명령으로 사용할 수 없는 텍스트 레이어의 추가 특성을 지정합니다.
-seo-description: 텍스트 레이어 속성입니다. rtf 명령으로 사용할 수 없는 텍스트 레이어의 추가 특성을 지정합니다.
-seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 기본 디지마크 이미지 정보. 카탈로그 DigimarcInfo에 대한 기본값을 제공합니다.
-seo-description: 기본 디지마크 이미지 정보. 카탈로그 DigimarcInfo에 대한 기본값을 제공합니다.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 

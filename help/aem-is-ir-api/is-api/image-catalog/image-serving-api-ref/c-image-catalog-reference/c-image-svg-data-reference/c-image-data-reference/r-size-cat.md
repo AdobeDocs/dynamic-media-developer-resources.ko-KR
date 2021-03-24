@@ -1,17 +1,14 @@
 ---
 description: 이미지 크기. 카탈로그 경로에서 참조하는 전체 해상도 이미지의 픽셀 크기입니다.
-seo-description: 이미지 크기. 카탈로그 경로에서 참조하는 전체 해상도 이미지의 픽셀 크기입니다.
-seo-title: 크기
 solution: Experience Manager
 title: 크기
-uuid: 6fe2aeb6-0dd7-4631-955f-ad74d11b613d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 11%
+source-wordcount: '112'
+ht-degree: 9%
 
 ---
 

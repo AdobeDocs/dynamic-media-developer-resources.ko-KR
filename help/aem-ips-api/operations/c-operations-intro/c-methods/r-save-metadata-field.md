@@ -1,16 +1,13 @@
 ---
 description: 메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
-seo-description: 메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '225'
 ht-degree: 8%
 
 ---

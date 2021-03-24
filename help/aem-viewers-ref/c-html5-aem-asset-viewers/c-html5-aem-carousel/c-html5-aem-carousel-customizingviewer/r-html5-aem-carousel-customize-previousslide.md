@@ -1,16 +1,13 @@
 ---
 description: 이 단추를 클릭하거나 탭하면 회전판 세트의 이전 슬라이드로 사용자가 돌아갑니다. 이 단추는 터치 장치에 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고 스킨 후 위치를 지정할 수 있습니다.
-seo-description: 이 단추를 클릭하거나 탭하면 회전판 세트의 이전 슬라이드로 사용자가 돌아갑니다. 이 단추는 터치 장치에 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고 스킨 후 위치를 지정할 수 있습니다.
-seo-title: 이전 슬라이드
 solution: Experience Manager
 title: 이전 슬라이드
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---

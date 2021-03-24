@@ -1,17 +1,14 @@
 ---
 description: Jpeg 크기(KB)입니다. JPEG 응답의 최대 크기(KB)를 지정합니다.
-seo-description: Jpeg 크기(KB)입니다. JPEG 응답의 최대 크기(KB)를 지정합니다.
-seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-uuid: 832163ca-0554-481d-b87f-bf322f415274
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 기본 로케일 ID. locale=가 요청에 지정되지 않은 경우 현지화/번역 목적으로 사용할 로케일 ID.
-seo-description: 기본 로케일 ID. locale=가 요청에 지정되지 않은 경우 현지화/번역 목적으로 사용할 로케일 ID.
-seo-title: DefaultLocale
 solution: Experience Manager
 title: DefaultLocale
-uuid: abee352a-5843-4e25-8fca-05b7dceca5b2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 3%
+source-wordcount: '72'
+ht-degree: 4%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 다음 단락 서식 지정 명령이 지원됩니다.
-seo-description: 다음 단락 서식 지정 명령이 지원됩니다.
-seo-title: 단락 서식
 solution: Experience Manager
 title: 단락 서식
-uuid: 4f9255b2-3a74-4c9a-80c5-d85b4627027e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---

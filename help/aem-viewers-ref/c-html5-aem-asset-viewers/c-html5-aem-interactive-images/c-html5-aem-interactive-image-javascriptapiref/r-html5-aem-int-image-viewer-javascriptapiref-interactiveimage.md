@@ -1,16 +1,13 @@
 ---
 description: 비디오 이미지 뷰어용 JavaScript API 참조.
-seo-description: 비디오 이미지 뷰어용 JavaScript API 참조.
-seo-title: InteractiveImage
 solution: Experience Manager
 title: InteractiveImage
-uuid: 19bd0603-3180-4913-b5a0-93699c5131bc
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---

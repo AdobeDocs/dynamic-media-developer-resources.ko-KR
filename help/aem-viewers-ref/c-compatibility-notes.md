@@ -1,16 +1,13 @@
 ---
 description: 운영 체제, 브라우저 및 모바일 디바이스에 대한 호환성 정보
-seo-description: 운영 체제, 브라우저 및 모바일 디바이스에 대한 호환성 정보
-seo-title: 호환성 정보
 solution: Experience Manager
 title: 호환성 정보
-uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 feature: Dynamic Media Classic,뷰어,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '431'
 ht-degree: 1%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 비네팅 식별자입니다. 비네팅 맵 파일의 레코드를 서버에서 조회하는 인덱스 키 값입니다.
-seo-description: 비네팅 식별자입니다. 비네팅 맵 파일의 레코드를 서버에서 조회하는 인덱스 키 값입니다.
-seo-title: ID
 solution: Experience Manager
 title: ID
-uuid: 2af1f501-4236-4b95-8e90-31a5e7f26bc3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '104'
 ht-degree: 7%
 
 ---

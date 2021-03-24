@@ -1,16 +1,13 @@
 ---
 description: 사후 수정 요청 수정자 문자열. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
-seo-description: 사후 수정 요청 수정자 문자열. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
-seo-title: PostModifier
 solution: Experience Manager
 title: PostModifier
-uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '135'
 ht-degree: 4%
 
 ---

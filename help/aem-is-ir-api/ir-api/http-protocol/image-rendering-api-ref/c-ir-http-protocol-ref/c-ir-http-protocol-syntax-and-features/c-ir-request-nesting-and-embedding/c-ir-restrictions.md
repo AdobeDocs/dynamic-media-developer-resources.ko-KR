@@ -1,16 +1,13 @@
 ---
 description: 일부 제한 사항은 중첩 및 포함에 적용됩니다.
-seo-description: 일부 제한 사항은 중첩 및 포함에 적용됩니다.
-seo-title: 제한 사항
 solution: Experience Manager
 title: 제한 사항
-uuid: 05e97255-db4d-4587-94d2-a7ea608ff7d4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---

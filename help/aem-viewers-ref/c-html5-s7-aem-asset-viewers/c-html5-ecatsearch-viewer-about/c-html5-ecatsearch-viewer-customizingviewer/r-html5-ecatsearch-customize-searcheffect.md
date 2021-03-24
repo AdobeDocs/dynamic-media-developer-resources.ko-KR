@@ -1,17 +1,14 @@
 ---
 description: 뷰어는 기본 보기 위에 검색 결과 영역을 표시하여 카탈로그에 있는 단어나 구를 강조 표시합니다.
-seo-description: 뷰어는 기본 보기 위에 검색 결과 영역을 표시하여 카탈로그에 있는 단어나 구를 강조 표시합니다.
-seo-title: 검색 효과
 solution: Experience Manager
 title: 검색 효과
-uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 0%
+source-wordcount: '95'
+ht-degree: 1%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 배경색 또는 투명도를 기반으로 이미지의 잘린 영역을 반환합니다.
-seo-description: 배경색 또는 투명도를 기반으로 이미지의 잘린 영역을 반환합니다.
-seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 13%
+source-wordcount: '159'
+ht-degree: 14%
 
 ---
 

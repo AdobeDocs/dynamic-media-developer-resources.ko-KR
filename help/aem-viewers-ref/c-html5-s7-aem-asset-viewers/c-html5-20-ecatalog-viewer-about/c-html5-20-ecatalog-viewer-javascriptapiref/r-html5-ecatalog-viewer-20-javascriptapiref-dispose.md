@@ -1,16 +1,13 @@
 ---
 description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: b2073d03-a0a0-4f55-a350-7336ddcf031d
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 보기 너비. fit=가 요청에 없을 때 응답 이미지(이미지 보기)의 너비를 지정합니다.
-seo-description: 보기 너비. fit=가 요청에 없을 때 응답 이미지(이미지 보기)의 너비를 지정합니다.
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: 30aeeea0-c8c9-40b9-a244-2802a7102dd6
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---

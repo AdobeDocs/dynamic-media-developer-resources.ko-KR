@@ -1,16 +1,13 @@
 ---
 description: 이미지 크기 제한에 회신합니다. 클라이언트에 반환될 수 있는 최대 응답 이미지 폭과 높이입니다.
-seo-description: 이미지 크기 제한에 회신합니다. 클라이언트에 반환될 수 있는 최대 응답 이미지 폭과 높이입니다.
-seo-title: MaxPix
 solution: Experience Manager
 title: MaxPix
-uuid: 8fc5e032-cfbb-40b5-9c3a-a2ec1bc4c3e2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---

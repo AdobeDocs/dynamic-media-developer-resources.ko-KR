@@ -1,17 +1,14 @@
 ---
 description: 뷰어 사전 설정 자산의 속성입니다.
-seo-description: 뷰어 사전 설정 자산의 속성입니다.
-seo-title: ViewerPresetInfo
 solution: Experience Manager
 title: ViewerPresetInfo
-uuid: 0117488d-b89d-48d4-b081-af177a22f71f
 feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 

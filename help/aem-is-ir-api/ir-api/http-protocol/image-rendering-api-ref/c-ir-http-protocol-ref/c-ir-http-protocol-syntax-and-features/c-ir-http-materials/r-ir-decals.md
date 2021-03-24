@@ -1,16 +1,13 @@
 ---
 description: 1000만 개의 자료에는 앱 리큐어, 티셔츠 인쇄, 수 선 또는 인쇄 로고, 영역 러그, 벽면 아트, 기호 등과 같은 내부 또는 외부 어플리케이션에서 사용되는 반복 가능한 플랫 오브젝트도 포함되어 있습니다.
-seo-description: 1000만 개의 자료에는 앱 리큐어, 티셔츠 인쇄, 수 선 또는 인쇄 로고, 영역 러그, 벽면 아트, 기호 등과 같은 내부 또는 외부 어플리케이션에서 사용되는 반복 가능한 플랫 오브젝트도 포함되어 있습니다.
-seo-title: 디칼스
 solution: Experience Manager
 title: 디칼스
-uuid: 6e64f382-f15f-4018-b00c-4fd21a4ebc8c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---

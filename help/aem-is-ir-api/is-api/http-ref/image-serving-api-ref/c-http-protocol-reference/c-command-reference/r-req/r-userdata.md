@@ -1,16 +1,13 @@
 ---
 description: 이미지 카탈로그의 사용자 데이터입니다. URL 경로에 지정된 이미지 카탈로그 항목의 사용자 데이터를 반환합니다.
-seo-description: 이미지 카탈로그의 사용자 데이터입니다. URL 경로에 지정된 이미지 카탈로그 항목의 사용자 데이터를 반환합니다.
-seo-title: userdata
 solution: Experience Manager
 title: userdata
-uuid: 7a34adad-f1b6-45a7-94fe-1407845710e5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '193'
 ht-degree: 1%
 
 ---

@@ -2,11 +2,10 @@
 description: 즐겨찾기 기능
 solution: Experience Manager
 title: 즐겨찾기 기능
-uuid: 764b0c5e-f131-4af8-a7a6-f60f22bcfeb7
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 0%

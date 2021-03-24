@@ -1,16 +1,13 @@
 ---
 description: 레이어 원점(원본=)을 배경 레이어 원점과 함께 pos=로 지정된 오프셋에 맞춰 레이어를 배치합니다.
-seo-description: 레이어 원점(원본=)을 배경 레이어 원점과 함께 pos=로 지정된 오프셋에 맞춰 레이어를 배치합니다.
-seo-title: 레이어 배치
 solution: Experience Manager
 title: 레이어 배치
-uuid: d9d778f2-13dd-4ea1-a703-52eac70bb3d8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---

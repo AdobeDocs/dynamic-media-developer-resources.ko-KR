@@ -1,16 +1,13 @@
 ---
 description: 다음 슬라이드 단추를 클릭하거나 탭하면 회전판 세트의 다음 슬라이드로 이동합니다.
-seo-description: 다음 슬라이드 단추를 클릭하거나 탭하면 회전판 세트의 다음 슬라이드로 이동합니다.
-seo-title: 다음 슬라이드
 solution: Experience Manager
 title: 다음 슬라이드
-uuid: 6cf7a16c-42bf-4576-bcb1-d504589b2748
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '234'
 ht-degree: 2%
 
 ---

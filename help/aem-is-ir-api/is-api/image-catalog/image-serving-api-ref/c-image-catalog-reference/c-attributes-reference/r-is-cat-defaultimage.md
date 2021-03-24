@@ -1,17 +1,14 @@
 ---
 description: 기본 응답 이미지입니다. 이미지 파일을 찾을 수 없고 defaultImage=가 요청에 지정되지 않은 경우에 사용할 이미지 또는 카탈로그 항목을 지정합니다.
-seo-description: 기본 응답 이미지입니다. 이미지 파일을 찾을 수 없고 defaultImage=가 요청에 지정되지 않은 경우에 사용할 이미지 또는 카탈로그 항목을 지정합니다.
-seo-title: DefaultImage
 solution: Experience Manager
 title: DefaultImage
-uuid: 6f8f50af-15bb-4333-b227-3eba38653a7d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 1%
+source-wordcount: '179'
+ht-degree: 2%
 
 ---
 

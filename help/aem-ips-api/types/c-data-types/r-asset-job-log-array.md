@@ -1,17 +1,14 @@
 ---
 description: 자산 작업 로그 배열입니다.
-seo-description: 자산 작업 로그 배열입니다.
-seo-title: AssetJobLogArray
 solution: Experience Manager
 title: AssetJobLogArray
-uuid: f6d98335-778f-4289-b311-27457b9e039d
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 

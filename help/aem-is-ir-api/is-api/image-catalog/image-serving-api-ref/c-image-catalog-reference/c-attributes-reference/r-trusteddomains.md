@@ -1,17 +1,14 @@
 ---
 description: Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 fmt=swf 또는 fmt=swf3로 전달되는 이미지의 속성에 액세스해야 할 수 있습니다.
-seo-description: Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 fmt=swf 또는 fmt=swf3로 전달되는 이미지의 속성에 액세스해야 할 수 있습니다.
-seo-title: 트러스트된 도메인
 solution: Experience Manager
 title: 트러스트된 도메인
-uuid: 1d056d68-b699-413c-897c-8612444735c5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '113'
+ht-degree: 3%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 캐시 컨트롤을 참조하십시오. 선택적으로 클라이언트측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템)을 비활성화하고 내부 플랫폼 서버 캐시에서 캐싱을 수행할 수 있습니다.
-seo-description: 캐시 컨트롤을 참조하십시오. 선택적으로 클라이언트측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템)을 비활성화하고 내부 플랫폼 서버 캐시에서 캐싱을 수행할 수 있습니다.
-seo-title: 캐시
 solution: Experience Manager
 title: 캐시
-uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---

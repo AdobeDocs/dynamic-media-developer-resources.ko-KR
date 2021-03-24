@@ -1,16 +1,13 @@
 ---
 description: 예제 A와 유사한 요구 사항이지만 단색 배경을 사용하고 다른 종횡비를 사용하는 이미지를 수용하기 위해 합성 높이를 다르게 할 수 있습니다.
-seo-description: 예제 A와 유사한 요구 사항이지만 단색 배경을 사용하고 다른 종횡비를 사용하는 이미지를 수용하기 위해 합성 높이를 다르게 할 수 있습니다.
-seo-title: 예 B
 solution: Experience Manager
 title: 예 B
-uuid: 13120562-9201-4733-bd9d-4a54eac913e9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---

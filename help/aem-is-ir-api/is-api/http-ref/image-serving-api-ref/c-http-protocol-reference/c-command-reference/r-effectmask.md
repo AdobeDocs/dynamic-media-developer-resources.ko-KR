@@ -1,16 +1,13 @@
 ---
 description: 요청에 대한 ApplyEffectMask 속성 값을 무시합니다.
-seo-description: 요청에 대한 ApplyEffectMask 속성 값을 무시합니다.
-seo-title: effectMask
 solution: Experience Manager
 title: effectMask
-uuid: 2b90cc36-1e33-4116-a11d-74eafa9b366a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---

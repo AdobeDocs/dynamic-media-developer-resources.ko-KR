@@ -1,17 +1,14 @@
 ---
 description: 이미지 앵커(핫스팟). 반복 가능한 텍스처 또는 디캘의 텍스처 기준점(핫스팟)을 지정합니다.
-seo-description: 이미지 앵커(핫스팟). 반복 가능한 텍스처 또는 디캘의 텍스처 기준점(핫스팟)을 지정합니다.
-seo-title: 앵커
 solution: Experience Manager
 title: 앵커
-uuid: 1e695882-f97a-4208-b595-2851b91bdbfe
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 3%
+source-wordcount: '210'
+ht-degree: 2%
 
 ---
 

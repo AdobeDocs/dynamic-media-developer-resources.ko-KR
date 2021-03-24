@@ -1,16 +1,13 @@
 ---
 description: 기본 응답 이미지를 참조하십시오. 이미지를 찾을 수 없을 때 사용할 이미지 또는 카탈로그 항목을 지정합니다.
-seo-description: 기본 응답 이미지를 참조하십시오. 이미지를 찾을 수 없을 때 사용할 이미지 또는 카탈로그 항목을 지정합니다.
-seo-title: defaultImage
 solution: Experience Manager
 title: defaultImage
-uuid: 7478325c-9ac5-4b85-a4c5-5c495f924eb5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '226'
 ht-degree: 2%
 
 ---

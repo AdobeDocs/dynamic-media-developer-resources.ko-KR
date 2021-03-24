@@ -1,16 +1,13 @@
 ---
 description: 기본적으로 소셜 공유 도구는 왼쪽 위 모서리에 표시됩니다. 사용자가 버튼을 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 툴이 포함되어 있습니다.
-seo-description: 기본적으로 소셜 공유 도구는 왼쪽 위 모서리에 표시됩니다. 사용자가 버튼을 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 툴이 포함되어 있습니다.
-seo-title: 소셜 공유
 solution: Experience Manager
 title: 소셜 공유
-uuid: 045a5525-dc7b-4ea4-b5ee-830a7ddf233a
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---

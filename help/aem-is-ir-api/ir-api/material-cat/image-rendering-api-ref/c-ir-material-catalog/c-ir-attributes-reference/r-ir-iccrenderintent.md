@@ -1,16 +1,13 @@
 ---
 description: 색상 변환 렌더링 의도. 렌더링 의도가 icc=로 지정되지 않은 경우 색상 변환에 대한 기본 렌더링 의도를 제공합니다.
-seo-description: 색상 변환 렌더링 의도. 렌더링 의도가 icc=로 지정되지 않은 경우 색상 변환에 대한 기본 렌더링 의도를 제공합니다.
-seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 텍스처 반복 모드. 반복 가능한 텍스처 재질에 대한 반복 모드를 지정합니다.
-seo-description: 텍스처 반복 모드. 반복 가능한 텍스처 재질에 대한 반복 모드를 지정합니다.
-seo-title: 반복
 solution: Experience Manager
 title: 반복
-uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 15%
+source-wordcount: '162'
+ht-degree: 16%
 
 ---
 

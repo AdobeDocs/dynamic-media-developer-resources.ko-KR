@@ -1,17 +1,14 @@
 ---
 description: Video360 뷰어에 대한 구성 속성입니다.
-seo-description: Video360 뷰어에 대한 구성 속성입니다.
-seo-title: Video360Player.initialbitrate
 solution: Experience Manager
 title: Video360Player.initialbitrate
-uuid: a23fa941-6dd2-41c0-aca9-06f0cdb027b1
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 7%
+source-wordcount: '121'
+ht-degree: 6%
 
 ---
 

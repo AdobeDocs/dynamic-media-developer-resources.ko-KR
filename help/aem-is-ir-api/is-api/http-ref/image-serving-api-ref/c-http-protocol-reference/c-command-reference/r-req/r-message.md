@@ -1,16 +1,13 @@
 ---
 description: 클라이언트 메시지. 클라이언트가 서버 로그에 짧은 텍스트 메시지를 삽입할 수 있는 메커니즘을 제공합니다.
-seo-description: 클라이언트 메시지. 클라이언트가 서버 로그에 짧은 텍스트 메시지를 삽입할 수 있는 메커니즘을 제공합니다.
-seo-title: 메시지
 solution: Experience Manager
 title: 메시지
-uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '60'
 ht-degree: 6%
 
 ---

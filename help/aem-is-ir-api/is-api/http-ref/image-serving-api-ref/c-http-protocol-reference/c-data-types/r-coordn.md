@@ -1,16 +1,13 @@
 ---
 description: 정규화된 좌표. 이미지 옵셋 또는 자르기 매개 변수 등의 이미지 내의 상대 위치를 이미지 크기로 정규화하는 데 사용됩니다.
-seo-description: 정규화된 좌표. 이미지 옵셋 또는 자르기 매개 변수 등의 이미지 내의 상대 위치를 이미지 크기로 정규화하는 데 사용됩니다.
-seo-title: coordN
 solution: Experience Manager
 title: coordN
-uuid: e182650b-aff6-4dd2-8edb-cd0d361865fd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---

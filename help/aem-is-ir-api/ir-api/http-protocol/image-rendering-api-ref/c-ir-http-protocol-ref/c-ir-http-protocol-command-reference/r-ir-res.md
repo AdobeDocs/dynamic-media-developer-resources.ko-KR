@@ -1,16 +1,13 @@
 ---
 description: 재질 해상도. 반복 가능한 텍스처 또는 디컬한 이미지의 해상도를 지정합니다.
-seo-description: 재질 해상도. 반복 가능한 텍스처 또는 디컬한 이미지의 해상도를 지정합니다.
-seo-title: res
 solution: Experience Manager
 title: res
-uuid: ae755a92-ad06-4cf2-b627-0b8b14e385c3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---

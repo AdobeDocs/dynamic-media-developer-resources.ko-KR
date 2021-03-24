@@ -1,17 +1,14 @@
 ---
 description: 정적 컨텐츠 데이터 루트 경로. 이 이미지 카탈로그의 정적 콘텐트 데이터에 대한 루트 폴더의 절대 경로 또는 상대 경로 세그먼트입니다.
-seo-description: 정적 컨텐츠 데이터 루트 경로. 이 이미지 카탈로그의 정적 콘텐트 데이터에 대한 루트 폴더의 절대 경로 또는 상대 경로 세그먼트입니다.
-seo-title: StaticContentRootPath
 solution: Experience Manager
 title: StaticContentRootPath
-uuid: f1c0a54c-8b2c-4953-a3b7-180d231840db
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '120'
+ht-degree: 3%
 
 ---
 

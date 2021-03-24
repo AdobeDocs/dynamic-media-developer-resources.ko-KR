@@ -2,11 +2,10 @@
 description: PageView.frametransition
 solution: Experience Manager
 title: PageView.frametransition
-uuid: 12595a89-bad5-4224-aeff-52ce6bb615ee
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 5%

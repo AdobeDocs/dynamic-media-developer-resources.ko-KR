@@ -1,16 +1,13 @@
 ---
 description: 정규화된 크기. 레이어 0 또는 다른 이미지의 크기를 기준으로 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
-seo-description: 정규화된 크기. 레이어 0 또는 다른 이미지의 크기를 기준으로 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
-seo-title: sizeN
 solution: Experience Manager
 title: sizeN
-uuid: 6fc05654-6f0d-499f-97bc-6b7134024e1f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

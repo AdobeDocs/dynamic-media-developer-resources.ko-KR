@@ -1,17 +1,14 @@
 ---
 description: 이미지 제공에서는 text= 및 textPs= 명령을 사용하여 액세스할 수 있는 텍스트 렌더링에 대한 여러 가지 대체 요소를 제공합니다.
-seo-description: 이미지 제공에서는 text= 및 textPs= 명령을 사용하여 액세스할 수 있는 텍스트 렌더링에 대한 여러 가지 대체 요소를 제공합니다.
-seo-title: 텍스트 서식
 solution: Experience Manager
 title: 텍스트 서식
-uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 6%
+source-wordcount: '565'
+ht-degree: 7%
 
 ---
 

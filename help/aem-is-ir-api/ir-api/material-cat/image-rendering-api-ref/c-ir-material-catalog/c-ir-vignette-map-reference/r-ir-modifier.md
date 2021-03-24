@@ -1,16 +1,13 @@
 ---
 description: 요청 수정자 문자열. '&' 문자로 구분된 이미지 렌더링 명령이 하나 이상 없습니다. 이 비네팅 맵 항목에 대한 요청을 수행할 때마다 적용할 템플릿과 수정자를 저장하는 데 사용됩니다.
-seo-description: 요청 수정자 문자열. '&' 문자로 구분된 이미지 렌더링 명령이 하나 이상 없습니다. 이 비네팅 맵 항목에 대한 요청을 수행할 때마다 적용할 템플릿과 수정자를 저장하는 데 사용됩니다.
-seo-title: 수정자
 solution: Experience Manager
 title: 수정자
-uuid: 725724dd-b664-4d43-8072-a79ea7e7fcce
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '105'
 ht-degree: 5%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 텍스트를 응답 형식으로 지정하면 응답 데이터의 형식이 Java 속성으로 읽을 수 있습니다.
-seo-description: 텍스트를 응답 형식으로 지정하면 응답 데이터의 형식이 Java 속성으로 읽을 수 있습니다.
-seo-title: 텍스트(Java) 속성
 solution: Experience Manager
 title: 텍스트(Java) 속성
-uuid: 5dba4cf7-9172-4195-968e-9ef76c25e90c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 대체 변수는 요청 URL에서 서버에 저장된 FXG 템플릿으로 값을 전송하는 데 사용됩니다.
-seo-description: 대체 변수는 요청 URL에서 서버에 저장된 FXG 템플릿으로 값을 전송하는 데 사용됩니다.
-seo-title: 대체 변수
 solution: Experience Manager
 title: 대체 변수
-uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---

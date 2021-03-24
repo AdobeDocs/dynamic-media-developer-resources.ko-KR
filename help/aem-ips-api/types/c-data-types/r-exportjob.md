@@ -1,16 +1,13 @@
 ---
 description: 이전에 업로드한 파일의 허가된 내보내기를 허용하는 작업 유형입니다.
-seo-description: 이전에 업로드한 파일의 허가된 내보내기를 허용하는 작업 유형입니다.
-seo-title: 내보내기 작업
 solution: Experience Manager
 title: 내보내기 작업
-uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 10%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 효과 레이어를 선택합니다. 효과 레이어를 선택하고 현재 레이어와 연결된 요청 문자열에서 새 레이어 세그먼트를 시작합니다.
-seo-description: 효과 레이어를 선택합니다. 효과 레이어를 선택하고 현재 레이어와 연결된 요청 문자열에서 새 레이어 세그먼트를 시작합니다.
-seo-title: 효과
 solution: Experience Manager
 title: 효과
-uuid: 622dc7ca-55b8-4a82-b9a7-65588aee87d0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 속성 세트는 속성 세트 유형에 따라 다양한 IPS 객체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 세트입니다. 속성 집합 유형에서 객체에 여러 집합을 연결할 수 없고(PropertySetType/allowMultiplisfalse) 이미 동일한 유형의 연결된 집합이 있는 경우 새 세트가 기존 집합을 대체합니다.
-seo-description: 속성 세트는 속성 세트 유형에 따라 다양한 IPS 객체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 세트입니다. 속성 집합 유형에서 객체에 여러 집합을 연결할 수 없고(PropertySetType/allowMultiplisfalse) 이미 동일한 유형의 연결된 집합이 있는 경우 새 세트가 기존 집합을 대체합니다.
-seo-title: createPropertySet
 solution: Experience Manager
 title: createPropertySet
-uuid: f0b5b951-143f-4a31-bb6b-cdeabdebbcbb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 6%
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
 

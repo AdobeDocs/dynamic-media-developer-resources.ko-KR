@@ -1,17 +1,14 @@
 ---
 description: 이 항목에서는 vntc 사용 구문에 대해 설명합니다.
-seo-description: 이 항목에서는 vntc 사용 구문에 대해 설명합니다.
-seo-title: 사용
 solution: Experience Manager
 title: 사용
-uuid: 251aa1a0-5f19-42ab-b237-3e3b53fe8320
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 색상 변환 디더링 icc=로 명시적 선택을 하지 않을 때 디더링을 사용하여 색상 변환의 가시성을 향상시켜야 하는지 여부를 지정합니다.
-seo-description: 색상 변환 디더링 icc=로 명시적 선택을 하지 않을 때 디더링을 사용하여 색상 변환의 가시성을 향상시켜야 하는지 여부를 지정합니다.
-seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 

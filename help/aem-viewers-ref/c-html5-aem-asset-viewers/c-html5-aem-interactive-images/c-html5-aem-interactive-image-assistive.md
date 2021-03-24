@@ -1,16 +1,13 @@
 ---
 description: 모든 뷰어 구성 요소는 ARIA(Accessible Rich Internet Application) 역할 및 속성을 지원하여 화면 판독기와 같은 보조 기술과의 통합을 향상시킵니다.
-seo-description: 모든 뷰어 구성 요소는 ARIA(Accessible Rich Internet Application) 역할 및 속성을 지원하여 화면 판독기와 같은 보조 기술과의 통합을 향상시킵니다.
-seo-title: 보조 기술 지원
 solution: Experience Manager
 title: 보조 기술 지원
-uuid: 5f6a021f-750c-40e1-be01-86c3750fd25f
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지,접근성
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

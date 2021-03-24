@@ -1,16 +1,13 @@
 ---
 description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이미지가 재설정됩니다. 이 단추는 데스크톱 시스템 및 태블릿의 주 제어 표시줄에 나타납니다. 휴대폰에서 이 단추는 이미지 위에 아래쪽 중앙에 표시됩니다. 그러나 이미지가 재설정 상태일 때는 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이미지가 재설정됩니다. 이 단추는 데스크톱 시스템 및 태블릿의 주 제어 표시줄에 나타납니다. 휴대폰에서 이 단추는 이미지 위에 아래쪽 중앙에 표시됩니다. 그러나 이미지가 재설정 상태일 때는 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-title: 확대/축소 재설정 단추
 solution: Experience Manager
 title: 확대/축소 재설정 단추
-uuid: 27f6eacd-2922-4ddb-98e4-ee10d3b72b0c
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---

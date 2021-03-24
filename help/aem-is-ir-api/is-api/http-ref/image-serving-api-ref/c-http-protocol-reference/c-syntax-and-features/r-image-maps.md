@@ -1,16 +1,13 @@
 ---
 description: IS는 HTML 이미지 맵 사용을 단순화하는 메커니즘을 제공합니다. IS의 JAVA 기반 및 Flash 기반 뷰어에는 이미지 맵에 대한 제한된 지원이 포함되어 있습니다.
-seo-description: IS는 HTML 이미지 맵 사용을 단순화하는 메커니즘을 제공합니다. IS의 JAVA 기반 및 Flash 기반 뷰어에는 이미지 맵에 대한 제한된 지원이 포함되어 있습니다.
-seo-title: 이미지 맵
 solution: Experience Manager
 title: 이미지 맵
-uuid: 2b7b620b-712b-4110-ba38-993a354c09d3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---

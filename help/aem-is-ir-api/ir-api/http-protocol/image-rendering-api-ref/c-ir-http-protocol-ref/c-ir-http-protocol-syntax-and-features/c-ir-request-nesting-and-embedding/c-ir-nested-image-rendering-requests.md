@@ -1,16 +1,13 @@
 ---
 description: 고급 응용 프로그램의 경우 이미지 제공에서 얻은 이미지와 마찬가지로 렌더링 작업의 결과를 재료 이미지로 사용할 수 있습니다.
-seo-description: 고급 응용 프로그램의 경우 이미지 제공에서 얻은 이미지와 마찬가지로 렌더링 작업의 결과를 재료 이미지로 사용할 수 있습니다.
-seo-title: 중첩된 이미지 렌더링 요청
 solution: Experience Manager
 title: 중첩된 이미지 렌더링 요청
-uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---

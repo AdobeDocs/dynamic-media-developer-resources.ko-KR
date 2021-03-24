@@ -1,17 +1,14 @@
 ---
 description: 볼드체 플래그. RTF 볼드체 명령(\b)을 통해 요청할 때 이 글꼴 맵 레코드에서 참조하는 글꼴 파일을 사용할지 여부를 지정합니다.
-seo-description: 볼드체 플래그. RTF 볼드체 명령(\b)을 통해 요청할 때 이 글꼴 맵 레코드에서 참조하는 글꼴 파일을 사용할지 여부를 지정합니다.
-seo-title: 굵게
 solution: Experience Manager
 title: 굵게
-uuid: c9bc05d6-07ff-4ad9-a5b2-3ddc81a746af
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 7%
+source-wordcount: '75'
+ht-degree: 8%
 
 ---
 

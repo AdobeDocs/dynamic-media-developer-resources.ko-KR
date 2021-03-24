@@ -1,16 +1,13 @@
 ---
 description: 색상 값. 16진수 표기법, 구성 요소 값의 쉼표로 구분된 목록 또는 소수 자릿수를 사용하여 색상 값을 지정할 수 있습니다.
-seo-description: 색상 값. 16진수 표기법, 구성 요소 값의 쉼표로 구분된 목록 또는 소수 자릿수를 사용하여 색상 값을 지정할 수 있습니다.
-seo-title: color
 solution: Experience Manager
 title: color
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -51,7 +48,7 @@ ht-degree: 14%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>압축된 8자리 16진수 RRGBBA(RRGBBAA) 또는 CMYK(CCMMYYK) 색상 값('k' 접미어로 지정된 경우) </p></td> 
+  <td class="stentry"> <p>8자리 16진수 RRGGBBAA(CMYK) 또는 CMYK(CCMYK) 색상 값(접미어 'k'로 지정된 경우) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 

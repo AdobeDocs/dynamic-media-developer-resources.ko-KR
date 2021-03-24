@@ -1,16 +1,13 @@
 ---
 description: 기본 해상도. 특정 카탈로그 레코드에 유효한 카탈로그 해상도 값이 없는 경우 기본 해상도를 제공합니다.
-seo-description: 기본 해상도. 특정 카탈로그 레코드에 유효한 카탈로그 해상도 값이 없는 경우 기본 해상도를 제공합니다.
-seo-title: 해상도
 solution: Experience Manager
 title: 해상도
-uuid: b04b3746-90e6-4545-9c57-7ee3b61d99bf
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---

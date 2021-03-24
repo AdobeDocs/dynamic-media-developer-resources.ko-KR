@@ -1,16 +1,13 @@
 ---
 description: 제출된 작업의 요약된 상태를 검색합니다.
-seo-description: 제출된 작업의 요약된 상태를 검색합니다.
-seo-title: batchjobapstatus
 solution: Experience Manager
 title: batchjobapstatus
-uuid: 601e8395-8a77-4324-9cd7-5fe321bc91e3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---

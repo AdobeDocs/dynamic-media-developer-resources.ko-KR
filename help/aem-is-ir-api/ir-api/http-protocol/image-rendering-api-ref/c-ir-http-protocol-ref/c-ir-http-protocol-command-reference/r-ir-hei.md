@@ -1,16 +1,13 @@
 ---
 description: 이미지 높이를 회신합니다. 이미지의 종횡비를 유지하면서 응답 이미지의 높이가 지정된 값보다 크지 않도록 렌더링된 이미지의 비율을 지정합니다.
-seo-description: 이미지 높이를 회신합니다. 이미지의 종횡비를 유지하면서 응답 이미지의 높이가 지정된 값보다 크지 않도록 렌더링된 이미지의 비율을 지정합니다.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---

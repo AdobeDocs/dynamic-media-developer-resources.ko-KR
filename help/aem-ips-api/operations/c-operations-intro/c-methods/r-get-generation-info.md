@@ -1,17 +1,14 @@
 ---
 description: 전달된 매개 변수를 기반으로 2개의 다른 유형의 정보를 반환합니다. OriginatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
-seo-description: 전달된 매개 변수를 기반으로 2개의 다른 유형의 정보를 반환합니다. OriginatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
-seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 8%
+source-wordcount: '203'
+ht-degree: 9%
 
 ---
 

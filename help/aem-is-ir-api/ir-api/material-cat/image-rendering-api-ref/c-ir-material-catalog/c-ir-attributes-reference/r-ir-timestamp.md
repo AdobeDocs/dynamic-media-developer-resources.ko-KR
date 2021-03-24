@@ -1,16 +1,13 @@
 ---
 description: 기본 수정 타임스탬프. 카탈로그 타임스탬프 및 비네팅 타임스탬프에 대한 기본값을 제공합니다. 지정하지 않으면 서버는 이 catalog.ini 파일의 수정 날짜/시간을 사용합니다.
-seo-description: 기본 수정 타임스탬프. 카탈로그 타임스탬프 및 비네팅 타임스탬프에 대한 기본값을 제공합니다. 지정하지 않으면 서버는 이 catalog.ini 파일의 수정 날짜/시간을 사용합니다.
-seo-title: 타임스탬프
 solution: Experience Manager
 title: 타임스탬프
-uuid: 10ceb600-1ed9-46a1-ae07-889d601ac0f4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---

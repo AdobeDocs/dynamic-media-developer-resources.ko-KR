@@ -1,16 +1,13 @@
 ---
 description: 고려해야 하는 서버 비헤이비어 문제가 몇 가지 있습니다.
-seo-description: 고려해야 하는 서버 비헤이비어 문제가 몇 가지 있습니다.
-seo-title: 서버 비헤이비어에 대한 참고 사항
 solution: Experience Manager
 title: 서버 비헤이비어에 대한 참고 사항
-uuid: cca17322-4058-43cc-b022-ef8df52c0888
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '55'
 ht-degree: 0%
 
 ---

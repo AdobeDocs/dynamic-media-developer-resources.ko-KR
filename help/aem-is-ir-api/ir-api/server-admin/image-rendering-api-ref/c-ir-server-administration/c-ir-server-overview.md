@@ -1,16 +1,13 @@
 ---
 description: 이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
-seo-description: 이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관리하는 방법에 대해 설명합니다.
-seo-title: 서버 관리 개요
 solution: Experience Manager
 title: 서버 관리 개요
-uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

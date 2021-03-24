@@ -1,17 +1,14 @@
 ---
 description: 자산 권한을 업데이트합니다.
-seo-description: 자산 권한을 업데이트합니다.
-seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-uuid: feb2faf3-81de-436e-82de-1e41df03508f
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 19%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 

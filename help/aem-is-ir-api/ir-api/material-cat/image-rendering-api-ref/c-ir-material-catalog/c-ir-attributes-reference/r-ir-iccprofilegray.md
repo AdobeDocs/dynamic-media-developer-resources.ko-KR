@@ -1,17 +1,14 @@
 ---
 description: 회색 음영 기본 색상 공간. icc=로 출력 색상 공간을 지정하지 않은 경우 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정합니다.
-seo-description: 회색 음영 기본 색상 공간. icc=로 출력 색상 공간을 지정하지 않은 경우 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정합니다.
-seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 

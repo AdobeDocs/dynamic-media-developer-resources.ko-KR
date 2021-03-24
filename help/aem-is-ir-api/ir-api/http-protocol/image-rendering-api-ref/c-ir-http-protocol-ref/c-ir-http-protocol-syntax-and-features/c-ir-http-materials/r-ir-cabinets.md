@@ -1,16 +1,13 @@
 ---
 description: 캐비닛 재료는 캐비닛 스타일 파일(.vnc 파일 확장명), 패라메트릭 레이아웃 정의 및 캐비닛 전면을 렌더링하는 데 필요한 기타 정보와 함께 캐비닛의 이미지 표현을 포함하는 특수 데이터 파일을 지정합니다.
-seo-description: 캐비닛 재료는 캐비닛 스타일 파일(.vnc 파일 확장명), 패라메트릭 레이아웃 정의 및 캐비닛 전면을 렌더링하는 데 필요한 기타 정보와 함께 캐비닛의 이미지 표현을 포함하는 특수 데이터 파일을 지정합니다.
-seo-title: 캐비닛
 solution: Experience Manager
 title: 캐비닛
-uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---

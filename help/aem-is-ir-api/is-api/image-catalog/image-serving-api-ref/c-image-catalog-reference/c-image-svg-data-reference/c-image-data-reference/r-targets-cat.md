@@ -1,16 +1,13 @@
 ---
 description: 대상 데이터를 확대/축소합니다. 확대/축소 대상 속성이 없습니다. 확대/축소 뷰어 클라이언트와 함께 사용할 수 있습니다.
-seo-description: 대상 데이터를 확대/축소합니다. 확대/축소 대상 속성이 없습니다. 확대/축소 뷰어 클라이언트와 함께 사용할 수 있습니다.
-seo-title: 목표
 solution: Experience Manager
 title: 목표
-uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '334'
 ht-degree: 2%
 
 ---

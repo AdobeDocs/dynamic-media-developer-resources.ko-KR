@@ -1,16 +1,13 @@
 ---
 description: 텍스트 흐름 제외 영역. 텍스트 흐름에서 제외할 하나 이상의 영역을 지정합니다.
-seo-description: 텍스트 흐름 제외 영역. 텍스트 흐름에서 제외할 하나 이상의 영역을 지정합니다.
-seo-title: textFlowXPath
 solution: Experience Manager
 title: textFlowXPath
-uuid: ce833ae7-e774-4954-a521-b6247e75f6eb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '84'
 ht-degree: 5%
 
 ---

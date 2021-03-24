@@ -1,16 +1,13 @@
 ---
 description: 이미지 서비스를 사용하려면 먼저 이미지 제공을 설치해야 합니다.
-seo-description: 이미지 서비스를 사용하려면 먼저 이미지 제공을 설치해야 합니다.
-seo-title: 설치
 solution: Experience Manager
 title: 설치
-uuid: 19e9599e-800b-4c22-9325-fc47b9e5e19a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---

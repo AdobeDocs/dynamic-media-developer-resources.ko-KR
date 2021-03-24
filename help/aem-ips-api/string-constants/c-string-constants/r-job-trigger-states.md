@@ -1,17 +1,14 @@
 ---
 description: ScheduledJob/triggerState에서 사용됩니다.
-seo-description: ScheduledJob/triggerState에서 사용됩니다.
-seo-title: 작업 트리거 상태
 solution: Experience Manager
 title: 작업 트리거 상태
-uuid: 2217374c-db38-4453-8b93-f10553ce52c7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 6%
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 

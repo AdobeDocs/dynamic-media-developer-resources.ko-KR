@@ -1,17 +1,14 @@
 ---
 description: 확인 알림을 수신할 최대 5개의 이메일 주소 목록 또는 작성자를 지정하는 데 사용되는 배열입니다.
-seo-description: 확인 알림을 수신할 최대 5개의 이메일 주소 목록 또는 작성자를 지정하는 데 사용되는 배열입니다.
-seo-title: EmailArray
 solution: Experience Manager
 title: EmailArray
-uuid: fb5f14c6-d950-49e7-8a08-ac01ca90b2df
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 7%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 

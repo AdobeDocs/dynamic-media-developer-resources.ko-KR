@@ -1,16 +1,13 @@
 ---
 description: 이미지를 확장하거나 축소합니다. 형태학적 딜레이트(반경 > 0)를 적용하거나 이미지 데이터에 누름(반경 < 0)을 적용합니다.
-seo-description: 이미지를 확장하거나 축소합니다. 형태학적 딜레이트(반경 > 0)를 적용하거나 이미지 데이터에 누름(반경 < 0)을 적용합니다.
-seo-title: op_grow
 solution: Experience Manager
 title: op_grow
-uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---

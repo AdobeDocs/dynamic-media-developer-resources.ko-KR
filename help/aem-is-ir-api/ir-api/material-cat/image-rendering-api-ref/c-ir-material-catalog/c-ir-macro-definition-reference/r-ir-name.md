@@ -1,17 +1,14 @@
 ---
 description: 매크로 이름. 매크로 이름은 $를 제외하고 알파, 숫자 및 안전 문자의 조합으로 구성될 수 있습니다.
-seo-description: 매크로 이름. 매크로 이름은 $를 제외하고 알파, 숫자 및 안전 문자의 조합으로 구성될 수 있습니다.
-seo-title: 이름
 solution: Experience Manager
 title: 이름
-uuid: 5b81b450-5c3d-4a9e-95dd-6f12b6a9a5ae
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 

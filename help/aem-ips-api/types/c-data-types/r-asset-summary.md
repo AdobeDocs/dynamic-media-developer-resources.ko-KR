@@ -1,17 +1,14 @@
 ---
 description: 자산에 대한 요약된 정보가 포함된 메타데이터 검색 결과.
-seo-description: 자산에 대한 요약된 정보가 포함된 메타데이터 검색 결과.
-seo-title: 자산 요약
 solution: Experience Manager
 title: 자산 요약
-uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 10%
+source-wordcount: '131'
+ht-degree: 11%
 
 ---
 

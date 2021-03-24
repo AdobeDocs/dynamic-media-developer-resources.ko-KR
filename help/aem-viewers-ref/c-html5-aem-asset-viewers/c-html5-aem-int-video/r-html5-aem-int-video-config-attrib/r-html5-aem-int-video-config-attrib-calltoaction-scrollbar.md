@@ -1,17 +1,14 @@
 ---
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
-seo-description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
-seo-title: CallToAction.scrollbar
 solution: Experience Manager
 title: CallToAction.scrollbar
-uuid: 20b14257-da2f-4557-a732-b14421b0eb7e
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 

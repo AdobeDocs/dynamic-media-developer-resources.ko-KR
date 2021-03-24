@@ -1,17 +1,14 @@
 ---
 description: 리샘플링 모드. resMode=의 기본값입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 특성을 지정합니다.
-seo-description: 리샘플링 모드. resMode=의 기본값입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 특성을 지정합니다.
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 91d83274-b3e1-4233-bd01-21936726e1db
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 

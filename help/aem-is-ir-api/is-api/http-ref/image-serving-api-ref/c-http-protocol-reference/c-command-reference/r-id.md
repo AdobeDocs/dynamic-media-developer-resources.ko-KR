@@ -1,17 +1,14 @@
 ---
 description: 이미지/메타데이터 버전. 자주 변경되는 컨텐츠로 작업할 때 Akamai, 브라우저 캐시 및 기업 프록시 서버 캐싱과 같은 캐싱 네트워크의 서버는 일정 기간 동안 최신 상태가 아닐 수 있는 이미지 제공 응답을 저장할 수 있습니다.
-seo-description: 이미지/메타데이터 버전. 자주 변경되는 컨텐츠로 작업할 때 Akamai, 브라우저 캐시 및 기업 프록시 서버 캐싱과 같은 캐싱 네트워크의 서버는 일정 기간 동안 최신 상태가 아닐 수 있는 이미지 제공 응답을 저장할 수 있습니다.
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 

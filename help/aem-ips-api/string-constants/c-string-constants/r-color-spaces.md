@@ -1,17 +1,14 @@
 ---
 description: IccProfileFieldUpdate/colorSpace 및 IccProfileFieldUpdate/pcsType에서 사용됩니다.
-seo-description: IccProfileFieldUpdate/colorSpace 및 IccProfileFieldUpdate/pcsType에서 사용됩니다.
-seo-title: 색상 공간
 solution: Experience Manager
 title: 색상 공간
-uuid: a703fccb-932d-4de8-84a1-bc0483013151
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 5%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 기본 응답 이미지 선명하게 하기를 참조하십시오. 인코딩 전에 크기를 조절하면 회신 이미지를 선명하게 할지 여부를 지정합니다.
-seo-description: 기본 응답 이미지 선명하게 하기를 참조하십시오. 인코딩 전에 크기를 조절하면 회신 이미지를 선명하게 할지 여부를 지정합니다.
-seo-title: 선명하게
 solution: Experience Manager
 title: 선명하게
-uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 

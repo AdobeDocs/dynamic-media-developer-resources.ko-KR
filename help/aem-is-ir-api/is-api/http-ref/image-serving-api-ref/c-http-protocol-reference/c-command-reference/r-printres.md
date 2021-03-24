@@ -1,17 +1,14 @@
 ---
 description: 인쇄 해상도. 응답 이미지에 포함된 인쇄 해상도 값을 무시합니다.
-seo-description: 인쇄 해상도. 응답 이미지에 포함된 인쇄 해상도 값을 무시합니다.
-seo-title: printRes
 solution: Experience Manager
 title: printRes
-uuid: 1a62611a-b3b9-4f20-834f-e34e75d33ddd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 

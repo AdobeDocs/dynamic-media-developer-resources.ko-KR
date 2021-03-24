@@ -1,16 +1,13 @@
 ---
 description: Linux에서 Dynamic Media Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
-seo-description: Linux에서 Dynamic Media Image Serving을 업그레이드할 때 이 절차를 사용하십시오.
-seo-title: IS 4.7.4 이상에서 업데이트
 solution: Experience Manager
 title: IS 4.7.4 이상에서 업데이트
-uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

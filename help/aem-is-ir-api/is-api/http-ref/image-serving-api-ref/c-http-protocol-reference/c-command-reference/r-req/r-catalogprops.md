@@ -1,16 +1,13 @@
 ---
 description: 이미지 카탈로그 속성입니다. 요청 경로에 지정된 이미지 카탈로그의 공통 특성을 반환합니다.
-seo-description: 이미지 카탈로그 속성입니다. 요청 경로에 지정된 이미지 카탈로그의 공통 특성을 반환합니다.
-seo-title: 카탈로그 속성
 solution: Experience Manager
 title: 카탈로그 속성
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 5%
 
 ---
@@ -29,7 +26,7 @@ ht-degree: 5%
  </tr> 
 </table>
 
-카탈로그 ID를 생략하여 기본 카탈로그 속성( [!DNL default.ini])을 검색합니다. HTTP 응답은 `attribute::NonImgExpiration`을(를) 기준으로 TTL을 사용하여 액세스할 수 있습니다.
+기본 카탈로그 속성( [!DNL default.ini])을 검색하려면 카탈로그 ID를 생략합니다. HTTP 응답은 `attribute::NonImgExpiration`을(를) 기준으로 TTL을 사용하여 액세스할 수 있습니다.
 
 JSONP 응답 형식을 지원하는 요청에서는 `req=` 매개 변수의 확장 구문을 사용하여 JS 콜백 핸들러의 이름을 지정할 수 있습니다.
 

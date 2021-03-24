@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 HTTP/1.1 응답 헤더를 생성합니다.
-seo-description: 이미지 렌더링은 HTTP/1.1 응답 헤더를 생성합니다.
-seo-title: HTTP 프로토콜 응답 데이터
 solution: Experience Manager
 title: HTTP 프로토콜 응답 데이터
-uuid: ab7117bc-97b1-4400-b8ac-51b2899cb4fb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 주소 필터 요소를 참조하십시오. <rule> 요소의 선택 사항입니다. 규칙이 적용될 때 ClientAddressFilter 속성을 무시합니다.
-seo-description: 주소 필터 요소를 참조하십시오. <rule> 요소의 선택 사항입니다. 규칙이 적용될 때 ClientAddressFilter 속성을 무시합니다.
-seo-title: addressfilter
 solution: Experience Manager
 title: addressfilter
-uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '155'
 ht-degree: 4%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 자료 카탈로그는 비네팅, 자료 및 ICC 프로파일과 같은 지원 데이터에 대한 정보를 서버에 제공합니다.
-seo-description: 자료 카탈로그는 비네팅, 자료 및 ICC 프로파일과 같은 지원 데이터에 대한 정보를 서버에 제공합니다.
-seo-title: 자료 카탈로그 개요 *
 solution: Experience Manager
 title: 자료 카탈로그 개요 *
-uuid: f2128b64-8caf-4a59-b11f-604fe62bae69
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---

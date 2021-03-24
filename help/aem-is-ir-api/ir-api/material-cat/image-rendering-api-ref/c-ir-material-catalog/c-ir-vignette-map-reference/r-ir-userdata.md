@@ -1,16 +1,13 @@
 ---
 description: 사용자 데이터. 서버는 req=userdata에 대한 응답으로 이 필드의 내용을 클라이언트에 반환합니다.
-seo-description: 사용자 데이터. 서버는 req=userdata에 대한 응답으로 이 필드의 내용을 클라이언트에 반환합니다.
-seo-title: 사용자 데이터 *
 solution: Experience Manager
 title: 사용자 데이터 *
-uuid: ed4dfc19-8923-4e99-aa07-b6a9fab4eded
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---

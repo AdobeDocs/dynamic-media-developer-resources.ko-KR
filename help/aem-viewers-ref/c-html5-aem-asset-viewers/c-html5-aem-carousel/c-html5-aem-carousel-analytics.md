@@ -2,11 +2,10 @@
 description: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 1%

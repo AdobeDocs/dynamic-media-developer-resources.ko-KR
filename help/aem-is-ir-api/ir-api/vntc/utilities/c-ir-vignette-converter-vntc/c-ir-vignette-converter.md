@@ -1,11 +1,11 @@
 ---
-description: Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 위해 이미지 작성으로 만든 컨텐츠를 준비하는 데 사용되는 명령줄 유틸리티입니다.
+description: Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 위해 이미지 작성으로 만든 내용을 준비하는 데 사용되는 명령줄 유틸리티입니다.
 solution: Experience Manager
 title: 비네팅 변환기
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 비네팅 변환기{#vignette-converter}
 
-Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 위해 이미지 작성으로 만든 컨텐츠를 준비하는 데 사용되는 명령줄 유틸리티입니다.
+Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 위해 이미지 작성으로 만든 내용을 준비하는 데 사용되는 명령줄 유틸리티입니다.
 
 [!DNL vntc] 는 [!DNL \ImageServing\bin]에  *[!DNL install_root]*&#x200B;있습니다. 다음과 같은 기능이 있습니다.
 

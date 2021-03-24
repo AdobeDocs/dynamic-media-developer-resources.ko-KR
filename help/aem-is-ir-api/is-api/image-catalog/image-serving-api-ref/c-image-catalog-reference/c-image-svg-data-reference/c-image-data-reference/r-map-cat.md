@@ -1,16 +1,13 @@
 ---
 description: 이미지 맵 데이터. HTML <AREA> 요소 없음, 앞뒤로 정렬됨.
-seo-description: 이미지 맵 데이터. HTML <AREA> 요소 없음, 앞뒤로 정렬됨.
-seo-title: 맵
 solution: Experience Manager
 title: 맵
-uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '139'
 ht-degree: 5%
 
 ---

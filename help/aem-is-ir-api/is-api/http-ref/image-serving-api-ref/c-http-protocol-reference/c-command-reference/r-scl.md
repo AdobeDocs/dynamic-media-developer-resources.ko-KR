@@ -1,16 +1,13 @@
 ---
 description: 비율 보기. 복합 이미지를 invFactor의 역값으로 비율을 조정합니다.
-seo-description: 비율 보기. 복합 이미지를 invFactor의 역값으로 비율을 조정합니다.
-seo-title: scl
 solution: Experience Manager
 title: scl
-uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 5%
 
 ---

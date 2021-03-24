@@ -1,16 +1,13 @@
 ---
 description: 100% 크기 decal material 객체의 폭, 높이 및 두께입니다.
-seo-description: 100% 크기 decal material 객체의 폭, 높이 및 두께입니다.
-seo-title: 크기
 solution: Experience Manager
 title: 크기
-uuid: 07d41f71-e18d-4559-afc7-75dc1c45be93
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 5%
 
 ---

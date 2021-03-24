@@ -1,16 +1,13 @@
 ---
 description: 비디오 캡션 속성
-seo-description: 비디오 캡션 속성
-seo-title: VideoCaptionInfo
 title: VideoCaptionInfo
-uuid: affd5019-9916-421d-8c4b-676d48bf010c
 feature: Dynamic Media Classic,SDK/API,비디오
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 

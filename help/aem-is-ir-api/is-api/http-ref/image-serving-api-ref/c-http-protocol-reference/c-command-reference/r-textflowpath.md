@@ -1,16 +1,13 @@
 ---
 description: 텍스트 흐름 영역. textPs=로 지정된 텍스트를 흐리게 할 영역을 하나 이상 지정합니다.
-seo-description: 텍스트 흐름 영역. textPs=로 지정된 텍스트를 흐리게 할 영역을 하나 이상 지정합니다.
-seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---

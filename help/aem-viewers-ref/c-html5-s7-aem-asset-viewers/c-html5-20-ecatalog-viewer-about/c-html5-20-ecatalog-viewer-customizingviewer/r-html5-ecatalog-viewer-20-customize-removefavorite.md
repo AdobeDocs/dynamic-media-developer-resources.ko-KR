@@ -1,16 +1,13 @@
 ---
 description: 즐겨찾기 제거 단추의 위치는 즐겨찾기 메뉴에서 완전히 관리됩니다.
-seo-description: 즐겨찾기 제거 단추의 위치는 즐겨찾기 메뉴에서 완전히 관리됩니다.
-seo-title: 즐겨찾기 제거 단추
 solution: Experience Manager
 title: 즐겨찾기 제거 단추
-uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---

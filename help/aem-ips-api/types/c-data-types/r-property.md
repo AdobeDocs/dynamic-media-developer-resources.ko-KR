@@ -1,17 +1,14 @@
 ---
 description: 이름과 값 쌍입니다.
-seo-description: 이름과 값 쌍입니다.
-seo-title: 속성
 solution: Experience Manager
 title: 속성
-uuid: 3e1bcd92-cc39-4590-b495-f80b5ca92b1f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 25%
+source-wordcount: '30'
+ht-degree: 26%
 
 ---
 

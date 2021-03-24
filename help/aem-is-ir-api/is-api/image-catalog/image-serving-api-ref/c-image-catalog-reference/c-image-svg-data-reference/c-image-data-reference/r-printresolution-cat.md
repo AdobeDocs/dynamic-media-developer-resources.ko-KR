@@ -1,16 +1,13 @@
 ---
 description: 인쇄 해상도. 전체 크기의 이미지에 대한 인쇄 해상도입니다.
-seo-description: 인쇄 해상도. 전체 크기의 이미지에 대한 인쇄 해상도입니다.
-seo-title: 인쇄 해상도
 solution: Experience Manager
 title: 인쇄 해상도
-uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '74'
 ht-degree: 6%
 
 ---

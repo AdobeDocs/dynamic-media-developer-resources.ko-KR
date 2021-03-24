@@ -1,16 +1,13 @@
 ---
 description: 이 절차에서는 Linux에서 처음으로 이미지 제공을 설치하는 방법을 보여 줍니다.
-seo-description: 이 절차에서는 Linux에서 처음으로 이미지 제공을 설치하는 방법을 보여 줍니다.
-seo-title: 처음 설치
 solution: Experience Manager
 title: 처음 설치
-uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---

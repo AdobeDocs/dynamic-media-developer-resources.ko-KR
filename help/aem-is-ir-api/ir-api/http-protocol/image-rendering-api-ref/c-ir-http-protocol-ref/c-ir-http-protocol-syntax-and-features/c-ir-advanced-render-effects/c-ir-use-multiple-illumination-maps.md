@@ -1,16 +1,13 @@
 ---
 description: 일부 응용 프로그램은 다양한 유형의 재질에 대해 다른 조명 맵을 필요로 할 수 있습니다.
-seo-description: 일부 응용 프로그램은 다양한 유형의 재질에 대해 다른 조명 맵을 필요로 할 수 있습니다.
-seo-title: 여러 조명 맵 사용
 solution: Experience Manager
 title: 여러 조명 맵 사용
-uuid: 24d86229-6e88-4fe2-80ef-30461aee3db5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---

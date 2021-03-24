@@ -1,16 +1,13 @@
 ---
 description: 확대/축소 표시기가 확대/축소 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
-seo-description: 확대/축소 표시기가 확대/축소 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
-seo-title: 확대/축소 보기 아이콘 효과
 solution: Experience Manager
 title: 확대/축소 보기 아이콘 효과
-uuid: 69a44789-9587-4459-9c75-048773c9e368
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 텍스트 렌더링 방향 textPs=로 지정된 텍스트를 배치하고 텍스트 상자에 렌더링할 각도를 지정합니다(size= 또는 textFlowPath=).
-seo-description: 텍스트 렌더링 방향 textPs=로 지정된 텍스트를 배치하고 텍스트 상자에 렌더링할 각도를 지정합니다(size= 또는 textFlowPath=).
-seo-title: textAngle
 solution: Experience Manager
 title: textAngle
-uuid: ac54c186-1fc5-479a-89f2-ff2da5e7999a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 4%
+source-wordcount: '109'
+ht-degree: 5%
 
 ---
 

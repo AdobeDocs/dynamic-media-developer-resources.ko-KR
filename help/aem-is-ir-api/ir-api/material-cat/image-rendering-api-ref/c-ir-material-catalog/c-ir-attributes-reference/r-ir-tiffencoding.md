@@ -1,17 +1,14 @@
 ---
 description: TIFF 인코딩 형식. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값이 효과적으로 됩니다.
-seo-description: TIFF 인코딩 형식. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값이 효과적으로 됩니다.
-seo-title: TiffEncoding
 solution: Experience Manager
 title: TiffEncoding
-uuid: b9f672f8-d759-4248-8588-9fe46db1645f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 일반적으로 합성 이미지와 레이어가 없는 간단한 이미지 요청에 유용합니다.
-seo-description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 적용됩니다. 일반적으로 합성 이미지와 레이어가 없는 간단한 이미지 요청에 유용합니다.
-seo-title: 일반적인 작업
 solution: Experience Manager
 title: 일반적인 작업
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 

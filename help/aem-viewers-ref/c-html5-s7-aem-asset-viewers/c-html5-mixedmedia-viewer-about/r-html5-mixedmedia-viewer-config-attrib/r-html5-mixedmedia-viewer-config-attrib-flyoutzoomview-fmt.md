@@ -1,17 +1,14 @@
 ---
 description: 구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다.
-seo-description: 구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다.
-seo-title: FlyoutZoomView.fmt
 solution: Experience Manager
 title: FlyoutZoomView.fmt
-uuid: 6f6a69b4-d581-44ff-b089-ce9d0d0170bf
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 

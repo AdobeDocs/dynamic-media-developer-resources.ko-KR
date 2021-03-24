@@ -1,17 +1,14 @@
 ---
 description: 점진적 JPEG 스캔. 점진적 JPEG는 이미지를 전체적으로 흐림/저품질 사진을 표시하는 방식으로 표시합니다. 스캔이 계속 진행되면 이미지의 데이터가 더 완전히 다운로드되면 더욱 명확해집니다. 이 매개 변수를 사용하면 전체 이미지가 나타날 때까지(3, 4 또는 5)에 걸리는 스캔 수를 설정할 수 있습니다.
-seo-description: 점진적 JPEG 스캔. 점진적 JPEG는 이미지를 전체적으로 흐림/저품질 사진을 표시하는 방식으로 표시합니다. 스캔이 계속 진행되면 이미지의 데이터가 더 완전히 다운로드되면 더욱 명확해집니다. 이 매개 변수를 사용하면 전체 이미지가 나타날 때까지(3, 4 또는 5)에 걸리는 스캔 수를 설정할 수 있습니다.
-seo-title: pscan
 solution: Experience Manager
 title: pscan
-uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '220'
+ht-degree: 2%
 
 ---
 

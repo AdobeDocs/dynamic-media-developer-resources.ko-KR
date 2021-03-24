@@ -1,17 +1,14 @@
 ---
 description: 축소판의 세로 정렬 wid= 및 hei= 또는 DefaultThumbPix 속성으로 지정된 응답 이미지 사각형에 축소판 이미지의 세로 정렬을 지정합니다.
-seo-description: 축소판의 세로 정렬 wid= 및 hei= 또는 DefaultThumbPix 속성으로 지정된 응답 이미지 사각형에 축소판 이미지의 세로 정렬을 지정합니다.
-seo-title: ThumbVertAlign
 solution: Experience Manager
 title: ThumbVertAlign
-uuid: a90281eb-9681-4b4a-a94b-663f007fb32f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 4%
 
 ---
 

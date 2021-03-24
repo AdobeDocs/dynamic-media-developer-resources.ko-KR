@@ -1,16 +1,13 @@
 ---
 description: 이미지 카탈로그는 글꼴, ICC 프로파일, 명령 매크로뿐만 아니라 다양한 서버 구성 설정을 제공합니다.
-seo-description: 이미지 카탈로그는 글꼴, ICC 프로파일, 명령 매크로뿐만 아니라 다양한 서버 구성 설정을 제공합니다.
-seo-title: 이미지 카탈로그
 solution: Experience Manager
 title: 이미지 카탈로그
-uuid: 7d7285e2-ee9c-4e88-b270-b686d1984d82
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---

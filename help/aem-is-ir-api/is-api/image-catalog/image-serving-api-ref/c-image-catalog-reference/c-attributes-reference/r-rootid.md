@@ -1,17 +1,14 @@
 ---
 description: 카탈로그 식별자. 요청의 이미지 개체 지정자에서 이 카탈로그를 식별하는 데 사용할 HTTP 경로 요소입니다.
-seo-description: 카탈로그 식별자. 요청의 이미지 개체 지정자에서 이 카탈로그를 식별하는 데 사용할 HTTP 경로 요소입니다.
-seo-title: 루트 ID
 solution: Experience Manager
 title: 루트 ID
-uuid: 98cece72-487f-4a0d-ad6f-018b656f0f03
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 6%
 
 ---
 

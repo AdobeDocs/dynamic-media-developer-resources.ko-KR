@@ -1,16 +1,13 @@
 ---
 description: 특성을 FXG 루트 요소로 설정합니다.
-seo-description: 특성을 FXG 루트 요소로 설정합니다.
-seo-title: setAttr.rootElement
 solution: Experience Manager
 title: setAttr.rootElement
-uuid: dda16612-57c7-4abe-8aa4-00e599a8ea69
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---

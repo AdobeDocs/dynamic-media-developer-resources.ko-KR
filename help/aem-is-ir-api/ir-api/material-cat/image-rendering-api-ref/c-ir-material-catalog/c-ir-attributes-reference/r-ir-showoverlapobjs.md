@@ -1,17 +1,14 @@
 ---
 description: 겹치는 개체를 표시합니다. 겹치는 개체를 처음에 표시할지 아니면 숨길지를 지정합니다.
-seo-description: 겹치는 개체를 표시합니다. 겹치는 개체를 처음에 표시할지 아니면 숨길지를 지정합니다.
-seo-title: 개체 표시
 solution: Experience Manager
 title: 개체 표시
-uuid: 965dcff5-30e1-4237-aa71-ee7533a674d8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '47'
+ht-degree: 4%
 
 ---
 

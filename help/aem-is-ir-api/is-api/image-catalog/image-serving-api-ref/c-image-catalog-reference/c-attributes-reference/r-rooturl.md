@@ -1,16 +1,13 @@
 ---
 description: 상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다.
-seo-description: 상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다.
-seo-title: 루트 URL
 solution: Experience Manager
 title: 루트 URL
-uuid: 173ce99a-f87e-4700-a28a-1a87b8c55b85
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '102'
 ht-degree: 3%
 
 ---

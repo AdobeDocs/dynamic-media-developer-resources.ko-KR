@@ -1,17 +1,14 @@
 ---
 description: 선택한 자산에서 권한을 제거합니다.
-seo-description: 선택한 자산에서 권한을 제거합니다.
-seo-title: removeAssetPermissions
 solution: Experience Manager
 title: removeAssetPermissions
-uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 14%
+source-wordcount: '77'
+ht-degree: 15%
 
 ---
 

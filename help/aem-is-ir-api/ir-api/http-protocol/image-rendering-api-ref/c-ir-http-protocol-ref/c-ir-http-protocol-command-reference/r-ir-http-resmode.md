@@ -1,17 +1,14 @@
 ---
 description: 리샘플링 모드. 렌더링된 이미지를 wid=, hei= 또는 scl=로 지정된 크기로 조정하는 데 사용할 리샘플링 및/또는 보간 알고리즘을 선택합니다.
-seo-description: 리샘플링 모드. 렌더링된 이미지를 wid=, hei= 또는 scl=로 지정된 크기로 조정하는 데 사용할 리샘플링 및/또는 보간 알고리즘을 선택합니다.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 12%
+source-wordcount: '184'
+ht-degree: 13%
 
 ---
 

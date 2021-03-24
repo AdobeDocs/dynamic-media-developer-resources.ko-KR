@@ -1,17 +1,14 @@
 ---
 description: 하위 선택. 이전에 적용한 자료를 제거할 수 있을 뿐만 아니라 선택한 개체 또는 그룹의 다른 영역에 서로 다른 자료를 적용할 수 있습니다.
-seo-description: 하위 선택. 이전에 적용한 자료를 제거할 수 있을 뿐만 아니라 선택한 개체 또는 그룹의 다른 영역에 서로 다른 자료를 적용할 수 있습니다.
-seo-title: sub
 solution: Experience Manager
 title: sub
-uuid: cb9f4dc5-9d89-483a-ae72-b9076b27c57e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 5%
+source-wordcount: '162'
+ht-degree: 6%
 
 ---
 

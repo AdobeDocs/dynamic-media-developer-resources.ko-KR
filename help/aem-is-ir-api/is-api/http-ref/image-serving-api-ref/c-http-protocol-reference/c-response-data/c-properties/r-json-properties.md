@@ -1,16 +1,13 @@
 ---
 description: jsonp가 응답 형식으로 지정된 경우 응답 데이터는 JavaScript 함수 호출로 래핑된 JSONP(패딩과 함께 JavaScript 개체 표기법)를 사용하여 형식이 지정됩니다.
-seo-description: jsonp가 응답 형식으로 지정된 경우 응답 데이터는 JavaScript 함수 호출로 래핑된 JSONP(패딩과 함께 JavaScript 개체 표기법)를 사용하여 형식이 지정됩니다.
-seo-title: JSONP 속성
 solution: Experience Manager
 title: JSONP 속성
-uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---

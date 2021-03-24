@@ -2,11 +2,10 @@
 description: 정적(이미지가 아님) 컨텐츠 제공
 solution: Experience Manager
 title: 정적(이미지가 아님) 컨텐츠 제공
-uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 1%

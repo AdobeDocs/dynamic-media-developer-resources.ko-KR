@@ -1,17 +1,14 @@
 ---
 description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출하고 업로드(압축 해제)하도록 설정을 업로드하십시오.
-seo-description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출하고 업로드(압축 해제)하도록 설정을 업로드하십시오.
-seo-title: 압축 해제 옵션
 solution: Experience Manager
 title: 압축 해제 옵션
-uuid: 1e6827db-8c5e-47db-b7ff-4e681e107e57
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
 

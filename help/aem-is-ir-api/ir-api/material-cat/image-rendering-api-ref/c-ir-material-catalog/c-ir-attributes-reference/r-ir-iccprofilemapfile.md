@@ -1,17 +1,14 @@
 ---
 description: ICC 프로파일 맵 파일 경로. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
-seo-description: ICC 프로파일 맵 파일 경로. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
-seo-title: IccProfileMapFile
 solution: Experience Manager
 title: IccProfileMapFile
-uuid: 24fda621-05ef-4c3f-aa93-56d439334602
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 

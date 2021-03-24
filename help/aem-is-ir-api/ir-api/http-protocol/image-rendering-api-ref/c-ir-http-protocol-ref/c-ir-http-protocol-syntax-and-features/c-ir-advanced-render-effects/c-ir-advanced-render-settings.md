@@ -1,17 +1,14 @@
 ---
 description: 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
-seo-description: 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)는 비네팅 렌더링 엔진의 하위 수준 측면을 제어하는 메커니즘을 제공합니다.
-seo-title: 고급 렌더링 설정
 solution: Experience Manager
 title: 고급 렌더링 설정
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -63,7 +60,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>V </p> </td> 
    <td colname="col2"> <p>USM 반경(픽셀). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>100년 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -113,7 +110,7 @@ ht-degree: 24%
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>수퍼샘플링:무작위 속도. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20년 </p> </td> 
    <td colname="col5"> <p>기본값은 5입니다. </p> </td> 
   </tr> 

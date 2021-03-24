@@ -1,16 +1,13 @@
 ---
 description: 그라우트 색상 및 두께를 바둑판식으로 배열합니다. 세라믹 및 천연 돌타일에 대한 그루트를 시뮬레이션합니다.
-seo-description: 그라우트 색상 및 두께를 바둑판식으로 배열합니다. 세라믹 및 천연 돌타일에 대한 그루트를 시뮬레이션합니다.
-seo-title: 그루트
 solution: Experience Manager
 title: 그루트
-uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '173'
 ht-degree: 2%
 
 ---

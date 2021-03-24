@@ -1,16 +1,13 @@
 ---
 description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-description: eCatalog 뷰어에 대한 JavaScript API 참조 사항입니다.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: a732461f-1b34-4ebe-9dfd-69175762e574
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 2%
 
 ---

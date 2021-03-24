@@ -1,17 +1,14 @@
 ---
 description: 색상 양자화 GIF 출력 변환의 색상 양자화 특성을 지정합니다.
-seo-description: 색상 양자화 GIF 출력 변환의 색상 양자화 특성을 지정합니다.
-seo-title: 수량화
 solution: Experience Manager
 title: 수량화
-uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 3%
 
 ---
 

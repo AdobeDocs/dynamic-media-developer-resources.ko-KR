@@ -1,16 +1,13 @@
 ---
 description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
-seo-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
-seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
-uuid: 5b4aa838-0fb4-4ae8-be5a-8ce1e1487127
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '474'
 ht-degree: 2%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 ICC(International Color Consortium) 사양을 준수하는 색상 공간 프로파일을 기반으로 색상 공간 변환을 지원합니다.
-seo-description: 이미지 렌더링은 ICC(International Color Consortium) 사양을 준수하는 색상 공간 프로파일을 기반으로 색상 공간 변환을 지원합니다.
-seo-title: 이미지 렌더링 색상 관리 *
 solution: Experience Manager
 title: 이미지 렌더링 색상 관리 *
-uuid: 9c47f584-645f-4eb7-bdc0-fdef459da3b2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---

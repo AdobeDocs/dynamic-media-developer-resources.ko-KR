@@ -1,17 +1,14 @@
 ---
 description: 이 섹션에서는 관심 영역별로 그룹화된 모든 편집 가능한 구성 설정에 대해 설명합니다.
-seo-description: 이 섹션에서는 관심 영역별로 그룹화된 모든 편집 가능한 구성 설정에 대해 설명합니다.
-seo-title: 서버 설정
 solution: Experience Manager
 title: 서버 설정
-uuid: dc4deefe-c354-4d01-a1d2-815597994adc
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 4%
+source-wordcount: '70'
+ht-degree: 5%
 
 ---
 

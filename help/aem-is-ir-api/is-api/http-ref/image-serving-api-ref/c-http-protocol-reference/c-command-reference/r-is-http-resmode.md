@@ -1,17 +1,14 @@
 ---
 description: 리샘플링 모드. 이미지 데이터의 크기 조정에 사용할 리샘플링 및/또는 보간 알고리즘을 선택합니다. 또한 텍스트 레이어 회전 및 보기 변형 중에 합성 이미지의 크기 조절에 적용됩니다.
-seo-description: 리샘플링 모드. 이미지 데이터의 크기 조정에 사용할 리샘플링 및/또는 보간 알고리즘을 선택합니다. 또한 텍스트 레이어 회전 및 보기 변형 중에 합성 이미지의 크기 조절에 적용됩니다.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 15%
+source-wordcount: '225'
+ht-degree: 17%
 
 ---
 

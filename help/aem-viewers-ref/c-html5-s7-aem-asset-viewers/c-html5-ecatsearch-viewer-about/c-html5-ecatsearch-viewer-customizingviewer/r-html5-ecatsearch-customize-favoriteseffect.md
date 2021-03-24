@@ -1,17 +1,14 @@
 ---
 description: 뷰어는 사용자가 원래 추가한 위치에서 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
-seo-description: 뷰어는 사용자가 원래 추가한 위치에서 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
-seo-title: 즐겨찾기 효과
 solution: Experience Manager
 title: 즐겨찾기 효과
-uuid: 5fbfe299-1fae-427f-8ade-e12cd168b8a7
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 

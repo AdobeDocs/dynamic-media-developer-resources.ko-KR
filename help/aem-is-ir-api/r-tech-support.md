@@ -1,16 +1,13 @@
 ---
 description: 기술 지원에 문의하려면 다음을 사용하십시오.
-seo-description: 기술 지원에 문의하려면 다음을 사용하십시오.
-seo-title: 기술 지원
 solution: Experience Manager
 title: 기술 지원
-uuid: bab5aab4-b5a3-4c8f-80bd-d9e3289b9bff
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---

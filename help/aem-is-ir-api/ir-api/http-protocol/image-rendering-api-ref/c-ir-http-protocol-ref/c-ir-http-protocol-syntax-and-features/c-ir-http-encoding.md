@@ -1,17 +1,14 @@
 ---
 description: 값 문자열에 예약된 문자 '=', '&' 및 '%'가 포함되지 않도록 %xx 이스케이프 시퀀스를 사용하여 명령 값을 http로 인코딩해야 합니다.
-seo-description: 값 문자열에 예약된 문자 '=', '&' 및 '%'가 포함되지 않도록 %xx 이스케이프 시퀀스를 사용하여 명령 값을 http로 인코딩해야 합니다.
-seo-title: 이미지 렌더링 HTTP 인코딩
 solution: Experience Manager
 title: 이미지 렌더링 HTTP 인코딩
-uuid: 37bd0040-7bad-4548-ab39-7f598a217732
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
 

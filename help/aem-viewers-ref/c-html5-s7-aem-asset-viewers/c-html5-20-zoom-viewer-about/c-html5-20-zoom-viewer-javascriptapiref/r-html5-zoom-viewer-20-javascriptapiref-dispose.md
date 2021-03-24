@@ -1,16 +1,13 @@
 ---
 description: 확대/축소 뷰어용 JavaScript API 참조.
-seo-description: 확대/축소 뷰어용 JavaScript API 참조.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: 22e6fafa-42e9-4675-a494-66a87a62b7f6
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---

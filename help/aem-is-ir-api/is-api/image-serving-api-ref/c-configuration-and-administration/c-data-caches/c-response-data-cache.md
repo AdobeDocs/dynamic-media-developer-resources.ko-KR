@@ -1,16 +1,13 @@
 ---
 description: Platform Server는 모든 응답 이미지 및 특정 텍스트 데이터를 디스크에 캐시합니다. 단, 요청이 액세스할 수 없는 것으로 표시되지 않습니다.
-seo-description: Platform Server는 모든 응답 이미지 및 특정 텍스트 데이터를 디스크에 캐시합니다. 단, 요청이 액세스할 수 없는 것으로 표시되지 않습니다.
-seo-title: 응답 데이터 캐시
 solution: Experience Manager
 title: 응답 데이터 캐시
-uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---

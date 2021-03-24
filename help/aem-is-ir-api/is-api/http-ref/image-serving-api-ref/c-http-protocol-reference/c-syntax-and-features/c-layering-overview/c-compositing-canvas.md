@@ -1,16 +1,13 @@
 ---
 description: 레이어는 레이어= 명령으로 지정한 순서대로 합성됩니다. 여기서 번호가 높은 레이어는 번호가 낮은 레이어를 숨깁니다.
-seo-description: 레이어는 레이어= 명령으로 지정한 순서대로 합성됩니다. 여기서 번호가 높은 레이어는 번호가 낮은 레이어를 숨깁니다.
-seo-title: 합성 캔버스
 solution: Experience Manager
 title: 합성 캔버스
-uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---

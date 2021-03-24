@@ -1,16 +1,13 @@
 ---
 description: 이러한 명령을 사용하여 그림자 효과나 광선 효과와 같은 레이어 효과를 정의할 수 있습니다. 효과 레이어는 다른 모든 명령을 무시합니다.
-seo-description: 이러한 명령을 사용하여 그림자 효과나 광선 효과와 같은 레이어 효과를 정의할 수 있습니다. 효과 레이어는 다른 모든 명령을 무시합니다.
-seo-title: 레이어 효과 명령
 solution: Experience Manager
 title: 레이어 효과 명령
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 태그 필드에 대한 검색 조건을 정의합니다.
-seo-description: 태그 필드에 대한 검색 조건을 정의합니다.
-seo-title: TagCondition
 solution: Experience Manager
 title: TagCondition
-uuid: c7727267-05b6-4011-9ddf-7f3134e9609b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---

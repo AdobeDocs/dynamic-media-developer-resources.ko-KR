@@ -1,16 +1,13 @@
 ---
 description: 콘텐트 데이터 폴더에 대해 다음 서버 설정을 사용합니다.
-seo-description: 콘텐트 데이터 폴더에 대해 다음 서버 설정을 사용합니다.
-seo-title: 콘텐트 데이터 폴더
 solution: Experience Manager
 title: 콘텐트 데이터 폴더
-uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---

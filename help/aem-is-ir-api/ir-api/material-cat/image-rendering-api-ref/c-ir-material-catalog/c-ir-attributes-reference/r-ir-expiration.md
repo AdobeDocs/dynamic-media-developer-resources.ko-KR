@@ -1,16 +1,13 @@
 ---
 description: 기본 클라이언트 캐시 시간을 라이브로 설정합니다. 특정 카탈로그 레코드에 유효한 카탈로그 만료 또는 비네팅 만료 값이 포함되어 있지 않거나 비네팅 파일 또는 자료 파일에 카탈로그 레코드를 사용하지 않고 직접 액세스하는 경우 기본 만료 간격을 제공합니다.
-seo-description: 기본 클라이언트 캐시 시간을 라이브로 설정합니다. 특정 카탈로그 레코드에 유효한 카탈로그 만료 또는 비네팅 만료 값이 포함되어 있지 않거나 비네팅 파일 또는 자료 파일에 카탈로그 레코드를 사용하지 않고 직접 액세스하는 경우 기본 만료 간격을 제공합니다.
-seo-title: 만료
 solution: Experience Manager
 title: 만료
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 기본 보기는 회전 이미지로 구성됩니다.
-seo-description: 기본 보기는 회전 이미지로 구성됩니다.
-seo-title: 회전 보기
 solution: Experience Manager
 title: 회전 보기
-uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
 feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---

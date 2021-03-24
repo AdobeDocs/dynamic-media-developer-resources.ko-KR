@@ -1,17 +1,14 @@
 ---
 description: 특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
-seo-description: 특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
-seo-title: AssetJobLog
 solution: Experience Manager
 title: AssetJobLog
-uuid: 0dd65da1-f358-4d9a-98a2-abfb036347e3
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 5%
+source-wordcount: '114'
+ht-degree: 6%
 
 ---
 

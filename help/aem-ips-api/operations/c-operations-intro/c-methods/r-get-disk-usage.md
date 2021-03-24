@@ -1,17 +1,14 @@
 ---
 description: 회사 구조(파일 수 등)에 대한 정보를 반환합니다.
-seo-description: 회사 구조(파일 수 등)에 대한 정보를 반환합니다.
-seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-uuid: 29190200-8f49-4689-9782-1df665dca1b7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 13%
 
 ---
 

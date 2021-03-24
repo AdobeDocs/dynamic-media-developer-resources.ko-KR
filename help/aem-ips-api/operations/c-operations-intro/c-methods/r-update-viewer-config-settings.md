@@ -1,17 +1,14 @@
 ---
 description: SWF 뷰어 구성 설정을 업데이트합니다.
-seo-description: SWF 뷰어 구성 설정을 업데이트합니다.
-seo-title: updateViewerConfigSettings
 solution: Experience Manager
 title: updateViewerConfigSettings
-uuid: ad4af874-5ca4-4182-868e-afa48b1cd2b6
 feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 12%
+source-wordcount: '68'
+ht-degree: 13%
 
 ---
 

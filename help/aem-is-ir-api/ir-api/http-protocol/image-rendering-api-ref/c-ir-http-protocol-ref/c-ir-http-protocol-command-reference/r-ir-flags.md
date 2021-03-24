@@ -1,16 +1,13 @@
 ---
 description: 플래그를 적용합니다. 추가 렌더링 옵션을 지정합니다.
-seo-description: 플래그를 적용합니다. 추가 렌더링 옵션을 지정합니다.
-seo-title: 플래그
 solution: Experience Manager
 title: 플래그
-uuid: 43ed24fe-461e-4973-aa44-8fba66668e6f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '78'
 ht-degree: 5%
 
 ---

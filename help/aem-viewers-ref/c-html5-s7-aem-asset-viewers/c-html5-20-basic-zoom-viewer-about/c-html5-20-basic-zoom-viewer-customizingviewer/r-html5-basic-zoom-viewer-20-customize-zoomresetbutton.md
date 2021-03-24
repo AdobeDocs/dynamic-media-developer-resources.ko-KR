@@ -1,17 +1,14 @@
 ---
 description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이미지가 재설정됩니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-description: 이 단추를 클릭하거나 탭하면 기본 보기에서 이미지가 재설정됩니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
-seo-title: 확대/축소 재설정 단추
 solution: Experience Manager
 title: 확대/축소 재설정 단추
-uuid: 438e50e8-8e0f-485a-89d8-6fabd8051b2f
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '222'
+ht-degree: 3%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 자산에 대한 게시 컨텍스트 상태를 업데이트합니다.
-seo-description: 자산에 대한 게시 컨텍스트 상태를 업데이트합니다.
-seo-title: ContextStateUpdate
 solution: Experience Manager
 title: ContextStateUpdate
-uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 

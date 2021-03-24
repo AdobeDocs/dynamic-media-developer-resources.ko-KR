@@ -1,16 +1,13 @@
 ---
 description: 비네팅에서 활성화된 경우 렌더러는 조명 알고리즘을 다양하게 변경하여 재료 매끄러운 광택을 시뮬레이션합니다(주로 대비를 제어함으로써).
-seo-description: 비네팅에서 활성화된 경우 렌더러는 조명 알고리즘을 다양하게 변경하여 재료 매끄러운 광택을 시뮬레이션합니다(주로 대비를 제어함으로써).
-seo-title: 광택 효과
 solution: Experience Manager
 title: 광택 효과
-uuid: e4424b04-2d8c-47e5-8474-b5271c923451
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

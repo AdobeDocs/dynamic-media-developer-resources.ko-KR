@@ -1,16 +1,13 @@
 ---
 description: req=tmb 요청에 대한 응답으로 클라이언트에 반환된 이미지는 다음 값 wid=, hei=, attribute DefaultThumbPix 및 속성 MaxPix를 고려하여 합성 이미지에서 파생됩니다.
-seo-description: req=tmb 요청에 대한 응답으로 클라이언트에 반환된 이미지는 다음 값 wid=, hei=, attribute DefaultThumbPix 및 속성 MaxPix를 고려하여 합성 이미지에서 파생됩니다.
-seo-title: 축소판의 변형 보기
 solution: Experience Manager
 title: 축소판의 변형 보기
-uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---

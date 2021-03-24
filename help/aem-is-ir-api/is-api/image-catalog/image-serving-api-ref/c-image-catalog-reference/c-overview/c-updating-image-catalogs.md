@@ -1,16 +1,13 @@
 ---
 description: 서버는 카탈로그 폴더를 지속적으로 모니터링하고 기본 카탈로그 속성 파일이 변경되었음을 감지하면 연관된 카탈로그 데이터 파일을 포함한 이미지 카탈로그를 자동으로 다시 로드합니다.
-seo-description: 서버는 카탈로그 폴더를 지속적으로 모니터링하고 기본 카탈로그 속성 파일이 변경되었음을 감지하면 연관된 카탈로그 데이터 파일을 포함한 이미지 카탈로그를 자동으로 다시 로드합니다.
-seo-title: 이미지 카탈로그 업데이트
 solution: Experience Manager
 title: 이미지 카탈로그 업데이트
-uuid: 7e2557c4-1155-429b-a630-a2aff6725a3b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 유형과 이미지 관련 데이터를 지정합니다.
-seo-description: Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 유형과 이미지 관련 데이터를 지정합니다.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 11%
+source-wordcount: '238'
+ht-degree: 12%
 
 ---
 
@@ -74,7 +71,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>복사 방지. </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +79,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>제한됨. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>복사 방지, 제한적 </p> </td> 
   </tr> 
   <tr> 
@@ -131,7 +128,7 @@ Digimarc 이미지 정보. Digimarc 임베딩을 활성화하고 워터마크 �
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>3</b> </p> </td> 
+   <td> <p><b>1</b> </p> </td> 
    <td> <p>거래 ID. </p> </td> 
    <td> <p>사용되지 않습니다. </p> </td> 
   </tr> 

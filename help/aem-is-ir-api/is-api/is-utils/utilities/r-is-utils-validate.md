@@ -1,16 +1,13 @@
 ---
 description: 이미지 유효성 검사 유틸리티. 이 명령줄 유틸리티는 이미지 파일이 유효한지 확인하고 이미지 제공 기능으로 쉽게 읽을 수 있도록 이미지 파일을 확인합니다.
-seo-description: 이미지 유효성 검사 유틸리티. 이 명령줄 유틸리티는 이미지 파일이 유효한지 확인하고 이미지 제공 기능으로 쉽게 읽을 수 있도록 이미지 파일을 확인합니다.
-seo-title: 유효성 확인
 solution: Experience Manager
 title: 유효성 확인
-uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---

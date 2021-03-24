@@ -1,16 +1,13 @@
 ---
 description: 클라이언트의 실시간 캐시 시간 만료까지 남은 시간. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
-seo-description: 클라이언트의 실시간 캐시 시간 만료까지 남은 시간. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
-seo-title: 만료
 solution: Experience Manager
 title: 만료
-uuid: fa267728-9a36-4705-97d6-d567148fc2d7
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '139'
 ht-degree: 6%
 
 ---

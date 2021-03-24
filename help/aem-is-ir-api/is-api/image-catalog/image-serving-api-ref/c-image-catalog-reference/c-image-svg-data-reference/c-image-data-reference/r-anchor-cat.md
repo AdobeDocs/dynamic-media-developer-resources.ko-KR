@@ -1,16 +1,13 @@
 ---
 description: 이미지 앵커. 이 이미지가 템플릿 또는 합성 이미지에서 레이어로 사용될 경우 원점을 나타냅니다.
-seo-description: 이미지 앵커. 이 이미지가 템플릿 또는 합성 이미지에서 레이어로 사용될 경우 원점을 나타냅니다.
-seo-title: 앵커
 solution: Experience Manager
 title: 앵커
-uuid: 81069578-8470-4ec0-b755-47b0a8124024
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '119'
 ht-degree: 5%
 
 ---

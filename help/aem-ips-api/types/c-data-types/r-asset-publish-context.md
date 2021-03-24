@@ -1,17 +1,14 @@
 ---
 description: 자산을 게시로 표시된 게시 컨텍스트에 자산을 매핑합니다.
-seo-description: 자산을 게시로 표시된 게시 컨텍스트에 자산을 매핑합니다.
-seo-title: AssetPublishContext
 solution: Experience Manager
 title: AssetPublishContext
-uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 

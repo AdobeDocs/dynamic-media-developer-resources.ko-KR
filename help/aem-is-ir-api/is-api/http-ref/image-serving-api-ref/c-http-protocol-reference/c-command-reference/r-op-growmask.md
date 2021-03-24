@@ -1,16 +1,13 @@
 ---
 description: 이미지를 확장하거나 축소합니다. 형태 데이터(반경 > 0) 또는 마모(반경 < 0)를 마스크 데이터에 적용합니다.
-seo-description: 이미지를 확장하거나 축소합니다. 형태 데이터(반경 > 0) 또는 마모(반경 < 0)를 마스크 데이터에 적용합니다.
-seo-title: op_growMask
 solution: Experience Manager
 title: op_growMask
-uuid: 016501e8-33c5-4c9e-8d26-120b1e929c55
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---

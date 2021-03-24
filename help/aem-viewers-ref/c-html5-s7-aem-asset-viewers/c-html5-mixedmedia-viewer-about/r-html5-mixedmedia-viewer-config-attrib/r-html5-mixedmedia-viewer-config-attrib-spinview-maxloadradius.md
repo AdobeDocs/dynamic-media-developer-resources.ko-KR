@@ -1,16 +1,13 @@
 ---
 description: SpinView가 유휴 상태일 때 각 방향으로 미리 로드할 최대 프레임 수를 나타냅니다.
-seo-description: SpinView가 유휴 상태일 때 각 방향으로 미리 로드할 최대 프레임 수를 나타냅니다.
-seo-title: SpinView.maxloadradius
 solution: Experience Manager
 title: SpinView.maxloadradius
-uuid: e1b9fa84-837c-465e-8d37-0b6867404cae
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---

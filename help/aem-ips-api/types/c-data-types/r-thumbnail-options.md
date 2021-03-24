@@ -1,16 +1,13 @@
 ---
 description: 축소판 이미지로 사용할 특정 비디오 프레임을 선택할 수 있는 선택적 유형입니다.
-seo-description: 축소판 이미지로 사용할 특정 비디오 프레임을 선택할 수 있는 선택적 유형입니다.
-seo-title: 축소판 옵션
 solution: Experience Manager
 title: 축소판 옵션
-uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---

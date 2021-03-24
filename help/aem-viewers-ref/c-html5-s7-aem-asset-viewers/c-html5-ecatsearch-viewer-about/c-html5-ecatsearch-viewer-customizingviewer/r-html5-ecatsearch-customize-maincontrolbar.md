@@ -1,16 +1,13 @@
 ---
 description: 주 제어 막대는 eCatalog 검색 뷰어에 사용할 수 있는 모든 사용자 인터페이스 컨트롤(큰 페이지 단추 제외)이 포함된 데스크톱 시스템 및 태블릿의 사각형 영역입니다.
-seo-description: 주 제어 막대는 eCatalog 검색 뷰어에 사용할 수 있는 모든 사용자 인터페이스 컨트롤(큰 페이지 단추 제외)이 포함된 데스크톱 시스템 및 태블릿의 사각형 영역입니다.
-seo-title: 기본 컨트롤 막대
 solution: Experience Manager
 title: 기본 컨트롤 막대
-uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---

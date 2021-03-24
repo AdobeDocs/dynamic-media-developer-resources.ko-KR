@@ -1,16 +1,13 @@
 ---
 description: 연속 확대/축소 모드에서 기본 보기는 현재 자산이 단일 이미지일 때 확대/축소 가능 이미지로 구성됩니다.
-seo-description: 연속 확대/축소 모드에서 기본 보기는 현재 자산이 단일 이미지일 때 확대/축소 가능 이미지로 구성됩니다.
-seo-title: 확대/축소 보기
 solution: Experience Manager
 title: 확대/축소 보기
-uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---

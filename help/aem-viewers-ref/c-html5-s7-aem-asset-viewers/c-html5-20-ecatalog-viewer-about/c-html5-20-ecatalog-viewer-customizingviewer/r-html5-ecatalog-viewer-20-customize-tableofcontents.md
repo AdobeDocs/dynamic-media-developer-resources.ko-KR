@@ -1,17 +1,14 @@
 ---
 description: 목차는 기본 컨트롤 막대에 있는 단추입니다. 활성화하면 페이지 인덱스 및 레이블 목록이 포함된 드롭다운 패널이 나타납니다.
-seo-description: 목차는 기본 컨트롤 막대에 있는 단추입니다. 활성화하면 페이지 인덱스 및 레이블 목록이 포함된 드롭다운 패널이 나타납니다.
-seo-title: 목차
 solution: Experience Manager
 title: 목차
-uuid: e5da89b4-fd3f-41ab-bc55-d43c2999d4b7
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 2%
+source-wordcount: '1068'
+ht-degree: 1%
 
 ---
 

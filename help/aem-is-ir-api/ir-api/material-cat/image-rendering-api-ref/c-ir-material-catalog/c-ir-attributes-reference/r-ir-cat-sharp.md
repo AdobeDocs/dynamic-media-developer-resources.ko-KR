@@ -1,17 +1,14 @@
 ---
 description: 기본 질감 선명하게 하기. 특정 카탈로그 레코드에 유효한 카탈로그 Sharp 값이 포함되어 있지 않을 경우 기본 재료 선명하게 하기 모드를 설정합니다.
-seo-description: 기본 질감 선명하게 하기. 특정 카탈로그 레코드에 유효한 카탈로그 Sharp 값이 포함되어 있지 않을 경우 기본 재료 선명하게 하기 모드를 설정합니다.
-seo-title: 샤프
 solution: Experience Manager
 title: 샤프
-uuid: f6a6101c-3d9e-4557-892b-be7943b4fdca
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '98'
+ht-degree: 10%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: 오류 응답 이미지. 이미지 렌더링은 일반적으로 오류가 발생할 때 텍스트 메시지와 함께 오류 상태를 반환합니다. attribute ErrorImage를 사용하면 오류 발생 시 이미지 구성이 가능합니다.
-seo-description: 오류 응답 이미지. 이미지 렌더링은 일반적으로 오류가 발생할 때 텍스트 메시지와 함께 오류 상태를 반환합니다. attribute ErrorImage를 사용하면 오류 발생 시 이미지 구성이 가능합니다.
-seo-title: ErrorImage *
 solution: Experience Manager
 title: ErrorImage *
-uuid: 6c8801d0-8cd0-4477-9a60-ccbb343a0747
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -20,7 +17,7 @@ ht-degree: 1%
 
 오류 응답 이미지. 이미지 렌더링은 일반적으로 오류가 발생할 때 텍스트 메시지와 함께 오류 상태를 반환합니다. attribute::ErrorImage를 사용하면 오류가 발생하는 경우 이미지를 구성할 수 있습니다.
 
-오류가 발생하면 서버는 먼저 `ImageRendering::attribute::ErrorImage`의 값을 간단한 이미지 파일 경로로 해석하려고 합니다. 파일을 열 수 없는 경우 속성 값과 오류 세부 정보를 이미지 제공(`ImageServing::attribute::ErrorImage`에 설명된 대로 처리)으로 보냅니다. 이미지 제공에서 올바른 응답 이미지를 반환하지 않으면 표준 HTTP 오류 상태 및 텍스트 메시지가 클라이언트에 전송됩니다.
+오류가 발생하면 서버는 먼저 `ImageRendering::attribute::ErrorImage`의 값을 간단한 이미지 파일 경로로 해석하려고 합니다. 파일을 열 수 없는 경우 속성 값과 오류 세부 사항을 이미지 제공(`ImageServing::attribute::ErrorImage`에 설명된 대로 처리)으로 보냅니다. 이미지 제공에서 올바른 응답 이미지를 반환하지 않으면 표준 HTTP 오류 상태 및 텍스트 메시지가 클라이언트에 전송됩니다.
 
 오류 이미지는 HTTP 상태 200과 함께 반환됩니다.
 

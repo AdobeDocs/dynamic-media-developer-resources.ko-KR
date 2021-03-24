@@ -1,17 +1,14 @@
 ---
 description: batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오류 세부 정보입니다.
-seo-description: batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오류 세부 정보입니다.
-seo-title: SetMetadataFault
 solution: Experience Manager
 title: SetMetadataFault
-uuid: 22302bb0-914a-4d50-a188-9c3ee58e0481
 feature: Dynamic Media Classic,SDK/API,메타데이터
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 

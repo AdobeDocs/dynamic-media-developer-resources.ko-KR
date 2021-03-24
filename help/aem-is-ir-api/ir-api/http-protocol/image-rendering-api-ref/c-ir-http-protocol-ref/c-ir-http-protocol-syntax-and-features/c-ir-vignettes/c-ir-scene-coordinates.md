@@ -1,17 +1,14 @@
 ---
 description: 장면 좌표 공간은 텍스처 개체 표면에서 크기 및 거리를 지정하는 데 사용됩니다.
-seo-description: 장면 좌표 공간은 텍스처 개체 표면에서 크기 및 거리를 지정하는 데 사용됩니다.
-seo-title: 장면 좌표
 solution: Experience Manager
 title: 장면 좌표
-uuid: d1215ba2-9cad-4cf6-a57e-7c1d845b0199
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 1%
 
 ---
 

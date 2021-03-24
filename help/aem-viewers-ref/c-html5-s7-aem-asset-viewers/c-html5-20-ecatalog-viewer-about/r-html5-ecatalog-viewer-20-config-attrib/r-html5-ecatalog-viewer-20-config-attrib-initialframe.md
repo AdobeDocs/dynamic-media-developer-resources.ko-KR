@@ -2,11 +2,10 @@
 description: 초기 프레임
 solution: Experience Manager
 title: 초기 프레임
-uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 8%

@@ -1,16 +1,13 @@
 ---
 description: 혼합 미디어 뷰어에 대한 JavaScript API 참조입니다.
-seo-description: 혼합 미디어 뷰어에 대한 JavaScript API 참조입니다.
-seo-title: dispose
 solution: Experience Manager
 title: dispose
-uuid: 8c0e89bc-227b-4ea6-a54e-8d0135d492ef
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---

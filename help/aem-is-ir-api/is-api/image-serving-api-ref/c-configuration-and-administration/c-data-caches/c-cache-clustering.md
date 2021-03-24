@@ -1,16 +1,13 @@
 ---
 description: 캐시 클러스터링을 사용하면 여러 로드 밸런싱을 통해 여러 서버에서 기본 응답 캐시 및 보조 데이터 캐시(중첩된/임베디드 요청의 경우)의 캐시 항목을 교환할 수 있으며, 여러 서버에서 동일한 캐시 항목을 생성하지 않아도 되므로 서버의 응답성을 크게 높일 수 있습니다.
-seo-description: 캐시 클러스터링을 사용하면 여러 로드 밸런싱을 통해 여러 서버에서 기본 응답 캐시 및 보조 데이터 캐시(중첩된/임베디드 요청의 경우)의 캐시 항목을 교환할 수 있으며, 여러 서버에서 동일한 캐시 항목을 생성하지 않아도 되므로 서버의 응답성을 크게 높일 수 있습니다.
-seo-title: 캐시 클러스터링
 solution: Experience Manager
 title: 캐시 클러스터링
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---

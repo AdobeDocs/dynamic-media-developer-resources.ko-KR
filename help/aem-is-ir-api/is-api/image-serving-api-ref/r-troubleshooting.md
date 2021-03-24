@@ -1,16 +1,13 @@
 ---
 description: 이 섹션에는 이미지 제공 시 가끔씩 발생하는 문제에 대한 해결 방법이 포함되어 있습니다.
-seo-description: 이 섹션에는 이미지 제공 시 가끔씩 발생하는 문제에 대한 해결 방법이 포함되어 있습니다.
-seo-title: 문제 해결
 solution: Experience Manager
 title: 문제 해결
-uuid: 39fdaf86-004b-4553-bde0-0367f3ef76b8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---

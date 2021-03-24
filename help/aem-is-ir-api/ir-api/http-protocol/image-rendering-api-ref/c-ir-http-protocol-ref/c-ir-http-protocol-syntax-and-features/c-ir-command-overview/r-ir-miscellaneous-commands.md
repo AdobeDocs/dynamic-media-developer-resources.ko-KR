@@ -1,16 +1,13 @@
 ---
 description: 이러한 명령을 사용할 수도 있습니다.
-seo-description: 이러한 명령을 사용할 수도 있습니다.
-seo-title: 기타 명령
 solution: Experience Manager
 title: 기타 명령
-uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 이 릴리스(Image Serving 6.6.1 및 Image Rendering 6.6.1)은 Image Serving 6.5.3 및 Image Rendering을 대체합니다. 6.5.3.
-seo-description: 이 릴리스(Image Serving 6.6.1 및 Image Rendering 6.6.1)은 Image Serving 6.5.3 및 Image Rendering을 대체합니다. 6.5.3.
-seo-title: 이 릴리스 정보
 solution: Experience Manager
 title: 이 릴리스 정보
-uuid: 2fdd8920-433b-405e-bf93-dbef5735be3f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '128'
 ht-degree: 1%
 
 ---

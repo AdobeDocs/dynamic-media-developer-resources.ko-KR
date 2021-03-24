@@ -1,16 +1,13 @@
 ---
 description: 캐시 클러스터링을 위해 이러한 서버 설정을 사용합니다.
-seo-description: 캐시 클러스터링을 위해 이러한 서버 설정을 사용합니다.
-seo-title: 캐시 클러스터링
 solution: Experience Manager
 title: 캐시 클러스터링
-uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---

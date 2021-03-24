@@ -1,16 +1,13 @@
 ---
 description: 마지막으로 수정한 응답 헤더를 활성화합니다. 이미지 렌더링에서 방출하는 캐시 가능한 HTTP 응답에 마지막으로 수정한 헤더 포함을 활성화하거나 비활성화합니다.
-seo-description: 마지막으로 수정한 응답 헤더를 활성화합니다. 이미지 렌더링에서 방출하는 캐시 가능한 HTTP 응답에 마지막으로 수정한 헤더 포함을 활성화하거나 비활성화합니다.
-seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
-uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---

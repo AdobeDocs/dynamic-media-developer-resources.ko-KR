@@ -1,17 +1,14 @@
 ---
 description: 재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
-seo-description: 재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
-seo-title: 유형
 solution: Experience Manager
 title: 유형
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 21%
+source-wordcount: '164'
+ht-degree: 22%
 
 ---
 

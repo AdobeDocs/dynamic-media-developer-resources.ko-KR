@@ -1,16 +1,13 @@
 ---
 description: '이미지 마스크 사용. 이미지의 마스크 또는 알파 채널이 이미지 작업에 사용되는 방식을 지정합니다(예: 색상화=). 효과 레이어에 지정하면 부모 레이어의 배경 영역 또는 전체 부모 레이어 사각형에 효과를 적용할 수 있습니다.'
-seo-description: '이미지 마스크 사용. 이미지의 마스크 또는 알파 채널이 이미지 작업에 사용되는 방식을 지정합니다(예: 색상화=). 효과 레이어에 지정하면 부모 레이어의 배경 영역 또는 전체 부모 레이어 사각형에 효과를 적용할 수 있습니다.'
-seo-title: maskUse
 solution: Experience Manager
 title: maskUse
-uuid: 2c70da87-f869-495a-be50-226a4516e002
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---

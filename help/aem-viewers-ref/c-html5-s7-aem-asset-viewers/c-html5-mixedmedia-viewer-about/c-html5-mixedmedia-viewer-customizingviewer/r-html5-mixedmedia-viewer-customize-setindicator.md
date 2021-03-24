@@ -1,16 +1,13 @@
 ---
 description: 세트 표시기는 뷰어를 터치 장치에서 사용할 때 기본 색상 견본 위에 렌더링되는 일련의 점입니다. 스크롤 단추를 사용할 수 없을 때 이 점을 사용하면 축소판 페이지를 탐색할 수 있습니다.
-seo-description: 세트 표시기는 뷰어를 터치 장치에서 사용할 때 기본 색상 견본 위에 렌더링되는 일련의 점입니다. 스크롤 단추를 사용할 수 없을 때 이 점을 사용하면 축소판 페이지를 탐색할 수 있습니다.
-seo-title: 표시기 설정
 solution: Experience Manager
 title: 표시기 설정
-uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---

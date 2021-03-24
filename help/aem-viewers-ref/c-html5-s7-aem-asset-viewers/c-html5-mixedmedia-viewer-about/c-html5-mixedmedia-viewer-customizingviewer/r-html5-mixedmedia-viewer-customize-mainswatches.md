@@ -1,16 +1,13 @@
 ---
 description: 기본 색상 견본은 왼쪽 및 오른쪽에 선택적 스크롤 단추가 있는 축소판 이미지 행으로 구성됩니다. 스크롤 단추는 모든 축소판이 컨테이너의 폭에 맞지 않는 경우에만 데스크탑에서 볼 수 있습니다. 모바일 장치에서는 축소판이 컨테이너 폭에 들어갈 수 있는 경우에는 스크롤 단추가 표시되지 않습니다.
-seo-description: 기본 색상 견본은 왼쪽 및 오른쪽에 선택적 스크롤 단추가 있는 축소판 이미지 행으로 구성됩니다. 스크롤 단추는 모든 축소판이 컨테이너의 폭에 맞지 않는 경우에만 데스크탑에서 볼 수 있습니다. 모바일 장치에서는 축소판이 컨테이너 폭에 들어갈 수 있는 경우에는 스크롤 단추가 표시되지 않습니다.
-seo-title: 기본 색상 견본
 solution: Experience Manager
 title: 기본 색상 견본
-uuid: a968372d-3d11-45d7-b17f-50ec998f5e88
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '532'
 ht-degree: 2%
 
 ---

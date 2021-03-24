@@ -1,16 +1,13 @@
 ---
 description: 이미지 렌더링은 ISO-8859-1 및 UTF-8 인코딩을 사용하는 재료 카탈로그를 지원합니다.
-seo-description: 이미지 렌더링은 ISO-8859-1 및 UTF-8 인코딩을 사용하는 재료 카탈로그를 지원합니다.
-seo-title: 문자 인코딩
 solution: Experience Manager
 title: 문자 인코딩
-uuid: efc3971b-dca1-4b47-a197-c10270ce17c9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---

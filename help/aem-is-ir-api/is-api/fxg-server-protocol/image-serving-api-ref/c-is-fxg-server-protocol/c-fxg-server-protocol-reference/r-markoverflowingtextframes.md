@@ -1,17 +1,14 @@
 ---
 description: 더하기 기호가 있는 넘치는 텍스트 프레임을 표시합니다. 텍스트 오버플로우 표시기는 텍스트가 텍스트 프레임(또는 스레드 텍스트인 경우 마지막 텍스트 프레임)에서 지정된 공간을 초과하는 경우를 보여 줍니다. 이 표시기는 위에 더하기 기호가 있는 빨간색 상자입니다.
-seo-description: 더하기 기호가 있는 넘치는 텍스트 프레임을 표시합니다. 텍스트 오버플로우 표시기는 텍스트가 텍스트 프레임(또는 스레드 텍스트인 경우 마지막 텍스트 프레임)에서 지정된 공간을 초과하는 경우를 보여 줍니다. 이 표시기는 위에 더하기 기호가 있는 빨간색 상자입니다.
-seo-title: markOverflowingTextFrames
 solution: Experience Manager
 title: markOverflowingTextFrames
-uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 65%
+source-wordcount: '144'
+ht-degree: 59%
 
 ---
 

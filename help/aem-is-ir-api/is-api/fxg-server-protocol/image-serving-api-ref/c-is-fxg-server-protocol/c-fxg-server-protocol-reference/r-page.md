@@ -1,16 +1,13 @@
 ---
 description: 페이지 검색. 다중 페이지 FXG에서 특정 페이지를 검색합니다.
-seo-description: 페이지 검색. 다중 페이지 FXG에서 특정 페이지를 검색합니다.
-seo-title: 페이지
 solution: Experience Manager
 title: 페이지
-uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '57'
 ht-degree: 5%
 
 ---

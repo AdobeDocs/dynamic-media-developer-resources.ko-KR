@@ -1,16 +1,13 @@
 ---
 description: 기본적으로 소셜 공유 도구는 오른쪽 위 모서리에 표시됩니다. 사용자가 단추를 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 도구가 포함되어 있습니다.
-seo-description: 기본적으로 소셜 공유 도구는 오른쪽 위 모서리에 표시됩니다. 사용자가 단추를 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 도구가 포함되어 있습니다.
-seo-title: 소셜 공유
 solution: Experience Manager
 title: 소셜 공유
-uuid: d7b7e704-6f78-45f9-a82a-14dc6b01e230
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---

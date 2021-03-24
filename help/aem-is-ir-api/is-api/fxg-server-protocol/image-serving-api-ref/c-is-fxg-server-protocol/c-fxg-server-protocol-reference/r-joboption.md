@@ -1,17 +1,14 @@
 ---
 description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
-seo-description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
-seo-title: 작업 옵션
 solution: Experience Manager
 title: 작업 옵션
-uuid: 7288cf29-850f-4121-8425-5f995daac22d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 40%
+source-wordcount: '236'
+ht-degree: 46%
 
 ---
 

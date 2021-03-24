@@ -1,16 +1,13 @@
 ---
 description: ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하는 데 사용되는 규칙을 지정합니다.
-seo-description: ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하는 데 사용되는 규칙을 지정합니다.
-seo-title: LocaleMap
 solution: Experience Manager
 title: LocaleMap
-uuid: 3609a595-2948-43a4-ba8c-fd1a9ea4e26e
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---

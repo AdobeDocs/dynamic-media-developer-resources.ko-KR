@@ -1,17 +1,14 @@
 ---
 description: 클릭유도문안 패널은 비디오가 종료되고 특정 비디오와 관련된 모든 대화형 견본을 표시할 때 나타납니다.
-seo-description: 클릭유도문안 패널은 비디오가 종료되고 특정 비디오와 관련된 모든 대화형 견본을 표시할 때 나타납니다.
-seo-title: 조치 수행 질문
 solution: Experience Manager
 title: 조치 수행 질문
-uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 3%
+source-wordcount: '1286'
+ht-degree: 2%
 
 ---
 

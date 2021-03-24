@@ -1,16 +1,13 @@
 ---
 description: 템플릿을 사용하면 여러 이미지 레이어를 합성하거나 rtf 형식의 텍스트를 포함하는 요청의 길이와 복잡성을 줄일 수 있습니다.
-seo-description: 템플릿을 사용하면 여러 이미지 레이어를 합성하거나 rtf 형식의 텍스트를 포함하는 요청의 길이와 복잡성을 줄일 수 있습니다.
-seo-title: 템플릿
 solution: Experience Manager
 title: 템플릿
-uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 마스크 파일 경로입니다. 이 카탈로그 레코드와 연관된 마스크 이미지 파일의 상대 또는 절대 경로와 이름입니다.
-seo-description: 마스크 파일 경로입니다. 이 카탈로그 레코드와 연관된 마스크 이미지 파일의 상대 또는 절대 경로와 이름입니다.
-seo-title: 마스크 패스
 solution: Experience Manager
 title: 마스크 패스
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다.
-seo-description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다.
-seo-title: 명령 매크로
 solution: Experience Manager
 title: 명령 매크로
-uuid: f90d5132-aa5b-424f-a123-838723ed891a
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---

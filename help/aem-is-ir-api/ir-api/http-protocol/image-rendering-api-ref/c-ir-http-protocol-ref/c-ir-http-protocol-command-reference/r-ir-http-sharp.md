@@ -1,17 +1,14 @@
 ---
 description: 텍스처를 선명하게 합니다. 이 자료를 렌더링할 때 적용할 선명 효과를 지정합니다.
-seo-description: 텍스처를 선명하게 합니다. 이 자료를 렌더링할 때 적용할 선명 효과를 지정합니다.
-seo-title: 날카로운
 solution: Experience Manager
 title: 날카로운
-uuid: 8265eebf-9cec-4ad3-8b22-0f46f33a89f1
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 5%
+source-wordcount: '133'
+ht-degree: 6%
 
 ---
 

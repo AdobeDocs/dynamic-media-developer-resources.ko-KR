@@ -1,17 +1,14 @@
 ---
 description: 문자열 번역 맵. 임의 개수의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
-seo-description: 문자열 번역 맵. 임의 개수의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
-seo-title: LocaleStrMap
 solution: Experience Manager
 title: LocaleStrMap
-uuid: 44207916-80a6-42cb-8bf1-fcf0f5194c6d
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 1%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 이미지 세트 멤버 업데이트 배열입니다.
-seo-description: 이미지 세트 멤버 업데이트 배열입니다.
-seo-title: ImageSetMemberUpdateArray
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
-uuid: 23d45181-1103-4e3a-89a4-984470c11728
 feature: Dynamic Media Classic,SDK/API,이미지 세트
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 

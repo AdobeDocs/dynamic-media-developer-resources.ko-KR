@@ -1,17 +1,14 @@
 ---
 description: 다음 필드는 이미지 및 SVG 데이터 파일에서 인식됩니다.
-seo-description: 다음 필드는 이미지 및 SVG 데이터 파일에서 인식됩니다.
-seo-title: 이미지_SVG 데이터
 solution: Experience Manager
 title: 이미지_SVG 데이터
-uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 2%
+source-wordcount: '124'
+ht-degree: 3%
 
 ---
 

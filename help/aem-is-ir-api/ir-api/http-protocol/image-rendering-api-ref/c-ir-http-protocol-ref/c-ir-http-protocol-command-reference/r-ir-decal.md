@@ -1,17 +1,14 @@
 ---
 description: 디캘러 재질 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(Material Specification Segment)를 시작합니다.
-seo-description: 디캘러 재질 선택기. 반복되지 않는 디폴트 재질에 대한 MSS(Material Specification Segment)를 시작합니다.
-seo-title: 십자
 solution: Experience Manager
 title: 십자
-uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 

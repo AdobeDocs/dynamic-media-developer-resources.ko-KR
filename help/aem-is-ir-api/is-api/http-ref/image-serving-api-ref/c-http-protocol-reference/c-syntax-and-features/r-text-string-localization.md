@@ -1,16 +1,13 @@
 ---
 description: 텍스트 문자열 현지화를 사용하면 이미지 카탈로그에 동일한 문자열 값에 대해 여러 로케일별 표현을 포함할 수 있습니다.
-seo-description: 텍스트 문자열 현지화를 사용하면 이미지 카탈로그에 동일한 문자열 값에 대해 여러 로케일별 표현을 포함할 수 있습니다.
-seo-title: 텍스트 문자열 현지화
 solution: Experience Manager
 title: 텍스트 문자열 현지화
-uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '674'
 ht-degree: 3%
 
 ---

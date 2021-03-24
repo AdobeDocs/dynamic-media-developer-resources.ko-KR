@@ -1,16 +1,13 @@
 ---
 description: 재료 서피스 거칠음. 재료 서피스의 상대 거칠음을 지정합니다.
-seo-description: 재료 서피스 거칠음. 재료 서피스의 상대 거칠음을 지정합니다.
-seo-title: 거친
 solution: Experience Manager
 title: 거친
-uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '182'
 ht-degree: 2%
 
 ---

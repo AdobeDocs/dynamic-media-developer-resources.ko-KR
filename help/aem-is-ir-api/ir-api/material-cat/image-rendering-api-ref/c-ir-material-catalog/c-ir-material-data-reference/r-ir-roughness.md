@@ -1,17 +1,14 @@
 ---
 description: 표면 거칠음. 재료 서피스의 상대 광택을 지정합니다. [유형] 및 [카탈로그 광택]과 함께 사용하여 3D 반사 렌더링 효과를 제어합니다.
-seo-description: 표면 거칠음. 재료 서피스의 상대 광택을 지정합니다. [유형] 및 [카탈로그 광택]과 함께 사용하여 3D 반사 렌더링 효과를 제어합니다.
-seo-title: 거칠음
 solution: Experience Manager
 title: 거칠음
-uuid: d71e4411-dd59-4347-a7c2-132e130ff36b
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 

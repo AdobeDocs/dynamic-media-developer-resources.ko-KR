@@ -1,17 +1,14 @@
 ---
 description: 사용자가 전체 화면 단추를 클릭하면 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어에서 비디오를 표시할 때 사용되며 컨트롤 막대에 있습니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우 이 단추가 표시되지 않습니다.
-seo-description: 사용자가 전체 화면 단추를 클릭하면 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어에서 비디오를 표시할 때 사용되며 컨트롤 막대에 있습니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우 이 단추가 표시되지 않습니다.
-seo-title: 비디오 전체 화면 단추
 solution: Experience Manager
 title: 비디오 전체 화면 단추
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 

@@ -1,16 +1,13 @@
 ---
 description: layer= 명령을 사용하면 레이어에 이름을 지정할 수 있고 레이어 번호가 아닌 이름으로 동일한 레이어를 참조할 수 있습니다.
-seo-description: layer= 명령을 사용하면 레이어에 이름을 지정할 수 있고 레이어 번호가 아닌 이름으로 동일한 레이어를 참조할 수 있습니다.
-seo-title: 이름이 지정된 레이어
 solution: Experience Manager
 title: 이름이 지정된 레이어
-uuid: dad30027-338b-4387-9a14-b26c1b925b18
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---

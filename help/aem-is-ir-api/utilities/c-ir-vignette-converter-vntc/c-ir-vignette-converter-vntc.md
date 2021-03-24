@@ -2,11 +2,10 @@
 description: 비네팅 변환기(vntc)
 solution: Experience Manager
 title: 비네팅 변환기(vntc)
-uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 2%

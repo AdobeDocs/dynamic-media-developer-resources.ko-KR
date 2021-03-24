@@ -1,17 +1,14 @@
 ---
 description: 그래픽을 조작하려면 나침반 지점과 비슷한 참조 지점을 사용할 수 있습니다.
-seo-description: 그래픽을 조작하려면 나침반 지점과 비슷한 참조 지점을 사용할 수 있습니다.
-seo-title: FXG 서버 프로토콜
 solution: Experience Manager
 title: FXG 서버 프로토콜
-uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 63%
+source-wordcount: '277'
+ht-degree: 62%
 
 ---
 

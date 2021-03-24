@@ -1,17 +1,14 @@
 ---
 description: 속성 세트 유형은 속성 집합을 관리하는 데 사용되는 다양한 설정을 지정합니다.
-seo-description: 속성 세트 유형은 속성 집합을 관리하는 데 사용되는 다양한 설정을 지정합니다.
-seo-title: createPropertySetType
 solution: Experience Manager
 title: createPropertySetType
-uuid: ecbaad48-d725-4f7a-a37d-5e4cde3295cb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 10%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 

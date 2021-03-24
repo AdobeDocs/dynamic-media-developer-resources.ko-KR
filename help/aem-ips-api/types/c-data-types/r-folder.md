@@ -1,17 +1,14 @@
 ---
 description: 계층적 파일 또는 자산 저장소 객체입니다. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
-seo-description: 계층적 파일 또는 자산 저장소 객체입니다. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
-seo-title: 폴더
 solution: Experience Manager
 title: 폴더
-uuid: 8ba8d9cb-c4e5-423c-b8cb-ba8751952771
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 9%
+source-wordcount: '79'
+ht-degree: 10%
 
 ---
 

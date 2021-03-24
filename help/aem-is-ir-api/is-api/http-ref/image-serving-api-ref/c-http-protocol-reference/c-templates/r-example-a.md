@@ -1,16 +1,13 @@
 ---
 description: 정적 배경 이미지를 사용하여 고정 크기의 템플릿을 만들고, 왼쪽 가운데의 배경에 정렬하여 배경 폭과 높이의 80%를 초과하지 않도록 크기를 조절하고, 캔버스 오른쪽 가장자리에 수직 텍스트가 있는 텍스트 레이어를 만듭니다.
-seo-description: 정적 배경 이미지를 사용하여 고정 크기의 템플릿을 만들고, 왼쪽 가운데의 배경에 정렬하여 배경 폭과 높이의 80%를 초과하지 않도록 크기를 조절하고, 캔버스 오른쪽 가장자리에 수직 텍스트가 있는 텍스트 레이어를 만듭니다.
-seo-title: 예 A
 solution: Experience Manager
 title: 예 A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---

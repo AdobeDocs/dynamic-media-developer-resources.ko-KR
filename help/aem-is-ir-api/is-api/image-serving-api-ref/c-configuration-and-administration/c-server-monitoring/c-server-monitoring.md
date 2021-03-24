@@ -1,17 +1,14 @@
 ---
 description: 특정 성능 또는 오류 임계값이 초과될 때 이메일 경고를 전송하도록 서버를 구성할 수 있습니다. 시스템은 서버에 배포된 모든 웹 애플리케이션을 종합적으로 모니터링합니다.
-seo-description: 특정 성능 또는 오류 임계값이 초과될 때 이메일 경고를 전송하도록 서버를 구성할 수 있습니다. 시스템은 서버에 배포된 모든 웹 애플리케이션을 종합적으로 모니터링합니다.
-seo-title: 서버 모니터링
 solution: Experience Manager
 title: 서버 모니터링
-uuid: c4042ed9-e186-4f0f-a48b-1af3b67a2f04
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 2%
 
 ---
 

@@ -1,17 +1,14 @@
 ---
 description: 기존 이미지 자산의 사본을 만듭니다. 지정한 이미지 서버 프로토콜 명령이 새 복사본을 생성하기 위해 적용됩니다
-seo-description: 기존 이미지 자산의 사본을 만듭니다. 지정한 이미지 서버 프로토콜 명령이 새 복사본을 생성하기 위해 적용됩니다
-seo-title: copyImage
 solution: Experience Manager
 title: copyImage
-uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 11%
+source-wordcount: '146'
+ht-degree: 13%
 
 ---
 

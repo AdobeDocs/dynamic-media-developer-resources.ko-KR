@@ -1,17 +1,14 @@
 ---
 description: 기본 확대/축소 뷰어는 단일 확대/축소 가능 이미지를 표시하는 이미지 뷰어입니다. 확대/축소 툴, 전체 화면 지원 및 닫기 버튼(선택 사항)이 있습니다. 이 뷰어는 가장 작은 뷰어입니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 keywords: 반응형
-seo-description: 기본 확대/축소 뷰어는 단일 확대/축소 가능 이미지를 표시하는 이미지 뷰어입니다. 확대/축소 툴, 전체 화면 지원 및 닫기 버튼(선택 사항)이 있습니다. 이 뷰어는 가장 작은 뷰어입니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
-seo-title: 기본 확대/축소
 solution: Experience Manager
 title: 기본 확대/축소
-uuid: 5466d647-af70-4503-9898-bb712ba6a007
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2087'
+source-wordcount: '2044'
 ht-degree: 0%
 
 ---

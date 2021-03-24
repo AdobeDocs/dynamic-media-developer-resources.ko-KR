@@ -1,17 +1,14 @@
 ---
 description: ZIP 항목의 배열입니다.
-seo-description: ZIP 항목의 배열입니다.
-seo-title: ZipEntryArray
 solution: Experience Manager
 title: ZipEntryArray
-uuid: 530ad406-b23c-4cee-a23e-141cf78818c0
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 

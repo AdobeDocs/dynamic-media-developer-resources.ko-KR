@@ -1,16 +1,13 @@
 ---
 description: 접두사 요청 수정자 문자열. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
-seo-description: 접두사 요청 수정자 문자열. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
-seo-title: 수정자
 solution: Experience Manager
 title: 수정자
-uuid: eb17d115-22ec-4b1b-9039-9bd2bc256f48
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '108'
 ht-degree: 7%
 
 ---

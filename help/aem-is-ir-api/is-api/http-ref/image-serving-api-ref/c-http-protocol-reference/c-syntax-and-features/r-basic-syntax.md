@@ -1,16 +1,13 @@
 ---
 description: HTTP 프로토콜 기본 구문은 다음과 같습니다.
-seo-description: HTTP 프로토콜 기본 구문은 다음과 같습니다.
-seo-title: 이미지 제공 HTTP 프로토콜 기본 구문
 solution: Experience Manager
 title: 이미지 제공 HTTP 프로토콜 기본 구문
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -47,19 +44,19 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 매크로</span> </span> </p> </td> 
-  <td class="stentry"> <p>명령 매크로의 이름입니다. </p></td> 
+  <td class="stentry"> <p>명령 매크로의 이름입니다.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 주석</span> </span> </p></td> 
-  <td class="stentry"> <p>주석 문자열(서버에서 무시됨). </p></td> 
+  <td class="stentry"> <p>주석 문자열(서버에서 무시됨).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>지원되는 명령 또는 속성 이름 중 하나입니다. </p></td> 
+  <td class="stentry"> <p>지원되는 명령 또는 속성 이름 중 하나입니다.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>사용자 지정 변수의 이름입니다. </p></td> 
+  <td class="stentry"> <p>사용자 지정 변수의 이름입니다.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -69,7 +66,7 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
 
 *`server_address`*,  *`cmdName`*&#x200B;및 대/소문자를 구분하지  *`macro`*  *`var`* 않습니다. 서버는 다른 모든 문자열 값의 대/소문자를 유지합니다.
 
-*`value`* 은 명령에 따라 다르며, 하나 이상의 값을 쉼표로 구분하여 포함할 수 있습니다. 자세한 내용은 개별 명령에 대한 설명을 참조하십시오.
+*`value`* 은 명령에 따라 다르며 하나 이상의 값을 쉼표로 구분하여 구성할 수 있습니다. 자세한 내용은 개별 명령에 대한 설명을 참조하십시오.
 
 ## 서버 식별자 {#section-926ae55ddba14b8d952147a5fd701e14}
 
@@ -85,7 +82,7 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
 
 ## 설명 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-주석은 어디에서나 요청 문자열에 포함될 수 있으며 마침표(.)로 식별됩니다. 명령 separator(&amp;) 바로 다음에 나옵니다. 주석은 (인코딩되지 않은) 명령 구분 기호로 다음 항목으로 끝납니다. 이 기능은 타임스탬프, 데이터베이스 ID 등과 같이 이미지 제공 용이 아닌 요청에 정보를 추가하는 데 사용할 수 있습니다.
+주석은 어디에서나 요청 문자열에 포함될 수 있으며 마침표(.)로 식별됩니다. 명령 separator(&amp;) 바로 다음에 나옵니다. 주석은 (인코딩되지 않은) 명령 구분 기호로 다음 항목으로 끝납니다. 이 기능을 사용하여 타임스탬프 및 데이터베이스 ID와 같이 이미지 제공 용이 아닌 요청에 정보를 추가할 수 있습니다.
 
 ## 참조 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

@@ -1,16 +1,13 @@
 ---
 description: 대부분의 재료는 동적으로 색상화할 수 있습니다.
-seo-description: 대부분의 재료는 동적으로 색상화할 수 있습니다.
-seo-title: 재질 색상화
 solution: Experience Manager
 title: 재질 색상화
-uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---

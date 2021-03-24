@@ -1,17 +1,14 @@
 ---
 description: 텍스처 반복 모드. 대상 표면을 칠하기 위해 텍스처 이미지를 바둑판식으로 배열하는 방법을 지정합니다.
-seo-description: 텍스처 반복 모드. 대상 표면을 칠하기 위해 텍스처 이미지를 바둑판식으로 배열하는 방법을 지정합니다.
-seo-title: 반복
 solution: Experience Manager
 title: 반복
-uuid: bd15a573-9902-4672-992d-90d171160a46
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 18%
+source-wordcount: '135'
+ht-degree: 20%
 
 ---
 

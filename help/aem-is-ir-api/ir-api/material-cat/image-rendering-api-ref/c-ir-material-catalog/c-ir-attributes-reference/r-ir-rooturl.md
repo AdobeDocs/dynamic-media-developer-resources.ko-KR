@@ -1,17 +1,14 @@
 ---
 description: 상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다. src= 값을 { 중괄호 }(으)로 묶으면 RootPath 속성 대신 attribute RootUrl이 사용됩니다.
-seo-description: 상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다. src= 값을 { 중괄호 }(으)로 묶으면 RootPath 속성 대신 attribute RootUrl이 사용됩니다.
-seo-title: 루트 URL *
 solution: Experience Manager
 title: 루트 URL *
-uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 

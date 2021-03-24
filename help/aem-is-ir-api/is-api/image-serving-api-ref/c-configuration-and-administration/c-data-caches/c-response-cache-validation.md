@@ -1,16 +1,13 @@
 ---
 description: 캐시 항목은 CacheValidationPolicy 속성(default.ini 또는 특정 이미지 카탈로그의 .ini 파일에서)으로 선택한 대로 카탈로그 기반 또는 만료 기반 캐시 유효성 검사를 사용하여 자동으로 새로 고쳐집니다.
-seo-description: 캐시 항목은 CacheValidationPolicy 속성(default.ini 또는 특정 이미지 카탈로그의 .ini 파일에서)으로 선택한 대로 카탈로그 기반 또는 만료 기반 캐시 유효성 검사를 사용하여 자동으로 새로 고쳐집니다.
-seo-title: 응답 캐시 유효성 검사
 solution: Experience Manager
 title: 응답 캐시 유효성 검사
-uuid: d1aad5ae-f0fa-489b-a48b-b0ac8c8f43bb
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 모든 축소판에 적용되는 이미지 제공 명령 문자열.
-seo-description: 모든 축소판에 적용되는 이미지 제공 명령 문자열.
-seo-title: FavoritesView.iscommand
 solution: Experience Manager
 title: FavoritesView.iscommand
-uuid: 59a25b65-a08f-46e9-a9eb-33672e4a0cb5
 feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 6%
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 

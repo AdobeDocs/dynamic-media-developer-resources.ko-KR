@@ -1,17 +1,14 @@
 ---
 description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 하나 이상의 활성 서버가 정의된 경우 게시 컨텍스트는 활성으로 간주됩니다.
-seo-description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 하나 이상의 활성 서버가 정의된 경우 게시 컨텍스트는 활성으로 간주됩니다.
-seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 10%
 
 ---
 

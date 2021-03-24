@@ -1,16 +1,13 @@
 ---
 description: 카탈로그 필드에는 이러한 기본값이 사용됩니다.
-seo-description: 카탈로그 필드에는 이러한 기본값이 사용됩니다.
-seo-title: 카탈로그 필드의 기본값
 solution: Experience Manager
 title: 카탈로그 필드의 기본값
-uuid: 8902766c-c2d9-433a-9c49-3182b063269f
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '58'
 ht-degree: 0%
 
 ---

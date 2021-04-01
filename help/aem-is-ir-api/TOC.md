@@ -1,14 +1,14 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
 breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
 feature-set: Experience Manager Assets
 user-guide-description: IS(Image Serving) 및 IR(Image Rendering) API 및 관련 기술에 대한 설명서를 볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1466'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

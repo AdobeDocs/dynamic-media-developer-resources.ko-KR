@@ -1,18 +1,18 @@
 ---
-cloud: experience-cloud
-user-guide-title: Dynamic Media Image Production System API
+cloud: Experience Cloud
+user-guide-title: Dynamic Media 이미지 프로덕션 시스템 API
 feature-set: Experience Manager Assets
 user-guide-description: IPS(Image Production System) 웹 서비스 API를 사용하면 외부 애플리케이션과 타사 개발자는 프로그래밍 방식으로 IPS 에셋 및 기능에 액세스할 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Dynamic Media 이미지 제작 시스템 API {#image-production-api}
+# Dynamic Media 이미지 프로덕션 시스템 API {#image-production-api}
 
 + [Dynamic Media Image Production System API 정보](c-overview.md)
 + [사용되지 않는 호출](c-deprecated-calls.md)

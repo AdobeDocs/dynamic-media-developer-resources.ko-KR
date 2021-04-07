@@ -4,14 +4,14 @@ solution: Experience Manager
 title: getComponent**
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
+exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 1%
 
 ---
-
 
 # getComponent**{#getcomponent}
 
@@ -89,4 +89,3 @@ SDK API 작업 시 [뷰어 SDK 네임스페이스](../../../c-html5-aem-asset-vi
 } 
 })
 ```
-

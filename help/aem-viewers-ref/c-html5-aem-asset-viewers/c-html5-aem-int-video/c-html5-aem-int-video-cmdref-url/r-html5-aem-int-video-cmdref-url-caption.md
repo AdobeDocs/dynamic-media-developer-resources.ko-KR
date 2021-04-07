@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 캡션
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 10%
 
 ---
-
 
 # caption{#caption}
 
@@ -86,4 +86,3 @@ WebVTT 파일에 있는 다른 WebVTT 기능은 지원되지 않지만 캡션을
 ```
 caption=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.caption.vtt,1
 ```
-

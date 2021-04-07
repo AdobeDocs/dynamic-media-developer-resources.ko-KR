@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360 뷰어용 JavaScript API 참조
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
 
 ---
-
 
 # Video360 뷰어에 대한 JavaScript API 참조{#javascript-api-reference-for-video-viewer}
 

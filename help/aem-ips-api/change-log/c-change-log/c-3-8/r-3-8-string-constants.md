@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 문자열 상수 새로 만들기 및 수정됨
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,관리자
+exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 4%
 
 ---
-
 
 # 문자열 상수:새로 만들기 및 수정됨{#string-constants-new-and-modified}
 
@@ -39,4 +39,3 @@ IPS API 버전 3.8의 새 문자열 상수와 변경된 문자열 상수에 대�
 
 * 사용 방법:`createImageSetParam/type`.
 * 값:`InDesign` 및 `Flash`.
-

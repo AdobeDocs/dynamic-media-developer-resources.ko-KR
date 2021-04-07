@@ -4,14 +4,14 @@ solution: Experience Manager
 title: CarouselView.maxloadradius
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
+exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 5%
 
 ---
-
 
 # CarouselView.maxloadradius{#carouselview-maxloadradius}
 

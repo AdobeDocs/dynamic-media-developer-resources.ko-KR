@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 링크 공유
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 2%
 
 ---
-
 
 # 링크 공유{#link-share}
 
@@ -713,4 +713,3 @@ background-color: #ffffff;
     width: 450px; 
 }
 ```
-

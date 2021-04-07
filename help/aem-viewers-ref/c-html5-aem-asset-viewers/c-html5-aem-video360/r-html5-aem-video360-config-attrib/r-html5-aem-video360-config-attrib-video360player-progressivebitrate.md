@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360Player.progressivebitrate
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 7%
 
 ---
-
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
@@ -41,4 +41,3 @@ Video360 뷰어에 대한 구성 속성입니다.
 ```
 progressivebitrate=600
 ```
-

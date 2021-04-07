@@ -3,14 +3,14 @@ description: 대화형 이미지 뷰어에 표시되는 특정 컨텐트는 로�
 title: 사용자 인터페이스 요소의 로컬라이제이션
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가
+exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # 사용자 인터페이스 요소의 현지화{#localization-of-user-interface-elements}
 
@@ -64,4 +64,3 @@ defaultLocale:"en"
   </tr> 
  </tbody> 
 </table>
-

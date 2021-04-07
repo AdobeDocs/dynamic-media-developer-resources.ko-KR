@@ -4,8 +4,9 @@ solution: Experience Manager
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 feature: Dynamic Media Classic,SDK/API,자산 관리
 role: 개발자,관리자
+exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 3%

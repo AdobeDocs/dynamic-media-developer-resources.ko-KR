@@ -4,14 +4,14 @@ solution: Experience Manager
 title: AEM Assets 전용 뷰어
 feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
 role: 개발자,비즈니스 전문가
+exl-id: f0668991-8619-4670-bc69-85a7a96893dd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 4%
 
 ---
-
 
 # AEM Assets 전용 뷰어{#viewers-for-aem-assets-only}
 

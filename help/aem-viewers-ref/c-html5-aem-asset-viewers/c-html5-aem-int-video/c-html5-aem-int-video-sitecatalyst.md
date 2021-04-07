@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Adobe Analytics 추적 지원
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
+exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 3%
 
 ---
-
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
@@ -84,4 +84,3 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
  </tbody> 
 </table>
-

@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 이벤트 콜백
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
+exl-id: af051437-28e5-416f-a61a-0abafb1814b2
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
 
 ---
-
 
 # 이벤트 콜백{#event-callbacks}
 

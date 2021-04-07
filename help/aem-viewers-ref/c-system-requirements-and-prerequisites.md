@@ -7,7 +7,7 @@ feature: Dynamic Media Classic,뷰어,SDK/API
 role: 개발자,비즈니스 전문가
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -73,23 +73,24 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 
 >[!NOTE]
 >
->2018년 9월 30일부터 TLS 1.0(Transport Layer Security 1.0)에 대한 Adobe Dynamic Media Classic Viewers 지원이 종료됩니다. 따라서 Dynamic Media Classic에서는 TLS 1.0을 지원하는 다음 브라우저/플랫폼에서 뷰어를 더 이상 지원하지 않습니다. (Adobe은 TLS 1.2 이상을 사용하는 것이 좋습니다.)
+>2018년 9월 30일부터 TLS 1.0(Transport Layer Security 1.0)에 대한 Adobe Dynamic Media Classic Viewers 지원이 종료됩니다. 이와 같이 Dynamic Media Classic에서는 TLS 1.0을 지원하는 다음 브라우저/플랫폼에서 뷰어를 더 이상 지원하지 않습니다(Adobe에서는 TLS 1.2 이상을 사용하는 것이 좋습니다).
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Windows Vista®의 Internet Explorer 7
+> * Windows® XP의 Internet Explorer 8
+> * Windows® 7의 Internet Explorer 8-10
+> * Windows® Phone 8.0의 Internet Explorer 10
+> * Apple OS X 10.6.8 기반의 Safari 5.1.9
+> * Apple OS X 10.8.4 기반의 Safari 6.0.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * 2015년 1월 Baidu
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Windows Vista®의 Internet Explorer 7
-* Windows® XP의 Internet Explorer 8
-* Windows® 7의 Internet Explorer 8-10
-* Windows® Phone 8.0의 Internet Explorer 10
-* Apple OS X 10.6.8 기반의 Safari 5.1.9
-* Apple OS X 10.8.4 기반의 Safari 6.0.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* 2015년 1월 Baidu
 
 >[!NOTE]
 >

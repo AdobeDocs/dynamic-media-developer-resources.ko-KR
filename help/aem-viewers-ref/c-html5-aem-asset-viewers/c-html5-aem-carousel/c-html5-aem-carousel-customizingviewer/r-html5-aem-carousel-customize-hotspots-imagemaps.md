@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 핫스팟 및 이미지 맵
 feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
 role: 개발자,비즈니스 전문가
+exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
 
 ---
-
 
 # 핫스팟 및 이미지 맵{#hotspots-and-image-maps}
 
@@ -106,4 +106,3 @@ ht-degree: 1%
  background: RGBA(0,0,0,0);  
 }
 ```
-

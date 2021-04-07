@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: 개발자,비즈니스 전문가
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 17%
+source-wordcount: '271'
+ht-degree: 6%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,15 +23,15 @@ ht-degree: 17%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 빌린  </span> </p> </td> 
-   <td colname="col2"> <p>표준 선형 보간을 선택합니다. 가장 빠른 재샘플링 방법입니다. 일부 앨리어싱 가공물이 발생할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>표준 선형 보간을 선택합니다. 더욱 빨라진 리샘플링 방법;일부 앨리어스 가공물이 눈에 띄습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 쌍두  </span> </p> </td> 
-   <td colname="col2"> <p>입방 보간을 선택합니다. 양방향 선형 보간보다 CPU 사용량이 높지만 앨리어싱 가공물이 적은 경우 더 선명한 이미지를 생성합니다. </p> </td> 
+   <td colname="col2"> <p>입방 보간을 선택합니다. 양방향 선형 보간보다 CPU 사용량이 높지만 앨리어싱 가공물이 적은 선명한 이미지를 만들어냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>수정된 Lanczos Window 기능을 보간 알고리즘으로 선택합니다. 쌍3차보다 더 선명한 결과를 생성하지만 CPU 사용이 증가할 수 있습니다. <span class="codeph"> sharp </span> 는  <span class="codeph"> sharp2 </span>로 대체되어 앨리어싱 가공물(Moiré)의 발생 가능성이 낮습니다. </p> </td> 
+   <td colname="col2"> <p>수정된 Lanczos Window 기능을 보간 알고리즘으로 선택합니다. 더 높은 CPU 비용으로 2큐빅보다 약간 더 선명하게 결과를 생성할 수 있습니다. <span class="codeph"> sharp </span> 는  <span class="codeph"> sharp2 </span>로 대체되어 앨리어싱 가공물(Moiré)의 발생 가능성이 낮습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 비카르프  </span> </p> </td> 
@@ -39,6 +39,12 @@ ht-degree: 17%
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>`resMode=bisharp` 및 `fit=stretch`을 모두 사용할 때 이미지의 종횡비를 유지하려면 width 매개 변수 또는 height 매개 변수를 사용하는 것이 좋습니다. 두 매개 변수를 모두 정의해야 하는 경우 다음 예제와 같이 다른 레이어에 매개 변수를 줄 바꿈할 수 있습니다.
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## 속성 {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ ht-degree: 17%
 
 ## 예 {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-이미지 카탈로그에 저장된 레이어가 있는 이미지의 고품질 변환을 검색합니다. 이미지에 텍스트가 포함될 수 있습니다. 이미지 편집 응용 프로그램에서 추가 프로세스를 수행할 예정이므로 이미지에 알파 채널을 요청합니다.
+이미지 카탈로그에 저장된 레이어가 있는 이미지의 고품질 변환을 검색합니다. 이미지에 텍스트가 포함될 수 있습니다. 이미지가 이미지 편집 응용 프로그램에서 추가로 처리되므로 이미지가 포함된 알파 채널을 요청합니다.
 
 ` http:// *`서버`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

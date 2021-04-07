@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 공유 포함
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '2606'
 ht-degree: 2%
 
 ---
-
 
 # 공유 포함{#embed-share}
 
@@ -1288,4 +1288,3 @@ background-image:url(images/sdk/scroll_up_up.png);
  background-image:url(images/sdk/scroll_down_disabled.png); 
 }
 ```
-

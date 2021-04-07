@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 상호 작용 데이터
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
+exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 5%
 
 ---
-
 
 # interactivedata{#interactivedata}
 
@@ -43,4 +43,3 @@ ht-degree: 5%
 ```
 interactivedata=is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt
 ```
-

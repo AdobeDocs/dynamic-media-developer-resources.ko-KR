@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 캡션 단추
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
 
 ---
-
 
 # 캡션 단추{#caption-button}
 
@@ -109,4 +109,3 @@ background-image:url(images/v2/ClosedCaptionButton_down.png);
 background-image:url(images/v2/ClosedCaptionButton_disabled.png);  
 }
 ```
-

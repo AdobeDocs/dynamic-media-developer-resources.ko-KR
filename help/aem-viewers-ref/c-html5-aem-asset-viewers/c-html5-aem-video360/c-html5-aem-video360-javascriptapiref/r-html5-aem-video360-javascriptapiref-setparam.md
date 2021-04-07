@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setParam
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: eb739d2d-7512-49e2-be13-10f05e2fcc1e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 3%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -49,4 +49,3 @@ Video360 뷰어용 JavaScript API 참조 설명서.
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-

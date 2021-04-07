@@ -4,14 +4,14 @@ solution: Experience Manager
 title: VideoScrubber.timepattern
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # VideoScrubber.timepattern{#videoscrubber-timepattern}
 
@@ -41,4 +41,3 @@ Video360 뷰어에 대한 구성 속성입니다.
 ```
 timepattern=h:mm:ss
 ```
-

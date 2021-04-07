@@ -4,14 +4,14 @@ solution: Experience Manager
 title: config
 feature: Dynamic Media Classic,뷰어,SDK/API
 role: 개발자,비즈니스 전문가
+exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 3%
 
 ---
-
 
 # config{#config}
 
@@ -97,7 +97,7 @@ config=/etc/dam/presets/viewer/Shoppable_Banner
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
-## 예 5 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
+## 예 4 {#section-98dd1cc6b2a24375a1bd572fa83be35c}
 
 `Shoppable_Video_Dark`이라는 뷰어 사전 설정에 다음 데이터가 포함되어 있습니다.
 
@@ -136,4 +136,3 @@ config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 ```
-

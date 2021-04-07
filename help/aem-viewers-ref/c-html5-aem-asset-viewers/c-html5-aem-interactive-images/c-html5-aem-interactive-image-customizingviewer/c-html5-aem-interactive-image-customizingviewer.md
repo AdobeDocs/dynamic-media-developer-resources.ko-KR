@@ -5,14 +5,14 @@ solution: Experience Manager
 title: 대화형 이미지 뷰어 사용자 정의
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가
+exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1291'
 ht-degree: 0%
 
 ---
-
 
 # 대화형 이미지 뷰어 사용자 지정{#customizing-interactive-image-viewer}
 

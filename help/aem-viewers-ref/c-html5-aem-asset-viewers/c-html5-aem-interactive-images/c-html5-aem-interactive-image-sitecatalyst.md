@@ -4,14 +4,14 @@ solution: Experience Manager
 title: 분석 추적 지원
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
 role: 개발자,비즈니스 전문가,데이터 엔지니어,데이터 아키텍트
+exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
 
 ---
-
 
 # 분석 추적 지원{#support-for-analytics-tracking}
 
@@ -63,4 +63,3 @@ var interactiveImage = new s7viewers.InteractiveImage({
   </tr> 
  </tbody> 
 </table>
-

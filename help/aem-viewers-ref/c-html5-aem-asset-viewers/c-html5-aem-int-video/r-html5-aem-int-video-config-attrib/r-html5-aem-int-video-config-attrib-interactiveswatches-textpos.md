@@ -4,14 +4,14 @@ solution: Experience Manager
 title: InteractiveSwatches.textpos
 feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 875d36cc-7372-454e-9a04-32492a2e558e
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 4%
 
 ---
-
 
 # InteractiveSwatches.textpos{#interactiveswatches-textpos}
 
@@ -41,4 +41,3 @@ ht-degree: 4%
 ```
 textpos=top
 ```
-

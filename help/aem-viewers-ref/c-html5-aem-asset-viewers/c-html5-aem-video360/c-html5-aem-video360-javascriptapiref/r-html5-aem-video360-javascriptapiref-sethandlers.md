@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setHandlers
 feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
 role: 개발자,비즈니스 전문가
+exl-id: 90775d4a-386b-4b56-b75e-8afafe749645
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 3%
 
 ---
-
 
 # setHandlers{#sethandlers}
 
@@ -45,4 +45,3 @@ Video360 뷰어용 JavaScript API 참조
 } 
 })
 ```
-

@@ -2,15 +2,14 @@
 description: Adobe Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈
 solution: Experience Manager
 title: Adobe Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈
-topic: Dynamic Media 이미지 제공 - 이미지 렌더링 API
+exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈{#adobe-scene-image-serving-and-image-rendering-api-home}
 

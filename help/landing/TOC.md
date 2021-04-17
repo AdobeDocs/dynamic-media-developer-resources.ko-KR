@@ -1,7 +1,7 @@
 ---
 title: Adobe Dynamic Media 개발자 리소스
 cloud: Experience Cloud
-product: Adobe Dynamic Media Developer Resources
+product: adobe dynamic media classic
 solution: Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media 개발자 리소스
@@ -10,10 +10,10 @@ user-guide-description: 뷰어 참조 안내서, 이미지 제작 시스템 API,
 feature-set: Experience Manager Assets
 index: y
 translation-type: tm+mt
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

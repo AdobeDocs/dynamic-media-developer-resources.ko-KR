@@ -3,7 +3,7 @@ description: 서버 디렉토리에 게시할 준비가 된 것으로 표시된 
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Dynamic Media Classic에 에셋을 업로드하면 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
 solution: Experience Manager
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

@@ -3,7 +3,7 @@ description: 비네팅에 대한 새 게시 형식을 만듭니다.
 solution: Experience Manager
 title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

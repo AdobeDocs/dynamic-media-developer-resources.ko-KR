@@ -3,7 +3,7 @@ description: 내부 용도로만 사용하십시오. 이미지 렌더링 재료 
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

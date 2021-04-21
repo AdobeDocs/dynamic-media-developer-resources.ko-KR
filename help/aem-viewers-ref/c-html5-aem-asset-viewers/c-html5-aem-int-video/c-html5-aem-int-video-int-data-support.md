@@ -2,8 +2,8 @@
 description: 대화형 비디오 뷰어는 구성 매개 변수로 뷰어에 전달된 대화형 데이터를 기반으로 대화형 색상 견본 렌더링을 지원합니다.
 solution: Experience Manager
 title: 인터랙티브한 데이터 지원
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9118bf02-16ae-4dab-92e4-17347e866cc9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 재생/일시 정지 단추를 사용하면 사용자가 비디오 컨텐츠를 클릭할 때 비디오 플레이어가 재생되거나 일시 정지됩니다.
 solution: Experience Manager
 title: 재생/일시 정지 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

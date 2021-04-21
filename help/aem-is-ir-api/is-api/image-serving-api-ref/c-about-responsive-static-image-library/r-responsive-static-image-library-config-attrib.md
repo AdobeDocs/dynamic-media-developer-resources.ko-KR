@@ -3,7 +3,7 @@ description: 구성 속성은 응답형 이미지 라이브러리가 관리하�
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,8 +3,8 @@ description: 모든 시각적 사용자 지정 및 대화형 비디오 뷰어에
 keywords: 반응형
 solution: Experience Manager
 title: 대화형 비디오 뷰어 사용자 정의
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

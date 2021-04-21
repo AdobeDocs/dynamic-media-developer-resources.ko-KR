@@ -1,8 +1,8 @@
 ---
 description: 대화형 이미지 뷰어에 표시되는 특정 컨텐트는 로컬라이제이션을 따릅니다. 여기에는 로드 시 플라이아웃 확대/축소 보기에 의해 표시되는 사용자 인터페이스 요소 도구 설명 및 정보 메시지가 포함됩니다.
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

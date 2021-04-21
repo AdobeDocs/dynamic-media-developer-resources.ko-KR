@@ -3,7 +3,7 @@ description: 회사에 대한 핸들과 속성 집합 유형의 이름을 사용
 solution: Experience Manager
 title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

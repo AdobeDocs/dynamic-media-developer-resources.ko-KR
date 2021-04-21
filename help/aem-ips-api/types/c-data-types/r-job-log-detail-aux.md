@@ -3,7 +3,7 @@ description: 주 작업 로그 메시지(JobDetail)와 연결된 보조 메시�
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

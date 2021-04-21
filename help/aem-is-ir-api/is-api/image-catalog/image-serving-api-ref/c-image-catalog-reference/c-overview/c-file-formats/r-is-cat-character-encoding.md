@@ -3,7 +3,7 @@ description: 이미지 제공은 ISO-8859-1 및 UTF-8 인코딩의 이미지 카
 solution: Experience Manager
 title: 문자 인코딩
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

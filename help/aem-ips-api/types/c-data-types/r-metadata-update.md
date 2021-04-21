@@ -2,8 +2,8 @@
 description: setAssetMetadata에 사용되는 특정 에셋의 메타데이터 값을 설정합니다. 메타데이터를 변경할 변경 사항에 대해 설명합니다.
 solution: Experience Manager
 title: MetadataUpdate
-feature: Dynamic Media Classic,SDK/API,메타데이터
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

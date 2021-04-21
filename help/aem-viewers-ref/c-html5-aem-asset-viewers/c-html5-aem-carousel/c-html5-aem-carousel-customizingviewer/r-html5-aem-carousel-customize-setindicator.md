@@ -2,8 +2,8 @@
 description: 세트 표시기는 뷰어 아래쪽에 렌더링된 일련의 점입니다. 세트 내의 현재 위치를 표시합니다.
 solution: Experience Manager
 title: 표시기 설정
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

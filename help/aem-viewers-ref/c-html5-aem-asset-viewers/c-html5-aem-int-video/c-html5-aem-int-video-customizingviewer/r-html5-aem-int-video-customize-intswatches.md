@@ -2,8 +2,8 @@
 description: 대화형 데이터가 구성에서 뷰어에 전달된 경우 비디오 내용 옆에 대화형 색상 견본 패널이 나타납니다. 이 배너는 맨 위에 있는 배너로 구성되며 "클릭하여 보기"와 같은 텍스트를 렌더링하는 배너로 구성되어 있으며 하나 이상의 대화형 색상 견본으로 구성된 열 및 2개의 스크롤 단추(데스크탑 시스템에서만 사용 가능)가 있습니다.
 solution: Experience Manager
 title: 인터랙티브한 색상 견본
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

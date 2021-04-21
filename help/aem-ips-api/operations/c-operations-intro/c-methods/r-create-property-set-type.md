@@ -3,7 +3,7 @@ description: 속성 세트 유형은 속성 집합을 관리하는 데 사용되
 solution: Experience Manager
 title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

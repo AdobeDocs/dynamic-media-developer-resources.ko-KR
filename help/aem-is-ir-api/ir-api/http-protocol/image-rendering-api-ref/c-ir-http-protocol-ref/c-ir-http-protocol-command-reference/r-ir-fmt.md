@@ -3,7 +3,7 @@ description: 회신 이미지 형식입니다. 클라이언트에 전송된 이�
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt

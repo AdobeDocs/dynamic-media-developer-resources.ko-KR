@@ -3,7 +3,7 @@ description: 자산 또는 폴더에 대한 디스크 공간 통계.
 solution: Experience Manager
 title: 디스크 사용량
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

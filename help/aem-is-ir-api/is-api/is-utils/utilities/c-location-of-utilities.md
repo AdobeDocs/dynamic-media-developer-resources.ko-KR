@@ -3,7 +3,7 @@ description: 이미지 서비스에는 3개의 유틸리티가 포함되어 있�
 solution: Experience Manager
 title: 유틸리티 위치
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 특성을 FXG 루트 요소로 설정합니다.
 solution: Experience Manager
 title: setAttr.rootElement
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

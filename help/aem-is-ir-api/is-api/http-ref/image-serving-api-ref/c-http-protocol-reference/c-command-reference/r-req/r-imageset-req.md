@@ -2,8 +2,8 @@
 description: 이미지 카탈로그의 이미지 집합 데이터. URL 경로에 지정된 이미지 카탈로그 항목의 이미지 집합 데이터를 반환합니다.
 solution: Experience Manager
 title: 이미지 집합
-feature: Dynamic Media Classic,SDK/API,이미지 세트
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 계층적 파일 또는 자산 저장소 객체입니다. 폴더에
 solution: Experience Manager
 title: 폴더
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

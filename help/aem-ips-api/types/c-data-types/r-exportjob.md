@@ -3,7 +3,7 @@ description: 이전에 업로드한 파일의 허가된 내보내기를 허용�
 solution: Experience Manager
 title: 내보내기 작업
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

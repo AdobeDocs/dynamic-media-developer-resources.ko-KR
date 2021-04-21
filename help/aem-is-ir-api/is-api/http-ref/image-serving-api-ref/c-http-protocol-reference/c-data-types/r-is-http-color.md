@@ -3,7 +3,7 @@ description: 색상 값. 16진수 표기법, 구성 요소 값의 쉼표로 구�
 solution: Experience Manager
 title: color
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

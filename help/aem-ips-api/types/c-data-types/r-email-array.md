@@ -3,7 +3,7 @@ description: 확인 알림을 수신할 최대 5개의 이메일 주소 목록 �
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

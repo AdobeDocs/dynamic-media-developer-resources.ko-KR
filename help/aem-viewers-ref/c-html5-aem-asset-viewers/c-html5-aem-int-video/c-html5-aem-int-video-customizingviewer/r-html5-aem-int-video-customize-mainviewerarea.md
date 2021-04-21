@@ -2,8 +2,8 @@
 description: 기본 보기 영역은 인터랙티브한 견본이 차지하는 영역입니다. 일반적으로 크기를 지정하지 않으면 사용 가능한 장치 화면에 맞게 설정됩니다.
 solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

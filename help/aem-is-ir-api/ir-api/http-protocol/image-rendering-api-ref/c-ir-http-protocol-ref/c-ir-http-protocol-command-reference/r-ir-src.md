@@ -3,7 +3,7 @@ description: 자료 파일. 단일 자료 카탈로그 참조 형태로 또는 �
 solution: Experience Manager
 title: src
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

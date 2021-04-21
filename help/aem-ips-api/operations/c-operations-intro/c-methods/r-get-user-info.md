@@ -3,7 +3,7 @@ description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하�
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

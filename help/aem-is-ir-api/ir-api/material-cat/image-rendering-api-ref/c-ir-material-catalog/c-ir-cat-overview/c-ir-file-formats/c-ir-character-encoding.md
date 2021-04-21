@@ -3,7 +3,7 @@ description: 이미지 렌더링은 ISO-8859-1 및 UTF-8 인코딩을 사용하�
 solution: Experience Manager
 title: 문자 인코딩
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

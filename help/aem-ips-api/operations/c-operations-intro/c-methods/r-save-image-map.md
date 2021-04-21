@@ -3,7 +3,7 @@ description: 새 이미지 맵을 만들거나 기존 맵을 편집합니다.
 solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 이 예제에서는 [이미지 제공]을 사용하여 객체에 �
 solution: Experience Manager
 title: 예제
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

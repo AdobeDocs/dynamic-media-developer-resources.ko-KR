@@ -2,8 +2,8 @@
 description: 사용자가 클릭할 때 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우 이 단추가 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
 solution: Experience Manager
 title: 전체 화면 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: '소프트웨어 설치에 필요한 공간 외에도 이미지 서
 solution: Experience Manager
 title: 디스크 공간 요구 사항 및 권장 사항
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

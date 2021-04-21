@@ -3,7 +3,7 @@ description: 요청 수정자 문자열. '&' 문자로 구분된 이미지 렌�
 solution: Experience Manager
 title: 수정자
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

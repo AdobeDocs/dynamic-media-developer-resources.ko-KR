@@ -2,8 +2,8 @@
 description: HTTPS 비디오 전달
 solution: Experience Manager
 title: HTTPS 비디오 전달
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

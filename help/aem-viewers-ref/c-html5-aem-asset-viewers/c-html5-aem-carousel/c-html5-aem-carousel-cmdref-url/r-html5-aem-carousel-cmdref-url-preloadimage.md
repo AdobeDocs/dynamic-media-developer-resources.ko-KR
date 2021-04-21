@@ -2,8 +2,8 @@
 description: 회전판 뷰어에 대한 URL 명령.
 solution: Experience Manager
 title: preloadimage**
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d4cfd11d-9bd3-4133-ae28-c375b6b3c2ab
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

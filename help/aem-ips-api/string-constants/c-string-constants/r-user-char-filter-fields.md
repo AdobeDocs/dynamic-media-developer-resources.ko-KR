@@ -3,7 +3,7 @@ description: getUsersParam 및 getUserCharsParam/charField에서 사용됩니다
 solution: Experience Manager
 title: 사용자 문자 필터 필드
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

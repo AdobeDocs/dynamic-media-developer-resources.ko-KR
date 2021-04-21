@@ -2,8 +2,8 @@
 description: 페이지 표시기에는 현재 페이지 색인과 총 페이지 카운트가 표시됩니다. 데스크톱 시스템 및 태블릿의 주 컨트롤 막대에 표시되고 휴대 전화에서는 보조 컨트롤 막대에 추가됩니다. 페이지 표시기는 CSS로 크기 조정, 스킨 및 배치할 수 있습니다.
 solution: Experience Manager
 title: 페이지 표시기
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 비디오 시간은 현재 재생 중인 비디오의 현재 시간 및 기간을 보여주는 숫자 표시입니다.
 solution: Experience Manager
 title: 비디오 시간
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 90ec189e-6de4-44b3-8760-1e8636b919ba
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -3,7 +3,7 @@ description: 자산의 확장 가능한 메타데이터 플랫폼 키워드.
 solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

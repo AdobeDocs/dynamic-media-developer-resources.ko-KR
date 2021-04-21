@@ -3,7 +3,7 @@ description: 이미지 제공은 외부 HTTP 및 FTP 서버에서 소스 이미�
 solution: Experience Manager
 title: 외부 이미지 소스
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

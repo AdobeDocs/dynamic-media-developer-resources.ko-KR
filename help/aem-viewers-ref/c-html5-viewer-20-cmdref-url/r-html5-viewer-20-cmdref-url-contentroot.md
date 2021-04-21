@@ -2,8 +2,8 @@
 description: 모든 뷰어에 공통되는 매개 변수입니다.
 solution: Experience Manager
 title: contentUrl
-feature: Dynamic Media Classic,뷰어,SDK/API
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

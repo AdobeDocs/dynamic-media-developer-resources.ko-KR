@@ -2,8 +2,8 @@
 description: 이미지 서버에 게시할 원시 세트 정의 문자열을 사용하여 일반 에셋 세트를 만듭니다.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

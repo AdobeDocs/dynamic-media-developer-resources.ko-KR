@@ -2,8 +2,8 @@
 description: 지정된 검색어에 대한 메타데이터 인덱스 저장소를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

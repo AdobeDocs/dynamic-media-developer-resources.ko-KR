@@ -3,7 +3,7 @@ description: 특정 회사의 사용자를 특정 그룹에 추가합니다.
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

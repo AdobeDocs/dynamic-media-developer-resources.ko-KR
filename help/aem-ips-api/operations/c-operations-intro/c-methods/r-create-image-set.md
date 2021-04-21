@@ -2,8 +2,8 @@
 description: 이미지 세트를 만듭니다.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,이미지 세트
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

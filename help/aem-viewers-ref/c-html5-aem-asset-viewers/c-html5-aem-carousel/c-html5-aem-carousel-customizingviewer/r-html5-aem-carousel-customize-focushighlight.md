@@ -2,8 +2,8 @@
 description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 초점 강조 표시는 CSS 클래스 선택기로 제어됩니다.
 solution: Experience Manager
 title: 초점 강조 표시
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: 견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추가 있는 일련의 축소판 이미지로 구성됩니다. 스크롤 단추는 모든 축소판이 컨테이너 너비에 맞지 않는 경우에만 데스크탑에서 볼 수 있습니다. 모바일 장치에서는 축소판이 컨테이너 폭에 들어갈 수 있는 경우에는 스크롤 단추가 표시되지 않습니다.
 solution: Experience Manager
 title: 견본
-feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

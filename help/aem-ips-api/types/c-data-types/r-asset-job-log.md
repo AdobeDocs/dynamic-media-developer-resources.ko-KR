@@ -2,8 +2,8 @@
 description: 특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

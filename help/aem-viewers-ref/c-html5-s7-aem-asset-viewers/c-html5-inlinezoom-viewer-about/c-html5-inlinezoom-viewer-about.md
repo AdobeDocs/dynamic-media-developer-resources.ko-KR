@@ -3,8 +3,8 @@ description: 인라인 확대/축소 뷰어는 이미지 뷰어입니다. 사용
 keywords: 반응형
 solution: Experience Manager
 title: 인라인 확대/축소
-feature: Dynamic Media Classic,뷰어,SDK/API,인라인 확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

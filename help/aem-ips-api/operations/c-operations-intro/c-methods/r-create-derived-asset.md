@@ -2,8 +2,8 @@
 description: 기존 기본 소스 이미지 자산에서 파생된 새 자산을 만듭니다.
 solution: Experience Manager
 title: createDerivedAsset
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

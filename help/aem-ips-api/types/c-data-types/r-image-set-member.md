@@ -2,8 +2,8 @@
 description: 이미지 세트에 속하는 자산입니다.
 solution: Experience Manager
 title: ImageSetMember
-feature: Dynamic Media Classic,SDK/API,이미지 세트
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

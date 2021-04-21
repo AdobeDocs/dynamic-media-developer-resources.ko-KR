@@ -1,8 +1,8 @@
 ---
 description: 비디오 캡션 속성
 title: VideoCaptionInfo
-feature: Dynamic Media Classic,SDK/API,비디오
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Video
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

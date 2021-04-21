@@ -3,7 +3,7 @@ description: 기존 PDF 에셋을 다시 가져오는 프로세스입니다.
 solution: Experience Manager
 title: RipPdf작업
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

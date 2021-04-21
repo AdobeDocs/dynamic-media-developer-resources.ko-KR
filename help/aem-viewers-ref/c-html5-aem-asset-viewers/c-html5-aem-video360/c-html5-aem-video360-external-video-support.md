@@ -2,8 +2,8 @@
 description: 뷰어는 Dynamic Media Classic 또는 AEM Dynamic Media 외부에 호스팅된 비디오 재생을 지원합니다.
 solution: Experience Manager
 title: 외부 비디오 지원
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

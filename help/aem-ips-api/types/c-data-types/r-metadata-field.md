@@ -2,8 +2,8 @@
 description: 특정 자산에 대한 사용자 정의 필드 정의
 solution: Experience Manager
 title: MetadataField
-feature: Dynamic Media Classic,SDK/API,메타데이터
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

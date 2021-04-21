@@ -2,8 +2,8 @@
 description: 대화형 비디오 뷰어에 표시되는 특정 컨텐트는 로컬라이제이션을 따릅니다. 여기에는 사용자 인터페이스 요소 도구 설명 및 비디오를 재생할 수 없을 때 표시되는 오류 메시지가 포함됩니다.
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

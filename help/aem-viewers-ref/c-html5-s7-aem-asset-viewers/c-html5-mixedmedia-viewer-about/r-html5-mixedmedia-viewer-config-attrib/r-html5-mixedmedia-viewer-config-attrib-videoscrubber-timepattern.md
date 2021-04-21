@@ -2,8 +2,8 @@
 description: VideoScrubber.timepattern
 solution: Experience Manager
 title: VideoScrubber.timepattern
-feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

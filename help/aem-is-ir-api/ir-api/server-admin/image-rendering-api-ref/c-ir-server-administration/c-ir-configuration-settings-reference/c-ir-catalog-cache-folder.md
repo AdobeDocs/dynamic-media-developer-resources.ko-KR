@@ -3,7 +3,7 @@ description: 카탈로그 시스템 캐시에 대한 루트 폴더입니다.
 solution: Experience Manager
 title: 카탈로그 캐시 폴더(ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

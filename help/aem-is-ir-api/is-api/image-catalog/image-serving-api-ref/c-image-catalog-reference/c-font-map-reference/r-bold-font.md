@@ -3,7 +3,7 @@ description: 볼드체 플래그. RTF 볼드체 명령(\b)을 통해 요청할 �
 solution: Experience Manager
 title: 굵게
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

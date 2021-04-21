@@ -3,7 +3,7 @@ description: IPS API 버전 4.4의 새 작업 방법 및 변경된 작업 방법
 solution: Experience Manager
 title: 작업 새로 만들기 및 수정됨
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 exl-id: f51bb85e-5585-49ad-87c6-57c5e62531c7
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

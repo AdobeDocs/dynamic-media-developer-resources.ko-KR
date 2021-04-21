@@ -2,8 +2,8 @@
 description: 프로젝트에서 에셋을 제거합니다. 자산을 파괴하지 않습니다.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 속성 배열을 사용하여 속성 세트를 업데이트합니�
 solution: Experience Manager
 title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

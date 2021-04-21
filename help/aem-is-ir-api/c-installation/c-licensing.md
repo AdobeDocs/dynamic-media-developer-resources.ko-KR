@@ -3,7 +3,7 @@ description: 이미지 제공을 사용하려면 Dynamic Media Image Serving 라
 solution: Experience Manager
 title: 라이선스
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

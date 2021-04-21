@@ -3,7 +3,7 @@ description: 고급 응용 프로그램의 경우 이미지 제공에서 얻은 
 solution: Experience Manager
 title: 중첩된 이미지 렌더링 요청
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

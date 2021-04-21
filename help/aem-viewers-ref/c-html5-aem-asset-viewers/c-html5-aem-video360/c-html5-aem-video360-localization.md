@@ -2,8 +2,8 @@
 description: 뷰어가 표시하는 특정 컨텐츠는 현지화를 따릅니다. 여기에는 사용자 인터페이스 요소 도구 설명 및 비디오가 재생되지 않을 때 표시되는 오류 메시지가 포함됩니다.
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

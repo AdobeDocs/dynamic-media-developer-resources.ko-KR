@@ -3,7 +3,7 @@ description: 관련 자산 그룹의 프로젝트를 가져옵니다.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

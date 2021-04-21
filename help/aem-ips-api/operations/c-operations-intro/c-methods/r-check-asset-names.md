@@ -3,7 +3,7 @@ description: 회사의 이미지 제공/이미지 렌더링 카탈로그 네임�
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

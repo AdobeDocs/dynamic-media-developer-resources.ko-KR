@@ -3,7 +3,7 @@ description: 카탈로그 식별자. HTTP 요청의 비네팅, 재료 또는 ICC
 solution: Experience Manager
 title: 루트 ID
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

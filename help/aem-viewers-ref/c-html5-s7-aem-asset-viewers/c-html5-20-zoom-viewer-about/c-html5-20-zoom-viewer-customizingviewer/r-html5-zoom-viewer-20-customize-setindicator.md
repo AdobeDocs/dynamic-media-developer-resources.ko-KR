@@ -2,8 +2,8 @@
 description: 세트 표시기는 뷰어를 터치 장치에서 사용할 때 견본 위에 렌더링되는 일련의 점입니다. 스크롤 단추를 사용할 수 없을 때 이 점을 사용하면 축소판 페이지를 탐색할 수 있습니다.
 solution: Experience Manager
 title: 표시기 설정
-feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

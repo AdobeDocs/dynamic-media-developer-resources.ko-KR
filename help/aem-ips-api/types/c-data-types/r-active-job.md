@@ -3,7 +3,7 @@ description: 서버에서 실행되는 작업입니다. 또한 예약된 작업�
 solution: Experience Manager
 title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

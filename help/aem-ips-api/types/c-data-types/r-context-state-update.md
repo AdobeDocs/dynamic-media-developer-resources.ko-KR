@@ -3,7 +3,7 @@ description: 자산에 대한 게시 컨텍스트 상태를 업데이트합니�
 solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

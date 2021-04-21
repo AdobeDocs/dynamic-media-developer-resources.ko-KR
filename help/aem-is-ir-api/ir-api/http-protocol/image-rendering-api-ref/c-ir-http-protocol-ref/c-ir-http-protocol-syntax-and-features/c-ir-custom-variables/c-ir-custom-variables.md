@@ -3,7 +3,7 @@ description: 요청 및 비네팅 수정자 문자열의 쿼리 부분에는 사
 solution: Experience Manager
 title: 사용자 지정 변수
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

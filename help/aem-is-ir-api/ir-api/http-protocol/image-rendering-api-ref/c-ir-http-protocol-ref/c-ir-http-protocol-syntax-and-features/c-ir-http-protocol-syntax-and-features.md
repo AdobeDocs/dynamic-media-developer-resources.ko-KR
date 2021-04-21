@@ -3,7 +3,7 @@ description: 이 섹션에서는 HTTP 프로토콜 구문과 Dynamic Media 이�
 solution: Experience Manager
 title: HTTP 프로토콜 구문 및 기능
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

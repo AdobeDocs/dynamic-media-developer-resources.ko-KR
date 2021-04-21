@@ -2,8 +2,8 @@
 description: 이 단추를 클릭하거나 탭하면 기본 뷰어와 축소판 간에 뷰어가 전환됩니다. 이 단추는 주 제어 막대에 표시됩니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
 solution: Experience Manager
 title: 축소판 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

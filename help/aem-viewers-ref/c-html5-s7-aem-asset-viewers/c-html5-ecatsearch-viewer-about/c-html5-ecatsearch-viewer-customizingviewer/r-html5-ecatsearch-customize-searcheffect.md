@@ -2,8 +2,8 @@
 description: 뷰어는 기본 보기 위에 검색 결과 영역을 표시하여 카탈로그에 있는 단어나 구를 강조 표시합니다.
 solution: Experience Manager
 title: 검색 효과
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

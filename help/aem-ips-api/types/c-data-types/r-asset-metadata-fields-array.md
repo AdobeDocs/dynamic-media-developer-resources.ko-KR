@@ -2,8 +2,8 @@
 description: AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형별로 그룹화된 결과를 사용하여 단일 호출에서 모든 자산 메타데이터 필드를 반환하는 데 사용됩니다.
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

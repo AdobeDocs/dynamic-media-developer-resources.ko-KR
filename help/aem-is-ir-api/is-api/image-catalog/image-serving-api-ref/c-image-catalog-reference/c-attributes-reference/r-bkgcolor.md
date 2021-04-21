@@ -3,7 +3,7 @@ description: 기본 배경색입니다. 실제 이미지 데이터를 포함하�
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

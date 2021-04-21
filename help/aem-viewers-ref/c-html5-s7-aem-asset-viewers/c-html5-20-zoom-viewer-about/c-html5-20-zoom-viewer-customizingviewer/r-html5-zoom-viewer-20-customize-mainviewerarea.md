@@ -2,8 +2,8 @@
 description: 기본 보기 영역은 확대/축소 이미지 및 색상 견본으로 차지하는 영역입니다. 일반적으로 크기를 지정하지 않으면 사용 가능한 장치 화면에 맞게 설정됩니다.
 solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

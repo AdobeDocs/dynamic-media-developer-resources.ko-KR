@@ -3,7 +3,7 @@ description: 이미지의 일부를 마스크합니다. 마스크는 항상 이�
 solution: Experience Manager
 title: 마스크
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

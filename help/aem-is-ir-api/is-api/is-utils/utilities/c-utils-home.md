@@ -3,7 +3,7 @@ description: 이미지 제공 유틸리티 안내서에는 Dynamic Media 이미�
 solution: Experience Manager
 title: 이미지 제공 유틸리티
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

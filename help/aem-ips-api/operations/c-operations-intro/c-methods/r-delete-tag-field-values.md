@@ -3,7 +3,7 @@ description: 태그 필드의 사전에서 태그 필드 값을 제거합니다.
 solution: Experience Manager
 title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 태그 값 업데이트에 실패할 때 발생하는 오류입니�
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: IPS API 버전 3.8의 새로운 데이터 유형 및 변경된 데�
 solution: Experience Manager
 title: 데이터 유형 새로 만들기 및 수정됨
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

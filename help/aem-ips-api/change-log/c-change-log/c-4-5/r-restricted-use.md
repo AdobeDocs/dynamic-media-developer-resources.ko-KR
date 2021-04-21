@@ -3,7 +3,7 @@ description: 베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 �
 solution: Experience Manager
 title: 제한된 사용
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

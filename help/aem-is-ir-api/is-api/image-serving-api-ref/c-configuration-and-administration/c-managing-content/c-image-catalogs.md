@@ -3,7 +3,7 @@ description: 이미지 카탈로그는 글꼴, ICC 프로파일, 명령 매크�
 solution: Experience Manager
 title: 이미지 카탈로그
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

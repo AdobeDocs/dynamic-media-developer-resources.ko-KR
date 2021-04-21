@@ -3,7 +3,7 @@ description: Vignette Converter(vntc)는 이미지 렌더링으로 배포하기 
 solution: Experience Manager
 title: 비네팅 변환기
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

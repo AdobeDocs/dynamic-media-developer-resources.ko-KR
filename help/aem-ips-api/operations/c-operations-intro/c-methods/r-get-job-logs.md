@@ -3,7 +3,7 @@ description: 선택한 회사에 대해 지정된 작업 로그를 가져옵니�
 solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

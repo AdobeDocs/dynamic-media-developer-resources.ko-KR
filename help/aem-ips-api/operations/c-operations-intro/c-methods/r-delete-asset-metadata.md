@@ -2,8 +2,8 @@
 description: 자산에 대한 메타데이터 값을 삭제합니다. 메타데이터 삭제 배열을 사용하여 일괄 처리에서 값을 설정합니다.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

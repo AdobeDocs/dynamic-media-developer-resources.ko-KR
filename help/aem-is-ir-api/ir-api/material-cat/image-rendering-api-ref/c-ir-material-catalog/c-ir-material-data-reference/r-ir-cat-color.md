@@ -3,7 +3,7 @@ description: 질감 색상. 단색 재질의 주 색상 및 색상화된 텍스�
 solution: Experience Manager
 title: 색상
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있는 단일 확대/축소 가능 이미지를 표시하는 뷰어입니다. 이 뷰어의 목적은 "쇼퍼블 배너" 경험을 구현하는 것입니다. 즉, 사용자는 배너 이미지 위에 있는 핫스팟을 선택하고 웹 사이트의 빠른 보기 또는 제품 세부 사항 페이지로 리디렉션할 수 있습니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 solution: Experience Manager
 title: 대화형 이미지
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

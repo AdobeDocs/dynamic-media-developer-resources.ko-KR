@@ -2,8 +2,8 @@
 description: 이미지 자산에 대한 이미지 데이터를 대체합니다.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

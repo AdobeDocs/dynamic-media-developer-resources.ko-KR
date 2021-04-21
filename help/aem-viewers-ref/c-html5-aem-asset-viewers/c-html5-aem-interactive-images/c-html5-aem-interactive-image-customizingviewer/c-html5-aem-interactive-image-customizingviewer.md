@@ -3,8 +3,8 @@ description: 모든 시각적 사용자 지정 및 대화형 이미지 뷰어에
 keywords: 반응형
 solution: Experience Manager
 title: 대화형 이미지 뷰어 사용자 정의
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: bb3cfe4a-ec60-4c10-82fe-9e4f8f7c586f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

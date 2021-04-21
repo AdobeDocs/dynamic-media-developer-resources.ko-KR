@@ -2,8 +2,8 @@
 description: 구성 요소가 크기 조정 중에 기본 및 플라이아웃 보기에 대한 새 이미지를 가져오는 방법을 구성합니다.
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

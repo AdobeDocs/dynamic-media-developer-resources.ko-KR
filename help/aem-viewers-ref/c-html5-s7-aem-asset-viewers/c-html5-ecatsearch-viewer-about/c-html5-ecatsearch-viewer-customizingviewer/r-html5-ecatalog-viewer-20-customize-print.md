@@ -2,8 +2,8 @@
 description: 인쇄 도구는 도구가 활성화될 때 표시되는 모달 대화 상자와 컨트롤 막대에 추가된 단추로 구성됩니다.
 solution: Experience Manager
 title: 인쇄
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

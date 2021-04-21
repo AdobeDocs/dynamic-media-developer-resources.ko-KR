@@ -3,7 +3,7 @@ description: 이 문서에서는 Dynamic Media 이미지 제공을 위한 HTTP �
 solution: Experience Manager
 title: 소개
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

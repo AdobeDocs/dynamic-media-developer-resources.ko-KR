@@ -2,8 +2,8 @@
 description: 기본적으로 소셜 공유 도구는 오른쪽 위 모서리에 표시됩니다. 사용자가 단추를 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 도구가 포함되어 있습니다.
 solution: Experience Manager
 title: 소셜 공유
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

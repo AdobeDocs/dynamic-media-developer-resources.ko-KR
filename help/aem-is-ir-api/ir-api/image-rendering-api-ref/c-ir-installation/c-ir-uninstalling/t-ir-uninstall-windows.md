@@ -3,7 +3,7 @@ description: 다음 지침에 따라 Windows 시스템에서 이미지 렌더링
 solution: Experience Manager
 title: Windows에서 제거
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

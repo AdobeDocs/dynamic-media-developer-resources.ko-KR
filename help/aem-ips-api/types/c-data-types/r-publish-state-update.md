@@ -3,7 +3,7 @@ description: 자산의 게시 상태를 업데이트하는 데 사용되는 매�
 solution: Experience Manager
 title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

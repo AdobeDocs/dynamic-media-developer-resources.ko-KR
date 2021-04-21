@@ -3,7 +3,7 @@ description: 응답 데이터 속성입니다. 현재 요청을 이미지 요청
 solution: Experience Manager
 title: props
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

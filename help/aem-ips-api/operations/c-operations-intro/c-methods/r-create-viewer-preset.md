@@ -2,8 +2,8 @@
 description: 사용자가 볼 수 있는 내용을 결정하는 사전 설정 보기를 만듭니다. 뷰어는 IPS에서 사용할 수 있는 모든 유형의 뷰어일 수 있습니다. 사전 설정 보기는 자산이 게시될 때 적용됩니다.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -3,7 +3,7 @@ description: IPS 웹 서비스는 IPS 웹 서비스 구성 요소가 설치된 �
 solution: Experience Manager
 title: IPS 웹 서비스 WSDL 버전
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

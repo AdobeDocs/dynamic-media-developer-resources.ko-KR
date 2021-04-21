@@ -2,8 +2,8 @@
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: Video360Player.posterimage
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

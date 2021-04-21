@@ -3,7 +3,7 @@ description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 
 solution: Experience Manager
 title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

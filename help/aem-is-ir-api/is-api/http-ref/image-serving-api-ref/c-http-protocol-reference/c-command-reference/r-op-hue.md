@@ -3,7 +3,7 @@ description: 색조 조정 레이어나 합성 이미지의 보이는 각 픽셀
 solution: Experience Manager
 title: op_hue
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

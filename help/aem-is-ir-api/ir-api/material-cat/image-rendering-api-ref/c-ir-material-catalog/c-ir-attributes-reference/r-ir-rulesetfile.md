@@ -3,7 +3,7 @@ description: 규칙 세트 정의 파일 경로입니다. 이 자료 카탈로�
 solution: Experience Manager
 title: RuleSetFile
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

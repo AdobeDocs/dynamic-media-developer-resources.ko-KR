@@ -3,7 +3,7 @@ description: IPS 웹 서비스 API에서 처리하는 일반적인 작업 매개
 solution: Experience Manager
 title: 작업 방법
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

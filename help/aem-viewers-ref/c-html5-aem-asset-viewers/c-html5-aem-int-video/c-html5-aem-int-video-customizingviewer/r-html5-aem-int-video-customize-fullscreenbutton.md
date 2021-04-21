@@ -2,8 +2,8 @@
 description: 전체 화면 단추를 클릭하면 비디오 플레이어가 전체 화면 모드로 들어가거나 종료됩니다.
 solution: Experience Manager
 title: 전체 화면 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

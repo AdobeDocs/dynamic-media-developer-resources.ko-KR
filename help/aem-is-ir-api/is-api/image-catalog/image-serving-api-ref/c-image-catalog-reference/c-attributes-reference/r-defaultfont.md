@@ -3,7 +3,7 @@ description: 기본 글꼴 이름. text= 요청에 의해 제공된 글꼴이 �
 solution: Experience Manager
 title: DefaultFont
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

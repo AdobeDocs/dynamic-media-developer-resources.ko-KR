@@ -2,8 +2,8 @@
 description: 견본은 왼쪽 및 오른쪽에 선택적인 스크롤 단추가 있는 일련의 축소판 이미지로 구성됩니다.
 solution: Experience Manager
 title: 견본
-feature: Dynamic Media Classic,뷰어,SDK/API,플라이아웃
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

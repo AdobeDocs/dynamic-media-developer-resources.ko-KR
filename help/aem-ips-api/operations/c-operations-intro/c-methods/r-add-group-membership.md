@@ -3,7 +3,7 @@ description: 그룹 배열에 사용자를 추가합니다.
 solution: Experience Manager
 title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

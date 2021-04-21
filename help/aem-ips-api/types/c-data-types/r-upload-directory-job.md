@@ -3,7 +3,7 @@ description: 지정된 서버 디렉토리에서 반복적으로 파일을 업�
 solution: Experience Manager
 title: UploadDirectoryJob
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

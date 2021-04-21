@@ -3,7 +3,7 @@ description: 이미지 렌더링은 피라미드가 아닌 비네팅에 대해 2
 solution: Experience Manager
 title: 비네팅 크기 제한
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

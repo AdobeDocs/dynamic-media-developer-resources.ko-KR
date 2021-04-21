@@ -2,8 +2,8 @@
 description: Carousel Viewer는 클릭 가능한 핫스팟 또는 영역이 있는 확대/축소할 수 없는 배너 이미지의 Carousel을 표시하는 뷰어입니다. 이 뷰어의 목적은 사용자가 배너 이미지 위에 있는 핫스팟 또는 영역을 선택하고 고객의 웹 사이트에서 Quickview 또는 제품 세부 사항 페이지로 리디렉션할 수 있는 "쇼퍼블 슬라이드" 경험을 구현하는 것입니다. 데스크탑과 모바일 디바이스에서 작동하도록 설계되었습니다.
 solution: Experience Manager
 title: 회전식
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

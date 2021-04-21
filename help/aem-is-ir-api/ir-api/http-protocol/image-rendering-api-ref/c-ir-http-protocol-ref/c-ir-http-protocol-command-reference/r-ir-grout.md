@@ -3,7 +3,7 @@ description: 그라우트 색상 및 두께를 바둑판식으로 배열합니�
 solution: Experience Manager
 title: 그루트
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

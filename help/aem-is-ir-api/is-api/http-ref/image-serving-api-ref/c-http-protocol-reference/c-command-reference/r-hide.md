@@ -3,7 +3,7 @@ description: 레이어 숨기기를 참조하십시오. 요청 문자열에서 �
 solution: Experience Manager
 title: 숨기기
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

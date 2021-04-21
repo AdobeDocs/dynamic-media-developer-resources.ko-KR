@@ -3,7 +3,7 @@ description: 인증된 사용자가 작업을 수행할 권한이 없을 때 발
 solution: Experience Manager
 title: authorizationFault
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

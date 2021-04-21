@@ -2,8 +2,8 @@
 description: 스핀 뷰어에 표시되는 특정 컨텐츠는 확대/축소 버튼 및 전체 화면 버튼 등 로컬라이제이션이 적용됩니다.
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

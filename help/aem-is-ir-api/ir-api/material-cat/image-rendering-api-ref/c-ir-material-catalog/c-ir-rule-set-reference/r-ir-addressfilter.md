@@ -3,7 +3,7 @@ description: 주소 필터 요소를 참조하십시오. <rule> 요소의 선택
 solution: Experience Manager
 title: addressfilter
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

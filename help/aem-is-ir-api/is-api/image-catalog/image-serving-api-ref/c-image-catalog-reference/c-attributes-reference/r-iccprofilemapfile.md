@@ -3,7 +3,7 @@ description: ICC 프로파일 맵 파일 경로. 이 이미지 카탈로그에 �
 solution: Experience Manager
 title: IccProfileMapFile
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

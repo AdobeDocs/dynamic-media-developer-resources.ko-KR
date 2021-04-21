@@ -3,7 +3,7 @@ description: 다양한 입력 매개 변수에 사용되는 값을 설명합니�
 solution: Experience Manager
 title: 이메일 설정
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

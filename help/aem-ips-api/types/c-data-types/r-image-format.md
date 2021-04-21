@@ -3,7 +3,7 @@ description: 이미지 출력 설정의 비구조화된 이름 집합.
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 대화형 비디오 뷰어용 JavaScript API 참조입니다.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

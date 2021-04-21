@@ -3,7 +3,7 @@ description: 설치 후 다른 사용자 계정에서 실행하려면 서비스�
 solution: Experience Manager
 title: 관리자가 아닌 다른 사용자 계정으로 설치
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

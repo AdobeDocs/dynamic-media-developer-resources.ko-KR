@@ -3,7 +3,7 @@ description: Java 가비지 수집 주기 바로 다음에 사용 가능한 Java
 solution: Experience Manager
 title: 공백 우선 순위 경고
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

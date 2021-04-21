@@ -3,7 +3,7 @@ description: 이 문서에서는 Dynamic Media 이미지 렌더링 서버를 관
 solution: Experience Manager
 title: 서버 관리 개요
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

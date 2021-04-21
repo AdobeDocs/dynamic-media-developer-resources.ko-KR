@@ -3,7 +3,7 @@ description: 이 섹션에서는 데이터 유형을 지정하는 데 사용되�
 solution: Experience Manager
 title: 데이터 유형
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

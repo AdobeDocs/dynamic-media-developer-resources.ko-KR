@@ -3,7 +3,7 @@ description: Linux에서 Dynamic Media Image Serving을 업그레이드할 때 �
 solution: Experience Manager
 title: IS 4.7.4 이상에서 업데이트
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

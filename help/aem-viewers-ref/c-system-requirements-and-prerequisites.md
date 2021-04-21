@@ -3,8 +3,8 @@ title: Dynamic Media HTML5 뷰어를 위한 시스템 요구 사항
 description: Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,뷰어,SDK/API
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
 source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743

@@ -2,8 +2,8 @@
 description: Carousel Viewer에서 표시하는 특정 컨텐츠는 로컬라이제이션을 따릅니다. 여기에는 슬라이드 탐색 단추가 포함됩니다.
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

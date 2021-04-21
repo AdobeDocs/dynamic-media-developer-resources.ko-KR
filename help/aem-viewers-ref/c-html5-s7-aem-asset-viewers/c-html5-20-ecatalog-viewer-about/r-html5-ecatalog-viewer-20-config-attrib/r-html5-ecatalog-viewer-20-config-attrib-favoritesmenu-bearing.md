@@ -2,8 +2,8 @@
 description: 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다.
 solution: Experience Manager
 title: FavoritesMenu.bearing
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

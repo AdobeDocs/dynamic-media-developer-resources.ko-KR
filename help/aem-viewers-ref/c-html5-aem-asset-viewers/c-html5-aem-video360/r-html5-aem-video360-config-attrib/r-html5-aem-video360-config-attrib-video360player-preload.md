@@ -2,8 +2,8 @@
 description: 재생이 시작되기 전에 뷰어가 비디오 내용 로드를 시작하는지 여부를 나타냅니다.
 solution: Experience Manager
 title: Video360Player.preload
-feature: Dynamic Media Classic,뷰어,SDK/API,360 VR 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

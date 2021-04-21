@@ -3,7 +3,7 @@ description: 번역 로케일 ID. 요청에 대한 로케일 ID를 지정합니�
 solution: Experience Manager
 title: 로케일
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

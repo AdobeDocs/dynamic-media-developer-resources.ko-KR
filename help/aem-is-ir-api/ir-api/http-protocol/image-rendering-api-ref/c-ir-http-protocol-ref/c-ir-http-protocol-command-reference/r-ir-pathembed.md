@@ -3,7 +3,7 @@ description: 경로 데이터를 포함합니다. 비네팅에 포함된 Photosh
 solution: Experience Manager
 title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

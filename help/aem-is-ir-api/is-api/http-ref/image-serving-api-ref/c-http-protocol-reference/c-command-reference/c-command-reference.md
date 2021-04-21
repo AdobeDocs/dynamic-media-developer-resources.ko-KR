@@ -3,7 +3,7 @@ description: 이 섹션에서는 HTTP 프로토콜 명령에 대해 설명합니
 solution: Experience Manager
 title: 명령 참조
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 이미지 제공은 이미지 제공 요청을 무제한으로 중�
 solution: Experience Manager
 title: 중첩 및 포함 요청
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

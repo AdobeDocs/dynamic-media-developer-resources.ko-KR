@@ -3,7 +3,7 @@ description: 비네팅을 제작하여 거의 3D 반사 데이터를 포함할 �
 solution: Experience Manager
 title: 반사
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

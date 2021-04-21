@@ -3,7 +3,7 @@ description: 다음 단계에 따라 Windows에서 처음으로 이미지 제공
 solution: Experience Manager
 title: 처음 설치
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

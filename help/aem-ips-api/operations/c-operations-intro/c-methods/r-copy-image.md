@@ -3,7 +3,7 @@ description: 기존 이미지 자산의 사본을 만듭니다. 지정한 이미
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

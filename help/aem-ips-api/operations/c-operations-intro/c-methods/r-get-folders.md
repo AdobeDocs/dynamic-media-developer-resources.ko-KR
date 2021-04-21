@@ -3,7 +3,7 @@ description: 폴더 경로에서 시작하여 모든 폴더 및 하위 폴더를
 solution: Experience Manager
 title: getFolders
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

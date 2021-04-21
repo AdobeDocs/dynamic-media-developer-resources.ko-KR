@@ -2,8 +2,8 @@
 description: 사용자가 비디오 플레이어 사운드를 음소거하거나 음소거를 해제할 수 있는 버튼으로 처음에는 변경할 수 있는 볼륨 컨트롤이 나타납니다.
 solution: Experience Manager
 title: 변경 가능한 볼륨
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: ecef47c1-e659-4930-bfb1-cc5e7c059094
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

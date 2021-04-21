@@ -2,8 +2,8 @@
 description: 재생이 시작되기 전에 뷰어가 비디오 내용 로드를 시작하는지 여부를 나타냅니다.
 solution: Experience Manager
 title: VideoPlayer.preload
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: afabbfde-e003-4fee-a4ef-0fc4c43fd960
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

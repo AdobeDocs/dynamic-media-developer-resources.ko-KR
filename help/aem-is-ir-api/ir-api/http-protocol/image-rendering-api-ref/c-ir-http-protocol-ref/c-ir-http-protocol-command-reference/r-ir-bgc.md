@@ -3,7 +3,7 @@ description: 배경색. 색상화할 수 있는 텍스처 및 디캘에 대해 �
 solution: Experience Manager
 title: bgc
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

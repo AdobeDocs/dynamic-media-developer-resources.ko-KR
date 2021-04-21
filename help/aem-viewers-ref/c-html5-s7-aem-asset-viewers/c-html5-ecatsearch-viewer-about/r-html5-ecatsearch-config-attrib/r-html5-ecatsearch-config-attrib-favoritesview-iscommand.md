@@ -2,8 +2,8 @@
 description: 모든 축소판에 적용되는 이미지 제공 명령 문자열.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 모드 매개 변수의 값에 따라 뷰어는 맵을 원래 Dynamic Media Classic에서 제작하거나 원본 이미지 맵의 모양과 일치하는 정확한 영역을 렌더링하는 위치의 기본 보기 위에 이미지 맵 아이콘을 표시합니다.
 solution: Experience Manager
 title: 이미지 맵 효과
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

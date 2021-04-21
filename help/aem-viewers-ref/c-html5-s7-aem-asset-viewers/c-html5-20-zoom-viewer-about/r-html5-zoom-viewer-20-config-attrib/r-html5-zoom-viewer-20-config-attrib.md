@@ -2,8 +2,8 @@
 description: 확대/축소 뷰어에 대한 구성 속성 설명서입니다.
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,뷰어,SDK/API,확대/축소
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

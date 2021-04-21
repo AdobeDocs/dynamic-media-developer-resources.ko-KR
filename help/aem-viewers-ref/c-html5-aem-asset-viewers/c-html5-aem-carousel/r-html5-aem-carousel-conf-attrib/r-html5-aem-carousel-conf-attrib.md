@@ -2,8 +2,8 @@
 description: Carousel 뷰어에 대한 구성 특성 설명서입니다.
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

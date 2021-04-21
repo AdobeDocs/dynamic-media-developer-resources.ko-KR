@@ -2,8 +2,8 @@
 description: 이미지 집합 데이터. Dynamic Media 뷰어에서 사용하는 이미지 정렬 세트와 컨트롤 속성을 정의하는 메커니즘을 제공합니다.
 solution: Experience Manager
 title: 이미지 집합
-feature: Dynamic Media Classic,SDK/API,이미지 세트
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

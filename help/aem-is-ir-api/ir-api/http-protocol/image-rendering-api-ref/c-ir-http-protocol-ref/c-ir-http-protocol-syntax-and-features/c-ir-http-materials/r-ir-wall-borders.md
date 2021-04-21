@@ -3,7 +3,7 @@ description: 자료는 벽 테두리 MSS(sub=3.5와 함께 도입됨)에 지정�
 solution: Experience Manager
 title: 벽 테두리
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

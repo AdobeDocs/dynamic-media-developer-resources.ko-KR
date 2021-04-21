@@ -3,7 +3,7 @@ description: 서버 캐시를 미리 로드합니다. 요청을 req=img처럼 �
 solution: Experience Manager
 title: loadcache
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

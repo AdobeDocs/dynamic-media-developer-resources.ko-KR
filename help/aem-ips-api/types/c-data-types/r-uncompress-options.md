@@ -3,7 +3,7 @@ description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 �
 solution: Experience Manager
 title: 압축 해제 옵션
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

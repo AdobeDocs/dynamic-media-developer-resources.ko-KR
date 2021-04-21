@@ -2,8 +2,8 @@
 description: 단추의 위치는 즐겨찾기 메뉴에서 완전히 관리됩니다.
 solution: Experience Manager
 title: 모든 즐겨찾기 보기 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

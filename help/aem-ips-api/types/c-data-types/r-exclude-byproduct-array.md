@@ -3,7 +3,7 @@ description: searchAssets 작업에서 부산물 필터링을 지원합니다.
 solution: Experience Manager
 title: ExcludeMozineArray
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

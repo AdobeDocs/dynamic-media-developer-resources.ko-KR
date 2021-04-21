@@ -3,7 +3,7 @@ description: 기본 수정 타임스탬프. 카탈로그 타임스탬프 및 비
 solution: Experience Manager
 title: 타임스탬프
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

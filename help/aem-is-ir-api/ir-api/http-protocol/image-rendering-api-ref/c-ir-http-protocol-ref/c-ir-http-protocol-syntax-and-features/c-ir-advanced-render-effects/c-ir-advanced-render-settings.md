@@ -3,7 +3,7 @@ description: 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의
 solution: Experience Manager
 title: 고급 렌더링 설정
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

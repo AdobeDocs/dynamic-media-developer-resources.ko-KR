@@ -3,7 +3,7 @@ description: 모든 구성 파일은 install_folder/conf에 있으며 대부분�
 solution: Experience Manager
 title: 서버 구성 파일
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

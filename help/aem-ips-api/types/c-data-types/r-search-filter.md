@@ -3,7 +3,7 @@ description: 검색을 보다 효율적으로 하기 위해 검색 기준을 정
 solution: Experience Manager
 title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

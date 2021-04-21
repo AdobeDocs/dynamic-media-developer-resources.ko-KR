@@ -2,8 +2,8 @@
 description: 비디오 이미지 뷰어용 JavaScript API 참조.
 solution: Experience Manager
 title: dispose
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 이미지
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 8af8506e-6b29-45ea-a70b-3eb3b2995047
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

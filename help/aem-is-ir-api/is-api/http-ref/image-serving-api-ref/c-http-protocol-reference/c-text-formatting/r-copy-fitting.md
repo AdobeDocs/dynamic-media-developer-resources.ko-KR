@@ -3,7 +3,7 @@ description: textPs=는 글꼴 크기를 자동으로 조정하여 텍스트 영
 solution: Experience Manager
 title: 복사 맞춤
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

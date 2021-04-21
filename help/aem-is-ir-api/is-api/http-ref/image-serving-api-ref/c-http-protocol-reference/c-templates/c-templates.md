@@ -3,7 +3,7 @@ description: 템플릿을 사용하면 여러 이미지 레이어를 합성하�
 solution: Experience Manager
 title: 템플릿
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

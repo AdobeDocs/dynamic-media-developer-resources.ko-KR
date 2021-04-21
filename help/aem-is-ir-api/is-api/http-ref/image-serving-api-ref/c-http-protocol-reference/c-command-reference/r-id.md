@@ -3,7 +3,7 @@ description: 이미지/메타데이터 버전. 자주 변경되는 컨텐츠로 
 solution: Experience Manager
 title: id
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

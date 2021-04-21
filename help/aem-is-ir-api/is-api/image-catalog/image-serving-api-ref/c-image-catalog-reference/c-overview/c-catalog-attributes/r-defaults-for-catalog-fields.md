@@ -3,7 +3,7 @@ description: 카탈로그 필드에는 이러한 기본값이 사용됩니다.
 solution: Experience Manager
 title: 카탈로그 필드의 기본값
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

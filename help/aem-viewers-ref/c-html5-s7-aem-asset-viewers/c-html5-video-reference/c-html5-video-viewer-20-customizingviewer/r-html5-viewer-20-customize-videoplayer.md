@@ -2,8 +2,8 @@
 description: 비디오 플레이어는 뷰어 내에서 비디오 컨텐츠가 표시되는 사각형 영역입니다.
 solution: Experience Manager
 title: 비디오 플레이어
-feature: Dynamic Media Classic,뷰어,SDK/API,비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

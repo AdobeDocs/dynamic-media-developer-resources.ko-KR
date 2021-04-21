@@ -2,8 +2,8 @@
 description: 클릭유도문안 패널은 비디오가 종료되고 특정 비디오와 관련된 모든 대화형 견본을 표시할 때 나타납니다.
 solution: Experience Manager
 title: 조치 수행 질문
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

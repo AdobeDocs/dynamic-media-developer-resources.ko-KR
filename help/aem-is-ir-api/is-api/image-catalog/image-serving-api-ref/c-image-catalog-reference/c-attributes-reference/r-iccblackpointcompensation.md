@@ -3,7 +3,7 @@ description: 블랙포인트 보상. icc=로 명시적으로 선택하지 않은
 solution: Experience Manager
 title: IccBlackPointCompensation
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

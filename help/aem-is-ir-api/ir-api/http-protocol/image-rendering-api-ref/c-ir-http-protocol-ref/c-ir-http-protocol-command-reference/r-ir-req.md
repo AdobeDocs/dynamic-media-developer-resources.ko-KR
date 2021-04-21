@@ -3,7 +3,7 @@ description: 요청 유형. 요청된 데이터 유형을 지정합니다.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

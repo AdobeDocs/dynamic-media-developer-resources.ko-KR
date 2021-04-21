@@ -3,7 +3,7 @@ description: 모든 로그 파일은 TC 디렉토리에 지정된 동일한 로�
 solution: Experience Manager
 title: 서버 로깅
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

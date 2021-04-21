@@ -3,7 +3,7 @@ description: 이미지 마스크. 마스크(알파 채널) 데이터를 요청�
 solution: Experience Manager
 title: 마스크
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

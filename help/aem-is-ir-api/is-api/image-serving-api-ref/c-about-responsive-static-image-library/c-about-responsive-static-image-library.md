@@ -3,7 +3,7 @@ description: 반응형 이미지 라이브러리는 Dynamic Media에서 제공�
 solution: Experience Manager
 title: 반응형 이미지 라이브러리 정보
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

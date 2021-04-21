@@ -2,8 +2,8 @@
 description: 자산에 대한 작업 로그를 가져옵니다. 배열에서 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

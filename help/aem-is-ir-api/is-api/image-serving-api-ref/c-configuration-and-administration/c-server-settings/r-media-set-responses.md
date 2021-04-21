@@ -3,7 +3,7 @@ description: 이 섹션의 설정은 req=set 수정자가 획득한 미디어 �
 solution: Experience Manager
 title: 미디어 집합 응답
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

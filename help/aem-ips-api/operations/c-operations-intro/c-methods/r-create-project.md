@@ -3,7 +3,7 @@ description: 새 프로젝트를 만듭니다.
 solution: Experience Manager
 title: createProject
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

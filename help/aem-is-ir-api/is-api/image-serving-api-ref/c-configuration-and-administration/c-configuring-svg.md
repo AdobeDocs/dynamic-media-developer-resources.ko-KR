@@ -3,7 +3,7 @@ description: SvgRender 구성 요소는 독립적인 Java 애플리케이션입�
 solution: Experience Manager
 title: SVG 구성
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

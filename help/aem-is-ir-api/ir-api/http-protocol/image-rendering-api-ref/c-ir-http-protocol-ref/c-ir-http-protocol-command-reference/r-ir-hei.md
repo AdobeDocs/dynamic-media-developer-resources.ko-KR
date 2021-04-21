@@ -3,7 +3,7 @@ description: 이미지 높이를 회신합니다. 이미지의 종횡비를 유�
 solution: Experience Manager
 title: hei
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

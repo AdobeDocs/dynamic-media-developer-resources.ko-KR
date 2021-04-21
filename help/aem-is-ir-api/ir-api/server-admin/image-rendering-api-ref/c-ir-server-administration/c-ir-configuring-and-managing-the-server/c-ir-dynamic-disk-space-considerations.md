@@ -3,7 +3,7 @@ description: 이미지 렌더링은 캐싱 및 로깅 목적으로 디스크 공
 solution: Experience Manager
 title: 동적 디스크 공간 고려 사항
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

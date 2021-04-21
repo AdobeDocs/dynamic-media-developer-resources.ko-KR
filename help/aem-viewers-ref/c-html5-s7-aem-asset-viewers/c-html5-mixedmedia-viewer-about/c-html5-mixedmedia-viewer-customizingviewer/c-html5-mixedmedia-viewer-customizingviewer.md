@@ -3,8 +3,8 @@ description: 혼합 미디어 뷰어에 대한 모든 시각적 사용자 지정
 keywords: 반응형
 solution: Experience Manager
 title: 혼합 미디어 뷰어 사용자 정의
-feature: Dynamic Media Classic,뷰어,SDK/API,혼합 미디어 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

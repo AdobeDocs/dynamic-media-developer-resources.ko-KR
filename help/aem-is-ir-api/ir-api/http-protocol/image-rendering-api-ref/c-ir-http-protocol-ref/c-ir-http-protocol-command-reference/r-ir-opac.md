@@ -3,7 +3,7 @@ description: 불투명도. 질감 불투명도를 지정합니다.
 solution: Experience Manager
 title: opac
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 7910228217db2c97dccd306ce464c69da53ee576
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 특정 회사에 속하는 사용자의 그룹 구성원을 설정�
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

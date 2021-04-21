@@ -2,8 +2,8 @@
 description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 solution: Experience Manager
 title: 핫스팟 및 이미지 맵
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

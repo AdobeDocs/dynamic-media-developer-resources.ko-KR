@@ -2,8 +2,8 @@
 description: 이 단추는 닫힌 캡션 표시를 켜거나 끕니다. 캡션 매개 변수를 지정하지 않으면 표시되지 않습니다.
 solution: Experience Manager
 title: 캡션 단추
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

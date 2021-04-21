@@ -3,8 +3,8 @@ description: 회전 뷰어는 적절한 회전 집합을 사용하는 경우 이
 keywords: 반응형
 solution: Experience Manager
 title: 회전
-feature: Dynamic Media Classic,뷰어,SDK/API,회전 집합
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

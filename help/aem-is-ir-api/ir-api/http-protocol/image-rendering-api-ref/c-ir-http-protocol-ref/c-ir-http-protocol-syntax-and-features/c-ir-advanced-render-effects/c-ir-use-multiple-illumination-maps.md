@@ -3,7 +3,7 @@ description: 일부 응용 프로그램은 다양한 유형의 재질에 대해 
 solution: Experience Manager
 title: 여러 조명 맵 사용
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

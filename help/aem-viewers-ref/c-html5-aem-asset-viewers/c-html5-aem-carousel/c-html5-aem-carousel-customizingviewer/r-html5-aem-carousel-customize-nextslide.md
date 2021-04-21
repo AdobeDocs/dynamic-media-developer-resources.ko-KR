@@ -2,8 +2,8 @@
 description: 다음 슬라이드 단추를 클릭하거나 탭하면 회전판 세트의 다음 슬라이드로 이동합니다.
 solution: Experience Manager
 title: 다음 슬라이드
-feature: Dynamic Media Classic,뷰어,SDK/API,회전판 배너
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

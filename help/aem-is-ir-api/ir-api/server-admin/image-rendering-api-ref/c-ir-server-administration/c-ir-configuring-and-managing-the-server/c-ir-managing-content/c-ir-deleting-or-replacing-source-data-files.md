@@ -3,7 +3,7 @@ description: 파일을 덮어쓰기 직전에 req=release 명령을 사용하여
 solution: Experience Manager
 title: 소스 데이터 파일 삭제 또는 바꾸기
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 이미지 제공 소스 데이터 파일에는 이미지 및 마스
 solution: Experience Manager
 title: 소스 데이터
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

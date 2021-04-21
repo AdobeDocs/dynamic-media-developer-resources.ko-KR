@@ -3,7 +3,7 @@ description: 소스 개체 지정자. 이미지 카탈로그 항목 또는 상�
 solution: Experience Manager
 title: 개체
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

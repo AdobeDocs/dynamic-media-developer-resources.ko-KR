@@ -3,7 +3,7 @@ description: 사용자 계정을 만들고 하나 이상의 회사에 해당 계
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

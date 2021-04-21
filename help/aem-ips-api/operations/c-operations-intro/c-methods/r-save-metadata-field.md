@@ -2,8 +2,8 @@
 description: 메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,메타데이터
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

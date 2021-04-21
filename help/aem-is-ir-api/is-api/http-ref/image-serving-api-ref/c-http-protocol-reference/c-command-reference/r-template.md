@@ -3,7 +3,7 @@ description: 합성 템플릿. 기본 카탈로그 이외의 카탈로그에 있
 solution: Experience Manager
 title: 템플릿
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

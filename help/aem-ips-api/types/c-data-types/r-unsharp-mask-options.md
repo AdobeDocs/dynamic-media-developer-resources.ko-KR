@@ -2,8 +2,8 @@
 description: 최적화된 피라미드 TIF 파일의 이미지 선명도를 개선하는 데 도움이 되는 설정.
 solution: Experience Manager
 title: UnsharpMaskOptions
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

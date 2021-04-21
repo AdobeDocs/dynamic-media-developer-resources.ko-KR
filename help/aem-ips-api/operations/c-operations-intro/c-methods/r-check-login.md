@@ -3,7 +3,7 @@ description: 특정 회사(ID로 식별), 이메일 주소 및 암호를 가진 
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

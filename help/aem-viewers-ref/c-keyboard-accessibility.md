@@ -2,8 +2,8 @@
 description: 기본 확대/축소, eCatalog, eCatalog 검색, 플라이아웃, 인라인 확대/축소, 혼합 미디어, 회전, 비디오, 확대/축소, 차원(3D), 회전 메뉴, 대화형 이미지, 대화형 비디오 및 Video360 뷰어 인터페이스에 노출된 모든 기능은 키보드로 액세스할 수 있습니다.
 solution: Experience Manager
 title: 키보드 액세스 가능성 및 내비게이션
-feature: Dynamic Media Classic,뷰어,SDK/API
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

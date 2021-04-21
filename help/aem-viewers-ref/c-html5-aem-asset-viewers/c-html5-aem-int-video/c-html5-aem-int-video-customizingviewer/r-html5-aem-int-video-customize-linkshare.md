@@ -2,8 +2,8 @@
 description: 링크 공유 도구는 도구가 활성화될 때 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
 solution: Experience Manager
 title: 링크 공유
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

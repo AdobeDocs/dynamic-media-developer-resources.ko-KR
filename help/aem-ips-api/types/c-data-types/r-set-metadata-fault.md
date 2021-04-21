@@ -2,8 +2,8 @@
 description: batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오류 세부 정보입니다.
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API,메타데이터
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

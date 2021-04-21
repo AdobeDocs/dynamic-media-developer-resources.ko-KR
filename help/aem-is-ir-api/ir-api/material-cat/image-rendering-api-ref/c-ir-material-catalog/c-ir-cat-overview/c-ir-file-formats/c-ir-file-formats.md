@@ -3,7 +3,7 @@ description: 카탈로그 속성 파일과 카탈로그 데이터 파일은 모�
 solution: Experience Manager
 title: 파일 형식
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 이미지 포털과 관련된 시스템 속성의 문자열 값을 
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 기본적으로 소셜 공유 도구는 왼쪽 위 모서리에 표시됩니다. 사용자가 버튼을 클릭하거나 탭할 때 확장되는 버튼과 패널이며 개별 공유 툴이 포함되어 있습니다.
 solution: Experience Manager
 title: 소셜 공유
-feature: Dynamic Media Classic,뷰어,SDK/API,eCatalog 검색
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

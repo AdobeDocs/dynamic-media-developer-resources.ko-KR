@@ -3,7 +3,7 @@ description: vntc는 stader 또는 로그 파일로 전송되는 텍스트 데�
 solution: Experience Manager
 title: 출력
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

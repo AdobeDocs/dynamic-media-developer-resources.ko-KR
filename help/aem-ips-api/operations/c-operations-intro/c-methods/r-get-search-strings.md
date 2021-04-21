@@ -3,7 +3,7 @@ description: 자산 검색 문자열, 키워드 및 기타 정보를 가져옵�
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

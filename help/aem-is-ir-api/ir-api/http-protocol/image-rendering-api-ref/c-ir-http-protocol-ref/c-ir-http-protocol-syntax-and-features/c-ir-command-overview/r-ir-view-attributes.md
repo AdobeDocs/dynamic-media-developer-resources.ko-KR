@@ -3,7 +3,7 @@ description: 이러한 명령은 위치에 영향을 받지 않으며 요청의 
 solution: Experience Manager
 title: 속성 보기
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

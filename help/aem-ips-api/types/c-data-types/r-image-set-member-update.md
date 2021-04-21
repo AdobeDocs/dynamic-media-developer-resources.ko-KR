@@ -2,8 +2,8 @@
 description: '이 유형 내에서 pageReset 필드는 RenderSet 및 카탈로그 이미지 자산 유형에 유용합니다 '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,이미지 세트
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

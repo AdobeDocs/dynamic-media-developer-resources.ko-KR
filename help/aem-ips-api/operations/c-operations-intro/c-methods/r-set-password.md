@@ -3,7 +3,7 @@ description: 사용자 핸들 지정 여부에 따라 특정 사용자 또는 �
 solution: Experience Manager
 title: setPassword
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 이미지 앵커. 반복 가능한 텍스처, 벽 테두리 또는 
 solution: Experience Manager
 title: 앵커
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

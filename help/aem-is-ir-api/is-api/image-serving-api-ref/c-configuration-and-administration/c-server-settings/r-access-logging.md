@@ -3,7 +3,7 @@ description: 액세스를 로깅하려면 다음 서버 설정을 사용합니�
 solution: Experience Manager
 title: 액세스 로깅
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

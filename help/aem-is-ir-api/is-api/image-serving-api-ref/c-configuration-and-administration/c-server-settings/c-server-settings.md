@@ -3,7 +3,7 @@ description: 이 섹션에서는 관심 영역별로 그룹화된 모든 편집 
 solution: Experience Manager
 title: 서버 설정
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

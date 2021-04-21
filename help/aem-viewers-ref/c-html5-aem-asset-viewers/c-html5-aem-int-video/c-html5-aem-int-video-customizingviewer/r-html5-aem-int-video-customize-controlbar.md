@@ -2,8 +2,8 @@
 description: 컨트롤 막대는 재생/일시 정지 단추, 볼륨 컨트롤 등과 같이 비디오 뷰어에서 사용할 수 있는 모든 UI 컨트롤을 포함하고 그 뒤에 있는 사각형 영역입니다.
 solution: Experience Manager
 title: 컨트롤 막대
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

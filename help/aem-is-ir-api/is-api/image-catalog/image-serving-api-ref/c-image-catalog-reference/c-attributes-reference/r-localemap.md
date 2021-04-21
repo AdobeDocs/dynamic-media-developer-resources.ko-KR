@@ -3,7 +3,7 @@ description: ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하�
 solution: Experience Manager
 title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

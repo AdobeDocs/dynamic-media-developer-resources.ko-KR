@@ -3,7 +3,7 @@ description: 이미지 자산과 연관된 이미지 필드를 업데이트합�
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

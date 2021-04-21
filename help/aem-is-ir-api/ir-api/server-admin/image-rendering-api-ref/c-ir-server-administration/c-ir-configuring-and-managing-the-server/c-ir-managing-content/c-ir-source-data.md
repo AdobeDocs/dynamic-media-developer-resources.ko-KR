@@ -3,7 +3,7 @@ description: 이미지 렌더링 소스 데이터 파일에는 비네팅 파일,
 solution: Experience Manager
 title: 소스 데이터
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자,비즈니스 전문가
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

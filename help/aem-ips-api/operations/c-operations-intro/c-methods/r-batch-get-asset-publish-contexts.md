@@ -2,8 +2,8 @@
 description: 게시용으로 표시된 자산에 대한 게시 컨텍스트를 반환합니다.
 solution: Experience Manager
 title: batchGetAssetPublishContext
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

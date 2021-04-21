@@ -3,7 +3,7 @@ description: 검색 결과에서 제외할 생성 엔진 및 생성된 자산 �
 solution: Experience Manager
 title: 제외 부산물 조건
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

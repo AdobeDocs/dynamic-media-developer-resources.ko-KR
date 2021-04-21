@@ -3,7 +3,7 @@ description: 비네팅에서 활성화된 경우 렌더러는 조명 알고리�
 solution: Experience Manager
 title: 광택 효과
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 여러 텍스트 및 이미지 레이어를 포함할 수 있는 �
 solution: Experience Manager
 title: createTemplate
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

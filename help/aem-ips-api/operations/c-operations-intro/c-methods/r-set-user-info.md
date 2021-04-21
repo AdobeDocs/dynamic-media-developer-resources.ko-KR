@@ -3,7 +3,7 @@ description: '사용자 특성(예: 이름, 이메일, 역할 등)을 설정합�
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

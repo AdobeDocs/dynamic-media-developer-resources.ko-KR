@@ -2,8 +2,8 @@
 description: 대화형 비디오 뷰어용 URL 명령.
 solution: Experience Manager
 title: 상호 작용 데이터
-feature: Dynamic Media Classic,뷰어,SDK/API,대화형 비디오
-role: 개발자,비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -3,7 +3,7 @@ description: XMP 메타데이터 포함. XMP 메타데이터를 응답 이미지
 solution: Experience Manager
 title: xmpEmbed
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

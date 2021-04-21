@@ -3,7 +3,7 @@ description: 속성 세트는 속성 세트 유형에 따라 다양한 IPS 객�
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,관리자
+role: Developer,Administrator
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

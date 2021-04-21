@@ -3,7 +3,7 @@ description: 이미지 비율 조정 전체 해상도 이미지를 기준으로 
 solution: Experience Manager
 title: scale
 feature: Dynamic Media Classic,SDK/API
-role: 개발자,비즈니스 전문가
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

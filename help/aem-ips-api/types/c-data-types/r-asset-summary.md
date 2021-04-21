@@ -2,8 +2,8 @@
 description: 자산에 대한 요약된 정보가 포함된 메타데이터 검색 결과.
 solution: Experience Manager
 title: 자산 요약
-feature: Dynamic Media Classic,SDK/API,자산 관리
-role: 개발자,관리자
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

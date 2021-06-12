@@ -5,9 +5,9 @@ title: 응답형 이미지 라이브러리 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 417fd2540c15762356dfb60aa7eb635ee5f74d13
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html" scope="external" format="https"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-simple.html  </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html" scope="external" format="https"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-simple.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-simple.htm--> </p> </td> 
    <td colname="col2"> <p>다음은 응답형 이미지가 웹 페이지 너비의 50%를 차지하는 컨테이너 내에 있는 간단한 예입니다. 브라우저 창의 크기가 변경될 때마다 컨테이너 너비가 변경됩니다. 이미지 너비가 삽화를 위해 200, 400, 600 및 800픽셀로 설정된 구성된 중단점 중 하나에 도달하면 새 표현물이 다운로드되어 표시됩니다. 불필요한 큰 이미지를 로드하지 않고 네트워크 대역폭을 절약하는 것이 목표입니다. </p> <p>웹 페이지를 열고 브라우저 창의 크기를 조정하고 네트워크 트래픽을 모니터링하려면 URL을 클릭합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
    <td colname="col2"> <p>다음 Bootstrap 예는 웹 페이지에서도 동일한 사용 사례를 보여줍니다. Bootstrap CSS에 따라 응답형 이미지가 추가된 레이아웃 셀은 다음 너비 중 하나를 사용할 수 있습니다.360, 720 및 940픽셀 이러한 값은 응답형 이미지 라이브러리에 중단점으로 전달되는 것과 같습니다. 따라서 Dynamic Media에서는 클라이언트의 네트워크 대역폭을 효과적으로 사용할 수 있습니다. 또한 클라이언트 측 브라우저 크기 조절의 시각적 아티팩트가 없이 현재 웹 페이지 레이아웃에 필요한 정확한 크기로 이미지가 표시되도록 합니다. </p> <p>웹 페이지를 열고, 브라우저 창의 크기를 조정하여 다른 레이아웃 중단점을 맞추고, 네트워크 트래픽을 모니터링하도록 URL을 클릭합니다. </p> <p>더 고급 사용 사례에는 서로 다른 이미지 사전 설정 또는 이미지 제공 명령 또는 둘 다 다른 중단점 값과 연결하는 작업이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/image-presets.html  </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/image-presets.html</a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/image-presets.html--> </p> </td> 
    <td colname="col2"> <p>다음 예에서는 다양한 중단점 크기에 대해 서로 다른 이미지 품질 및 형식의 이미지 사전 설정이 사용됩니다. 작은 중단점의 경우, 이미지 제공 기능이 6색으로 압축된 GIF 이미지를 반환하도록 하는 낮은 품질 사전 설정이 적용됩니다. 미디어 중단점이 압축률이 높은 JPEG용으로 구성된 이미지 사전 설정을 사용하고 있습니다. 가장 큰 중단점은 손실 없는 PNG를 사용하여 고품질 이미지 사전 설정과 연결됩니다. 이러한 방법은 큰 화면을 가진 장치가 더 큰 대역폭과 처리 능력을 가지고 있다는 가정을 기반으로, 이러한 장치에 고품질 이미지가 전달되도록 합니다. </p> <p>웹 페이지를 열고, 웹 브라우저 창의 크기를 더 큰 창에서 더 작은 크기로 조정하고, 이미지 품질이 어떻게 저하되는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>4 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/crops.html  </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/crops.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/crops.html--> </p> </td> 
    <td colname="col2"> <p>이미지 사전 설정 외에도 특정 이미지 제공 명령을 중단점과 연결할 수 있습니다. 다음 예제에서는 스크린의 이미지 크기가 작아지면서 배너 이미지를 관심 영역으로 점진적으로 자르는 방법을 보여줍니다. 여기서는 가장 큰 중단점에 이미지 제공 명령이 전혀 없으므로 배너 이미지가 완전히 표시됩니다. 중간 중단점에서 중간 자르기가 적용되어 "실행 중"이라는 텍스트가 있는 러너만 표시됩니다. 작은 중단점에서는 제품만 표시되도록 더 많은 자르기가 적용됩니다. </p> <p>웹 페이지를 열고 브라우저 창의 크기를 조정하도록 URL을 클릭합니다. 크기가 더 큰 것부터 작은 크기로 갈수록 이미지가 어떻게 자르는지 확인하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>5 </p> </td> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/template.html  </a> </p> <p> 
+   <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html  </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
    <td colname="col2"> <p>또한 이미지 제공 템플릿 과 함께 이미지 제공 명령을 사용하여 이미지 크기에 따라 특정 템플릿 매개 변수를 제어할 수도 있습니다. 다음 예에서는 텍스트 오버레이의 글꼴 크기가 <span class="codeph"> $fontsize </span> 매개 변수를 사용하여 매개 변수화되는 이미지 제공 템플릿이 사용됩니다. 응답형 이미지는 더 작은 이미지 크기에 대해 더 큰 글꼴 크기를 사용하여 텍스트를 항상 읽을 수 있도록 구성됩니다. </p> </td> 
   </tr> 

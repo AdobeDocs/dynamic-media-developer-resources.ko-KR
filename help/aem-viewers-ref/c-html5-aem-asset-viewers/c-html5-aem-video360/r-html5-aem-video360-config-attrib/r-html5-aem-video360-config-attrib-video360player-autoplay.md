@@ -2,14 +2,13 @@
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: Video360Player.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +22,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어가 로드 시 비디오 재생을 시작하는지 여부를 나타냅니다. 특정 모바일 디바이스와 같은 일부 시스템은 자동 재생 기능을 지원하지 않을 수도 있습니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어가 로드 시 비디오 재생을 시작하는지 여부를 나타냅니다. 특정 모바일 장치와 같은 일부 시스템은 자동 실행을 지원하지 않을 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

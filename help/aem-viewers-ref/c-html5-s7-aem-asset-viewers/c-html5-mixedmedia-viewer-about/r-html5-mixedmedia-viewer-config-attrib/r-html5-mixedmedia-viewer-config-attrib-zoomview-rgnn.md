@@ -2,16 +2,15 @@
 description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a85fba7b-2580-4a26-a998-058a0586841e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
@@ -20,8 +19,8 @@ ht-degree: 10%
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> 정규화된 좌표에 대한 관심 영역의 초기 영역입니다. 이 옵션을 지정하지 않으면 전체 이미지가 초기 뷰포트에 맞춰집니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>, <span class="codeph"> y</span>, <span class="codeph"> w</span>, <span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> 정규화된 좌표에 대한 초기 관심 영역. 이 값을 지정하지 않으면 전체 이미지가 초기 뷰포트 내에 맞습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

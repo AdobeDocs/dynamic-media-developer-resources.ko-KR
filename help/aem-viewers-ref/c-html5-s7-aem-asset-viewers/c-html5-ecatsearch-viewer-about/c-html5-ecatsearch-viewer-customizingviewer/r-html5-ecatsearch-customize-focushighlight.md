@@ -1,25 +1,24 @@
 ---
-description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 초점 하이라이트입니다.
+description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시입니다.
 solution: Experience Manager
-title: 초점 강조 표시
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: 포커스 강조 표시
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
+# 포커스 강조 표시{#focus-highlight}
 
-# 초점 강조 표시{#focus-highlight}
-
-포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 초점 하이라이트입니다.
+포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시입니다.
 
 <!--<a id="section_E8B3D0BF9FF548F188F717D6EA65EC32"></a>-->
 
-초점 강조 표시의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+포커스 강조 표시의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogviewer *:focus
@@ -30,17 +29,16 @@ ht-degree: 0%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 윤곽선  </span> </p> </td> 
-   <td colname="col2"> <p> 초점 밝은 영역 스타일입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 개요  </span> </p> </td> 
+   <td colname="col2"> <p> 초점 강조 스타일. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 모든 뷰어 사용자 인터페이스 요소에 대한 기본 브라우저 초점 하이라이트를 비활성화하려면 뷰어의 스타일 시트에 다음 CSS 선택기를 추가합니다.
+예 - 모든 뷰어 사용자 인터페이스 요소에 대해 기본 브라우저 포커스 강조 표시를 비활성화하려면 다음 CSS 선택기를 뷰어의 스타일 시트에 추가합니다.
 
 ```
 .s7ecatalogviewer *:focus { 
  outline: none; 
 }
 ```
-

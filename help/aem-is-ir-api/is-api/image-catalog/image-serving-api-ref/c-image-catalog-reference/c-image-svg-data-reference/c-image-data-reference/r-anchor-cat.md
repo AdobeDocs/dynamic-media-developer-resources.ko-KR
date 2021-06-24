@@ -1,33 +1,32 @@
 ---
-description: 이미지 앵커. 이 이미지가 템플릿 또는 합성 이미지에서 레이어로 사용될 경우 원점을 나타냅니다.
+description: 이미지 앵커. 템플릿 또는 복합 이미지에서 레이어로 사용할 때의 원점.
 solution: Experience Manager
 title: 앵커
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c54b8bb2-af4f-4c05-be7b-4326dd08993a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '116'
 ht-degree: 5%
 
 ---
 
-
 # 앵커{#anchor}
 
-이미지 앵커. 이 이미지가 템플릿 또는 합성 이미지에서 레이어로 사용될 경우 원점을 나타냅니다.
+이미지 앵커. 템플릿 또는 복합 이미지에서 레이어로 사용할 때의 원점.
 
-또한 회전의 기본 중심점을 정의합니다.
+또한 회전할 기본 중심점을 정의합니다.
 
 ## 속성 {#section-95740f14160744e7bc763094b8be40d8}
 
-2개의 정수(쉼표로 구분) 전체 해상도 이미지의 왼쪽 위 모서리를 기준으로 한 픽셀 오프셋입니다.
+쉼표로 구분된 두 정수 숫자. 전체 해상도 이미지의 왼쪽 위 모서리에 대한 픽셀 오프셋입니다.
 
-`anchor=`에 의해 재정의됨(`origin=`로 재정의할 수 있음).
+`anchor=`에 의해 재정의되며, 이 값은 `origin=`로 재정의할 수 있습니다.
 
 ## 기본값 {#section-ca3a4cc837d643519eff15951f2b47a1}
 
-이 필드가 없거나 비어 있는 경우 이미지의 중심점이 사용되며, 이 필드가 유효한 이미지 레코드인 경우(즉, `catalog::Path`이 유효한 경우) 사용됩니다.
+이 필드가 없거나 비어 있고 유효한 이미지 레코드인 경우(예: `catalog::Path` 이 유효한 경우) 이미지의 중심점이 사용됩니다.
 
 ## 참조 {#section-f605d29c3f5d48ad8e2a374f11886f19}
 

@@ -1,37 +1,36 @@
 ---
-description: 이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명 효과 필터를 적용합니다.
+description: 이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명도 필터를 적용합니다.
 solution: Experience Manager
 title: op_sharpen
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '120'
 ht-degree: 7%
 
 ---
 
+# op_선명하게{#op-sharpen}
 
-# op_sharpen{#op-sharpen}
-
-이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명 효과 필터를 적용합니다.
+이미지를 선명하게 합니다. 레이어=comp인 경우 모든 비율 조정 후 레이어 또는 최종 보기 이미지에 기본 선명도 필터를 적용합니다.
 
 `op_sharpen=0|1`
 
-레이어 마스크 또는 합성 마스크도 선명하게 됩니다.
+레이어 마스크나 복합 마스크도 선명하게 표시됩니다.
 
 ## 속성 {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-레이어 특성 또는 보기 속성입니다. `layer=comp`인 경우 현재 레이어나 최종 보기 이미지에 적용됩니다. 효과 레이어에서 무시됩니다.
+레이어 특성 또는 보기 속성입니다. `layer=comp`인 경우 현재 레이어 또는 최종 보기 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`를 선택합니다.
+`op_sharpen=0`: 선명하게 하지 않음 효과입니다.
 
 ## 예 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-이미지 리샘플링으로 인해 발생하는 약간의 흐림 효과를 보정합니다. 또한 예리한 가장자리를 따라 JPEG 결함이 추가로 발생하지 않도록 JPEG 품질을 높입니다.
+이미지 재샘플링으로 인해 발생하는 약간 흐림 현상을 보정합니다. 또한 선명하게 된 가장자리를 따라 추가 JPEG 가공물이 발생하지 않도록 JPEG 품질을 높입니다.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

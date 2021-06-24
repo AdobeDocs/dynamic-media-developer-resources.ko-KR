@@ -1,21 +1,20 @@
 ---
-description: 브라우저의 클릭 동작에 대한 Target 정의입니다.
+description: 브라우저에서 클릭 작업에 대한 Target 정의.
 solution: Experience Manager
 title: ImageMapDefinition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
 
-
 # ImageMapDefinition{#imagemapdefinition}
 
-브라우저의 클릭 동작에 대한 Target 정의입니다.
+브라우저에서 클릭 작업에 대한 Target 정의.
 
 구문
 
@@ -25,7 +24,6 @@ ht-degree: 11%
 |---|---|---|
 | `*`name`*` | `xsd:string` | 이미지 맵 정의의 이름입니다. |
 | `*`shapeType`*` | `xsd:string` | 영역 모양 값 중 하나입니다. |
-| `*`지역`*` | `xsd:string` | 이미지 맵 좌표. 형식은 HTML `<area>` 태그 속성을 기반으로 합니다. |
+| `*`지역`*` | `xsd:string` | 이미지 맵 좌표입니다. 형식은 HTML `<area>` 태그 속성을 기반으로 합니다. |
 | `*`작업	`*` | `xsd:string` | `href` URL을 포함하여 HTML `<area>` 태그에 포함할 다른 속성입니다. |
-| `*`활성화됨`*` | `xsd:boolean` | 이미지 맵이 활성화되어 있으면 true입니다. |
-
+| `*`활성화됨`*` | `xsd:boolean` | 이미지 맵이 활성화되어 있으면 True입니다. |

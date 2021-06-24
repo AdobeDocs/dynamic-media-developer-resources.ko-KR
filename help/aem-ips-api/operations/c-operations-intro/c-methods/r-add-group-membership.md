@@ -1,21 +1,20 @@
 ---
-description: 그룹 배열에 사용자를 추가합니다.
+description: 사용자를 그룹 배열에 추가합니다.
 solution: Experience Manager
 title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
-
 # addGroupMembership{#addgroupmembership}
 
-그룹 배열에 사용자를 추가합니다.
+사용자를 그룹 배열에 추가합니다.
 
 구문
 
@@ -41,26 +40,26 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>그룹 구성원을 추가할 사용자를 처리합니다. </p> </td> 
+   <td colname="col4"> <p>추가할 그룹 구성원이 있는 사용자를 처리합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>회사가 속할 그룹에 대한 핸들 배열입니다. </p> </td> 
+   <td colname="col4"> <p>회사가 속할 그룹의 핸들 배열입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **출력(addGroupMembershipParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-이 예제에서는 `*`groupHandleArray`*`가 있는 회사에 그룹을 추가합니다. 이 예에서는 하나의 그룹만 사용합니다.
+이 예에서는 `*`groupHandleArray`*`가 있는 회사에 그룹을 추가합니다. 이 예제에서는 하나의 그룹만 사용합니다.
 
 **요청**
 

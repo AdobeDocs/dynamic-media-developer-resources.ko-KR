@@ -4,14 +4,13 @@ solution: Experience Manager
 title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---
-
 
 # XmpKeywords{#xmpkeywords}
 
@@ -32,9 +31,8 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 항목</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> <p><span class="codeph"> dc:subject=</span> XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다. 쉼표가 개별 값에 나타날 경우 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p><span class="codeph"> dc:subject=</span> XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

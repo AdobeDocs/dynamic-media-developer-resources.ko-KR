@@ -1,21 +1,20 @@
 ---
-description: AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형별로 그룹화된 결과를 사용하여 단일 호출에서 모든 자산 메타데이터 필드를 반환하는 데 사용됩니다.
+description: AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형별로 그룹화된 결과를 사용하여 단일 호출에서 모든 자산 메타데이터 필드를 반환합니다.
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6353afd0-c564-4866-84ee-d29a5e2d8a86
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
-
 # AssetMetadataFieldsArray{#assetmetadatafieldsarray}
 
-AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형별로 그룹화된 결과를 사용하여 단일 호출에서 모든 자산 메타데이터 필드를 반환하는 데 사용됩니다.
+AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형별로 그룹화된 결과를 사용하여 단일 호출에서 모든 자산 메타데이터 필드를 반환합니다.
 
 구문
 
@@ -24,4 +23,3 @@ AssetMetadataFields 배열입니다. getAssetMetadataFields에서 자산 유형�
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:AssetMetadataFields` | `AssetMetadataFields` 배열 항목입니다. |
-

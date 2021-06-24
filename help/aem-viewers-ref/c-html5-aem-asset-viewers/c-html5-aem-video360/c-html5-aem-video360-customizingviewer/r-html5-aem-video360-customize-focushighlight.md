@@ -1,27 +1,26 @@
 ---
-description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 초점 강조 표시는 CSS 클래스 선택기로 제어됩니다.
+description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시는 CSS 클래스 선택기를 사용하여 제어됩니다.
 solution: Experience Manager
-title: 초점 강조 표시
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+title: 포커스 강조 표시
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 1%
 
 ---
 
-# 초점 강조 표시{#focus-highlight}
+# 포커스 강조 표시{#focus-highlight}
 
-포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 초점 강조 표시는 CSS 클래스 선택기로 제어됩니다.
+포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시는 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **CSS 속성**
 
-모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer *:focus
@@ -36,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 윤곽선  </span> </p> </td> 
-   <td colname="col2"> <p>초점 밝은 영역 스타일입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 개요  </span> </p> </td> 
+   <td colname="col2"> <p>초점 강조 스타일. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 모든 뷰어 사용자 인터페이스 요소에 대한 기본 브라우저 초점 하이라이트를 비활성화하려면 뷰어의 스타일 시트에 다음 CSS 선택기를 추가하십시오.
+예 - 모든 뷰어 사용자 인터페이스 요소에 대해 기본 브라우저 포커스 강조 표시를 비활성화하려면 뷰어의 스타일 시트에 다음 CSS 선택기를 추가합니다.
 
 ```
 .s7video360viewer *:focus { 

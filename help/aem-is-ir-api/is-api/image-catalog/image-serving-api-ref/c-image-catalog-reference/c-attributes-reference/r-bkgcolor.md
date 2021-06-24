@@ -1,21 +1,20 @@
 ---
-description: 기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 회신 이미지의 모든 영역을 채우는 데 사용되는 RGB 값입니다.
+description: 기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 회신 이미지의 영역을 채우는 데 사용되는 RGB 값입니다.
 solution: Experience Manager
 title: BkgColor
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 7%
 
 ---
 
-
 # BkgColor{#bkgcolor}
 
-기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 회신 이미지의 모든 영역을 채우는 데 사용되는 RGB 값입니다.
+기본 배경색입니다. 실제 이미지 데이터를 포함하지 않는 회신 이미지의 영역을 채우는 데 사용되는 RGB 값입니다.
 
 ## 속성 {#section-2768b2beee214676aa32f17e2a0e3343}
 

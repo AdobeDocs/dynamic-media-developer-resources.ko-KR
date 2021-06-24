@@ -1,21 +1,20 @@
 ---
 description: style
 solution: Experience Manager
-title: style
+title: 스타일
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 7%
 
 ---
 
+# 스타일{#style}
 
-# style{#style}
-
-URL 쿼리 문자열과 구성에서 다음 명령을 모두 적용할 수 있습니다. URL 쿼리 문자열에 적용된 명령은 항상 구성에 있는 동일한 명령보다 우선합니다.
+URL 쿼리 문자열과 구성에서 다음 명령을 모두 적용할 수 있습니다. URL 쿼리 문자열에 적용된 명령은 항상 구성에 있는 것과 동일한 명령보다 우선합니다.
 
 `style= *`cssPath`*`
 
@@ -23,12 +22,12 @@ URL 쿼리 문자열과 구성에서 다음 명령을 모두 적용할 수 있�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 상대 또는 절대 CSS 위치. </p> <p>사용자 지정 CSS 파일의 위치를 지정합니다. <span class="codeph"><span class="varname"> cssPath</span></span>가 상대적인 경우 뷰어 HTML 페이지 위치 및 <span class="codeph"> contentUrl=</span> 매개 변수의 값을 기준으로 결정됩니다. </p> </td> 
+   <td colname="col2"> <p> 상대 또는 절대 CSS 위치. </p> <p>사용자 지정 CSS 파일의 위치를 지정합니다. <span class="codeph"><span class="varname"> cssPath</span></span>가 상대적인 경우에는 뷰어 HTML 페이지 위치 및 <span class="codeph"> contentUrl=</span> 매개 변수의 값에 대해 확인됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-CSS 파일 내의 모든 에셋 참조는 호출된 HTML 페이지의 위치가 아니라 CSS 파일 위치에 대해 확인됩니다.
+CSS 파일 내의 모든 자산 참조는 호출된 HTML 페이지의 위치가 아니라 CSS 파일 위치에 대해 확인됩니다.
 
 ## 속성 {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

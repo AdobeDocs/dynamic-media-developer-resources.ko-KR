@@ -1,19 +1,18 @@
 ---
 description: 정적(이미지가 아닌) 컨텐츠 카탈로그에 대해 다음 필드가 지원됩니다.
 solution: Experience Manager
-title: 정적 컨텐츠 데이터
+title: 정적 콘텐츠 데이터
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-
-# 정적 내용 데이터{#static-contents-data}
+# 정적 콘텐츠 데이터{#static-contents-data}
 
 정적(이미지가 아닌) 컨텐츠 카탈로그에 대해 다음 필드가 지원됩니다.
 
@@ -24,7 +23,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-expiration-static.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> 만료</a> </span> </p></td> 
-  <td class="stentry"> <p>HTTP 응답에 대한 만료(실시간 시간). </p></td> 
+  <td class="stentry"> <p>HTTP 응답에 대한 만료(Time-to-Live). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-static-content-data-reference/r-timestamp-static.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> 타임스탬프</a></span> </p></td> 
@@ -44,7 +43,6 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videosize-cat.md" type="reference" format="dita" scope="local"> VideoSize</a></span> </p></td> 
-  <td class="stentry"> <p>비디오 크기. </p></td> 
+  <td class="stentry"> <p>비디오 크기입니다. </p></td> 
  </tr> 
 </table>
-

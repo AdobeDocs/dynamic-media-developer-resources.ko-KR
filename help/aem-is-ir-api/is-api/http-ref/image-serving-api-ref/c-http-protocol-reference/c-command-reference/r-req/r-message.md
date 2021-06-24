@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 메시지
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 47e51181-714c-4b25-a375-f3b2238cd534
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # 메시지{#message}
 
@@ -22,8 +21,8 @@ ht-degree: 6%
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> 문자열</span> </p> </td> 
-  <td class="stentry"> <p>메시지 문자열. </p></td> 
+  <td class="stentry"> <p>메시지 문자열입니다. </p></td> 
  </tr> 
 </table>
 
-HTTP 응답을 액세스할 수 없습니다. MIME 유형이 `text/plain`인 빈 응답이 반환됩니다.
+HTTP 응답을 캐시할 수 없습니다. MIME 유형 `text/plain`으로 빈 응답이 반환됩니다.

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '39'
 ht-degree: 12%
 
 ---
-
 
 # PermissionUpdate{#permissionupdate}
 
@@ -24,7 +23,6 @@ ht-degree: 12%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`groupHandle`*` | `xsd:string` | 그룹 핸들. |
-| `*`permissionType`*` | `xsd:string` | 권한 유형. |
+| `*`permissionType`*` | `xsd:string` | 권한 유형입니다. |
 | `*`isAllowed`*` | `xsd:boolean` | 권한 업데이트가 허용되는지 확인합니다. |
-| `*`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 확인합니다. |
-
+| `*`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |

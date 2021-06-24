@@ -4,14 +4,13 @@ solution: Experience Manager
 title: IR 3.x 호환성 모듈 설정 및 구성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 44fbc6be-7681-402a-936a-0511e138365c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
-
 
 # IR 3.x 호환성 모듈 설정 및 구성{#setup-and-configure-ir-x-compatibility-module}
 
@@ -19,9 +18,9 @@ IR 3.x 호환성 모듈을 설정하고 구성해야 합니다.
 
 1. 중지 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. ImageServer 웹 앱 디렉토리로 변경합니다.
-1. [!DNL ir] 디렉토리의 내용을 [!DNL ROOT] 디렉토리로 복사합니다.
-1. 텍스트 편집기에서 [!DNL ROOT/WEB-INF/web.xml]을(를) 엽니다.
-1. `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->` 행 검색
+1. [!DNL ir] 디렉토리의 내용을 [!DNL ROOT] 디렉토리에 복사합니다.
+1. 텍스트 편집기에서 [!DNL ROOT/WEB-INF/web.xml] 을 엽니다.
+1. `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->` 줄을 검색합니다.
 1. `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 해제합니다.
 1. `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`을(를) 다시 시작합니다.
 
@@ -37,8 +36,8 @@ IR 3.x 호환성 모듈을 설정하고 구성해야 합니다.
 
 **Windows 예**
 
-탐색기를 열고 `C:\Program Files\Scene7\ImageServing\webapps\ir`으로 이동합니다.
+Explorer를 열고 `C:\Program Files\Scene7\ImageServing\webapps\ir`로 이동합니다.
 
-모든 파일과 폴더를 선택하고 `C:\Program Files\Scene7\ImageServing\webapps\ROOT` 내에 복사합니다.
+모든 파일과 폴더를 선택하고 `C:\Program Files\Scene7\ImageServing\webapps\ROOT` 내부에 복사합니다.
 
-그런 다음 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` 파일을 편집하고 `<servlet>` 및 `<servlet-mapping>` 태그를 주석 해제합니다.
+그런 다음 `<servlet>` 및 `<servlet-mapping>` 태그의 주석을 해제하고 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml` 파일을 편집합니다.

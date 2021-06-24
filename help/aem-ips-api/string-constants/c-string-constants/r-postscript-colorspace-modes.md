@@ -1,19 +1,18 @@
 ---
 description: PostScriptOptions/colorspace에서 사용됩니다.
 solution: Experience Manager
-title: PostScript 색상 공간 모드
+title: PostScript Colorspace 모드
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1083ee53-f9ba-4afe-a62f-98db11c74137
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
-
-# PostScript 색상 공간 모드{#postscript-colorspace-modes}
+# PostScript Colorspace 모드{#postscript-colorspace-modes}
 
 PostScriptOptions/colorspace에서 사용됩니다.
 
@@ -25,4 +24,3 @@ PostScriptOptions/colorspace에서 사용됩니다.
 * [!DNL `Rgb`]
 * [!DNL `Cmyk`]
 * [!DNL `Gray`]
-

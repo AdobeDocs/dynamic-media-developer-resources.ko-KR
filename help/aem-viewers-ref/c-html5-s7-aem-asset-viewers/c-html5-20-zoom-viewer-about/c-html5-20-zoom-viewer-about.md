@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
 
-## 확대/축소 뷰어 {#section-e6c68406ecdc4de781df182bbd8088b4} 사용
+## 확대/축소 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 Zoom Viewer는 기본 JavaScript 파일 및 도우미 파일 세트(단일 JavaScript에 이 특정 뷰어에서 사용하는 모든 Viewer SDK 구성 요소, 자산, CSS)를 런타임 시 뷰어에서 다운로드한 경우)를 나타냅니다.
 
@@ -39,7 +39,7 @@ IS-Viewers와 함께 제공되는 프로덕션 준비 HTML 페이지나 포함�
 
 모든 뷰어에 공통되는 [명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)를 참조하십시오.
 
-## 확대/축소 뷰어 {#section-642e66ca38cd4032992840ec6c0b0cd2}와 상호 작용
+## 확대/축소 뷰어와 상호 작용 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 확대/축소 뷰어는 다른 모바일 애플리케이션에서 일반적으로 사용되는 다음과 같은 터치 제스처를 지원합니다. 뷰어가 사용자의 스와이프 제스처를 처리할 수 없는 경우 이벤트를 웹 브라우저에 전달하여 기본 페이지 스크롤을 수행합니다. 이러한 종류의 기능을 사용하면 뷰어가 장치 화면 영역의 대부분을 차지하는 경우에도 사용자가 페이지를 탐색할 수 있습니다.
 
@@ -80,7 +80,7 @@ IS-Viewers와 함께 제공되는 프로덕션 준비 HTML 페이지나 포함�
 
 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
 
-## 확대/축소 뷰어 {#section-6bb5d3c502544ad18a58eafe12a13435} 포함
+## 확대/축소 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하는데, 이 링크를 클릭하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우에는 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다.팝업, 고정 크기 포함 및 반응형 디자인 포함
 
@@ -118,7 +118,7 @@ target="_blank">Open popup viewer</a>
 
 웹 페이지가 뷰어의 컨테이너 `DIV`에 대한 너비와 높이를 모두 설정하면 뷰어가 해당 영역을 채우고 웹 페이지가 제공하는 크기를 따릅니다. 예를 들어, 뷰어를 모달 오버레이에 포함하되, 여기서 오버레이는 웹 브라우저 창 크기에 따라 크기가 조정됩니다.
 
-## {#section-44f365e6c0dd40709467a459afa82a7f} 포함 크기가 수정되었습니다.
+## 고정 크기 포함 {#section-44f365e6c0dd40709467a459afa82a7f}
 
 다음을 수행하여 웹 페이지에 뷰어를 추가합니다.
 
@@ -258,7 +258,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
    </html>
    ```
 
-## 무제한 높이가 {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}인 반응형 디자인 포함
+## 제한 없는 높이를 사용한 반응형 디자인 포함 {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 응답형 디자인 포함 기능을 사용할 경우, 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예를 들어, 웹 페이지에서 뷰어의 컨테이너 `DIV`가 웹 브라우저 창 크기의 40%를 취할 수 있도록 허용하여 높이 제한이 없는 것으로 가정해 보겠습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
@@ -318,7 +318,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 [라이브 데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-## 너비 및 높이가 정의된 유연한 크기 포함 {#section-3674e6c032594441a6576b7fb1de6e64}
+## 폭과 높이가 정의된 유연한 크기 포함 {#section-3674e6c032594441a6576b7fb1de6e64}
 
 너비와 높이가 정의된 유연한 크기 포함의 경우 웹 페이지 스타일링이 다릅니다. 이 확장은 `"holder"` DIV에 두 크기를 모두 제공하고 브라우저 창에 배치합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
 
@@ -384,7 +384,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 </html> 
 ```
 
-## setter 기반 API {#section-44e014925f24418b900696003855c0a9}를 사용하여 포함
+## setter 기반 API를 사용하여 포함 {#section-44e014925f24418b900696003855c0a9}
 
 JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며 구성 매개 변수는 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 지정합니다.
 

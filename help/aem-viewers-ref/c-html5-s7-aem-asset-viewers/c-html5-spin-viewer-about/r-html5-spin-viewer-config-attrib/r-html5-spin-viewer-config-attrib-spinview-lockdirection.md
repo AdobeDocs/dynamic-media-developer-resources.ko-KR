@@ -2,16 +2,15 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e29ba926-9e0e-4ddd-9f76-408f8ab3b4ca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.lockdirection{#spinview-lockdirection}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 2D 회전 집합의 경우 회전 방향을 변경할지 여부를 지정합니다. </p> <p><span class="codeph"> 1 </span>으로 설정하면 구성 요소는 제스처가 시작될 때 기본 드래그 또는 스와이프 방향(가로와 세로)을 식별합니다. 그런 다음 제스처가 끝날 때까지 해당 방향을 유지합니다. 예를 들어 사용자가 가로 회전을 시작한 다음 드래그 동작을 세로 방향으로 계속하기로 결정한 경우 구성 요소는 세로 회전을 수행하지 않습니다.대신 마우스 또는 스와이프의 가로 이동만 고려합니다. </p> <p><span class="codeph"> 0 </span> 값을 사용하면 사용자가 제스처 진행 중에 언제든지 회전 방향을 변경할 수 있습니다. 회전 집합이 1D일 경우 설정은 영향을 주지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 2D 스핀 세트의 경우 스핀 방향을 변경할지 여부를 지정합니다. </p> <p><span class="codeph"> 1 </span>로 설정하면 구성 요소는 제스처의 시작 시 기본 드래그 또는 밀기 방향(가로 및 세로)을 식별합니다. 이후 제스처가 종료될 때까지 해당 방향을 유지합니다. 예를 들어 사용자가 수평 스핀을 시작한 다음 수직 방향으로 드래그 제스처를 계속하기로 결정하는 경우, 구성 요소는 수직 스핀을 수행하지 않습니다.대신 마우스나 스와이프의 수평 이동만 고려합니다. </p> <p><span class="codeph"> 0 </span> 값을 사용하면 제스처 진행 중에 언제든지 스핀 방향을 변경할 수 있습니다. 스핀 세트가 1D인 경우에는 설정이 영향을 주지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

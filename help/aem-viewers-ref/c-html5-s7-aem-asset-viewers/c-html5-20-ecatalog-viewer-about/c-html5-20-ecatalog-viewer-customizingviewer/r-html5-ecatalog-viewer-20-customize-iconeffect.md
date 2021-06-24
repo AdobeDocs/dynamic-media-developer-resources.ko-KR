@@ -1,25 +1,24 @@
 ---
-description: 확대/축소 표시기가 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
+description: 확대/축소 표시기가 기본 보기 영역에 겹쳐집니다. 이미지가 재설정 상태일 때 표시되며, 아이콘 효과 매개 변수에도 달라집니다.
 solution: Experience Manager
 title: 아이콘 효과
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fee22d02-172c-4f82-9b6c-e06db530f400
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
 
-
 # 아이콘 효과{#icon-effect}
 
-확대/축소 표시기가 기본 보기 영역에 오버레이됩니다. 이미지가 재설정 상태일 때 표시되며 iconeffect 매개 변수도 다릅니다.
+확대/축소 표시기가 기본 보기 영역에 겹쳐집니다. 이미지가 재설정 상태일 때 표시되며, 아이콘 효과 매개 변수에도 달라집니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogviewer .s7pageview .s7iconeffect
@@ -34,12 +33,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> 확대/축소 표시기 아트워크. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p> 돋보기 표시기 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -54,9 +53,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->아이콘 효과는 다른 장치에 다른 아이콘 효과를 적용하는 데 사용할 수 있는 `media-type` 속성 선택기를 지원합니다. 특히, `media-type='standard'`은 마우스 입력이 일반적으로 사용되고 `media-type='multitouch'`은 터치 입력이 있는 장치에 해당하는 데스크톱 시스템에 해당합니다.
+>아이콘 효과는 `media-type` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 장치에 다른 아이콘 효과를 적용할 수 있습니다. 특히 `media-type='standard'`은 마우스 입력이 일반적으로 사용되는 데스크톱 시스템에 해당하고, `media-type='multitouch'`은 터치 입력이 있는 장치에 해당합니다.
 
-예 - 데스크톱 시스템 및 터치 장치에 대해 다른 아트로 100 x 100픽셀 확대/축소 표시기를 설정하려면
+예 - 데스크톱 시스템 및 터치 장치용 다양한 기능의 100 x 100 픽셀 확대/축소 표시기를 설정하려면 다음을 수행하십시오.
 
 ```
 .s7ecatalogviewer .s7pageview .s7iconeffect { 
@@ -70,4 +69,3 @@ ht-degree: 1%
  background-image:url(images/v2/IconEffect_pinch.png); 
 }
 ```
-

@@ -1,25 +1,24 @@
 ---
-description: 기본 개체 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 해상도 값이 없는 경우 기본 개체 해상도를 제공합니다.
+description: 기본 개체 해상도. 특정 카탈로그 레코드에 올바른 카탈로그 해상도 값이 없는 경우 기본 개체 해상도를 제공합니다.
 solution: Experience Manager
 title: 해상도
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---
 
-
 # 해상도{#resolution}
 
-기본 개체 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그::Resolution 값이 없는 경우 기본 개체 해상도를 제공합니다.
+기본 개체 해상도. 특정 카탈로그 레코드에 올바른 카탈로그::Resolution 값이 없는 경우 기본 개체 해상도를 제공합니다.
 
 ## 속성 {#section-1f65ea81c3324781af17d0321facbd19}
 
-0보다 큰 실수 일반적으로 인치당 픽셀로 표현되지만 미터당 픽셀 수와 같은 다른 단위로도 표현될 수 있습니다.
+0보다 큰 실수 일반적으로 인치당 픽셀로 표시되지만 미터 당 픽셀 수와 같은 다른 단위로 표시될 수도 있습니다.
 
 ## 기본값 {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 

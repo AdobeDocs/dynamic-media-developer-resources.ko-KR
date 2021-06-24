@@ -1,21 +1,20 @@
 ---
-description: 다음 속성은 카탈로그 속성 파일에서 인식됩니다.
+description: 카탈로그 속성 파일에서 다음 속성이 인식됩니다.
 solution: Experience Manager
 title: 카탈로그 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
 
+# 카탈로그 속성{#catalog-attributes}
 
-# 카탈로그 특성{#catalog-attributes}
-
-다음 속성은 카탈로그 속성 파일에서 인식됩니다.
+카탈로그 속성 파일에서 다음 속성이 인식됩니다.
 
 <table id="simpletable_B838784803D34B0293D7F7C6131045D3"> 
  <thead class="sthead"> 
@@ -43,12 +42,12 @@ ht-degree: 3%
   <td class="stentry"> <p>URL 사전 프로세서 규칙을 정의하는 관련 파일의 경로 또는 이름입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a" type="reference" format="dita" scope="local"> 루트 ID  </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a" type="reference" format="dita" scope="local"> RootId  </a> </p></td> 
   <td class="stentry"> <p>카탈로그 식별자. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3" type="reference" format="dita" scope="local"> 루트 경로  </a> </p></td> 
-  <td class="stentry"> <p>모든 소스 데이터 파일(비네팅, 재질 및 프로필)의 루트 경로입니다. </p></td> 
+  <td class="stentry"> <p>모든 소스 데이터 파일(비네팅, 자료 및 프로필)의 루트 경로입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181" type="reference" format="dita" scope="local"> 타임스탬프  </a> </p></td> 
@@ -62,32 +61,32 @@ ht-degree: 3%
   <td class="stentry"> <p>설명 </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> 개체 표시  </a> </p></td> 
-  <td class="stentry"> <p>겹쳐진 개체의 초기 표시/숨기기 상태 </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-showoverlapobjs.md#reference-f96341e877fa475e8a246c6db1865bbf" type="reference" format="dita" scope="local"> ShowOverlapObjects  </a> </p></td> 
+  <td class="stentry"> <p>중복 객체에 대한 초기 표시/숨기기 상태입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrl</a> </p> </td> 
   <td class="stentry"> <p>절대 <span class="codeph"> src=</span> URL을 허용합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> 루트 URL  </a> </p></td> 
-  <td class="stentry"> <p>상대 <span class="codeph"> src=</span> URL에 대한 루트 URL. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl  </a> </p></td> 
+  <td class="stentry"> <p>상대 <span class="codeph"> src=</span> URL의 루트 URL. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj  </a> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> obj=</span>이(가) 실패할 때의 비헤이비어입니다. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> obj=</span>에 실패하는 경우의 비헤이비어 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513" type="reference" format="dita" scope="local"> OnFailSel  </a> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> sel=</span>이(가) 실패할 때의 비헤이비어. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sel=</span>이 실패할 때 발생하는 동작입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0" type="reference" format="dita" scope="local"> ErrorImage  </a> </p></td> 
-  <td class="stentry"> <p>이미지 또는 템플릿에 오류가 있습니다. </p></td> 
+  <td class="stentry"> <p>오류 이미지 또는 템플릿입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b" type="reference" format="dita" scope="local"> ErrorDetail  </a> </p></td> 
-  <td class="stentry"> <p>오류 메시지 세부 정보. </p></td> 
+  <td class="stentry"> <p>오류 메시지 세부 정보입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4" type="reference" format="dita" scope="local"> CacheValidationPolicy  </a> </p></td> 
@@ -95,15 +94,15 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996" type="reference" format="dita" scope="local"> 만료 </a> </p></td> 
-  <td class="stentry"> <p>기본 클라이언트 캐시 실시간 </p></td> 
+  <td class="stentry"> <p>기본 클라이언트 캐시 유지 시간 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d" type="reference" format="dita" scope="local"> UseLastModified  </a> </p></td> 
-  <td class="stentry"> <p>마지막으로 수정한 HTTP 응답 헤더 활성화 </p></td> 
+  <td class="stentry"> <p>마지막으로 수정한 HTTP 응답 헤더를 활성화합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> 트러스트된 도메인  </a> </p> </td> 
-  <td class="stentry"> <p><span class="filepath"> swf</span> 응답 이미지에 액세스할 수 있는 웹 도메인. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains  </a> </p> </td> 
+  <td class="stentry"> <p>웹 도메인에서 <span class="filepath"> swf</span> 응답 이미지에 액세스할 수 있습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter  </a> </p></td> 
@@ -126,7 +125,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297" type="reference" format="dita" scope="local"> 샤프 </a> </p></td> 
-  <td class="stentry"> <p>기본 텍스처/기울기 </p></td> 
+  <td class="stentry"> <p>기본 텍스처/decal 선명하게 하기 </p></td> 
  </tr> 
 </table>
 
@@ -145,11 +144,11 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-resmode.md#reference-fdca7eb6d5104fdeae9d6ac42251db82" type="reference" format="dita" scope="local"> ResMode  </a> </p></td> 
-  <td class="stentry"> <p>응답 이미지 크기 조정을 위한 리샘플링 모드 </p></td> 
+  <td class="stentry"> <p>회신 이미지 크기 조정을 위한 재샘플링 모드. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> 선명하게 </a> </p></td> 
-  <td class="stentry"> <p>회신 이미지에 대한 기본 선명하게 하기. </p></td> 
+  <td class="stentry"> <p>회신 이미지에 대한 기본 선명하게 하기 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-format.md#reference-da5207242f1c4f1c8fa4df6027121ff2" type="reference" format="dita" scope="local"> 형식 </a> </p></td> 
@@ -157,26 +156,26 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-jpegquality.md#reference-d86fc5ad18bb436891efdbe1f98fea50" type="reference" format="dita" scope="local"> JpegQuality  </a> </p></td> 
-  <td class="stentry"> <p>기본 JPEG 품질입니다. </p></td> 
+  <td class="stentry"> <p>기본 Jpeg 품질입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-tiffencoding.md#reference-a3425191166042d59db766c468857d0e" type="reference" format="dita" scope="local"> TiffEncoding  </a> </p></td> 
-  <td class="stentry"> <p>TIFF 인코딩 형식. </p></td> 
+  <td class="stentry"> <p>TIFF 인코딩 형식입니다. </p></td> 
  </tr> 
 </table>
 
 <table id="simpletable_8B3B053395D340A6AEEFE7BD90059FC5"> 
  <thead class="sthead"> 
-  <td class="stentry"> <p>색상 관리 특성 </p></td> 
+  <td class="stentry"> <p>색상 관리 속성 </p></td> 
   <td class="stentry"> <p>설명 </p></td> 
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30" type="reference" format="dita" scope="local"> IccProfileRgb  </a> </p></td> 
-  <td class="stentry"> 기본 RGB 출력 색상 프로파일.</td> 
+  <td class="stentry"> 기본 RGB 출력 색상 프로파일입니다.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk  </a> </p></td> 
-  <td class="stentry"> 기본 CMYK 출력 색상 프로파일.</td> 
+  <td class="stentry"> 기본 CMYK 출력 색상 프로파일</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> IccProfileGray  </a> </p></td> 
@@ -196,15 +195,14 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40" type="reference" format="dita" scope="local"> IccRenderIntent  </a> </p> </td> 
-  <td class="stentry"> 기본 렌더링 의도.</td> 
+  <td class="stentry"> 기본 렌더링 의도</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccblackpointcompensation.md#reference-d939b0cdf6564baaa88deb1059e3b7f0" type="reference" format="dita" scope="local"> IccBlackPointCompensation  </a> </p> </td> 
-  <td class="stentry"> 검은 점 보상을 활성화/비활성화합니다.</td> 
+  <td class="stentry"> 블랙포인트 보상을 활성화/비활성화합니다.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccdither.md#reference-019855df56fe4df9b7dde9e3acd11460" type="reference" format="dita" scope="local"> IccDither  </a> </p></td> 
   <td class="stentry"> 색상 변환 디더링을 활성화/비활성화합니다.</td> 
  </tr> 
 </table>
-

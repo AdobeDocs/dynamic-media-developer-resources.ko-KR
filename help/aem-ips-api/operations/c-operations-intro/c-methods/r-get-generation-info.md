@@ -1,21 +1,20 @@
 ---
-description: 전달된 매개 변수를 기반으로 2개의 다른 유형의 정보를 반환합니다. OriginatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
+description: 전달된 매개 변수를 기반으로 두 가지 다른 유형의 정보를 반환합니다. originatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
 solution: Experience Manager
 title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
 
-
 # getGenerationInfo{#getgenerationinfo}
 
-전달된 매개 변수를 기반으로 2개의 다른 유형의 정보를 반환합니다. OriginatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
+전달된 매개 변수를 기반으로 두 가지 다른 유형의 정보를 반환합니다. originatorHandle은 지정된 자산에서 생성된 자산에 대한 정보를 반환합니다. generateHandle은 지정된 자산 또는 파일을 생성하는 데 사용되는 단계에 대한 정보를 반환합니다.
 
 구문
 
@@ -39,8 +38,8 @@ ht-degree: 9%
 |---|---|---|---|
 | `*`코드 구문`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
 | `*`코드 구문`*` | `xsd:string` | 아니요 | 세대에 사용된 엔진입니다. 글꼴 스타일을 참조하십시오. |
-| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들. |
-| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성에 사용된 자산 및 엔진을 쿼리할 자산의 핸들. |
+| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들입니다. |
+| `*`코드 구문`*` | `xsd:string` | 아니요 | 해당 세대에 사용된 자산 및 엔진을 쿼리할 자산의 핸들입니다. |
 | `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에 포함된 속성입니다. |
 | `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에서 제외된 속성입니다. |
 
@@ -52,7 +51,7 @@ ht-degree: 9%
 
 ## 예제 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-이 코드 샘플은 특정 자산에서 생성된 자산에 대한 정보를 반환합니다. 지정된 자산을 생성하는 데 사용되는 단계에 대한 정보를 검색하지 않습니다. 잠시 동안 응답이 잘립니다.
+이 코드 샘플은 특정 자산에서 생성된 자산에 대한 정보를 반환합니다. 지정된 자산을 생성하는 데 사용되는 단계에 대한 정보를 검색하지 않습니다. 간결성을 위해 응답이 잘립니다.
 
 **요청**
 
@@ -78,4 +77,3 @@ ht-degree: 9%
    </generationArray>
 </getGenerationInfoReturn>
 ```
-

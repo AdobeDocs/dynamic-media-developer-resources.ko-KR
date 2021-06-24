@@ -2,16 +2,15 @@
 description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1d7dd7f5-a5b4-43aa-9682-61f22a078f88
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.align{#thumbnailgridview-align}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 왼쪽|가운데|오른쪽</span> </p> </td> 
-   <td> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 가로 정렬(고정)을 지정합니다. ThumbnailGridView에서 내부 축소판 컨테이너의 크기는 전체 수의 축소판만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. 이 수정자는 구성 요소 내에서 내부 축소판 컨테이너가 수평으로 위치하는 방식을 지정합니다. </p> </td> 
+   <td> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 수평 정렬(고정)을 지정합니다. ThumbnailGridView에서 내부 축소판 컨테이너의 크기는 전체 축소판만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 약간의 패딩이 있습니다. 이 수정자는 구성 요소 내에서 내부 축소판 컨테이너를 가로로 배치하는 방법을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

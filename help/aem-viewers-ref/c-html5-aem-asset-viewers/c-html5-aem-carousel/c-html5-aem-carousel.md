@@ -40,7 +40,7 @@ ht-degree: 0%
 
 모든 뷰어에 공통되는 [명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)를 참조하십시오.
 
-## 회전 뷰어 {#section-642e66ca38cd4032992840ec6c0b0cd2}와 상호 작용
+## 회전판 뷰어와 상호 작용 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 회전판 세트 탐색은 기본 보기 위로 가로 밀거나 데스크탑 장치에서 사용할 수 있는 두 개의 화살표 단추를 사용하여 수행됩니다. 세트 표시기 점은 세트 내의 현재 위치를 보여줍니다.
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
 
-## 회전판 뷰어 {#section-6bb5d3c502544ad18a58eafe12a13435} 포함
+## 캐러셀 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 **팝업 모드 기본 정보**
 

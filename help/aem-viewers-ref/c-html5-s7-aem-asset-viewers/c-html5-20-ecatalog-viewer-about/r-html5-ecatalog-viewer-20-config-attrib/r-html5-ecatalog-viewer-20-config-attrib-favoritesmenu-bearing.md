@@ -4,14 +4,13 @@ solution: Experience Manager
 title: FavoritesMenu.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f08545fd-f039-41a1-ad0b-430ce7c1bdd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '192'
 ht-degree: 2%
 
 ---
-
 
 # FavoritesMenu.bearing{#favoritesmenu-bearing}
 
@@ -22,8 +21,8 @@ ht-degree: 2%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|맞춤-세로|맞춤</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> 왼쪽</span> 또는 <span class="codeph"> 오른쪽</span>으로 설정하면 추가 경계 확인 없이 패널이 지정된 방향으로 롤아웃되어 외부 컨테이너에 의해 패널 클리핑됩니다. </p> <p><span class="codeph"> fit-vertical</span>로 설정하면 구성 요소가 먼저 기본 패널 위치를 [즐겨찾기] 메뉴의 아래쪽으로 이동하고 해당 기본 위치에서 다음 방향 중 하나로 패널을 롤아웃하려고 합니다.아래쪽, 오른쪽, 왼쪽. 각 작업을 수행하면 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>으로 설정하면 구성 요소에도 유사한 로직이 사용됩니다. 기본이 오른쪽으로 이동되고, 오른쪽, 아래로 그리고 위로 롤아웃합니다. 그런 다음 왼쪽, 아래, 위로 방향을 돌려 밑면을 왼쪽으로 이동합니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|측면 맞춤</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> 또는 <span class="codeph"> 오른쪽</span>으로 설정하면 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되며, 이로 인해 외부 컨테이너에 의해 패널이 클리핑됩니다. </p> <p><span class="codeph"> fit-vertical</span> 로 설정하면 구성 요소는 먼저 기본 패널 위치를 즐겨찾기 메뉴 아래쪽으로 이동하고 해당 기본 위치에서 다음 방향 중 하나로 패널을 롤아웃하려고 합니다.아래쪽, 오른쪽, 왼쪽. 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>로 설정하면 구성 요소는 유사한 논리를 사용합니다. 베이스는 오른쪽, 오른쪽, 아래로, 위로 롤아웃하여 오른쪽으로 이동됩니다. 그리고 나서, 기지들을 왼쪽으로, 아래로 그리고 위로 롤아웃하는 방향으로 이동합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

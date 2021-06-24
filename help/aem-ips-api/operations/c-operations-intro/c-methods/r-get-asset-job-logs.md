@@ -1,21 +1,20 @@
 ---
-description: 자산에 대한 작업 로그를 가져옵니다. 배열에서 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
+description: 자산에 대한 작업 로그를 가져옵니다. 배열에 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 9%
 
 ---
 
-
 # getAssetJobLogs{#getassetjoblogs}
 
-자산에 대한 작업 로그를 가져옵니다. 배열에서 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
+자산에 대한 작업 로그를 가져옵니다. 배열에 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
 
 구문
 
@@ -37,18 +36,18 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 자산이 속하는 회사의 핸들. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 검색할 작업 로그가 있는 에셋에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산이 속한 회사의 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 검색할 작업 로그가 있는 자산에 대한 핸들입니다. |
 
 **출력(getAssetJobLogsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | 예 | 작업 로그 배열. |
+| `*`jobLogArray`*` | `types:AssetJobLogArray` | 예 | 작업 로그 배열입니다. |
 
 ## 예제 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-이 코드 샘플은 특정 자산의 작업 로그를 검색합니다. 응답에서는 자산이 사용된 모든 작업에 대한 자세한 정보가 포함된 작업 로그 배열을 반환합니다.
+이 코드 샘플은 특정 자산의 작업 로그를 검색합니다. 응답은 자산이 사용된 모든 작업에 대한 세부 정보가 있는 작업 로그 배열을 반환합니다.
 
 **요청**
 
@@ -83,4 +82,3 @@ ht-degree: 9%
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-

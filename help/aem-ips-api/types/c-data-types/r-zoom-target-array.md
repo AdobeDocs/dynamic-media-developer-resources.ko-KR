@@ -1,21 +1,20 @@
 ---
-description: 확대/축소 대상의 배열입니다.
+description: 확대/축소 타겟의 배열입니다.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # ZoomTargetArray{#zoomtargetarray}
 
-확대/축소 대상의 배열입니다.
+확대/축소 타겟의 배열입니다.
 
 구문
 
@@ -24,4 +23,3 @@ ht-degree: 20%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:ZoomTarget` | 확대/축소 대상 배열입니다. |
-

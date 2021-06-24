@@ -1,31 +1,30 @@
 ---
-description: 카탈로그 속성 파일은 이러한 기본 요청 특성을 인식합니다.
+description: 카탈로그 특성 파일은 이러한 기본 요청 특성을 인식합니다.
 solution: Experience Manager
 title: 기본 요청 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
 
+# 기본 요청 속성{#default-request-attributes}
 
-# 기본 요청 특성{#default-request-attributes}
-
-카탈로그 속성 파일은 이러한 기본 요청 특성을 인식합니다.
+카탈로그 특성 파일은 이러한 기본 요청 특성을 인식합니다.
 
 <table id="table_129CE5F9711F44D2A90ADADF5EDC3BE4"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md#reference-1b96c71a253049ddaeae09892d3484a0" format="dita" scope="local"> DefaultExt</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 이미지 파일 접미사. </p> </td> 
+   <td colname="col2"> <p> 기본 이미지 파일 접미사입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 글꼴 이름. </p> </td> 
+   <td colname="col2"> <p> 기본 글꼴면 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
@@ -45,16 +44,15 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 JPEG 인코더 설정. </p> </td> 
+   <td colname="col2"> <p> 기본 JPEG 인코더 설정입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 리샘플링 모드입니다. </p> </td> 
+   <td colname="col2"> <p> 기본 재샘플링 모드입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> DefaultLocale</a></span> </p> </td> 
-   <td colname="col2"> <p> 기본 로케일 ID. </p> </td> 
+   <td colname="col2"> <p> 기본 로케일 ID입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

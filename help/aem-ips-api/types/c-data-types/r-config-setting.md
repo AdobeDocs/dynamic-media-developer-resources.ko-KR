@@ -1,21 +1,20 @@
 ---
-description: Dynamic Media 개발자에게만 사용됩니다.
+description: Dynamic Media 개발자만 사용됩니다.
 solution: Experience Manager
 title: 구성 설정
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 6d6421ce-1933-4310-b691-817392631969
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
 
+# 구성 설정{#configsetting}
 
-# ConfigSetting{#configsetting}
-
-Dynamic Media 개발자에게만 사용됩니다.
+Dynamic Media 개발자만 사용됩니다.
 
 구문
 
@@ -23,7 +22,6 @@ Dynamic Media 개발자에게만 사용됩니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 구성 이름입니다. |
+| `*`name`*` | `xsd:string` | 구성 이름. |
 | `*`value`*` | `xsd:string` | 구성 값. |
 | `*`처리`*` | `xsd:string` | 저장된 구성을 처리합니다. |
-

@@ -1,23 +1,22 @@
 ---
-description: 플랫폼 서버 설정을 포함합니다.
+description: Platform 서버 설정을 포함합니다.
 solution: Experience Manager
 title: PlatformServer.conf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 1%
 
 ---
 
-
 # PlatformServer.conf{#platformserver-conf}
 
-플랫폼 서버 설정을 포함합니다.
+Platform 서버 설정을 포함합니다.
 
-이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 세심한 주의를 기울여야 한다.그렇지 않으면 플랫폼 서버를 시작하지 못할 수 있습니다. Windows 파일 경로에서 백슬래시 &#39;\&#39; 대신 이중 백슬래시 &#39;\\&#39; 또는 단일 슬래시 &#39;/&#39;를 사용하십시오. 백슬래시는 이 유형의 파일에서 이스케이프 문자로 사용됩니다.
+이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 주의해야 합니다.그렇지 않으면 Platform Server를 시작하지 못할 수 있습니다. Windows 파일 경로에 백슬래시 &#39;\&#39; 대신 이중 백슬래시 &#39;\\&#39; 또는 단일 슬래시 &#39;/&#39;를 사용하십시오. 백슬래시는 이 유형의 파일에서 이스케이프 문자로 사용됩니다.
 
 이 파일의 변경 사항은 파일을 저장한 후에 적용됩니다.
 
@@ -25,8 +24,8 @@ ht-degree: 1%
 
 <table id="simpletable_38244750F50A46E5B0077F5F860B125C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>일반 플랫폼 서버 설정 </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000  </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824  </span> </p> <p> <span class="codeph"> isConnection.port=27345  </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequest=true  </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=6000  </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
+  <td class="stentry"> <p>일반 Platform Server 설정 </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000  </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824  </span> </p> <p> <span class="codeph"> isConnection.port=27345  </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequest=true  </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000  </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>캐시 클러스터 구성 </p> </td> 
@@ -42,7 +41,6 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>미디어 집합 응답 </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fvctx.useCatalogRecordValidation=false  </span> </p> <p> <span class="codeph"> fvctx.nestingLimit=10  </span> </p> <p> <span class="codeph"> fvctx.brochureLimit=20  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fvctx.useCatalogRecordValidation=false  </span> </p> <p> <span class="codeph"> fvctx.nestingLimit=10  </span> </p> <p> <span class="codeph"> fvctx.browserLimit=20  </span> </p> </td> 
  </tr> 
 </table>
-

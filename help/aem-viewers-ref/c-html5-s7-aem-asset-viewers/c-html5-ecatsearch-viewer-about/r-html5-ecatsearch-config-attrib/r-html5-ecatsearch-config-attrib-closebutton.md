@@ -2,16 +2,15 @@
 description: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
-
 
 # 닫기 단추{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>닫기 단추 표시를 활성화하려면 <span class="codeph"> 1 </span>로 설정합니다. 또는 <span class="codeph"> 0 </span>으로 설정하여 닫기 단추를 숨깁니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다.데스크탑 시스템에 표시할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>닫기 단추를 표시하려면 <span class="codeph"> 1 </span> 로 설정하십시오. 또는 <span class="codeph"> 0 </span> 로 설정하여 닫기 단추를 숨깁니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다.데스크톱 시스템에 표시할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +38,3 @@ ht-degree: 9%
 ```
 closebutton=1
 ```
-

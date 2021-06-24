@@ -1,25 +1,24 @@
 ---
-description: 보조 컨트롤 막대는 [첫 번째 페이지] 및 [마지막 페이지] 단추가 포함된 사각형 영역과 CSS로 사용할 수 있도록 만든 경우 [페이지 표시기]입니다.
+description: 보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
 solution: Experience Manager
 title: 보조 컨트롤 막대
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2354c3a0-2df7-4a18-aac1-fac158a9b659
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
-
 # 보조 컨트롤 막대{#secondary-control-bar}
 
-보조 컨트롤 막대는 [첫 번째 페이지] 및 [마지막 페이지] 단추가 포함된 사각형 영역과 CSS로 사용할 수 있도록 만든 경우 [페이지 표시기]입니다.
+보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
 
-기본적으로 휴대폰에만 표시되며 뷰어 아래쪽에 있습니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 색상, 높이 및 세로 위치를 CSS로 변경할 수 있습니다.
+기본적으로 휴대 전화에만 표시되고 뷰어 하단에 있습니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 색상, 높이 및 세로 위치를 CSS로 변경할 수 있습니다.
 
-보조 컨트롤 막대의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보조 컨트롤 막대의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7secondarycontrols .s7controlbar`
 
@@ -37,20 +36,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>뷰어 아래쪽의 위치입니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 아래쪽에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>기본 컨트롤 막대의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>보조 컨트롤 막대의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 72픽셀이고 뷰어 컨테이너의 아래쪽에 위치한 회색 보조 컨트롤 막대를 설정하려면
+예 - 72픽셀이고 뷰어 컨테이너의 하단에 있는 회색 보조 컨트롤 막대를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogviewer .s7secondarycontrols .s7controlbar {  
@@ -58,4 +57,3 @@ ht-degree: 2%
  height: 72px; 
 }
 ```
-

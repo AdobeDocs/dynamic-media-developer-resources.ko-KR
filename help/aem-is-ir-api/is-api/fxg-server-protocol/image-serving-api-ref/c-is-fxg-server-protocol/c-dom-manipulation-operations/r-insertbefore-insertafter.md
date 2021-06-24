@@ -4,14 +4,13 @@ solution: Experience Manager
 title: insertBefore,insertAfter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
-
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
@@ -19,7 +18,7 @@ ht-degree: 3%
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-FXG 노드 요소에 `s7:elementID`이 정의된 경우 이 명령을 사용하여 해당 노드 앞이나 뒤에 XML 조각을 추가할 수 있습니다.
+FXG 노드 요소에 `s7:elementID`이 정의된 경우 이 명령을 사용하여 해당 노드 앞 또는 뒤에 XML 조각을 추가할 수 있습니다.
 
 ## 예 {#section-1fc8d4135ef94b60b838391e1568e70e}
 

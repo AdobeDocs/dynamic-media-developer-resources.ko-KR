@@ -4,14 +4,13 @@ solution: Experience Manager
 title: Print.printquality
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a6282054-e64a-4fb1-aa8d-2d8cb935d505
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # Print.printquality{#print-printquality}
 
@@ -21,7 +20,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 크기</span></span> </p> </td> 
-   <td colname="col2"> <p> 인쇄로 전송된 이미지의 최대 크기입니다. </p> </td> 
+   <td colname="col2"> <p> 인쇄하도록 전송된 이미지의 최대 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

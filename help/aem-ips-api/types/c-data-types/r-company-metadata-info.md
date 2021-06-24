@@ -2,16 +2,15 @@
 description: ID, 이름 및 유형과 같은 회사 메타데이터 개체에 대한 정보를 보유합니다.
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
-
 
 # CompanyMetadataInfo{#companymetadatainfo}
 
@@ -25,4 +24,3 @@ ID, 이름 및 유형과 같은 회사 메타데이터 개체에 대한 정보�
 |---|---|---|
 | `*`코드 구문`*` | `Code Phrase` |  |
 | `*`코드 구문`*` | `Code Phrase` |  |
-

@@ -1,21 +1,20 @@
 ---
-description: 명명된 Photoshop 경로를 둘러싼 4각형의 좌표를 반환합니다.
+description: 명명된 Photoshop 경로를 둘러싼 4각 변형의 좌표를 반환합니다.
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 18%
 
 ---
 
-
 # getPhotoshopPath{#getphotoshoppath}
 
-명명된 Photoshop 경로를 둘러싼 4각형의 좌표를 반환합니다.
+명명된 Photoshop 경로를 둘러싼 4각 변형의 좌표를 반환합니다.
 
 구문
 
@@ -36,15 +35,15 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지가 있는 회사를 처리합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 에셋으로 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지로 회사를 처리합니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 자산에 대해 처리합니다. |
 | `*`pathName`*` | `xsd:string` | 예 | 반환할 Photoshop 경로의 이름입니다. |
 
 **출력(getPhotoshopPathReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 예 | 경로를 기반으로 이미지 좌표를 반환합니다. [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)을 참조하십시오. |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 예 | 경로를 기반으로 이미지 좌표를 반환합니다. [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)를 참조하십시오. |
 
 ## 예제 {#section-1f0461cbdc184c8d8925336d5279db47}
 

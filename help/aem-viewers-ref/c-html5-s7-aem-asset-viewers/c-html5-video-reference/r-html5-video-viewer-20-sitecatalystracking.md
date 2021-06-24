@@ -1,33 +1,32 @@
 ---
-description: 비디오 뷰어는 Adobe Analytics 즉시 사용 가능한 추적을 지원합니다.
+description: 비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,비디오
 role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
 
-
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-비디오 뷰어는 Adobe Analytics 즉시 사용 가능한 추적을 지원합니다.
+비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
 
-## 즉시 사용 가능한 추적 {#section-3b101fe30be943c1b679fd5c273569ca}
+## 기본 추적 {#section-3b101fe30be943c1b679fd5c273569ca}
 
-비디오 뷰어는 Adobe Analytics 즉시 사용 가능한 추적을 지원합니다.
+비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
 
 추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수로 전달합니다.
 
-뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
+또한 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-ab10bd7caf184721a366cf3953071934}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 핸들러 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```
 var videoViewer = new s7viewers.VideoViewer({ 
@@ -58,25 +57,25 @@ var videoViewer = new s7viewers.VideoViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK 사용자 이벤트 </p> </th> 
-   <th colname="col2" class="entry"> <p>전송 시기... </p> </th> 
+   <th colname="col2" class="entry"> <p>전송 시점... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>뷰어를 먼저 로드합니다. </p> </td> 
+   <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>뷰어에서 <span class="codeph"> setAsset() </span> API를 사용하여 에셋이 교체되었습니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산이 교체됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>재생이 시작되었습니다. </p> </td> 
+   <td colname="col2"> <p>재생이 시작됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 일시 중지됩니다. </p> </td> 
+   <td colname="col2"> <p>재생이 일시 중지되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -84,8 +83,7 @@ var videoViewer = new s7viewers.VideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 다음 항목 중 하나에 도달합니다.0%, 25%, 50%, 75%, 100%. </p> </td> 
+   <td colname="col2"> <p>재생은 다음 항목 중 하나에 도달합니다.0%, 25%, 50%, 75%, 100%. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

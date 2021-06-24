@@ -1,21 +1,20 @@
 ---
-description: 디스크 사용량 배열입니다.
+description: 디스크 사용의 배열입니다.
 solution: Experience Manager
 title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # DiskUsageArray{#diskusagearray}
 
-디스크 사용량 배열입니다.
+디스크 사용의 배열입니다.
 
 구문
 
@@ -23,5 +22,4 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:DiskUsage` | 디스크 사용량 배열입니다. |
-
+| `*`항목`*` | `types:DiskUsage` | 디스크 사용 배열입니다. |

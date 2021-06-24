@@ -2,16 +2,15 @@
 description: TableOfContents.maxitems
 solution: Experience Manager
 title: TableOfContents.maxitems
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c2e559d9-96c7-4d0f-8aa6-a60d9e42c7c4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 5%
 
 ---
-
 
 # TableOfContents.maxitems{#tableofcontents-maxitems}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>드롭다운 목차에 있는 최대 항목 수입니다. </p> <p>또한 외부 컨테이너별로 잘릴 경우에 대비해 드롭다운에 표시되는 항목의 수를 줄일 수 있습니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 해당 구성 요소는 추가되는 컨테이너에 따라 가능한 한 많은 항목을 표시합니다. </p> </td> 
+   <td> <p>드롭다운 목차 항목의 최대 항목 수입니다. </p> <p>또한 외부 컨테이너에 의해 잘리는 경우 드롭다운에서 표시되는 항목 수를 줄일 수 있습니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 해당 구성 요소는 추가된 컨테이너에 따라 가능한 많은 항목을 표시합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

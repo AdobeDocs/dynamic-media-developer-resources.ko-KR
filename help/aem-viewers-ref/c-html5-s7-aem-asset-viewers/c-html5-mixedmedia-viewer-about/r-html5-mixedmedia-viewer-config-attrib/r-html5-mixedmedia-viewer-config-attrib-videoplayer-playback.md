@@ -2,16 +2,15 @@
 description: 혼합 미디어 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: accf2b56-d7bd-483d-9759-fa38246a0a8f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 3%
 
 ---
-
 
 # VideoPlayer.playback{#videoplayer-playback}
 
@@ -23,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|점진적</span> </p> </td> 
-   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. <span class="codeph"> auto</span>이 설정되면 대부분의 데스크탑 브라우저와 모든 iOS 장치에서 뷰어는 HLS 형식의 HTML5 스트리밍 비디오를 사용합니다. 이전 Internet Explorer 및 Android와 같은 특정 시스템에서 점진적 HTML5 재생을 지원합니다. </p> <p><span class="codeph"> 점진적</span>이 지정된 경우 뷰어는 브라우저에서 기본적으로 지원되는 HTML5 재생에만 의존하며 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드의 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. <span class="codeph"> auto</span>이 설정되면 대부분의 데스크탑 브라우저와 모든 iOS 장치에서 뷰어는 HLS 형식의 HTML5 스트리밍 비디오를 사용합니다. 이전 Internet Explorer 및 Android와 같은 특정 시스템에서 점진적 HTML5 재생으로 돌아갑니다. </p> <p><span class="codeph"> progressive</span>가 지정된 경우 뷰어는 기본적으로 브라우저에 의해 지원되는 HTML5 재생만 사용하며, 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드의 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

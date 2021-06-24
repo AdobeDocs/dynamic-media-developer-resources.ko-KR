@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 11%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -33,26 +32,26 @@ ht-degree: 11%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`charField`*` | `xsd:string` | 예 | 검색할 휴지통 상태를 결정합니다. |
-| `*`includeInactive`*` | `xsd:boolean` | 예 | 비활성 사용자 포함 또는 제외 IPS 관리자가 아닌 사용자는 API 호출을 수행할 수 있는 권한을 부여받을 수 있는 하나 이상의 회사의 활성 구성원이어야 합니다. 사용자에게 유효한 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
+| `*`inactive`*` | `xsd:boolean` | 예 | 비활성 사용자를 포함하거나 제외합니다. IPS가 아닌 관리자 사용자는 API 호출을 수행할 수 있는 권한이 있는 적어도 하나의 회사의 활성 구성원이어야 합니다. 사용자에게 활성 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
 | `*`includInvalid`*` | `xsd:boolean` | 아니요 | 잘못된 사용자를 포함하거나 제외합니다. |
-| `*`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사를 기반으로 결과를 필터링합니다. |
-| `*`groupHandleArray`*` | `types:HandleArray` | 아니요 | 그룹을 기반으로 결과를 필터링합니다. |
+| `*`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사를 기준으로 결과를 필터링합니다. |
+| `*`groupHandleArray`*` | `types:HandleArray` | 아니요 | 필터 결과는 그룹을 기반으로 합니다. |
 | `*`userRoleArray`*` | `types:StringArray` | 아니요 | 사용자 역할에 따라 결과를 필터링합니다. |
-| `*`numChars`*` | `xsd:int` | 아니요 | 활성화 > 1자. |
+| `*`numChars`*` | `xsd:int` | 아니요 | 1자 이상을 사용합니다. |
 
 **출력(getUserCharsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | 예 | 문자 접두어의 배열입니다. |
+| `*`userCharsArray`*` | `types:StringArray` | 예 | 문자 접두사 배열입니다. |
 
 ## 예제 {#section-3702f165e8b041139a6144f4a76ca25f}
 
 이 코드 샘플은 다음을 반환합니다.
 
-* 특정 회사 사용자의 성명의 첫 번째 문자.
-* 그룹 세트입니다.
-* 사용자 역할 집합.
+* 특정 회사 사용자의 성 이름입니다.
+* 그룹 집합입니다.
+* 사용자 역할 세트입니다.
 
 사용자 문자 필터 필드 문자열 상수는 반환된 사용자 문자 유형을 결정합니다.
 
@@ -79,4 +78,3 @@ ht-degree: 11%
    </userCharsArray>
 </getUserCharsReturn>
 ```
-

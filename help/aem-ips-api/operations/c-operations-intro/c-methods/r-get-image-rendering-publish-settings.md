@@ -1,21 +1,20 @@
 ---
-description: 내부 용도로만 사용하십시오. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
+description: 내부용입니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 16%
 
 ---
 
-
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-내부 용도로만 사용하십시오. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
+내부용입니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 
 구문
 
@@ -32,7 +31,7 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 가져오려는 이미지 렌더링 게시 설정이 있는 회사에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 가져올 이미지 렌더링 게시 설정이 있는 회사의 핸들입니다. |
 | `*`contextHandle`*` | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
 
 **출력(getImageRenderingPublishSettingsReturn)**
@@ -40,4 +39,3 @@ ht-degree: 16%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`publishSettingsArray`*` | `type:ConfigSettingArray` | 예 | 이미지 렌더링 게시 설정. |
-

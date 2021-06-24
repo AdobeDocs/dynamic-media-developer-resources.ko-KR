@@ -1,23 +1,22 @@
 ---
-description: TIFF 인코딩 형식. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값이 효과적으로 됩니다.
+description: TIFF 인코딩 형식입니다. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값은 효과적입니다.
 solution: Experience Manager
 title: TiffEncoding
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6a6fa8f5-4497-438d-914c-3f6d4c08ef09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
 
-
 # TiffEncoding{#tiffencoding}
 
-TIFF 인코딩 형식. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값이 효과적으로 됩니다.
+TIFF 인코딩 형식입니다. TIFF 이미지의 압축 형식을 지정합니다. fmt= 명령의 세 번째 값에 대한 기본값은 효과적입니다.
 
-압축 없음으로 0으로, LZW에서는 1로, 디플레이트(ZIP)는 2로, JPEG 압축은 3으로 설정합니다.
+압축이 없는 경우 0으로, LZW의 경우 1로, 디플레이트의 경우 2로, ZIP(JPEG)의 경우 3으로 설정합니다.
 
 ## 속성 {#section-469f5a1225464542866f5353edd92db3}
 

@@ -2,16 +2,15 @@
 description: VideoPlayer.progressivebitrate
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
-
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> 현재 시스템에서 응용 비디오 재생을 지원하지 않는 경우 응용 비디오 세트에서 재생할 원하는 비디오 비트 전송률(초 또는 kbps)을 지정합니다. </p> <p>구성 요소는 지정된 값에 가장 근접한(초과) 비트 전송률을 사용하여 비디오 스트림을 선택합니다. 응용 비디오 집합의 모든 비디오 스트림의 품질이 지정된 값보다 높은 경우 가장 낮은 품질로 비트 전송률을 선택합니다. </p> </td> 
+   <td colname="col2"> <p> 현재 시스템이 응용 비디오 재생을 지원하지 않는 경우 응용 비디오 세트에서 재생할 원하는 비디오 비트율(초 또는 kbps)을 지정합니다. </p> <p>구성 요소는 지정된 값에 가장 가까운(하지만 초과하지 않는) 비트율을 사용하여 비디오 스트림을 선택합니다. 응용 비디오 세트의 모든 비디오 스트림의 품질이 지정된 값보다 높은 경우 논리가 가장 낮은 품질을 사용하여 비트율을 선택합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

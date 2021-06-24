@@ -2,16 +2,15 @@
 description: 메타데이터 필드에 대한 모든 값을 반환합니다.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -36,7 +35,7 @@ ht-degree: 21%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 데이터를 가져올 회사의 핸들입니다. |
-| `*`metadataKey`*` | `xsd:string` | 예 | 메타데이터 키를 도트 표기법으로 표시합니다. |
+| `*`metadataKey`*` | `xsd:string` | 예 | 점 표기법의 메타데이터 키. |
 
 **출력(getDistinctMetadataValuesReturn)**
 
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-

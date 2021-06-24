@@ -1,23 +1,22 @@
 ---
-description: 이미지 세트와 연관된 자산 목록을 설정합니다.
+description: 이미지 세트와 연결된 자산 목록을 설정합니다.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API,이미지 세트
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setImageSetMembers{#setimagesetmembers}
 
-이미지 세트와 연관된 자산 목록을 설정합니다.
+이미지 세트와 연결된 자산 목록을 설정합니다.
 
-이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 설정합니다.
+이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 강제 적용합니다.
 
 ## 인증된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -30,7 +29,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->사용자는 이미지 세트 자산에 대한 읽기 및 쓰기 액세스 권한과 각 멤버 자산에 대한 읽기 액세스 권한을 가지고 있어야 합니다.
+>사용자는 이미지 세트 자산에 대한 읽기 및 쓰기 액세스 권한과 각 구성원 자산에 대한 읽기 액세스 권한을 가져야 합니다.
 
 ## 매개 변수 {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -48,13 +47,13 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사 핸들. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 세트 핸들. </td> 
   </tr> 
@@ -69,7 +68,7 @@ ht-degree: 9%
 
 **출력(setImageSetMembersReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-7b87219034464aa98524178ccee27738}
 

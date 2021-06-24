@@ -1,27 +1,26 @@
 ---
-description: 기본 보기는 확대 가능 이미지로 구성됩니다.
+description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
 solution: Experience Manager
 title: 확대/축소 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '171'
 ht-degree: 3%
 
 ---
 
-
 # 확대/축소 보기{#zoom-view}
 
-기본 보기는 확대 가능 이미지로 구성됩니다.
+기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7basiczoomviewer .s7zoomview
@@ -36,12 +35,12 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 커서  </span> </p> </td> 
-   <td colname="col2"> <p>커서가 기본 보기 위에 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>주 뷰 위에 커서가 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `cursortype` 속성 선택기를 지원하며 구성 요소 상태 및 사용자 작업을 기반으로 커서 유형을 제어합니다. `.s7zoomview` 다음 `cursortype` 값이 지원됩니다.
+데스크톱 시스템에서 구성 요소는 `.s7zoomview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원하며 구성 요소 상태 및 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -69,17 +68,16 @@ ht-degree: 3%
    <td colname="col2"> <p>작은 이미지 해상도, 구성 요소 설정 또는 둘 다로 인해 이미지를 확대할 수 없을 때 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoom  </span> </p> </td> 
-   <td colname="col2"> <p>이미지를 확대하면 표시됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 조모  </span> </p> </td> 
+   <td colname="col2"> <p>이미지를 확대/축소할 수 있을 때 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 재설정 </span> </p> </td> 
-   <td colname="col2"> <p>이미지가 최대 확대/축소 수준에 있을 때 표시되며 초기 상태로 재설정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이미지가 최대 확대/축소 수준에 있을 때 표시되고 초기 상태로 재설정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 드래그 </span> </p> </td> 
-   <td colname="col2"> <p>사용자가 확대 상태의 이미지를 이동할 때 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>사용자가 확대/축소된 상태의 이미지를 이동할 때 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

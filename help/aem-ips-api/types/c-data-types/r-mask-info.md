@@ -1,21 +1,20 @@
 ---
-description: 마스크 파일 속성.
+description: 마스크 파일 속성입니다.
 solution: Experience Manager
 title: MaskInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
-
 # MaskInfo{#maskinfo}
 
-마스크 파일 속성.
+마스크 파일 속성입니다.
 
 구문
 
@@ -24,5 +23,4 @@ ht-degree: 17%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`maskPath`*` | `xsd:string` | 마스크 파일 경로입니다. |
-| `*`maskFile`*` | `xsd:string` | 마스크 파일 이름. |
-
+| `*`maskFile`*` | `xsd:string` | 마스크 파일 이름입니다. |

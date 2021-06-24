@@ -2,13 +2,12 @@
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: Video360Player.initialbitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: f36eb82a-e545-4063-8bc4-6315ed17758f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '118'
 ht-degree: 6%
 
 ---
@@ -23,7 +22,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> 데스크톱에서 비디오를 처음으로 재생하는 데 사용되는 비디오 비트 전송률(초당 kbits 또는 kbps)을 설정합니다. </p> <p>응용 비디오 집합에 이 비트 전송률 값이 없는 경우 비디오 플레이어는 다음 비트 전송률이 낮은 비디오로 시작합니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 비디오 플레이어가 가능한 가장 낮은 비트 전송률에서 시작합니다. </p> <p>HTML5 HLS 비디오에 대한 기본 지원이 없는 시스템(Windows 10의 Firefox, Chrome 및 Internet Explorer 11 브라우저 등)과 재생 모드가 [자동]으로 설정된 경우에만 해당됩니다. </p> </td> 
+   <td colname="col2"> <p> 데스크탑에서 비디오를 처음 재생하는 데 사용되는 비디오 비트율(초당 kbps)을 설정합니다. </p> <p>이 비트율 값이 응용 비디오 세트에 없는 경우 비디오 플레이어는 다음으로 낮은 비트율을 갖는 비디오로 시작합니다. </p> <p><span class="codeph"> 0</span> 로 설정하면 비디오 플레이어가 가능한 가장 낮은 비트율에서 시작됩니다. </p> <p>HTML5 HLS 비디오에 대한 기본 지원이 없는 시스템(예: Windows 10의 Firefox, Chrome 및 Internet Explorer 11 브라우저)과 재생 모드가 자동으로 설정되어 있는 경우에만 적용 가능합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

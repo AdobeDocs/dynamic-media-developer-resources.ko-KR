@@ -1,22 +1,21 @@
 ---
 description: 도련 여백을 설정합니다. PDF 파일에 설정된 도련 여백을 설정합니다.
 solution: Experience Manager
-title: 표백표
+title: 표백률
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: badb8ca5-52ba-4b44-b53f-fb302626adc4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
 
-
-# bleedmargin{#bleedmargin}
+# 표백률{#bleedmargin}
 
 도련 여백을 설정합니다. PDF 파일에 설정된 도련 여백을 설정합니다.
 
 `bleedMargin=[ *[!DNL top]*[, *[!DNL left]*= *[!DNL top]*[, *[!DNL bottom]*= *[!DNL top]*[, *[!DNL right]*= *[!DNL left]*]]]]` 포인트
 
-기본적으로 `bleedMargin`은 `viewWidth` 및 `viewHeight`에서 정의한 문서의 전체 크기로 설정됩니다. *[!DNL left]*, *[!DNL bottom]* 및 *[!DNL right]* 값은 지정되지 않은 경우 기본적으로 *[!DNL top]* 값으로 설정됩니다.
+기본적으로 `bleedMargin`은 `viewWidth` 및 `viewHeight`에 의해 정의된 문서의 전체 크기로 설정됩니다. 지정하지 않으면 *[!DNL left]*, *[!DNL bottom]* 및 *[!DNL right]* 값이 기본적으로 *[!DNL top]* 값으로 설정됩니다.

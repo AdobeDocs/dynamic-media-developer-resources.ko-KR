@@ -1,21 +1,20 @@
 ---
-description: 지정된 회사와 연결된 속성 집합 유형이나 회사를 지정하지 않은 경우 전역 속성 집합 유형을 가져옵니다.
+description: 지정된 회사와 연결된 속성 집합 유형이나 회사가 지정되지 않은 경우 글로벌 속성 집합 형식을 가져옵니다.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 12%
 
 ---
 
-
 # getPropertySetTypes{#getpropertysettypes}
 
-지정된 회사와 연결된 속성 집합 유형이나 회사를 지정하지 않은 경우 전역 속성 집합 유형을 가져옵니다.
+지정된 회사와 연결된 속성 집합 유형이나 회사가 지정되지 않은 경우 글로벌 속성 집합 형식을 가져옵니다.
 
 구문
 
@@ -47,9 +46,9 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">속성 집합 유형이 연결되어 있는 회사의 핸들입니다. <p>전역 속성 집합 유형을 반환하려면 생략합니다. </p> </td> 
+   <td colname="col4">속성 집합 유형이 연결된 회사의 핸들입니다. <p>전역 속성 집합 유형을 반환하려면 생략하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +57,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 유형의 배열이나 회사를 지정하지 않은 경우 글로벌 속성 집합 유형입니다. |
+| `*`typeArray`*` | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 유형의 배열이거나 회사가 지정되지 않은 경우 글로벌 속성 집합 유형입니다. |
 
 ## 예제 {#section-280c406a90864409856aee44d4069a52}
 
@@ -92,4 +91,3 @@ ht-degree: 12%
   </typeArray>
 </getPropertySetTypesReturn>
 ```
-

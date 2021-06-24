@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 29%
 
 ---
-
 
 # 유형{#type}
 
@@ -19,12 +18,12 @@ ht-degree: 29%
 
 ## 속성 {#section-86e8bc194f764c848e0ee55630a5ac1b}
 
-열거형. 모든 자료에 선택 사항. 비네팅에 3D 반사 렌더링 기능이 없는 경우 무시됩니다.
+열거형. 모든 자료에 선택 사항입니다. 비네트에 3D 반사 렌더링 기능이 없는 경우 무시됩니다.
 
 <table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p> </td> 
-  <td class="stentry"> <p>알 수 없는 서버는 기본값을 사용합니다. </p> </td> 
+  <td class="stentry"> <p>알 수 없음, 서버는 기본값을 사용합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
@@ -36,15 +35,15 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>광택 금속. </p> </td> 
+  <td class="stentry"> <p>연마된 금속. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>솔질한 금속. </p> </td> 
+  <td class="stentry"> <p>브러시 금속으로 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>고철 </p> </td> 
+  <td class="stentry"> <p>오래된 금속 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
@@ -52,7 +51,7 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
-  <td class="stentry"> <p>에나멜/라케어 </p> </td> 
+  <td class="stentry"> <p>에나멜/라퀴어 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
@@ -80,7 +79,7 @@ ht-degree: 29%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>자연석입니다. </p> </td> 
+  <td class="stentry"> <p>자연석. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
@@ -99,15 +98,15 @@ ht-degree: 29%
   <td class="stentry"> <p>순직물. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>19년 </p> </td> 
+  <td class="stentry"> <p>19 </p> </td> 
   <td class="stentry"> <p>카펫. </p> </td> 
  </tr> 
 </table>
 
 ## 기본값 {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0.서버는 다른 재료 특성을 기준으로 적절한 기본값을 결정합니다.
+0;서버는 다른 재료 속성을 기준으로 적절한 기본값을 결정합니다.
 
 ## 참조 {#section-a51850093b7140e683a0f8b07845843c}
 
-[카탈로그::광택](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [카탈로그::거칠음](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [유형=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[카탈로그::광택](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [카탈로그::거칠기](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [유형=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)

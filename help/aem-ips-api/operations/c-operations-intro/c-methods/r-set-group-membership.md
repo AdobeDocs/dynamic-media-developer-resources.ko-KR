@@ -1,21 +1,20 @@
 ---
-description: 사용자의 그룹 구성원 자격을 설정합니다.
+description: 사용자의 그룹 구성원을 설정합니다.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
 
-
 # setGroupMembership{#setgroupmembership}
 
-사용자의 그룹 구성원 자격을 설정합니다.
+사용자의 그룹 구성원을 설정합니다.
 
 구문
 
@@ -31,13 +30,13 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원 자격을 설정하려는 사용자에 대한 핸들입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원을 설정하려는 사용자에 대한 핸들입니다. |
 | `*`companyHandle`*` | `xsd:string` | 아니요 | 회사 핸들. |
 | `*`groupHandleArray`*` | `types:HandleArray` | 예 | 사용자가 속한 그룹의 핸들 배열입니다. |
 
 **출력(setGroupMembershipReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-67b86d259df24938896fe19061845811}
 

@@ -1,21 +1,20 @@
 ---
-description: 계층적 파일 또는 자산 저장소 객체입니다. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
+description: 계층 파일 또는 자산 저장소 개체. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
 solution: Experience Manager
 title: 폴더
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
 
-
 # 폴더{#folder}
 
-계층적 파일 또는 자산 저장소 객체입니다. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
+계층 파일 또는 자산 저장소 개체. 폴더에는 하나 이상의 하위 폴더가 포함될 수 있습니다.
 
 구문
 
@@ -26,8 +25,7 @@ ht-degree: 10%
 | `*`folderHandle`*` | `xsd:string` | 폴더 핸들. |
 | `*`경로`*` | `xsd:string` | 폴더 경로. |
 | `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜. |
-| `*`childLastModified`*` | `xsd:dateTime` | 하위 폴더 및 하위 폴더 자산에 대한 마지막 수정 날짜. |
-| `*`permissionsSetHandle`*` | `xsd:string` | 폴더 권한 핸들. |
+| `*`childLastModified`*` | `xsd:dateTime` | 하위 폴더 및 폴더 하위 자산에 대한 마지막 수정 날짜입니다. |
+| `*`permissionsSetHandle`*` | `xsd:string` | 폴더 권한 핸들입니다. |
 | `*`hasSubfolder`*` | `types:Boolean` | 폴더에 하위 폴더가 있는지 확인합니다. |
 | `*`subfolderArray`*` | `types:FolderArray` | 폴더의 하위 폴더 배열입니다. |
-

@@ -1,29 +1,28 @@
 ---
-description: ICC 프로파일 맵 파일 경로. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
+description: ICC 프로필 맵 파일 경로입니다. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
 solution: Experience Manager
 title: IccProfileMapFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3a84dc64-3167-4419-a25d-c2f475552f07
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 5%
 
 ---
 
-
 # IccProfileMapFile{#iccprofilemapfile}
 
-ICC 프로파일 맵 파일 경로. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
+ICC 프로필 맵 파일 경로입니다. 이 이미지 카탈로그에 대한 ICC 프로필 맵을 포함하는 파일을 지정합니다.
 
 ## 속성 {#section-962934fded9746c7953beb62616dd2a7}
 
-텍스트 문자열 값입니다. 카탈로그 폴더를 기준으로 하는 절대 파일 경로 또는 경로입니다.
+텍스트 문자열 값입니다. 카탈로그 폴더에 대한 절대 파일 경로 또는 경로입니다.
 
 ## 기본값 {#section-c368cbef2a24435ea97cc7c83bbe2ce8}
 
-비어 있음 - 이 이미지 카탈로그에 비공개 ICC 프로필이 포함되지 않음을 나타냅니다.
+비어 있음 - 이 이미지 카탈로그에 개인 ICC 프로필이 포함되지 않음을 나타냅니다.
 
 ## 참조 {#section-3ed772259c8e4209b5a7766fae1d6efd}
 

@@ -1,21 +1,20 @@
 ---
-description: 자산 업로드를 위한 URL 배열입니다.
+description: 자산을 업로드하기 위한 URL의 배열입니다.
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af931740-48da-47c4-af03-349517f4e2a8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
 
-
 # UploadUrlArray{#uploadurlarray}
 
-자산 업로드를 위한 URL 배열입니다.
+자산을 업로드하기 위한 URL의 배열입니다.
 
 구문
 
@@ -23,5 +22,4 @@ ht-degree: 16%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:UploadUrl` | 자산을 업로드하기 위한 URL 배열입니다. |
-
+| `*`항목`*` | `types:UploadUrl` | 자산을 업로드하기 위한 URL의 배열입니다. |

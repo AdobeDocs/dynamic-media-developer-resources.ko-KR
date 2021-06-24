@@ -1,21 +1,20 @@
 ---
-description: 일괄 메타데이터 업데이트 배열입니다.
+description: 배치 메타데이터 업데이트 배열입니다.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # BatchMetadataUpdateArray{#batchmetadataupdatearray}
 
-일괄 메타데이터 업데이트 배열입니다.
+배치 메타데이터 업데이트 배열입니다.
 
 구문
 
@@ -24,4 +23,3 @@ ht-degree: 18%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:BatchMetadataUpdate` | 일괄 업데이트 배열입니다. |
-

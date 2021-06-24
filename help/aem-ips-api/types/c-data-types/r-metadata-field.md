@@ -1,21 +1,20 @@
 ---
-description: 특정 자산에 대한 사용자 정의 필드 정의
+description: 특정 자산에 대한 사용자 정의 필드 정의입니다.
 solution: Experience Manager
-title: MetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
+title: 메타데이터 필드
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '151'
 ht-degree: 2%
 
 ---
 
+# 메타데이터 필드{#metadatafield}
 
-# MetadataField{#metadatafield}
-
-특정 자산에 대한 사용자 정의 필드 정의
+특정 자산에 대한 사용자 정의 필드 정의입니다.
 
 `getMetadataFields` 또는 `getAssetMetadataField` 작업으로 태그 필드 정의를 검색합니다.
 
@@ -32,49 +31,48 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 메타데이터 필드 핸들. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 메타데이터 필드 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 메타데이터 필드 이름입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 유형</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 메타데이터 필드 유형입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 메타데이터 필드의 기본값. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 메타데이터 필드의 기본값은 입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isRequired</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 필요한 상태를 설정합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isUserDefined</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 사용자가 메타데이터 필드를 정의했는지 여부를 결정합니다. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col3"> 메타데이터 필드가 사용자가 정의하는지 여부를 결정합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">IPS 시스템별 메타데이터를 숨기거나 표시합니다. <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> 및 <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>에서 반환됩니다. </td> 
+   <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col3">IPS 시스템별 메타데이터를 숨기거나 노출합니다. <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> 및 <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>에서 반환됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>값이 설정될 때 메타데이터 필드 유형이 적용되는지(유효성이 확인됨)를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
+   <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col3"> <p>값이 설정될 때 메타데이터 필드 유형이 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 선택한 태그가 가리킬 수 있는 열거된 공유 값 집합을 만들 수 있습니다. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 선택한 태그가 가리킬 수 있는 공유 열거형 값 집합을 만들 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>
-

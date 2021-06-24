@@ -2,13 +2,12 @@
 description: 기본 보기는 정적 이미지로 구성됩니다.
 solution: Experience Manager
 title: 확대/축소 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
 role: Developer,Business Practitioner
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 1%
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7interactiveimage .s7zoomview
@@ -36,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,25 +1,24 @@
 ---
-description: 기본 확대/축소 뷰어용 JavaScript API 참조.
+description: 기본 확대/축소 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f142dd72-5e45-44f6-a79b-3eaf6a310bde
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 1%
 
 ---
 
-
 # setParams{#setparams}
 
-기본 확대/축소 뷰어용 JavaScript API 참조.
+기본 확대/축소 뷰어에 대한 JavaScript API 참조.
 
 ` setParams( *`params`*)`
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`으로 구분하여 나타냅니다. 쿼리 문자에서처럼 이름 및 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을(를) 호출하기 전에 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`과(와) 함께 나타냅니다. 쿼리 문자열과 마찬가지로 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을 호출하기 전에 이 매개 변수를 호출해야 합니다.
 
 이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달된 경우 선택 사항입니다.
 
@@ -29,12 +28,12 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value 매개 변수 쌍은  <span class="codeph"> &amp;</span>로 구분됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value 매개 변수 쌍이  <span class="codeph"> &amp;</span>로 구분됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 
@@ -43,4 +42,3 @@ ht-degree: 1%
 ```
 <instance>.setParams("ZoomView.zoomfactor=2,3&ZoomView.iscommand=op_sharpen%3d1")
 ```
-

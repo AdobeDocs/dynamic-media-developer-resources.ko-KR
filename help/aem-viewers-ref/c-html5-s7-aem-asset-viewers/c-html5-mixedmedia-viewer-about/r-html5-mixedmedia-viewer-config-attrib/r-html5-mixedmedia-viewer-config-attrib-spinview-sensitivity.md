@@ -2,16 +2,15 @@
 description: SpinView.sensitivity
 solution: Experience Manager
 title: SpinView.sensitivity
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 68df87db-b3c7-4a42-9ab6-742d96261ecd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.sensitivity{#spinview-sensitivity}
 
@@ -20,8 +19,8 @@ ht-degree: 3%
 <table id="table_18D47E7C6A2D4D68B94225CB621D5F7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitity</span>[, y <span class="varname"> Sensitivity</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 마우스 드래그 또는 스와이프로 수행되는 가로 및 세로 회전 민감도를 제어합니다. </p> <p> <span class="codeph"> [</span> 민감도]를 사용하여 사용자가 마우스를 뷰의 한 쪽에서 다른 쪽으로 가로로 드래그할 경우 가로 제품 회전의 전체 회전의 양을 지정합니다. 예를 들어 3은 사용자가 하나의 전체 드래그 동작에 대해 3개의 완전한 회전을 보게 됨을 의미합니다. </p> <p>마찬가지로 <span class="codeph"> ySensitity</span>는 수직 회전 민감도를 제어합니다. 값 1은 전체 수직 드래그 또는 스와이프하면 보기 각도가 맨 위 회전 평면에서 맨 아래 회전 평면으로 또는 그 반대로 변경됩니다. </p> <p><span class="codeph"> ySensitivity</span>에 음수 값을 설정하면 수직 회전 방향이 반전됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> xSensitivity</span>[,  <span class="varname"> ySensitivity</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 마우스로 끌거나 밀면서 수행되는 수평 및 수직 스핀 민감도를 제어합니다. </p> <p> <span class="codeph"> </span> 사용자가 마우스를 보기의 한 쪽에서 다른 면으로 가로로 드래그하면 가로 전체 제품 회전의 수를 감지합니다. 예를 들어, 3은 사용자가 하나의 전체 드래그 제스처에 대해 세 개의 전체 회전을 보았다는 것을 의미합니다. </p> <p>마찬가지로 <span class="codeph"> ySensitivity</span>는 수직 스핀의 민감도를 제어합니다. 값이 1이면 가장 높은 스핀 평면에서 가장 아래쪽(또는 그 반대)으로 전체 수직 드래그 또는 스와이프가 뷰 각도를 변경함을 의미합니다. </p> <p><span class="codeph"> ySensitivity</span>에 음수 값을 설정하면 수직 스핀 방향이 반전됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

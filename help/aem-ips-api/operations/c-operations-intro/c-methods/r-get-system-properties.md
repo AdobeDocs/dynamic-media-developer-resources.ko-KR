@@ -1,21 +1,20 @@
 ---
-description: 단일 요청에서 모든 시스템 속성을 검색합니다.
+description: 단일 요청으로 모든 시스템 속성을 검색합니다.
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 17%
+source-wordcount: '60'
+ht-degree: 18%
 
 ---
 
-
 # getSystemProperties{#getsystemproperties}
 
-단일 요청에서 모든 시스템 속성을 검색합니다.
+단일 요청으로 모든 시스템 속성을 검색합니다.
 
 구문
 
@@ -45,7 +44,7 @@ ht-degree: 17%
 
 ## 예제 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-이 코드 샘플은 시스템 속성의 배열을 반환합니다. 간결성에 대해 응답이 잘렸습니다.
+이 코드 샘플은 시스템 속성의 배열을 반환합니다. 간결성을 위해 응답이 잘렸습니다.
 
 **요청**
 
@@ -70,4 +69,3 @@ ht-degree: 17%
    </propertyArray> 
 </getSystemPropertiesReturn>
 ```
-

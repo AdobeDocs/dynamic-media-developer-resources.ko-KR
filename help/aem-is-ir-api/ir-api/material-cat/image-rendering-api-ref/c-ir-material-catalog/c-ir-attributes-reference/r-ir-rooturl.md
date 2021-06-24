@@ -1,25 +1,24 @@
 ---
-description: 상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다. src= 값을 { 중괄호 }(으)로 묶으면 RootPath 속성 대신 attribute RootUrl이 사용됩니다.
+description: 상대 이미지 URL의 루트 URL 상대 이미지 URL의 루트 URL을 지정합니다. src= 값을 { 중괄호 }(으)로 묶으면 RootPath 속성 대신 attribute RootUrl이 사용됩니다.
 solution: Experience Manager
 title: 루트 URL *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # 루트 URL *{#rooturl}
 
-상대 이미지 URL에 대한 루트 URL. 상대 이미지 URL에 대한 루트 URL을 지정합니다. attribute::RootUrl은 src= 값을 { 중괄호 }(으)로 묶으면 attribute::RootPath 대신 사용됩니다.
+상대 이미지 URL의 루트 URL 상대 이미지 URL의 루트 URL을 지정합니다. attribute::RootUrl은 src= 값을 { 중괄호 }(으)로 묶으면 attribute::RootPath 대신 사용됩니다.
 
 ## 속성 {#section-69cd0f71ea614770a8778c745d23197a}
 
-텍스트 문자열 값입니다. 선도적인 프로토콜 식별자를 포함한 절대 URL 루트 경로입니다. 다음 프로토콜이 지원됩니다.HTTP, HTTPS 및 FTP를 참조하십시오.
+텍스트 문자열 값입니다. 선행 프로토콜 식별자를 포함한 절대 URL 루트 경로입니다. 지원되는 프로토콜은 다음과 같습니다.HTTP, HTTPS 및 FTP입니다.
 
 ## 기본값 {#section-7a81569728474725a70f3a2cc4d48e85}
 
@@ -27,4 +26,4 @@ ht-degree: 3%
 
 ## 참조 {#section-e33bbe7034b24367b68f9142718a8be1}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`속성: [RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) ,  `mask=`,  [attribute:RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)

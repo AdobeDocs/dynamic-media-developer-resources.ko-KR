@@ -1,21 +1,20 @@
 ---
-description: 레이어 보기 속성입니다.
+description: 레이어 보기 속성
 solution: Experience Manager
 title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 25199c86-1df0-41af-b210-e7668a60295e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 11%
 
 ---
 
-
 # LayerViewInfo{#layerviewinfo}
 
-레이어 보기 속성입니다.
+레이어 보기 속성
 
 구문
 
@@ -23,7 +22,6 @@ ht-degree: 11%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`url`*` | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL. `urlModifier` 및 `urlPostAp- plyModifier` 필드를 결합합니다. |
-| `*`urlModifier`*` | `xsd:string` | 이미지 제공 프로토콜 명령을 요청 또는 `urlPostApplyModifier` 명령 전에 적용합니다. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | `urlModifier` 뒤에 적용할 이미지 제공 프로토콜 명령 및 요청 명령 |
-
+| `*`url`*` | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL입니다. `urlModifier` 필드와 `urlPostAp- plyModifier` 필드를 결합합니다. |
+| `*`urlModifier`*` | `xsd:string` | 요청 또는 `urlPostApplyModifier` 명령 전에 적용할 이미지 제공 프로토콜 명령입니다. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | `urlModifier` 및 요청 명령 다음에 적용할 이미지 제공 프로토콜 명령입니다. |

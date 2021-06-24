@@ -4,24 +4,23 @@ solution: Experience Manager
 title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 028cef35-2862-452c-872c-b953e8ccb195
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
-
 
 # ClientAddressFilter{#clientaddressfilter}
 
 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
 
-지정된 경우 목록에 없는 IP 주소의 클라이언트에서 가져온 이미지 카탈로그에 대한 요청이 거부됩니다.
+지정하면 목록에 없는 IP 주소로 클라이언트에서 보낸 이 이미지 카탈로그에 대한 요청이 거부됩니다.
 
 ## 속성 {#section-d785265988324af68835410c9ba54147}
 
-선택적 넷마스크가 있는 IP 주소의 쉼표로 구분된 목록(CIDR 표기법이 사용됨):
+넷마스크(선택 사항)가 있는 쉼표로 구분된 IP 주소 목록(CIDR 표기법이 사용됨):
 
 `*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
@@ -31,7 +30,7 @@ ht-degree: 3%
   <td class="stentry"> <p><span class="varname"> ddd.ddd.ddd.ddd</span> 형식의 IP 주소입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> 넷마스크</span> </p></td> 
   <td class="stentry"> <p>네트 마스크(0...32). </p></td> 
  </tr> 
 </table>
@@ -46,9 +45,9 @@ ht-degree: 3%
 
 액세스 제한 없음:`0.0.0.0/0`
 
-192부터 모든 주소에 액세스 권한 부여:`192.0.0.0/8`
+192부터 모든 주소에 대한 액세스 권한 부여:`192.0.0.0/8`
 
-192.168.12.0~192.168.13.255 사이의 주소가 있는 512 호스트에 대한 액세스 권한을 부여합니다.`192.168.12.0/23`
+192.168.12.0에서 192.168.13.255 사이의 주소가 있는 512 호스트에 대한 액세스 권한을 부여합니다.`192.168.12.0/23`
 
 단일 IP 주소에 대한 액세스 권한 부여:`192.168.2.117` 또는 `192.168.2.117/32`
 

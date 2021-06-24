@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+description: IPS API 버전 3.8에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 solution: Experience Manager
-title: 작업 새로 만들기 및 수정됨
+title: 새 작업 및 수정된 작업
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
 
-# 작업:새로 만들기 및 수정됨{#operations-new-and-modified}
+# 작업:신규 및 수정됨{#operations-new-and-modified}
 
-IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+IPS API 버전 3.8에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 
 구문
 
@@ -29,11 +28,11 @@ IPS API 버전 3.8의 새 작업 방법 및 변경된 작업 방법에 대해 �
 * `createImageSet`
 * `getImageSetMembers`
 
-## 수정한 작업 {#section-25eee732b69c49d0a27b1f3290f8654a}
+## 수정된 작업 {#section-25eee732b69c49d0a27b1f3290f8654a}
 
 **searchAssets**
 
-* 선택적 `publishState` 매개 변수를 사용하여 `MarkedForPublish/NotMarkedForPublish` 자산 상태에서 검색할 수 있습니다.
+* 선택 사항인 `publishState` 매개 변수를 사용하여 `MarkedForPublish/NotMarkedForPublish` 자산 상태를 검색할 수 있습니다.
 
 **getJobLogs**
 

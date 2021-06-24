@@ -1,25 +1,24 @@
 ---
-description: 즐겨찾기 메뉴 드롭다운 목록이 컨트롤 막대에 표시됩니다. 사용자가 단추를 클릭하거나 누를 때 확장되는 버튼과 패널로 구성됩니다. 패널에는 개별 즐겨찾기 도구가 포함되어 있습니다.
+description: 즐겨찾기 메뉴 드롭다운 목록이 컨트롤 모음에 나타납니다. 이 확장은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널로 구성됩니다. 패널에는 개별 즐겨찾기 도구가 포함되어 있습니다.
 solution: Experience Manager
 title: 즐겨찾기 메뉴
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 129a8451-f634-44ad-adb1-f30d2621cb29
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
 
-
 # 즐겨찾기 메뉴{#favorites-menu}
 
-즐겨찾기 메뉴 드롭다운 목록이 컨트롤 막대에 표시됩니다. 사용자가 단추를 클릭하거나 누를 때 확장되는 버튼과 패널로 구성됩니다. 패널에는 개별 즐겨찾기 도구가 포함되어 있습니다.
+즐겨찾기 메뉴 드롭다운 목록이 컨트롤 모음에 나타납니다. 이 확장은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널로 구성됩니다. 패널에는 개별 즐겨찾기 도구가 포함되어 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-뷰어 사용자 인터페이스에서 즐겨찾기 메뉴의 위치와 크기는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+뷰어 사용자 인터페이스에서 즐겨찾기 메뉴의 위치 및 크기는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu
@@ -30,8 +29,8 @@ ht-degree: 0%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대 위쪽의 오프셋입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대의 상단으로부터 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
@@ -48,7 +47,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-예 - 컨트롤 막대 위쪽에서 4픽셀, 가장 가까운 단추에서 왼쪽으로 10픽셀, 크기가 28 x 28픽셀인 즐겨찾기 메뉴를 설정합니다.
+예 - 컨트롤 막대의 상단에서 4픽셀, 가장 가까운 단추에서 왼쪽으로 10픽셀, 크기가 28x28픽셀인 즐겨찾기 메뉴를 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu { 
@@ -59,34 +58,34 @@ margin-left: 10px;
 }
 ```
 
-[즐겨찾기] 메뉴 단추 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+즐겨찾기 메뉴 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton
 ```
 
-**즐겨찾기 버튼의 CSS 속성**
+**즐겨찾기 단추의 CSS 속성**
 
 <table id="table_970D62A1413145E0A964FA9D9F108579"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 4개의 서로 다른 단추 상태에 대해 서로 다른 이미지를 표시하는 즐겨찾기 메뉴 단추를 설정합니다.
+예 - 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하는 즐겨찾기 메뉴 단추를 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesbutton[state='up'] { 
@@ -103,7 +102,7 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 }
 ```
 
-개별 즐겨찾기 아이콘이 포함된 패널의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+개별 즐겨찾기 아이콘이 포함된 패널의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesmenu .s7favoritesmenupanel
@@ -114,7 +113,7 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
 <table id="table_B57B44C561E94F86BB1B0EC1671F26DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>패널의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -127,4 +126,3 @@ background-image:url(images/v2/FavoritesMenu_dark_disabled.png);
  background-color: transparent; 
 }
 ```
-

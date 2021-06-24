@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllUsers{#getallusers}
 
@@ -42,12 +41,12 @@ ht-degree: 19%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4">설정: 
+   <td colname="col4">설정 대상: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> 트루에에 잘못된 </span> 사용자가 포함되어 있습니다. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> 잘못된 사용자</span> 를 생략하기 위한 false </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> 에 잘못된 사용자가 포함되어 있습니다. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> 잘못된 사용자를 생략하기 위한 false입니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +61,7 @@ ht-degree: 19%
 
 ## 예제 {#section-9c9a2d335513478da20652c1b1443731}
 
-이 코드 샘플은 모든 사용자를 반환합니다. 잠시 동안 응답이 잘립니다.
+이 코드 샘플은 모든 사용자를 반환합니다. 간결성을 위해 응답이 잘립니다.
 
 **요청**
 
@@ -90,4 +89,3 @@ ht-degree: 19%
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-

@@ -1,48 +1,47 @@
 ---
-description: 패스 위의 텍스트 속성.
+description: 텍스트-경로 특성.
 solution: Experience Manager
 title: pathAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 3%
 
 ---
 
-
 # pathAttr{#pathattr}
 
-패스 위의 텍스트 속성.
+텍스트-경로 특성.
 
-` pathAttr= *``*[, *``*[, *`directionstartPoendPos`*]]`
+` pathAttr= *``*[, *``*[, *`directionstartPostendPos`*]]`
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 방향 </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> 규범  </span> |  <span class="codeph"> 반전  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 규범  </span> |  <span class="codeph"> 역방향  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>패스의 텍스트 시작 위치(실제 0.0...1.0). </p> </td> 
+  <td class="stentry"> <p>경로에서 텍스트 시작 위치(실제 0.0..1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
-  <td class="stentry"> <p>패스의 텍스트 끝 위치(실제 0.0...&lt;2.0). </p> </td> 
+  <td class="stentry"> <p>경로의 텍스트 끝 위치(실수 0.0..&lt;2.0). </p> </td> 
  </tr> 
 </table>
 
-첫 번째 패스 정점 근처에서 텍스트를 그리려면 `norm`, 마지막 정점 근처에서 시작하는 반대 방향으로 텍스트를 그리려면 `reverse` 을 지정합니다.
+첫 번째 패스 교점 근처에서 텍스트를 그리려면 `norm` 을 지정하고 마지막 교점 근처에서 시작하여 반대 방향으로 텍스트를 그리려면 `reverse` 를 지정합니다.
 
-*`startPos`* 패스에서 텍스트를 그릴 위치를 조정할 수  *`endPos`* 있습니다. 0.0은 패스의 첫 번째 정점에 해당하고 1.0은 마지막 정점에 해당합니다.중간 값은 첫 번째 및 마지막 꼭지점 사이의 패스를 따라 거리를 나타냅니다.
+*`startPos`* 패스 *`endPos`* 에서 텍스트를 그릴 위치를 조정할 수 있습니다. 0.0은 패스의 첫 번째 교점에 해당하고 1.0은 마지막 교점에 해당합니다.중간 값은 첫 번째 교점과 마지막 교점 사이의 경로를 따라 거리를 나타냅니다.
 
 ## 속성 {#section-80f266da4e2549d89f022a3f9ff4584d}
 
 레이어 속성입니다. 레이어에 `textPs=` 및 `textPath=` 명령이 포함되어 있지 않으면 무시됩니다.
 
-*`startPos`* 은 0보다 크거나 같고 1.0보다 작아야  *`endPos`* 합니다. 열린 패스에 적용되는 경우 1.0보다  *`startPos`* 크거나 작아야 하며, 닫힌 패스에 적용되는 경우에는 이보다 작거나 같음(  *`startPos`* + 1.0)이어야 합니다.
+*`startPos`* 0보다 크거나 같고 1.0보다 작아야  *`endPos`* 합니다. 열린 경로에 적용할 때는 1.0보다  *`startPos`* 크거나 같고, 닫힌 경로에 적용할 경우 (  *`startPos`* + 1.0)보다 작거나 같아야 합니다.
 
 ## 기본값 {#section-3e757970885c45e7b6100e78dc08626f}
 

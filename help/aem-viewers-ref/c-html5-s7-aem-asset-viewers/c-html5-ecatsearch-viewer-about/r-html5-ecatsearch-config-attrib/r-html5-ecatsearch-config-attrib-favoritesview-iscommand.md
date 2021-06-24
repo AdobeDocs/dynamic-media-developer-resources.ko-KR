@@ -1,21 +1,20 @@
 ---
-description: 모든 축소판에 적용되는 이미지 제공 명령 문자열.
+description: 모든 축소판에 적용되는 이미지 제공 명령 문자열입니다.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
-
 # FavoritesView.iscommand{#favoritesview-iscommand}
 
-모든 축소판에 적용되는 이미지 제공 명령 문자열.
+모든 축소판에 적용되는 이미지 제공 명령 문자열입니다.
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]iscommand= *`isCommand`*`]
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td colname="col2"> <p> URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,6 +41,6 @@ ht-degree: 7%
 
 [!DNL `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`]
 
-구성 데이터에 지정된 경우입니다.
+구성 데이터에 지정되는 경우.
 
 [!DNL `iscommand=op_sharpen=1&op_colorize=0xff0000`]

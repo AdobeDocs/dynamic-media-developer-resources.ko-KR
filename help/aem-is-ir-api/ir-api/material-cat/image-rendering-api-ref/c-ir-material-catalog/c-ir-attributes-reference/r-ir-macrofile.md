@@ -4,14 +4,13 @@ solution: Experience Manager
 title: MacroFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # MacroFile{#macrofile}
 
@@ -19,7 +18,7 @@ ht-degree: 5%
 
 ## 속성 {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
-텍스트 문자열 값입니다. 카탈로그 폴더를 기준으로 하는 절대 파일 경로 또는 경로입니다.
+텍스트 문자열 값입니다. 카탈로그 폴더에 대한 절대 파일 경로 또는 경로입니다.
 
 ## 기본값 {#section-1ceb724a30444a5fbb870105b83c212c}
 

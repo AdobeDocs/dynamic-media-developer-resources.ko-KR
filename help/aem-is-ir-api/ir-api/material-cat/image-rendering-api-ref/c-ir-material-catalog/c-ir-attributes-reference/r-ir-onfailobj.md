@@ -1,21 +1,20 @@
 ---
-description: 개체 선택 오류 처리. 비네팅 객체 계층 구조에서 지정된 경로를 일치시킬 수 없으므로 obj= 명령이 실패할 경우 수행할 작업을 지정합니다.
+description: 개체 선택 오류 처리. 지정된 경로가 비네팅 개체 계층 구조에서 일치할 수 없기 때문에 obj= 명령이 실패할 경우 수행할 작업을 지정합니다.
 solution: Experience Manager
 title: OnFailObj
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
 
-
 # OnFailObj{#onfailobj}
 
-개체 선택 오류 처리. 비네팅 객체 계층 구조에서 지정된 경로를 일치시킬 수 없으므로 obj= 명령이 실패할 경우 수행할 작업을 지정합니다.
+개체 선택 오류 처리. 지정된 경로가 비네팅 개체 계층 구조에서 일치할 수 없기 때문에 obj= 명령이 실패할 경우 수행할 작업을 지정합니다.
 
 ## 속성 {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -40,7 +39,7 @@ ht-degree: 13%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>기본 그룹(렌더링 가능한 객체가 포함된 비네팅 계층 구조의 첫 번째 그룹)을 선택합니다. </p> </td> 
+  <td class="stentry"> <p>기본 그룹(렌더링 가능 개체가 포함된 비네팅 계층 구조의 첫 번째 그룹)을 선택합니다. </p> </td> 
  </tr> 
 </table>
 
@@ -50,4 +49,4 @@ ht-degree: 13%
 
 ## 참조 {#section-806dc2c5973c41f683af085b3315043c}
 
-[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) ,  [속성::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)
+[obj=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a) ,  [attribute::OnFailSel](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailsel.md#reference-f95e4a4a3c02412b87a2b0acca8a5513)

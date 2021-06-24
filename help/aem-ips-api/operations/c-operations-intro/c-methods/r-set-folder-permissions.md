@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 14%
 
 ---
-
 
 # setFolderPermissions{#setfolderpermissions}
 
@@ -34,11 +33,11 @@ ht-degree: 14%
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
 | `*`setChildren`*` | `xsd:boolean` | 예 | 폴더에 속하는 하위 항목에 대한 권한을 설정합니다. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | 예 | 사용 권한 배열로 이동합니다. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | 예 | 권한 배열입니다. |
 
 **출력(setFolderPermissionsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-01730da4be874553ab44e3241cdf6357}
 

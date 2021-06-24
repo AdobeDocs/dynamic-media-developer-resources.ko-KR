@@ -1,17 +1,16 @@
 ---
 description: 카탈로그 식별자. 요청의 이미지 개체 지정자에서 이 카탈로그를 식별하는 데 사용할 HTTP 경로 요소입니다.
 solution: Experience Manager
-title: 루트 ID
+title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
-
 
 # RootId{#rootid}
 
@@ -23,7 +22,7 @@ ht-degree: 6%
 
 ## 기본값 {#section-c5296f4e52394984bf1c0d265ecde940}
 
-없음. 각 카탈로그에는 고유한 `attribute::RootId` 값이 있어야 합니다. [!DNL default.ini] 일반적으로 비어 있습니다 `attribute::RootId`.
+없음. 각 카탈로그에는 고유한 `attribute::RootId` 값이 있어야 합니다. [!DNL default.ini] 일반적으로 에는 비어  `attribute::RootId`있습니다.
 
 ## 참조 {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

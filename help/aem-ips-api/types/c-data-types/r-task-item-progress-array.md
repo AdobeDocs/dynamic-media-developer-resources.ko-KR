@@ -4,14 +4,13 @@ solution: Experience Manager
 title: TaskItemProgressArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
-
 
 # TaskItemProgressArray{#taskitemprogressarray}
 
@@ -23,5 +22,4 @@ ht-degree: 14%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:TaskItemProgress` | 작업 항목 진행 배열입니다. 최소 항목은 0입니다. 최대값은 제한을 받지 않습니다. |
-
+| `*`항목`*` | `types:TaskItemProgress` | 작업 항목 진행 배열. 최소값은 0입니다. 최대값은 제한되지 않습니다. |

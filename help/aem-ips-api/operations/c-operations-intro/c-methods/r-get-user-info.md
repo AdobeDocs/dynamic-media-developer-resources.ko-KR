@@ -1,21 +1,20 @@
 ---
-description: 사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
+description: 사용자에 대한 정보를 가져옵니다. 요청을 승인하는 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않으면 기본 사용자에 대한 정보가 작업에 제공됩니다.
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
 
-
 # getUserInfo{#getuserinfo}
 
-사용자에 대한 정보를 가져옵니다. 요청을 인증하기 위한 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않은 경우 기본 사용자에 대한 정보를 가져옵니다.
+사용자에 대한 정보를 가져옵니다. 요청을 승인하는 자격 증명으로 시스템 사용자의 이메일 주소와 암호를 사용합니다. 그렇지 않으면 기본 사용자에 대한 정보가 작업에 제공됩니다.
 
 구문
 
@@ -44,7 +43,7 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할뿐만 아니라 사용자의 유효 여부 및 사용자 암호가 만료될 때 |
+| `*`userInfo`*` | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할과 사용자의 유효 여부 및 암호가 만료되는 시기 |
 
 ## 예제 {#section-98d77a2e360a438dbe240099bea26a65}
 
@@ -71,4 +70,3 @@ ht-degree: 11%
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-

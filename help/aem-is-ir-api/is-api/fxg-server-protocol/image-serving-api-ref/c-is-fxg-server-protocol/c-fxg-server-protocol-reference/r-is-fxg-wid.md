@@ -1,21 +1,20 @@
 ---
-description: 보기 너비. 응답 이미지의 너비를 지정합니다(이미지 보기).
+description: 보기 너비. 회신 이미지(이미지 보기)의 너비를 지정합니다.
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '181'
 ht-degree: 3%
 
 ---
 
-
 # wid{#wid}
 
-보기 너비. 응답 이미지의 너비를 지정합니다(이미지 보기).
+보기 너비. 회신 이미지(이미지 보기)의 너비를 지정합니다.
 
 `wid= *`val`*`
 
@@ -28,9 +27,9 @@ ht-degree: 3%
 
 ## 기본값 {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-`wid=`, `hei=` 또는 `scale=`가 지정되지 않은 경우 응답 이미지는 FXG 파일에 지정된 기본 보기 크기입니다.
+`wid=`, `hei=` 및 `scale=`를 지정하지 않은 경우 회신 이미지는 FXG 파일에 지정된 기본 보기 크기입니다.
 
-래스터 형식은 기본 보기 크기(또는 DefaultPix 설정)를 사용하여 렌더링됩니다. **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 제작 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 클릭한 다음 너비 및 높이 값을 입력합니다. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 변경 사항을 적용하려면 이미지 제공 게시를 수행해야 합니다.
+래스터 형식은 기본 보기 크기(DefaultPix 설정)를 사용하여 렌더링됩니다. **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 클릭한 다음 너비와 높이 값을 입력합니다. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 이미지 제공 게시를 수행하여 변경 사항을 적용해야 합니다.
 
 `scale=1` 명령을 적용하면 래스터 형식 요청이 FXG에 지정된 크기로 렌더링됩니다.
 
@@ -38,14 +37,13 @@ ht-degree: 3%
 
 [!DNL http://server/is/agm/myRootId/myImageId?wid=200]
 
-형식을 지정하지 않으면 이미지가 SWF 파일로 렌더링됩니다. 이 경우 SWF는 일반적으로 브라우저 창의 크기로 확장되므로 높이와 너비는 아무런 의미가 없습니다. 따라서 hei와 wid는 래스터 또는 PDF 형식에만 적용됩니다. 래스터 형식은 다음과 같습니다.
+형식을 지정하지 않으면 이미지가 SWF 파일로 렌더링됩니다. 이 경우 SWF는 일반적으로 브라우저 창의 크기로 확장되므로 높이와 너비는 의미가 없습니다. 따라서 Hei 및 는 래스터 또는 PDF 형식에만 적용됩니다. 래스터 형식은 다음과 같습니다.
 
 * GIF
 * TIF
 * PNG
 * JPG
 * JPEG
-* GIF-alpha
-* TIF-alpha
+* GIF-알파
+* TIF-알파
 * PNG-알파
-

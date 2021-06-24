@@ -30,7 +30,7 @@ ht-degree: 0%
 
 [시스템 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)을 참조하십시오.
 
-## 대화형 이미지 뷰어 {#section-e6c68406ecdc4de781df182bbd8088b4} 사용
+## 대화형 이미지 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 대화형 이미지 뷰어는 런타임 시 뷰어가 다운로드한 기본 JavaScript 파일 및 도우미 파일 세트(단일 JavaScript에는 이 특정 뷰어에서 사용하는 모든 뷰어 SDK 구성 요소, 자산, CSS)가 포함됩니다.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
 
-## 대화형 이미지 뷰어 {#section-6bb5d3c502544ad18a58eafe12a13435} 포함
+## 대화형 이미지 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 대화형 이미지 뷰어는 호스팅 페이지에 임베드되도록 설계되었습니다. 이러한 웹 페이지에는 정적 레이아웃이 있거나 &quot;응답형&quot;일 수 있으며 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시될 수 있습니다.
 

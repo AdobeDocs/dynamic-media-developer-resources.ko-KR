@@ -1,21 +1,20 @@
 ---
-description: 자산에 대한 핸들 및 이동할 핸들.
+description: 자산에 대한 핸들 및 이동할 핸들입니다.
 solution: Experience Manager
 title: AssetMove
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dfddb436-0d58-41d2-8b5e-556517ba0c32
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
-
 # AssetMove{#assetmove}
 
-자산에 대한 핸들 및 이동할 핸들.
+자산에 대한 핸들 및 이동할 핸들입니다.
 
 구문
 
@@ -23,6 +22,5 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 이동할 에셋의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 이동할 자산의 핸들입니다. |
 | `*`folderHandle`*` | `xsd:string` | 대상 폴더에 대한 핸들입니다. |
-

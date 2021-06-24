@@ -1,21 +1,20 @@
 ---
-description: 내부 용도로만 사용하십시오. 사용자는 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
+description: 내부용입니다. 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
-
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-내부 용도로만 사용하십시오. 사용자는 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
+내부용입니다. 이미지 제공 이미지 카탈로그 참조 - 속성 참조 섹션을 참조해야 합니다.
 
 구문
 
@@ -32,12 +31,11 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 제작 설정을 제공하는 이미지가 있는 회사에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 제공 게시 설정이 있는 회사의 핸들입니다. |
 | `*`contextHandle`*` | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
 
 **출력**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | 예 | 이미지 서버 제작 설정의 배열입니다. |
-
+| `*`publishSettingArray`*` | `xsd:string` | 예 | 이미지 서버 게시 설정의 배열입니다. |

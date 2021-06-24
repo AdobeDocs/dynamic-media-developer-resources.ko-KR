@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 이름
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ea50ddab-2a37-4f09-a9d7-ed19829dd0e6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
-
 
 # 이름{#name}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 ## 속성 {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
-텍스트 문자열. 필수. 각 매크로::Name 값은 테이블 내에서 고유해야 합니다.
+텍스트 문자열입니다. 필수. 각 매크로::Name 값은 테이블 내에서 고유해야 합니다.
 
 ## 기본값 {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 

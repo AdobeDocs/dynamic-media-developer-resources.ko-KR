@@ -1,21 +1,20 @@
 ---
-description: AssetSet 유형 자산의 속성입니다.
+description: AssetSet 유형 자산에 대한 속성입니다.
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # AssetSetInfo{#assetsetinfo}
 
-AssetSet 유형 자산의 속성입니다.
+AssetSet 유형 자산에 대한 속성입니다.
 
 구문
 
@@ -23,5 +22,4 @@ AssetSet 유형 자산의 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | 대상 IS 뷰어의 요구 사항에 따라 형식이 지정된 자산 집합 정의입니다. 선택적 IPS 대체 매개 변수를 포함할 수 있습니다. |
-
+| `*`setDefinition`*` | `xsd:string` | 타깃팅된 IS 뷰어의 요구 사항에 따라 형식이 지정된 자산 세트 정의입니다. 선택적 IPS 대체 매개 변수를 포함할 수 있습니다. |

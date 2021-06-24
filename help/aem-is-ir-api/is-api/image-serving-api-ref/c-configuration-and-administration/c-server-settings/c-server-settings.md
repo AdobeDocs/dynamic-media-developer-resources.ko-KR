@@ -1,31 +1,30 @@
 ---
-description: 이 섹션에서는 관심 영역별로 그룹화된 모든 편집 가능한 구성 설정에 대해 설명합니다.
+description: 이 섹션에서는 편집 가능한 모든 구성 설정을 관심 영역으로 그룹화합니다.
 solution: Experience Manager
 title: 서버 설정
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
-
 # 서버 설정{#server-settings}
 
-이 섹션에서는 관심 영역별로 그룹화된 모든 편집 가능한 구성 설정에 대해 설명합니다.
+이 섹션에서는 편집 가능한 모든 구성 설정을 관심 영역으로 그룹화합니다.
 
 * [일반](r-general.md)
-* [콘텐트 데이터 폴더](r-content-data-folders.md)
+* [컨텐츠 데이터 폴더](r-content-data-folders.md)
 * [서버 캐시](r-server-caches.md)
 * [이미지 크기 제한](r-image-size-limits.md)
 * [이미지 카탈로그 서비스](r-image-catalog-service.md)
 * [SSL](r-ssl.md)
 * [서버](r-server-server-settings.md)
 * [액세스 로깅](r-access-logging.md)
-* [디버그_추적 로깅](r-debug-trace-logging.md)
+* [Debug_trace 로깅](r-debug-trace-logging.md)
 * [오류 리디렉션](r-error-redirection.md)
 * [캐시 클러스터링](r-cache-clustering.md)
 * [모니터링 및 경고 시스템](r-monitoring-and-alerting-system.md)

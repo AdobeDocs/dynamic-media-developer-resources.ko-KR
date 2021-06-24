@@ -2,13 +2,12 @@
 description: CarouselView.enableHD
 solution: Experience Manager
 title: CarouselView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 6%
 
 ---
@@ -20,12 +19,12 @@ ht-degree: 6%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> iPhone4 및 이와 유사한 장치와 같은 고밀도 디스플레이가 있는 장치인 <span class="codeph"> devicePixelRatio</span>이(가) <span class="codeph"> 1</span>보다 큰 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. </p> <p>활성 상태인 경우, 구성 요소는 마치 장치가 <span class="codeph"> 1</span>의 픽셀 비율만 있고 이렇게 하면 대역폭이 감소되는 것처럼 IS 이미지 요청의 크기를 제한합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 항상|절대 안 함|제한</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>가 <span class="codeph"> 1</span>보다 큰 장치인 iPhone4 및 유사한 장치와 같은 고밀도 디스플레이를 사용하는 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. </p> <p>활성화하면 구성 요소가 IS 이미지 요청의 크기를 제한합니다. 이는 장치가 <span class="codeph"> 1</span>의 픽셀 비율만 가지고 있는 것과 같습니다. 이렇게 하면 대역폭이 감소됩니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 수</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 제한</span> 설정을 사용하는 경우 구성 요소는 지정된 제한까지 높은 픽셀 밀도를 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> limit</span> 설정을 사용하는 경우 구성 요소는 지정된 제한까지만 높은 픽셀 밀도를 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

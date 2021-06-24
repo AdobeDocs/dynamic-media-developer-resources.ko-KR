@@ -2,16 +2,15 @@
 description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f50ea45a-afd5-4e4f-967d-c45cecc5fb7b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 7%
 
 ---
-
 
 # FlyoutZoomView.preloadtiles{#flyoutzoomview-preloadtiles}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 확대된 이미지의 미리 로드를 활성화하려면 <span class="codeph"> 1</span>로 설정하거나, 필요한 경우 증분적으로 확대/축소 이미지를 로드하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> <p> <p>참고: 이 옵션을 활성화하면 대역폭 사용이 상당히 증가할 수 있습니다. 확대/축소 작업을 시작하지 않아도 축소된 이미지가 전체적으로 로드됩니다. </p> </p> </td> 
+   <td colname="col2"> <p> 확대/축소 이미지를 미리 로드할 수 있도록 <span class="codeph"> 1</span>로 설정하거나 필요에 따라 <span class="codeph"> 0</span>로 설정하여 점진적으로 확대/축소 이미지를 로드합니다. </p> <p> <p>참고: 이 옵션을 활성화하면 대역폭 사용량이 상당히 늘어날 수 있습니다. 확대/축소 작업을 시작하지 않더라도 확대/축소 이미지가 전체적으로 로드됩니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

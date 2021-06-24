@@ -1,21 +1,20 @@
 ---
-description: PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
+description: PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 [PDF 저장 옵션] 대화 상자나 PDF 사전 설정에서 생성한 파일입니다.
 solution: Experience Manager
 title: 작업 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
 
-
 # 작업 옵션{#joboption}
 
-PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesign의 [PDF 옵션] 대화 상자 또는 PDF 사전 설정에서 Illustrator에서 생성된 파일입니다.
+PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 [PDF 저장 옵션] 대화 상자나 PDF 사전 설정에서 생성한 파일입니다.
 
 ` joboption= *`value`*`
 
@@ -26,7 +25,7 @@ PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesi
  </tr> 
 </table>
 
-작업 옵션 파일은 IPS/Dynamic Media Classic에서 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF가 생성될 때 사용됩니다.
+IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF를 생성할 때 사용됩니다.
 
 현재 지원되는 옵션은 다음과 같습니다.
 
@@ -37,7 +36,7 @@ PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesi
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>이미지 </p></td> 
-  <td class="stentry"> <p> 다운샘플링색상, 회색 및 모노를 위한 , 해상도, 임계값 및 압축 </p> </td> 
+  <td class="stentry"> <p> 다운샘플링색상, 회색 및 모노의 해상도, 임계값 및 압축 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>글꼴 </p></td> 
@@ -81,4 +80,3 @@ PDF 작업 옵션 적용 작업 옵션 파일 또는 PDF 사전 설정은 InDesi
   <td class="stentry"> <p>규정 준수 표준. </p></td> 
  </tr> 
 </table>
-

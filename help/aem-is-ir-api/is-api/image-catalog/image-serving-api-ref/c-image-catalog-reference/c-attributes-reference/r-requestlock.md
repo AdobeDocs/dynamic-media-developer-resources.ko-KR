@@ -1,25 +1,24 @@
 ---
-description: 요청 잠금 모드입니다. 요청에 포함되어야 하는 요청 잠금 유형을 지정합니다.
+description: 잠금 모드를 요청합니다. 요청에 포함해야 하는 요청 잠금 유형을 지정합니다.
 solution: Experience Manager
 title: RequestLock
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
-
 # RequestLock{#requestlock}
 
-요청 잠금 모드입니다. 요청에 포함되어야 하는 요청 잠금 유형을 지정합니다.
+잠금 모드를 요청합니다. 요청에 포함해야 하는 요청 잠금 유형을 지정합니다.
 
 ## 속성 {#section-ae89274d3b7940d0bf3d816f7c2f51fd}
 
-플래그. 요청 잠금을 비활성화하려면 0으로, 단순 해시 잠금을 선택하려면 1로 설정합니다.
+플래그. 요청 잠금을 비활성화하려면 0으로 설정하고, 단순 해시 잠금을 선택하려면 1로 설정합니다.
 
 ## 기본값 {#section-fd5b5f0417bd444189b20494d179193e}
 

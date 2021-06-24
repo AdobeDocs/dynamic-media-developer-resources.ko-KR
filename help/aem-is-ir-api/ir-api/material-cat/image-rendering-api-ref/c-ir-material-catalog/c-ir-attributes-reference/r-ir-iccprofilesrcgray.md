@@ -1,29 +1,28 @@
 ---
-description: 회색 음영 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 회색 음영 재질 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+description: 회색 음영 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 회색 음영 재료 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 solution: Experience Manager
 title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
-
 # IccProfileSrcGray{#iccprofilesrcgray}
 
-회색 음영 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 회색 음영 재질 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+회색 음영 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 회색 음영 재료 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 
 ## 속성 {#section-97923d8561b845309442d57d017d91a4}
 
-텍스트 문자열. 지정된 경우 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로필은 회색 음영 프로필이어야 합니다.
+텍스트 문자열입니다. 지정한 경우 이 이미지 카탈로그나 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로파일은 회색 음영 프로필이어야 합니다.
 
 ## 기본값 {#section-02c52805ee13483dba7878aeab51f889}
 
-정의되지 않았거나 비어 있는 경우 `default::IccProfileSrcGray`에서 상속됩니다. `attribute::IccProfileSrcGray`이(가) 유효한 프로필로 확인되지 않으면 `attribute::IccProfileGray`이(가) 대신 사용됩니다.
+정의되지 않았거나 비어 있는 경우 `default::IccProfileSrcGray`에서 상속됩니다. `attribute::IccProfileSrcGray`이 유효한 프로필로 확인되지 않으면 `attribute::IccProfileGray`이 대신 사용됩니다.
 
 ## 참조 {#section-c361d6f6231942b3aa8b4b496e1d3de3}
 

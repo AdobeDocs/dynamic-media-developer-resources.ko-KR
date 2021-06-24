@@ -2,16 +2,15 @@
 description: 폴더 이름을 변경합니다.
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 20%
 
 ---
-
 
 # renameFolder{#renamefolder}
 
@@ -30,7 +29,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
@@ -38,8 +37,8 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이름을 변경할 폴더가 있는 회사를 처리합니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 폴더로 이동합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이름을 바꿀 폴더가 있는 회사를 처리합니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 폴더를 처리합니다. |
 | `*`folderName`*` | `xsd:string` | 예 | 새 폴더 이름. |
 
 **출력(renameFolderReturn)**
@@ -69,4 +68,3 @@ ht-degree: 20%
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-

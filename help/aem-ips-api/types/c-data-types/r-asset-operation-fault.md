@@ -1,21 +1,20 @@
 ---
-description: 일괄 처리 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 사유 필드는 동일한 비배치 작업에 대해 throw될 오류 메시지 필드에 해당합니다.
+description: 배치 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 일괄 처리가 아닌 작업에 대해 throw되었을 오류 메시지 필드에 해당합니다.
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c97fc35b-76f8-4ff7-a1ae-e5f9749f376c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 7%
 
 ---
 
-
 # AssetOperationFault{#assetoperationfault}
 
-일괄 처리 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 사유 필드는 동일한 비배치 작업에 대해 throw될 오류 메시지 필드에 해당합니다.
+배치 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 일괄 처리가 아닌 작업에 대해 throw되었을 오류 메시지 필드에 해당합니다.
 
 구문
 
@@ -26,4 +25,3 @@ ht-degree: 7%
 | `*`assetHandle`*` | `xsd:string` | 실패한 작업에 대한 자산 핸들입니다. |
 | `*`코드`*` | `xsd:int` | 작업 오류 코드. |
 | `*`이유`*` | `xsd:string` | 오류 설명 또는 이유 |
-

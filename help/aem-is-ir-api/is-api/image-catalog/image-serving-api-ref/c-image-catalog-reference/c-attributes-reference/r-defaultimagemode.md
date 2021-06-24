@@ -1,29 +1,28 @@
 ---
-description: 기본 이미지 모드입니다. 요청에 지정된 이미지를 찾을 수 없을 때 기본 이미지가 적용되는 방식을 선택합니다.
+description: 기본 이미지 모드. 요청에 지정된 이미지를 찾을 수 없을 때 기본 이미지가 적용되는 방식을 선택합니다.
 solution: Experience Manager
 title: DefaultImageMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
 
-
 # DefaultImageMode{#defaultimagemode}
 
-기본 이미지 모드입니다. 요청에 지정된 이미지를 찾을 수 없을 때 기본 이미지가 적용되는 방식을 선택합니다.
+기본 이미지 모드. 요청에 지정된 이미지를 찾을 수 없을 때 기본 이미지가 적용되는 방식을 선택합니다.
 
 ## 속성 {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-열거형. 누락된 이미지가 여러 레이어 중 하나일 경우에도 전체 합성 이미지를 바꾸기 위한 &#39;0&#39;.&#39;1&#39;을 클릭하여 누락된 각 레이어 소스 이미지를 기본 이미지로 바꾸고 합성을 평소대로 반환합니다.
+열거형. 누락된 이미지가 여러 레이어 중 하나에 불과하더라도 전체 합성 이미지를 바꾸기 위한 &#39;0&#39;누락된 각 레이어 소스 이미지를 기본 이미지로 바꾸고 컴포지션을 평소대로 반환하려면 &#39;1&#39;.
 
 ## 제한 사항 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-중첩된 이미지 렌더링, FXG 또는 `req=set` 요청이 실패하면 이미지 제공은 다시 `DefaultImageMode=0`으로 돌아갑니다.
+이미지 제공은 중첩된 이미지 렌더링, FXG 또는 `req=set` 요청이 실패하면 다시 `DefaultImageMode=0`로 되돌아갑니다.
 
 ## 기본값 {#section-9e318524a2a5496386901286748c7ee7}
 

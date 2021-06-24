@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4e450d28-ec79-4540-824b-b0121b72c857
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
-
 
 # ContextStateUpdate{#contextstateupdate}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
 
 ## 매개 변수 {#section-9f747df071854c6896fdbb95684ad947}
 
-자산의 게시 컨텍스트 상태를 `setAssetsContextState`으로 설정합니다.
+`setAssetsContextState`으로 자산의 게시 컨텍스트 상태를 설정합니다.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -34,13 +33,13 @@ ht-degree: 8%
  <tbody>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:문자열 </span></td>
+   <td colname="col2"><span class="codeph"> xsd:string </span></td>
    <td colname="col3"> 게시 컨텍스트를 처리합니다. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
-   <td colname="col2"><span class="codeph"> xsd:문자열</span></td>
-   <td colname="col3">지정된 게시 컨텍스트에 대해 자산의 업데이트된 게시 상태입니다. 포함: 
+   <td colname="col2"><span class="codeph"> xsd:string</span></td>
+   <td colname="col3">지정된 게시 컨텍스트에 대한 자산의 업데이트된 게시된 상태입니다. 다음을 포함합니다. 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
      <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> MarkedForPublish</span></li>
      <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>

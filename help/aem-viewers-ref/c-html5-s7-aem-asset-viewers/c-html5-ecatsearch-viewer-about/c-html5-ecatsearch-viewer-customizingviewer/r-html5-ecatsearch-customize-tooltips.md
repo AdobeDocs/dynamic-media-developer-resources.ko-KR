@@ -1,27 +1,26 @@
 ---
-description: 데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+description: 데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 solution: Experience Manager
-title: 툴팁
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+title: 도구 설명
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '149'
+ht-degree: 6%
 
 ---
 
-
 # 도구 설명{#tooltips}
 
-데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-도구 설명의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+도구 설명의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7tooltip
@@ -36,15 +35,15 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경  </span> </p> </td> 
    <td colname="col2"> <p> 배경 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p> 배경 테두리 색상입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 색상  </span> </p> </td> 
+   <td colname="col2"> <p> 배경 테두리 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 배경색. </p> </td> 
   </tr> 
   <tr> 
@@ -56,17 +55,17 @@ ht-degree: 5%
    <td colname="col2"> <p>텍스트 글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴 크기. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙이 포함되어야 합니다. 도구 설명이 뷰어의 CSS 파일에서 사용자 지정된 경우에는 필요하지 않습니다.
+>포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙이 포함되어야 합니다. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 필요하지 않습니다.
 
-예 - 3px 모퉁이 반경, 검정 배경 및 Arial로 작성된 흰색 텍스트가 11픽셀인 회색 테두리가 있는 도구 설명을 설정하려면:
+예 - 3px 모퉁이 반경, 검정 배경 및 흰색 텍스트가 Arial로 작성된 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기입니다.
 
 ```
 .s7tooltip { 
@@ -78,4 +77,3 @@ ht-degree: 5%
  font-size: 11px; 
 }
 ```
-

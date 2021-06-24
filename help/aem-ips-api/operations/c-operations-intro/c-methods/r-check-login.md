@@ -1,21 +1,20 @@
 ---
-description: 특정 회사(ID로 식별), 이메일 주소 및 암호를 가진 사용자가 로그인할 수 있는지 확인합니다.
+description: 특정 회사(핸들로 식별됨), 이메일 주소 및 암호를 가진 사용자가 로그인할 수 있는지 확인합니다.
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '150'
 ht-degree: 12%
 
 ---
 
-
 # checkLogin{#checklogin}
 
-특정 회사(ID로 식별), 이메일 주소 및 암호를 가진 사용자가 로그인할 수 있는지 확인합니다.
+특정 회사(핸들로 식별됨), 이메일 주소 및 암호를 가진 사용자가 로그인할 수 있는지 확인합니다.
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ ht-degree: 12%
 
 ## 예제 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-이 샘플 코드는 회사 핸들 매개 변수, 이메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. 사용자 *이(가) 로그인 가능* 경우 이 메서드는 문자열 `ValidLogin`을 반환합니다. *사용자가* 로그인할 수 없는 경우 이 메서드는 `InvalidLogin` 문자열을 반환합니다.
+이 샘플 코드는 회사 핸들 매개 변수, 전자 메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. 사용자 *이(가)*&#x200B;로그인할 수 있으면 이 메서드는 문자열 `ValidLogin`를 반환합니다. 사용자 *이(가)*&#x200B;로그인할 수 없는 경우 이 메서드는 문자열 `InvalidLogin`를 반환합니다.
 
 **요청**
 
@@ -70,4 +69,3 @@ ht-degree: 12%
    <ns1:status>InvalidLogin</ns1:status>
 </ns1:checkLoginReturn>
 ```
-

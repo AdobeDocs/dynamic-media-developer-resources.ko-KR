@@ -4,20 +4,19 @@ solution: Experience Manager
 title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 24046950-1dba-4352-a549-43994e799748
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 3%
 
 ---
-
 
 # ClientAddressFilter{#clientaddressfilter}
 
 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
 
-지정된 경우 목록에 없는 IP 주소의 클라이언트에서 가져온 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost` 은 명시적으로 지정하지  `ClientAddressFilter` 않았더라도 항상 정의의 일부분입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
+지정하면 목록에 없는 IP 주소로 클라이언트에서 보낸 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost` 는 명시적으로 지정하지  `ClientAddressFilter` 않더라도 항상 정의의 일부입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
 
 ## 속성 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -38,8 +37,8 @@ ht-degree: 3%
 ## 예제 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
 * 액세스 제한 없음:`0.0.0.0/0`
-* `192: 192.0.0.0/8`부터 시작되는 모든 주소에 대한 액세스 권한 부여
-* `192.168.12.0`과 `192.168.13.255: 192.168.12.0/23` 사이의 주소가 있는 512 호스트에 대한 액세스 권한 부여
+* `192: 192.0.0.0/8`으로 시작하는 모든 주소에 대한 액세스 권한 부여
+* `192.168.12.0` 과 `192.168.13.255: 192.168.12.0/23` 사이의 주소가 있는 512 호스트에 대한 액세스 권한을 부여합니다
 
 * 단일 IP 주소에 대한 액세스 권한 부여:`192.168.2.117` 또는 `192.168.2.117/32`
 

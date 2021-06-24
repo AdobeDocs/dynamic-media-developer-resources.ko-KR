@@ -1,21 +1,20 @@
 ---
-description: 비디오 뷰어용 URL 명령.
+description: 비디오 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 7%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-비디오 뷰어용 URL 명령.
+비디오 뷰어에 대한 URL 명령입니다.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 도메인을 지정하지 않으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 지정된 도메인이 없으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

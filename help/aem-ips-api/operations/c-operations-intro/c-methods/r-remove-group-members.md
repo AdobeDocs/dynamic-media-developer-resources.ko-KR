@@ -4,20 +4,19 @@ solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
-
 
 # removeGroupMembers{#removegroupmembers}
 
 특정 그룹에서 회사 사용자를 제거합니다.
 
-**제거 명령 간 차이**
+**제거 명령 간의 차이**
 
 * `removeGroupMembers`:그룹에서 여러 사용자를 제거합니다.
 * `removeGroupMembership`:그룹 배열에서 개별 사용자를 제거합니다.
@@ -34,17 +33,17 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 함께 작업하려는 사용자와 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 함께 작업할 사용자와 회사의 핸들입니다. |
 | `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원 자격을 제거하려는 사용자를 위한 핸들 배열입니다. |
+| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 멤버십을 제거하려는 사용자를 위한 일련의 핸들입니다. |
 
 **출력(removeGroupMembersParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-이 코드 샘플에서는 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열이 있는 그룹에서 여러 사용자를 제거합니다.
+이 코드 샘플은 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열을 사용하는 그룹에서 여러 사용자를 제거합니다.
 
 **요청**
 

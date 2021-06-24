@@ -1,25 +1,24 @@
 ---
-description: 축소판은 세로 스크롤을 허용하는 오른쪽 스크롤 막대(선택 사항)를 사용하여 축소판 이미지 격자로 구성됩니다.
+description: 축소판은 축소판 이미지의 격자로 구성되며 오른쪽에는 세로 스크롤을 할 수 있는 선택적 스크롤 막대가 있습니다.
 solution: Experience Manager
 title: 썸네일
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
 
-
 # 썸네일{#thumbnails}
 
-축소판은 세로 스크롤을 허용하는 오른쪽 스크롤 막대(선택 사항)를 사용하여 축소판 이미지 격자로 구성됩니다.
+축소판은 축소판 이미지의 격자로 구성되며 오른쪽에는 세로 스크롤을 할 수 있는 선택적 스크롤 막대가 있습니다.
 
-기본 컨트롤 모음에서 축소판 단추를 클릭하면 축소판이 전환됩니다. 축소판이 활성 상태인 경우 뷰어 사용자 인터페이스 위에 오버레이된 모달 모드로 표시됩니다. 뷰어 논리는 축소판 컨테이너의 크기를 전체 뷰어 영역으로 자동으로 조정합니다.
+기본 컨트롤 모음에서 축소판 그림 단추를 클릭하면 축소판이 전환됩니다. 미리 보기가 활성화되면 뷰어 사용자 인터페이스 위에 오버레이된 모달 모드로 표시됩니다. 뷰어 로직에서는 축소판 컨테이너의 크기를 전체 뷰어 영역으로 자동으로 조정합니다.
 
-축소판 컨테이너의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+축소판 컨테이너의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview`
 
@@ -33,32 +32,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 위쪽에서 축소판 컨테이너의 세로 오프셋입니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어 상단에서 축소판 컨테이너의 세로 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
    <td colname="col2"> <p>위쪽 여백. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p>왼쪽 여백입니다. </p> </td> 
+   <td colname="col2"> <p>왼쪽 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p>오른쪽 여백입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 순익  </span> </p> </td> 
+   <td colname="col2"> <p>오른쪽 여백. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 여백 하단  </span> </p> </td> 
-   <td colname="col2"> <p>아래쪽 여백. </p> </td> 
+   <td colname="col2"> <p>아래 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>축소판 영역의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 축소판을 설정하여 위쪽에서 32픽셀 오프셋, 왼쪽과 오른쪽의 5픽셀 여백, 아래쪽에 `0xDDDDDD` 배경이 있는 8픽셀 여백을 설정할 수 있습니다.
+예 - 축소판을 설정하려면 위에서 오프셋된 32픽셀, 왼쪽과 오른쪽에 5픽셀 여백, 아래에 `0xDDDDDD` 배경이 있는 8픽셀 여백을 설정합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview { 
@@ -70,7 +69,7 @@ ht-degree: 2%
 }
 ```
 
-축소판 간의 간격은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+축소판 간의 간격은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7thumbcell`
 
@@ -84,12 +83,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 각 축소판을 둘러싼 가로 및 세로 여백의 크기입니다. 실제 가로 축소판 간격은 <span class="codeph"> .s7thumbcell </span>에 설정된 왼쪽 및 오른쪽 여백의 합계와 같습니다. 세로 축소판 간격은 위쪽 및 아래쪽 여백의 합과 같습니다. </p> </td> 
+   <td colname="col2"> <p> 각 축소판 주위의 가로 및 세로 여백의 크기입니다. 실제 가로 축소판 간격은 <span class="codeph"> .s7thumbncell </span>에 대해 설정된 왼쪽 및 오른쪽 여백의 합계와 같습니다. 세로 축소판 간격은 위쪽 및 아래쪽 여백의 합과 같습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 세로 및 가로 모두에 10픽셀 공간을 설정합니다.
+예 - 세로 및 가로로 모두 10픽셀 공간을 설정합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumbcell { 
@@ -97,7 +96,7 @@ ht-degree: 2%
 }
 ```
 
-개별 축소판의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+개별 축소판의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7thumb`
 
@@ -122,19 +121,19 @@ ht-degree: 2%
    <td colname="col2"> <p>축소판의 테두리입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>축소판의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-터치 장치의 경우, 세로 모드로 회전할 때, 카탈로그 스프레드를 개별 페이지로 분할하기로 결정할 경우 뷰어는 구성된 것의 절반 크기로 축소판을 조절할 수 있습니다.
+터치 장치에서 세로 모드로 회전할 때 뷰어는 카탈로그 스프레드를 개별 페이지로 분할하기로 결정하는 경우 구성된 사항의 절반까지 축소판의 크기를 조정할 수 있습니다.
 
 >[!NOTE]
 >
->축소판은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 축소판 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `state="selected"`은 현재 기본 보기에 표시된 이미지의 축소판에 해당하고, `state="default"`은 나머지 축소판에 해당하며, 마우스 가리키기에 `state="over"`가 사용됩니다.
+>섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumbnail states)을 적용하는 데 사용할 수 있습니다. 특히 `state="selected"`은 현재 기본 보기에 표시된 이미지의 축소판에 해당하고, `state="default"`은 나머지 축소판에 해당하며, 마우스 가리키기에 `state="over"`가 사용됩니다.
 
-예 - 120 x 85픽셀의 축소판을 설정하려면 흰색 배경, 밝은 회색 표준 테두리 및 어두운 회색을 선택한 테두리를 사용합니다.
+예 - 120 x 85픽셀로 축소판을 설정하려면 흰색 배경, 밝은 회색 표준 테두리 및 어두운 회색으로 선택한 테두리를 사용합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
@@ -148,7 +147,7 @@ ht-degree: 2%
 }
 ```
 
-축소판 레이블의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+축소판 레이블의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7label`
 
@@ -165,13 +164,13 @@ ht-degree: 2%
    <td colname="col2"> <p>글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 크기. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 14픽셀 Helvetica 글꼴을 사용하도록 레이블을 설정하는 방법입니다.
+예 - 14픽셀 Helvetica 글꼴을 사용하도록 레이블을 설정합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7label { 
@@ -180,7 +179,7 @@ ht-degree: 2%
 }
 ```
 
-보기에 세로로 맞출 수 있는 축소판 수가 많을 경우 축소판은 오른쪽에 세로 스크롤 막대를 렌더링합니다. 스크롤 막대 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기에 세로로 맞출 수 있는 것보다 더 많은 축소판이 있는 경우 축소판이 오른쪽의 세로 스크롤 막대를 렌더링합니다. 스크롤 막대 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar`
 
@@ -198,20 +197,20 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 축소판 영역의 위쪽에서 세로 스크롤 막대 오프셋입니다. </p> </td> 
+   <td colname="col2"> <p> 축소판 영역의 맨 위에서 수직 스크롤 막대 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>축소판 영역의 아래쪽에서 세로 스크롤 막대 오프셋입니다. </p> </td> 
+   <td colname="col2"> <p>축소판 영역의 아래쪽에서 수직 스크롤 막대 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 축소판 영역의 오른쪽 가장자리에서 가로 스크롤 막대 오프셋입니다. </p> </td> 
+   <td colname="col2"> <p> 축소판 영역의 오른쪽 모서리에서 벗어난 가로 스크롤 막대 오프셋입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 축소판 영역의 위쪽, 오른쪽 및 아래쪽에서 8픽셀 여백을 가진 가로 28픽셀의 스크롤 막대를 설정하는 방법입니다.
+예 - 28픽셀 너비로 축소판 영역의 위쪽, 오른쪽 및 아래쪽에서 8픽셀 여백이 있는 스크롤 막대를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar { 
@@ -222,7 +221,7 @@ ht-degree: 2%
 }
 ```
 
-스크롤 막대 트랙은 위쪽 및 아래쪽 스크롤 단추 사이의 영역입니다. 구성 요소는 트랙의 위치와 높이를 자동으로 설정합니다. 트랙은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+스크롤 막대 트랙은 위쪽 및 아래쪽 스크롤 단추 사이의 영역입니다. 구성 요소는 트랙의 위치와 높이를 자동으로 설정합니다. 트랙은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
@@ -239,13 +238,13 @@ ht-degree: 2%
    <td colname="col2"> <p>스크롤 막대 트랙의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 막대 트랙의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 폭이 28픽셀이고 반투명한 회색 배경이 있는 스크롤 막대 트랙을 설정하는 방법입니다.
+예 - 가로 28픽셀이고 반투명 회색 배경을 포함하는 스크롤 막대 트랙을 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -254,7 +253,7 @@ ht-degree: 2%
 }
 ```
 
-스크롤 막대 축소판 표시는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 논리로 완전히 제어되지만 축소판 높이는 컨텐츠 양에 따라 동적으로 변경되지 않습니다. thumb 높이 및 기타 측면을 다음과 같은 CSS 클래스 선택기로 제어합니다.
+스크롤 막대 엄지는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 로직에 의해 완전히 제어되지만 엄지 높이는 컨텐츠 양에 따라 동적으로 변경되지 않습니다. 엄지 높이 및 기타 측면이 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
@@ -268,36 +267,36 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>스크롤 막대 축소판 너비입니다. </p> </td> 
+   <td colname="col2"> <p>스크롤 막대 엄지손가락의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 축소판의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 위쪽  </span> </p> </td> 
-   <td colname="col2"> <p>스크롤 막대 트랙 위쪽 사이의 세로 패딩입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 탑  </span> </p> </td> 
+   <td colname="col2"> <p>스크롤 막대 트랙의 상단 사이의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 하단  </span> </p> </td> 
-   <td colname="col2"> <p>스크롤 막대 트랙의 아래쪽 사이의 세로 패딩입니다. </p> </td> 
+   <td colname="col2"> <p>스크롤 막대 트랙 아래쪽의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>주어진 축소판 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p>주어진 경험 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb는 `state` 속성 선택기를 지원합니다. 이 선택기는 thumb 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 thumb 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-예 - 28 x 45픽셀인 스크롤 막대 축소판을 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트웍을 사용합니다.
+예 - 28 x 45픽셀인 스크롤 막대 엄지를 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트웍을 사용합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -322,13 +321,13 @@ ht-degree: 2%
 }
 ```
 
-위쪽 및 아래쪽 스크롤 단추의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+위쪽 및 아래쪽 스크롤 단추의 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton`
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리는 자동으로 위치를 지정합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리에서 자동으로 위치를 지정합니다.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -343,16 +342,16 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
    <td colname="col2"> <p>단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>주어진 축소판 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p>주어진 경험 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -361,9 +360,9 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
 >
 >이러한 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 28 x 32픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하는 방법입니다.
+예 - 28 x 32픽셀이며 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 
@@ -399,4 +398,3 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-

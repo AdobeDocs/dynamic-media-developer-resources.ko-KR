@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 요청 명령
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
-
 
 # 요청 명령{#request-commands}
 
@@ -40,7 +39,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>응답 이미지에 Photoshop 경로 데이터를 포함합니다. </p></td> 
+  <td class="stentry"> <p>회신 이미지에 Photoshop 경로 데이터를 포함합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
@@ -48,14 +47,14 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
-  <td class="stentry"> <p>응답 이미지에 포함된 인쇄 해상도 값을 지정합니다. </p></td> 
+  <td class="stentry"> <p>회신 이미지에 포함된 인쇄 해상도 값을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
   <td class="stentry"> <p>JPEG 인코딩 특성을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 수량화</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 수량</a> </p> </td> 
   <td class="stentry"> <p>GIF 출력의 색상 양자화 특성을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -64,7 +63,7 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md#reference-29a398cc59dc4caf9acd5f69c9ba9715" type="reference" format="dita" scope="local"> resMode</a> </p></td> 
-  <td class="stentry"> <p>이미지 리샘플링 또는 보간 모드를 지정합니다. </p></td> 
+  <td class="stentry"> <p>이미지 재샘플링 또는 보간 모드를 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-template.md#reference-3beccaa462a64bf0ba867e5c8fd0bd14" type="reference" format="dita" scope="local"> 템플릿</a> </p> </td> 
@@ -83,4 +82,3 @@ ht-degree: 2%
   <td class="stentry"> <p>이 요청에 사용할 이미지 세트를 지정합니다. </p></td> 
  </tr> 
 </table>
-

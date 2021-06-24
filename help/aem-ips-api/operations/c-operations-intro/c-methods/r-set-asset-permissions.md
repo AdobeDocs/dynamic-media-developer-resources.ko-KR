@@ -2,22 +2,21 @@
 description: 권한 자산을 사용하여 단일 자산의 권한을 설정합니다.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
-
 
 # setAssetPermissions{#setassetpermissions}
 
 권한 자산을 사용하여 단일 자산의 권한을 설정합니다.
 
-자산은 기본적으로 상위 폴더의 권한을 상속합니다. 자산에 대한 권한을 설정하면 `removeAssetPermissions`을(를) 호출하지 않는 한 더 이상 해당 부모의 권한을 상속하지 않습니다.
+자산은 기본적으로 상위 폴더의 권한을 상속합니다. 자산에 대한 권한을 설정하면 `removeAssetPermissions`을 호출하지 않는 한 더 이상 상위의 권한을 상속하지 않습니다.
 
 ## 인증된 사용자 유형 {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -27,21 +26,21 @@ ht-degree: 8%
 
 ## 매개 변수 {#section-e05abbce6453450fb38747101cb5e228}
 
-**입력(setAssetPermissonsParam)**
+**입력(setAssetPermissionsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 작업할 폴더가 포함된 회사의 핸들입니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 예 | 사용 권한 배열로 이동합니다. |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | 예 | 권한 배열입니다. |
 
-**출력(setAssetPermissonsReturn)**
+**출력(setAssetPermissionsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-38955bc330bb4909b6b06027ef2b143e}
 
-이 코드 샘플은 자산에 대한 권한을 설정합니다. 여기에는 회사 및 자산 핸들 및 권한 배열이 포함됩니다.
+이 코드 샘플은 자산에 대한 권한을 설정합니다. 여기에는 회사, 자산 핸들 및 권한 배열이 포함되어 있습니다.
 
 **요청**
 

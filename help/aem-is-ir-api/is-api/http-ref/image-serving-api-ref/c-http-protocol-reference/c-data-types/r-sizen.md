@@ -1,21 +1,20 @@
 ---
-description: 정규화된 크기. 레이어 0 또는 다른 이미지의 크기를 기준으로 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
+description: 정규화된 크기입니다. 레이어 0 또는 다른 이미지의 크기에 대해 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
 solution: Experience Manager
 title: sizeN
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 58c2d7da-31fc-49d1-a404-2e4a66ff0e56
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
-
 # sizeN{#sizen}
 
-정규화된 크기. 레이어 0 또는 다른 이미지의 크기를 기준으로 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
+정규화된 크기입니다. 레이어 0 또는 다른 이미지의 크기에 대해 표준화된 이미지 크기 또는 사각형 크기를 지정하는 데 사용됩니다.
 
 <table id="simpletable_BB36205775D4447084E527E2630D28B9"> 
  <tr class="strow"> 
@@ -24,8 +23,8 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> nx</span> </span>,  <span class="codeph"><span class="varname"> ny</span></span> </p></td> 
-  <td class="stentry"> <p>다른 이미지를 기준으로 표준화된 너비 및 높이(실제, 실제, 0보다 큼) </p></td> 
+  <td class="stentry"> <p>다른 이미지에 대해 정규화된 너비 및 높이(실제, 실제, 0보다 큼) </p></td> 
  </tr> 
 </table>
 
-*nx* 및 *y* 모두 0보다 커야 합니다. 0,0은 특정 기본 크기를 사용해야 함을 나타낼 수 있습니다. 1,1은 참조 이미지와 동일한 크기를 지정합니다.
+*nx* 및 *모두 0보다 커야 합니다.* 0,0 은 특정 기본 크기를 사용해야 함을 나타냅니다. 1,1 참조 이미지와 같은 크기를 지정합니다.

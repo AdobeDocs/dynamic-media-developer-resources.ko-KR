@@ -1,25 +1,24 @@
 ---
-description: 기본 응답 이미지 형식입니다. 회신 이미지의 기본 형식을 지정합니다.
+description: 기본 회신 이미지 형식입니다. 회신 이미지의 기본 형식을 지정합니다.
 solution: Experience Manager
 title: 형식
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
 
-
 # 형식{#format}
 
-기본 응답 이미지 형식입니다. 회신 이미지의 기본 형식을 지정합니다.
+기본 회신 이미지 형식입니다. 회신 이미지의 기본 형식을 지정합니다.
 
 ## 속성 {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-텍스트 문자열. `fmt=` 명령에서 지원하는 형식 토큰 중 하나여야 합니다.
+텍스트 문자열입니다. `fmt=` 명령에서 지원하는 형식 토큰 중 하나여야 합니다.
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 

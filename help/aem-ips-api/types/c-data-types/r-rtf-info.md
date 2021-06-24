@@ -1,21 +1,20 @@
 ---
-description: RTF 파일 에셋의 속성입니다.
+description: RTF 파일 자산의 등록 정보입니다.
 solution: Experience Manager
 title: RTFInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
 
-
 # RTFInfo{#rtfinfo}
 
-RTF 파일 에셋의 속성입니다.
+RTF 파일 자산의 등록 정보입니다.
 
 구문
 
@@ -23,7 +22,6 @@ RTF 파일 에셋의 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 파일 경로. |
+| `*`originalPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

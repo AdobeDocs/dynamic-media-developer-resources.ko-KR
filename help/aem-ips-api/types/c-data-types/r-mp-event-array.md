@@ -1,21 +1,20 @@
 ---
-description: MediaPortal 이벤트 배열입니다.
+description: MediaPortal 이벤트의 배열입니다.
 solution: Experience Manager
 title: MPEventArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6af68714-bdba-485c-89c4-51b79d93405a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-
 # MPEventArray{#mpeventarray}
 
-MediaPortal 이벤트 배열입니다.
+MediaPortal 이벤트의 배열입니다.
 
 구문
 
@@ -24,4 +23,3 @@ MediaPortal 이벤트 배열입니다.
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:MPEvent` | MediaPortal 이벤트 배열. |
-

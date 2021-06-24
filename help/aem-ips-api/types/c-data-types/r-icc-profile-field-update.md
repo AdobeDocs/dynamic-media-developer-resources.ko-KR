@@ -1,21 +1,20 @@
 ---
-description: ICC 프로필 속성에 대한 정보를 업데이트합니다.
+description: ICC 프로파일 속성에 대한 정보를 업데이트합니다.
 solution: Experience Manager
 title: IccProfileFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
-
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
-ICC 프로필 속성에 대한 정보를 업데이트합니다.
+ICC 프로파일 속성에 대한 정보를 업데이트합니다.
 
 구문
 
@@ -23,8 +22,7 @@ ICC 프로필 속성에 대한 정보를 업데이트합니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 업데이트할 ICC 프로필 에셋의 핸들입니다. |
-| `*`클래스`*` | `xsd:string` | 프로필 클래스(값에 대한 &quot;프로필 클래스&quot; 참조). |
-| `*`colorSpace`*` | `xsd:string` | 프로필 색상 공간(값에 대한 &quot;색상 공간&quot; 참조). |
-| `*`pcsType`*` | `xsd:string` | 프로필 연결 공간(값에 대한 &quot;색상 공간&quot; 참조). |
-
+| `*`assetHandle`*` | `xsd:string` | 업데이트할 ICC 프로필 자산의 핸들입니다. |
+| `*`클래스`*` | `xsd:string` | 프로필 클래스(값에 대해서는 &quot;프로필 클래스&quot; 참조). |
+| `*`colorSpace`*` | `xsd:string` | 프로필 색상 공간(값에 대해서는 &quot;색상 공간&quot; 참조). |
+| `*`pcsType`*` | `xsd:string` | 프로필 연결 공간(값에 대해서는 &quot;색상 공간&quot; 참조). |

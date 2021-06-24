@@ -1,25 +1,24 @@
 ---
-description: 서버 관리자 구성 설정을 포함합니다.
+description: 서버 감독자 구성 설정을 포함합니다.
 solution: Experience Manager
 title: SupervisorRegistry.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
 
-
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
-서버 관리자 구성 설정을 포함합니다.
+서버 감독자 구성 설정을 포함합니다.
 
-이 XML 파일을 편집할 때는 유효한 XML 구문을 유지해야 합니다. 그렇지 않으면 이미지 서버를 시작할 수 없습니다.
+이 XML 파일을 편집할 때는 올바른 XML 구문을 유지해야 합니다. 그렇지 않으면 이미지 서버를 시작할 수 없습니다.
 
-이 파일을 편집한 후 이미지 제공을 다시 시작하여 변경 사항이 적용되었는지 확인합니다. 아래 강조 표시된 요소/속성 값만 수정할 수 있습니다. Dynamic Media 기술 지원 센터에서 권장하는 경우에만 이 파일의 다른 내용을 모두 편집합니다.
+이 파일을 편집한 후 이미지 제공 서비스를 다시 시작하여 변경 사항이 적용되는지 확인합니다. 아래 강조 표시된 요소/속성 값만 수정할 수 있습니다. Dynamic Media 기술 지원에서 권장하는 경우에만 이 파일의 다른 모든 콘텐츠를 편집합니다.
 
 ```
 <supervisor>
@@ -68,4 +67,3 @@ ht-degree: 0%
     </servers>
 </supervisor>
 ```
-

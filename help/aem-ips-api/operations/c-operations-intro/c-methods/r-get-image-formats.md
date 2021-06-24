@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 18%
 
 ---
-
 
 # getImageFormats{#getimageformats}
 
@@ -35,7 +34,7 @@ PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 가져올 이미지 형식이 있는 회사에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 가져오려는 이미지 형식이 있는 회사의 핸들입니다. |
 
 **출력(getImageFormatsParam)**
 
@@ -45,7 +44,7 @@ PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
 
 ## 예제 {#section-73881e12839b4904bf3299b0920bdd0c}
 
-이 코드 샘플은 지정된 회사에 대한 모든 이미지 형식을 반환합니다.
+이 코드 샘플은 지정된 회사의 모든 이미지 형식을 반환합니다.
 
 **요청**
 
@@ -62,4 +61,3 @@ PDF, EPS, SWF 등의 이미지 형식을 반환합니다.
    <imageFormatArray></imageFormatArray>
 </getImageFormatsReturn>
 ```
-

@@ -4,28 +4,27 @@ solution: Experience Manager
 title: ImageServerRegistry.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
-
 
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
 이미지 서버 구성 설정을 포함합니다.
 
-이 XML 파일을 수정할 때 유효한 XML 구문을 유지하기 위해 주의해야 합니다. 그렇지 않으면 이미지 서버를 시작할 수 없습니다.
+이 XML 파일을 수정할 때는 유효한 XML 구문을 유지하기 위해 주의해야 합니다. 그렇지 않으면 이미지 서버를 시작할 수 없습니다.
 
-변경 사항을 적용하려면 이 파일을 편집한 후 이미지 서버를 다시 시작합니다. 아래 나열된 요소 값만 수정에 대해 지원됩니다. Dynamic Media 기술 지원 센터에서 권장하는 경우에만 이 파일의 다른 내용을 편집합니다.
+변경 사항을 적용하려면 이 파일을 편집한 후 이미지 서버를 다시 시작하십시오. 아래 나열된 요소 값만 수정할 수 있습니다. Dynamic Media 기술 지원에서 권장하는 경우에만 이 파일의 다른 콘텐츠를 편집합니다.
 
 >[!NOTE]
 >
->요소의 순서를 포함하여 `<imageserverregistry>`의 구조를 변경하지 마십시오. 이 파일을 편집할 때 주의하십시오. 그렇지 않으면 이미지 서버를 시작하지 못할 수 있습니다.
+>요소 순서를 포함하여 `<imageserverregistry>` 구조를 변경하지 마십시오. 이 파일을 편집할 때는 주의하십시오. 그렇지 않으면 이미지 서버를 시작하지 못할 수 있습니다.
 
-다음은 변경할 수 있는 요소를 보여 줍니다. 변경할 수 없는 다른 요소가 있습니다. 아래의 요소 순서는 파일에 있어야 하는 순서대로 반영되지 않습니다.
+다음은 변경할 수 있는 요소를 보여 줍니다. 변경할 수 없는 다른 요소가 있습니다. 아래 요소 순서는 파일에 있어야 하는 순서를 반영하지 않습니다.
 
 ```
 <imageserverregistry>
@@ -53,4 +52,4 @@ ht-degree: 0%
 
 ## 주의 {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-여러 `<RootPath>` 요소가 있을 수 있습니다(각 소스 데이터 파일 폴더에 대해 하나). 이미지 서버는 특정 소스 파일을 찾기 위해 지정된 순서대로 루트 경로를 검색합니다.
+여러 개의 `<RootPath>` 요소가 있을 수 있습니다(각 소스 데이터 파일 폴더에 대해 하나씩). 이미지 서버는 특정 소스 파일을 찾기 위해 지정된 순서대로 루트 경로를 검색합니다.

@@ -1,23 +1,22 @@
 ---
-description: 사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
+description: 사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하고 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 정보 패널 팝업이 뷰어 영역 중간에 표시됩니다.
 solution: Experience Manager
 title: 정보 패널 팝업
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
-
 # 정보 패널 팝업{#info-panel-popup}
 
-사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하거나, 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 [정보 패널 팝업]은 뷰어 영역 가운데에 표시됩니다.
+사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하고 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 정보 패널 팝업이 뷰어 영역 중간에 표시됩니다.
 
-정보 패널 배경은 전체 뷰어 영역을 포함하며 다음 CSS 클래스 선택기로 제어됩니다.
+정보 패널 배경에는 전체 뷰어 영역이 포함되며 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay`
 
@@ -30,17 +29,17 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
    <td colname="col2"> <p>정보 패널 배경 채우기. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 반투명 검정 배경을 사용하도록 정보 패널 팝업을 설정합니다.
+예 - 반투명 검정색 배경을 사용하도록 정보 패널 팝업을 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay { 
@@ -48,7 +47,7 @@ ht-degree: 2%
 }
 ```
 
-[정보] 패널 대화 상자는 기본적으로 뷰어 영역 중앙에 표시됩니다. 그러나 CSS 클래스 선택기를 사용하여 크기, 정렬, 배경 및 테두리를 제어할 수 있습니다.
+정보 패널 대화 상자는 기본적으로 뷰어 영역 중간에 표시됩니다. 그러나 CSS 클래스 선택기를 사용하여 크기, 정렬, 배경 및 테두리를 제어할 수 있습니다.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
@@ -62,7 +61,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p>뷰어 영역 패널 배경 채우기 내에서 정보 패널 대화 상자의 가로 위치입니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 영역 패널 배경 채우기 내의 정보 패널 대화 상자의 수평 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
@@ -78,22 +77,22 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p>정보 패널 대화 상자의 왼쪽 여백을 가운데 맞추기 위해 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>정보 패널 대화 상자의 왼쪽 여백은 센터링 목적으로 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p>정보 패널 대화 상자의 위쪽 여백을 가운데 맞추기 위해 사용할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col2"> <p>정보 패널 대화 상자의 위쪽 여백은 센터링 목적으로 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
    <td colname="col2"> <p>내부 대화 상자 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자 배경색. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경  </span> </p> </td> 
    <td colname="col2"> <p>대화 상자 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +102,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-예 - 뷰어 영역 중앙에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다.위쪽에는 40픽셀의 패딩이 있고 다른 모든 면에서 패딩이 10픽셀이며 밝은 회색 배경이 있고 10픽셀의 테두리 반경 및 그림자가 있습니다.
+예 - 뷰어 영역 가운데에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다.에는 맨 위에 40픽셀 패딩이 있고 다른 모든 면에 10픽셀 패딩이 있습니다. 밝은 회색 배경 및 10픽셀 테두리 반경과 그림자 그림자가 있습니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -123,9 +122,9 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 ```
 
-[정보 패널] 대화 상자에 닫기 단추가 있고 단추를 클릭하거나 탭하면 대화 상자가 닫힙니다.
+[정보 패널] 대화 상자에 닫기 단추가 있고 버튼을 클릭하거나 탭하면 대화 상자가 닫힙니다.
 
-이 버튼의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+이 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton`
 
@@ -143,7 +142,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자의 오른쪽 테두리에서 배치합니다. </p> </td> 
+   <td colname="col2"> <p>대화 상자의 오른쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
@@ -155,30 +154,30 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>단추 폭. </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원하므로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 28 x 28픽셀인 대화 상자 닫기 단추를 설정하고, 정보 패널 대화 상자의 위쪽 및 오른쪽 가장자리에서 5픽셀을 배치하며, 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면.
+예 - 대화 상자 닫기 단추를 설정하려면 정보 패널 대화 상자의 위쪽 및 오른쪽 가장자리에서 5픽셀을 배치하여 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 
@@ -200,4 +199,3 @@ background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png);
 background-image:url(images/v2/InfoPanelPopup_CloseButton_dark_up.png); 
 }
 ```
-

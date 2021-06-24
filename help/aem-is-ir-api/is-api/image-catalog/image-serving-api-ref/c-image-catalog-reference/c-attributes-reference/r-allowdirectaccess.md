@@ -1,32 +1,31 @@
 ---
-description: 경로 기반 자산에 직접 액세스 허용
+description: 경로 기반 자산에 직접 액세스할 수 있습니다.
 solution: Experience Manager
 title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-
 # AllowDirectAccess{#allowdirectaccess}
 
-경로 기반 자산에 직접 액세스 허용
+경로 기반 자산에 직접 액세스할 수 있습니다.
 
-이 속성을 정의하면 `include` 또는 `exclude` 키워드의 사용 여부에 따라 지정된 객체 유형에 대해 경로 기반 액세스가 허용되거나 제한됩니다.
+이 속성이 정의되면 `include` 또는 `exclude` 키워드를 사용하는지에 따라 지정된 개체 유형에 대해 경로 기반 액세스가 허용되거나 제한됩니다.
 
 >[!NOTE]
 >
->`AllowDirectAccess` 특성이 지정되지 않은 경우 기본값은 `exclude`입니다.
+>`AllowDirectAccess` 속성을 지정하지 않으면 기본값은 `exclude`입니다.
 
-* `include` 지정된 객체 유형에 대한 액세스를 허용하고 다른 모든 객체에 대한 액세스를 제한합니다.
+* `include` 지정한 개체 유형에 대한 액세스를 허용하고 다른 모든 개체 유형에 대한 액세스를 제한합니다.
 * `exclude` 지정된 객체 유형에 대한 액세스를 제한하고 다른 모든 객체에 대한 액세스를 허용합니다.
 
-`include` 또는 `exclude`이 지정되지 않은 경우 `include`로 가정합니다.
+`include` 및 `exclude` 가 지정되지 않은 경우 `include` 가 가정됩니다.
 
 다음 유형을 제어할 수 있습니다.
 
@@ -44,23 +43,22 @@ ht-degree: 0%
 
    `AllowDirectAccess=include:IS,STATIC`
 
-* `IS` 및 `STATIC``AllowDirectAccess=exclude:IS,STATIC`을 제외한 모든 개체 유형에 직접 액세스 허용
+* `IS` 및 `STATIC``AllowDirectAccess=exclude:IS,STATIC` 이외의 모든 개체 유형에 대해 직접 액세스 허용
 
-* *개체 유형 없음(예: 없음 포함)에 직접 액세스 허용*
+* *개체 유형 없음*&#x200B;에 직접 액세스 허용(즉, 없음 포함)
 
    `AllowDirectAccess=include:`
 
-* *모든* 개체 유형에 직접 액세스 허용(예: 제외 없음)
+* *모든* 개체 유형에 대해 직접 액세스 허용(즉, 제외 없음)
 
    `AllowDirectAccess=exclude:`
 
-* `include:IS,STATIC`에 해당합니다. `include`/ `exclude`이(가) 없는 경우 `include`이(가) 가정됩니다.
+* `include:IS,STATIC`에 해당합니다. `include`/ `exclude`가 없으면 `include`이 가정됩니다.
 
    `AllowDirectAccess=IS,STATIC`
 
    이 회사에 대해 `AllowDirectAccess` 속성이 지정되지 않은 경우 사용되는 기본값입니다.
 
-* 없음, `include:`에 해당하는 값 포함(`include`/ `exclude`이(가) 없는 경우 `include`은(는) 가정함)
+* `include:`에 해당하는 없음 포함(`include`/ `exclude`이 없으면 `include`이 가정됨)
 
    `AllowDirectAccess=`
-

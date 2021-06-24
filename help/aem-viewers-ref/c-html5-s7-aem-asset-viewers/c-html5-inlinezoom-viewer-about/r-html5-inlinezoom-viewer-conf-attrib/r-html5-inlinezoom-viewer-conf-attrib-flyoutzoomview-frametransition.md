@@ -2,16 +2,15 @@
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
 title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 39cb629a-3940-4206-91cd-fe9a9f4d9f75
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 10%
 
 ---
-
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
@@ -21,11 +20,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> </p> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. </p> <p><span class="codeph"> 전환 </span> 없이 기본 보기를 변경하면 기본 보기가 즉시 변경됩니다. </p> <p><span class="codeph"> </span> 페이드된 이전 이미지와 새 이미지가 페이드 인되는 크로스 페이드 전환을 활성화합니다. </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. </p> <p><span class="codeph"> </span> 전환이 없는 경우 기본 보기 변경이 즉시 발생합니다. </p> <p><span class="codeph"> </span> 는 이전 이미지가 페이드 아웃되고 새 이미지가 페이드 인되는 교차 페이드 전환을 활성화합니다 </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 애니메이션이 완료하는 데 걸리는 시간(초)입니다. </p> </td> 
+   <td colname="col2"> <p> 애니메이션이 완료되는 데 걸리는 시간(초)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setVal
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
-
 
 # setVal{#setval}
 
@@ -23,7 +22,7 @@ FXG 노드 요소에 `s7:elementID`이(가) 정의된 경우 해당 노드의 �
 
 ## 예 {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-`s7:elementID="paragraph1"` 속성이 `TextGraphic` 노드에 정의되면 다음 속성이 유효하다고 가정합니다.
+`TextGraphic` 노드에 대해 `s7:elementID="paragraph1"` 속성이 정의되어 있다고 가정하십시오. 그러면 다음 속성이 유효합니다.
 
 `&setVal.paragraph=Hello`
 

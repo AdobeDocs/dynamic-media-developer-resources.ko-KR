@@ -1,21 +1,20 @@
 ---
-description: 프로젝트의 이름을 변경합니다.
+description: 프로젝트 이름을 변경합니다.
 solution: Experience Manager
 title: renameProject
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '78'
 ht-degree: 21%
 
 ---
 
-
 # renameProject{#renameproject}
 
-프로젝트의 이름을 변경합니다.
+프로젝트 이름을 변경합니다.
 
 구문
 
@@ -34,7 +33,7 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 예 | 이름을 바꾸려는 프로젝트가 있는 회사를 처리합니다. |
+| `*`companyName`*` | `xsd:string` | 예 | 이름을 바꿀 프로젝트가 있는 회사를 처리합니다. |
 | `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트를 처리합니다. |
 | `*`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
 
@@ -46,7 +45,7 @@ ht-degree: 21%
 
 ## 예제 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-이 코드 샘플은 프로젝트의 이름을 변경하고 프로젝트 핸들을 반환합니다.
+이 코드 샘플은 프로젝트 이름을 변경하고 프로젝트 핸들을 반환합니다.
 
 **요청**
 
@@ -65,4 +64,3 @@ ht-degree: 21%
    <projectHandle>p|6|ProjectTestAPI</projectHandle>
 </renameProjectReturn>
 ```
-

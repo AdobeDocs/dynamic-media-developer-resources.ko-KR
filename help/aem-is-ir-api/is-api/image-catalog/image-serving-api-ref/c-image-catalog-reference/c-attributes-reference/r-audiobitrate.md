@@ -1,23 +1,22 @@
 ---
-description: 오디오 비트 전송률. 비디오 에셋의 오디오 비트 전송률을 나타내는 긴 값입니다.
+description: 오디오 비트 전송률. 비디오 자산에 대한 오디오 비트 전송률을 나타내는 긴 값입니다.
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7aa411e9-3f26-4f2a-b908-546993adf743
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 15%
+source-wordcount: '68'
+ht-degree: 16%
 
 ---
 
-
 # AudioBitRate{#audiobitrate}
 
-오디오 비트 전송률. 비디오 에셋의 오디오 비트 전송률을 나타내는 긴 값입니다.
+오디오 비트 전송률. 비디오 자산에 대한 오디오 비트 전송률을 나타내는 긴 값입니다.
 
-비트 전송률 데이터를 내보내도록 `req=set` 및 `req=mbrSet`요청에 의해 사용됩니다.
+`req=set` 및 `req=mbrSet`요청이 비트율 데이터를 내보내도록 사용됩니다.
 
 정적 컨텐츠 카탈로그에만 적용됩니다.
 

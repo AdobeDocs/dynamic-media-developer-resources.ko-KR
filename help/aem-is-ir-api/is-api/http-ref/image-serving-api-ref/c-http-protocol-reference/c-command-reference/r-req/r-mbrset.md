@@ -4,20 +4,19 @@ solution: Experience Manager
 title: mbrSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0568a4a1-7d6a-453e-83bc-05c0cde0c0f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
-
 
 # mbrSet{#mbrset}
 
 다중 비트 전송률 데이터.
 
-`req=mbrSet[,text|xml[, *`encodingfmtType `*]][&fmt= *``*]`
+`req=mbrSet[,text|xml[, *``*]][&fmt= *`encodingfmtType`*]`
 
 <table id="simpletable_D2B8704E09B34337870A257CD7CB5C56"> 
  <tr class="strow"> 
@@ -30,16 +29,16 @@ ht-degree: 0%
  </tr> 
 </table>
 
-net path id와 연결된 비디오 세트의 유효한 비디오 항목에 해당하는 URL 목록 및 해당 비트 전송률 목록이 포함된 텍스트 또는 xml 응답을 반환합니다.
+네트 경로 ID와 연결된 비디오 세트의 유효한 비디오 항목에 해당하는 URL(및 해당 비트율) 목록이 포함된 텍스트 또는 xml 응답을 반환합니다.
 
-이제 유효한 비디오 항목에 `catalog::VideoBitRate`에 대한 값이 들어 있다는 이전의 요구 사항이 완화되었습니다. `catalog::VideoBitRate`*또는* `catalog::AudioBitRate`*또는* `catalog::TotalStreamBitRate`에 대한 값을 포함할 수 있습니다. 비디오 항목이 유효하려면 이러한 항목 중 하나만 정의해야 합니다. `catalog::Path` 및 유효한 비디오 파일 확장명에 대한 요구 사항은 변경되지 않았습니다.
+유효한 비디오 항목에 `catalog::VideoBitRate`에 대한 값이 포함된다는 이전의 요구 사항이 이제 완화되었습니다. 항목에는 `catalog::VideoBitRate`*또는* `catalog::AudioBitRate`*또는* `catalog::TotalStreamBitRate`의 값이 포함될 수 있습니다. 비디오 항목이 유효하려면 이러한 항목 중 하나만 정의해야 합니다. `catalog::Path` 및 유효한 비디오 파일 확장자에 대한 요구 사항은 변경되지 않았습니다.
 
-응답은 Apple 및 Flash 스트리밍 서버에서 소비하기 위한 것으로 이러한 사양에 구조적으로 일치합니다. URL은 접두어 `attribute::HttpAppleStreamingContext` 및 `attribute::HttpFlashStreamingContext`을 사용하여 생성됩니다.
+응답들은 애플과 Flash 스트리밍 서버가 소비하기 위한 것으로, 이러한 사양에 구조적으로 부합한다. URL은 접두사 `attribute::HttpAppleStreamingContext` 및 `attribute::HttpFlashStreamingContext`를 사용하여 생성됩니다.
 
-m3u8 응답에는 비디오 세트에 있는 경우 mp4 파일만 포함됩니다. mp4 파일이 없으면 이러한 응답에는 f4v 파일만 포함됩니다. mp4 파일이나 f4v 파일이 없으면 응답이 비어 있습니다.
+m3u8 응답에는 비디오 세트에 있는 경우 mp4 파일만 포함됩니다. mp4 파일이 없으면 이러한 응답에는 f4v 파일만 포함됩니다. mp4 파일과 f4v 파일이 없으면 응답이 비어 있습니다.
 
-f4m 응답은 비디오 세트에 있는 경우 f4v 파일만 포함합니다. f4v 파일이 없으면 이러한 응답에는 mp4 파일만 포함됩니다. f4v 파일이나 mp4 파일이 없으면 응답이 비어 있습니다.
+f4m 응답에는 비디오 세트에 있는 경우 f4v 파일만 포함됩니다. f4v 파일이 없으면 이러한 응답에는 mp4 파일만 포함됩니다. f4v 파일과 mp4 파일이 없으면 응답이 비어 있습니다.
 
-f4m/m3u8 응답에 나타나는 비트 전송률은 `catalog::TotalStreamBitRate`(적절한 단위로 변환된)의 값에 해당합니다. `catalog::TotalStreamBitRate`이(가) 정의되지 않은 경우 `catalog::VideoBitRate` 및 `catalog::AudioBitRate`의 합계가 사용됩니다.
+f4m/m3u8 응답에 나타나는 비트율은 `catalog::TotalStreamBitRate`에 있는 값에 해당합니다(적절한 단위로 변환됨). `catalog::TotalStreamBitRate`이 정의되지 않으면 `catalog::VideoBitRate` 및 `catalog::AudioBitRate`의 합계가 사용됩니다.
 
-HTTP 응답은 `catalog::NonImgExpiration`을(를) 기준으로 TTL을 사용하여 액세스할 수 있습니다.
+HTTP 응답은 `catalog::NonImgExpiration`을 기준으로 TTL로 캐시할 수 있습니다.

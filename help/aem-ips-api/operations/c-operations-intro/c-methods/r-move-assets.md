@@ -1,21 +1,20 @@
 ---
-description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 형식을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
+description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 유형을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '216'
 ht-degree: 9%
 
 ---
 
-
 # moveAssets{#moveassets}
 
-여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 형식을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
+여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 유형을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
 
 구문
 
@@ -34,7 +33,7 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들입니다. |
 | `*`assetMoveArray`*` | `types:AssetMoveArray` | 예 | 자산 이동 배열입니다. 자산 및 자산 대상 폴더가 포함되어 있습니다. |
 
 **출력(moveAssetsReturn)**
@@ -59,30 +58,30 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 작업을 이동하려고 할 때 경고를 생성한 자산의 수입니다. </td> 
+   <td colname="col4"> 작업에서 경고를 이동하려고 할 때 경고를 생성한 자산의 수입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 작업을 이동하려고 할 때 오류를 생성한 자산의 수입니다. </td> 
+   <td colname="col4"> 작업에서 오류를 이동하려고 할 때 오류를 생성한 자산의 수입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> 다음</span>을 포함하는 AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> </span>다음을 포함하는 AssetOperationFaults: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">경고를 던진 에셋입니다. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">경고를 던진 자산입니다. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">경고 코드. </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">경고에 대한 설명입니다. </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">경고의 이유. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> 다음</span>을 포함하는 AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> </span>다음을 포함하는 AssetOperationFaults: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">오류를 발생시킨 자산입니다. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">오류 코드. </li> 
@@ -94,7 +93,7 @@ ht-degree: 9%
 
 ## 예제 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-이 코드 샘플은 자산을 `assetMoveArray`에서 지정한 특정 위치로 이동합니다. 배열에 자산 핸들 및 폴더 핸들이 포함되어 있습니다. 응답은 자산이 성공적으로 이동되었음을 나타냅니다.
+이 코드 샘플은 자산을 `assetMoveArray`에 의해 지정된 특정 위치로 이동합니다. 이 배열에는 자산 핸들과 해당 폴더 핸들이 포함됩니다. 응답이 자산이 성공적으로 이동되었음을 나타냅니다.
 
 **요청**
 
@@ -123,4 +122,3 @@ ht-degree: 9%
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-

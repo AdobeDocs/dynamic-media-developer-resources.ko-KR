@@ -1,21 +1,20 @@
 ---
-description: 관련 자산 그룹의 프로젝트를 가져옵니다.
+description: 관련 자산 그룹에 대한 프로젝트를 가져옵니다.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
 
-
 # getProjects{#getprojects}
 
-관련 자산 그룹의 프로젝트를 가져옵니다.
+관련 자산 그룹에 대한 프로젝트를 가져옵니다.
 
 구문
 
@@ -70,4 +69,3 @@ ht-degree: 20%
    </projectArray>
 </getProjectsReturn>
 ```
-

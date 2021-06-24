@@ -1,21 +1,20 @@
 ---
-description: 글꼴 에셋 속성.
+description: 글꼴 자산 속성.
 solution: Experience Manager
 title: FontInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-
 # FontInfo{#fontinfo}
 
-글꼴 에셋 속성.
+글꼴 자산 속성.
 
 구문
 
@@ -25,5 +24,4 @@ ht-degree: 17%
 |---|---|---|
 | `*`originalPath`*` | `xsd:string` | 글꼴 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 글꼴 이름. |
-| `*`fileSize`*` | `xsd:int` | 글꼴 크기. |
-
+| `*`fileSize`*` | `xsd:int` | 글꼴 크기입니다. |

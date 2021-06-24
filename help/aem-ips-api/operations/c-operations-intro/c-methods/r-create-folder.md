@@ -4,14 +4,13 @@ solution: Experience Manager
 title: createFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 17%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -19,7 +18,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->새 폴더는 회사의 루트를 나타내기 위해 `/`을 지정한 경우에도 이미지 폴더에 종속됩니다.
+>새 폴더는 회사의 루트를 나타내기 위해 `/`을 지정하더라도 이미지 폴더의 하위 폴더입니다.
 
 구문
 
@@ -43,13 +42,13 @@ ht-degree: 17%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들 |
-| `*`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
+| `*`folderPath`*` | `xsd:string` | 예 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 데 사용되는 루트 폴더입니다. 제외된 경우 회사 루트가 사용됩니다. |
 
 **출력(createFolderParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 예 | 새 폴더의 핸들. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 새 폴더를 처리합니다. |
 
 ## 예제 {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
@@ -71,4 +70,3 @@ ht-degree: 17%
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-

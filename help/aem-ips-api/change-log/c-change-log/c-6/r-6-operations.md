@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 6의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+description: IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 solution: Experience Manager
-title: 작업 새로 만들기 및 수정됨
+title: 새 작업 및 수정된 작업
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 2%
 
 ---
 
+# 작업:신규 및 수정됨{#operations-new-and-modified}
 
-# 작업:새로 만들기 및 수정됨{#operations-new-and-modified}
-
-IPS API 버전 6의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 
 구문
 
@@ -28,29 +27,29 @@ IPS API 버전 6의 새 작업 방법 및 변경된 작업 방법에 대해 설�
 * `updateAssetSet`
 * `updateImageSet`
 
-## 수정한 작업 {#section-f4e8755527444266ae806e3f4c851ae6}
+## 수정된 작업 {#section-f4e8755527444266ae806e3f4c851ae6}
 
 **추가됨**
 
-* 다음 항목에 `isHidden` 및 `initialTagValue`이(가) 추가되었습니다.
+* 다음 항목에 `isHidden` 및 `initialTagValue`이 추가되었습니다.
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 다음에 `thumbAssetHandle`을(를) 추가했습니다.
+* 다음에 `thumbAssetHandle`이 추가되었습니다.
 
    * `createImageSet`
    * `createAssetSet`
 
-   다음에 `companyHandle`을(를) 추가했습니다.
+   다음에 `companyHandle`이 추가되었습니다.
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   다음에 `contextHandle`을(를) 추가했습니다.
+   다음에 `contextHandle`이 추가되었습니다.
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -59,33 +58,32 @@ IPS API 버전 6의 새 작업 방법 및 변경된 작업 방법에 대해 설�
 
 
 
-* includeInactive가 다음에 추가되었습니다.
+* inactive에 includeInactive가 추가되었습니다.
 
    * `getUsers`.
    * `getUserChars`.
 
-* `permissionArray`을(를) `createPropertySet`에 추가했습니다.
+* `permissionArray`을 `createPropertySet`에 추가했습니다.
 
-* `exportJob`을(를) `submitJob`에 추가했습니다.
+* `exportJob`을 `submitJob`에 추가했습니다.
 
 **변경**
 
-* `addUser` 및 `setUser`에서 `role`을(를) `defaultRole`(으)로 변경했습니다.
+* `addUser` 및 `setUser`에서 `role`가 `defaultRole`(으)로 변경되었습니다.
 
-* `getCompanyMembers`에서 `userArray`을(를) `memberArray`(으)로 변경했습니다.
+* `getCompanyMembers`에서 `userArray`이 `memberArray`(으)로 변경되었습니다.
 
-* `getCompanyMembership`에서 `companyArray`을(를) `membershipArray`(으)로 변경했습니다.
+* `getCompanyMembership`에서 `companyArray`이 `membershipArray`(으)로 변경되었습니다.
 
-* `addUser`, `setCompanyMembership` 및 `addCompanyMembership`에서 `membershipArray`을(를) `companyHandleArray`로 변경했습니다.
+* `addUser`, `setCompanyMembership` 및 `addCompanyMembership`에서 `membershipArray`이 `companyHandleArray`로 변경되었습니다.
 
-* `getCompanyMembership`에서 `companyArray`을(를) `membershipArray`(으)로 변경했습니다.
+* `getCompanyMembership`에서 `companyArray`이 `membershipArray`(으)로 변경되었습니다.
 
 * `getUserChars`에서 `includeInvalid`은 이제 선택 사항입니다.
 
 **제거됨**
 
-* `renameAsset`에서 `renameFiles`을(를) 제거했습니다.
+* `renameAsset`에서 `renameFiles`이(가) 제거되었습니다.
 
 * `getXMPPanelViewDefinition`이(가) 제거되었습니다.
 * `searchAssetsByFulltext` 및 `searchAssetsBySimilarity`이(가) 제거되었습니다.
-

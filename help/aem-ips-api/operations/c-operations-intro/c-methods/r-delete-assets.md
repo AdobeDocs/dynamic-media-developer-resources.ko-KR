@@ -2,16 +2,15 @@
 description: 여러 자산을 삭제합니다.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 10%
 
 ---
-
 
 # deleteAssets{#deleteassets}
 
@@ -19,7 +18,7 @@ ht-degree: 10%
 
 구문
 
-## 허가된 사용자 유형 {#section-a6bc555b8ac840c98835b73fbf838d70}
+## 인증된 사용자 유형 {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -44,9 +43,9 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>자산이 속하는 회사의 취급자. </p> </td> 
+   <td colname="col4"> <p>자산이 속한 회사의 핸들. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -79,32 +78,32 @@ ht-degree: 10%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>작업을 삭제할 때 경고를 생성한 자산입니다. </p> </td> 
+   <td colname="col4"> <p>작업이 자산을 삭제하려고 할 때 경고를 생성한 자산입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋입니다. </p> </td> 
+   <td colname="col4"> <p>작업이 오류를 삭제하려고 할 때 오류를 생성한 자산입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 유형:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 경고를 생성한 에셋과 연결된 세부 사항의 배열입니다. </p> </td> 
+   <td colname="col4"> <p>작업에서 경고를 생성한 자산과 연결된 세부 정보의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 유형:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>작업이 해당 에셋을 삭제하려고 할 때 오류를 생성한 에셋과 연결된 세부 사항의 배열입니다. </p> </td> 
+   <td colname="col4"> <p>작업에서 오류를 생성한 자산과 연결된 세부 정보의 배열입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 예제 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-이 코드 샘플은 `deleteAssetsParam` 요청에서 회사에 핸들을 보내고 에셋 핸들 배열을 웹 서비스 서버로 보냅니다. `deleteAssetsReturn` 두 자산이 모두 삭제되었음을 나타내는 성공 카운트 2를 반환합니다.
+이 코드 샘플은 웹 서비스 서버로 `deleteAssetsParam` 요청에서 회사와 자산 핸들의 배열을 전송합니다. `deleteAssetsReturn` 두 자산이 모두 삭제되었음을 나타내는 성공 수 2를 반환합니다.
 
 **요청**
 
@@ -127,4 +126,3 @@ ht-degree: 10%
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-

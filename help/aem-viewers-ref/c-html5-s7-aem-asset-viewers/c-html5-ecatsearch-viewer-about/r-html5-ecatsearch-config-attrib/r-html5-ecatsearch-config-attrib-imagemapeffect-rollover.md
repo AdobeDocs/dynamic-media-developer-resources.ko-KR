@@ -2,16 +2,15 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 5%
 
 ---
-
 
 # ImageMapEffect.rollover{#imagemapeffect-rollover}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>정보 패널을 표시할 시기를 지정합니다. </p> <p><span class="codeph"> 1</span>으로 설정하면 마우스가 이미지 맵 영역에 들어올 때 정보 패널이 표시됩니다(이미지 맵에 비어 있지 않은 경우 <span class="codeph"> rollover_key</span> 속성). </p> <p>이미지 맵을 클릭할 때 <span class="codeph"> 0</span> 정보 패널로 설정된 경우(이미지 맵에 비어 있지 않은 <span class="codeph"> rollover_key</span> 및 빈 <span class="codeph"> href</span> 특성 포함) 트리거됩니다. </p> <p> 터치 지원 데스크톱 시스템을 포함한 터치 장치에서 무시되고 자동으로 <span class="codeph"> 0</span>으로 설정됩니다. </p> </td> 
+   <td colname="col2"> <p>정보 패널을 표시할 시기를 지정합니다. </p> <p><span class="codeph"> 1</span> 로 설정하면 마우스가 이미지 맵 영역을 입력하면 정보 패널이 표시됩니다(이미지 맵에 비어 있지 않은 경우 <span class="codeph"> rollover_key</span> 특성). </p> <p>이미지 맵을 클릭할 때 <span class="codeph"> 0</span> 정보 패널이 트리거되는 경우(이미지 맵에 비어 있지 않은 <span class="codeph"> rollover_key</span> 및 비어 있는 <span class="codeph"> href</span> 특성). </p> <p> 터치 지원 데스크톱 시스템을 포함한 터치 장치에서 무시되고, 자동으로 <span class="codeph"> 0</span>로 설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

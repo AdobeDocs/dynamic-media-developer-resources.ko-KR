@@ -1,23 +1,22 @@
 ---
-description: server.xml의 Connector 태그는 SSL 연결에 대해 선택할 수 있는 암호를 제한하는 phers 속성을 지원합니다.
+description: server.xml의 Connector 태그는 SSL 연결에 대해 선택할 수 있는 암호를 제한하는 cpher 속성을 지원합니다.
 solution: Experience Manager
 title: SSL 암호 정의
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-
 # SSL 암호 정의{#defining-ssl-ciphers}
 
-server.xml의 Connector 태그는 SSL 연결에 대해 선택할 수 있는 암호를 제한하는 phers 속성을 지원합니다.
+server.xml의 Connector 태그는 SSL 연결에 대해 선택할 수 있는 암호를 제한하는 cpher 속성을 지원합니다.
 
-기본적으로 모든 암호를 사용할 수 있습니다. 목록은 쉼표로 구분되어 있으며 다음 값을 포함할 수 있습니다.
+기본적으로 모든 암호를 사용할 수 있습니다. 목록은 쉼표로 구분되며 다음 값을 포함할 수 있습니다.
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 
@@ -49,7 +48,7 @@ server.xml의 Connector 태그는 SSL 연결에 대해 선택할 수 있는 암�
 
 `TLS_RSA_WITH_AES_128_CBC_SHA`
 
-값이 잘못된 경우 Tomcat은 모든 단일 암호를 활성화합니다. 따라서 구성 후 외부 도구를 사용하여 실제로 어떤 클립이 사용되는지 확인하는 것이 중요합니다.
+어떤 값이든 잘못되면 Tomcat은 모든 단일 암호를 활성화합니다. 따라서 구성 후 외부 도구를 확인하고 어떤 아이콘이 실제로 활성화되어 있는지 확인해야 합니다.
 
 예를 들어 다음 구성은 &quot;128비트&quot; 암호화 세트 이상만 활성화합니다.
 

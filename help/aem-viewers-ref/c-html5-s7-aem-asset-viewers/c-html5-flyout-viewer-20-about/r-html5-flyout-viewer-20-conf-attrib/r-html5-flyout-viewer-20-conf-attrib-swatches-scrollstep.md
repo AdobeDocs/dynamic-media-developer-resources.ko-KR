@@ -2,16 +2,15 @@
 description: Swatches.scrollstep
 solution: Experience Manager
 title: Swatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
-
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
@@ -20,17 +19,17 @@ ht-degree: 9%
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 단계</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
    <td> <p>수평 단계. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>수직 단계. </p> </td> 
+   <td> <p>세로 단계. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-해당 스크롤 단추를 클릭하거나 누를 때마다 스크롤할 색상 견본 수를 지정합니다.
+해당 스크롤 단추를 클릭하거나 탭할 때마다 스크롤할 색상 견본 수를 지정합니다.
 
 ## 속성 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 

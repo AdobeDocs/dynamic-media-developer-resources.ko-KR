@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ICC 프로필 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3492f4f3-d93e-4b62-8ff6-ace228e0687e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '45'
 ht-degree: 0%
 
 ---
-
 
 # ICC 프로필 맵{#icc-profile-maps}
 
@@ -20,11 +19,10 @@ ht-degree: 0%
 <table id="simpletable_91C7631EE91141DCB6EE70441BC724A9"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md#reference-9e7d3c8e35434981a3dfac66b8946cbe" type="reference" format="dita" scope="local"> 이름</a></span> </p></td> 
-  <td class="stentry"> <p>색상 프로필 이름(색인 키). </p></td> 
+  <td class="stentry"> <p>색상 프로필 이름(색인 키) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> 프로필 경로</a></span> </p> </td> 
-  <td class="stentry"> <p>ICC 색상 프로파일 파일 경로. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-profilepath-icc.md#reference-d0db8b059a60437992fe1ae35761cb95" type="reference" format="dita" scope="local"> ProfilePath</a></span> </p> </td> 
+  <td class="stentry"> <p>ICC 색상 프로파일 파일 경로입니다. </p></td> 
  </tr> 
 </table>
-

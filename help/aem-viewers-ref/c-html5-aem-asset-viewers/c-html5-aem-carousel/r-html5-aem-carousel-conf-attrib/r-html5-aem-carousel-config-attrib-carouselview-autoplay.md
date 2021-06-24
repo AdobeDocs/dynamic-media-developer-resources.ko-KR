@@ -2,13 +2,12 @@
 description: 회전판 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: CarouselView.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 5%
 
 ---
@@ -22,8 +21,8 @@ ht-degree: 5%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[0|1][,지속 시간][,방향]</span> </p> </td> 
-   <td colname="col2"> <p> 회전 메뉴에 각 배너를 표시할 시작/해제 시간 및 자동 루프 방향을 지정합니다. </p> <p>자동 루프를 해제하려면 <span class="codeph"> 0</span>으로 설정합니다. </p> <p><span class="codeph"> 1</span>을(를) 전환 지속 시간이 <span class="codeph"> 기간</span>에 의해 제어되는 자동 루프되도록 설정합니다. </p> <p>자동 루프 방향은 <span class="codeph"> 방향</span>으로 제어됩니다. <span class="codeph"> 방향</span>의 범위는 <span class="codeph"> 1</span> 오른쪽에서 왼쪽으로 <span class="codeph"> 0</span> 왼쪽에서 오른쪽 사이의 범위입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,방향]</span> </p> </td> 
+   <td colname="col2"> <p> 회전 메뉴에 각 배너를 표시할 시간 및 자동 루프 방향을 설정/해제 지정합니다. </p> <p>자동 루프를 해제하려면 <span class="codeph"> 0</span> 로 설정합니다. </p> <p><span class="codeph"> 1</span>을 <span class="codeph"> duration</span>에서 제어하는 전환 기간(초)을 사용하여 자동 루프하도록 설정합니다. </p> <p>자동 루프의 방향은 <span class="codeph"> direction</span>으로 제어됩니다. <span class="codeph"> 방향</span>의 범위는 <span class="codeph"> 1</span> 오른쪽에서 왼쪽 쓰기 및 <span class="codeph"> 0</span> 왼쪽에서 오른쪽 사이여야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

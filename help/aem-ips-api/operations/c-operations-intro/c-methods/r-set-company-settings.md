@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '156'
 ht-degree: 12%
 
 ---
-
 
 # setCompanySettings{#setcompanysettings}
 
@@ -33,18 +32,18 @@ ht-degree: 12%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`overwriteMode`*` | `xsd:string` | 아니요 | 에셋 덮어쓰기 모드입니다. |
-| `*`retainPublishState`*` | `xsd:boolean` | 아니요 | 자산을 다시 업로드할 때 게시 상태를 유지하려면 `true`으로 설정합니다. |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | 아니요 | 기본 소스 색상 프로파일로 사용할 IccProfile 에셋입니다. |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 IccProfile 에셋입니다. |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 에셋입니다. |
+| `*`overwriteMode`*` | `xsd:string` | 아니요 | 자산 덮어쓰기 모드. |
+| `*`keepPublishState`*` | `xsd:boolean` | 아니요 | 자산을 다시 업로드할 때 게시 상태를 유지하려면 `true` 로 설정하십시오. |
+| `*`defaultSourceProfileHandle`*` | `xsd:string` | 아니요 | 기본 원본 색상 프로파일로 사용할 Icc 프로필 자산 |
+| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 Icc 프로필 자산 |
+| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
+| `*`xmpMappingXsltHandle`*` | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
 | `*`diskSpaceWarningMin`*` | `xsd:int` | 아니요 | 경고 메시지가 전송되기 전에 사용 가능한 최소 디스크 공간(KB)입니다. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 아니요 | 자산을 휴지통에서 비울 때마다 회사 관리자에게 알림을 보내려면 `true`으로 설정합니다. |
+| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 아니요 | 자산이 휴지통에서 비워질 때마다 회사 관리자에게 알림을 보내려면 `true`으로 설정하십시오. |
 
 **출력(setCompanySettingsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-d10bf1d3d86f46f7bcf78dc1a2c363c5}
 

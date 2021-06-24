@@ -1,21 +1,20 @@
 ---
-description: 이미지 서비스는 Linux에 설치할 수 있습니다.
+description: Linux에 이미지 제공 서비스를 설치할 수 있습니다.
 solution: Experience Manager
-title: Linux에서 설치
+title: Linux에 설치
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: dec2d67d-fd2c-4856-9cb7-085d668d42fb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '41'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
+# Linux에 설치{#installing-on-linux}
 
-# Linux{#installing-on-linux}에 설치
-
-이미지 서비스는 Linux에 설치할 수 있습니다.
+Linux에 이미지 제공 서비스를 설치할 수 있습니다.
 
 * [처음 설치](t-first-install-lin.md)
 * [IS 4.7.4 이상에서 업데이트](t-update-lin.md)

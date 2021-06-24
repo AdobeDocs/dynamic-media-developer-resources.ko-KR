@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 4.2의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+description: IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 solution: Experience Manager
-title: 데이터 유형 새로 만들기 및 수정됨
+title: 신규 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
 
+# 데이터 유형:신규 및 수정됨{#data-types-new-and-modified}
 
-# 데이터 유형:새로 만들기 및 수정됨{#data-types-new-and-modified}
-
-IPS API 버전 4.2의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 
 구문
 
@@ -26,7 +25,7 @@ IPS API 버전 4.2의 새로운 데이터 유형 및 변경된 데이터 유형�
 * `PdfSettings`
 * `PremeierExpressRemixInfo`
 
-## 수정된 형식 {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
+## 수정된 유형 {#section-6c42b62dd91c4e9bb3a067b9abe3adee}
 
 **자산**
 
@@ -42,7 +41,7 @@ IPS API 버전 4.2의 새로운 데이터 유형 및 변경된 데이터 유형�
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**ReprocessAssetsJob**
+**AssetsJob 재처리**
 
 추가된 매개 변수:
 
@@ -64,4 +63,3 @@ IPS API 버전 4.2의 새로운 데이터 유형 및 변경된 데이터 유형�
 
 * `preservePublishState`
 * `preserveCrop`
-

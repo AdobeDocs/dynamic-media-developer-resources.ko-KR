@@ -1,21 +1,20 @@
 ---
-description: 모든 뷰어에 공통되는 매개 변수입니다.
+description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: serverUrl
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 3%
 
 ---
 
 # serverUrl{#serverurl}
 
-모든 뷰어에 공통되는 매개 변수입니다.
+모든 뷰어에 공통되는 매개 변수.
 
 ` serverUrl= *`isRootPath`*`
 
@@ -23,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>상대 또는 절대 이미지 제공 루트 경로. </p> <p> 뷰어가 이미지를 검색하는 이미지 제공에서 상대 또는 절대 경로를 지정합니다. 경로에 선행 <span class="filepath"> /</span>이 없는 경우, 이 경로는 뷰어 HTML 페이지의 위치를 기준으로 합니다. 경로에 선행 <span class="filepath"> /</span>이 있는 경우 동일한 서버에 대한 절대 경로를 지정합니다. </p> <p> 뷰어에서 전자 메일 공유 모듈이 활성화된 경우 절대 경로만 사용합니다. </p> </td> 
+   <td colname="col2"> <p>상대 또는 절대 이미지 제공 루트 경로. </p> <p> 뷰어가 이미지를 검색하는 이미지 제공 서비스의 상대 또는 절대 경로를 지정합니다. 경로에 선행 <span class="filepath"> /</span>이 없는 경우 이 경로는 뷰어 HTML 페이지의 위치를 기준으로 합니다. 경로에 선행 <span class="filepath"> /</span>이 있는 경우 동일한 서버에 절대 경로를 지정합니다. </p> <p> 뷰어에서 전자 메일 공유 모듈이 활성화된 경우 절대 경로만 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

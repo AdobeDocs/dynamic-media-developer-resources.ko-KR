@@ -4,22 +4,21 @@ solution: Experience Manager
 title: printerMark
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
-
 
 # printerMark{#printermark}
 
 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
 
-` printerMark= *`트리밍 `*, *`마크도련 `*, *`마크등록 `*, *`마커 `*, *`바스페이지 `*, *``*, *`정보 스타일라인 `*, *`웨이레이어 임베드`*`
+` printerMark= *`trim `*, *`markdown `*, *`marketing`*, *`markdown`*, *`바코드 정보스타일`*, *``*, *`라인 `*, *`wearlayer 포함`*`
 
-다른 표시는 꺼지거나 켜질 수 있습니다. 프린터 표시 스타일도 제어할 수 있습니다.
+다른 표시는 꺼져 있거나 켜질 수 있습니다. 프린터 표시의 스타일을 제어할 수도 있습니다.
 
 다음은 유효한 값입니다.
 
@@ -55,8 +54,8 @@ ht-degree: 30%
   <td class="stentry"> <p>기본값은 기본값입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>선 두께= </p></td> 
-  <td class="stentry"> <p>0.125 - 2.0 범위의 모든 값(두 값 모두 포함). </p></td> 
+  <td class="stentry"> <p>line weight= </p></td> 
+  <td class="stentry"> <p>0.125 - 2.0 범위의 값은 모두 포함되며, </p></td> 
   <td class="stentry"> <p>기본값은 0.25입니다. </p></td> 
  </tr> 
  <tr class="strow"> 

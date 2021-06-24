@@ -1,21 +1,20 @@
 ---
-description: 회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스에 있는 모든 이름과 자산 이름을 비교하여 IPS ID 충돌을 확인합니다.
+description: 자산 이름을 회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스와 모든 이름과 비교하여 IPS ID 충돌을 확인합니다.
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 12%
 
 ---
 
-
 # checkAssetNames{#checkassetnames}
 
-회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스에 있는 모든 이름과 자산 이름을 비교하여 IPS ID 충돌을 확인합니다.
+자산 이름을 회사의 이미지 제공/이미지 렌더링 카탈로그 네임스페이스와 모든 이름과 비교하여 IPS ID 충돌을 확인합니다.
 
 구문
 
@@ -47,7 +46,7 @@ ht-degree: 12%
 
 ## 예제 {#section-bc5d120d74614a63a425ca3acc337219}
 
-이 샘플 코드는 지정된 회사에 대해 사용 중인 자산 이름을 요청합니다. 응답에서는 사용 중인 자산 이름의 배열을 반환합니다.
+이 샘플 코드는 지정된 회사에 대해 사용 중인 자산 이름을 요청합니다. 이 응답은 사용 중인 자산 이름의 배열을 반환합니다.
 
 **요청**
 
@@ -70,4 +69,3 @@ ht-degree: 12%
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-

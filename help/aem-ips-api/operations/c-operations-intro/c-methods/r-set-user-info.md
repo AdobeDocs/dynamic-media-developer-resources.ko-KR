@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 16%
 
 ---
-
 
 # setUserInfo{#setuserinfo}
 
@@ -36,14 +35,14 @@ ht-degree: 16%
 | `*`firstName`*` | `xsd:string` | 예 | 이름. |
 | `*`lastName`*` | `xsd:string` | 예 | 성. |
 | `*`이메일`*` | `xsd:string` | 예 | 사용자 이메일. |
-| `*`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 회사별 다른 설정을 무시합니다. |
+| `*`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사에서 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 다른 회사 단위 설정을 무시합니다. |
 | `*`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료일을 설정합니다. |
 | `*`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
 | `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
 
 **출력(setUserInfoReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-272c103076fb4de0a53729e2f6bfb895}
 

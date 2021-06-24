@@ -4,14 +4,13 @@ solution: Experience Manager
 title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '142'
+ht-degree: 14%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -34,18 +33,18 @@ ICC 프로필 메타데이터 필드를 설정합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | ICC 프로파일이 들어 있는 회사를 처리합니다. |
-| `*`업데이트 배열`*` | `xsd:string` | 예 | ICC 프로파일 업데이트 배열. |
+| `*`companyHandle`*` | `xsd:string` | 예 | ICC 프로필이 포함된 회사를 처리합니다. |
+| `*`어레이 업데이트`*` | `xsd:string` | 예 | ICC 프로필 업데이트 배열입니다. |
 
 **출력(batchSetIccProfileFields)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | 예 | ICC 프로필 필드를 성공적으로 설정한 횟수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | ICC 프로필 필드를 설정하려고 할 때 생성되는 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | ICC 프로필 필드를 설정하려고 할 때 생성되는 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | ICC 프로파일 필드를 설정하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | ICC 프로파일 필드를 설정하려고 할 때 생성되는 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
@@ -74,4 +73,3 @@ ICC 프로필 메타데이터 필드를 설정합니다.
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-

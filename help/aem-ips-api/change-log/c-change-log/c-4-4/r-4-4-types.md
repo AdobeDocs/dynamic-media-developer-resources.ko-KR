@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 4.4의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+description: IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 solution: Experience Manager
-title: 데이터 유형 새로 만들기 및 수정됨
+title: 신규 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '51'
 ht-degree: 3%
 
 ---
 
-# 데이터 유형:새로 만들기 및 수정됨{#data-types-new-and-modified}
+# 데이터 유형:신규 및 수정됨{#data-types-new-and-modified}
 
-IPS API 버전 4.4의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 
 구문
 
@@ -32,7 +31,7 @@ IPS API 버전 4.4의 새로운 데이터 유형 및 변경된 데이터 유형�
 * `IccProfileFieldUpdate`
 * `IccProfileFieldUpdateArray`
 
-## 수정된 형식 {#section-dfd062062ad444b0876bbc951fb1560c}
+## 수정된 유형 {#section-dfd062062ad444b0876bbc951fb1560c}
 
 **자산**
 

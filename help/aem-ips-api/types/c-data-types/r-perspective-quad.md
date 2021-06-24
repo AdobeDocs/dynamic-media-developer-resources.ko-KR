@@ -1,21 +1,20 @@
 ---
-description: getPhotoshopPath 작업에 의해 반환된 이미지 위치 좌표입니다.
+description: getPhotoshopPath 작업에서 반환된 이미지 위치 좌표입니다.
 solution: Experience Manager
 title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
-
 # PerspectiveQuad{#perspectivequad}
 
-getPhotoshopPath 작업에 의해 반환된 이미지 위치 좌표입니다.
+getPhotoshopPath 작업에서 반환된 이미지 위치 좌표입니다.
 
 구문
 
@@ -23,13 +22,13 @@ getPhotoshopPath 작업에 의해 반환된 이미지 위치 좌표입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | 왼쪽 위 x축 좌표. |
-| `*`y0`*` | `xsd:double` | 왼쪽 위 y축 좌표. |
-| `*`x1`*` | `xsd:double` | 오른쪽 위 x축 좌표. |
-| `*`y1`*` | `xsd:double` | 오른쪽 위 y축 좌표. |
+| `*`x0`*` | `xsd:double` | 왼쪽 위 x축 좌표입니다. |
+| `*`y0`*` | `xsd:double` | 왼쪽 위 y축 좌표입니다. |
+| `*`x1`*` | `xsd:double` | 오른쪽 위 x축 좌표입니다. |
+| `*`y1`*` | `xsd:double` | 오른쪽 위 y축 좌표입니다. |
 | `*`x2`*` | `xsd:double` | 오른쪽 x축 좌표 아래. |
 | `*`y2`*` | `xsd:double` | 오른쪽 아래 y축 좌표. |
-| `*`x3`*` | `xsd:double` | 왼쪽 x축 좌표 하단입니다. |
+| `*`x3`*` | `xsd:double` | 왼쪽 x축 좌표계 아래. |
 | `*`y3`*` | `xsd:double` | 왼쪽 아래 y축 좌표. |
 
 ## 예 {#section-19ed4409ff3a41c9b52a9c9424612927}

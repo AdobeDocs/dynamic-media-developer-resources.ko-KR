@@ -2,16 +2,15 @@
 description: 혼합 미디어 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: VideoPlayer.ssl
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5fd3aa39-edb0-4434-aa5f-e511c84cf950
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
-
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
@@ -19,7 +18,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 구성 속성은 [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)이 설치된 AEM 6.2와 [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)이 설치된 AEM 6.1에만 적용됩니다.
+>이 구성 속성은 [기능 팩 NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480)이 설치된 AEM 6.2와 [기능 팩 NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011)이 설치된 AEM 6.1에만 적용됩니다.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]ssl=auto|on`
 
@@ -27,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|설정</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS) 또는 비보안 연결(HTTP)을 통해 제공되는지 여부를 제어합니다. </p> <p><span class="codeph"> auto</span>로 설정하면 비디오 전달 프로토콜이 포함 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되는 경우 비디오는 HTTPS를 통해 전달되거나 그 반대의 경우도 마찬가지입니다. 웹 페이지가 HTTP를 사용하는 경우 비디오는 HTTP를 통해 전달됩니다. </p> <p></span>에서 <span class="codeph">으로 설정하면 웹 페이지 프로토콜에 관계없이 항상 보안 연결을 통해 비디오 배달이 발생합니다. </span></p> <p>게시된 비디오 전달에만 영향을 주고 [작성자] 모드에서 비디오 미리 보기에 대해 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS)을 통해 전달되는지 아니면 비보안 연결(HTTP)을 통해 전달되는지를 제어합니다. </p> <p><span class="codeph"> auto</span> 로 설정하면 비디오 전달 프로토콜이 포함 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되면 HTTPS를 통해 비디오도 전달되고 그 반대의 경우도 마찬가지입니다. 웹 페이지가 HTTP에 있는 경우 비디오가 HTTP를 통해 제공됩니다. </p> <p></span>에서 <span class="codeph">으로 설정하면 웹 페이지 프로토콜에 관계없이 항상 보안 연결을 통해 비디오 전달이 발생합니다. </span></p> <p>게시된 비디오 게재에만 영향을 주며 작성자 모드에서 비디오 미리 보기에 대해서는 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,4 +47,4 @@ ssl=on
 
 <!--<a id="section_5943AC73316749C68761FF7F74DA7547"></a>-->
 
-[보안 비디오 배달](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb)도 참조하십시오.
+또한 [보안 비디오 배달](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-securevideodelivery.md#concept-4d155111df9f469aa6c6d7b41e959dcb)을 참조하십시오.

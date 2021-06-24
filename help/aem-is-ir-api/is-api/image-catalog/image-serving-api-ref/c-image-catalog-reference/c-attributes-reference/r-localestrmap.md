@@ -1,21 +1,20 @@
 ---
-description: 문자열 번역 맵. 임의 개수의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
+description: 문자열 번역 맵. 임의의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
 solution: Experience Manager
 title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
 
-
 # LocaleStrMap{#localestrmap}
 
-문자열 번역 맵. 임의 개수의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
+문자열 번역 맵. 임의의 internalLocId에 매핑할 수 있는 locId를 참조합니다.
 
 `*``*&#42;['|' *`항목`*]`
 
@@ -34,13 +33,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-`LocaleStrMap` 은  `locId` 수에 관계없이 매핑할 수 있는 항목을  `internalLocId`나타냅니다.
+`LocaleStrMap` 는  `locId` 수에 관계없이 매핑할 수 있는 를  `internalLocId`나타냅니다.
 
-빈 *`locale`* 값은 비어 있고 알 수 없는 `locale=` 문자열을 찾습니다. 알 수 없는 로케일에 대한 기본 규칙을 정의할 수 있습니다.
+빈 *`locale`* 값은 비어 있고 알 수 없는 `locale=` 문자열과 일치합니다. 알 수 없는 로케일에 대한 기본 규칙을 정의할 수 있습니다.
 
-빈 *`locId`* 값이 허용되고 *`defaultString`*(*`defaultString`*&#x200B;에 로케일 식별자가 없음)을 선택합니다. *`locId`* 값이 지정된 순서로 검색됩니다. 첫 번째 일치 항목이 반환됩니다.
+빈 *`locId`* 값이 허용되며 *`defaultString`*(*`defaultString`*&#x200B;에 로케일 식별자가 없음)을 선택합니다. *`locId`* 지정한 순서대로 값이 검색됩니다. 첫 번째 일치 항목이 반환됩니다.
 
-문자열 변환은 활성화되면 다음 이미지 카탈로그 필드의 텍스트 문자열에 적용됩니다.
+문자열 번역이 활성화되면 다음 이미지 카탈로그 필드의 텍스트 문자열에 적용됩니다.
 
 <table id="table_EE0321F9890B45CA8C364178F5100D40"> 
  <tbody> 
@@ -50,15 +49,15 @@ ht-degree: 2%
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::ImageSet  </span> </p> </td> 
-   <td> <p>번역 가능한 문자열이 포함된 하위 요소(구분 기호 ',' ';' ':' 및/또는 필드의 시작/끝 조합으로 구분). </p> <p>지역화 가능 필드의 시작 부분에 있는 <span class="codeph"> 0xrggbb </span> 색상 값은 로컬라이제이션에서 제외되고 수정 없이 전달됩니다. </p> </td> 
+   <td> <p>번역 가능한 문자열(',' ';' ':' 및/또는 필드의 시작/끝의 조합으로 구분)이 포함된 모든 하위 요소. </p> <p>지역화 가능한 필드의 시작 부분에 있는 <span class="codeph"> 0xrggbb </span> 색상 값이 지역화에서 제외되고 수정 없이 전달됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::맵  </span> </p> </td> 
-   <td> <p><span class="codeph"> coords= </span> 및 <span class="codeph"> shape= </span> 속성의 값을 제외한 모든 단일 또는 이중 인용 특성 값입니다. </p> </td> 
+   <td> <p><span class="codeph"> coords= </span> 및 <span class="codeph"> shape= </span> 속성 값을 제외한 모든 단일 또는 이중 따옴표 속성 값 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::Target  </span> </p> </td> 
-   <td> <p><span class="filepath"> 대상의 값입니다.*.label </span> 및 <span class="filepath"> target.*.userdata </span> 속성. </p> </td> 
+   <td> <p><span class="filepath"> 대상의 값입니다.*.label </span> 및 <span class="filepath"> target.*.userdata </span> 속성을 사용합니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::UserData  </span> </p> </td> 
@@ -69,8 +68,8 @@ ht-degree: 2%
 
 ## 속성 {#section-8505a8525f6948ada3979f68c4081044}
 
-하나 이상의 항목이 |. 여기서 각 항목은 두 개 이상의 쉼표로 구분된 문자열 값으로 구성됩니다.
+하나 이상의 항목, |, 여기서 각 항목은 두 개 이상의 쉼표로 구분된 문자열 값으로 구성됩니다.
 
 ## 참조 {#section-0c0516e4f83d42d38247308cab9b6708}
 
-현지화 지원, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [속성::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [카탈로그::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [카탈로그::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [카탈로그::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [카탈로그: userData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+로컬라이제이션 지원, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [특성::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [카탈로그::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [카탈로그::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)

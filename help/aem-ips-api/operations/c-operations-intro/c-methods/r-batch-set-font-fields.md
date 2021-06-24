@@ -4,14 +4,13 @@ solution: Experience Manager
 title: batchSetFontFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f38aa861-2a81-4663-967e-72611122f51b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '130'
 ht-degree: 14%
 
 ---
-
 
 # batchSetFontFields{#batchsetfontfields}
 
@@ -38,11 +37,11 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 글꼴 필드를 성공적으로 설정한 횟수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업이 글꼴 필드를 설정하려고 할 때 발생한 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 글꼴 필드를 성공적으로 설정한 수입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 글꼴 필드를 설정하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 글꼴 필드를 설정하려고 할 때 발생한 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
@@ -74,4 +73,3 @@ ht-degree: 14%
    <errorCount>0</errorCount>
 </batchSetFontFieldsReturn>
 ```
-

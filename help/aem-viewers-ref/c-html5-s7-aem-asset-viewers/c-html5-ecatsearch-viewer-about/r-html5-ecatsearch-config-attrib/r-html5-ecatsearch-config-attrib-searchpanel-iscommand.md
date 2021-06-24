@@ -2,16 +2,15 @@
 description: SearchPanel.iscommand
 solution: Experience Manager
 title: SearchPanel.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4e843866-75a5-4543-a275-e134b3aee75a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: '57'
 ht-degree: 8%
 
 ---
-
 
 # SearchPanel.iscommand{#searchpanel-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 모든 축소판에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td colname="col2"> <p> 모든 축소판에 적용되는 이미지 제공 명령 문자열입니다. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,6 +39,6 @@ ht-degree: 8%
 
 [!DNL `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`]
 
-구성 데이터에 지정된 경우입니다.
+구성 데이터에 지정되는 경우.
 
 [!DNL `iscommand=op_sharpen=1&op_colorize=0xff0000`]

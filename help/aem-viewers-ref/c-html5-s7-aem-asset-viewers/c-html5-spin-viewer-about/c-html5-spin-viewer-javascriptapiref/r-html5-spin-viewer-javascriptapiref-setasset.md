@@ -1,21 +1,20 @@
 ---
-description: 스핀 뷰어용 JavaScript API 참조입니다.
+description: 스핀 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 2%
 
 ---
 
-
 # setAsset{#setasset}
 
-스핀 뷰어용 JavaScript API 참조입니다.
+스핀 뷰어에 대한 JavaScript API 참조.
 
 ` setAsset( *`asset`*)`
 
@@ -23,16 +22,16 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>} 새 자산 ID, 선택적 이미지 제공 수정자가 추가된 단일 또는 다차원 스핀 세트, <span class="codeph"> ?</span> </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>}의 새로운 자산 id, 선택적 이미지 제공 한정자가 추가된 단일 또는 다차원 스핀 세트, <span class="codeph"> 뒤에 추가됩니다.</span> </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-새 자산을 설정합니다. 이 매개 변수는 `init()` 이전 또는 이후에 언제든지 호출할 수 있습니다. `init()` 이후에 호출되는 경우 뷰어는 런타임에 에셋을 교환합니다.
+새 자산을 설정합니다. 이 매개 변수는 `init()` 전이나 후에 언제든지 호출할 수 있습니다. `init()` 다음에 호출되면 뷰어는 런타임 시 자산을 교체합니다.
 
 [init](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)도 참조하십시오.
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 
@@ -44,15 +43,14 @@ ht-degree: 2%
 <instance>.setAsset("Scene7SharedAssets/SpinSet_Sample")
 ```
 
-명시적 회전 집합:
+명시적 스핀 세트:
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Frame-1,Scene7SharedAssets/Frame-2,Scene7SharedAssets/Frame-3,Scene7SharedAssets/Frame-4,Scene7SharedAssets/Frame-5,Scene7SharedAssets/Frame-6,Scene7SharedAssets/Frame-7,Scene7SharedAssets/Frame-8")
 ```
 
-명시적 다차원 회전 집합:
+명시적 다차원 스핀 세트:
 
 ```
 <instance>.setAsset("((Scene7SharedAssets/ring1-25,Scene7SharedAssets/ring1-26,Scene7SharedAssets/ring1-27,Scene7SharedAssets/ring1-28,Scene7SharedAssets/ring1-29,Scene7SharedAssets/ring1-30,Scene7SharedAssets/ring1-31,Scene7SharedAssets/ring1-32,Scene7SharedAssets/ring1-33,Scene7SharedAssets/ring1-34,Scene7SharedAssets/ring1-35,Scene7SharedAssets/ring1-36),{Scene7SharedAssets/ring1-13,Scene7SharedAssets/ring1-14,Scene7SharedAssets/ring1-15,Scene7SharedAssets/ring1-16,Scene7SharedAssets/ring1-17,Scene7SharedAssets/ring1-18,Scene7SharedAssets/ring1-19,Scene7SharedAssets/ring1-20,Scene7SharedAssets/ring1-21,Scene7SharedAssets/ring1-22,Scene7SharedAssets/ring1-23,Scene7SharedAssets/ring1-24),{Scene7SharedAssets/ring1-01,Scene7SharedAssets/ring1-02,Scene7SharedAssets/ring1-03,Scene7SharedAssets/ring1-04,Scene7SharedAssets/ring1-05,Scene7SharedAssets/ring1-06,Scene7SharedAssets/ring1-07,Scene7SharedAssets/ring1-08,Scene7SharedAssets/ring1-09,Scene7SharedAssets/ring1-10,Scene7SharedAssets/ring1-11,Scene7SharedAssets/ring1-12))")
 ```
-

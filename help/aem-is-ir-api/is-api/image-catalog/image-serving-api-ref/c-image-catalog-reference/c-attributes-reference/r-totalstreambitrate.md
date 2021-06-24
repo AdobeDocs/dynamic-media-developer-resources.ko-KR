@@ -1,23 +1,22 @@
 ---
-description: 총 스트림 비트 전송률입니다. 비디오 자산에 대한 전체 스트림 비트 전송률을 나타내는 긴 값입니다.
+description: 총 스트림 비트 전송률입니다. 비디오 자산의 총 스트림 비트 전송률을 나타내는 긴 값입니다.
 solution: Experience Manager
 title: TotalStreamBitRate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 476da561-e067-49ec-aefc-eda11c35b814
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
 
-
 # TotalStreamBitRate{#totalstreambitrate}
 
-총 스트림 비트 전송률입니다. 비디오 자산에 대한 전체 스트림 비트 전송률을 나타내는 긴 값입니다.
+총 스트림 비트 전송률입니다. 비디오 자산의 총 스트림 비트 전송률을 나타내는 긴 값입니다.
 
-비트 전송률 데이터를 내보내도록 `req=set` 및 `req=mbrSet`요청에 의해 사용됩니다.
+`req=set` 및 `req=mbrSet`요청이 비트율 데이터를 내보내도록 사용됩니다.
 
 정적 컨텐츠 카탈로그에만 적용됩니다.
 

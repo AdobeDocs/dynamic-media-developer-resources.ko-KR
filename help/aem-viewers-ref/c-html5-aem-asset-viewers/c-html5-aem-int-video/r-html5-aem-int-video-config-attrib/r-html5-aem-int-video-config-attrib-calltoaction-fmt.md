@@ -2,13 +2,12 @@
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: CallToAction.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 38ca592f-329c-4fd4-8dbc-a49000663e55
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 5%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-알파|gif|gif-alpha</span> </p> </td> 
    <td colname="col2"> <p> 구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. </p> <p>지정된 형식이 "<span class="codeph"> -alpha</span>"로 끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> </td> 
   </tr> 
  </tbody> 

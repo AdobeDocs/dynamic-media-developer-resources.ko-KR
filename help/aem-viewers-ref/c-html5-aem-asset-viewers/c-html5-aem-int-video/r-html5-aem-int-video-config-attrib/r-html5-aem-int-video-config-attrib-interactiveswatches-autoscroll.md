@@ -2,14 +2,13 @@
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 비디오 재생 도중 등 각 미디어 전환과 함께 자동으로 스크롤할 수 있는 대화형 색상 견본을 활성화하거나 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p> 대화형 색상 견본이 비디오 재생 중 처럼 각 미디어 전환과 함께 자동으로 스크롤되는 기능을 활성화하거나 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

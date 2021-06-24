@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
-
 
 # getZipEntries{#getzipentries}
 
@@ -37,18 +36,18 @@ Zip 파일 데이터를 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 들어 있는 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | Zip 파일을 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 포함된 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | Zip 파일로 처리합니다. |
 
 **출력(getZipEntriesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | 예 | Zip 파일의 항목 배열입니다. |
+| `*`zipArray`*` | `types:ZipEntryArray` | 예 | Zip 파일에 있는 항목의 배열입니다. |
 
 ## 예제 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-이 코드 샘플은 압축 및 압축 해제된 크기를 포함한 Zip 파일 정보를 반환합니다.
+이 코드 샘플은 압축 및 압축되지 않은 크기를 포함한 Zip 파일 정보를 반환합니다.
 
 **요청**
 
@@ -75,4 +74,3 @@ Zip 파일 데이터를 반환합니다.
    </zipArray>
 </getZipEntriesReturn>
 ```
-

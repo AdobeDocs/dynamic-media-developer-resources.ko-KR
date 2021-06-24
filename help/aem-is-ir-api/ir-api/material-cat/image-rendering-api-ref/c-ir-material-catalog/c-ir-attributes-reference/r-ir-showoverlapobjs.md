@@ -1,21 +1,20 @@
 ---
-description: 겹치는 개체를 표시합니다. 겹치는 개체를 처음에 표시할지 아니면 숨길지를 지정합니다.
+description: 겹치기 개체를 표시합니다. 겹치기 개체를 처음에 표시할지 여부를 지정합니다.
 solution: Experience Manager
-title: 개체 표시
+title: ShowOverlapObjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
 
-
 # ShowOverlapObjects{#showoverlapobjs}
 
-겹치는 개체를 표시합니다. 겹치는 개체를 처음에 표시할지 아니면 숨길지를 지정합니다.
+겹치기 개체를 표시합니다. 겹치기 개체를 처음에 표시할지 여부를 지정합니다.
 
 ## 속성 {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 

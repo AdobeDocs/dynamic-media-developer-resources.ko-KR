@@ -4,14 +4,13 @@ solution: Experience Manager
 title: CompanyMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
-
 
 # CompanyMember{#companymember}
 
@@ -24,6 +23,5 @@ ht-degree: 10%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`사용자`*` | `types:User` | 사용자 이름. |
-| `*`역할`*` | `xsd:string` | 사용자가 속한 각 회사에 대한 역할입니다. |
+| `*`역할`*` | `xsd:string` | 사용자가 속한 각 회사에 대해 가지는 역할입니다. |
 | `*`isActive`*` | `xsd:boolean` | 사용자가 속한 각 회사의 사용자 상태를 설정합니다. |
-

@@ -1,25 +1,24 @@
 ---
-description: 전체 화면 단추를 클릭하면 비디오 플레이어가 전체 화면 모드로 들어가거나 종료됩니다.
+description: 전체 화면 버튼을 사용하면 사용자가 클릭할 때 비디오 플레이어가 전체 화면 모드로 전환되거나 종료됩니다.
 solution: Experience Manager
 title: 전체 화면 단추
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
 
 # 전체 화면 단추{#full-screen-button}
 
-전체 화면 단추를 클릭하면 비디오 플레이어가 전체 화면 모드로 들어가거나 종료됩니다.
+전체 화면 버튼을 사용하면 사용자가 클릭할 때 비디오 플레이어가 전체 화면 모드로 전환되거나 종료됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-전체 화면 단추를 포함하는 컨트롤 막대를 기준으로 CSS로 크기를 조정하고 스킨 후 위치를 지정할 수 있습니다.
+전체 화면 단추의 크기를 지정하고, 스킨을 지정하고, CSS로 포함하는 컨트롤 막대를 기준으로 배치할 수 있습니다.
 
 전체 화면 버튼의 모양은 CSS 클래스 선택기로 제어됩니다.
 
@@ -33,19 +32,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩과 같이 위쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 위쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩과 같이 오른쪽 테두리에서 위치를 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 오른쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩과 같이 왼쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 왼쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>패딩과 같이 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>패딩을 포함하여 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -56,23 +55,23 @@ ht-degree: 2%
    <td colname="col2"> <p>전체 화면 단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시된 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히 `selected='true'`은 &quot;전체 화면&quot; 상태에 해당하고 `selected='false'`은 &quot;정상&quot; 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기를 모두 지원하며, 이 선택기는 다른 스킨(skin)을 다른 단추 상태에 적용하는 데 사용할 수 있습니다. 특히 `selected='true'`은 &quot;전체 화면&quot; 상태에 해당하고 `selected='false'`은 &quot;일반&quot; 상태에 해당합니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)의 현지화를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
 
-**예**  - 32 x 32픽셀인 전체 화면 단추를 설정하고 컨트롤 막대의 위쪽과 오른쪽 가장자리에서 6픽셀을 배치하려면 또한 선택되거나 선택하지 않을 때 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+**예**  - 32 x 32픽셀이며 컨트롤 막대의 위쪽 및 오른쪽 가장자리에서 6픽셀을 위치하는 전체 화면 단추를 설정하려면 다음을 수행하십시오. 또한 선택 여부에 따라 4개의 서로 다른 버튼 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7video360viewer . s7fullscreenbutton { 

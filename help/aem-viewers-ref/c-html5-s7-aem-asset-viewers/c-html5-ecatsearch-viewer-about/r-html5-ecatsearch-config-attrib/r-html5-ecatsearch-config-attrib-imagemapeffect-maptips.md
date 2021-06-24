@@ -2,16 +2,15 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 922649e9-865a-4b53-8507-a21611a6d0ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 13%
+source-wordcount: '35'
+ht-degree: 14%
 
 ---
-
 
 # ImageMapEffect.mapTips{#imagemapeffect-maptips}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 개별 지도 영역 요소에 도구 설명을 사용할지 여부를 지정합니다. </p> <p> 터치 지원 데스크톱 시스템을 포함하여 터치 장치에서 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 개별 맵 영역 요소에 도구 설명을 사용할지 여부를 지정합니다. </p> <p> 터치 지원 데스크탑 시스템을 포함한 터치 장치에서 무시됨 </p> </td> 
   </tr> 
  </tbody> 
 </table>

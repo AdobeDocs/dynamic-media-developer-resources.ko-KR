@@ -1,21 +1,20 @@
 ---
-description: 현재 또는 예약된 작업을 삭제합니다.
+description: 현재 작업이나 예약된 작업을 삭제합니다.
 solution: Experience Manager
 title: deleteJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 12%
 
 ---
 
-
 # deleteJob{#deletejob}
 
-현재 또는 예약된 작업을 삭제합니다.
+현재 작업이나 예약된 작업을 삭제합니다.
 
 구문
 
@@ -41,11 +40,11 @@ ht-degree: 12%
 
 **출력**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-이 코드 샘플은 실행 중이거나 IPS에서 실행되도록 예약된 작업을 삭제합니다. 다른 작업에서 얻어야 하는 작업 핸들이 필요합니다.
+이 코드 샘플은 실행 중이거나 IPS에서 실행되도록 예약된 작업을 삭제합니다. 다른 작업에서 가져와야 하는 작업 핸들이 필요합니다.
 
 **요청**
 

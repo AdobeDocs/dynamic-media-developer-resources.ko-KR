@@ -1,50 +1,49 @@
 ---
-description: 이미지 자르기를 참조하십시오. 전체 해상도 소스 이미지 또는 마스크 이미지를 기준으로 픽셀 단위로 표시되거나 표준화된 사각형 자르기 영역을 지정합니다.
+description: 이미지 자르기. 전체 해상도 소스 이미지나 마스크 이미지에 대해 픽셀 단위로 표시되거나 정규화된 사각형 자르기 영역을 지정합니다.
 solution: Experience Manager
 title: 자르기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
 
-
 # 자르기{#crop}
 
-이미지 자르기를 참조하십시오. 전체 해상도 소스 이미지 또는 마스크 이미지를 기준으로 픽셀 단위로 표시되거나 표준화된 사각형 자르기 영역을 지정합니다.
+이미지 자르기. 전체 해상도 소스 이미지나 마스크 이미지에 대해 픽셀 단위로 표시되거나 정규화된 사각형 자르기 영역을 지정합니다.
 
-`crop= *``*, *`조정 크기`*`
+`crop= *``*, *`coordsize`*`
 
 `cropN= *``*, *`coordNsizeN`*`
 
 <table id="simpletable_472A9AD67AA64419B0877B0535F8B14A"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> coord</span></span> </p> </td> 
-  <td class="stentry"> <p>소스 이미지의 왼쪽 위 모서리에서 자르기 사각형 왼쪽 위(int, int)까지 픽셀 오프셋입니다. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 코드</span></span> </p> </td> 
+  <td class="stentry"> <p>소스 이미지의 왼쪽 위 모서리에서 자르기 레트의 왼쪽 위(int, int)까지 픽셀 오프셋입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> coordN</span></span> </p> </td> 
-  <td class="stentry"> <p>소스 이미지의 왼쪽 위에서 자르기 사각형 왼쪽 위(실제)까지 정규화된 오프셋입니다. </p></td> 
+  <td class="stentry"> <p>소스 이미지의 왼쪽 위에서 자르기 레트의 왼쪽 상단까지 정규화된 오프셋(실제, 실제)입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 크기</span></span> </p></td> 
-  <td class="stentry"> <p>자르기 사각형 크기(픽셀 단위)(int, int)입니다. </p></td> 
+  <td class="stentry"> <p>자르기 레코드 크기(픽셀 단위)입니다(int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> sizeN</span></span> </p></td> 
-  <td class="stentry"> <p>소스 이미지 크기(실제, 실제)를 기준으로 자르기 크기의 정규화된 크기가 다시 표시됩니다. </p></td> 
+  <td class="stentry"> <p>소스 이미지의 크기에 상대적인 자르기 작업의 정규화된 크기(실제, 실제)입니다. </p></td> 
  </tr> 
 </table>
 
-이미지 폭, 높이보다 큰 음수 x, y 값 및/또는 너비, 높이 값을 지정하여 이미지를 해당 경계 너머로 확장하도록 사용할 수도 있습니다. 이 경우 확장 영역은 완전히 투명하게 표시됩니다(`bgColor=`이 지정되지 않은 경우).
+또한 음수 x, y 값 및/또는 폭과 이미지 너비, 높이보다 큰 높이 값을 지정하여 이미지를 해당 경계 이상으로 확장하는 데 사용할 수도 있습니다. 이 경우 확장 영역은 완전히 투명합니다( `bgColor=`을 지정하지 않은 경우).
 
 ## 속성 {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-소스 이미지/마스크 속성입니다. `layer=comp`인 경우 레이어 0 소스 이미지에 적용됩니다. 소스 이미지 또는 마스크와 연결되지 않은 레이어에서 무시됩니다.
+소스 이미지/마스크 속성입니다. `layer=comp`인 경우 레이어 0 소스 이미지에 적용됩니다. 소스 이미지나 마스크와 연관되지 않은 레이어에서 무시됩니다.
 
 ## 기본값 {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -52,11 +51,11 @@ ht-degree: 3%
 
 ## 예제 {#section-2c99b481c0a04321979a3b522aa295d1}
 
-**왼쪽에서 10%, 오른쪽에서 10% 자르기:**
+**자르기는 왼쪽에서 10%, 오른쪽은 10%입니다.**
 
 `…&cropN=0.1,0,0.8,1&…`
 
-**이미지의 아래쪽 가장자리를 20% 잘라냅니다.**
+**이미지 하단 가장자리에서 20% 자르기:**
 
 `…&cropN=0,0,1,0.8&…`
 

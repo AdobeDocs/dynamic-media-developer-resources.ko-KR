@@ -1,21 +1,20 @@
 ---
-description: 이미지를 위한 수동 자르기 옵션
+description: 이미지에 대한 수동 자르기 옵션.
 solution: Experience Manager
-title: ManualCropOptions
+title: 수동 자르기 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 14%
 
 ---
 
+# 수동 자르기 옵션{#manualcropoptions}
 
-# ManualCropOptions{#manualcropoptions}
-
-이미지를 위한 수동 자르기 옵션
+이미지에 대한 수동 자르기 옵션.
 
 구문
 
@@ -25,6 +24,5 @@ ht-degree: 14%
 |---|---|---|
 | `*`왼쪽`*` | `xsd:int` | 수동 자르기의 왼쪽 위치(픽셀 단위)입니다. |
 | `*`오른쪽`*` | `xsd:int` | 수동 자르기의 오른쪽 위치(픽셀 단위)입니다. |
-| `*`최상위`*` | `xsd:int` | 수동 자르기의 위쪽 위치(픽셀 단위)입니다. |
+| `*`최상위`*` | `xsd:int` | 수동 자르기 위쪽 위치(픽셀 단위)입니다. |
 | `*`하단`*` | `xsd:int` | 수동 자르기의 아래쪽 위치(픽셀 단위)입니다. |
-

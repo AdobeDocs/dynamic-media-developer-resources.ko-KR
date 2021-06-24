@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7ba10df0-9e3e-4c31-9bd6-4d0e6feb7e75
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 전환하면 스크롤 버튼이 자동으로 견본 전체를 한 페이지로 이동합니다. </p> <p>견본이 맞지 않을 경우 마지막 페이지에 추가 공백이 표시됩니다. 또한 마지막 페이지의 셀 수는 이전 페이지와 동일합니다. </p> <p>스크롤 단계는 무시되고 마우스 스크롤은 전체 페이지에서만 진행됩니다. </p> </td> 
+   <td colname="col2"> <p> 토글하면 스크롤 버튼이 자동으로 전체 페이지 길이를 뛰어넘습니다. </p> <p>견본이 맞지 않을 경우 마지막 페이지에 추가 공백이 표시됩니다. 또한 마지막 페이지의 셀 수는 이전 페이지와 동일합니다. </p> <p>스크롤 단계는 무시되고 마우스 스크롤이 전체 페이지에서만 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

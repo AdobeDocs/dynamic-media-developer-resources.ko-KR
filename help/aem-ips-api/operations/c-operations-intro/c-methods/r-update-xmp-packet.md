@@ -4,14 +4,13 @@ solution: Experience Manager
 title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 24%
 
 ---
-
 
 # updateXMPPacket{#updatexmppacket}
 
@@ -37,13 +36,13 @@ ht-degree: 24%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷입니다. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷 |
 
 **출력(updateXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`성공`*` | `xsd:boolean` | 예 | 패킷이 업데이트된 경우 `true`을 반환합니다. |
+| `*`성공`*` | `xsd:boolean` | 예 | 패킷이 업데이트된 경우 `true` 을 반환합니다. |
 
 ## 예제 {#section-38b556b94e5044bf97a954519ff6c212}
 
@@ -69,4 +68,3 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
    <success>true</success>
 </updateXMPPacketReturn>
 ```
-

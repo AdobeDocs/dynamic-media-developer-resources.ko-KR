@@ -1,25 +1,24 @@
 ---
-description: CMYK 기본 색상 공간. icc=로 지정된 출력 색상 공간이 없을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+description: CMYK 기본 색상 공간. icc=로 출력 색상 공간이 지정되지 않은 경우 회색 크기 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 solution: Experience Manager
 title: IccProfileCmyk
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c36ea45d-dc91-4afa-825a-7af49738101c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
 # IccProfileCmyk{#iccprofilecmyk}
 
-CMYK 기본 색상 공간. icc=로 지정된 출력 색상 공간이 없을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+CMYK 기본 색상 공간. icc=로 출력 색상 공간이 지정되지 않은 경우 회색 크기 응답 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 
 ## 속성 {#section-849678b272954bdcb236f49aa54f1609}
 
-텍스트 문자열. 지정된 경우 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로필은 CMYK 프로파일이어야 합니다.
+텍스트 문자열입니다. 지정한 경우 이 이미지 카탈로그나 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로파일은 CMYK 프로파일이어야 합니다.
 
 ## 기본값 {#section-55026b7454af4d868bcb47f7743c9c5b}
 

@@ -1,21 +1,20 @@
 ---
-description: 이 문서에서는 Dynamic Media 이미지 제공을 위한 HTTP 프로토콜을 설명합니다.
+description: 이 문서에서는 Dynamic Media 이미지 제공 HTTP 프로토콜을 설명합니다.
 solution: Experience Manager
 title: HTTP 프로토콜 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b80d10a8-3b10-4daa-8559-dc36f7a54382
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '37'
 ht-degree: 2%
 
 ---
 
-
 # HTTP 프로토콜 참조{#http-protocol-reference}
 
-이 문서에서는 Dynamic Media 이미지 제공을 위한 HTTP 프로토콜을 설명합니다.
+이 문서에서는 Dynamic Media 이미지 제공 HTTP 프로토콜을 설명합니다.
 
 * [소개](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md)
 * [구문 및 기능](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-syntax-and-features.md)

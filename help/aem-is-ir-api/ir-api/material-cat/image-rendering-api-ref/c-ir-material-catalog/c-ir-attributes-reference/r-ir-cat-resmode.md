@@ -1,25 +1,24 @@
 ---
-description: 리샘플링 모드. resMode=의 기본값입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 특성을 지정합니다.
+description: 재샘플링 모드. resMode= 기본값은 입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 속성을 지정합니다.
 solution: Experience Manager
 title: ResMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 6%
 
 ---
 
-
 # ResMode{#resmode}
 
-리샘플링 모드. resMode=의 기본값입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 특성을 지정합니다.
+재샘플링 모드. resMode= 기본값은 입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 속성을 지정합니다.
 
 ## 속성 {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 
-열거형. `'bilin'`, `'bicub'`의 경우 3, `'sharp2'` 보간 모드의 경우 4로 설정합니다(자세한 내용은 ` [resMode=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md#reference-851a5b636f8948cfb11456c9b7dab0d3)` 참조).
+열거형. `'bilin'`, `'bicub'` 의 경우 3, `'sharp2'` 보간 모드의 경우 4로 설정합니다(자세한 내용은 ` [resMode=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-resmode.md#reference-851a5b636f8948cfb11456c9b7dab0d3)` 참조).
 
 ## 기본값 {#section-ed432a0acc3e4bce926a07e9cfd2c865}
 

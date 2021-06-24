@@ -4,14 +4,13 @@ solution: Experience Manager
 title: FavoritesView.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3bfd7f84-6136-4db7-80a5-56f84179f3ce
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
-
 
 # FavoritesView.textpos{#favoritesview-textpos}
 
@@ -20,8 +19,8 @@ ht-degree: 5%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> 축소판 이미지를 기준으로 레이블을 그릴 위치를 지정합니다.즉, 축소판과 관련하여 지정된 위치 중앙에 레이블이 배치됩니다. </p> <p><span class="codeph"> tooltip</span>이(가) 지정되면 레이블 텍스트가 축소판 이미지 위에 부동 툴팁으로 표시됩니다. </p> <p><span class="codeph"> none</span>으로 설정하면 레이블 표시가 꺼집니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 아래쪽|위쪽|왼쪽|오른쪽|없음|도구 설명</span> </p> </td> 
+   <td colname="col2"> <p> 축소판 이미지를 기준으로 레이블이 그려지는 위치를 지정합니다.즉, 레이블은 축소판을 기준으로 지정된 위치에 가운데에 표시됩니다. </p> <p><span class="codeph"> tooltip</span>을 지정하면 축소판 이미지 위에 부동 도구 설명으로 레이블 텍스트가 표시됩니다. </p> <p><span class="codeph"> none</span>으로 설정하면 레이블 표시가 해제됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

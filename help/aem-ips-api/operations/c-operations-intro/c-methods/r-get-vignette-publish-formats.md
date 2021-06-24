@@ -4,20 +4,19 @@ solution: Experience Manager
 title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 22%
 
 ---
-
 
 # getVignettePublishFormats{#getvignettepublishformats}
 
 구문
 
-## 인가된 사용자 유형 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## 인증된 사용자 유형 {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 예 | 비네팅 게시 형식의 배열입니다. |
+| `*`vignetteFormatArray`*` | `types:VignettePublishFormatArray` | 예 | 비네팅 게시 형식 배열입니다. |
 
 ## 예제 {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-이 코드 샘플은 특정 회사와 연결된 2개의 비네팅 게시 형식을 반환합니다. 정보가 배열 내에 반환되어 간결하게 잘립니다.
+이 코드 샘플은 특정 회사와 연결된 두 개의 비네팅 게시 형식을 반환합니다. 정보는 간결성을 위해 잘리는 배열로 반환됩니다.
 
 **요청**
 
@@ -64,4 +63,3 @@ ht-degree: 22%
    </vignetteFormatArray>
 </getVignettePublishFormatsReturn>
 ```
-

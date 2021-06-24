@@ -1,25 +1,24 @@
 ---
-description: 회전판 뷰어에 대한 JavaScript API 참조입니다.
+description: 회전판 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: 4bf3f8f8-73fe-4ab1-8005-aa49e4ffaba6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 2%
 
 ---
 
 # setParams{#setparams}
 
-회전판 뷰어에 대한 JavaScript API 참조입니다.
+회전판 뷰어에 대한 JavaScript API 참조.
 
 ` setParams( *`params`*)`
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`으로 구분하여 나타냅니다. 쿼리 문자에서처럼 이름 및 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을(를) 호출하기 전에 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`과(와) 함께 나타냅니다. 쿼리 문자열과 마찬가지로 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을 호출하기 전에 이 매개 변수를 호출해야 합니다.
 
 이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달된 경우 선택 사항입니다.
 
@@ -31,12 +30,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value 매개 변수 쌍은  <span class="codeph"> &amp;</span>로 구분됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value 매개 변수 쌍이  <span class="codeph"> &amp;</span>로 구분됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 

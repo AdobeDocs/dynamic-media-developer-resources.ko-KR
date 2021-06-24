@@ -1,21 +1,20 @@
 ---
-description: 플라이아웃 뷰어에 대한 JavaScript API 참조입니다.
+description: 플라이아웃 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: FlyoutViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b64f16c8-03bf-4603-972f-845a4c1e2b02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '211'
 ht-degree: 3%
 
 ---
 
-
 # FlyoutViewer{#flyoutviewer}
 
-플라이아웃 뷰어에 대한 JavaScript API 참조입니다.
+플라이아웃 뷰어에 대한 JavaScript API 참조.
 
 `FlyoutViewer([config])`
 
@@ -27,18 +26,18 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object}  </span> 선택 사항인 JSON 구성 객체를 사용하면 모든 뷰어 설정이 생성자에 전달되고 개별 setter 메서드를 호출하지 않습니다. 다음 속성을 포함합니다. </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object}  </span> 선택적 JSON 구성 개체를 사용하면 모든 뷰어 설정이 생성자에 전달되고 개별 setter 메서드를 호출하지 않도록 할 수 있습니다. 다음 속성을 포함합니다. </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> 뷰어가 삽입된 DOM 컨테이너(일반적으로  <span class="codeph"> DIV </span>)의 ID 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 <span class="codeph"> init() </span>가 실행될 때는 컨테이너가 존재해야 합니다. 필수. </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params  </span> -  <span class="codeph"> {Object}  </span> JSON 개체(속성 이름이 뷰어 특정 구성 옵션 또는 SDK 수정자이고 해당 속성의 값은 해당 설정 값입니다. 필수. </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> 핸들러  </span> -  <span class="codeph"> {Object}  </span> JSON 개체(뷰어 이벤트 콜백을 사용하는 경우). 여기서 속성 이름은 지원되는 뷰어 이벤트 이름이고, 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. 선택 사항입니다. <p>뷰어 이벤트에 대한 자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a>을 참조하십시오. </p> </li> 
-      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> 현지화 데이터가 있는 localizedText  </span> - {  <span class="codeph"> Object  </span>} JSON 개체 선택 사항입니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 사용자 인터페이스 요소 </a> 현지화를 참조하십시오. </p> <p>개체 내용에 대한 자세한 내용은 <i>뷰어 SDK 사용자 안내서</i> 및 예제를 참조하십시오. 선택 사항입니다. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId  </span> -  <span class="codeph"> {String}  </span> 뷰어가 삽입되는 DOM 컨테이너(일반적으로  <span class="codeph"> DIV </span>)의 ID입니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 <span class="codeph"> init() </span> 가 실행될 때는 컨테이너가 있어야 합니다. 필수. </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params  </span> -  <span class="codeph"> {Object}  </span> JSON 개체(속성 이름이 뷰어 특정 구성 옵션 또는 SDK 수정자 중 하나이고 해당 속성 값은 해당 설정 값입니다. 필수. </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> 핸들러  </span> -  <span class="codeph"> {Object}  </span> 뷰어 이벤트 콜백이 있는 JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고, 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. 선택 사항입니다. <p>뷰어 이벤트에 대한 자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a> 을 참조하십시오. </p> </li> 
+      <li id="li_218F9597A60249AEBA43A9E86EAFF8BA"> <p> <span class="codeph"> localizedText  </span> - {  <span class="codeph"> Object  </span>} JSON 개체에 현지화 데이터가 있습니다. 선택 사항입니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> 사용자 인터페이스 요소 현지화 </a> 를 참조하십시오. </p> <p>개체 컨텐츠에 대한 자세한 내용은 <i>Viewer SDK 사용 안내서</i> 및 예제를 참조하십시오. 선택 사항입니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 
@@ -67,4 +66,3 @@ defaultLocale:"en"
 } 
 });
 ```
-

@@ -1,21 +1,20 @@
 ---
-description: 회사 자산의 원본 파일 경로를 가져옵니다.
+description: 회사 자산의 원래 파일 경로를 가져옵니다.
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
-
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-회사 자산의 원본 파일 경로를 가져옵니다.
+회사 자산의 원래 파일 경로를 가져옵니다.
 
 구문
 
@@ -40,17 +39,17 @@ ht-degree: 15%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 가져오려는 원본 파일 경로를 가진 자산의 핸들 배열입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 원본 파일 경로를 가져오려는 자산의 핸들의 배열입니다. |
 
 **출력(getOriginalFilePathsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | 예 | 원본 파일 경로를 나타내는 문자열 배열입니다. |
+| `*`originalFileArray`*` | `types:StringArray` | 예 | 원래 파일 경로를 나타내는 문자열 배열입니다. |
 
 ## 예제 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-이 코드 샘플은 자산 핸들 배열에서 고유한 자산 핸들을 사용하여 지정된 자산의 파일 경로를 반환합니다.
+이 코드 샘플은 자산 핸들 배열의 고유한 자산 핸들과 지정된 자산의 파일 경로를 반환합니다.
 
 **요청**
 
@@ -74,4 +73,3 @@ ht-degree: 15%
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-

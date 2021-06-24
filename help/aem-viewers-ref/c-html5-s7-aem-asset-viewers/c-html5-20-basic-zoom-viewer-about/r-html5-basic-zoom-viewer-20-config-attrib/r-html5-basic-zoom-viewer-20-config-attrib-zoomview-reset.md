@@ -2,16 +2,15 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 054cd090-2167-4903-ba19-52bc8606370c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.reset{#zoomview-reset}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. <span class="varname"> 0</span>으로 설정하면 새로 설정된 이미지의 종횡비를 유지하면서 가장 적합한 상태로 현재 뷰 포트가 유지됩니다. </p> </td> 
+   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. <span class="varname"> 0</span>으로 설정하면 새로 설정된 이미지의 종횡비를 유지하면서 가능한 가장 잘 맞는 현재 보기 포트가 유지됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

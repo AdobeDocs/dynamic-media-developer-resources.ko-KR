@@ -1,17 +1,16 @@
 ---
-description: 종료 단추
+description: 닫기 단추
 solution: Experience Manager
-title: 종료 단추
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: 닫기 단추
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '31'
+ht-degree: 16%
 
 ---
-
 
 # 닫기 단추{#closebutton}
 
@@ -21,7 +20,7 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p> 닫기 단추 표시를 활성화하려면 <span class="codeph"> 1</span>로 설정하거나 닫기 단추를 숨기려면 <span class="codeph"> 0</span>으로 설정합니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1</span>로 설정하여 닫기 단추 표시를 활성화하거나 <span class="codeph"> 0</span>로 설정하여 닫기 단추를 숨깁니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

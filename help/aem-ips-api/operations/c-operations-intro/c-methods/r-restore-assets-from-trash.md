@@ -2,16 +2,15 @@
 description: 휴지통에서 자산을 복원합니다.
 solution: Experience Manager
 title: restoreAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
-
 
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
@@ -34,8 +33,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 복원하려는 자산이 있는 회사에 대한 핸들입니다. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 복원할 자산에 대한 핸들 배열입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 복원할 자산이 있는 회사의 핸들입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 복원할 자산의 핸들 배열입니다. |
 
 **출력(restoreAssetsFromTrashReturn)**
 
@@ -44,12 +43,12 @@ ht-degree: 12%
 | `*`successCount`*` | `xsd:int` | 예 | 휴지통에서 성공적으로 제거된 자산 수입니다. |
 | `*`warningCount`*` | `xsd:int` | 예 | 작업에서 휴지통에서 자산을 복원하려고 할 때 생성된 경고 수입니다. |
 | `*`errorCount`*` | `xsd:int` | 예 | 휴지통에서 자산을 복원하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 경고를 생성한 자산과 관련된 세부 사항의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 오류가 발생한 자산과 관련된 세부 사항의 배열입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 경고를 생성한 자산과 연관된 세부 사항의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-98fe0394b0634ca397c395f14f8a9358}
 
-이 코드 샘플은 휴지통에서 자산을 복원합니다. 응답은 작업이 성공적으로 완료되었음을 나타냅니다.
+이 코드 샘플은 휴지통에서 자산을 복원합니다. 응답이 작업이 성공적으로 완료되었음을 나타냅니다.
 
 **요청**
 
@@ -72,4 +71,3 @@ ht-degree: 12%
    <errorCount>0</errorCount>
 </restoreAssetsFromTrashReturn
 ```
-

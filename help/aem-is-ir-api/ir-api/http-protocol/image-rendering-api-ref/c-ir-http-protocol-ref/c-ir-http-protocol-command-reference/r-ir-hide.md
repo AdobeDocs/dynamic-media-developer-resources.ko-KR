@@ -1,21 +1,20 @@
 ---
-description: 겹치기 개체를 숨깁니다. 현재 선택 영역의 윈도우 커버 프레임에 적용된 오버랩 개체나 윈도우 커버를 모두 숨깁니다.
+description: 겹치기 개체를 숨깁니다. 현재 선택 영역의 창 커버 프레임에 적용된 모든 오버랩 개체나 창 덮개를 숨깁니다.
 solution: Experience Manager
 title: 숨기기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 7%
 
 ---
 
-
 # 숨기기{#hide}
 
-겹치기 개체를 숨깁니다. 현재 선택 영역의 윈도우 커버 프레임에 적용된 오버랩 개체나 윈도우 커버를 모두 숨깁니다.
+겹치기 개체를 숨깁니다. 현재 선택 영역의 창 커버 프레임에 적용된 모든 오버랩 개체나 창 덮개를 숨깁니다.
 
 `hide[= *`val`*]`
 
@@ -28,11 +27,11 @@ ht-degree: 7%
 
 ## 속성 {#section-2952fa43df0547b187b834c819c517ca}
 
-현재 그룹 또는 개체 선택에 적용됩니다. 현재 선택 영역에 겹치는 개체나 윈도우 커버 프레임이 포함되어 있지 않거나 겹치는 개체가 보이지 않을 경우 무시됩니다.
+현재 그룹 또는 개체 선택에 적용됩니다. 현재 선택 영역에 겹치는 개체나 창 덮개가 없거나 겹치는 개체가 표시되지 않으면 무시됩니다.
 
 ## 기본값 {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
-지정하지 않으면 선택한 오버랩 객체의 현재 가시성이 유지됩니다.
+지정하지 않으면 선택한 겹치기 객체의 현재 가시성이 유지됩니다.
 
 ## 참조 {#section-72c5e811b45347acacc64c6df85c7ef2}
 

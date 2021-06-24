@@ -4,28 +4,27 @@ solution: Experience Manager
 title: stageSize
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # stageSize{#stagesize}
 
 >[!NOTE]
 >
->이 속성은 확대/축소 뷰어, 비디오 뷰어, 회전 뷰어, 대화형 이미지 뷰어, 대화형 비디오 뷰어 및 회전 보기 뷰어에 적용됩니다.
+>이 속성은 확대/축소 뷰어, 비디오 뷰어, 스핀 뷰어, 대화형 이미지 뷰어, 대화형 비디오 뷰어 및 회전 뷰어에 적용됩니다.
 
-`stageSize= *``*, *`위젯 높이`*`
+`stageSize= *``*, *`widheight`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 너비</span>,<span class="varname"> 높이</span></span> </p> </td> 
-   <td colname="col2"> <p> 뷰어의 전체 너비와 높이. <span class="codeph"> 0,0</span> 값은 뷰어의 크기가 CSS 규칙 및 웹 페이지 레이아웃에 따라 조절됨을 의미합니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 너비</span>, <span class="varname"> 높이</span></span> </p> </td> 
+   <td colname="col2"> <p> 뷰어의 전체 너비와 높이입니다. <span class="codeph"> 0,0</span> 값은 뷰어의 크기가 CSS 규칙 및 웹 페이지 레이아웃에 따라 조절됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

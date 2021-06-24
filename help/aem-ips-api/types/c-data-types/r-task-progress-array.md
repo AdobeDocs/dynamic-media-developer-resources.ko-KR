@@ -1,21 +1,20 @@
 ---
-description: 작업 진행 배열입니다. 비디오 트랜스코딩 작업에 대한 정보가 포함되어 있습니다.
+description: 작업 진행 배열입니다. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
 solution: Experience Manager
-title: TaskProgressArray
+title: 작업_진행_배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 13%
 
 ---
 
+# 작업_진행_배열{#taskprogressarray}
 
-# TaskProgressArray{#taskprogressarray}
-
-작업 진행 배열입니다. 비디오 트랜스코딩 작업에 대한 정보가 포함되어 있습니다.
+작업 진행 배열입니다. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
 
 구문
 
@@ -23,5 +22,4 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:TaskProgress` | 작업 진행 항목. 최소 항목은 0입니다. 최대 발생 횟수는 제한이 없습니다. |
-
+| `*`항목`*` | `types:TaskProgress` | 작업 진행 항목. 최소값은 0입니다. 최대 발생 횟수는 제한되지 않습니다. |

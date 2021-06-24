@@ -1,21 +1,20 @@
 ---
-description: 자산 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함됩니다.
+description: 자산에 대한 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함되어 있습니다.
 solution: Experience Manager
 title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 16%
+source-wordcount: '100'
+ht-degree: 17%
 
 ---
 
-
 # getSearchStrings{#getsearchstrings}
 
-자산 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함됩니다.
+자산에 대한 검색 문자열, 키워드 및 기타 정보를 가져옵니다. 응답에는 자산에 대한 추가 정보가 포함되어 있습니다.
 
 구문
 
@@ -32,7 +31,7 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 자산을 처리합니다. |
 
 **출력(getSearchStringsReturn)**
@@ -43,7 +42,7 @@ ht-degree: 16%
 
 ## 예제 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
-이 코드 샘플은 자산별 검색 문자열을 반환합니다. 응답에서 빈 배열을 반환합니다.
+이 코드 샘플은 자산별 검색 문자열을 반환합니다. 응답은 빈 배열을 반환합니다.
 
 **요청**
 

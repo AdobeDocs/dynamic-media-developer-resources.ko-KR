@@ -2,16 +2,15 @@
 description: 자산을 특정 폴더로 이동합니다.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 15%
 
 ---
-
 
 # moveAsset{#moveasset}
 
@@ -34,13 +33,13 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이동할 에셋을 처리합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 이동할 자산을 처리합니다. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
 
 **출력(moveAssetReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-78333769f4f14e2886fdf06433c9d2ad}
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 11%
 
 ---
-
 
 # removeCompanyMembership{#removecompanymembership}
 
@@ -32,16 +31,16 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자에 대한 핸들입니다. |
-| `*`companyHandleArray`*` | `types:HandleArray` | 예 | 사용자를 제거하려는 회사의 핸들입니다. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자의 핸들입니다. |
+| `*`companyHandleArray`*` | `types:HandleArray` | 예 | 사용자를 제거하는 회사의 핸들입니다. |
 
 **출력(removeCompanyMembershipReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-6b7903195e8647a1bd0502f87387ca62}
 
-이 코드 샘플은 사용자를 회사에서 제거합니다. 선택적 사용자 핸들을 생략하여 회사 핸들 배열에 지정된 회사에서 모든 사용자를 제거합니다.
+이 코드 샘플은 사용자를 회사에서 제거합니다. 회사 핸들 배열에 지정된 회사에서 모든 사용자를 제거하려면 선택적 사용자 핸들을 생략합니다.
 
 **요청**
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ZoomTargetDefinitionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
-
 
 # ZoomTargetDefinitionArray{#zoomtargetdefinitionarray}
 
@@ -22,4 +21,3 @@ ht-degree: 27%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:ZoomTargetDefinition` | 확대/축소 대상 정의의 배열입니다. |
-

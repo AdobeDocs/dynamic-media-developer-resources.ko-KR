@@ -4,22 +4,20 @@ solution: Experience Manager
 title: 다운로드
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4cfdfc28-20db-41bc-a423-01d696ea6eed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 3%
 
 ---
 
-
 # 다운로드{#download}
 
-제어 막대의 &quot;다운로드&quot; 단추를 사용하여 전자 카탈로그를 PDF 파일로 다운로드할 수 있습니다.
+컨트롤 막대에서 &quot;다운로드&quot; 단추를 사용하여 전자 카탈로그를 PDF 파일로 다운로드할 수 있습니다.
 
-다음과 같은 경우 뷰어 사용자 인터페이스에서 &quot;다운로드&quot; 단추를 자동으로 사용할 수 있습니다.
+다음 경우 뷰어 사용자 인터페이스에서 &quot;다운로드&quot; 단추를 자동으로 사용할 수 있습니다.
 
-* 실제 PDF 파일이 고객 회사에 있습니다.
-* 이 이름은 뷰어에 전달되는 전자 카탈로그 에셋의 이름과 일치하며 `.pdf` 확장명을 포함합니다.
-* PDF 파일은 Dynamic Media Classic에 게시됩니다.
-
+* 고객의 회사에 실제 PDF 파일이 있습니다.
+* 이 이름은 뷰어에 전달되는 전자 카탈로그 자산의 이름과 일치하고 `.pdf` 확장을 포함합니다.
+* PDF 파일이 Dynamic Media Classic에 게시됩니다.

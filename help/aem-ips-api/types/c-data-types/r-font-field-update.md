@@ -4,14 +4,13 @@ solution: Experience Manager
 title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '62'
 ht-degree: 12%
 
 ---
-
 
 # FontFieldUpdate{#fontfieldupdate}
 
@@ -23,12 +22,11 @@ ht-degree: 12%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 글꼴 에셋 핸들. |
+| `*`assetHandle`*` | `xsd:string` | 글꼴 자산 핸들. |
 | `*`fontName`*` | `xsd:string` | 글꼴 이름. |
-| `*`postscriptName`*` | `xsd:string` | PostScript 글꼴 이름. |
+| `*`postscriptName`*` | `xsd:string` | PostScript 글꼴 이름입니다. |
 | `*`rtfName`*` | `xsd:string` | 리치 텍스트 글꼴 이름입니다. |
-| `*`글꼴 모음`*` | `xsd:string` | 글꼴 모음 이름. |
+| `*`글꼴 모음`*` | `xsd:string` | 글꼴 패밀리 이름입니다. |
 | `*`style`*` | `xsd:string` | 글꼴 스타일(값에 대한 글꼴 스타일 참조). |
 | `*`typeName`*` | `xsd:string` | 글꼴 유형 이름입니다. |
 | `*`type`*` | `xsd:string` | 글꼴 유형(값에 대한 글꼴 유형 참조). |
-

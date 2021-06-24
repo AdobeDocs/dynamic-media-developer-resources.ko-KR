@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteAttr
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '54'
 ht-degree: 1%
 
 ---
-
 
 # deleteAttr{#deleteattr}
 
@@ -19,7 +18,7 @@ ht-degree: 1%
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-FXG 노드 요소에 `s7:elementID`이(가) 정의된 경우 해당 노드의 속성을 이 명령으로 삭제할 수 있습니다.
+FXG 노드 요소에 `s7:elementID`이 정의된 경우 이 명령을 사용하여 해당 노드의 속성을 삭제할 수 있습니다.
 
 ## 예 {#section-dece7192384a412c9afdfbda6f08bc97}
 

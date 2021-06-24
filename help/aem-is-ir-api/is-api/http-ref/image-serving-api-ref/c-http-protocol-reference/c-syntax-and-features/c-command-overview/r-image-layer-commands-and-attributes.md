@@ -1,21 +1,20 @@
 ---
-description: 이러한 명령은 일반적인 레이어 명령 외에도 이미지 레이어에 적용됩니다.
+description: 이러한 명령은 공통 레이어 명령 외에도 이미지 레이어에 적용됩니다.
 solution: Experience Manager
 title: 이미지 레이어 명령
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
 # 이미지 레이어 명령{#image-layer-commands}
 
-이러한 명령은 일반적인 레이어 명령 외에도 이미지 레이어에 적용됩니다.
+이러한 명령은 공통 레이어 명령 외에도 이미지 레이어에 적용됩니다.
 
 <table id="simpletable_F6799DA025A64970B95085FB9910E1EF"> 
  <tr class="strow"> 
@@ -23,4 +22,3 @@ ht-degree: 0%
   <td class="stentry"> <p>소스 이미지를 지정합니다. </p></td> 
  </tr> 
 </table>
-

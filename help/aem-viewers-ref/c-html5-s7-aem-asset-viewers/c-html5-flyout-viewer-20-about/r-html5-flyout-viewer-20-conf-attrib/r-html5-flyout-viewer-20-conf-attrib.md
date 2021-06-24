@@ -2,31 +2,30 @@
 description: 플라이아웃 뷰어에 대한 구성 속성 설명서
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2ac199ce-5dd5-4d2f-80c2-9bc370500cc4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
-
-# 명령 참조 - 구성 특성{#command-reference-configuration-attributes}
+# 명령 참조 - 구성 속성{#command-reference-configuration-attributes}
 
 플라이아웃 뷰어에 대한 구성 속성 설명서
 
 URL에서 모든 구성 명령을 설정할 수 있습니다. 또는 `setParam()`, `setParams()` 또는 두 API 메서드를 모두 사용할 수 있습니다. 서버측 구성 레코드에 구성 속성을 지정할 수도 있습니다.
 
-일부 구성 명령에는 해당 뷰어 SDK 구성 요소의 클래스 이름 또는 인스턴스 이름이 접두사로 추가됩니다. 구성 요소의 인스턴스 이름은 동적이며 `setContainerId()` API 메서드에 전달된 뷰어 컨테이너 DOM 요소의 ID에 따라 달라집니다. 설명서에는 이러한 명령에 대한 선택적 접두어가 포함되어 있습니다. 예를 들어 `zoomfactor` 명령은 다음과 같이 문서화됩니다.
+일부 구성 명령에는 해당 Viewer SDK 구성 요소의 클래스 이름 또는 인스턴스 이름이 접두사로 추가됩니다. 구성 요소의 인스턴스 이름은 동적이며 `setContainerId()` API 메서드에 전달된 뷰어 컨테이너 DOM 요소의 ID에 따라 다릅니다. 설명서에는 이러한 명령에 대한 선택적 접두사가 포함되어 있습니다. 예를 들어 `zoomfactor` 명령은 다음과 같이 설명되어 있습니다.
 
 `[FlyoutZoomView.|<containerId>_flyout].zoomfactor`
 
-이 명령은 다음과 같이 사용됩니다.
+명령은 다음과 같이 사용됩니다.
 
 * `zoomfactor` (짧은 구문)
-* `FlyoutZoomView.zoomfactor` (구성 요소 클래스 이름으로 적격)
-* `cont_flyout.zoomfactor` (컨테이너 요소의 ID라고 가정하 `cont` 는 구성 요소 ID로 적음)
+* `FlyoutZoomView.zoomfactor` (구성 요소 클래스 이름으로 검증됨)
+* `cont_flyout.zoomfactor` (컨테이너 요소의 ID라고 가정하 `cont` 는 경우 구성 요소 ID로 검증됨)
 
-모든 뷰어에 공통인 [명령 참조 - 구성 특성](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 참조
+모든 뷰어에 공통되는 [명령 참조 - 구성 속성](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)을 참조하십시오.

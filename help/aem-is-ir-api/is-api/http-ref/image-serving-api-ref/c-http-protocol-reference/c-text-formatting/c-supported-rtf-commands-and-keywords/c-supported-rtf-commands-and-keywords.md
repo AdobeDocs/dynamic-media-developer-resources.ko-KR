@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 지원되는 RTF 명령 및 키워드
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a63bc7f1-34a9-485d-aadd-c65e3e26034a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
-
 
 # 지원되는 RTF 명령 및 키워드{#supported-rtf-commands-and-keywords}
 
@@ -19,11 +18,11 @@ ht-degree: 0%
 
 각 키워드 또는 명령에 대한 자세한 내용은 게시된 [RTF 1.6 사양](http://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)을 참조하십시오.
 
-아래에 나열되지 않은 RTF 명령은 파서에서 무시됩니다.
+파서에서 아래 목록에 없는 RTF 명령은 무시됩니다.
 
 * [문서(텍스트 상자) 속성](r-document-text-box-properties.md)
 * [단락 서식](r-paragraph-formatting.md)
 * [기본 문자 서식](r-basic-character-formatting.md)
-* [고급 텍스트 서식 지정](r-advanced-text-formatting.md)
+* [고급 텍스트 서식](r-advanced-text-formatting.md)
 * [특수 텍스트 엔티티](r-special-text-entities.md)
 * [문자 인코딩](r-is-http-character-encoding.md)

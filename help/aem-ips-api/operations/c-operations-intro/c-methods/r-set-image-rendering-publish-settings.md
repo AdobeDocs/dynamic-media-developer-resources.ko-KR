@@ -1,21 +1,20 @@
 ---
-description: Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
+description: Scene 7 개발자에게만 해당됩니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 solution: Experience Manager
 title: setImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b0fe5d2-2779-417f-a5fe-577def2e0158
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '60'
+ht-degree: 15%
 
 ---
 
-
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
-Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로그 참조 카탈로그 속성 섹션을 참조하십시오.
+Scene 7 개발자에게만 해당됩니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 
 구문
 
@@ -26,6 +25,5 @@ Scene 7 개발자에게만 제공됩니다. 이미지 렌더링 재료 카탈로
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | 예 | Scene 7 개발자에게만 제공됩니다. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | 예 | Scene 7 개발자에게만 해당됩니다. |
 | `*`contextHandle`*` | `xsd:string` | 아니요 | 게시 컨텍스트를 처리합니다. |
-

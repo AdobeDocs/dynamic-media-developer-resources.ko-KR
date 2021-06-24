@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getCompanyMembership{#getcompanymembership}
 
@@ -38,7 +37,7 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 획득하려는 멤버십에 속한 사용자의 핸들. |
+| `*`userHandle`*` | `xsd:string` | 아니요 | 가져오려는 멤버십이 있는 사용자의 핸들입니다. |
 
 **출력(getCompanyMembershipReturn)**
 
@@ -48,7 +47,7 @@ ht-degree: 17%
 
 ## 예제 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-이 코드 샘플은 사용자 핸들을 가져와 배열에 있는 사용자의 모든 회사 멤버십을 가져옵니다. 잠시 동안 응답이 잘렸습니다.
+이 코드 샘플은 사용자 핸들을 가져와서 사용자의 모든 회사 멤버십을 배열에 가져옵니다. 간결성을 위해 응답이 잘렸습니다.
 
 **요청**
 
@@ -73,4 +72,3 @@ ht-degree: 17%
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-

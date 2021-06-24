@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 19%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -32,9 +31,9 @@ ht-degree: 19%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
-| `*`groupHandle`*` | `xsd:string` | 아니요 | 그룹의 핸들입니다. |
+| `*`groupHandle`*` | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
 | `*`name`*` | `xsd:string` | 예 | 그룹 이름. |
-| `*`isSystemDefined`*` | `xsd:boolean` | 예 | `false` 기본값은 기본값입니다. |
+| `*`isSystemDefined`*` | `xsd:boolean` | 예 | `false` 기본값은 입니다. |
 
 **출력(saveGroupReturn)**
 
@@ -63,4 +62,3 @@ ht-degree: 19%
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-

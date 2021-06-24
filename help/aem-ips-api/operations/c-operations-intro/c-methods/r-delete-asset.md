@@ -2,16 +2,15 @@
 description: 자산을 삭제합니다.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 11%
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
-
 
 # deleteAsset{#deleteasset}
 
@@ -30,7 +29,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->사용자에게 자산에 대한 읽기 및 삭제 액세스 권한이 있어야 합니다.
+>사용자는 자산에 대한 읽기 및 삭제 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-0eed164e278b456fbdfb7a50727a0416}
 
@@ -38,16 +37,16 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
 
 **출력(deleteAssetParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-d5657289f5234bb0a613dcf691507958}
 
-이 샘플 코드는 특정 회사에서 자산 유형을 삭제합니다. 다른 작업에서 얻어야 하는 자산 핸들이 필요합니다.
+이 샘플 코드는 특정 회사에서 자산 유형을 삭제합니다. 자산 핸들이 필요합니다. 이 핸들은 다른 작업에서 가져와야 합니다.
 
 **요청**
 

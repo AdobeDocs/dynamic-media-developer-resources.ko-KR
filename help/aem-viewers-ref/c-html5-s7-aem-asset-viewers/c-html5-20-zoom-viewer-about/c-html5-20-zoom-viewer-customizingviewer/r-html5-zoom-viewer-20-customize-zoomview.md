@@ -1,27 +1,26 @@
 ---
-description: 기본 보기는 확대 가능 이미지로 구성됩니다.
+description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
 solution: Experience Manager
 title: 확대/축소 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
 
-
 # 확대/축소 보기{#zoom-view}
 
-기본 보기는 확대 가능 이미지로 구성됩니다.
+기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7zoomviewer .s7zoomview
@@ -36,12 +35,12 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 커서  </span> </p> </td> 
-   <td colname="col2"> <p>기본 보기 위에 커서가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>기본 보기 위에 표시되는 커서입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +53,7 @@ ht-degree: 0%
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `.s7zoomview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원합니다. 구성 요소 상태 및 사용자 작업을 기반으로 커서의 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
+데스크톱 시스템에서 구성 요소는 `.s7zoomview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원합니다. 구성 요소 상태와 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
 
 * `default`
 
@@ -62,17 +61,16 @@ ht-degree: 0%
 
 * `zoomin`
 
-   이미지를 확대할 수 있을 때 표시됩니다.
+   이미지를 확대/축소할 수 있을 때 표시됩니다.
 
 * `reset`
 
-   이미지가 최대 확대/축소 수준에 있을 때 표시되며 초기 상태로 재설정할 수 있습니다.
+   이미지가 최대 확대/축소 수준에 있을 때 표시되고 초기 상태로 재설정할 수 있습니다.
 
 * `drag`
 
-   사용자가 확대 상태의 이미지를 이동할 때 표시됩니다.
+   사용자가 확대/축소된 상태의 이미지를 이동할 때 표시됩니다.
 
 * `slide`
 
-   사용자가 가로로 스와이프 또는 터치를 수행하여 이미지 교환을 수행할 때 표시됩니다.
-
+   사용자가 가로 밀기 또는 긋기를 수행하여 이미지 교체를 수행할 때 표시됩니다.

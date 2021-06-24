@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 20%
 
 ---
-
 
 # saveZoomTarget{#savezoomtarget}
 
@@ -35,14 +34,14 @@ ht-degree: 20%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 저장할 확대/축소 타겟이 있는 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 확대/축소 대상에 대한 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 확대/축소 타겟에 대한 핸들입니다. |
 | `*`zoomTargetHandle`*` | `xsd:string` | 아니요 | 확대/축소 대상을 편집하거나 만듭니다. |
-| `*`name`*` | `xsd:string` | 예 | 확대/축소 대상 이름. |
+| `*`name`*` | `xsd:string` | 예 | 대상 이름 확대/축소. |
 | `*`xPosition`*` | `xsd:int` | 예 | 왼쪽 픽셀 위치. |
 | `*`yPosition`*` | `xsd:int` | 예 | 위쪽 픽셀 위치. |
 | `*`width`*` | `xsd:int` | 예 | 대상 너비를 확대/축소합니다. |
-| `*`height`*` | `xsd:int` | 예 | 대상 높이를 확대/축소합니다. |
-| `*`사용자 데이터`*` | `xsd:string` | 예 | 고객별 정보를 참조하십시오. 모든 유형의 데이터를 포함할 수 있습니다. |
+| `*`height`*` | `xsd:int` | 예 | 대상 높이 확대/축소. |
+| `*`사용자 데이터`*` | `xsd:string` | 예 | 고객별 정보. 모든 유형의 데이터를 포함할 수 있습니다. |
 
 **출력(saveZoomTargetReturn)**
 
@@ -76,4 +75,3 @@ ht-degree: 20%
    <zoomTargetHandle>34194|9|301</zoomTargetHandle>
 </saveZoomTargetReturn>
 ```
-

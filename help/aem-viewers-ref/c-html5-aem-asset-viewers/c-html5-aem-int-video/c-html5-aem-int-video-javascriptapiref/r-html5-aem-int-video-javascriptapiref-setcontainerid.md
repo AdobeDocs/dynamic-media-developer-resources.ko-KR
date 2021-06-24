@@ -1,27 +1,26 @@
 ---
-description: 대화형 비디오 뷰어용 JavaScript API 참조입니다.
+description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 47fbfd39-a1f4-4deb-b064-306ca9fd3ae7
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-대화형 비디오 뷰어용 JavaScript API 참조입니다.
+대화형 비디오 뷰어에 대한 JavaScript API 참조.
 
 ` setContainerId( *`containerId`*)`
 
-뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 ID를 설정합니다. 이 메서드를 호출할 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 `init()`이(가) 실행될 때는 컨테이너가 존재해야 합니다. `init()` 이전에 호출해야 합니다.
+뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 ID를 설정합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 `init()` 이 실행될 때에는 컨테이너가 있어야 합니다. `init()` 앞에 호출해야 합니다.
 
-이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달될 때 선택 사항입니다.
+이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에게 전달되는 경우 선택 사항입니다.
 
 ## 매개 변수 {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -29,12 +28,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string}  </span> ID. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string}  </span> ID입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 

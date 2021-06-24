@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 12%
+source-wordcount: '91'
+ht-degree: 13%
 
 ---
-
 
 # deleteGroup{#deletegroup}
 
@@ -36,11 +35,11 @@ ht-degree: 12%
 
 **출력(deleteGroupParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-이 샘플 코드는 회사에서 그룹을 삭제합니다. 다른 작업에서 얻어야 하는 그룹 핸들이 필요합니다.
+이 샘플 코드는 회사에서 그룹을 삭제합니다. 다른 작업에서 가져와야 하는 그룹 핸들이 필요합니다.
 
 **요청**
 

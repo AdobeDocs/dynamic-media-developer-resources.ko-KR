@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 3.7의 새 문자열 상수와 변경된 문자열 상수에 대해 설명합니다.
+description: IPS API 버전 3.7의 새 문자열 상수 및 변경된 문자열 상수에 대해 설명합니다.
 solution: Experience Manager
-title: 문자열 상수 새로 만들기 및 수정됨
+title: 문자열 상수 새 및 수정됨
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 6%
 
 ---
 
+# 문자열 상수:신규 및 수정됨{#string-constants-new-and-modified}
 
-# 문자열 상수:새로 만들기 및 수정됨{#string-constants-new-and-modified}
-
-IPS API 버전 3.7의 새 문자열 상수와 변경된 문자열 상수에 대해 설명합니다.
+IPS API 버전 3.7의 새 문자열 상수 및 변경된 문자열 상수에 대해 설명합니다.
 
 구문
 
@@ -39,5 +38,4 @@ IPS API 버전 3.7의 새 문자열 상수와 변경된 문자열 상수에 대�
 
 **자산 유형**
 
-* `Zip`이(가) 추가되었습니다.
-
+* `Zip`을 추가했습니다.

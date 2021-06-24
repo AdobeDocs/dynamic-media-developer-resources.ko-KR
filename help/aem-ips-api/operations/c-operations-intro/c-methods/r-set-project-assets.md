@@ -1,21 +1,20 @@
 ---
-description: 프로젝트에서 에셋을 할당하거나 업데이트합니다.
+description: 프로젝트에서 자산을 할당하거나 업데이트합니다.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
 
-
 # setProjectAssets{#setprojectassets}
 
-프로젝트에서 에셋을 할당하거나 업데이트합니다.
+프로젝트에서 자산을 할당하거나 업데이트합니다.
 
 구문
 
@@ -36,17 +35,17 @@ ht-degree: 18%
 |---|---|---|---|
 | `*`companyName`*` | `xsd:string` | 예 | 회사 핸들. |
 | `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들 배열입니다. |
+| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들의 배열입니다. |
 
 **출력(setProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 추가된 자산의 수입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 추가된 자산 수입니다. |
 
 ## 예제 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-이 코드 샘플은 프로젝트에 에셋을 할당합니다. 요청은 성공 카운트를 1로 반환합니다.
+이 코드 샘플은 프로젝트에 자산을 할당합니다. 요청은 성공 수(1개)를 반환합니다.
 
 **요청**
 
@@ -69,4 +68,3 @@ ht-degree: 18%
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-

@@ -2,16 +2,15 @@
 description: 특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 6%
 
 ---
-
 
 # AssetJobLog{#assetjoblog}
 
@@ -32,27 +31,27 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 작업 핸들. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 작업 이름. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3">작업 로그의 메시지입니다. <p><span class="codeph"> logMessageresponse </span> 필드는 authHeaderlocale 필드를  <span class="codeph"> </span> 기반으로 현지화됩니다. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">작업 로그의 메시지입니다. <p><span class="codeph"> </span> logMessageresponse 필드는 authHeaderlocale 필드 <span class="codeph"> </span> 를 기반으로 현지화됩니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 로그 항목의 작업 유형입니다. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 로그 항목에 있는 작업 유형입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 작업을 제출한 사용자의 전자 메일입니다. </td> 
   </tr> 
   <tr> 
@@ -67,4 +66,3 @@ ht-degree: 6%
   </tr> 
  </tbody> 
 </table>
-

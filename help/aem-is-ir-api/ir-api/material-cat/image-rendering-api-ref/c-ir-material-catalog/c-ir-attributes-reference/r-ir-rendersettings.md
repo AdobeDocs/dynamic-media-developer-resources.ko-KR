@@ -4,26 +4,25 @@ solution: Experience Manager
 title: RenderSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 01af15a0-3c7c-47e3-be9b-49e045d856ba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 6%
 
 ---
 
-
 # RenderSettings{#rendersettings}
 
-기본 고급 렌더링 설정입니다. 카탈로그 기본값::RenderSettings.
+기본 고급 렌더링 설정입니다. 카탈로그의 기본값::RenderSettings.
 
 ## 속성 {#section-fa89db09aeeb420292cf783f07b8547a}
 
-텍스트 문자열. 지정하는 경우 비네팅 제작 도구(Dynamic Media 이미지 제작 패키지의 일부)에 정의된 대로 유효한 렌더링 설정 문자열이어야 합니다.
+텍스트 문자열입니다. 지정할 경우 비네팅 작성 도구(Dynamic Media 이미지 작성 패키지의 일부)로 정의된 대로 유효한 렌더링 설정 문자열이어야 합니다.
 
 ## 기본값 {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` 지정하지 않았거나 비어 있는 경우.
+`default::RenderSettings` 지정하지 않았거나 비어 있는 경우
 
 ## 참조 {#section-f35d7772f4b744d1846331e19ea99173}
 

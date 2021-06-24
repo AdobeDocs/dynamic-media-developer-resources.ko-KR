@@ -1,20 +1,19 @@
 ---
-description: 카탈로그 시스템 캐시에 대한 루트 폴더입니다.
+description: 카탈로그 시스템 캐시의 루트 폴더입니다.
 solution: Experience Manager
 title: 카탈로그 캐시 폴더(ir.catalogCacheRoot)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
-
 # 카탈로그 캐시 폴더(ir.catalogCacheRoot){#catalog-cache-folder-ir-catalogcacheroot}
 
-카탈로그 시스템 캐시에 대한 루트 폴더입니다.
+카탈로그 시스템 캐시의 루트 폴더입니다.
 
 절대 경로이거나 [!DNL *[!DNL install_folder]*]에 상대적인 경로일 수 있습니다. 기본값은 [!DNL *[!DNL install_folder]*/cache]에 해당하는 [!DNL ./cache]입니다.

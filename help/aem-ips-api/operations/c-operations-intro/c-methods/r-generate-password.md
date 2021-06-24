@@ -4,14 +4,13 @@ solution: Experience Manager
 title: generatePassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 18%
 
 ---
-
 
 # generatePassword{#generatepassword}
 
@@ -45,7 +44,7 @@ ht-degree: 18%
 
 ## 예제 {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-이 코드 샘플은 암호를 생성합니다. 요청이 포함된 요소나 값이 없는 매개 변수일 뿐이므로 이는 예외입니다. IPS는 강력한 암호를 반환합니다.
+이 코드 샘플은 암호를 생성합니다. 요청이 둘러싸인 요소나 값이 없는 매개 변수이므로 이는 이례적인 일입니다. IPS는 강력한 암호를 반환합니다.
 
 **요청**
 
@@ -61,4 +60,3 @@ ht-degree: 18%
    <password>1\7aQRn]</password>
 </generatePasswordReturn>
 ```
-

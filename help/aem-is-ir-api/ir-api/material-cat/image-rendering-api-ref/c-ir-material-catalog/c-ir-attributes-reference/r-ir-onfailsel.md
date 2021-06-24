@@ -1,21 +1,20 @@
 ---
-description: 선택 오류 처리를 선택합니다. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 있지 않으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
+description: 선택 오류 처리. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 없으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
 solution: Experience Manager
 title: OnFailSel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 12%
 
 ---
 
-
 # OnFailSel{#onfailsel}
 
-선택 오류 처리를 선택합니다. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 있지 않으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
+선택 오류 처리. 지정된 픽셀 위치가 선택 가능한 객체의 마스크 영역 내에 없으므로 sel= 명령이 실패할 경우 수행할 작업을 지정합니다.
 
 ## 속성 {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -40,7 +39,7 @@ ht-degree: 12%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>기본 그룹(렌더링 가능한 객체가 포함된 비네팅 계층 구조의 첫 번째 그룹)을 선택합니다. </p> </td> 
+  <td class="stentry"> <p>기본 그룹(렌더링 가능 개체가 포함된 비네팅 계층 구조의 첫 번째 그룹)을 선택합니다. </p> </td> 
  </tr> 
 </table>
 

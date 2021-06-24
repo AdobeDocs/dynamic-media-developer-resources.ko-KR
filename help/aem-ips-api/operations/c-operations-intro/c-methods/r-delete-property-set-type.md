@@ -1,21 +1,20 @@
 ---
-description: 속성 세트 유형과 해당 관련 속성 세트와 속성을 삭제합니다.
+description: 속성 세트 유형과 관련 속성 집합 및 속성을 삭제합니다.
 solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
 
-
 # deletePropertySetType{#deletepropertysettype}
 
-속성 세트 유형과 해당 관련 속성 세트와 속성을 삭제합니다.
+속성 세트 유형과 관련 속성 집합 및 속성을 삭제합니다.
 
 구문
 
@@ -32,15 +31,15 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 예 | 삭제할 속성 집합 유형의 핸들입니다. |
+| `*`typeHandle`*` | `xsd:string` | 예 | 삭제할 속성 집합 유형에 대한 핸들입니다. |
 
 **출력(deletePropertySetTypeParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-이 코드 샘플에서는 속성 집합 유형을 삭제하기 위해 IPS 웹 서비스 서버로 보낸 `deletePropertySetTypeParam`의 필드로 형식의 핸들을 사용합니다.
+이 코드 샘플은 IPS 웹 서비스 서버로 전송된 `deletePropertySetTypeParam`의 필드로 유형의 핸들을 사용하여 속성 집합 유형을 삭제합니다.
 
 **요청**
 

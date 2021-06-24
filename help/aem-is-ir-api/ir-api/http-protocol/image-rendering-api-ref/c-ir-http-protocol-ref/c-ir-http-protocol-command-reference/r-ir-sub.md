@@ -1,21 +1,20 @@
 ---
-description: 하위 선택. 이전에 적용한 자료를 제거할 수 있을 뿐만 아니라 선택한 개체 또는 그룹의 다른 영역에 서로 다른 자료를 적용할 수 있습니다.
+description: 하위 선택. 선택한 객체 또는 그룹의 다른 영역에 서로 다른 재료를 적용하고 이전에 적용된 재료를 제거할 수 있습니다.
 solution: Experience Manager
-title: sub
+title: 하위
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
+# 하위{#sub}
 
-# sub{#sub}
-
-하위 선택. 이전에 적용한 자료를 제거할 수 있을 뿐만 아니라 선택한 개체 또는 그룹의 다른 영역에 서로 다른 자료를 적용할 수 있습니다.
+하위 선택. 선택한 객체 또는 그룹의 다른 영역에 서로 다른 재료를 적용하고 이전에 적용된 재료를 제거할 수 있습니다.
 
 `sub=0|1|2|3|4|5`
 
@@ -26,7 +25,7 @@ ht-degree: 6%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>벽의 위쪽 반을 선택합니다. </p> </td> 
+  <td class="stentry"> <p>벽의 상단을 선택합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
@@ -46,9 +45,9 @@ ht-degree: 6%
  </tr> 
 </table>
 
-현재 벽 객체에만 지원됩니다. 이전 MSS를 종료하고 지정된 하위 선택 항목에 적용할 자료에 대한 새 MSS를 시작합니다.
+현재 벽 객체에만 지원됩니다. 이전 MSS를 종료하고 지정된 하위 선택에 적용할 재료의 새 MSS를 시작합니다.
 
-벽의 다른 반쪽에도 다른 재료를 지정하지 않은 경우 위쪽 또는 아래쪽 벽에 지정된 재질이 전체 벽에 적용됩니다.
+벽의 다른 반쪽에도 다른 재료를 지정하지 않은 경우 상벽 또는 하부 벽에 지정된 재료가 전체 벽에 적용됩니다.
 
 ## 속성 {#section-b202139d6d0847cc8d520a154104ab9d}
 

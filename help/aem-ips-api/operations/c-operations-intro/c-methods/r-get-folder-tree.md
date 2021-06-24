@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 9%
 
 ---
-
 
 # getFolderTree{#getfoldertree}
 
@@ -31,7 +30,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->폴더에 대한 데이터를 반환하려면 해당 폴더에 대한 읽기 권한이 있어야 합니다.
+>폴더에 대한 데이터를 반환하려면 폴더에 대한 읽기 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
@@ -42,22 +41,22 @@ ht-degree: 9%
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
 | `*`accessUserHandle`*` | `xsd:string` | 아니요 | 특정 사용자를 가장하기 위해 관리자만 사용합니다. |
 | `*`accessGroupHandle`*` | `xsd:string` | 아니요 | 회사가 속한 그룹을 포함하여 특정 그룹으로 필터링하는 데 사용됩니다. |
-| `*`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더. 제외되는 경우 회사 루트가 사용됩니다. |
-| `*`깊이`*` | `xsd:int` | 예 | 0은 최상위 폴더를 가져옵니다. 다른 값은 트리 안으로 내려갈 깊이를 지정합니다. |
+| `*`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더입니다. 제외된 경우 회사 루트가 사용됩니다. |
+| `*`깊이`*` | `xsd:int` | 예 | 값이 0이면 최상위 폴더가 설정됩니다. 다른 값은 트리로 내려갈 깊이를 지정합니다. |
 | `*`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
 | `*`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
-| `*`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외하려는 필드 목록을 포함합니다. |
+| `*`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외할 필드 목록을 포함합니다. |
 
 **출력(getFolderTreeReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`폴더`*` | `types:folders` | 아니요 | 트리 구조의 폴더 계층. 응답은 최대 100,000개의 폴더로 제한됩니다. |
+| `*`폴더`*` | `types:folders` | 아니요 | 트리 구조의 폴더 계층 구조입니다. 응답은 최대 100,000개의 폴더로 제한됩니다. |
 | `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
 
 ## 예제 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-이 코드 샘플은 회사 핸들과 깊이 매개 변수를 사용하여 응답에서 반환해야 하는 깊이 수준을 결정합니다. 응답에는 관련된 폴더와 하위 폴더 배열이 포함됩니다. 폴더 트리를 더 깊이 검색하려면 깊이 값을 더 작은 숫자로 설정합니다.
+이 코드 샘플은 회사 핸들과 깊이 매개 변수를 사용하여 응답이 반환해야 하는 깊이의 수준을 결정합니다. 이 응답에는 관련된 폴더 및 하위 폴더 배열이 포함되어 있습니다. 폴더 트리로 깊이 탐색하려면 깊이 값을 더 작은 수로 설정합니다.
 
 **요청**
 
@@ -132,4 +131,3 @@ ht-degree: 9%
   <permissionSetArray>
 </getFolderTreeReturn>
 ```
-

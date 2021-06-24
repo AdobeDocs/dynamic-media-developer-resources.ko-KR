@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 이미지 데이터 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 91454a49-2bb4-46f7-ace9-8e53fbbb4ea5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 22%
+source-wordcount: '45'
+ht-degree: 24%
 
 ---
-
 
 # 이미지 데이터 참조{#image-data-reference}
 
@@ -24,7 +23,7 @@ ht-degree: 22%
 * [ID](r-id-cat.md)
 * [이미지 집합](r-imageset-cat.md)
 * [맵](r-map-cat.md)
-* [마스크 패스](r-maskpath-cat.md)
+* [MaskPath](r-maskpath-cat.md)
 * [수정자](r-modifier-cat.md)
 * [경로](r-path-cat.md)
 * [PostModifier](r-postmodifier-cat.md)

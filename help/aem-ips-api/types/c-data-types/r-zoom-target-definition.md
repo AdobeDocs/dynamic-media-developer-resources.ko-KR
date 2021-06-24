@@ -1,21 +1,20 @@
 ---
-description: 확대/축소 대상 정의.
+description: 대상 정의 확대/축소.
 solution: Experience Manager
 title: ZoomTargetDefinition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '49'
+ht-degree: 22%
 
 ---
 
-
 # ZoomTargetDefinition{#zoomtargetdefinition}
 
-확대/축소 대상 정의.
+대상 정의 확대/축소.
 
 구문
 
@@ -27,6 +26,5 @@ ht-degree: 21%
 | `*`xPosition`*` | `xsd:int` | 확대/축소 대상의 X 위치입니다. |
 | `*`yPosition`*` | `xsd:int` | 확대/축소 대상의 Y 위치입니다. |
 | `*`width`*` | `xsd:int` | 대상 너비를 확대/축소합니다. |
-| `*`height`*` | `xsd:int` | 대상 높이를 확대/축소합니다. |
-| `*`사용자 데이터`*` | `xsd:string` | 연결된 사용자 데이터. |
-
+| `*`height`*` | `xsd:int` | 대상 높이 확대/축소. |
+| `*`사용자 데이터`*` | `xsd:string` | 연결된 사용자 데이터입니다. |

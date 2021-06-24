@@ -1,21 +1,20 @@
 ---
-description: 이미지 카탈로그는 서버에 이미지 및 글꼴, ICC 프로필 같은 지원 데이터에 대한 정보를 제공합니다.
+description: 이미지 카탈로그에서는 이미지 및 글꼴과 ICC 프로파일과 같은 지원 데이터에 대한 정보를 서버에 제공합니다.
 solution: Experience Manager
 title: 이미지 카탈로그 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c41a0581-1025-4fad-a157-5e371a7d398a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 1%
 
 ---
 
-
 # 이미지 카탈로그 참조{#image-catalog-reference}
 
-이미지 카탈로그는 서버에 이미지 및 글꼴, ICC 프로필 같은 지원 데이터에 대한 정보를 제공합니다.
+이미지 카탈로그에서는 이미지 및 글꼴과 ICC 프로파일과 같은 지원 데이터에 대한 정보를 서버에 제공합니다.
 
 * [개요](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md)
 * [이미지 카탈로그 업데이트](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-updating-image-catalogs.md)

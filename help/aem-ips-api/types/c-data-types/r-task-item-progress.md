@@ -1,19 +1,18 @@
 ---
 description: 작업 항목 진행 정보.
 solution: Experience Manager
-title: 작업 항목 진행
+title: 작업 항목 진행률
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 568a5601-b928-447d-8297-01139f36cf73
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '38'
 ht-degree: 15%
 
 ---
 
-
-# TaskItemProgress{#taskitemprogress}
+# 작업 항목 진행률{#taskitemprogress}
 
 작업 항목 진행 정보.
 
@@ -27,4 +26,3 @@ ht-degree: 15%
 | `*`progress`*` | `xsd:double` | 진행 완료 %. |
 | `*`progressMessage`*` | `xsd:string` | 프로세스 메시지. |
 | `*`lastProgressUpdate`*` | `xsd:dateTime` | 마지막 업데이트 시간입니다. |
-

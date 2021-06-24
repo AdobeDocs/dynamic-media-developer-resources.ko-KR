@@ -4,14 +4,13 @@ solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---
-
 
 # resumeJob{#resumejob}
 
@@ -36,12 +35,12 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사에 대한 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사의 핸들입니다. |
 | `*`jobHandle`*` | `xsd:string` | 예 | 일시 중지된 작업의 핸들입니다. |
 
 **출력(resumeJobReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-d0524e031f1f43d89430eade19526162}
 

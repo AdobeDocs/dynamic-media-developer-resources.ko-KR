@@ -1,25 +1,24 @@
 ---
-description: 모든 뷰어에 공통되는 매개 변수입니다.
+description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: videoServerUrl
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-모든 뷰어에 공통되는 매개 변수입니다.
+모든 뷰어에 공통되는 매개 변수.
 
 >[!NOTE]
 >
->이 명령은 비디오 이미지 뷰어에 적용되지 않습니다.
+>이 명령은 비디오 이미지 뷰어에는 적용되지 않습니다.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -27,14 +26,14 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 도메인을 지정하지 않으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 지정된 도메인이 없으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 해상도가 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-10ee45d637134e0fbcd943c62578cb78}
 
-선택 사항입니다. 서비스 사용으로서 표준 소프트웨어에 필요하지 않습니다.
+선택 사항입니다. 표준 소프트웨어를 서비스 사용으로 사용할 필요는 없습니다.
 
 ## 기본값 {#section-d411e450028c460392cb8508f8ccc5d9}
 

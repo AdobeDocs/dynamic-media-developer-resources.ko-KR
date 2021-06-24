@@ -4,14 +4,13 @@ solution: Experience Manager
 title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 10830980-d504-4610-96c9-730937453256
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 11%
 
 ---
-
 
 # removeFolderPermissions{#removefolderpermissions}
 
@@ -41,19 +40,19 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 제거할 권한이 있는 폴더가 있는 회사의 핸들입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 폴더로 이동합니다. </td> 
+   <td colname="col4"> 폴더를 처리합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> <p><span class="codeph"> true</span>인 경우: 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
@@ -68,11 +67,11 @@ ht-degree: 11%
 
 **출력(removeFolderPermissionsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-이 코드 샘플은 폴더 및 하위 폴더에서 권한을 제거합니다. 상위 폴더에서만 권한을 제거해야 하는 경우 `updateChildren`을 `false`으로 설정합니다.
+이 코드 샘플은 폴더 및 해당 하위 폴더에서 권한을 제거합니다. 상위 폴더에서만 권한을 제거해야 하는 경우 `updateChildren`을 `false`(으)로 설정하십시오.
 
 **요청**
 

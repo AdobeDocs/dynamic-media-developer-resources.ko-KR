@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 10%
+source-wordcount: '189'
+ht-degree: 11%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -37,12 +36,12 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 아니요 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 아니요 | 그 회사 담당입니다. |
 | `*`userHandle`*` | `xsd:string` | 아니요 | 특정 사용자가 제출한 작업에 대한 로그를 가져옵니다. |
 | `*`sortBy`*` | `xsd:string` | 아니요 | 정렬 필드를 선택할 수 있습니다. |
 | `*`sortDirection`*` | `xsd:string` | 아니요 | 정렬 순서(오름차순 또는 내림차순). |
-| `*`startDate`*` | `xsd:dateTime` | 아니요 | 작업 로그 시작 날짜 및 시간입니다. 이 필드에 대한 요청을 표준 시간대로 제공합니다. |
-| `*`endDate`*` | `xsd:dateTime` | 아니요 | 작업 로그 종료 날짜 및 시간입니다. 이 필드에 대한 요청을 표준 시간대로 제공합니다. |
+| `*`startDate`*` | `xsd:dateTime` | 아니요 | 작업 로그의 시작 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
+| `*`endDate`*` | `xsd:dateTime` | 아니요 | 작업 로그 종료 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
 | `*`numRows`*` | `xsd:int` | 아니요 | 반환할 최대 행 수입니다. |
 
 **출력(getJobLogsReturn)**
@@ -53,7 +52,7 @@ ht-degree: 10%
 
 ## 예제 {#section-35871c94b4a44559912577efddbc46a6}
 
-이 코드 샘플은 특정 회사에 대한 IPS 작업 로그를 반환합니다. 특정 사용자 또는 회사 및 사용자에 대한 작업 로그를 반환하는 데 사용할 수도 있습니다.
+이 코드 샘플은 특정 회사에 대한 IPS 작업 로그를 반환합니다. 이 파일을 사용하여 특정 사용자 또는 회사 및 사용자에 대한 작업 로그를 반환할 수도 있습니다.
 
 **요청**
 
@@ -86,4 +85,3 @@ ht-degree: 10%
    </jobLogArray>
 </getJobLogsReturn>
 ```
-

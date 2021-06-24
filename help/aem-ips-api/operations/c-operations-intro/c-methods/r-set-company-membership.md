@@ -1,21 +1,20 @@
 ---
-description: 하나 이상의 회사에 사용자 멤버십을 설정합니다.
+description: 하나 이상의 회사에 사용자 구성원을 설정합니다.
 solution: Experience Manager
 title: setCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
 
-
 # setCompanyMembership{#setcompanymembership}
 
-하나 이상의 회사에 사용자 멤버십을 설정합니다.
+하나 이상의 회사에 사용자 구성원을 설정합니다.
 
 구문
 
@@ -33,15 +32,15 @@ ht-degree: 14%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:sting` | 아니요 | 사용자 핸들. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 다양한 회사. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 기업의 배열입니다. |
 
 **출력(setCompanyMembershipParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-862c0cc32ce0407ab248028e690a8386}
 
-이 코드 샘플은 사용자를 회사에 추가합니다. 필요한 경우 회사 핸들 배열에 여러 회사를 지정하십시오.
+이 코드 샘플은 사용자를 회사에 추가합니다. 필요한 경우 회사 핸들 어레이에 여러 회사를 지정합니다.
 
 **요청**
 

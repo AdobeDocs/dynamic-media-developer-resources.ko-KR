@@ -1,21 +1,20 @@
 ---
-description: 비디오 뷰어용 URL 명령.
+description: 비디오 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
 title: 비디오
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,비디오
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
+# 비디오{#video}
 
-# video{#video}
-
-비디오 뷰어용 URL 명령.
+비디오 뷰어에 대한 URL 명령입니다.
 
 ` video= *`videoURL`*`
 
@@ -23,14 +22,14 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 외부 비디오에 대한 절대 URL. </p> </td> 
+   <td colname="col2"> <p> 외부 비디오에 대한 절대 URL입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-필수. (`asset` 매개 변수가 사용되지 않는 경우). [외부 비디오 지원](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)을 참조하십시오.)
+필수. ( `asset` 매개 변수를 사용하지 않는 경우) [외부 비디오 지원](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) 을 참조하십시오.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -41,4 +40,3 @@ ht-degree: 13%
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
-

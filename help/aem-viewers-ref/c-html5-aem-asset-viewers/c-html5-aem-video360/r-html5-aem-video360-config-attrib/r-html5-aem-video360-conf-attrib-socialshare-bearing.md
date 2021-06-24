@@ -2,13 +2,12 @@
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: SocialShare.bearing
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: f00b2539-3159-487a-b0fa-9589b694c2e6
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -22,8 +21,8 @@ Video360 뷰어에 대한 구성 속성입니다.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|맞춤-세로|맞춤</span> </p> </td> 
-   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> 왼쪽</span> 또는 <span class="codeph"> 오른쪽</span>으로 설정하면 추가 경계 확인 없이 지정된 방향으로 패널이 롤아웃되며 외부 컨테이너에 의해 패널 클리핑이 발생할 수 있습니다. </p> <p><span class="codeph"> fit-vertical</span>로 설정하면 구성 요소가 먼저 기본 패널 위치를 SocialShare의 맨 아래로 이동하고 해당 기본 위치의 아래쪽, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 각 작업을 수행하면 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>으로 설정하면 구성 요소에도 유사한 로직이 사용됩니다. 하지만 일단 베이스를 오른쪽으로 이동시키고, 오른쪽, 아래로, 위쪽 롤아웃 방향을 시도한 다음, 베이스를 왼쪽으로 이동하고, 왼쪽, 아래쪽, 위쪽 롤아웃 방향을 시도합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|측면 맞춤</span> </p> </td> 
+   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> 또는 <span class="codeph"> 오른쪽</span>으로 설정하면 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되며, 이로 인해 외부 컨테이너에 의해 패널이 클리핑될 수 있습니다. </p> <p><span class="codeph"> fit-vertical</span> 로 설정하면 구성 요소는 먼저 기본 패널 위치를 SocialShare의 하단으로 이동하고 해당 기본 위치에서 아래쪽, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>로 설정하면 구성 요소는 유사한 논리를 사용합니다. 하지만 첫 번째, 오른쪽, 다운 및 롤아웃 방향을 시도하면서 베이스를 오른쪽으로 이동한 다음, 왼쪽, 다운 및 롤아웃 방향을 따라 베이스를 왼쪽으로 이동합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

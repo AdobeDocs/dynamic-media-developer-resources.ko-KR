@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니다.
+description: IPS API 버전 6의 새로운 유형 및 변경된 유형에 대해 설명합니다.
 solution: Experience Manager
-title: 데이터 유형 새로 만들기 및 수정됨
+title: 신규 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 2%
 
 ---
 
+# 데이터 유형:신규 및 수정됨{#data-types-new-and-modified}
 
-# 데이터 유형:새로 만들기 및 수정됨{#data-types-new-and-modified}
-
-IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니다.
+IPS API 버전 6의 새로운 유형 및 변경된 유형에 대해 설명합니다.
 
 구문
 
@@ -37,23 +36,23 @@ IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니�
 * `PublishContext`
 * `PublishContextArray`
 
-## 수정된 형식 {#section-56b834b1a3b843279d8715b4a4f3890b}
+## 수정된 유형 {#section-56b834b1a3b843279d8715b4a4f3890b}
 
 **추가됨**
 
-* `numUrls`을(를) `UploadUrlsJob`에 추가했습니다.
+* `numUrls`을 `UploadUrlsJob`에 추가했습니다.
 
-* `Asset.`에 `fileName`을(를) 추가했습니다.
+* `fileName`을 `Asset.`에 추가했습니다.
 
-* `isHidden`을(를) `MetadataField`에 추가했습니다.
+* `isHidden`을 `MetadataField`에 추가했습니다.
 
-* `taskState`을(를) `TaskProgress`에 추가했습니다.
+* `taskState`을 `TaskProgress`에 추가했습니다.
 
-* `exportJob`을(를) `ActiveJob` 및 `ScheduledJob`에 추가했습니다.
+* `exportJob`을 `ActiveJob` 및 `ScheduledJob`에 추가했습니다.
 
-* `optmizedPath` 및 `optimizedFile`을(를) `PsdInfo`에 추가했습니다.
+* `optmizedPath` 및 `optimizedFile`을 `PsdInfo`에 추가했습니다.
 
-* 다음에 `contextHandle`을(를) 추가했습니다.
+* 다음에 `contextHandle`이 추가되었습니다.
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
@@ -67,9 +66,8 @@ IPS API 버전 6의 새로운 유형과 변경된 유형에 대해 설명합니�
 
 **변경**
 
-* `User`에서 `role`을(를) `defaultRole`(으)로 변경했습니다.
+* `User`에서 `role`이 `defaultRole`(으)로 변경되었습니다.
 
-* `Folder`에서 `permissions`을(를) `permissionsSetHandle`(으)로 변경했습니다.
+* `Folder`에서 `permissions`이 `permissionsSetHandle`(으)로 변경되었습니다.
 
-* 이제 `AssetSummary`에서 `type` 및 `name`는 선택 사항입니다.
-
+* `AssetSummary`에서 `type` 및 `name`는 이제 선택 사항입니다.

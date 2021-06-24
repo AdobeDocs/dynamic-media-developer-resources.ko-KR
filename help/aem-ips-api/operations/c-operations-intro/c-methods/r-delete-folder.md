@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 10%
 
 ---
-
 
 # deleteFolder{#deletefolder}
 
@@ -38,16 +37,16 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속하는 회사의 핸들입니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 삭제할 폴더의 핸들. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 삭제할 폴더의 핸들입니다. |
 
 **출력(deleteFolderParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9d4617b322e8442d80e59be0f8714841}
 
-이 샘플 코드는 회사 루트에서 폴더를 삭제합니다. 다른 작업에서 얻어야 하는 폴더 핸들이 필요합니다.
+이 샘플 코드는 회사 루트에서 폴더를 삭제합니다. 폴더 핸들이 필요합니다. 이 핸들은 다른 작업에서 가져와야 합니다.
 
 **요청**
 

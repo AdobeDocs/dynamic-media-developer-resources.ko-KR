@@ -1,27 +1,26 @@
 ---
-description: 기본 보기는 회전 이미지로 구성됩니다.
+description: 기본 보기는 스핀 이미지로 구성됩니다.
 solution: Experience Manager
-title: 회전 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+title: 스핀 보기
+feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
+# 스핀 보기{#spin-view}
 
-# 회전 보기{#spin-view}
-
-기본 보기는 회전 이미지로 구성됩니다.
+기본 보기는 스핀 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7spinviewer .s7spinview
@@ -36,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,4 +48,3 @@ ht-degree: 1%
  background-color: transparent; 
 }
 ```
-

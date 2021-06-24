@@ -1,21 +1,20 @@
 ---
-description: batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오류 세부 정보입니다.
+description: batchSetAssetMetadata 작업에서 사용 업데이트에 대한 경고 또는 오류 세부 사항입니다.
 solution: Experience Manager
 title: SetMetadataFault
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 49c6f355-4b5f-4b98-9a58-5732d56fdccb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
 
-
 # SetMetadataFault{#setmetadatafault}
 
-batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오류 세부 정보입니다.
+batchSetAssetMetadata 작업에서 사용 업데이트에 대한 경고 또는 오류 세부 사항입니다.
 
 구문
 
@@ -26,5 +25,4 @@ batchSetAssetMetadata 작업의 사용 업데이트에 대한 경고 또는 오�
 | `*`assetHandle`*` | `xsd:string` | 메타데이터가 설정되지 않은 자산입니다. |
 | `*`fieldHandle`*` | `xsd:string` | 값이 설정되지 않은 메타데이터 필드의 핸들입니다. |
 | `*`코드`*` | `xsd:int` | 오류 코드. |
-| `*`이유`*` | `xsd:string` | 오류 설명(일반 텍스트). |
-
+| `*`이유`*` | `xsd:string` | 장애 설명(일반 텍스트). |

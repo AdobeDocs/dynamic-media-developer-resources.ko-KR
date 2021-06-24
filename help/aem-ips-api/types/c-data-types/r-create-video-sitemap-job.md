@@ -4,14 +4,13 @@ solution: Experience Manager
 title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
-
 
 # CreateVideoSitemapJob{#createvideositemapjob}
 
@@ -32,9 +31,8 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"><span class="codeph"> true</span>로 설정되면 사이트 맵을 생성합니다. <p><p>참고:Sitemap 생성 구성이 수작업으로 설정되어 있고 <span class="codeph"> forceUpdate</span>이(가) 설정되어 있지 않으면 사이트 맵이 생성되지 않습니다. </p></p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col3"><span class="codeph"> true</span>로 설정되면 사이트 맵을 생성합니다. <p><p>참고:사이트 맵 생성 구성이 수동으로 설정되고 <span class="codeph"> forceUpdate</span>가 설정되지 않은 경우 사이트 맵이 생성되지 않습니다. </p></p></td> 
   </tr> 
  </tbody> 
 </table>
-

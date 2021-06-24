@@ -1,21 +1,20 @@
 ---
-description: 축소판 자산에 대한 메타데이터 업데이트입니다.
+description: 경험 자산에 대한 메타데이터 업데이트.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 58893b74-9a32-47f6-9c97-80db67ae1739
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
 
-
 # ThumbAssetUpdateArray{#thumbassetupdatearray}
 
-축소판 자산에 대한 메타데이터 업데이트입니다.
+경험 자산에 대한 메타데이터 업데이트.
 
 구문
 
@@ -23,5 +22,4 @@ ht-degree: 17%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:ThumbAssetUpdates` | 축소판 자산 업데이트 배열입니다. |
-
+| `*`항목`*` | `types:ThumbAssetUpdates` | 경험 자산 업데이트 배열입니다. |

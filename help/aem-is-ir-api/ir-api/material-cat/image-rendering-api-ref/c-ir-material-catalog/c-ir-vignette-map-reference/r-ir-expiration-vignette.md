@@ -1,31 +1,30 @@
 ---
-description: 클라이언트의 실시간 캐시 시간 만료까지 남은 시간. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
+description: 클라이언트 캐시 사용 시간 만료까지 남은 시간 수입니다. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
 solution: Experience Manager
 title: 만료
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 5717d568-467e-495b-b963-9b3d42e866a6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 6%
 
 ---
 
-
 # 만료{#expiration}
 
-클라이언트의 실시간 캐시 시간 만료까지 남은 시간. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
+클라이언트 캐시 사용 시간 만료까지 남은 시간 수입니다. 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다.
 
 자세한 내용은 ` [catalog::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-expiration-dataref.md#reference-5e93943abff54c93bf85aae3b911a3ce)`를 참조하십시오.
 
 ## 속성 {#section-dcdd44cc3f0a4849b968dbd4f1e3768a}
 
-실수, -2, -1, 0 이상. 응답 이미지가 생성된 이후 만료까지 남은 시간. 응답 이미지를 항상 즉시 만료되도록 0으로 설정하면 클라이언트 캐싱을 효과적으로 사용할 수 없습니다. `never expire`;으로 표시하려면 -1로 설정합니다.이 경우 서버는 파일이 실제로 변경되었는지 여부를 확인하지 않고 조건부 `GET` 요청에 응답하여 항상 403 상태를 반환합니다. `attribute::Expiration`에서 제공하는 기본값을 사용하려면 -2로 설정합니다.
+실수, -2, -1, 0 이상 응답 이미지가 생성된 이후 만료까지 남은 시간. 항상 응답 이미지를 즉시 만료하도록 0으로 설정하면 클라이언트 캐싱을 효과적으로 사용하지 않습니다. `never expire`;(으)로 표시하려면 -1로 설정합니다.이 경우 파일이 실제로 변경되었는지 여부를 확인하지 않고 서버는 조건부 `GET` 요청에 응답하여 항상 403 상태를 반환합니다. `attribute::Expiration`에서 제공한 기본값을 사용하려면 -2로 설정하십시오.
 
 ## 기본값 {#section-fb8ea80975034b49af7510764758f123}
 
-`attribute::Expiration` 값이 -2인 경우, 또는 필드가 비어 있는 경우에 사용됩니다.
+`attribute::Expiration` 필드가 없거나, 값이 -2이거나, 필드가 비어 있는 경우 사용됩니다.
 
 ## 참조 {#section-a0d3dab0f6db49b58f1f935d3bdea2fd}
 

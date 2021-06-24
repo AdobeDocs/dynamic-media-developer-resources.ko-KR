@@ -2,16 +2,15 @@
 description: 자산을 게시할 준비가 되었는지 확인합니다.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 12%
 
 ---
-
 
 # setAssetPublishState{#setassetpublishstate}
 
@@ -29,7 +28,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-09d2ba001a2a455a9102550272f3eecb}
 
@@ -47,19 +46,19 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 회사의 손잡이입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 핸들. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4">사용 가능한 상태: 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
@@ -78,7 +77,7 @@ ht-degree: 12%
 
 **출력**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c31ead6d0e594317a12c120509527792}
 

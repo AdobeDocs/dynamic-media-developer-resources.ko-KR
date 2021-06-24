@@ -1,23 +1,22 @@
 ---
-description: 자료는 벽 테두리 MSS(sub=3.5와 함께 도입됨)에 지정된 경우 벽 테두리로 간주됩니다.
+description: 요소는 벽 테두리 MSS에 지정되면 벽 테두리로 간주됩니다(sub=3..5로 도입).
 solution: Experience Manager
 title: 벽 테두리
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 4%
 
 ---
 
-
 # 벽 테두리{#wall-borders}
 
-자료는 벽 테두리 MSS(sub=3.5와 함께 도입됨)에 지정된 경우 벽 테두리로 간주됩니다.
+요소는 벽 테두리 MSS에 지정되면 벽 테두리로 간주됩니다(sub=3..5로 도입).
 
-벽 테두리 텍스처 이미지에는 테두리 모양을 정의하는 알파 채널이 포함될 수 있습니다. 벽 테두리는 벽 개체에만 적용할 수 있습니다.
+벽 테두리 텍스쳐 이미지에는 테두리 모양을 정의하는 알파 채널이 포함될 수 있습니다. 벽 테두리는 벽 객체에만 적용할 수 있습니다.
 
 <table id="table_906C5CC4CADF4024AA0E29544AF48080"> 
  <thead> 
@@ -30,24 +29,23 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>반복 가능한 텍스처 이미지;required </p> </td> 
+   <td colname="col2"> <p>반복 가능한 텍스쳐 이미지필수 </p> </td> 
    <td colname="col3"> <p>없음 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res=  </span> </a> </p> </td> 
    <td colname="col2"> <p>텍스처 해상도 </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> 속성::Resolution  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> attribute::resolution  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> anchor=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>수평 텍스처 정렬(y 값은 무시됨) </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> 앵커=  </span> </a> </p> </td> 
+   <td colname="col2"> <p>수평 텍스처 정렬(y 값이 무시됨) </p> </td> 
    <td colname="col3"> <p>0(왼쪽 이미지 가장자리) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp=  </span> </a> </p> </td> 
    <td colname="col2"> <p>선명하게 하기 </p> </td> 
-   <td colname="col3"> <p>0(선명하게 하지 않음) </p> </td> 
+   <td colname="col3"> <p>0(선명하게 없음) </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

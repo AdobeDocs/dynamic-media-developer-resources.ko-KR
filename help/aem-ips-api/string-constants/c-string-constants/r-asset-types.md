@@ -1,25 +1,24 @@
 ---
-description: 다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
+description: 다양한 입력 매개 변수에서 사용하는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
 solution: Experience Manager
 title: 자산 유형
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # 자산 유형{#asset-types}
 
-다양한 입력 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
+다양한 입력 매개 변수에서 사용하는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오.
 
 구문
 
-## {#section-2d471a1b240b4f5794454f0e5fcc5206}에서 사용됨
+## 사용자 {#section-2d471a1b240b4f5794454f0e5fcc5206}
 
 * [!DNL `Input(searchAssetsParam)/assetTypeArray`]
 * [!DNL `Asset/type`]
@@ -77,4 +76,3 @@ ht-degree: 12%
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-

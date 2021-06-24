@@ -1,17 +1,16 @@
 ---
 description: 모든 회사의 배열을 반환합니다.
 solution: Experience Manager
-title: getAllCompany
+title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 19%
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
-
 
 # getAllCompanies{#getallcompanies}
 
@@ -25,21 +24,21 @@ ht-degree: 19%
 
 ## 매개 변수 {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**입력(getAllCompanyParam)**
+**입력(getAllCompaniesParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | 예 | 만료되거나 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
+| `*`includeExpired`*` | `xsd:boolean` | 예 | 만료되고 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
 
-**출력(getAllCompanyReturn)**
+**출력(getAllCompaniesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | 예 | 기업 배열입니다. |
+| `*`companyArray`*` | `types:CompanyArray` | 예 | 회사의 배열입니다. |
 
 ## 예제 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-이 코드 샘플은 배열에 있는 IPS의 모든 회사를 반환합니다. 참고: 샘플 응답은 간결성에 대해 잘립니다.
+이 코드 샘플은 배열에 있는 IPS에 있는 모든 회사를 반환합니다. 참고로, 샘플 응답은 간결성을 위해 잘립니다.
 
 **요청**
 
@@ -70,4 +69,3 @@ ht-degree: 19%
    </ns1:companyArray>
 </ns1:getAllCompaniesReturn>
 ```
-

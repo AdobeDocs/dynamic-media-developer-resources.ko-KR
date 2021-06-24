@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
-
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
@@ -36,13 +35,13 @@ ht-degree: 19%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 에셋으로 처리합니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 자산에 대해 처리합니다. |
 
 **출력(getPhotoshopPathNamesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | 예 | 이미지의 Photoshop 경로 이름 배열입니다. |
+| `*`pathNameArray`*` | `types:StringArray` | 예 | 이미지에 있는 Photoshop 경로 이름의 배열입니다. |
 
 ## 예제 {#section-6d316f14b4184d42af4ca3f717b042dd}
 
@@ -65,4 +64,3 @@ ht-degree: 19%
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-

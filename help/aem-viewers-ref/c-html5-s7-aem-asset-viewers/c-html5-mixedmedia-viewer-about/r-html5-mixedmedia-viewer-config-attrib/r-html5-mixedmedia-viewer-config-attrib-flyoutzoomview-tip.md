@@ -2,30 +2,29 @@
 description: FlyoutZoomView.tip
 solution: Experience Manager
 title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 5%
 
 ---
 
-
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`지속 시간`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 팁 텍스트가 숨겨지기 전에 표시되는 시간(초)을 지정합니다. <span class="codeph"> -1</span>으로 설정하면 사용자가 플라이아웃을 활성화해도 항상 메시지가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> 팁 텍스트가 숨겨지기 전에 표시되는 시간(초)을 지정합니다. <span class="codeph"> -1</span>로 설정하면 사용자가 플라이아웃을 활성화하더라도 항상 메시지가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 계수</span></span> </p> </td> 
-   <td colname="col2"> <p> 세트에서 새 이미지를 볼 때 텍스트가 표시되는 횟수를 지정합니다. <span class="codeph"> -1</span> 값은 세트에서 이미지를 볼 때 텍스트가 항상 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p> 세트에서 새 이미지를 볼 때 텍스트가 표시되는 횟수를 지정합니다. <span class="codeph"> -1</span> 값은 집합에서 이미지를 볼 때 텍스트가 항상 표시됨을 의미합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 페이드</span></span> </p> </td> 

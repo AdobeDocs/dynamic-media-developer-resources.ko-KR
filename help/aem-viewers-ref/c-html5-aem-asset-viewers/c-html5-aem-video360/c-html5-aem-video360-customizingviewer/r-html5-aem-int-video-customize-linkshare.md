@@ -1,25 +1,24 @@
 ---
-description: 링크 공유 도구는 도구가 활성화될 때 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
+description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
 title: 링크 공유
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
 
 # 링크 공유{#link-share}
 
-링크 공유 도구는 도구가 활성화될 때 표시되는 양식 대화 상자와 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추의 위치는 소셜 공유 도구에 의해 완전히 관리됩니다.
+링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-링크 공유 버튼의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+링크 공유 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkshare
@@ -31,32 +30,32 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>단추 폭. </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-CSS 클래스에서 `display:none` CSS 속성을 설정하여 소셜 공유 패널에서 단추를 제거할 수 있습니다.
+CSS 클래스에서 `display:none` CSS 속성을 설정하여 소셜 공유 패널에서 버튼을 제거할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하십시오.
 
-예 - 28 x 28픽셀인 링크 공유 단추를 설정하고 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면:
+예 - 28 x 28픽셀인 링크 공유 단추를 설정하고 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하려면 다음을 수행하십시오.
 
 ```
 .s7video360viewer .s7linkshare { 
@@ -77,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -92,13 +91,13 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
    <td colname="col2"> <p>배경 오버레이 불투명도. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 색상. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예**  - 70%의 불투명도를 사용하여 회색으로 배경 오버레이를 설정하려면:
+**예**  - 70%의 불투명도를 사용하여 회색 오버레이를 설정하려면 다음을 수행하십시오.
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay { 
@@ -107,7 +106,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-기본적으로 모달 대화 상자는 데스크톱 시스템의 화면 중앙에 표시되며 터치 장치에서 전체 웹 페이지 영역을 가져옵니다. 모든 경우 대화 상자의 위치 지정 및 크기는 구성 요소에 의해 관리됩니다. 대화 상자는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+기본적으로 모달 대화 상자는 데스크톱 시스템의 화면 중앙에 표시되며 터치 장치의 전체 웹 페이지 영역을 가져옵니다. 모든 경우 대화 상자의 위치 지정 및 크기 조절은 구성 요소에서 관리합니다. 이 대화 상자는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialog
@@ -118,25 +117,25 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> 대화 상자에서 전체 브라우저를 사용하지 않는 경우 대화 상자 테두리 반경. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경  </span> </p> </td> 
+   <td colname="col2"> <p> 대화 상자가 전체 브라우저를 사용하지 않는 경우 대화 상자 테두리 반경입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>대화 상자의 배경색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 기본 설정). </p> </td> 
+   <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p>설정이 해제되거나 100%로 설정되어야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 기본 설정). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예**  - 터치 장치에서 전체 브라우저 창을 사용하고 흰색 배경이 있는 대화 상자를 설정하려면:
+**예**  - 전체 브라우저 창을 사용하고 터치 장치에 흰색 배경을 포함하도록 대화 상자를 설정하려면 다음을 수행하십시오.
 
 ```
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
@@ -146,7 +145,7 @@ background-color: #ffffff;
 }
 ```
 
-대화 상자 헤더는 아이콘, 제목 텍스트 및 닫기 단추로 구성됩니다. 헤더 컨테이너는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+대화 상자 헤더는 아이콘, 제목 텍스트 및 닫기 단추로 구성됩니다. 헤더 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader
@@ -158,12 +157,12 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 머리글 컨텐츠에 대한 내부 패딩입니다. </p> </td> 
+   <td colname="col2"> <p> 헤더 컨텐츠에 대한 내부 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-아이콘 및 제목 텍스트는 다음과 같은 CSS 클래스 선택기로 제어되는 추가 컨테이너로 둘러싸여 있습니다.
+아이콘 및 제목 텍스트는 다음 CSS 클래스 선택기로 제어되는 추가 컨테이너에 래핑됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -175,18 +174,18 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 머리글 아이콘 및 제목의 내부 패딩 </p> </td> 
+   <td colname="col2"> <p> 헤더 아이콘 및 제목에 대한 내부 패딩 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-머리글 아이콘은 다음 CSS 클래스 선택기로 제어됩니다.
+헤더 아이콘은 다음 CSS 클래스 선택기로 제어됩니다
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheadericon
 ```
 
-**대화 상자 머리글 아이콘의 CSS 속성**
+**대화 상자 헤더 아이콘의 CSS 속성**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -195,41 +194,41 @@ background-color: #ffffff;
    <td colname="col2"> <p>아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
    <td colname="col2"> <p>아이콘 이미지. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-머리글 제목은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+헤더 제목은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheadertext
 ```
 
-**대화 상자 머리글 텍스트의 CSS 속성**
+**대화 상자 헤더 텍스트의 CSS 속성**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 두께. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>글꼴 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 모음. </p> </td> 
+   <td colname="col2"> <p>글꼴 패밀리. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
@@ -238,7 +237,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-닫기 버튼은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+닫기 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7closebutton
@@ -250,42 +249,42 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 머리글 컨테이너를 기준으로 하는 세로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 헤더 컨테이너에 대한 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 머리글 컨테이너를 기준으로 하는 가로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 헤더 컨테이너에 대한 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>단추 폭. </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>단추의 내부 패딩입니다. </p> </td> 
+   <td colname="col2"> <p>단추의 내부 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
    <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
+닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하십시오.
 
-**예**  - 패딩, 22 x 12픽셀 아이콘, 굵은 16포인트 제목, 28 x 28픽셀 닫기 버튼 등을 사용하여 대화 상자 컨테이너 위쪽에서 2픽셀, 오른쪽에서 2픽셀을 지정하는 대화 상자 헤더를 설정하려면:
+**예**  - 패딩이 있는 대화 상자 헤더, 22 x 12픽셀 아이콘, 굵은 16포인트 제목 및 대화 상자 컨테이너 오른쪽의 두 픽셀에 배치된 28 x 28픽셀 닫기 단추를 설정하려면 다음을 수행하십시오.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -325,7 +324,7 @@ background-color: #ffffff;
 }
 ```
 
-대화 상자 바닥글은 [취소] 단추로 구성됩니다. 바닥글 컨테이너는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+대화 상자 바닥글은 취소 단추로 구성됩니다. 바닥글 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter
@@ -342,7 +341,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-바닥글에는 단추를 유지하는 내부 컨테이너가 있습니다. 이 컨트롤은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+바닥글에는 단추를 유지하는 내부 컨테이너가 있습니다. 이 컨트롤은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
@@ -354,18 +353,18 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩입니다. </p> </td> 
+   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-모두 선택 단추는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+모두 선택 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogactionbutton
 ```
 
-이 버튼은 데스크탑 시스템에서만 사용할 수 있습니다.
+버튼은 데스크탑 시스템에서만 사용할 수 있습니다.
 
 **모두 선택 단추의 CSS 속성**
 
@@ -373,18 +372,18 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>단추 폭. </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색상입니다. </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -392,9 +391,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->[모두 선택] 단추는 `state` 속성 선택기를 지원하므로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>모두 선택 단추는 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-취소 단추는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+취소 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogcancelbutton
@@ -406,18 +405,18 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
-   <td colname="col2"> <p>단추 폭. </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색상입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상  </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -425,48 +424,48 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하므로 다른 버튼 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-또한 두 버튼은 다른 대화 상자 버튼과 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
 ```
 
-**버튼의 CSS 속성**
+**단추의 CSS 속성**
 
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
-   <td colname="col2"> <p>단추 글꼴 두께. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
-   <td colname="col2"> <p>단추 글꼴 크기. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>단추 글꼴 모음. </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 선 높이  </span> </p> </td> 
-   <td colname="col2"> <p> 단추 안의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 라인 높이  </span> </p> </td> 
+   <td colname="col2"> <p> 단추 내부의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 상자 그림자  </span> </p> </td> 
-   <td colname="col2"> <p>그림자 효과. </p> </td> 
+   <td colname="col2"> <p>그림자. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 순익  </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 단추 여백. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-단추 도구 설명을 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
+단추 도구 설명은 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하십시오.
 
-**예**  - 각 단추 상태에 대해 서로 다른 텍스트 색상과 배경색이 있는 64 x 34 [취소] 단추를 사용하여 대화 상자 바닥글을 설정하려면 다음을 수행합니다.
+**예**  - 각 단추 상태에 대해 다른 텍스트 색상 및 배경색을 갖는 64 x 34 취소 단추가 있는 대화 상자 바닥글을 설정하는 방법:
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
@@ -526,32 +525,32 @@ background-color: #ffffff;
 }
 ```
 
-머리글과 바닥글 사이의 기본 대화 상자에는 대화 상자 내용이 포함되어 있습니다. 모든 경우 구성 요소는 이 영역의 너비를 관리하므로 CSS로 설정할 수 없습니다. 기본 대화 상자 영역은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+머리글과 바닥글 사이에 있는 기본 대화 상자 영역에는 대화 상자 컨텐츠가 있습니다. 구성 요소는 모든 경우 이 영역의 너비를 관리하므로 CSS로 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea
 ```
 
-**대화 상자 보기 영역의 CSS 속성 **
+**대화 상자의 CSS 속성 보기 영역 **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
-   <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 이 대화 상자를 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 지정된 경우에는 적용되지 않습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col2"> <p> 주 대화상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 지정된 경우에는 적용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>외부 여백입니다. </p> </td> 
+   <td colname="col2"> <p>외부 여백. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예**  - 기본 대화 상자 영역을 300픽셀 높이로 설정하고 10픽셀 여백을 포함하며 흰색 배경을 사용하려면 다음을 수행합니다.
+**예**  - 기본 대화 상자 영역을 300픽셀 높이로 설정하고 10픽셀 여백을 사용하며 흰색 배경을 사용합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
@@ -561,13 +560,13 @@ background-color: #ffffff;
 }
 ```
 
-레이블 및 입력 필드와 같은 모든 양식 컨텐츠는 다음 CSS 클래스 선택기로 제어되는 컨테이너 내에 있습니다.
+레이블 및 입력 필드와 같은 모든 양식 콘텐츠는 다음 CSS 클래스 선택기를 사용하여 제어되는 컨테이너 내에 있습니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**대화 상자 본문의 CSS 속성 **
+**대화 상자 본문의 CSS 속성**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -578,7 +577,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**예**  - 양식 내용을 10픽셀 패딩으로 설정하는 방법:
+**예**  - 양식 컨텐츠에 10픽셀 패딩을 사용하도록 설정하려면 다음을 수행하십시오.
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -599,27 +598,27 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 두께  </span> </p> </td> 
-   <td colname="col2"> <p>레이블 글꼴 두께. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 크기  </span> </p> </td> 
-   <td colname="col2"> <p>레이블 글꼴 크기. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 모음 레이블을 지정합니다. </p> </td> 
+   <td colname="col2"> <p>글꼴 패밀리에 레이블을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 색상에 레이블을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상  </span> </p> </td> 
+   <td colname="col2"> <p>텍스트 색상을 레이블 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-대화 상자 레이블은 현지화할 수 있습니다. [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
+대화 상자 레이블은 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하십시오.
 
-**예**  - 9픽셀 글꼴로 모든 레이블을 회색으로 설정하고 굵게 설정하려면:
+**예**  - 모든 레이블을 회색으로 설정하고 9픽셀 글꼴로 굵은 글꼴로 설정하려면 다음을 수행합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
@@ -629,13 +628,13 @@ background-color: #ffffff;
 }
 ```
 
-링크 상단에 표시되는 텍스트 사본의 크기는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+링크 상단에 표시되는 텍스트 사본의 크기는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 전체 필드**
+**대화 상자의 CSS 속성 입력 광범위 필드**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -650,7 +649,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**예**  - 텍스트 복사본을 430픽셀 너비로 설정하고 아래쪽에 10픽셀 패딩이 있도록 설정하려면:
+**예**  - 텍스트 복사본을 430픽셀 너비로 설정하고 하단에 10픽셀 패딩을 설정합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
@@ -659,7 +658,7 @@ background-color: #ffffff;
 }
 ```
 
-공유 링크는 컨테이너에 둘러싸여 다음 CSS 클래스 선택기로 제어됩니다.
+공유 링크는 컨테이너에 래핑되고 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
@@ -671,7 +670,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>공유 링크 컨테이너 주위의 테두리. </p> </td> 
+   <td colname="col2"> <p>공유 링크 컨테이너 주위에 테두리가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
@@ -680,7 +679,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**예**  - 포함 코드 텍스트 주위에 1픽셀 회색 테두리를 설정하고 9픽셀의 패딩이 있어야 합니다.
+**예**  - 포함 코드 텍스트 주위에 1픽셀 회색 테두리를 설정하고 9픽셀의 패딩을 포함합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
@@ -689,7 +688,7 @@ background-color: #ffffff;
 }
 ```
 
-공유 링크 자체는 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+공유 링크 자체는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglink
@@ -706,7 +705,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**예**  - 공유 링크를 너비가 450픽셀로 설정하려면:
+**예**  - 공유 링크를 너비 450픽셀로 설정하려면 다음을 수행합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialoglink { 

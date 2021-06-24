@@ -1,21 +1,20 @@
 ---
-description: Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 결과 이미지의 파일 크기(응답 데이터의 양)와 시각적 품질이 간접적으로 달라집니다.
+description: Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 파일 크기(응답 데이터 양)가 변경되고, 간접적으로 결과 이미지의 시각적 품질이 달라집니다.
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 15%
 
 ---
 
-
 # qlt{#qlt}
 
-Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 결과 이미지의 파일 크기(응답 데이터의 양)와 시각적 품질이 간접적으로 달라집니다.
+Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 파일 크기(응답 데이터 양)가 변경되고, 간접적으로 결과 이미지의 시각적 품질이 달라집니다.
 
 ` qlt= *``*[, *`qualitychroma`*]`
 
@@ -26,15 +25,15 @@ Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 크로마  </span> </span> </p> </td> 
-  <td class="stentry"> <p>JPEG 색도성 다운샘플링(0=normal, 1=disable);선택 사항, 기본값은 0입니다. </p> </td> 
+  <td class="stentry"> <p>JPEG 색상 샘플링(0=보통, 1=비활성화);선택 사항이며 기본값은 0입니다. </p> </td> 
  </tr> 
 </table>
 
-`fmt=jpg`인 경우에만 사용됩니다. 그렇지 않은 경우 무시됨
+`fmt=jpg`인 경우에만 사용됩니다. 그렇지 않으면 무시됨
 
 품질 값이 크면 파일 크기가 증가하고 품질이 향상되며, 값이 작으면 파일 크기가 감소하고 인식되는 이미지 품질이 저하됩니다. 값이 90보다 큰 경우 압축되지 않은 이미지와 구분할 수 없는 이미지가 생성되는 경우가 많습니다.
 
-일반적인 JPEG 인코더에 사용되는 RGB 색도 다운샘플링을 비활성화하려면 `chroma` 플래그를 설정합니다. 이렇게 하면 가장자리가 명도가 아니라 색조의 변경으로 정의될 때 이미지의 가장자리 선명도가 높아집니다. 이 플래그를 설정하면 파일 크기가 약간 증가할 수 있습니다. 텍스트가 약간 흐리게 보일 경우 이 설정을 적용해 보십시오.
+일반적인 JPEG 인코딩에 사용되는 RGB 색상 다운 샘플링을 비활성화하려면 `chroma` 플래그를 설정합니다. 이렇게 하면 가장자리가 명도가 아닌 색상 변화에 의해 정의될 때 이미지에서 가장자리의 선명도가 높아집니다. 이 플래그를 설정하면 파일 크기가 약간 늘어날 수 있습니다. 텍스트가 약간 흐린 경우 이 설정을 사용해 보십시오.
 
 `chroma` 출력 픽셀 유형이 CMYK 또는 회색이면 무시됩니다.
 

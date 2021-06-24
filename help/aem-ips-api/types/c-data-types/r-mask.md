@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 마스크
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 12%
+source-wordcount: '75'
+ht-degree: 13%
 
 ---
-
 
 # 마스크{#mask}
 
@@ -23,9 +22,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | 마스크 핸들. |
+| `*`maskHandle`*` | `xsd:string` | 마스크 핸들입니다. |
 | `*`name`*` | `xsd:string` | 마스크 이름. |
 | `*`maskPath`*` | `xsd:string` | 마스크의 상대 경로입니다. |
 | `*`maskFile`*` | `xsd:string` | 마스크 파일. |
 | `*`lastModified`*` | `types:dateTime` | 마스크가 마지막으로 수정된 날짜, 시간 및 시간대입니다. |
-

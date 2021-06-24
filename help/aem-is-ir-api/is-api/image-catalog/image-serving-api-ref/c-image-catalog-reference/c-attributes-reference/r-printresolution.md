@@ -1,25 +1,24 @@
 ---
-description: 기본 인쇄 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그 PrintResolution 값이 포함되지 않을 경우 기본 인쇄 해상도를 제공합니다.
+description: 기본 인쇄 해상도. 특정 카탈로그 레코드에 유효한 카탈로그 PrintResolution 값이 없는 경우 기본 인쇄 해상도를 제공합니다.
 solution: Experience Manager
 title: 인쇄 해상도
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
 
+# 인쇄 해상도{#printresolution}
 
-# PrintResolution{#printresolution}
-
-기본 인쇄 해상도입니다. 특정 카탈로그 레코드에 유효한 카탈로그::PrintResolution 값이 포함되지 않을 경우 기본 인쇄 해상도를 제공합니다.
+기본 인쇄 해상도. 특정 카탈로그 레코드에 유효한 카탈로그:PrintResolution 값이 없는 경우 기본 인쇄 해상도를 제공합니다.
 
 ## 속성 {#section-8f3cffb0f3f3406b81bc967366b241d6}
 
-0보다 큰 정수 숫자. 인치당 도트로 표현됩니다.
+0보다 큰 정수 숫자 인치당 도트로 표현됩니다.
 
 ## 기본값 {#section-b5d70865fe8d40229d8d91404fdf3244}
 

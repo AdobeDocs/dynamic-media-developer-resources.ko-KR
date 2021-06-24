@@ -4,20 +4,19 @@ solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
-
 
 # OperationFaultArray{#operationfaultarray}
 
 CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배열입니다.
 
-**지원 날짜:**
+**지원 기간**
 
 4.5.0, 패치 2011-02
 
@@ -35,8 +34,7 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> 항목</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 유형:OperationFault</span> </p> </td> 
-   <td> <p> CDN으로 인해 발생한 메시지 목록이 요청을 무효화합니다. </p> </td> 
+   <td> <p> CDN 무효화 요청으로 인한 메시지 목록입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

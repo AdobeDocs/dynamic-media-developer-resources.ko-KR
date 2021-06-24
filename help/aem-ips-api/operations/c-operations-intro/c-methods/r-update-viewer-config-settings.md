@@ -2,16 +2,15 @@
 description: SWF 뷰어 구성 설정을 업데이트합니다.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
+feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 13%
 
 ---
-
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
@@ -32,10 +31,10 @@ SWF 뷰어 구성 설정을 업데이트합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
 | `*`configSettingArray`*` | `types:ConfigSettingArray` | 예 | 뷰어에 적용할 구성 설정의 배열입니다. |
 
 **출력(updateViewerConfigSettingsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.

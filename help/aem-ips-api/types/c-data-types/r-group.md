@@ -1,21 +1,20 @@
 ---
-description: 권한을 할당하는 데 사용되는 명명된 사용자 세트입니다.
+description: 권한을 할당하는 데 사용되는 명명된 사용자 집합입니다.
 solution: Experience Manager
 title: 그룹
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 16%
+source-wordcount: '47'
+ht-degree: 17%
 
 ---
 
-
 # 그룹{#group}
 
-권한을 할당하는 데 사용되는 명명된 사용자 세트입니다.
+권한을 할당하는 데 사용되는 명명된 사용자 집합입니다.
 
 구문
 
@@ -26,5 +25,4 @@ ht-degree: 16%
 | `*`groupHandle`*` | `xsd:string` | 그룹 핸들. |
 | `*`companyHandle`*` | `xsd:string` | 회사 핸들. |
 | `*`name`*` | `xsd:string` | 그룹 이름. |
-| `*`is SystemDefined`*` | `xsd:string` | 그룹이 시스템에 의해 정의되는지 여부. |
-
+| `*`시스템 정의`*` | `xsd:string` | 그룹이 시스템에 의해 정의되는지 여부. |

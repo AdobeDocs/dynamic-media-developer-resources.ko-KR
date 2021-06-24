@@ -2,16 +2,15 @@
 description: 자산 세트를 업데이트합니다.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
-
 
 # updateAssetSet{#updateassetset}
 
@@ -27,8 +26,8 @@ ht-degree: 19%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
-| `*`setDefinition`*` | `xsd:string` | 아니요 | 이미지 집합 구성원을 재설정합니다. |
-| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판으로 사용되는 자산의 핸들입니다. |
+| `*`setDefinition`*` | `xsd:string` | 아니요 | 이미지 세트 멤버를 재설정합니다. |
+| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판 역할을 하는 자산의 핸들입니다. |
 
 **출력(updateAssetSetReturn)**
 
@@ -54,4 +53,3 @@ ht-degree: 19%
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-

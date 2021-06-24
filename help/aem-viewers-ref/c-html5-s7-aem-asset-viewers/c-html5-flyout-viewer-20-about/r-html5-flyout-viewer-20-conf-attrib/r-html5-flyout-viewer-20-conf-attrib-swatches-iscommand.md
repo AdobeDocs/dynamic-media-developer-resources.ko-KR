@@ -2,16 +2,15 @@
 description: Swatches.iscommand
 solution: Experience Manager
 title: Swatches.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ed587082-3306-4914-916f-db37a823e199
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 7%
 
 ---
-
 
 # Swatches.iscommand{#swatches-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 모든 견본에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> = </span> 등의 모든 항목을 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP에서 인코딩해야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 모든 견본에 적용되는 이미지 제공 명령 문자열입니다. URL에 지정된 경우 HTTP를 통해 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목을 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>로 각각 인코딩해야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

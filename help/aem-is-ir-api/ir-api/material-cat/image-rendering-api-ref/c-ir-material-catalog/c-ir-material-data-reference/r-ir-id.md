@@ -1,25 +1,24 @@
 ---
-description: 카탈로그 레코드 식별자. 렌더링 서버에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 재료 식별자입니다.
+description: 카탈로그 레코드 식별자입니다. Render Server에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 자재 식별자입니다.
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 2525a9c9-8acb-45a4-b6d1-80d08f63f9f8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 8%
+source-wordcount: '86'
+ht-degree: 9%
 
 ---
 
-
 # ID{#id}
 
-카탈로그 레코드 식별자. 렌더링 서버에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 재료 식별자입니다.
+카탈로그 레코드 식별자입니다. Render Server에서 재료 레코드를 보는 키 값입니다. 일반적으로 SKU 번호와 같은 짧고 고유한 자재 식별자입니다.
 
 ## 속성 {#section-9b20bf2545314620808b4210bce7afc9}
 
-텍스트 문자열. 필수. 각 `catalog::Id` 값은 이 자료 카탈로그 내에서 고유해야 하며 &#39;,&#39; 문자를 포함할 수 없습니다.
+텍스트 문자열입니다. 필수. 각 `catalog::Id` 값은 이 자료 카탈로그 내에서 고유해야 하며 &#39;,&#39; 문자를 포함하지 않아야 합니다.
 
 ## 기본값 {#section-6a517046c43a40a7ba0af0212b5f31d2}
 

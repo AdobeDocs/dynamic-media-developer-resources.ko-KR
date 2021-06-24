@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 4.5의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+description: IPS API 버전 4.5에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 solution: Experience Manager
-title: 작업 새로 만들기 및 수정됨
+title: 새 작업 및 수정된 작업
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
+# 작업:신규 및 수정됨{#operations-new-and-modified}
 
-# 작업:새로 만들기 및 수정됨{#operations-new-and-modified}
-
-IPS API 버전 4.5의 새 작업 방법 및 변경된 작업 방법에 대해 설명합니다.
+IPS API 버전 4.5에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 
 구문
 
@@ -36,15 +35,14 @@ IPS API 버전 4.5의 새 작업 방법 및 변경된 작업 방법에 대해 �
 * `updateTagFieldValues`
 * `updateXMPPacket`
 
-## 수정한 작업 {#section-1c022cc62d274c349837013f1c02ca51}
+## 수정된 작업 {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` 포함 `animatedGifInfo`,  `swcInfo`,  `cssInfo`및  `javascriptInfo` 매개 변수
+* `Asset` 에는  `animatedGifInfo`,  `swcInfo`,  `cssInfo`및  `javascriptInfo` 매개 변수가 포함됩니다.
 
-* `createMetadataField` 선택적 매개 변수를  `isHidden` 포함합니다.
+* `createMetadataField` 에는 선택적  `isHidden` 매개 변수가 포함되어 있습니다.
 
-* `saveMetadataField` 선택적 매개 변수를  `isHidden` 포함합니다.
+* `saveMetadataField` 에는 선택적  `isHidden` 매개 변수가 포함되어 있습니다.
 
 * `searchAssets`
 * 
-* `renameFiles` 매개 변수는 이전 릴리스에 대해 더 이상 사용되지 않으며 `renameAsset` 작업에서 제거되었습니다. 실제 파일 경로는 영향을 받지 않지만, 새 자산 이름과 일치하도록(파일 확장명 유지) 가상 파일 경로가 변경됩니다. API 클라이언트는 새 API 버전으로 업데이트할 때 이 매개 변수에 대한 참조를 제거해야 합니다.
-
+* `renameFiles` 매개 변수는 이전 릴리스에서 더 이상 사용되지 않으며 `renameAsset` 작업에서 제거되었습니다. 가상 파일 경로가 새 자산 이름과 일치하도록(파일 확장명 유지) 변경되지만 실제 파일 경로는 영향을 받지 않습니다. API 클라이언트는 새 API 버전으로 업데이트할 때 이 매개 변수에 대한 참조를 제거해야 합니다.

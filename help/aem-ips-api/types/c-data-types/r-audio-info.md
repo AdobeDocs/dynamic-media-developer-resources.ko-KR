@@ -4,14 +4,13 @@ solution: Experience Manager
 title: AudioInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 51d09533-2964-4b46-b45b-cc65e178ee0a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # AudioInfo{#audioinfo}
 
@@ -26,4 +25,3 @@ ht-degree: 18%
 | `*`originalPath`*` | `xsd:string` | 오디오 파일의 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

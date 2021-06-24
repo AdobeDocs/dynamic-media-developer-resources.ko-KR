@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 작업 매개 변수
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
-
 
 # 작업 매개 변수{#operation-parameters}
 
@@ -22,7 +21,7 @@ ht-degree: 0%
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batchGetAssetPublishContext](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -64,7 +63,7 @@ ht-degree: 0%
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
 * [getActivePublishContext](r-get-active-publish-contexts.md)
-* [getAllCompany](r-get-all-companies.md)
+* [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
 * [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
@@ -148,7 +147,7 @@ ht-degree: 0%
 * [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
 * [setGroupMembership](r-set-group-membership.md)
-* [setImageMaps](r-set-image-maps.md)
+* [setImageMap](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
 * [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
 * [setImageServingPublishSettings](r-set-image-serving-publish-settings.md)

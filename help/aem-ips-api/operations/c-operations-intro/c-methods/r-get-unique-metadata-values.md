@@ -2,16 +2,15 @@
 description: 고유한 메타데이터 필드 값을 가져옵니다.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -35,7 +34,7 @@ ht-degree: 24%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`fieldHandle`*` | `xsd:string` | 아니요 | 메타데이터 필드를 처리합니다. |
 
 **출력(getUniqueMetadataValuesReturn)**
@@ -66,4 +65,3 @@ ht-degree: 24%
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-

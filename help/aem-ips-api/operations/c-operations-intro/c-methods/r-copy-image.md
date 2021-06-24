@@ -1,21 +1,20 @@
 ---
-description: 기존 이미지 자산의 사본을 만듭니다. 지정한 이미지 서버 프로토콜 명령이 새 복사본을 생성하기 위해 적용됩니다
+description: 기존 이미지 자산의 사본을 만듭니다. 지정한 Image Server 프로토콜 명령을 사용하여 새 복사본을 생성합니다
 solution: Experience Manager
 title: copyImage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 13%
 
 ---
 
-
 # copyImage{#copyimage}
 
-기존 이미지 자산의 사본을 만듭니다. 지정한 이미지 서버 프로토콜 명령이 새 복사본을 생성하기 위해 적용됩니다
+기존 이미지 자산의 사본을 만듭니다. 지정한 Image Server 프로토콜 명령을 사용하여 새 복사본을 생성합니다
 
 구문
 
@@ -44,31 +43,31 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>이미지가 포함된 회사의 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>이미지 자산의 핸들입니다. </p> </td> 
+   <td colname="col4"> <p>이미지 자산에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>이미지를 복사할 폴더에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 이름</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>새 이미지의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
@@ -89,9 +88,9 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>복사된 이미지의 핸들입니다. </p> </td> 
+   <td colname="col4"> <p>복사한 이미지의 핸들입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,4 +118,3 @@ ht-degree: 13%
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-

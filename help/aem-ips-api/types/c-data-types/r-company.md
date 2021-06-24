@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 회사
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 28%
+source-wordcount: '37'
+ht-degree: 29%
 
 ---
-
 
 # 회사{#company}
 
@@ -26,5 +25,4 @@ ht-degree: 28%
 | `*`companyHandle`*` | `xsd:string` | 회사 핸들. |
 | `*`name`*` | `xsd:string` | 회사 이름. |
 | `*`rootPath`*` | `xsd:string` | 회사의 루트 경로입니다. |
-| `*`expires`*` | `xsd:dateTime` | 회사가 만료되는 날짜 및 시간입니다. |
-
+| `*`expires`*` | `xsd:dateTime` | 회사가 만료된 날짜 및 시간입니다. |

@@ -1,25 +1,24 @@
 ---
-description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
+description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 233fadf5-4b09-406d-959b-c2c9c4524021
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '97'
 ht-degree: 3%
 
 ---
 
-
 # setHandlers{#sethandlers}
 
-인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
+인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
 
 `setHandlers(handlers)`
 
-콜백 핸들러를 0개 이상 지정합니다. 이 메서드를 호출하면 해당 뷰어 인스턴스에 대해 이전에 할당된 이벤트 핸들러를 덮어씁니다. `init()` 이전에 호출해야 합니다.
+콜백 처리기를 0개 이상 지정합니다. 이 메서드 호출은 해당 뷰어 인스턴스에 대해 이전에 할당한 이벤트 핸들러를 완전히 덮어씁니다. `init()` 앞에 를 호출해야 합니다.
 
 ## 매개 변수 {#section-0cc9961784d04eb3b7d50011309b0119}
 
@@ -27,12 +26,12 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 핸들러  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 뷰어 이벤트 콜백이 있는 {Object}  </span> JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고 속성 값은 해당 콜백에 대한 JavaScript 함수 참조입니다. </p> <p>뷰어 이벤트에 대한 자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 뷰어 이벤트 콜백이 있는 {Object}  </span> JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. </p> <p>뷰어 이벤트에 대한 자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a> 을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 없음.
 
@@ -45,4 +44,3 @@ ht-degree: 3%
 } 
 })
 ```
-

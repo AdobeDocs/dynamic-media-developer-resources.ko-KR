@@ -1,21 +1,20 @@
 ---
-description: Photoshop 파일 속성을 참조하십시오.
+description: Photoshop 파일 속성.
 solution: Experience Manager
 title: PsdInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 620cf7a3-ae69-4d1e-af3d-64fe7f0302c8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
 
-
 # PsdInfo{#psdinfo}
 
-Photoshop 파일 속성을 참조하십시오.
+Photoshop 파일 속성.
 
 구문
 
@@ -23,9 +22,8 @@ Photoshop 파일 속성을 참조하십시오.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 파일 경로. |
+| `*`originalPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
-| `*`optimizedPath`*` | `xsd:string` | 파일 경로. |
+| `*`optimizedPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`optimizedFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

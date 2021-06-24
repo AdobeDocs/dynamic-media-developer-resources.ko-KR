@@ -4,26 +4,25 @@ solution: Experience Manager
 title: DefaultPix
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 709fb2a1-1b9d-421e-9a65-5f5c74390ce3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
-
 
 # DefaultPix{#defaultpix}
 
 기본 보기 크기입니다.
 
-요청이 `wid=`, `hei=` 또는 `scl=`를 사용하여 명시적으로 보기 크기를 지정하지 않을 경우 서버는 응답 이미지를 이 폭 및 높이보다 작게 제한합니다.
+요청이 `wid=`, `hei=` 또는 `scl=`를 사용하여 명시적으로 보기 크기를 지정하지 않는 경우 서버가 이 너비와 높이보다 크지 않은 회신 이미지를 제한합니다.
 
 ## 속성 {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-0 이상의 정수를 쉼표로 구분하여 2개의 정수입니다. 폭과 높이(픽셀 단위) 두 값 중 하나 또는 둘 모두를 0으로 설정하여 제한되지 않도록 할 수 있습니다.
+2개의 정수(0 이상)로 쉼표로 구분됩니다. 너비와 높이(픽셀 단위)입니다. 두 값 중 하나 또는 둘 다 0으로 설정하여 제약 조건을 해제할 수 있습니다.
 
-중첩/포함된 요청에 적용되지 않습니다.
+중첩/포함된 요청에는 적용되지 않습니다.
 
 ## 기본값 {#section-b7338b2bf5114fff83b0714a57b20639}
 

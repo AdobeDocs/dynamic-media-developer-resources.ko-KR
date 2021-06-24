@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 기본 문자 서식
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 8%
 
 ---
-
 
 # 기본 문자 서식{#basic-character-formatting}
 
@@ -34,21 +33,21 @@ ht-degree: 8%
   <tr> 
    <td> <span class="codeph"> \f  <span class="varname"> N  </span> </span> </td> 
    <td> <p>글꼴면. </p> </td> 
-   <td> <p> <span class="codeph"> \fontbl  </span> 인덱스. </p> </td> 
+   <td> <p> <span class="codeph"> \fonttbl  </span> 색인입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>글꼴 크기. </p> </td> 
+   <td> <p>글꼴 크기입니다. </p> </td> 
    <td> <p>반점;기본값은 24입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf  <span class="varname"> N  </span> </span> </td> 
    <td> <p>글꼴 색상. </p> </td> 
-   <td> <p>0부터 시작하는 색인을 색상표로 만듭니다. </p> </td> 
+   <td> <p>색상표에 0기반 색인을 사용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \b </span> </td> 
-   <td> <p>굵은 스타일. </p> </td> 
+   <td> <p>굵게 스타일. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -69,10 +68,10 @@ ht-degree: 8%
   <tr valign="top"> 
    <td> <span class="codeph"> \ul  </span> </td> 
    <td> <p>밑줄. </p> </td> 
-   <td> <p>이미지 제공은 다음 RTF 밑줄 명령도 인식합니다. </p> <p> 
+   <td> <p>Image Serving은 다음 RTF 밑줄 명령도 인식합니다. </p> <p> 
      <ul id="ul_EF2077DD51F94E2E94D8F1FA661F95DE"> 
       <li id="li_F9382148CCCC4A6AB373DD96D28B71EE"> <span class="codeph"> \d  </span> </li> 
-      <li id="li_141276B2082E4AD0A8C7D3BDDADD6EE2"> <span class="codeph"> \uludash  </span> </li> 
+      <li id="li_141276B2082E4AD0A8C7D3BDDADD6EE2"> <span class="codeph"> \uldash  </span> </li> 
       <li id="li_32CE2C69EEFE462FB21F49FF52A65B0B"> <span class="codeph"> \uldashd  </span> </li> 
       <li id="li_DCF3CD4F884845A5A6B84BDD8DB3A572"> <span class="codeph"> \uldashd  </span> </li> 
       <li id="li_FDEF96CCE14D41BDB878AADCFF73068F"> <span class="codeph"> \uldb  </span> </li> 
@@ -82,7 +81,7 @@ ht-degree: 8%
      </ul> </p> <p>현재 표준 <span class="codeph"> \ul </span> 밑줄로 구현됩니다. 다른 모든 RTF 밑줄 명령은 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \url  </span> </td> 
+   <td> <span class="codeph"> \ulnone  </span> </td> 
    <td> <p>밑줄 끄기 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -103,4 +102,3 @@ ht-degree: 8%
   </tr> 
  </tbody> 
 </table>
-

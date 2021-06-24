@@ -1,29 +1,28 @@
 ---
-description: CMYK 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 CMYK 재질 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+description: CMYK 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 CMYK 재료 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 solution: Experience Manager
 title: IccProfileSrcCmyk
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 09be34c8-facc-40c3-ba15-c48bd93b3be1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
-
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-CMYK 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 CMYK 재질 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
+CMYK 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 CMYK 재료 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 
 ## 속성 {#section-0cee77438d914c319ec876edb3490821}
 
-텍스트 문자열. 지정된 경우 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로필은 CMYK 프로파일이어야 합니다.
+텍스트 문자열입니다. 지정한 경우 이 이미지 카탈로그나 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로파일은 CMYK 프로파일이어야 합니다.
 
 ## 기본값 {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-정의되지 않았거나 비어 있는 경우 `default::IccProfileSrcCmyk`에서 상속됩니다. `attribute::IccProfileSrcCmyk`이(가) 유효한 프로필로 확인되지 않으면 `attribute::IccProfileCmyk`이(가) 대신 사용됩니다.
+정의되지 않았거나 비어 있는 경우 `default::IccProfileSrcCmyk`에서 상속됩니다. `attribute::IccProfileSrcCmyk`이 유효한 프로필로 확인되지 않으면 `attribute::IccProfileCmyk`이 대신 사용됩니다.
 
 ## 참조 {#section-88adddd70265459a9a5d2f50829a4ba7}
 

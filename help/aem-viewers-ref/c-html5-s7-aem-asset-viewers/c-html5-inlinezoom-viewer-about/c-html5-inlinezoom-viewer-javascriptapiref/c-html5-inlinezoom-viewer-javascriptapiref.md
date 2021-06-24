@@ -1,21 +1,20 @@
 ---
-description: 인라인 확대/축소 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에 선언됩니다. 이 JavaScript API는 이 특정 클래스의 생성자, 메서드 및 호출 백에 대해 다룹니다.
+description: 인라인 확대/축소 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 호출 백을 다룹니다.
 solution: Experience Manager
 title: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
 # 인라인 확대/축소 뷰어에 대한 JavaScript API 참조{#javascript-api-reference-for-inline-zoom-viewer}
 
-인라인 확대/축소 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에 선언됩니다. 이 JavaScript API는 이 특정 클래스의 생성자, 메서드 및 호출 백에 대해 다룹니다.
+인라인 확대/축소 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 호출 백을 다룹니다.
 
 다음 모든 예에서 `<instance>`은 `s7viewers.FlyoutViewer` 클래스에서 인스턴스화된 JavaScript 뷰어 개체의 실제 이름을 나타냅니다.
 

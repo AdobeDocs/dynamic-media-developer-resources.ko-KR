@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 21%
 
 ---
-
 
 # getXMPPacket{#getxmppacket}
 
@@ -31,18 +30,18 @@ ht-degree: 21%
 
 ## 매개 변수 {#section-b4075df0e4414b00b961d978d5471db9}
 
-**입력(getXMPPacketParam**
+**입력(getXMPPacketParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사에서 반환할 패킷과 함께 처리합니다(예: `c|656`). |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사에서 반환할 패킷(예: `c|656`)을 사용하여 처리합니다. |
 | `*`assetHandle`*` | `xsd:string` | 예 | XMP 패킷을 검색해야 하는 자산입니다. |
 
 **출력(getXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷. |
+| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷 을 참조하십시오. |
 
 ## 예제 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
@@ -68,4 +67,3 @@ ht-degree: 21%
    </compressedPacket>
 </getXMPPacketReturn>
 ```
-

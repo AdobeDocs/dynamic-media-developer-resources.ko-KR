@@ -2,13 +2,12 @@
 description: CarouselView.iscommand
 solution: Experience Manager
 title: CarouselView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> 배너 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>으로 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td colname="col2"> <p> 배너 이미지에 적용되는 이미지 제공 명령 문자열입니다. URL에 지정된 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목은 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,6 +39,6 @@ ht-degree: 8%
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-구성 데이터에 지정된 경우:
+구성 데이터에 지정되는 경우:
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

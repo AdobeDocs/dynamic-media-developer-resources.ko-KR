@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '37'
+ht-degree: 18%
 
 ---
-
 
 # PdfSettingsInfo{#pdfsettingsinfo}
 
@@ -23,7 +22,6 @@ PDF 설정 파일 자산의 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 파일 경로. |
+| `*`originalPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

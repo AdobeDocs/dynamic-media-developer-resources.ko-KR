@@ -2,13 +2,12 @@
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽|가운데|오른쪽</span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 가로 정렬(또는 고정)을 지정합니다. </p> <p>클릭유도에서 내부 축소판 컨테이너의 크기는 전체 축소판 수만 표시되도록 합니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 패딩이 있습니다. </p> <p>이 수정자는 구성 요소 내에서 내부 축소판 컨테이너가 수평으로 위치하는 방식을 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 영역 내의 축소판 컨테이너의 내부 수평 정렬(또는 고정)을 지정합니다. </p> <p>Call-to-Action에서는 내부 축소판 컨테이너의 크기가 지정되므로 전체 축소판만 표시됩니다. 따라서 내부 컨테이너와 외부 구성 요소 경계 사이에 약간의 패딩이 있습니다. </p> <p>이 수정자는 구성 요소 내에서 내부 축소판 컨테이너를 가로로 배치하는 방법을 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

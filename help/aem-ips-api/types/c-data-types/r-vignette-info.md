@@ -4,14 +4,13 @@ solution: Experience Manager
 title: VignetteInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f9142082-5f49-4133-aab4-c07a14f8a16b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 13%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
-
 
 # VignetteInfo{#vignetteinfo}
 
@@ -23,11 +22,10 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 파일의 경로입니다. |
+| `*`originalPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
 | `*`imagePath`*` | `xsd:string` | 이미지의 경로입니다. |
 | `*`imageFile`*` | `xsd:string` |  |
-| `*`optimizedPath`*` | `xsd:string` | 파일에 대한 최적화된 경로입니다. |
-| `*`optimizedFile`*` | `xsd:string` | 최적화된 파일 이름. |
-
+| `*`optimizedPath`*` | `xsd:string` | 파일 경로가 최적화되었습니다. |
+| `*`optimizedFile`*` | `xsd:string` | 파일 이름이 최적화되었습니다. |

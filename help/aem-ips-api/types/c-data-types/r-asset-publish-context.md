@@ -1,21 +1,20 @@
 ---
-description: 자산을 게시로 표시된 게시 컨텍스트에 자산을 매핑합니다.
+description: 자산을 게시할 자산이 표시된 PublishContexts에 자산을 매핑합니다.
 solution: Experience Manager
-title: AssetPublishContext
-feature: Dynamic Media Classic,SDK/API,Asset Management
+title: AssetPublishContexts
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
-
 # AssetPublishContexts{#assetpublishcontexts}
 
-자산을 게시로 표시된 게시 컨텍스트에 자산을 매핑합니다.
+자산을 게시할 자산이 표시된 PublishContexts에 자산을 매핑합니다.
 
 구문
 
@@ -24,5 +23,4 @@ ht-degree: 7%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 자산을 처리합니다. |
-| `*`publishContextArray`*` | `types:PublishContextArray` | 자산이 게시에 대해 표시되어 있는 게시 컨텍스트의 배열입니다. |
-
+| `*`publishContextArray`*` | `types:PublishContextArray` | 자산이 게시용으로 표시된 게시 컨텍스트의 배열입니다. |

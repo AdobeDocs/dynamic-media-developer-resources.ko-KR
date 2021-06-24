@@ -4,23 +4,22 @@ solution: Experience Manager
 title: 카탈로그 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
-
-# 카탈로그 특성{#catalog-attributes}
+# 카탈로그 속성{#catalog-attributes}
 
 이 섹션에 설명된 속성은 카탈로그 속성 파일에서 인식됩니다.
 
 * [카탈로그 관리](r-catalog-management.md)
 * [요청 속성](r-request-attributes.md)
 * [기본 요청 속성](r-default-request-attributes.md)
-* [색상 관리 특성](r-color-management-attributes.md)
-* [공통 축소판 속성](r-common-thumbnail-attributes.md)
+* [색상 관리 속성](r-color-management-attributes.md)
+* [일반적인 축소판 속성](r-common-thumbnail-attributes.md)
 * [카탈로그 필드의 기본값](r-defaults-for-catalog-fields.md)
 * [비디오 속성](r-video-attributes.md)

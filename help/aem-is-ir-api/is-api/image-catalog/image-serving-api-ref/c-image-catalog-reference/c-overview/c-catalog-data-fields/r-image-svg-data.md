@@ -1,17 +1,16 @@
 ---
 description: 다음 필드는 이미지 및 SVG 데이터 파일에서 인식됩니다.
 solution: Experience Manager
-title: 이미지_SVG 데이터
+title: Image_SVG 데이터
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
-
 
 # Image_SVG 데이터{#image-svg-data}
 
@@ -28,25 +27,25 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-## 요청 특성 {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
+## 요청 속성 {#section-cfe69bcdcd4b4d129e99d11b9078ae4a}
 
 <table id="table_C070C676835F49918E1B3BBF81471B09"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba" type="reference" format="dita" scope="local"> DigimarcInfo</a></span> </p> </td> 
-   <td colname="col2"> <p>Digimarc 포함에 대한 이미지 관련 정보. </p> </td> 
+   <td colname="col2"> <p>Digimarc 임베딩에 대한 이미지 특정 정보입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> 만료</a></span> </p> </td> 
-   <td colname="col2"> <p>회신 이미지에 대한 캐시 만료(실시간 시간)입니다. </p> </td> 
+   <td colname="col2"> <p>회신 이미지에 대한 캐시 만료(Time-to-Live). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> 수정자</a> </span> </p> </td> 
-   <td colname="col2"> <p>접두사 요청 수정자. </p> </td> 
+   <td colname="col2"> <p>접두사 요청 한정자입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModifier</a> </span> </p> </td> 
-   <td colname="col2"> <p>Postfix 요청 수정자를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Postfix 요청 수정자. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> 타임스탬프</a></span> </p> </td> 
@@ -55,29 +54,29 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-## 이미지 특성 {#section-74c4d124255d4218ade87d7d1677c76d}
+## 이미지 속성 {#section-74c4d124255d4218ade87d7d1677c76d}
 
 <table id="table_F2A33C2EB17A4EACB00DDEF7FB1BB0D4"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> 앵커</a></span> </p> </td> 
-   <td colname="col2"> <p>이미지 기준점. </p> </td> 
+   <td colname="col2"> <p>이미지 고정점. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> 마스크 패스</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> MaskPath</a></span> </p> </td> 
    <td colname="col2"> <p>마스크 파일 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> 경로</a></span> </p> </td> 
-   <td colname="col2"> <p>이미지/SVG 파일 경로. </p> </td> 
+   <td colname="col2"> <p>이미지/SVG 파일 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> 인쇄 해상도</a></span> </p> </td> 
    <td colname="col2"> <p>인쇄 해상도. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> 해상도</a></span> </p> </td> 
-   <td colname="col2"> <p>개체 해상도를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> 해결 방법</a></span> </p> </td> 
+   <td colname="col2"> <p>개체 해상도. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-size-cat.md" type="reference" format="dita" scope="local"> 크기</a></span> </p> </td> 
@@ -86,17 +85,17 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-## 축소판 특성 {#section-c5ac27bcd4224a80b7f42ead249027b1}
+## 축소판 속성 {#section-c5ac27bcd4224a80b7f42ead249027b1}
 
 <table id="table_E07909B6C16F4D9686ADA381A4178E25"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
-   <td colname="col2"> <p>축소판 해상도를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>축소판 그림 해상도. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbtype-cat.md#reference-41149ddffc8749cba2f8d9c8e2611e03" type="reference" format="dita" scope="local"> ThumbType</a></span> </p> </td> 
-   <td colname="col2"> <p>축소판 유형. </p> </td> 
+   <td colname="col2"> <p>축소판 그림 유형. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,15 +110,15 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md" type="reference" format="dita" scope="local"> ImageSet</a></span> </p> </td> 
-   <td colname="col2"> <p>이미지 집합 데이터. </p> </td> 
+   <td colname="col2"> <p>이미지 세트 데이터. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md" type="reference" format="dita" scope="local"> 지도</a></span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 데이터. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md" type="reference" format="dita" scope="local"> 맵</a></span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 데이터입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Target</a></span> </p> </td> 
-   <td colname="col2"> <p>대상 데이터를 확대/축소합니다. </p> </td> 
+   <td colname="col2"> <p>대상 데이터 확대/축소. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
@@ -127,4 +126,3 @@ ht-degree: 3%
   </tr> 
  </tbody> 
 </table>
-

@@ -1,25 +1,24 @@
 ---
-description: RGB 기본 출력 색상 프로파일. icc=로 출력 색상 공간을 지정하지 않을 때 RGB 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 bgc= 및 color=와 같은 다양한 이미지 렌더링 명령으로 지정된 특정 RGB 색상 값에 대해 지정합니다.
+description: RGB 기본 출력 색상 프로파일입니다. icc=로 출력 색상 공간이 지정되지 않은 경우 RGB 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 bgc= 및 color= 등의 다양한 이미지 렌더링 명령으로 지정된 특정 RGB 색상 값에 대해 지정합니다.
 solution: Experience Manager
 title: IccProfileRgb
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4057e968-24de-41af-9901-a6cb5ed9ea63
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 2%
 
 ---
 
-
 # IccProfileRgb{#iccprofilergb}
 
-RGB 기본 출력 색상 프로파일. icc=로 출력 색상 공간을 지정하지 않을 때 RGB 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 bgc= 및 color=와 같은 다양한 이미지 렌더링 명령으로 지정된 특정 RGB 색상 값에 대해 지정합니다.
+RGB 기본 출력 색상 프로파일입니다. icc=로 출력 색상 공간이 지정되지 않은 경우 RGB 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 bgc= 및 color= 등의 다양한 이미지 렌더링 명령으로 지정된 특정 RGB 색상 값에 대해 지정합니다.
 
 ## 속성 {#section-b4a1bd92e99047479a5036413525a6d9}
 
-텍스트 문자열. 지정된 경우 이 자료 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로필은 RGB 프로필이어야 합니다.
+텍스트 문자열입니다. 지정한 경우 이 자료 카탈로그나 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로파일은 RGB 프로파일이어야 합니다.
 
 ## 기본값 {#section-5809772f8e96438ab7626d323c66a4ba}
 

@@ -1,21 +1,20 @@
 ---
-description: 회사 취급에 의해 지정된 회사의 사용자를 반환합니다.
+description: 회사 핸들에 의해 지정된 회사의 사용자를 반환합니다.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
-
 # getCompanyMembers{#getcompanymembers}
 
-회사 취급에 의해 지정된 회사의 사용자를 반환합니다.
+회사 핸들에 의해 지정된 회사의 사용자를 반환합니다.
 
 구문
 
@@ -32,8 +31,8 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사에 대한 핸들입니다. |
-| `*`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사 포함. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사의 손잡이입니다. |
+| `*`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사를 포함합니다. |
 
 **출력(getCompanyMembersReturn)**
 
@@ -43,7 +42,7 @@ ht-degree: 16%
 
 ## 예제 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-이 코드 샘플은 사용자 배열에 있는 회사의 모든 구성원을 반환합니다. 잠시 동안 응답이 잘렸습니다.
+이 코드 샘플은 사용자 배열에 있는 회사의 모든 멤버를 반환합니다. 간결성을 위해 응답이 잘렸습니다.
 
 **요청**
 
@@ -72,4 +71,3 @@ ht-degree: 16%
    </memberArray>
 </getCompanyMembersReturn>
 ```
-

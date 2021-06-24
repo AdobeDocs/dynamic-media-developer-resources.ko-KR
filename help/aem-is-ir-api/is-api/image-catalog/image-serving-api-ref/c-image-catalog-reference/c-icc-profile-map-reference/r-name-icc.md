@@ -1,25 +1,24 @@
 ---
-description: 프로필 바로 가기 이름. 색상 프로파일의 바로 가기 이름입니다.
+description: 프로필 바로 가기 이름. 색상 프로필의 바로 가기 이름입니다.
 solution: Experience Manager
 title: 이름
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 197197c9-ac2b-406e-ae1e-722577767bdc
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
 # 이름{#name}
 
-프로필 바로 가기 이름. 색상 프로파일의 바로 가기 이름입니다.
+프로필 바로 가기 이름. 색상 프로필의 바로 가기 이름입니다.
 
 ## 속성 {#section-30fc50f71f4a4ea7b14b2524d1f2b698}
 
-텍스트 문자열. 필수. ICC 프로필 맵의 기본 색인 키 각 `icc::Name` 값은 테이블 내에서 고유해야 하며 &#39;,&#39; 문자를 포함할 수 없습니다.
+텍스트 문자열입니다. 필수. ICC 프로필 맵의 기본 인덱스 키입니다. 각 `icc::Name` 값은 테이블 내에서 고유해야 하며 &#39;,&#39; 문자를 포함할 수 없습니다.
 
 ## 기본값 {#section-47a56671d1e94497aa7ea83fe9590c05}
 

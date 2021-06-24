@@ -1,21 +1,20 @@
 ---
-description: 자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열로 작업하여 값을 일괄적으로 설정할 수 있습니다.
+description: 자산에 대한 메타데이터 값을 설정합니다. 묶음으로 값을 설정하는 메타데이터 업데이트 배열과 함께 작동합니다.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setAssetMetadata{#setassetmetadata}
 
-자산에 대한 메타데이터 값을 설정합니다. 메타데이터 업데이트 배열로 작업하여 값을 일괄적으로 설정할 수 있습니다.
+자산에 대한 메타데이터 값을 설정합니다. 묶음으로 값을 설정하는 메타데이터 업데이트 배열과 함께 작동합니다.
 
 구문
 
@@ -38,13 +37,13 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 업데이트할 자산이 있는 회사에 대한 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산의 핸들입니다. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | 예 | 메타데이터 업데이트 배열에서 업데이트합니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 업데이트할 자산이 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 자산에 대한 핸들입니다. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | 예 | 메타데이터 업데이트 배열의 업데이트. |
 
 **출력(setAssetMetadataReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 

@@ -1,31 +1,30 @@
 ---
-description: 접두사 요청 수정자 문자열. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
+description: 접두사 요청 수정자 문자열입니다. '&' 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
 solution: Experience Manager
 title: 수정자
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 7%
 
 ---
 
-
 # 수정자{#modifier}
 
-접두사 요청 수정자 문자열. &#39;&amp;&#39; 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
+접두사 요청 수정자 문자열입니다. &#39;&amp;&#39; 문자로 구분된 이미지 제공 명령이 하나 이상 없습니다.
 
 이미지를 지속적으로 수정하고 템플릿 본문을 저장하는 데 사용됩니다.
 
-이 필드의 명령은 이 레코드를 참조하는 요청이나 템플릿의 명령과 `catalog::PostModifier`의 명령에 의해 재정의됩니다
+이 필드의 명령은 이 레코드를 참조하는 요청 또는 템플릿의 동일한 명령과 `catalog::PostModifier`의 명령에 의해 재정의됩니다
 
-매크로는 동일한 카탈로그 또는 기본 카탈로그에 정의된 한 `catalog::Modifier`에서 허용됩니다. 사용자 지정 변수도 사용할 수 있습니다.
+매크로는 동일한 카탈로그나 기본 카탈로그에서 정의된 한 `catalog::Modifier`에서 허용됩니다. 사용자 지정 변수도 사용할 수 있습니다.
 
 ## 속성 {#section-6674388f77d644469371a17e8809c45f}
 
-텍스트 문자열. 선택 사항입니다.
+텍스트 문자열입니다. 선택 사항입니다.
 
 ## 기본값 {#section-f4ffe8b75792435c8b1040e75c5fb8a1}
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setElement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 979e6070-6e24-4caf-9d87-2c80b734c996
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '68'
 ht-degree: 1%
 
 ---
-
 
 # setElement{#setelement}
 
@@ -19,11 +18,11 @@ XML을 s7:elementID로 설정합니다.
 
 `setElement.elementID=<XML>`
 
-FXG 노드 요소에 `s7:elementID`이(가) 정의된 경우 `<XML>` 값이 하위 요소로 바뀝니다. `<XML>`은(는) 인코딩되어야 합니다.
+FXG 노드 요소에 `s7:elementID`이 정의된 경우 `<XML>` 값이 하위 요소로 대체됩니다. `<XML>`을 인코딩해야 합니다.
 
 ## 예 {#section-f23a998b18994dd3b5d4e1965718db9f}
 
-`s7:elementID="group2"` 속성이 `Group` 노드에 정의되면 다음 속성이 유효하다고 가정합니다.
+`Group` 노드에 대해 `s7:elementID="group2"` 속성이 정의되어 있다고 가정하십시오. 그러면 다음 속성이 유효합니다.
 
 `&setElement.group2=<TextGraphic+fontFamily%3D"DefaultFont"+fontSize%3D"50"+x%3D"20"+y%3D"500"><content><p><span>New+Text+Graphic+Tag+For+Demo<%2Fspan><%2Fp><%2Fcontent><%2FTextGraphic>`
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 4%
 
 ---
-
 
 # PropertySetType{#propertysettype}
 
@@ -36,29 +35,28 @@ PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 문자 핸들. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Type handle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3">회사 핸들. <p>참고: 회사 핸들이 없는 경우 유형은 global입니다. </p></td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">회사 핸들. <p>참고: 회사 핸들이 없으면 유형이 전역적입니다. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> 이름을 입력합니다. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 이름 입력. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">속성 집합 유형 중 하나입니다. 입력(<span class="codeph"> createPropertySetTypeParam</span>)을 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> 여러 속성 집합 인스턴스를 이 유형의 개체에 첨부할 수 있도록 허용할지 여부. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col3"> 여러 속성 집합 인스턴스를 이 유형의 개체에 연결할 수 있는지 여부 </td> 
   </tr> 
  </tbody> 
 </table>
-

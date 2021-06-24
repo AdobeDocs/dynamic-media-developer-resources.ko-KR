@@ -1,23 +1,22 @@
 ---
 description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시지.
 solution: Experience Manager
-title: 작업 오류
+title: 작업 장애
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 11%
 
 ---
 
-
-# OperationFault{#operationfault}
+# 작업 장애{#operationfault}
 
 CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시지.
 
-**지원 날짜:**
+**지원 기간**
 
 4.5.0, 패치 2011-02
 
@@ -27,4 +26,3 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시�
 |---|---|---|
 | `*`코드`*` | `xsd:int` | CDN에서 제공된 오류 코드 |
 | `*`이유`*` | `xsd:string` | CDN에서 제공된 오류 메시지 |
-

@@ -1,21 +1,20 @@
 ---
-description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
+description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 권한을 관리합니다.
 solution: Experience Manager
 title: 권한
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 18e5f8f6-3cbe-4d36-b02a-5a3002e4498c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
-
 # 권한{#permission}
 
-그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 수 있는 권한을 관리합니다.
+그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 권한을 관리합니다.
 
 구문
 
@@ -25,7 +24,6 @@ ht-degree: 8%
 |---|---|---|
 | `*`groupHandle`*` | `xsd:string` | 그룹 핸들. |
 | `*`groupName`*` | `xsd:string` | 그룹 이름. |
-| `*`permissionType`*` | `xsd:string` | 권한 유형 선택. |
+| `*`permissionType`*` | `xsd:string` | 권한 유형을 선택합니다. |
 | `*`isAllowed`*` | `xsd:boolean` | 권한이 허용되는지 확인합니다. |
-| `*`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 확인합니다. |
-
+| `*`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |

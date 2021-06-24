@@ -4,22 +4,21 @@ solution: Experience Manager
 title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 9%
 
 ---
-
 
 # addCompany{#addcompany}
 
 시스템에 회사를 추가합니다.
 
-시스템에 추가할 회사의 이름을 보내고 선택적으로 회사가 만료되는지 여부를 전송합니다.
+시스템에 추가할 회사의 이름을 보내고 선택적으로 회사가 만료되는지 여부를 보냅니다.
 
-이 작업을 호출하면 시스템이 회사 핸들 및 설명 필드를 포함하는 `*`companyInfo`*` 유형을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이(가) 발생합니다.
+이 작업이 호출되면 시스템은 회사 핸들과 설명 필드를 포함하는 `*`companyInfo`*` 유형을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이 발생합니다.
 
 ## 인증된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 
@@ -43,7 +42,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>추가할 회사의 이름입니다. </p> </td> 
   </tr> 
@@ -51,7 +50,7 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>회사의 만료 날짜입니다. 이 필드에 대한 요청을 표준 시간대로 제공합니다. 시간대는 중부 시간으로 조정됩니다. </p> </td> 
+   <td colname="col4"> <p>회사의 만료 날짜입니다. 이 필드에 대한 요청을 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,9 +69,9 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>새 회사의 주소 및 이름, 루트 경로, 만료 날짜 및 시간을 처리합니다. </p> </td> 
+   <td colname="col4"> <p>새 회사의 및 이름, 루트 경로, 만료 날짜 및 시간을 처리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -101,4 +100,3 @@ ht-degree: 9%
    </ns1:companyInfo>
 </ns1:addCompanyReturn>
 ```
-

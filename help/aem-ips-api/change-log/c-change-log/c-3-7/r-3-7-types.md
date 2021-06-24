@@ -1,21 +1,20 @@
 ---
-description: IPS API 버전 3.7의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+description: IPS API 버전 3.7의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 solution: Experience Manager
-title: 데이터 유형 새로 만들기 및 수정됨
+title: 신규 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
 
+# 데이터 유형:신규 및 수정됨{#data-types-new-and-modified}
 
-# 데이터 유형:새로 만들기 및 수정됨{#data-types-new-and-modified}
-
-IPS API 버전 3.7의 새로운 데이터 유형 및 변경된 데이터 유형에 대해 설명합니다.
+IPS API 버전 3.7의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 
 구문
 
@@ -29,9 +28,8 @@ IPS API 버전 3.7의 새로운 데이터 유형 및 변경된 데이터 유형�
 * `ScheduledJob`
 * `ScheduledJobArray`
 
-## 수정된 형식 {#section-f2d4635d912545c5964820b8cd1e62ad}
+## 수정된 유형 {#section-f2d4635d912545c5964820b8cd1e62ad}
 
 **자산**
 
-* `ZipInfo`이(가) 추가되었습니다.
-
+* `ZipInfo`을 추가했습니다.

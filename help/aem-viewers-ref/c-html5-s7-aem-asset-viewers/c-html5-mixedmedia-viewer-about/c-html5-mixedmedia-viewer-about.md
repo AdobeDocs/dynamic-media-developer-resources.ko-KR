@@ -88,11 +88,11 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
 
-## 혼합 미디어 뷰어 {#section-6bb5d3c502544ad18a58eafe12a13435} 포함
+## 혼합 미디어 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하는데, 이 링크를 클릭하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우 호스팅 페이지에 뷰어 권한을 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다.팝업, 고정 크기 포함 및 반응형 디자인 포함
 
-## 팝업 모드 {#section-77d5aa03b8b94566958a179b1a2cd474} 정보
+## 팝업 모드 기본 정보 {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 팝업 모드에서는 뷰어가 별도의 웹 브라우저 창이나 탭에서 열립니다. 브라우저 크기가 조정되거나 모바일 장치의 방향이 변경되는 경우 전체 브라우저 창 영역을 가져와 조정됩니다.
 
@@ -110,7 +110,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## 고정 크기 및 응답형 디자인 포함 정보 {#section-ec86b100ba5943d0b16694268520bbde}
+## 고정 크기 및 반응형 디자인 포함 기본 정보 {#section-ec86b100ba5943d0b16694268520bbde}
 
 포함된 모드에서 뷰어가 기존 웹 페이지에 추가되며, 이 페이지에 이미 뷰어와 관련이 없는 일부 고객 콘텐츠가 있을 수 있습니다. 뷰어는 일반적으로 웹 페이지의 부동산의 일부만을 차지합니다.
 
@@ -124,7 +124,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 그렇지 않으면 웹 페이지가 뷰어의 컨테이너 `DIV`에 대한 너비와 높이를 모두 설정하면 뷰어가 해당 영역을 채우고 웹 페이지 레이아웃이 제공하는 크기를 따릅니다. 좋은 예는 뷰어를 모달 오버레이에 포함하는데, 이 오버레이는 웹 브라우저 창 크기에 따라 크기가 조정됩니다.
 
-## 고정 크기 {#section-17d162f76ffa4804b27928f51e7bea1d} 포함
+## 고정 크기 포함 {#section-17d162f76ffa4804b27928f51e7bea1d}
 
 다음을 수행하여 웹 페이지에 뷰어를 추가합니다.
 
@@ -268,7 +268,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## 무제한 높이가 {#section-056cb574713c4d07be6d07cf3c598839}인 응답형 포함
+## 제한 없는 높이를 갖는 응답형 포함 {#section-056cb574713c4d07be6d07cf3c598839}
 
 응답형 디자인 포함 기능을 사용할 경우, 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예를 들어, 웹 페이지에서 뷰어의 컨테이너 `DIV`가 웹 브라우저 창 크기의 40%를 취할 수 있도록 허용하여 높이 제한이 없는 것으로 가정해 보겠습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
@@ -331,7 +331,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [대체 데모 위치](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## 폭 및 높이가 정의된 유연한 크기 포함 {#section-0a329016f9414d199039776645c693de}
+## 폭과 높이가 정의된 유연한 크기 포함 {#section-0a329016f9414d199039776645c693de}
 
 너비와 높이가 정의된 유연한 크기 포함의 경우 웹 페이지 스타일링이 다릅니다. 이 확장은 `"holder"` DIV에 두 크기를 모두 제공하고 브라우저 창에 배치합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
 
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Setter 기반 API {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}를 사용하여 포함
+## Setter 기반 API를 사용하여 포함 {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며 구성 매개 변수는 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 지정합니다.
 

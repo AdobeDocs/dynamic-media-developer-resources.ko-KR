@@ -1,19 +1,18 @@
 ---
 description: searchAssets 작업에서 부산물 필터링을 지원합니다.
 solution: Experience Manager
-title: ExcludeMozineArray
+title: 제외 부산물 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
-# ExcludeMozineArray{#excludebyproductarray}
+# 제외 부산물 배열{#excludebyproductarray}
 
 searchAssets 작업에서 부산물 필터링을 지원합니다.
 
@@ -24,4 +23,3 @@ searchAssets 작업에서 부산물 필터링을 지원합니다.
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:ExcludeByproductCondition` | 배열에 있는 항목입니다. |
-

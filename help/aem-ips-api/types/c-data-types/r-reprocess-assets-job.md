@@ -1,21 +1,20 @@
 ---
-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
+description: PDF 다시 복사 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
 solution: Experience Manager
-title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API,Asset Management
+title: AssetsJob 재처리
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 2%
 
 ---
 
+# AssetsJob 재처리{#reprocessassetsjob}
 
-# ReprocessAssetsJob{#reprocessassetsjob}
-
-PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
+PDF 다시 복사 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있는 작업 유형입니다.
 
 구문
 
@@ -37,23 +36,23 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> readyForPublish</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
    <td colname="col3"> <p>파일을 게시할 준비가 되었는지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preservePublishState</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>덮어쓸 때 기존 에셋의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
+   <td colname="col3"> <p>덮어쓸 때 기존 자산의 게시 상태가 유지되는지 여부를 제어합니다. 설정하지 않으면 회사 기본 설정이 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>마스크를 만들지 여부. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
+   <td colname="col3"> <p>마스크 만들기 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 상관없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않는 경우 preserveCrop의 값이 유지됩니다. </i> 그리고, true이면 기존 preserveCrop 값이 유지됩니다.false이면 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
+   <td colname="col3"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면 preserveCrop의 값이 유지됩니다. </i> 그리고 true일 경우 기존 preserveCrop 값이 유지됩니다.false인 경우 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -63,7 +62,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:AutoColorCropOptions</span> </p> </td> 
-   <td colname="col3"> <p>색상을 기반으로 이미지를 자동으로 자르는 옵션 </p> </td> 
+   <td colname="col3"> <p>색상을 기반으로 한 이미지의 자동 자르기 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </p> </td> 
@@ -73,17 +72,17 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PhotoshopOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 Photoshop 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>Photoshop 파일을 이미지 서버에 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PostScriptOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 PostScript 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>PostScript 파일을 이미지 서버에 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 PDF 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 PDF 파일을 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -93,17 +92,17 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 Illustrator 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>Illustrator 파일을 이미지 서버에 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ColorManagementOptions</span> </p> </td> 
-   <td colname="col3"> <p>업로드 중에 지정할 수 있는 옵션입니다. 이 세트는 업로드에 대한 색상이 관리되는 방식에 영향을 줍니다. </p> </td> 
+   <td colname="col3"> <p>업로드 중에 지정할 수 있는 옵션입니다. 이 집합은 업로드할 색상을 관리하는 방식에 영향을 줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:AutoSetCreationOptions</span> </p> </td> 
-   <td colname="col3"> <p>업로드된 파일에 적용할 자동 집합 생성 스크립트 배열. </p> </td> 
+   <td colname="col3"> <p>업로드된 파일에 적용할 자동 세트 생성 스크립트의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </p> </td> 
@@ -112,48 +111,48 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td colname="col3"> <p>이메일 설정 옵션. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>이메일 설정에 대한 옵션. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postJobOnlyIfFiles</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
    <td colname="col3"> <p>파일만 업로드할지 여부. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td colname="col3"> <p>파일 업로드 위치에 대한 URL. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>파일 업로드 위치에 대한 URL입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 제공 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 제공 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 렌더링 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 렌더링 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 비디오 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 비디오 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 서버에 InDesign 파일을 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p><a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> 참조 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 유형:K녹아웃BackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p>참조<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CutoBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션. 이 설정을 사용하여 이미지 선명도를 향상시킬 수 있습니다. </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>을 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션입니다. 이 설정을 사용하여 이미지 선명도를 개선합니다. </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a> 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -171,4 +170,3 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-

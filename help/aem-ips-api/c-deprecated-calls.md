@@ -1,27 +1,25 @@
 ---
-title: 사용되지 않는 호출
-description: Dynamic Media에서 더 이상 사용되지 않는 이미지 프로덕션 시스템 API 호출 및 관련 매개 변수.
+title: 더 이상 사용되지 않는 호출
+description: 이미지 프로덕션 시스템 API 호출 및 Dynamic Media에서 더 이상 사용되지 않는 관련 매개 변수
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: f6711780-9a96-4a61-9066-8d83316758c3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
+# 더 이상 사용되지 않는 호출{#deprecated-calls}
 
-# 사용되지 않는 호출{#deprecated-calls}
+이미지 프로덕션 시스템 API 호출 및 더 이상 사용되지 않는 관련 매개 변수
 
-이미지 프로덕션 시스템 API 호출 및 더 이상 사용되지 않는 관련 매개 변수.
+## 더 이상 사용되지 않는 호출 {#topic-654c0466e6434fe4a95953322255b08c}
 
-## 사용되지 않는 호출 {#topic-654c0466e6434fe4a95953322255b08c}
+이미지 프로덕션 시스템 API 호출 및 Dynamic Media에서 더 이상 사용되지 않는 관련 매개 변수
 
-Dynamic Media에서 더 이상 사용되지 않는 이미지 프로덕션 시스템 API 호출 및 관련 매개 변수.
-
-* `addMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 사용하여 IPS에 미디어 포털 이벤트를 추가할 수 있습니다.
-* `getMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 사용하여 지정된 기준과 일치하는 미디어 포털 이벤트를 가져올 수 있습니다.
-* `getCdnCacheInvalidationStatus` - 작업에서 더 이상 사용되지 않습니다. 이제 이 API는 `cdnCacheInvalidation` API가 거의 즉시 캐시를 무효화하므로 사용되지 않습니다(~5초). 따라서 무효화 상태에 대한 투표는 더 이상 필요하지 않습니다.
-
+* `addMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 통해 IPS에 Media Portal 이벤트를 추가할 수 있습니다.
+* `getMediaPortalEvent` - 작업에서 더 이상 사용되지 않습니다. 이 호출을 사용하면 지정된 기준과 일치하는 미디어 포털 이벤트를 가져올 수 있습니다.
+* `getCdnCacheInvalidationStatus` - 작업에서 더 이상 사용되지 않습니다. 이제 `cdnCacheInvalidation` API가 캐시를 거의 즉시(~5초) 무효화하므로 이 API는 더 이상 사용되지 않습니다. 따라서 무효화 상태에 대한 폴링이 더 이상 필요하지 않습니다.

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # UploadUrl{#uploadurl}
 
@@ -23,6 +22,5 @@ URL을 통해 자산을 업로드하는 경우.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`sourceUrl`*` | `xsd:string` | 자산이 업로드된 소스 URL입니다. |
+| `*`sourceUrl`*` | `xsd:string` | 자산이 업로드되는 소스 URL입니다. |
 | `*`destPath`*` | `xsd:string` | 업로드할 파일의 IPS 파일 경로 및 이름입니다. |
-

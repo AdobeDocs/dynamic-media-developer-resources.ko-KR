@@ -1,27 +1,26 @@
 ---
-description: 기본 보기 영역은 플라이아웃 보기 및 견본이 차지하는 영역입니다.
+description: 기본 보기 영역은 플라이아웃 보기와 견본이 차지하는 영역입니다.
 solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
-
 # 기본 뷰어 영역{#main-viewer-area}
 
-기본 보기 영역은 플라이아웃 보기 및 견본이 차지하는 영역입니다.
+기본 보기 영역은 플라이아웃 보기와 견본이 차지하는 영역입니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7flyoutviewer
@@ -44,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경( `#FFFFFF`)을 사용하여 플라이아웃 뷰어를 설정하고 크기를 260 x 500픽셀로 설정하려면
+예 - 흰색 배경( `#FFFFFF`)이 있는 플라이아웃 뷰어를 설정하고 크기를 260 x 500픽셀로 만들려면
 
 ```
 .s7flyoutviewer { 
@@ -59,4 +58,3 @@ ht-degree: 2%
  height: 500px;  
 }
 ```
-

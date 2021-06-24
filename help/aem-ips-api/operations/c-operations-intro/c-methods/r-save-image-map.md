@@ -4,14 +4,13 @@ solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 8%
 
 ---
-
 
 # saveImageMap{#saveimagemap}
 
@@ -30,7 +29,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
@@ -48,55 +47,55 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 저장할 이미지 맵이 있는 회사의 핸들입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 이미지 맵이 속하는 이미지 자산의 핸들입니다. </td> 
+   <td colname="col4"> 이미지 맵이 속한 이미지 자산의 핸들입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 이미지 맵에 대한 핸들입니다. NULL이면 이미지 맵을 만듭니다. </td> 
+   <td colname="col4"> 이미지 맵의 핸들입니다. NULL이면 이미지 맵을 만듭니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 만들거나 저장한 이미지 맵의 이름입니다. </td> 
+   <td colname="col4"> 만들거나 저장하는 이미지 맵의 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 영역 모양 선택. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 지역  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 지역을 정의하는 쉼표로 구분된 포인트 목록. </td> 
+   <td colname="col4"> 지역을 정의하는 점을 쉼표로 구분한 목록입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 액션  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 작업  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연결된 <span class="codeph"> href </span> 값. </p> <p><span class="codeph"> href </span> 값을 가져오려면 IPS 인터페이스에서 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여 넣은 다음 IPS URL을 적절한 URL로 형식을 지정합니다. 예를 들어 <span class="codeph"> &amp; </span>은 <span class="codeph"> &amp;amp;가 됩니다.</span>. </p> </td> 
+   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연관된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 얻으려면 IPS 인터페이스의 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여넣은 다음 IPS URL의 형식을 적절한 URL로 지정합니다. 예를 들어 <span class="codeph"> &amp; </span>은 <span class="codeph"> &amp;amp;가 됩니다.</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 이미지 맵 목록(Z축)의 순서. </td> 
+   <td colname="col4"> 이미지 맵 목록(Z 축)의 순서. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 활성화됨  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울  </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -111,7 +110,7 @@ ht-degree: 8%
 
 ## 예제 {#section-fdac488b640f427c8aa3d549c5032851}
 
-이 코드 샘플은 에셋에 대한 새 이미지 맵을 만듭니다. 영역 모양 문자열 상수로 결정된 모양 유형을 사용하고 새 이미지 맵에 핸들을 반환합니다.
+이 코드 샘플은 자산에 대한 새 이미지 맵을 만듭니다. 영역 모양 문자열 상수로 결정된 모양 유형을 사용하고 새 이미지 맵으로 핸들을 반환합니다.
 
 **요청**
 
@@ -135,4 +134,3 @@ ht-degree: 8%
    <imageMapHandle>34191|8|554</imageMapHandle> 
 </saveImageMapReturn>
 ```
-

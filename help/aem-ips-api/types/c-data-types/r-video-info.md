@@ -2,16 +2,15 @@
 description: 비디오 자산 속성.
 solution: Experience Manager
 title: VideoInfo
-feature: Dynamic Media Classic,SDK/API,Video
+feature: Dynamic Media Classic,SDK/API,비디오
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 10%
 
 ---
-
 
 # VideoInfo{#videoinfo}
 
@@ -29,5 +28,4 @@ ht-degree: 10%
 | `*`imagePath`*` | `xsd:string` | 비디오 파일의 상대 경로입니다. |
 | `*`imageFile`*` | `xsd:string` | 비디오 파일의 파일 이름입니다. |
 | `*`optimizedPath`*` | `xsd:string` | IPS에 최적화된 비디오 파일의 경로입니다. |
-| `*`optimizedFile`*` | `xsd:string` | IPS 최적화 비디오 파일의 파일 이름입니다. |
-
+| `*`optimizedFile`*` | `xsd:string` | IPS에 최적화된 비디오 파일의 파일 이름입니다. |

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fd2093b5-9856-4f31-8853-1027194a71df
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
-
 
 # PostScriptOptions{#postscriptoptions}
 
@@ -23,9 +22,8 @@ PostScript 파일 옵션.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`프로세스`*` | `xsd:string` | PostScript 프로세스 선택 |
+| `*`프로세스`*` | `xsd:string` | PostScript 프로세스 선택. |
 | `*`resolution`*` | `xsd:double` | 파일 해상도. |
-| `*`색상 공간`*` | `xsd:string` | PostScript 색상 공간 모드. |
-| `*`alpha`*` | `xsd:boolean` | 파일을 이미지로 래스터화할지 여부. 이 경우 원본 파일이 이 방식으로 정의된 경우 투명한 배경이 만들어집니다. 일반적으로 오버레이 로고를 만드는 데 사용됩니다. |
+| `*`색상 공간`*` | `xsd:string` | PostScript colorspace 모드. |
+| `*`alpha`*` | `xsd:boolean` | 파일을 이미지로 래스터화할지 여부. 원본 파일이 이러한 방식으로 정의된 경우 투명 배경을 만듭니다. 일반적으로 오버레이 로고를 만드는 데 사용됩니다. |
 | `*`extractSearchWords`*` | `xsd:boolean` | PostScript 파일에서 검색어를 추출할지 여부. |
-

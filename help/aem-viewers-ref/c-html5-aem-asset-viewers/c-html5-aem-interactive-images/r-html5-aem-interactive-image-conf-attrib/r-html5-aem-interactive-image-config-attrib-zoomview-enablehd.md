@@ -2,14 +2,13 @@
 description: ZoomView.enableHD
 solution: Experience Manager
 title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
 role: Developer,Business Practitioner
 exl-id: b3cc32ef-dd6c-47a3-9e55-86a43e874a84
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 6%
+source-wordcount: '84'
+ht-degree: 7%
 
 ---
 
@@ -20,8 +19,8 @@ ht-degree: 6%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>이(가) <span class="codeph"> 1</span>보다 큰 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. iPhone4 및 유사한 장치와 같은 고밀도 디스플레이가 있는 장치에 영향을 줍니다. 활성 상태인 경우 구성 요소는 IS 이미지 요청의 크기를 장치의 픽셀 비율이 <span class="codeph"> 1</span>인 것처럼 제한하므로 대역폭을 줄입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 항상|절대 안 함|제한</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>이 <span class="codeph"> 1</span>보다 큰 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. iPhone4 및 유사한 장치와 같은 고밀도 디스플레이를 사용하는 장치에 영향을 줍니다. 활성화된 경우, 구성 요소는 IS 이미지 요청의 크기를 장치에 <span class="codeph"> 1</span>의 픽셀 비율이 있는 것처럼 제한하여 대역폭을 줄입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 수</span></span> </p> </td> 

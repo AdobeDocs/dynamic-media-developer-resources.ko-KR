@@ -2,16 +2,15 @@
 description: 프로젝트에 하나 이상의 자산을 추가합니다.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 11%
 
 ---
-
 
 # addProjectAssets{#addprojectassets}
 
@@ -36,21 +35,21 @@ ht-degree: 11%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 현재 프로젝트와 연결된 회사를 처리합니다. |
 | `*`projectHandle`*` | `xsd:string` | 예 | 자산을 추가할 프로젝트를 처리합니다. |
-| `*`projectHandleArray`*` | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가할 자산의 배열입니다. |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가하고 있는 자산의 배열입니다. |
 
 **출력(addProjectAssetsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 추가된 자산의 수입니다. |
+| `*`successCount`*` | `xsd:int` | 예 | 추가된 자산 수입니다. |
 | `*`warningCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
 | `*`errorCount`*` | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업에 프로젝트를 추가하려고 할 때 자산에 의해 생성된 경고 배열입니다. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 에셋을 추가하려고 할 때 에셋에 의해 생성된 오류 배열입니다. |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 추가하려고 할 때 자산에서 생성한 경고 배열입니다. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | 아니요 | 작업에서 자산에 오류를 추가하려고 할 때 자산에서 생성된 오류 배열입니다. |
 
 ## 예제 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-이 예에서는 자산 핸들 배열의 단일 자산(핸들에서 참조됨)을 요청에 지정된 프로젝트에 추가합니다. 응답 `successCount`이 `1`을(를) 반환하면 작업이 성공적으로 완료되었습니다.
+이 예에서는 자산 핸들 배열의 단일 자산(해당 핸들에서 참조)을 요청에 지정된 프로젝트에 추가합니다. 응답 `successCount`이 `1`을 반환하는 경우 작업이 성공적으로 완료되었습니다.
 
 **요청**
 
@@ -73,4 +72,3 @@ ht-degree: 11%
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-

@@ -1,27 +1,26 @@
 ---
-description: 이 단추를 클릭하거나 탭하면 기본 뷰어와 축소판 간에 뷰어가 전환됩니다. 이 단추는 주 제어 막대에 표시됩니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
+description: 이 단추를 클릭하거나 탭하면 기본 보기와 축소판 간의 뷰어가 토글됩니다. 이 단추는 주 컨트롤 모음에 나타납니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
 title: 축소판 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ddd976ca-6043-4930-8ce6-f58fad226ff3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
 
-
 # 축소판 단추{#thumbnails-button}
 
-이 단추를 클릭하거나 탭하면 기본 뷰어와 축소판 간에 뷰어가 전환됩니다. 이 단추는 주 제어 막대에 표시됩니다. CSS를 사용하여 이 단추의 크기를 조정하고, 스킨을 지정하고 위치를 지정할 수 있습니다.
+이 단추를 클릭하거나 탭하면 기본 보기와 축소판 간의 뷰어가 토글됩니다. 이 단추는 주 컨트롤 모음에 나타납니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-버튼의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+버튼의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7ecatalogviewer .s7thumbnailpagebutton`
 
@@ -34,8 +33,8 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽 여백  </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대 위쪽의 오프셋입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대의 상단으로부터 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
@@ -50,23 +49,23 @@ ht-degree: 1%
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
-   <td colname="col2"> <p>지정된 단추 상태에 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 안에 배치할 수 있습니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 및 `selected` 속성 선택기를 모두 지원합니다. 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히 축소판 모드가 활성 상태이고 `selected='false'`은 기본 보기가 있는 기본 상태에 해당하는 경우 뷰어 상태에 해당합니다.`selected='true'`
+>이 버튼은 `state` 및 `selected` 속성 선택기를 모두 지원하며, 이 선택기는 다른 스킨(skin)을 다른 단추 상태에 적용하는 데 사용할 수 있습니다. 특히 축소판 모드가 활성 상태이고 `selected='false'`이 기본 보기가 있는 기본 상태에 해당하는 경우 `selected='true'`은 뷰어 상태에 해당합니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)의 현지화를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 28 x 28픽셀인 축소판 단추를 설정하고, 기본 컨트롤 막대의 왼쪽 가장자리에서 4픽셀, 왼쪽 가장자리에서 5픽셀을 지정하며, 선택되거나 선택되지 않은 경우 각 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀인 축소판 단추를 설정하고, 기본 컨트롤 막대의 왼쪽 가장자리로부터 4픽셀, 기본 컨트롤 막대의 왼쪽 가장자리 5픽셀에서 각각 다른 4개의 단추 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7ecatalogviewer .s7thumbnailpagebutton{ 
@@ -99,4 +98,3 @@ background-image:url(images/v2/ThumbnailPageButton_dark_over.png);
 background-image:url(images/v2/ThumbnailPageButton_dark_disabled.png); 
 }
 ```
-

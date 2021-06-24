@@ -4,14 +4,13 @@ solution: Experience Manager
 title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 12%
 
 ---
-
 
 # deleteZoomTarget{#deletezoomtarget}
 
@@ -28,7 +27,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->사용자에게 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -37,15 +36,15 @@ ht-degree: 12%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 확대/축소 대상이 속하는 회사의 핸들입니다. |
-| `*`zoomTargetHandle`*` | `xsd:string` | 예 | 삭제할 확대/축소 대상에 대한 핸들입니다. |
+| `*`zoomTargetHandle`*` | `xsd:string` | 예 | 삭제할 확대/축소 타겟의 핸들입니다. |
 
 **출력(deleteZoomTargetParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예 {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-이 코드 샘플은 회사에서 확대/축소 대상을 삭제합니다.
+이 코드 샘플은 회사에서 확대/축소 타겟을 삭제합니다.
 
 **요청**
 

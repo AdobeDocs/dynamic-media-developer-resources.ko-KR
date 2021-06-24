@@ -1,25 +1,24 @@
 ---
-description: 기존 PDF 에셋을 다시 가져오는 프로세스입니다.
+description: 기존 PDF 자산을 다시 래핑하는 프로세스입니다.
 solution: Experience Manager
-title: RipPdf작업
+title: RipPdfJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
 
+# RipPdfJob{#rippdfsjob}
 
-# RipPdfsJob{#rippdfsjob}
-
-기존 PDF 에셋을 다시 가져오는 프로세스입니다.
+기존 PDF 자산을 다시 래핑하는 프로세스입니다.
 
 >[!NOTE]
 >
->이 작업 유형은 사용되지 않습니다. 모든 향후 통합을 위해 `ReprocessAssetsJob`으로 전환합니다.
+>이 작업 유형은 더 이상 사용되지 않습니다. 모든 향후 통합을 위해 `ReprocessAssetsJob`으로 전환하십시오.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,11 +34,11 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>리핑할 PDF 파일의 배열을 처리합니다. </p> </td> 
+   <td colname="col3"> <p>리플레이할 PDF 파일 배열을 처리합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
    <td colname="col3"> <p>마스크를 만들지 여부를 결정합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -84,38 +83,38 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>이메일 설정. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
-   <td colname="col3"> <p>파일을 업로드하는 URL입니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p>파일을 업로드할 URL입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ImageServingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 제공 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 제공 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:ImageRenderingPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 렌더링 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 이미지 렌더링 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:VideoPublishJob</span> </p> </td> 
-   <td colname="col3"> <p>업로드가 완료된 후 실행할 비디오 게시 작업에 대한 작업 세부 정보입니다. </p> </td> 
+   <td colname="col3"> <p>업로드가 완료된 후 실행할 비디오 게시 작업에 대한 작업 세부 사항입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 Adobe InDesign 파일을 업로드하기 위한 옵션. </p> </td> 
+   <td colname="col3"> <p>Adobe InDesign 파일을 이미지 서버에 업로드하는 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:KnockoutBackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 따라서 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p><a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> 참조 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 유형:K녹아웃BackgroundOptions</span> </p> </td> 
+   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p>참조<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CutoBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,4 +132,3 @@ ht-degree: 2%
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
 * `postVideoPublishJob`
-

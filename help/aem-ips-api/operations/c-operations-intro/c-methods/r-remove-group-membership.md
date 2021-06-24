@@ -4,20 +4,19 @@ solution: Experience Manager
 title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 10%
 
 ---
-
 
 # removeGroupMembership{#removegroupmembership}
 
 그룹 배열에서 사용자를 제거합니다.
 
-**제거 명령 간 차이**
+**제거 명령 간의 차이**
 
 * `removeGroupMembers`:그룹에서 여러 사용자를 제거합니다.
 * `removeGroupMembership`:그룹 배열에서 개별 사용자를 제거합니다.
@@ -35,11 +34,11 @@ ht-degree: 10%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`userHandle`*` | `xsd:string` | 아니요 | 그룹 구성원을 제거하려는 회사의 핸들입니다. |
-| `*`groupHandleArray`*` | `types:HandleArray` | 예 | 회사를 제거할 그룹에 대한 핸들 배열입니다. |
+| `*`groupHandleArray`*` | `types:HandleArray` | 예 | 회사를 제거할 그룹의 핸들 배열입니다. |
 
 **출력(removeGroupMembershipReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-f8d4181170a243efb9faf5824ae96197}
 

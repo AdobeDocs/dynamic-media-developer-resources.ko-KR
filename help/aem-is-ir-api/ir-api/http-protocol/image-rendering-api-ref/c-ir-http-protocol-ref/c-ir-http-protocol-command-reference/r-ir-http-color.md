@@ -1,21 +1,20 @@
 ---
-description: 전경색 설정. 단색 재질의 색상 또는 색상화 가능 재질의 추가 색상을 지정합니다.
+description: 전경색 설정. 단색 재료의 색상 또는 색화 가능한 재료의 가색 색상을 지정합니다.
 solution: Experience Manager
 title: color
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6086a7ca-d3cf-4cec-967b-83347293ea0a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 13%
+source-wordcount: '78'
+ht-degree: 15%
 
 ---
 
+# 색상{#color}
 
-# color{#color}
-
-전경색 설정. 단색 재질의 색상 또는 색상화 가능 재질의 추가 색상을 지정합니다.
+전경색 설정. 단색 재료의 색상 또는 색화 가능한 재료의 가색 색상을 지정합니다.
 
 `color= *`color`*`
 
@@ -28,11 +27,11 @@ ht-degree: 13%
 
 ## 속성 {#section-629c3c91221c48c4b7f7b31a13fd1766}
 
-재료 속성. 단색 재질(기타 모든 재질 선택 사항)에 필요합니다.
+재료 속성입니다. 솔리드 컬러 재료에 필요하며, 기타 모든 재료에 선택 사항입니다.
 
 ## 기본값 {#section-ea8e1967674d426bb8f46abe365b6aca}
 
-`catalog::Color` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않은 경우 색상화하지 않으려면 `none`.
+`catalog::Color` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않으면 색상화가 없는 경우 `none` 을 사용합니다.
 
 ## 참조 {#section-5eb8f1c36634474bbfaa63d84e4c3c71}
 

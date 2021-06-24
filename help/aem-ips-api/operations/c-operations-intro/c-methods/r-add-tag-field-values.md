@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
@@ -31,13 +30,13 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 태그 필드를 포함하는 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
 | `*`fieldHandle`*` | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
 | `*`valueArray`*` | `xsd:string` | 예 | 필드의 기존 사전에 추가할 태그 값의 배열입니다. |
 
 **출력(addTagFieldValuesParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c4049392f1c548f883b8b1f8f167bada}
 

@@ -1,21 +1,20 @@
 ---
-description: 태그 값 업데이트 오류 배열입니다.
+description: 태그 값의 배열은 업데이트 오류입니다.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 76622042-0fb4-4ec4-834b-d64d79af6a94
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
 # TagValueUpdateFaultArray{#tagvalueupdatefaultarray}
 
-태그 값 업데이트 오류 배열입니다.
+태그 값의 배열은 업데이트 오류입니다.
 
 구문
 
@@ -23,5 +22,4 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:TagValueUpdateFault` | 태그 값 업데이트 오류 배열(오류 메시지). |
-
+| `*`항목`*` | `types:TagValueUpdateFault` | 태그 값 업데이트 오류(오류 메시지) 배열입니다. |

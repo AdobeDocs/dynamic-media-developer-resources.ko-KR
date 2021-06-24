@@ -29,7 +29,7 @@ ht-degree: 0%
 
 [https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4](https://s7d9.scene7.com/s7viewers/html5/VideoViewer.html?asset=Scene7SharedAssets/Glacier_Climber_MP4)
 
-## 비디오 뷰어 {#section-f21ac23d3f6449ad9765588d69584772} 사용
+## 비디오 뷰어 사용 {#section-f21ac23d3f6449ad9765588d69584772}
 
 비디오 뷰어는 기본 JavaScript 파일 및 도우미 파일 세트를 나타냅니다. 단일 JavaScript는 이 특정 뷰어에서 사용하는 모든 Viewer SDK 구성 요소와 함께 런타임 시 뷰어에서 다운로드한 자산 및 CSS에 포함됩니다.
 
@@ -39,7 +39,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 모든 뷰어에 공통되는 [명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)를 참조하십시오.
 
-## 비디오 뷰어 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}와 상호 작용
+## 비디오 뷰어와 상호 작용 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
 비디오 뷰어는 재생/일시 정지 단추, 비디오 스크러버 비디오 시간 버블, 재생 시간/총 시간 표시기, 볼륨 제어, 전체 화면 단추 및 닫힌 캡션 토글과 같은 비디오 재생을 위한 표준 사용자 인터페이스 컨트롤 집합을 제공합니다. 이러한 모든 컨트롤은 뷰어 사용자 인터페이스 하단에 있는 컨트롤 막대로 그룹화됩니다.
 
@@ -55,7 +55,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
 
-## 비디오 뷰어가 있는 소셜 미디어 공유 도구 {#section-907d316fe1da4b87abb9775f02464704}
+## 비디오 뷰어와 소셜 미디어 공유 도구 {#section-907d316fe1da4b87abb9775f02464704}
 
 비디오 뷰어는 소셜 미디어 공유 도구를 지원합니다. 사용자 인터페이스에서 단일 단추로 사용할 수 있으며 사용자가 클릭하거나 탭할 때 공유 도구 모음으로 확장됩니다.
 
@@ -63,7 +63,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 웹 브라우저 보안 제한 사항으로 인해 공유 도구를 전체 화면 모드에서 사용할 수 없습니다.
 
-## 비디오 뷰어 {#section-6bb5d3c502544ad18a58eafe12a13435} 포함
+## 비디오 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 를 클릭하면 별도의 브라우저 창에서 뷰어가 열리는 링크를 제공합니다. 다른 경우에는 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있을 수 있으며, 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다.팝업, 고정 크기 포함 및 반응형 디자인 포함.
 

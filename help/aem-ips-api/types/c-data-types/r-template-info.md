@@ -4,26 +4,24 @@ solution: Experience Manager
 title: TemplateInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
-
 
 # TemplateInfo{#templateinfo}
 
 템플릿 자산의 속성입니다.
 
-템플릿은 레이어가 있는 이미지를 구성하는 매개 변수화된 레이어 정의입니다.
+템플릿은 계층화된 레이어 정의로서, 계층화된 이미지를 구성합니다.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`url`*` | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL. |
+| `*`url`*` | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL입니다. |
 | `*`urlModifier`*` | `xsd:string` |  |
 | `*`urlPostApplyModifier`*` | `xsd:string` |  |
-

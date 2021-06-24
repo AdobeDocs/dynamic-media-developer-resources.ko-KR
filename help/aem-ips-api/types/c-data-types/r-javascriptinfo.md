@@ -4,14 +4,13 @@ solution: Experience Manager
 title: JavascriptInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a6986434-e274-4f5b-b8c8-d300134f8986
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # JavascriptInfo{#javascriptinfo}
 
@@ -26,4 +25,3 @@ JavaScript 파일 자산의 속성입니다.
 | `*`originalPath`*` | `xsd:string` | JavaScript 파일의 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

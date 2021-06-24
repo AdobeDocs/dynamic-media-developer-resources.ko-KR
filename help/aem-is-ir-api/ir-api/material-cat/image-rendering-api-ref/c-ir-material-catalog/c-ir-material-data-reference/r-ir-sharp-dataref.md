@@ -1,23 +1,22 @@
 ---
-description: 선명하게 하기. Sharpening 속성을 사용하여 렌더링하는 동안 질감이 선명하게 되는 시기를 결정합니다.
+description: 선명하게 하기. 선명하게 하기 속성을 사용하여 렌더링 중에 재료를 선명하게 하는 시기를 결정합니다.
 solution: Experience Manager
 title: 샤프
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 10%
 
 ---
 
+# 샤프{#sharp}
 
-# 선명하게 {#sharp}
+선명하게 하기. 선명하게 하기 속성을 사용하여 렌더링 중에 재료를 선명하게 하는 시기를 결정합니다.
 
-선명하게 하기. Sharpening 속성을 사용하여 렌더링하는 동안 질감이 선명하게 되는 시기를 결정합니다.
-
-선명하게 하기 유형 및 양은 기본 재료 템플릿을 통해 또는 `catalog::RenderSettings`과 함께 비네팅을 통해 제어됩니다.
+선명하게 하기 유형 및 양은 기본 재료 템플릿을 통해 또는 `catalog::RenderSettings` 을 사용하여 비네트에 의해 제어됩니다.
 
 ## 속성 {#section-aac81b1a611b4bca90b8544eae7896df}
 
@@ -30,7 +29,7 @@ ht-degree: 10%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>일반적인 선명하게 하기(변형 후). </p></td> 
+  <td class="stentry"> <p>일반 선명하게 하기(변환 후). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
@@ -38,16 +37,16 @@ ht-degree: 10%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>더 선명하게 하기(변형 전과 후 모두). </p></td> 
+  <td class="stentry"> <p>더 선명하게 하기(변형 전후에 모두). </p></td> 
  </tr> 
 </table>
 
-단색 재질에서 무시되고 다른 모든 재질에서 선택 사항입니다.
+고색 재료에서 무시되고 다른 모든 재료에서 선택 사항입니다.
 
 ## 기본값 {#section-a6bc204d552b4cc3ae6a77ec232c26ff}
 
-`attribute::Sharpening` 필드가 없거나 비어 있거나 값이 지원되는 선택 항목 중 하나가 아닌 경우에 사용됩니다.
+`attribute::Sharpening` 필드가 없거나 비어 있거나 값이 지원되는 선택 사항 중 하나가 아닌 경우 이 사용됩니다.
 
 ## 참조 {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[속성::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) ,  [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd),  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) ,  [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd),  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

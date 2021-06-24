@@ -2,16 +2,15 @@
 description: 메타데이터 업데이트 배열입니다.
 solution: Experience Manager
 title: MetadataUpdateArray
-feature: Dynamic Media Classic,SDK/API,Metadata
+feature: Dynamic Media Classic,SDK/API,메타데이터
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
-
 
 # MetadataUpdateArray{#metadataupdatearray}
 
@@ -24,4 +23,3 @@ ht-degree: 20%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:MetadataUpdate` | 메타데이터 업데이트 배열입니다. |
-

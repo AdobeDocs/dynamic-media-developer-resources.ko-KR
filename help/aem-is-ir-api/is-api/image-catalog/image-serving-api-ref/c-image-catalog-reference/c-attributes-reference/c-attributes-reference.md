@@ -4,24 +4,23 @@ solution: Experience Manager
 title: 속성 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
+# 속성 참조{#attributes-reference}
 
-# 특성 참조{#attributes-reference}
+카탈로그:RootId를 제외하고 모든 카탈로그 속성은 선택 사항입니다.
 
-카탈로그::RootId를 제외한 모든 카탈로그 속성은 선택 사항입니다.
-
-모든 속성은 기본 카탈로그 속성 파일( [!DNL default.ini])에 필요합니다.
+기본 카탈로그 속성 파일( [!DNL default.ini])에 모든 특성이 필요합니다.
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrl](r-allowdirecturls.md)
-* [ApplyEffectMask](r-applyeffectmask.md)
+* [적용 효과 마스크](r-applyeffectmask.md)
 * [AudioBitRate](r-audiobitrate.md)
 * [Bfc](r-bfc.md)
 * [BkgColor](r-bkgcolor.md)
@@ -64,18 +63,18 @@ ht-degree: 3%
 * [PublishInfo](r-publishinfo.md)
 * [인쇄 해상도](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [RequestObfuscation](r-requestobfuscation.md)
+* [RequestObfusation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [해상도](r-resolution.md)
-* [루트 ID](r-rootid.md)
+* [RootId](r-rootid.md)
 * [루트 경로](r-rootpath.md)
-* [루트 URL](r-rooturl.md)
+* [RootUrl](r-rooturl.md)
 * [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SyncizeFontStyles](r-synthesizefontstyles.md)
+* [합성 글꼴 스타일](r-synthesizefontstyles.md)
 * [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
@@ -83,7 +82,7 @@ ht-degree: 3%
 * [ThumbVertAlign](r-thumbvertalign.md)
 * [타임스탬프](r-timestamp.md)
 * [TotalStreamBitRate](r-totalstreambitrate.md)
-* [트러스트된 도메인](r-trusteddomains.md)
+* [TrustedDomains](r-trusteddomains.md)
 * [UseLastModified](r-uselastmodified.md)
 * [VideoBitRate](r-videobitrate-cat.md)
 * [VideoSize](r-videosize-cat.md)

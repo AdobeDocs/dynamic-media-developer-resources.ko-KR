@@ -2,16 +2,15 @@
 description: 하나 이상의 자산에 대한 게시 상태를 설정하거나 업데이트합니다. 회사의 각 게시 컨텍스트에 대해 별도의 게시 상태를 설정할 수 있습니다.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
-
 
 # setAssetsContextState{#setassetscontextstate}
 
@@ -31,7 +30,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->사용자에게 자산을 반환하려면 읽기 권한이 있어야 합니다.
+>자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-009b9006de8e4c16ad657c47f28ace9f}
 
@@ -39,17 +38,17 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | 예 | 자산 및 새 게시 상태의 배열입니다. |
 
-**출력(setAssetsContexStateReturn)**
+**출력(setAssetsContextStateReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | 예 | 자산 수가 변경되었습니다. |
 | `*`warningCount`*` | `xsd:int` | 예 | 작업이 자산을 수정하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업이 자산을 수정하려고 할 때 생성되는 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 수정하려고 할 때 자산에서 생성된 오류 배열입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업이 자산을 수정하려고 할 때 생성된 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 자산을 수정하려고 할 때 자산에서 생성된 오류 배열입니다. |
 
 ## 예제 {#section-283a073f3cb14bcda5abed863c538aa4}
 
@@ -116,4 +115,3 @@ ht-degree: 10%
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-

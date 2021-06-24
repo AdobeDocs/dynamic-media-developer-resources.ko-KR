@@ -2,16 +2,15 @@
 description: VideoPlayer.iconeffect
 solution: Experience Manager
 title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 8371cb69-4cd9-457b-bd8c-e4167fc67600
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
-
 
 # VideoPlayer.iconeffect{#videoplayer-iconeffect}
 
@@ -21,19 +20,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 일시 정지되면 IconEffect가 비디오 위에 표시되도록 합니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이 경우 <span class="codeph"> 아이콘 효과</span> 수정자는 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 일시 중지되면 IconEffect가 비디오 맨 위에 표시되도록 합니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이 경우 <span class="codeph"> iconeffect</span> 한정자는 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> IconEffect가 나타나고 다시 나타나는 최대 횟수를 지정합니다. <span class="codeph"> -1</span>의 값은 아이콘이 무기한 다시 표시됨을 나타냅니다. </p> </td> 
+   <td colname="col2"> <p> IconEffect가 나타나고 다시 나타나는 최대 횟수를 지정합니다. <span class="codeph"> -1</span> 값은 아이콘이 무기한으로 다시 표시됨을 나타냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 페이드</span> </span> </p> </td> 
-   <td colname="col2"> <p> 애니메이션을 표시하거나 숨기는 지속 시간(초)을 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 애니메이션 표시 또는 숨기기 지속 시간(초)을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> IconEffect가 자동으로 숨겨지기 전에 계속 표시되는 시간(초)을 설정합니다. 즉, 페이드 인 애니메이션이 완료된 후 페이드 아웃 애니메이션이 시작하기 전에 시간이 경과됩니다. <span class="codeph"> 0</span> 설정은 자동 숨기기 동작을 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p> IconEffect가 자동으로 숨겨지기 전에 표시되는 시간(초)을 설정합니다. 즉, 페이드 인 애니메이션이 완료된 후 페이드 아웃 애니메이션이 시작되기 전의 시간입니다. <span class="codeph"> 0</span> 설정은 자동 숨기기 동작을 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

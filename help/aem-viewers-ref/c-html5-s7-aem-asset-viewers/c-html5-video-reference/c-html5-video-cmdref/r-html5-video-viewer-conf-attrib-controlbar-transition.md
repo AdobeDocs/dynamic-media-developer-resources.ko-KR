@@ -2,16 +2,15 @@
 description: 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
+feature: Dynamic Media Classic,Viewers,SDK/API,비디오
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
-
 
 # ControlBar.transition{#controlbar-transition}
 
@@ -23,15 +22,15 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대와 해당 내용을 표시하거나 숨기는 데 사용되는 효과 유형을 지정합니다. </p> <p><span class="codeph"> none</span>을 사용하여 즉시 표시하고 숨깁니다. 점진적 페이드 인 및 페이드 아웃 효과를 제공하려면 <span class="codeph"> 페이드</span>를 사용합니다. </p> <p>페이드는 Internet Explorer 8에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대와 해당 콘텐츠를 표시하거나 숨기는 데 사용되는 효과 유형을 지정합니다. </p> <p><span class="codeph"> none</span> 을 사용하여 즉시 표시하고 숨깁니다. <span class="codeph"> 페이드</span>를 사용하여 점진적 페이드 인 및 페이드 아웃 효과를 제공합니다. </p> <p>페이드 기능은 Internet Explorer 8에서 지원되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>컨트롤 막대가 등록하는 마지막 마우스/터치 이벤트와 시간 컨트롤 막대가 숨겨지는 시간(초)을 지정합니다. </p> <p> <span class="codeph"> -1</span>으로 설정하면 구성 요소는 자동 숨기기 효과를 트리거하지 않으며 항상 화면에 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>컨트롤 막대가 등록하는 마지막 마우스/터치 이벤트와 시간 컨트롤 막대가 숨기는 시간 사이의 시간(초)을 지정합니다. </p> <p> <span class="codeph"> -1</span>로 설정하면 구성 요소는 자동 숨기기 효과를 트리거하지 않고 항상 화면에 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 지속 시간</span> </span> </p> </td> 
-   <td colname="col2"> <p>페이드 인 및 페이드 아웃 애니메이션의 지속 시간(초)을 설정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 기간</span> </span> </p> </td> 
+   <td colname="col2"> <p>페이드 인 및 페이드 아웃 애니메이션의 지속 시간을 초 단위로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,4 +48,3 @@ ht-degree: 3%
 ```
 transition=none
 ```
-

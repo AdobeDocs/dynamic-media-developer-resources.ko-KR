@@ -1,21 +1,20 @@
 ---
-description: 이름이 포함된 패스의 테두리 상자로 자를 수 있습니다. 이 자르기는 다시 이미지 크기를 변경합니다.
+description: 포함된 명명된 패스의 테두리 상자로 자를 수 있습니다. 자르기를 수행하면 이미지의 크기가 변경됩니다.
 solution: Experience Manager
 title: cropPathE
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 2%
 
 ---
 
-
 # cropPathE{#croppathe}
 
-이름이 포함된 패스의 테두리 상자로 자를 수 있습니다. 이 자르기는 다시 이미지 크기를 변경합니다.
+포함된 명명된 패스의 테두리 상자로 자를 수 있습니다. 자르기를 수행하면 이미지의 크기가 변경됩니다.
 
 `cropPathE= *``*&#42;[, *`pathNamepathName`*]`
 
@@ -23,20 +22,20 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>레이어 소스 이미지에 포함된 경로 이름(ASCII만 해당). </p> <p> <span class="codeph"><span class="varname"> 경로 </span></span> 이름은 레이어 소스 이미지에 포함된 경로의 이름입니다. 이미지 내용에 상대적인 정렬을 유지하기 위해 필요에 따라 경로가 자동으로 변형됩니다. 둘 이상의 <span class="codeph"><span class="varname"> pathName</span></span>을(를) 지정하면 서버가 각 경로의 경계 상자로 한 번에 하나씩 잘립니다. 소스 이미지에 없는 <span class="codeph"><span class="varname"> pathName</span></span>은 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>레이어 소스 이미지에 포함된 경로 이름(ASCII만 해당). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName은 레이어 소스 이미지에 포함된 경로의 이름입니다. 필요에 따라 경로가 자동으로 변형되어 이미지 내용에 대한 상대적 맞춤을 유지합니다. 둘 이상의 <span class="codeph"><span class="varname"> pathName</span></span>을 지정하면 서버가 각 경로의 경계 상자로 한 번에 하나씩 자릅니다. 소스 이미지에 없는 <span class="codeph"><span class="varname"> pathName</span></span>은(는) 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-레이어 속성입니다. `layer=comp`인 경우 현재 레이어나 합성 이미지에 적용됩니다. 효과 레이어에서 무시됩니다.
+레이어 속성입니다. `layer=comp` 인 경우 현재 레이어 또는 복합 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
-`cropPathE=` 레이어 소스 이미지에 지정된 이름의 경로가 없거나 레이어 소스가 이미지가 아닌 경우에는 이 값이 무시됩니다.
+`cropPathE=` 레이어 소스 이미지에서 지정된 이름의 경로를 찾을 수 없거나 레이어 소스가 이미지가 아닌 경우에는 이 무시됩니다.
 
 ## 기본값 {#section-d1986aa31af14767aeb1b4a57add67f4}
 
-없음. 추가 자르기 작업이 필요 없습니다.
+없음, 추가 레이어 자르기가 필요 없습니다.
 
 ## 참조 {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 

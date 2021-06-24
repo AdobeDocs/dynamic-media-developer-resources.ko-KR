@@ -1,21 +1,20 @@
 ---
-description: 자산 생성 단계에 대한 정보를 포함하는 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
+description: 자산 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
 solution: Experience Manager
 title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 13%
 
 ---
 
-
 # GenerationAttribute{#generationattribute}
 
-자산 생성 단계에 대한 정보를 포함하는 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
+자산 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
 
 구문
 
@@ -23,6 +22,5 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 속성 이름. |
+| `*`name`*` | `xsd:string` | 속성 이름입니다. |
 | `*`value`*` | `xsd:string` | 속성 값. |
-

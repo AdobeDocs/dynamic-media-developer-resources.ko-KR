@@ -1,21 +1,20 @@
 ---
-description: 색상을 기반으로 이미지를 자동으로 자르는 옵션
+description: 색상을 기반으로 이미지를 자동으로 자르는 옵션입니다.
 solution: Experience Manager
-title: AutoColorCropOptions
+title: 자동 색상 자르기 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '52'
 ht-degree: 9%
 
 ---
 
+# 자동 색상 자르기 옵션{#autocolorcropoptions}
 
-# AutoColorCropOptions{#autocolorcropoptions}
-
-색상을 기반으로 이미지를 자동으로 자르는 옵션
+색상을 기반으로 이미지를 자동으로 자르는 옵션입니다.
 
 구문
 
@@ -32,18 +31,17 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 모퉁이</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> [자동 자르기 모퉁이]를 선택합니다. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> 자동 자르기 모서리 선택. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 허용치</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 허용</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">색상 일치 사양. 사용: 
+   <td colname="col3">색상 일치 사양입니다. 사용: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">색상을 정확하게 일치시키기 위해 0을 설정합니다. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 - 색상 차이가 가장 많이 나는 것을 활성화합니다. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0을 입력하여 색상을 정확하게 일치시킵니다. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1을 클릭하여 가장 큰 색상 차이를 활성화합니다. </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
-

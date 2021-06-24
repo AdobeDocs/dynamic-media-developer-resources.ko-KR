@@ -1,21 +1,20 @@
 ---
-description: 실행되도록 예약된 작업을 가져옵니다.
+description: 실행하도록 예약된 작업을 가져옵니다.
 solution: Experience Manager
 title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
 
-
 # getScheduledJobs{#getscheduledjobs}
 
-실행되도록 예약된 작업을 가져옵니다.
+실행하도록 예약된 작업을 가져옵니다.
 
 구문
 
@@ -38,17 +37,17 @@ ht-degree: 20%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
 | `*`jobHandle`*` | `xsd:string` | 아니요 | 작업 핸들. |
-| `*`originalName`*` | `xsd:string` | 아니요 | `submitJob`에서 지정한 이름입니다. |
+| `*`originalName`*` | `xsd:string` | 아니요 | `submitJob`에 의해 지정된 이름입니다. |
 
 **출력(getScheduledJobsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | 예 | 예약된 작업 배열입니다. |
+| `*`jobArray`*` | `types:ScheduledJobArray` | 예 | 예약된 작업의 배열입니다. |
 
 ## 예제 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-이 코드 샘플은 작업 배열의 예약된 모든 작업을 반환합니다. 배열 자체에는 작업에 대한 자세한 정보가 포함되어 있습니다.
+이 코드 샘플은 작업 배열의 예약된 모든 작업을 반환합니다. 스토리지 자체에는 작업에 대한 자세한 정보가 포함되어 있습니다.
 
 **요청**
 
@@ -78,4 +77,3 @@ ht-degree: 20%
    </jobArray>
 </getScheduledJobsReturn>
 ```
-

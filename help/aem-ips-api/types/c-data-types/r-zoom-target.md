@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 대상 확대/축소
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # 대상 확대/축소{#zoomtarget}
 
@@ -23,13 +22,12 @@ ht-degree: 14%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | 확대/축소 대상 핸들. |
-| `*`name`*` | `xsd:string` | 확대/축소 대상 이름. |
+| `*`zoomTargetHandle`*` | `xsd:string` | 대상 핸들을 확대/축소합니다. |
+| `*`name`*` | `xsd:string` | 대상 이름 확대/축소. |
 | `*`xPosition`*` | `xsd:int` | 확대/축소 대상의 X 위치입니다. |
 | `*`yPosition`*` | `xsd:int` | 확대/축소 대상의 Y 위치입니다. |
 | `*`width`*` | `xsd:int` | 대상 너비를 확대/축소합니다. |
-| `*`height`*` | `xsd:int` | 대상 높이를 확대/축소합니다. |
-| `*`사용자 데이터`*` | `xsd:string` | 확대/축소 대상과 연결된 사용자 데이터. |
-| `*`위치`*` | `xsd:int` | 자산과 연결된 확대/축소 타겟이 위치를 기준으로 정렬되도록 허용 |
+| `*`height`*` | `xsd:int` | 대상 높이 확대/축소. |
+| `*`사용자 데이터`*` | `xsd:string` | 확대/축소 대상과 연관된 사용자 데이터입니다. |
+| `*`위치`*` | `xsd:int` | 자산에 연결된 확대/축소 타겟을 위치를 기준으로 정렬할 수 있습니다 |
 | `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜. |
-

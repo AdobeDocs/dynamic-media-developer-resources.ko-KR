@@ -2,16 +2,15 @@
 description: 이미지 세트를 만듭니다.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
+feature: Dynamic Media Classic,SDK/API,이미지 세트
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 14%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -30,7 +29,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->대상 폴더에 대한 읽기/쓰기 액세스 권한이 있어야 합니다.
+>사용자는 대상 폴더에 대한 읽기/쓰기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-03d22ba7d290477e91c25ca1d4439200}
 
@@ -38,17 +37,17 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 세트가 속하는 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 세트가 속한 회사의 핸들입니다. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 폴더에 대한 핸들입니다. |
-| `*`name`*` | `xsd:string` | 예 | 이미지 세트 이름. |
-| `*`type`*` | `xsd:string` | 예 | 이미지 집합 유형입니다. |
-| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 새 이미지 세트의 축소판으로 사용되는 에셋을 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용하려고 합니다. |
+| `*`name`*` | `xsd:string` | 예 | 이미지 세트 이름입니다. |
+| `*`type`*` | `xsd:string` | 예 | 이미지 세트 유형입니다. |
+| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 새 이미지 세트의 축소판 역할을 하는 자산의 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용합니다. |
 
 **출력**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 예 | 새 이미지 세트의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 새 이미지 세트에 대한 핸들입니다. |
 
 ## 예제 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
@@ -72,4 +71,3 @@ ht-degree: 14%
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-

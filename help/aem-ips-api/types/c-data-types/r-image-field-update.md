@@ -1,21 +1,20 @@
 ---
-description: 이미지 자산과 연관된 이미지 필드를 업데이트합니다.
+description: 이미지 자산과 연결된 이미지 필드를 업데이트합니다.
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
-
 # ImageFieldUpdate{#imagefieldupdate}
 
-이미지 자산과 연관된 이미지 필드를 업데이트합니다.
+이미지 자산과 연결된 이미지 필드를 업데이트합니다.
 
 구문
 
@@ -24,8 +23,7 @@ ht-degree: 8%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | 자산 핸들. |
-| `*`resolution`*` | `xsd:double` | 이미지 해상도(인치당 픽셀 단위) |
+| `*`resolution`*` | `xsd:double` | 인치당 이미지 해상도(픽셀 단위)입니다. |
 | `*`anchorX`*` | `xsd:int` | X축 이미지 앵커. |
 | `*`anchorY`*` | `xsd:int` | Y축 이미지 앵커. |
-| `*`사용자 데이터`*` | `xsd:string` | `userData` 메타데이터 필드의 값입니다. 이 필드는 이미지 제공 사용자 데이터 카탈로그 필드에 게시됩니다. |
-
+| `*`사용자 데이터`*` | `xsd:string` | 이미지 제공 사용자 데이터 카탈로그 필드에 게시된 `userData` 메타데이터 필드의 값입니다. |

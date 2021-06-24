@@ -2,13 +2,12 @@
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 초기 로드 시 비디오 재생에 대해 음소거 모드를 설정합니다. <span class="codeph"> 1 </span>으로 설정하면 볼륨이 음소거됩니다.그렇지 않으면 비디오가 사운드와 함께 재생됩니다. 특정 장치에서 로드 시 비디오 재생을 사용하는 경우에도 비디오가 자동 재생됩니다. </p> </td> 
+   <td colname="col2"> <p> 초기 로드 시 비디오 재생에 대한 음소거 모드를 설정합니다. <span class="codeph"> 1 </span> 로 설정하면 볼륨이 음소거됩니다.그렇지 않으면 비디오가 사운드와 함께 재생됩니다. 특정 장치에서 로드 시 비디오 재생을 뮤팅하면 비디오가 자동 재생되도록 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

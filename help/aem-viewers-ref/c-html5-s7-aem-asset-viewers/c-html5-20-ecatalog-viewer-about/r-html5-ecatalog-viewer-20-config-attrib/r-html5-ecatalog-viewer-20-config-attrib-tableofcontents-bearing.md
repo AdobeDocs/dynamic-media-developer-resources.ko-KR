@@ -4,14 +4,13 @@ solution: Experience Manager
 title: TableOfContents.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---
-
 
 # TableOfContents.bearing{#tableofcontents-bearing}
 
@@ -20,8 +19,8 @@ ht-degree: 2%
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> fit-lateral|fit-vertical</span> </p> </td> 
-   <td> <p> 드롭다운 패널 모양의 방향을 제어합니다. </p> <p><span class="codeph"> fit-vertical</span>로 설정하면 구성 요소가 먼저 기본 패널 위치를 단추 아래쪽으로 이동하고, 패널을 기본 위치에서 오른쪽 또는 왼쪽으로 롤아웃하려고 합니다. 각 작업을 수행하면 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 오른쪽 및 왼쪽 방향으로 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> Fit-lateral</span>으로 설정하면 구성 요소에서는 비슷한 논리를 사용하지만 아래쪽으로 롤아웃하여 방향을 오른쪽으로 이동합니다. 그런 다음 밑을 왼쪽으로 옮기고 아래쪽으로 내려가며 방향을 돌립니다. </p> </td> 
+   <td> <p> <span class="codeph"> 수직/측면/맞춤</span> </p> </td> 
+   <td> <p> 드롭다운 패널 모양 방향을 제어합니다. </p> <p><span class="codeph"> fit-vertical</span> 로 설정하면 구성 요소는 먼저 기본 패널 위치를 단추 아래로 이동하고 기본 위치에서 오른쪽 또는 왼쪽으로 패널을 롤아웃하려고 합니다. 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 오른쪽 및 왼쪽 방향으로 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>로 설정하면 구성 요소는 유사한 논리를 사용하지만, 베이스를 오른쪽으로 첫 번째 방향으로 이동하고 아래로 롤아웃하여 롤아웃합니다. 그리고 나서, 아래쪽으로 내려가서 위로 롤아웃하면서 베이스를 왼쪽으로 이동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

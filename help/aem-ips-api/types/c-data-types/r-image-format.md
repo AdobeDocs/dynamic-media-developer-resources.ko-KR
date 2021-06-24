@@ -1,21 +1,20 @@
 ---
-description: 이미지 출력 설정의 비구조화된 이름 집합.
+description: 구조화되지 않은 이미지 출력 설정 세트입니다.
 solution: Experience Manager
 title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # ImageFormat{#imageformat}
 
-이미지 출력 설정의 비구조화된 이름 집합.
+구조화되지 않은 이미지 출력 설정 세트입니다.
 
 자산 유형이 아닙니다.
 
@@ -25,5 +24,4 @@ ht-degree: 10%
 |---|---|---|
 | `*`imageFormatHandle`*` | `xsd:string` | 이미지 형식 핸들. |
 | `*`name`*` | `xsd:string` | 이미지 형식 이름입니다. |
-| `*`urlModifier`*` | `xsd:string` | 이미지 형식을 나타내는 이미지 서버 URL. |
-
+| `*`urlModifier`*` | `xsd:string` | 이미지 형식을 나타내는 이미지 서버 URL입니다. |

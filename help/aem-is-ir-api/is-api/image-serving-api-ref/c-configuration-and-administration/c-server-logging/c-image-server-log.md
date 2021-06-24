@@ -1,22 +1,21 @@
 ---
-description: 이미지 서버는 이 로그 파일에 레코드를 작성하여 경고 및 오류를 기록하고 시작 및 종료 이벤트에 대한 레코드를 유지합니다.
+description: 이미지 서버는 이 로그 파일에 레코드를 작성하여 경고 및 오류를 기록하고 시작 및 종료 이벤트 레코드를 유지합니다.
 solution: Experience Manager
 title: 이미지 서버 로그
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
-
 # 이미지 서버 로그{#image-server-log}
 
-이미지 서버는 이 로그 파일에 레코드를 작성하여 경고 및 오류를 기록하고 시작 및 종료 이벤트에 대한 레코드를 유지합니다.
+이미지 서버는 이 로그 파일에 레코드를 작성하여 경고 및 오류를 기록하고 시작 및 종료 이벤트 레코드를 유지합니다.
 
-또한 이미지 서버 로그를 구성하여 이미지 파일 액세스와 같은 추가적인 세부 사항을 추적하고 서버 문제를 디버깅할 수 있습니다.
+또한 이미지 서버 로그를 구성하여 서버 문제를 디버깅하는 데 도움이 되도록 이미지 파일 액세스와 같은 추가적인 세부 정보를 추적할 수 있습니다.
 
-이미지 서버 로그는 [!DNL ImageServerRegistry.xml]에 구성됩니다.
+이미지 서버 로그가 [!DNL ImageServerRegistry.xml]에 구성되어 있습니다.

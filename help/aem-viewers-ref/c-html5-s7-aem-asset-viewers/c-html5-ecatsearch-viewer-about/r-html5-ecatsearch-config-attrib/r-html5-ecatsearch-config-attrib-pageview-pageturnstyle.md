@@ -2,36 +2,35 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '128'
 ht-degree: 3%
 
 ---
-
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
 
-데스크톱 시스템에서 [!DNL `PageView.frametransition`]이(가) [!DNL `turn`] 또는 [!DNL `auto`]로 설정된 경우 구성 요소 모양을 제어합니다.
+데스크톱 시스템에서 [!DNL `PageView.frametransition`]이 [!DNL `turn`] 또는 [!DNL `auto`]로 설정된 경우 구성 요소 모양을 제어합니다.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> 스프레드에서 왼쪽 및 오른쪽 페이지를 구분하는 페이지 분할자 그림자의 폭(픽셀)입니다. 또한 선반가공 페이지 옆에 표시된 실행 중인 그림자의 너비를 제어합니다. </p> </td> 
+   <td colname="col2"> <p> 스프레드에서 왼쪽 페이지와 오른쪽 페이지를 구분하는 페이지 구분선 그림자의 너비(픽셀 단위)입니다. 또한 선반가공 페이지 옆에 표시되는 실행 중인 그림자의 폭을 제어합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> RGGBB 형식의 그림자 색상입니다. </p> </td> 
+   <td colname="col2"> <p> RGGBB 형식의 그림자 색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 0</span> 범위의 그림자 불투명도를 <span class="codeph"> 1</span>으로 설정합니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 0</span> ~ <span class="codeph"> 1</span> 범위의 그림자 불투명도입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
@@ -39,11 +38,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
-   <td colname="col2"> <p> RRGGBB 형식의 테두리 색상입니다. </p> </td> 
+   <td colname="col2"> <p> RGGBB 형식의 테두리 색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> 페이지 전환 애니메이션 시 사용되는 구성 요소 영역의 단색 채우기(RRGGBB 형식)입니다. </p> </td> 
+   <td colname="col2"> <p> 페이지 회전 애니메이션 중에 사용되는 구성 요소 영역의 단색(RRGGBB 형식)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

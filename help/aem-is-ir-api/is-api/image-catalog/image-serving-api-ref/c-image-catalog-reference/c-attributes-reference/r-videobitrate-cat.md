@@ -1,23 +1,22 @@
 ---
-description: 비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트 전송률을 지정할 수 있습니다.
+description: 비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트율을 지정할 수 있습니다.
 solution: Experience Manager
 title: VideoBitRate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: e94d7338-5831-476b-b905-5c9419849c3f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
-
 # VideoBitRate{#videobitrate}
 
-비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트 전송률을 지정할 수 있습니다.
+비디오 비트 전송률입니다. 각 비디오 레코드와 연관된 비트율을 지정할 수 있습니다.
 
-비트 전송률 데이터를 내보내도록 `req=set` 및 `req=mbrSet`요청에 의해 사용됩니다.
+`req=set` 및 `req=mbrSet`요청이 비트율 데이터를 내보내도록 사용됩니다.
 
 ## 속성 {#section-76731467b23240ac89b0767491c6020b}
 

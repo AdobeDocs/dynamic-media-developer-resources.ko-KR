@@ -1,28 +1,27 @@
 ---
-description: 재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
+description: 재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
 solution: Experience Manager
 title: 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 333b8954-e256-4ba1-8055-c4d625470673
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 22%
 
 ---
 
-
 # 유형{#type}
 
-재료 서피스 유형입니다. 재료의 서피스 유형을 지정합니다.
+재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
 
 `type=0...19`
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
   <td class="stentry"> <p>0 </p></td> 
-  <td class="stentry"> <p>알 수 없음, 서버가 기본값을 사용합니다. </p></td> 
+  <td class="stentry"> <p>알 수 없음, 서버는 기본값을 사용합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -30,19 +29,19 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Natural Wood </p></td> 
+  <td class="stentry"> <p>자연목 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>광택 금속 </p></td> 
+  <td class="stentry"> <p>연마된 금속 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p></td> 
-  <td class="stentry"> <p>브러시 적용 메탈 </p></td> 
+  <td class="stentry"> <p>브러시 처리된 금속 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p></td> 
-  <td class="stentry"> <p>Antipeed Metal </p></td> 
+  <td class="stentry"> <p>만금 금속 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
@@ -50,7 +49,7 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
-  <td class="stentry"> <p>에나멜/라케어 </p></td> 
+  <td class="stentry"> <p>에나멜/라퀴어 </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p></td> 
@@ -94,24 +93,24 @@ ht-degree: 22%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>순천 </p></td> 
+  <td class="stentry"> <p>순직물 </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>19년 </p></td> 
+  <td class="stentry"> <p>19 </p></td> 
   <td class="stentry"> <p>카펫 </p></td> 
  </tr> 
 </table>
 
-`gloss=` 및 `rough=`과 함께 사용하여 반사 및 광택 효과 동작을 제어합니다. `gloss=` 및 `rough=`이 동일한 경우에도 다른 재질이 다른 효과를 생성합니다.
+`gloss=` 및 `rough=`과 함께 사용하여 반사 및 광택 효과 동작을 제어합니다. `gloss=` 및 `rough=` 이 동일한 경우에도 서로 다른 물질이 다른 효과를 냅니다.
 
 ## 속성 {#section-2345b2508273426295ce8ac46182ea64}
 
-재료 속성. 비네팅에 3D 반사 데이터가 포함되어 있지 않거나 비네팅에서 광택 효과를 사용할 수 없는 경우 무시됩니다.
+재료 속성입니다. 비네트에 3D 반사 데이터가 포함되지 않거나 비네트에서 광택 효과가 비활성화된 경우 무시됩니다.
 
 ## 기본값 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않은 경우 `type=0`. 지정되지 않았거나 `type=0` 인 경우 서버는 대상 객체 및 기타 재료 속성에 따라 적절한 기본값을 선택합니다.
+`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않으면 `type=0`. 지정하지 않거나 `type=0` 인 경우 서버는 대상 객체와 기타 재료 속성에 따라 적합한 기본값을 선택합니다.
 
 ## 참조 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [러프=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [거칠게=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

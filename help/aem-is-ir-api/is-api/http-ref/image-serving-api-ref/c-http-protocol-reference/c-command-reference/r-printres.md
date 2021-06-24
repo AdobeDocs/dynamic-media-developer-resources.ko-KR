@@ -4,14 +4,13 @@ solution: Experience Manager
 title: printRes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
-
 
 # printRes{#printres}
 
@@ -22,21 +21,21 @@ ht-degree: 3%
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
-  <td class="stentry"> <p>인쇄 해상도(dpi). </p></td> 
+  <td class="stentry"> <p>인쇄 해상도(dpi)입니다. </p></td> 
  </tr> 
 </table>
 
-인쇄 해상도는 카탈로그 항목의 경우 일반적으로 `catalog::PrintResolution`에 의해 정의되며, 그렇지 않은 경우에는 소스 이미지에 포함된 인쇄 해상도 값으로 정의됩니다. 템플릿 또는 레이어로 구성된 합성 이미지의 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
+인쇄 해상도는 일반적으로 카탈로그 항목의 경우 `catalog::PrintResolution`에 의해 정의되며, 그렇지 않으면 원본 이미지에 포함된 인쇄 해상도 값으로 정의됩니다. 템플릿 또는 레이어 복합 이미지의 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 이미지의 인쇄 해상도로 가장 낮은 레이어 번호가 있습니다.
 
-인쇄 해상도를 설정해도 회신 이미지의 픽셀 크기는 변경되지 않습니다.
+인쇄 해상도를 설정하면 회신 이미지의 픽셀 크기가 변경되지 않습니다.
 
 ## 속성 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-요청 속성을 참조하십시오. 현재 레이어 설정에 관계없이 적용됩니다.
+요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 기본값 {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` 소스 이미지에 임베드된 인쇄 해상도입니다.
+`catalog::PrintResolution` 원본 이미지에 포함된 인쇄 해상도를 나타냅니다.
 
 ## 참조 {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

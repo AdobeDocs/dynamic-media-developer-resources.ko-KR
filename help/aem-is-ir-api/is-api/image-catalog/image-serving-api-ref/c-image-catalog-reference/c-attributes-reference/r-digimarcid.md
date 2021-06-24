@@ -1,21 +1,20 @@
 ---
-description: Digimarc 사용자 정보. Digimarc 포함에 대한 사용자 정보를 지정합니다.
+description: Digimarc 사용자 정보. Digimarc 임베딩에 대한 사용자 정보를 지정합니다.
 solution: Experience Manager
 title: DigimarcId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
 
-
 # DigimarcId{#digimarcid}
 
-Digimarc 사용자 정보. Digimarc 포함에 대한 사용자 정보를 지정합니다.
+Digimarc 사용자 정보. Digimarc 임베딩에 대한 사용자 정보를 지정합니다.
 
 ## 속성 {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
@@ -23,11 +22,11 @@ Digimarc 사용자 정보. Digimarc 포함에 대한 사용자 정보를 지정�
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-서비스를 구입할 때 `creator-id` 및 `creator-pin`는 Digimarc에서 제공합니다. 사용하지 않은 값은 비워 두어야 합니다.
+서비스를 구입할 때 `creator-id` 및 `creator-pin`은 Digimarc에서 제공합니다. 사용하지 않은 값은 비워 두어야 합니다.
 
-`durability` 디지마크 워터마크 포함 강도를 지정합니다. 1, 2, 3 또는 4일 수 있으며 1은 가장 약하고 4개의 가장 강한 내구성을 나타냅니다.
+`durability` Digimarc 워터마크 포함 강도를 지정합니다. 1, 2, 3 또는 4일 수 있으며, 1은 가장 약하고 4개의 가장 강한 내구성을 나타냅니다.
 
-워터마크를 이미지의 색차 데이터로 인코딩하려면 `chroma`을 1로 설정하거나, 광도로 인코딩하려면 0(기본값)으로 설정합니다. 회색 음영 이미지를 출력할 때 이 설정은 무시됩니다.
+워터마크를 이미지의 색차 데이터로 인코딩하려면 `chroma` 을 1로, 휘도로 인코딩하려면 0(기본값)으로 설정하십시오. 회색 음영 이미지를 출력할 때는 이 설정이 무시됩니다.
 
 ## 기본값 {#section-d6ecb6e95a7b4232bd612834ea49e6bc}
 
@@ -35,7 +34,7 @@ Digimarc 사용자 정보. Digimarc 포함에 대한 사용자 정보를 지정�
 
 ## 예 {#section-8469ae1c27b4461da3d53fbabc32d3c5}
 
-내구성이 4로 설정된 Digimarc 생성자 id 테스트를 지정합니다.
+내구성이 4로 설정된 테스트 Digimarc 작성자 ID를 지정합니다.
 
 `DigimarcId= 404407,32,,,4`
 

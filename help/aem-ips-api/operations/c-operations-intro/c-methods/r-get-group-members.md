@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
-
 
 # getGroupMembers{#getgroupmembers}
 
@@ -32,7 +31,7 @@ ht-degree: 17%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`groupHandle`*` | `xsd:string` |  | 그룹의 핸들입니다. |
+| `*`groupHandle`*` | `xsd:string` |  | 그룹에 대한 핸들입니다. |
 
 **출력(getGroupMembersReturn)**
 
@@ -42,7 +41,7 @@ ht-degree: 17%
 
 ## 예제 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-이 코드 샘플은 특정 그룹에 속한 모든 사용자가 포함된 사용자 핸들 배열을 반환합니다.
+이 코드 샘플은 특정 그룹에 속하는 모든 사용자를 포함하는 사용자 핸들 배열을 반환합니다.
 
 **요청**
 
@@ -62,4 +61,3 @@ ht-degree: 17%
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-

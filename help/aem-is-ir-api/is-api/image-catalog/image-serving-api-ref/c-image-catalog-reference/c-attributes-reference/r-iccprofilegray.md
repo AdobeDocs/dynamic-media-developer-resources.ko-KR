@@ -1,25 +1,24 @@
 ---
-description: 회색 음영 기본 출력 색상 프로파일 icc=로 출력 색상 공간을 지정하지 않을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 color=와 같은 다양한 이미지 제공 명령으로 지정된 특정 회색 음영 색상 값에 대해 지정합니다.
+description: 회색 음영 기본 출력 색상 프로파일 출력 색상 공간이 icc=로 지정되지 않은 경우 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 color= 등의 다양한 이미지 제공 명령으로 지정된 특정 회색 음영 색상 값에 대해 지정합니다.
 solution: Experience Manager
 title: IccProfileGray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4964c3b3-799d-40cb-bc5f-d08acfd41ed9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
 
-
 # IccProfileGray{#iccprofilegray}
 
-회색 음영 기본 출력 색상 프로파일 icc=로 출력 색상 공간을 지정하지 않을 때 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 color=와 같은 다양한 이미지 제공 명령으로 지정된 특정 회색 음영 색상 값에 대해 지정합니다.
+회색 음영 기본 출력 색상 프로파일 출력 색상 공간이 icc=로 지정되지 않은 경우 회색 음영 응답 이미지에 사용할 ICC 색상 프로필의 이름을 지정하고 color= 등의 다양한 이미지 제공 명령으로 지정된 특정 회색 음영 색상 값에 대해 지정합니다.
 
 ## 속성 {#section-03f090ee2acf4537b83f78840d23ecab}
 
-텍스트 문자열. 지정된 경우 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로필은 회색 음영 프로필이어야 합니다.
+텍스트 문자열입니다. 지정한 경우 이 이미지 카탈로그나 기본 카탈로그의 ICC 프로필 맵에서 유효한 `icc::Name` 값이거나 `attribute::RootPath`에 상대적인 파일 경로여야 합니다. 참조된 ICC 프로파일은 회색 음영 프로필이어야 합니다.
 
 ## 기본값 {#section-95ba3ab15edc4259b657c6ebf8783d61}
 

@@ -1,27 +1,26 @@
 ---
-description: 뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
 solution: Experience Manager
 title: 핫스팟 및 이미지 맵
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
 
 # 핫스팟 및 이미지 맵{#hotspots-and-image-maps}
 
-뷰어는 AEM Assets의 Dynamic Media에서 원래 핫스팟이 작성되었던 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-핫스팟 아이콘의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+핫스팟 아이콘의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7icon
@@ -36,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
    <td colname="col2"> <p>핫스팟 아이콘 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +53,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-예 - 서로 다른 두 아이콘 상태에 대해 서로 다른 이미지를 표시하는 56 x 56픽셀 핫스팟 아이콘을 설정합니다.
+예 - 두 개의 서로 다른 아이콘 상태에 대해 서로 다른 이미지를 표시하는 56 x 56 픽셀 핫스팟 아이콘을 설정합니다.
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -71,7 +70,7 @@ ht-degree: 1%
 
 **이미지 맵 영역의 CSS 속성**
 
-이미지 맵 영역의 모양은 다음과 같은 CSS 클래스 선택기로 제어됩니다.
+이미지 맵 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
@@ -85,20 +84,20 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색상입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색상입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. <span class="codeph"> 너비 </span> <span class="codeph"> 단색 </span>"으로 지정해야 합니다. 여기서 <span class="codeph"> 너비 </span>은 픽셀로 표현되며 <span class="codeph"> 색상 </span>은 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) &lt;a11 1/&gt; 또는 <span class="codeph"> RGBA(R,G,B,A) </span>.</span> </p> </td> 
+   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. <span class="codeph"> 너비 </span> <span class="codeph"> 단색 </span>"로 지정해야 합니다. 여기서 <span class="codeph"> 너비 </span>는 픽셀로 표현되고 <span class="codeph"> 색상 </span>은 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RR(R,G,B,A) &lt;A13/&gt; 로 설정됩니다.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 단일 픽셀 검정 테두리로 투명한 이미지 맵 영역을 설정합니다.
+예 - 한 픽셀 검정색 테두리로 투명한 이미지 맵 영역을 설정합니다.
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 

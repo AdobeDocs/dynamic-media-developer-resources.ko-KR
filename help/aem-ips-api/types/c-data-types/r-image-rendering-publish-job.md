@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ImageRenderingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
-
 
 # ImageRenderingPublishJob{#imagerenderingpublishjob}
 
@@ -23,7 +22,6 @@ ht-degree: 10%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`emailSetting`*` | `xsd:string` | 이메일 설정 선택 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL. |
+| `*`emailSetting`*` | `xsd:string` | 이메일 설정 선택. |
+| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL입니다. |
 | `*`contextHandle`*` | `xsd:string` | 게시 컨텍스트를 처리합니다. |
-

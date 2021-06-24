@@ -1,19 +1,18 @@
 ---
 description: setCompanySettingsParam/overwriteMode에서 사용됩니다.
 solution: Experience Manager
-title: 에셋 덮어쓰기 모드
-feature: Dynamic Media Classic,SDK/API,Asset Management
+title: 자산 덮어쓰기 모드
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 1a62026c-bad1-4459-8fe6-a94b87939ce1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
-
-# 에셋 덮어쓰기 모드{#asset-overwrite-modes}
+# 자산 덮어쓰기 모드{#asset-overwrite-modes}
 
 setCompanySettingsParam/overwriteMode에서 사용됩니다.
 
@@ -25,4 +24,3 @@ setCompanySettingsParam/overwriteMode에서 사용됩니다.
 * [!DNL `OverwriteAnyExt`]
 * [!DNL `OverwriteFullNameAnyFolder`]
 * [!DNL `OverwriteAnyExtAnyFolder`]
-

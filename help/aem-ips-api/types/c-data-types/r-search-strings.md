@@ -4,14 +4,13 @@ solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 11%
 
 ---
-
 
 # SearchStrings{#searchstrings}
 
@@ -24,12 +23,11 @@ PDF 파일에서 추출한 검색 문자열 레코드입니다.
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`searchString`*` | `xsd:string` | 문자열 텍스트를 검색합니다. |
-| `*`keywordsArray`*` | `types:KeywordsArray` | 검색 문자열에서 키워드의 배열입니다. |
-| `*`status`*` | `xsd:boolean` | 검색 문자열이 유효하고 활성화되면 true입니다. |
+| `*`keywordsArray`*` | `types:KeywordsArray` | 검색 문자열에서 키워드 배열입니다. |
+| `*`status`*` | `xsd:boolean` | 검색 문자열이 유효하고 활성화되어 있으면 True입니다. |
 | `*`x`*` | `xsd:int` | 검색 문자열의 X축 위치입니다. |
 | `*`y`*` | `xsd:int` | 검색 문자열의 Y축 위치입니다. |
-| `*`width`*` | `xsd:int` | 문자열 너비를 검색합니다. |
-| `*`height`*` | `xsd:int` | 문자열 높이를 검색합니다. |
-| `*`fontName`*` | `xsd:string` | 검색 문자열에 사용된 글꼴의 이름입니다. |
-| `*`pointSize`*` | `xsd:string` | 글꼴 크기. |
-
+| `*`width`*` | `xsd:int` | 검색 문자열 너비. |
+| `*`height`*` | `xsd:int` | 검색 문자열 높이. |
+| `*`fontName`*` | `xsd:string` | 검색 문자열에 사용되는 글꼴의 이름입니다. |
+| `*`pointSize`*` | `xsd:string` | 글꼴 크기입니다. |

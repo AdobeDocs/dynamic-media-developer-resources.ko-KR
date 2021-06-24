@@ -1,21 +1,20 @@
 ---
-description: Video360 뷰어에 대한 URL 명령.
+description: Video360 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
 title: 비디오
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
-# video{#video}
+# 비디오{#video}
 
-Video360 뷰어에 대한 URL 명령.
+Video360 뷰어에 대한 URL 명령입니다.
 
 ` video= *`videoURL`*`
 
@@ -23,14 +22,14 @@ Video360 뷰어에 대한 URL 명령.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> 외부 비디오에 대한 절대 URL. </p> </td> 
+   <td colname="col2"> <p> 외부 비디오에 대한 절대 URL입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-필수. (`asset` 매개 변수가 사용되지 않는 경우). [외부 비디오 지원](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)을 참조하십시오.)
+필수. ( `asset` 매개 변수를 사용하지 않는 경우) [외부 비디오 지원](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) 을 참조하십시오.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

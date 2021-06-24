@@ -4,14 +4,13 @@ solution: Experience Manager
 title: pauseJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
-
 
 # pauseJob{#pausejob}
 
@@ -36,12 +35,12 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`jobHandle`*` | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
 
 **출력(PauseJobReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-ee4914f9496f4bd88556728a48fb22c1}
 

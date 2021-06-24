@@ -2,30 +2,29 @@
 description: FlyoutZoomView.imagereload
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 84dd1e40-2ab8-4356-9eff-8766432b539b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
 
-
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`폭`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`너비`*]]`
 
 <table id="table_7DA232CB62134078B788B9AB1452F363"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소가 크기 조정 중에 기본 및 플라이아웃 보기에 대한 새 이미지를 가져오는 방법을 구성합니다. </p> <p><span class="codeph"> 0 </span>으로 설정하면 구성 요소가 크기 조정 중에 새 이미지를 로드하지 않고 플라이아웃 보기의 이미지 해상도는 변경되지 않습니다. </p> <p><span class="codeph"> 1 </span>으로 설정하면 기본 보기로 로드된 이미지에 대해 하나 이상의 폭 중단점을 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 크기 조정 중에 구성 요소가 기본 및 플라이아웃 보기에 대한 새 이미지를 가져오는 방법을 구성합니다. </p> <p><span class="codeph"> 0 </span> 로 설정하면 구성 요소가 크기 조정 중에 새 이미지를 로드하지 않고 플라이아웃 보기의 이미지 해상도는 변경되지 않습니다. </p> <p><span class="codeph"> 1 </span>로 설정하면 기본 보기에 로드되는 이미지에 대해 하나 이상의 너비 중단점을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 중단점,  <span class="varname"> 너비  </span>; <span class="varname"> 너비  </span> </span> </p> </td> 
-   <td colname="col2"> <p>기본 보기로 로드된 이미지의 폭 중단점입니다. </p> <p>구성 요소는 항상 초기 로드에 가장 적합한 크기를 사용합니다. 크기를 조정한 후 기본 보기의 이미지가 항상 가장 가까운 큰 중단점과 같은 폭을 사용하여 다운로드되고 클라이언트에서 축소됩니다. </p> </td> 
+   <td colname="col2"> <p>기본 보기에 로드되는 이미지의 너비 중단점. </p> <p>구성 요소는 항상 초기 로드에 가장 적합한 크기를 사용합니다. 크기를 조정하면 기본 보기의 이미지가 항상 가장 가까운 큰 중단점과 동일한 너비를 사용하여 다운로드되고 클라이언트에 대해 축소됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

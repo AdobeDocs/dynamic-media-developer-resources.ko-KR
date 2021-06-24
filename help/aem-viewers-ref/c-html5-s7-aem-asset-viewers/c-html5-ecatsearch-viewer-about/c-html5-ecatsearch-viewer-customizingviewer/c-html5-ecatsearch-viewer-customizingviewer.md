@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# eCatalog 검색 뷰어 사용자 지정{#customizing-ecatalog-search-viewer}
+# eCatalog 검색 뷰어 사용자 정의{#customizing-ecatalog-search-viewer}
 
 eCatalog 검색 뷰어에 대한 모든 시각적 사용자 지정 및 대부분의 동작 사용자 지정은 사용자 지정 CSS를 만들어 수행합니다.
 
@@ -31,7 +31,7 @@ eCatalog 검색 뷰어에 대한 모든 시각적 사용자 지정 및 대부분
 
 `#<containerId>.s7ecatalogsearchviewer`
 
-## 반응형 디자인 CSS {#section-c1e74f5114ad418884ca1c95f5ea5b63} 작성
+## 반응형 디자인 CSS 빌드 {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
 사용자의 장치 또는 특정 웹 페이지 레이아웃에 따라 콘텐츠를 다르게 표시하려면 CSS에 다양한 장치와 포함 크기를 타깃팅할 수 있습니다. 여기에는 다양한 웹 페이지 레이아웃, 사용자 인터페이스 요소 크기 및 아트워크 해상도가 포함되지만 이에 제한되지 않습니다.
 
@@ -165,7 +165,7 @@ background-position: -0px -560px;
 }
 ```
 
-## 일반 스타일 설명 및 조언 {#section-95855dccbbc444e79970f1aaa3260b7b}
+## 일반 스타일 노트 및 조언 {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * CSS를 사용하여 뷰어 사용자 인터페이스를 사용자 지정할 때 뷰어 요소의 스타일에 대해 `!IMPORTANT` 규칙 사용이 지원되지 않습니다. 특히 뷰어 또는 Viewer SDK에서 제공하는 기본 또는 런타임 스타일을 재정의하는 데 `!IMPORTANT` 규칙을 사용하지 않아야 합니다. 이유는 올바른 구성 요소의 동작에 영향을 줄 수 있기 때문입니다. 대신, 이 참조 안내서에 설명된 CSS 속성을 설정하려면 적절한 특성과 함께 CSS 선택기를 사용해야 합니다.
 * CSS 내의 외부 자산에 대한 모든 경로는 뷰어 HTML 페이지 위치가 아니라 CSS 위치에 대해 확인됩니다. 기본 CSS를 다른 위치에 복사할 때에는 이 규칙을 알고 있어야 합니다. 기본 자산을 복사하거나 사용자 지정 CSS 내에서 경로를 업데이트합니다.
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * 사용자 인터페이스에서 단추를 제거하려면 해당 CSS 클래스에 `display:none`을 추가하십시오.
 * CSS에서 지원하는 색상 값에 다양한 형식을 사용할 수 있습니다. 투명도가 필요한 경우 `rgba(R,G,B,A)` 형식을 사용하십시오. 그렇지 않으면 `#RRGGBB` 형식을 사용할 수 있습니다.
 
-## 일반 사용자 인터페이스 요소 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## 공통 사용자 인터페이스 요소 {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 다음은 eCatalog Search Viewer에 적용되는 사용자 인터페이스 요소 참조 설명서입니다.
 

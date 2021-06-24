@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
-
 
 # getActiveJobs{#getactivejobs}
 
@@ -37,18 +36,18 @@ ht-degree: 15%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
-| `*`jobHandle`*` | `xsd:string` | 아니요 | 작업에 대한 핸들입니다. |
-| `*`originalName`*` | `xsd:string` | 아니요 | 원래 작업 이름. |
+| `*`jobHandle`*` | `xsd:string` | 아니요 | 작업 핸들입니다. |
+| `*`originalName`*` | `xsd:string` | 아니요 | 원래 작업 이름입니다. |
 
 **출력(getActiveJobsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | 예 | 활성 작업 배열입니다. |
+| `*`jobArray`*` | `xsd:string` | 예 | 활성 작업의 배열입니다. |
 
 ## 예제 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-이 코드 샘플은 IPS에서 실행 중인 회사의 모든 활성 작업을 반환합니다. 이 경우 IPS 예약 코디네이터가 실행 중인 활성 작업이 없는 상태로 비활성화되어 응답이 이례적인 경우입니다. 정상적인 상황에서 응답으로 많은 활성 작업이 반환됩니다.
+이 코드 샘플은 IPS를 실행하는 회사의 모든 활성 작업을 반환합니다. 이 경우 IPS 예약 코디네이터가 실행 중인 활성 작업이 없는 상태로 비활성화되어 응답이 이례적인 경우 일반적인 상황에서 응답은 많은 활성 작업을 반환합니다.
 
 **요청**
 
@@ -65,4 +64,3 @@ ht-degree: 15%
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-

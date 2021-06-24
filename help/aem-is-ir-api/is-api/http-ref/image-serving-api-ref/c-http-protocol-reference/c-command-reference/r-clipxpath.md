@@ -1,21 +1,20 @@
 ---
-description: 반전된 레이어 클립 경로입니다. 현재 레이어의 제외 클립 경로를 지정합니다. clipXPath=로 정의된 영역 내에 있는 레이어의 모든 부분은 투명하게 렌더링됩니다.
+description: 반전된 레이어 클립 경로. 현재 레이어의 제외 클립 경로를 지정합니다. clipXPath=로 정의된 영역 내에 있는 레이어의 모든 부분은 투명하게 렌더링됩니다.
 solution: Experience Manager
 title: clipXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 4%
 
 ---
 
-
 # clipXPath{#clipxpath}
 
-반전된 레이어 클립 경로입니다. 현재 레이어의 제외 클립 경로를 지정합니다. clipXPath=로 정의된 영역 내에 있는 레이어의 모든 부분은 투명하게 렌더링됩니다.
+반전된 레이어 클립 경로. 현재 레이어의 제외 클립 경로를 지정합니다. clipXPath=로 정의된 영역 내에 있는 레이어의 모든 부분은 투명하게 렌더링됩니다.
 
 `clipXPath= *`pathDefinition`*`
 
@@ -32,11 +31,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-`*`pathName`*` 및 `*`pathDefinition`*`에 대한 설명을 포함하여 자세한 내용은 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을 참조하십시오.
+`*`pathName`*` 및 `*`pathDefinition`*`에 대한 설명을 포함하여 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을 참조하십시오.
 
 ## 속성 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-레이어 속성입니다. `layer=comp`인 경우 현재 레이어나 합성 이미지에 적용됩니다. `clipPath=`이(가) 지정되지 않은 경우 무시됩니다. 효과 레이어에서 무시됩니다.
+레이어 속성입니다. `layer=comp` 인 경우 현재 레이어 또는 복합 이미지에 적용됩니다. `clipPath=`이 지정되지 않은 경우 무시됩니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

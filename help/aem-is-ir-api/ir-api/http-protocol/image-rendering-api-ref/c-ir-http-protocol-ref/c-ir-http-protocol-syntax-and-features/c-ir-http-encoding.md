@@ -4,22 +4,21 @@ solution: Experience Manager
 title: 이미지 렌더링 HTTP 인코딩
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
-
 
 # 이미지 렌더링 HTTP 인코딩{#image-rendering-http-encoding}
 
 값 문자열에 예약된 문자 &#39;=&#39;, &#39;&amp;&#39; 및 &#39;%&#39;가 포함되지 않도록 %xx 이스케이프 시퀀스를 사용하여 명령 값을 http로 인코딩해야 합니다.
 
-그렇지 않으면 표준 HTTP 인코딩 규칙이 적용됩니다. HTTP 사양은 &#39;(space), &#39;&quot;(큰따옴표), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; 및 &#39;>&#39;와 같은 안전하지 않은 문자뿐만 아니라 `<return>` 및 `<tab>`과 같은 모든 제어 문자를 인코딩해야 합니다.
+그렇지 않으면 표준 HTTP 인코딩 규칙이 적용됩니다. HTTP 사양은 &#39;(space), &#39;&quot;(큰따옴표), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39;, &#39;>&#39; 등의 안전하지 않은 문자와 `<return>` 및 `<tab>` 등의 컨트롤 문자를 인코딩해야 합니다.
 
-**주의:** 요청 중첩 구분 기호로 사용된 중괄호 { }는 인코딩할 수 없습니다. 안타깝게도 특정 이메일 클라이언트는 포함된 HTTP 요청에서 중괄호를 인코딩합니다. 이 문제가 발생하면 이미지 렌더링에서는 중괄호 대신 괄호( )를 사용할 수 있습니다.
+**주의:** 요청 중첩 구분 기호로 사용된 중괄호 { }는 인코딩할 수 없습니다. 특정 이메일 클라이언트는 안타깝게도 포함된 HTTP 요청에 중괄호를 인코딩합니다. 문제가 되는 경우 이미지 렌더링에서는 중괄호 대신 괄호( )를 사용할 수 있습니다.
 
 ## 예 {#section-3edc5b8ee2354220a281b01722ad337a}
 

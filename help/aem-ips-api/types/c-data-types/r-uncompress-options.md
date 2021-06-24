@@ -1,25 +1,24 @@
 ---
-description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출하고 업로드(압축 해제)하도록 설정을 업로드하십시오.
+description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출 및 업로드(압축 해제)하도록 설정을 업로드합니다.
 solution: Experience Manager
 title: 압축 해제 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 5%
 
 ---
 
+# 압축 해제 옵션{#uncompressoptions}
 
-# UncompressOptions{#uncompressoptions}
-
-ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출하고 업로드(압축 해제)하도록 설정을 업로드하십시오.
+ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 추출 및 업로드(압축 해제)하도록 설정을 업로드합니다.
 
 >[!NOTE]
 >
->`None` 기본값은 기본값입니다.
+>`None` 기본값은 입니다.
 
 ## 매개 변수 {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,12 +33,12 @@ ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 �
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 프로세스</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
-   <td colname="col3"> <p>ZIP 및 TAR 아카이브 파일 처리를 제어합니다. 2가지 옵션을 제공합니다. 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> <p>ZIP 및 TAR 아카이브 파일 처리를 제어합니다. 다음 두 가지 옵션을 제공합니다. 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음:</span> 기본 자산으로 처리합니다. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제:</span> 컨텐츠를 추출하고 처리합니다. </li>
-     </ul><p>참고:문자열 상수는 대/소문자를 구분합니다. <span class="codeph"> 압축 해제</span> 또는 <span class="codeph"> 압축 해제</span>이 아닌 <span class="codeph"> 압축 해제</span>를 사용하십시오. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음: </span> 기본 자산으로 처리합니다. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제: </span> 컨텐츠를 추출하고 처리합니다. </li>
+     </ul><p>참고:문자열 상수는 대/소문자를 구분합니다. <span class="codeph"> 압축 해제</span> 또는 <span class="codeph"> uncompress</span>가 아닌 <span class="codeph"> 압축 해제</span>를 사용하십시오. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +56,10 @@ ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 �
     </complexType>
 ```
 
-## {#section-b2a829cf5511412e968bb2000f85cc31}에서 사용됨
+## 사용자 {#section-b2a829cf5511412e968bb2000f85cc31}
 
-`unCompressionOptions` 유형은 다음 사용자에 의해 사용됩니다.
+`unCompressionOptions` 유형은 다음 방법으로 사용됩니다.
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-

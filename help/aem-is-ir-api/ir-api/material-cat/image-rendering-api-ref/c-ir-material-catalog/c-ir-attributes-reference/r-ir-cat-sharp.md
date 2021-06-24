@@ -1,21 +1,20 @@
 ---
-description: 기본 질감 선명하게 하기. 특정 카탈로그 레코드에 유효한 카탈로그 Sharp 값이 포함되어 있지 않을 경우 기본 재료 선명하게 하기 모드를 설정합니다.
+description: 기본 재료 선명하게 하기. 특정 카탈로그 레코드에 유효한 카탈로그 Sharp 값이 포함되지 않은 경우 기본 자재 선명하게 하기 모드를 설정합니다.
 solution: Experience Manager
 title: 샤프
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 10%
 
 ---
 
+# 샤프{#sharp}
 
-# 선명하게 {#sharp}
-
-기본 질감 선명하게 하기. 특정 카탈로그 레코드에 유효한 카탈로그::Sharp 값이 포함되어 있지 않을 경우 기본 재료 선명하게 하기 모드를 설정합니다.
+기본 재료 선명하게 하기. 특정 카탈로그 레코드에 올바른 카탈로그::Sharp 값이 포함되지 않은 경우 기본 재료 선명하게 하기 모드를 설정합니다.
 
 ## 속성 {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -28,7 +27,7 @@ ht-degree: 10%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>일반적인 선명하게 하기(변형 후). </p></td> 
+  <td class="stentry"> <p>일반 선명하게 하기(변환 후). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
@@ -36,7 +35,7 @@ ht-degree: 10%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>더 선명하게 하기(변형 전과 후 모두). </p> </td> 
+  <td class="stentry"> <p>더 선명하게 하기(변형 전후에 모두). </p> </td> 
  </tr> 
 </table>
 
@@ -46,4 +45,4 @@ ht-degree: 10%
 
 ## 참조 {#section-7771824f2822443ab0297e8793bb48ae}
 
-[카탈로그::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a),  [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)
+[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a),  [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)

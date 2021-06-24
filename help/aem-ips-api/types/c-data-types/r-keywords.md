@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 키워드
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # 키워드{#keywords}
 
@@ -23,8 +22,7 @@ ht-degree: 31%
 |---|---|---|
 | `*`키워드`*` | `xsd:string` | 키워드. |
 | `*`status`*` | `xsd:boolean` | 키워드 유효성. |
-| `*`x`*` | `xsd:int` | x축에 있는 키워드 위치(픽셀 단위). |
-| `*`y`*` | `xsd:int` | y축에서의 키워드 위치(픽셀 단위). |
+| `*`x`*` | `xsd:int` | x축(픽셀 단위)에서의 키워드 위치입니다. |
+| `*`y`*` | `xsd:int` | y축(픽셀 단위)에서의 키워드 위치입니다. |
 | `*`width`*` | `xsd:int` | 키워드 너비(픽셀 단위)입니다. |
 | `*`height`*` | `xsd:int` | 키워드 높이(픽셀 단위)입니다. |
-

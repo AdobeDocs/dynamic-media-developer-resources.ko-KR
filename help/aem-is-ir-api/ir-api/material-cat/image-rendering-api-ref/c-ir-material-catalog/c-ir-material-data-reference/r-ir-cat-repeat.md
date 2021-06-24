@@ -1,40 +1,39 @@
 ---
-description: 텍스처 반복 모드. 대상 표면을 칠하기 위해 텍스처 이미지를 바둑판식으로 배열하는 방법을 지정합니다.
+description: 텍스처 반복 모드. 대상 서피스를 채울 텍스처 이미지를 타일식 방식으로 지정합니다.
 solution: Experience Manager
 title: 반복
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
 
-
 # 반복{#repeat}
 
-텍스처 반복 모드. 대상 표면을 칠하기 위해 텍스처 이미지를 바둑판식으로 배열하는 방법을 지정합니다.
+텍스처 반복 모드. 대상 서피스를 채울 텍스처 이미지를 타일식 방식으로 지정합니다.
 
 ## 속성 {#section-cef4109cddf54ce095c3293d85bc412d}
 
-열거형. 반복 가능한 텍스처에만 사용됩니다. 다른 모든 자료에 대해 무시됩니다.
+열거형. 반복 가능한 텍스처에만 사용됩니다. 다른 모든 자료에는 무시되었습니다.
 
-반복 가능한 텍스처 재질에 대해 다음 값이 허용됩니다.
+반복 가능한 텍스쳐 재료는 다음 값을 사용할 수 있습니다.
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>0 </p></td> 
-  <td class="- topic/stentry stentry"> <p>반복해 </p></td> 
+  <td class="- topic/stentry stentry"> <p>연속 반복. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>1 </p></td> 
-  <td class="- topic/stentry stentry"> <p>4방향 임의 타일링 </p></td> 
+  <td class="- topic/stentry stentry"> <p>4방향 임의 타일링. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>2 </p></td> 
-  <td class="- topic/stentry stentry"> <p>8방향 임의 타일링 </p></td> 
+  <td class="- topic/stentry stentry"> <p>8방향 임의 타일링. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>3 </p></td> 
@@ -42,27 +41,27 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>1/4드롭 배경 무늬 표시 </p></td> 
+  <td class="- topic/stentry stentry"> <p>1/4방울 무늬 벽지가 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>셋드롭 벽지가 걸려 있습니다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>3단 벽지가 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>반쪽짜리 벽지가 걸려 있다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>반쪽무늬 벽지가 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>5번째 벽지가 걸려 있다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>다섯번째 벽지가 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>벽지를 뒤집으면 정지한다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>벽지가 거꾸로 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>무작위 벽지가 멈춥니다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>난벽지가 걸려있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
@@ -70,11 +69,11 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>무작위 범위 </p></td> 
+  <td class="- topic/stentry stentry"> <p>무작위 반대입니다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
-  <td class="- topic/stentry stentry"> <p>반쪽입니다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>반쪽이요 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
@@ -82,27 +81,27 @@ ht-degree: 20%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>표준 무작위 지정. </p></td> 
+  <td class="- topic/stentry stentry"> <p>표준 무작위 지정 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>높은 주파수 무작위 추출기. </p></td> 
+  <td class="- topic/stentry stentry"> <p>빈도가 높은 랜덤라이저. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>낮은 주파수 무작위 추출기. </p></td> 
+  <td class="- topic/stentry stentry"> <p>빈도가 낮은 무작위 분류기입니다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>수평 무작위 기호 </p></td> 
+  <td class="- topic/stentry stentry"> <p>수평 임의화. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
-  <td class="- topic/stentry stentry"> <p>수직 무작위 기호 </p></td> 
+  <td class="- topic/stentry stentry"> <p>수직 무작위 지정 </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
-  <td class="- topic/stentry stentry"> <p>19년 </p></td> 
-  <td class="- topic/stentry stentry"> <p>가장자리 임의화 프로그램. </p></td> 
+  <td class="- topic/stentry stentry"> <p>19 </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edge Randomizer. </p></td> 
  </tr> 
 </table>
 

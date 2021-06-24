@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 초기 프레임
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
-
-# InitialFrame{#initialframe}
+# 초기 프레임{#initialframe}
 
 ` initialFrame= *`frame`*`
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 로드 시 표시할 제로 기반 스프레드 인덱스를 지정합니다. 색인은 가로 모드의 스프레드 인덱스와 일치합니다. 뷰어를 세로로 회전하는 경우 뷰어는 <span class="codeph"> frameIdx</span>에 의해 가리키는 스프레드에서 가장 왼쪽 페이지를 표시합니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어 로드 시 표시할 0 기반 확산 인덱스를 지정합니다. 색인은 가로 모드의 확산 색인과 일치합니다. 뷰어가 세로로 회전하면 뷰어는 <span class="codeph"> frameIdx</span>에 의해 가리키는 스프레드에서 가장 왼쪽 페이지를 표시합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ ht-degree: 8%
 ```
 initialFrame=2
 ```
-

@@ -1,21 +1,20 @@
 ---
-description: 배경색 또는 투명도를 기반으로 이미지의 잘린 영역을 반환합니다.
+description: 배경색 또는 투명도를 기반으로 이미지에 대해 잘린 영역을 반환합니다.
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 14%
 
 ---
 
-
 # getAutoCropRect{#getautocroprect}
 
-배경색 또는 투명도를 기반으로 이미지의 잘린 영역을 반환합니다.
+배경색 또는 투명도를 기반으로 이미지에 대해 잘린 영역을 반환합니다.
 
 구문
 
@@ -35,14 +34,14 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->이 메서드를 호출할 때 `*`autoColorCropOptions`*` 또는 `*`autoTransparentCropOptions`*`을 지정합니다.
+>이 메서드를 호출할 때 `*`autoColorCropOptions`*` 또는 `*`autoTransparentCropOptions`*`를 지정하십시오.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들 |
-| `*`assetHandle`*` | `xsd:string` | 예 | 작업할 에셋의 핸들입니다. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 아니요 | 색상을 기반으로 자르기 사각형을 계산합니다. [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)을 참조하십시오. |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)을 참조하십시오. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 작업할 자산의 핸들입니다. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 아니요 | 색상을 기반으로 자르기 사각형을 계산합니다. [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)를 참조하십시오. |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)를 참조하십시오. |
 
 **출력(getAutoCropRectReturn)**
 
@@ -51,7 +50,7 @@ ht-degree: 14%
 | `*`xOffset`*` | `xsd:int` | 예 | 계산된 자르기 영역의 시작 왼쪽 픽셀 좌표입니다. |
 | `*`yOffset`*` | `xsd:int` | 예 | 계산된 자르기 영역의 시작 위쪽 픽셀 좌표입니다. |
 | `*`width`*` | `xsd:int` | 예 | 계산된 자르기 영역의 폭(픽셀 단위)입니다. |
-| `*`height`*` | `xsd:int` | 예 | 계산된 자르기 영역의 높이(픽셀 단위). |
+| `*`height`*` | `xsd:int` | 예 | 계산된 자르기 영역의 높이(픽셀 단위)입니다. |
 
 ## 예제 {#section-ba65bd66086d491cad1cea535954ee1f}
 
@@ -81,6 +80,6 @@ ht-degree: 14%
 
 >[!MORELIKETHIS]
 >
->* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+>* [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+* [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 

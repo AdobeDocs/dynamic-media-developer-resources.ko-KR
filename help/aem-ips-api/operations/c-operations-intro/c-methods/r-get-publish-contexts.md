@@ -4,14 +4,13 @@ solution: Experience Manager
 title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
-
 
 # getPublishContexts{#getpublishcontexts}
 
@@ -31,7 +30,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->* 사용자에게 자산을 반환하려면 읽기 권한이 있어야 합니다.
+>* 자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 >* 모든 사용자는 공유 회사에 액세스할 수 있습니다.
 
 >
@@ -54,18 +53,18 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 회사 담당입니다. </td> 
+   <td colname="col4"> 회사를 담당합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:문자열</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">반환할 게시 컨텍스트의 유형입니다. 포함: 
+   <td colname="col4">반환할 게시 컨텍스트 유형입니다. 다음을 포함합니다. 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 이미지 렌더링</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 비디오</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
     </ul></td> 
@@ -77,7 +76,7 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형별로 필터링된 회사에 대한 게시 컨텍스트의 배열입니다. |
+| `*`publishContextArray`*` | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형별로 필터링된 회사의 게시 컨텍스트 배열입니다. |
 
 ## 예제 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
@@ -117,4 +116,3 @@ ht-degree: 18%
   </publishContextArray>
 </getPublishContextsReturn>
 ```
-

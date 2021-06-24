@@ -2,16 +2,15 @@
 description: TableOfContents.showdefault
 solution: Experience Manager
 title: TableOfContents.showdefault
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cc494d35-8d9b-44f8-874b-dfc88b65f547
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 9%
 
 ---
-
 
 # TableOfContents.showdefault{#tableofcontents-showdefault}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> <span class="codeph"> 1</span>으로 설정하면 레이블이 정의되지 않은 페이지에 대해서도 모든 페이지의 요소로 드롭다운 패널을 채웁니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 명확한 레이블이 있는 항목만 드롭다운 패널에 표시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> 1</span> 로 설정하면 레이블이 정의되지 않은 페이지의 경우에도 구성 요소가 드롭다운 패널을 모든 페이지의 요소로 채웁니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 드롭다운 패널에 명시적 레이블이 있는 항목만 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

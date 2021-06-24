@@ -2,13 +2,12 @@
 description: SetIndicator.mode
 solution: Experience Manager
 title: SetIndicator.mode
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
 role: Developer,Business Practitioner
 exl-id: f228cf05-8b74-4f85-a02e-3bc084581529
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 숫자|점선</span> </p> </td> 
-   <td colname="col2"> <p> 세트 표시기의 렌더링 스타일을 구성합니다. </p> <p><span class="codeph"> 점선</span>으로 설정하면 구성 요소는 모든 페이지에 대해 동일한 표시기를 렌더링합니다. </p> <p><span class="codeph"> numeric</span>으로 설정하면 각 표시기 요소 안에 1개의 기반 페이지 번호가 배치됩니다. </p> <p>터치 입력을 할 수 있는 장치에서는 <span class="codeph"> 숫자</span> 작업 모드가 지원되지 않습니다. 대신 구성 요소는 해당 장치에서 <span class="codeph"> 점선</span>을 사용합니다. </p> </td> 
+   <td colname="col2"> <p> 집합 표시기의 렌더링 스타일을 구성합니다. </p> <p><span class="codeph"> 점선</span>으로 설정하면 구성 요소는 모든 페이지에 대해 동일한 표시기를 렌더링합니다. </p> <p><span class="codeph"> numeric</span>로 설정하면 각 표시기 요소 내에 1개 기반 페이지 번호가 배치됩니다. </p> <p>터치 입력이 가능한 장치에서는 <span class="codeph"> 숫자</span> 작업 모드가 지원되지 않습니다. 대신 구성 요소는 이러한 장치에서 <span class="codeph"> 점선</span>을 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

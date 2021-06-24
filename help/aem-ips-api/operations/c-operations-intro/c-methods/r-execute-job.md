@@ -4,14 +4,13 @@ solution: Experience Manager
 title: executeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 14%
 
 ---
-
 
 # executeJob{#executejob}
 
@@ -46,22 +45,22 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>작업이 속한 회사의 핸들. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>실행할 작업에 대한 핸들입니다. </p> </td> 
+   <td colname="col4"> <p>실행할 작업의 핸들입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **출력(executeJobReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-96f71aa58a954293b9a98ff96d86f232}
 

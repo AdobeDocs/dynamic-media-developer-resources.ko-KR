@@ -4,16 +4,15 @@ solution: Experience Manager
 title: 제외 부산물 조건
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
 
-
-# ExcludeMozineCondition{#excludebyproductcondition}
+# 제외 부산물 조건{#excludebyproductcondition}
 
 검색 결과에서 제외할 생성 엔진 및 생성된 자산 유형을 결정합니다.
 
@@ -23,6 +22,5 @@ ht-degree: 9%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`엔진`*` | `xsd:string` | 제외할 자산을 만든 생성 엔진. 값은 생성 정보를 참조하십시오. |
-| `*`generatedAssetType`*` | `xsd:string` | 제외된 자산 유형. 값에 대해서는 자산 유형을 참조하십시오. |
-
+| `*`엔진`*` | `xsd:string` | 제외할 자산을 만든 생성 엔진입니다. 값에 대해서는 생성 정보 를 참조하십시오. |
+| `*`generatedAssetType`*` | `xsd:string` | 제외된 자산 유형. 값에 대해서는 자산 유형 을 참조하십시오. |

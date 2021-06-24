@@ -1,21 +1,20 @@
 ---
-description: 작업 로그 정보.
+description: 작업 로그 정보입니다.
 solution: Experience Manager
-title: 작업 로그 세부 사항
+title: 작업 로그 세부 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fe41a48a-4671-4179-a128-aadc7bc0683b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
 
+# 작업 로그 세부 정보{#joblogdetail}
 
-# JobLogDetail{#joblogdetail}
-
-작업 로그 정보.
+작업 로그 정보입니다.
 
 구문
 
@@ -25,8 +24,7 @@ ht-degree: 7%
 |---|---|---|
 | `*`logMessage`*` | `xsd:string` | 작업 로그의 메시지입니다. |
 | `*`logType`*` | `xsd:string` | 작업 로그 파일 유형입니다. |
-| `*`assetName`*` | `xsd:string` | 작업 로그의 자산 이름(선택 사항). |
+| `*`assetName`*` | `xsd:string` | 작업 로그에 있는 자산의 이름입니다(선택 사항). |
 | `*`assetType`*` | `xsd:string` | 자산 유형 선택. |
 | `*`assetHandle`*` | `xsd:string` | 작업 로그에서 참조되는 자산 핸들. |
 | `*`auxArray`*` | `types:JobLogDetailAuxArray` | 위에서 설명한 5가지 작업 로그 유형 이외의 추가 작업 로그 정보를 제공합니다. |
-

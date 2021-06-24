@@ -2,16 +2,15 @@
 description: 혼합 미디어 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 0dc6ad78-1044-4495-9414-53900302b8c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
-
 
 # getComponent{#getcomponent}
 
@@ -19,17 +18,17 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-뷰어에서 사용하는 뷰어 SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지에서는 이 방법을 사용하여 기본 뷰어의 비헤이비어를 확장하거나 사용자 지정할 수 있습니다. 이 메서드는 `initComplete` 뷰어 콜백이 실행된 후에만 호출하며, 그렇지 않으면 뷰어 논리로 구성 요소를 아직 만들 수 없습니다.
+뷰어에서 사용하는 Viewer SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지에서는 이 메서드를 사용하여 기본 제공 뷰어의 동작을 확장하거나 사용자 지정할 수 있습니다. 이 메서드는 `initComplete` 뷰어 콜백이 실행된 후에만 호출하고, 그렇지 않으면 뷰어 논리로 구성 요소를 아직 만들지 않았을 수 있습니다.
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`   `{String}` - 뷰어에서 사용하는 뷰어 SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
+`*`componentID`*`  -  `{String}` 뷰어에서 사용하는 뷰어 SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>구성 요소 ID </p> </th> 
-   <th colname="col2" class="entry"> <p>뷰어 SDK 구성 요소 클래스 이름 </p> </th> 
+   <th colname="col2" class="entry"> <p>Viewer SDK 구성 요소 클래스 이름 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -106,7 +105,7 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mutableVolume  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 가변 볼륨  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.MutableVolume  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -124,17 +123,16 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK API를 사용하여 작업하는 경우 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)에 설명된 대로 정확하고 정규화된 SDK 네임스페이스를 사용해야 합니다.
+SDK API를 사용하는 경우 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)에 설명된 대로 올바른 정규화된 SDK 네임스페이스를 사용해야 합니다.
 
-특정 구성 요소에 대한 자세한 내용은 Viewer SDK API 설명서를 참조하십시오.
+특정 구성 요소에 대한 자세한 내용은 뷰어 SDK API 설명서 를 참조하십시오.
 
-## {#section-1d3cf85bc7cc4dfe9670e038d02b9101} 반환
+## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 뷰어 SDK 구성 요소에 대한 참조입니다. `componentId`이(가) 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리로 구성 요소를 아직 만들지 않은 경우 이 메서드는 `null`을 반환합니다.
+`{Object}` 뷰어 SDK 구성 요소에 대한 참조. `componentId` 이 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않은 경우 이 메서드는 `null`을 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```
 
 ```
-

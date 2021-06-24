@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# 뷰어 SDK 자습서{#viewer-sdk-tutorial}
+# Viewer SDK 자습서{#viewer-sdk-tutorial}
 
 Viewer SDK는 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
 
@@ -32,7 +32,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 * [뷰어에 단추 추가](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [세로 색상 견본 구성](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}에서 최신 Viewer SDK를 다운로드합니다
+## Adobe Developer Connection에서 최신 Viewer SDK를 다운로드합니다 {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->에서 최신 Viewer SDK를 다운로드합니다.
 
@@ -40,7 +40,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    >
    >SDK가 실제로 원격으로 로드되므로 Viewer SDK 패키지를 다운로드하지 않고도 이 자습서를 완료할 수 있습니다. 그러나 뷰어 패키지에는 고유한 뷰어를 만들 때 유용한 추가 예 및 API 참조 안내서가 포함되어 있습니다.
 
-## 뷰어 SDK {#section-98596c276faf4cf79ccf558a9f4432c6} 로드
+## 뷰어 SDK 로드 {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 먼저 만들려는 기본 확대/축소 뷰어를 개발하기 위해 새 페이지를 설정합니다.
 
@@ -144,7 +144,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 이제 구성 요소 `Container` 및 `ZoomView`을 포함합니다.
 
-## 컨테이너 및 ZoomView {#section-1a01730663154a508b88cc40c6f35539} 포함
+## 컨테이너 및 ZoomView 포함 {#section-1a01730663154a508b88cc40c6f35539}
 
 1. 구성 요소 `Container` 및 `ZoomView`을 포함하여 실제 뷰어를 만듭니다.
 
@@ -356,7 +356,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
    이제 오른쪽의 세로 방향으로 정렬되도록 색상 견본을 구성합니다.
 
-## 색상 견본 수직 구성 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## 세로 색상 견본 구성 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. `ParameterManager` 인스턴스에서 직접 수정자를 구성할 수 있습니다.
 

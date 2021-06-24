@@ -1,21 +1,20 @@
 ---
-description: 비네팅 제작 형식을 삭제합니다.
+description: 비네팅 게시 형식을 삭제합니다.
 solution: Experience Manager
 title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '80'
 ht-degree: 13%
 
 ---
 
-
 # deleteVignettePublishFormat{#deletevignettepublishformat}
 
-비네팅 제작 형식을 삭제합니다.
+비네팅 게시 형식을 삭제합니다.
 
 ## 인증된 사용자 유형 {#section-a127680d6b53462daaf2579d6f6fe5a8}
 
@@ -30,16 +29,16 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 비네팅이 속하는 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 비네트가 속한 회사의 핸들입니다. |
 | `*`vignetteFormatHandle`*` | `xsd:string` | 예 | 삭제할 비네팅 게시 형식의 핸들입니다. |
 
 **출력(deleteVignettePublishFormatParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-이 코드 샘플은 해당 핸들에 의해 지정된 비네팅 게시 형식을 삭제합니다.
+이 코드 샘플은 해당 핸들에서 지정한 비네팅 게시 형식을 삭제합니다.
 
 **요청**
 

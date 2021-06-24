@@ -4,14 +4,13 @@ solution: Experience Manager
 title: batchjobsubmit
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: 4ab2f6e4-cd68-4f1e-ab54-6f5e9bfc87cb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '43'
 ht-degree: 2%
 
 ---
-
 
 # batchjobsubmit{#batchjobsubmit}
 
@@ -22,7 +21,7 @@ ht-degree: 2%
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobdata  </span> </p> </td> 
-  <td class="stentry"> <p>전체 작업 데이터의 XML 조각. </p> </td> 
+  <td class="stentry"> <p>전체 작업 데이터의 XML 조각입니다. </p> </td> 
  </tr> 
 </table>
 
@@ -31,7 +30,7 @@ ht-degree: 2%
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
   <td class="stentry"> <p>작업 상태 </p> </td> 
-  <td class="stentry"> <p>제출이 성공했는지 실패했는지 여부;성공한 경우 작업 ID를 XML 형식으로 표시합니다. </p> </td> 
+  <td class="stentry"> <p>제출 성공 또는 실패 여부성공하면 작업 ID를 XML 형식으로 만듭니다. </p> </td> 
  </tr> 
 </table>
 

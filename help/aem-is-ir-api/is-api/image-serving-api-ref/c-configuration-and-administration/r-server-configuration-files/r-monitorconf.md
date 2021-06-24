@@ -4,31 +4,29 @@ solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 09c30680-dd9f-4744-b5ec-105721058883
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # monitor.conf{#monitor-conf}
 
 모니터링/경고 시스템에 대한 설정을 포함합니다.
 
-이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 세심한 주의를 기울여야 한다.그렇지 않으면 플랫폼 서버를 시작하지 못할 수 있습니다. 특히 Windows 파일 경로에서 백슬래시 &#39;\&#39; 대신 이중 백슬래시 &#39;/&#39; 또는 단일 슬래시(&#39;/&#39;)를 사용해야 합니다. 백슬래시는 이 유형의 파일에서 이스케이프 문자로 사용됩니다.
+이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 주의해야 합니다.그렇지 않으면 Platform Server를 시작하지 못할 수 있습니다. 특히 Windows 파일 경로에서 백슬래시가 이스케이프 문자로 사용되므로 이중 백슬래시 &#39;\\&#39; 또는 단일 슬래시 &#39;/&#39;를 백슬래시 &#39;\&#39; 대신 사용해야 합니다.
 
-이 파일에 대한 변경 사항은 파일을 저장한 후 바로 적용됩니다.
+이 파일의 변경 사항은 파일을 저장한 직후에 적용됩니다.
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p>일반 </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> monitorAlertGenerator.enableGlobalAlerting=false  </span> </p> <p> <span class="codeph"> mailSender.host=127.0.0.1  </span> </p> <p> <span class="codeph"> mailSender.port=25  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageTo=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageFrom=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.alertInterval=60000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.heapSpaceResetInterval=60000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.minTrafficForAlerts=0.0  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> monitorAlertGenerator.enableGlobalAlerting=false  </span> </p> <p> <span class="codeph"> mailSender.host=127.0.0.1  </span> </p> <p> <span class="codeph"> mailSender.port=25  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageTo=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.messageFrom=noone@scene7.com  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.alertInterval=600000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.heapSpaceResetInterval=600000  </span> </p> <p> <span class="codeph"> monitorAlertGenerator.minTrafficForAlerts=0.0  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>경고 임계값 </p> </td> 
   <td class="stentry"> <p> monitorAlertGenerator.maxAverageResponseTime=200 </p> <p> monitorAlertGenerator.maxErrorRate=0.05 </p> <p> monitorAlertGenerator.minRequestRate=0.0 </p> <p> monitorAlertGenerator.minFreeHeapSpace=52428800 </p> <p> monitorAlertGenerator.maxOverlap=20 </p> <p> monitorAlertGenerator.lockedThreshold=60000 </p> </td> 
  </tr> 
 </table>
-

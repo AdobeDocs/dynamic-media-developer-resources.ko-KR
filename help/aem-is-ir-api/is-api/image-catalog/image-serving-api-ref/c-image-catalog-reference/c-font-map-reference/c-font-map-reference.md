@@ -1,25 +1,24 @@
 ---
-description: 이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴 맵 파일의 상대 또는 절대 경로를 FontMapFile 속성에 지정해야 합니다.
+description: 이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴 맵 파일의 상대 또는 절대 경로를 FontMapFile 특성에 지정해야 합니다.
 solution: Experience Manager
 title: 글꼴 맵 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
 
-
 # 글꼴 맵 참조{#font-map-reference}
 
-이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴 맵 파일의 상대 또는 절대 경로를 attribute::FontMapFile에 지정해야 합니다.
+이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴 맵 파일의 상대 또는 절대 경로를 다음 특성에 지정해야 합니다.:FontMapFile.
 
 특정 이미지 카탈로그의 글꼴 맵에 있는 항목은 기본 카탈로그의 글꼴 맵에 있는 항목을 덮어씁니다.
 
-이미지 제공은 Adobe Type 1, OpenType 및 TrueType 글꼴을 지원합니다.
+이미지 제공 기능은 Adobe Type 1, OpenType 및 TrueType 글꼴을 지원합니다.
 
 `textPs=` 또한 CID, ATC 및 비트맵 글꼴을 지원합니다.
 

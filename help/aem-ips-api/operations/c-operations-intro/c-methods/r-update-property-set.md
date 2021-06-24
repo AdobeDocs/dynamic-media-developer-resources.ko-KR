@@ -4,14 +4,13 @@ solution: Experience Manager
 title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 14%
 
 ---
-
 
 # updatePropertySet{#updatepropertyset}
 
@@ -37,17 +36,17 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | 예 | 속성 세트에 대한 핸들입니다. |
-| `*`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정합니다. |
-| `*`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대한 업데이트된 속성의 배열입니다. |
+| `*`setHandle`*` | `xsd:string` | 예 | 속성 집합을 처리합니다. |
+| `*`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정하십시오. |
+| `*`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대해 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-이 코드 샘플은 속성 배열의 속성이 있는 속성 집합을 업데이트합니다.
+이 코드 샘플은 속성 배열의 속성이 있는 속성 세트를 업데이트합니다.
 
 **요청**
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: 특수 텍스트 엔티티
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
-
 
 # 특수 텍스트 엔티티{#special-text-entities}
 
@@ -38,11 +37,11 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \\ </span> </td> 
-   <td> <p>백슬래시 </p> </td> 
+   <td> <p>슬래시. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbraces;  </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
@@ -53,19 +52,18 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
-   <td> <p>줄바꿈하지 않는 공백. </p> </td> 
+   <td> <p>끊김 없는 공백. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>줄바꿈하지 않는 하이픈. </p> </td> 
+   <td> <p>줄바꿈 없는 하이픈. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
-   <td> <p>하이픈(선택 사항). </p> </td> 
+   <td> <p>하이픈 옵션. </p> </td> 
    <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-

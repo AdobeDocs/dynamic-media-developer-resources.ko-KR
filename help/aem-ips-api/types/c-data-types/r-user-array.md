@@ -4,14 +4,13 @@ solution: Experience Manager
 title: UserArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # UserArray{#userarray}
 
@@ -24,4 +23,3 @@ ht-degree: 22%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | `*`항목`*` | `types:User` | 사용자 배열입니다. |
-

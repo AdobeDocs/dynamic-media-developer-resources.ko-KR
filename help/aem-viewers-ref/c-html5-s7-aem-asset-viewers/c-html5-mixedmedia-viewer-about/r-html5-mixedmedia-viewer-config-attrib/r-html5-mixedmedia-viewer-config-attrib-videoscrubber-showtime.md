@@ -2,16 +2,15 @@
 description: VideoScrubber.showtime
 solution: Experience Manager
 title: VideoScrubber.showtime
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # VideoScrubber.showtime{#videoscrubber-showtime}
 
@@ -21,7 +20,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 노브 위치를 조정할 때 재생된 버블 시간을 활성화 또는 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p> 노브 위치를 조정할 때 재생되는 시간 버블을 활성화하거나 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

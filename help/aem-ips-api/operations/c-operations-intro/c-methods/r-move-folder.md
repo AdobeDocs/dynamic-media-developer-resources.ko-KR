@@ -4,14 +4,13 @@ solution: Experience Manager
 title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
-
 
 # moveFolder{#movefolder}
 
@@ -34,7 +33,7 @@ ht-degree: 25%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 담당입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
 | `*`destFolderHandle`*` | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
 
@@ -42,7 +41,7 @@ ht-degree: 25%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 예 | 이동한 폴더로 이동합니다. |
+| `*`folderHandle`*` | `xsd:string` | 예 | 이동한 폴더로 처리합니다. |
 
 ## 예제 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
@@ -63,4 +62,3 @@ ht-degree: 25%
    <folderHandle>f|test/DestFolder/MoveTest/</folderHandle>
 </moveFolderReturn>
 ```
-

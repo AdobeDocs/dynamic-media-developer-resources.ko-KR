@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ZipEntry
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
-
 
 # ZipEntry{#zipentry}
 
@@ -23,9 +22,8 @@ ZIP 파일의 항목입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 응모 이름. |
-| `*`isDirectory`*` | `xsd:boolean` | 항목이 디렉토리인지 확인합니다. |
+| `*`name`*` | `xsd:string` | 항목 이름. |
+| `*`isDirectory`*` | `xsd:boolean` | 항목이 디렉터리인지 확인합니다. |
 | `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜 및 시간입니다. |
-| `*`compressedSize`*` | `xsd:long` | 압축된 크기. |
+| `*`compressedSize`*` | `xsd:long` | 압축 크기입니다. |
 | `*`uncompressedSize`*` | `xsd:long` | 압축되지 않은 크기입니다. |
-

@@ -4,26 +4,25 @@ solution: Experience Manager
 title: CacheValidationPolicy
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: e52577ba-d085-41f5-ad15-48e5a319e344
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '109'
 ht-degree: 3%
 
 ---
-
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
 서버 캐시 유효성 검사 정책. 서버측 캐시 항목의 유효성을 검사할 시기를 지정합니다.
 
-만료 기반의 유효성 검사를 통해 소스 자료와 비네팅을 정기적으로 확인하여 내용이 변경되었는지 확인합니다. 카탈로그 기반 유효성 검사를 사용하면 `catalog::TimeStamp` 값이 변경된 후에만 소스 이미지가 확인됩니다.
+만료 기반 유효성 검사를 통해 소스 자료와 비네팅을 정기적으로 확인하여 변경 여부를 확인합니다. 카탈로그 기반 유효성 검사를 사용하면 `catalog::TimeStamp` 값이 변경된 후에만 소스 이미지가 검사됩니다.
 
-재료 및 비네팅 카탈로그를 모두 사용하는 경우 카탈로그 기반 유효성 검사가 권장됩니다. 비네팅이 경로별로 이미지 렌더링 요청에서 직접 참조되는 경우 만료 기반 유효성 검사를 사용해야 합니다.
+재료 및 비네팅 카탈로그를 모두 사용하는 경우 카탈로그 기반 유효성 검사가 권장됩니다. 만료 기반 유효성 검사는 경로 별로 직접 이미지 렌더링 요청에서 비네팅을 참조할 때 사용해야 합니다.
 
 ## 속성 {#section-46e13cb341eb442c86e0d8292de23ea0}
 
-열거형. 0을 클릭하여 만료 기반 유효성 검사를 선택합니다. 1 - 카탈로그 기반 캐시 유효성 검사를 선택합니다.
+열거형. 0 을 클릭하여 만료 기반 유효성 검사를 선택합니다. 카탈로그 기반 캐시 검증을 선택하려면 1.
 
 ## 기본값 {#section-e09f3af8b6b3497d963199988dc5345d}
 

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: InfoPanelPopup.showhidetransition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
-
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
@@ -25,7 +24,7 @@ ht-degree: 15%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 시간</span></span> </p> </td> 
-   <td> <p> 애니메이션 표시 또는 숨기기의 지속 시간(초)입니다. </p> </td> 
+   <td> <p> 애니메이션을 표시하거나 숨길 기간(초)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

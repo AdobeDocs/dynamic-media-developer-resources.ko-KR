@@ -2,14 +2,13 @@
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
 role: Developer,Business Practitioner
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +22,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 연속|세그먼트</span> </p> </td> 
-   <td colname="col2"> <p> 세그먼트 경계 또는 빈 공간에 상관없이 인터랙티브한 견본을 계속 축소판으로 채울 수 있으므로 세그먼트 경계를 기록할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 세그먼트 경계나 세그먼트 경계에 관계없이 미리 보기로 계속 대화형 색상 견본을 채우며 빈 공간을 통해 세그먼트 경계를 표시할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

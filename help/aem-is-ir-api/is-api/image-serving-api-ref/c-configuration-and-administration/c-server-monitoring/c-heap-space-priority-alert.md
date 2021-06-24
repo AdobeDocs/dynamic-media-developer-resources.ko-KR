@@ -1,20 +1,19 @@
 ---
-description: Java 가비지 수집 주기 바로 다음에 사용 가능한 Java 더미 공간이 지정된 임계값 미만인 경우 우선순위 경고가 전송됩니다.
+description: Java 가비지 수집 주기 직후 사용 가능한 Java 힙이 지정된 임계값 미만인 경우 우선순위 경고가 전송됩니다.
 solution: Experience Manager
-title: 공백 우선 순위 경고
+title: 힙스페이스 우선 순위 경고
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
+# 힙스페이스 우선 순위 경고{#heap-space-priority-alert}
 
-# 공백 우선 순위 경고{#heap-space-priority-alert}
+Java 가비지 수집 주기 직후 사용 가능한 Java 힙이 지정된 임계값 미만인 경우 우선순위 경고가 전송됩니다.
 
-Java 가비지 수집 주기 바로 다음에 사용 가능한 Java 더미 공간이 지정된 임계값 미만인 경우 우선순위 경고가 전송됩니다.
-
-반복되는 경고는 Java 더미 공간을 늘려서 해결해야 합니다. 이 조건이 발생하면 `AS::monitorAlertGenerator.heapSpaceResetInterval`으로 지정된 지연 기간이 만료될 때까지 이메일 경고가 발생하지 않습니다.
+반복된 경고는 Java heap 공간을 늘려 해결해야 합니다. 이 조건이 추가로 발생할 경우 `AS::monitorAlertGenerator.heapSpaceResetInterval`에 지정된 지연 기간이 만료될 때까지 이메일 경고가 발생하지 않습니다.

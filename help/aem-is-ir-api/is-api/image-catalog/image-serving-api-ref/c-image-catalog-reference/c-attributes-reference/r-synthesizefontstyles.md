@@ -1,29 +1,28 @@
 ---
-description: 합성된 글꼴 변형을 활성화합니다. 이러한 스타일을 요청했지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지, 굵게, 기울임체 또는 굵은 기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
+description: 합성 글꼴 변형을 활성화합니다. 이러한 스타일을 요청하지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지 또는 굵게, 기울임체 또는 굵게/기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
 solution: Experience Manager
-title: SyncizeFontStyles
+title: 합성 글꼴 스타일
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
+# 합성 글꼴 스타일{#synthesizefontstyles}
 
-# SyncizeFontStyles{#synthesizefontstyles}
-
-합성된 글꼴 변형을 활성화합니다. 이러한 스타일을 요청했지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지, 굵게, 기울임체 또는 굵은 기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
+합성 글꼴 변형을 활성화합니다. 이러한 스타일을 요청하지만 글꼴 맵에서 찾을 수 없는 경우 서버에서 오류 응답을 생성할지 또는 굵게, 기울임체 또는 굵게/기울임체 글꼴 스타일을 합성할지 여부를 제어합니다.
 
 >[!NOTE]
 >
->글꼴 스타일을 종합하면 이러한 스타일에 실제 글꼴을 사용할 때보다 더 낮은 품질로 렌더링되는 경우가 많습니다.
+>글꼴 스타일을 합성하면 그러한 스타일에 실제 글꼴을 사용하는 것보다 더 낮은 품질의 렌더링이 발생하는 경우가 많습니다.
 
 ## 속성 {#section-3205560a74774ebf9c916b07bd15aca6}
 
-플래그. 0으로 설정하면 합성 글꼴 스타일을 비활성화할 수 있고 1로 설정할 수 있습니다.
+플래그. 0으로 설정하면 합성 글꼴 스타일을 사용하지 않도록 설정하고 1로 설정합니다.
 
 ## 기본값 {#section-71f94aa65e404d14b441674c040b59e3}
 

@@ -2,14 +2,13 @@
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: Video360Player.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner
 exl-id: fffd0976-0aeb-4e61-981f-b84e9076f35f
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '83'
+ht-degree: 12%
 
 ---
 
@@ -23,12 +22,12 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|[?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 포스터 이미지 모양을 제어하는 이미지 제공 수정자입니다. URL에 지정된 경우 다음을 HTTP로 인코딩합니다. </p> <p> 
+   <td colname="col2"> <p> 포스터 이미지 모양을 제어하는 이미지 제공 수정자. URL에 지정된 경우 HTTP는 다음을 인코딩합니다. </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as  <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> </span> %26 <span class="codeph"> 으로(&amp;A)</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> = </span> %3D <span class="codeph"> 로</span> </p> </li> 
-     </ul> </p> <p> 이 수정자는 Dynamic Media Classic 또는 AEM Dynamic Media에서 호스팅되는 비디오 컨텐츠에 대해 작동합니다. </p> <p>기본 포스터 이미지가 표시되지 않도록 하려면 포스터 이미지 값으로 <span class="codeph"> none</span>을 지정합니다. </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 로서의  <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> 로서의  <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> = </span> 로서의  <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p> 이 수정자는 Dynamic Media Classic 또는 AEM Dynamic Media에서 호스팅되는 비디오 컨텐츠에 대해 작동합니다. </p> <p>기본 포스터 이미지가 표시되지 않도록 하려면 <span class="codeph"> none</span> 을 포스터 이미지 값으로 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

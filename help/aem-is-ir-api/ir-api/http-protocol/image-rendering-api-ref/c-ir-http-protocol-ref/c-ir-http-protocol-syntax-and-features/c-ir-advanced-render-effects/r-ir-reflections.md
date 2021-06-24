@@ -1,23 +1,22 @@
 ---
-description: 비네팅을 제작하여 거의 3D 반사 데이터를 포함할 수 있습니다.
+description: 거의 3D 반사 데이터를 포함하도록 비네팅을 작성할 수 있습니다.
 solution: Experience Manager
 title: 반사
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 3%
 
 ---
 
-
 # 반사{#reflections}
 
-비네팅을 제작하여 거의 3D 반사 데이터를 포함할 수 있습니다.
+거의 3D 반사 데이터를 포함하도록 비네팅을 작성할 수 있습니다.
 
-이렇게 작성되면 다음 재료 속성을 사용하여 재료의 반사 서피스 속성을 정의합니다.
+이렇게 작성되면 다음 재료 속성을 사용하여 재료의 반사 서피스 특성을 정의합니다.
 
 <table id="table_8769C726A17E412FB41F7CB87690B1FE"> 
  <thead> 
@@ -40,17 +39,17 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> rough=  </span> </a> </p> </td> 
-   <td> <p>표면 거칠음 </p> </td> 
+   <td> <p>표면 거칠기 </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
-   <td> <p>질감 유형 </p> </td> 
-   <td> <p>0(알 수 없음) </p> </td> 
+   <td> <p>재료 유형 </p> </td> 
+   <td> <p>0 (알 수 없음) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-렌더러는 `type=`에 따라 `gloss=` 및 `rough=` 속성의 범위를 조정합니다. 직물과 같은 일부 유형의 재료는 일반적으로 돌이나 메탈과 같은 재질 유형보다 덜 반사되며, 한 재질을 위해 지정된 동일한 광택 양이 다른 재질과 다른 반사 효과를 냅니다. `gloss=`및 거칠게 하기(지정하지 않았거나 0으로 설정된 경우 `type=` 는 상당히 넓은 색상 영역을 가집니다.
+렌더러는 `gloss=` 및 `rough=` 속성의 범위를 `type=`에 따라 조정합니다. 직물과 같은 일부 재료는 일반적으로 석재나 금속과 같은 재질보다 반사성이 적으며, 한 재료에 동일한 양의 광택이 지정되면 다른 재료와 다른 반사 효과가 발생한다. `gloss=`및 거칠기는 지정하지 않거나 0으로  `type=` 설정된 경우 상당히 광범위한 색상 영역을 가집니다.
 
-`glossmap=` 픽셀 단위로 재질의 매끄러움을 제어하는 데 사용할 수 있습니다.
+`glossmap=` 재료의 광택성을 픽셀 단위로 제어할 수 있다.

@@ -4,14 +4,13 @@ solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 12%
 
 ---
-
 
 # addGroupMembers{#addgroupmembers}
 
@@ -33,15 +32,15 @@ ht-degree: 12%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
 | `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 핸들 배열입니다. |
+| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 일련의 핸들입니다. |
 
 **출력(addGroupMembersParam)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-이 예에서는 `*`addGroupMembersParam`*`을 사용하여 사용자를 단일 회사에 추가합니다. IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+이 예제에서는 `*`addGroupMembersParam`*`을 사용하여 사용자를 단일 회사에 추가합니다. IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 **요청**
 

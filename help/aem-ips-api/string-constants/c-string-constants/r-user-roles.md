@@ -1,25 +1,24 @@
 ---
-description: 다양한 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오
+description: 다양한 매개 변수에서 사용하는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오
 solution: Experience Manager
 title: 사용자 역할
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 14%
 
 ---
 
-
 # 사용자 역할{#user-roles}
 
-다양한 매개 변수에 사용되는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오
+다양한 매개 변수에서 사용하는 값을 설명합니다. 자세한 내용은 이 문서의 목록을 참조하십시오
 
 구문
 
-## {#section-b76ffce62661481abe2bb02adfd3f36f}에서 사용됨
+## 사용자 {#section-b76ffce62661481abe2bb02adfd3f36f}
 
 * [!DNL `User/role`]
 * [!DNL `addUserParam/role`]
@@ -39,4 +38,3 @@ ht-degree: 13%
 * [!DNL `ImagePortalUser`]
 * [!DNL `ImagePortalContrib`]
 * [!DNL `ImagePortalContribUser`]
-

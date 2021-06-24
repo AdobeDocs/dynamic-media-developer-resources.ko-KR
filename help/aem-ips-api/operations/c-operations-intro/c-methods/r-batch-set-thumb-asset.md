@@ -1,27 +1,26 @@
 ---
-description: 하나 이상의 에셋에 대한 축소판 이미지를 설정합니다.
+description: 하나 이상의 자산에 대한 축소판 이미지를 설정합니다.
 solution: Experience Manager
 title: batchSetThumbAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '178'
 ht-degree: 13%
 
 ---
 
-
 # batchSetThumbAsset{#batchsetthumbasset}
 
-하나 이상의 에셋에 대한 축소판 이미지를 설정합니다.
+하나 이상의 자산에 대한 축소판 이미지를 설정합니다.
 
 구문
 
 ## 축소판 자산 유형 {#section-4edc2a6a8f824213b0aaddb1d437268c}
 
-허용되는 축소판 에셋 유형은 다음과 같습니다.
+허용되는 축소판 자산 유형은 다음과 같이 구성됩니다.
 
 * 이미지
 * 조정된 보기
@@ -40,7 +39,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->사용자는 대상 자산에 대한 읽기/쓰기 액세스 권한과 축소판 자산에 대한 읽기 액세스 권한이 있어야 합니다.
+>사용자에게 대상 자산에 대한 읽기/쓰기 액세스 권한과 엄지손가락 자산에 대한 읽기 액세스 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-9c6efa000b384b3db6c013def20cf40b}
 
@@ -48,7 +47,7 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 자산을 포함하는 회사의 핸들입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산이 포함된 회사의 핸들입니다. |
 | `*`updateArray`*` | `types:ThumbAssetUpdateArray` | 예 | 업데이트 배열입니다. |
 
 **출력(batchSetThumbAssetParam)**
@@ -56,10 +55,10 @@ ht-degree: 13%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | 예 | 성공적으로 설정된 축소판의 수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업이 축소판을 설정하려고 할 때 생성되는 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업이 축소판을 설정하려고 할 때 발생한 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연결된 세부 사항의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연결된 세부 사항의 배열입니다. |
+| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 축소판을 설정하려고 할 때 생성된 경고 수입니다. |
+| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 축소판을 설정하려고 할 때 발생한 오류 수입니다. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-6de69a8680c24c1486c5f01488393381}
 
@@ -85,4 +84,3 @@ ht-degree: 13%
    <errorCount>0</errorCount>
 </batchSetThumbAssetReturn>
 ```
-

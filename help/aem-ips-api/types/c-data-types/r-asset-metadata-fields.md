@@ -2,16 +2,15 @@
 description: 지정된 자산 유형에 대한 메타데이터 필드 정의를 반환합니다.
 solution: Experience Manager
 title: AssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: ad2a45fc-1f30-4b8b-be7c-84cc60c7bd4b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 8%
 
 ---
-
 
 # AssetMetadataFields{#assetmetadatafields}
 
@@ -23,6 +22,5 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`assetType`*` | `xsd:string` | 필드 정의와 연결된 자산 유형(값에 대한 자세한 내용은 &quot;자산 유형&quot; 참조). |
-| `*`fieldArray`*` | `types:MetadataFieldArray` | `assetType`에 지정된 자산 유형과 연결된 메타데이터 필드 정의 배열입니다. |
-
+| `*`assetType`*` | `xsd:string` | 필드 정의와 연결된 자산 유형(값에 대해서는 &quot;자산 유형&quot; 참조). |
+| `*`fieldArray`*` | `types:MetadataFieldArray` | `assetType`에 지정된 자산 유형과 연관된 메타데이터 필드 정의 배열입니다. |

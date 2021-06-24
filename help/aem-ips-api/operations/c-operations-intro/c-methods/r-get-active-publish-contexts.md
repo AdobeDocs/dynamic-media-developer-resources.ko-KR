@@ -1,21 +1,20 @@
 ---
-description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 하나 이상의 활성 서버가 정의된 경우 게시 컨텍스트는 활성으로 간주됩니다.
+description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 게시 컨텍스트가 활성 상태로 간주됩니다.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
 
-
 # getActivePublishContext{#getactivepublishcontext}
 
-지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 하나 이상의 활성 서버가 정의된 경우 게시 컨텍스트는 활성으로 간주됩니다.
+지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 게시 컨텍스트가 활성 상태로 간주됩니다.
 
 구문
 
@@ -37,11 +36,10 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리할 회사에 대한 핸들 |
+| `*`companyHandle`*` | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리할 회사의 핸들입니다 |
 
 **출력(getActivePublishContextsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | 예 | 게시 컨텍스트의 값이 0개 이상 포함될 수 있는 활성 게시 컨텍스트의 배열입니다. |
-
+| `*`contextArray`*` | `types:StringArray` | 예 | 게시 컨텍스트에서 0개 이상의 값을 포함할 수 있는 활성 게시 컨텍스트의 배열입니다. |

@@ -1,16 +1,15 @@
 ---
 description: 비디오 캡션 속성
 title: VideoCaptionInfo
-feature: Dynamic Media Classic,SDK/API,Video
+feature: Dynamic Media Classic,SDK/API,비디오
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
-
 
 # VideoCaptionInfo{#videocaptioninfo}
 
@@ -29,12 +28,12 @@ ht-degree: 14%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>업로드된 비디오의 상대 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:문자열</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>원본 비디오의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -44,4 +43,3 @@ ht-degree: 14%
   </tr> 
  </tbody> 
 </table>
-

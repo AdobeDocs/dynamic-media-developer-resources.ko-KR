@@ -2,16 +2,15 @@
 description: 자산 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -41,7 +40,7 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별로 메타데이터 필드의 배열입니다. |
+| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별 메타데이터 필드 배열입니다. |
 
 ## 예제 {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -57,7 +56,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->간결하게 잘렸습니다.
+>간결성을 위해 잘립니다.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -68,4 +67,3 @@ ht-degree: 20%
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-

@@ -1,26 +1,25 @@
 ---
-description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지 및 단색 색상 레이어에 첨부된 마스크에 적용됩니다.
+description: 이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지와 단색 레이어에 첨부된 마스크에 적용됩니다.
 solution: Experience Manager
 title: 소스 이미지 작업
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '107'
 ht-degree: 2%
 
 ---
 
-
 # 소스 이미지 작업{#source-image-operations}
 
-이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지 및 단색 색상 레이어에 첨부된 마스크에 적용됩니다.
+이러한 명령은 간단한 요청이나 이미지 레이어에서 사용되는 소스 이미지와 단색 레이어에 첨부된 마스크에 적용됩니다.
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c" type="reference" format="dita" scope="local"> 앵커</a> </p></td> 
-  <td class="stentry"> <p>소스 이미지 기준점을 설정합니다. </p></td> 
+  <td class="stentry"> <p>소스 이미지 고정점을 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> 자르기</a> </p></td> 
@@ -40,7 +39,6 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-scale.md#reference-098c30cea1764f189e6f7c7e400cc065" type="reference" format="dita" scope="local"> scale</a> </p></td> 
-  <td class="stentry"> <p>비율 인수를 사용하여 소스 이미지의 크기를 조정합니다. </p></td> 
+  <td class="stentry"> <p>배율 계수를 사용하여 소스 이미지의 비율을 조정합니다. </p></td> 
  </tr> 
 </table>
-

@@ -2,24 +2,23 @@
 description: Adobe Analytics 추적 지원
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
 role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-기본적으로 뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버로 단일 추적 HTTP 요청을 전송합니다.
+기본적으로 뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요한 경우 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 핸들러 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -62,23 +61,23 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>뷰어를 처음 불러오는 경우. </p> </td> 
+   <td colname="col2"> <p>뷰어가 처음 로드될 때. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>뷰어에서 <span class="codeph"> setAsset() </span> API를 사용하여 에셋을 교환하는 경우 </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산을 교환하는 경우. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>재생을 시작할 때 </p> </td> 
+   <td colname="col2"> <p>재생이 시작될 때. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 일시 정지될 때. </p> </td> 
+   <td colname="col2"> <p>재생이 일시 중지되면. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
-   <td colname="col2"> <p>재생이 중지되면 </p> </td> 
+   <td colname="col2"> <p>재생이 중지되는 경우입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
@@ -86,7 +85,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
-   <td colname="col2"> <p>사용자가 인터랙티브한 견본을 클릭할 때마다 </p> </td> 
+   <td colname="col2"> <p>사용자가 대화형 견본을 클릭할 때마다 </p> </td> 
   </tr> 
  </tbody> 
 </table>

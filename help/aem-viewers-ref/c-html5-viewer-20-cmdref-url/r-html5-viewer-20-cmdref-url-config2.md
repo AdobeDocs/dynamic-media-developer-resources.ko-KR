@@ -1,25 +1,24 @@
 ---
-description: 모든 뷰어에 공통되는 매개 변수입니다.
+description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: config2
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,Business Practitioner
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
 # config2{#config}
 
-모든 뷰어에 공통되는 매개 변수입니다.
+모든 뷰어에 공통되는 매개 변수.
 
 >[!NOTE]
 >
->이 명령은 비디오 이미지 뷰어에 적용되지 않습니다.
+>이 명령은 비디오 이미지 뷰어에는 적용되지 않습니다.
 
 ` config2= *`companypreset`*`
 

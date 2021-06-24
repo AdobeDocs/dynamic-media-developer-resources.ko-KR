@@ -2,16 +2,15 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 6%
 
 ---
-
 
 # SpinView.autospin{#spinview-autospin}
 
@@ -21,19 +20,19 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 자동 회전 애니메이션을 활성화하거나 비활성화합니다. 최상의 자동 회전 경험을 얻으려면 <span class="codeph"> maxloadradius</span>를 <span class="codeph"> -1</span>으로 설정하여 모든 프레임을 미리 로드하는 것이 좋습니다. 그러나 이로 인해 로드 시간이 증가하고 대역폭 사용량이 높아집니다. </p> </td> 
+   <td colname="col2"> <p> 자동 스핀 애니메이션을 활성화하거나 비활성화합니다. 최상의 자동 회전 경험을 얻으려면 <span class="codeph"> maxloadradius</span>를 <span class="codeph"> -1</span>로 설정하여 모든 프레임을 미리 로드하는 것이 좋습니다. 그러나 이로 인해 로드 시간이 증가하고 대역폭 사용량이 증가합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 1회 전체 회전 당 초 수입니다. </p> </td> 
+   <td colname="col2"> <p> 1개의 전체 스핀당 초 수입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 방향</span></span> </p> </td> 
-   <td colname="col2"> <p> 회전하는 동쪽을 위한 <span class="codeph"> 0</span>, 서쪽을 회전하는 경우 <span class="codeph"> 1</span>인 회전 방향입니다. </p> </td> 
+   <td colname="col2"> <p> 회전 방향: 동쪽으로 회전하는 경우 <span class="codeph"> 0</span>, 서쪽으로 회전하는 경우에는 <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> 자동 회전이 중지되기 전에 수행되는 전체 회전 수입니다. 숫자는 부동 소수점 숫자입니다. 무한 자동 회전을 위해 <span class="codeph"> -1</span>으로 설정합니다. </p> </td> 
+   <td colname="col2"> <p> 자동 회전이 중지되기 전에 수행되는 전체 회전 수입니다. 숫자는 부동 소수점 숫자입니다. 무한 자동 스핀에 대해 <span class="codeph"> -1</span>로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

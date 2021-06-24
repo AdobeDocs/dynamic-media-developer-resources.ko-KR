@@ -4,14 +4,13 @@ solution: Experience Manager
 title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 14%
+source-wordcount: '86'
+ht-degree: 15%
 
 ---
-
 
 # setTagFieldValues{#settagfieldvalues}
 
@@ -32,12 +31,12 @@ ht-degree: 14%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`fieldHandle`*` | `xsd:string` | 예 | 태그 필드 핸들입니다. |
-| `*`valueArray`*` | `types:StringArray` | 예 | 필드의 기존 사전을 대체하는 태그 값의 배열입니다. 새 값이 기존 값과 일치할 때 자산 연결은 유지됩니다. |
+| `*`fieldHandle`*` | `xsd:string` | 예 | 태그 필드 핸들. |
+| `*`valueArray`*` | `types:StringArray` | 예 | 필드의 기존 사전을 대체하는 태그 값의 배열입니다. 새 값이 기존 값과 일치할 때 자산 연결이 유지됩니다. |
 
 **출력(setTagFieldValuesReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-b11cafd9bed54ab5836c737cc075c918}
 

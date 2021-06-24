@@ -1,21 +1,20 @@
 ---
-description: 이러한 명령을 사용할 수도 있습니다.
+description: 이러한 명령도 사용할 수 있습니다.
 solution: Experience Manager
 title: 기타 명령
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
 
-
 # 기타 명령{#miscellaneous-commands}
 
-이러한 명령을 사용할 수도 있습니다.
+이러한 명령도 사용할 수 있습니다.
 
 <table id="simpletable_ADE850DCC3364A1B8B375A17BA95E5D5"> 
  <tr class="strow"> 
@@ -25,13 +24,12 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c" type="reference" format="dita" scope="local"> 숨기기</a></span> </p></td> 
-  <td class="stentry"> <p>선택한 오버랩 객체를 숨깁니다. </p></td> 
+  <td class="stentry"> <p>선택한 겹치기 개체를 숨깁니다. </p></td> 
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
-  <td class="stentry"> <p>선택한 오버랩 개체를 표시합니다. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> 표시</a></span> </p> </td> 
+  <td class="stentry"> <p>선택한 겹치기 개체를 표시합니다. </p></td> 
   <td class="stentry"></td> 
  </tr> 
 </table>
-

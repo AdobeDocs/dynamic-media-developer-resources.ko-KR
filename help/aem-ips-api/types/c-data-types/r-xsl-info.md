@@ -4,14 +4,13 @@ solution: Experience Manager
 title: XslInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 39fc2c37-80e8-42f5-aef1-9dca57bf8cff
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 18%
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
-
 
 # XslInfo{#xslinfo}
 
@@ -23,7 +22,6 @@ XML 변형 파일 자산의 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 파일 경로. |
+| `*`originalPath`*` | `xsd:string` | 파일 경로입니다. |
 | `*`originalFile`*` | `xsd:string` | 파일 이름. |
 | `*`fileSize`*` | `xsd:int` | 파일 크기. |
-

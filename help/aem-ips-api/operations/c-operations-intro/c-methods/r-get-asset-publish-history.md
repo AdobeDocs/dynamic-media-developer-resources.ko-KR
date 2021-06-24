@@ -2,16 +2,15 @@
 description: 자산에 대한 게시 내역을 반환합니다.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Asset Management
+feature: Dynamic Media Classic,SDK/API,자산 관리
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 16%
 
 ---
-
 
 # getAssetPublishHistory{#getassetpublishhistory}
 
@@ -37,18 +36,18 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사에 대한 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 검사할 게시 내역이 있는 자산입니다. |
+| `*`companyHandle`*` | `xsd:string` | 예 | 자산 게시 내역이 있는 회사의 핸들입니다. |
+| `*`assetHandle`*` | `xsd:string` | 예 | 검사할 게시 기록이 있는 자산입니다. |
 
 **출력(getAssetPublishHistoryReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 작업 내역입니다. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | 예 | 자산의 게시 내역. |
 
 ## 예제 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-이 코드 샘플은 자산의 게시 내역을 반환합니다. 서버가 빈 배열을 반환하는 경우 에셋이 게시된 적이 없습니다.
+이 코드 샘플은 자산의 게시 내역을 반환합니다. 서버가 빈 배열을 반환하는 경우 자산이 게시된 적이 없습니다.
 
 **요청**
 
@@ -66,4 +65,3 @@ ht-degree: 16%
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-

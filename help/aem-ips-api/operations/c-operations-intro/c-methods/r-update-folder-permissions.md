@@ -4,14 +4,13 @@ solution: Experience Manager
 title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
-
 
 # updateFolderPermissions{#updatefolderpermissions}
 
@@ -33,12 +32,12 @@ ht-degree: 17%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| `*`updateChildren`*` | `xsd:boolean` | 예 | 최상위 폴더에 대한 권한이 설정된 하위 폴더를 업데이트할지 여부를 결정합니다. |
+| `*`updateChildren`*` | `xsd:boolean` | 예 | 최상위 폴더에 대해 사용 권한이 설정된 하위 항목을 업데이트할지 여부를 결정합니다. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
 
 **출력(updateFolderPermissionsReturn)**
 
-IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c3fe4d4388674870a3856c35ef66b631}
 

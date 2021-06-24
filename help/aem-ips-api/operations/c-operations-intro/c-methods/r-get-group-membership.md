@@ -1,21 +1,20 @@
 ---
-description: 그룹의 구성원을 반환합니다.
+description: 그룹의 멤버를 반환합니다.
 solution: Experience Manager
 title: getGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 847e4982-219d-47fd-b94c-f7d520ba1367
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
 
-
 # getGroupMembership{#getgroupmembership}
 
-그룹의 구성원을 반환합니다.
+그룹의 멤버를 반환합니다.
 
 구문
 
@@ -46,7 +45,7 @@ ht-degree: 18%
 
 ## 예제 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-이 코드 샘플은 그룹의 모든 구성원을 반환합니다. 회사 및 사용자 핸들은 선택 사항이므로 작업은 모든 그룹의 모든 구성원을 반환할 수 있습니다.
+이 코드 샘플은 그룹의 모든 멤버를 반환합니다. 회사 및 사용자 핸들은 선택 사항이므로 작업은 모든 그룹의 모든 구성원을 반환할 수 있습니다.
 
 **요청**
 
@@ -64,4 +63,3 @@ ht-degree: 18%
       <items>
          <groupHandle>225</groupHandle><companyHandle>47</companyHandle><name>MyGroup</name><isSystemDefined>false</isSystemDefined></items></groupArray></getGroupMembershipReturn>
 ```
-

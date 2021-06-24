@@ -1,21 +1,20 @@
 ---
-description: 유형 아이디와 연결된 속성 집합을 가져옵니다.
+description: 형식 핸들과 연결된 속성 집합을 가져옵니다.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
 
-
 # getPropertySets{#getpropertysets}
 
-유형 아이디와 연결된 속성 집합을 가져옵니다.
+형식 핸들과 연결된 속성 집합을 가져옵니다.
 
 구문
 
@@ -37,15 +36,15 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 예 | 속성 집합 유형의 핸들입니다. |
+| `*`typeHandle`*` | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
 | `*`primaryOwnerHandle`*` | `xsd:string` | 예 | 데이터베이스 객체에 바인딩된 데이터의 기본 소유자입니다. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 데이터의 보조 소유자(선택 사항). |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 데이터의 선택적 보조 소유자. |
 
 **출력(getPropertySetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | 예 | 속성 집합 배열. |
+| `*`setArray`*` | `types:PropertySetArray` | 예 | 속성 세트의 배열입니다. |
 
 ## 예제 {#section-1358af974eab4259864910337a6f0bd2}
 
@@ -86,4 +85,3 @@ ht-degree: 17%
    </setArray>
 </getPropertySetsReturn>
 ```
-

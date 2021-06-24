@@ -1,21 +1,20 @@
 ---
-description: 태그 필드에 대한 값 배열입니다.
+description: 태그 필드에 대한 값의 배열입니다.
 solution: Experience Manager
 title: TagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # TagFieldValues{#tagfieldvalues}
 
-태그 필드에 대한 값 배열입니다.
+태그 필드에 대한 값의 배열입니다.
 
 구문
 
@@ -23,6 +22,5 @@ ht-degree: 11%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 태그 필드 핸들입니다. |
-| `*`valueArray`*` | `xsd:StringArray` | 태그 필드에 대한 값 배열입니다. |
-
+| `*`fieldHandle`*` | `xsd:string` | 태그 필드 핸들. |
+| `*`valueArray`*` | `xsd:StringArray` | 태그 필드에 대한 값의 배열입니다. |

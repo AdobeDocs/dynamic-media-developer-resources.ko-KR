@@ -4,14 +4,13 @@ solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 8%
 
 ---
-
 
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
@@ -23,6 +22,5 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`emailSettings`*` | `xsd:string` | 이메일 설정 선택 |
-| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL. |
-
+| `*`emailSettings`*` | `xsd:string` | 이메일 설정 선택. |
+| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL입니다. |

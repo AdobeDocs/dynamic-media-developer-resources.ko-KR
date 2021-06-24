@@ -1,25 +1,24 @@
 ---
-description: SvgRender 구성 요소는 독립적인 Java 애플리케이션입니다.
+description: SvgRender 구성 요소는 독립 Java 응용 프로그램입니다.
 solution: Experience Manager
 title: SVG 구성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9013e13f-818f-41b4-80b6-2615d9a8742f
+source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
 
+# SVG 구성{#configuring-svg}
 
-# SVG{#configuring-svg} 구성
-
-SvgRender 구성 요소는 독립적인 Java 애플리케이션입니다.
+SvgRender 구성 요소는 독립 Java 응용 프로그램입니다.
 
 SVG 구성 설정은 [!DNL PlatformServer.conf], [!DNL SVG.conf], [!DNL ImageServerRegistry.xml] 및 [!DNL ServerSupervisorRegistry.xml]에 있습니다.
 
-소켓 연결은 SvgRender와 이미지 서버 간에 통신하는 데 사용됩니다. 포트 번호는 27346입니다. 필요한 경우 [!DNL svg.conf]의 `SVGRender.port` 및 [!DNL ImageServerRegistry.xml]의 `<SVGTcpPort>`를 새 값으로 설정하여 변경할 수 있습니다.
+소켓 연결은 SvgRender와 이미지 서버 간에 통신하는 데 사용됩니다. 포트 번호는 27346. 필요한 경우 [!DNL svg.conf]에서 `SVGRender.port`, [!DNL ImageServerRegistry.xml]에서 `<SVGTcpPort>`를 새 값으로 설정하여 변경할 수 있습니다.
 
 ## 참조 {#section-c085b47d54d44059bdaa67fd5e226e91}
 

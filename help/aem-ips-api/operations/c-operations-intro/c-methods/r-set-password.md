@@ -67,7 +67,7 @@ ht-degree: 5%
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">소문자 영어 문자. 예: <span class="codeph"> a b c d e </span> </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">대문자(영어) 예: <span class="codeph"> A B C D </span> 등. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">숫자. 예를 들어 <span class="codeph"> 1 2 3 4 5 </span> 등이 있습니다. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자. 예를 들어 다음 중 하나를 사용할 수 있습니다.<span class="codeph"> &amp;grave;~!@ # $ % ^* ( ) _ + - = { } | [ ] 및 \ :" ;` &lt; &gt; ?, / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자. 예를 들어 다음 중 하나를 사용할 수 있습니다.<span class="codeph"> &amp;grave;~!@ # $ % ^* ( ) _ + - = { } | [ ] 및 \ :" ;&grave; &lt; &gt; ?, / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

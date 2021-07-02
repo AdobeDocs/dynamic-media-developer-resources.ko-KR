@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
+source-git-commit: 770822631ccfd0f13d3f8f1f982eb29b56dd2d24
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '916'
 ht-degree: 5%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 | *`format`* | 설명 |
 |---|---|
-| `avif-alpha` | 알파 채널이 있는 손실 및 무손실 AVIF <br><br>*이 형식의 릴리스 타임라인:* <br><b>북아메리카</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 2021년 6월 29일 |
-| `avif` | 손실 및 손실 없는 AVIF <br><br>*이 형식의 릴리스 일정:*<br><b>&#x200B;북아메리카</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 2021년 6월 29일 |
+| `avif-alpha` | 알파 채널이 있는 손실 및 무손실 AVIF <br><br>*이 형식의 릴리스 타임라인:* <br><b>북미</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 지금 사용 가능 |
+| `avif` | 손실 및 무손실 AVIF <br><br>*이 형식의 릴리스 타임라인:*<br><b>&#x200B;북아메리카</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 지금 사용 가능 |
 | `eps` | 압축되지 않은 이진 캡슐화된 PostScript |
 | `f4m` | Flash 스트리밍 서버 매니페스트 형식 |
 | `gif-alpha` | 2-256개 색상과 주요 색상 투명도가 있는 GIF |

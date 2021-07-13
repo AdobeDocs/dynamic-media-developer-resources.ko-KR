@@ -3,9 +3,9 @@ description: Flash 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여
 solution: Experience Manager
 title: HttpFlashStreamingContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 8%
@@ -18,7 +18,7 @@ Flash 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여 다중 비�
 
 ## 속성 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 
-URL 접두사를 나타내는 문자열입니다. (예:`http://my.server.com/flash/streaming`)
+URL 접두사를 나타내는 문자열입니다. (예: `http://my.server.com/flash/streaming`)
 
 ## 기본값 {#section-ee332f7842d24155a91ac18fbfb6fc0c}
 

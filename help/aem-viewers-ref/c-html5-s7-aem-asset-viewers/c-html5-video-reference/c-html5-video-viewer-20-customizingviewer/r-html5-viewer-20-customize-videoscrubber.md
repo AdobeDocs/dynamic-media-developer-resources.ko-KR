@@ -3,9 +3,9 @@ description: 비디오 스크러버는 사용자가 현재 재생 중인 비디�
 solution: Experience Manager
 title: 비디오 스크러버
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 2%
@@ -430,7 +430,7 @@ font-weight: bold;
  </tbody> 
 </table>
 
-**예**  - 어두운 회색의 11픽셀 버다나 글꼴과 밝은 회색 배경을 사용하여 비디오 장 설명을 설정하려면 다음을 수행하십시오.5픽셀 라인 높이, 12픽셀 수평 패딩, 12픽셀 위쪽 패딩 및 9픽셀 아래쪽 패딩.
+**예**  - 어두운 회색의 11픽셀 버다나 글꼴과 밝은 회색 배경을 사용하여 비디오 장 설명을 설정하려면 다음을 수행하십시오. 5픽셀 라인 높이, 12픽셀 수평 패딩, 12픽셀 위쪽 패딩 및 9픽셀 아래쪽 패딩.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7description { 

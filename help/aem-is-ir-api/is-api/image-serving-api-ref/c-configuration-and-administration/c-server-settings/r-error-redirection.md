@@ -3,9 +3,9 @@ description: 이러한 서버 설정을 사용하여 오류를 리디렉션합�
 solution: Experience Manager
 title: 오류 리디렉션
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS::errorRedirect.rootUrl - 리디렉션 서버 {#section-85f22e48d68842a490b0e1191543b558}
 
-루트 URL( [!DNL HTTP:// *[!DNL domain]*[:*[!DNL port]*])를 재지정합니다. 이 설정이 비어 있거나 정의되지 않은 경우 오류 리디렉션이 비활성화(기본값)됩니다.
+루트 URL( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*])를 재지정합니다. 이 설정이 비어 있거나 정의되지 않은 경우 오류 리디렉션이 비활성화(기본값)됩니다.
 
 ## PS::errorRedirect.connectTimeout - 리디렉션 연결 시간 초과 {#section-3971be8f720d4b32a2cc7860b4085971}
 

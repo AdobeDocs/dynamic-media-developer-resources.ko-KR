@@ -3,9 +3,9 @@ description: Linux에서 Dynamic Media 이미지 제공 서비스를 업그레�
 solution: Experience Manager
 title: IS 4.7.4 이상에서 업데이트
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 54733fcc-c4e3-4501-8a3d-000778678bdb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%

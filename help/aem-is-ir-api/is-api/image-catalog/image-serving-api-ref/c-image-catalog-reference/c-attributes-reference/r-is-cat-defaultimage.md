@@ -3,9 +3,9 @@ description: 기본 응답 이미지입니다. 이미지 파일을 찾을 수 �
 solution: Experience Manager
 title: DefaultImage
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2044b447-0ee1-4964-b751-8637c5e115d1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 제한 사항 {#section-5d8ea872f0b0415fbd3a83410bbcf512}
 
-외부 이미지 소스는 기본 이미지 메커니즘으로 적용되지 않습니다.외부 이미지 소스가 유효하지 않은 경우 오류가 반환됩니다.
+외부 이미지 소스는 기본 이미지 메커니즘으로 적용되지 않습니다. 외부 이미지 소스가 유효하지 않은 경우 오류가 반환됩니다.
 
 ## 기본값 {#section-d88bc8fc71bd413e8f70281d57e1ba1c}
 

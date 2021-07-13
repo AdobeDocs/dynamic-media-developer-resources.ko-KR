@@ -3,9 +3,9 @@ description: 이미지 제공 기능은 SVG(Scalable Vector Graphics) 파일을 
 solution: Experience Manager
 title: SVG 지원
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이미지 제공 기능은 SVG(Scalable Vector Graphics) 파일을 소스 데이터로 지원합니다. SVG 1.1을 준수해야 합니다.
 
-이미지 제공 기능은 정적 SVG 콘텐츠만 인식합니다.애니메이션, 스크립팅 및 기타 대화형 컨텐츠는 지원되지 않습니다.
+이미지 제공 기능은 정적 SVG 콘텐츠만 인식합니다. 애니메이션, 스크립팅 및 기타 대화형 컨텐츠는 지원되지 않습니다.
 
 이미지 파일이 허용되는 모든 위치에서 SVG를 지정할 수 있습니다(URL 경로, `src=` 및 `mask=`). SVG 파일의 컨텐츠가 래스터화된 후에는 이미지와 같이 처리됩니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->SVG에 포함된 이미지의 크기가 현재 자동으로 조정되지 않습니다. 모든 이미지 히트에 원하는 이미지 크기를 설정하는 데 필요한 이미지 제공 명령이 포함되어 있는지 확인합니다(예:`wid=`) 이미지 크기를 명시적으로 설정하지 않으면 `attribute::DefaultPix`이 적용됩니다.
+>SVG에 포함된 이미지의 크기가 현재 자동으로 조정되지 않습니다. 모든 이미지 히트에 원하는 이미지 크기를 설정하는 데 필요한 이미지 제공 명령이 포함되어 있는지 확인합니다(예: `wid=`) 이미지 크기를 명시적으로 설정하지 않으면 `attribute::DefaultPix`이 적용됩니다.
 
 ## 색상 관리 {#section-ea76e2bc4e1842638aa97a2d470c8a68}
 

@@ -3,9 +3,9 @@ description: 레이어 이미지.
 solution: Experience Manager
 title: src
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 3%
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 ## 속성 {#section-2c22bb89a35d470f833df8ba898efd93}
 
-레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 동일한 계층에서 `text=` 및 `textPs=`과 함께 사용할 수 없습니다.`text=`, `textPs=` 또는 `src=`의 마지막 항목 값이 적용되며, 이 항목이 이미지인지 아니면 텍스트 레이어인지 결정합니다. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 동일한 계층에서 `text=` 및 `textPs=`과 함께 사용할 수 없습니다. `text=`, `textPs=` 또는 `src=`의 마지막 항목 값이 적용되며, 이 항목이 이미지인지 아니면 텍스트 레이어인지 결정합니다. 효과 레이어에서 무시됨.
 
 *`object`*는 `catalog::Modifier`에 `src=` 또는 `mask=` 명령을 포함하는 다른 카탈로그 레코드로 확인할 수 없습니다. (비슷한 효과를 얻으려면 요청 중첩을 사용합니다.)
 

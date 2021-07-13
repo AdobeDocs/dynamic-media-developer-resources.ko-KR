@@ -3,9 +3,9 @@ description: 비디오 스크러버는 사용자가 현재 재생 중인 비디�
 solution: Experience Manager
 title: 비디오 스크러버
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 3%

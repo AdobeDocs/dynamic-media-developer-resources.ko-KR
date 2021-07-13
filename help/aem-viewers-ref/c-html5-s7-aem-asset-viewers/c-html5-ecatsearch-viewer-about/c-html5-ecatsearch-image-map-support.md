@@ -3,9 +3,9 @@ description: eCatalog 검색 뷰어는 기본 보기 위에 있는 이미지 맵
 solution: Experience Manager
 title: 이미지 맵 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -18,11 +18,11 @@ eCatalog 검색 뷰어는 기본 보기 위에 있는 이미지 맵 아이콘 �
 
 맵 아이콘의 모양은 [이미지 맵 효과](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289)에 설명된 대로 CSS를 통해 제어됩니다.
 
-이미지 맵은 다음 세 가지 작업 중 하나를 수행합니다.외부 웹 페이지, 정보 패널 팝업 활성화 및 내부 하이퍼링크로 리디렉션합니다.
+이미지 맵은 다음 세 가지 작업 중 하나를 수행합니다. 외부 웹 페이지, 정보 패널 팝업 활성화 및 내부 하이퍼링크로 리디렉션합니다.
 
 ## 외부 웹 페이지로 리디렉션 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-이미지 맵의 `href` 속성에는 명시적으로 지정하거나 지원되는 JavaScript 템플릿 함수 중 하나에 래핑된 외부 리소스에 대한 URL이 있습니다.`loadProduct()`, `loadProductCW()` 및 `loadProductPW()`.
+이미지 맵의 `href` 속성에는 명시적으로 지정하거나 지원되는 JavaScript 템플릿 함수 중 하나에 래핑된 외부 리소스에 대한 URL이 있습니다. `loadProduct()`, `loadProductCW()` 및 `loadProductPW()`.
 
 다음은 단순 URL 리디렉션의 예입니다.
 

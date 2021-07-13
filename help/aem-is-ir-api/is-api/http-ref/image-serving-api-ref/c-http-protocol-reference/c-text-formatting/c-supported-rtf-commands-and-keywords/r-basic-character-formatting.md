@@ -3,9 +3,9 @@ description: 기본 문자 서식에 다음 명령을 사용합니다.
 solution: Experience Manager
 title: 기본 문자 서식
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 8%
@@ -38,7 +38,7 @@ ht-degree: 8%
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
    <td> <p>글꼴 크기입니다. </p> </td> 
-   <td> <p>반점;기본값은 24입니다. </p> </td> 
+   <td> <p>반점; 기본값은 24입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf  <span class="varname"> N  </span> </span> </td> 

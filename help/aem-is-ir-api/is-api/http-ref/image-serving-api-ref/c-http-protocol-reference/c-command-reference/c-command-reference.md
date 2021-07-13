@@ -3,9 +3,9 @@ description: 이 섹션에서는 HTTP 프로토콜 명령을 설명합니다.
 solution: Experience Manager
 title: 명령 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 10%
@@ -16,17 +16,17 @@ ht-degree: 10%
 
 이 섹션에서는 HTTP 프로토콜 명령을 설명합니다.
 
-**AEM의 Dynamic Media에만 해당**:사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도  [!DNL Dynamic Media] AEM(  [!DNL Adobe Experience Manager])에서는  **이미지 수정자 필드에서 지정할 수 있는 다양한 고급 이미지 수정 사항을** 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
+**AEM의 Dynamic Media에만 해당**: 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도  [!DNL Dynamic Media] AEM(  [!DNL Adobe Experience Manager])에서는  **이미지 수정자 필드에서 지정할 수 있는 다양한 고급 이미지 수정 사항을** 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
 
-* 색상 수정 명령:`icc=` 및 `iccEmbed=`
-* 기본 템플릿 및 텍스트 렌더링 명령:`text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`
-* 로컬라이제이션 명령:`locale=` 및 `req=xlate`
+* 색상 수정 명령: `icc=` 및 `iccEmbed=`
+* 기본 템플릿 및 텍스트 렌더링 명령: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`
+* 로컬라이제이션 명령: `locale=` 및 `req=xlate`
 * `req=set` 는 일반적인 용도로 사용할 수 없습니다.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 비핵심 Dynamic Media 서비스:SVG, 이미지 렌더링 및 Web-to-Print.
+* 비핵심 Dynamic Media 서비스: SVG, 이미지 렌더링 및 Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 

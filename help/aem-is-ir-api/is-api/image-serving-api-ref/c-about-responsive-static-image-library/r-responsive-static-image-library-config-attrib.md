@@ -3,9 +3,9 @@ description: 구성 속성은 응답형 이미지 라이브러리가 관리하�
 solution: Experience Manager
 title: 명령 참조 - 구성 속성
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 목록의 중단점에 대해 하나 이상의 이미지 제공 명령 또는 이미지 사전 설정 이름을 정의할 수 있습니다. 이러한 추가 매개 변수는 이 특정 중단점이 현재 활성 상태인 경우 이미지만 적용됩니다.
 
-`wid=`, `hei=` 또는 `scl=` 등의 응답 이미지 크기에 영향을 주는 보기 명령을 제외하고 지원되는 모든 이미지 제공 명령을 사용할 수 있습니다. 이미지 사전 설정에도 동일한 제한이 적용됩니다.응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정에는 이러한 명령이 포함되어 있지 않아야 합니다.
+`wid=`, `hei=` 또는 `scl=` 등의 응답 이미지 크기에 영향을 주는 보기 명령을 제외하고 지원되는 모든 이미지 제공 명령을 사용할 수 있습니다. 이미지 사전 설정에도 동일한 제한이 적용됩니다. 응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정에는 이러한 명령이 포함되어 있지 않아야 합니다.
 
 여러 이미지 제공 명령 또는 이미지 사전 설정 이름은 &quot; `&`&quot; 문자로 구분됩니다. 이미지 제공 명령에 해당 값에 쉼표가 있는 경우 이러한 쉼표는 `%2C`로 대체됩니다. 이미지 사전 설정 이름은 달러 기호( `$`)로 래핑됩니다.
 

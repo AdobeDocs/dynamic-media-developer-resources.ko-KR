@@ -3,9 +3,9 @@ description: 포함 공유 도구는 소셜 공유 패널에 추가된 단추와
 solution: Experience Manager
 title: 공유 포함
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2603'
 ht-degree: 2%
@@ -1185,7 +1185,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 **예**  - 28 x 45픽셀인 스크롤 막대 엄지를 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트워크를 사용합니다.
 
@@ -1247,7 +1247,7 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
 
 >[!NOTE]
 >
->이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
 

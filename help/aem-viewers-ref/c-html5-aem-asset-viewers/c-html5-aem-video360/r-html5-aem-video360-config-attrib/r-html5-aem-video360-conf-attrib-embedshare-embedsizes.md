@@ -3,9 +3,9 @@ description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: EmbedShare.embedsizes
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 10%

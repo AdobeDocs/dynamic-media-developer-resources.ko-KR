@@ -3,9 +3,9 @@ description: 혼합 미디어 뷰어는 Adobe Analytics 추적을 기본 설정�
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 5%
@@ -93,7 +93,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>재생은 다음 항목 중 하나에 도달합니다.0%, 25%, 50%, 75%, 100%. </p> </td> 
+   <td colname="col2"> <p>재생은 다음 항목 중 하나에 도달합니다. 0%, 25%, 50%, 75%, 100%. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 회전 </span> </p> </td> 

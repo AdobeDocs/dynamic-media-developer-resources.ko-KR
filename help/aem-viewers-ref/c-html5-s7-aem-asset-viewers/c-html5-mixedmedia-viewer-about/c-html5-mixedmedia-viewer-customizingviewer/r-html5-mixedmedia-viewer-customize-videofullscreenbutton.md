@@ -3,9 +3,9 @@ description: 사용자가 전체 화면 버튼을 클릭하면 뷰어가 전체 
 solution: Experience Manager
 title: 비디오 전체 화면 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%

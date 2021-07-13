@@ -3,9 +3,9 @@ description: sourceFile 유형에 관계없이 다음 옵션을 적용할 수 �
 solution: Experience Manager
 title: 일반적인 옵션
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -31,11 +31,11 @@ sourceFile 유형에 관계없이 다음 옵션을 적용할 수 있습니다.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality  <span class="varname"> ival  </span> </span> </p> </td> 
-  <td class="stentry"> <p>손실 없는 PNG 대신 출력 파일에 포함된 RGB 및 회색 음영 이미지 데이터의 손실 JPEG 인코딩을 선택합니다. 알파(RGBA)가 있는 이미지는 항상 PNG 인코딩을 사용하여 저장됩니다. <span class="varname"> ival </span> 은 JPEG 품질(1...100)을 지정합니다.85 이상이 권장됩니다. 기본값은 <span class="codeph"> -jpegquality 0 </span>로, PNG 인코딩을 선택합니다. </p> </td> 
+  <td class="stentry"> <p>손실 없는 PNG 대신 출력 파일에 포함된 RGB 및 회색 음영 이미지 데이터의 손실 JPEG 인코딩을 선택합니다. 알파(RGBA)가 있는 이미지는 항상 PNG 인코딩을 사용하여 저장됩니다. <span class="varname"> ival </span> 은 JPEG 품질(1...100)을 지정합니다. 85 이상이 권장됩니다. 기본값은 <span class="codeph"> -jpegquality 0 </span>로, PNG 인코딩을 선택합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log  <span class="varname"> path  </span> </span> </p> </td> 
-  <td class="stentry"> <p>지정된 경로/이름으로 로그 파일 만들기 대상 폴더에 작성된 모든 출력 파일의 전체 경로는 로그 파일과 버전 정보 및 발생한 경고 또는 오류와 같은 일부 추가 설정이 작성됩니다( <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> 출력 </a> 참조). <span class="codeph"> -log </span> 가 지정되지 않은 경우 로그 파일이 생성되지 않습니다.이 경우 모든 텍스트 출력은 <span class="codeph"> stdout </span>에 기록됩니다. </p> </td> 
+  <td class="stentry"> <p>지정된 경로/이름으로 로그 파일 만들기 대상 폴더에 작성된 모든 출력 파일의 전체 경로는 로그 파일과 버전 정보 및 발생한 경고 또는 오류와 같은 일부 추가 설정이 작성됩니다( <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md#reference-c51e30b721eb416bb646089f0ac045c5" type="reference" format="dita" scope="local"> 출력 </a> 참조). <span class="codeph"> -log </span> 가 지정되지 않은 경우 로그 파일이 생성되지 않습니다. 이 경우 모든 텍스트 출력은 <span class="codeph"> stdout </span>에 기록됩니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lower priority  <span class="varname"> ival  </span> </span> </p> </td> 
@@ -59,7 +59,7 @@ sourceFile 유형에 관계없이 다음 옵션을 적용할 수 있습니다.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -usm  <span class="varname"> amount  </span> <span class="varname"> radius  </span> <span class="varname"> 임계값  </span> </span> </p> </td> 
-  <td class="stentry"> <p>언샵 마스킹 매개변수를 설정합니다. <span class="codeph"> -선명하게 </span> 가 0 또는 1로 설정된 경우 무시됩니다.<span class="codeph"> -선명하게 </span> 가 2 또는 3으로 설정된 경우 필요합니다. <span class="varname"> 금액 </span> 은 0.0...500.0 범위의 실제 값이고  <span class="varname"> radius </span> 는 0.0...10.0 범위의 실제 값이며,  <span class="varname">   </span> 임계값은 0에서 255 사이의 정수입니다. 자세한 내용은 이미지 제공 프로토콜 참조의 <span class="codeph"> op_usm= </span>에 대한 설명을 참조하십시오. </p> </td> 
+  <td class="stentry"> <p>언샵 마스킹 매개변수를 설정합니다. <span class="codeph"> -선명하게 </span> 가 0 또는 1로 설정된 경우 무시됩니다. <span class="codeph"> -선명하게 </span> 가 2 또는 3으로 설정된 경우 필요합니다. <span class="varname"> 금액 </span> 은 0.0...500.0 범위의 실제 값이고  <span class="varname"> radius </span> 는 0.0...10.0 범위의 실제 값이며,  <span class="varname">   </span> 임계값은 0에서 255 사이의 정수입니다. 자세한 내용은 이미지 제공 프로토콜 참조의 <span class="codeph"> op_usm= </span>에 대한 설명을 참조하십시오. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validdateproduction  <span class="varname"> ival  </span> </span> </p> </td> 

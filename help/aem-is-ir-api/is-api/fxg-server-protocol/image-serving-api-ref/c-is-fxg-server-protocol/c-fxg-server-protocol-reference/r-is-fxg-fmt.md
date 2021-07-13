@@ -3,9 +3,9 @@ description: 응답 이미지 형식입니다.
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e179fc51-0461-4000-99eb-4390c35d5606
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식과 HTTP 응답 헤더에 대한 해당 응답 MIME 유형을 지정합니다. </p> <p> <span class="codeph">  jpeg  </span>:손실 JPEG </p> <p> <span class="codeph"> png  </span>:손실 없는 PNG </p> <p> <span class="codeph"> png-alpha  </span>:알파 채널이 있는 손실 없는 PNG </p> <p> <span class="codeph">  tif  </span>:TIFF </p> <p> <span class="codeph"> tif-alpha  </span>:알파 채널이 있는 TIFF </p> <p> <span class="codeph">  swf  </span>:Adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf  </span>:PDF에 포함된 이미지 </p> <p> <span class="codeph"> gif  </span>:2~256색 GIF </p> <p> <span class="codeph"> gif  </span>:2~255색 및 키 색상 투명도가 있는 GIF </p> <p> <span class="codeph"> fxg  </span>:변수와 DOM 조작이 적용된 FXG </p> <p> <span class="codeph">  fxgraw  </span>:서버에 저장된 원래 FXG </p> </td> 
+  <td class="stentry"> <p> 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식과 HTTP 응답 헤더에 대한 해당 응답 MIME 유형을 지정합니다. </p> <p> <span class="codeph">  jpeg  </span>: 손실 JPEG </p> <p> <span class="codeph"> png  </span>: 손실 없는 PNG </p> <p> <span class="codeph"> png-alpha  </span>: 알파 채널이 있는 손실 없는 PNG </p> <p> <span class="codeph">  tif  </span>: TIFF </p> <p> <span class="codeph"> tif-alpha  </span>: 알파 채널이 있는 TIFF </p> <p> <span class="codeph">  swf  </span>: Adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf  </span>: PDF에 포함된 이미지 </p> <p> <span class="codeph"> gif  </span>: 2~256색 GIF </p> <p> <span class="codeph"> gif  </span>: 2~255색 및 키 색상 투명도가 있는 GIF </p> <p> <span class="codeph"> fxg  </span>: 변수와 DOM 조작이 적용된 FXG </p> <p> <span class="codeph">  fxgraw  </span>: 서버에 저장된 원래 FXG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -33,13 +33,13 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 출력 색상 공간을 적용하는 데 사용할 수 있습니다. </p> <p> <span class="codeph">  rgb  </span>:RGB 이미지 데이터 반환 </p> <p> <span class="codeph"> 회색  </span>:회색 음영 이미지 데이터 반환 </p> <p> <span class="codeph"> cmyk  </span>:CMYK 이미지 데이터 반환 </p> </td> 
+  <td class="stentry"> <p> 출력 색상 공간을 적용하는 데 사용할 수 있습니다. </p> <p> <span class="codeph">  rgb  </span>: RGB 이미지 데이터 반환 </p> <p> <span class="codeph"> 회색  </span>: 회색 음영 이미지 데이터 반환 </p> <p> <span class="codeph"> cmyk  </span>: CMYK 이미지 데이터 반환 </p> </td> 
  </tr> 
 </table>
 
 `tiffCompression` 는 tif-alpha가 형식으로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션에 대해서는 아래 표를 참조하십시오.
 
-`qlt=` 다음 형식의 JPEG 인코딩 옵션을 설정하는 데 사용할 수 있습니다.JPEG, JPEG 압축으로 TIFF. quantize= fmt=gif 또는 fmt=gif-alpha인 경우 사용할 수 있습니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt=` 다음 형식의 JPEG 인코딩 옵션을 설정하는 데 사용할 수 있습니다. JPEG, JPEG 압축으로 TIFF. quantize= fmt=gif 또는 fmt=gif-alpha인 경우 사용할 수 있습니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 형식 및 `pixelTypes[7]`에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 

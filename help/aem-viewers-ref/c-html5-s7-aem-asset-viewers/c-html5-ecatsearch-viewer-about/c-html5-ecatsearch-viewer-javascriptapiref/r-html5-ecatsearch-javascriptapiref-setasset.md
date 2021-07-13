@@ -3,9 +3,9 @@ description: 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> 문자열 </span>}이(가) <span class="codeph"> 다음에 추가된 이미지 제공 한정자를 사용하여 새 자산 id 또는 명시적 이미지 세트를 추가했습니다.</span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> 문자열 </span>}이(가) <span class="codeph"> 다음에 추가된 이미지 제공 한정자를 사용하여 새 자산 id 또는 명시적 이미지 세트를 추가했습니다. </span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

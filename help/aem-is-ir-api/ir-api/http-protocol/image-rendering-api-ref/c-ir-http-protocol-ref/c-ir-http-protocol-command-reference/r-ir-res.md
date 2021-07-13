@@ -3,9 +3,9 @@ description: 재료 해상도. 반복 가능한 텍스쳐 또는 decal 이미지
 solution: Experience Manager
 title: res
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f207355d-5819-47fc-bda5-27a411449569
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_2004B804D46E43C090E59BBFF8144598"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>해결 방법재료 해상도 단위(인치당 픽셀 수)(실제). </p> </td> 
+  <td class="stentry"> <p>해결 방법 재료 해상도 단위(인치당 픽셀 수)(실제). </p> </td> 
  </tr> 
 </table>
 

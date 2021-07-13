@@ -3,9 +3,9 @@ description: 텍스트 흐름 영역입니다. textPs=로 지정된 텍스트를
 solution: Experience Manager
 title: textFlowPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-레이어 사각형과 동일합니다.텍스트가 전체 레이어 사각형을 채웁니다.
+레이어 사각형과 동일합니다. 텍스트가 전체 레이어 사각형을 채웁니다.
 
 ## 참조 {#section-592b0039cf99471188db6a7df44b450a}
 

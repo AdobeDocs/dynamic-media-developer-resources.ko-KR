@@ -3,9 +3,9 @@ description: 이미지 카탈로그의 사용자 데이터입니다. URL 경로�
 solution: Experience Manager
 title: userdata
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%

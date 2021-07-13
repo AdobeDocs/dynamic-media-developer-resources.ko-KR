@@ -3,9 +3,9 @@ description: 이미지 제공 기능을 사용하여 카탈로그의 비이미�
 solution: Experience Manager
 title: 정적(비이미지) 콘텐츠 제공
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[ : <span class="varname"> port  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[ :  <span class="varname"> port  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 카탈로그  </span> </span> </p> </td> 
@@ -94,19 +94,19 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 카탈로그::만료  </span> </p> </td> 
-   <td colname="col2"> <p>이 콘텐츠 항목의 TTL입니다.<span class="codeph"> 속성::지정하지 않았거나 비어 있는 경우 만료 </span>이 사용됩니다. </p> </td> 
+   <td colname="col2"> <p>이 콘텐츠 항목의 TTL입니다. <span class="codeph"> 속성::지정하지 않았거나 비어 있는 경우 만료 </span>이 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 카탈로그::타임스탬프  </span> </p> </td> 
-   <td colname="col2"> <p>파일 수정 타임스탬프;<span class="codeph"> 속성을 사용하여 카탈로그 기반 유효성 검사가 활성화될 때 필요합니다.:CacheValidationPolicy </span> </p> </td> 
+   <td colname="col2"> <p>파일 수정 타임스탬프; <span class="codeph"> 속성을 사용하여 카탈로그 기반 유효성 검사가 활성화될 때 필요합니다.:CacheValidationPolicy </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 카탈로그::UserData  </span> </p> </td> 
-   <td colname="col2"> <p>이 정적 콘텐츠 항목과 연결된 선택적 메타데이터;<span class="codeph"> req=userdata </span> 를 사용하여 클라이언트가 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>이 정적 콘텐츠 항목과 연결된 선택적 메타데이터; <span class="codeph"> req=userdata </span> 를 사용하여 클라이언트가 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType  </span> </p> </td> 
-   <td colname="col2"> <p>선택적 데이터 유형;<span class="codeph"> type= command </span> 를 사용하여 정적 콘텐츠의 요청을 필터링하는 데 사용할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p>선택적 데이터 유형; <span class="codeph"> type= command </span> 를 사용하여 정적 콘텐츠의 요청을 필터링하는 데 사용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 비디오 캡션 파일(WebVTT), CSS 또는 모든 텍스트 파일을 JSONP 형식으로 캡슐화할 수 있습니다. JSON 응답은 아래에 설명되어 있습니다.
 
-* WebVTT 파일의 경우 응답의 MIME 유형은 text/javascript입니다. JSON이 반환되지 않습니다.대신 JSON이 있는 메서드를 호출하는 Javascript가 반환됩니다. ID와 처리기는 모두 선택 사항입니다.
+* WebVTT 파일의 경우 응답의 MIME 유형은 text/javascript입니다. JSON이 반환되지 않습니다. 대신 JSON이 있는 메서드를 호출하는 Javascript가 반환됩니다. ID와 처리기는 모두 선택 사항입니다.
 * CSS 파일의 경우 응답의 MIME 유형은 text/javascript입니다. ID와 처리기는 모두 선택 사항입니다.
 * 기본적으로 UTF-8 인코딩이 적용되어 올바로 디코딩됩니다. 기본 크기 제한은 2MB입니다.
 

@@ -3,9 +3,9 @@ description: HTTP 응답 헤더 요소입니다. <규칙> 요소에서 선택 �
 solution: Experience Manager
 title: 헤더
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 40849602-16b2-471b-9128-14653e84a45a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 4%
@@ -18,9 +18,9 @@ HTTP 응답 헤더 요소입니다. `<rule>` 요소에서 선택 사항입니다
 
 ## 속성 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;** :필수 여부. HTTP 헤더의 이름을 지정합니다.
+**`Name`= &quot;*text*&quot;** : 필수 여부. HTTP 헤더의 이름을 지정합니다.
 
-**`Action`= &quot;set&quot; |`"add"`**:선택 사항입니다. 기본값은 현재 헤더 값을 대체하는 `"set"`입니다. 헤더 값을 쉼표로 구분하여 추가하려면 `"add"` 을 지정하십시오.
+**`Action`= &quot;set&quot; |`"add"`**: 선택 사항입니다. 기본값은 현재 헤더 값을 대체하는 `"set"`입니다. 헤더 값을 쉼표로 구분하여 추가하려면 `"add"` 을 지정하십시오.
 
 ## 데이터 {#section-a387f541396c49d99c29692a38032914}
 

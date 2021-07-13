@@ -3,9 +3,9 @@ description: 요청 규칙 요소. <규칙 세트> 요소에서 하나 이상의
 solution: Experience Manager
 title: 규칙
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 `Replace = "first" | "all"`: 선택 사항입니다. 기본값은 &quot;first&quot;입니다.
 
-`RequestType` =  *&quot; `types`&quot;*:선택 사항입니다. 규칙이 적용되는 입력 컨텍스트를 지정합니다. *`types`* 는 쉼표로 구분된 목록이며, 다음 표에 나열된 토큰 중 하나 이상을 포함할 수 있습니다. `RequestType`을 지정하지 않으면 지원되는 모든 컨텍스트에서 수신되는 요청에 규칙이 적용됩니다.
+`RequestType` =  *&quot; `types`&quot;*: 선택 사항입니다. 규칙이 적용되는 입력 컨텍스트를 지정합니다. *`types`* 는 쉼표로 구분된 목록이며, 다음 표에 나열된 토큰 중 하나 이상을 포함할 수 있습니다. `RequestType`을 지정하지 않으면 지원되는 모든 컨텍스트에서 수신되는 요청에 규칙이 적용됩니다.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -53,7 +53,7 @@ ht-degree: 6%
 
 **`Name = "text"`**: 선택 사항입니다. 디버그 로그 및 오류 메시지에서 `<rule>` 요소를 식별하는 데 사용됩니다.
 
-`  *`속성`* ="value"`:선택 사항입니다. `<rule>` 요소는 모든 조합에서 다음 속성 중 하나를 정의할 수 있습니다. 지정되고 규칙이 성공적으로 일치하면 이 요청에 대한 해당 카탈로그 속성을 재정의합니다. 기본값은 `RequestType="is"`입니다.
+`  *`속성`* ="value"`: 선택 사항입니다. `<rule>` 요소는 모든 조합에서 다음 속성 중 하나를 정의할 수 있습니다. 지정되고 규칙이 성공적으로 일치하면 이 요청에 대한 해당 카탈로그 속성을 재정의합니다. 기본값은 `RequestType="is"`입니다.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 

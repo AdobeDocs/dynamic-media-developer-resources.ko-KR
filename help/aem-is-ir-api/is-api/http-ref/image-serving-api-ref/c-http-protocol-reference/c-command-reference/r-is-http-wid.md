@@ -3,9 +3,9 @@ description: 보기 너비. fit= 가 요청에 없을 때 응답 이미지(보�
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-`hei=` 및 `scl=` 모두가 지정된 경우 합성 이미지가 `align=` 속성에 따라 잘릴 수 있습니다. `fit=`이 있으면 `wid=`은 정확한 응답 이미지, 최소 또는 최대 응답 이미지 너비를 지정합니다.자세한 내용은 `fit=`의 설명을 참조하십시오.
+`hei=` 및 `scl=` 모두가 지정된 경우 합성 이미지가 `align=` 속성에 따라 잘릴 수 있습니다. `fit=`이 있으면 `wid=`은 정확한 응답 이미지, 최소 또는 최대 응답 이미지 너비를 지정합니다. 자세한 내용은 `fit=`의 설명을 참조하십시오.
 
 `scl=` 을 지정하지 않으면 합성 이미지의 크기가 적절히 조절됩니다. `wid=` 및 `hei=`이 모두 지정되어 있고 `scl=`가 지정되지 않은 경우 이미지 크기가 wid/hei 사각형 내에 완전히 맞게 조정되며 가능한 한 적은 배경 영역이 노출됩니다. 이 경우 이미지는 `align=` 속성에 따라 보기 사각형 내에 배치됩니다.
 
@@ -43,7 +43,7 @@ ht-degree: 3%
 
 ## 예 {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-200x200 사각형에 맞게 이미지를 요청합니다.이미지가 사각형이 아닌 경우 이미지를 오른쪽 위로 정렬합니다. 모든 배경 영역은 `attribute::BkgColor` 로 채워집니다.
+200x200 사각형에 맞게 이미지를 요청합니다. 이미지가 사각형이 아닌 경우 이미지를 오른쪽 위로 정렬합니다. 모든 배경 영역은 `attribute::BkgColor` 로 채워집니다.
 
 ` http:// *`서버`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 

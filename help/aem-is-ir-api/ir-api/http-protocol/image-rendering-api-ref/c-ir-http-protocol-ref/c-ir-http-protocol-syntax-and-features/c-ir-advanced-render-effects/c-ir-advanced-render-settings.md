@@ -3,9 +3,9 @@ description: 비네팅 작성 도구(Dynamic Media 이미지 작성 패키지의
 solution: Experience Manager
 title: 고급 렌더링 설정
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 25%
@@ -101,42 +101,42 @@ ht-degree: 25%
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
-   <td colname="col2"> <p>슈퍼샘플링:임의. </p> </td> 
+   <td colname="col2"> <p>슈퍼샘플링: 임의. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>200년 </p> </td> 
    <td colname="col5"> <p>기본값은 0입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
-   <td colname="col2"> <p>슈퍼샘플링:임의 비율. </p> </td> 
+   <td colname="col2"> <p>슈퍼샘플링: 임의 비율. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20년 </p> </td> 
    <td colname="col5"> <p>기본값은 5입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>미듐 </p> </td> 
-   <td colname="col2"> <p>적응형 크기 조정:깊이. </p> </td> 
+   <td colname="col2"> <p>적응형 크기 조정: 깊이. </p> </td> 
    <td colname="col3"> <p>4 </p> </td> 
    <td colname="col4"> <p>8 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>N </p> </td> 
-   <td colname="col2"> <p>적응형 크기 조정:폭. </p> </td> 
+   <td colname="col2"> <p>적응형 크기 조정: 폭. </p> </td> 
    <td colname="col3"> <p>2개 </p> </td> 
    <td colname="col4"> <p>10 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
-   <td colname="col2"> <p>포아송:샘플/픽셀. </p> </td> 
+   <td colname="col2"> <p>포아송: 샘플/픽셀. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>기본값은 1입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Y </p> </td> 
-   <td colname="col2"> <p>포아송:토글 사용. </p> </td> 
+   <td colname="col2"> <p>포아송: 토글 사용. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>기본값은 1입니다. </p> </td> 
@@ -223,35 +223,35 @@ ht-degree: 25%
    <td colname="col2"> <p>밝기 보상. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:a36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>다른 형식: a36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>b </p> </td> 
    <td colname="col2"> <p>채도 조정. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:b36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>다른 형식: b36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>c </p> </td> 
    <td colname="col2"> <p>그림자 조정. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:c36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>다른 형식: c36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d </p> </td> 
    <td colname="col2"> <p>조정을 강조 표시합니다. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:d36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>다른 형식: d36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>e </p> </td> 
    <td colname="col2"> <p>반사 특징. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:e36.207.136.177.xx </p> </td> 
+   <td colname="col5"> <p>다른 형식: e36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
@@ -265,21 +265,21 @@ ht-degree: 25%
    <td colname="col2"> <p>조명 조정. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:k64.138.175.60.xx.133.242 </p> </td> 
+   <td colname="col5"> <p>다른 형식: k64.138.175.60.xx.133.242 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>u &amp; s </p> </td> 
    <td colname="col2"> <p>그림자 색조 이동. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>다른 형식: u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
    <td colname="col2"> <p>색조 이동을 강조 표시합니다. </p> </td> 
    <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255년 </p> </td> 
-   <td colname="col5"> <p>다른 형식:v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>다른 형식: v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>w </p> </td> 

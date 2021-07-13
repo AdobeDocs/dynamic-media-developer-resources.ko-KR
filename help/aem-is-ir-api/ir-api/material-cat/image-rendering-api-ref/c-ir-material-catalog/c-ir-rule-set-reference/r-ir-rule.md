@@ -3,9 +3,9 @@ description: 요청 규칙 요소. <규칙 세트> 요소에서 하나 이상이
 solution: Experience Manager
 title: 규칙
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 5%
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 자세한 내용은 해당 이미지 카탈로그 속성의 설명을 참조하십시오.
 
-Expiration 속성은 기본 속성 값만 무시합니다.특정 `catalog::Expiration` 값이 요청에 적용되는 경우에는 무시됩니다.
+Expiration 속성은 기본 속성 값만 무시합니다. 특정 `catalog::Expiration` 값이 요청에 적용되는 경우에는 무시됩니다.
 
 ## 데이터 {#section-401b6dfce082490f81229a19b73f2562}
 

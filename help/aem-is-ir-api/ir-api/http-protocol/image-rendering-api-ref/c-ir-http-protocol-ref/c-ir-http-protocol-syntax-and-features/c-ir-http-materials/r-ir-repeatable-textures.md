@@ -3,9 +3,9 @@ description: 반복 가능한 텍스처에는 직물(의류 및 장신구 모두
 solution: Experience Manager
 title: 반복 가능한 텍스처
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 3%
@@ -33,7 +33,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>반복 가능한 텍스쳐 이미지필수 </p> </td> 
+   <td colname="col2"> <p>반복 가능한 텍스쳐 이미지 필수 </p> </td> 
    <td colname="col3"> <p>없음. </p> </td> 
   </tr> 
   <tr> 
@@ -72,17 +72,17 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a" type="reference" format="dita" scope="local"> <span class="codeph"> grout=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>그라우트 색상 및 두께세라믹/석재 소재로 유용하다 </p> </td> 
+   <td colname="col2"> <p>그라우트 색상 및 두께 세라믹/석재 소재로 유용하다 </p> </td> 
    <td colname="col3"> <p>이미지가 이미 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-align.md#reference-4d63baa522ce42f9b15167ba34c5c6a7" type="reference" format="dita" scope="local"> <span class="codeph"> 정렬=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>정렬 모드(객체 간);업홀스 응용 프로그램에 사용됨 </p> </td> 
+   <td colname="col2"> <p>정렬 모드(객체 간); 업홀스 응용 프로그램에 사용됨 </p> </td> 
    <td colname="col3"> <p>가운데 맞춤 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rotate.md#reference-3745d74a913e4065b7ac009fb4fd9e3c" type="reference" format="dita" scope="local"> <span class="codeph"> rotate= </span> </a> </p> </td> 
-   <td colname="col2"> <p>텍스쳐 회전각벽 개체에서 지원되지 않음 </p> </td> 
+   <td colname="col2"> <p>텍스쳐 회전각 벽 개체에서 지원되지 않음 </p> </td> 
    <td colname="col3"> <p>0(회전 없음) </p> </td> 
   </tr> 
  </tbody> 

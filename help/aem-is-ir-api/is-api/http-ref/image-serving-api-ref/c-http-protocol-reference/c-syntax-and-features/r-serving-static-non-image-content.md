@@ -3,9 +3,9 @@ description: 정적(비이미지) 콘텐츠 제공
 solution: Experience Manager
 title: 정적(비이미지) 콘텐츠 제공
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[: <span class="varname"> port  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address  </span>[:  <span class="varname"> port  </span>]  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 카탈로그  </span> </span> </p> </td> 
@@ -94,19 +94,19 @@ ht-degree: 1%
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::만료  </span> </p> </td> 
-   <td> <p> 이 콘텐츠 항목의 TTL입니다.attribute::Expiration은 지정하지 않았거나 비어 있는 경우 사용됩니다 </p> </td> 
+   <td> <p> 이 콘텐츠 항목의 TTL입니다. attribute::Expiration은 지정하지 않았거나 비어 있는 경우 사용됩니다 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::타임스탬프  </span> </p> </td> 
-   <td> <p> 파일 수정 타임스탬프;다음 속성을 사용하여 카탈로그 기반 유효성 검사가 활성화될 때 필요합니다.:CacheValidationPolicy </p> </td> 
+   <td> <p> 파일 수정 타임스탬프; 다음 속성을 사용하여 카탈로그 기반 유효성 검사가 활성화될 때 필요합니다.:CacheValidationPolicy </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> 카탈로그::UserData  </span> </p> </td> 
-   <td> <p> 이 정적 콘텐츠 항목과 연결된 선택적 메타데이터;req=userdata를 사용하여 클라이언트가 사용할 수 있습니다. </p> </td> 
+   <td> <p> 이 정적 콘텐츠 항목과 연결된 선택적 메타데이터; req=userdata를 사용하여 클라이언트가 사용할 수 있습니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::UserType  </span> </p> </td> 
-   <td> <p> 선택적 데이터 유형;type= 명령을 사용하여 정적 콘텐츠의 요청을 필터링하는 데 사용할 수 있습니다. </p> </td> 
+   <td> <p> 선택적 데이터 유형; type= 명령을 사용하여 정적 콘텐츠의 요청을 필터링하는 데 사용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

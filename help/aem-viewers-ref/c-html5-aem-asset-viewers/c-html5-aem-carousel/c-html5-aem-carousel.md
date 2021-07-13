@@ -3,9 +3,9 @@ description: 회전판 뷰어는 클릭할 수 있는 핫스팟이나 영역이 
 solution: Experience Manager
 title: 회전식
 feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
    동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 지정된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `carouselViewer`이 뷰어 인스턴스라고 가정합니다.`s7viewer` 은 자리 표시자 `DIV`;의 이름입니다.`https://adobedemo62-h.assetsadobe.com/is/image`은 이미지 제공 URL이고 `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`는 자산입니다.
+   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `carouselViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `https://adobedemo62-h.assetsadobe.com/is/image`은 이미지 제공 URL이고 `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`는 자산입니다.
 
    ```
    <script type="text/javascript"> 

@@ -3,9 +3,9 @@ description: 레이어 대칭 이동. crop= 및 before rotate= and extend= 를 �
 solution: Experience Manager
 title: 뒤집기
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->대칭 레이어는 레이어 앵커를 기반으로 배치됩니다.다른 flip= 값은 앵커가 레이어의 중심에 있지 않을 때 서로 다른 레이어 위치를 생성합니다.
+>대칭 레이어는 레이어 앵커를 기반으로 배치됩니다. 다른 flip= 값은 앵커가 레이어의 중심에 있지 않을 때 서로 다른 레이어 위치를 생성합니다.
 
 ## 속성 {#section-294da2af7be746b5adfc35e29ee68217}
 

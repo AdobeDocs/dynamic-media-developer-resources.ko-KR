@@ -3,9 +3,9 @@ description: 이미지 제공 기능은 특정 레코드에 대한 카탈로그 
 solution: Experience Manager
 title: 미디어 집합 요청
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -79,12 +79,12 @@ ht-degree: 0%
 
 * 이미지 및 정적 컨텐츠 카탈로그 모두에 레코드가 있는 경우
 
-   * 파일 확장자가 다음 세트에 있는 경우 비디오를 가정하십시오.mp3, mp4, flv, f4v, swf, xml
+   * 파일 확장자가 다음 세트에 있는 경우 비디오를 가정하십시오. mp3, mp4, flv, f4v, swf, xml
    * 이미지 제외
 
 * 정적 콘텐츠 카탈로그에 레코드가 있지만 이미지 카탈로그에는 없는 경우
 
-   * 파일 확장자가 다음 세트에 있는 경우 비디오를 가정하십시오.mp3, mp4, flv, f4v, swf, xml
+   * 파일 확장자가 다음 세트에 있는 경우 비디오를 가정하십시오. mp3, mp4, flv, f4v, swf, xml
    * 그렇지 않으면 정적 가정함
 
 * 이미지 카탈로그에서 의 레코드가 있지만 정적 콘텐츠 카탈로그에는 없는 경우
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * 이미지 카탈로그에서 레코드가 없고 정적 컨텐츠 카탈로그에서 찾을 수 없는 경우
 
-   * 파일 확장자가 다음 세트에 있는 경우 파일 기반 비디오를 가정하십시오.mp3, mp4, flv, f4v, swf, xml
+   * 파일 확장자가 다음 세트에 있는 경우 파일 기반 비디오를 가정하십시오. mp3, mp4, flv, f4v, swf, xml
    * 그렇지 않으면 파일 기반 이미지를 가정합니다
 
 모든 경우 결과 xml 응답은 감지된 유형에 해당하는 설정된 루트 노드가 있는 지정된 XML 문서를 따릅니다.

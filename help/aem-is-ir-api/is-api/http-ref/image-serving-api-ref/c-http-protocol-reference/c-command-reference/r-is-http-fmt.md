@@ -3,9 +3,9 @@ description: 응답 이미지 형식입니다.
 solution: Experience Manager
 title: fmt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 770822631ccfd0f13d3f8f1f982eb29b56dd2d24
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 5%
@@ -74,7 +74,7 @@ ht-degree: 5%
 
 * *`compression`* 는  `tif`,  `tif-alpha`,  `pdf`,  `webp`,  `webp-alpha`,  `jpeg2000`,  `jpeg2000-alpha`,  `jpegxr` 또는  `jpegxr-alpha` 가  *`format`*&#x200B;로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션에 대해서는 아래 표를 참조하십시오.
 
-`qlt=` 을 사용하여 다음 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다.JPEG, JPEG 압축으로 TIFF, JPEG 압축으로 PDF, SWF WebP, JPEG 2000 및 JPEG XR도 `qlt=`을 사용하지만, 이 값은 다른 형식의 품질에 대해 다른 특성을 갖게 됩니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을 사용하십시오. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt=` 을 사용하여 다음 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. JPEG, JPEG 압축으로 TIFF, JPEG 압축으로 PDF, SWF WebP, JPEG 2000 및 JPEG XR도 `qlt=`을 사용하지만, 이 값은 다른 형식의 품질에 대해 다른 특성을 갖게 됩니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을 사용하십시오. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 *`formats`* 및 *`pixelTypes`*(GIF의 경우 픽셀당 8비트)에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 
@@ -117,13 +117,13 @@ ht-degree: 5%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축  </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> qlt=  </span> 압축이  <span class="varname"> jpeg </span> 로 설정되어 있지 않으면  <span class="codeph"> 무시됩니다  </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축  </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만 'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt=  </span> </p> <p> <span class="codeph"> qlt=  </span> 압축이  <span class="varname"> jpeg </span> 로 설정되어 있지 않으면  <span class="codeph"> 무시됩니다  </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, 회색 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application&gt; </span> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> <p> <p>참고: Adobe Flash Player은 포함된 ICC 프로파일을 무시합니다. </p> </p> </td> 
+   <td colname="col4"> <p>아니요 </p> <p> <p>참고:  Adobe Flash Player은 포함된 ICC 프로파일을 무시합니다. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt=  </span>,  <span class="codeph"> 특성::TrustedDomains  </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -180,13 +180,13 @@ ht-degree: 5%
 
 ## 속성 {#section-5f96b0ce7c5a4df1bf52e24ea78c3dae}
 
-요청 속성입니다. `req=img`(기본값) 또는 `req=mask`; 인 경우 현재 레이어 설정에 관계없이 적용됩니다.그렇지 않으면 무시됩니다.
+요청 속성입니다. `req=img`(기본값) 또는 `req=mask`; 인 경우 현재 레이어 설정에 관계없이 적용됩니다. 그렇지 않으면 무시됩니다.
 
 *`type`* 이 지정된 경우  `iccProfile=` 가 무시됩니다.
 
 ## 기본값 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`으로, 여기서  *`defaultType`* 는 다음과 같이 처리됩니다.지정한  `icc=` 경우, 은  *`defaultType`* 지정된 ICC 프로파일의 픽셀 유형에 해당합니다. `icc=`이 지정되지 않은 경우 *`defaultType`*&#x200B;은 `gray`이고, `req=mask`이면 `rgb`입니다.
+` fmt=jpeg, *`defaultType`*,none`으로, 여기서  *`defaultType`* 는 다음과 같이 처리됩니다. 지정한  `icc=` 경우, 은  *`defaultType`* 지정된 ICC 프로파일의 픽셀 유형에 해당합니다. `icc=`이 지정되지 않은 경우 *`defaultType`*&#x200B;은 `gray`이고, `req=mask`이면 `rgb`입니다.
 
 ## 예제 {#section-b93222e652df404a84c69025247f07df}
 

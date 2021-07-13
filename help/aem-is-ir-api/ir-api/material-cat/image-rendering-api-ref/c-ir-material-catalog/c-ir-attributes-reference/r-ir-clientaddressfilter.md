@@ -3,9 +3,9 @@ description: 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주�
 solution: Experience Manager
 title: ClientAddressFilter
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -36,11 +36,11 @@ ht-degree: 3%
 
 ## 예제 {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
-* 액세스 제한 없음:`0.0.0.0/0`
+* 액세스 제한 없음: `0.0.0.0/0`
 * `192: 192.0.0.0/8`으로 시작하는 모든 주소에 대한 액세스 권한 부여
 * `192.168.12.0` 과 `192.168.13.255: 192.168.12.0/23` 사이의 주소가 있는 512 호스트에 대한 액세스 권한을 부여합니다
 
-* 단일 IP 주소에 대한 액세스 권한 부여:`192.168.2.117` 또는 `192.168.2.117/32`
+* 단일 IP 주소에 대한 액세스 권한 부여: `192.168.2.117` 또는 `192.168.2.117/32`
 
 ## 참조 {#section-6198780c7b3045aabd211eefb38bc565}
 

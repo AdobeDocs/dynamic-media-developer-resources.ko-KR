@@ -3,9 +3,9 @@ description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 4%

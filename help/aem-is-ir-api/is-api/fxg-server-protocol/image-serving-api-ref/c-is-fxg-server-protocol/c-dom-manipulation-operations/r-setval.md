@@ -3,9 +3,9 @@ description: s7 elementID에 대한 텍스트 노드 값을 설정합니다.
 solution: Experience Manager
 title: setVal
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 1%

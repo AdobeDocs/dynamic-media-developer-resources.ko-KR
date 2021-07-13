@@ -3,9 +3,9 @@ description: 액세스 로깅 시 이러한 서버 설정을 사용합니다.
 solution: Experience Manager
 title: 액세스 로깅
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 3%
@@ -76,7 +76,7 @@ Platform Server 액세스 로그 레코드의 데이터 패턴을 지정합니�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>:<span class="varname"> mm </span>:<span class="varname"> ss </span>. <span class="varname"> SSS  </span> 오프셋  </span> </p> <p> ( <span class="varname"> SSS </span>은 msec이고, <span class="varname"> offset </span>은 GMT 시간 오프셋입니다.);시간 값은 응답이 클라이언트에 전송될 때 캡처됩니다. </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS  </span> 오프셋  </span> </p> <p> ( <span class="varname"> SSS </span>은 msec이고, <span class="varname"> offset </span>은 GMT 시간 오프셋입니다.); 시간 값은 응답이 클라이언트에 전송될 때 캡처됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -136,7 +136,7 @@ Platform Server 액세스 로그 레코드의 데이터 패턴을 지정합니�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
-   <td> <p>Platform Server 캐시 관리 키워드:<span class="codeph"> { REUSE | 생성됨 | 업데이트됨 | 원격 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | 유효함 | 무시됨 | 정의되지 않음 } </span>. </p> </td> 
+   <td> <p>Platform Server 캐시 관리 키워드: <span class="codeph"> { REUSE | 생성됨 | 업데이트됨 | 원격 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | 유효함 | 무시됨 | 정의되지 않음 } </span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 

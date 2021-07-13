@@ -3,9 +3,9 @@ description: 확대/축소 표시기가 확대/축소 보기 영역에 겹쳐집
 solution: Experience Manager
 title: 확대/축소 보기 아이콘 효과
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%

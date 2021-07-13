@@ -3,9 +3,9 @@ description: 이러한 명령은 이미지, 텍스트 및 단색 레이어에 �
 solution: Experience Manager
 title: 공통 작업
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 3%

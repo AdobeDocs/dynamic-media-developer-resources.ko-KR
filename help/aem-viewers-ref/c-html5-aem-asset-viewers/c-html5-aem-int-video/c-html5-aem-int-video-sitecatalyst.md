@@ -3,9 +3,9 @@ description: HTML5 Video360 뷰어는 Adobe Analytics 추적을 즉시 지원합
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
@@ -79,7 +79,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 다음 이정표 중 하나에 도달하는 경우:0%, 25%, 50%, 75% 또는 100% </p> </td> 
+   <td colname="col2"> <p>재생이 다음 이정표 중 하나에 도달하는 경우: 0%, 25%, 50%, 75% 또는 100% </p> </td> 
   </tr> 
  </tbody> 
 </table>

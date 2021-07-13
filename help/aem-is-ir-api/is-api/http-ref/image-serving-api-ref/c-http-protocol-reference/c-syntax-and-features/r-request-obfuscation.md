@@ -3,9 +3,9 @@ description: 표준 base64 인코딩을 적용하여 선택적 잠금 접미사�
 solution: Experience Manager
 title: 난독화 요청
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%

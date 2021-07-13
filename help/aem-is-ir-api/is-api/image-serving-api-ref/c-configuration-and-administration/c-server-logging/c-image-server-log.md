@@ -3,9 +3,9 @@ description: 이미지 서버는 이 로그 파일에 레코드를 작성하여 
 solution: Experience Manager
 title: 이미지 서버 로그
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: bf5d1e3c-fed3-4145-8b7a-e85b986df641
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

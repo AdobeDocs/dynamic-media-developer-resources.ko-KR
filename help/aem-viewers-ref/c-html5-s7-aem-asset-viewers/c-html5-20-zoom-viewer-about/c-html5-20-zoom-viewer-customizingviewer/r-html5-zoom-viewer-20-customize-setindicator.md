@@ -3,9 +3,9 @@ description: 세트 표시기는 터치 장치에서 뷰어를 사용할 때 색
 solution: Experience Manager
 title: 표시기 설정
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%

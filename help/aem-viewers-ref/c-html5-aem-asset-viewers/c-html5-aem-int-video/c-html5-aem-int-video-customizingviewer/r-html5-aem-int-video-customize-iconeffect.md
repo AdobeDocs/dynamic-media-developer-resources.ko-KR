@@ -3,9 +3,9 @@ description: 재생 아이콘은 기본 보기 영역에 겹쳐집니다. 비디
 solution: Experience Manager
 title: 아이콘 효과
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%

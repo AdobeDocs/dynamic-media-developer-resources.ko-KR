@@ -3,9 +3,9 @@ description: 설정 표시기는 뷰어 하단에 렌더링되는 일련의 점�
 solution: Experience Manager
 title: 표시기 설정
 feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->세트 표시기는 모드 속성 선택기를 지원합니다. 이 선택기를 사용하여 점선 및 숫자 작업 모드에 다른 스타일을 적용할 수 있습니다. 특히 `mode="numeric"`은 숫자 작업 모드에 해당합니다.`mode="dotted"`은 기본 점 상태에 해당합니다.
+>세트 표시기는 모드 속성 선택기를 지원합니다. 이 선택기를 사용하여 점선 및 숫자 작업 모드에 다른 스타일을 적용할 수 있습니다. 특히 `mode="numeric"`은 숫자 작업 모드에 해당합니다. `mode="dotted"`은 기본 점 상태에 해당합니다.
 
 예 - 백그라운드로 설정 표시기를 설정하려면 다음을 수행합니다.
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->표시기 항목 설정은 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하면 다른 스킨을 다른 축소판 상태에 적용할 수 있습니다. 특히 `state="selected"`은 집합에 있는 현재 요소에 해당합니다.`state="unselected"`은 기본 항목 상태에 해당합니다.
+>표시기 항목 설정은 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하면 다른 스킨을 다른 축소판 상태에 적용할 수 있습니다. 특히 `state="selected"`은 집합에 있는 현재 요소에 해당합니다. `state="unselected"`은 기본 항목 상태에 해당합니다.
 
 예 - 데스크탑 시스템에서 뷰어 하단에서 20픽셀로 배치할 점선 모드에서 설정 표시기를 설정합니다. 선택하지 않은 점은 50% 투명도가 있는 검정, 7픽셀의 둥근 모서리가 있는 15 x 15픽셀. 선택한 점은 90% 투명도가 있는 검정, 18 x 18픽셀, 9픽셀의 둥근 모서리가 있습니다. 점 사이의 간격은 5픽셀입니다.
 

@@ -3,9 +3,9 @@ description: 재생/일시 중지 단추를 사용하면 사용자가 회전 자
 solution: Experience Manager
 title: PlayPause 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-버튼은 `CarouselViewer.autoplay` 매개 변수가 `1`;(으)로 설정된 경우에만 표시됩니다.그렇지 않으면 숨겨집니다. CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+버튼은 `CarouselViewer.autoplay` 매개 변수가 `1`;(으)로 설정된 경우에만 표시됩니다. 그렇지 않으면 숨겨집니다. CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 **기본 뷰어 영역의 CSS 속성**
 

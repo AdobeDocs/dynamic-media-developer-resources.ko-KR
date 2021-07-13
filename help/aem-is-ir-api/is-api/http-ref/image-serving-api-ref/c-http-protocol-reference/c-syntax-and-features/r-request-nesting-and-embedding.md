@@ -3,9 +3,9 @@ description: 이미지 제공 기능은 이미지 렌더링 요청을 포함한 
 solution: Experience Manager
 title: 중첩 및 포함 요청
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 0%
@@ -119,7 +119,7 @@ FXG 그래픽 렌더러([!DNL AGMServer])가 설치되고 이미지 제공 기�
 
 중요 중첩 요청 내의 구분 기호 문자( `'(',')'`) 및 명령 구분 기호 문자( `'?'`, `'&'`, `'='`)는 HTTP로 인코딩되어서는 안 됩니다. 포함된 요청은 외부(포함) 요청과 동일하게 인코딩되어야 합니다.
 
-전체 절대 URL(`attribute::AllowDirectUrls`이 설정된 경우) 및 `attribute::RootUrl`에 상대적인 URL이 허용됩니다. 절대 URL이 포함된 경우 및 속성이 다음과 같이 발생하는 경우 오류가 발생합니다.`AllowDirectUrls`은 0이거나 상대 URL이 지정되어 있고 `attribute::RootUrl`이 비어 있는 경우 입니다.
+전체 절대 URL(`attribute::AllowDirectUrls`이 설정된 경우) 및 `attribute::RootUrl`에 상대적인 URL이 허용됩니다. 절대 URL이 포함된 경우 및 속성이 다음과 같이 발생하는 경우 오류가 발생합니다. `AllowDirectUrls`은 0이거나 상대 URL이 지정되어 있고 `attribute::RootUrl`이 비어 있는 경우 입니다.
 
 외부 URL은 요청 URL의 경로 구성 요소에 직접 지정할 수 없지만 상대 경로를 절대 URL로 변환할 수 있도록 사전 처리 규칙을 설정할 수 있습니다(아래 예 참조).
 
@@ -151,7 +151,7 @@ FXG 그래픽 렌더러([!DNL AGMServer])가 설치되고 이미지 제공 기�
 
 **Dynamic Media 이미지 렌더링에 대한 요청 포함**
 
-[!DNL myCatalog/myTemplate]에 저장된 템플릿 사용Dynamic Media 이미지 렌더링을 사용하여 템플릿의 layer2에 대한 이미지를 생성합니다.
+[!DNL myCatalog/myTemplate]에 저장된 템플릿 사용 Dynamic Media 이미지 렌더링을 사용하여 템플릿의 layer2에 대한 이미지를 생성합니다.
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 

@@ -3,9 +3,9 @@ description: 비디오 이미지 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: InteractiveImage
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 165de14f-0031-4969-9671-5da310d44c28
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 3%

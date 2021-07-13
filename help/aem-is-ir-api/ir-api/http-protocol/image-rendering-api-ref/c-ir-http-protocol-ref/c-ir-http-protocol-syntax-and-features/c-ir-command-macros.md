@@ -3,9 +3,9 @@ description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 
 solution: Experience Manager
 title: 명령 매크로 *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 1%

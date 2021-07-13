@@ -3,9 +3,9 @@ description: 타일 그라우트 색상 및 두께. 세라믹 및 천연 돌 타
 solution: Experience Manager
 title: 그루트
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
@@ -25,13 +25,13 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-  <td class="stentry"> <p>굵기;장면 좌표 단위(일반적으로 인치)(실제). </p> </td> 
+  <td class="stentry"> <p>굵기; 장면 좌표 단위(일반적으로 인치)(실제). </p> </td> 
  </tr> 
 </table>
 
 그룹 모양을 최대한 제어하려면 다음 요구 사항이 적용됩니다.
 
-* 타일은 정사각형 또는 직사각형이어야 합니다.현재 다른 셰이프는 지원되지 않습니다.
+* 타일은 정사각형 또는 직사각형이어야 합니다. 현재 다른 셰이프는 지원되지 않습니다.
 * 이미지에는 단일 타일만 포함해야 합니다.
 * 이미지의 기본 그룹(있는 경우)은 4개의 가장자리 모두에서 동일한 두께를 가져야 합니다.
 * 기본 그룹의 두께는 재료 카탈로그( `catalog::GroutWidth`)에 지정해야 합니다.

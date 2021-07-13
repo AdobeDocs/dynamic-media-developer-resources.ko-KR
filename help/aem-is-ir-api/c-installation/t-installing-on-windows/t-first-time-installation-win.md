@@ -3,9 +3,9 @@ description: 이 단계를 사용하여 Windows에서 처음으로 이미지 제
 solution: Experience Manager
 title: 처음 설치
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

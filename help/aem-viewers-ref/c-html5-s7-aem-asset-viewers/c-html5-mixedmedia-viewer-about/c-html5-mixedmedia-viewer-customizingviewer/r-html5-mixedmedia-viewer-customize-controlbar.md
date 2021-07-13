@@ -3,9 +3,9 @@ description: 컨트롤 막대는 재생/일시 정지 단추, 볼륨 컨트롤 �
 solution: Experience Manager
 title: 컨트롤 막대
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 1%

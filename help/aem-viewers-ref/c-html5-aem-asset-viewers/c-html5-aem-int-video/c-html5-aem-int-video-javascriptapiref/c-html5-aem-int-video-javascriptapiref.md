@@ -3,9 +3,9 @@ description: 대화형 이미지 뷰어의 기본 클래스는 InteractiveVideoV
 solution: Experience Manager
 title: 대화형 비디오 뷰어에 대한 JavaScript API 참조
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3b1f5150-c696-4989-9914-09549f838b4a
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

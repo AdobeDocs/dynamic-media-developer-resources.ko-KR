@@ -3,9 +3,9 @@ description: 서버 캐시에 이러한 서버 설정을 사용합니다.
 solution: Experience Manager
 title: 서버 캐시
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS::cache.maxSize - 응답 데이터 캐시 크기 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP 응답 캐시의 최대 크기(바이트)입니다. 이 설정은 실제 데이터를 캐시할 양을 제한합니다.파일 시스템 오버헤드를 고려하지 않습니다. ([응답 데이터 캐시](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)를 참조하십시오.) 캐시 데이터 폴더를 여러 개 지정하면 캐시 데이터가 모든 폴더에 고르게 분산됩니다. [!DNL PlatformServer.conf]의 `cache.maxSize` 값은 바이트 단위입니다.
+HTTP 응답 캐시의 최대 크기(바이트)입니다. 이 설정은 실제 데이터를 캐시할 양을 제한합니다. 파일 시스템 오버헤드를 고려하지 않습니다. ([응답 데이터 캐시](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)를 참조하십시오.) 캐시 데이터 폴더를 여러 개 지정하면 캐시 데이터가 모든 폴더에 고르게 분산됩니다. [!DNL PlatformServer.conf]의 `cache.maxSize` 값은 바이트 단위입니다.
 
 ## PS::cache.maxEntries - 응답 데이터 캐시 최대 항목 {#section-5603e327e90542a5b50aeeb27b080410}
 

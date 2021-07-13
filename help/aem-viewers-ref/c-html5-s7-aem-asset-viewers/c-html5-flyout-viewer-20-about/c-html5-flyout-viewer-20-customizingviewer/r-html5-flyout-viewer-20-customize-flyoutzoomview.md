@@ -3,9 +3,9 @@ description: 기본 보기는 정적 이미지, 플라이아웃 보기에 표시
 solution: Experience Manager
 title: 플라이아웃 확대/축소 보기
 feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 3%
@@ -125,7 +125,7 @@ CSS를 사용하여 배경, 테두리, 투명도 및 유사한 속성을 제어�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 불투명도  </span> </p> </td> 
-   <td colname="col2"> <p> 불투명도를 강조 표시합니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(opacity-...);</span> </p> </td> 
+   <td colname="col2"> <p> 불투명도를 강조 표시합니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(opacity-...); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 

@@ -3,9 +3,9 @@ description: 그림, 티셔츠 인쇄, 수 또는 인쇄 로고와 같은 의복
 solution: Experience Manager
 title: 디칼
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 3%
@@ -33,7 +33,7 @@ MSS에 지정된 경우, 재료는 10차 MSS로 간주됩니다. 십진수 은 �
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>이미지(일반적으로 알파 사용);필수 여부. </p> </td> 
+   <td colname="col2"> <p>이미지(일반적으로 알파 사용); 필수 여부. </p> </td> 
    <td colname="col3"> <p>없음. </p> </td> 
   </tr> 
   <tr> 

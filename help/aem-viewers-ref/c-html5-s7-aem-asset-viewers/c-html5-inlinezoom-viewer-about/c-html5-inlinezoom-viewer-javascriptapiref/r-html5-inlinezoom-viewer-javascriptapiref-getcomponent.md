@@ -3,9 +3,9 @@ description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
 title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 72ae83e4-b879-4b3b-a5d9-38ed0fc2969d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-뷰어에서 사용하는 Viewer SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지에서는 이 메서드를 사용하여 기본 제공 뷰어의 동작을 확장하거나 사용자 지정할 수 있습니다. `initComplete` 뷰어 콜백이 실행된 후에만 이 메서드를 호출합니다.그렇지 않으면 뷰어 논리로 구성 요소를 아직 만들지 못할 수 있습니다.
+뷰어에서 사용하는 Viewer SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지에서는 이 메서드를 사용하여 기본 제공 뷰어의 동작을 확장하거나 사용자 지정할 수 있습니다. `initComplete` 뷰어 콜백이 실행된 후에만 이 메서드를 호출합니다. 그렇지 않으면 뷰어 논리로 구성 요소를 아직 만들지 못할 수 있습니다.
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

@@ -3,9 +3,9 @@ description: 이미지 변환 유틸리티입니다.
 solution: Experience Manager
 title: ic
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 2%
@@ -81,7 +81,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality  &lt;&gt; quality  </span>&gt;  </span><span class="varname"> </span></p> </td> 
-   <td colname="col2"> <p>JPEG 품질(0-100;기본값은 95)입니다. </p> </td> 
+   <td colname="col2"> <p>JPEG 품질(0-100; 기본값은 95)입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplecrominance  </span> </p> </td> 
@@ -97,7 +97,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi  &lt;&gt; dpi  </span>&gt;  </span><span class="varname"> </span></p> </td> 
-   <td colname="col2"> <p><span class="codeph"> <span class="varname"> destFile </span> </span>에 대한 인쇄 해상도(dpi)지정하지 않으면 <span class="codeph"> srcFile </span>의 인쇄 해상도가 <span class="codeph"> <span class="varname"> destFile </span> </span>에 복사됩니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> <span class="varname"> destFile </span> </span>에 대한 인쇄 해상도(dpi) 지정하지 않으면 <span class="codeph"> srcFile </span>의 인쇄 해상도가 <span class="codeph"> <span class="varname"> destFile </span> </span>에 복사됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop  &lt;&gt; 코너  </span>&gt;  &lt;&gt; 모드  </span>&gt;  &lt;&gt; tolerance  </span>&gt;  &lt;&gt; infoFile  </span>&gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"> </span></span></span></span></p> </td> 
@@ -106,8 +106,8 @@ ht-degree: 2%
 <p><i><b>모퉁이</b></i>  - ul | url | ll | lr </p>
    <p> 시드 점을 사용할 이미지의 모서리를 지정합니다. 모드가 1이면 무시됩니다.</p>
    <p><i><b>모드</b></i>  - 0 | 1</p>
-   <p>지정된 코너 픽셀의 색상을 기준으로 자르려면 0으로 설정합니다.알파 데이터가 소스 이미지와 연결된 경우 미리 곱된 색상 데이터에서 작동합니다.</p>
-   <p>알파 데이터를 기반으로 자르려면 1로 설정합니다.모서리는 무시되고 0은 항상 시드 값입니다.소스 이미지와 연결된 알파 데이터가 없으면 자르기가 적용되지 않습니다.</p> 
+   <p>지정된 코너 픽셀의 색상을 기준으로 자르려면 0으로 설정합니다. 알파 데이터가 소스 이미지와 연결된 경우 미리 곱된 색상 데이터에서 작동합니다.</p>
+   <p>알파 데이터를 기반으로 자르려면 1로 설정합니다. 모서리는 무시되고 0은 항상 시드 값입니다. 소스 이미지와 연결된 알파 데이터가 없으면 자르기가 적용되지 않습니다.</p> 
    <p><i><b>허용치</b></i>  - 일치 허용치. 실수 값 0.0에서 1.0까지 일치하는 픽셀 구성 요소 값에 대한 허용치를 지정합니다. 정확히 일치하려면 0으로 설정합니다.</p>
    <p><i><b>infoFile</b></i>  - 자르기 정보 데이터를 쓸 XML 출력 파일의 경로 및 이름입니다.</p>
 
@@ -290,14 +290,14 @@ ht-degree: 2%
    <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | grayA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 압축되지 않음 | 압축 </p> </td> 
-   <td> <p> 병합된 이미지만레이어 및 추가 채널은 무시됩니다. </p> </td> 
+   <td> <p> 병합된 이미지만 레이어 및 추가 채널은 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Macintosh </p> <b>PICT</b> </td> 
    <td> <p> RGB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> 비트맵 데이터 전용,벡터 데이터는 무시됩니다. </p> </td> 
+   <td> <p> 비트맵 데이터 전용, 벡터 데이터는 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 

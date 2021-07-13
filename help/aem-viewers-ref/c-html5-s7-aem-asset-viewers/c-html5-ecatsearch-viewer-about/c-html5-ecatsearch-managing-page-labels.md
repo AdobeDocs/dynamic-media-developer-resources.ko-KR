@@ -3,9 +3,9 @@ description: 페이지 레이블 관리
 solution: Experience Manager
 title: 페이지 레이블 관리
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 73c3904f-678f-47c4-b895-86671402df79
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 페이지 레이블 관리{#managing-page-labels}
 
-뷰어 사용자 인터페이스에는 페이지 레이블이 표시되는 두 개의 위치가 있습니다.축소판 모드 및 목차 드롭다운
+뷰어 사용자 인터페이스에는 페이지 레이블이 표시되는 두 개의 위치가 있습니다. 축소판 모드 및 목차 드롭다운
 
 정의할 수 있는 레이블에는 다음 세 가지 유형이 있습니다.
 

@@ -3,9 +3,9 @@ description: 이미지 제공 서비스는 간단한 시각적 워터마크 기�
 solution: Experience Manager
 title: 워터마크
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%

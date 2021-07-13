@@ -3,9 +3,9 @@ description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setLocalizedText
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a0d602f5-e698-4dad-af95-70ef5ef88af6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%

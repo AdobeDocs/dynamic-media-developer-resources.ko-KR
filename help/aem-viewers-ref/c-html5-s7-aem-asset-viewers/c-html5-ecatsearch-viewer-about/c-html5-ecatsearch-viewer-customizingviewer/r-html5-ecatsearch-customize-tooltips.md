@@ -3,9 +3,9 @@ description: 데스크탑 시스템에서는 단추와 같은 일부 사용자 �
 solution: Experience Manager
 title: 도구 설명
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 6%

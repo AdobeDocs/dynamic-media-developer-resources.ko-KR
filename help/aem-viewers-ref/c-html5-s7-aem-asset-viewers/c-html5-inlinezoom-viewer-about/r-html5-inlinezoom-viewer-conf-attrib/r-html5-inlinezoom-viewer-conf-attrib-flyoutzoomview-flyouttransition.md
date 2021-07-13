@@ -3,9 +3,9 @@ description: FlyoutZoomView.flyouttransition
 solution: Experience Manager
 title: FlyoutZoomView.flyouttransition
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3199d4a3-4799-40a2-b0a5-0e1ee4744fbe
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 없음|슬라이드|페이드  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 플라이아웃 보기가 표시되거나 숨겨질 때 적용되는 효과를 지정합니다. <span class="codeph"> 없음 </span>을 사용하면 활성화되고 준비되면 플라이아웃 이미지가 즉시 나타납니다.<span class="codeph"> 슬라이드 </span>을 사용하면 슬라이드 애니메이션이 왼쪽에서 오른쪽 방향으로 재생됩니다.<span class="codeph"> 페이드 </span> 는 플라이아웃 이미지에 알파 전환을 적용합니다. </p> </td> 
+   <td colname="col2"> <p> 플라이아웃 보기가 표시되거나 숨겨질 때 적용되는 효과를 지정합니다. <span class="codeph"> 없음 </span>을 사용하면 활성화되고 준비되면 플라이아웃 이미지가 즉시 나타납니다. <span class="codeph"> 슬라이드 </span>을 사용하면 슬라이드 애니메이션이 왼쪽에서 오른쪽 방향으로 재생됩니다. <span class="codeph"> 페이드 </span> 는 플라이아웃 이미지에 알파 전환을 적용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 

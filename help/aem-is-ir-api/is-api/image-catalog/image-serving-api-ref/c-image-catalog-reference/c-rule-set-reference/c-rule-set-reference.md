@@ -3,9 +3,9 @@ description: 이미지 제공 기능은 정규 표현식 일치 및 대체 규�
 solution: Experience Manager
 title: 규칙 세트 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 ## 카탈로그 속성 재정의 {#section-3f1e33a65c5346d1b4a69958c61432f3}
 
-`<rule>` 규칙이 성공적으로 일치할 때 해당 카탈로그 속성을 재정의하는 속성을 선택적으로 정의할 수 있습니다. 일치하는 규칙이 여러 개 설정되어 있으면 마지막 규칙이 우선합니다. 규칙으로 제어할 수 있는 특성 목록은 ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` 요소의 설명을 참조하십시오.
+`<rule>` 규칙이 성공적으로 일치할 때 해당 카탈로그 속성을 무시하는 속성을 선택적으로 정의할 수 있습니다. 일치하는 규칙이 여러 개 설정되어 있으면 마지막 규칙이 우선합니다. 규칙으로 제어할 수 있는 특성 목록은 ` [<rule>](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-rule-rule.md#reference-af76c0e2b8be48dabb52b71fe7e51ee9)` 요소의 설명을 참조하십시오.
 
 ## 정규 표현식 {#section-3f77bb9a265147b38c645f63ab1bad8b}
 

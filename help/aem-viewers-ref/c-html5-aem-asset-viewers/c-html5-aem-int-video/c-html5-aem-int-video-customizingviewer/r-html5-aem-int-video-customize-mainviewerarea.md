@@ -3,9 +3,9 @@ description: 기본 보기 영역은 대화형 색상 견본이 차지하는 영
 solution: Experience Manager
 title: 기본 뷰어 영역
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 3%

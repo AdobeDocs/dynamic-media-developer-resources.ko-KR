@@ -3,9 +3,9 @@ description: '이미지 마스크 사용. 이미지의 마스크 또는 알파 �
 solution: Experience Manager
 title: maskUse
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 ## 예 {#section-daa371e9be5547368ff6772342acba0a}
 
-이미지의 배경 영역에 색상을 지정합니다.이미지 전경은 별도의 마스크 이미지로 정의됩니다. 이 작업은 수정되지 않은 이미지의 경우 맨 위에 색상화된 이미지 배경을 레이어함으로써 수행됩니다.
+이미지의 배경 영역에 색상을 지정합니다. 이미지 전경은 별도의 마스크 이미지로 정의됩니다. 이 작업은 수정되지 않은 이미지의 경우 맨 위에 색상화된 이미지 배경을 레이어함으로써 수행됩니다.
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 

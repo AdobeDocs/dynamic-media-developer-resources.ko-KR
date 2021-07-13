@@ -3,9 +3,9 @@ description: 대체 변수는 요청 URL에서 이미지 카탈로그에 저장�
 solution: Experience Manager
 title: 대체 변수
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 변수 정의 및 참조는 요청의 쿼리 부분, `catalog::Modifier` 및 `catalog::PostModifier`에서 발생할 수 있습니다.
 
-변수는 다른 IS 명령과 유사하며 위와 같이 정의됩니다.선행 &#39;$&#39;은(는) 명령을 변수 정의로 식별합니다. 변수를 참조하기 전에 정의해야 합니다.
+변수는 다른 IS 명령과 유사하며 위와 같이 정의됩니다. 선행 &#39;$&#39;은(는) 명령을 변수 정의로 식별합니다. 변수를 참조하기 전에 정의해야 합니다.
 
 변수 이름 *`var`*&#x200B;은(는) 대/소문자를 구분하지 않으며 ASCII 문자, 숫자, &#39;-&#39;, &#39;_&#39; 및 &#39;.&#39;의 조합으로 구성될 수 있습니다.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->&#39;$&#39;은(는) 예약된 문자가 아닙니다.이 문제는 요청에서 달리 발생할 수 있습니다. 예를 들어 `src=my$image$file.tif`은(는) 유효한 명령이며, `wid`에는 숫자 인수가 필요하므로 `my$image$file.tif`이라는 카탈로그 항목이나 이미지 파일이 있다고 가정할 경우) 는 그렇지 않습니다.`wid=$number$`
+>&#39;$&#39;은(는) 예약된 문자가 아닙니다. 이 문제는 요청에서 달리 발생할 수 있습니다. 예를 들어 `src=my$image$file.tif`은(는) 유효한 명령이며, `wid`에는 숫자 인수가 필요하므로 `my$image$file.tif`이라는 카탈로그 항목이나 이미지 파일이 있다고 가정할 경우) 는 그렇지 않습니다.`wid=$number$`
 
 ## 중첩 요청의 변수 처리 {#section-26d63adc446c4fa0808e11e8082abdfa}
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->`href` 속성 값으로 대체되는 모든 변수 값은 이중 URL로 인코딩되어야 합니다.다른 모든 항목은 단독으로 인코딩되어야 합니다.
+>`href` 속성 값으로 대체되는 모든 변수 값은 이중 URL로 인코딩되어야 합니다. 다른 모든 항목은 단독으로 인코딩되어야 합니다.
 
 ## 사전 정의된 경로 변수 {#section-930d0dd12e8f49499becc9fe8df24092}
 

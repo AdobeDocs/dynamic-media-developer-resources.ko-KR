@@ -3,9 +3,9 @@ description: 컨텐츠 데이터 폴더에 대해 이러한 서버 설정을 사
 solution: Experience Manager
 title: 컨텐츠 데이터 폴더
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%

@@ -3,9 +3,9 @@ description: 속성 데이터는 req= 유형 imageprop 및 prop에 응답하여 
 solution: Experience Manager
 title: 속성
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 속성{#properties}
 
-속성 데이터는 다음 req= 유형에 응답하여 반환됩니다.imageprop 및 prop.
+속성 데이터는 다음 req= 유형에 응답하여 반환됩니다. imageprop 및 prop.
 
 회신 데이터는 Java 속성으로 읽을 수 있도록 포맷됩니다. 일반적인 텍스트 속성 응답에는 다음과 같은 일반 구조가 있습니다.
 

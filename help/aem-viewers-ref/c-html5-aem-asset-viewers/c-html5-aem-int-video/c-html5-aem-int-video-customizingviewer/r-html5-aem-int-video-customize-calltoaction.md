@@ -3,9 +3,9 @@ description: 비디오가 종료되고 특정 비디오와 연결된 모든 대�
 solution: Experience Manager
 title: 조치 수행 질문
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -191,7 +191,7 @@ ht-degree: 2%
 
 ## 예 {#example-3}
 
-28 x 28픽셀인 재생 단추를 설정하려면 다음을 수행하십시오.헤더의 위쪽 및 오른쪽 가장자리로부터 20픽셀을 배치했습니다.4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.구성 요소의 스프라이트 이미지에서 아트웍을 가져옵니다.
+28 x 28픽셀인 재생 단추를 설정하려면 다음을 수행하십시오. 헤더의 위쪽 및 오른쪽 가장자리로부터 20픽셀을 배치했습니다. 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다. 구성 요소의 스프라이트 이미지에서 아트웍을 가져옵니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -308,7 +308,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumbnail states)을 적용하는 데 사용할 수 있습니다. 특히 `state="selected"` 은 현재 선택한 이미지의 축소판에 해당합니다.`state="default"`은 나머지 축소판에 해당합니다.마우스 가리키기에 `state="over"`가 사용됩니다.
+>섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumbnail states)을 적용하는 데 사용할 수 있습니다. 특히 `state="selected"` 은 현재 선택한 이미지의 축소판에 해당합니다. `state="default"`은 나머지 축소판에 해당합니다. 마우스 가리키기에 `state="over"`가 사용됩니다.
 
 ## 예 {#example-6}
 
@@ -449,7 +449,7 @@ ht-degree: 2%
 
 <!--<a id="section_4A5D8C1A9C9D4E7B8AC0CD5BC6F3772D"></a>-->
 
-스크롤 막대 엄지는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 논리에 의해 완전히 제어됩니다.그러나 엄지 높이 는 콘텐츠의 양에 따라 동적으로 변경되지 않습니다.
+스크롤 막대 엄지는 스크롤 트랙 영역 내에서 세로로 이동합니다. 세로 위치는 구성 요소 논리에 의해 완전히 제어됩니다. 그러나 엄지 높이 는 콘텐츠의 양에 따라 동적으로 변경되지 않습니다.
 
 다음 CSS 클래스 선택기는 엄지 높이 및 기타 종횡비의 모양을 제어합니다.
 
@@ -498,7 +498,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다음과 같은 다른 thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.`"up"`, `"down"`, `"over"` 및 `"disabled"`.
+>Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다음과 같은 다른 thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `"up"`, `"down"`, `"over"` 및 `"disabled"`.
 
 ## 예 {#example-10}
 
@@ -524,7 +524,7 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS 위쪽, 왼쪽, 아래쪽 또는 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다.뷰어 논리는 자동으로 위치를 지정합니다. 대화형 비디오 뷰어의 작업 패널에 대한 호출은 스크롤 막대에서 이러한 단추를 사용하지 않으므로 기본 CSS에서 해당 크기가 0픽셀로 설정됩니다.
+CSS 위쪽, 왼쪽, 아래쪽 또는 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 뷰어 논리는 자동으로 위치를 지정합니다. 대화형 비디오 뷰어의 작업 패널에 대한 호출은 스크롤 막대에서 이러한 단추를 사용하지 않으므로 기본 CSS에서 해당 크기가 0픽셀로 설정됩니다.
 
 ## 동작 패널 호출에서 위쪽 및 아래쪽 스크롤 단추의 CSS 속성:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
@@ -551,7 +551,7 @@ CSS 위쪽, 왼쪽, 아래쪽 또는 오른쪽 속성을 사용하여 스크롤 
 
 >[!NOTE]
 >
->이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다음과 같은 다른 thumb 상태에 다른 스킨을 적용할 수 있습니다.`"up"`, `"down"`, `"over"` 및 `"disabled"`.
+>이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다음과 같은 다른 thumb 상태에 다른 스킨을 적용할 수 있습니다. `"up"`, `"down"`, `"over"` 및 `"disabled"`.
 
 단추 도구 설명은 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)을 참조하십시오.
 

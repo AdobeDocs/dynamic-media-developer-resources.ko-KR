@@ -3,9 +3,9 @@ description: 디칼 재료 선택기. 반복 가능한 비반복 가능한 디�
 solution: Experience Manager
 title: 십자
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 10%
@@ -27,7 +27,7 @@ ht-degree: 10%
 
 ## 속성 {#section-4f975f78869e4c829c30cf3ca7646539}
 
-선택 명령;MSS 구분 기호.
+선택 명령; MSS 구분 기호.
 
 ## 기본값 {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

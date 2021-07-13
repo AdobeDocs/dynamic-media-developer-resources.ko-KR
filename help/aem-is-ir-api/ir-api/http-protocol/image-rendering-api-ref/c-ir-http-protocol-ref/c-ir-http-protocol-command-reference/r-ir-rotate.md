@@ -3,9 +3,9 @@ description: 재료 회전 각도. 재료의 회전 각도를 정의합니다.
 solution: Experience Manager
 title: 회전
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 355d9691-c04b-44a6-9563-5bef185cfa7e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 6%
@@ -31,7 +31,7 @@ ht-degree: 6%
 
 임의의 각도로 디칼 재료를 회전합니다.
 
-양각이 시계 방향으로 회전한다. 텍스처 또는 십자가 기준점( `anchor=`) 주위를 회전합니다.기준점은 대상 개체의 원점과 정렬된 상태로 유지됩니다.
+양각이 시계 방향으로 회전한다. 텍스처 또는 십자가 기준점( `anchor=`) 주위를 회전합니다. 기준점은 대상 개체의 원점과 정렬된 상태로 유지됩니다.
 
 ## 속성 {#section-ad4d07897ca24f63af1a4062f8618e36}
 

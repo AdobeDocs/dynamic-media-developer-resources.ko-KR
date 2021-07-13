@@ -3,9 +3,9 @@ description: 전체 화면 버튼을 사용하면 사용자가 클릭할 때 비
 solution: Experience Manager
 title: 전체 화면 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 2%

@@ -3,9 +3,9 @@ description: 웹 페이지에 응답형 이미지 라이브러리를 추가하�
 solution: Experience Manager
 title: 응답형 이미지 라이브러리 사용
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%

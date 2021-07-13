@@ -3,9 +3,9 @@ description: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 10%
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p>닫기 단추를 표시하려면 <span class="codeph"> 1 </span> 로 설정하십시오. 또는 <span class="codeph"> 0 </span> 로 설정하여 닫기 단추를 숨깁니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다.데스크톱 시스템에 표시할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p>닫기 단추를 표시하려면 <span class="codeph"> 1 </span> 로 설정하십시오. 또는 <span class="codeph"> 0 </span> 로 설정하여 닫기 단추를 숨깁니다. </p> <p>닫기 단추는 터치 장치에서만 지원됩니다. 데스크톱 시스템에 표시할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

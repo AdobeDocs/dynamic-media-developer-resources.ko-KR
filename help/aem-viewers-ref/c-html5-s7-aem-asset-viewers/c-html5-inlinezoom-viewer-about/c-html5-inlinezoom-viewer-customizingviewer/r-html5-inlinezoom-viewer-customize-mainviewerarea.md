@@ -3,9 +3,9 @@ description: 기본 보기 영역은 플라이아웃 보기와 견본이 차지�
 solution: Experience Manager
 title: 기본 뷰어 영역
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 3%

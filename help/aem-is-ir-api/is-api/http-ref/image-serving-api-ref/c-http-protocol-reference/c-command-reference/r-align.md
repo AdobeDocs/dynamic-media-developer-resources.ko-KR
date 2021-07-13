@@ -3,9 +3,9 @@ description: 이미지와 보기 정렬. wid= 및 hei=로 정의된 보기 사�
 solution: Experience Manager
 title: 정렬
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 01001cc6-1a60-4d6b-a27f-ea5822be6d11
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=0,-1`
 
-`myImage`이 정확히 정사각형이면 전체 뷰 사각형이 채워집니다. `myImage`에 세로 종횡비가 있는 경우 크기가 200픽셀로 조정되고 보기에서 가로로 가운데에 표시됩니다. `myImage`에 가로 종횡비가 있는 경우 크기가 200픽셀 너비로 조정되며 보기의 위쪽 가장자리에 정렬됩니다. 모든 경우 반환된 이미지의 크기는 정확히 200x200픽셀입니다.스케일링된 `myImage`에서 다루지 않는 모든 공간은 `attribute::BkgColor`(bgc= 를 지정하여 배경색을 동적으로 제어하십시오.)
+`myImage`이 정확히 정사각형이면 전체 뷰 사각형이 채워집니다. `myImage`에 세로 종횡비가 있는 경우 크기가 200픽셀로 조정되고 보기에서 가로로 가운데에 표시됩니다. `myImage`에 가로 종횡비가 있는 경우 크기가 200픽셀 너비로 조정되며 보기의 위쪽 가장자리에 정렬됩니다. 모든 경우 반환된 이미지의 크기는 정확히 200x200픽셀입니다. 스케일링된 `myImage`에서 다루지 않는 모든 공간은 `attribute::BkgColor`(bgc= 를 지정하여 배경색을 동적으로 제어하십시오.)
 
 ## 참조 {#section-28b42c6db199456a800c8407faa26a99}
 

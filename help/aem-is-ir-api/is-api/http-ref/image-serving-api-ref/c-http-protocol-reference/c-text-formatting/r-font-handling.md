@@ -3,9 +3,9 @@ description: RTF 문자열에서 참조되는 모든 글꼴은 기본 카탈로�
 solution: Experience Manager
 title: 글꼴 처리
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -26,13 +26,13 @@ RTF 문자열에서 참조되는 모든 글꼴은 기본 카탈로그의 글꼴 
 
 `textPs=` 에서는 다음과 같은 제한 사항이 있는 Photoshop® 글꼴을 지원합니다.
 
-* `\cf` 는 Photoshop 글꼴 글꼴을 지정하는 텍스트 범위에서 무시됩니다.광글꼴 글꼴에는 사전 정의된 색상이 있습니다
-* 합성 글꼴 스타일은 지원되지 않습니다.`\b` 및 `\i`을 사용하려면 해당 글꼴 맵 항목이 필요합니다. 그렇지 않으면 오류가 반환됩니다
+* `\cf` 는 Photoshop 글꼴 글꼴을 지정하는 텍스트 범위에서 무시됩니다. 광글꼴 글꼴에는 사전 정의된 색상이 있습니다
+* 합성 글꼴 스타일은 지원되지 않습니다. `\b` 및 `\i`을 사용하려면 해당 글꼴 맵 항목이 필요합니다. 그렇지 않으면 오류가 반환됩니다
 
 * 세로 텍스트 흐름은 지원되지 않습니다
 * 16비트 이미지가 포함된 Photoshop 글꼴은 지원되지 않습니다
 * 이미지당 여러 글리프가 있는 Photoshop 글꼴 글꼴은 지원되지 않습니다
-* Photoshop Font Glyph 이미지 포함 색상 프로파일이 없으면 색상 변환 기능이 적용되지 않습니다.이 경우 상대적 색상 지표 렌더링 의도 및 블랙포인트 보상이 항상 적용됩니다
+* Photoshop Font Glyph 이미지 포함 색상 프로파일이 없으면 색상 변환 기능이 적용되지 않습니다. 이 경우 상대적 색상 지표 렌더링 의도 및 블랙포인트 보상이 항상 적용됩니다
 
 자세한 내용은 ` [www.photofont.com](http://www.photofont.com)` 을 참조하십시오.
 

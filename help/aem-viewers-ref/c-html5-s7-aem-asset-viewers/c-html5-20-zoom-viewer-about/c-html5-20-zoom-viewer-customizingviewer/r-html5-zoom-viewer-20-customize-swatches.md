@@ -3,9 +3,9 @@ description: 색상 견본은 왼쪽 및 오른쪽에 선택 가능한 스크롤
 solution: Experience Manager
 title: 견본
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 3%
@@ -172,7 +172,7 @@ CSS 위쪽, 왼쪽, 아래쪽 및 오른쪽 속성을 사용하여 스크롤 단
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 단추 도구 설명은 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)을 참조하십시오.
 

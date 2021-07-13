@@ -3,9 +3,9 @@ description: 재료 서피스 거칠기. 재료 서피스의 상대적 거칠기
 solution: Experience Manager
 title: 거칠게
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8903b51c-c7d4-460f-8f28-00053eac9d6e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-3D 반사 렌더링 효과를 제어하는 데 사용됩니다. 거칠기 값이 낮을수록 일반적으로 더 부드러운 반사 효과가 발생합니다.값이 높을수록 반영된 이미지의 무작위 지정 및 비산이 발생합니다.
+3D 반사 렌더링 효과를 제어하는 데 사용됩니다. 거칠기 값이 낮을수록 일반적으로 더 부드러운 반사 효과가 발생합니다. 값이 높을수록 반영된 이미지의 무작위 지정 및 비산이 발생합니다.
 
 각 재료 유형( `type=`)은 거칠기에 따라 최소 및 최대 반사 렌더링 효과를 정의합니다. 일부 재료 유형(예: 벽면 용지)의 경우 `rough=`은 반사 모양에 거의 영향을 주지 않지만 다른 재료 유형(예: 석재 또는 세라믹)의 경우 그 효과가 상당히 두드러집니다.
 

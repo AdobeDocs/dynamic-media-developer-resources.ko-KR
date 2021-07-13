@@ -3,9 +3,9 @@ description: 운영 체제, 브라우저 및 모바일 장치에 대한 호환�
 solution: Experience Manager
 title: 호환성 정보
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 1%
@@ -70,6 +70,6 @@ ht-degree: 1%
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 이상:인터넷 플러그인 설정으로 인해 Flash 비디오가 재생되지 않습니다.
+* Safari 6.1 이상: 인터넷 플러그인 설정으로 인해 Flash 비디오가 재생되지 않습니다.
 * Safari에서 HLS 스트리밍을 사용하는 비디오 찾기가 일치하지 않습니다.
 * HLS 스트리밍을 사용하여 Safari 6에서 비디오를 종료할 수 없습니다.

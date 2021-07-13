@@ -3,9 +3,9 @@ description: 즐겨찾기 메뉴 드롭다운 목록이 컨트롤 모음에 나�
 solution: Experience Manager
 title: 즐겨찾기 메뉴
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e3c90320-b6fc-4a43-b75f-d39234b1e73c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%

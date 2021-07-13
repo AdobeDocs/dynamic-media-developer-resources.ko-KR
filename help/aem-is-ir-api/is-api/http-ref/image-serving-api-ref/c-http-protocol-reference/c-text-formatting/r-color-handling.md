@@ -3,9 +3,9 @@ description: RTF 사양은 &bsol;colortbl에 지정된 RGB 색상 값을 허용�
 solution: Experience Manager
 title: 색상 처리
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -26,7 +26,7 @@ RTF 사양은 `\colortbl`에 지정된 RGB 색상 값을 허용합니다. 각 �
 
 *[!DNL colors]* 하나 이상의 IS 색상 값이 &#39;;&#39;로 구분되어 있습니다.
 
-동일한 `text=` 또는 `textPs=` RTF 문자열에 둘 이상의 색상 테이블을 지정할 수 있습니다. 각 색상 테이블에는 서로 다른 수의 항목이 있을 수 있습니다. 이미지 제공에서 다음 순서로 색상을 찾습니다.`\iscolortbl` 앞에 `\cmykcolortbl` (텍스트 레이어의 픽셀 유형이 CMYK인 경우에만) `\colortbl` 앞에 있습니다. `textPs=`의 경우에만 필요한 경우 CMYK와 RGB 간에 색상이 정확하게 변환됩니다(예: RGB 색상을 지정하지만 CMYK 출력이 필요한 경우). 특정 인덱스 값에 대한 색상이 없으면 기본 색상(검정)이 사용됩니다.
+동일한 `text=` 또는 `textPs=` RTF 문자열에 둘 이상의 색상 테이블을 지정할 수 있습니다. 각 색상 테이블에는 서로 다른 수의 항목이 있을 수 있습니다. 이미지 제공에서 다음 순서로 색상을 찾습니다. `\iscolortbl` 앞에 `\cmykcolortbl` (텍스트 레이어의 픽셀 유형이 CMYK인 경우에만) `\colortbl` 앞에 있습니다. `textPs=`의 경우에만 필요한 경우 CMYK와 RGB 간에 색상이 정확하게 변환됩니다(예: RGB 색상을 지정하지만 CMYK 출력이 필요한 경우). 특정 인덱스 값에 대한 색상이 없으면 기본 색상(검정)이 사용됩니다.
 
 IS 색상 값의 구문에 대한 설명은 [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) 를 참조하십시오.
 

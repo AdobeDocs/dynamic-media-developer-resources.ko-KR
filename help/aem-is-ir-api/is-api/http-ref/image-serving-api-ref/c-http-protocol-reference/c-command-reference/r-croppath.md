@@ -3,9 +3,9 @@ description: 포함된 명명된 패스의 테두리 상자로 자를 수 있습
 solution: Experience Manager
 title: cropPathE
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%

@@ -3,9 +3,9 @@ description: 목차는 기본 컨트롤 모음에 있는 단추입니다. 활성
 solution: Experience Manager
 title: 목차
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 1%
@@ -63,7 +63,7 @@ ht-degree: 1%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-예 - 맨 아래쪽에서 4픽셀, 기본 컨트롤 막대의 왼쪽에서 43픽셀로 위치하는 목차 단추를 설정합니다.크기는 28 x 28픽셀이며 4개의 서로 다른 단추 상태에 대해 다른 이미지가 표시됩니다.
+예 - 맨 아래쪽에서 4픽셀, 기본 컨트롤 막대의 왼쪽에서 43픽셀로 위치하는 목차 단추를 설정합니다. 크기는 28 x 28픽셀이며 4개의 서로 다른 단추 상태에 대해 다른 이미지가 표시됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7tableofcontents { 
@@ -112,7 +112,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->CSS에서 드롭다운 패널의 크기 또는 위치를 제어할 수 없습니다.구성 요소는 레이아웃을 프로그래밍 방식으로 관리합니다.
+>CSS에서 드롭다운 패널의 크기 또는 위치를 제어할 수 없습니다. 구성 요소는 레이아웃을 프로그래밍 방식으로 관리합니다.
 
 예 - 반투명 검정색 배경과, 내용 둘레에 5픽셀 여백 및 그림자 효과를 갖는 드롭다운 패널을 설정합니다.
 
@@ -396,7 +396,7 @@ max-width: 240px;
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다.대신 뷰어 논리는 자동으로 위치를 지정합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리는 자동으로 위치를 지정합니다.
 
 **위로 스크롤하여 아래로 스크롤하는 단추의 CSS 속성**
 

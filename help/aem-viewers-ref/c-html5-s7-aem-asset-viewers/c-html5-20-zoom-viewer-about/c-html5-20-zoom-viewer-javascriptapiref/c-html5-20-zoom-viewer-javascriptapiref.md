@@ -3,9 +3,9 @@ description: 확대/축소 뷰어의 기본 클래스는 BasicZoomViewer입니�
 solution: Experience Manager
 title: 확대/축소 뷰어에 대한 Javascript API 참조
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 62aa6d43-db46-4250-878b-253ac5785ff7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%

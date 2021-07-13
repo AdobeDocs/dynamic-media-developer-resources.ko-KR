@@ -3,9 +3,9 @@ description: 레이어 클립 경로. 현재 레이어의 클립 경로를 지�
 solution: Experience Manager
 title: clipPath
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> 절대적 거부권 </p> </td> 
-   <td> <p> 현재 위치에서 x,y로 베지어 곡선을 그립니다.x1,y1은 커브의 시작 부분에 있는 제어점이고 x2, y2는 커브의 끝 부분에 있는 제어점입니다. </p> </td> 
+   <td> <p> 현재 위치에서 x,y로 베지어 곡선을 그립니다. x1,y1은 커브의 시작 부분에 있는 제어점이고 x2, y2는 커브의 끝 부분에 있는 제어점입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 

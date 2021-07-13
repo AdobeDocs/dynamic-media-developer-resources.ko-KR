@@ -3,9 +3,9 @@ description: 캐시 클러스터링에 이러한 서버 설정을 사용합니�
 solution: Experience Manager
 title: 캐시 클러스터링
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## PS::cacheCluster.hosts - 호스트 {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-세미콜론으로 구분되는 IP 주소 목록입니다. 이 호스트가 캐시 데이터를 얻을 모든 피어 서버의 IP 주소를 포함하십시오. 편의를 위해 로컬 호스트의 IP 주소를 포함할 수 있다.이렇게 하면 클러스터의 모든 서버에 대해 동일한 구성 설정이 허용됩니다.
+세미콜론으로 구분되는 IP 주소 목록입니다. 이 호스트가 캐시 데이터를 얻을 모든 피어 서버의 IP 주소를 포함하십시오. 편의를 위해 로컬 호스트의 IP 주소를 포함할 수 있다. 이렇게 하면 클러스터의 모든 서버에 대해 동일한 구성 설정이 허용됩니다.
 
 ## PS::cacheCluster.updateLocalCache - 로컬 캐시 업데이트 {#section-154c2c0af4544200a3499232bb130dde}
 

@@ -3,9 +3,9 @@ description: 이미지 제공 서비스는 ICC(International Color Consortium) �
 solution: Experience Manager
 title: 이미지 제공 색상 관리
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -106,14 +106,14 @@ ht-degree: 0%
 |`NewsprintSNAP2007`|미국 신문(SNAP 2007)|USNewsprintSNAP2007.icc|
 |`PS4Default`|Photoshop 4 기본 CMYK|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop 5 기본 CMYK|Photoshop5DefaultCMYK.icc|
-|`SheetfedCoated`|미국Sheetfed Coated v2|USSheetfedCoated.icc|
-|`SheetfedUncoated`|미국Sheetfed Uncoated v2|USSheetfedUncoated.icc|
+|`SheetfedCoated`|미국 Sheetfed Coated v2|USSheetfedCoated.icc|
+|`SheetfedUncoated`|미국 Sheetfed Uncoated v2|USSheetfedUncoated.icc|
 |`UncoatedFogra29`|Uncoated FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
-|`WebCoated`|미국웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
+|`WebCoated`|미국 웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28(ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`WebCoatedGrade3`|Web Coated SWOP 2006년 3등급 용지|WebCoatedSWOP2006Grade3.icc|
 |`WebCoatedGrade5`|Web Coated SWOP 2006년 5급 용지|WebCoatedSWOP2006Grade5.icc|
-|`WebUncoated`|미국웹 코팅되지 않은 v2|USWebUncoated.icc|
+|`WebUncoated`|미국 웹 코팅되지 않은 v2|USWebUncoated.icc|
 
 다음 표는 *Dynamic Media Classic 이미지 제공* 및 *Dynamic Media*(`dynamicmedia_scene7` 실행 모드에서 실행)에 적용됩니다.
 
@@ -144,16 +144,16 @@ ht-degree: 0%
 |`JapanWebCoated`|일본 웹 코팅(광고)|JapanWebCoated.icc|
 |`PS4Default`|Photoshop 4 기본 CMYK|Photoshop4DefaultCMYK.icc|
 |`PS5Default`|Photoshop 5 기본 CMYK|Photoshop5DefaultCMYK.icc|
-|`SheetfedCoated`|미국Sheetfed Coated v2|USSheetfedCoated.icc|
-|`SheetfedUncoated`|미국Sheetfed Uncoated v2|USSheetfedUncoated.icc|
+|`SheetfedCoated`|미국 Sheetfed Coated v2|USSheetfedCoated.icc|
+|`SheetfedUncoated`|미국 Sheetfed Uncoated v2|USSheetfedUncoated.icc|
 |`UncoatedFogra29`|Uncoated FOGRA29(ISO 12647-2:2004)|UncoatedFOGRA29.icc|
 |`US Newsprint (SNAP 2007)`|미국 신문(SNAP 2007)|USNewsprintSNAP2007.icc|
-|`WebCoated`|미국웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
+|`WebCoated`|미국 웹 코팅(SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28(ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`Web Coated SWOP 2006 Grade 3 Paper`|Web Coated SWOP 2006년 3등급 용지|WebCoatedSWOP2006Grade3.icc|
 |`Web Coated SWOP Grade 5 Paper`|Web Coated SWOP 2006년 5급 용지|WebCoatedSWOP2006Grade5.icc|
-|`WebUncoated`|미국웹 코팅되지 않은 v2|USWebUncoated.icc|
+|`WebUncoated`|미국 웹 코팅되지 않은 v2|USWebUncoated.icc|
 
 ## 참조 {#section-39159397e80b4efca5f631eab8b9aa06}
 
-[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*,  [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f),  [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b),  [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c),  [Gc=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),ICC ProfileProfileProfileProfileProfileProfileProfileReferenceAttributeAttributeAttribute를 참조하십시오  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)
+[International Color Consortium](http://www.color.org/index.xalter),  [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517),  [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e),  [attribute::IccProfile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0)*,  [attribute::IccProfileSrc](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilesrcgray.md#reference-a717831da24d43f680d01393660f12f9)*,  [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f),  [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f),  [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b),  [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c),  [Gc=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md),  [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88),ICC ProfileProfileProfileProfileProfileProfileProfileProfileReferenceAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttributeAttribute  [ *`color`*](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md)

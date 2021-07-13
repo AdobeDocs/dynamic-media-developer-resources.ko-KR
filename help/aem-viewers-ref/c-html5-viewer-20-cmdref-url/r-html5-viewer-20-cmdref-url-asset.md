@@ -3,9 +3,9 @@ description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: asset
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -54,19 +54,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 쉼표로 구분된 항목 또는 프레임의 정렬된 시퀀스로 구성된 명시적 이미지 집합을 지정합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 쉼표로 구분된 항목 또는 프레임의 정렬된 시퀀스로 구성된 명시적 이미지 집합을 지정합니다. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 각 프레임에 자체 이미지 제공 한정자가 있는 명시적 이미지 세트를 지정합니다. 이 경우 프레임 목록은 괄호 안에 래핑됩니다. 프레임 특정 이미지 제공 수정자에 있는 쉼표에 이중 HTTP 인코딩을 적용해야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 각 프레임에 자체 이미지 제공 한정자가 있는 명시적 이미지 세트를 지정합니다. 이 경우 프레임 목록은 괄호 안에 래핑됩니다. 프레임 특정 이미지 제공 수정자에 있는 쉼표에 이중 HTTP 인코딩을 적용해야 합니다. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 스핀 세트를 지정합니다. </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> 여기서 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>은 지정된 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모든 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>의 프레임 수는 같아야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 스핀 세트를 지정합니다. </p> <p> <span class="codeph"> ((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> 여기서 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>은 지정된 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모든 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>의 프레임 수는 같아야 합니다. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 수정자  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 제공 명령<span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분자는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td colname="col2"> <p> 이미지 제공 명령 <span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분자는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,19 +83,19 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 비디오  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 단일 비디오 또는 응용 비디오 세트. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 단일 비디오 또는 응용 비디오 세트. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 이미지  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 단일 이미지. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 단일 이미지. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 견본 집합입니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 견본 집합입니다. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>견본 이미지입니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>견본 이미지입니다. </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -106,11 +106,11 @@ ht-degree: 2%
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 회전  </span> </p> <p>스핀 세트 </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 비디오  </span> </p> <p>단일 비디오용. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>응용 비디오 세트용. </p> </li> 
-     </ul> </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원됩니다.Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+     </ul> </p> <p> <p>참고:  이 기능은 Adobe Dynamic Media Classic에서 지원됩니다. Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 수정자  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 제공 명령<span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분자는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td colname="col2"> <p> 이미지 제공 명령 <span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분자는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>로 HTTP로 인코딩되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

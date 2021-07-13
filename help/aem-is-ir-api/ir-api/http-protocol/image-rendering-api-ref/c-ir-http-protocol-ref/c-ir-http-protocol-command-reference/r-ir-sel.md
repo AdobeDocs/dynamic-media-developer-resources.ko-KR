@@ -3,9 +3,9 @@ description: 픽셀 위치별로 개체를 선택합니다.
 solution: Experience Manager
 title: sel
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 속성 {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-선택 명령;MSS 구분 기호. `obj=` 또는 `sel=` 를 사용하여 다른 개체를 선택할 때까지 개체 선택이 지속됩니다.
+선택 명령; MSS 구분 기호. `obj=` 또는 `sel=` 를 사용하여 다른 개체를 선택할 때까지 개체 선택이 지속됩니다.
 
 *`x, y`* 범위는 0, 0(이미지의 왼쪽 위 모서리) ~  *`wid`*-1,  *`hei`*-1(이미지의 하단, 오른쪽 모서리)이어야 합니다. 여기서  *`wid`* 및  *`hei`* 은 스케일링되지 않은 비네팅 보기의 크기입니다.
 

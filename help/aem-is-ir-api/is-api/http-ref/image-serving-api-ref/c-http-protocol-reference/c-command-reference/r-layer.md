@@ -3,9 +3,9 @@ description: 레이어를 선택합니다. 레이어를 선택하고 명령 시�
 solution: Experience Manager
 title: 레이어
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -61,13 +61,13 @@ ht-degree: 1%
 
 ## 특별 사례 {#section-e087cb2e3562473e8d391abfa3b9489f}
 
-* 동일한 이름이 여러 레이어에 매핑되는 경우(예:`layer=1,image&layer=2,image`) 오류가 발생합니다.
-* 동일한 이름이 단일 레이어에 여러 번 매핑되는 경우(예:`layer=1,image&layer=1,image`), 오류 없이 범위가 평소대로 설정됩니다.
+* 동일한 이름이 여러 레이어에 매핑되는 경우(예: `layer=1,image&layer=2,image`) 오류가 발생합니다.
+* 동일한 이름이 단일 레이어에 여러 번 매핑되는 경우(예: `layer=1,image&layer=1,image`), 오류 없이 범위가 평소대로 설정됩니다.
 * 동일한 레이어의 여러 이름이 지원됩니다.
 
-   두 이름 중 하나를 사용하여 레이어를 참조할 수 있습니다(예:`layer=1,image&layer=1,picture`)
-* 참조된 이름이 레이어 번호에 매핑되지 않는 경우(예:`layer=1,image&layer=picture`) 오류가 발생합니다.
-* 대체 변수는 레이어 수정자에서 지원되지 않습니다(예:`layer=$image$`)
+   두 이름 중 하나를 사용하여 레이어를 참조할 수 있습니다(예: `layer=1,image&layer=1,picture`)
+* 참조된 이름이 레이어 번호에 매핑되지 않는 경우(예: `layer=1,image&layer=picture`) 오류가 발생합니다.
+* 대체 변수는 레이어 수정자에서 지원되지 않습니다(예: `layer=$image$`)
 
    이는 레이어 이름뿐만 아니라 일반적으로 레이어 수정자에 적용되는 모든 순열에 적용됩니다.
 

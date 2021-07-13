@@ -3,9 +3,9 @@ description: 비디오 플레이어는 뷰어 내에 비디오 컨텐츠가 표�
 solution: Experience Manager
 title: 비디오 플레이어
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 }
 ```
 
-캡션은 비디오 플레이어 내의 내부 컨테이너에 배치됩니다. 해당 컨테이너의 위치는 지원되는 WebVTT 포지셔닝 연산자에 의해 제어됩니다. 캡션 텍스트 자체가 해당 컨테이너 내에 있습니다.이 스타일은 다음 CSS 클래스 선택기로 제어됩니다.
+캡션은 비디오 플레이어 내의 내부 컨테이너에 배치됩니다. 해당 컨테이너의 위치는 지원되는 WebVTT 포지셔닝 연산자에 의해 제어됩니다. 캡션 텍스트 자체가 해당 컨테이너 내에 있습니다. 이 스타일은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption

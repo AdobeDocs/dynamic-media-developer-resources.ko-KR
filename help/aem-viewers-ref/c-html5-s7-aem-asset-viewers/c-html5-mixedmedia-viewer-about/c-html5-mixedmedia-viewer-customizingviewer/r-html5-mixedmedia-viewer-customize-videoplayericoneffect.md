@@ -3,9 +3,9 @@ description: 재생 아이콘이 비디오 보기 영역에 겹쳐집니다. 비
 solution: Experience Manager
 title: 비디오 플레이어 아이콘 효과
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1e0bd97f-20e9-41e6-95fc-d693644152da
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%

@@ -3,9 +3,9 @@ description: 모드 매개 변수의 값에 따라 뷰어는 원래 Dynamic Medi
 solution: Experience Manager
 title: 이미지 맵 효과
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->과거에 이미지 맵 아이콘의 스타일을 지정하는 데 사용된 `s7mapoverlay` CSS 클래스는 이제 사용되지 않습니다.대신 `s7icon` 를 사용하십시오.
+>과거에 이미지 맵 아이콘의 스타일을 지정하는 데 사용된 `s7mapoverlay` CSS 클래스는 이제 사용되지 않습니다. 대신 `s7icon` 를 사용하십시오.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 

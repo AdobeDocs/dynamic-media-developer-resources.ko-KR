@@ -3,9 +3,9 @@ description: 뷰어에서는 카탈로그 컨텐츠를 프린터로 출력할 �
 solution: Experience Manager
 title: 인쇄 기능
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%

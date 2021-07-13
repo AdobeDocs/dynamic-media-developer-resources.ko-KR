@@ -3,9 +3,9 @@ description: 회신 이미지 너비. 이미지의 종횡비를 유지하면서 
 solution: Experience Manager
 title: wid
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%

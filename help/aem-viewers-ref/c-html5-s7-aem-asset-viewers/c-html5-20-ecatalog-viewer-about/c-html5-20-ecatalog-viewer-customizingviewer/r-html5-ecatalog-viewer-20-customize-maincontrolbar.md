@@ -3,9 +3,9 @@ description: 기본 제어 표시줄은 eCatalog 뷰어에 사용할 수 있는 
 solution: Experience Manager
 title: 기본 컨트롤 막대
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 1%
@@ -140,7 +140,7 @@ CSS를 통해 스크롤 단추 자체의 크기를 지정하고 스킨을 지정
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `state="selected"`은 제어 막대 내용을 왼쪽으로 스크롤할 수 있는 경우 초기 스크롤 단추 상태에 해당합니다.`state="default"` 은 컨텐츠가 왼쪽으로 스크롤될 때 상태에 해당하며 스크롤 단추는 컨텐츠가 초기 상태로 돌아가도록 제안합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `state="selected"`은 제어 막대 내용을 왼쪽으로 스크롤할 수 있는 경우 초기 스크롤 단추 상태에 해당합니다. `state="default"` 은 컨텐츠가 왼쪽으로 스크롤될 때 상태에 해당하며 스크롤 단추는 컨텐츠가 초기 상태로 돌아가도록 제안합니다.
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 

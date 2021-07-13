@@ -3,9 +3,9 @@ description: 이미지 제공 제어 스크립트입니다. 이 스크립트는 
 solution: Experience Manager
 title: ImageServing
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 2%
@@ -48,7 +48,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 서버, Tomcat/Platform 서버 및 SVGserver에 대한 작동 시간 및 현재 메모리 사용 정보 또는 지정된 서버에 대한 상태를 반환합니다.서버 감독자가 실행되고 있지 않으면 정보 메시지가 대신 반환됩니다. </p> </td> 
+   <td colname="col2"> <p>이미지 서버, Tomcat/Platform 서버 및 SVGserver에 대한 작동 시간 및 현재 메모리 사용 정보 또는 지정된 서버에 대한 상태를 반환합니다. 서버 감독자가 실행되고 있지 않으면 정보 메시지가 대신 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

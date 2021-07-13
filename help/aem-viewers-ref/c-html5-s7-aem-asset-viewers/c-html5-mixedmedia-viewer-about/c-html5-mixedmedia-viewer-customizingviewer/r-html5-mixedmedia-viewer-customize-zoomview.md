@@ -3,9 +3,9 @@ description: 연속 확대/축소 모드에서 기본 보기는 현재 자산이
 solution: Experience Manager
 title: 확대/축소 보기
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

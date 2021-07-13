@@ -3,9 +3,9 @@ description: 레이어 색상. 단색 및 효과 레이어의 전경색 및 불�
 solution: Experience Manager
 title: color
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 4%
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 기본값 {#section-60611c72876b4c45b5c85ce35608e5ec}
 
-단색 및 효과 레이어의 기본값은 없습니다.색을 지정해야 합니다. 기본값은 이미지 및 텍스트 레이어의 경우 0,0,0,0(완전히 투명)입니다.
+단색 및 효과 레이어의 기본값은 없습니다. 색을 지정해야 합니다. 기본값은 이미지 및 텍스트 레이어의 경우 0,0,0,0(완전히 투명)입니다.
 
 ## 예 {#section-2d090493f4ec4e188bbc5565aa151a05}
 

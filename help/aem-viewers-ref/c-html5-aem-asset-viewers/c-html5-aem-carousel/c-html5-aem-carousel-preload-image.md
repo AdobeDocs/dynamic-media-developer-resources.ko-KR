@@ -3,9 +3,9 @@ description: 이미지 미리 로드는 init() 메서드를 호출한 직후 로
 solution: Experience Manager
 title: 이미지 미리 로드
 feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%

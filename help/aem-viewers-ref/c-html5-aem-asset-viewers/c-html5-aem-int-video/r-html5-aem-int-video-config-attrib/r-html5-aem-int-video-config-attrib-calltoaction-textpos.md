@@ -3,9 +3,9 @@ description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: CallToAction.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f2356eb1-2f71-49b6-bb40-6cd332e6785b
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 4%
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 아래쪽|위쪽|왼쪽|오른쪽|없음|도구 설명</span> </p> </td> 
-   <td colname="col2"> <p> 축소판 이미지를 기준으로 레이블이 그려지는 위치를 지정합니다.즉, 레이블은 축소판을 기준으로 지정된 위치에 가운데에 표시됩니다. </p> <p><span class="codeph"> tooltip</span>을 지정하면 축소판 이미지 위에 부동 도구 설명으로 레이블 텍스트가 표시됩니다. </p> <p>레이블을 끄려면 <span class="codeph"> none</span>으로 설정합니다. </p> </td> 
+   <td colname="col2"> <p> 축소판 이미지를 기준으로 레이블이 그려지는 위치를 지정합니다. 즉, 레이블은 축소판을 기준으로 지정된 위치에 가운데에 표시됩니다. </p> <p><span class="codeph"> tooltip</span>을 지정하면 축소판 이미지 위에 부동 도구 설명으로 레이블 텍스트가 표시됩니다. </p> <p>레이블을 끄려면 <span class="codeph"> none</span>으로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

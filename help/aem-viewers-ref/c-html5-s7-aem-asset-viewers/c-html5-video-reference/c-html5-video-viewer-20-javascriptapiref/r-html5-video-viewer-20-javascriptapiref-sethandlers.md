@@ -3,9 +3,9 @@ description: 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: setHandlers
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 37d14494-cdb2-45f7-96e2-d7a9e90edad3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 3%

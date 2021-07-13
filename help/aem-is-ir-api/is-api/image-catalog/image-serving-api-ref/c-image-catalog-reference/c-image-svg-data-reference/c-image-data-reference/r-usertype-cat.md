@@ -3,9 +3,9 @@ description: 정적 컨텐츠 사용자 유형입니다. 정적 콘텐츠 항목
 solution: Experience Manager
 title: UserType
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a97837be-ffc3-4759-8167-81a24dd54947
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 10%

@@ -3,9 +3,9 @@ description: 재샘플링 모드. 이미지 데이터 크기 조절에 사용할
 solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 6%
@@ -22,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 빌린  </span> </p> </td> 
-   <td colname="col2"> <p>표준 양방향 보간을 선택합니다. 가장 빠른 재샘플링 방법일부 앨리어싱 가공물들은 눈에 띄습니다. </p> </td> 
+   <td colname="col2"> <p>표준 양방향 보간을 선택합니다. 가장 빠른 재샘플링 방법 일부 앨리어싱 가공물들은 눈에 띄습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 쌍창  </span> </p> </td> 

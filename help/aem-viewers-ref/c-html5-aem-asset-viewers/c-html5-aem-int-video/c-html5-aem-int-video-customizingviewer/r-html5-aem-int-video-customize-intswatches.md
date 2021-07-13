@@ -3,9 +3,9 @@ description: 구성 시 대화형 데이터가 뷰어에 전달된 경우 대화
 solution: Experience Manager
 title: 대화형 색상 견본
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
@@ -59,8 +59,8 @@ ht-degree: 2%
 
 대화형 색상 견본 패널의 런타임 위치 및 방향은 다음과 같이 위의 CSS 속성의 조합으로 정의됩니다.
 
-* 뷰어 하단에서 대화형 색상 견본을 가로로 렌더링하려면 높이를 절대 픽셀 값으로 설정합니다.왼쪽 및 아래쪽 - 0px너비, 오른쪽, 위쪽에서 자동으로
-* 대화형 색상 견본을 비디오 컨텐츠의 오른쪽에 세로로 렌더링하려면 폭을 절대 픽셀로 설정합니다.오른쪽 및 위쪽 - 0px높이, 왼쪽 및 아래쪽이 자동으로 사용됩니다.
+* 뷰어 하단에서 대화형 색상 견본을 가로로 렌더링하려면 높이를 절대 픽셀 값으로 설정합니다. 왼쪽 및 아래쪽 - 0px 너비, 오른쪽, 위쪽에서 자동으로
+* 대화형 색상 견본을 비디오 컨텐츠의 오른쪽에 세로로 렌더링하려면 폭을 절대 픽셀로 설정합니다. 오른쪽 및 위쪽 - 0px 높이, 왼쪽 및 아래쪽이 자동으로 사용됩니다.
 
 이 스타일과 함께 CSS 마커를 사용하여 대화형 색상 견본 패널의 적응형 배치를 수행할 수 있습니다.
 
@@ -225,7 +225,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하면 다른 스킨을 다른 축소판 상태에 적용할 수 있습니다. 특히 `state="selected"` 은 현재 선택한 이미지의 축소판에 해당합니다.`state="default"`은 나머지 축소판에 해당합니다.마우스 가리키기에 `state="over"`가 사용됩니다.
+>섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하면 다른 스킨을 다른 축소판 상태에 적용할 수 있습니다. 특히 `state="selected"` 은 현재 선택한 이미지의 축소판에 해당합니다. `state="default"`은 나머지 축소판에 해당합니다. 마우스 가리키기에 `state="over"`가 사용됩니다.
 
 ## 예 {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -285,7 +285,7 @@ font-size: 12px;
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다.대신 뷰어 논리는 자동으로 위치를 지정합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리는 자동으로 위치를 지정합니다.
 
 ## 위쪽 및 아래쪽 스크롤 단추의 모양 CSS 속성 {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
@@ -312,7 +312,7 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 단추 상태에 다른 스킨을 적용할 수 있습니다.&quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; 및 &quot; `disabled`&quot;
+>이 단추는 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 단추 상태에 다른 스킨을 적용할 수 있습니다. &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; 및 &quot; `disabled`&quot;
 
 단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 

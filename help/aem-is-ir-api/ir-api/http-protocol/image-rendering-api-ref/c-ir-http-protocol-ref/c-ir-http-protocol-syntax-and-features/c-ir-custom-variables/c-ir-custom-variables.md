@@ -3,9 +3,9 @@ description: 요청 및 비네팅 수정자 문자열의 쿼리 부분에는 사
 solution: Experience Manager
 title: 사용자 지정 변수
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 사용자 지정 변수는 중첩되지 않을 수 있습니다. *[!DNL string]* 내에서 $ *[!DNL name]*$ 의 모든 발생 항목이 대체되지 않습니다. 예를 들어 요청 조각 `$var2=apple&$var1=my$var2$tree&text=$var1$`이 `text=my$var2$tree`로 확인됩니다.
 
-$ 는 예약된 문자가 아닙니다.이 문제는 요청에서 달리 발생할 수 있습니다. 예를 들어 `src=my$texture$file.tif`은(는) [!DNL my$texture$file.tif]이라는 이름의 재료 카탈로그 항목이나 텍스처 파일이 있다고 가정할 때) 유효한 명령이지만 `wid=$number$`는 숫자 인수가 필요하므로 이 아닌 것입니다.`wid=`
+$ 는 예약된 문자가 아닙니다. 이 문제는 요청에서 달리 발생할 수 있습니다. 예를 들어 `src=my$texture$file.tif`은(는) [!DNL my$texture$file.tif]이라는 이름의 재료 카탈로그 항목이나 텍스처 파일이 있다고 가정할 때) 유효한 명령이지만 `wid=$number$`는 숫자 인수가 필요하므로 이 아닌 것입니다.`wid=`

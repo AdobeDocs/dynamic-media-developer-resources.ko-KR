@@ -3,9 +3,9 @@ description: 이 문서에서는 Dynamic Media 이미지 렌더링에 대한 자
 solution: Experience Manager
 title: 소개
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1cdb9c45-329d-44df-92c3-8cba5b2b1339
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>리터럴 </p> </td> 
-  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다.공백 및 기호 [ ] { } 에는 적용되지 않습니다 | *. </p> </td> 
+  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다. 공백 및 기호 [ ] { } 에는 적용되지 않습니다 | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 

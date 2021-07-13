@@ -3,9 +3,9 @@ description: eCatalog Viewer에 표시되는 특정 컨텐츠는 확대/축소 �
 solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -18,7 +18,7 @@ eCatalog Viewer에 표시되는 특정 컨텐츠는 확대/축소 단추, 페이
 
 지역화할 수 있는 뷰어의 모든 텍스트 컨텐츠는 SYMBOL이라는 특수 Viewer SDK 식별자로 표시됩니다. 모든 SYMBOL에는 기본 제공 뷰어와 함께 제공되는 영어 로케일( `"en"`)에 대한 기본 관련 텍스트 값이 있으며, 필요에 따라 여러 로케일에 대해 사용자 정의 값을 설정할 수도 있습니다.
 
-뷰어가 시작되면 현재 로케일을 확인하여 로케일에 지원되는 각 SYMBOL에 대해 사용자 정의 값이 있는지 확인합니다. 가 있는 경우 사용자 정의 값을 사용합니다.그렇지 않으면 기본 텍스트로 돌아갑니다.
+뷰어가 시작되면 현재 로케일을 확인하여 로케일에 지원되는 각 SYMBOL에 대해 사용자 정의 값이 있는지 확인합니다. 가 있는 경우 사용자 정의 값을 사용합니다. 그렇지 않으면 기본 텍스트로 돌아갑니다.
 
 사용자 정의 로컬라이제이션 데이터를 로컬라이제이션 JSON 개체로 뷰어에 전달할 수 있습니다. 이러한 객체에는 지원되는 로케일 목록, 각 로케일의 SYMBOL 텍스트 값 및 기본 로캘이 포함되어 있습니다.
 
@@ -394,7 +394,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY]  </span> </p> </td> 
-   <td colname="col2"> <p>로드 시 뷰어가 생성하는 페이지 레이블입니다. </p> <p>해당 심볼의 이름은 템플릿입니다. 여기서 <span class="codeph"> XX </span>는 가로 방향으로 0을 기반으로 하는 스프레드 색인이고, 선택적 <span class="codeph"> YY </span>는 <span class="codeph"> XX </span>에 의해 타깃팅된 스프레드 내에 0을 기반으로 하는 페이지 색인입니다. </p> <p>처음 로드된 자산에 대해서만 적용됩니다.<span class="codeph"> setAsset() </span> API 호출을 사용하여 자산이 변경되는 경우 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>로드 시 뷰어가 생성하는 페이지 레이블입니다. </p> <p>해당 심볼의 이름은 템플릿입니다. 여기서 <span class="codeph"> XX </span>는 가로 방향으로 0을 기반으로 하는 스프레드 색인이고, 선택적 <span class="codeph"> YY </span>는 <span class="codeph"> XX </span>에 의해 타깃팅된 스프레드 내에 0을 기반으로 하는 페이지 색인입니다. </p> <p>처음 로드된 자산에 대해서만 적용됩니다. <span class="codeph"> setAsset() </span> API 호출을 사용하여 자산이 변경되는 경우 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM  </span> </p> </td> 
@@ -418,7 +418,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_NO_RESULTS  </span> </p> </td> 
-   <td colname="col2"> <p>검색이 결과를 반환하지 않을 때 현지화된 메시지가 표시됩니다. </p> <p>이 기호는 다음과 같은 런타임 대체 토큰을 지원합니다.<span class="codeph"> $SEARCH_TEXT$ </span>. 구성 요소는 사용자가 입력한 검색 텍스트로 대체합니다. </p> </td> 
+   <td colname="col2"> <p>검색이 결과를 반환하지 않을 때 현지화된 메시지가 표시됩니다. </p> <p>이 기호는 다음과 같은 런타임 대체 토큰을 지원합니다. <span class="codeph"> $SEARCH_TEXT$ </span>. 구성 요소는 사용자가 입력한 검색 텍스트로 대체합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS  </span> </p> </td> 

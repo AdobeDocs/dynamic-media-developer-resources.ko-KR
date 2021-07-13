@@ -3,9 +3,9 @@ description: 카탈로그 일치 옵션입니다.
 solution: Experience Manager
 title: FullMatch
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1a267c48-a8eb-426a-a70a-bdb9f5f20efb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 속성 {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
-플래그. 기본 동작은 0으로, 전체 일치 동작을 활성화하려면 1로 설정하십시오.
+플래그. 기본 동작은 0으로, 전체 일치 동작은 1로 설정합니다.
 
 ## 기본값 {#section-01c9ea1f1f1d4fd3b5f92799ec8383ff}
 

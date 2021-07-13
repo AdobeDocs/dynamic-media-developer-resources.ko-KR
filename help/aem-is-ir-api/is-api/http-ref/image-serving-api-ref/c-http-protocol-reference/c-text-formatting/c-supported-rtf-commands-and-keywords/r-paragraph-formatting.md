@@ -3,9 +3,9 @@ description: 다음 단락 서식 명령이 지원됩니다.
 solution: Experience Manager
 title: 단락 서식
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%
@@ -53,42 +53,42 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \lastql  </span> </td> 
    <td> <p>단락의 마지막 줄을 왼쪽 맞춤합니다. </p> </td> 
-   <td> <p>기본값;<span class="codeph"> textPs= </span> 전용;<span class="codeph"> \qj </span>이(가) 활성 상태가 아닌 경우 무시됩니다. </p> </td> 
+   <td> <p>기본값; <span class="codeph"> textPs= </span> 전용; <span class="codeph"> \qj </span>이(가) 활성 상태가 아닌 경우 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqr  </span> </td> 
    <td> <p>균등 배치된 단락의 마지막 줄을 마우스 오른쪽 단추로 맞춥니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용;\qj <span class="codeph"> 가  </span> 활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span> 활성화되어 있지 않으면 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqc  </span> </td> 
    <td> <p>균등 배치된 단락의 마지막 줄을 가운데로 맞춥니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용;\qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj  </span> </td> 
    <td> <p>균등 배치된 단락의 마지막 줄을 일시 중단(연장)합니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용;\qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi  <span class="varname"> N  </span> </span> </td> 
    <td> <p>첫 줄 들여쓰기. </p> </td> 
-   <td> <p>트위프;<span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \li  <span class="varname"> N  </span> </span> </td> 
    <td> <p>왼쪽 들여쓰기. </p> </td> 
-   <td> <p>트위프;<span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ri  <span class="varname"> N  </span> </span> </td> 
    <td> <p>오른쪽 들여쓰기. </p> </td> 
-   <td> <p>트위프;<span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sl  <span class="varname"> N  </span> </span> </td> 
    <td> <p>줄 사이의 간격. </p> </td> 
-   <td> <p>0. 자동 줄 간격의 경우기본 라인 간격보다 큰 경우에만 값을 사용할 양의 값.강제 간격을 지정할 음수 값입니다. </p> </td> 
+   <td> <p>0. 자동 줄 간격의 경우 기본 라인 간격보다 큰 경우에만 값을 사용할 양의 값. 강제 간격을 지정할 음수 값입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult  <span class="varname"> N  </span> </span> </td> 
@@ -98,12 +98,12 @@ ht-degree: 1%
   <tr> 
    <td> <span class="codeph"> \sb  <span class="varname"> N  </span> </span> </td> 
    <td> <p>단락 앞에 추가 공백. </p> </td> 
-   <td> <p>트위프;<span class="codeph"> text= </span>이(가) <span class="codeph"> \sb </span>을(를) 텍스트 상자의 첫 번째 단락에 적용하지만 <span class="codeph"> textPs= </span>는 적용하지 않습니다. </p> </td> 
+   <td> <p>트위프; <span class="codeph"> text= </span>이(가) <span class="codeph"> \sb </span>을(를) 텍스트 상자의 첫 번째 단락에 적용하지만 <span class="codeph"> textPs= </span>는 적용하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sa  <span class="varname"> N  </span> </span> </td> 
    <td> <p>단락 뒤에 추가 공간이 있습니다. </p> </td> 
-   <td> <p>트위프;<span class="codeph"> text= </span> \sa <span class="codeph"> \sa </span>을 텍스트 상자의 마지막 단락에 적용합니다. <span class="codeph"> textPs= </span>은 적용하지 않습니다. </p> </td> 
+   <td> <p>트위프; <span class="codeph"> text= </span> \sa <span class="codeph"> \sa </span>을 텍스트 상자의 마지막 단락에 적용합니다. <span class="codeph"> textPs= </span>은 적용하지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

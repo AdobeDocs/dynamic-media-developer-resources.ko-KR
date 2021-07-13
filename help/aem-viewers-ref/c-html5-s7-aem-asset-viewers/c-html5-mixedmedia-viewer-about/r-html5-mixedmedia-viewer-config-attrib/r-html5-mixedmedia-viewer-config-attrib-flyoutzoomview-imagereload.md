@@ -3,9 +3,9 @@ description: 크기 조정 중에 구성 요소가 기본 및 플라이아웃 �
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%
@@ -25,7 +25,7 @@ ht-degree: 3%
    <td colname="col2"> <p><span class="codeph"> 0 </span> 로 설정하면 구성 요소가 크기 조정 중에 새 이미지를 로드하지 않고 플라이아웃 보기의 이미지 해상도는 변경되지 않습니다. </p> <p><span class="codeph"> 1 </span>로 설정하면 기본 보기에 로드되는 이미지에 대해 하나 이상의 너비 중단점을 지정할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 중단점,  <span class="varname"> 너비  </span>[; <span class="varname"> 너비  </span>]  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 중단점,  <span class="varname"> 너비  </span>[;  <span class="varname"> 너비  </span>]  </span> </p> </td> 
    <td colname="col2"> <p>기본 보기에 로드되는 이미지의 너비 중단점. 구성 요소는 항상 초기 로드에 가장 적합한 크기를 사용합니다. 크기를 조정하면 기본 보기의 이미지가 항상 가장 가까운 더 큰 중단점과 동일한 너비로 다운로드되고 클라이언트에 대해 축소됩니다. </p> </td> 
   </tr> 
  </tbody> 

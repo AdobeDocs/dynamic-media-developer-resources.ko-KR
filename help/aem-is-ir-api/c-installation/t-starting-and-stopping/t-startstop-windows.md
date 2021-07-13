@@ -3,9 +3,9 @@ description: Windows에서 이미지 서버 및 플랫폼 서버를 시작/중�
 solution: Experience Manager
 title: Windows에서 시작 또는 중지
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9c7dc74a-5965-428f-9146-6b39c46b318f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%

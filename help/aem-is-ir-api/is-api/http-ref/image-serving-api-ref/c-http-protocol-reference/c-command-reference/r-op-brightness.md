@@ -3,9 +3,9 @@ description: 밝기를 조정합니다. 이미지 밝기를 줄이거나 늘립�
 solution: Experience Manager
 title: op_brightness
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 390ed812-87ae-41e7-8021-65dd95915ae8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 3%

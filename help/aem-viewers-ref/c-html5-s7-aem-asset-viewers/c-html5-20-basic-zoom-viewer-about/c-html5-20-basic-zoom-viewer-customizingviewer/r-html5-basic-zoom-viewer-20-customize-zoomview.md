@@ -3,9 +3,9 @@ description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니�
 solution: Experience Manager
 title: 확대/축소 보기
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 3%

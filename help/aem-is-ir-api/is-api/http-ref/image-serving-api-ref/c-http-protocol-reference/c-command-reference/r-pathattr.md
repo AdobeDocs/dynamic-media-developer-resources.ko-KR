@@ -3,9 +3,9 @@ description: 텍스트-경로 특성.
 solution: Experience Manager
 title: pathAttr
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 
 첫 번째 패스 교점 근처에서 텍스트를 그리려면 `norm` 을 지정하고 마지막 교점 근처에서 시작하여 반대 방향으로 텍스트를 그리려면 `reverse` 를 지정합니다.
 
-*`startPos`* 패스 *`endPos`* 에서 텍스트를 그릴 위치를 조정할 수 있습니다. 0.0은 패스의 첫 번째 교점에 해당하고 1.0은 마지막 교점에 해당합니다.중간 값은 첫 번째 교점과 마지막 교점 사이의 경로를 따라 거리를 나타냅니다.
+*`startPos`* 패스 *`endPos`* 에서 텍스트를 그릴 위치를 조정할 수 있습니다. 0.0은 패스의 첫 번째 교점에 해당하고 1.0은 마지막 교점에 해당합니다. 중간 값은 첫 번째 교점과 마지막 교점 사이의 경로를 따라 거리를 나타냅니다.
 
 ## 속성 {#section-80f266da4e2549d89f022a3f9ff4584d}
 

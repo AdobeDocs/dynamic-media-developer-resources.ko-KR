@@ -3,9 +3,9 @@ description: 이미지 카탈로그에 ICC 프로파일 맵이 필요한 경우 
 solution: Experience Manager
 title: ICC 프로필 맵 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3c90a1fa-fa38-4d20-9694-1654ac9690e2
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%

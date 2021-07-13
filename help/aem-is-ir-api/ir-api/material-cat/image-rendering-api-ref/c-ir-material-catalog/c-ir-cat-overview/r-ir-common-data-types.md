@@ -3,9 +3,9 @@ description: 카탈로그 속성 및 필드에는 다음 유형 중 하나의 �
 solution: Experience Manager
 title: 일반적인 데이터 유형
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9af44474-0512-452a-af9e-48918e9da6ca
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -34,8 +34,8 @@ ht-degree: 0%
 
 **실수**
 
-서명된 부동 소수점 값(예:`0, 12.5, 245 , -2.34e4`) 0이나 음수 값은 특별한 의미가 있을 수 있습니다.
+서명된 부동 소수점 값(예: `0, 12.5, 245 , -2.34e4`) 0이나 음수 값은 특별한 의미가 있을 수 있습니다.
 
 **텍스트 문자열**
 
-문자열에 `<CR>`, `<LF>` 또는 `<TAB>` 문자가 포함되지 않는 한 문자열 구분 기호는 선택 사항입니다. 작은따옴표와 큰따옴표는 구분 기호로 사용할 수 있습니다. 따옴표를 사용하는 경우, 문자열 내에 포함된 이러한 따옴표는 두 개의 연속된 따옴표(예:&#39; `This month''s Special`&#39;).
+문자열에 `<CR>`, `<LF>` 또는 `<TAB>` 문자가 포함되지 않는 한 문자열 구분 기호는 선택 사항입니다. 작은따옴표와 큰따옴표는 구분 기호로 사용할 수 있습니다. 따옴표를 사용하는 경우, 문자열 내에 포함된 이러한 따옴표는 두 개의 연속된 따옴표(예: &#39; `This month''s Special`&#39;).

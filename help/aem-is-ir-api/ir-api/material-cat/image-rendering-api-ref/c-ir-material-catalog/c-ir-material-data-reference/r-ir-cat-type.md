@@ -3,9 +3,9 @@ description: 자료 유형. 재료의 서피스 유형입니다. 카탈로그 �
 solution: Experience Manager
 title: 유형
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 29%
@@ -105,7 +105,7 @@ ht-degree: 29%
 
 ## 기본값 {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0;서버는 다른 재료 속성을 기준으로 적절한 기본값을 결정합니다.
+0; 서버는 다른 재료 속성을 기준으로 적절한 기본값을 결정합니다.
 
 ## 참조 {#section-a51850093b7140e683a0f8b07845843c}
 

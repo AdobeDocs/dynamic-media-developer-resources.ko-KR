@@ -3,9 +3,9 @@ description: 플라이아웃 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: FlyoutViewer
 feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b64f16c8-03bf-4603-972f-845a4c1e2b02
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `FlyoutViewer([config])`
 
-생성자;새 플라이아웃 뷰어 인스턴스를 만듭니다.
+생성자; 새 플라이아웃 뷰어 인스턴스를 만듭니다.
 
 ## 매개 변수 {#section-8bc3d1424c8444f193716fc8d9975765}
 

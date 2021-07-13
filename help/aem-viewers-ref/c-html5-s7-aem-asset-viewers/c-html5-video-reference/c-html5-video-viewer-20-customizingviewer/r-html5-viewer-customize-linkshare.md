@@ -3,9 +3,9 @@ description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와
 solution: Experience Manager
 title: 링크 공유
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 2%

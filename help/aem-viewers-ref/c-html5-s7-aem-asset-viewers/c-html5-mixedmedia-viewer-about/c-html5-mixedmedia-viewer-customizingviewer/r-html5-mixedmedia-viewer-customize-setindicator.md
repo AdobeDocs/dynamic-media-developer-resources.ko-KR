@@ -3,9 +3,9 @@ description: 세트 표시기는 터치 장치에서 뷰어를 사용할 때 주
 solution: Experience Manager
 title: 표시기 설정
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 1%

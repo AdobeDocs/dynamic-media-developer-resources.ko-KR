@@ -3,9 +3,9 @@ description: 소스 개체 지정자입니다. 이미지, SVG 및 ICC 프로필 
 solution: Experience Manager
 title: 개체
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 1%
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 서버는 처음에 *`rootId`*&#x200B;이 `src=`, `mask=` 및 `icc=` 명령에서 생략되었다고 가정하고 기본 카탈로그에서 카탈로그 항목을 찾습니다. 서버는 전체 *`object`* 문자열을 *`objId.`* 로 사용하려고 합니다
 
-카탈로그 항목이 있으면 사용됩니다.그렇지 않으면 서버가 다음 번 이미지 카탈로그의 *`rootId`*&#x200B;과(와) 일치하려고 시도합니다. 카탈로그가 식별되면 *`objId`*&#x200B;에 대해 검색됩니다. 및 항목이 있으면 이 항목이 사용됩니다.
+카탈로그 항목이 있으면 사용됩니다. 그렇지 않으면 서버가 다음 번 이미지 카탈로그의 *`rootId`*&#x200B;과(와) 일치하려고 시도합니다. 카탈로그가 식별되면 *`objId`*&#x200B;에 대해 검색됩니다. 및 항목이 있으면 이 항목이 사용됩니다.
 
 그렇지 않으면 *`object`*&#x200B;은 명시적 파일 경로로 간주됩니다. 이 경우 기본 카탈로그에 `attribute::FullMatch`이 설정되어 있으면 이 개체에 대해 카탈로그가 무시되고 대신 기본 카탈로그가 사용됩니다. `attribute::FullMatch`이 설정되지 않은 경우에는 기본 카탈로그가 추가 처리에 사용됩니다.
 

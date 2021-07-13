@@ -3,9 +3,9 @@ description: 요청 유형. 요청한 데이터 형식을 지정합니다.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 4%
@@ -113,7 +113,7 @@ URL 경로에 지정된 비네팅 파일 또는 카탈로그 항목의 선택한
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.pixType  </span> </p> </td> 
    <td colname="col2"> <p>열거형 </p> </td> 
-   <td colname="col3"> <p>응답 이미지의 픽셀 유형'CMYK', 'RGB' 또는 'BW'(회색 음영 이미지의 경우)일 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>응답 이미지의 픽셀 유형 'CMYK', 'RGB' 또는 'BW'(회색 음영 이미지의 경우)일 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.printRes  </span> </p> </td> 

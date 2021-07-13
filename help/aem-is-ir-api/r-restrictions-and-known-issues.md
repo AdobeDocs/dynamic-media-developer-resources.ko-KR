@@ -3,9 +3,9 @@ description: Dynamic Media 이미지 제공 사용 시 고려해야 하는 몇 �
 solution: Experience Manager
 title: 제한 및 알려진 문제
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1235'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Digimarc 라이브러리에서는 Digimarc 워터마크가 이미 감지된 경�
 
    `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   대신:`/is/image/MyCompany?src=YourCompany/MyImage` .
+   대신: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * 비피라미드형 Tiff 또는 비네팅 요청은 와 유사한 오류 메시지를 생성합니다
 

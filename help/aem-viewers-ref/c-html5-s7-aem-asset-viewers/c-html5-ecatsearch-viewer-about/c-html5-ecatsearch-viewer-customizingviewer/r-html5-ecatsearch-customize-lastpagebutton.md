@@ -1,11 +1,11 @@
 ---
-description: 이 단추를 클릭하거나 탭하면 사용자가 카탈로그의 마지막 페이지로 이동합니다. 이 단추는 데스크톱 시스템 및 태블릿의 기본 제어 표시줄에 나타납니다.휴대폰에서는 보조 컨트롤 모음에 추가됩니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+description: 이 단추를 클릭하거나 탭하면 사용자가 카탈로그의 마지막 페이지로 이동합니다. 이 단추는 데스크톱 시스템 및 태블릿의 기본 제어 표시줄에 나타납니다. 휴대폰에서는 보조 컨트롤 모음에 추가됩니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
 title: 마지막 페이지 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fa1ff52c-6fb1-47e7-b3d4-216fea02bbd8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 마지막 페이지 단추{#last-page-button}
 
-이 단추를 클릭하거나 탭하면 사용자가 카탈로그의 마지막 페이지로 이동합니다. 이 단추는 데스크톱 시스템 및 태블릿의 기본 제어 표시줄에 나타납니다.휴대폰에서는 보조 컨트롤 모음에 추가됩니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+이 단추를 클릭하거나 탭하면 사용자가 카탈로그의 마지막 페이지로 이동합니다. 이 단추는 데스크톱 시스템 및 태블릿의 기본 제어 표시줄에 나타납니다. 휴대폰에서는 보조 컨트롤 모음에 추가됩니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 

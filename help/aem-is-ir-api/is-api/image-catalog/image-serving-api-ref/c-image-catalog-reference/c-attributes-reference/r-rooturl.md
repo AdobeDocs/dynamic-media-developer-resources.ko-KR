@@ -3,9 +3,9 @@ description: 상대 이미지 URL의 루트 URL 상대 이미지 URL의 루트 U
 solution: Experience Manager
 title: RootUrl
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 72560180-53e5-4293-9dd3-c0cd196551dc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## 속성 {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
-텍스트 문자열 값입니다. 선행 프로토콜 식별자를 포함한 절대 URL 루트 경로입니다. 지원되는 프로토콜은 다음과 같습니다.HTTP, HTTPS 및 FTP입니다.
+텍스트 문자열 값입니다. 선행 프로토콜 식별자를 포함한 절대 URL 루트 경로입니다. 지원되는 프로토콜은 다음과 같습니다. HTTP, HTTPS 및 FTP입니다.
 
 ## 기본값 {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 

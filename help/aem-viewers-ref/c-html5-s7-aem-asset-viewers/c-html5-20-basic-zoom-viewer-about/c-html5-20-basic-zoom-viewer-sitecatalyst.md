@@ -3,9 +3,9 @@ description: 기본 확대/축소 뷰어는 Adobe Analytics 추적 기본 기능
 solution: Experience Manager
 title: Adobe Analytics 추적 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 2%

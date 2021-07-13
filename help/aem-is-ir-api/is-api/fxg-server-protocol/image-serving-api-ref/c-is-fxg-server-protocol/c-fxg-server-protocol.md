@@ -3,9 +3,9 @@ description: 그래픽을 조작하려면 나침반 지점과 비슷한 참조 �
 solution: Experience Manager
 title: FXG 서버 프로토콜
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 63%
@@ -35,4 +35,4 @@ ht-degree: 63%
 >
 >참조 지점을 사용하고 조작 후 개체에 위치 이동이 없도록 하려면 개체를 조작한 후 개체의 x 및 y 값을 업데이트합니다.
 
-`s7:referencePoint`에서의 값을 그룹(또는 경로, 라인 요소 또는 명시적 너비 및 높이 정의가 없는 모든 요소)에 사용하는 경우 그룹의 누적 경계 상자에 값이 적용됩니다. 예를 들어 그룹에 있는 모든 개체의 경계 상자의 왼쪽 위 점은 그룹의 `northWest` 참조 점으로 사용됩니다.오른쪽 아래 점은 `southEast` 참조 점 역할을 합니다.
+`s7:referencePoint`에서의 값을 그룹(또는 경로, 라인 요소 또는 명시적 너비 및 높이 정의가 없는 모든 요소)에 사용하는 경우 그룹의 누적 경계 상자에 값이 적용됩니다. 예를 들어 그룹에 있는 모든 개체의 경계 상자의 왼쪽 위 점은 그룹의 `northWest` 참조 점으로 사용됩니다. 오른쪽 아래 점은 `southEast` 참조 점 역할을 합니다.

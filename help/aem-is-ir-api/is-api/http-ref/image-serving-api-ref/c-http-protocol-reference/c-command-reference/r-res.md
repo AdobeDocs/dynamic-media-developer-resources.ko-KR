@@ -3,9 +3,9 @@ description: 해상도 기반 이미지 크기 조절. 요청된 해상도로 �
 solution: Experience Manager
 title: res
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e8ed7b00-7bb3-463e-9aaa-47f77bd4b45e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
-  <td class="stentry"> <p>Target 해상도;일반적으로 인치당 픽셀 수(실제). </p> </td> 
+  <td class="stentry"> <p>Target 해상도; 일반적으로 인치당 픽셀 수(실제). </p> </td> 
  </tr> 
 </table>
 

@@ -3,9 +3,9 @@ description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: 캡션
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 6%
@@ -35,7 +35,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-이 뷰어는 호스팅된 WebVTT 파일을 통해 자막을 지원합니다. 이 매개 변수로 지정된 캡션은 미디어 세트에서 먼저 오는 비디오에 적용됩니다.이후 비디오에서는 캡션 없이 재생됩니다. 겹치는 큐 및 영역은 지원되지 않습니다. 지원되는 큐 포지셔닝 연산자:
+이 뷰어는 호스팅된 WebVTT 파일을 통해 자막을 지원합니다. 이 매개 변수로 지정된 캡션은 미디어 세트에서 먼저 오는 비디오에 적용됩니다. 이후 비디오에서는 캡션 없이 재생됩니다. 겹치는 큐 및 영역은 지원되지 않습니다. 지원되는 큐 포지셔닝 연산자:
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -74,7 +74,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-WebVTT 파일에 다른 WebVTT 기능이 있는 경우 지원되지 않습니다.그러나 캡션을 중단하지는 않습니다.
+WebVTT 파일에 다른 WebVTT 기능이 있는 경우 지원되지 않습니다. 그러나 캡션을 중단하지는 않습니다.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

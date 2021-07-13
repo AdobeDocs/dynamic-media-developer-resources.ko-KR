@@ -3,9 +3,9 @@ description: 기본 보기 영역은 비디오가 사용 중입니다. 일반적
 solution: Experience Manager
 title: 기본 뷰어 영역
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 2%

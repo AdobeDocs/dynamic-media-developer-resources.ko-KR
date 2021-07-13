@@ -3,9 +3,9 @@ description: 응답 데이터 속성입니다. 현재 요청을 이미지 요청
 solution: Experience Manager
 title: props
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9933d1dc-ae16-4d17-80ca-a1068cd73b0c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 7%
@@ -65,7 +65,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 `req=` 매개 변수�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.length  </span> </p> </td> 
    <td> <p> 정수 </p> </td> 
-   <td> <p> HTTP 헤더를 포함하지 않는 픽셀 단위의 회신 크기서버가 이전에 회신 이미지 데이터를 캐시하지 않은 경우 0. ( <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span> 참조). </p> </td> 
+   <td> <p> HTTP 헤더를 포함하지 않는 픽셀 단위의 회신 크기 서버가 이전에 회신 이미지 데이터를 캐시하지 않은 경우 0. ( <span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req=loadcache </a> </span> 참조). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.mask  </span> </p> </td> 

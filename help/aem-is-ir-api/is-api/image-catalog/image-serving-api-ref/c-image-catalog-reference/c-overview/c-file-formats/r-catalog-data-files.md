@@ -3,9 +3,9 @@ description: 카탈로그 데이터 파일에는 모든 이름과 파일 접미�
 solution: Experience Manager
 title: 카탈로그 데이터 파일
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4aa20abe-4f84-470b-b5a1-3d9246ab1792
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

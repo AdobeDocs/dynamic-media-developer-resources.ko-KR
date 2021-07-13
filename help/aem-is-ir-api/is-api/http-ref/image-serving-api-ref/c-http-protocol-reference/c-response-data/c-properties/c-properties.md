@@ -3,9 +3,9 @@ description: 속성 데이터는 여러 req= 유형에 대한 응답으로 반�
 solution: Experience Manager
 title: 속성
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 7%

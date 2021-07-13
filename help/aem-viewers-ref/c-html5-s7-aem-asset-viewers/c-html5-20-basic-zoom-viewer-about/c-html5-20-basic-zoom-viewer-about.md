@@ -4,9 +4,9 @@ keywords: 응답형
 solution: Experience Manager
 title: 기본 확대/축소
 feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2041'
 ht-degree: 0%
@@ -80,7 +80,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지나 포함된
 
 ## 기본 확대/축소 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하는데, 이 링크를 클릭하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우 호스팅 페이지에 뷰어 권한을 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다.팝업, 고정 크기 포함 및 반응형 디자인 포함
+웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하는데, 이 링크를 클릭하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우 호스팅 페이지에 뷰어 권한을 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다. 팝업, 고정 크기 포함 및 반응형 디자인 포함
 
 **팝업 모드 기본 정보**
 
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
    동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 지정된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `basicZoomViewer`이 뷰어 인스턴스라고 가정합니다.`s7viewer` 은 자리 표시자 `DIV`;의 이름입니다.`http://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Scene7SharedAssets/Backpack_B`는 자산입니다.
+   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `basicZoomViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `http://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Scene7SharedAssets/Backpack_B`는 자산입니다.
 
    ```
    <script type="text/javascript"> 

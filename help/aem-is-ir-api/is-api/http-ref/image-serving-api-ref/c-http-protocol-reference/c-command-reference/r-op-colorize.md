@@ -3,9 +3,9 @@ description: 이미지 색상화. 어두운 영역과 밝은 영역을 유지하
 solution: Experience Manager
 title: op_colorize
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1abbde32-867a-4596-a46b-12ec50d59170
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 4%
@@ -33,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 대비 </span> </p> </td> 
-  <td class="stentry"> <p>대비 범위(실제 0.100);입력 대비를 유지하려면 0으로 설정합니다. </p> </td> 
+  <td class="stentry"> <p>대비 범위(실제 0.100); 입력 대비를 유지하려면 0으로 설정합니다. </p> </td> 
  </tr> 
 </table>
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 레이어 명령. `layer=comp` 인 경우 현재 레이어 또는 복합 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
-*`color`* RGB 값이어야 합니다.회색 또는 CMYK  *`color`* 값은 지원되지 않습니다.
+*`color`* RGB 값이어야 합니다. 회색 또는 CMYK  *`color`* 값은 지원되지 않습니다.
 
 밝기 보정이 꺼져 있으면 *`contrast`* 값이 무시됩니다.
 

@@ -3,9 +3,9 @@ description: 카탈로그 데이터 파일에는 모든 이름과 파일 접미�
 solution: Experience Manager
 title: 카탈로그 데이터 파일
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Microsoft Excel 및 Access와 같이 탭으로 구분된 텍스트 데이터 파
 
 별도로 언급되지 않는 한 동일한 필드의 여러 데이터 값은 쉼표(&#39;,&#39;)로 구분됩니다.
 
-이름이 &#39;.&#39;로 시작하는 열 무시됩니다.따라서 이미지 렌더링에 관심이 없는 자료 카탈로그에 데이터를 저장할 수 있습니다. 알 수 없는 헤더 이름을 가진 열은 무시되고 로그 파일에 경고가 기록됩니다.
+이름이 &#39;.&#39;로 시작하는 열 무시됩니다. 따라서 이미지 렌더링에 관심이 없는 자료 카탈로그에 데이터를 저장할 수 있습니다. 알 수 없는 헤더 이름을 가진 열은 무시되고 로그 파일에 경고가 기록됩니다.
 
 필드 이름은 ASCII 문자, 숫자 및 &quot;-&quot; 및 &quot;_&quot;의 조합으로 구성될 수 있습니다.
 

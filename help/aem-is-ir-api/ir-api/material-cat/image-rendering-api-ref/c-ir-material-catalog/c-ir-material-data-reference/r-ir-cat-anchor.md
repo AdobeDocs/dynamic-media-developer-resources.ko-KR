@@ -3,9 +3,9 @@ description: 이미지 앵커. 반복 가능한 텍스쳐, 벽 테두리 또는 
 solution: Experience Manager
 title: 앵커
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1336330e-86e5-418d-bea3-0c09368e3528
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 이미지 앵커. 반복 가능한 텍스쳐, 벽 테두리 또는 십진수 이미지의 기준점(핫스팟)을 지정합니다.
 
-텍스처 기준점이 개체의 텍스처 원점에 위치하도록 비네팅 개체에 반복 가능한 텍스처가 적용됩니다. 비네팅 오브젝트에 비네팅 이미지가 적용되어 비네팅 기준점이 오브젝트의 비네팅 원점에 위치한다. 벽 테두리의 경우 x 값만 사용됩니다.y 값은 무시됩니다.
+텍스처 기준점이 개체의 텍스처 원점에 위치하도록 비네팅 개체에 반복 가능한 텍스처가 적용됩니다. 비네팅 오브젝트에 비네팅 이미지가 적용되어 비네팅 기준점이 오브젝트의 비네팅 원점에 위치한다. 벽 테두리의 경우 x 값만 사용됩니다. y 값은 무시됩니다.
 
 ## 속성 {#section-bc4bc8b897c64535b88681e57d72942f}
 

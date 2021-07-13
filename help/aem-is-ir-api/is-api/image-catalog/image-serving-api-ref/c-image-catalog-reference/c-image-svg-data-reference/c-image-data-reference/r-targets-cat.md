@@ -3,9 +3,9 @@ description: 대상 데이터 확대/축소. 확대/축소 대상 속성이 없�
 solution: Experience Manager
 title: 목표
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 2%
@@ -31,27 +31,27 @@ ht-degree: 2%
 <table id="simpletable_4C20157A7A444DEB9959B335CAFBAEC8"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> num  </span> </span> </p> </td> 
-  <td class="stentry"> <p>대상 번호 확대/축소(int);확대/축소 타겟은 1부터 순차적으로 연속적으로 번호가 매겨야 합니다. </p> </td> 
+  <td class="stentry"> <p>대상 번호 확대/축소(int); 확대/축소 타겟은 1부터 순차적으로 연속적으로 번호가 매겨야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 프레임  </span> </span> </p> </td> 
-  <td class="stentry"> <p>스핀 또는 브로셔 세트의 특정 프레임/페이지를 타깃팅하는 선택적 프레임/페이지 번호스핀 및 브로셔 뷰어를 사용하도록 지정하지 않으면 기본값이 0으로 설정됩니다.확대/축소 뷰어에서 무시됨. </p> </td> 
+  <td class="stentry"> <p>스핀 또는 브로셔 세트의 특정 프레임/페이지를 타깃팅하는 선택적 프레임/페이지 번호 스핀 및 브로셔 뷰어를 사용하도록 지정하지 않으면 기본값이 0으로 설정됩니다. 확대/축소 뷰어에서 무시됨. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 왼쪽, 위쪽  </span> </span> </p> </td> 
-  <td class="stentry"> <p>이미지의 왼쪽 위에서 확대/축소 대상 사각형의 왼쪽 상단까지 픽셀 오프셋(int, int);0보다 커야 합니다. </p> </td> 
+  <td class="stentry"> <p>이미지의 왼쪽 위에서 확대/축소 대상 사각형의 왼쪽 상단까지 픽셀 오프셋(int, int); 0보다 커야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 너비, 높이  </span> </span> </p> </td> 
-  <td class="stentry"> <p>확대/축소 대상 사각형의 픽셀 크기(int, int);0보다 커야 합니다. </p> </td> 
+  <td class="stentry"> <p>확대/축소 대상 사각형의 픽셀 크기(int, int); 0보다 커야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 레이블  </span> </span> </p> </td> 
-  <td class="stentry"> <p>텍스트 데이터 값;확대/축소 대상 링크의 텍스트 레이블로 사용될 수 있습니다. </p> </td> 
+  <td class="stentry"> <p>텍스트 데이터 값; 확대/축소 대상 링크의 텍스트 레이블로 사용될 수 있습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> userData  </span> </span> </p> </td> 
-  <td class="stentry"> <p>텍스트 데이터 값;는 SKU 값 또는 핫 링크 URL과 같은 대상에 대한 정보를 클라이언트에 전달하는 데 사용할 수 있습니다. </p> </td> 
+  <td class="stentry"> <p>텍스트 데이터 값; 는 SKU 값 또는 핫 링크 URL과 같은 대상에 대한 정보를 클라이언트에 전달하는 데 사용할 수 있습니다. </p> </td> 
  </tr> 
 </table>
 

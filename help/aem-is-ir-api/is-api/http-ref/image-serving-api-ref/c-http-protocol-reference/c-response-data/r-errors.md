@@ -3,9 +3,9 @@ description: 요청을 성공적으로 완료할 수 없으면 서버에서 오�
 solution: Experience Manager
 title: 오류
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9314782f-703b-4e9c-a026-62970d1c752f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 요청을 성공적으로 완료할 수 없으면 서버에서 오류 이미지 또는 오류 메시지와 함께 200 이외의 HTTP 응답 상태를 반환합니다.
 
-응답 상태 값은 오류 유형에 따라 달라집니다.대부분의 일반적인 오류의 경우 &#39;403&#39;입니다. 이미지가 아닌 요청 유형에 대한 오류 응답이 `req=`에 지정된 형식을 따릅니다. (현재 일관되게 구현되지 않을 수 있습니다.)
+응답 상태 값은 오류 유형에 따라 달라집니다. 대부분의 일반적인 오류의 경우 &#39;403&#39;입니다. 이미지가 아닌 요청 유형에 대한 오류 응답이 `req=`에 지정된 형식을 따릅니다. (현재 일관되게 구현되지 않을 수 있습니다.)
 
 오류 메시지에 포함된 세부 정보의 양은 `attribute::ErrorDetail`으로 구성할 수 있습니다.
 

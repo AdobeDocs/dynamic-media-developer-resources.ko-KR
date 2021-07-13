@@ -3,9 +3,9 @@ description: 텍스트 서식을 지정할 때 다음 특수 엔티티를 사용
 solution: Experience Manager
 title: 특수 텍스트 엔티티
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 4%

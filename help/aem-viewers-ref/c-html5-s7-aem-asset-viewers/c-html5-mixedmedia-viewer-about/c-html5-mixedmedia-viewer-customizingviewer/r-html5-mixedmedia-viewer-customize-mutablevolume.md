@@ -3,9 +3,9 @@ description: 가변 볼륨 컨트롤은 처음에 사용자가 비디오 플레�
 solution: Experience Manager
 title: 가변 볼륨
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 2%

@@ -3,9 +3,9 @@ description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위�
 solution: Experience Manager
 title: 포커스 강조 표시
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%

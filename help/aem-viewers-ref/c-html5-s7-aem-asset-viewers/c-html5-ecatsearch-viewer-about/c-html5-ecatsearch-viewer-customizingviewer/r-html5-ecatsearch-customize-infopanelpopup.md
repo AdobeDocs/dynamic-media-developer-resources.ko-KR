@@ -3,9 +3,9 @@ description: 사용자가 Dynamic Media Classic에 정의된 rollover_key 속성
 solution: Experience Manager
 title: 정보 패널 팝업
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 3%
@@ -102,7 +102,7 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-예 - 뷰어 영역 가운데에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다.에는 맨 위에 40픽셀 패딩이 있고 다른 모든 면에 10픽셀 패딩이 있습니다. 밝은 회색 배경 및 10픽셀 테두리 반경과 그림자 그림자가 있습니다.
+예 - 뷰어 영역 가운데에 있는 300 x 200픽셀 정보 패널 대화 상자를 설정합니다. 에는 맨 위에 40픽셀 패딩이 있고 다른 모든 면에 10픽셀 패딩이 있습니다. 밝은 회색 배경 및 10픽셀 테두리 반경과 그림자 그림자가 있습니다.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 

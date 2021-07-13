@@ -3,9 +3,9 @@ description: 기본 이미지 수정 타임스탬프. 카탈로그 타임스탬�
 solution: Experience Manager
 title: 타임스탬프
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 2%
@@ -22,13 +22,13 @@ ht-degree: 2%
 
 날짜/시간 값. 1970년 1월 1일 자정 이후 정수(밀리초) 또는 다음 형식 중 하나가 있는 날짜/시간 문자열 값일 수 있습니다.
 
-*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*:  *`ss zzz`*
+*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*:  *`mm`*:  *`ss zzz`*
 
-*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*: *`mm`*: *`ss`* GMT  *`offset`*
+*`mm`*/  *`dd`*/  *`yyyy`* *`hh`*:  *`mm`*:  *`ss`* GMT  *`offset`*
 
 *`hh`* 는 0~23 범위에 있습니다.
 
-*`zzz`* 는 또는 와 같은 3 또는 4자리 시간대  `GMT` 코드입니다  `PST`. 일광 절약 시간제가 시간대 코드에서 계산되어야 합니다(예:`PST`(태평양 표준시) 및 `PDT`(태평양 일광 절약 시간제의 경우).
+*`zzz`* 는 또는 와 같은 3 또는 4자리 시간대  `GMT` 코드입니다  `PST`. 일광 절약 시간제가 시간대 코드에서 계산되어야 합니다(예: `PST`(태평양 표준시) 및 `PDT`(태평양 일광 절약 시간제의 경우).
 
 *`offset`* 은 GMT를 기준으로 시간 또는 시간:분 단위 시간대 오프셋입니다. 예를 들어 `PDT`은 `GMT -7`에 해당합니다.
 

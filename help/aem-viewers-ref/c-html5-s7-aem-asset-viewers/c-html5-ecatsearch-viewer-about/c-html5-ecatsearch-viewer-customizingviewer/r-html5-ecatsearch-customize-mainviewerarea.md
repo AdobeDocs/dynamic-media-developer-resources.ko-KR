@@ -3,9 +3,9 @@ description: 기본 보기 영역은 카탈로그 이미지가 차지하는 영�
 solution: Experience Manager
 title: 기본 뷰어 영역
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 2%

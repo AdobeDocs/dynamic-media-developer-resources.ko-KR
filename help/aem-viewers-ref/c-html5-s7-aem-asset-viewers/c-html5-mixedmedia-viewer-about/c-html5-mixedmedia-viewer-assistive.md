@@ -3,9 +3,9 @@ description: 모든 뷰어 구성 요소는 화면 판독기와 같은 보조 �
 solution: Experience Manager
 title: 보조 기술 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합,접근성
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6cf7f739-cbfb-4fac-8632-904a0d40ad05
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

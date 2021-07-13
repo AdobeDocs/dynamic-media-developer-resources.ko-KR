@@ -3,9 +3,9 @@ description: 이 섹션의 설정은 SVG 렌더링이 필요한 경우에만 고
 solution: Experience Manager
 title: SVG
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%
@@ -40,7 +40,7 @@ SVG 렌더링에 임베드할 플랫폼 서버에서 이미지를 가져오는 �
 
 ## PS::svgProvider.fontRoot - SVG 글꼴 파일 폴더 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-SvgRender에서 SVG 텍스트 렌더링에 필요한 글꼴 파일을 찾을 위치를 지정합니다.일반적으로 `IS::RootPaths`에 지정된 경로 중 하나입니다. 기본값은 [!DNL *[!DNL install_folder]*/images]입니다.
+SvgRender에서 SVG 텍스트 렌더링에 필요한 글꼴 파일을 찾을 위치를 지정합니다. 일반적으로 `IS::RootPaths`에 지정된 경로 중 하나입니다. 기본값은 [!DNL *[!DNL install_folder]*/images]입니다.
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - SVG 통신 포트 {#section-608687123aa644b7b58fe42385d71b79}
 

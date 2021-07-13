@@ -3,9 +3,9 @@ description: 레이어 텍스트. 텍스트 레이어의 텍스트와 서식을 
 solution: Experience Manager
 title: 텍스트
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 5%
@@ -31,11 +31,11 @@ ht-degree: 5%
 
 [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d)을 참조하십시오.
 
-`text=` 에서는 렌더링된 텍스트에 맞게 텍스트 레이어의 자동 크기 조정을 지원합니다( `size=` 가 지정되지 않았거나 너비만 지정된 경우). 이 경우 RTF 정렬 명령 `\ql`, `\qr` 및 `\qc` 중 하나만 적용될 수 있습니다.그렇지 않으면 오류가 반환됩니다.
+`text=` 에서는 렌더링된 텍스트에 맞게 텍스트 레이어의 자동 크기 조정을 지원합니다( `size=` 가 지정되지 않았거나 너비만 지정된 경우). 이 경우 RTF 정렬 명령 `\ql`, `\qr` 및 `\qc` 중 하나만 적용될 수 있습니다. 그렇지 않으면 오류가 반환됩니다.
 
 ## 속성 {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 동일한 계층에서 `src=` 및 `textPs=`과 함께 사용할 수 없습니다.`text=`, `textPs=` 및 `src=`의 마지막 발생 항목을 정의하고 이 항목이 이미지인지 텍스트 레이어인지 확인합니다. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 동일한 계층에서 `src=` 및 `textPs=`과 함께 사용할 수 없습니다. `text=`, `textPs=` 및 `src=`의 마지막 발생 항목을 정의하고 이 항목이 이미지인지 텍스트 레이어인지 확인합니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 

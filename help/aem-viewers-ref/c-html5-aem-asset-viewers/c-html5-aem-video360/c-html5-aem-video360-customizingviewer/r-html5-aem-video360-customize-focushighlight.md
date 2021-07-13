@@ -3,9 +3,9 @@ description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위�
 solution: Experience Manager
 title: 포커스 강조 표시
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 1%

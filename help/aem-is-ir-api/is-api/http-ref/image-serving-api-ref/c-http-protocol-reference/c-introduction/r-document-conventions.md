@@ -3,9 +3,9 @@ description: 이 문서에서는 다음 규칙을 사용합니다.
 solution: Experience Manager
 title: 문서 규칙
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e93de3fa-dde1-4d79-93aa-9ad800840cfc
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -35,31 +35,31 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 속성::Item  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 특성이 접두사로 붙은 이름:</span>은(는) 이미지 카탈로그 속성을 참조합니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 특성이 접두사로 붙은 이름: </span>은(는) 이미지 카탈로그 속성을 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 카탈로그::항목  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 카탈로그 접두사가 있는 이름:</span>은(는) 이미지 카탈로그 데이터 필드를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 카탈로그 접두사가 있는 이름: </span>은(는) 이미지 카탈로그 데이터 필드를 나타냅니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc::항목  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> icc 접두어가 있는 이름:</span>은 ICC 색상 프로필 맵의 필드를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> icc 접두어가 있는 이름: </span>은 ICC 색상 프로필 맵의 필드를 나타냅니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> font::item  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 글꼴이 접두사로 붙은 이름:</span> 은 글꼴 맵의 필드를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 글꼴이 접두사로 붙은 이름: </span> 은 글꼴 맵의 필드를 나타냅니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> 매크로:항목  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 매크로 접두사가 있는 이름:</span> 은 매크로 정의 테이블의 필드를 참조합니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 매크로: 항목  </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 매크로 접두사가 있는 이름: </span> 은 매크로 정의 테이블의 필드를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 규칙 세트::항목  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 규칙 세트가 접두사로 붙은 이름:</span> 은 URL 사전 처리 규칙 세트의 요소를 참조합니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 규칙 세트가 접두사로 붙은 이름: </span> 은 URL 사전 처리 규칙 세트의 요소를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 기본값::항목  </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> 기본값 접두사가 있는 이름:</span> 은 기본 이미지 카탈로그의 속성을 참조합니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 기본값 접두사가 있는 이름: </span> 은 기본 이미지 카탈로그의 속성을 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> [  <span class="varname"> 선택사항  </span>]  </span> </p> </td> 

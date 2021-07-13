@@ -3,9 +3,9 @@ description: 인라인 확대/축소 모드 기본 보기는 정적 이미지, �
 solution: Experience Manager
 title: 플라이아웃 확대/축소 보기
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 4%

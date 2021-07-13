@@ -3,9 +3,9 @@ description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 
 solution: Experience Manager
 title: 명령 매크로
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 304d93af-3427-4111-882a-35be9ec3aef5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 명령 매크로에는 인수 값을 사용할 수 없지만 사용자 지정 변수를 사용하여 요청에서 매크로로 값을 전달할 수 있습니다.
 
-매크로가 중첩될 수 있으며 다음과 같은 제한 사항이 있습니다.매크로는 매크로 정의가 구문 분석될 때 이미 정의된 경우 같은 매크로 정의 파일에 앞쪽으로 나타나거나 기본 매크로 정의 파일에 포함된 매크로의 정의를 배치하여 호출할 수 있습니다.
+매크로가 중첩될 수 있으며 다음과 같은 제한 사항이 있습니다. 매크로는 매크로 정의가 구문 분석될 때 이미 정의된 경우 같은 매크로 정의 파일에 앞쪽으로 나타나거나 기본 매크로 정의 파일에 포함된 매크로의 정의를 배치하여 호출할 수 있습니다.
 
 ## 예 {#section-2f73d36ac8d64254a03bae5afeae2fb9}
 

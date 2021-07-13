@@ -3,9 +3,9 @@ description: 재생/일시 중지 단추를 사용하면 사용자가 비디오 
 solution: Experience Manager
 title: 재생/일시 정지 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 ## 예 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-32 x 32픽셀인 재생/일시 중지 단추를 설정하려면 다음을 수행하십시오.컨트롤 막대의 위쪽 및 왼쪽 가장자리로부터 6픽셀이 배치되며, 선택 여부에 따라 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
+32 x 32픽셀인 재생/일시 중지 단추를 설정하려면 다음을 수행하십시오. 컨트롤 막대의 위쪽 및 왼쪽 가장자리로부터 6픽셀이 배치되며, 선택 여부에 따라 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
 
 ```
 .s7mixedmediaviewer .s7playpausebutton { 

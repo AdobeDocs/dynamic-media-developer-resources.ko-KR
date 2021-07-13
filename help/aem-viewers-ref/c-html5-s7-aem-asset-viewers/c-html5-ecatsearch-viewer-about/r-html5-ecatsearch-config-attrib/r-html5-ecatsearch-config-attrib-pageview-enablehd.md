@@ -3,9 +3,9 @@ description: PageView.enableHD
 solution: Experience Manager
 title: PageView.enableHD
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 394b79cd-0611-4496-86e3-366a2ffc6ca7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 3%
@@ -68,7 +68,7 @@ ht-degree: 3%
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>제한 번호가 1600이고 픽셀 밀도가 1.5이면 1500 x 1500 이미지가 제공됩니다. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>제한 번호가 1600이고 픽셀 밀도가 2인 경우 2000 x 2000 이미지가 한도를 초과하므로 1000 x 1000 이미지가 제공됩니다. </p> </li> 
-     </ul> </p> <p><b>우수 사례</b>:최대 크기 이미지에 대한 회사 설정과 함께 제한 수를 사용해야 합니다. 따라서 제한 번호를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
+     </ul> </p> <p><b>우수 사례</b>: 최대 크기 이미지에 대한 회사 설정과 함께 제한 수를 사용해야 합니다. 따라서 제한 번호를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

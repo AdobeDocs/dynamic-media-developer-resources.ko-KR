@@ -3,9 +3,9 @@ description: 이러한 서버 설정을 사용하여 경고 임계값을 구성�
 solution: Experience Manager
 title: 경고 임계값
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 이러한 서버 설정을 사용하여 경고 임계값을 구성합니다.
 
-## 로서의:monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS:monitorAlertGenerator.maxAverageResponseTime - 응답 시간 {#section-35111039ac6c4a63ba23fc2c828ab726}
+## 로서의: monitorAlertGenerator.maxAverageResponseTime -Response Time ThresholdAS: monitorAlertGenerator.maxAverageResponseTime - 응답 시간 {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-샘플링 간격 동안 요청을 처리하는 평균 시간이 여기에서 설정된 임계값을 초과하는 경우 응답 시간 경고가 표시됩니다. 밀리초 단위로 표시됨정수 0 이상 일반적인 값은 작업의 복잡성에 따라 100~1000밀리초 사이입니다.
+샘플링 간격 동안 요청을 처리하는 평균 시간이 여기에서 설정된 임계값을 초과하는 경우 응답 시간 경고가 표시됩니다. 밀리초 단위로 표시됨 정수 0 이상 일반적인 값은 작업의 복잡성에 따라 100~1000밀리초 사이입니다.
 
 >[!NOTE]
 >

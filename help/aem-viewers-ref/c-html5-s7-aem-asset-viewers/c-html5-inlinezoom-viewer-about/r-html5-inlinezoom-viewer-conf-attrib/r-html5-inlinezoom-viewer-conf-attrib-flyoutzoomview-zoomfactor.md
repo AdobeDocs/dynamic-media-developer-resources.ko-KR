@@ -3,9 +3,9 @@ description: FlyoutZoomView.zoomfactor
 solution: Experience Manager
 title: FlyoutZoomView.zoomfactor
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2a9d4450-a1a0-471c-86bf-105d516b0bd7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
-   <td colname="col2"> <p> 기본 보기에 상대적인 플라이아웃 보기에 대한 이미지 확대율을 지정합니다.정수 또는 부동 소수점 값 <span class="codeph"> 1.0</span> 이상이어야 합니다. </p> </td> 
+   <td colname="col2"> <p> 기본 보기에 상대적인 플라이아웃 보기에 대한 이미지 확대율을 지정합니다. 정수 또는 부동 소수점 값 <span class="codeph"> 1.0</span> 이상이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaryFactor</span> </span> </p> </td> 

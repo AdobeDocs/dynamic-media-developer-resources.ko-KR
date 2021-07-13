@@ -3,9 +3,9 @@ description: '소프트웨어 설치에 필요한 공간 외에도 이미지 제
 solution: Experience Manager
 title: 디스크 공간 요구 사항 및 권장 사항
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -27,12 +27,12 @@ Image Serving은 소프트웨어 설치에 필요한 공간 외에도 다음과 
  <tbody> 
   <tr> 
    <td> <p><b>소스 이미지, 글꼴, ICC 프로파일</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder  </span>/images  </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths  </span> </p> </td> 
-   <td> <p>다음과 같이 달라집니다.아래 주석을 참조하십시오. </p> </td> 
-   <td> <p>이미지 서버에서만 액세스할 수 있어야 합니다.서버는 데이터를 수정하지 않습니다. </p> </td> 
+   <td> <p>다음과 같이 달라집니다. 아래 주석을 참조하십시오. </p> </td> 
+   <td> <p>이미지 서버에서만 액세스할 수 있어야 합니다. 서버는 데이터를 수정하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>HTTP 응답 데이터 캐시</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder  </span>/cache/is-response  </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders  </span> </p> </td> 
-   <td> <p> <span class="codeph"> PlatformServer::cache.maxSize  </span> x 2;최소 2GB가 권장됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> PlatformServer::cache.maxSize  </span> x 2; 최소 2GB가 권장됩니다. </p> </td> 
    <td> <p>이 캐시는 중첩된/포함된 데이터와 외부 소스 이미지도 저장합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Image Serving은 소프트웨어 설치에 필요한 공간 외에도 다음과 
   <tr> 
    <td> <p><b>이미지 서버 임시 파일</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder  </span>/temp  </span> </p> <p> <span class="codeph"> IS::TempDirectory  </span> </p> <p> <span class="codeph"> SV::TempDirectory  </span> </p> </td> 
    <td> <p>100MByte는 대부분의 용도로 충분합니다. </p> </td> 
-   <td> <p>단기 데이터PTIFF 및 특정 응답 이미지 형식이 아닌 소스 이미지에 필요할 수 있습니다. </p> </td> 
+   <td> <p>단기 데이터 PTIFF 및 특정 응답 이미지 형식이 아닌 소스 이미지에 필요할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

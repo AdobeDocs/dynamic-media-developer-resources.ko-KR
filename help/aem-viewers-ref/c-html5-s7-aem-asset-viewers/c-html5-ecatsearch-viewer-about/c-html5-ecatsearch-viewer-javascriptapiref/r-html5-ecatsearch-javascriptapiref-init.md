@@ -3,9 +3,9 @@ description: eCatalog Viewer에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4d71062c-fee7-4339-bd7f-1b7f778465c4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 2%
@@ -22,7 +22,7 @@ eCatalog 뷰어의 초기화를 시작합니다. 이 시간까지 컨테이너 D
 
 컨테이너 요소가 웹 페이지 레이아웃의 일부가 아닌 경우(예: 이 요소에 지정된 [!DNL `display:none`] 스타일을 사용하여 숨길 수 있음) 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 일시 중지합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
-뷰어 수명 주기 동안 이 메서드를 한 번만 호출합니다.후속 호출은 무시됩니다.
+뷰어 수명 주기 동안 이 메서드를 한 번만 호출합니다. 후속 호출은 무시됩니다.
 
 ## 매개 변수 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

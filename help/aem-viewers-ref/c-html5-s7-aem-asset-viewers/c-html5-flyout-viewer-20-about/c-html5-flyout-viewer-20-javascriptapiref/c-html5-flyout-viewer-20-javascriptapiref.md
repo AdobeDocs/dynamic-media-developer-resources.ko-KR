@@ -3,9 +3,9 @@ description: 플라이아웃 뷰어의 기본 클래스는 FlyoutViewer입니다
 solution: Experience Manager
 title: 플라이아웃 뷰어에 대한 JavaScript API 참조
 feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%

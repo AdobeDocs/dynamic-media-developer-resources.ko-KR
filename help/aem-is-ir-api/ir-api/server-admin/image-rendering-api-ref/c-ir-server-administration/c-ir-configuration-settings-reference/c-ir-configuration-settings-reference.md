@@ -3,9 +3,9 @@ description: 모든 Render Server 설정은 install_root/ImageServing/conf/Platf
 solution: Experience Manager
 title: 구성 설정 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 72bbe296-8098-4d2c-9bff-3569dbad1217
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%

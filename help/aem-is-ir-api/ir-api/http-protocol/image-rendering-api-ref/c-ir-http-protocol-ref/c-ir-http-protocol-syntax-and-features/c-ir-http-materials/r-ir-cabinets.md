@@ -3,9 +3,9 @@ description: 캐비닛 재료는 캐비닛 스타일 파일(.vnc 파일 확장�
 solution: Experience Manager
 title: 캐비닛
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 5%
@@ -31,7 +31,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src=  </span> </a> </p> </td> 
-   <td colname="col2"> <p>캐비닛 스타일 파일;필수 여부. </p> </td> 
+   <td colname="col2"> <p>캐비닛 스타일 파일; 필수 여부. </p> </td> 
    <td colname="col3"> <p>없음. </p> </td> 
   </tr> 
   <tr> 

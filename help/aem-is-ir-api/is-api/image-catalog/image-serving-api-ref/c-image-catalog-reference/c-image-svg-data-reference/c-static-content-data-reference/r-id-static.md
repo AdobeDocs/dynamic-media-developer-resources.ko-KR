@@ -3,9 +3,9 @@ description: ID
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 818649dd-bcb7-4ff5-9308-6b5dc06f66e1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->이미지 카탈로그가 로드되면 이미지 및 SVG 테이블이 단일 테이블로 병합됩니다. Id 값은 두 테이블에서 고유해야 합니다. 이미지 테이블에 동일한 ID 값이 있는 레코드가 포함된 경우 SVG 레코드가 삭제됩니다. 정적 콘텐츠는 별도의 표로 관리됩니다.정적 콘텐츠 항목 및 이미지/SVG 항목에 동일한 ID 값이 있을 수 있습니다.
+>이미지 카탈로그가 로드되면 이미지 및 SVG 테이블이 단일 테이블로 병합됩니다. Id 값은 두 테이블에서 고유해야 합니다. 이미지 테이블에 동일한 ID 값이 있는 레코드가 포함된 경우 SVG 레코드가 삭제됩니다. 정적 콘텐츠는 별도의 표로 관리됩니다. 정적 콘텐츠 항목 및 이미지/SVG 항목에 동일한 ID 값이 있을 수 있습니다.
 
 ## 속성 {#section-874a6853f67b4b229341ca76682884ae}
 

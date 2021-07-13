@@ -3,9 +3,9 @@ description: 색상 양자화. GIF 출력 변환의 색상 양자화 특성을 �
 solution: Experience Manager
 title: 수량
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList  </span> </span> </p> </td> 
-  <td class="stentry"> <p>16진수6 형식의 강제 RGB 색상의 쉼표로 구분된 목록입니다. ' <span class="codeph"> 적응형 </span>' 팔레트에 포함할 강제 색상을 지정할 수 있습니다. 지정한 색상 수가 <span class="codeph"> numColors </span>보다 작으면 이미지 내용에 따라 추가 색상이 계산됩니다. </p> <p><span class="codeph"> fmt=gif </span> 또는 <span class="codeph"> fmt=gif-alpha </span>인 경우에만 사용됩니다. 그렇지 않으면 무시됩니다. <span class="codeph"> <span class="varname"> colorList </span> </span>에 지정된 색상은 16진수6 형식의 RGB 값이어야 합니다( <span class="codeph"> color </span> 참조).다른 색상 지정자는 허용되지 않습니다. </p> </td> 
+  <td class="stentry"> <p>16진수6 형식의 강제 RGB 색상의 쉼표로 구분된 목록입니다. ' <span class="codeph"> 적응형 </span>' 팔레트에 포함할 강제 색상을 지정할 수 있습니다. 지정한 색상 수가 <span class="codeph"> numColors </span>보다 작으면 이미지 내용에 따라 추가 색상이 계산됩니다. </p> <p><span class="codeph"> fmt=gif </span> 또는 <span class="codeph"> fmt=gif-alpha </span>인 경우에만 사용됩니다. 그렇지 않으면 무시됩니다. <span class="codeph"> <span class="varname"> colorList </span> </span>에 지정된 색상은 16진수6 형식의 RGB 값이어야 합니다( <span class="codeph"> color </span> 참조). 다른 색상 지정자는 허용되지 않습니다. </p> </td> 
  </tr> 
 </table>
 

@@ -3,9 +3,9 @@ description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
 title: CallToAction.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: db04133e-bb23-4d94-b91d-fcf34576c03f
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 5%

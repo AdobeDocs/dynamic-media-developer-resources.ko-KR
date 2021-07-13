@@ -3,9 +3,9 @@ description: 재생/일시 중지 단추를 사용하면 사용자가 비디오 
 solution: Experience Manager
 title: 재생/일시 정지 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 2%
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
 
-**예**  - 32 x 32픽셀인 재생/일시 중지 단추를 설정하려면 다음을 수행하십시오.컨트롤 막대의 위쪽 및 왼쪽 가장자리로부터 6픽셀이 배치되며, 선택 여부에 따라 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
+**예**  - 32 x 32픽셀인 재생/일시 중지 단추를 설정하려면 다음을 수행하십시오. 컨트롤 막대의 위쪽 및 왼쪽 가장자리로부터 6픽셀이 배치되며, 선택 여부에 따라 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
 
 ```
 .s7video360viewer .s7playpausebutton { 

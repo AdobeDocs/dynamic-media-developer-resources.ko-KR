@@ -3,9 +3,9 @@ description: 대화형 이미지 뷰어의 기본 클래스는 InteractiveImage�
 solution: Experience Manager
 title: 대화형 이미지 뷰어에 대한 JavaScript API 참조
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%

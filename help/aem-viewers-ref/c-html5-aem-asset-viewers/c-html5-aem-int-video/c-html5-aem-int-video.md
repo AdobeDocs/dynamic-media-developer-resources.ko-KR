@@ -3,9 +3,9 @@ description: 대화형 비디오 뷰어는 H.264 형식으로 인코딩된 스�
 solution: Experience Manager
 title: 대화형 비디오
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2217'
 ht-degree: 0%
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 대화형 비디오 뷰어는 호스팅 페이지에 포함됩니다. 이러한 웹 페이지에는 정적 레이아웃이 있거나 &quot;응답형&quot;일 수 있으며 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시될 수 있습니다.
 
-이러한 요구 사항에 맞게 뷰어는 두 가지 기본 작업 모드를 지원합니다.고정 크기 포함 및 응답형 포함.
+이러한 요구 사항에 맞게 뷰어는 두 가지 기본 작업 모드를 지원합니다. 고정 크기 포함 및 응답형 포함.
 
 **고정 크기 포함 모드 및 응답형 디자인 포함 모드 정보**
 

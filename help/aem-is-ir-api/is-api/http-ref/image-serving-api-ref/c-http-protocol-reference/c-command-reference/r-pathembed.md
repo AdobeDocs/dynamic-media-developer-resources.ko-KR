@@ -3,9 +3,9 @@ description: 경로 데이터를 포함합니다. 레이어 0 소스 이미지 �
 solution: Experience Manager
 title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 속성 {#section-26eb1c9e13574a0eae39f6d5b92c8995}
 
-요청 속성입니다. 소스 이미지에 경로 데이터가 포함되지 않은 경우 무시됩니다. 경로 데이터의 크기가 이미지 데이터처럼 조정되고 회전합니다. `layer=0` 소스 이미지의 경로만 처리됩니다.다른 레이어 이미지의 경로는 무시됩니다.
+요청 속성입니다. 소스 이미지에 경로 데이터가 포함되지 않은 경우 무시됩니다. 경로 데이터의 크기가 이미지 데이터처럼 조정되고 회전합니다. `layer=0` 소스 이미지의 경로만 처리됩니다. 다른 레이어 이미지의 경로는 무시됩니다.
 
 출력 이미지 형식이 경로 포함을 지원하지 않는 경우에는 무시됩니다. 경로 포함을 지원하는 출력 이미지 형식 목록은 `fmt=`에 대한 설명을 참조하십시오.
 

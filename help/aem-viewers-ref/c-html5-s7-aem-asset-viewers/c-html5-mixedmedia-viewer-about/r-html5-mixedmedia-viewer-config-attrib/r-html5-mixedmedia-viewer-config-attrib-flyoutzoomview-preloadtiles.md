@@ -3,9 +3,9 @@ description: FlyoutZoomView.preloadtiles
 solution: Experience Manager
 title: FlyoutZoomView.preloadtiles
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 041df5c7-9391-4dde-8988-a83272c7c438
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 6%
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 확대/축소된 이미지를 미리 로드할 수 있도록 <span class="codeph"> 1</span>로 설정하십시오. </p> <p>필요에 따라 <span class="codeph"> 0</span>로 설정하여 확대/축소 이미지를 점진적으로 로드합니다. </p> <p> <p>참고: 이 옵션을 활성화하면 확대/축소 작업을 수행하지 않더라도 확대/축소 이미지를 전체적으로 로드해야 하므로 대역폭 사용이 상당히 증가할 수 있습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 확대/축소된 이미지를 미리 로드할 수 있도록 <span class="codeph"> 1</span>로 설정하십시오. </p> <p>필요에 따라 <span class="codeph"> 0</span>로 설정하여 확대/축소 이미지를 점진적으로 로드합니다. </p> <p> <p>참고:  이 옵션을 활성화하면 확대/축소 작업을 수행하지 않더라도 확대/축소 이미지를 전체적으로 로드해야 하므로 대역폭 사용이 상당히 증가할 수 있습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

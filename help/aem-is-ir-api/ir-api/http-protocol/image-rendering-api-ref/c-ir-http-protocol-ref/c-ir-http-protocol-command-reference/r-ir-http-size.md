@@ -3,9 +3,9 @@ description: 100% 크기 십진수 재료의 크기를 지정합니다.
 solution: Experience Manager
 title: 크기
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 3%
@@ -35,11 +35,11 @@ ht-degree: 3%
 
 ## 속성 {#section-818e01e91fed4015951189c818ef28d8}
 
-재료 속성입니다. 데칼에서만 사용다른 모든 자료에 의해 무시됨. `res=` 폭 또는 높이가 0보다 큰 경우 가 무시됩니다. 값은 음수가 아니어야 합니다.
+재료 속성입니다. 데칼에서만 사용 다른 모든 자료에 의해 무시됨. `res=` 폭 또는 높이가 0보다 큰 경우 가 무시됩니다. 값은 음수가 아니어야 합니다.
 
 ## 기본값 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` 분류가 카탈로그 항목을 기반으로 하는 경우그렇지 않으면  `size=0,0,0`. *`wid`* 및 *`hei`*&#x200B;가 지정되지 않았거나 0으로 설정된 경우 decal 크기는 `res=`에서 계산됩니다. *`thickness`* 이 지정되지 않았거나 0으로 설정된 경우 그림자 렌더링이 없습니다.
+`catalog::Size` 분류가 카탈로그 항목을 기반으로 하는 경우 그렇지 않으면  `size=0,0,0`. *`wid`* 및 *`hei`*&#x200B;가 지정되지 않았거나 0으로 설정된 경우 decal 크기는 `res=`에서 계산됩니다. *`thickness`* 이 지정되지 않았거나 0으로 설정된 경우 그림자 렌더링이 없습니다.
 
 ## 예 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

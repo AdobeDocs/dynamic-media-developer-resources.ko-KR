@@ -3,9 +3,9 @@ description: 이미지에 대한 변형 보기
 solution: Experience Manager
 title: 이미지에 대한 변형 보기
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: fc20cbc2-9d66-4c52-80c2-9ba7c3b54744
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 이미지에 대한 변형 보기{#view-transform-for-images}
 
-`req=img` 요청에 대한 응답으로 클라이언트에 반환되는 이미지는 다음 값을 고려하여 복합 이미지에서 파생됩니다.`wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix` 및 복합 이미지의 크기입니다.
+`req=img` 요청에 대한 응답으로 클라이언트에 반환되는 이미지는 다음 값을 고려하여 복합 이미지에서 파생됩니다. `wid=`, `hei=`, `fit=`, `scl=`, `rgn=`, `attribute::DefaultPix`, `attribute::MaxPix` 및 복합 이미지의 크기입니다.
 
 `wid=` 및 `hei=`이 지정되어 있고 `scl=`가 지정되지 않은 경우 `wid=` 및 `hei=`에 의해 정의된 보기 레코드 내에 완전히 맞도록 합성 이미지의 크기가 조절됩니다. 뷰 레코드(view rect)의 종횡비가 복합 이미지의 종횡비와 다를 경우, 스케일링된 복합 이미지가 지정된 경우 `align=` 값을 사용하여 뷰 레코드 내에 정렬되거나, 그렇지 않으면 가운데에 정렬됩니다. 이미지 데이터가 포함되지 않은 모든 공간은 `bgc=` 또는 지정하지 않은 경우 `attribute::BkgColor` 로 채워집니다.
 

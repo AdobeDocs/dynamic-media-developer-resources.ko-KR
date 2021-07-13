@@ -3,9 +3,9 @@ description: 텍스처를 선명하게 합니다. 이 자료를 렌더링할 때
 solution: Experience Manager
 title: 날카로운
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 6%
@@ -37,7 +37,7 @@ ht-degree: 6%
  </tr> 
 </table>
 
-`sharp=1` 소재가 렌더링된 후 선명하게 적용 `sharp=2` 텍스처의 초기 비율 조정 후 선명도 적용하지만 장면으로 변환하기 전에 선명도 적용 `sharp=3` 변환 전 및 후에 선명도 적용
+`sharp=1` 소재가 렌더링된 후 선명하게 적용  `sharp=2` 텍스처의 초기 비율 조정 후 선명도 적용하지만 장면으로 변환하기 전에 선명도 적용  `sharp=3` 변환 전 및 후에 선명도 적용
 
 선명하게 하기 알고리즘 및 선명하게 하기 및 기타 USM(언샵 마스킹) 매개 변수는 비네팅 또는 `rs=`으로 제공된 기본 재료 템플릿에 의해 제어됩니다.
 

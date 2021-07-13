@@ -3,9 +3,9 @@ description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단추�
 solution: Experience Manager
 title: Twitter 공유
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c7e84d40-a779-4747-b79a-3a40a622a445
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%

@@ -3,9 +3,9 @@ description: 색상 견본은 왼쪽 및 오른쪽에 스크롤 단추(옵션)�
 solution: Experience Manager
 title: 색상 견본
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 2%
@@ -163,7 +163,7 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 예 - 56 x 56픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하려면 다음을 수행합니다.
 

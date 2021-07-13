@@ -3,9 +3,9 @@ description: 정적 콘텐츠 유형 필터입니다. /is/content를 통해 전�
 solution: Experience Manager
 title: 유형
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 5%

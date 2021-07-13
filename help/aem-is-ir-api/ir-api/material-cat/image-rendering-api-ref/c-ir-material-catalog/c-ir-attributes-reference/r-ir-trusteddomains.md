@@ -1,11 +1,11 @@
 ---
-description: Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 swf 형식으로 전달된 이미지의 속성에 액세스해야 할 수 있습니다.swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
+description: Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 swf 형식으로 전달된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
 solution: Experience Manager
 title: TrustedDomains *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # TrustedDomains *{#trusteddomains}
 
-Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 swf 형식으로 전달된 이미지의 속성에 액세스해야 할 수 있습니다.swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
+Flash 응용 프로그램 웹 도메인. Adobe Flash 응용 프로그램은 swf 형식으로 전달된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
 
 ## 속성 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

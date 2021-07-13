@@ -3,9 +3,9 @@ description: 하위 선택. 선택한 객체 또는 그룹의 다른 영역에 �
 solution: Experience Manager
 title: 하위
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 6%
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## 속성 {#section-b202139d6d0847cc8d520a154104ab9d}
 
-선택 명령;MSS 구분 기호.
+선택 명령; MSS 구분 기호.
 
 ## 기본값 {#section-5b45a167a17c451596e4c59b7d53c368}
 

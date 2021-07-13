@@ -3,9 +3,9 @@ description: 색상 견본은 왼쪽 및 오른쪽에 선택 가능한 스크롤
 solution: Experience Manager
 title: 견본
 feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 3%

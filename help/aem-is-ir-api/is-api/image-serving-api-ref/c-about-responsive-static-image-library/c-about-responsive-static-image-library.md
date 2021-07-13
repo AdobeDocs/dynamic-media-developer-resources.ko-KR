@@ -3,9 +3,9 @@ description: 응답형 이미지 라이브러리는 Dynamic Media에서 제공�
 solution: Experience Manager
 title: 응답형 이미지 라이브러리 정보
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>다음 Bootstrap 예는 웹 페이지에서도 동일한 사용 사례를 보여줍니다. Bootstrap CSS에 따라 응답형 이미지가 추가된 레이아웃 셀은 다음 너비 중 하나를 사용할 수 있습니다.360, 720 및 940픽셀 이러한 값은 응답형 이미지 라이브러리에 중단점으로 전달되는 것과 같습니다. 따라서 Dynamic Media에서는 클라이언트의 네트워크 대역폭을 효과적으로 사용할 수 있습니다. 또한 클라이언트 측 브라우저 크기 조절의 시각적 아티팩트가 없이 현재 웹 페이지 레이아웃에 필요한 정확한 크기로 이미지가 표시되도록 합니다. </p> <p>웹 페이지를 열고, 브라우저 창의 크기를 조정하여 다른 레이아웃 중단점을 맞추고, 네트워크 트래픽을 모니터링하도록 URL을 클릭합니다. </p> <p>더 고급 사용 사례에는 서로 다른 이미지 사전 설정 또는 이미지 제공 명령 또는 둘 다 다른 중단점 값과 연결하는 작업이 포함됩니다. </p> </td> 
+   <td colname="col2"> <p>다음 Bootstrap 예는 웹 페이지에서도 동일한 사용 사례를 보여줍니다. Bootstrap CSS에 따라 응답형 이미지가 추가된 레이아웃 셀은 다음 너비 중 하나를 사용할 수 있습니다. 360, 720 및 940픽셀 이러한 값은 응답형 이미지 라이브러리에 중단점으로 전달되는 것과 같습니다. 따라서 Dynamic Media에서는 클라이언트의 네트워크 대역폭을 효과적으로 사용할 수 있습니다. 또한 클라이언트 측 브라우저 크기 조절의 시각적 아티팩트가 없이 현재 웹 페이지 레이아웃에 필요한 정확한 크기로 이미지가 표시되도록 합니다. </p> <p>웹 페이지를 열고, 브라우저 창의 크기를 조정하여 다른 레이아웃 중단점을 맞추고, 네트워크 트래픽을 모니터링하도록 URL을 클릭합니다. </p> <p>더 고급 사용 사례에는 서로 다른 이미지 사전 설정 또는 이미지 제공 명령 또는 둘 다 다른 중단점 값과 연결하는 작업이 포함됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 **클라이언트 브라우저 최소 요구 사항**
 
-* Microsoft® Windows® 7 이상macOS X 10.8 이상
+* Microsoft® Windows® 7 이상 macOS X 10.8 이상
 * Firefox 23, Safari 6, Chrome 29, IE 9 이상.
 * iOS 6 이상.
 * iPhone3GS 이상 및 iPad2 이상에서 인증(기본 브라우저만 해당).

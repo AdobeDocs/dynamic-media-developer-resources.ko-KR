@@ -3,9 +3,9 @@ description: 기본 이미지 모드. 요청에 지정된 이미지를 찾을 �
 solution: Experience Manager
 title: DefaultImageMode
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 속성 {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-열거형. 누락된 이미지가 여러 레이어 중 하나에 불과하더라도 전체 합성 이미지를 바꾸기 위한 &#39;0&#39;누락된 각 레이어 소스 이미지를 기본 이미지로 바꾸고 컴포지션을 평소대로 반환하려면 &#39;1&#39;.
+열거형. 누락된 이미지가 여러 레이어 중 하나에 불과하더라도 전체 합성 이미지를 바꾸기 위한 &#39;0&#39; 누락된 각 레이어 소스 이미지를 기본 이미지로 바꾸고 컴포지션을 평소대로 반환하려면 &#39;1&#39;.
 
 ## 제한 사항 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 

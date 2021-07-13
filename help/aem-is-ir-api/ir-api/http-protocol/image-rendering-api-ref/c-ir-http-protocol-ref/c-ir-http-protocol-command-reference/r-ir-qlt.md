@@ -3,9 +3,9 @@ description: Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 �
 solution: Experience Manager
 title: qlt
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 49af2620-081f-4bcc-8245-5aa6bab89a05
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 7%
@@ -25,7 +25,7 @@ Jpeg 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 크로마  </span> </p> </td> 
-  <td class="stentry"> <p>JPEG 색상 샘플링(0=보통, 1=비활성화);선택 사항이며 기본값은 0입니다. </p> </td> 
+  <td class="stentry"> <p>JPEG 색상 샘플링(0=보통, 1=비활성화); 선택 사항이며 기본값은 0입니다. </p> </td> 
  </tr> 
 </table>
 

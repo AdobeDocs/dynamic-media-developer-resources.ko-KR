@@ -3,9 +3,9 @@ description: 이 문서에서는 Dynamic Media 이미지 렌더링에 대한 HTT
 solution: Experience Manager
 title: 소개
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
   <td class="stentry"> <p>리터럴 </p> </td> 
-  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다.공백 및 기호 [ ] { } 에는 적용되지 않습니다 | *. </p> </td> 
+  <td class="stentry"> <p>구문 섹션에서 기울임체가 아닌 텍스트는 리터럴입니다. 공백 및 기호 [ ] { } 에는 적용되지 않습니다 | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'literal' </p> </td> 
@@ -95,6 +95,6 @@ ht-degree: 1%
 
 **공통 용어**
 
-** *`MSS`* ** 자재 사양 세그먼트:요청에서 두 선택 명령 사이의 재료 속성 집합입니다.
+** *`MSS`* ** 자재 사양 세그먼트: 요청에서 두 선택 명령 사이의 재료 속성 집합입니다.
 
 ** *`vignette`* ** 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성에서 준비된 이미지입니다.

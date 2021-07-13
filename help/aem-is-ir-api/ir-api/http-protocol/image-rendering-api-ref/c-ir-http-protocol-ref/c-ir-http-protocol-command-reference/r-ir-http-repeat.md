@@ -3,9 +3,9 @@ description: 텍스처 반복 모드. 반복 가능한 텍스쳐 재질에 대�
 solution: Experience Manager
 title: 반복
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 16%
@@ -101,7 +101,7 @@ ht-degree: 16%
  </tr> 
 </table>
 
-무작위 퀼트 모드(14... 18)는 쉽게 반복할 수 없는 영상의 텍스처를 합성하는 데 사용될 수 있다.알고리즘에서는 원래 이미지를 기반으로 완전히 임의 또는 부분적으로 임의 텍스처가 만들어집니다.
+무작위 퀼트 모드(14... 18)는 쉽게 반복할 수 없는 영상의 텍스처를 합성하는 데 사용될 수 있다. 알고리즘에서는 원래 이미지를 기반으로 완전히 임의 또는 부분적으로 임의 텍스처가 만들어집니다.
 
 ## 속성 {#section-262bf540930d4890b678ea00cefe1909}
 

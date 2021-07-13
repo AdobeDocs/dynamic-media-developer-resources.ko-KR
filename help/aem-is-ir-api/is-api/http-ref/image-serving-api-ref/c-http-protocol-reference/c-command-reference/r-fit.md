@@ -3,9 +3,9 @@ description: 응답 이미지 맞추기 모드입니다. wid= 및 hei= 및 scl= 
 solution: Experience Manager
 title: 맞춤
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -72,11 +72,11 @@ ht-degree: 2%
 
 업스케일링을 허용하려면 *`upscale`*&#x200B;을 &#39;1&#39;로 설정하고, *`xScale`*와 *`yScale`*&#x200B;를 1:1로 제한하도록 &#39;0&#39;으로 설정하십시오. 업스케일링을 사용하지 않도록 설정하면 합성 이미지가 응답 이미지보다 작은 경우 추가 공백이 있을 수 있습니다.
 
-자르기와 공백은 기본적으로 가운데에 표시됩니다.해당 위치는 `align=`으로 제어할 수 있습니다. 공백 채우기의 색상 및 불투명도는 `bgc=`에 의해 결정됩니다.
+자르기와 공백은 기본적으로 가운데에 표시됩니다. 해당 위치는 `align=`으로 제어할 수 있습니다. 공백 채우기의 색상 및 불투명도는 `bgc=`에 의해 결정됩니다.
 
 ## 속성 {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-속성 보기. 현재 레이어 설정에 관계없이 적용됩니다. `wid=` 또는 `hei=` 중 하나 이상을 지정해야 합니다. 그렇지 않으면 오류가 반환됩니다.설명된 대로 적합한 모드가 작동하려면 `wid=` 및 `hei=` 모두를 지정해야 합니다. `req=tmb` 도 지정되면 오류가 반환됩니다.
+속성 보기. 현재 레이어 설정에 관계없이 적용됩니다. `wid=` 또는 `hei=` 중 하나 이상을 지정해야 합니다. 그렇지 않으면 오류가 반환됩니다. 설명된 대로 적합한 모드가 작동하려면 `wid=` 및 `hei=` 모두를 지정해야 합니다. `req=tmb` 도 지정되면 오류가 반환됩니다.
 
 ## 기본값 {#section-3a553b4b29ef447a8331d6954f3f06da}
 

@@ -3,9 +3,9 @@ description: 텍스트 레이어 속성입니다. rtf 명령으로 사용할 수
 solution: Experience Manager
 title: textAttr
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res  </span> </span> </p> </td> 
-  <td class="stentry"> <p>글꼴 크기를 변경하지 않고 텍스트 레이어의 크기를 조정하는 수단을 제공합니다. 해상도 값이 높을수록 캔버스 크기에 비해 렌더링된 텍스트의 크기가 커집니다.값이 작을수록 텍스트 크기가 줄어듭니다. 인치당 점(0보다 큼)의 텍스트 해상도. </p> </td> 
+  <td class="stentry"> <p>글꼴 크기를 변경하지 않고 텍스트 레이어의 크기를 조정하는 수단을 제공합니다. 해상도 값이 높을수록 캔버스 크기에 비해 렌더링된 텍스트의 크기가 커집니다. 값이 작을수록 텍스트 크기가 줄어듭니다. 인치당 점(0보다 큼)의 텍스트 해상도. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 앤티앨리어싱  </span> </span> </p> </td> 
@@ -63,7 +63,7 @@ ht-degree: 1%
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes  </span> </p> </td> 
-      <td class="stentry"> <p>지정된 해상도를 사용합니다.텍스트가 레이어 요약으로 잘리지 않도록 하려면 필요한 경우 줄입니다. </p> <p>클리핑이 발생하지 않는 한 지정된 해상도로 텍스트를 렌더링하는 데 사용합니다. 클리핑의 경우 해상도가 자동으로 감소하여 모든 텍스트가 텍스트 상자 내에 완전히 포함되도록 합니다. 자동 줄바꿈을 사용하도록 설정하면 최종 해상도로 텍스트를 다시 래핑할 수 있습니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
+      <td class="stentry"> <p>지정된 해상도를 사용합니다. 텍스트가 레이어 요약으로 잘리지 않도록 하려면 필요한 경우 줄입니다. </p> <p>클리핑이 발생하지 않는 한 지정된 해상도로 텍스트를 렌더링하는 데 사용합니다. 클리핑의 경우 해상도가 자동으로 감소하여 모든 텍스트가 텍스트 상자 내에 완전히 포함되도록 합니다. 자동 줄바꿈을 사용하도록 설정하면 최종 해상도로 텍스트를 다시 래핑할 수 있습니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
      </tr> 
     </table> </p> <p>텍스트 레이어 크기를 size=로 지정하지 않거나 너비만 지정하면 'autoRes' 및 'maxRes' 설정이 무시되고 지정된 해상도를 사용하여 텍스트를 렌더링합니다. </p> </td> 
  </tr> 

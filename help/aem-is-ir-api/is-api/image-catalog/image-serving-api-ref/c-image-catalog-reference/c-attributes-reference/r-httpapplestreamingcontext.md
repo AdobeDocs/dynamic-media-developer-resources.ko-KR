@@ -3,9 +3,9 @@ description: Apple 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여
 solution: Experience Manager
 title: HttpAppleStreamingContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 339dada7-064b-4cdc-bd34-76b6053b9965
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 7%
@@ -18,7 +18,7 @@ Apple 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여 다중 비�
 
 ## 속성 {#properties}
 
-URL 접두사를 나타내는 문자열입니다. (예:`http://my.server.com/apple/streaming`)
+URL 접두사를 나타내는 문자열입니다. (예: `http://my.server.com/apple/streaming`)
 
 ## 기본값 {#section-bdd70081d50844c295f0de0154c1d738}
 

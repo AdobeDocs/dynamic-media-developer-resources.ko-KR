@@ -3,9 +3,9 @@ description: 이름별로 개체를 선택합니다. 지정한 비네팅 그룹�
 solution: Experience Manager
 title: 개체
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 3%
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 속성 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-선택 명령;MSS 구분 기호. `obj=` 또는 `sel=` 를 사용하여 다른 개체를 선택할 때까지 개체 선택이 지속됩니다.
+선택 명령; MSS 구분 기호. `obj=` 또는 `sel=` 를 사용하여 다른 개체를 선택할 때까지 개체 선택이 지속됩니다.
 
 그룹/개체 경로 및 이름은 대/소문자를 구분하지 않습니다.
 

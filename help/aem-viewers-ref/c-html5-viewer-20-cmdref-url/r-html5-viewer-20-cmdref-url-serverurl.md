@@ -3,9 +3,9 @@ description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
 title: serverUrl
 feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 3%

@@ -3,9 +3,9 @@ description: 이벤트 콜백
 solution: Experience Manager
 title: 이벤트 콜백
 feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: e6cffe77-f653-4e8e-bdec-2661051fe8cf
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%

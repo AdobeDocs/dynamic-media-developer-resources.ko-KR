@@ -3,9 +3,9 @@ description: 플라이아웃 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 title: dispose
 feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: bf38d481-d8cc-400c-9017-bcb3471f2a10
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%

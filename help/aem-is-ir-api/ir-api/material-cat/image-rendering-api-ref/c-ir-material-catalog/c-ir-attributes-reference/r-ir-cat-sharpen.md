@@ -3,9 +3,9 @@ description: 기본 회신 이미지 선명하게 하기 인코딩 전에 크기
 solution: Experience Manager
 title: 선명하게
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 11%

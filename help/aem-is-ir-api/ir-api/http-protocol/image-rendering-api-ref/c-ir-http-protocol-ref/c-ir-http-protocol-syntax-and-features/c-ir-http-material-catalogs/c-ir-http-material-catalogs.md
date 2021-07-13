@@ -3,9 +3,9 @@ description: 자재 카탈로그는 여러 기능을 제공합니다.
 solution: Experience Manager
 title: 재료 카탈로그 *
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 카탈로그 레코드는 (a) ` *[!DNL catId]*`이(가) 재료 카탈로그의 `attribute::RootId` 값과 일치하고 (b) ` *[!DNL recId]*`이 동일한 카탈로그의 catalog::Id 값과 일치하는 경우 일치합니다. 일치하는 경우 재료의 속성(`src=` 포함)이 카탈로그 레코드의 데이터로 설정됩니다. MSS에 src= 이외의 이 자료에 대한 추가 특성이 포함되어 있으면 카탈로그 레코드의 값을 덮어씁니다.
 
-` *[!DNL recId]*`을(를) 카탈로그 항목과 일치시킬 수 없는 경우 ` *[!DNL catId]*`은(는) 카탈로그의 `attribute::RootPath`로 대체되고, 그 결과 경로는 단순 파일 경로로 간주됩니다. 기타 기본 속성(예:`attribute::Resolution`)도 재료 카탈로그에서 상속될 수 있습니다.
+` *[!DNL recId]*`을(를) 카탈로그 항목과 일치시킬 수 없는 경우 ` *[!DNL catId]*`은(는) 카탈로그의 `attribute::RootPath`로 대체되고, 그 결과 경로는 단순 파일 경로로 간주됩니다. 기타 기본 속성(예: `attribute::Resolution`)도 재료 카탈로그에서 상속될 수 있습니다.
 
 비네팅 및 ICC 프로파일은 자료 자체와 유사한 자료 카탈로그 및 해당 등록 정보로 항목화할 수 있습니다. 또한 비네팅 맵은 템플릿용 컨테이너도 제공합니다.
 

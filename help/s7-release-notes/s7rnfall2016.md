@@ -3,9 +3,9 @@ description: '"Adobe Marketing Cloud에 있는 Adobe Experience Manager 솔루�
 solution: Experience Manager
 title: Scene7 2016년 가을 릴리스
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2235'
 ht-degree: 0%
@@ -126,7 +126,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * HTML5 비디오
 
-   * Internet Explorer 9:사용자 지정 포스터 이미지가 표시되지 않습니다.
+   * Internet Explorer 9: 사용자 지정 포스터 이미지가 표시되지 않습니다.
    * `IntialBitRate` 수정자는 소프트웨어 HLS 및 Flash HDS 재생에서만 지원됩니다. 재생이 기본 플레이어를 사용하는 경우에는 작동하지 않습니다.
    * OGG 및 WebM 점진적 재생은 현재 지원되지 않습니다.
    * 브라우저 크기 조절을 사용하면 비디오 플레이어가 잘못된 크기로 표시될 수 있습니다(Windows OS 컨트롤 패널 표시 설정 포함)
@@ -145,7 +145,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * Safari
 
-   * Safari 6.1 이상:인터넷 플러그인 설정으로 인해 Flash 비디오가 재생되지 않을 수 있습니다.
+   * Safari 6.1 이상: 인터넷 플러그인 설정으로 인해 Flash 비디오가 재생되지 않을 수 있습니다.
    * Safari에서 HLS 스트리밍을 사용하는 비디오 &quot;찾기&quot;가 일치하지 않을 수 있습니다.
    * HLS 스트리밍을 사용하여 Safari 6에서 비디오를 종료할 수 없습니다.
 
@@ -157,7 +157,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * [] FlyoutIE9는 경우에 따라 마우스를 해제한 후 화면에 유지됩니다.
 * 브라우저 크기 조절은 잘못된 크기 조절으로 이어집니다.
-* iPad 2:iOS에서 대규모 eCatalog 자산이 Safari를 충돌합니다.
+* iPad 2: iOS에서 대규모 eCatalog 자산이 Safari를 충돌합니다.
 * 모든 뷰어
 
    * 워터마크, 난독화 및 잠금은 지원되지 않습니다.

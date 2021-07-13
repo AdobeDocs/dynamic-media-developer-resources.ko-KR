@@ -3,9 +3,9 @@ description: 설치 후 install_root의 폴더 계층에는 아래 나열된 파
 solution: Experience Manager
 title: 목차
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 2%
@@ -94,7 +94,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>데이터 캐시 폴더;구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>데이터 캐시 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -118,7 +118,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS 이미지 카탈로그 폴더;구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>IS 이미지 카탈로그 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -166,13 +166,13 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 이미지/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 제공 소스 데이터 폴더;구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>이미지 제공 소스 데이터 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 로그/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>모든 PS 및 IS 로그 데이터가 이 폴더에 기록됩니다.구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>모든 PS 및 IS 로그 데이터가 이 폴더에 기록됩니다. 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -208,7 +208,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 정적 콘텐츠/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>정적 콘텐츠 데이터 소스 폴더;구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>정적 콘텐츠 데이터 소스 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -244,7 +244,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 렌더링 카탈로그 폴더;구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>이미지 렌더링 카탈로그 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -274,7 +274,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 리소스/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 렌더링 소스 데이터 폴더;구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>이미지 렌더링 소스 데이터 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

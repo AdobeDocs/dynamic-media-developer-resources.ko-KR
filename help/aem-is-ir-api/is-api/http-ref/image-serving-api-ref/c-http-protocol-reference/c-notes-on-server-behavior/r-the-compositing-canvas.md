@@ -3,9 +3,9 @@ description: req=img이면 합성 캔버스의 크기는 레이어 0의 크기�
 solution: Experience Manager
 title: 합성 캔버스
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 38b2349f-714a-4304-bd33-5ce171b6d3a1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%

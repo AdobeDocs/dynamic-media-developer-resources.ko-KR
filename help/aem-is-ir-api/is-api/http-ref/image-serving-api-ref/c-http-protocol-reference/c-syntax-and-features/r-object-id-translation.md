@@ -3,9 +3,9 @@ description: 이미지 제공 기능은 외부 개체 ID를 로케일 특정 개
 solution: Experience Manager
 title: 개체 ID 번역
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 ## 범위 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-이미지, SVG 및 정적 콘텐츠 카탈로그의 항목에 대한 모든 참조는 번역 글꼴로 간주되며 ICC 프로필 참조는 번역되지 않습니다. [!DNL /is/image] 및 [!DNL /is/static requests] 경로의 *`object`* 외에도 이러한 명령과 카탈로그 속성은 ID 번역을 받습니다.`src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` 및 `attribute::Watermark`.
+이미지, SVG 및 정적 콘텐츠 카탈로그의 항목에 대한 모든 참조는 번역 글꼴로 간주되며 ICC 프로필 참조는 번역되지 않습니다. [!DNL /is/image] 및 [!DNL /is/static requests] 경로의 *`object`* 외에도 이러한 명령과 카탈로그 속성은 ID 번역을 받습니다. `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` 및 `attribute::Watermark`.
 
 ## ID 번역 맵 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -44,7 +44,7 @@ ht-degree: 9%
 
 ## 번역 프로세스 {#section-1f64db17e9f644d88e09853670e14a16}
 
-위의 예에서 서버가 먼저 ID 번역 맵에서 *`locale`* &quot; `de_de`&quot;를 찾습니다. 그런 다음 이 경우 &quot; `_D`&quot; 및 &quot;&quot;(빈 접미사)에 연결된 *`locSuffixes`*&#x200B;을 반복합니다. 각 반복에 대해 접미사는 이미지 ID에 추가되고 카탈로그에 있는지 테스트된 결과 ID에 추가됩니다. 찾은 경우 해당 카탈로그 항목이 사용되고 그렇지 않은 경우에는 다음 항목이 테스트됩니다. 이 예제에서는 다음 항목을 선택합니다.`myCat/myImg_D` 및 `myCat/myImg` 일치하는 항목이 없으면 서버에서 오류 또는 기본 이미지(구성된 경우)를 반환합니다.
+위의 예에서 서버가 먼저 ID 번역 맵에서 *`locale`* &quot; `de_de`&quot;를 찾습니다. 그런 다음 이 경우 &quot; `_D`&quot; 및 &quot;&quot;(빈 접미사)에 연결된 *`locSuffixes`*&#x200B;을 반복합니다. 각 반복에 대해 접미사는 이미지 ID에 추가되고 카탈로그에 있는지 테스트된 결과 ID에 추가됩니다. 찾은 경우 해당 카탈로그 항목이 사용되고 그렇지 않은 경우에는 다음 항목이 테스트됩니다. 이 예제에서는 다음 항목을 선택합니다. `myCat/myImg_D` 및 `myCat/myImg` 일치하는 항목이 없으면 서버에서 오류 또는 기본 이미지(구성된 경우)를 반환합니다.
 
 ## 알 수 없는 로케일 {#section-b2f3c83f2dc845d69b5908107b775537}
 
@@ -97,7 +97,7 @@ ht-degree: 9%
 
 **특정 ID 검색**
 
-일부 이미지 이름 지정 규칙은 내부적으로 일반 이미지 ID를 지원하지 않을 수 있습니다. 요청의 일반 ID는 항상 카탈로그의 특정 ID에 매핑되어야 합니다.종종 정확한 특정 ID를 알 수 없을 수 있습니다.
+일부 이미지 이름 지정 규칙은 내부적으로 일반 이미지 ID를 지원하지 않을 수 있습니다. 요청의 일반 ID는 항상 카탈로그의 특정 ID에 매핑되어야 합니다. 종종 정확한 특정 ID를 알 수 없을 수 있습니다.
 
 이 예제에서 모든 언어의 이미지에는 `_1`, `_2` 또는 `_3` 접미사가 있을 수 있습니다. 프랑스어 로케일에 대한 이미지에는 `_22` 또는 `_23` 접미사가 있을 수 있으며, 독일 로케일에 대한 이미지에는 `_470` 또는 `_480` 접미사가 있을 수 있습니다.
 

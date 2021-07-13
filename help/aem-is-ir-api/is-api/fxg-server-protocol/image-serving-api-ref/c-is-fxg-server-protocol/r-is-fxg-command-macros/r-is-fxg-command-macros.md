@@ -3,9 +3,9 @@ description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 
 solution: Experience Manager
 title: 명령 매크로
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: dc149977-3ca8-4612-ad05-4d565440d00a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 구문 분석 중에는 매크로 함수가 먼저 대체 문자열로 대체됩니다. 매크로 내의 명령은 요청에서 매크로 호출 전에 발생할 경우 요청에서 동일한 명령을 재정의합니다. 이는 `catalog::Modifier`과 다릅니다. 여기서 요청 문자열의 명령은 요청의 위치와 관계없이 항상 `catalog::Modifier` 문자열의 명령을 재정의합니다.
 
-매크로가 중첩될 수 있으며 다음과 같은 제한 사항이 있습니다.매크로는 매크로 정의가 구문 분석될 때 이미 정의된 경우 같은 매크로 정의 파일에 앞쪽으로 나타나거나 기본 매크로 정의 파일에 해당 포함 매크로의 정의를 배치하여 호출할 수 있습니다.
+매크로가 중첩될 수 있으며 다음과 같은 제한 사항이 있습니다. 매크로는 매크로 정의가 구문 분석될 때 이미 정의된 경우 같은 매크로 정의 파일에 앞쪽으로 나타나거나 기본 매크로 정의 파일에 해당 포함 매크로의 정의를 배치하여 호출할 수 있습니다.
 
 매크로는 동일한 속성을 다른 이미지에 적용해야 하는 경우에 유용합니다.
 

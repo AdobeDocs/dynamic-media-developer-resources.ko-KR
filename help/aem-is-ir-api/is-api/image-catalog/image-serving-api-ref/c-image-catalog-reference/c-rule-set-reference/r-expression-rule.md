@@ -3,9 +3,9 @@ description: 정규 표현식 패턴 요소입니다. <규칙> 요소에서 선�
 solution: Experience Manager
 title: 식
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 `<expression>` 요소는 비어 있거나 단순 검색 문자열 또는 정규 표현식 패턴을 포함할 수 있습니다. 패턴은 전체 요청 문자열에 적용됩니다.
 
-`<expression>`이 비어 있거나 지정되지 않은 경우 항상 일치 항목이 발생합니다.이는 `<expression>.*</expression>` 을 지정하는 것과 같습니다.
+`<expression>`이 비어 있거나 지정되지 않은 경우 항상 일치 항목이 발생합니다. 이는 `<expression>.*</expression>` 을 지정하는 것과 같습니다.
 
 이 구현은 Perl과 유사한 정규 표현식 구문을 제공하는 Java 패키지 [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/)을 기반으로 합니다.
 

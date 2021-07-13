@@ -3,9 +3,9 @@ description: 이 섹션에서는 정적 컨텐츠 데이터 속성에 대해 설
 solution: Experience Manager
 title: 정적 콘텐츠 데이터 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1e1c2a8b-aa25-4452-bf46-c99cd37a4e86
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 9%

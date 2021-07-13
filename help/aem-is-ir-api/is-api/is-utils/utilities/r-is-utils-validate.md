@@ -3,9 +3,9 @@ description: 이미지 유효성 검사 유틸리티. 이 명령줄 유틸리티
 solution: Experience Manager
 title: 유효성 확인
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Image Serving에서 소스 이미지로 사용할 수 있게 하려면 PTIFF가 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType  </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any  </span> </p> <p>소스 파일 형식;하나 이상의 이미지 파일 형식을 지정해야 합니다(IC에서 지원하는 이미지 파일 형식을 허용함). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any  </span> </p> <p>소스 파일 형식; 하나 이상의 이미지 파일 형식을 지정해야 합니다(IC에서 지원하는 이미지 파일 형식을 허용함). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 옵션  </span> </span> </p> </td> 

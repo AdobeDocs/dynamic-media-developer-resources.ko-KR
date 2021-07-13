@@ -3,9 +3,9 @@ description: 이미지 카탈로그 관리와 관련된 설정을 포함합니�
 solution: Experience Manager
 title: catalog-server.conf
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이미지 카탈로그 관리와 관련된 설정을 포함합니다.
 
-이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 주의해야 합니다.그렇지 않으면 Platform Server를 시작하지 못할 수 있습니다. Windows 파일 경로에 백슬래시 &#39;\&#39; 대신 이중 백슬래시 &#39;\\&#39; 또는 단일 슬래시 &#39;/&#39;를 사용하십시오. 백슬래시는 이 유형의 파일에서 이스케이프 문자로 사용됩니다.
+이 파일은 JAVA 속성 파일입니다. 적절한 규약을 준수하기 위해서는 주의해야 합니다. 그렇지 않으면 Platform Server를 시작하지 못할 수 있습니다. Windows 파일 경로에 백슬래시 &#39;\&#39; 대신 이중 백슬래시 &#39;\\&#39; 또는 단일 슬래시 &#39;/&#39;를 사용하십시오. 백슬래시는 이 유형의 파일에서 이스케이프 문자로 사용됩니다.
 
 이 파일의 변경 사항은 파일을 저장한 직후에 적용됩니다.
 

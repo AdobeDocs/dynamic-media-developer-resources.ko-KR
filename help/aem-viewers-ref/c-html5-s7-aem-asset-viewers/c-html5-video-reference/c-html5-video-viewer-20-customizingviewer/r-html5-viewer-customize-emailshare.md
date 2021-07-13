@@ -3,9 +3,9 @@ description: 이메일 공유 도구는 소셜 공유 패널에 추가된 버튼
 solution: Experience Manager
 title: 전자 메일 공유
 feature: Dynamic Media Classic,Viewers,SDK/API,비디오
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2987'
 ht-degree: 2%
@@ -757,7 +757,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 모든 입력 필드 주위에 9픽셀의 패딩이 있는 1픽셀 회색 테두리가 있도록 양식을 설정하려면 다음을 수행합니다.유효성 검사가 실패한 필드에 대해 동일한 테두리를 빨간색 색상으로 표시하려면 250픽셀 너비의 &quot;끝&quot; 입력 필드와 나머지 입력 필드의 너비가 300픽셀입니다.
+예 - 모든 입력 필드 주위에 9픽셀의 패딩이 있는 1픽셀 회색 테두리가 있도록 양식을 설정하려면 다음을 수행합니다. 유효성 검사가 실패한 필드에 대해 동일한 테두리를 빨간색 색상으로 표시하려면 250픽셀 너비의 &quot;끝&quot; 입력 필드와 나머지 입력 필드의 너비가 300픽셀입니다.
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -1210,7 +1210,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->이 메시지는 다음 가능한 값으로 `state` 속성 선택기를 지원합니다.`verifyerror`, `senderror` 및 `sendsuccess`. `verifyerror` 은 인라인 입력 유효성 검사 오류로 인해 메시지가 표시될 때 설정됩니다. `senderror` 은 백엔드 이메일 서비스가 오류를 보고할 때 설정됩니다. `sendsuccess` 은 이메일이 성공적으로 전송될 때 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지의 스타일을 다르게 지정할 수 있습니다.
+>이 메시지는 다음 가능한 값으로 `state` 속성 선택기를 지원합니다. `verifyerror`, `senderror` 및 `sendsuccess`. `verifyerror` 은 인라인 입력 유효성 검사 오류로 인해 메시지가 표시될 때 설정됩니다.  `senderror` 은 백엔드 이메일 서비스가 오류를 보고할 때 설정됩니다.  `sendsuccess` 은 이메일이 성공적으로 전송될 때 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지의 스타일을 다르게 지정할 수 있습니다.
 
 오류 메시지는 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)를 참조하십시오.
 
@@ -1372,7 +1372,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)를 참조하십시오.
 
@@ -1435,7 +1435,7 @@ background-color: #B2B2B2;
 
 >[!NOTE]
 >
->이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.`up`, `down`, `over` 및 `disabled`.
+>이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
 
 예 - 28 x 32픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하려면 다음을 수행합니다.
 

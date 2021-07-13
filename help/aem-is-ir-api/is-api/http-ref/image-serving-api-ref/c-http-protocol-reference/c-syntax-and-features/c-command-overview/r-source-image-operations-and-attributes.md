@@ -3,9 +3,9 @@ description: 이러한 명령은 간단한 요청이나 이미지 레이어에�
 solution: Experience Manager
 title: 소스 이미지 작업
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 2%

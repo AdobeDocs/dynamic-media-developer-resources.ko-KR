@@ -3,9 +3,9 @@ description: 닫기 단추
 solution: Experience Manager
 title: 닫기 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32e888ea-52d7-4ec3-8b59-e513033a73b8
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 16%

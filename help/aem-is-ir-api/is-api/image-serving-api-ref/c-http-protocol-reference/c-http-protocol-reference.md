@@ -3,9 +3,9 @@ description: 이 문서에서는 Dynamic Media 이미지 제공 HTTP 프로토�
 solution: Experience Manager
 title: HTTP 프로토콜 참조
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b80d10a8-3b10-4daa-8559-dc36f7a54382
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 2%

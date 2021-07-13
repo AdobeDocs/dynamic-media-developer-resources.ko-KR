@@ -3,9 +3,9 @@ description: '이미지 렌더링에서 사용하는 메모리의 양은 광범�
 solution: Experience Manager
 title: 메모리 고려 사항
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
+role: Developer,Administrator,User
 exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

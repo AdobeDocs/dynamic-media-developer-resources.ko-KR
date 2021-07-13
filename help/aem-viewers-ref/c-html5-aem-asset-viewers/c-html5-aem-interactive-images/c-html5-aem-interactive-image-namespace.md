@@ -3,9 +3,9 @@ description: Viewer SDK 네임스페이스
 solution: Experience Manager
 title: Viewer SDK 네임스페이스
 feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8e37bb60-c875-48d6-8c86-93aba7f50f74
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Viewer SDK 네임스페이스{#viewer-sdk-namespace}
 
-뷰어는 많은 Viewer SDK 구성 요소로 구성됩니다. 대부분의 경우 웹 페이지는 SDK 구성 요소 API와 직접 상호 작용할 필요가 없습니다.모든 일반적인 요구 사항은 뷰어 API 자체에서 다룹니다.
+뷰어는 많은 Viewer SDK 구성 요소로 구성됩니다. 대부분의 경우 웹 페이지는 SDK 구성 요소 API와 직접 상호 작용할 필요가 없습니다. 모든 일반적인 요구 사항은 뷰어 API 자체에서 다룹니다.
 
 그러나 일부 고급 사용 사례에서는 웹 페이지에서 `getComponent()` 뷰어 API를 사용하여 내부 SDK 구성 요소에 대한 참조를 가져온 다음 SDK 자체의 모든 유연성을 사용해야 합니다.
 

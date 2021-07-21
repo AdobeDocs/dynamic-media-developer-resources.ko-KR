@@ -3,9 +3,9 @@ description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 �
 solution: Experience Manager
 title: 작업 장애
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 11%

@@ -3,9 +3,9 @@ description: 재료 카탈로그 폴더의 위치(모든 catalog.ini 파일을 �
 solution: Experience Manager
 title: 카탈로그 폴더(ir.catalogRootPath)
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 0eb64a65-e3b6-47b2-8456-39f8f8e077e1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

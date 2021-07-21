@@ -3,9 +3,9 @@ description: 자산 권한을 업데이트합니다.
 solution: Experience Manager
 title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 21%

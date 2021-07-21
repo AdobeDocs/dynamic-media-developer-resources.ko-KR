@@ -3,9 +3,9 @@ description: 제공된 URL 목록을 Dynamic Media CDN(Content Distribution Netw
 solution: Experience Manager
 title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 3%
@@ -16,11 +16,11 @@ ht-degree: 3%
 
 제공된 URL 목록을 Dynamic Media CDN(Content Distribution Network) 공급자에 전달하여 기존 HTTP 응답 캐시를 무효화합니다.
 
-## cdnCacheInvalidation:정보 {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation: 정보 {#section-4f70d2bc79d64288b961836ab17e9690}
 
 CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크에 게시된 현재 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 유효성을 다시 검사하도록 합니다. Dynamic Media 서비스 URL 구조에 연결되어 있지 않고 회사를 만들 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 URL은 전체 요청에 대한 API 오류를 발생시킵니다. CDN이 유효하지 않다고 간주하는 잘못된 URL은 전체 요청에 대한 API 오류도 발생합니다.
 
-**사용 빈도:규칙**
+**사용 빈도: 규칙**
 
 이 기능의 사용 빈도를 제어하는 규칙은 Dynamic Media의 CDN 파트너에 의해 제어됩니다. CDN은 사용자에게 최적의 서비스 성능을 유지하기 위해 이러한 무효화의 응답성을 저하시키는 재량을 보유합니다. 이 기능의 과사용에대한 Dynamic Media에게 통보받으면 회사 기준 또는 전체 서비스에서 기능을 비활성화하는 데 사용해야 합니다.
 

@@ -3,9 +3,9 @@ description: IPS(이미지 프로덕션 시스템) 웹 서비스 API를 사용�
 solution: Experience Manager
 title: 이미지 프로덕션 시스템 API 정보
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 27%

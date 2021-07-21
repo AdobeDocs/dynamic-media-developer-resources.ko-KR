@@ -3,9 +3,9 @@ description: 작업을 시스템에 제출합니다.
 solution: Experience Manager
 title: submitJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 8%
@@ -52,7 +52,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>작업을 제출한 사용자에게 처리합니다. </p> <p> <p>참고:시스템이 <span class="codeph"> userHandle</span>에 의해 지정된 사용자에게 이메일을 보냅니다. <span class="codeph"> userHandle</span> 이 제공되지 않으면 작업을 제출한 사람이 이메일을 받습니다. </p> </p> </td> 
+   <td colname="col4"> <p>작업을 제출한 사용자에게 처리합니다. </p> <p> <p>참고: 시스템이 <span class="codeph"> userHandle</span>에 의해 지정된 사용자에게 이메일을 보냅니다. <span class="codeph"> userHandle</span> 이 제공되지 않으면 작업을 제출한 사람이 이메일을 받습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,13 +64,13 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 로케일</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>작업 로그 세부 사항 및 전자 메일 지역화에 사용되는 로케일입니다. </p> <p>로케일은 <span class="codeph"> &lt;language_code&gt;</span> 및 <span class="codeph"> [&lt;country_code&gt;]</span>로 지정됩니다. 여기서 언어 코드는 ISO-639에서 지정한 두 문자 코드이고 선택적 국가 코드는 ISO-3166에서 지정한 대소문자, 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다.미국. </p> </td> 
+   <td colname="col4"> <p>작업 로그 세부 사항 및 전자 메일 지역화에 사용되는 로케일입니다. </p> <p>로케일은 <span class="codeph"> &lt;language_code&gt;</span> 및 <span class="codeph"> [&lt;country_code&gt;]</span>로 지정됩니다. 여기서 언어 코드는 ISO-639에서 지정한 두 문자 코드이고 선택적 국가 코드는 ISO-3166에서 지정한 대소문자, 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. 미국. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>작업을 실행할 날짜 및 시간입니다. </p> <p>참고: 요청에 시간대를 제공합니다. 시간대는 대상 IPS 서버의 시간대로 조정됩니다. </p> </td> 
+   <td colname="col4"> <p>작업을 실행할 날짜 및 시간입니다. </p> <p>참고:  요청에 시간대를 제공합니다. 시간대는 대상 IPS 서버의 시간대로 조정됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 

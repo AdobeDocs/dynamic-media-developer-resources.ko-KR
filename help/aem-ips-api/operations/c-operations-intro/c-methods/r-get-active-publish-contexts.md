@@ -3,9 +3,9 @@ description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 10%

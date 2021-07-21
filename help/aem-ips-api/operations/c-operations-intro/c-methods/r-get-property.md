@@ -3,9 +3,9 @@ description: 이미지 포털과 관련된 시스템 속성의 문자열 값을 
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 10%
@@ -18,14 +18,14 @@ ht-degree: 10%
 
 지원되는 시스템 속성은 다음과 같습니다.
 
-* `IpsVersion`:IPS 버전 번호
-* `IpsImageServerUrl`:IPS 이미지 서버의 전체 외부 URL 접두사
+* `IpsVersion`: IPS 버전 번호
+* `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`:SVG 자산을 렌더링하기 위한 URL 접두사입니다.
-* `SvgRenderEnabled`:SVG 자산을 로 렌더링할 수 있는 경우 True입니다 `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: SVG 자산을 렌더링하기 위한 URL 접두사입니다.
+* `SvgRenderEnabled`: SVG 자산을 로 렌더링할 수 있는 경우 True입니다 `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`:업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]. 시스템은 최대 제한보다 큰 파일을 거부합니다.
+* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]. 시스템은 최대 제한보다 큰 파일을 거부합니다.
 
 ## 인증된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
 

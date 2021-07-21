@@ -3,9 +3,9 @@ description: IPS API v4.0에 대한 새로운 변경 사항 및 구현된 변경
 solution: Experience Manager
 title: 새로운 추가 및 변경 사항
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 2%
@@ -18,8 +18,8 @@ IPS API v4.0에 대한 새로운 변경 사항 및 구현된 변경 사항에 �
 
 별도의 WSDL 및 스키마 네임스페이스로 나란히 API 버전을 구현했습니다.
 
-* 이전 API 버전:`IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`
-* SPS 4.0 버전:`IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`
+* 이전 API 버전: `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`
+* SPS 4.0 버전: `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`
 
 `PostScriptOptions/alpha` 필드를 추가했습니다.
 
@@ -87,10 +87,10 @@ IPS 회사 설정 `CompanySettings`이(가) 웹 서비스 API로 포팅되었습
 
 해당 자산 정보 필드와 일치하도록 일부 자산 유형 문자열 상수를 수정했습니다.
 
-* WordDoc:Word
-* ExcelDoc:Excel
-* PowerPointDoc:PowerPoint
-* RTFDoc:Rtf
+* WordDoc: Word
+* ExcelDoc: Excel
+* PowerPointDoc: PowerPoint
+* RTFDoc: Rtf
 
 성공, 경고 및 오류를 요약하기 위해 배치 작업의 결과 형식을 수정했습니다.
 
@@ -111,7 +111,7 @@ Photoshop 처리 프로세스를 제어하는 업로드 작업에 대한 `create
 * `Spin`
 * `Custom types`
 
-뷰어 스킨은 다음 두 매개 변수를 지원합니다.`skinFg` 및 `skinBg` 백엔드 코드는 이전 버전과의 호환성을 유지하는 데 필요한 모든 처리를 수행합니다.
+뷰어 스킨은 다음 두 매개 변수를 지원합니다. `skinFg` 및 `skinBg` 백엔드 코드는 이전 버전과의 호환성을 유지하는 데 필요한 모든 처리를 수행합니다.
 
 `getAssociatedAssets` 작업을 구현했습니다.
 
@@ -186,7 +186,7 @@ gzip 응답 제어를 위해 SOAP 및 HTTP 헤더 지원을 구현했습니다.
 
 * `endDate` (작업이 완료된 경우)
 * `fileDuplicateCount` (이전에는 항상  `0` 과  `getJobLogs`)
-* `fileUpdateCount` (이전에는 항상  `0` 과 함께  `getJobLogs` 있고  `fileSuccessCount`에 포함되었습니다.이제 별도의 필드로 분할됩니다.
+* `fileUpdateCount` (이전에는 항상  `0` 과 함께  `getJobLogs` 있고  `fileSuccessCount`에 포함되었습니다. 이제 별도의 필드로 분할됩니다.
 
 `JobLogDetail` 유형에 assetHandle 필드를 추가했습니다.
 

@@ -3,16 +3,16 @@ description: IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데�
 solution: Experience Manager
 title: 신규 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: d8800b15-b9a3-4497-8b6b-fd318458ab5a
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 3%
 
 ---
 
-# 데이터 유형:신규 및 수정됨{#data-types-new-and-modified}
+# 데이터 유형: 신규 및 수정됨{#data-types-new-and-modified}
 
 IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
 

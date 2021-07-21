@@ -3,9 +3,9 @@ description: 기존 기본 소스 이미지 자산에서 파생된 새 자산을
 solution: Experience Manager
 title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 8%
@@ -43,7 +43,7 @@ ht-degree: 8%
 | `*`ownerHandle`*` | `xsd:string` | 예 | 새 이미지가 파생되는 기본 이미지 자산에 대한 핸들입니다. |
 | `*`folderHandle`*` | `xsd:string` | 예 | 새 파생 자산을 만들 폴더의 핸들입니다. |
 | `*`name`*` | `xsd:string` | 예 | 파생된 자산의 이름입니다. |
-| `*`type`*` | `xsd:string` | 예 | 새로 파생된 자산의 자산 유형:`AdjustedView` 또는 `LayerView` |
+| `*`type`*` | `xsd:string` | 예 | 새로 파생된 자산의 자산 유형: `AdjustedView` 또는 `LayerView` |
 | `*`urlModifier`*` | `xsd:string` | 아니요 | 요청 또는 `urlPostApplyModifier` 명령 전에 *이미지 제공 또는 이미지 렌더링 프로토콜 명령이 적용되었습니다.* |
 | `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | *after* 를 요청 또는 `urlPostApplyModifier` 명령에 적용한 이미지 제공 또는 이미지 렌더링 프로토콜 명령입니다. |
 

@@ -3,9 +3,9 @@ description: 자산 카운트의 배열입니다.
 solution: Experience Manager
 title: AssetCountArray
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6dca378c-d90d-4871-a5a6-77c3b0362a09
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 20%

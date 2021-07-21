@@ -3,9 +3,9 @@ description: 일괄 처리 모드를 사용하여 자산 메타데이터를 설�
 solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 13%

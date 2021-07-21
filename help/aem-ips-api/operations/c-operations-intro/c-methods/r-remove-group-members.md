@@ -3,9 +3,9 @@ description: 특정 그룹에서 회사 사용자를 제거합니다.
 solution: Experience Manager
 title: removeGroupMembers
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 9%
@@ -18,8 +18,8 @@ ht-degree: 9%
 
 **제거 명령 간의 차이**
 
-* `removeGroupMembers`:그룹에서 여러 사용자를 제거합니다.
-* `removeGroupMembership`:그룹 배열에서 개별 사용자를 제거합니다.
+* `removeGroupMembers`: 그룹에서 여러 사용자를 제거합니다.
+* `removeGroupMembership`: 그룹 배열에서 개별 사용자를 제거합니다.
 
 ## 인증된 사용자 유형 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 

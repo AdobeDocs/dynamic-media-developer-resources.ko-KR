@@ -3,9 +3,9 @@ description: 이미지 렌더링은 로그 메시지를 이미지 제공 로그 
 solution: Experience Manager
 title: 서버 로깅
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 83114821-4799-4d7f-93e8-5748a3707931
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 0%

@@ -3,9 +3,9 @@ description: IPS 웹 서비스 API에서 처리하는 일반적인 작업 매개
 solution: Experience Manager
 title: 작업 메서드
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 각 작업 매개 변수에 대한 전체 설명은 [작업 매개 변수](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md)를 참조하십시오.
 
-## 핸들:정보 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## 핸들: 정보 {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
 특정 API 작업에서 반환되는 참조 IPS 개체를 처리합니다. 후속 작업 호출에 매개 변수로 핸들을 전달할 수도 있습니다. 핸들은 문자열 데이터 형식( `xsd:string`)입니다.
 

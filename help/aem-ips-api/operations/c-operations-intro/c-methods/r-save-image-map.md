@@ -3,9 +3,9 @@ description: 새 이미지 맵을 만들거나 기존 맵을 편집합니다.
 solution: Experience Manager
 title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 8%
@@ -85,7 +85,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 작업  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연관된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 얻으려면 IPS 인터페이스의 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여넣은 다음 IPS URL의 형식을 적절한 URL로 지정합니다. 예를 들어 <span class="codeph"> &amp; </span>은 <span class="codeph"> &amp;amp;가 됩니다.</span>. </p> </td> 
+   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연관된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 얻으려면 IPS 인터페이스의 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여넣은 다음 IPS URL의 형식을 적절한 URL로 지정합니다. 예를 들어 <span class="codeph"> &amp; </span>은 <span class="codeph"> &amp;amp;가 됩니다. </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 

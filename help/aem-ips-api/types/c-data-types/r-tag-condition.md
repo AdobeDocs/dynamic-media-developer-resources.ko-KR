@@ -3,9 +3,9 @@ description: 태그 필드에 대한 검색 조건을 정의합니다.
 solution: Experience Manager
 title: 태그 조건
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 3%

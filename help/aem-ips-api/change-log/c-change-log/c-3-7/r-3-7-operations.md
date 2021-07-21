@@ -3,16 +3,16 @@ description: IPS API 버전 3.7에 대한 새로운 작업 및 변경된 작업 
 solution: Experience Manager
 title: 새 작업 및 수정된 작업
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 1%
 
 ---
 
-# 작업:신규 및 수정됨{#operations-new-and-modified}
+# 작업: 신규 및 수정됨{#operations-new-and-modified}
 
 IPS API 버전 3.7에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
 

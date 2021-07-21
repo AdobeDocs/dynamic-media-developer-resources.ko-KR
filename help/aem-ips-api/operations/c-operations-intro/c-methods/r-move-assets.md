@@ -3,9 +3,9 @@ description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업
 solution: Experience Manager
 title: moveAssets
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 9%

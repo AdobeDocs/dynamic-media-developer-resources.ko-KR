@@ -3,9 +3,9 @@ description: 지정된 기준에 따라 자산을 검색합니다.
 solution: Experience Manager
 title: searchAssets
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 7%
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 구문
 
-## searchAssets:정보 {#section-4ad74f12eb754768bf85bd235a7e25f0}
+## searchAssets: 정보 {#section-4ad74f12eb754768bf85bd235a7e25f0}
 
 `searchAssets` 는 IPS 자산을 검색하는 기본 방법입니다. 이 방법은 폴더 계층 구조를 찾아보거나 이름별로 특정 자산을 찾는 등의 여러 용도로 사용됩니다.
 
@@ -114,7 +114,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p> <p>참고: 사용되지 않는 매개 변수입니다. 사용하지 않는 것이 좋습니다. </p> </p> <p>일치하는 키워드의 문자열 배열입니다. </p> </td> 
+   <td colname="col4"> <p> <p>참고:  사용되지 않는 매개 변수입니다. 사용하지 않는 것이 좋습니다. </p> </p> <p>일치하는 키워드의 문자열 배열입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 

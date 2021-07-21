@@ -3,9 +3,9 @@ description: 사용자 핸들을 지정하는지 여부에 따라 특정 사용�
 solution: Experience Manager
 title: setPassword
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 5%
@@ -67,7 +67,7 @@ ht-degree: 5%
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">소문자 영어 문자. 예: <span class="codeph"> a b c d e </span> </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">대문자(영어) 예: <span class="codeph"> A B C D </span> 등. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">숫자. 예를 들어 <span class="codeph"> 1 2 3 4 5 </span> 등이 있습니다. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자. 예를 들어 다음 중 하나를 사용할 수 있습니다.<span class="codeph"> &amp;grave;~!@ # $ % ^* ( ) _ + - = { } | [ ] 및 \ :" ;&grave; &lt; &gt; ?, / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자. 예를 들어 다음 중 하나를 사용할 수 있습니다. <span class="codeph"> &amp;grave; ~! @ # $ % ^* ( ) _ + - = { } | [ ] 및 \ : " ; ` &lt; &gt; ? , / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -75,7 +75,7 @@ ht-degree: 5%
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime  </span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>암호 만료일을 결정합니다. <p>참고: 이 필드에 대한 요청을 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. </p> </p> </td> 
+   <td colname="col4"> <p>암호 만료일을 결정합니다. <p>참고:  이 필드에 대한 요청을 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,9 +3,9 @@ description: 사용자가 볼 수 있는 내용을 결정하는 사전 설정된
 solution: Experience Manager
 title: createViewerPreset
 feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 13%

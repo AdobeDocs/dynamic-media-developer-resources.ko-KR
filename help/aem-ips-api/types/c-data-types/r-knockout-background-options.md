@@ -3,9 +3,9 @@ description: 선택한 이미지의 배경을 마스크(녹아웃)합니다. 이
 solution: Experience Manager
 title: CkoutBackgroundOptions
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 2%
@@ -54,8 +54,8 @@ ht-degree: 2%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p><span class="codeph"><span class="varname"> 코너</span></span> 변수에 의해 지정된 위치의 픽셀 투명도를 제어합니다. <span class="codeph"> fillMethod</span>는 다음 값을 허용합니다. </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> Floodfill</span>:지정된 모서리의 모든 픽셀을 투명하게 만듭니다. </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>:위치에 관계없이 일치하는 모든 픽셀을 투명하게 만듭니다. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> Floodfill</span>: 지정된 모서리의 모든 픽셀을 투명하게 만듭니다. </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: 위치에 관계없이 일치하는 모든 픽셀을 투명하게 만듭니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

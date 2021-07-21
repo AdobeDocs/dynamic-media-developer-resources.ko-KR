@@ -3,9 +3,9 @@ description: 자산에서 삭제할 메타데이터입니다.
 solution: Experience Manager
 title: 메타데이터 삭제
 feature: Dynamic Media Classic,SDK/API,메타데이터
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 15%

@@ -3,9 +3,9 @@ description: 업로드 작업에 대한 자동 설정 생성 스크립트 목록
 solution: Experience Manager
 title: 자동 설정 생성 옵션
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e6e969be-0410-4be7-88d6-491d715fd137
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 7%

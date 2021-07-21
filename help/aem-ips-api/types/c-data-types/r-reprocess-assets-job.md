@@ -3,9 +3,9 @@ description: PDF 다시 복사 및 이미지 재최적화를 포함하여 이전
 solution: Experience Manager
 title: AssetsJob 재처리
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
@@ -52,7 +52,7 @@ PDF 다시 복사 및 이미지 재최적화를 포함하여 이전에 업로드
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:부울</span> </p> </td> 
-   <td colname="col3"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면 preserveCrop의 값이 유지됩니다. </i> 그리고 true일 경우 기존 preserveCrop 값이 유지됩니다.false인 경우 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>기존 자르기 정의의 보존을 제어합니다. 기본값은 true입니다.</p> <p>manualCropOptions 매개 변수와 해당 값을 제공하면 preserveCrop 값에 관계없이 새 값(0,0,0,0 제외)이 자산에 적용됩니다.</p><p>manualCropOptions 매개 변수를 제공하지 <i>않으면 preserveCrop의 값이 유지됩니다. </i> 그리고 true일 경우 기존 preserveCrop 값이 유지됩니다. false인 경우 preserveCrop 값이 제거됩니다.</p><p>예:</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 

@@ -3,9 +3,9 @@ description: Java 가비지 수집 주기 직후 사용 가능한 Java 힙이 �
 solution: Experience Manager
 title: 힙스페이스 우선 순위 경고
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

@@ -3,9 +3,9 @@ description: 태그 필드의 태그 사전 값을 업데이트합니다.
 solution: Experience Manager
 title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 12%
@@ -54,7 +54,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:TagValueUpdateArray</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4">업데이트할 태그 필드 값의 배열입니다. <p>참고: 태그 문자열 값만 업데이트합니다. 자산 연결에는 영향을 주지 않습니다. </p> </td> 
+   <td colname="col4">업데이트할 태그 필드 값의 배열입니다. <p>참고:  태그 문자열 값만 업데이트합니다. 자산 연결에는 영향을 주지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

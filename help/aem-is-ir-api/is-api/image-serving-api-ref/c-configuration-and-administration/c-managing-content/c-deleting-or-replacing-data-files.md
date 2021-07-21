@@ -3,9 +3,9 @@ description: '새 데이터 파일을 추가하는 작업은 간단하고 복잡
 solution: Experience Manager
 title: 데이터 파일 삭제 또는 바꾸기
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%

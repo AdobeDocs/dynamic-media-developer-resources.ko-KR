@@ -3,9 +3,9 @@ description: 자산에 대한 요약된 정보가 포함된 메타데이터 검�
 solution: Experience Manager
 title: 자산 요약
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 11%

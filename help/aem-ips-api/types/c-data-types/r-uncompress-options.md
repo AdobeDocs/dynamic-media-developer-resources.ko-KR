@@ -3,9 +3,9 @@ description: ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 �
 solution: Experience Manager
 title: 압축 해제 옵션
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 5%
@@ -38,7 +38,7 @@ ZIP 및 TAR 파일을 기본 자산(없음)으로 처리하거나 컨텐츠를 �
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음: </span> 기본 자산으로 처리합니다. </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제: </span> 컨텐츠를 추출하고 처리합니다. </li>
-     </ul><p>참고:문자열 상수는 대/소문자를 구분합니다. <span class="codeph"> 압축 해제</span> 또는 <span class="codeph"> uncompress</span>가 아닌 <span class="codeph"> 압축 해제</span>를 사용하십시오. </p></p> </td> 
+     </ul><p>참고: 문자열 상수는 대/소문자를 구분합니다. <span class="codeph"> 압축 해제</span> 또는 <span class="codeph"> uncompress</span>가 아닌 <span class="codeph"> 압축 해제</span>를 사용하십시오. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

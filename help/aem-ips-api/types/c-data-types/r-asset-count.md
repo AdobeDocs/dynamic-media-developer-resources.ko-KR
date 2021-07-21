@@ -3,9 +3,9 @@ description: 회사의 자산 유형 및 카운트입니다.
 solution: Experience Manager
 title: 자산 수
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 8%

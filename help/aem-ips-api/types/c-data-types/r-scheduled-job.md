@@ -3,9 +3,9 @@ description: 실행하도록 예약된 작업입니다.
 solution: Experience Manager
 title: 예약된 작업
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 4%
@@ -28,7 +28,7 @@ ht-degree: 4%
 | `*`originalName`*` | `xsd:string` | 예약된 작업의 원래 이름입니다. |
 | `*`type`*` | `xsd:string` | 작업 유형입니다. |
 | `*`submitUserEmail`*` | `xsd:string` | 작업을 예약한 사용자의 이메일 주소입니다. |
-| `*`로케일`*` | `xsd:string` | 작업 로그 세부 사항 및 전자 메일 지역화에 사용할 로케일입니다. 로케일은 `<language_code>[- <country_code>]`로 지정됩니다. 여기서 언어 코드는 ISO-639에서 지정한 소문자로 된 두 문자 코드이고 선택적 국가 코드는 ISO-3166에서 지정한 대문자인 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다.`en-US` |
+| `*`로케일`*` | `xsd:string` | 작업 로그 세부 사항 및 전자 메일 지역화에 사용할 로케일입니다. 로케일은 `<language_code>[- <country_code>]`로 지정됩니다. 여기서 언어 코드는 ISO-639에서 지정한 소문자로 된 두 문자 코드이고 선택적 국가 코드는 ISO-3166에서 지정한 대문자인 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. `en-US` |
 | `*`설명`*` | `xsd:string` | 원래 `submitJob`에 지정된 작업에 대한 설명입니다. |
 | `*`execSchedule`*` | `xsd:string` | 작업이 실행되도록 예약된 경우입니다. |
 | `*`nextFireTime`*` | `xsd:dateTime` | 작업을 실행할 날짜, 시간 및 시간대입니다. |

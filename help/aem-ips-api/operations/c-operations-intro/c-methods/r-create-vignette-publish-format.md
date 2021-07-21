@@ -3,9 +3,9 @@ description: 비네트에 대한 새 게시 형식을 만듭니다.
 solution: Experience Manager
 title: createVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 14%
@@ -69,7 +69,7 @@ ht-degree: 14%
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 코드 구문  </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 각 결과 축소판의 너비를 픽셀 단위로 지정합니다.이 설정은 선택 사항입니다. 축소판 파일이 없으면 0으로 둡니다. </td> 
+   <td colname="col4"> 각 결과 축소판의 너비를 픽셀 단위로 지정합니다. 이 설정은 선택 사항입니다. 축소판 파일이 없으면 0으로 둡니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 

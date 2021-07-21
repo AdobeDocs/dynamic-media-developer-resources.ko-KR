@@ -3,9 +3,9 @@ description: 이전에 업로드한 파일의 인증된 내보내기를 허용�
 solution: Experience Manager
 title: 내보내기 작업
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 10%
@@ -44,7 +44,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> export.Possible Values</span> 형식을 지정합니다.[원본, 변환] </p> <p> 
+   <td colname="col3"> <p><span class="codeph"> export.Possible Values</span> 형식을 지정합니다. [원본, 변환] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9"><span class="codeph"> fmt=orig</span>이면 자산이 원본으로 내보내집니다 </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564"><span class="codeph"> fmt=convert</span> 경우 자산은 <span class="codeph"> is_modifer</span> 또는 <span class="codeph"> 매크로</span> 입력 매개 변수에 지정된 형식으로 변환됩니다 </li> 
@@ -75,7 +75,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>내보내기 요청을 시작한 클라이언트 또는 고객의 IP 주소를 지정합니다. </p> <p> <p>참고: 이 매개 변수는 현재 적극적으로 채워지지 않으며 향후 사용에만 사용하도록 엄격히 예약되어 있습니다. </p> </p> </td> 
+   <td colname="col3"> <p>내보내기 요청을 시작한 클라이언트 또는 고객의 IP 주소를 지정합니다. </p> <p> <p>참고:  이 매개 변수는 현재 적극적으로 채워지지 않으며 향후 사용에만 사용하도록 엄격히 예약되어 있습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

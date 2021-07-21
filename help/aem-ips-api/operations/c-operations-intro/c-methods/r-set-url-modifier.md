@@ -3,9 +3,9 @@ description: 지정된 자산에 대한 이미지 제공 또는 이미지 렌더
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 7%

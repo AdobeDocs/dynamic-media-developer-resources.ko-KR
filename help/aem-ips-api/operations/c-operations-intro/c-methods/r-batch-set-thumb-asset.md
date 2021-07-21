@@ -3,9 +3,9 @@ description: 하나 이상의 자산에 대한 축소판 이미지를 설정합�
 solution: Experience Manager
 title: batchSetThumbAsset
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 13%

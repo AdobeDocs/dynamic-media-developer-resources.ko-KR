@@ -3,9 +3,9 @@ description: 서버에서 실행되는 작업입니다. 또한 예약된 작업�
 solution: Experience Manager
 title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: 1ec8b59f442eb96c6c3f5f1405d57a38a86bd056
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -80,7 +80,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 로케일</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업 로그 세부 사항 및 전자 메일 지역화의 로케일입니다. <p><span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>로 로케일을 지정합니다. 여기서 언어 코드는 ISO-639에 의해 지정된 소문자, 두 문자 코드이고 선택적 국가 코드는 ISO-3166에 의해 지정된 대소문자, 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다.<span class="codeph"> en-US</span> </p></td> 
+   <td colname="col3">작업 로그 세부 사항 및 전자 메일 지역화의 로케일입니다. <p><span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>로 로케일을 지정합니다. 여기서 언어 코드는 ISO-639에 의해 지정된 소문자, 두 문자 코드이고 선택적 국가 코드는 ISO-3166에 의해 지정된 대소문자, 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. <span class="codeph"> en-US</span> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 설명</span> </span> </td> 

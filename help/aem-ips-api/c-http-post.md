@@ -3,9 +3,9 @@ description: Dynamic Media Classic에 자산 업로드에는 업로드된 파일
 solution: Experience Manager
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 feature: Dynamic Media Classic,SDK/API,자산 관리
-role: Developer,Administrator
+role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 3%

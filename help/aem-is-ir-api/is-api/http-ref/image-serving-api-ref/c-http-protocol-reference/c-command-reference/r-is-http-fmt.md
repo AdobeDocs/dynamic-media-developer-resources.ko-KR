@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 5%
 
 ---
@@ -22,33 +22,33 @@ ht-degree: 5%
 
 | *`format`* | 설명 |
 |---|---|
-| `avif-alpha` | 알파 채널이 있는 손실 및 무손실 AVIF <br><br>*이 형식의 릴리스 타임라인:* <br><b>북미</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 지금 사용 가능 |
-| `avif` | 손실 및 무손실 AVIF <br><br>*이 형식의 릴리스 타임라인:*<br><b>&#x200B;북아메리카</b> - 지금 사용 가능<br><b>유럽, 중동, 아프리카</b> - 2021년 8월 13일<br><b>아시아-태평양</b> - 지금 사용 가능 |
-| `eps` | 압축되지 않은 이진 캡슐화된 PostScript |
-| `f4m` | Flash 스트리밍 서버 매니페스트 형식 |
-| `gif-alpha` | 2-256개 색상과 주요 색상 투명도가 있는 GIF |
-| `gif` | 2~256색 GIF |
-| `jpeg` | 손실 JPEG |
-| `jpeg2000-alpha` | 알파 채널 포함 손실 및 손실 없는 JPEG 2000 |
+| `avif-alpha` | 알파 채널이 있는 손실 및 손실 없는 AVIF. |
+| `avif` | 손실 및 손실 없는 AVIF. |
+| `eps` | 압축되지 않은 이진 캡슐화된 PostScript. |
+| `f4m` | Flash 스트리밍 서버 매니페스트 형식입니다. |
+| `gif-alpha` | 2-256개 색상과 주요 색상 투명도가 있는 GIF. |
+| `gif` | 2~256색 GIF입니다. |
+| `jpeg` | 손실 JPEG. |
+| `jpeg2000-alpha` | 알파 채널이 있는 손실 및 손실 없는 JPEG 2000 |
 | `jpeg2000` | 손실 및 손실 없는 JPEG 2000 |
 | `jpegxr-alpha` | 알파 채널이 있는 손실 및 손실 없는 JPEG XR |
-| `jpegxr` | 손실 및 손실 없는 JPEG XR |
-| `jpg` | 손실 JPG |
-| `m3u8` | Apple 스트리밍 서버 매니페스트 형식 |
-| `pdf` | PDF에 포함된 이미지 |
-| `pjpeg` | 프로그레시브 JPEG |
+| `jpegxr` | 손실 및 손실 없는 JPEG XR. |
+| `jpg` | 손실 JPG. |
+| `m3u8` | Apple 스트리밍 서버 매니페스트 형식입니다. |
+| `pdf` | PDF에 포함된 이미지. |
+| `pjpeg` | 프로그레시브 JPEG. |
 | `png-alpha` | 알파 채널이 있는 24비트 무손실 PNG |
 | `png` | 24비트 무손실 PNG |
 | `png8-alpha` | 알파 채널이 있는 8비트 무손실 PNG |
 | `png8` | 8비트 무손실 PNG |
-| `swf-alpha` | Adobe AS2 swf 파일에 포함된 손실 JPEG 및 디플레이트 압축 마스크 |
+| `swf-alpha` | Adobe AS2 swf 파일에 포함된 JPEG와 디플레이트 압축 마스크의 손실. |
 | `swf` | Adobe AS2 swf 파일에 포함된 손실 JPEG |
-| `swf3-alpha` | Adobe AS3 swf 파일에 포함된 JPEG와 디플레이트 압축 마스크의 손실. **참고:** swf 및 swf-알파 형식은 ActionScript 2 응용 프로그램(Flash Player 8 이하)에 가장 잘 사용됩니다. ActionScript3 응용 프로그램(Flash Player 9 이상)에는 swf3 및 swf3-alpha 형식을 사용하는 것이 좋습니다 |
+| `swf3-alpha` | Adobe AS3 swf 파일에 포함된 JPEG와 디플레이트 압축 마스크의 손실. **참고:** swf 및 swf-알파 형식은 ActionScript 2 응용 프로그램(Flash Player 8 이하)에 가장 잘 사용됩니다. ActionScript3 응용 프로그램(Flash Player 9 이상)에는 swf3 및 swf3-alpha 형식을 사용하는 것이 좋습니다. |
 | `swf3` | Adobe AS3 swf 파일에 포함된 손실 JPEG |
-| `tif-alpha` | 알파 채널이 있는 TIFF |
-| `tif` | TIFF |
-| `webp-alpha` | 알파 채널이 있는 손실 및 손실 없는 WebP |
-| `webp` | 손실 및 손실 없는 WebP |
+| `tif-alpha` | 알파 채널이 있는 TIFF. |
+| `tif` | TIFF. |
+| `webp-alpha` | 알파 채널이 있는 손실 및 손실 없는 WebP. |
+| `webp` | 손실 및 손실 없는 WebP. |
 
 | *`pixelType`* – rgb | 회색 | cmyk |
 | *`pixelType`* | 설명 |
@@ -60,11 +60,11 @@ ht-degree: 5%
 | *`compression`* – none | lzw | zip | jpeg | 손실 | 무손실 |
 | *`compression`* | 설명 |
 |---|---|
-| `jpeg` | JPEG 압축(손실) |
-| `lossy` | WebP, JPEG 2000 및 JPEG XR 압축(손실) |
-| `lossless` | WebP, JPEG 2000 및 JPEG XR 압축(무손실) |
+| `jpeg` | JPEG 압축(손실). |
+| `lossy` | WebP, JPEG 2000 및 JPEG XR 압축(손실). |
+| `lossless` | WebP, JPEG 2000 및 JPEG XR 압축(무손실). |
 | `lzw` | LZW(Lempel-Ziv-Welch) 압축(손실 없음) |
-| `none` | 압축 해제됨 |
+| `none` | 압축 해제됨. |
 | `zip` | &quot;Deflate&quot; 압축(손실 없음) |
 
 * *`format`* 클라이언트로 전송되는 이미지 데이터의 이미지 인코딩 형식과 HTTP 응답 헤더에 대한 해당 응답 MIME 유형을 지정합니다.

@@ -5,9 +5,9 @@ title: 시스템 요구 사항 및 사전 요구 사항
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ Dynamic Media 이미지 서비스에는 다음 서버 소프트웨어가 필요�
 * Red Hat® Enterprise 5 또는 CentOS 5.5 이상(최신 수정 패치 포함)
 * 64비트 운영 체제.
 
-**참고:** Windows에서 이미지 서비스를 사용하려면 Microsoft Visual Studio 2010 재배포 가능 패키지를 설치해야 합니다. 재배포 가능 가능 여부는 다음 위치에서 사용할 수 있습니다.
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**참고:** Windows에서 이미지 서비스를 사용하려면 Microsoft Visual Studio 2010 재배포 가능 패키지를 설치해야 합니다.

@@ -5,9 +5,9 @@ title: IPS 웹 서비스 WSDL 버전
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ IPS API SOAP 바인딩은 HTTP 전송만 지원합니다. HTTPS POST 방법을 �
 
 **메시지 포맷**
 
-문서/리터럴 스타일은 WSDL 파일에 지정된 XML 스키마 정의 언어( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/))를 기반으로 하는 형식의 모든 입력 및 출력 메시지에 사용됩니다. 모든 유형에는 WSDL 파일에 지정된 대상 네임스페이스 값을 사용하여 정규화된 이름이 필요합니다.
+문서/리터럴 스타일은 WSDL 파일에 지정된 XML 스키마 정의 언어( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))를 기반으로 하는 형식의 모든 입력 및 출력 메시지에 사용됩니다. 모든 유형에는 WSDL 파일에 지정된 대상 네임스페이스 값을 사용하여 정규화된 이름이 필요합니다.
 
 **인증 요청**
 

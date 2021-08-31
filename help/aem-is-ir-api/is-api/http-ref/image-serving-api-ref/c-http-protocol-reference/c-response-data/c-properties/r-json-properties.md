@@ -5,9 +5,9 @@ title: JSONP 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 `req=` 매개 변수�
 
 Dynamic Media Image Serving Viewers 패키지에는 이미지 제공에서 JSONP 형식의 데이터를 요청 및 구문 분석하는 유틸리티가 포함되어 있습니다.
 
-JSONP 형식에 대한 자세한 내용은 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) 을 참조하십시오.
+JSONP 형식에 대한 자세한 내용은 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 을 참조하십시오.
 
-JSON 형식에 대한 자세한 내용은 [www.json.org](http://www.json.org) 을 참조하십시오.
+JSON 형식에 대한 자세한 내용은 [www.json.org](https://www.json.org) 을 참조하십시오.
 
 [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)도 참조하십시오.

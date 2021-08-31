@@ -5,9 +5,9 @@ title: 정적(비이미지) 콘텐츠 제공
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,9 @@ ht-degree: 0%
 
 다른 종류의 시간 메타데이터에 대한 트랙을 사용할 수도 있습니다. 각 추적 요소의 소스 데이터는 시간 큐 목록으로 구성된 텍스트 파일입니다. 큐는 JSON 또는 CSV와 같은 형식으로 데이터를 포함할 수 있습니다.
 
-JSONP 형식에 대한 자세한 내용은 [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) 을 참조하십시오.
+JSONP 형식에 대한 자세한 내용은 [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) 을 참조하십시오.
 
-JSON 형식에 대한 자세한 내용은 [www.json.org](http://www.json.org) 을 참조하십시오.
+JSON 형식에 대한 자세한 내용은 [www.json.org](https://www.json.org) 을 참조하십시오.
 
 ## 참조 {#section-7b28631016044a22a3a6762fd64771e9}
 

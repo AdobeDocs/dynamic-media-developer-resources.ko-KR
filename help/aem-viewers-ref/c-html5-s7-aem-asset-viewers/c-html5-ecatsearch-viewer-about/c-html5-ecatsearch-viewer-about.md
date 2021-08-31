@@ -3,12 +3,12 @@ description: eCatalog Search Viewer는 스프레드 또는 페이지 방식으�
 keywords: 응답형
 solution: Experience Manager
 title: eCatalog 검색
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 지정된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `eCatalogSearchViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `http://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Viewers/Pluralist`는 자산입니다.
+   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `eCatalogSearchViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `https://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Viewers/Pluralist`는 자산입니다.
 
    ```
    <script type="text/javascript"> 
@@ -201,8 +201,8 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script>
@@ -214,7 +214,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
@@ -229,8 +229,8 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/", 
-    "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/", 
+    "searchserverurl":"https://s7search1.scene7.com/s7search/" 
    } 
    }).init(); 
    </script> 
@@ -270,7 +270,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -286,8 +286,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -333,7 +333,7 @@ height: 60%;
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -357,8 +357,8 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/", 
- "searchserverurl":"http://s7search1.scene7.com/s7search/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/", 
+ "searchserverurl":"https://s7search1.scene7.com/s7search/" 
 } 
 }).init(); 
 </script> 
@@ -376,7 +376,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogsearchviewer { 
  width: 640px; 
@@ -389,8 +389,8 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 <script type="text/javascript"> 
 var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer(); 
 eCatalogSearchViewer.setContainerId("s7viewer"); 
-eCatalogSearchViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
-eCatalogSearchViewer.setParam("searchserverurl", "http://s7search1.scene7.com/s7search/"); 
+eCatalogSearchViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
+eCatalogSearchViewer.setParam("searchserverurl", "https://s7search1.scene7.com/s7search/"); 
 eCatalogSearchViewer.setAsset("Viewers/Pluralist"); 
 eCatalogSearchViewer.init(); 
 </script> 

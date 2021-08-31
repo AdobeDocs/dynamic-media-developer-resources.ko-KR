@@ -6,9 +6,9 @@ title: eCatalog
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '2171'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ eCatalog Viewer는 스프레드 또는 페이지 방식으로 전자 브로셔�
 
 ## 데모 URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+[https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
 
 ## eCatalog 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -107,7 +107,7 @@ eCatalog 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를 사용
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
 ```
-<a href="http://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
+<a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
 **고정 크기 포함 모드 및 응답형 디자인 포함 모드 정보**
@@ -198,7 +198,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
    동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 지정된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `eCatalogViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `http://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Viewers/Pluralist`는 자산입니다.
+   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예제에서는 `eCatalogViewer`이 뷰어 인스턴스라고 가정합니다. `s7viewer` 은 자리 표시자 `DIV`;의 이름입니다. `https://s7d1.scene7.com/is/image/`은 이미지 제공 URL이고 `Viewers/Pluralist`는 자산입니다.
 
    ```
    <script type="text/javascript"> 
@@ -206,7 +206,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script>
@@ -218,7 +218,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
    <!DOCTYPE html> 
    <html> 
    <head> 
-   <script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+   <script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
    <style type="text/css"> 
    #s7viewer.s7ecatalogviewer { 
     width: 640px; 
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
     "containerId":"s7viewer", 
    "params":{ 
     "asset":"Viewers/Pluralist", 
-    "serverurl":"http://s7d1.scene7.com/is/image/" 
+    "serverurl":"https://s7d1.scene7.com/is/image/" 
    } 
    }).init(); 
    </script> 
@@ -273,7 +273,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 .holder { 
  width: 40%; 
@@ -289,7 +289,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -335,7 +335,7 @@ height: 60%;
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 html, body { 
  width: 100%; 
@@ -359,7 +359,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 } 
 }).init(); 
 </script> 
@@ -377,7 +377,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 <!DOCTYPE html> 
 <html> 
 <head> 
-<script type="text/javascript" src="http://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
+<script type="text/javascript" src="https://s7d1.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script> 
 <style type="text/css"> 
 #s7viewer.s7ecatalogviewer { 
  width: 640px; 
@@ -390,7 +390,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 <script type="text/javascript"> 
 var eCatalogViewer = new s7viewers.eCatalogViewer(); 
 eCatalogViewer.setContainerId("s7viewer"); 
-eCatalogViewer.setParam("serverurl", "http://s7d1.scene7.com/is/image/"); 
+eCatalogViewer.setParam("serverurl", "https://s7d1.scene7.com/is/image/"); 
 eCatalogViewer.setAsset("Viewers/Pluralist"); 
 eCatalogViewer.init(); 
 </script> 

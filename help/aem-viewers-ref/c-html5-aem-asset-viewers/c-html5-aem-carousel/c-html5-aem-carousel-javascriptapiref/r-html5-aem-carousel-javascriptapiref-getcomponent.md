@@ -1,18 +1,18 @@
 ---
+title: getComponent
 description: 회전판 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: getComponent**
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 088d99d0-600d-4e47-85ea-a9769938b88b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# getComponent**{#getcomponent}
+# getComponent {#getcomponent}
 
 회전판 뷰어에 대한 JavaScript API 참조.
 
@@ -77,7 +77,7 @@ SDK API를 사용할 때는 [Viewer SDK 네임스페이스](../../../c-html5-aem
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 뷰어 SDK 구성 요소에 대한 참조. `componentId` 이 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않은 경우 이 메서드는 `null`을 반환합니다.
+`{Object}` Viewer SDK 구성 요소에 대한 참조. `componentId` 이 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않은 경우 이 메서드는 `null`을 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

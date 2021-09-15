@@ -1,13 +1,13 @@
 ---
+title: 회전판 뷰어에 대한 JavaScript API 참조
 description: 회전판 뷰어의 기본 클래스는 CarouselViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 콜백을 다룹니다.
 solution: Experience Manager
-title: 회전판 뷰어에 대한 JavaScript API 참조
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 58e01a97-0761-4569-8a2e-77b17a55521d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 96ac67e5645c2c55920cc971806ba2f14ae57044
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

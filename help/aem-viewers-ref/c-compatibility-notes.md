@@ -5,9 +5,9 @@ title: 호환성 정보
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 1%
 * `IntialBitRate` 수정자는 소프트웨어 HLS 및 Flash HDS 재생에서만 지원됩니다. 재생이 기본 플레이어를 사용하는 경우에는 작동하지 않습니다.
 * OGG 및 WebM 점진적 재생은 지원되지 않습니다.
 * 브라우저 크기 조정을 수행하면 비디오 플레이어가 잘못된 크기로 표시됩니다(Windows® Campaign 컨트롤 패널 표시 설정 포함).
-* Safari에서 HLS 스트리밍을 사용하는 비디오 찾기가 일치하지 않습니다.
+* Safari에서 HLS 스트리밍을 사용하는 비디오 찾기가 일관되지 않습니다.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
@@ -71,5 +71,5 @@ ht-degree: 1%
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
 * Safari 6.1 이상: 인터넷 플러그인 설정으로 인해 Flash 비디오가 재생되지 않습니다.
-* Safari에서 HLS 스트리밍을 사용하는 비디오 찾기가 일치하지 않습니다.
+* Safari에서 HLS 스트리밍을 사용하는 비디오 찾기가 일관되지 않습니다.
 * HLS 스트리밍을 사용하여 Safari 6에서 비디오를 종료할 수 없습니다.

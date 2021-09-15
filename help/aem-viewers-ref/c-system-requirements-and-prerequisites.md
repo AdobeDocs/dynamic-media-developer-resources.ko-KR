@@ -6,9 +6,9 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 ## 서버 하드웨어 및 소프트웨어 {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 이상
-* HTML5 뷰어를 사용하려면 SDK JavaScript™ 서버측 라이브러리 3.11.1 이상이 필요합니다.
+* HTML5 뷰어를 사용하려면 SDK JavaScript 서버 측 라이브러리 3.11.1 이상이 필요합니다.
 * &quot;친구에게 이메일 보내기&quot; 소셜 기능을 사용하려면 s7ondemand 5.0.9 이상이 필요합니다.
 * eCatalog Viewer - 정보 패널을 지원하려면 info server 2.1.8 이상이 필요합니다.
 * 검색 기능 구성 요소를 사용하려면 s7search 2.3.0 이상이 필요합니다.

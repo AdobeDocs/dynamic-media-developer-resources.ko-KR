@@ -1,20 +1,20 @@
 ---
-description: 다음 슬라이드 단추를 클릭하거나 탭하면 회전판 세트의 다음 슬라이드로 이동합니다.
-solution: Experience Manager
 title: 다음 슬라이드
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+description: 다음 슬라이드 단추를 선택하면 회전판 세트의 다음 슬라이드로 이동합니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # 다음 슬라이드{#next-slide}
 
-다음 슬라이드 단추를 클릭하거나 탭하면 회전판 세트의 다음 슬라이드로 이동합니다.
+다음 슬라이드 단추를 선택하면 회전판 세트의 다음 슬라이드로 이동합니다.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ ht-degree: 3%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)를 참조하십시오.
 
-예 - 60 x 60픽셀인 이전 슬라이드 단추를 설정하고, 오른쪽 뷰어 테두리로부터 10픽셀을 위치하고 세로 가운데에 놓으며, 네 개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
+예를 들어 60 x 60픽셀인 이전 슬라이드 단추를 설정한다고 가정합니다. 단추를 오른쪽 뷰어 테두리에서 10픽셀로 놓고 세로로 가운데에 맞추려고 합니다. 이렇게 하면 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시할 수 있습니다.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

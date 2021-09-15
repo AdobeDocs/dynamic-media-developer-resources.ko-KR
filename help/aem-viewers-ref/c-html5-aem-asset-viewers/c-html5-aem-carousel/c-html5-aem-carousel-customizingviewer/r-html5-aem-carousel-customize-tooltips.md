@@ -1,13 +1,13 @@
 ---
+title: 도구 설명
 description: 데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 solution: Experience Manager
-title: 도구 설명
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 6%
 
 ---
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙이 포함되어야 합니다. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 필요하지 않습니다.
+>포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙이 포함되어야 합니다. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 이 단계가 필요하지 않습니다.
 
-예 - 3픽셀 모퉁이 반경, 검은색 배경 및 흰색 텍스트가 Arial로 있는 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기입니다.
+예 - 3픽셀 모퉁이 반경, 검은색 배경 및 흰색 텍스트가 Arial®로 있는 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기를 지정합니다.
 
 ```
 .s7tooltip { 

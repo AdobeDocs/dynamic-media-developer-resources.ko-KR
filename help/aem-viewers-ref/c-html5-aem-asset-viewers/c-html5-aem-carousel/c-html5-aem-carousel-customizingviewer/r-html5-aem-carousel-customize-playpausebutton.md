@@ -1,13 +1,13 @@
 ---
+title: PlayPause 단추
 description: 재생/일시 중지 단추를 사용하면 사용자가 회전 자동 재생 동작을 일시 중지하거나 다시 시작할 수 있습니다.
 solution: Experience Manager
-title: PlayPause 단추
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)를 참조하십시오.
 
-예 - 28 x 28픽셀인 재생 일시 중지 단추를 설정하려면 아래쪽에서 17픽셀이고 뷰어의 왼쪽 가장자리에서 12픽셀이며 선택 여부에 따라 네 개의 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
+예를 들어 28 x 28픽셀인 재생 일시 중지 단추를 설정한다고 가정합니다. 단추의 위치는 아래쪽에서 17픽셀이고 뷰어의 왼쪽 가장자리에서 12픽셀입니다. 선택 여부에 따라 각기 다른 네 가지 단추 상태에 대해 다른 이미지를 표시할 수도 있습니다.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

@@ -1,13 +1,13 @@
 ---
+title: config
 description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
-title: config
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ style=customStyle.css
 config=2020/preset-oct
 ```
 
-이는 URL에 명시적으로 지정된 다음 명령과 같습니다.
+이 예는 URL에 명시적으로 지정된 다음 명령과 같습니다.
 
 ```
 style=customStyle.css
@@ -72,7 +72,7 @@ maxZoom=200
 config=2019/spin-oct
 ```
 
-이는 URL에 명시적으로 지정된 다음 명령과 같습니다.
+이 예는 URL에 명시적으로 지정된 다음 명령과 같습니다.
 
 ```
 zoomStep=3&maxZoom=200
@@ -92,7 +92,7 @@ style=etc/dam/presets/css/html5_interactiveimage.css
 config=/etc/dam/presets/viewer/Shoppable_Banner
 ```
 
-이는 URL에 명시적으로 지정된 다음 명령과 같습니다.
+이 예는 URL에 명시적으로 지정된 다음 명령과 같습니다.
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
@@ -110,7 +110,7 @@ style=etc/dam/presets/css/html5_interactivevideo_dark.css
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 ```
 
-이는 URL에 명시적으로 지정된 다음 명령과 같습니다.
+이 예는 URL에 명시적으로 지정된 다음 명령과 같습니다.
 
 ```
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
@@ -130,7 +130,7 @@ style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 
-이는 URL에 명시적으로 지정된 다음 명령과 같습니다.
+이 예는 URL에 명시적으로 지정된 다음 명령과 같습니다.
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css

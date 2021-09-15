@@ -1,20 +1,20 @@
 ---
+title: 이전 슬라이드
 description: 이 단추를 클릭하거나 탭하면 회전판 세트의 이전 슬라이드로 사용자가 반환됩니다. 이 단추는 터치 장치에 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
-title: 이전 슬라이드
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f780e62e-7238-4cc6-b382-3a21043e1079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
 
 # 이전 슬라이드{#previous-slide}
 
-이 단추를 클릭하거나 탭하면 회전판 세트의 이전 슬라이드로 사용자가 반환됩니다. 이 단추는 터치 장치에 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+이 단추를 선택하면 회전판 집합의 이전 슬라이드로 사용자가 반환됩니다. 이 단추는 터치 장치에 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -77,7 +77,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)를 참조하십시오.
 
-예 - 60 x 60픽셀인 이전 슬라이드 단추를 설정하고, 왼쪽 뷰어 테두리로부터 10픽셀이고 세로 가운데에 위치하고, 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예를 들어 60 x 60픽셀인 이전 슬라이드 단추를 설정한다고 가정합니다. 왼쪽 뷰어 테두리에서 10픽셀을 배치하여 세로 가운데에 배치하려고 합니다. 이렇게 하면 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시할 수 있습니다.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

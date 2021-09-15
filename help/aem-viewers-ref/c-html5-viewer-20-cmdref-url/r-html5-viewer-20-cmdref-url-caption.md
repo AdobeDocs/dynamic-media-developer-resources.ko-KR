@@ -1,13 +1,13 @@
 ---
+title: 캡션
 description: 모든 뷰어에 공통되는 매개 변수.
 solution: Experience Manager
-title: 캡션
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -69,18 +69,18 @@ ht-degree: 6%
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>선 위치 </p> </td> 
    <td colname="col3"> <p> 0%-100%|정수 </p> </td> 
-   <td colname="col4"> <p> 페이지에서 라인 위치를 결정합니다. </p> <p>퍼센트 기호가 없는 정수로 표시되는 경우 텍스트가 표시되는 맨 위의 라인 수입니다. </p> <p>백분율로 표현되는 경우 - 퍼센트 기호가 마지막 문자이고, 캡션 텍스트는 표시 영역 아래쪽의 비율을 나타냅니다. </p> <p>기본값은 <span class="codeph"> 100% </span>입니다. </p> </td> 
+   <td colname="col4"> <p> 페이지에서 라인 위치를 결정합니다. </p> <p>퍼센트 기호가 없는 정수로 표시되는 경우 텍스트가 표시되는 맨 위의 라인 수입니다. </p> <p>백분율로 표현되는 경우 - 퍼센트 기호가 마지막 문자이고 표시 영역 아래쪽의 백분율 기호가 표시됩니다. </p> <p>기본값은 <span class="codeph"> 100% </span>입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-WebVTT 파일에 다른 WebVTT 기능이 있는 경우 지원되지 않습니다. 그러나 캡션을 중단하지는 않습니다.
+WebVTT 파일 내에 다른 WebVTT 기능이 있는 경우 지원되지 않습니다. 그러나 캡션을 중단하지 않습니다.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 파일  </span> </span> </p> </td> 
-   <td colname="col2"> <p> WebVTT 캡션 컨텐츠의 URL 또는 경로를 지정합니다. WebVTT 파일은 이미지 제공에서 제공합니다. </p> </td> 
+   <td colname="col2"> <p> WebVTT 캡션 콘텐츠의 URL 또는 경로를 지정합니다. WebVTT 파일은 이미지 제공에서 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 

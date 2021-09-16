@@ -1,13 +1,13 @@
 ---
+title: 명령 참조 - 구성 속성
 description: 회전판 뷰어에 대한 구성 속성 설명서입니다.
 solution: Experience Manager
-title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 71c2c973-d711-4d37-b778-381a7ec71527
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[ZoomView.|<containerId>_carouselView].fmt`
 
-즉, 이 명령을 다음과 같이 사용할 수 있습니다.
+이 경우 다음 명령을 사용할 수 있습니다.
 
 * `fmt` (짧은 구문)
 * `CarouselView.fmt` (구성 요소 클래스 이름으로 한정됨)

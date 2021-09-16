@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.autohide
 description: SetIndicator.autohide
 solution: Experience Manager
-title: SetIndicator.autohide
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> 제한</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 페이지 수 및 런타임 구성 요소 크기에 따라 자동 숨기기 동작을 구성합니다. </p> <p> <span class="codeph"> 0</span> 은 자동 숨김을 해제합니다. </p> <p> <span class="codeph"> 1</span> 에서 자동 숨김을 활성화합니다. 다음 조건 중 하나 이상이 true로 전환되면 구성 요소는 점을 숨깁니다. </p> <p> 
+   <td colname="col2"> <p> 페이지 수 및 런타임 구성 요소 크기에 따라 자동 숨기기 동작을 구성합니다. </p> <p> <span class="codeph"> 0</span> 은 자동 숨김을 해제합니다. </p> <p> <span class="codeph"> 1</span> 에서 자동 숨김을 활성화합니다. 다음 조건 중 하나 이상이 true인 경우 구성 요소는 점을 숨깁니다. </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">점이 있는 행이 런타임 구성 요소 너비보다 넓어지거나 </li> 
       <li id="li_E30BAC8B609147ADB8824000F5729B21">이 구성 요소에 대해 설정된 페이지 수가 <span class="codeph"><span class="varname"> 제한</span></span> 매개 변수로 구성된 제한을 초과합니다. </li> 

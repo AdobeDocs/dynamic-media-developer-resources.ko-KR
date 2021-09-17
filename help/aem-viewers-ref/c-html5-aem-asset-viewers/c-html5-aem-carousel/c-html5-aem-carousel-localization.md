@@ -1,20 +1,20 @@
 ---
-description: 회전판 뷰어에 표시되는 특정 콘텐츠는 현지화가 적용됩니다. 여기에는 슬라이드 탐색 단추가 포함됩니다.
-solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,Viewers,SDK/API,회전 배너
+description: 회전판 뷰어에 표시되는 특정 콘텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 슬라이드 탐색 단추가 포함되어 있습니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # 사용자 인터페이스 요소의 로컬라이제이션{#localization-of-user-interface-elements}
 
-회전판 뷰어에 표시되는 특정 콘텐츠는 현지화가 적용됩니다. 여기에는 슬라이드 탐색 단추가 포함됩니다.
+회전판 뷰어에 표시되는 특정 콘텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 슬라이드 탐색 단추가 포함되어 있습니다.
 
 지역화할 수 있는 뷰어의 모든 텍스트 컨텐츠는 SYMBOL이라는 특수 Viewer SDK 식별자로 표시됩니다. 모든 SYMBOL에는 기본 제공 뷰어와 함께 제공되는 영어 로케일( `"en"`)에 대한 기본 관련 텍스트 값이 있으며, 필요에 따라 여러 로케일에 대해 사용자 정의 값을 설정할 수도 있습니다.
 

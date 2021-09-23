@@ -1,13 +1,13 @@
 ---
+title: 대화형 색상 견본
 description: 구성 시 대화형 데이터가 뷰어에 전달된 경우 대화형 색상 견본 패널이 비디오 컨텐츠 옆에 나타납니다. 이 배너는 맨 위에 있는 배너로 구성되며 "클릭하여 보기" 등의 텍스트를 렌더링합니다. 이 배너는 하나 이상의 대화형 색상 견본 열과 두 개의 스크롤 단추(데스크톱 시스템에서만 사용 가능)로 구성됩니다.
 solution: Experience Manager
-title: 대화형 색상 견본
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ ht-degree: 2%
 * 뷰어 하단에서 대화형 색상 견본을 가로로 렌더링하려면 높이를 절대 픽셀 값으로 설정합니다. 왼쪽 및 아래쪽 - 0px 너비, 오른쪽, 위쪽에서 자동으로
 * 대화형 색상 견본을 비디오 컨텐츠의 오른쪽에 세로로 렌더링하려면 폭을 절대 픽셀로 설정합니다. 오른쪽 및 위쪽 - 0px 높이, 왼쪽 및 아래쪽이 자동으로 사용됩니다.
 
-이 스타일과 함께 CSS 마커를 사용하여 대화형 색상 견본 패널의 적응형 배치를 수행할 수 있습니다.
+이 스타일링에서 CSS 마커를 사용하여 대화형 색상 견본 패널의 적응형 배치를 구현할 수 있습니다.
 
 ## 예 {#example}
 
-다른 모든 경우 터치 장치에서 터치 장치의 뷰어 하단에 가로 방향으로 렌더링하고 비디오 컨텐츠의 오른쪽에 세로로 표시하도록 대화형 색상 견본 패널을 설정하려면 다음을 수행하십시오.
+터치 장치에서 뷰어의 하단에 가로 방향으로 렌더링하도록 대화형 색상 견본 패널을 설정하려면 다음을 수행하십시오. 그리고 기타 모든 경우에 비디오 컨텐츠의 오른쪽에 세로로 표시하려면 다음을 수행하십시오.
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -267,7 +267,7 @@ ht-degree: 2%
 
 ## 예 {#section-eb141eb6c1154183baa69796edb90536}
 
-왼쪽 정렬, 흰색, 12픽셀, Helvetica 글꼴 및 아래쪽 테두리를 사용하도록 레이블을 설정하려면 다음을 수행하십시오.
+왼쪽 정렬, 흰색, 12픽셀, Helvetica® 글꼴 및 아래쪽 테두리를 사용하도록 레이블을 설정하려면 다음을 수행하십시오.
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: 소셜 공유
 description: 기본적으로 소셜 공유 도구가 오른쪽 상단 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
 solution: Experience Manager
-title: 소셜 공유
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ad544a12-d2a4-45c9-9e76-e0bf96901725
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '317'
 ht-degree: 2%
 
 ---

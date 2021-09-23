@@ -1,13 +1,13 @@
 ---
+title: 포커스 강조 표시
 description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시는 CSS 클래스 선택기를 사용하여 제어됩니다.
 solution: Experience Manager
-title: 포커스 강조 표시
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: cb5231ed-106a-444f-aac7-06dd1a84a665
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---

@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: 비디오 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 7%
+source-wordcount: '44'
+ht-degree: 9%
 
 ---
 

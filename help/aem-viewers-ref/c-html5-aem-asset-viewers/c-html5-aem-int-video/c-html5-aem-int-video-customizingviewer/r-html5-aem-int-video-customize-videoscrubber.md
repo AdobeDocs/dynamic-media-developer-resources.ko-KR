@@ -1,13 +1,13 @@
 ---
+title: 비디오 스크러버
 description: 비디오 스크러버는 사용자가 현재 재생 중인 비디오 내의 임의의 시간 위치를 동적으로 찾을 수 있도록 해주는 가로 슬라이더 컨트롤입니다.
 solution: Experience Manager
-title: 비디오 스크러버
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-또한 스크러버 &#39;노브&#39;는 비디오가 재생되는 동안 비디오의 현재 시간 위치를 나타내기 위해 재생될 때 이동합니다. 비디오 스크러버는 항상 컨트롤 막대의 전체 너비를 사용합니다. 비디오 스크러버를 피울 수 있다. 높이와 세로 위치를 CSS로 변경합니다.
+또한 스크러버 &#39;노브&#39;는 비디오가 재생되는 동안 비디오의 현재 시간 위치를 나타내기 위해 재생될 때 이동합니다. 비디오 스크러버는 항상 컨트롤 막대의 전체 너비를 사용합니다. 비디오 스크러버를 스킨하고 CSS로 높이 및 세로 위치를 변경할 수 있습니다.
 
 비디오 스크러버의 일반 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
@@ -158,7 +158,7 @@ ht-degree: 2%
 
 비디오 스크러버 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
-**예**  - 10픽셀 높이의 사용자 지정 트랙 색상이 있는 비디오 스크러버와 컨트롤 막대의 위쪽 및 왼쪽 가장자리에서 10픽셀 및 35픽셀을 배치하여 비디오 뷰어를 설정하려면 다음을 수행하십시오.
+**예**  - 비디오 스크러버와 10픽셀의 사용자 지정 추적 색상이 있는 비디오 뷰어를 설정하려면 다음을 수행하십시오. 컨트롤 막대의 위쪽 및 왼쪽 가장자리에서 10픽셀과 35픽셀을 배치합니다.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-`navigation` 매개 변수를 사용하여 비디오 chapter가 활성화되면 장 위치가 비디오 스크러버 트랙 맨 위에 마커로 표시됩니다.
+`navigation` 매개 변수를 사용하여 비디오 장 마커를 활성화하면 장 위치가 비디오 스크러버 트랙 맨 위에 마커로 표시됩니다.
 
 비디오 장 마커는 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
@@ -430,7 +430,7 @@ font-weight: bold;
  </tbody> 
 </table>
 
-**예**  - 어두운 회색의 11픽셀 버다나 글꼴과 밝은 회색 배경을 사용하여 비디오 장 설명을 설정하려면 다음을 수행하십시오. 5픽셀 라인 높이, 12픽셀 수평 패딩, 12픽셀 위쪽 패딩 및 9픽셀 아래쪽 패딩.
+**예**  - 어두운 회색의 11픽셀 Verdana 글꼴과 밝은 회색 배경을 사용하여 비디오 장 설명을 설정하려면 다음을 수행하십시오. 5픽셀 라인 높이, 12픽셀 수평 패딩, 12픽셀 위쪽 패딩 및 9픽셀 아래쪽 패딩입니다.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -455,7 +455,7 @@ padding: 12px 12px 9px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 테두리 색상  </span> </p> </td> 
-   <td colname="col2"> <p>웨지 커넥터 색상. </p> <p><span class="codeph"> &lt;color&gt; 투명한 </span>으로 정의되므로 위쪽 테두리 색상만 정의되어 나머지 테두리는 투명하게 유지됩니다. </p> </td> 
+   <td colname="col2"> <p>웨지 커넥터 색상. </p> <p>위쪽 테두리 색만 정의되어 나머지 테두리는 투명하게 표시되도록 <span class="codeph"> &lt;color&gt; transparent </span>로 정의됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 테두리 폭  </span> </p> </td> 

@@ -1,20 +1,20 @@
 ---
-description: 컨트롤 막대는 재생/일시 정지 단추, 볼륨 컨트롤 등과 같이 비디오 뷰어에 사용할 수 있는 모든 UI 컨트롤을 포함하고 있는 사각형 영역입니다.
-solution: Experience Manager
 title: 컨트롤 막대
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+description: 컨트롤 막대는 재생/일시 중지 단추 및 볼륨 컨트롤과 같이 비디오 뷰어에 사용할 수 있는 모든 사용자 인터페이스 컨트롤을 포함하고 있는 사각형 영역입니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 685fad5a-a75a-4c0c-9038-de99d814f4be
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
 
 # 컨트롤 막대{#control-bar}
 
-컨트롤 막대는 재생/일시 정지 단추, 볼륨 컨트롤 등과 같이 비디오 뷰어에 사용할 수 있는 모든 UI 컨트롤을 포함하고 있는 사각형 영역입니다.
+컨트롤 막대는 재생/일시 중지 단추 및 볼륨 컨트롤과 같이 비디오 뷰어에 사용할 수 있는 모든 사용자 인터페이스 컨트롤을 포함하고 있는 사각형 영역입니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

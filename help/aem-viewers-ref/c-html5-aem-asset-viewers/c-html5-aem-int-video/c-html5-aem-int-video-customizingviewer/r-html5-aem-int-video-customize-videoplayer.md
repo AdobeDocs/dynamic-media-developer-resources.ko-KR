@@ -1,14 +1,14 @@
 ---
+title: 비디오 플레이어
 description: 비디오 플레이어는 뷰어 내에 비디오 컨텐츠가 표시되는 사각형 영역입니다.
 solution: Experience Manager
-title: 비디오 플레이어
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -82,7 +82,7 @@ background-color: transparent;
 
 ## 예 {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, 굴림(Arial)으로 설정하려면 다음을 수행합니다.
+반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, Arial®로 설정하려면 다음을 수행합니다.
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 

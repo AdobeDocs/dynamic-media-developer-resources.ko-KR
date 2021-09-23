@@ -1,11 +1,11 @@
 ---
+title: 조치 수행 질문
 description: 비디오가 종료되고 특정 비디오와 연결된 모든 대화형 색상 견본을 표시할 때 [액션 호출] 패널이 나타납니다.
 solution: Experience Manager
-title: 조치 수행 질문
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -191,7 +191,7 @@ ht-degree: 2%
 
 ## 예 {#example-3}
 
-28 x 28픽셀인 재생 단추를 설정하려면 다음을 수행하십시오. 헤더의 위쪽 및 오른쪽 가장자리로부터 20픽셀을 배치했습니다. 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다. 구성 요소의 스프라이트 이미지에서 아트웍을 가져옵니다.
+28 x 28픽셀인 재생 단추를 설정하려면 다음을 수행하십시오. 버튼은 헤더의 위쪽 및 오른쪽 가장자리로부터 20픽셀을 배치해야 합니다. 또한, 서로 다른 네 가지 단추 상태 각각에 대해 다른 이미지를 표시해야 합니다. 구성 요소의 스프라이트 이미지에서 아트웍을 가져옵니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ ht-degree: 2%
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 동작 패널 호출에서 축소판 셀의 CSS 속성: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## 동작 패널에 있는 축소판 셀의 CSS 속성: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ ht-degree: 2%
 
 ## 예 {#example-7}
 
-흰색 색상을 사용하는 레이블을 설정하려면 가운데 맞춤을 15픽셀로 하고 Arial 글꼴을 사용합니다.
+흰색 색상을 사용하는 레이블을 설정하려면 가운데 맞춤을 15픽셀로 하고 Arial® 글꼴을 사용합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: 링크 공유
 description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-title: 링크 공유
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
+활성 대화 상자가 다음 CSS 클래스 선택기로 제어될 때 웹 페이지를 덮는 배경 오버레이입니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하십시오.
 
-**예**  - 패딩이 있는 대화 상자 헤더, 22 x 12픽셀 아이콘, 굵은 16포인트 제목 및 대화 상자 컨테이너 오른쪽의 두 픽셀에 배치된 28 x 28픽셀 닫기 단추를 설정하려면 다음을 수행하십시오.
+**예**  - 굵은 16포인트 제목과 함께 패딩이 있는 대화 상자 헤더를 설정하려면 22 x 12픽셀 아이콘을 사용하십시오. 마지막으로, 28x28픽셀 닫기 단추가 대화 상자 컨테이너 상단에서 2픽셀과 대화 상자 컨테이너 오른쪽의 2픽셀입니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ background-color: #ffffff;
 }
 ```
 
-레이블 및 입력 필드와 같은 모든 양식 콘텐츠는 다음 CSS 클래스 선택기를 사용하여 제어되는 컨테이너 내에 있습니다.
+레이블 및 입력 필드와 같은 모든 양식 콘텐츠는 다음 CSS 클래스 선택기로 제어되는 컨테이너 내에 있습니다.
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-**예**  - 양식 컨텐츠에 10픽셀 패딩을 사용하도록 설정하려면 다음을 수행하십시오.
+**예**  - 양식 컨텐츠에 10개의 픽셀 패딩이 있도록 설정하려면 다음을 수행합니다.
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 광범위 필드**
+**대화 상자의 입력 범위 필드의 CSS 속성**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

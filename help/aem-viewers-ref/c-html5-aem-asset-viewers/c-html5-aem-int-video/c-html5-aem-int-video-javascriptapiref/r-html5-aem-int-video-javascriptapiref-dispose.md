@@ -1,14 +1,14 @@
 ---
+title: dispose
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 2%
 
 웹 페이지 코드도 뷰어 인스턴스 변수를 삭제하고 웹 브라우저 메모리에서 뷰어를 완전히 제거해야 합니다.
 
-웹 페이지 코드에 뷰어 SDK 구성 요소에서 직접 이벤트 리스너를 등록하거나 이러한 구성 요소에 대해 저장된 외부 참조가 있는 경우, 이러한 리스너는 웹 페이지 코드에 의해 명시적으로 등록되지 않은 상태여야 하며, 이러한 외부 구성 요소 참조는 `dispose()`을 호출하기 전에 삭제해야 합니다.
+웹 페이지 코드에 뷰어가 사용하는 뷰어 SDK 구성 요소에 직접 이벤트 리스너를 등록하거나 이러한 구성 요소에 대해 저장된 외부 참조가 있는 경우, 이러한 리스너는 웹 페이지 코드에 의해 명시적으로 등록 취소되어야 합니다. 또한 이러한 외부 구성 요소 참조는 `dispose()`을 호출하기 전에 삭제해야 합니다.
 
-`dispose()` 이 호출된 후에는 더 이상 뷰어 API에 액세스하지 마십시오.
+`dispose()` 이 호출된 후에는 뷰어 API에 더 이상 액세스하지 마십시오.
 
 ## 매개 변수 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

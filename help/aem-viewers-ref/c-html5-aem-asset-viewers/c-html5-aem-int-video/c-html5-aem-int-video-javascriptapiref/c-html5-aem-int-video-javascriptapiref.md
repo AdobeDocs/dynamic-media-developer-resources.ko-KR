@@ -1,13 +1,13 @@
 ---
+title: 대화형 비디오 뷰어에 대한 JavaScript API 참조
 description: 대화형 이미지 뷰어의 기본 클래스는 InteractiveVideoViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 콜백을 다룹니다.
 solution: Experience Manager
-title: 대화형 비디오 뷰어에 대한 JavaScript API 참조
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 3b1f5150-c696-4989-9914-09549f838b4a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---

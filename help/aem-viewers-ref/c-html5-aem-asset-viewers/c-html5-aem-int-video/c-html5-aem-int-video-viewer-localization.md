@@ -1,22 +1,22 @@
 ---
-description: 대화형 비디오 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 여기에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
-solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+description: 대화형 비디오 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 이러한 컨텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # 사용자 인터페이스 요소의 로컬라이제이션{#localization-of-user-interface-elements}
 
-대화형 비디오 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 여기에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
+대화형 비디오 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 이러한 컨텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
 
-지역화할 수 있는 뷰어의 모든 텍스트 컨텐츠는 SYMBOL이라는 특수 Viewer SDK 식별자로 표시됩니다. 모든 SYMBOL에는 기본 제공 뷰어와 함께 제공되는 영어 로케일( `"en"`)에 대한 기본 관련 텍스트 값이 있으며, 필요에 따라 여러 로케일에 대해 사용자 정의 값을 설정할 수도 있습니다.
+지역화할 수 있는 뷰어의 모든 텍스트 컨텐츠는 SYMBOL이라는 특수 Viewer SDK 식별자로 표시됩니다. 모든 SYMBOL에는 기본 제공 뷰어와 함께 제공되는 영어 로케일( `"en"`)에 대한 기본 관련 텍스트 값이 있습니다. 또한 필요한 만큼 많은 로케일에 대해 사용자 정의 값을 설정할 수도 있습니다.
 
 뷰어가 시작되면 현재 로캘을 확인하여 지원되는 각 SYMBOL에서 해당 로캘에 대해 사용자 정의 값이 있는지 확인합니다. 가 있는 경우 사용자 정의 값을 사용합니다. 그렇지 않으면 기본 텍스트로 돌아갑니다.
 

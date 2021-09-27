@@ -1,13 +1,13 @@
 ---
+title: InteractiveSwatches.maxloadradius
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: InteractiveSwatches.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 16c9c70a-352d-4a21-bb14-2f9e266a83e8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '67'
 ht-degree: 5%
 
 ---

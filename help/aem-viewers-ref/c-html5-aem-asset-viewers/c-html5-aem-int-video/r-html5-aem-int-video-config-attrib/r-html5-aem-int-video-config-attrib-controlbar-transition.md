@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대와 해당 콘텐츠를 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. </p> <p>즉시 표시/숨기려면 <span class="codeph"> none</span>으로 설정합니다. </p> <p>점진적 페이드 인/아웃 효과를 제공하려면 <span class="codeph"> 페이드</span>로 설정하십시오. Internet Explorer 8에서는 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대와 해당 콘텐츠를 표시하거나 숨기는 데 사용되는 효과 유형을 지정합니다. </p> <p>즉시 표시/숨기려면 <span class="codeph"> none</span>으로 설정합니다. </p> <p>점진적 페이드 인/아웃 효과를 제공하려면 <span class="codeph"> 페이드</span>로 설정하십시오. Internet Explorer 8에서는 지원되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 

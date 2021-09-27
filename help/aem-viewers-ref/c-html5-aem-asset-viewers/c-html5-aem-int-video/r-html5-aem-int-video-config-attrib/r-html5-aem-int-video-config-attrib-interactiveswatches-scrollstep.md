@@ -1,14 +1,14 @@
 ---
+title: InteractiveSwatches.scrollstep
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: InteractiveSwatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 

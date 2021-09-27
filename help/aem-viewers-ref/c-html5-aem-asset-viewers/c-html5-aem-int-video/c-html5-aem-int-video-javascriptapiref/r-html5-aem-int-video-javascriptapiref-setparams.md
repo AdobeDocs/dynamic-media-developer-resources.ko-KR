@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 32d26999-7815-4c71-ad4c-b7db99ec3d3b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 

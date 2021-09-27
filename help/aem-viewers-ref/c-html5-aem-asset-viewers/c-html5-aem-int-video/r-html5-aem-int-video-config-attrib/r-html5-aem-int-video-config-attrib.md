@@ -1,13 +1,13 @@
 ---
+title: 명령 참조 - 구성 속성
 description: 대화형 비디오 뷰어에 대한 구성 속성 설명서입니다.
 solution: Experience Manager
-title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 80b7971c-82dc-47a2-adde-9e061a0f856d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-즉, 이 명령을 다음과 같이 사용할 수 있습니다.
+즉, 다음 명령을 다음과 같이 사용할 수 있습니다.
 
 * `playback` (짧은 구문)
 * `VideoPlayer.playback` (구성 요소 클래스 이름으로 한정됨)

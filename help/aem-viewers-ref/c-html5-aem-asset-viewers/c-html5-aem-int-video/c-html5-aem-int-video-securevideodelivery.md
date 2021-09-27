@@ -1,13 +1,13 @@
 ---
+title: HTTPS 비디오 게재
 description: HTTPS 비디오 게재
 solution: Experience Manager
-title: HTTPS 비디오 게재
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-뷰어가 이 섹션의 시작 부분에 요약된 대로 구성으로 작동하는 경우 게시된 비디오 배달이 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 기본 구성에서는 비디오 게재 프로토콜이 포함 웹 페이지의 게재 프로토콜을 엄격히 따릅니다. 그러나 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 구성 속성을 사용하여 웹 페이지를 포함하여 사용되는 프로토콜에 관계없이 HTTPS 비디오 제공을 강제 적용할 수 있습니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS를 통해 안전하게 전달됩니다.)
+뷰어가 이 섹션의 시작 부분에 요약된 대로 구성에서 작동하는 경우 게시된 비디오 배달이 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 기본 구성에서는 비디오 게재 프로토콜이 포함 웹 페이지의 게재 프로토콜을 엄격히 따릅니다. 그러나 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 구성 속성을 사용하여 웹 페이지를 포함하여 사용되는 프로토콜에 관계없이 HTTPS 비디오 제공을 강제 적용할 수 있습니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS에서 안전하게 전달됩니다.)
 
-AEM에서 사용하는 Dynamic Media 비디오를 게시하는 방법에 따라 `VideoPlayer.ssl` 구성 속성이 다음에 설명된 대로 다르게 적용됩니다.
+Adobe Experience Manager에서 사용하는 Dynamic Media 비디오를 게시하는 방법에 따라 `VideoPlayer.ssl` 구성 속성이 다음에 설명된 대로 다르게 적용됩니다.
 
 * URL이 있는 Dynamic Media 비디오를 게시하는 경우 URL에 `VideoPlayer.ssl` 을 추가합니다. 예를 들어 보안 비디오 제공을 강제 수행하려면 다음 뷰어 URL 예제의 끝에 `&VideoPlayer.ssl=on`를 추가합니다.
 

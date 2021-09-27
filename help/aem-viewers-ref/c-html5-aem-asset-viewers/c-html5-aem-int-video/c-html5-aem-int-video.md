@@ -1,13 +1,13 @@
 ---
+title: 대화형 비디오
 description: 대화형 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다.
 solution: Experience Manager
-title: 대화형 비디오
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2211'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
    `.s7interactivevideoviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 한정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   HTML 페이지에서 직접 CSS로 크기 조정을 지정할 수 있습니다. 또는 사용자 지정 뷰어 CSS 파일에 배치할 수 있습니다. 이 파일은 나중에 AEM Assets의 뷰어 사전 설정 레코드에 할당되거나, `style` 명령을 사용하여 명시적으로 전달됩니다.
+   HTML 페이지에서 직접 CSS로 크기 조정을 지정할 수 있습니다. 또는 사용자 지정 뷰어 CSS 파일에 배치할 수 있습니다. 이 파일은 나중에 Adobe Experience Manager Assets - On-Demand의 뷰어 사전 설정 레코드에 할당되거나 `style` 명령을 사용하여 명시적으로 전달됩니다.
 
    CSS를 사용하여 뷰어의 스타일을 지정하는 방법에 대한 자세한 내용은 [대화형 비디오 뷰어 사용자 지정](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) 을 참조하십시오.
 
@@ -139,7 +139,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
    }
    ```
 
-   AEM Assets - 온디맨드 의 뷰어 사전 설정 레코드에서 `stagesize` 수정자를 설정할 수 있습니다. 또는 다음과 같이 `params` 컬렉션을 사용하거나 명령 참조 섹션에 설명된 대로 API 호출로 뷰어 초기화 코드를 명시적으로 전달할 수 있습니다.
+   Experience Manager 자산 - 온디맨드의 뷰어 사전 설정 레코드에서 `stagesize` 수정자를 설정할 수 있습니다. 또는 다음과 같이 `params` 컬렉션을 사용하거나 명령 참조 섹션에 설명된 대로 API 호출로 뷰어 초기화 코드를 명시적으로 전달할 수 있습니다.
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");

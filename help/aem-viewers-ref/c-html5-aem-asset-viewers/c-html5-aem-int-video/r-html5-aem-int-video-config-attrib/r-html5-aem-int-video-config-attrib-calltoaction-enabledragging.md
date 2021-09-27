@@ -1,14 +1,14 @@
 ---
+title: CallToAction.enabledragging
 description: 대화형 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: CallToAction.enabledragging
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '83'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td colname="col2"> <p> 은 <span class="codeph"> 0-1 </span> 범위에 있으며, 실제 속도의 잘못된 방향으로 이동에 대한 퍼센트 값입니다. </p> <p><span class="codeph"> 1 </span> 로 설정하면 마우스로 이동합니다. </p> <p><span class="codeph"> 0 </span> 로 설정하면 잘못된 방향으로 이동할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p> 은 <span class="codeph"> 0-1 </span> 범위에 있으며, 실제 속도의 잘못된 방향으로 이동에 대한 퍼센트 값입니다. </p> <p><span class="codeph"> 1 </span>로 설정하면 마우스로 이동합니다. </p> <p><span class="codeph"> 0 </span>으로 설정하면 잘못된 방향으로 이동할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

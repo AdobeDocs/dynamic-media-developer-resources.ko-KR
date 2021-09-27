@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -103,13 +103,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK API를 사용할 때는 [Viewer SDK 네임스페이스](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)에 설명된 대로 올바른 정규화된 SDK 네임스페이스를 사용해야 합니다.
+SDK API를 사용하여 작업하는 경우 [Viewer SDK 네임스페이스](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)에 설명된 대로 정확하고 완전한 SDK 네임스페이스를 사용하는 것이 중요합니다.
 
 특정 구성 요소에 대한 자세한 내용은 *Viewer SDK API* 설명서를 참조하십시오.
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 뷰어 SDK 구성 요소에 대한 참조. `componentId` 이 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않은 경우 이 메서드는 `null`을 반환합니다.
+`{Object}` Viewer SDK 구성 요소에 대한 참조. `componentId` 이 지원되는 뷰어 구성 요소가 아니거나 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않은 경우 이 메서드는 `null`을 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

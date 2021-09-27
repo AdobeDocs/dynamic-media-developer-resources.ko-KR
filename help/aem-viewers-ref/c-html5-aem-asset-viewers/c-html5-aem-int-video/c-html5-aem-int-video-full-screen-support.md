@@ -1,13 +1,13 @@
 ---
+title: 전체 화면 지원
 description: 뷰어가 전체 화면 작업 모드를 지원합니다.
 solution: Experience Manager
-title: 전체 화면 지원
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 6a3d4a58-c3aa-4663-a848-ee5c1285ff75
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---

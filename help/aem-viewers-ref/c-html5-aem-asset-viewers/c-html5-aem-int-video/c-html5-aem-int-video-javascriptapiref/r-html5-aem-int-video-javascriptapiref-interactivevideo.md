@@ -1,13 +1,13 @@
 ---
+title: InteractiveVideoViewer
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: InteractiveVideoViewer
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: efd0ffea-482c-4af4-ac77-ac1b7f326ce9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '203'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 `InteractiveVideoViewer([config])`
 
-생성자에서 새 대화형 비디오 뷰어 인스턴스를 만듭니다.
+생성자에서 대화형 비디오 뷰어 인스턴스를 만듭니다.
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 

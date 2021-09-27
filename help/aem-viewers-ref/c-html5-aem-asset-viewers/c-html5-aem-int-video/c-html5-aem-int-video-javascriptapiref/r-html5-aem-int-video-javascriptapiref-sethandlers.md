@@ -1,13 +1,13 @@
 ---
+title: setHandlers
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ece8d2ba-30ef-4616-81a6-6028e5f3c66f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---

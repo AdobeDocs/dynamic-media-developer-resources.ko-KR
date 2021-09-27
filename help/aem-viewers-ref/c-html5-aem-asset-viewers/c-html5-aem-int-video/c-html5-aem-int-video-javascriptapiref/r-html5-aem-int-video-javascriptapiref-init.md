@@ -1,13 +1,13 @@
 ---
+title: init
 description: 대화형 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 5fcc7dcd-a9a8-4a87-9c8d-42717ced8ae9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 대화형 비디오 뷰어의 초기화를 시작합니다. 이 시점에는 뷰어 코드가 ID로 찾을 수 있도록 컨테이너 DOM 요소를 만들어야 합니다.
 
-컨테이너 요소가 웹 페이지 레이아웃의 일부가 아닌 경우(예: 이 요소에 지정된 `display:none` 스타일을 사용하여 숨길 수 있음) 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 일시 중지합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
+컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: 컨테이너 요소에 지정된 `display:none` 스타일을 사용하여 숨겨질 수 있음) 뷰어는 초기화 프로세스를 일시 중지합니다. 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져올 때까지 발생합니다. 이 이벤트가 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
 이 메서드는 뷰어 수명 주기 동안 한 번만 호출합니다. 후속 호출은 무시됩니다.
 

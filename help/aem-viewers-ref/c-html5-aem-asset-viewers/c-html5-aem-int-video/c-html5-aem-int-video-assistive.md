@@ -1,13 +1,13 @@
 ---
+title: 보조 기술 지원
 description: 모든 뷰어 구성 요소는 화면 판독기와 같은 보조 기술과의 통합을 개선하기 위해 ARIA(Accessible Rich Internet Applications) 역할 및 속성을 지원합니다.
 solution: Experience Manager
-title: 보조 기술 지원
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 비디오,접근성
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos,Accessibility
 role: Developer,User
 exl-id: 3d9f6389-e73c-4d31-a7c1-b321f065ce8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---

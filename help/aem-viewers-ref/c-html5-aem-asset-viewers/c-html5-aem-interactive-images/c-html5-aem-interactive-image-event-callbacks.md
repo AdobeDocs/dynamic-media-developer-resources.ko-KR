@@ -1,13 +1,13 @@
 ---
+title: 이벤트 콜백
 description: 이벤트 콜백
 solution: Experience Manager
-title: 이벤트 콜백
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
-   <td colname="col2"> <p> 사용자가 핫스팟과 연결된 빠른 보기 데이터로 핫스팟을 활성화하면 트리거됩니다. 콜백 처리기는 다음 인수를 사용합니다. </p> <p> 
+   <td colname="col2"> <p> 사용자가 핫스팟과 연결된 Quickview 데이터로 핫스팟을 활성화하면 트리거됩니다. 콜백 처리기는 다음 인수를 사용합니다. </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
       <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> 데이터 {Object}  </span> - 핫스팟 정의의 데이터가 포함된 JSON 개체입니다. 필드 <span class="codeph"> sku </span> 는 필수 필드이며 다른 필드는 선택 사항이며 소스 핫스팟 정의에 따라 다릅니다. </p> </li> 
      </ul> </p> </td> 

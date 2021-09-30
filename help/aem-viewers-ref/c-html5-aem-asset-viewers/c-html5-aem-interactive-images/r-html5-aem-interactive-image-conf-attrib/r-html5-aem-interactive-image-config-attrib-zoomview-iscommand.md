@@ -1,14 +1,14 @@
 ---
+title: ZoomView.iscommand
 description: 확대/축소 이미지에 적용되는 이미지 제공 명령 문자열입니다.
 solution: Experience Manager
-title: ZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 1c24973e-1daf-4d9d-b97c-fb6a18f506ed
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 

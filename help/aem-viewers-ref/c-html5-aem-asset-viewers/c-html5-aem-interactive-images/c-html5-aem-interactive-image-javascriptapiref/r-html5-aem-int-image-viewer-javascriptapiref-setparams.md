@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 비디오 이미지 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 6a09e3bc-e79c-4206-be42-0c6ae3d91590
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ` setParams( *`params`*)`
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`과(와) 함께 나타냅니다. 쿼리 문자열과 마찬가지로 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을 호출하기 전에 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`과(와) 함께 나타냅니다. 쿼리 문자열에서 이름 및 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을 호출하기 전에 이 매개 변수를 호출해야 합니다.
 
 이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달된 경우 선택 사항입니다.
 

@@ -1,20 +1,20 @@
 ---
-description: 기본 보기 영역은 확대/축소 이미지가 차지하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
-solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
+description: 기본 보기 영역은 확대/축소 이미지가 차지하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
 
 # 기본 뷰어 영역{#main-viewer-area}
 
-기본 보기 영역은 확대/축소 이미지가 차지하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
+기본 보기 영역은 확대/축소 이미지가 차지하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -1,13 +1,13 @@
 ---
+title: 명령 참조 - URL
 description: Video360 뷰어에 대한 명령 참조 설명서입니다.
 solution: Experience Manager
-title: 명령 참조 - URL
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ URL에서 모든 구성 명령을 설정할 수 있습니다. 또는 API 메서�
 [Video360Player.|<containerId>_video360Player].playback
 ```
 
-즉, 이 명령은 다음과 같은 방식으로 사용됩니다.
+이 명령은 다음과 같은 방식으로 사용됩니다.
 
 * `playback` (짧은 구문)
 * `Video360Player.playback` (구성 요소 클래스 이름으로 한정됨)

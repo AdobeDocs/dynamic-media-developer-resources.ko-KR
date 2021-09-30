@@ -1,13 +1,13 @@
 ---
+title: 명령 참조 - 구성 속성
 description: 대화형 이미지 뷰어에 대한 구성 속성 설명서입니다.
 solution: Experience Manager
-title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,Viewers,SDK/API,대화형 이미지
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 `[ZoomView.|<containerId>_zoomView].fmt`
 
-즉, 이 명령을 다음과 같이 사용할 수 있습니다.
+이 명령을 다음과 같이 사용할 수 있음을 의미합니다.
 
 * `fmt` (짧은 구문)
 * `ZoomView.fmt` (구성 요소 클래스 이름으로 한정됨)

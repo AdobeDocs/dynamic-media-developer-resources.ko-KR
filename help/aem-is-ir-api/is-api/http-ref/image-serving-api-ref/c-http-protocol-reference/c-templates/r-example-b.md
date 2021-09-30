@@ -5,9 +5,9 @@ title: 예 B
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,12 @@ ht-degree: 0%
  </tr> 
 </table>
 
-이미지는 레이어 0에 배치되고 높이 값 `size=`이 0으로 설정되면 실제 높이는 800픽셀로 크기를 조절한 후 이미지의 높이에 의해 결정됩니다.
+이미지가 레이어 0에 배치되고 `size=`의 높이 값이 0으로 설정됩니다. 이 설정을 사용하면 실제 높이가 800픽셀 너비로 크기를 조절한 후 이미지 높이로 결정됩니다.
 
-`extend=` 위쪽 및 아래쪽에는 100픽셀이, 오른쪽에는 200픽셀이 추가됩니다.
+`extend=` 변수는 위쪽과 아래쪽에 100픽셀을 추가하고 오른쪽에는 200픽셀을 추가합니다.
 
 두 레이어 0과 레이어 1의 원점은 합성 영역의 오른쪽 중앙에 배치되어 원하는 텍스트 위치를 얻습니다.
 
-다음 그림은 이미지의 다른 종횡비와 다른 텍스트 문자열의 합성 결과를 보여줍니다.
+다음 이미지는 이미지의 다른 종횡비와 다른 텍스트 문자열의 합성 결과를 보여줍니다.
 
-![](assets/exampleb.png)
+![예제 B 이미지](assets/exampleb.png)

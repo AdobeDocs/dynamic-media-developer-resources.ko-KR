@@ -1,14 +1,14 @@
 ---
+title: FXG 서버 프로토콜
 description: 그래픽을 조작하려면 나침반 지점과 비슷한 참조 지점을 사용할 수 있습니다.
 solution: Experience Manager
-title: FXG 서버 프로토콜
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 63%
+source-wordcount: '268'
+ht-degree: 57%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 63%
 
 그래픽을 조작하려면 나침반 지점과 비슷한 참조 지점을 사용할 수 있습니다.
 
-참조 지점을 사용할 경우 특정 참조 지점을 기준으로 그래픽을 회전하거나 배율 또는 크기를 조정할 수 있습니다. 참조 포인트는 `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` 및 `southeast`입니다. 예를 들어 가운데 참조 지점을 사용하면 가운데를 기준으로 그래픽을 45도만큼 회전할 수 있습니다. 이 그림에서는 참조 포인트가 있는 위치, 그래픽, 그래픽이 `northWest` 참조 포인트에서 20도 회전된 그래픽 및 `east` 참조 포인트에서 20도 회전된 그래픽을 보여 줍니다.
+참조 지점을 사용할 경우 특정 참조 지점을 기준으로 그래픽을 회전하거나 배율 또는 크기를 조정할 수 있습니다. 참조 포인트는 `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` 및 `southeast`입니다. 예를 들어 중심 참조점을 사용하여 그래픽의 중심을 45° 회전할 수 있습니다. 다음 이미지는 참조 포인트가 있는 위치, 그래픽, 그래픽, 그래픽: `northWest` 참조 포인트에서 20° 회전된 그래픽 및 `east` 참조 포인트에서 20° 회전된 그래픽을 보여 줍니다.
 
-![](assets/wp_ref_points.png)
+![참조 점 이미지](assets/wp_ref_points.png)
 
 * A. 참조 점 위치
 * B. 그래픽
-* C. 그래픽이 `northWest` 참조 포인트에서 20도 회전했습니다.
-* D. 그래픽이 `east` 참조 포인트에서 20도 회전했습니다.
+* C. 그래픽이 `northWest` 참조 포인트에서 20° 회전되었습니다.
+* D. 그래픽이 `east` 참조 포인트에서 20° 회전되었습니다.
 
 구문은 다음과 같습니다.
 

@@ -1,13 +1,13 @@
 ---
+title: Viewer SDK 자습서
 description: Viewer SDK는 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
 solution: Experience Manager
-title: Viewer SDK 자습서
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Viewer SDK는 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 
 
 예를 들어 SDK는 대화형 확대/축소 및 패닝 기능을 제공합니다. 또한 Dynamic Media Classic이라는 백엔드 애플리케이션을 통해 Dynamic Media에 업로드된 자산의 360° 보기 및 비디오 재생을 제공합니다.
 
-구성 요소는 HTML5 기능을 사용하더라도 Android 및 Apple iOS 장치, Internet Explorer 등을 비롯한 데스크톱에서 작동하도록 디자인되었습니다. 이러한 종류의 경험은 지원되는 모든 플랫폼에 단일 워크플로우를 제공할 수 있음을 의미합니다.
+구성 요소는 HTML5 기능을 사용하더라도 Android™ 및 Apple iOS 장치, Internet Explorer 등을 비롯한 데스크탑에서 작동하도록 디자인되었습니다. 이러한 종류의 경험은 지원되는 모든 플랫폼에 단일 워크플로우를 제공할 수 있음을 의미합니다.
 
 SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS와 설정 정의 가져오기 및 구문 분석 또는 추적과 같은 일부 지원 역할이 있는 비UI 구성 요소를 통해 이러한 구성 요소의 스타일을 지정할 수 있습니다. 모든 구성 요소 동작은 URL에서 `name=value` 쌍처럼 다양한 방법으로 지정할 수 있는 수정자를 통해 사용자 지정할 수 있습니다.
 
@@ -38,13 +38,13 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
    >[!NOTE]
    >
-   >SDK가 실제로 원격으로 로드되므로 Viewer SDK 패키지를 다운로드하지 않고도 이 자습서를 완료할 수 있습니다. 그러나 뷰어 패키지에는 고유한 뷰어를 만들 때 유용한 추가 예 및 API 참조 안내서가 포함되어 있습니다.
+   >SDK가 원격으로 로드되므로 Viewer SDK 패키지를 다운로드하지 않고도 이 자습서를 완료할 수 있습니다. 그러나 뷰어 패키지에는 사용자의 뷰어를 만드는 데 도움이 되는 추가 예와 API 참조 안내서가 포함되어 있습니다.
 
 ## 뷰어 SDK 로드 {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 먼저 만들려는 기본 확대/축소 뷰어를 개발하기 위해 새 페이지를 설정합니다.
 
-   빈 SDK 애플리케이션을 설정하는 코드를 부트스트랩 또는 로더 로 간주합니다. 즐겨찾는 텍스트 편집기를 열고 다음 HTML 마크업을 페이지에 붙여 넣습니다.
+   빈 SDK 애플리케이션을 설정하는 데 사용하는 코드, Bootstrap 또는 로더에 있는 이 새 페이지를 고려해 보십시오. 즐겨찾는 텍스트 편집기를 열고 다음 HTML 마크업을 페이지에 붙여 넣습니다.
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    </html>
    ```
 
-   `script` 태그 내에 다음 JavaScript 코드를 추가하여 `ParameterManager` 을 초기화합니다. 다음은 `initViewer` 함수 내에서 SDK 구성 요소를 만들고 인스턴스화하는 데 유용한 정보입니다.
+   `script` 태그 내에 다음 JavaScript 코드를 추가하여 `ParameterManager`을 초기화합니다. 이렇게 하면 `initViewer` 함수 내에서 SDK 구성 요소를 만들고 인스턴스화할 준비를 할 수 있습니다.
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,7 +115,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 파일을 빈 템플릿으로 저장합니다. 원하는 파일 이름을 사용할 수 있습니다.
 
-   나중에 새 뷰어를 만들 때 이 빈 템플릿 파일을 참조로 사용합니다. 이 템플릿은 로컬에서, 웹 서버에서 제공될 때 작동합니다.
+   나중에 뷰어를 만들 때 이 빈 템플릿 파일을 참조로 사용합니다. 이 템플릿은 로컬에서, 웹 서버에서 제공될 때 작동합니다.
 
 이제 뷰어에 스타일을 추가합니다.
 
@@ -169,7 +169,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    var container, zoomView;
    ```
 
-1. `initViewer` 함수 내에 다음을 삽입하여 일부 수정자를 정의하고 각 구성 요소를 인스턴스화합니다.
+1. 일부 수정자를 정의하고 각 구성 요소를 인스턴스화할 수 있도록 `initViewer` 함수 내에 다음을 삽입합니다.
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -207,7 +207,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 만든 항목을 볼 수 있도록 페이지를 미리 봅니다. 페이지 모습은 다음과 같습니다.
 
-   ![](assets/viewer-1.jpg)
+   ![뷰어 예제 1개 이미지](assets/viewer-1.jpg)
 
 이제 구성 요소 `MediaSet` 및 `Swatches`을 뷰어에 추가합니다.
 
@@ -288,7 +288,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
    이제 뷰어가 다음 이미지와 같습니다. 뷰어의 브라우저 창 크기를 조정하고 결과 동작을 확인합니다.
 
-   ![](assets/viewer-2.jpg)
+   ![뷰어 예제 2 이미지](assets/viewer-2.jpg)
 
 이제 뷰어에 확대, 축소 및 확대/축소 재설정 단추를 추가합니다.
 
@@ -350,17 +350,17 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
     }
    ```
 
-1. 뷰어를 미리 봅니다. 다음과 같습니다.
+1. 뷰어를 미리 봅니다. 다음과 같이 표시됩니다.
 
-   ![](assets/viewer-3.jpg)
+   ![뷰어 예제 3 이미지](assets/viewer-3.jpg)
 
-   이제 오른쪽의 세로 방향으로 정렬되도록 색상 견본을 구성합니다.
+   이제 오른쪽에 세로로 정렬되도록 색상 견본을 구성합니다.
 
 ## 세로 색상 견본 구성 {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. `ParameterManager` 인스턴스에서 직접 수정자를 구성할 수 있습니다.
 
-   `initViewer` 함수 맨 위에 다음을 추가하여 `Swatches` thumb 레이아웃을 단일 행으로 구성합니다.
+   `Swatches` thumb 레이아웃을 단일 행으로 구성할 수 있도록 `initViewer` 함수 맨 위에 다음을 추가하십시오.
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -385,7 +385,7 @@ SDK는 뷰어 컨텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 뷰어를 미리 봅니다. 다음과 같습니다.
 
-   ![](assets/viewer-4.jpg)
+   ![뷰어 예 4 이미지](assets/viewer-4.jpg)
 
    이제 기본 확대/축소 뷰어가 완료되었습니다.
 

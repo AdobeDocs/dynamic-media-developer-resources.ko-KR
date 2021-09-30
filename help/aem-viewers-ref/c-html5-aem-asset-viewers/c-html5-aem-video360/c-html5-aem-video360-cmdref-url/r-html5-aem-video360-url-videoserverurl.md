@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: Video360 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 

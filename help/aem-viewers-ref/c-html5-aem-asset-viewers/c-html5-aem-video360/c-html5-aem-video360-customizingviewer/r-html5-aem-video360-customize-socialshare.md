@@ -1,20 +1,20 @@
 ---
-description: 기본적으로 소셜 공유 도구가 오른쪽 상단 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
-solution: Experience Manager
 title: 소셜 공유
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+description: 기본적으로 소셜 공유 도구가 오른쪽 위 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
 
 # 소셜 공유{#social-share}
 
-기본적으로 소셜 공유 도구가 오른쪽 상단 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
+기본적으로 소셜 공유 도구가 오른쪽 위 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

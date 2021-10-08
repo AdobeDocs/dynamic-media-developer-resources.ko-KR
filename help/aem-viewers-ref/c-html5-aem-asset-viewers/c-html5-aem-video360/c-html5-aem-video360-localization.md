@@ -1,20 +1,20 @@
 ---
-description: 뷰어가 표시하는 특정 콘텐츠는 현지화의 대상이 됩니다. 여기에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
-solution: Experience Manager
 title: 사용자 인터페이스 요소의 로컬라이제이션
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+description: 뷰어가 표시하는 특정 콘텐츠는 현지화의 대상이 됩니다. 이러한 컨텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # 사용자 인터페이스 요소의 로컬라이제이션{#localization-of-user-interface-elements}
 
-뷰어가 표시하는 특정 콘텐츠는 현지화의 대상이 됩니다. 여기에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
+뷰어가 표시하는 특정 콘텐츠는 현지화의 대상이 됩니다. 이러한 컨텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
 
 지역화할 수 있는 뷰어의 모든 텍스트 컨텐츠는 SYMBOL이라는 특수 Viewer SDK 식별자로 표시됩니다. 모든 SYMBOL에는 기본 제공 뷰어와 함께 제공되는 영어 로케일( `"en"`)에 대한 기본 관련 텍스트 값이 있습니다. 또한 필요한 만큼 많은 로케일에 대해 사용자 정의 값을 설정할 수도 있습니다.
 

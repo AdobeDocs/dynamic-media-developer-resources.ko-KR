@@ -1,20 +1,20 @@
 ---
-description: 기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
-solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+description: 기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 기본 뷰어 영역{#main-viewer-area}
 
-기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
+기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

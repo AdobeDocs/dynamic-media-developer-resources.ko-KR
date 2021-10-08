@@ -1,13 +1,13 @@
 ---
+title: 비디오 스크러버
 description: 비디오 스크러버는 사용자가 현재 재생 중인 비디오 내의 임의의 시간 위치를 동적으로 찾을 수 있도록 해주는 가로 슬라이더 컨트롤입니다.
 solution: Experience Manager
-title: 비디오 스크러버
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a0b89b4b-5f66-41d5-88b9-a01fddec437e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '358'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-또한 스크러버 &#39;노브&#39;는 비디오가 재생되는 동안 비디오의 현재 시간 위치를 나타내기 위해 재생될 때 이동합니다. 비디오 스크러버는 항상 컨트롤 막대의 전체 너비를 사용합니다. 비디오 스크러버를 피울 수 있다. 높이와 세로 위치를 CSS로 변경합니다.
+또한 스크러버 &#39;노브&#39;는 비디오가 재생되는 동안 비디오의 현재 시간 위치를 나타내기 위해 재생될 때 이동합니다. 비디오 스크러버는 항상 컨트롤 막대의 전체 너비를 사용합니다. 비디오 스크러버를 피울 수 있다. 높이 및 세로 위치를 CSS로 변경합니다.
 
 비디오 스크러버의 일반 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
@@ -158,7 +158,7 @@ ht-degree: 3%
 
 비디오 스크러버 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
 
-**예**  - 10픽셀 높이의 사용자 지정 트랙 색상이 있는 비디오 스크러버와 컨트롤 막대의 위쪽 및 왼쪽 가장자리에서 10픽셀 및 35픽셀을 배치하여 비디오 뷰어를 설정하려면 다음을 수행하십시오.
+**예**  - 10픽셀의 사용자 지정 추적 색상이 있는 비디오 스크러버를 설정하려면 다음을 수행하십시오. 그리고 컨트롤 막대의 위쪽 및 왼쪽 가장자리에서 10픽셀과 35픽셀을 배치합니다.
 
 ```
 .s7video360viewer .s7videoscrubber  { 

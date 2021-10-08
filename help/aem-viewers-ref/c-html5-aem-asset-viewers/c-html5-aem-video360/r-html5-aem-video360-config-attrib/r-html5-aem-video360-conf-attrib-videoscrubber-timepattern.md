@@ -1,13 +1,13 @@
 ---
+title: VideoScrubber.timepattern
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: VideoScrubber.timepattern
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: f438a06b-6cf4-4bcd-9c4a-ed56f6a9c639
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---

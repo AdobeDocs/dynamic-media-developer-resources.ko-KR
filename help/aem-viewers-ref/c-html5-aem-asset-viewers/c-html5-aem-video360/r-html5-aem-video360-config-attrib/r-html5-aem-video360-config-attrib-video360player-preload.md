@@ -1,14 +1,14 @@
 ---
+title: Video360Player.preload
 description: 재생이 시작되기 전에 뷰어가 비디오 컨텐츠 로드를 시작하는지 여부를 나타냅니다.
 solution: Experience Manager
-title: Video360Player.preload
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 33c28ed3-cdb3-4b14-8cc7-90f77ec9a3bb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '118'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 1 </span> 로 설정하면 자산이 설정된 직후에 비디오가 다운로드되기 시작합니다. 그렇지 않으면 최종 사용자가 재생을 시작하거나 API 호출에 의해 시작된 후에만 사전 로드가 시작됩니다. </p> <p><span class="codeph"> 0 </span> 로 설정하면 재생이 시작될 때까지 특정 기능이 작동하지 않을 수 있습니다. 특히 찾기 작업은 비디오 프레임을 업데이트하지 않습니다. 포스터 이미지가 비활성화되면 뷰어는 첫 번째 비디오 프레임 대신 빈 영역으로 표시됩니다. </p> <p>Internet Explorer 11 및 Edge 브라우저의 특정 버전에서 비디오 미리 로드를 사용하지 않도록 설정하는 것은 무시할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 1 </span>로 설정하면 자산이 설정된 직후에 비디오가 다운로드되기 시작합니다. 그렇지 않으면 최종 사용자 또는 API 호출에 의해 재생이 시작된 후에만 사전 로드가 시작됩니다. </p> <p><span class="codeph"> 0 </span> 로 설정하면 재생이 시작될 때까지 특정 기능이 작동하지 않을 수 있습니다. 특히 찾기 작업은 비디오 프레임을 업데이트하지 않습니다. 포스터 이미지가 비활성화되면 뷰어는 첫 번째 비디오 프레임 대신 빈 영역으로 표시됩니다. </p> <p>Internet Explorer 11 및 Edge 브라우저의 특정 버전에서 비디오 미리 로드를 사용하지 않도록 설정하는 것은 무시할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

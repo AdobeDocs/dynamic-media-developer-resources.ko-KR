@@ -1,13 +1,13 @@
 ---
+title: Video360 뷰어에 대한 JavaScript API 참조
 description: Video360Viewer의 기본 클래스는 Video360Viewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 콜백을 다룹니다.
 solution: Experience Manager
-title: Video360 뷰어에 대한 JavaScript API 참조
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

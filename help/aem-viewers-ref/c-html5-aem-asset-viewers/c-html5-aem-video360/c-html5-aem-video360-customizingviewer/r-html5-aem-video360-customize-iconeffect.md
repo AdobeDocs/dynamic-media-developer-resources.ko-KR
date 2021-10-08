@@ -1,13 +1,13 @@
 ---
+title: 아이콘 효과
 description: 재생 아이콘은 기본 보기 영역에 겹쳐집니다. 비디오가 일시 중지되거나 비디오 끝에 도달하면 표시되며, iconeffect 매개 변수에도 적용됩니다.
 solution: Experience Manager
-title: 아이콘 효과
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-아이콘 효과는 `state` 속성 선택기를 지원합니다. `state="play"` 재생 중에 비디오가 일시 중지될 때 사용되며 재생 헤드 `state="replay"` 가 스트림 끝에 있을 때 사용됩니다.
+아이콘 효과는 `state` 속성 선택기를 지원합니다. 특성 선택기 `state="play"`은 비디오가 재생 중에 일시 중지되면 사용되며, 재생 헤드가 스트림 끝에 있을 때에는 `state="replay"` 이 사용됩니다.
 
 **예**  - 100 x 100 픽셀 재생 아이콘을 설정합니다.
 

@@ -1,13 +1,13 @@
 ---
+title: 명령 참조 - 구성 속성
 description: Video360 Viewer에 대한 구성 속성 설명서입니다.
 solution: Experience Manager
-title: 명령 참조 - 구성 속성
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Video360 Viewer에 대한 구성 속성 설명서입니다.
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-즉, 이 명령을 다음과 같이 사용할 수 있습니다.
+즉, 다음 위치에서 이 명령을 사용할 수 있습니다.
 
 * `playback` (짧은 구문)
 * `VideoPlayer.playback` (구성 요소 클래스 이름으로 한정됨)

@@ -1,13 +1,13 @@
 ---
+title: Video360Player.iconeffect
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: Video360Player.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 일시 중지 상태일 때 비디오 맨 위에 IconEffect를 표시할 수 있습니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이러한 경우 <span class="codeph"> iconeffect</span> 한정자는 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 일시 중지 상태일 때 비디오 맨 위에 IconEffect를 표시할 수 있습니다. 일부 장치에서는 기본 컨트롤이 사용됩니다. 이러한 경우 <span class="codeph">iconeffect</span> 한정자는 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 계수</span></span> </p> </td> 

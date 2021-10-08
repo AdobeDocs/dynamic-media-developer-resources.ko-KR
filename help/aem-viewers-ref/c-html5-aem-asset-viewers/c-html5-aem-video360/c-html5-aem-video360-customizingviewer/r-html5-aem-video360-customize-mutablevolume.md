@@ -1,13 +1,13 @@
 ---
+title: 가변 볼륨
 description: 가변 볼륨 컨트롤은 처음에 사용자가 비디오 플레이어 사운드를 음소거하거나 음소거할 수 있는 단추로 나타납니다.
 solution: Experience Manager
-title: 가변 볼륨
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---

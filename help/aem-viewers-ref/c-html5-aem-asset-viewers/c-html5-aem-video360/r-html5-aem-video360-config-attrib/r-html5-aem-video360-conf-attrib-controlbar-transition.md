@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Video360 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Video360 뷰어에 대한 구성 속성입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
-   <td colname="col2"> <p>컨트롤 막대가 등록하는 마지막 마우스/터치 이벤트와 시간 컨트롤 막대가 숨기는 시간 사이의 시간(초)을 지정합니다. </p> <p> <span class="codeph"> -1</span>로 설정하면 구성 요소는 자동 숨기기 효과를 트리거하지 않고 항상 화면에 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>컨트롤 막대가 등록하는 마지막 마우스/터치 이벤트와 시간 컨트롤 막대 사이의 시간(초)을 지정합니다. </p> <p> <span class="codeph"> -1</span>로 설정하면 구성 요소는 자동 숨기기 효과를 트리거하지 않고 항상 화면에 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 기간</span> </span> </p> </td> 

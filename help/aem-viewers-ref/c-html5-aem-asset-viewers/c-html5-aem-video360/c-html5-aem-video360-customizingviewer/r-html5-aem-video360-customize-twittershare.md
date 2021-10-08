@@ -1,20 +1,20 @@
 ---
-description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추를 클릭하면 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
-solution: Experience Manager
 title: Twitter 공유
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR 비디오
+description: Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 버튼을 선택하면 사용자가 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Twitter 공유{#twitter-share}
 
-Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 단추를 클릭하면 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
+Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩니다. 버튼을 선택하면 사용자가 소셜 서비스에서 제공하는 공유 대화 상자로 리디렉션됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

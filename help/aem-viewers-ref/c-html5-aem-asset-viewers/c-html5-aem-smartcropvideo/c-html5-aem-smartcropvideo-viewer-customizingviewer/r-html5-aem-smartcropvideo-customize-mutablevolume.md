@@ -1,11 +1,11 @@
 ---
+title: 가변 볼륨
 description: 가변 볼륨 컨트롤은 처음에 사용자가 스마트 자르기 비디오 플레이어 사운드를 음소거하거나 음소거할 수 있는 단추로 나타납니다.
 solution: Experience Manager
-title: 가변 볼륨
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%

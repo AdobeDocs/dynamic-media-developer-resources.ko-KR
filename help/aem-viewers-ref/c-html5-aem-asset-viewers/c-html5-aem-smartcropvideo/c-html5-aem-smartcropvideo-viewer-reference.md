@@ -1,12 +1,12 @@
 ---
+title: 스마트 자르기 비디오
 description: 스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media과 함께 Dynamic Media Classic 또는 Adobe Experience Manager에서 제공됩니다.
 keywords: 응답형
 solution: Experience Manager
-title: 스마트 자르기 비디오
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 ## 스마트 자르기 비디오 뷰어와 상호 작용 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-스마트 자르기 비디오 뷰어는 재생/일시 정지 단추, 비디오 스크러버 비디오 시간 버블, 재생 시간/총 시간 표시기, 볼륨 제어, 전체 화면 단추 및 닫힌 캡션 토글과 같은 비디오 재생에 대한 표준 사용자 인터페이스 컨트롤 집합을 제공합니다. 이러한 모든 컨트롤은 뷰어 사용자 인터페이스 하단에 있는 컨트롤 막대로 그룹화됩니다.
+스마트 자르기 비디오 뷰어는 다음과 같이 비디오 재생을 위한 표준 사용자 인터페이스 컨트롤 집합을 제공합니다.
+
+* 재생/일시 정지 단추.
+* 비디오 스크러버 비디오 시간 버블.
+* 재생 시간/총 시간 표시기.
+* 볼륨 컨트롤
+* 전체 화면 단추.
+* 닫힌 캡션 전환.
+
+이러한 모든 컨트롤은 뷰어 사용자 인터페이스 하단에 있는 컨트롤 막대로 그룹화됩니다.
 
 터치 장치에서는 하드웨어 버튼을 사용해서만 볼륨을 제어할 수 있으므로 볼륨 컨트롤이 사용자 인터페이스에서 숨겨집니다.
 

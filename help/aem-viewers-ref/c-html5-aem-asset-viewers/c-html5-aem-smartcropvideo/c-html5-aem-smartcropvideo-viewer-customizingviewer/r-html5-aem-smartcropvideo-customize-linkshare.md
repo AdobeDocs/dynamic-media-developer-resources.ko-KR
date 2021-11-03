@@ -1,13 +1,13 @@
 ---
+title: 링크 공유
 description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-title: 링크 공유
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
-예 - 패딩이 있는 대화 상자 헤더에 22 x 12픽셀 아이콘, 굵게 16포인트 제목 및 대화 상자 컨테이너 오른쪽의 두 픽셀에 배치된 28 x 28픽셀 닫기 단추를 설정하려면 다음을 수행하십시오.
+예 - 패딩, 22 x 12픽셀 아이콘 및 굵은 16포인트 제목을 사용한 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 마지막으로, 28x28픽셀 닫기 단추가 위쪽에서 2픽셀, 대화 상자 컨테이너 오른쪽에서 2픽셀로 배치됩니다.
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 광범위 필드**
+**대화 상자의 입력 범위 필드의 CSS 속성**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

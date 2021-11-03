@@ -1,20 +1,20 @@
 ---
-description: 데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
-solution: Experience Manager
 title: 도구 설명
+description: 데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 6%
 
 ---
 
 # 도구 설명{#tooltips}
 
-데스크톱 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성을 포함해야 합니다 `!IMPORTANT` 규칙. 뷰어의 CSS 파일에서 도구 설명이 사용자 지정된 경우에는 필요하지 않습니다.
+>포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙. 뷰어의 CSS 파일에서 도구 설명이 사용자 지정된 경우에는 이 규칙이 필요하지 않습니다.
 
-예 - 3px 모퉁이 반경, 검정 배경 및 흰색 텍스트가 Arial로 작성된 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기입니다.
+예 - 3-px 모퉁이 반경, 검은색 배경 및 Arial®로 작성된 흰색 텍스트가 있는 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기를 설정합니다.
 
 ```
 .s7tooltip { 

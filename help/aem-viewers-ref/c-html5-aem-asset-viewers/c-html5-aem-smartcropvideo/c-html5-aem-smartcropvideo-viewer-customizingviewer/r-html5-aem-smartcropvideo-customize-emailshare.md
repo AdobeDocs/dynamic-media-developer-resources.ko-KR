@@ -1,13 +1,13 @@
 ---
+title: 전자 메일 공유
 description: 이메일 공유 도구는 소셜 공유 패널에 추가된 버튼과 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-title: 전자 메일 공유
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-대화 상자가 활성 상태일 때 웹 페이지를 다루는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -282,7 +282,7 @@ background-color: #ffffff;
 
 닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
-예 - 패딩이 있는 대화 상자 헤더를 설정하려면, 24 x 17픽셀 아이콘, 굵은 16pt 제목 및 28 x 28픽셀 닫기 단추가 위쪽에서 2픽셀, 대화 상자 컨테이너 오른쪽에서 2픽셀을 위치했습니다.
+예 - 패딩, 24 x 17픽셀 아이콘 및 굵은 16pt 제목을 사용하여 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 그리고 마지막으로, 28x28픽셀 닫기 단추, 상단에서 2개의 픽셀을, 대화 상자 컨테이너 오른쪽에서는 2개의 픽셀을 위치시켰습니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ background-color: #ffffff;
 >
 >이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ background-color: #ffffff;
 
 단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
-예 - 64 x 34 취소 단추와 82 x 34 전자 메일 보내기 단추가 있는 대화 상자 바닥글을 각 단추 상태에 대해 다른 텍스트 색상과 배경색을 사용하여 설정하려면 다음을 수행하십시오.
+예 - 64 x 34 취소 단추와 82 x 34 전자 메일 보내기 단추가 있는 대화 상자 바닥글을 설정하려면 다음을 수행합니다. 마지막으로, 텍스트 색상 및 배경색은 각 단추 상태에 대해 다릅니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 광범위 필드**
+**대화 상자의 입력 범위 필드의 CSS 속성**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 모든 입력 필드 주위에 9픽셀의 패딩이 있는 1픽셀 회색 테두리가 있도록 양식을 설정하려면 다음을 수행합니다. 유효성 검사가 실패한 필드에 대해 동일한 테두리를 빨간색 색상으로 표시하려면 250픽셀 너비의 &quot;끝&quot; 입력 필드와 나머지 입력 필드의 너비가 300픽셀입니다.
+예 - 모든 입력 필드 주위에 9픽셀의 패딩이 있는 1픽셀 회색 테두리를 갖도록 양식을 설정하려면 다음을 수행합니다. 유효성 검사가 실패한 필드에 대해 동일한 테두리를 빨간색 색상으로 설정하려면 너비가 250픽셀, 입력 필드의 너비가 300픽셀이고 나머지 입력 필드의 너비가 300픽셀입니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ background-color: #ffffff;
 }
 ```
 
-전자 메일 메시지 입력 필드는 다음과 같이 추가로 제어됩니다.
+전자 메일 메시지 입력 필드는 다음과 같이 제어됩니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1163,7 +1163,7 @@ background-color: #ffffff;
 }
 ```
 
-사용자가 잘못된 입력 데이터를 입력하고 인라인 유효성 검사에 실패하거나, 양식을 제출할 때 대화 상자에서 오류 또는 확인 메시지를 렌더링해야 하는 경우, 메시지가 대화 상자 본문의 맨 위에 표시됩니다. 이 컨트롤은 다음 CSS 클래스 선택기로 제어됩니다.
+사용자가 잘못된 입력 데이터를 입력하고 인라인 유효성 검사가 실패하거나, 양식을 제출할 때 대화 상자에서 오류 또는 확인 메시지를 렌더링해야 하는 경우, 대화 상자 본문의 맨 위에 메시지가 표시됩니다. 이 컨트롤은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage
@@ -1210,11 +1210,11 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->이 메시지는 `state` 다음 가능한 값이 있는 속성 선택기: `verifyerror`, `senderror`, 및 `sendsuccess`. `verifyerror` 은 인라인 입력 유효성 검사 오류로 인해 메시지가 표시될 때 설정됩니다. `senderror` 은 백엔드 이메일 서비스가 오류를 보고할 때 설정됩니다. `sendsuccess` 은 이메일이 성공적으로 전송될 때 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지의 스타일을 다르게 지정할 수 있습니다.
+>이 메시지는 `state` 다음 가능한 값이 있는 속성 선택기: `verifyerror`, `senderror`, 및 `sendsuccess`. 값 `verifyerror` 은 인라인 입력 유효성 검사 오류로 인해 메시지가 표시될 때 설정됩니다. 값 `senderror` 백엔드 이메일 서비스에서 오류를 보고할 때 설정됩니다. 다음 `sendsuccess` 값이 설정된 값은 이메일을 성공적으로 보낼 때 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지의 스타일을 다르게 지정할 수 있습니다.
 
 오류 메시지는 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
-예 - 10포인트 굵은 글꼴을 사용하도록 메시지를 설정하려면 25픽셀 선 높이, 왼쪽에 20픽셀 패딩이 있고, 오류가 발생하면 느낌표 아이콘, 빨간색 텍스트, 성공 시 아이콘과 녹색 텍스트가 없습니다.
+예 - 10포인트 굵은 글꼴을 사용하도록 메시지를 설정하려면 25픽셀 라인 높이와 왼쪽에 20픽셀 패딩을 사용합니다. 또한, 오류가 있으면 느낌표 아이콘, 빨간색 텍스트, 성공할 경우 아이콘과 녹색 텍스트가 없습니다.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

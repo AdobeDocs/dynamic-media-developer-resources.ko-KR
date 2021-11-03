@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.mutevolume
 description: 스마트 자르기 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: SmartCropVideoPlayer.mutevolume
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%

@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: 스마트 자르기 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|설정</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS)을 통해 전달되는지 아니면 비보안 연결(HTTP)을 통해 전달되는지를 제어합니다. </p> <p>로 설정된 경우 <span class="codeph"> 자동</span> 비디오 전달 프로토콜은 포함 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되면 HTTPS를 통해 비디오도 전달되고 그 반대의 경우도 마찬가지입니다. 웹 페이지가 HTTP에 있는 경우 비디오가 HTTP를 통해 제공됩니다. </p> <p>로 설정된 경우 <span class="codeph"> on</span>에서는 항상 웹 페이지 프로토콜에 관계없이 보안 연결을 통해 비디오를 제공합니다. </p> <p>게시된 비디오 게재에만 영향을 주며 작성자 모드에서 비디오 미리 보기에 대해서는 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS)을 통해 전달되는지 아니면 비보안 연결(HTTP)을 통해 전달되는지를 제어합니다. </p> <p>로 설정된 경우 <span class="codeph"> 자동</span> 비디오 전달 프로토콜은 포함 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되면 비디오도 HTTPS를 통해 제공되고 반대로 전달됩니다. 웹 페이지가 HTTP에 있는 경우 비디오가 HTTP를 통해 제공됩니다. </p> <p>로 설정된 경우 <span class="codeph"> on</span>에서는 항상 웹 페이지 프로토콜에 관계없이 보안 연결을 통해 비디오를 제공합니다. </p> <p>게시된 비디오 게재에만 영향을 주며 작성자 모드에서 비디오 미리 보기에 대해서는 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

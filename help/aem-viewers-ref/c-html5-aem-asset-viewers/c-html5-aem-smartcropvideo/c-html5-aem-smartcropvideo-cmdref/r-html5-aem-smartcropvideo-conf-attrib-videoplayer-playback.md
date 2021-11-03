@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.playback
 description: 스마트 자르기 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: SmartCropVideoPlayer.playback
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 54a10b30-ebf5-4f1e-aa4a-b09055453c4e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|점진적</span> </p> </td> 
-   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. When <span class="codeph"> 자동</span> 이 설정되면 대부분의 데스크탑 브라우저와 모든 iOS 장치에서 뷰어는 HLS 형식의 HTML5 스트리밍 비디오를 사용합니다. 이전 Internet Explorer 및 Android와 같은 특정 시스템에서 점진적 HTML5 재생으로 돌아갑니다. </p> <p>If <span class="codeph"> 진보</span> 가 지정되면 뷰어는 브라우저가 기본적으로 지원하는 HTML5 재생에만 의존하며 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드의 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. When <span class="codeph"> 자동</span> 이 설정되면 대부분의 데스크탑 브라우저와 모든 iOS 장치에서 뷰어는 HLS 형식의 HTML5 스트리밍 비디오를 사용합니다. 이전 Internet Explorer 및 Android™과 같은 특정 시스템에서 점진적 HTML5 재생으로 돌아갑니다. </p> <p>If <span class="codeph"> 진보</span> 가 지정되면 뷰어는 브라우저가 기본적으로 지원하는 HTML5 재생에만 의존하며 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드의 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

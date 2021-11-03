@@ -1,11 +1,11 @@
 ---
+title: Adobe Analytics 추적 지원
 description: 스마트 자르기 비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
 solution: Experience Manager
-title: Adobe Analytics 추적 지원
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -26,7 +26,7 @@ ht-degree: 3%
 
 ## 사용자 지정 추적 {#section-ab10bd7caf184721a366cf3953071934}
 
-타사 분석 시스템과 통합하려면 다음 내용을 경청해야 합니다 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 

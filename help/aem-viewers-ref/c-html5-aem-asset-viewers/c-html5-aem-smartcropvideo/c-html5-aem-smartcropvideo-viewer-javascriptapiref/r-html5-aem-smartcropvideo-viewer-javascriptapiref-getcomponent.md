@@ -1,11 +1,11 @@
 ---
+title: getComponent
 description: 스마트 자르기 비디오 뷰어에 대한 JavaScript API 참조
 solution: Experience Manager
-title: getComponent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2f02371c-39c7-46fd-95a6-909efacac72c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # getComponent{#getcomponent}
 
-스마트 자르기 비디오 뷰어에 대한 JavaScript API 참조
+스마트 자르기 비디오 뷰어에 대한 JavaScript API 참조.
 
 `getComponent(componentId)`
 
@@ -110,7 +110,7 @@ SDK API를 사용할 때는 다음에 설명된 대로 올바른 정규화된 SD
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 뷰어 SDK 구성 요소에 대한 참조. 메서드는 를 반환합니다 `null` if `componentId` 는 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 입니다.
+`{Object}` Viewer SDK 구성 요소에 대한 참조. 메서드는 를 반환합니다 `null` if `componentId` 는 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 입니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

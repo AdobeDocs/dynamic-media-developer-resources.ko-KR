@@ -1,13 +1,13 @@
 ---
+title: 공유 포함
 description: 포함 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-title: 공유 포함
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 2%
 
 ---
@@ -185,7 +185,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheadericon
 ```
 
-**CSS properties of the dialog box header icon**
+**대화 상자 헤더 아이콘의 CSS 속성**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -284,7 +284,7 @@ background-color: #ffffff;
 
 닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
-예 - 패딩이 있는 대화 상자 헤더를 설정하려면, 24 x 14픽셀 아이콘, 굵은 16포인트 제목 및 28 x 28픽셀 닫기 단추, 맨 위에서 2개의 픽셀을 배치하고 대화 상자 컨테이너 오른쪽에서 2개의 픽셀을 지정합니다.
+예 - 패딩, 24 x 14픽셀 아이콘, 굵은 16포인트 제목 및 28 x 28픽셀 닫기 단추가 있는 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 마지막으로, 위쪽에서 2개의 픽셀과 대화 상자 컨테이너 오른쪽에서 2개의 픽셀을 배치하도록 합니다.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ background-color: #ffffff;
 >
 >취소 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 양식 컨텐츠에 10개의 픽셀 패딩이 있도록 설정하려면 다음을 수행합니다.
+예 - 양식 컨텐츠에 10픽셀 패딩을 포함하도록 설정하려면 다음을 수행합니다.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -636,7 +636,7 @@ background-color: #ffffff;
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 광범위 필드**
+**대화 상자의 입력 범위 필드의 CSS 속성**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -672,7 +672,7 @@ background-color: #ffffff;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
-   <td colname="col2"> <p>The width of the embed code container. </p> </td> 
+   <td colname="col2"> <p>포함 코드 컨테이너의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
@@ -712,7 +712,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 사용할 포함 코드 설정 `break-word` 자동 줄바꿈:
+예 - 사용할 포함 코드를 설정하려면 `break-word` 자동 줄바꿈:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->콤보 상자는 `expanded` 가능한 값이 있는 속성 선택기 `true` 및 `false`. `true` 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시될 때 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 폭 및 높이 입력 필드에 공간을 허용하려면 축소해야 합니다.
+>콤보 상자는 `expanded` 가능한 값이 있는 속성 선택기 `true` 및 `false`. 다음 `true` 값은 콤보 상자에 사전 정의된 포함 크기 중 하나가 표시될 때 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. 다음 `false` 값은 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 너비 및 높이 입력 필드에 공간을 허용하려면 축소되어야 합니다.
 
 예 - 미리 정의된 항목을 표시할 때 포함 크기 콤보 상자의 너비를 300픽셀로 설정하고 사용자 지정 크기를 표시할 때 110픽셀의 너비를 설정하려면 다음을 수행합니다.
 
@@ -871,7 +871,7 @@ background-color: #ffffff;
 
 이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-Example - to set a &quot;drop down&quot; button to 28 x 28 pixels and have a separate image for each state:
+예 - &quot;드롭다운&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대해 별도의 이미지를 만들려면:
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -892,7 +892,7 @@ Example - to set a &quot;drop down&quot; button to 28 x 28 pixels and have a sep
 }
 ```
 
-The panel with the list of embed sizes displayed when combo box is opened is controlled with the following CSS class selector:
+콤보 상자를 열 때 포함 크기 목록이 표시되는 패널은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -1037,7 +1037,7 @@ The panel with the list of embed sizes displayed when combo box is opened is con
  </tbody> 
 </table>
 
-예 - 사용자 지정 크기 입력 필드를 픽셀 회색 테두리, 여백, 패딩 및 너비가 70픽셀로 설정하려면 다음을 수행하십시오.
+예 - 사용자 지정 크기 입력 필드를 픽셀 회색 테두리, 여백, 패딩과 70픽셀 너비로 설정하려면 다음을 수행하십시오.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

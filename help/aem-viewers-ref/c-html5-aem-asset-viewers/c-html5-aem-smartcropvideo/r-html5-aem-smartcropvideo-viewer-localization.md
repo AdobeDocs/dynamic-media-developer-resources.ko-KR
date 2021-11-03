@@ -1,13 +1,13 @@
 ---
+title: 사용자 인터페이스 요소의 로컬라이제이션
 description: 스마트 자르기 비디오 뷰어가 표시하는 특정 콘텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
 solution: Experience Manager
-title: 사용자 인터페이스 요소의 로컬라이제이션
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---

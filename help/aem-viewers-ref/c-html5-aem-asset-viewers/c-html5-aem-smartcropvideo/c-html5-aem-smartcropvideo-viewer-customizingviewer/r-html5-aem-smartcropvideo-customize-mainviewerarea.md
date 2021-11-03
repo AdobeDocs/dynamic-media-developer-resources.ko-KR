@@ -1,11 +1,11 @@
 ---
+title: 기본 뷰어 영역
 description: 기본 보기 영역은 스마트 자르기 비디오가 사용 중입니다. 일반적으로 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 solution: Experience Manager
-title: 기본 뷰어 영역
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 2%

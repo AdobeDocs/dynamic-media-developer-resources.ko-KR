@@ -1,13 +1,13 @@
 ---
+title: HTTP 비디오 게재
 description: HTTP 비디오 게재
 solution: Experience Manager
-title: HTTP 비디오 게재
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-뷰어가 이 섹션의 시작 부분에 요약된 대로 구성으로 작동하는 경우 게시된 비디오 배달이 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 기본 구성에서는 비디오 게재 프로토콜이 포함 웹 페이지의 게재 프로토콜을 엄격히 따릅니다. 그러나 를 사용하여 웹 페이지를 포함하여 사용하는 프로토콜에 관계없이 HTTPS 비디오 제공을 강제 적용할 수 있습니다 [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) 구성 속성입니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS를 통해 안전하게 전달됩니다.)
+뷰어가 이 섹션의 시작 부분에 요약된 대로 구성에서 작동하는 경우 게시된 비디오 배달이 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 기본 구성에서는 비디오 게재 프로토콜이 포함 웹 페이지의 게재 프로토콜을 엄격히 따릅니다. 그러나 를 사용하여 웹 페이지를 포함하여 사용하는 프로토콜에 관계없이 HTTPS 비디오 제공을 강제 적용할 수 있습니다 [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) 구성 속성입니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS에서 안전하게 전달됩니다.)
 
-AEM에서 사용하는 Dynamic Media 비디오를 게시하는 방법에 따라 `SmartCropVideoPlayer.ssl` 구성 속성은 다음과 같이 다르게 적용됩니다.
+Adobe Experience Manager에서 사용하는 Dynamic Media 비디오를 게시하는 방법에 따라 `SmartCropVideoPlayer.ssl` 구성 속성은 다음과 같이 다르게 적용됩니다.
 
 * URL이 있는 Dynamic Media 비디오를 게시하면 사용자가 추가합니다 `SmartCropVideoPlayer.ssl` 아래와 같이 변경하는 것을 의미합니다. 예를 들어 보안 비디오 제공을 강제 수행하려면 을 추가합니다 `&SmartCropVideoPlayer.ssl=on` 다음 뷰어 URL 예제의 끝:
 

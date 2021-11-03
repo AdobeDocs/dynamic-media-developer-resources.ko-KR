@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.preload
 description: 재생이 시작되기 전에 뷰어가 비디오 컨텐츠 로드를 시작하는지 여부를 나타냅니다.
 solution: Experience Manager
-title: SmartCropVideoPlayer.preload
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: cee887f6-bbd9-46dd-aa41-03493596fcf4
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 로 설정된 경우 <span class="codeph"> 1 </span> 자산이 설정된 직후에 비디오가 다운로드되기 시작합니다. 그렇지 않으면 최종 사용자가 재생을 시작하거나 API 호출에 의해 시작된 후에만 사전 로드가 시작됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 0 </span> 재생이 시작될 때까지 특정 기능이 작동하지 않을 수 있습니다. 특히 찾기 작업은 비디오 프레임을 업데이트하지 않습니다. 포스터 이미지가 비활성화되면 뷰어는 첫 번째 비디오 프레임 대신 빈 영역으로 표시됩니다. </p> <p>Internet Explorer 11 및 Edge 브라우저의 특정 버전에서 비디오 미리 로드를 사용하지 않도록 설정하는 것은 무시할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 로 설정된 경우 <span class="codeph"> 1 </span> 자산이 설정된 직후에 비디오가 다운로드되기 시작합니다. 그렇지 않으면 최종 사용자가 재생을 시작하거나 API 호출에 의해 시작된 후에만 사전 로드가 시작됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 0 </span> 특정 기능은 재생이 다시 시작될 때까지 작동하지 않을 수 있습니다. 특히 찾기 작업은 비디오 프레임을 업데이트하지 않습니다. 포스터 이미지가 비활성화되면 뷰어는 첫 번째 비디오 프레임 대신 빈 영역으로 표시됩니다. </p> <p>Internet Explorer 11 및 Edge 브라우저의 특정 버전에서 비디오 미리 로드를 사용하지 않도록 설정하는 것은 무시할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

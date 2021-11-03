@@ -1,11 +1,11 @@
 ---
+title: 비디오 플레이어
 description: 스마트 자르기 비디오 플레이어는 뷰어 내에 비디오 컨텐츠가 표시되는 사각형 영역입니다.
 solution: Experience Manager
-title: 비디오 플레이어
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ background-color: transparent;
  </tbody> 
 </table>
 
-예 - 반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, 굴림(Arial)으로 설정하려면 다음을 수행합니다.
+예 - 반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, Arial®로 설정하려면 다음을 수행합니다.
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

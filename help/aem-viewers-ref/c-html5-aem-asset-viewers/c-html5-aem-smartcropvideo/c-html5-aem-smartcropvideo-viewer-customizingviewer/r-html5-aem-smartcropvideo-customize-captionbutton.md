@@ -1,13 +1,13 @@
 ---
+title: 캡션 단추
 description: 이 단추는 닫힌 캡션 표시를 설정/해제합니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
 solution: Experience Manager
-title: 캡션 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 
 
 ## 예 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-28 x 28픽셀인 닫힌 캡션 단추를 설정하려면 컨트롤 막대의 오른쪽 가장자리로부터 4픽셀, 오른쪽 가장자리에서는 68픽셀을 배치하여 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+28 x 28픽셀인 닫힌 캡션 단추를 설정하려면 다음을 수행하십시오. 위쪽에서 4픽셀, 컨트롤 막대의 오른쪽 가장자리에서 68픽셀로 배치됩니다. 마지막으로, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

@@ -1,0 +1,714 @@
+---
+description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
+solution: Experience Manager
+title: 링크 공유
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+role: Developer,User
+exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
+source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+workflow-type: tm+mt
+source-wordcount: '1375'
+ht-degree: 2%
+
+---
+
+# 링크 공유{#link-share}
+
+링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
+
+<!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
+
+링크 공유 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkshare
+```
+
+**링크 공유 도구의 CSS 속성**
+
+<table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+
+Social 공유 패널에서 단추를 제거하려면 `display:none` CSS 클래스의 CSS 속성입니다.
+
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+
+예 - 28 x 28픽셀인 링크 공유 단추를 설정하고 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하려면 다음을 수행하십시오.
+
+```
+.s7smartcropvideoviewer .s7linkshare { 
+ width:28px; 
+ height:28px; 
+} 
+.s7smartcropvideoviewer .s7linkshare[state='up'] { 
+background-image:url(images/v2/LinkShare_dark_up.png); 
+} 
+.s7smartcropvideoviewer .s7linkshare[state='over'] { 
+background-image:url(images/v2/LinkShare_dark_over.png); 
+} 
+.s7smartcropvideoviewer .s7linkshare[state='down'] { 
+background-image:url(images/v2/LinkShare_dark_down.png); 
+} 
+.s7smartcropvideoviewer .s7linkshare[state='disabled'] { 
+background-image:url(images/v2/LinkShare_dark_disabled.png); 
+}
+```
+
+대화 상자가 활성 상태일 때 웹 페이지를 덮는 배경 오버레이는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7backoverlay
+```
+
+**배경 오버레이의 CSS 속성**
+
+<table id="table_DB4183CE8061425084D495A355A941F8"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 불투명도 </span> </p> </td> 
+   <td colname="col2"> <p>배경 오버레이 불투명도. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p>배경 오버레이 색상. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 70%의 불투명도를 사용하여 회색 오버레이를 설정하려면 다음을 수행합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7backoverlay { 
+ opacity:0.7; 
+ background-color:#222222; 
+}
+```
+
+기본적으로 모달 대화 상자는 데스크톱 시스템의 화면 중앙에 표시되며 터치 장치의 전체 웹 페이지 영역을 가져옵니다. 모든 경우 대화 상자의 위치 지정 및 크기 조절은 구성 요소에서 관리합니다. 이 대화 상자는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialog
+```
+
+**대화 상자의 CSS 속성**
+
+<table id="table_E31711ADF4C7446182549244362199A3"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
+   <td colname="col2"> <p> 대화 상자가 전체 브라우저를 사용하지 않는 경우 대화 상자 테두리 반경입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 전체 브라우저 창을 사용하고 터치 장치에 흰색 배경을 포함하도록 대화 상자를 설정하려면 다음을 수행하십시오.
+
+```
+.s7smartcropvideoviewer .s7touchinput .s7linkdialog .s7dialog { 
+ width:100%; 
+ height:100%; 
+background-color: #ffffff; 
+}
+```
+
+대화 상자 헤더는 아이콘, 제목 텍스트 및 닫기 단추로 구성됩니다. 헤더 컨테이너는
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheader
+```
+
+**대화 상자 헤더의 CSS 속성**
+
+<table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p> 헤더 컨텐츠에 대한 내부 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+아이콘 및 제목 텍스트는
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
+```
+
+**대화 상자의 CSS 속성**
+
+<table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p> 헤더 아이콘 및 제목에 대한 내부 패딩 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+헤더 아이콘은 다음 CSS 클래스 선택기로 제어됩니다
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheadericon
+```
+
+**대화 상자 헤더 아이콘의 CSS 속성**
+
+<table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>아이콘 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>아이콘 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col2"> <p>아이콘 이미지. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+헤더 제목은 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheadertext
+```
+
+**대화 상자 헤더 텍스트의 CSS 속성**
+
+<table id="table_207B4B13153E425EAB38FC61F382A05F"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 가중치입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 패밀리. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p>내부 텍스트 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+닫기 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton
+```
+
+**닫기 단추의 CSS 속성 **
+
+<table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col2"> <p> 헤더 컨테이너에 대한 세로 단추 위치입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
+   <td colname="col2"> <p> 헤더 컨테이너에 대한 가로 단추 위치입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p>단추의 내부 패딩. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+
+닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+
+예 - 패딩이 있는 대화 상자 헤더에 22 x 12픽셀 아이콘, 굵게 16포인트 제목 및 대화 상자 컨테이너 오른쪽의 두 픽셀에 배치된 28 x 28픽셀 닫기 단추를 설정하려면 다음을 수행하십시오.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
+ padding: 10px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline { 
+ padding: 10px 10px 2px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheadericon { 
+    background-image: url("images/sdk/dlglink_cap.png"); 
+    height: 12px; 
+    width: 22px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogheadertext { 
+    font-size: 16pt; 
+    font-weight: bold; 
+    padding-left: 16px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton { 
+ top:2px; 
+ right:2px; 
+ padding:8px; 
+ width:28px; 
+ height:28px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton[state='up'] { 
+ background-image:url(images/sdk/close_up.png); 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton[state='over'] { 
+ background-image:url(images/sdk/close_over.png); 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton[state='down'] { 
+ background-image:url(images/sdk/close_down.png); 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7closebutton[state='disabled'] { 
+ background-image:url(images/sdk/close_disabled.png); 
+}
+```
+
+대화 상자 바닥글은 &quot;취소&quot; 단추로 구성됩니다. 바닥글 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
+```
+
+**대화 상자 바닥글의 CSS 속성 **
+
+<table id="table_0AF7AAAB846A46D690896AFD68575669"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리입니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+바닥글에는 단추를 유지하는 내부 컨테이너가 있습니다. 이 컨트롤은 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogbuttoncontainer
+```
+
+**대화 상자 단추 컨테이너의 CSS 속성**
+
+<table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+모두 선택 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton
+```
+
+버튼은 데스크탑 시스템에서만 사용할 수 있습니다.
+
+**모두 선택 단추의 CSS 속성**
+
+<table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>모두 선택 단추를 사용하면 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+
+취소 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton
+```
+
+**대화 상자의 CSS 속성 취소 단추**
+
+<table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>단추 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
+```
+
+**단추의 CSS 속성**
+
+<table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 가중치입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 크기입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 모음입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 라인 높이 </span> </p> </td> 
+   <td colname="col2"> <p> 단추 내부의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
+   <td colname="col2"> <p>그림자. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
+   <td colname="col2"> <p>오른쪽 단추 여백. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+
+예 - 각 단추 상태에 대해 텍스트 색상과 배경색이 다른 64 x 34 취소 단추가 있는 대화 상자 바닥글을 설정하려면 다음과 같이 하십시오.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogfooter { 
+    border-top: 1px solid #909090; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogbuttoncontainer { 
+    padding-bottom: 6px; 
+    padding-top: 10px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button { 
+    box-shadow: 1px 1px 1px #999999; 
+    color: #FFFFFF; 
+    font-size: 9pt; 
+    font-weight: bold; 
+    line-height: 34px; 
+    margin-right: 10px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton { 
+ width:64px; 
+ height:34px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton[state='up'] { 
+ background-color:#666666; 
+ color:#dddddd; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton[state='down'] { 
+ background-color:#555555; 
+ color:#ffffff; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton[state='over'] { 
+ background-color:#555555; 
+ color:#ffffff; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton[state='disabled'] { 
+ background-color:#b2b2b2; 
+ color:#dddddd; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton { 
+ width:82px; 
+ height:34px; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton[state='up'] { 
+ background-color:#333333; 
+ color:#dddddd; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton[state='down'] { 
+ background-color:#222222; 
+ color:#cccccc; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton[state='over'] { 
+ background-color:#222222; 
+ color:#cccccc; 
+} 
+.s7smartcropvideoviewer .s7linkdialog .s7dialogactionbutton[state='disabled'] { 
+ background-color:#b2b2b2; 
+ color:#dddddd; 
+}
+```
+
+머리글과 바닥글 사이에 있는 기본 대화 상자 영역에는 대화 상자 컨텐츠가 있습니다. 구성 요소는 모든 경우 이 영역의 너비를 관리하므로 CSS로 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea
+```
+
+**대화 상자의 CSS 속성 보기 영역 **
+
+<table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p> 주 대화상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 지정된 경우에는 적용할 수 없습니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col2"> <p>외부 여백. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 기본 대화 상자 영역을 300픽셀 높이로 설정하려면 10개의 픽셀 여백을 사용하고 흰색 배경을 사용합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogviewarea { 
+ background-color:#ffffff; 
+ margin:10px; 
+ height:300px; 
+}
+```
+
+모든 양식 컨텐츠(예: 레이블 및 입력 필드)는
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogbody
+```
+
+**대화 상자 본문의 CSS 속성**
+
+<table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p>내부 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 양식 컨텐츠에 10개의 픽셀 패딩이 있도록 설정하려면 다음을 수행합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialogbody { 
+    padding: 10px; 
+}
+```
+
+대화 상자 양식의 모든 정적 레이블은
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoglabel
+```
+
+이 클래스는 양식 사용자 인터페이스의 여러 위치에서 텍스트에 적용할 수 있으므로 레이블 크기 또는 위치를 제어하는 데 적합하지 않습니다.
+
+**대화 상자 레이블의 CSS 속성입니다. **
+
+<table id="table_13C7874807314ADD83A23075ABB4C340"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 가중치입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 크기입니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 패밀리에 레이블을 지정합니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
+   <td colname="col2"> <p>텍스트 색상을 레이블 지정합니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+대화 상자 레이블은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+
+예 - 모든 레이블을 회색으로 설정하고 9픽셀 글꼴로 굵게 설정하려면 다음을 수행합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoglabel { 
+    color: #666666; 
+    font-size: 9pt; 
+    font-weight: bold; 
+}
+```
+
+링크 상단에 표시되는 텍스트 사본의 크기는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
+```
+
+**대화 상자의 CSS 속성 입력 광범위 필드**
+
+<table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>텍스트 너비. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p>내부 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 텍스트 복사본을 430픽셀 너비로 설정하고 하단에 10픽셀 패딩을 설정하는 방법:
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide { 
+    padding-bottom: 10px; 
+    width: 430px; 
+}
+```
+
+공유 링크는 컨테이너에 래핑되고 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoginputcontainer
+```
+
+**대화 상자 입력 컨테이너의 CSS 속성**
+
+<table id="table_7BC1C5919A54483F8121D928DC63233A"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col2"> <p>공유 링크 컨테이너 주위에 테두리가 표시됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
+   <td colname="col2"> <p>내부 패딩. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 포함 코드 텍스트 주위에 1픽셀 회색 테두리를 설정하고 9픽셀 패딩을 포함합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoginputcontainer { 
+    border: 1px solid #CCCCCC; 
+    padding: 9px; 
+}
+```
+
+공유 링크 자체는 다음 CSS 클래스 선택기로 제어됩니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoglink
+```
+
+**대화 상자 공유 링크의 CSS 속성**
+
+<table id="table_65CF778F5BDA45118208538DCBE203FB"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col2"> <p>링크 너비를 공유합니다. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+예 - 공유 링크를 너비 450픽셀로 설정하려면 다음을 수행합니다.
+
+```
+.s7smartcropvideoviewer .s7linkdialog .s7dialoglink { 
+    width: 450px; 
+}
+```

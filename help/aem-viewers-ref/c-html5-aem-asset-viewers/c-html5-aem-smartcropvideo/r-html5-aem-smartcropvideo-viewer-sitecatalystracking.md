@@ -1,0 +1,89 @@
+---
+description: 스마트 자르기 비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
+solution: Experience Manager
+title: Adobe Analytics 추적 지원
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+role: Developer,User,Data Engineer,Data Architect
+exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
+source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 3%
+
+---
+
+# Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
+
+스마트 자르기 비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
+
+## 기본 추적 {#section-3b101fe30be943c1b679fd5c273569ca}
+
+스마트 자르기 비디오 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
+
+추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수.
+
+또한 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
+
+## 사용자 지정 추적 {#section-ab10bd7caf184721a366cf3953071934}
+
+타사 분석 시스템과 통합하려면 다음 내용을 경청해야 합니다 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+
+```
+var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
+ "containerId":"s7viewer", 
+"params":{ 
+ "asset":"html5automation/frisbee-AVS", 
+ "serverurl":"http://s7d1.scene7.com/is/image/", 
+ "videoserverurl":"http://s7d1.scene7.com/is/content/" 
+}, 
+"handlers":{ 
+ "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) { 
+  //identify event type 
+  var eventType = eventInfo.split(",")[0]; 
+  switch (eventType) { 
+   case "LOAD": 
+    //custom event processing code 
+    break; 
+   //additional cases for other events 
+} 
+} 
+} 
+});
+```
+
+뷰어는 다음 SDK 사용자 이벤트를 추적합니다.
+
+<table id="table_5D090E6614974D968E1A93B5727D859C"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>SDK 사용자 이벤트 </p> </th> 
+   <th colname="col2" class="entry"> <p>전송 시점... </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
+   <td colname="col2"> <p>뷰어에서 자산을 <span class="codeph"> setAsset() </span> API. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col2"> <p>재생이 시작됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col2"> <p>재생이 일시 중지되었습니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col2"> <p>재생이 중지됩니다. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col2"> <p>재생은 다음 항목 중 하나에 도달합니다. 0%, 25%, 50%, 75%, 100%. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>

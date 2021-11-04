@@ -2,10 +2,10 @@
 title: 재생/일시 정지 단추
 description: 재생/일시 중지 단추를 사용하면 사용자가 비디오 컨텐츠를 클릭할 때 스마트 자르기 비디오 플레이어가 비디오 컨텐츠를 재생하거나 일시 중지합니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%

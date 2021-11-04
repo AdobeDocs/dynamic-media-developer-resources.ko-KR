@@ -2,10 +2,10 @@
 title: 아이콘 효과
 description: 재생 아이콘은 기본 보기 영역에 겹쳐집니다. 비디오가 일시 중지되거나 비디오 끝에 도달하면 표시되며, iconeffect 매개 변수에도 적용됩니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%

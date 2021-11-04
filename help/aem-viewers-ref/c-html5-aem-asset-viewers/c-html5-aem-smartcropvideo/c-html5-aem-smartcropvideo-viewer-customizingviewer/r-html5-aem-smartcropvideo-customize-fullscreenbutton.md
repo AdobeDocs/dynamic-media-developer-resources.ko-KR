@@ -2,10 +2,10 @@
 title: 전체 화면 단추
 description: 전체 화면 단추로 인해 사용자가 클릭할 때 스마트 자르기 비디오 플레이어가 전체 화면 모드로 들어가거나 종료됩니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%

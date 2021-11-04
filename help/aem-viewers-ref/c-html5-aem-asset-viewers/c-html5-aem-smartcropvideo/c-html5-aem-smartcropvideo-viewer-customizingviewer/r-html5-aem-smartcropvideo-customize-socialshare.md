@@ -1,11 +1,11 @@
 ---
-title: 소셜 공유
-description: 기본적으로 소셜 공유 도구가 오른쪽 상단 모서리에 표시됩니다. 이 패널은 사용자가 단추를 클릭하거나 탭할 때 확장되는 단추와 패널이며 개별 공유 도구가 포함되어 있습니다.
+title: Social share
+description: 기본적으로 소셜 공유 도구가 오른쪽 상단 모서리에 표시됩니다. It consists of a button and a panel which expands when user clicks or taps on a button and contains individual sharing tools.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-뷰어 사용자 인터페이스에서 소셜 공유 도구의 위치 및 크기는 다음과 같이 제어됩니다.
+The position and size of the social share tool in the viewer user interface is controlled with the following:
 
 ```
 .s7smartcropvideoviewer .s7socialshare
@@ -34,11 +34,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 컨테이너를 기준으로 하는 소셜 공유 도구의 수평 위치입니다. </p> </td> 
+   <td colname="col2"> <p> Horizontal position of the social sharing tool relative to the viewer container. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 소셜 공유 도구의 폭입니다. </p> </td> 
+   <td colname="col2"> <p> The width of the social sharing tool. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>See <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,13 +108,13 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 .s7smartcropvideoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**소셜 공유 패널의 CSS 속성**
+**CSS properties of the social share panel**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
-   <td colname="col2"> <p>패널의 배경색입니다. </p> </td> 
+   <td colname="col2"> <p>The background color of the panel. </p> </td> 
   </tr> 
  </tbody> 
 </table>

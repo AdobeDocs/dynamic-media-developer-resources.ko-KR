@@ -1,27 +1,27 @@
 ---
-description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 Dynamic Media과 함께 Adobe Experience Manager에서 제공됩니다.
+description: 비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media과 함께 Dynamic Media Classic 또는 Adobe Experience Manager에서 제공됩니다.
 keywords: 응답형
 solution: Experience Manager
 title: 비디오
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
 
 # 비디오{#video}
 
-비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 Dynamic Media과 함께 Experience Manager에서 제공됩니다.
+비디오 뷰어는 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media Classic 또는 Dynamic Media과 함께 Experience Manager에서 전달됩니다.
 
-[시스템 요구 사항 및 사전 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)을 참조하십시오.
+자세한 내용은 [시스템 요구 사항 및 사전 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 단일 비디오 및 응용 비디오 세트가 모두 지원됩니다. 또한, 뷰어는 외부 위치에 호스팅되는 점진적 비디오 및 HLS 스트림 작업을 지원합니다. HTML5 비디오를 지원하는 데스크탑 및 모바일 웹 브라우저에서 작동하도록 디자인되었습니다. 이 뷰어는 비디오 컨텐츠, 비디오 장 탐색 및 소셜 미디어 공유 도구 위에 표시되는 선택적 닫힘 캡션도 지원합니다.
 
-비디오 뷰어는 기본 시스템이 지원할 때마다 기본 구성에서 HTML5 스트리밍 비디오 재생을 HLS 형식으로 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서 뷰어는 HTML5 점진적 비디오 제공으로 다시 폴백됩니다.
+비디오 뷰어는 기본 시스템이 지원할 때마다 기본 구성에서 HTML5 스트리밍 비디오 재생을 HLS 형식으로 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서는 뷰어가 HTML5 점진적 비디오 제공으로 다시 폴백됩니다.
 
 뷰어 유형 506.
 
@@ -37,7 +37,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 뷰어를 구성하고 스키닝하는 작업은 다른 뷰어와 비슷합니다. 모든 스키닝은 사용자 지정 CSS를 통해 수행됩니다.
 
-모든 뷰어에 공통되는 [명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)를 참조하십시오.
+자세한 내용은 [모든 뷰어에 공통되는 명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 비디오 뷰어와 상호 작용 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
@@ -53,7 +53,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 이 뷰어는 키보드로 액세스할 수 있습니다.
 
-[키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)을 참조하십시오.
+자세한 내용은 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## 비디오 뷰어와 소셜 미디어 공유 도구 {#section-907d316fe1da4b87abb9775f02464704}
 
@@ -65,7 +65,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 ## 비디오 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 를 클릭하면 별도의 브라우저 창에서 뷰어가 열리는 링크를 제공합니다. 다른 경우에는 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다. 팝업, 고정 크기 포함 및 반응형 디자인 포함.
+웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하므로, 이 링크를 선택하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우에는 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다. 팝업, 고정 크기 포함 및 반응형 디자인 포함.
 
 태블릿 및 모바일 장치에서 동일한 페이지에 여러 비디오를 포함할 수 있습니다. 일반적으로 한 번에 하나의 비디오만 재생할 수 있습니다. 사용자가 한 비디오를 재생하기 시작한 다음 다른 비디오를 재생하려고 하면 첫 번째 비디오가 자동으로 일시 정지됩니다. 자동 일시 중지된 비디오는 현재 재생 시간을 기억하므로 사용자가 항상 다시 돌아가서 재생을 재개할 수 있습니다. 이 규칙은 Android™ 4.x 장치의 Chrome 브라우저에서 비디오를 동시에 재생할 수 있는 유일한 예외입니다.
 
@@ -73,9 +73,9 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 팝업 모드에서는 뷰어가 별도의 웹 브라우저 창이나 탭에서 열립니다. 브라우저 크기가 조정되거나 장치 방향이 변경되는 경우 전체 브라우저 창 영역을 사용하고 조정됩니다.
 
-이 모드는 모바일 장치에 가장 일반적입니다. 웹 페이지는 `window.open()` JavaScript 호출을 사용하여 뷰어를 로드하거나, 올바르게 구성된 `A` HTML 요소 또는 기타 적절한 메서드를 사용합니다.
+이 모드는 모바일 장치에 가장 일반적입니다. 웹 페이지는 `window.open()` 올바르게 구성된 JavaScript 호출 `A` HTML 요소 또는 기타 적절한 방법.
 
-팝업 작업 모드에 기본 HTML 페이지를 사용하는 것이 좋습니다. 이 이름을 [!DNL VideoViewer.html]이라고 하며, 표준 IS-Viewers 배포의 [!DNL html5/] 하위 폴더 아래에 있습니다.
+팝업 작업 모드에서는 기본 HTML 페이지를 사용하는 것이 좋습니다. 라고 합니다 [!DNL VideoViewer.html] 그리고 그것은 아래에 있습니다 [!DNL html5/] 표준 IS-Viewers 배포의 하위 폴더:
 
 [!DNL <s7viewers_root>/html5/VideoViewer.html]
 
@@ -95,28 +95,28 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 초기 로드 후 뷰어가 크기를 변경하지 않는 경우 크기 포함이 수정되었습니다. 이 선택 사항은 정적 페이지 레이아웃이 있는 웹 페이지에 가장 적합합니다.
 
-응답형 디자인 포함 에서는 뷰어가 컨테이너 `DIV`의 크기 변경에 응답하여 런타임 시 크기를 조정해야 한다고 가정합니다. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
+반응형 디자인 포함 에서는 컨테이너의 크기 변경에 응답하여 뷰어가 런타임 시 크기를 조정해야 한다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
 
-응답형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 `DIV`에 대한 크기 조절 방식에 따라 다르게 동작합니다. 웹 페이지가 컨테이너 `DIV`의 너비만 설정하고 높이를 제한을 두지 않는 경우 뷰어는 사용되는 자산의 종횡비에 따라 높이를 자동으로 선택합니다. 이 방법을 사용하면 측면에 패딩되지 않고 자산이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 또는 Foundation과 같은 반응형 디자인 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적입니다.
+응답형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방법에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너 너비만 설정하는 경우 `DIV`키를 제한 상태로 두면 뷰어는 사용되는 자산의 종횡비에 따라 높이를 자동으로 선택합니다. 이 방법을 사용하면 측면에 패딩되지 않고 자산이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 또는 Foundation과 같은 반응형 디자인 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적입니다.
 
-그렇지 않으면 웹 페이지가 뷰어의 컨테이너 `DIV`에 대한 너비와 높이를 모두 설정하는 경우 뷰어는 해당 영역을 채우고 웹 페이지 레이아웃에서 제공하는 크기를 따릅니다. 좋은 예는 뷰어를 모달 오버레이에 포함하는데, 이 오버레이는 웹 브라우저 창의 크기에 따라 크기가 조정됩니다.
+그렇지 않으면 웹 페이지에서 뷰어 컨테이너의 너비와 높이를 모두 설정합니다 `DIV`로 지정하는 경우 뷰어는 해당 영역만 채우고 웹 페이지 레이아웃으로 제공된 크기를 따릅니다. 좋은 예는 뷰어를 모달 오버레이에 포함하는데, 이 오버레이는 웹 브라우저 창의 크기에 따라 크기가 조정됩니다.
 
 **고정 크기 포함**
 
 다음을 수행하여 웹 페이지에 뷰어를 추가합니다.
 
 1. 웹 페이지에 뷰어 JavaScript 파일 추가.
-1. `DIV` 컨테이너를 정의합니다.
+1. 컨테이너 정의 `DIV`.
 1. 뷰어 크기를 설정합니다.
 1. 뷰어를 만들고 초기화합니다.
 
 1. 웹 페이지에 뷰어 JavaScript 파일 추가.
 
-   뷰어를 만들려면 HTML 헤드에 스크립트 태그를 추가해야 합니다. 뷰어 API를 사용하려면 먼저 [!DNL FlyoutViewer.js]를 포함해야 합니다. [!DNL FlyoutViewer.js] 파일은 표준 IS-Viewers 배포의 [!DNL html5/js/] 하위 폴더 아래에 있습니다.
+   뷰어를 만들려면 HTML 헤드에 스크립트 태그를 추가해야 합니다. 뷰어 API를 사용하려면 먼저 다음을 포함해야 합니다 [!DNL FlyoutViewer.js]. 다음 [!DNL FlyoutViewer.js] 파일은 [!DNL html5/js/] 표준 IS-Viewers 배포의 하위 폴더:
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-Viewers가 설치된 Adobe Dynamic Media Classic 서버 중 하나에 대한 전체 경로를 지정합니다.
+뷰어가 Adobe Dynamic Media Classic 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-Viewers가 설치된 Adobe Dynamic Media Classic 서버 중 하나에 대한 전체 경로를 지정합니다.
 
 상대 경로는 다음과 같습니다.
 
@@ -126,16 +126,16 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
 >[!NOTE]
 >
->페이지에서 기본 뷰어 JavaScript `include` 파일만 참조합니다. 런타임 시 뷰어의 논리에 의해 다운로드될 수 있는 웹 페이지 코드에서 추가 JavaScript 파일을 참조하지 마십시오. 특히 `/s7viewers` 컨텍스트 경로(소위 통합 SDK `include`)에서 뷰어가 로드한 HTML5 SDK `Utils.js` 라이브러리를 직접 참조하지 마십시오. 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리의 위치가 뷰어의 논리에 의해 완전히 관리되고 뷰어 릴리스 간에 위치가 변경되기 때문입니다. Adobe은 이전 버전의 보조 뷰어 `includes`를 서버에 유지하지 않습니다.
+>기본 뷰어 JavaScript만 참조합니다 `include` 파일을 페이지에 넣을 수 있습니다. 런타임 시 뷰어의 논리에 의해 다운로드될 수 있는 웹 페이지 코드에서 추가 JavaScript 파일을 참조하지 마십시오. 특히 HTML5 SDK를 직접 참조하지 마십시오 `Utils.js` 뷰어에서 로드한 라이브러리 `/s7viewers` 컨텍스트 경로(소위 통합 SDK) `include`). 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리는 뷰어 논리와 뷰어 릴리스 간의 위치 변경으로 완전히 관리됩니다. Adobe은 이전 버전의 보조 뷰어를 유지하지 않습니다 `includes` 를 클릭합니다.
 >
 >
->따라서 페이지에서 뷰어가 사용하는 보조 JavaScript `include`에 직접 참조를 지정하면 새 제품 버전이 배포될 때 나중에 뷰어 기능이 중단됩니다.
+>따라서 보조 JavaScript에 대한 직접 참조를 보냅니다 `include` 페이지에서 뷰어에서 사용하는 는 새 제품 버전을 배포할 때 나중에 뷰어 기능을 중단합니다.
 
 1. 컨테이너 DIV를 정의합니다.
 
    뷰어를 표시할 페이지에 빈 DIV 요소를 추가합니다. 이 ID가 나중에 뷰어 API로 전달되므로 DIV 요소에는 해당 ID가 정의되어 있어야 합니다. DIV의 크기는 CSS를 통해 지정됩니다.
 
-   자리 표시자 DIV는 배치된 요소입니다. 즉, `position` CSS 속성이 `relative` 또는 `absolute`로 설정되어 있습니다.
+   자리 표시자 DIV는 위치된 요소, 즉 `position` CSS 속성이 `relative` 또는 `absolute`.
 
    전체 화면 기능이 Internet Explorer에서 제대로 작동하는지 확인합니다. 자리 표시자 DIV보다 높은 스택 순서를 가진 다른 요소가 DOM에 없는지 확인합니다.
 
@@ -147,11 +147,11 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
 1. 뷰어 크기 설정
 
-   `.s7videoviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 수정자 `stagesize`를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
+   뷰어에 대한 정적 크기를 `.s7videoviewer` 절대 단위의 최상위 CSS 클래스 또는 수정자 사용 `stagesize`.
 
    HTML 페이지나 사용자 지정 뷰어 CSS 파일에서 바로 CSS에 크기를 지정할 수 있습니다. 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달됩니다.
 
-   CSS를 사용하여 뷰어의 스타일을 지정하는 방법에 대한 자세한 내용은 [비디오 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) 을 참조하십시오.
+   자세한 내용은 [비디오 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) css를 사용하여 뷰어의 스타일을 지정하는 방법에 대한 자세한 정보.
 
    다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예입니다.
 
@@ -162,7 +162,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
    }
    ```
 
-   Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 수정자를 설정하거나 `params` 컬렉션을 사용하여 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. 또는 명령 참조 섹션에 설명된 대로 다음과 같이 API 호출로 사용됩니다.
+   다음을 설정할 수 있습니다 `stagesize` 수정자는 Dynamic Media Classic의 뷰어 사전 설정 레코드에 있거나, `params` 컬렉션. 또는 명령 참조 섹션에 설명된 대로 다음과 같이 API 호출로 사용됩니다.
 
    ```
    videoViewer.setParam("stagesize", "640,480");
@@ -172,13 +172,13 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
 1. 뷰어를 만들고 초기화합니다.
 
-   위의 단계를 완료하면 `s7viewers.VideoViewer` 클래스의 인스턴스를 만들고 모든 구성 정보를 해당 생성자에 전달하고 뷰어 인스턴스에서 `init()` 메서드를 호출합니다. 구성 정보는 JSON 개체로 생성자에게 전달됩니다. 최소한 이 개체에는 뷰어 컨테이너 ID의 이름을 포함하는 `containerId` 필드가 있어야 하며, 뷰어에서 지원하는 구성 매개 변수와 함께 중첩된 `params` JSON 개체가 있어야 합니다. 이 경우 `params` 개체에는 `serverUrl` 속성으로 전달된 이미지 제공 URL, `videoserverurl` 속성으로 전달된 비디오 서버 URL 및 `asset` 매개 변수로 초기 자산이 있어야 합니다. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
+   위의 단계를 완료하면 의 인스턴스를 만듭니다 `s7viewers.VideoViewer` 클래스, 모든 구성 정보를 해당 생성자에 전달하고 호출 `init()` 뷰어 인스턴스의 메서드입니다. 구성 정보는 JSON 개체로 생성자에게 전달됩니다. 최소한 이 개체에는 `containerId` 뷰어 컨테이너 ID와 중첩된 이름이 들어 있는 필드 `params` 뷰어에서 지원하는 구성 매개 변수가 있는 JSON 개체. 이 경우 `params` 개체에는 적어도 다음 방법으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성, 비디오 서버 URL이 `videoserverurl` 속성 및 초기 자산 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 작성을 지연합니다. 호환성을 최대화하려면 `BODY` 태그를 닫기 직전에 또는 body `onload()` 이벤트에서 `init()` 메서드를 호출하십시오.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 작성을 지연합니다. 호환성을 최대화하려면 `init()` 닫기 바로 전 메서드 `BODY` 태그 또는 본문 `onload()` 이벤트.
 
-   동시에 컨테이너 요소가 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 지정된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
+   동시에 컨테이너 요소가 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 `display:none` 지정된 스타일입니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 `init()` 메서드를 호출하는 예제입니다. 이 예에서는 `videoViewer`이 뷰어 인스턴스이고, `s7viewer`은 자리 표시자 `DIV`의 이름이고, [!DNL http://s7d1.scene7.com/is/image/]은 이미지 제공 URL이고, [!DNL http://s7d1.scene7.com/is/content/]은 비디오 서버 URL이고, [!DNL Scene7SharedAssets/Glacier_Climber_MP4]는 자산이라고 가정합니다.
+   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하고 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예는 를 가정합니다 `videoViewer` 는 뷰어 인스턴스이고, `s7viewer` 은 자리 표시자의 이름입니다 `DIV`, [!DNL http://s7d1.scene7.com/is/image/] 는 이미지 제공 URL이며, [!DNL http://s7d1.scene7.com/is/content/] 는 비디오 서버 URL이고, [!DNL Scene7SharedAssets/Glacier_Climber_MP4] 는 자산입니다.
 
    ```
    <script type="text/javascript"> 
@@ -225,7 +225,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 
 **제한 없는 높이를 사용한 반응형 디자인 포함**
 
-응답형 디자인 포함 시, 웹 페이지에는 일반적으로 뷰어 컨테이너의 런타임 크기 `DIV`를 지시하는 유연한 레이아웃이 있습니다. 이 예제의 경우, 웹 페이지에서 뷰어의 컨테이너 `DIV`가 웹 브라우저 창 크기의 40%를 취할 수 있도록 허용하여 높이 제한을 두지 않는다고 가정해 보십시오. 웹 페이지 HTML 코드는 다음과 같습니다.
+응답형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 이 예제의 경우, 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정하십시오 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
 ```
 <!DOCTYPE html> 
@@ -249,7 +249,7 @@ Adobe Dynamic Media Classic 서버 중 하나에 뷰어가 배포되고 동일�
 1. 컨테이너 DIV를 정의합니다.
 1. 뷰어를 만들고 초기화합니다.
 
-위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 &quot; 홀더&quot; `DIV`에 컨테이너 `DIV`를 추가합니다. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인할 수 있습니다.
+위의 모든 단계는 고정 크기 포함과 동일합니다. 컨테이너 추가 `DIV` 기존 &quot; 홀더&quot; `DIV`. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인할 수 있습니다.
 
 ```
 <!DOCTYPE html> 
@@ -288,7 +288,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 **폭 및 높이가 정의된 반응형 디자인 포함**
 
-너비와 높이가 정의된 응답형 디자인이 있으면 웹 페이지 스타일이 다릅니다. 이 플러그인은 &quot; 홀더&quot; `DIV`에 두 크기를 모두 제공하고 브라우저 창에서 가운데에 배치합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
+너비와 높이가 정의된 응답형 디자인이 있으면 웹 페이지 스타일이 다릅니다. &quot; 홀더&quot;에 두 크기를 모두 제공합니다. `DIV` 브라우저 창에서 가운데에 배치합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%:
 
 ```
 <!DOCTYPE html> 
@@ -355,7 +355,7 @@ var videoViewer = new s7viewers.VideoViewer({
 
 **Setter 기반 API를 사용하여 포함**
 
-JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 해당 API를 사용하여 생성자는 매개 변수를 사용하지 않으며 구성 매개 변수는 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 지정합니다.
+JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 해당 API를 사용하여 생성자는 매개 변수를 사용하지 않으며 구성 매개 변수를 `setContainerId()`, `setParam()`, 및 `setAsset()` 별도의 JavaScript 호출을 사용하는 API 메서드.
 
 다음 예제에서는 setter 기반 API가 포함된 고정 크기를 보여 줍니다.
 

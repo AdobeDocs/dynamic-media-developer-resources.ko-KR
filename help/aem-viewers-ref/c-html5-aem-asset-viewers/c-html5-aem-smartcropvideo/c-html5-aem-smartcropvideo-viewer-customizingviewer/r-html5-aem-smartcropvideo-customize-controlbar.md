@@ -2,10 +2,10 @@
 title: 컨트롤 막대
 description: 컨트롤 막대는 재생/일시 정지 단추 및 볼륨 컨트롤과 같이 스마트 자르기 비디오 뷰어에 사용할 수 있는 모든 UI 컨트롤을 포함하고 있는 사각형 영역입니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%

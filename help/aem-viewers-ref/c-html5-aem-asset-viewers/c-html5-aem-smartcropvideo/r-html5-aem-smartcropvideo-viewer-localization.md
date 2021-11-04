@@ -2,10 +2,10 @@
 title: 사용자 인터페이스 요소의 로컬라이제이션
 description: 스마트 자르기 비디오 뷰어가 표시하는 특정 콘텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 비디오를 재생할 수 없을 때 표시되는 오류 메시지와 사용자 인터페이스 요소 도구 설명이 포함됩니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -98,11 +98,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>선택한 닫힌 캡션 단추 상태에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the selected closed caption button state. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>선택 해제된 닫힌 캡션 단추 상태에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the deselected closed caption button state. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
@@ -121,16 +121,16 @@ defaultLocale:"en"
    <td colname="col2"> <p>전자 메일 대화 상자의 오른쪽 상단 닫기 단추에 대한 도구 팁입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSES </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESSS </span> </p> </td> 
    <td colname="col2"> <p>전자 메일 주소의 형식이 잘못된 경우 표시되는 오류 메시지에 대한 도구 설명입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
-   <td colname="col2"> <p>받는 사람 입력 필드에 대한 레이블입니다. </p> </td> 
+   <td colname="col2"> <p>Label for the "To" input field. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_ADD </span> </p> </td> 
-   <td colname="col2"> <p>"다른 이메일 주소 추가" 단추에 대한 도구 팁입니다. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the "Add Another Email Address" button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD </span> </p> </td> 
@@ -150,7 +150,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>"취소" 단추에 대한 캡션입니다. </p> </td> 
+   <td colname="col2"> <p>Caption for the "Cancel" button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -190,7 +190,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>포함 대화 상자의 오른쪽 상단 닫기 단추에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the embed dialog box upper-right close button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION </span> </p> </td> 
@@ -206,7 +206,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>"취소" 단추에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the "Cancel" button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
@@ -250,15 +250,15 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP 작업 </span> </p> </td> 
-   <td colname="col2"> <p>"모두 선택" 단추의 도구 설명입니다. </p> </td> 
+   <td colname="col2"> <p>Tooltip for "Select All" button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>facebook 공유 단추에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the Facebook share button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>twitter 공유 단추에 대한 도구 설명. </p> </td> 
+   <td colname="col2"> <p>Tool tip for the Twitter share button. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SmartCropVideoPlayer.ERROR </span> </p> </td> 

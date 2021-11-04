@@ -3,10 +3,10 @@ title: 스마트 자르기 비디오 뷰어 사용자 지정
 description: 스마트 자르기 비디오 뷰어 사용자 지정
 keywords: 응답형
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -41,7 +41,7 @@ CSS에서 다른 장치를 타깃팅하여 사용자의 장치에 따라 콘텐�
 
 반응형 디자인 CSS를 만드는 데 도움이 되도록 뷰어는 최상위 뷰어 컨테이너 요소에 동적으로 할당된 특수 CSS 클래스를 CSS 마커를 지원합니다. 이 할당은 런타임 뷰어 크기와 현재 장치에서 사용되는 입력 유형을 기반으로 합니다.
 
-CSS 마커의 첫 번째 그룹은 다음과 같습니다 `.s7size_large`, `.s7size_medium`, 및 `.s7size_small` 클래스를 참조하십시오. 뷰어 컨테이너의 런타임 영역을 기반으로 적용됩니다. 즉, 뷰어 영역이 일반 데스크탑 모니터의 크기보다 크거나 같은 경우 `.s7size_large` 를 사용하는 경우 영역이 일반적인 태블릿 장치에 가까운 경우 `.s7size_medium` 이(가) 할당됩니다. 휴대폰 화면과 유사한 지역의 경우 `.s7size_small` 이(가) 설정되어 있습니다. 이러한 CSS 마커의 주요 목적은 다양한 화면 및 뷰어 크기에 맞는 서로 다른 사용자 인터페이스 레이아웃을 만드는 것입니다.
+CSS 마커의 첫 번째 그룹은 다음과 같습니다 `.s7size_large`, `.s7size_medium`, 및 `.s7size_small` 클래스를 참조하십시오. They are applied based on the runtime area of the viewer container. That is, if the viewer area is equal to or bigger than the size of a common desktop monitor `.s7size_large` is used; if the area is close in size to a common tablet device `.s7size_medium` is assigned. 휴대폰 화면과 유사한 지역의 경우 `.s7size_small` 이(가) 설정되어 있습니다. 이러한 CSS 마커의 주요 목적은 다양한 화면 및 뷰어 크기에 맞는 서로 다른 사용자 인터페이스 레이아웃을 만드는 것입니다.
 
 두 번째 CSS 마커 그룹은 다음을 포함합니다 `.s7mouseinput` 및 `.s7touchinput`. 마커 `.s7touchinput` 현재 장치에 터치 입력 기능이 있는 경우 설정됩니다. 그렇지 않으면 `.s7mouseinput` 이 사용됩니다. 이러한 마커는 일반적으로 터치 입력에는 더 큰 요소가 필요하므로 다른 입력 유형에 대해 화면 크기가 다른 사용자 인터페이스 입력 요소를 만들기 위한 것입니다. 장치의 마우스 입력과 터치 기능이 모두 있는 경우, `.s7touchinput` 가 설정되고 뷰어가 터치에 적합한 사용자 인터페이스를 렌더링합니다.
 
@@ -79,7 +79,7 @@ CSS 마커 접근 방식의 예로 기본 뷰어 CSS 파일을 사용하십시�
 
 모바일 뷰어에 적용할 때 아래 나열된 순서로 CSS에 정의된 네 개의 CSS 미디어 쿼리를 사용합니다.
 
-1. 모든 터치 장치에 대한 특정 규칙만 포함합니다.
+1. Contains only rules specific for all touch devices.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px), 
@@ -120,11 +120,11 @@ CSS 미디어 쿼리 접근 방식을 사용하면 다음과 같이 장치 감�
 * 먼저, 데스크탑별 섹션에서는 모든 화면에 대해 데스크탑별 또는 공통인 모든 속성을 정의합니다.
 * 두 번째로, 네 개의 미디어 쿼리는 위에서 정의된 순서대로 이동하고 해당 장치 유형에 대한 CSS 규칙을 제공해야 합니다.
 
-각 미디어 쿼리에서 전체 뷰어 CSS를 복제할 필요가 없습니다. 지정된 장치에 고유한 속성만 미디어 쿼리 내에서 다시 정의됩니다.
+There is no need to duplicate the entire viewer CSS in each media query. 지정된 장치에 고유한 속성만 미디어 쿼리 내에서 다시 정의됩니다.
 
 ## CSS Sprite {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-많은 뷰어 사용자 인터페이스 요소는 비트맵 아트웍을 사용하여 스타일이 지정되며 두 개 이상의 고유한 시각적 상태를 갖습니다. 좋은 예는 일반적으로 세 개 이상의 서로 다른 상태를 갖는 단추입니다. &quot;up&quot;, &quot;over&quot; 및 &quot;down&quot; 각 상태에는 고유한 비트맵 아트웍이 할당됩니다.
+많은 뷰어 사용자 인터페이스 요소는 비트맵 아트웍을 사용하여 스타일이 지정되며 두 개 이상의 고유한 시각적 상태를 갖습니다. A good example is a button that normally has at least three different states: &quot;up&quot;, &quot;over&quot;, and &quot;down&quot;. 각 상태에는 고유한 비트맵 아트웍이 할당됩니다.
 
 스타일링에 대한 클래식 접근 방식으로, CSS는 사용자 인터페이스 요소의 각 상태에 대해 서버의 개별 이미지 파일에 대한 별도의 참조를 갖게 됩니다. 다음은 전체 화면 단추의 스타일을 지정하는 샘플 CSS입니다.
 
@@ -206,7 +206,7 @@ background-position: -0px -1120px;
 * CSS 내의 외부 자산에 대한 모든 경로는 뷰어 HTML 페이지의 위치가 아닌 CSS 위치에 대해 확인됩니다. 기본 CSS를 다른 위치에 복사할 때에는 이 규칙을 기억하십시오. 기본 자산을 복사하거나 사용자 지정 CSS 내에서 경로를 업데이트합니다.
 * 비트맵 아트웍의 기본 형식은 PNG입니다.
 * 비트맵 아트웍은 `background-image` 속성을 사용합니다.
-* 다음 `width` 및 `height` 사용자 인터페이스 요소의 속성은 논리 크기를 정의합니다. 에 전달된 비트맵의 크기 `background-image` 논리 크기에 영향을 주지 않습니다.
+* 다음 `width` 및 `height` 사용자 인터페이스 요소의 속성은 논리 크기를 정의합니다. The size of the bitmap passed to `background-image` does not affect logical size.
 
 * Retina와 같은 고해상도 화면의 높은 픽셀 밀도를 사용하려면 논리 사용자 인터페이스 요소 크기보다 두 배 큰 비트맵 아트웍을 지정합니다. 그런 다음 `-webkit-background-size:contain` 배경을 논리 사용자 인터페이스 요소 크기로 축소하는 속성입니다.
 * 사용자 인터페이스에서 단추를 제거하려면 을(를) 추가합니다. `display:none` CSS 클래스로 가리키도록 업데이트하는 것이 좋습니다.

@@ -2,10 +2,10 @@
 title: 링크 공유
 description: 링크 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 2%

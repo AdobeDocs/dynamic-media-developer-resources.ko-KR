@@ -4,8 +4,7 @@ description: 비디오 시간은 현재 재생 중인 비디오의 현재 시간
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

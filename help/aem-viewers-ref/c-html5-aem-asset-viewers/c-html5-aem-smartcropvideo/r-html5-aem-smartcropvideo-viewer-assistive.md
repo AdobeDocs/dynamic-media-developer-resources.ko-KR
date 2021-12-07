@@ -4,8 +4,7 @@ description: 모든 뷰어 구성 요소는 화면 판독기와 같은 보조 �
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%

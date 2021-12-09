@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: 기본 확대/축소 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 49c353f7-deab-43a7-84dd-21fda7864574
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 3%
 
 웹 페이지 코드도 뷰어 인스턴스 변수를 삭제하고 웹 브라우저 메모리에서 뷰어를 완전히 제거해야 합니다.
 
-웹 페이지 코드에 뷰어 SDK 구성 요소에서 직접 이벤트 리스너를 등록하거나 이러한 구성 요소에 대해 저장된 외부 참조가 있는 경우, 이러한 리스너는 웹 페이지 코드에 의해 명시적으로 등록되지 않은 상태여야 하며, 이러한 외부 구성 요소 참조는 `dispose()`을 호출하기 전에 삭제해야 합니다.
+웹 페이지 코드에 뷰어가 사용하는 뷰어 SDK 구성 요소에 직접 이벤트 리스너를 등록하거나 이러한 구성 요소에 대해 저장된 외부 참조가 있는 경우, 이러한 리스너는 웹 페이지 코드에 의해 명시적으로 등록 취소되어야 합니다. 또한 이러한 외부 구성 요소 참조는 호출 전에 삭제해야 합니다 `dispose()`.
 
-`dispose()` 이 호출된 후에는 더 이상 뷰어 API에 액세스하지 마십시오.
+이후 뷰어 API에 더 이상 액세스하지 마십시오 `dispose()` 가 호출됩니다.
 
 ## 매개 변수 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

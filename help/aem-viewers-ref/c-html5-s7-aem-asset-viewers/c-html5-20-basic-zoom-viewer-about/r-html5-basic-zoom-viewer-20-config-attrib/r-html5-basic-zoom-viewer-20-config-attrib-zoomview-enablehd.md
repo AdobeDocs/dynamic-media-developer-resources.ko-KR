@@ -1,13 +1,13 @@
 ---
+title: ZoomView.enableHD
 description: ZoomView.enableHD
 solution: Experience Manager
-title: ZoomView.enableHD
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 321ca7e2-e3f9-4b0e-8bde-41d8478e1a0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 항상|절대 안 함|제한</span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>가 <span class="codeph"> 1</span>보다 큰 장치인 iPhone4 및 유사한 장치와 같은 고밀도 디스플레이를 사용하는 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. 활성화하면 구성 요소가 IS 이미지 요청의 크기를 제한합니다. 이는 장치가 <span class="codeph"> 1</span>의 픽셀 비율만 가지고 있는 것과 같습니다. 이렇게 하면 대역폭이 감소됩니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 다음의 장치에 대한 최적화를 활성화, 제한 또는 비활성화합니다. <span class="codeph"> devicePixelRatio</span> 보다 큼 <span class="codeph"> 1</span>: iPhone4 및 유사한 장치와 같은 고밀도 디스플레이를 사용하는 장치입니다. 활성 상태인 경우, 구성 요소는 IS 이미지 요청의 크기를 장치에 픽셀 비율만 있는 것처럼 제한합니다 <span class="codeph"> 1</span> 그렇게 하면 대역폭을 줄일 수 있습니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> number</span> </span> </p> </td> 
@@ -51,7 +51,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 항상</span> </p> </td> 
-   <td colname="col2"> <p>화면/장치의 픽셀 밀도는 항상 고려됩니다. </p> <p> 
+   <td colname="col2"> <p>화면/장치의 픽셀 밀도는 항상 고려됩니다.</p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
       <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>화면 픽셀 밀도가 1이면 요청된 이미지가 1000 x 1000입니다. </p> </li> 
       <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>화면 픽셀 밀도가 1.5이면 요청된 이미지가 1500 x 1500입니다. </p> </li> 
@@ -68,7 +68,7 @@ ht-degree: 2%
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>제한 번호가 1600이고 픽셀 밀도가 1.5이면 1500 x 1500 이미지가 제공됩니다. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>제한 번호가 1600이고 픽셀 밀도가 2인 경우 2000 x 2000 이미지가 한도를 초과하므로 1000 x 1000 이미지가 제공됩니다. </p> </li> 
-     </ul> </p> <p> <b>우수 사례</b>: 최대 크기 이미지에 대한 회사 설정과 함께 제한 수를 사용해야 합니다. 따라서 제한 번호를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
+     </ul> </p> <p> <b>우수 사례</b>: 최대 크기 이미지에 대해서는 제한 번호가 회사 설정으로 작동해야 합니다. 따라서 제한 번호를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

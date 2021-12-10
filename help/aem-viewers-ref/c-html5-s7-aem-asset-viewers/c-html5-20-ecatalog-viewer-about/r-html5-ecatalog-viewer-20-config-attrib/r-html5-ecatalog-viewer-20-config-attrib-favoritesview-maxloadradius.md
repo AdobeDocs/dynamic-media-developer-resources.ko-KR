@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.maxloadradius
 description: FavoritesView.maxloadradius
 solution: Experience Manager
-title: FavoritesView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '56'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 사전 로드 동작을 지정합니다. </p> <p><span class="codeph"> -1</span>로 설정하면 구성 요소가 초기화되거나 자산이 변경될 때 모든 축소판이 동시에 로드됩니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 보이는 축소판만 로드됩니다. </p> <p> <span class="codeph"><span class="varname"> preloadnbr</span></span>로 설정하면 가시성 영역 주위에 표시되는 행의 미리 로드되는 수를 지정할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 사전 로드 동작을 지정합니다. </p> <p>로 설정된 경우 <span class="codeph"> -1</span>를 입력하면 구성 요소가 초기화되거나 자산이 변경될 때 모든 미리 보기가 동시에 로드됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 0</span>표시된 축소판만 로드됩니다. </p> <p> 로 설정된 경우 <span class="codeph"><span class="varname"> preloadbr</span></span>를 설정하는 경우 표시된 영역 주위에 표시되는 행의 수를 미리 로드할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

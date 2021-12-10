@@ -1,14 +1,14 @@
 ---
+title: FavoritesEffect.expiration
 description: FavoritesEffect.expiration
 solution: Experience Manager
-title: FavoritesEffect.expiration
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: ef4880c5-045c-487c-a73a-e87e54717029
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '46'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 일</span></span> </p> </td> 
-   <td colname="col2"> <p> 즐겨찾기가 만료되기 전에 클라이언트의 시스템에 남아 있는 기간(일)입니다. 사용자가 카탈로그를 방문하여 즐겨찾기를 추가 또는 제거와 같이 변경할 때마다 만료 타이머가 재설정됩니다. </p> </td> 
+   <td colname="col2"> <p> 즐겨찾기가 만료되기 전에 클라이언트의 시스템에 남아 있는 기간(일)입니다. 사용자가 카탈로그를 방문하여 추가 또는 제거와 같은 즐겨찾기를 변경할 때마다 만료 타이머가 재설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

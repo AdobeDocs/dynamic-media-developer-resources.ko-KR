@@ -1,14 +1,14 @@
 ---
+title: ThumbnailGridView.maxloadradius
 description: ThumbnailGridView.maxloadradius
 solution: Experience Manager
-title: ThumbnailGridView.maxloadradius
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 6%
 <table id="table_D29F1F6A8EC74F42A254C823435F9493"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>구성 요소 사전 로드 동작을 지정합니다. </p> <p><span class="codeph"> -1</span>로 설정하면 구성 요소가 초기화되거나 자산이 변경되면 축소판이 동시에 로드됩니다. </p> <p><span class="codeph"> 0</span>으로 설정하면 표시된 축소판만 로드됩니다. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> 설정 은 표시된 영역 주위에 표시되는 행/열의 수를 정의합니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadbr</span></span> </p> </td> 
+   <td colname="col2"> <p>구성 요소 사전 로드 동작을 지정합니다. </p> <p>로 설정된 경우 <span class="codeph"> -1</span> 구성 요소가 초기화되거나 자산이 변경될 때 미리 보기가 동시에 로드됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 0</span> 표시된 축소판만 로드됩니다. </p> <p>설정 <span class="codeph"><span class="varname"> preloadbr</span></span> 표시 영역 주위에 표시되는 행/열의 수를 정의합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

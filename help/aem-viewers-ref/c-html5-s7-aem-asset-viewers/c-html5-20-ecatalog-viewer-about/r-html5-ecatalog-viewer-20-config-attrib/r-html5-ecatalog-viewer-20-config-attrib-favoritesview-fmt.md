@@ -1,13 +1,13 @@
 ---
+title: FavoritesView.fmt
 description: FavoritesView.fmt
 solution: Experience Manager
-title: FavoritesView.fmt
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d14f8a0c-5fb5-4315-ba8b-79add6d389b0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> jpg|jpeg|png|png-알파|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 이미지 서버에서 이미지를 로드하는 데 구성 요소에서 사용하는 이미지 형식을 지정합니다. 형식은 이미지 서버 및 클라이언트 브라우저에서 지원하는 모든 값입니다. </p> <p>이미지 형식이 <span class="codeph"> -alpha</span>로 끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식 값의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> </td> 
+   <td colname="col2"> <p> 이미지 서버에서 이미지를 로드하는 데 구성 요소에서 사용하는 이미지 형식을 지정합니다. 형식은 이미지 서버 및 클라이언트 브라우저에서 지원하는 모든 값입니다. </p> <p>이미지 형식이 <span class="codeph"> -alpha</span>를 지정하면 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식 값의 경우 구성 요소는 이미지를 불투명하게 처리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

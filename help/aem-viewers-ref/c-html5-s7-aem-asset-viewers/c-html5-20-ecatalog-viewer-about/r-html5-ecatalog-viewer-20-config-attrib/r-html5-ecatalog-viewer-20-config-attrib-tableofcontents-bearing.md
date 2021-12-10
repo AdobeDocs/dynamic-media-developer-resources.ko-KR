@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.bearing
 description: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b140c9ba-353d-49ef-9e6b-f5bc45e0dbfd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '150'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 수직/측면/맞춤</span> </p> </td> 
-   <td> <p> 드롭다운 패널 모양 방향을 제어합니다. </p> <p><span class="codeph"> fit-vertical</span> 로 설정하면 구성 요소는 먼저 기본 패널 위치를 단추 아래로 이동하고 기본 위치에서 오른쪽 또는 왼쪽으로 패널을 롤아웃하려고 합니다. 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 오른쪽 및 왼쪽 방향으로 롤아웃 시도를 반복하려고 합니다. </p> <p><span class="codeph"> fit-lateral</span>로 설정하면 구성 요소는 유사한 논리를 사용하지만, 베이스를 오른쪽으로 첫 번째 방향으로 이동하고 아래로 롤아웃하여 롤아웃합니다. 그리고 나서, 아래쪽으로 내려가서 위로 롤아웃하면서 베이스를 왼쪽으로 이동합니다. </p> </td> 
+   <td> <p> 드롭다운 패널 모양 방향을 제어합니다. </p> <p>로 설정된 경우 <span class="codeph"> 수직 맞추기</span>로 지정하는 경우 구성 요소는 먼저 기본 패널 위치를 단추 아래로 이동하고 기본 위치에서 오른쪽 또는 왼쪽으로 패널을 롤아웃하려고 합니다. 각 시도를 통해 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 오른쪽 및 왼쪽 방향에서 롤아웃 반복 시도를 시도합니다. </p> <p>로 설정된 경우 <span class="codeph"> 적당한 측면</span>로 지정하는 경우 구성 요소는 유사한 논리를 사용하지만 기본 위치를 오른쪽으로 이동하고 아래로 그리고 롤아웃 방향을 설정합니다. 그리고 나서, 아래쪽으로 그리고 롤아웃 방향을 올려서 베이스를 왼쪽으로 이동합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 

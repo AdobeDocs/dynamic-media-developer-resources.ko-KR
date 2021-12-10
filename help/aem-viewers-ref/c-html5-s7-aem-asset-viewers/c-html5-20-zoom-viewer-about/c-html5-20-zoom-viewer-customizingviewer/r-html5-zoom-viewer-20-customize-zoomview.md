@@ -1,13 +1,13 @@
 ---
+title: 확대/축소 보기
 description: 기본 보기는 확대/축소 가능한 이미지로 구성됩니다.
 solution: Experience Manager
-title: 확대/축소 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -35,17 +35,17 @@ ht-degree: 0%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 커서  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 커서 </span> </p> </td> 
    <td colname="col2"> <p>기본 보기 위에 표시되는 커서입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 기본 보기를 투명하게 만듭니다.
+예 - 기본 보기를 투명하게 만들려면
 
 ```
 .s7zoomviewer .s7zoomview { 
@@ -53,7 +53,7 @@ ht-degree: 0%
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `.s7zoomview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원합니다. 구성 요소 상태와 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
+데스크탑 시스템에서 구성 요소가 지원하는 `cursortype` 에 적용할 수 있는 속성 선택기 `.s7zoomview` 클래스 이름을 지정합니다. 구성 요소 상태와 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 지원되는 값은 다음과 같습니다.
 
 * `default`
 

@@ -1,14 +1,14 @@
 ---
+title: 초기 프레임
 description: 초기 프레임
 solution: Experience Manager
-title: 초기 프레임
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 28b6b981-94f6-4136-b322-992e18d154db
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> 뷰어 로드 시 표시할 0 기반 확산 인덱스를 지정합니다. 색인은 가로 모드의 확산 색인과 일치합니다. 뷰어가 세로로 회전하면 뷰어는 <span class="codeph"> frameIdx</span>에 의해 가리키는 스프레드에서 가장 왼쪽 페이지를 표시합니다. </p> </td> 
+   <td colname="col2"> <p> 뷰어 로드 시 표시할 0 기반 확산 인덱스를 지정합니다. 색인은 가로 모드의 확산 색인과 일치합니다. 뷰어가 세로로 회전하면 뷰어는 스프레드에서 가장 왼쪽 페이지를 표시하고 <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

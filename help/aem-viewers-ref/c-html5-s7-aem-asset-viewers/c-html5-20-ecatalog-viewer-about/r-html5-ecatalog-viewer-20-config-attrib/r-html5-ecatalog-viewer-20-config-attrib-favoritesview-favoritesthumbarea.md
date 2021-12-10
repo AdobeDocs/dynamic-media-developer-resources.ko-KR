@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.favoritesThumbView
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
-title: FavoritesView.favoritesThumbView
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5c57fcc8-be67-408a-9c4c-4e15d5fe6410
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 영역</span></span> </p> </td> 
-   <td colname="col2"> <p> 즐겨찾기 축소판의 자르기 영역을 지정합니다. <span class="codeph"> 0</span>에서 <span class="codeph"> 1.0</span> 사이의 범위를 사용하여 총 프레임 크기에 대한 상대적 값으로 표현됩니다. </p> <p><span class="codeph"> 1</span> 값은 축소판에 전체 프레임 이미지가 사용됨을 의미합니다. </p> <p><span class="codeph"> 0.1</span> 값은 프레임 크기의 10%만 사용됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p> 즐겨찾기 축소판의 자르기 영역을 지정합니다. 전체 프레임 크기에 대한 상대적 값으로 표현되며 범위는 다음과 같습니다 <span class="codeph"> 0</span> to <span class="codeph"> 1.0</span>. </p> <p>값 <span class="codeph"> 1</span> 는 전체 프레임 이미지가 축소판에 사용됨을 의미합니다. </p> <p>값 <span class="codeph"> 0.1</span> 은 프레임 크기의 10%만 사용됨을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

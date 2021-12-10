@@ -1,13 +1,13 @@
 ---
+title: 기본 컨트롤 막대
 description: 기본 제어 표시줄은 eCatalog 검색 뷰어에 사용할 수 있는 모든 사용자 인터페이스 컨트롤(큰 페이지 단추 제외)이 포함된 데스크톱 시스템 및 태블릿의 사각형 영역입니다.
 solution: Experience Manager
-title: 기본 컨트롤 막대
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 1%
    <td colname="col2"> <p>기본 컨트롤 막대의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>기본 컨트롤 막대의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예**  - 36픽셀이고 뷰어 컨테이너의 상단에 있는 회색 기본 컨트롤 막대를 설정하려면 다음을 수행합니다.
+**예** - 36픽셀이고 뷰어 컨테이너의 맨 위에 있는 회색 기본 컨트롤 막대를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -74,13 +74,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위치 </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 정적 </span>으로 설정하면 스크롤 기능이 비활성화됩니다. </p> <p>이 속성을 <span class="codeph"> 절대 </span> 로 설정하여 스크롤 기능을 사용하도록 설정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
+   <td colname="col2"> <p>로 설정된 경우 <span class="codeph"> 정적 </span> 스크롤 기능이 비활성화됩니다. </p> <p>이 속성을 <span class="codeph"> 절대 </span> 스크롤 기능을 활성화하려면 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-스크롤 단추는 단추를 올바르게 표시하는 특수 컨테이너 요소에 추가되며 스크롤 단추의 높이가 컨트롤 막대 높이보다 작은 경우 컨트롤 막대 배경의 나머지 부분과 다르게 단추 주위의 영역을 스타일을 지정할 수 있습니다.
+스크롤 버튼이 버튼을 제대로 배치하는 특수 컨테이너 요소에 추가됩니다. 스크롤 단추의 높이가 컨트롤 막대 높이보다 작은 경우 컨트롤 막대 배경의 나머지 부분과 단추 주위의 영역 스타일을 다르게 지정할 수 있습니다.
 
 이 스크롤 단추 컨테이너의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
@@ -99,7 +99,7 @@ ht-degree: 1%
    <td colname="col2"> <p>일반적으로 스크롤 단추 자체의 너비보다 크거나 같아야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>컨테이너 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,31 +120,31 @@ CSS를 통해 스크롤 단추 자체의 크기를 지정하고 스킨을 지정
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `state="selected"`은 제어 막대 내용을 왼쪽으로 스크롤할 수 있는 경우 초기 스크롤 단추 상태에 해당합니다. `state="default"` 은 컨텐츠가 왼쪽으로 스크롤될 때 상태에 해당하며 스크롤 단추는 컨텐츠가 초기 상태로 돌아가도록 제안합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `state="selected"` 컨트롤 막대 내용을 왼쪽으로 스크롤할 수 있는 경우 초기 스크롤 단추 상태에 해당합니다. 다음 `state="default"` 컨텐츠가 왼쪽으로 스크롤될 때 상태에 해당하며 스크롤 단추는 컨텐츠가 초기 상태로 돌아가는 것을 나타냅니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-**예**  - 휴대폰의 기본 컨트롤 모음에서 스크롤 기능을 활성화하고, 선택 여부에 따라 4개의 다른 단추 상태에 대해 다른 이미지를 표시하는 64 x 64픽셀인 스크롤 단추를 설정하려면 다음을 수행합니다.
+**예** - 휴대폰용 기본 컨트롤 모음에서 스크롤 기능을 활성화하려면 그리고 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하는 64 x 64픽셀인 스크롤 단추를 설정합니다.
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

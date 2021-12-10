@@ -1,13 +1,13 @@
 ---
+title: 보조 컨트롤 막대
 description: 보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
 solution: Experience Manager
-title: 보조 컨트롤 막대
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
 
-기본적으로 휴대 전화에만 표시되고 뷰어 하단에 있습니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 색상, 높이 및 세로 위치를 CSS로 변경할 수 있습니다.
+기본적으로 뷰어 하단에 휴대폰에만 표시됩니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 색상, 높이 및 세로 위치를 CSS로 변경할 수 있습니다.
 
 보조 컨트롤 막대의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
@@ -43,7 +43,7 @@ ht-degree: 2%
    <td colname="col2"> <p>기본 컨트롤 막대의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>보조 컨트롤 막대의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 

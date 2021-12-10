@@ -1,13 +1,13 @@
 ---
+title: 페이지 표시기
 description: 페이지 표시기에는 현재 페이지 색인과 총 페이지 수가 표시됩니다. 데스크톱 시스템 및 태블릿의 기본 컨트롤 모음에 표시되고 휴대 전화에서는 보조 컨트롤 모음에 추가됩니다. 페이지 표시기의 크기는 CSS로 지정하고, 스킨을 지정하고, 배치할 수 있습니다.
 solution: Experience Manager
-title: 페이지 표시기
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '252'
 ht-degree: 3%
 
 ---
@@ -57,17 +57,17 @@ ht-degree: 3%
    <td colname="col2"> <p>글꼴 색상. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 56 x 28픽셀인 페이지 표시기를 가로 방향으로 가운데 맞춤하고 기본 컨트롤 막대의 하단에서 4픽셀을 배치하여 14픽셀 Helvetica 글꼴을 사용합니다.
+예 - 56 x 28픽셀인 페이지 표시기를 가로 방향으로 가운데 맞춤하고 기본 컨트롤 막대의 하단에서 4픽셀을 배치하여 14픽셀 Helvetica® 글꼴을 사용합니다.
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 

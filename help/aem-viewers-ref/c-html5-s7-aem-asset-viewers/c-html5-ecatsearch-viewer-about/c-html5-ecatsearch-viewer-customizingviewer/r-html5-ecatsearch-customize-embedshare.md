@@ -1,13 +1,13 @@
 ---
+title: 공유 포함
 description: 포함 공유 도구는 소셜 공유 패널에 추가된 단추와 도구가 활성화될 때 표시되는 모달 대화 상자로 구성됩니다. 단추의 위치는 소셜 공유 도구에서 완전히 관리됩니다.
 solution: Experience Manager
-title: 공유 포함
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2606'
 ht-degree: 2%
 
 ---
@@ -37,23 +37,23 @@ ht-degree: 2%
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-CSS 클래스에서 `display:none` CSS 속성을 설정하여 소셜 공유 패널에서 버튼을 제거할 수 있습니다.
+Social 공유 패널에서 단추를 제거하려면 `display:none` CSS 클래스의 CSS 속성입니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 28 x 28픽셀인 포함 공유 단추를 설정하고 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시하려면 다음을 수행하십시오.
 
@@ -87,11 +87,11 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 불투명도  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 불투명도 </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 불투명도. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 색상. </p> </td> 
   </tr> 
  </tbody> 
@@ -117,19 +117,19 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 반경  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
    <td colname="col2"> <p> 대화 상자가 전체 브라우저를 사용하지 않는 경우 대화 상자 테두리 반경입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>설정을 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(터치 장치에서 이 모드가 선호됨). </p> </td> 
   </tr> 
  </tbody> 
@@ -190,20 +190,20 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 이미지. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,15 +219,15 @@ background-color: #ffffff;
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>글꼴 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>글꼴 패밀리. </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 헤더 컨테이너에 대한 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -268,23 +268,23 @@ background-color: #ffffff;
    <td colname="col2"> <p>단추의 내부 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 패딩이 있는 대화 상자 헤더를 설정하려면, 24 x 14픽셀 아이콘, 굵은 16포인트 제목 및 28 x 28픽셀 닫기 단추, 맨 위에서 2개의 픽셀을 배치하고 대화 상자 컨테이너 오른쪽에서 2개의 픽셀을 지정합니다.
+예 - 패딩, 24 x 14픽셀 아이콘 및 굵은 16포인트 제목을 사용한 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 그리고 마지막으로, 28x28픽셀 닫기 단추, 상단에서 2개의 픽셀, 대화 상자 컨테이너 오른쪽에서는 2개의 픽셀을 위치시켰습니다.
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogheader { 
@@ -371,11 +371,11 @@ background-color: #ffffff;
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +383,7 @@ background-color: #ffffff;
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->모두 선택 단추는 `state` 속성 선택기를 지원합니다. 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
+>모두 선택 단추를 사용하면 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
 취소 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
@@ -404,19 +404,19 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,9 +424,9 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 동일한 공통 CSS 클래스를 공유합니다.
+또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogfooter .s7button
@@ -437,33 +437,33 @@ background-color: #ffffff;
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>단추 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 라인 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 라인 높이 </span> </p> </td> 
    <td colname="col2"> <p> 단추 내부의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상자 그림자  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
    <td colname="col2"> <p>그림자. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순익  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 단추 여백. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 64 x 34 취소 단추, 82 x 34 모두 선택 단추 및 각 단추 상태에 대해 다른 텍스트 색상 및 배경색을 갖는 대화 상자 바닥글을 설정하려면 다음을 수행합니다.
 
@@ -536,11 +536,11 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 주 대화상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 지정된 경우에는 적용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -600,25 +600,25 @@ background-color: #ffffff;
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p>레이블 글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>레이블 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>글꼴 패밀리에 레이블을 지정합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 색상을 레이블 지정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-대화 상자 레이블은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+대화 상자 레이블은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 모든 레이블을 회색으로 설정하고 9픽셀 글꼴로 굵게 설정하려면 다음을 수행합니다.
 
@@ -636,12 +636,12 @@ background-color: #ffffff;
 .s7ecatalogsearchviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**대화 상자의 CSS 속성 입력 광범위 필드**
+**대화 상자의 입력 범위 필드의 CSS 속성**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>입력 필드 너비. </p> </td> 
   </tr> 
   <tr> 
@@ -671,7 +671,7 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>포함 코드 컨테이너의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -706,13 +706,13 @@ background-color: #ffffff;
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 자동 줄 바꿈  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 자동 줄 바꿈 </span> </p> </td> 
    <td colname="col2"> <p>자동 줄바꿈 스타일입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - `break-word` 단어 래핑을 사용하도록 포함 코드를 설정하려면 다음을 수행하십시오.
+예 - 사용할 포함 코드를 설정하려면 `break-word` 자동 줄바꿈:
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogmessage { 
@@ -756,11 +756,11 @@ background-color: #ffffff;
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 수직 정렬  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 수직 정렬 </span> </p> </td> 
    <td colname="col2"> <p>세로 레이블 맞춤. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>레이블 너비. </p> </td> 
   </tr> 
  </tbody> 
@@ -786,7 +786,7 @@ background-color: #ffffff;
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 너비입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -794,7 +794,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->콤보 상자는 `true` 및 `false` 값이 가능한 `expanded` 속성 선택기를 지원합니다. `true` 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시될 때 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 폭 및 높이 입력 필드에 공간을 허용하려면 축소해야 합니다.
+>콤보 상자는 `expanded` 가능한 값이 있는 속성 선택기 `true` 및 `false`. 값 `true` 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시될 때 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. 값 `false` 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 폭 및 높이 입력 필드에 공간을 허용하려면 축소해야 합니다.
 
 예 - 미리 정의된 항목을 표시할 때 포함 크기 콤보 상자의 너비를 300픽셀로 설정하고 사용자 지정 크기를 표시할 때 110픽셀의 너비를 설정하려면 다음을 수행합니다.
 
@@ -818,7 +818,7 @@ background-color: #ffffff;
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 텍스트 높이. </p> </td> 
   </tr> 
  </tbody> 
@@ -851,27 +851,27 @@ background-color: #ffffff;
    <td colname="col2"> <p>콤보 상자 내의 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
 
 예 - 드롭다운 단추를 28 x 28픽셀로 설정하고 각 상태에 대해 별도의 이미지를 만들려면:
 
@@ -932,7 +932,7 @@ background-color: #ffffff;
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>항목 배경. </p> </td> 
   </tr> 
  </tbody> 
@@ -957,20 +957,20 @@ background-color: #ffffff;
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>항목 이미지. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1025,11 +1025,11 @@ background-color: #ffffff;
    <td colname="col2"> <p>입력 필드 주위에 테두리가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 여백. </p> </td> 
   </tr> 
   <tr> 
@@ -1039,7 +1039,7 @@ background-color: #ffffff;
  </tbody> 
 </table>
 
-예 - 사용자 지정 크기 입력 필드를 픽셀 회색 테두리, 여백, 패딩 및 너비가 70픽셀로 설정하려면 다음을 수행하십시오.
+예 - 사용자 지정 크기 입력 필드를 픽셀 회색 테두리, 여백, 패딩과 70픽셀 너비로 설정하려면 다음을 수행하십시오.
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1062,7 +1062,7 @@ background-color: #ffffff;
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 패널 너비. </p> </td> 
   </tr> 
  </tbody> 
@@ -1087,7 +1087,7 @@ background-color: #ffffff;
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 폭. </p> </td> 
   </tr> 
   <tr> 
@@ -1127,11 +1127,11 @@ background-color: #ffffff;
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>트랙 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 배경색을 추적합니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1157,35 +1157,35 @@ background-color: #B2B2B2;
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>엄지 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>엄지 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 탑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 탑 </span> </p> </td> 
    <td colname="col2"> <p>트랙 위쪽 사이의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 하단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 하단 </span> </p> </td> 
    <td colname="col2"> <p> 트랙 아래쪽 사이의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 주어진 엄지 영역 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
+>Thumb은 `state` 속성 선택기: 다른 스킨(thumb 상태)을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over`, 및 `disabled`.
 
 예 - 28 x 45픽셀인 스크롤 막대 엄지를 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트웍을 사용합니다.
 
@@ -1220,36 +1220,36 @@ background-color: #B2B2B2;
 .s7ecatalogsearchviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리에서 자동으로 위치가 지정됩니다.
+CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`, `bottom`, 및 `right` 속성을 사용합니다. 대신 뷰어 논리에서 자동으로 위치가 지정됩니다.
 
 **위쪽 및 아래쪽 스크롤 단추의 CSS 속성**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이러한 버튼은 `state` 속성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. `up`, `down`, `over` 및 `disabled`.
+>이러한 버튼은 `state` 속성 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. `up`, `down`, `over`, 및 `disabled`.
 
-단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 28 x 32픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정하려면 다음을 수행합니다.
 

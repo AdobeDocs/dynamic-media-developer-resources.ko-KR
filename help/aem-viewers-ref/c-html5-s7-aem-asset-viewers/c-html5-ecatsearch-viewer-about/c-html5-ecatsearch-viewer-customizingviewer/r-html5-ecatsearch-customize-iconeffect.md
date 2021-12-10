@@ -1,13 +1,13 @@
 ---
+title: 아이콘 효과
 description: 확대/축소 표시기가 기본 보기 영역에 겹쳐집니다. 이미지가 재설정 상태일 때 표시되며, 아이콘 효과 매개 변수에도 달라집니다.
 solution: Experience Manager
-title: 아이콘 효과
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 90877e39-04ac-4c6c-b7c9-98ffda9355f2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -35,12 +35,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 돋보기 표시기 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->아이콘 효과는 `media-type` 속성 선택기를 지원하며, 이 선택기를 사용하여 다른 장치에 다른 아이콘 효과를 적용할 수 있습니다. 특히 `media-type='standard'`은 마우스 입력이 일반적으로 사용되는 데스크톱 시스템에 해당하고, `media-type='multitouch'`은 터치 입력이 있는 장치에 해당합니다.
+>아이콘 효과는 `media-type` 속성 선택기. 다른 장치에 다른 아이콘 효과를 적용하는 데 사용할 수 있습니다. 특히, `media-type='standard'` 마우스 입력이 정상적으로 사용되는 데스크톱 시스템에 해당합니다. `media-type='multitouch'` 터치 입력이 있는 장치에 해당합니다.
 
 예 - 데스크톱 시스템 및 터치 장치용 다양한 기능의 100 x 100 픽셀 확대/축소 표시기를 설정하려면 다음을 수행하십시오.
 

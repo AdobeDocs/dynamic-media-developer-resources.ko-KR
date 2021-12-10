@@ -1,13 +1,13 @@
 ---
+title: 페이지 보기
 description: 기본 보기는 카탈로그 이미지로 구성됩니다. 다른 페이지로 이동하거나 확대/축소할 수 있습니다.
 solution: Experience Manager
-title: 페이지 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '382'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 배경색(16진수 형식)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 커서  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 커서 </span> </p> </td> 
    <td colname="col2"> <p>기본 보기 위에 표시되는 커서입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 3%
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `.s7pageview` 클래스에 적용할 수 있는 `cursortype` 속성 선택기를 지원하며 구성 요소 상태 및 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
+데스크탑 시스템에서 구성 요소는 `cursortype` 에 적용할 수 있는 속성 선택기 `.s7pageview` 클래스 및 는 구성 요소 상태 및 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 지원되는 값은 다음과 같습니다.
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -68,7 +68,7 @@ ht-degree: 3%
    <td colname="col2"> <p>작은 이미지 해상도, 구성 요소 설정 또는 둘 다로 인해 이미지를 확대할 수 없을 때 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 조모  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 조모 </span> </p> </td> 
    <td colname="col2"> <p>이미지를 확대/축소할 수 있을 때 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +80,7 @@ ht-degree: 3%
    <td colname="col2"> <p>사용자가 확대/축소된 상태의 이미지를 이동할 때 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 슬라이드  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 슬라이드 </span> </p> </td> 
    <td colname="col2"> <p>사용자가 가로 밀기 또는 긋기를 수행하여 이미지 교체를 수행할 때 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -100,10 +100,10 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 페이지 구분선의 폭입니다. 구분선을 완전히 숨기려면 <span class="codeph"> 0 </span> px로 설정합니다. </p> </td> 
+   <td colname="col2"> <p> 페이지 구분선의 폭입니다. 을 로 설정합니다. <span class="codeph"> 0 </span> px를 사용하여 구분선을 완전히 숨깁니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>페이지 구분선으로 사용할 이미지입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +120,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->`frametransition` 한정자가 `turn` 또는 `auto`(데스크톱 시스템에서)로 설정되면 페이지 구분자의 모양은 `pageturnstyle` 한정자로 제어되고 `.s7pagedivider` CSS 클래스는 무시됩니다.
+>이 `frametransition` 수정자가 `turn` 또는 `auto` (데스크톱 시스템에서) 페이지 분할기의 모양은 `pageturnstyle` 수정자 및 `.s7pagedivider` CSS 클래스는 무시됩니다.
 
-주 뷰어 영역 위에 사용자 지정 마우스 커서를 표시할 수 있습니다. 이 설정은 `.s7ecatalogsearchviewer .s7pageview` CSS 클래스에 적용되는 추가 속성 선택기를 사용하여 제어합니다.
+주 뷰어 영역 위에 사용자 지정 마우스 커서를 표시할 수 있습니다. 이 기능은 다음에 적용되는 추가 속성 선택기를 사용하여 제어됩니다 `.s7ecatalogsearchviewer .s7pageview` CSS 클래스:
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -137,7 +137,7 @@ ht-degree: 3%
    <td colname="col2"> <p> 일반적으로 화살표는 확대/축소가 불가능한 이미지에 대해 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 조모  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 조모 </span> </p> </td> 
    <td colname="col2"> <p> 이미지를 확대/축소할 수 있는 시기를 표시합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ ht-degree: 3%
    <td colname="col2"> <p>사용자가 확대된 이미지에서 드래그 작업을 수행하는 시기를 표시합니다 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 슬라이드  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 슬라이드 </span> </p> </td> 
    <td colname="col2"> <p>사용자가 슬라이드 제스처를 사용하여 이미지 교환을 수행하는 시기를 표시합니다 </p> </td> 
   </tr> 
  </tbody> 

@@ -1,13 +1,13 @@
 ---
+title: 전체 화면 단추
 description: 사용자가 선택할 때 뷰어가 전체 화면 모드로 들어가거나 종료되도록 합니다. 이 단추는 주 컨트롤 모음에 나타납니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS로 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
-title: 전체 화면 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 28 x 28픽셀인 전체 화면 단추를 설정하고, 기본 컨트롤 막대의 오른쪽 가장자리에서는 4픽셀과 5픽셀을 배치하며, 선택 여부에 따라 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀이고 맨 아래쪽에서 4픽셀이고 기본 컨트롤 막대의 오른쪽 가장자리에서 5픽셀인 전체 화면 단추를 설정하려면 다음을 수행합니다. 마지막으로, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

@@ -1,13 +1,13 @@
 ---
+title: 포커스 강조 표시
 description: 포커스가 있는 뷰어 사용자 인터페이스 요소 주위에 표시되는 입력 포커스 강조 표시입니다.
 solution: Experience Manager
-title: 포커스 강조 표시
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 949b8a8b-5f59-415e-acc1-bf8cea77cbd9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 개요  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 개요 </span> </p> </td> 
    <td colname="col2"> <p> 초점 강조 스타일. </p> </td> 
   </tr> 
  </tbody> 

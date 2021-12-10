@@ -1,14 +1,14 @@
 ---
+title: 확대/축소
 description: 확대/축소 뷰어는 확대/축소 가능한 이미지를 표시하는 이미지 뷰어입니다. 이 뷰어는 이미지 세트에서 작동하며 색상 견본을 사용하여 탐색합니다. 확대/축소 도구, 전체 화면 지원, 색상 견본 및 닫기 단추(옵션)가 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 keywords: 응답형
 solution: Experience Manager
-title: 확대/축소
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2395'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지나 포함된
   </tr> 
   <tr> 
    <td colname="col1"> <p>가로 밀기 또는 밀기 </p> </td> 
-   <td colname="col2"> <p> 견본 막대의 색상 견본 목록을 스크롤합니다. </p> <p> 이미지가 재설정 상태이고 <span class="codeph"> 매개 변수 </span> 매개 변수가 슬라이드로 설정되어 있으면 슬라이드 애니메이션으로 자산이 변경됩니다. 기타 <span class="codeph"> 매개 변수 </span> 모드 제스처는 기본 페이지 스크롤을 수행합니다. </p> <p> 이미지를 확대하면 이미지를 가로로 이동합니다. 이미지가 보기 가장자리로 이동하고 스와이프가 같은 방향으로 수행되는 경우 제스처가 기본 페이지 스크롤을 수행합니다. </p> </td> 
+   <td colname="col2"> <p> 견본 막대의 색상 견본 목록을 스크롤합니다. </p> <p> 이미지가 재설정 상태이고 <span class="codeph"> 매개 변수 </span> 매개 변수가 슬라이드로 설정되어 있으면 슬라이드 애니메이션으로 자산이 변경됩니다. 기타 <span class="codeph"> 매개 변수 </span> 모드에서는 제스처가 기본 페이지 스크롤을 수행합니다. </p> <p> 이미지를 확대하면 이미지를 가로로 이동합니다. 이미지가 보기 가장자리로 이동하고 스와이프가 같은 방향으로 수행되는 경우 제스처가 기본 페이지 스크롤을 수행합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>세로 밀기 </p> </td> 
@@ -114,7 +114,7 @@ target="_blank">Open popup viewer</a>
 
 응답형 디자인 포함 모드는 컨테이너의 크기 변경으로 인해 런타임 중에 뷰어의 크기 조정이 필요하다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
 
-응답형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방법에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너 너비만 설정하는 경우 `DIV`키를 제한 상태로 두면 뷰어는 사용되는 자산의 종횡비에 따라 높이를 자동으로 선택합니다. 이 논리를 사용하면 측면에 패딩되지 않고 자산이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap, Foundation 등과 같은 응답형 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적입니다.
+응답형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방법에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너 너비만 설정하는 경우 `DIV`키를 제한 상태로 두면 뷰어는 사용되는 자산의 종횡비에 따라 높이를 자동으로 선택합니다. 이 논리를 사용하면 측면에 패딩되지 않고 자산이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 및 Foundation과 같은 응답형 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적입니다.
 
 웹 페이지에서 뷰어 컨테이너의 너비와 높이를 모두 설정하는 경우 `DIV`로 설정하면 뷰어가 해당 영역을 채우고 웹 페이지에서 제공하는 크기를 따릅니다. 예를 들어, 뷰어를 모달 오버레이에 포함하되, 여기서 오버레이는 웹 브라우저 창 크기에 따라 크기가 조정됩니다.
 
@@ -143,7 +143,7 @@ target="_blank">Open popup viewer</a>
 
 >[!NOTE]
 >
->기본 뷰어 JavaScript만 참조하면 됩니다 `include` 파일을 페이지에 넣을 수 있습니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드에서 추가 JavaScript 파일을 참조해서는 안 됩니다. 특히 HTML5 SDK를 직접 참조하지 마십시오 `Utils.js` 뷰어에서 로드한 라이브러리 `/s7viewers` 컨텍스트 경로(소위 통합 SDK) `include`). 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리는 뷰어 논리와 뷰어 릴리스 간의 위치 변경으로 완전히 관리됩니다. Adobe은 이전 버전의 보조 뷰어를 유지하지 않습니다 `includes` 를 클릭합니다.
+>기본 뷰어 JavaScript만 참조합니다 `include` 파일을 페이지에 넣을 수 있습니다. 런타임 시 뷰어의 논리에 의해 다운로드될 수 있는 웹 페이지 코드에서 추가 JavaScript 파일을 참조하지 마십시오. 특히 HTML5 SDK를 직접 참조하지 마십시오 `Utils.js` 뷰어에서 로드한 라이브러리 `/s7viewers` 컨텍스트 경로(소위 통합 SDK) `include`). 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리는 뷰어 논리와 뷰어 릴리스 간의 위치 변경으로 완전히 관리됩니다. Adobe은 이전 버전의 보조 뷰어를 유지하지 않습니다 `includes` 를 클릭합니다.
 >
 >
 >따라서 보조 JavaScript에 대한 직접 참조를 보냅니다 `include` 페이지에서 뷰어에서 사용하는 는 새 제품 버전을 배포할 때 나중에 뷰어 기능을 중단합니다.
@@ -164,7 +164,7 @@ target="_blank">Open popup viewer</a>
 
    이 뷰어는 여러 항목 세트로 작업할 때 축소판을 표시하고 바탕 화면 시스템 축소판은 기본 보기 아래에 배치됩니다. 동시에 뷰어에서는 `setAsset()` API. 개발자는 새 자산에 항목이 하나만 있을 때 뷰어가 맨 아래에 있는 축소판 영역을 관리하는 방법을 제어할 수 있습니다. 외부 뷰어 크기를 그대로 유지한 채 기본 보기에서 높이를 늘리고 축소판 영역을 점유할 수 있습니다. 또는 기본 보기 크기를 정적으로 유지한 다음 외부 뷰어 영역을 축소하여 웹 페이지 컨텐츠를 위로 이동하고 축소판에서 남은 자유 화면 공간을 사용할 수 있습니다.
 
-   외부 뷰어 제한을 그대로 유지하려면 `.s7zoomviewer` 절대 단위의 최상위 CSS 클래스입니다. CSS의 크기 조절은 HTML 페이지 또는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달된 사용자 지정 뷰어 CSS 파일에 적용할 수 있습니다.
+   외부 뷰어 제한을 그대로 유지하려면 `.s7zoomviewer` 절대 단위의 최상위 CSS 클래스입니다. CSS에서 크기 조절은 HTML 페이지에 바로 지정할 수 있습니다. 또는 사용자 지정 뷰어 CSS 파일에 넣을 수 있으며, 이 파일은 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달됩니다.
 
    자세한 내용은 [확대/축소 뷰어 사용자 정의](../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-customizingviewer/c-html5-20-zoom-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) css를 사용하여 뷰어 스타일을 지정하는 방법에 대한 자세한 정보.
 
@@ -196,7 +196,7 @@ target="_blank">Open popup viewer</a>
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
-   을(를) 설정할 수 있습니다 `stagesize` 수정자는 Dynamic Media Classic의 뷰어 사전 설정 레코드에 있거나, `params` 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로 사용할 수 있습니다.
+   을(를) 설정할 수 있습니다 `stagesize` Dynamic Media Classic의 뷰어 사전 설정 레코드에 있는 수정자. 또는 를 사용하여 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. `params` 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로 사용할 수 있습니다.
 
    ```
     zoomViewer.setParam("stagesize", 
@@ -213,7 +213,7 @@ target="_blank">Open popup viewer</a>
 
    뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 작성을 지연합니다. 호환성을 최대화하려면 `init()` 닫기 바로 전 메서드 `BODY` 태그 또는 본문 `onload()` 이벤트.
 
-   동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 `display:none` 지정된 스타일입니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 경우 뷰어 로드가 자동으로 다시 시작됩니다.
+   동시에 컨테이너 요소가 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 `display:none` 지정된 스타일입니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예는 를 가정합니다 `zoomViewer` 는 뷰어 인스턴스이고, `s7viewer` 은 자리 표시자 DIV의 이름입니다. `http://s7d1.scene7.com/is/image/` 는 이미지 제공 URL이고, `Scene7SharedAssets/ImageSet-Views-Sample` 는 자산입니다.
 
@@ -320,7 +320,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 ## 폭과 높이가 정의된 유연한 크기 포함 {#section-3674e6c032594441a6576b7fb1de6e64}
 
-너비와 높이가 정의된 유연한 크기 포함의 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
+너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
 
 ```
 <!DOCTYPE html> 

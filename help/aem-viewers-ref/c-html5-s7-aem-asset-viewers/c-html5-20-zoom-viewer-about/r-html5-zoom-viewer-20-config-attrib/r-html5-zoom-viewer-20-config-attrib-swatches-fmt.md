@@ -1,14 +1,14 @@
 ---
+title: Swatches.fmt
 description: Swatches.fmt
 solution: Experience Manager
-title: Swatches.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8b47839a-ef3b-45ae-8e8d-5c9391d71d44
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-알파|gif|gif-alpha</span> </p> </td> 
-   <td> <p>구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정된 형식이 <span class="codeph"> -alpha</span>로 끝나는 경우 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. 구성 요소에는 기본적으로 흰색 배경이 있습니다. 따라서 백그라운드 투명화를 만들려면 <span class="codeph"> background-color</span> CSS 속성을 <span class="codeph"> transparent</span> 로 설정합니다. </p> </td> 
+   <td> <p>구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정한 형식이 <span class="codeph"> -alpha</span>로 지정하는 경우 구성 요소는 이미지를 투명한 콘텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. 구성 요소에는 기본적으로 흰색 배경이 있습니다. 따라서 배경을 투명하게 만들려면 <span class="codeph"> 배경색</span> CSS 속성을 다음으로 <span class="codeph"> 투명</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,14 +1,14 @@
 ---
+title: Swatches.partialswatches
 description: Swatches.partialswatches
 solution: Experience Manager
-title: Swatches.partialswatches
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b2a65077-c322-446a-8d71-bded292215bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 색상 견본이 부분적으로 표시될 때(스크롤이 정렬되지 않음) 구성 요소에서 스크롤을 중지할지 여부를 지정합니다. 권장 값은 <span class="codeph"> false</span> 또는 <span class="codeph"> 0</span>입니다. </p> </td> 
+   <td> <p> 색상 견본이 부분적으로 표시될 때(스크롤이 정렬되지 않음) 구성 요소에서 스크롤을 중지할지 여부를 지정합니다. 권장되는 값은 다음과 같습니다 <span class="codeph"> false</span> 또는 <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

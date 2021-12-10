@@ -1,13 +1,13 @@
 ---
+title: 썸네일
 description: 축소판은 축소판 이미지의 격자로 구성되며 오른쪽에는 세로 스크롤을 할 수 있는 선택적 스크롤 막대가 있습니다.
 solution: Experience Manager
-title: 썸네일
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '890'
 ht-degree: 2%
 
 ---
@@ -35,29 +35,29 @@ ht-degree: 2%
    <td colname="col2"> <p> 뷰어 상단에서 축소판 컨테이너의 세로 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단 </span> </p> </td> 
    <td colname="col2"> <p>위쪽 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
    <td colname="col2"> <p>왼쪽 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순익  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 하단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 하단 </span> </p> </td> 
    <td colname="col2"> <p>아래 여백. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>축소판 영역의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 축소판을 설정하려면 위에서 오프셋된 32픽셀, 왼쪽과 오른쪽에 5픽셀 여백, 아래에 `0xDDDDDD` 배경이 있는 8픽셀 여백을 설정합니다.
+예 - 축소판을 설정하려면 위에서 32픽셀 오프셋, 왼쪽과 오른쪽에 5픽셀 여백, 아래에 8픽셀 여백이 있으며 `0xDDDDDD` 배경.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -83,7 +83,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 각 축소판 주위의 가로 및 세로 여백의 크기입니다. 실제 가로 축소판 간격은 <span class="codeph"> .s7thumbncell </span>에 대해 설정된 왼쪽 및 오른쪽 여백의 합계와 같습니다. 세로 축소판 간격은 위쪽 및 아래쪽 여백의 합과 같습니다. </p> </td> 
+   <td colname="col2"> <p> 각 축소판 주위의 가로 및 세로 여백의 크기입니다. 실제 가로 축소판 간격은 <span class="codeph"> .s7thumbcell </span>. 세로 축소판 간격은 위쪽 및 아래쪽 여백의 합과 같습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ ht-degree: 2%
    <td colname="col2"> <p>축소판의 테두리입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>축소판의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->섬네일은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨(thumbnail states)을 적용하는 데 사용할 수 있습니다. 특히 `state="selected"`은 현재 기본 보기에 표시된 이미지의 축소판에 해당하고, `state="default"`은 나머지 축소판에 해당하며, 마우스 가리키기에 `state="over"`가 사용됩니다.
+>축소판 그림 은 `state` 속성 선택기. 다른 스킨을 다른 축소판 상태에 적용하는 데 사용할 수 있습니다. 특히, `state="selected"` 는 현재 기본 보기에 표시되는 이미지의 축소판에 해당합니다. `state="default"` 는 나머지 축소판에 해당하며 `state="over"` 마우스로 가리키면 사용됩니다.
 
 예 - 120 x 85픽셀로 축소판을 설정하려면 흰색 배경, 밝은 회색 표준 테두리 및 어두운 회색으로 선택한 테두리를 사용합니다.
 
@@ -160,17 +160,17 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 14픽셀 Helvetica 글꼴을 사용하도록 레이블을 설정합니다.
+예 - 14픽셀 Helvetica® 글꼴을 사용하도록 레이블을 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7label { 
@@ -192,7 +192,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -234,11 +234,11 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 트랙의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 막대 트랙의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -266,35 +266,35 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 엄지손가락의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 축소판의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 탑  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 탑 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 트랙의 상단 사이의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 패딩 하단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 하단 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 트랙 아래쪽의 수직 안쪽 여백입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>주어진 경험 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기를 지원합니다. 이 선택기는 thumb 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>Thumb은 `state` 특성 선택기. thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다 `up`, `down`, `over`, 및 `disabled`.
 
 예 - 28 x 45픽셀인 스크롤 막대 엄지를 설정하려면 위쪽과 아래쪽에 10픽셀 여백이 있고 각 상태에 대해 서로 다른 아트웍을 사용합니다.
 
@@ -327,7 +327,7 @@ ht-degree: 2%
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리에서 자동으로 위치를 지정합니다.
+CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`, `bottom`, 및 `right` 속성을 사용합니다. 대신 뷰어 논리에서 자동으로 위치를 지정합니다.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -338,29 +338,29 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>주어진 경험 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>도 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이러한 단추는 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 단추 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이러한 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다 `up`, `down`, `over`, 및 `disabled`.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 28 x 32픽셀이며 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 단추를 설정합니다.
 

@@ -1,13 +1,13 @@
 ---
+title: 플라이아웃 뷰어에 대한 JavaScript API 참조
 description: 플라이아웃 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 호출 백을 다룹니다.
 solution: Experience Manager
-title: 플라이아웃 뷰어에 대한 JavaScript API 참조
-feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 플라이아웃 뷰어의 기본 클래스는 FlyoutViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API에서는 이 특정 클래스의 생성자, 메서드 및 호출 백을 다룹니다.
 
-다음 모든 예에서 `<instance>`은 `s7viewers.FlyoutViewer` 클래스에서 인스턴스화된 JavaScript 뷰어 개체의 실제 이름을 나타냅니다.
+다음 모든 예에서 `<instance>` 은(는) JavaScript에서 인스턴스화된 JavaScript 뷰어 개체의 실제 이름을 나타냅니다 `s7viewers.FlyoutViewer` 클래스 이름을 지정합니다.
 
 * [dispose](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)

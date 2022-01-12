@@ -1,13 +1,13 @@
 ---
+title: setContainerId
 description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab3359f0-0c58-4984-815a-e0246728100e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '86'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 ` setContainerId( *`containerId`*)`
 
-뷰어가 삽입되는 DOM 컨테이너(일반적으로 `DIV`)의 ID를 설정합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 `init()` 이 실행될 때에는 컨테이너가 있어야 합니다. `init()` 앞에 호출해야 합니다. 이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에게 전달되면 선택 사항입니다.
+DOM 컨테이너의 ID(일반적으로 `DIV`) 내의 아무 곳에나 삽입할 수 있습니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 이 컨테이너는 `init()` 가 실행됩니다. 전에 호출해야 합니다. `init()`. 이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 컨테이너의 {string}  </span> ID입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너 ID입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

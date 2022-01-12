@@ -1,34 +1,34 @@
 ---
+title: FlyoutZoomView.tip
 description: FlyoutZoomView.tip
 solution: Experience Manager
-title: FlyoutZoomView.tip
-feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: df73235b-547e-4d47-aa76-1d2bd4aead9b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *``*[, *``*][, *`durationcountfade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`기간`*[, *`count`*][, *`페이드`*]`
 
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 기간</span> </span> </p> </td> 
-   <td colname="col2"> <p>팁 텍스트가 숨겨지기 전에 표시되는 시간(초)을 지정합니다. <span class="codeph"> -1</span>로 설정하면 사용자가 플라이아웃을 활성화하더라도 항상 메시지가 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>팁 텍스트가 숨겨지기 전에 표시되는 시간(초)을 지정합니다. 로 설정된 경우 <span class="codeph"> -1</span>인 경우, 사용자가 플라이아웃을 활성화하더라도 항상 메시지가 표시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p>세트에서 새 이미지를 볼 때 텍스트가 표시되는 횟수를 지정합니다. <span class="codeph"> -1</span> 값은 집합에서 이미지를 볼 때 텍스트가 항상 표시됨을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>세트에서 새 이미지를 볼 때 텍스트가 표시되는 횟수를 지정합니다. 값 <span class="codeph"> -1</span> 는 세트에서 이미지를 볼 때 텍스트가 항상 표시됨을 의미합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 페이드</span> </span> </p> </td> 
-   <td colname="col2"> <p>텍스트가 나타나거나 사라질 때 발생하는 페이드 애니메이션의 지속 시간을 지정합니다. <span class="codeph"> 0</span> 값은 페이드 전환이 없음을 의미합니다. </p> </td> 
+   <td colname="col2"> <p>텍스트가 나타나거나 사라질 때 발생하는 페이드 애니메이션의 지속 시간을 지정합니다. 값 <span class="codeph"> 0</span> 은 페이드 전환이 없음을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

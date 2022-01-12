@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.iscommand
 description: FlyoutZoomView.iscommand
 solution: Experience Manager
-title: FlyoutZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b23918b5-5fc6-4038-b6f5-519198a96f86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>FlyoutZoomView 기본 이미지와 확대 보기에 적용되는 이미지 제공 명령 문자열입니다. URL에 지정된 경우 HTTP를 통해 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목을 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>로 각각 인코딩해야 합니다. </p> <p> <p>참고:  이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>FlyoutZoomView 기본 이미지와 확대 보기에 적용되는 이미지 제공 명령 문자열입니다. URL에 지정된 경우 모든 항목을 HTTP로 인코딩해야 합니다 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span> 로서의 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>각각 입니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

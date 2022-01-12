@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.overlay
 description: FlyoutZoomView.overlay
 solution: Experience Manager
-title: FlyoutZoomView.overlay
-feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7fbf24c6-900f-4e94-b879-3a8f95dc5c08
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 플라이아웃이 활성 상태일 때 기본 보기 강조 표시 모양을 제어합니다. <span class="codeph"> 0</span> 로 설정하면 플라이아웃 창에서 현재 표시되는 영역이 <span class="codeph"> .s7highlight</span> 또는 <span class="codeph"> .s7cursor</span> CSS 클래스 이름(<span class="codeph"> highlightmode</span> 수정자 값에 따라)에서 제공하는 스타일을 사용하여 강조 표시됩니다. <span class="codeph"> 1</span> 구성 요소가 현재 표시된 영역이 완전히 투명하거나(이 경우 <span class="codeph"> highlightmode</span>가 <span class="codeph"> highlight</span>로 설정되어 있거나 <span class="codeph"> .s7cursor</span> CSS 클래스 이름으로 스타일이 지정된 경우(<span class="codeph"> highlightmode</span>가 <span class="codeph"> 커서<span class="codeph">)로 설정되어 있지만 주변 영역은 </span> CSS 클래스 이름입니다.</span> </p> </td> 
+   <td colname="col2"> <p> 플라이아웃이 활성 상태일 때 기본 보기 강조 표시 모양을 제어합니다. 로 설정된 경우 <span class="codeph"> 0</span>로 설정되어 있는 경우, 플라이아웃 창에서 현재 표시되는 영역은 <span class="codeph"> .s7highlight</span> 또는 <span class="codeph"> .s7cursor</span> CSS 클래스 이름( <span class="codeph"> 강조 모드</span> 수정자). 로 설정된 경우 <span class="codeph"> 1</span> 구성 요소는 현재 표시된 영역이 완전히 투명한 "역" 모드로 전환됩니다(경우에 따라) <span class="codeph"> 강조 모드</span> 가 로 설정되어 있습니다. <span class="codeph"> 강조 표시</span>) 또는 다음으로 스타일이 지정됨 <span class="codeph"> .s7cursor</span> CSS 클래스 이름(경우에 따라) <span class="codeph"> 강조 모드</span> 가 로 설정되어 있습니다. <span class="codeph"> 커서</span>)이지만 주변 영역은 <span class="codeph"> .s7overlay</span> CSS 클래스 이름입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

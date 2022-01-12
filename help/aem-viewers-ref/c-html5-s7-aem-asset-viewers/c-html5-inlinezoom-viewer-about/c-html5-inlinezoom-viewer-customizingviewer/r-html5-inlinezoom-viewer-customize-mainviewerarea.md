@@ -1,13 +1,13 @@
 ---
+title: 기본 뷰어 영역
 description: 기본 보기 영역은 플라이아웃 보기와 견본이 차지하는 영역입니다.
 solution: Experience Manager
-title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,인라인 확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '92'
 ht-degree: 3%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 3%
    <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경( `#FFFFFF`)이 있는 플라이아웃 뷰어를 설정하고 크기를 260 x 500픽셀로 만들려면
+예 - 흰색 배경이 있는 플라이아웃 뷰어를 설정하려면( `#FFFFFF`)을 클릭하여 크기를 260 x 500픽셀로 만듭니다.
 
 ```
 .s7flyoutviewer { 

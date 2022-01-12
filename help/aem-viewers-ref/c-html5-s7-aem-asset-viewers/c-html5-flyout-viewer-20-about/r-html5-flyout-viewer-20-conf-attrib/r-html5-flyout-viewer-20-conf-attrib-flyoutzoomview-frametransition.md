@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Viewers,SDK/API,플라이아웃
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 10%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. <span class="codeph"> none</span>은 전환이 없음을 나타내므로 기본 보기 변경이 즉시 발생합니다. <span class="codeph"> 페이드</span>는 이전 이미지가 페이드 아웃되고 새 이미지가 페이드 인되는 교차 페이드 전환을 활성화합니다 </p> </td> 
+   <td colname="col2"> <p> 자산 변경 시 기본 보기에 적용되는 효과의 유형을 지정합니다. 다음 <span class="codeph"> 없음</span> 전환 없음을 나타내므로, 기본 보기 변경은 즉시 발생합니다. 다음 <span class="codeph"> 페이드</span> 이전 이미지가 페이드 아웃되고 새 이미지가 페이드 인되는 교차 페이드 전환을 활성화합니다 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 지속 시간</span></span> </p> </td> 

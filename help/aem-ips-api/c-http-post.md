@@ -1,13 +1,13 @@
 ---
+title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
 description: Dynamic Media Classic에 자산 업로드에는 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
 solution: Experience Manager
-title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -57,7 +57,7 @@ https://<server>/scene7/UploadFile
 
 ## 업로드 작업의 워크플로우 {#section-873625b9512f477c992f5cdd77267094}
 
-업로드 작업은 일반적인 `jobHandle`을 사용하여 처리가 동일한 작업에 상호 연결되도록 하는 하나 이상의 HTTP POST로 구성됩니다. 각 요청은 `multipart/form-data` 인코딩되며 다음 양식 부분으로 구성됩니다.
+업로드 작업은 일반을 사용하는 하나 이상의 HTTP POST로 구성됩니다 `jobHandle` 처리를 동일한 작업에 상호 연관시킬 수 있습니다. 각 요청은 `multipart/form-data` 인코딩되고 다음 양식 부분으로 구성됩니다.
 
 >[!NOTE]
 >
@@ -65,34 +65,34 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST 양식 파트  |  설명  |
 |---|---|
-| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서입니다. [SOAP](/help/aem-ips-api/c-wsdl-versions.md)에서 **인증 요청**&#x200B;을 참조하십시오. |
-| `file params`  |   선택 사항입니다. 각 POST 요청에 업로드할 파일을 하나 이상 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 IPS에서 대상 파일 이름으로 사용되는 Content-Disposition 헤더에 각 파일 이름 매개 변수를 포함할 수 있습니다. |
+| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서입니다. 자세한 내용은 **인증 요청** 아래에 [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   선택 사항입니다. 각 POST 요청에 업로드할 파일을 하나 이상 포함할 수 있습니다. 각 파일 부분에는 없는 경우 IPS의 대상 파일 이름으로 사용되는 Content-Disposition 헤더에 파일 이름 매개 변수가 포함될 수 있습니다 `uploadPostParams/fileName` 매개 변수가 지정되었습니다. |
 
 |  HTTP POST 양식 파트   |  uploadPostParams 요소 이름   |  유형   |  설명   |
 |---|---|---|---|
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일을 업로드할 회사를 처리합니다.  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobName`  |  `xsd:string`  | `jobName` 또는 `jobHandle` 이 필요합니다. 업로드 작업의 이름입니다.  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobHandle`  |  `xsd:string`  | `jobName` 또는 `jobHandle` 이 필요합니다. 이전 요청에서 시작된 업로드 작업을 처리합니다.  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택 사항입니다. 지역화를 위한 언어 및 국가 코드입니다.  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택 사항입니다. 작업에 대한 설명입니다.  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택 사항입니다. 파일 이름 속성에 접두사를 추가할 Target 폴더 경로, 특히 파일 이름의 전체 경로를 지원하지 않을 수 있는 브라우저 및 기타 클라이언트의 경우  |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `fileName`  |  `xsd:string`  | 선택 사항입니다. 대상 파일의 이름입니다. 파일 이름 속성을 무시합니다. |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택 사항입니다. 기본값은 false입니다. |
-| `uploadParams` (필수. 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams` 이 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) 참조 |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일을 업로드할 회사를 처리합니다.  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `jobName`  |  `xsd:string`  | 다음 중 하나 `jobName` 또는 `jobHandle` 는 필수입니다. 업로드 작업의 이름입니다.  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `jobHandle`  |  `xsd:string`  | 다음 중 하나 `jobName` 또는 `jobHandle` 는 필수입니다. 이전 요청에서 시작된 업로드 작업을 처리합니다.  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `locale`  |  `xsd:string`  | 선택 사항입니다. 지역화를 위한 언어 및 국가 코드입니다.  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `description`  |  `xsd:string`  | 선택 사항입니다. 작업에 대한 설명입니다.  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `destFolder`  |  `xsd:string`  | 선택 사항입니다. 파일 이름 속성에 접두사를 추가할 Target 폴더 경로, 특히 파일 이름의 전체 경로를 지원하지 않을 수 있는 브라우저 및 기타 클라이언트의 경우  |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `fileName`  |  `xsd:string`  | 선택 사항입니다. 대상 파일의 이름입니다. 파일 이름 속성을 무시합니다. |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `endJob`  |  `xsd:boolean`  | 선택 사항입니다. 기본값은 false입니다. |
+| `uploadParams` (필수. XML `uploadParams` 업로드 매개 변수 지정 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있다면 `uploadParams` 이 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. 자세한 내용은 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-`<uploadPostParams>` 블록 내에 포함된 파일의 처리를 지정하는 `<uploadParams>` 블록이 있습니다.
+내 `<uploadPostParams>` 블록은 `<uploadParams>` 포함된 파일의 처리를 지정하는 블록입니다.
 
-[UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)을 참조하십시오.
+자세한 내용은 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-`uploadParams` 매개 변수는 동일한 작업의 일부로 개별 파일에 대해 변경될 수 있다고 가정할 수 있지만 그렇지 않습니다. 전체 작업에 동일한 `uploadParams` 매개 변수를 사용합니다.
+당신이 만약 `uploadParams` 개별 파일에 대해 동일한 작업의 일부로 매개 변수를 변경할 수 있지만 그렇지 않습니다. 동일한 항목 사용 `uploadParams` 전체 작업에 대한 매개 변수입니다.
 
-새 업로드 작업에 대한 초기 POST 요청은 `jobName` 매개 변수를 지정해야 합니다. 바람직하게는 고유한 작업 이름을 사용하여 후속 작업 상태 폴링과 작업 로그 쿼리를 단순화합니다. 동일한 업로드 작업에 대한 추가 POST 요청은 초기 요청에서 반환된 `jobHandle` 값을 사용하여 `jobName` 대신 `jobHandle` 매개 변수를 지정해야 합니다.
+새 업로드 작업에 대한 초기 POST 요청에는 `jobName` 매개 변수, 바람직하게는 고유한 작업 이름을 사용하여 후속 작업 상태 폴링 및 작업 로그 쿼리를 단순화합니다. 동일한 업로드 작업에 대한 추가 POST 요청에서는 `jobHandle` 매개 변수 대신 `jobName`를 사용 `jobHandle` 초기 요청에서 반환된 값입니다.
 
-업로드 작업에 대한 최종 POST 요청은 이 작업에 대해 이후의 파일이 POSTed가 되지 않도록 `endJob` 매개 변수를 true로 설정해야 합니다. 이렇게 하면 모든 POSTed 파일을 수집한 후 즉시 작업을 완료할 수 있습니다. 그렇지 않으면 30분 내에 추가 POST 요청을 받지 못하면 작업이 시간 초과됩니다.
+업로드 작업에 대한 최종 POST 요청은 `endJob` 이 작업에 대해 이후의 파일이 POSTed가 되지 않도록 매개 변수를 true로 설정합니다. 이렇게 하면 모든 POSTed 파일을 수집한 후 즉시 작업을 완료할 수 있습니다. 그렇지 않으면 30분 내에 추가 POST 요청을 받지 못하면 작업이 시간 초과됩니다.
 
 ## UploadPOST 응답 {#section-421df5cc04d44e23a464059aad86d64e}
 
-XSD가 다음에 지정한 대로 POST 요청이 성공하면 응답 본문은 XML `uploadPostReturn` 문서가 됩니다.
+성공적인 POST 요청의 경우 응답 본문은 XML입니다 `uploadPostReturn` XSD가 지정하는 대로 문서에 지정된 경우
 
 ```
 <element name="uploadPostReturn"> 
@@ -104,9 +104,9 @@ XSD가 다음에 지정한 대로 POST 요청이 성공하면 응답 본문은 X
     </element>
 ```
 
-반환된 `jobHandle`은 동일한 작업에 대한 후속 POST 요청에 대해 `uploadPostParams`/ `jobHandle` 매개 변수에 전달됩니다. 이 기능을 사용하여 작업 상태를 `getActiveJobs` 작업으로 폴링하거나 `getJobLogDetails` 작업을 사용하여 작업 로그를 쿼리할 수도 있습니다.
+다음 `jobHandle` 반환된 가 `uploadPostParams`/ `jobHandle` 동일한 작업에 대한 후속 POST 요청에 대한 매개 변수입니다. 이 데이터를 사용하여 작업 상태를 `getActiveJobs` 작업 또는 작업 로그를 `getJobLogDetails` 작업.
 
-POST 요청을 처리하는 동안 오류가 발생하면 응답 본문은 [Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)에 설명된 대로 API 오류 유형 중 하나로 구성됩니다.
+POST 요청을 처리하는 동안 오류가 발생하면 응답 본문은 에 설명된 대로 API 오류 유형 중 하나로 구성됩니다 [장애](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## POST 요청 예 {#section-810fe32abdb9426ba0fea488dffadd1e}
 

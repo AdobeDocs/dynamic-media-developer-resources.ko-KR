@@ -1,11 +1,11 @@
 ---
-description: 사용자가 전체 화면 버튼을 선택하면 뷰어가 전체 화면 모드로 전환되거나 전체 화면 모드로 전환됩니다. 뷰어가 비디오를 표시할 때 사용되며 컨트롤 막대에 있습니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다.
-solution: Experience Manager
 title: 비디오 전체 화면 단추
+description: 사용자가 전체 화면 버튼을 선택하면 뷰어가 전체 화면 모드로 전환되거나 전체 화면 모드로 전환됩니다. 뷰어가 비디오를 표시하고 컨트롤 모음에 배치할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 비디오 전체 화면 단추{#video-full-screen-button}
 
-사용자가 전체 화면 버튼을 선택하면 뷰어가 전체 화면 모드로 전환되거나 전체 화면 모드로 전환됩니다. 뷰어가 비디오를 표시할 때 사용되며 컨트롤 막대에 있습니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다.
+[전체 화면] 단추를 사용하면 사용자가 선택한 경우 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어가 비디오를 표시하고 컨트롤 모음에 배치할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

@@ -1,14 +1,14 @@
 ---
+title: 스핀 보기 아이콘 효과
 description: 스핀 표시기는 스핀 뷰 영역에 겹쳐집니다. 이미지가 재설정 상태일 때 표시되고 iconeffect 매개 변수에도 따라 달라집니다.
 solution: Experience Manager
-title: 스핀 보기 아이콘 효과
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1c5c73f9-c32a-4bca-93f0-c5a95756355b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 2%
 
 ---
 
@@ -35,12 +35,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 스핀 표시기 아트웍입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,9 +53,9 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-스핀 표시기는 단일 차원 스핀 세트의 경우 `spin_1D` 로 설정되고, 다차원 스핀 세트의 경우 `spin_2D` 로 설정된 `state` 속성 선택기를 지원합니다.
+스핀 표시기는 `state` 으로 설정된 속성 선택기 `spin_1D` 1차원 스핀 세트가 있는 경우 및 `spin_2D` 다차원 스핀 세트가 있는 경우
 
-예 - 100 x 100픽셀 확대/축소 표시기를 설정합니다.
+예 - 100 x 100픽셀 확대/축소 표시기를 설정하려면 다음을 수행합니다.
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 

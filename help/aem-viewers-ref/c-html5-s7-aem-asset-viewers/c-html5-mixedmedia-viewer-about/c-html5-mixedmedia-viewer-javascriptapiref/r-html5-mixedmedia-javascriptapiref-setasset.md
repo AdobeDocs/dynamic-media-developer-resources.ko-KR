@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: 혼합 미디어 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 ` setAsset( *`asset`*[,data]))`
 
-새 자산 및 선택적 추가 자산 데이터를 설정합니다. 이 매개 변수는 `init()` 전이나 후에 언제든지 호출할 수 있습니다. `init()` 다음에 호출되면 뷰어는 런타임 시 자산을 교체합니다.
+새 자산 및 선택적 추가 자산 데이터를 설정합니다. 이 매개 변수는 이전 또는 이후에 언제든지 호출할 수 있습니다 `init()`. 호출 후에 `init()`로 설정하면 뷰어가 런타임 시 자산을 교체합니다.
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae)도 참조하십시오.
+참조 - [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-init.md#reference-bb4428c155e541b79797f96e17c068ae).
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`자산`*`  - {  `String`} 새로운 자산 ID 또는 명시적 혼합 미디어 세트와 선택적 이미지 제공 수정자가 뒤에 추가됩니다  `?`.
+`*`자산`*` - { `String`} 새 자산 ID나 명시적 혼합 미디어 세트(선택적 이미지 제공 수정자 추가) `?`.
 
 IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다.
 
-`*`새 캡션 파일의 데이터`*`  - {  `JSON`} 위치.
+`*`데이터`*` - { `JSON`} 새 캡션 파일의 위치입니다.
 
 지정하지 않으면 사용자 인터페이스에 캡션 단추가 표시되지 않습니다. 이 매개 변수로 지정된 캡션은 혼합 미디어 세트에서 먼저 나오는 비디오에 적용됩니다. 이후 비디오에서는 캡션 없이 재생됩니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
 
@@ -41,11 +41,11 @@ IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 �
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 포스터이미지  </span> </p> </td> 
-   <td colname="col2"> <p>비디오가 재생을 시작하기 전에 첫 번째 프레임에 표시할 이미지입니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.postimage </a> 를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 포스터이미지 </span> </p> </td> 
+   <td colname="col2"> <p>비디오가 재생을 시작하기 전에 첫 번째 프레임에 표시할 이미지입니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 캡션  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 캡션 </span> </p> </td> 
    <td colname="col2"> <p> 새 캡션 파일의 위치입니다. </p> <p>지정하지 않으면 사용자 인터페이스에 캡션 단추가 표시되지 않습니다. 이 매개 변수로 지정된 캡션은 미디어 세트에서 먼저 오는 비디오에 적용됩니다. 이후 비디오는 캡션 없이 재생됩니다. </p> </td> 
   </tr> 
  </tbody> 

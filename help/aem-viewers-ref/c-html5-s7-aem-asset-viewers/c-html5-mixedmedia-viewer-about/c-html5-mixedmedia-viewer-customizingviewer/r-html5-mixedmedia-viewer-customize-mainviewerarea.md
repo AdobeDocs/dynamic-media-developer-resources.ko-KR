@@ -1,20 +1,20 @@
 ---
-description: 기본 보기 영역은 기본 보기 및 견본이 차지하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
-solution: Experience Manager
 title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+description: 기본 보기 영역은 기본 보기 및 견본이 차지하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
 
 # 기본 뷰어 영역{#main-viewer-area}
 
-기본 보기 영역은 기본 보기 및 견본이 차지하는 영역입니다. 크기가 지정되지 않은 경우 일반적으로 사용 가능한 장치 화면에 맞도록 설정됩니다.
+기본 보기 영역은 기본 보기 및 견본이 차지하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경인 뷰어를 설정하고 크기를 512 x 288픽셀로 만들려면`#FFFFFF`
+예 - 백그라운드로 뷰어를 설정하려면( `#FFFFFF`)을 클릭하여 크기를 512 x 288픽셀로 만듭니다.
 
 ```
 .s7mixedmediaviewer { 

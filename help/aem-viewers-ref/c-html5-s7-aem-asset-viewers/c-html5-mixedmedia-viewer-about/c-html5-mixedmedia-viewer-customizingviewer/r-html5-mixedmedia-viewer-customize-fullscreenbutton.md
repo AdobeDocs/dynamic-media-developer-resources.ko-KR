@@ -1,13 +1,13 @@
 ---
+title: 전체 화면 단추
 description: 이 단추를 사용하면 사용자가 선택한 경우 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어에서 이미지 또는 스핀 세트를 표시할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
-title: 전체 화면 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 추가 정보.
 
-예 - 32 x 32픽셀인 전체 화면 단추를 설정하고, 뷰어 상단 및 오른쪽 가장자리로부터 6픽셀을 위치시키고, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 32 x 32픽셀인 전체 화면 단추를 설정하고 뷰어 상단 및 오른쪽 가장자리로부터 6픽셀을 배치합니다. 그리고 마지막으로, 선택 또는 선택되지 않은 경우 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 

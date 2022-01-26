@@ -1,13 +1,13 @@
 ---
+title: 표시기 설정
 description: 세트 표시기는 터치 장치에서 뷰어를 사용할 때 주 색상 견본 위에 렌더링되는 일련의 점입니다. 스크롤 단추를 사용할 수 없을 때 축소판 페이지를 탐색하는 데 점이 도움이 됩니다.
 solution: Experience Manager
-title: 표시기 설정
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>배경색(설정 표시기의 16진수 형식)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 백그라운드로 설정 표시기를 설정하려면 다음을 수행합니다.
+예 - 흰색 배경을 사용하여 세트 표시기를 만들려면
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -70,27 +70,27 @@ ht-degree: 1%
    <td colname="col2"> <p>설정된 표시기 점의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
    <td colname="col2"> <p>왼쪽 여백(픽셀 단위)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단 </span> </p> </td> 
    <td colname="col2"> <p>위쪽 여백(픽셀 단위)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순익  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 여백(픽셀 단위)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 하단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 하단 </span> </p> </td> 
    <td colname="col2"> <p>아래쪽 여백(픽셀 단위)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 반경  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
    <td colname="col2"> <p>테두리 반경(픽셀 단위). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->표시기 점 설정 은 `state` 속성 선택기를 지원합니다. 이 선택기는 다른 스킨을 축소판 상태에 적용하는 데 사용할 수 있습니다. 특히 `state="selected"`은 축소판의 현재 페이지에 해당하며, `state="unselected"`은 기본 점 상태에 해당합니다.
+>표시기 점은 `state` 속성 선택기. 다른 스킨을 다른 축소판 상태에 적용하는 데 사용할 수 있습니다. 특히, `state="selected"` 축소판의 현재 페이지에 해당합니다. `state="unselected"` 는 기본 점 상태에 해당합니다.
 
-예 - 설정 표시기 점을 15 x 15픽셀로 설정하려면 두 픽셀 가로 여백, 5픽셀 위쪽 여백, 1픽셀 아래쪽 여백, 12픽셀 반경, #D5D3D3 기본 색상 및 #939393 활성 색상을 사용합니다.
+예 - 15 x 15픽셀인 세트 표시기 점을 만들려면 두 픽셀 가로 여백, 5픽셀 위쪽 여백, 1픽셀 아래쪽 여백, 12픽셀 반경, #D5D3D3 기본 색상 및 #939393 활성 색상을 사용합니다.
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

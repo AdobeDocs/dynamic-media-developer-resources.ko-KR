@@ -1,13 +1,13 @@
 ---
+title: 캡션 단추
 description: 닫힌 캡션 표시를 설정/해제합니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다. CSS를 사용하여 이 단추가 포함된 컨트롤 막대를 기준으로 크기를 지정하고, 스킨을 지정하고, 이 단추를 배치할 수 있습니다.
 solution: Experience Manager
-title: 캡션 단추
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 62809036-f158-402d-a8b2-2b9335e8c079
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -59,23 +59,23 @@ ht-degree: 2%
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a> 를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 단추는 `state` 속성 선택기와 선택한 속성 선택기를 지원하며, 이 선택기는 다른 스킨(skin)을 다른 단추 상태에 적용하는 데 사용할 수 있습니다. 특히 `selected='true'` 은 캡션이 표시될 때 상태에 해당하고 캡션이 숨겨질 때 `selected='false'` 이 사용됩니다.
+>이 버튼은 `state` 속성 선택기 및 선택한 속성 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `selected='true'` 는 캡션이 표시되며 `selected='false'` 캡션을 숨길 때 사용됩니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)를 참조하십시오.
+단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 추가 정보.
 
-예 - 28 x 28픽셀인 닫힌 캡션 단추를 설정하고, 컨트롤 막대의 오른쪽 모서리에서 4픽셀과 68픽셀을 배치하며, 선택 여부에 따라 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀이고, 상단에서 4픽셀이고, 컨트롤 막대의 오른쪽 가장자리에서 68픽셀인 닫힌 캡션 단추를 설정하려면 다음을 수행합니다. 마지막으로, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7mixedmediaviewer .s7closedcaptionbutton { 

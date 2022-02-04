@@ -1,12 +1,12 @@
 ---
+title: 혼합 미디어
 description: 혼합 미디어 뷰어는 미디어 뷰어입니다. 이미지, 견본 세트, 스핀 세트, 비디오 및 응용 비디오 세트가 포함된 미디어 세트를 지원합니다.
 keywords: 응답형
 solution: Experience Manager
-title: 혼합 미디어
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%

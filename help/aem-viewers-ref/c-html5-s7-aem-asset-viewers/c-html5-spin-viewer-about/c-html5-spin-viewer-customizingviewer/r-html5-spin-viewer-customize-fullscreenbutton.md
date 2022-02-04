@@ -1,13 +1,13 @@
 ---
+title: 전체 화면 단추
 description: 이 단추를 사용하면 사용자가 선택한 경우 뷰어가 전체 화면 모드로 들어가거나 종료됩니다. 뷰어가 팝업 모드에서 작동하며 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
-title: 전체 화면 단추
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) 추가 정보.
 
-예 - 32 x 32픽셀인 전체 화면 단추를 설정하고, 뷰어 상단 및 오른쪽 가장자리로부터 6픽셀을 위치시키고, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 32 x 32픽셀인 전체 화면 단추를 설정하고 뷰어 상단 및 오른쪽 가장자리로부터 6픽셀을 배치합니다. 그리고 마지막으로, 선택 또는 선택되지 않은 경우 4개의 서로 다른 버튼 상태에 대해 다른 이미지가 표시됩니다.
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

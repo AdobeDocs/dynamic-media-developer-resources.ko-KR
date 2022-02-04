@@ -1,14 +1,14 @@
 ---
+title: EmbedShare.embedsizes
 description: 비디오 뷰어에 대한 구성 속성입니다.
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 10%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 비디오 뷰어에 대한 구성 속성입니다.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`너비`*, *`높이`*[,0|1][; *`너비`*, *`높이`*[,0|1]]`
 
 포함 공유 모달 대화 상자에서 크기 콤보 상자의 포함 크기 목록을 지정합니다.
 

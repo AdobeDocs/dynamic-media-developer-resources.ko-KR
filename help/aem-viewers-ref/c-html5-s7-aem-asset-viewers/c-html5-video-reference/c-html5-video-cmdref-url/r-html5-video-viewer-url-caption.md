@@ -1,14 +1,14 @@
 ---
+title: 캡션
 description: 비디오 뷰어에 대한 URL 명령입니다.
 solution: Experience Manager
-title: 캡션
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: a9af3335-ae18-4399-9014-47ec0306a087
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 11%
+source-wordcount: '196'
+ht-degree: 12%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 11%
    <td colname="col1"> <p> A </p> </td> 
    <td colname="col2"> <p>텍스트 정렬 </p> </td> 
    <td colname="col3"> <p><span class="codeph"> 왼쪽|오른쪽|가운데|시작|끝</span> </p> </td> 
-   <td colname="col4"> <p> 텍스트 정렬을 제어합니다. </p> <p>기본값은 <span class="codeph"> middle</span>입니다. </p> </td> 
+   <td colname="col4"> <p> 텍스트 정렬을 제어합니다. </p> <p>기본값은 입니다. <span class="codeph"> 중간</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
@@ -67,7 +67,7 @@ WebVTT 파일에 있는 다른 WebVTT 기능은 지원되지 않지만, 캡션�
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다(활성화됨: <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다(활성화됨). <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

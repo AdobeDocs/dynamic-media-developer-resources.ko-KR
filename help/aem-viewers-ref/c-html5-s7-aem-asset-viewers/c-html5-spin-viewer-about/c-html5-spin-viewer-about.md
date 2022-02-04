@@ -1,12 +1,12 @@
 ---
+title: 회전
 description: 스핀 뷰어는 적절한 스핀 세트를 사용하는 경우 이미지의 360도 보기 또는 다차원 보기를 제공하는 이미지 뷰어입니다. 확대/축소 및 회전 도구, 전체 화면 지원, 닫기 버튼 선택 사항이 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 keywords: 응답형
 solution: Experience Manager
-title: 회전
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%

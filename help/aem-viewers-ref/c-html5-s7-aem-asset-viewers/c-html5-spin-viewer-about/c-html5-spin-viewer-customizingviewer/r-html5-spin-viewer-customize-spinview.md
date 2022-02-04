@@ -1,13 +1,13 @@
 ---
+title: 스핀 보기
 description: 기본 보기는 스핀 이미지로 구성됩니다.
 solution: Experience Manager
-title: 스핀 보기
-feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 기본 보기를 투명하게 만듭니다.
+예 - 기본 보기를 투명하게 만들려면
 
 ```
 .s7spinviewer .s7spinview { 

@@ -1,13 +1,13 @@
 ---
+title: Adobe Analytics 추적 지원
 description: 스핀 뷰어는 Adobe Analytics 즉시 추적을 지원합니다.
 solution: Experience Manager
-title: Adobe Analytics 추적 지원
-feature: Dynamic Media Classic,Viewers,SDK/API,스핀 세트
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '156'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 3%
 
 스핀 뷰어는 Adobe Analytics 추적을 기본적으로 지원합니다.
 
-추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수로 전달합니다.
+추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수.
 
 또한 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-47512156a1d64b338b50cfa39c84f4aa}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```
 var spinViewer = new s7viewers.SpinViewer({ 
@@ -66,7 +66,7 @@ var spinViewer = new s7viewers.SpinViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산이 교체됩니다. </p> </td> 
+   <td colname="col2"> <p>뷰어에서 자산을 <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 확대/축소 </span> </p> </td> 

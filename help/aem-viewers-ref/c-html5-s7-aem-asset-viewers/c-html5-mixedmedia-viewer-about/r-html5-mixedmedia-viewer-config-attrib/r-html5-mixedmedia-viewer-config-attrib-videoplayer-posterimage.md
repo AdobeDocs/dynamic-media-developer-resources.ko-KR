@@ -1,31 +1,31 @@
 ---
+title: VideoPlayer.posterimage
 description: VideoPlayer.posterimage
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic,Viewers,SDK/API,혼합 미디어 집합
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 2%
+source-wordcount: '166'
+ht-degree: 3%
 
 ---
 
 # VideoPlayer.posterimage{#videoplayer-posterimage}
 
-` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_`*][? *`idisCommands`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]posterimage=none|[ *`image_id`*][? *`isCommands`*]`
 
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 재생을 시작하기 전에 첫 번째 프레임에 표시할 이미지를 <span class="codeph"> serverurl</span>에 대해 해결했습니다. URL에 지정된 경우 HTTP는 다음을 인코딩합니다. </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> 없음|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col2"> <p> 비디오가 재생을 시작하기 전에 첫 번째 프레임에 표시할 이미지를 문제 해결했습니다 <span class="codeph"> serverurl</span>. URL에 지정된 경우 HTTP는 다음을 인코딩합니다. </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 로서의  <span class="codeph"> %3F</span> </p> </li> 
-      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> 로서의  <span class="codeph"> %26</span> </p> </li> 
-      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> = </span> 로서의  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span> 값이 생략되면 구성 요소는 해당 자산에 대한 기본 포스터 이미지를 대신 사용하려고 합니다. </p> <p>비디오가 경로로 지정되면 기본 포스터 이미지 카탈로그 ID는 <span class="codeph"> catalog_id/image_id</span> 쌍으로 비디오 경로에서 파생되며, 여기서 <span class="codeph"> catalog_id</span>는 경로의 첫 번째 토큰에 해당하고 <span class="codeph"> image_id</span>는 확장이 제거된 비디오의 이름입니다. 해당 ID가 있는 이미지가 없는 경우 포스터 이미지가 표시되지 않습니다. </p> <p>기본 포스터 이미지가 표시되지 않도록 하려면 <span class="codeph"> none</span> 을 포스터 이미지 값으로 지정합니다. <span class="codeph"><span class="varname"> isCommands</span></span>만 지정되면 이미지가 표시되기 전에 기본 포스터 이미지에 명령이 적용됩니다. </p> </td> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> 로서의 <span class="codeph"> %3F</span> </p> </li> 
+      <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> 로서의 <span class="codeph"> %26</span> </p> </li> 
+      <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> 로서의 <span class="codeph"> %3D</span> </p> </li> 
+     </ul> </p> <p>만약 <span class="codeph"><span class="varname"> image_id</span></span> 값이 생략되면 구성 요소는 해당 자산에 대한 기본 포스터 이미지를 대신 사용하려고 합니다. </p> <p>비디오가 경로로 지정되면 기본 포스터 이미지 카탈로그 ID는 비디오 경로에서 <span class="codeph"> catalog_id/image_id</span> 연결 위치 <span class="codeph"> catalog_id</span> 은 경로의 첫 번째 토큰에 해당합니다. 그리고, <span class="codeph"> image_id</span> 은 확장이 제거된 비디오 이름입니다. 해당 ID가 있는 이미지가 없는 경우 포스터 이미지가 표시되지 않습니다. </p> <p>기본 포스터 이미지가 표시되지 않도록 하려면 <span class="codeph"> 없음</span> 을 포스터 이미지 값으로 채우면 됩니다. 다음의 경우에만 <span class="codeph"><span class="varname"> isCommands</span></span> 이 지정되면 이미지가 표시되기 전에 기본 포스터 이미지에 명령이 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

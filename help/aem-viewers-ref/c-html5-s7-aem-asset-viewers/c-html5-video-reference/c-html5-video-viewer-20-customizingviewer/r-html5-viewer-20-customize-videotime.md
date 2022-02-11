@@ -1,13 +1,13 @@
 ---
+title: 비디오 시간
 description: 비디오 시간은 현재 재생 중인 비디오의 현재 시간 및 기간을 표시하는 숫자 표시입니다.
 solution: Experience Manager
-title: 비디오 시간
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 비디오 시간 제어의 폭입니다. 이 속성은 Internet Explorer 8 이상이 제대로 작동하려면 필요합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>시간 표시 텍스트에 사용할 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>시간 표시 텍스트에 사용할 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 예 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-비디오 시간을 밝은 회색(12픽셀)(16진수 `#BBBBBB`)으로 설정하고, 컨트롤 막대의 상단에서 15픽셀, 컨트롤 막대의 오른쪽 모서리에서 80픽셀로 설정합니다.
+비디오 시간을 밝은 회색(16진수)으로 설정합니다 `#BBBBBB`), 크기 12픽셀, 컨트롤 막대의 상단에서 15픽셀, 컨트롤 막대의 오른쪽 모서리에서 80픽셀을 각각 지정합니다.
 
 ```
 .s7videoviewer .s7videotime { 

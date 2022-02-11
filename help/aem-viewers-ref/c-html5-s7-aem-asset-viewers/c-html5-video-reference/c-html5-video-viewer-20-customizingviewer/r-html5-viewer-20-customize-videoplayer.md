@@ -1,13 +1,13 @@
 ---
+title: 비디오 플레이어
 description: 비디오 플레이어는 뷰어 내에 비디오 컨텐츠가 표시되는 사각형 영역입니다.
 solution: Experience Manager
-title: 비디오 플레이어
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 1%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>기본 보기의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-시스템에서 비디오를 재생할 수 없는 경우 표시되는 오류 메시지를 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)를 참조하십시오.
+시스템에서 비디오를 재생할 수 없는 경우 표시되는 오류 메시지를 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
 예 - 비디오 플레이어 크기가 512 x 288픽셀로 설정된 비디오 뷰어를 설정하려면 다음을 수행하십시오.
 
@@ -56,7 +56,7 @@ background-color: transparent;
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>닫힌 캡션 텍스트 배경. </p> </td> 
   </tr> 
   <tr> 
@@ -64,21 +64,21 @@ background-color: transparent;
    <td colname="col2"> <p>캡션 텍스트 색상을 닫습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> 닫힌 캡션 글꼴 가중치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p> 닫힌 캡션 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>닫힌 캡션 글꼴입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, 굴림(Arial)으로 설정하려면 다음을 수행합니다.
+예 - 반투명 검정 배경에서 닫힌 캡션 텍스트를 14픽셀, 밝은 회색, Arial®로 설정하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7videoplayer .s7caption { 
@@ -115,15 +115,15 @@ background-color: transparent;
    <td colname="col2"> <p> 애니메이션 아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 아이콘 왼쪽 여백에 아이콘 너비의 절반을 뺀 것입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 상단  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 상단 </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 아이콘 위쪽 여백에서 일반적으로 아이콘 높이의 절반을 뺀 값입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 아트웍을 노브. </p> </td> 
   </tr> 
  </tbody> 

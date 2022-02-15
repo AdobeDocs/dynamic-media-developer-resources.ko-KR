@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: 비디오 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,비디오
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 76bad894-bfb8-4d79-b3ff-c2497c68e5e8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 1%
 
 ` setParams( *`params`*)`
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 이름=값 쌍을 `&`과(와) 함께 나타냅니다. 쿼리 문자열과 마찬가지로 이름 및 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. `init()`을 호출하기 전에 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 와 구분된 이름=값 쌍을 나타냅니다 `&`. 쿼리 문자열, 이름 및 값과 동일한 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. 호출하기 전에 `init()`로 지정하는 경우 이 매개 변수를 호출해야 합니다.
 
-이 메서드는 뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달되는 경우 선택 사항입니다.
+이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체.
 
-[init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)도 참조하십시오.
+참조 - [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value 매개 변수 쌍이  <span class="codeph"> &amp;</span>로 구분됩니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=값 매개 변수 쌍이 <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

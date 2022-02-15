@@ -1,11 +1,11 @@
 ---
+title: 호환성 정보
 description: 운영 체제, 브라우저 및 모바일 장치에 대한 호환성 노트입니다.
 solution: Experience Manager
-title: 호환성 정보
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
 
-* 큰 eCatalog 로 인해 iPad 2에서 브라우저가 충돌합니다.
+* 큰 eCatalyst로 인해 iPad 2에서 브라우저가 충돌합니다.
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 

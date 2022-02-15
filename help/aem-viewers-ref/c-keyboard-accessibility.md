@@ -1,13 +1,13 @@
 ---
+title: 키보드 액세스 가능성 및 탐색
 description: 기본 확대/축소, eCatalog, eCatalog 검색, 플라이아웃, 인라인 확대/축소, 혼합 미디어, 스핀, 비디오, 확대/축소, 차원(3D), 회전 메뉴, 대화형 이미지, 대화형 비디오 및 Video360 뷰어 인터페이스에 노출된 모든 기능이 키보드로 액세스할 수 있습니다.
 solution: Experience Manager
-title: 키보드 액세스 가능성 및 탐색
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 기본 확대/축소, eCatalog, eCatalog 검색, 플라이아웃, 인라인 확대/축소, 혼합 미디어, 스핀, 비디오, 확대/축소, 회전, 차원(3D), 대화형 이미지, 대화형 비디오 및 Video360 뷰어 인터페이스에 노출된 모든 기능이 키보드로 액세스할 수 있습니다.
 
-최종 사용자는 **[!UICONTROL Tab]** 및 **[!UICONTROL Shift+Tab]** 키 입력을 사용하여 뷰어 사용자 인터페이스 요소 간을 탐색할 수 있습니다. **[!UICONTROL Tab]**&#x200B;을 사용하면 입력 포커스가 탭 순서의 다음 사용자 인터페이스 요소로 이동합니다. **[!UICONTROL Shift+Tab]**&#x200B;을 사용하면 입력 포커스를 이전 사용자 인터페이스 요소로 다시 가져옵니다. 초점 순번은 화면에서 자연어 사용자 인터페이스 요소 위치를 따르며 왼쪽에서 오른쪽, 위에서 아래로 이동합니다.
+최종 사용자는 **[!UICONTROL 탭]** 및 **[!UICONTROL Shift+Tab]** 키 입력. 사용 **[!UICONTROL 탭]** 입력 포커스를 탭 순서의 다음 사용자 인터페이스 요소로 이동합니다. 사용 **[!UICONTROL Shift+Tab]** 입력 포커스를 이전 사용자 인터페이스 요소로 다시 가져옵니다. 초점 순번은 화면의 자연어 사용자 인터페이스 요소 위치를 따르며, 왼쪽에서 오른쪽, 위에서 아래로 이동합니다.
 
 운영 체제 및 웹 브라우저 설정에 따라 입력 포커스가 있는 사용자 인터페이스 요소는 시각적 포커스 표시를 받습니다. 예를 들어, 시각적 표시기는 사용자 인터페이스 요소 주위에 렌더링되는 얇은 테두리일 수 있습니다.
 
-뷰어 CSS에서 이러한 포커스 강조 표시를 비활성화하거나 사용자 지정할 수 있습니다. 이 도움말 시스템의 콘텐츠 테이블에서 특정 뷰어 이름(예: 기본 확대/축소 또는 대화형 비디오)에서 **사용자 지정 *뷰어 이름*** >**&#x200B;포커스 강조&#x200B;**를 클릭합니다.
+뷰어 CSS에서 이러한 포커스 강조 표시를 비활성화하거나 사용자 지정할 수 있습니다. 이 도움말 시스템의 목차 특정 뷰어 이름(예: 기본 확대/축소 또는 대화형 비디오)에서 **사용자 지정 *뷰어 이름*** >**&#x200B;포커스 강조 표시&#x200B;**.
 
 개별 뷰어 사용자 인터페이스 요소에서 지원하는 키 입력은 대부분의 경우 명확하고 쉽게 검색됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>확대 또는 축소 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> 또는  <span class="uicontrol"> -  </span>각각. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> 또는 <span class="uicontrol"> - </span>각각 입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>확대/축소 재설정 </p> </td> 

@@ -1,13 +1,13 @@
 ---
+title: 숨기기
 description: 겹치기 개체를 숨깁니다. 현재 선택 영역의 창 커버 프레임에 적용된 모든 오버랩 개체나 창 덮개를 숨깁니다.
 solution: Experience Manager
-title: 숨기기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 7%
 
 ---

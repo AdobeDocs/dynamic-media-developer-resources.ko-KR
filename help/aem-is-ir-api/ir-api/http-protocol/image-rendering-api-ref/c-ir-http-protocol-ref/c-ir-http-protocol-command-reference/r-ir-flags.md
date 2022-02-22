@@ -1,18 +1,18 @@
 ---
+title: 플래그
 description: 플래그를 적용합니다. 추가 렌더링 옵션을 지정합니다.
 solution: Experience Manager
-title: 플래그
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
 
-# 플래그{#flags}
+# 플래그 {#flags}
 
 플래그를 적용합니다. 추가 렌더링 옵션을 지정합니다.
 

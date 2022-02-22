@@ -1,13 +1,13 @@
 ---
+title: rs
 description: 고급 렌더링 설정. 현재 선택 항목을 렌더링할 때 적용할 고급 렌더링 설정을 지정합니다.
 solution: Experience Manager
-title: rs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-렌더링 모양을 세밀하게 조정하는 데 사용됩니다. Dynamic Media 이미지 작성 패키지의 일부 비네팅 작성 도구의 렌더링 기능을 사용하여 렌더링 설정 문자열을 만듭니다.
+렌더링 모양을 세밀하게 조정하는 데 사용됩니다. 렌더링 설정 문자열을 만들려면 [비네팅 작성 도구]의 렌더링 기능(Dynamic Media 이미지 작성 패키지의 일부)을 사용합니다.
 
 ## 속성 {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 ## 예 {#section-47e4811882574441a4d517e42a35f352}
 
-이미지 작성에서 몇 가지 실험을 거친 후 USM(언샵 마스킹)에서 주어진 응용 프로그램 및 재료에 대해 정확한 선명하게 하기 위한 양을 제공하는 것으로 결정됩니다. USM을 구성하는 렌더링 설정 문자열은 이 자료와 함께 사용하도록 `rs=` 명령에 복사됩니다.
+이미지 작성에서 몇 가지 실험을 거친 후 USM(언샵 마스킹)에서 주어진 응용 프로그램 및 재료에 대해 정확한 선명하게 하기 위한 양을 제공하는 것으로 결정됩니다. USM을 구성하는 렌더링 설정 문자열은 `rs=` 이 자료에 사용할 명령:
 
 `…&rs=U2V20W50X2&…`
 

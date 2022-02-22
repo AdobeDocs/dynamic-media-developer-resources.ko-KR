@@ -1,13 +1,13 @@
 ---
+title: 반복
 description: 텍스처 반복 모드. 반복 가능한 텍스쳐 재질에 대한 반복 모드를 지정합니다.
 solution: Experience Manager
-title: 반복
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 16%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>미러(북일치). </p> </td> 
+  <td class="stentry"> <p>미러(북 일치). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -101,7 +101,7 @@ ht-degree: 16%
  </tr> 
 </table>
 
-무작위 퀼트 모드(14... 18)는 쉽게 반복할 수 없는 영상의 텍스처를 합성하는 데 사용될 수 있다. 알고리즘에서는 원래 이미지를 기반으로 완전히 임의 또는 부분적으로 임의 텍스처가 만들어집니다.
+무작위 퀼트 모드(14... 18)는 쉽게 반복할 수 없는 영상의 텍스처를 합성하는 데 사용될 수 있다. 알고리즘은 원래 이미지를 기반으로 완전히 임의 또는 부분적으로 임의 텍스처를 생성합니다.
 
 ## 속성 {#section-262bf540930d4890b678ea00cefe1909}
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 기본값 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`를 지정하는 경우, 자재가 카탈로그 항목을 기반으로 하는 경우, 그렇지 않으면  `0` (연속 반복)
+`catalog::Repeat`, 자료가 카탈로그 항목을 기반으로 하는 경우, 그렇지 않으면 `0` (연속 반복).
 
 ## 참조 {#section-ac99113b64654d75a3a86e41db546269}
 

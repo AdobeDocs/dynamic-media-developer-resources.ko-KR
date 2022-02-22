@@ -1,13 +1,13 @@
 ---
+title: 하위
 description: 하위 선택. 선택한 객체 또는 그룹의 다른 영역에 서로 다른 재료를 적용하고 이전에 적용된 재료를 제거할 수 있습니다.
 solution: Experience Manager
-title: 하위
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '149'
 ht-degree: 6%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 현재 벽 객체에만 지원됩니다. 이전 MSS를 종료하고 지정된 하위 선택에 적용할 재료의 새 MSS를 시작합니다.
 
-벽의 다른 반쪽에도 다른 재료를 지정하지 않은 경우 상벽 또는 하부 벽에 지정된 재료가 전체 벽에 적용됩니다.
+벽의 다른 반쪽에도 다른 재료를 지정하지 않은 경우 상벽 또는 하측벽에 지정된 재료가 전체 벽에 적용됩니다.
 
 ## 속성 {#section-b202139d6d0847cc8d520a154104ab9d}
 

@@ -1,22 +1,22 @@
 ---
-description: Linux에 이미지 서비스를 설치한 후 설치를 확인합니다.
-solution: Experience Manager
 title: 설치 확인
+description: Linux®에 이미지 서비스를 설치한 후 설치를 확인합니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
 
 # 설치 확인{#verifying-the-installation}
 
-Linux에 이미지 서비스를 설치한 후 설치를 확인합니다.
+Linux®에 이미지 서비스를 설치한 후 설치를 확인합니다.
 
-이미지 서버가 Linux 데몬으로 설치됩니다.
+이미지 서버가 Linux® 데몬으로 설치됩니다.
 
 **설치를 확인하려면**
 
@@ -32,7 +32,8 @@ Linux에 이미지 서비스를 설치한 후 설치를 확인합니다.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-응답에서 Platform Server가 이미지 서버와 성공적으로 통신할 수 있음을 나타내는 &quot; `imageServer.`&quot;로 시작하는 항목이 있는지 확인합니다.
+응답에서 `imageServer`: Platform Server가 이미지 서버와 성공적으로 통신할 수 있음을 나타냅니다.
+
 >설치된 경우 설명서 및 데모 패키지의 샘플 페이지를 사용하여 추가 확인을 수행할 수 있습니다.

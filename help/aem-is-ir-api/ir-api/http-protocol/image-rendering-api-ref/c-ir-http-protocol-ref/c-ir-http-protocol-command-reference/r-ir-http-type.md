@@ -1,14 +1,14 @@
 ---
+title: 유형
 description: 재료 서피스 유형. 재료의 서피스 유형을 지정합니다.
 solution: Experience Manager
-title: 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 22%
+source-wordcount: '152'
+ht-degree: 24%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 22%
  </tr> 
 </table>
 
-`gloss=` 및 `rough=`과 함께 사용하여 반사 및 광택 효과 동작을 제어합니다. `gloss=` 및 `rough=` 이 동일한 경우에도 서로 다른 물질이 다른 효과를 냅니다.
+에 사용됨 `gloss=` 및 `rough=` 반사 및 광택 효과 동작을 제어합니다. 서로 다른 물질이 다른 효과를 낸다 하더라도 `gloss=` 및 `rough=` 똑같아요
 
 ## 속성 {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ ht-degree: 22%
 
 ## 기본값 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않으면 `type=0`. 지정하지 않거나 `type=0` 인 경우 서버는 대상 객체와 기타 재료 속성에 따라 적합한 기본값을 선택합니다.
+`catalog::Type` 자재가 카탈로그 항목을 기반으로 하는 경우 그렇지 않은 경우 `type=0`. 지정하지 않았거나 `type=0`를 선택하면 서버는 대상 객체와 기타 재료 속성에 따라 적합한 기본값을 선택합니다.
 
 ## 참조 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [거칠게=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

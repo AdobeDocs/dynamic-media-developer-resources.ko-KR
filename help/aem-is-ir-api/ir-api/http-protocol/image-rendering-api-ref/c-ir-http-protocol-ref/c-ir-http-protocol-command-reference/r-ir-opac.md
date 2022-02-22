@@ -1,13 +1,13 @@
 ---
+title: opac
 description: 불투명도. 재료 불투명도를 지정합니다.
 solution: Experience Manager
-title: opac
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 <table id="simpletable_6AB8CD75F526469FBC9FEAE049792EF2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
   <td class="stentry"> <p>재료 불투명도(퍼센트); 0...100 </p> </td> 
  </tr> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 3%
 * 윈도우 커버 프레임 객체에 적용되는 윈도우 커버 재료.
 * 텍스쳐 객체 또는 벽 객체에 적용되는 디캘입니다.
 
-상기 재료에 알파 채널이 있는 이미지가 포함되어 있는 경우, `opac=` 을 사용하여 이미지를 보다 투명하게 만들 수 있지만, 더 불투명하지는 않을 수 있습니다.
+자료에 알파 채널이 있는 이미지가 포함되어 있으면, `opac=` 이미지를 더 투명하게 만드는 데 사용할 수 있지만 더 불투명하지는 않습니다.
 
 ## 속성 {#section-352f7b82ede54159b6afb90ae4b559ec}
 

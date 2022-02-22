@@ -1,9 +1,10 @@
 ---
-description: Dynamic Media 이미지 렌더링 API 참조 도움말을 봅니다.
 title: 이미지 렌더링 API 참조
-feature: null
-role: null
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+description: Dynamic Media 이미지 렌더링 API 참조 도움말을 봅니다.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
+role: Developer,User
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 0%
@@ -11,7 +12,6 @@ ht-degree: 0%
 ---
 
 
-# 이미지 렌더링 API 참조{#image-rendering-api-reference}
+# 이미지 렌더링 API 참조 {#image-rendering-api-reference}
 
 Dynamic Media 이미지 렌더링 API 참조 도움말을 봅니다.
-

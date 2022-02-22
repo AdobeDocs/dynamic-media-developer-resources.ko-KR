@@ -1,14 +1,14 @@
 ---
+title: 선명
 description: 회신 이미지를 선명하게 합니다. 렌더링된 이미지가 wid= 또는 hei=를 기준으로 크기가 조정된 후에 선택적 선명하게 하기를 적용할 수 있습니다.
 solution: Experience Manager
-title: 선명
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '51'
+ht-degree: 11%
 
 ---
 
@@ -35,4 +35,4 @@ ht-degree: 10%
 
 ## 참조 {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::선명하게](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[속성::선명 효과](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

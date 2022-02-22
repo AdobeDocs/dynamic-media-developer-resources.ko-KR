@@ -1,14 +1,14 @@
 ---
+title: 실음
 description: 조명 맵 선택기입니다. 이 자료를 렌더링할 때 사용하는 조명 맵을 지정합니다.
 solution: Experience Manager
-title: 실음
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 지정한 조명 맵을 대상 비네트에서 사용할 수 없는 경우 사용 가능한 가장 가까운 맵을 대신 사용합니다.
 
-`illum=-1` 값을 기반으로 조명 맵을 자동으로 선택하도록  `gloss=` 지정합니다.
+`illum=-1` 조명 맵이 `gloss=` 값.
 
 ## 속성 {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

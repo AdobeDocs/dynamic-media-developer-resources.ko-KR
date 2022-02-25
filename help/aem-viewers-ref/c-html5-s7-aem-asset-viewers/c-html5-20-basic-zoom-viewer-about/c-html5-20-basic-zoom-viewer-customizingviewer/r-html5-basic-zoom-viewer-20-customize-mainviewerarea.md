@@ -1,13 +1,13 @@
 ---
+title: 기본 뷰어 영역
 description: 기본 보기 영역은 확대/축소 이미지가 차지하는 영역입니다. 일반적으로 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 solution: Experience Manager
-title: 기본 뷰어 영역
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ ht-degree: 2%
    <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 백그라운드로 뷰어를 설정하고 크기를 512 x 288픽셀로 만들려면`#FFFFFF`
+예 - 백그라운드로 뷰어를 설정하려면( `#FFFFFF`)을 클릭하여 크기를 512 x 288픽셀로 만듭니다.
 
 ```
 .s7basiczoomviewer{ 

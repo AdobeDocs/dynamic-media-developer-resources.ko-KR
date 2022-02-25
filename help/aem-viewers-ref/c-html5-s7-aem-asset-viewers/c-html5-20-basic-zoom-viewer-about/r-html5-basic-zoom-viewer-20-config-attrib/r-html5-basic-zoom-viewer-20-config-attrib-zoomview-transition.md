@@ -1,27 +1,27 @@
 ---
+title: ZoomView.transition
 description: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,확대/축소
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 3%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`시간 제한`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`시간`*[, *`완화`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 시간</span> </span> </p> </td> 
    <td colname="col2"> <p> 단일 확대/축소 단계 작업에 대한 애니메이션이 수행하는 시간(초)을 지정합니다. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 완화</span> </span> </p> </td> 
    <td colname="col2"> <p> 전환이 보다 자연스러운 것처럼 보이게 하는 가속 또는 감속이라는 환상을 만듭니다. 완화를다음 중 하나로 설정할 수 있습니다. </p> <p> 

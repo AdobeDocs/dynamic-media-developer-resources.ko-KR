@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 맞춤화하십시오. 인터랙티브 이미지와 비디오, 캐러셀, 스핀 세트 등을 포함합니다.
-source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,9 @@ ht-degree: 6%
 + [시스템 요구 사항](c-system-requirements-and-prerequisites.md)
 + [동일한 서버에 여러 뷰어 설치](t-installing-the-viewers.md)
 + 뷰어 릴리스 노트 {#viewers-release-notes}
-   + [뷰어 릴리스 노트(5.16.1)](c-release-notes/c-rn-04-06-21.md)
+   + [뷰어 릴리스 노트(5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + 보관 {#archive}
+      + [뷰어 릴리스 노트(5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [뷰어 릴리스 노트(5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [뷰어 릴리스 노트(5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [뷰어 릴리스 노트(5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)

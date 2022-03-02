@@ -1,11 +1,11 @@
 ---
+title: 정보 패널 팝업
 description: 사용자가 Dynamic Media Classic에 정의된 rollover_key 속성이 있는 이미지 맵을 활성화하고 정보 패널 기능이 뷰어에 대해 올바르게 구성된 경우 뷰어 영역 중간에 정보 패널 팝업이 표시됩니다.
 solution: Experience Manager
-title: 정보 패널 팝업
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c29f085e-8093-44d2-8f98-9341d780cca8
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 3%

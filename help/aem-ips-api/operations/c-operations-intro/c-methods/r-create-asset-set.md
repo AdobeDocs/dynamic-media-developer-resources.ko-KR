@@ -2,12 +2,12 @@
 description: 이미지 서버에 게시할 원시 세트 정의 문자열로 일반 자산 세트를 만듭니다.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '302'
 ht-degree: 6%
 
 ---
@@ -42,38 +42,38 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 세트가 포함될 회사의 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 새 자산 세트를 만들 폴더의 핸들입니다. </td> 
+   <td colname="col4"> 새 자산 세트가 생성된 폴더의 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 이름. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 세트 유형에 대해 클라이언트가 생성한 고유 식별자입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 설정 정의 문자열의 매개 변수. <p>대상 뷰어에서 지정한 형식으로 확인해야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 새 이미지 세트의 축소판 역할을 하는 자산의 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용합니다. </td> 
   </tr> 
@@ -82,11 +82,11 @@ ht-degree: 6%
 
 **setDefinition에 대한 대체 함수**
 
-카탈로그 조회 또는 게시 중에 해결된 대체 함수를 라인에서 지정할 수 있습니다. 대체 문자열은 `${<substitution_func>}` 형식을 갖습니다. 사용 가능한 함수는 아래에 열거되어 있습니다.
+카탈로그 조회 또는 게시 중에 해결된 대체 함수를 라인에서 지정할 수 있습니다. 대체 문자열의 형식은 다음과 같습니다 `${<substitution_func>}`. 사용 가능한 함수는 아래에 열거되어 있습니다.
 
 >[!NOTE]
 >
->매개 변수 목록의 핸들 리터럴은 대괄호 `([])`로 둘러싸야 합니다. 대체 문자열 외부에 있는 모든 텍스트는 해상도 중에 출력 문자열에 축어로 복사됩니다.
+>매개 변수 목록의 핸들 리터럴은 대괄호로 둘러싸야 합니다 `([])`. 대체 문자열 외부에 있는 모든 텍스트는 해상도 중에 출력 문자열에 축어로 복사됩니다.
 
 | **대체 함수** | **반환** |
 |---|---|

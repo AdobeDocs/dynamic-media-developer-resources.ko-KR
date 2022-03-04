@@ -1,18 +1,18 @@
 ---
+title: 명령 매크로
 description: 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다.
 solution: Experience Manager
-title: 명령 매크로 *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
 
-# 명령 매크로 *{#command-macros}
+# 명령 매크로{#command-macros}
 
 명령 매크로는 명령 집합에 대해 명명된 단축키를 제공합니다.
 
@@ -24,9 +24,9 @@ ht-degree: 1%
 
 *[!DNL name]* 는 대/소문자를 구분하지 않으며 ASCII 문자, 숫자 , &#39;-&#39;, &#39;_&#39; 및 &#39;&#39;의 조합으로 구성될 수 있습니다. 문자.
 
-&#39;?&#39; 뒤의 요청이나 `vignette::Modifier` 필드 내의 아무 곳이나 매크로를 호출합니다. 매크로는 하나 이상의 완전한 이미지 렌더링 명령만 나타낼 수 있으며 &#39;&amp;&#39; 구분 기호를 사용하는 다른 명령과는 분리되어야 합니다.
+&#39;?&#39; 뒤에 있는 요청이나 `vignette::Modifier` 필드. 매크로는 하나 이상의 이미지 렌더링 명령만 나타낼 수 있으며 &#39;&amp;&#39; 구분 기호를 사용하는 다른 명령과는 분리되어야 합니다.
 
-구문 분석 중에는 매크로 함수가 먼저 대체 문자열로 대체됩니다. 매크로 내의 명령은 요청에서 매크로 호출 전에 발생할 경우 요청에서 동일한 명령을 재정의합니다. 이는 `vignette::Modifier`과 다릅니다. 여기서 요청 문자열의 명령은 요청의 위치와 관계없이 항상 `vignette::Modifier` 문자열의 명령을 재정의합니다.
+구문 분석 중에는 매크로 함수가 먼저 대체 문자열로 대체됩니다. 매크로 내의 명령은 요청에서 매크로 호출 전에 발생할 경우 요청에서 동일한 명령을 재정의합니다. 이 워크플로우는 다음과 다릅니다 `vignette::Modifier`인 경우 요청 문자열의 명령은 `vignette::Modifier` 문자열의 해당 위치에 관계없이 매개 변수를 정의할 수 있습니다.
 
 명령 매크로에는 인수 값을 사용할 수 없지만 사용자 지정 변수를 사용하여 요청에서 매크로로 값을 전달할 수 있습니다.
 
@@ -46,10 +46,10 @@ ht-degree: 1%
 
 `http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$ http://server/ir/render/cat/vig0?$mat=matc&$render$&qlt=95`
 
-`qlt=`은 세 번째 요청에 대해 다르므로 매크로가 호출된 후 값을 재정의하면 됩니다(`qlt=`*before* `$render$`은 아무런 영향을 주지 않음).
+왜냐면 `qlt=` 이 세 번째 요청과는 다르며, 매크로가 호출된 후 소프트웨어가 값을 재정의합니다( 지정 `qlt=` *이전* `$render$`은 비효율적입니다).
 
 **참조**
 
-`catalog::MacroFile`,  `catalog::Modifier`, 매크로 정의 참조
+`catalog::MacroFile`, `catalog::Modifier`, 매크로 정의 참조
 
 <!--<a id="section_297B7FCB285F4891AA76DF8393089931"></a>-->

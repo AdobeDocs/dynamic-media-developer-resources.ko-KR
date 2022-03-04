@@ -5,9 +5,9 @@ title: 모니터링 및 경고 시스템
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - 경고 시스템 활성화 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-&#39;true&#39;로 설정하고 이메일 알림 설정을 구성하여 이메일 알림을 활성화합니다. `false`으로 설정하면 모든 이메일 경고가 해제됩니다. 이 기능은 유지 관리를 위해 서버를 오프라인으로 전환할 때 유용합니다. 부울.
+&#39;true&#39;로 설정하고 이메일 알림 설정을 구성하여 이메일 알림을 활성화합니다. 설정 대상 `false` 모든 이메일 경고 해제 - 유지 관리를 위해 서버를 오프라인으로 전환할 때 유용합니다. 부울.
 
 ## AS::mailSender.host - SMTP 호스트 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP 전자 메일 서버의 수신 포트입니다.
 
 ## AS::monitorAlertGenerator.messageFrom - 메시지 보낸 사람 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-**[!UICONTROL 보낸 사람]** 이메일 필드에서 사용해야 하는 이메일 주소입니다.
+에서 사용해야 하는 이메일 주소입니다 **[!UICONTROL From]** 이메일 필드.
 
 ## AS::monitorAlertGenerator.alertInterval - 모니터링 간격 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -42,7 +42,7 @@ SMTP 전자 메일 서버의 수신 포트입니다.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Heap Space 경고 간격 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-다른 메시지보다 먼저 힙스페이스 경보가 발생한 후 최소 시간입니다. 간격 시간(밀리초)입니다. 정수 값, 0 이상.
+다른 힙이 전송되기 전에 힙스페이스 경고가 발생한 최소 시간입니다. 간격 시간(밀리초)입니다. 정수 값, 0 이상.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - 경고 사용 최소 트래픽 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

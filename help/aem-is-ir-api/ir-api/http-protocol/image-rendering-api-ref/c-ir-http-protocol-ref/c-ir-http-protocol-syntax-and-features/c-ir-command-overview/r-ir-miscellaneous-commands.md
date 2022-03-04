@@ -1,13 +1,13 @@
 ---
+title: 기타 명령
 description: 이러한 명령도 사용할 수 있습니다.
 solution: Experience Manager
-title: 기타 명령
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---

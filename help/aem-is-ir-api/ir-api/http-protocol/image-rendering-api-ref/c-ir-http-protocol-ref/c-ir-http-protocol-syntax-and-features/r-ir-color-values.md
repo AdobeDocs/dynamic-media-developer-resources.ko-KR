@@ -1,20 +1,20 @@
 ---
-description: color= 및 bgc= 속성의 색상 값은 HTML과 유사하게 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
-solution: Experience Manager
 title: 색상 값
+description: color= 및 bgc= 속성의 색상 값은 HTML과 유사한 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 12%
+source-wordcount: '115'
+ht-degree: 13%
 
 ---
 
 # 색상 값{#color-values}
 
-color= 및 bgc= 속성의 색상 값은 HTML과 유사하게 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+색상 값 `color=` 및 `bgc=` 속성은 HTML과 마찬가지로 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ color= 및 bgc= 속성의 색상 값은 HTML과 유사하게 십진수, 쉼표�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>6자리 16진수 RGB 색상 값(RRGBB)이 입력되었습니다. </p></td> 
+  <td class="stentry"> <p>6자리 16진수 RGB 색상 값(RRGBB)이 압축되었습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
@@ -60,4 +60,4 @@ color= 및 bgc= 속성의 색상 값은 HTML과 유사하게 십진수, 쉼표�
 
 ## 참조 {#section-207d5cb918a94736a27445faa58917d3}
 
-[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa),  [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0),  [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)
+[color=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa), [bgc=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-bgc.md#reference-3f5c78cea01c4a85aa582076d23aebb0), [grout=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-grout.md#reference-73651cbbbc344adba2626ef950d3672a)

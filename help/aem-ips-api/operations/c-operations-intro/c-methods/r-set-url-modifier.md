@@ -5,9 +5,9 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '175'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 지정된 자산에 대한 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 설정합니다. 이러한 명령은 자산의 표현을 삭제하지 않고 수정합니다.
 
-이미지 제공의 경우, `urlModifier` 매개 변수의 명령은 수정자 카탈로그 필드에 게시되고 요청 URL에 지정된 명령 전에 적용됩니다. `urlPostApplyModifier`의 명령은 `PostModifier` 카탈로그 필드에 게시되며 요청 URL이나 `urlModifier`에 있는 모든 명령을 무시합니다. 이미지 렌더링의 경우 `urlModifier` 및 `urlPostApplyModifier`의 명령이 연결 및 수정자 카탈로그 필드에 게시됩니다.
+이미지 제공 작업의 경우 `urlModifier` 매개 변수는 수정자 카탈로그 필드에 게시되고 요청 URL에 지정된 모든 명령 앞에 적용됩니다. 의 명령 `urlPostApplyModifier` 에 게시됨 `PostModifier` 카탈로그 필드를 작성하고 요청 URL이나 `urlModifier`. 이미지 렌더링의 경우 `urlModifier` 및 `urlPostApplyModifier` 수정자 카탈로그 필드에 연결 및 게시됩니다.
 
 ## 인증된 사용자 유형 {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -35,8 +35,8 @@ ht-degree: 7%
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
 | `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| `*`urlModifier`*` | `xsd:string` | 아니요 | 요청 또는 `urlPostApplyModifier` 명령 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령입니다. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | `urlModifier` 및 요청 명령 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령입니다. |
+| `*`urlModifier`*` | `xsd:string` | 아니요 | 요청이나 요청 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlPostApplyModifier` 명령. |
+| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlModifier` 및 요청 명령 |
 
 **출력(setUrlModifierReturn)**
 

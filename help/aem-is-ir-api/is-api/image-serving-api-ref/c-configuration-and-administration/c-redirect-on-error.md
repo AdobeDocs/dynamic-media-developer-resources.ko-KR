@@ -5,9 +5,9 @@ title: 오류 시 리디렉션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ IS 서버는 성공적으로 열거나 읽을 수 없는 소스 이미지가 포
 
 다른 경우에는 오류 리디렉션이 발생하지 않습니다.
 
-활성화되고 요청을 처리하는 동안 이러한 오류가 발생하면 주 서버가 처리를 위해 보조 서버에 요청을 전송합니다. 성공 또는 실패 여부에 관계없이 응답이 클라이언트에 직접 전달됩니다. 주 서버는 캐시가 `REMOTE`을 사용하는 전달된 요청의 로그 항목을 표시합니다. 응답 데이터가 주 서버에 의해 로컬로 캐시되지 않습니다.
+활성화되고 요청을 처리하는 동안 이러한 오류가 발생하면 주 서버가 처리를 위해 보조 서버에 요청을 전송합니다. 성공 또는 실패 여부에 관계없이 응답이 클라이언트에 직접 전달됩니다. 주 서버는 캐시 사용을 사용하여 전달된 요청의 로그 항목을 표시합니다 `REMOTE`. 응답 데이터가 주 서버에 의해 로컬로 캐시되지 않습니다.
 
-오류 리디렉션은 보조 서버의 HTTP 도메인 이름 및 포트 번호로 `PS::errorRedirect.rootUrl` 을 설정하여 사용할 수 있습니다. 또한 연결 시간 초과는 `PS::errorRedirect.connectTimeout` 로 구성되며, 클라이언트에 오류를 반환하기 전에 주 서버가 보조 서버의 응답을 기다리는 최대 시간은 `PS::errorRedirect.socketTimeout` 로 구성됩니다.
+오류 리디렉션은 `PS::errorRedirect.rootUrl` 을 눌러 보조 서버의 HTTP 도메인 이름 및 포트 번호를 지정합니다. 또한 연결 시간 초과는 `PS::errorRedirect.connectTimeout` 그리고 주 서버가 보조 서버의 응답을 기다리는 최대 시간 동안 오류가 클라이언트에 반환될 때까지 `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

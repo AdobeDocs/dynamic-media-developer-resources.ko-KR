@@ -5,9 +5,9 @@ title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 회사 작업 로그의 세부 정보를 가져옵니다.
 
-`logMessage` 응답 필드는 `authHeader` `locale` 필드를 기반으로 현지화됩니다.
+다음 `logMessage` 응답 필드는 다음을 기반으로 현지화됩니다 `authHeader` `locale` 필드.
 
 ## 인증된 사용자 유형 {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -71,13 +71,13 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">반환할 <span class="codeph"> detailArray</span> 항목의 최대 수입니다. 최대값과 기본값은 1000입니다. </td> 
+   <td colname="col4">최대 개수 <span class="codeph"> detailArray</span> 반환할 항목. 최대값과 기본값은 1000입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">반환할 <span class="codeph"> recordsPerPage</span>-results의 페이지 번호입니다. 기본값은 1입니다. </td> 
+   <td colname="col4">페이지 번호 <span class="codeph"> recordsPerPage</span>-results to return. 기본값은 1입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

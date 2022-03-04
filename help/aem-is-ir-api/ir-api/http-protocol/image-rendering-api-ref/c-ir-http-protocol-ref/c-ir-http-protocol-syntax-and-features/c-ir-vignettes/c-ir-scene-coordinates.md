@@ -1,20 +1,20 @@
 ---
-description: 장면 좌표 공간은 텍스처링 가능 객체 서피스의 크기와 거리를 지정하는 데 사용됩니다.
-solution: Experience Manager
 title: 장면 좌표
+description: 장면 좌표 공간은 텍스처링 가능한 개체 서피스의 크기와 거리를 지정하는 데 사용됩니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: de7f088e-3825-4d2e-924e-001a44db62a0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
 # 장면 좌표{#scene-coordinates}
 
-장면 좌표 공간은 텍스처링 가능 객체 서피스의 크기와 거리를 지정하는 데 사용됩니다.
+장면 좌표 공간은 텍스처링 가능한 개체 서피스의 크기와 거리를 지정하는 데 사용됩니다.
 
 대부분의 비네팅은 실제 개체를 나타내는 실제 장면이므로 대부분의 비네팅은 장면 좌표 공간의 단위로 인치를 사용하여 작성됩니다. mm 또는 cm 등의 기타 유닛도 사용할 수 있습니다. 이미지 렌더링은 단위 변환을 지원하지 않습니다.
 

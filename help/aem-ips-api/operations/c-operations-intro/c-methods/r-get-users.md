@@ -5,9 +5,9 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 | `*`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사별로 결과를 필터링합니다. |
 | `*`groupHandleArray`*` | `types:HandleArray` | 아니요 | 그룹별로 결과를 필터링합니다. |
 | `*`userRoleArray`*` | `types:StringArray` | 아니요 | 사용자 역할별로 결과를 필터링합니다. |
-| `*`charFilterField`*` | `xsd:string` | 아니요 | 필드의 문자열 접두사별로 결과를 필터링합니다( [!DNL Trash State).] 참조) |
+| `*`charFilterField`*` | `xsd:string` | 아니요 | 필드의 문자열 접두사별로 결과를 필터링합니다(참조: [!DNL Trash State).] |
 | `*`charFilter`*` | `xsd:string` | 아니요 | 특정 문자별로 결과를 필터링합니다. |
 | `*`sortBy`*` | `xsd:string` | 아니요 | 사용자 정렬 필드 선택. |
 | `*`recordsPerPage`*` | `xsd:int` | 아니요 | 페이지당 지정된 레코드 수를 반환합니다. |

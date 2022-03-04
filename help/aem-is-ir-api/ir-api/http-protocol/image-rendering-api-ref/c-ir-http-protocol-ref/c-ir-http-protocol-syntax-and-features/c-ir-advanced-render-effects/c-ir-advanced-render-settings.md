@@ -1,13 +1,13 @@
 ---
+title: 고급 렌더링 설정
 description: 비네팅 작성 도구(Dynamic Media 이미지 작성 패키지의 일부)에서는 비네팅 렌더링 엔진의 낮은 수준을 제어하는 메커니즘을 제공합니다.
 solution: Experience Manager
-title: 고급 렌더링 설정
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 25%
 >
 >렌더링 설정은 이미지 렌더링 및 이미지 작성의 고급 기능입니다. Render Settings(렌더링 설정)를 사용하는 경우 Adobe 기술 지원 또는 Adobe 컨설팅 담당자에게 교육, 컨설팅 또는 두 가지 모두를 문의하십시오.
 
-이러한 설정은 이미지 작성에서 대화식으로 제어됩니다. `rs=` 명령을 사용하거나 `catalog::RenderSettings` 값을 사용하여 이미지 렌더링에서 동일한 설정을 적용할 수 있습니다. 이 메커니즘은 각 재료에 대해 서로 다른 선명도 옵션을 선택하고 밝은 영역의 채도 또는 어두운 영역의 대비를 변경하는 것과 같은 조명 렌더링 알고리즘의 동작을 수정하는 데 사용됩니다.
+이러한 설정은 이미지 작성에서 대화식으로 제어됩니다. 를 사용하여 이미지 렌더링에서 동일한 설정을 적용할 수 있습니다 `rs=` 명령(또는 `catalog::RenderSettings` 값)만 로드하는 것입니다. 이 메커니즘은 각 재료에 대해 서로 다른 선명도 옵션을 선택하고 밝은 영역의 채도 또는 어두운 영역의 대비를 변경하는 것과 같은 조명 렌더링 알고리즘의 동작을 수정하는 데 사용됩니다.
 
 ## 고급 렌더링 설정(rs=) 값 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

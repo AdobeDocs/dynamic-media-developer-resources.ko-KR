@@ -2,13 +2,13 @@
 description: 관리자가 컨텐츠 관리 시스템이나 템플릿 작업에 맞게 조정할 새 메타데이터 필드를 만들 수 있습니다. 생성된 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 7%
+source-wordcount: '281'
+ht-degree: 8%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>만들 메타데이터 필드의 기본값(예: <span class="codeph"> Scene 7</span>). </p> <p>기본값은 태그 필드 유형에 대해 지원되지 않으므로 생략해야 합니다. 태그 필드 유형에 대해 비어 있지 않은 기본값을 지정하면 오류가 반환됩니다. </p> </td> 
+   <td colname="col4"> <p>만들 메타데이터 필드의 기본값(예: <span class="codeph"> Scene 7</span>). </p> <p>기본값은 태그 필드 유형에 대해 지원되지 않으므로 생략해야 합니다. 태그 필드 유형에 대해 비어 있지 않은 기본값이 지정된 경우 오류가 반환됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -76,7 +76,7 @@ ht-degree: 7%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 로 설정된 경우 오류가 발생합니다 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 ## 예제 {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-이 코드 샘플은 `createMetadataField`이라는 문자열 유형 메타데이터 필드를 만듭니다. 응답에서 새 메타데이터 필드에 핸들을 반환합니다.
+이 코드 샘플은 `createMetadataField`. 응답에서 새 메타데이터 필드에 핸들을 반환합니다.
 
 **요청**
 

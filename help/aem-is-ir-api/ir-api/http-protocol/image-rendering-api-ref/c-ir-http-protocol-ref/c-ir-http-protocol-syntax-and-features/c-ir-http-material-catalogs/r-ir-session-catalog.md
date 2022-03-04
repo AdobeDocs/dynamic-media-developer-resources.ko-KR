@@ -1,20 +1,20 @@
 ---
-description: 세션 카탈로그는 요청에 대한 세션 속성을 제공하는 자료 카탈로그와 모든 src=, vignette= 및 icc= 명령에 대한 기본 catId 값을 제공합니다.
-solution: Experience Manager
 title: 세션 카탈로그
+description: 세션 카탈로그는 요청에 대한 세션 속성을 제공하는 자료 카탈로그이며 모든 src=, vignette= 및 icc= 명령에 대한 기본 catId 값입니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 36e0571e-7451-423f-a1df-540680381902
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
 # 세션 카탈로그{#session-catalog}
 
-세션 카탈로그는 요청에 대한 세션 속성을 제공하는 자료 카탈로그와 모든 src=, vignette= 및 icc= 명령에 대한 기본 catId 값을 제공합니다.
+세션 카탈로그는 요청에 대한 세션 속성을 제공하는 자료 카탈로그이며 모든 항목에 대한 기본 catId 값입니다 `src=`, `vignette=`, 및 `icc=` 명령.
 
 세션 카탈로그는 HTTP 요청 경로의 첫 번째 경로 요소(서버 이름 바로 뒤)로 지정됩니다. 첫 번째 경로 요소가 카탈로그의 RootId 속성과 일치하지 않으면 기본 카탈로그가 세션 카탈로그로 사용됩니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootUrl</span> </p> </td> 
-   <td> <p> <span class="codeph"> src=</span> 명령의 상대 HTTP 파일 경로에 대한 루트 URL </p> </td> 
+   <td> <p> 의 상대 HTTP 파일 경로에 대한 루트 URL <span class="codeph"> src=</span> 명령 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 특성::ShowOverlapObjects</span> </p> </td> 
@@ -58,15 +58,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
-   <td> <p> <span class="codeph"> with=</span> 및 <span class="codeph"> hei=</span>의 기본값 </p> </td> 
+   <td> <p> 에 대한 기본값 <span class="codeph"> wid=</span> 및 <span class="codeph"> hei=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 특성::형식</span> </p> </td> 
-   <td> <p> <span class="codeph"> fmt=</span>에 대한 기본값 </p> </td> 
+   <td> <p> 기본값은 입니다. <span class="codeph"> fmt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 특성::JpegQuality</span> </p> </td> 
-   <td> <p> <span class="codeph"> qlt=</span>에 대한 기본값 </p> </td> 
+   <td> <p> 기본값은 입니다. <span class="codeph"> qlt=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 속성::TiffEncoding</span> </p> </td> 
@@ -74,15 +74,15 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> 속성::선명 효과</span> </p> </td> 
-   <td> <p> <span class="codeph"> 선명하게=</span>에 대한 기본값 </p> </td> 
+   <td> <p> 기본값은 입니다. <span class="codeph"> 선명하게 하기=</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailSel</span> </p> </td> 
-   <td> <p> <span class="codeph"> sel=</span> 명령이 실패할 때 동작을 지정합니다 </p> </td> 
+   <td> <p> 다음 경우에 동작 지정 <span class="codeph"> sel=</span> 명령 실패 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::OnFailObj</span> </p> </td> 
-   <td> <p> <span class="codeph"> obj=</span> 명령이 실패할 때 동작을 지정합니다 </p> </td> 
+   <td> <p> 다음 경우에 동작 지정 <span class="codeph"> obj=</span> 명령 실패 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
-description: 자산에 대한 핸들 및 이동할 핸들입니다.
+description: 자산에 대한 핸들 및 자산이 이동하는 핸들.
 solution: Experience Manager
 title: AssetMove
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dfddb436-0d58-41d2-8b5e-556517ba0c32
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '50'
+ht-degree: 10%
 
 ---
 
 # AssetMove{#assetmove}
 
-자산에 대한 핸들 및 이동할 핸들입니다.
+자산에 대한 핸들 및 자산이 이동하는 핸들.
 
 구문
 

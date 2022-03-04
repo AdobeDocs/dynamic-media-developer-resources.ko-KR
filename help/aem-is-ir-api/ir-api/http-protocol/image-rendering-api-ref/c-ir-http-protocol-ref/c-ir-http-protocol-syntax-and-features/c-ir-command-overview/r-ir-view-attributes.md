@@ -1,13 +1,13 @@
 ---
+title: 속성 보기
 description: 이러한 명령은 위치에 관계없이 요청에서 임의의 위치에서 발생할 수 있습니다.
 solution: Experience Manager
-title: 속성 보기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 18e1ee40-fe34-435a-be97-849b08618d48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 1%
 
 ---

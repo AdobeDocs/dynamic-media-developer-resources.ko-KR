@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 타사 분석 시스템과 통합하려면 다음 내용을 경청해야 합니다 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
 	"containerId":"s7viewer",
 "params":{

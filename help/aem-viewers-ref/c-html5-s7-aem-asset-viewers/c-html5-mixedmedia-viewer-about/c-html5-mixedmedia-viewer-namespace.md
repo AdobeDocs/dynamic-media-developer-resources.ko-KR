@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 570f8eee-a7dd-40aa-b732-03f97d2544c0
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 예를 들어, `StatusEvent.NOTF_VIEW_READY` 이벤트 및 뷰어가 Experience Manager에서 제공되는 경우, 정규화된 이벤트 유형은 다음과 같습니다. `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`및 이벤트 리스너 코드는 다음과 유사합니다.
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var zoomView = <instance>.getComponent("zoomView"); 

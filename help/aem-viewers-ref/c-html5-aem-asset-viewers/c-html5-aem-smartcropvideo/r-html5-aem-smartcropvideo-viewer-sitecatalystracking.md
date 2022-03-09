@@ -4,7 +4,8 @@ description: 스마트 자르기 비디오 뷰어는 Adobe Analytics 추적을 �
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -27,7 +28,7 @@ ht-degree: 3%
 
 타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

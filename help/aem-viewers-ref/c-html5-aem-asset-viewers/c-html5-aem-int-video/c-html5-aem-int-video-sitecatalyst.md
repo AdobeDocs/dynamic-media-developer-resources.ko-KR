@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 추적 지원
-description: HTML5 Video360 뷰어는 Adobe Analytics 추적을 즉시 지원합니다.
+description: HTML 5 Video360 뷰어는 Adobe Analytics 추적을 즉시 지원합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-HTML5 Video360 뷰어는 Adobe Analytics 추적을 즉시 지원합니다.
+HTML 5 Video360 뷰어는 Adobe Analytics 추적을 즉시 지원합니다.
 
-추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수로 전달합니다.
+추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수.
 
 기본적으로 뷰어는 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -63,7 +63,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산을 교환하는 경우. </p> </td> 
+   <td colname="col2"> <p>뷰어에서 자산을 교체할 때 <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 

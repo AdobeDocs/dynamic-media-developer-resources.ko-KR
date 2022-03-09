@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -26,7 +26,7 @@ eCatalog 뷰어가 지원합니다. [!DNL Adobe Analytics] 즉시 사용 가능�
 
 타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

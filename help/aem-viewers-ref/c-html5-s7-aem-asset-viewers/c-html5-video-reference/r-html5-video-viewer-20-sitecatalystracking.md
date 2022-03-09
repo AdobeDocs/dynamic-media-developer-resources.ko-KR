@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

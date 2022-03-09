@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -65,7 +65,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산을 교환하는 경우. </p> </td> 
+   <td colname="col2"> <p>뷰어에서 자산을 교체할 때 <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
@@ -84,7 +84,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
    <td colname="col2"> <p>재생이 다음 이정표 중 하나에 도달하는 경우: 0%, 25%, 50%, 75% 또는 100% </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
    <td colname="col2"> <p>사용자가 대화형 견본을 클릭할 때마다 </p> </td> 
   </tr> 
  </tbody> 

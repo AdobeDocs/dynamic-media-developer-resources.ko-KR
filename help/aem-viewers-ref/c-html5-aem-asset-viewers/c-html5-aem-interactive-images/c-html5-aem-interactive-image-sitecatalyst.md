@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 2%
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 기본적으로 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
  "containerId":"s7viewer", 
  "params":{ 

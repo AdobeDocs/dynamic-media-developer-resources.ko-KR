@@ -6,7 +6,7 @@ title: eCatalog 검색
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -108,7 +108,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -145,7 +145,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
 상대 경로는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    다음은 정의된 자리 표시자 DIV 요소의 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    을(를) 설정할 수 있습니다 `stagesize` 수정자는 Dynamic Media Classic의 뷰어 사전 설정 레코드에 있거나, `params` 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로서 사용할 수 있습니다.
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -189,13 +189,13 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    위의 단계를 완료하면 의 인스턴스를 만듭니다 `s7viewers.eCatalogSearchViewer` 클래스, 모든 구성 정보를 생성자에 전달하고 호출 `init()` 뷰어 인스턴스의 메서드입니다. 구성 정보는 JSON 개체로 생성자에게 전달됩니다. 최소한 이 개체에는 `containerId` 뷰어 컨테이너 ID와 중첩된 이름이 들어 있는 필드 `params` 뷰어에서 지원하는 구성 매개 변수가 있는 JSON 개체. 이 경우 `params` 개체에는 적어도 다음 방법으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성 및 초기 자산 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 작성을 지연합니다. 그러나 호환성을 최대화하려면 `init()` 닫기 바로 전 메서드 `BODY` 태그 또는 본문 `onload()` 이벤트.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 작성을 지연합니다. 그러나 호환성을 최대화하려면 를 `init()` 닫기 바로 전 메서드 `BODY` 태그 또는 본문 `onload()` 이벤트.
 
    동시에 컨테이너 요소가 반드시 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 `display:none` 지정된 스타일입니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이런 경우 뷰어 로드가 자동으로 다시 시작됩니다.
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예제에서는 를 가정합니다 `eCatalogSearchViewer` 는 뷰어 인스턴스입니다. `s7viewer` 은 자리 표시자의 이름입니다 `DIV`; `https://s7d1.scene7.com/is/image/` 는 이미지 제공 URL이고, `Viewers/Pluralist` 는 자산입니다.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
    다음 코드는 크기가 고정된 eCatalog Search Viewer를 포함하는 작은 웹 페이지의 전체 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -242,7 +242,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 이 예제의 경우, 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정하십시오 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 결과 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 도구를
 
 위의 모든 단계는 고정 크기 포함과 동일합니다. 컨테이너 추가 `DIV` 기존 &quot; 홀더&quot; `DIV`. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인할 수 있습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 너비와 높이가 정의된 유연한 크기 포함의 경우 웹 페이지 스타일링이 다릅니다. 즉, &quot;홀더&quot;에 두 크기를 모두 제공합니다 `DIV` 브라우저 창에 중심을 둡니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 디자인 포함과 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예는 setter 기반 API가 포함된 고정 크기를 보여줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

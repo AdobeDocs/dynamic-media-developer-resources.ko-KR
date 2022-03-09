@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 0%
@@ -98,9 +98,8 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지나 포함된
 
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-```
- <a 
-href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
+```html {.line-numbers}
+ <a href="http://s7d1.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +136,7 @@ target="_blank">Open popup viewer</a>
 
 상대 경로는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/ZoomViewer.js"></script>
 ```
 
@@ -156,7 +155,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 정의된 자리 표시자 DIV 요소의 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -170,7 +169,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 HTML 페이지에서 정적 외부 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer { 
     width: 640px; 
     height: 480px; 
@@ -185,7 +184,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 내면에 대한 뷰어 크기를 정의하는 예입니다 `Container` 자산을 전환할 때 기본 보기 영역의 크기가 변경되지 않도록 SDK 구성 요소:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7zoomviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -198,7 +197,7 @@ target="_blank">Open popup viewer</a>
 
    을(를) 설정할 수 있습니다 `stagesize` Dynamic Media Classic의 뷰어 사전 설정 레코드에 있는 수정자. 또는 를 사용하여 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. `params` 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로 사용할 수 있습니다.
 
-   ```
+   ```html {.line-numbers}
     zoomViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -217,7 +216,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예는 를 가정합니다 `zoomViewer` 는 뷰어 인스턴스이고, `s7viewer` 은 자리 표시자 DIV의 이름입니다. `http://s7d1.scene7.com/is/image/` 는 이미지 제공 URL이고, `Scene7SharedAssets/ImageSet-Views-Sample` 는 자산입니다.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var zoomViewer = new s7viewers.ZoomViewer({ 
     "containerId":"s7viewer", 
@@ -231,7 +230,7 @@ target="_blank">Open popup viewer</a>
 
    다음 코드는 비디오 뷰어에 고정된 크기를 포함하는 간단한 웹 페이지의 전체 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -262,7 +261,7 @@ target="_blank">Open popup viewer</a>
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예에서는 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -286,7 +285,7 @@ target="_blank">Open popup viewer</a>
 
 위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 컨테이너에 컨테이너 DIV 추가 `"holder"` DIV. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되는지 및 뷰어 종횡비가 자산과 어떻게 일치하는지 확인합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -322,7 +321,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -348,7 +347,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 디자인 포함에 사용되는 단계와 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -390,7 +389,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예에서는 setter 기반 API와 함께 고정 크기 포함 사용을 보여 줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

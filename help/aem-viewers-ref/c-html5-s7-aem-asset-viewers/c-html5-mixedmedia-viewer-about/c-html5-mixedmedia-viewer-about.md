@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -106,7 +106,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -143,7 +143,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 상대 경로는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/MixedMediaViewer.js"></script>
 ```
 
@@ -164,7 +164,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    다음은 정의된 자리 표시자 DIV 요소의 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -178,7 +178,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    다음은 HTML 페이지에서 정적 외부 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer { 
     width: 640px; 
     height: 480px; 
@@ -193,7 +193,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    다음은 내면에 대한 뷰어 크기를 정의하는 예입니다 `Container` 자산을 전환할 때 기본 보기 영역의 크기가 변경되지 않도록 SDK 구성 요소:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
     width: 640px; 
     height: 480px; 
@@ -206,7 +206,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    을(를) 설정할 수 있습니다 `stagesize` 수정자는 Dynamic Media Classic의 뷰어 사전 설정 레코드에 있거나, `params` 컬렉션. 또는 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로서 사용할 수 있습니다.
 
-   ```
+   ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
    ```
 
@@ -222,7 +222,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예제에서는 를 가정합니다 `mixedMediaViewer` 는 뷰어 인스턴스입니다. `s7viewer` 은 자리 표시자의 이름입니다 `DIV`; [!DNL http://s7d1.scene7.com/is/image/] 는 이미지 제공 URL입니다. [!DNL http://s7d1.scene7.com/is/content/] 는 비디오 서버 URL입니다. 및 [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] 는 자산입니다.
 
-```
+```html {.line-numbers}
 <script type="text/javascript"> 
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
@@ -240,7 +240,7 @@ mixedMediaViewer.init();
 
 다음 코드는 고정된 크기의 혼합 미디어 뷰어를 포함하는 작은 웹 페이지의 전체 예입니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -272,7 +272,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예에서는 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -296,7 +296,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 컨테이너에 컨테이너 DIV 추가 `"holder"` DIV. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되는지 및 뷰어 종횡비가 자산과 어떻게 일치하는지 확인합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -361,7 +361,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 디자인 포함에 사용되는 단계와 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -404,7 +404,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예에서는 setter 기반 API와 함께 고정 크기 포함 사용을 보여 줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

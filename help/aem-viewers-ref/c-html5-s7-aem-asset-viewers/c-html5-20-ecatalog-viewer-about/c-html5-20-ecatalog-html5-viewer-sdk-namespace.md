@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: c5286e1f-1f43-4cb8-b876-dc843f8112f5
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 예를 들어, `StatusEvent.NOTF_VIEW_READY` 이벤트 및 뷰어가 Dynamic Media Classic에서 제공되는 경우, 정규화된 이벤트 유형은 다음과 같습니다. `s7classic.s7sdk.event.StatusEvent.NOTF_VIEW_READY`및 이벤트 리스너 코드는 다음과 유사합니다.
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var pageView = <instance>.getComponent("pageView"); 

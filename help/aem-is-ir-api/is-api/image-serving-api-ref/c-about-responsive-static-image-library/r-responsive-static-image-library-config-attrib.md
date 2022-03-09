@@ -5,9 +5,9 @@ title: 명령 참조 - 구성 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 선택 사항입니다.
 
-이미지 제공 기능이 제공하는 이미지의 URL. URL이 없으면 라이브러리는 `src` 속성에 설정된 값을 폴백으로 사용합니다. 이 속성은 응답형 이미지 라이브러리가 다른 위치에서 관리하는 초기 이미지 및 동적 이미지를 제공합니다.
+이미지 제공 기능이 제공하는 이미지의 URL. URL이 없으면 라이브러리는에 설정된 값을 사용합니다. `src` 속성을 폴백으로 표시합니다. 이 속성은 응답형 이미지 라이브러리가 다른 위치에서 관리하는 초기 이미지 및 동적 이미지를 제공합니다.
 
 **예**
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-`data-src` 이 설정된 경우 `src` 은 선택 사항이며 추가할 URL을 포함할 수 있습니다. 예를 들어 라이브러리에서 사용하는 것과 동일한 이미지 제공 기반 이미지에 대한 URL을 포함할 수 있습니다. 또는 GIF 자리 표시자 또는 데이터 URI를 포함하여 시작 시 추가 서버 라운드 트립을 방지할 수 있습니다.
+If `data-src` 가 설정되어 있습니다. `src` 는 선택 사항이며 추가할 URL을 포함할 수 있습니다. 예를 들어 라이브러리에서 사용하는 것과 동일한 이미지 제공 기반 이미지에 대한 URL을 포함할 수 있습니다. 또는 GIF 자리 표시자 또는 데이터 URI를 포함하여 시작 시 추가 서버 라운드 트립을 방지할 수 있습니다.
 
-`data-src`이 설정되지 않은 경우 `src`은 필수 항목이며, 이미지 제공 시 제공할 이미지의 URL을 포함해야 합니다.
+If `data-src` 설정되지 않았습니다. `src` 는 필수이며 이미지 제공 시 사용할 이미지의 URL을 포함해야 합니다.
 
 **예**
 
-`src` 속성에 대한 데이터 URI 및 `data-src` 특성에 대한 이미지 제공 URL 사용:
+에 데이터 URI 사용 `src` 의 속성 및 이미지 제공 URL `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -44,13 +44,13 @@ ht-degree: 1%
 
 ## 데이터 중단점 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
-쉼표로 구분된 중단점 목록 및 선택적으로 콜론( `:`)과 이미지 제공 명령 또는 이미지 사전 설정이 뒤따릅니다. 각 중단점은 논리 CSS 픽셀에 정의된 이미지 너비 값입니다. 라이브러리는 목록에서 가장 가까운 큰 값을 갖는 이미지를 로드하고 런타임 CSS 이미지 너비와 일치하도록 클라이언트에서 축소합니다. 고밀도 화면에서 작업하는 경우, 서버에서 로드되는 이미지 표현물은 중단점 값을 장치의 픽셀 비율로 곱합니다.
+쉼표로 구분된 중단점 목록 및 선택적으로 콜론( `:`) 및 Image Serving 명령 또는 Image Presets 를 참조하십시오. 각 중단점은 논리 CSS 픽셀에 정의된 이미지 너비 값입니다. 라이브러리는 목록에서 가장 가까운 큰 값을 갖는 이미지를 로드하고 런타임 CSS 이미지 너비와 일치하도록 클라이언트에서 축소합니다. 고밀도 화면에서 작업하는 경우, 서버에서 로드되는 이미지 표현물은 중단점 값을 장치의 픽셀 비율로 곱합니다.
 
 목록의 중단점에 대해 하나 이상의 이미지 제공 명령 또는 이미지 사전 설정 이름을 정의할 수 있습니다. 이러한 추가 매개 변수는 이 특정 중단점이 현재 활성 상태인 경우 이미지만 적용됩니다.
 
-`wid=`, `hei=` 또는 `scl=` 등의 응답 이미지 크기에 영향을 주는 보기 명령을 제외하고 지원되는 모든 이미지 제공 명령을 사용할 수 있습니다. 이미지 사전 설정에도 동일한 제한이 적용됩니다. 응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정에는 이러한 명령이 포함되어 있지 않아야 합니다.
+응답 이미지 크기에 영향을 주는 보기 명령을 제외하고 지원되는 이미지 제공 명령을 사용할 수 있습니다 `wid=`, `hei=`, 또는 `scl=`. 이미지 사전 설정에도 동일한 제한이 적용됩니다. 응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정에는 이러한 명령이 포함되어 있지 않아야 합니다.
 
-여러 이미지 제공 명령 또는 이미지 사전 설정 이름은 &quot; `&`&quot; 문자로 구분됩니다. 이미지 제공 명령에 해당 값에 쉼표가 있는 경우 이러한 쉼표는 `%2C`로 대체됩니다. 이미지 사전 설정 이름은 달러 기호( `$`)로 래핑됩니다.
+여러 이미지 제공 명령 또는 이미지 사전 설정 이름은 &quot; `&`&quot; 문자를 사용할 수 없습니다. Image Serving 명령에 해당 값에 쉼표가 있는 경우 이러한 쉼표는 `%2C`. 이미지 사전 설정 이름은 달러 기호( `$`).
 
 **예제**
 
@@ -74,23 +74,23 @@ ht-degree: 1%
 
 다음 두 가지 스마트 자르기 모드는 AEM 6.4 이상 및 Dynamic Media Viewers 5.9 이상에서 사용할 수 있습니다.
 
-* **수동**  - 사용자 정의 중단점 및 해당 이미지 서비스 명령은 이미지 요소의 속성 내에 정의됩니다.
-* **스마트 자르기**  - 계산된 스마트 자르기 렌디션은 게재 서버에서 자동으로 검색됩니다. 이미지 요소의 런타임 크기를 사용하여 최상의 렌디션을 선택합니다.
+* **수동** - 사용자 정의 중단점 및 해당 이미지 서비스 명령은 이미지 요소의 속성 내에 정의됩니다.
+* **스마트 자르기** - 계산된 스마트 자르기 렌디션은 게재 서버에서 자동으로 검색됩니다. 이미지 요소의 런타임 크기를 사용하여 최상의 렌디션을 선택합니다.
 
-스마트 자르기 모드를 사용하려면 `data-mode` 속성을 `smart crop`로 설정합니다.
+스마트 자르기 모드를 사용하려면 `data-mode` 속성 `smart crop`.
 
 **예**
 
-```
+```html {.line-numbers}
 <img 
 src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" 
 data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset" 
 data-mode="smartcrop">
 ```
 
-연결된 이미지 요소는 중단점이 변경될 때 런타임 중에 `s7responsiveViewer` 이벤트를 전달합니다.
+연결된 이미지 요소는 `s7responsiveViewer` 중단점이 변경되는 경우 런타임 중에 발생합니다.
 
-```
+```html {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 
            var s7event = event.s7responsiveViewerEvent; 
            if(s7event.type == "breakpointchanged") { 

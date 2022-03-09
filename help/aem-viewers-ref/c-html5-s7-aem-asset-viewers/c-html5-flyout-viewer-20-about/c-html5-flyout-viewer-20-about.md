@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 0%
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 상대 경로는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
    다음은 정의된 자리 표시자 DIV 요소의 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -140,7 +140,7 @@ ht-degree: 0%
 
    다음은 HTML 페이지에서 정적 외부 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
    다음은 내면에 대한 뷰어 크기를 정의하는 예입니다 `Container` 자산을 전환할 때 기본 보기 영역의 크기가 변경되지 않도록 SDK 구성 요소:
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예제에서는 를 가정합니다 `flyoutViewer` 는 뷰어 인스턴스입니다. `s7viewer` 은 자리 표시자의 이름입니다 `DIV`; `http://s7d1.scene7.com/is/image/` 는 이미지 제공 URL입니다. 및 `Scene7SharedAssets/ImageSet-Views-Sample` 는 자산입니다.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var flyoutViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
    다음 코드는 크기가 고정된 플라이아웃 뷰어를 포함하는 작은 웹 페이지의 전체 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -227,7 +227,7 @@ ht-degree: 0%
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예에서는 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -256,7 +256,7 @@ ht-degree: 0%
 * 추가됨 `imagereload` 명시적 중단점이 있는 매개 변수
 * 절대 단위를 사용하여 고정 뷰어 크기를 설정하는 대신 다음과 같이 뷰어 너비와 높이를 100%로 설정하는 CSS를 사용합니다.
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -308,7 +308,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -334,7 +334,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 디자인 포함에 사용되는 단계와 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -381,7 +381,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예에서는 setter 기반 API와 함께 고정 크기 포함 사용을 보여 줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

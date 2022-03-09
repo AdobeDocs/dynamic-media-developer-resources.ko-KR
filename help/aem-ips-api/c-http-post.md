@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 3%
@@ -94,7 +94,7 @@ https://<server>/scene7/UploadFile
 
 성공적인 POST 요청의 경우 응답 본문은 XML입니다 `uploadPostReturn` XSD가 지정하는 대로 문서에 지정된 경우
 
-```
+```xml {.line-numbers}
 <element name="uploadPostReturn"> 
         <complexType> 
             <sequence> 
@@ -110,7 +110,7 @@ POST 요청을 처리하는 동안 오류가 발생하면 응답 본문은 에 �
 
 ## POST 요청 예 {#section-810fe32abdb9426ba0fea488dffadd1e}
 
-```
+```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
 User-Agent: Jakarta Commons-HttpClient/3.1 
 Host: localhost 
@@ -180,7 +180,7 @@ Content-Transfer-Encoding: binary
 
 ## POST 응답 예 - 성공 {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
-```
+```{.line-numbers}
 HTTP/1.1 200 OK 
 Content-Type: text/xml;﻿charset=utf-8 
 Content-Length: 204 
@@ -194,7 +194,7 @@ Server: Unknown
 
 ## POST 응답 예 - 오류 {#section-efc32bb371554982858b8690b05090ec}
 
-```
+```{.line-numbers}
 HTTP/1.1 200 OK 
 Content-Type: text/xml;charset=utf-8 
 Content-Length: 210 

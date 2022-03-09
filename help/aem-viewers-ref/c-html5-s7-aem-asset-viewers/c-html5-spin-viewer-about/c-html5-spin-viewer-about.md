@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ ht-degree: 0%
 
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ target="_blank">Open popup viewer</a>
 
    상대 경로는 다음과 같습니다.
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 정의된 자리 표시자 DIV 요소의 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ target="_blank">Open popup viewer</a>
 
    을(를) 설정할 수 있습니다 `stagesize` 수정자는 Dynamic Media Classic의 뷰어 사전 설정 레코드에 있습니다. 또는 다음을 사용하여 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. `params` 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로서 사용할 수 있습니다.
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ target="_blank">Open popup viewer</a>
 
    다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예제에서는 를 가정합니다 `spinViewer` 는 뷰어 인스턴스이고, `s7viewer` 은 자리 표시자의 이름입니다 `DIV`, [!DNL http://s7d1.scene7.com/is/image/] 는 이미지 제공 URL이고, [!DNL Scene7SharedAssets/SpinSet_Sample] 는 자산입니다.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ target="_blank">Open popup viewer</a>
 
    다음 코드는 고정된 크기로 스핀 뷰어를 포함하는 간단한 웹 페이지의 전체 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ target="_blank">Open popup viewer</a>
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 이 예제의 경우, 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정하십시오 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 결과 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ target="_blank">Open popup viewer</a>
 
 위의 모든 단계는 고정 크기 포함과 동일합니다. 컨테이너 추가 `DIV` 기존 &quot; 홀더&quot; `DIV`. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인할 수 있습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 즉, &quot;홀더&quot;에 두 크기를 모두 제공합니다 `DIV` 브라우저 창에 중심을 둡니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%:
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 디자인 포함과 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예는 setter 기반 API가 포함된 고정 크기를 보여줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

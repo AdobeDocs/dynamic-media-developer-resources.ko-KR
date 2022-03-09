@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 3b28c853-3747-4805-a141-3cce1398d783
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 
 타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
-```
+```javascript {.line-numbers}
 var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

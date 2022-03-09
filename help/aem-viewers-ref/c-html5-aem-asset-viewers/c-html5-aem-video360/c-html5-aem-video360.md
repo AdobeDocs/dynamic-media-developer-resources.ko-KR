@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2569'
 ht-degree: 0%
@@ -74,7 +74,7 @@ VR HMD를 사용하려면 `Video360Player.vrrender` 수정자를 로 설정해�
 
 VR 헤드셋 및 VR HMD 마운트에서 VR 모드에서는 헤드셋 이동에 응답하여 시점 변경이 수행되며 다른 재생 컨트롤은 VR 모드로 제공되지 않습니다.
 
-VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마우스, 터치 또는 키보드를 사용하여 비디오 재생 및 POV를 제어할 수 있습니다.
+VR이 아닌 장치에서 360 비디오를 시청하는 경우 최종 사용자는 마우스, 터치 또는 키보드를 사용하여 비디오 재생 및 POV를 제어할 수 있습니다.
 
 뷰어는 터치 스크린 및 마우스를 사용하는 Windows 장치에서 터치 입력과 마우스 입력을 모두 지원하지만 Chrome, Internet Explorer 11 및 Edge 웹 브라우저만 지원합니다.
 
@@ -84,7 +84,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
 웹 페이지마다 뷰어 동작에 대한 요구 사항이 다릅니다. 경우에 따라 웹 페이지에서 링크를 제공하므로, 이 링크를 선택하면 별도의 브라우저 창에서 뷰어가 열립니다. 다른 경우에는 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우, 웹 페이지에는 정적 페이지 레이아웃이 있거나, 서로 다른 장치 또는 서로 다른 브라우저 창 크기에 대해 다르게 표시되는 응답형 디자인을 사용할 수 있습니다. 이러한 요구 사항을 수용하기 위해 뷰어는 다음 세 가지 기본 작업 모드를 지원합니다. 팝업, 고정 크기 포함 및 반응형 디자인 포함.
 
-태블릿 및 모바일 장치에서 동일한 페이지에 여러 비디오를 포함할 수 있습니다. 일반적으로 한 번에 하나의 비디오만 재생할 수 있습니다. 사용자가 한 비디오를 재생하기 시작한 다음 다른 비디오를 재생하려고 하면 첫 번째 비디오가 자동으로 일시 정지됩니다. 자동 일시 중지된 비디오는 현재 재생 시간을 기억하므로 사용자가 항상 다시 돌아가서 재생을 재개할 수 있습니다. 이 규칙은 Android™ 4.x 장치의 Chrome 브라우저에서 비디오를 동시에 재생할 수 있는 유일한 예외입니다.
+태블릿 및 모바일 장치에서 동일한 페이지에 여러 비디오를 포함할 수 있습니다. 일반적으로 한 번에 하나의 비디오만 재생할 수 있습니다. 사용자가 한 비디오를 재생하기 시작한 다음 다른 비디오를 재생하려고 하면 첫 번째 비디오가 자동으로 일시 정지됩니다. 자동 일시 중지된 비디오는 현재 재생 시간을 기억하므로 사용자가 언제든지 다시 돌아가서 재생을 재개할 수 있습니다. 이 규칙은 Android™ 4.x 장치의 Chrome 브라우저에서 비디오를 동시에 재생할 수 있는 유일한 예외입니다.
 
 **팝업 모드 기본 정보**
 
@@ -100,7 +100,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
 다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
 
@@ -137,7 +137,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
 상대 경로는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
 ```
 
@@ -158,7 +158,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
    다음은 정의된 자리 표시자의 예입니다 `DIV` 요소:
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;width:640px;height:360px;"></div>
    ```
 
@@ -172,7 +172,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
    다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예입니다.
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7video360viewer { 
     width: 640px; 
     height: 640px; 
@@ -181,7 +181,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
    을(를) 설정할 수 있습니다 `stagesize` AEM Assets - on-demand에 있는 뷰어 사전 설정 레코드의 수정자. 또는 다음을 사용하여 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. `params` 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로서 사용할 수 있습니다.
 
-   ```
+   ```html {.line-numbers}
    video360viewer.setParam("stagesize", "640,640");
    ```
 
@@ -205,7 +205,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
    * 비디오 서버 URL은 `https://s7d9.scene7.com/is/content`.
    * 자산이 `Viewers/space_station_360-AVS`.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var video360Viewer = new s7viewers.Video360Viewer({ 
     "containerId":"s7viewer", 
@@ -220,7 +220,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
    다음 코드는 고정된 크기의 Video360 Viewer를 포함하는 작은 웹 페이지의 전체 예입니다.
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -252,7 +252,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
 반응형 디자인 포함 기능을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지시하는 유연한 레이아웃이 있습니다 `DIV`. 다음 예에서는 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 사용하고 높이는 제한이 없습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -276,7 +276,7 @@ VR이 아닌 장치에서 360 비디오를 보는 경우 최종 사용자는 마
 
 위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 컨테이너에 컨테이너 DIV 추가 `"holder"` DIV. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되는지 및 뷰어 종횡비가 자산과 어떻게 일치하는지 확인합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -309,7 +309,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 
 너비와 높이가 정의된 응답형 임베드가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -335,7 +335,7 @@ height: 60%;
 
 나머지 포함 단계는 제한 높이가 없는 응답형 포함에 사용되는 단계와 동일합니다. 결과 예는 다음과 같습니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -378,7 +378,7 @@ JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생�
 
 다음 예에서는 setter 기반 API와 함께 고정 크기 포함 사용을 보여 줍니다.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

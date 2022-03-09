@@ -5,10 +5,10 @@ title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 13%
+source-wordcount: '121'
+ht-degree: 14%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 설정할 확대/축소 대상이 있는 자산 |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 설정할 확대/축소 대상이 있는 자산 |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의의 배열입니다. |
 
 **출력(setZoomTargetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | 예 | 이 작업으로 만든 확대/축소 대상에 대한 핸들 집합입니다. |
+| zoomTargetHandleArray | `types:HandleArray` | 예 | 이 작업으로 만든 확대/축소 대상에 대한 핸들 집합입니다. |
 
 ## 예제 {#section-a2f14c7a1499443e96d099ea8a76c182}
 

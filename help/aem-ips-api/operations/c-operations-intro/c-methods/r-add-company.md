@@ -5,9 +5,9 @@ title: addCompany
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 시스템에 추가할 회사의 이름을 보내고 선택적으로 회사가 만료되는지 여부를 보냅니다.
 
-이 작업이 호출되면 시스템은 회사 핸들과 설명 필드를 포함하는 `*`companyInfo`*` 유형을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이 발생합니다.
+이 작업이 호출되면 회사 핸들과 설명 필드가 포함된 companyInfo 유형이 생성됩니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`.
 
 ## 인증된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 

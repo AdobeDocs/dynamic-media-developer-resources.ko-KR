@@ -5,10 +5,10 @@ title: updateTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 12%
+source-wordcount: '157'
+ht-degree: 13%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 12%
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:TagValueUpdateArray</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4">업데이트할 태그 필드 값의 배열입니다. <p>참고:  태그 문자열 값만 업데이트합니다. 자산 연결에는 영향을 주지 않습니다. </p> </td> 
+   <td colname="col4">업데이트할 태그 필드 값의 배열입니다. <p>참고: 태그 문자열 값만 업데이트합니다. 자산 연결에는 영향을 주지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 태그 필드를 성공적으로 업데이트했습니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 태그 필드를 업데이트하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 태그 필드를 업데이트하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | 아니요 | 작업에서 태그 필드를 업데이트하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | 아니요 | 작업에서 태그 필드를 업데이트하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | `xsd:int` | 예 | 태그 필드를 성공적으로 업데이트했습니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 태그 필드를 업데이트하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 태그 필드를 업데이트하려고 할 때 생성된 오류 수입니다. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | 아니요 | 작업에서 태그 필드를 업데이트하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | 아니요 | 작업에서 태그 필드를 업데이트하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-bb4dcf97044c4675974c9b8d27674001}
 

@@ -5,9 +5,9 @@ title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '94'
 ht-degree: 12%
 
 ---
@@ -59,7 +59,7 @@ IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-이 예에서는 `*`groupHandleArray`*`가 있는 회사에 그룹을 추가합니다. 이 예제에서는 하나의 그룹만 사용합니다.
+이 예에서는 groupHandleArray를 사용하는 회사에 그룹을 추가합니다. 이 예제에서는 하나의 그룹만 사용합니다.
 
 **요청**
 

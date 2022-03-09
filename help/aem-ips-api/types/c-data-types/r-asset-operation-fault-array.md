@@ -1,14 +1,14 @@
 ---
+title: AssetOperationFaultArray
 description: 자산 작업 장애 배열입니다.
 solution: Experience Manager
-title: AssetOperationFaultArray
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 17%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:AssetOperationFault` | 자산 작업 오류 항목의 배열입니다. |
+| 항목 | `types:AssetOperationFault` | 자산 작업 오류 항목의 배열입니다. |

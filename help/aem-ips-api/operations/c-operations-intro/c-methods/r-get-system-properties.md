@@ -5,10 +5,10 @@ title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 18%
+source-wordcount: '55'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`propertyArray`*` | `types:PropertyArray` | 예 | 시스템 속성의 배열입니다. |
+| propertyArray | `types:PropertyArray` | 예 | 시스템 속성의 배열입니다. |
 
 ## 예제 {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 

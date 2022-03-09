@@ -5,10 +5,10 @@ title: getScheduledJobs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 21%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`jobHandle`*` | `xsd:string` | 아니요 | 작업 핸들. |
-| `*`originalName`*` | `xsd:string` | 아니요 | `submitJob`에 의해 지정된 이름입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| jobHandle | `xsd:string` | 아니요 | 작업 핸들. |
+| originalName | `xsd:string` | 아니요 | 지정한 이름 `submitJob`. |
 
 **출력(getScheduledJobsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobArray`*` | `types:ScheduledJobArray` | 예 | 예약된 작업의 배열입니다. |
+| jobArray | `types:ScheduledJobArray` | 예 | 예약된 작업의 배열입니다. |
 
 ## 예제 {#section-e79e7da86ba848fd9996aa36de462e6c}
 

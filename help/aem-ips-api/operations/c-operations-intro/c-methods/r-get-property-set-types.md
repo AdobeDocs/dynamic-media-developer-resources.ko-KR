@@ -5,10 +5,10 @@ title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 12%
+source-wordcount: '113'
+ht-degree: 13%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 유형의 배열이거나 회사가 지정되지 않은 경우 글로벌 속성 집합 유형입니다. |
+| typeArray | `types:PropertySetTypeArray` | 예 | 지정된 회사와 연결된 속성 집합 유형의 배열이거나 회사가 지정되지 않은 경우 글로벌 속성 집합 유형입니다. |
 
 ## 예제 {#section-280c406a90864409856aee44d4069a52}
 

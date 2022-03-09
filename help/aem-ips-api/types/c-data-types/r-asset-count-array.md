@@ -1,14 +1,14 @@
 ---
+title: AssetCountArray
 description: 자산 카운트의 배열입니다.
 solution: Experience Manager
-title: AssetCountArray
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6dca378c-d90d-4871-a5a6-77c3b0362a09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:AssetCount` | 자산 카운트의 배열입니다. |
+| 항목 | `types:AssetCount` | 자산 카운트의 배열입니다. |

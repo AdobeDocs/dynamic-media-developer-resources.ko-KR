@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | 예 | 검색할 휴지통 상태를 결정합니다. |
-| `*`inactive`*` | `xsd:boolean` | 예 | 비활성 사용자를 포함하거나 제외합니다. IPS가 아닌 관리자 사용자는 API 호출을 수행할 수 있는 권한이 있는 적어도 하나의 회사의 활성 구성원이어야 합니다. 사용자에게 활성 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
-| `*`includInvalid`*` | `xsd:boolean` | 아니요 | 잘못된 사용자를 포함하거나 제외합니다. |
-| `*`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사를 기준으로 결과를 필터링합니다. |
-| `*`groupHandleArray`*` | `types:HandleArray` | 아니요 | 필터 결과는 그룹을 기반으로 합니다. |
-| `*`userRoleArray`*` | `types:StringArray` | 아니요 | 사용자 역할에 따라 결과를 필터링합니다. |
-| `*`numChars`*` | `xsd:int` | 아니요 | 1자 이상을 사용합니다. |
+| charField | `xsd:string` | 예 | 검색할 휴지통 상태를 결정합니다. |
+| inactive | `xsd:boolean` | 예 | 비활성 사용자를 포함하거나 제외합니다. IPS가 아닌 관리자 사용자는 API 호출을 수행할 수 있는 권한이 있는 적어도 하나의 회사의 활성 구성원이어야 합니다. 사용자에게 활성 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
+| includInvalid | `xsd:boolean` | 아니요 | 잘못된 사용자를 포함하거나 제외합니다. |
+| companyHandleArray | `types:HandleArray` | 아니요 | 회사를 기준으로 결과를 필터링합니다. |
+| groupHandleArray | `types:HandleArray` | 아니요 | 필터 결과는 그룹을 기반으로 합니다. |
+| userRoleArray | `types:StringArray` | 아니요 | 사용자 역할에 따라 결과를 필터링합니다. |
+| numChars | `xsd:int` | 아니요 | 1자 이상을 사용합니다. |
 
 **출력(getUserCharsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | 예 | 문자 접두사 배열입니다. |
+| userCharsArray | `types:StringArray` | 예 | 문자 접두사 배열입니다. |
 
 ## 예제 {#section-3702f165e8b041139a6144f4a76ca25f}
 

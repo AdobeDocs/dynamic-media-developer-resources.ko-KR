@@ -5,9 +5,9 @@ title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 9%
 
 ---
@@ -38,21 +38,21 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`accessUserHandle`*` | `xsd:string` | 아니요 | 특정 사용자를 가장하기 위해 관리자만 사용합니다. |
-| `*`accessGroupHandle`*` | `xsd:string` | 아니요 | 회사가 속한 그룹을 포함하여 특정 그룹으로 필터링하는 데 사용됩니다. |
-| `*`folderPath`*` | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더입니다. 제외된 경우 회사 루트가 사용됩니다. |
-| `*`깊이`*` | `xsd:int` | 예 | 값이 0이면 최상위 폴더가 설정됩니다. 다른 값은 트리로 내려갈 깊이를 지정합니다. |
-| `*`assetTypeArray`*` | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
-| `*`responseFieldArray`*` | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
-| `*`excludeFieldArray`*` | `types:StringArray` | 아니요 | 응답에서 제외할 필드 목록을 포함합니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| accessUserHandle | `xsd:string` | 아니요 | 특정 사용자를 가장하기 위해 관리자만 사용합니다. |
+| accessGroupHandle | `xsd:string` | 아니요 | 회사가 속한 그룹을 포함하여 특정 그룹으로 필터링하는 데 사용됩니다. |
+| folderPath | `xsd:string` | 아니요 | 폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더입니다. 제외된 경우 회사 루트가 사용됩니다. |
+| 깊이 | `xsd:int` | 예 | 값이 0이면 최상위 폴더가 설정됩니다. 다른 값은 트리로 내려갈 깊이를 지정합니다. |
+| assetTypeArray | `types:StringArray` | 아니요 | 지정된 자산 유형만 포함하는 폴더를 반환합니다. |
+| responseFieldArray | `types:StringArray` | 아니요 | 응답에 포함할 필드 목록을 포함합니다. |
+| excludeFieldArray | `types:StringArray` | 아니요 | 응답에서 제외할 필드 목록을 포함합니다. |
 
 **출력(getFolderTreeReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`폴더`*` | `types:folders` | 아니요 | 트리 구조의 폴더 계층 구조입니다. 응답은 최대 100,000개의 폴더로 제한됩니다. |
-| `*`permissionSetArray`*` | `types:PermissionSetArray` |  |  |
+| 폴더 | `types:folders` | 아니요 | 트리 구조의 폴더 계층 구조입니다. 응답은 최대 100,000개의 폴더로 제한됩니다. |
+| permissionSetArray | `types:PermissionSetArray` |  |  |
 
 ## 예제 {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 

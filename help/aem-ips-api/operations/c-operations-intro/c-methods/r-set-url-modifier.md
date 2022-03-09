@@ -5,7 +5,7 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -33,10 +33,10 @@ ht-degree: 7%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| `*`urlModifier`*` | `xsd:string` | 아니요 | 요청이나 요청 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlPostApplyModifier` 명령. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | 아니요 | 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlModifier` 및 요청 명령 |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 자산 핸들. |
+| urlModifier | `xsd:string` | 아니요 | 요청이나 요청 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlPostApplyModifier` 명령. |
+| urlPostApplyModifier | `xsd:string` | 아니요 | 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlModifier` 및 요청 명령 |
 
 **출력(setUrlModifierReturn)**
 

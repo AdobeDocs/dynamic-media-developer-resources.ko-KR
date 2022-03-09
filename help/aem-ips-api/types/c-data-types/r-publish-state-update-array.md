@@ -5,10 +5,10 @@ title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 19%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:PublishStateUpdate` | 게시 상태 업데이트 배열입니다. |
+| 항목 | `types:PublishStateUpdate` | 게시 상태 업데이트 배열입니다. |

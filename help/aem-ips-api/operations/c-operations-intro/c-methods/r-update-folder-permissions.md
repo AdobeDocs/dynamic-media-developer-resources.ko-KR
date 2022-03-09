@@ -5,10 +5,10 @@ title: updateFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| `*`updateChildren`*` | `xsd:boolean` | 예 | 최상위 폴더에 대해 사용 권한이 설정된 하위 항목을 업데이트할지 여부를 결정합니다. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| folderHandle | `xsd:string` | 예 | 폴더 핸들. |
+| updateChildren | `xsd:boolean` | 예 | 최상위 폴더에 대해 사용 권한이 설정된 하위 항목을 업데이트할지 여부를 결정합니다. |
+| updateArray | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
 
 **출력(updateFolderPermissionsReturn)**
 

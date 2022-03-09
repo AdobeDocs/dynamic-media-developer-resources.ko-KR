@@ -5,9 +5,9 @@ title: getJobLogs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 11%
 
 ---
@@ -36,19 +36,19 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 아니요 | 그 회사 담당입니다. |
-| `*`userHandle`*` | `xsd:string` | 아니요 | 특정 사용자가 제출한 작업에 대한 로그를 가져옵니다. |
-| `*`sortBy`*` | `xsd:string` | 아니요 | 정렬 필드를 선택할 수 있습니다. |
-| `*`sortDirection`*` | `xsd:string` | 아니요 | 정렬 순서(오름차순 또는 내림차순). |
-| `*`startDate`*` | `xsd:dateTime` | 아니요 | 작업 로그의 시작 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
-| `*`endDate`*` | `xsd:dateTime` | 아니요 | 작업 로그 종료 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
-| `*`numRows`*` | `xsd:int` | 아니요 | 반환할 최대 행 수입니다. |
+| companyHandle | `xsd:string` | 아니요 | 그 회사 담당입니다. |
+| userHandle | `xsd:string` | 아니요 | 특정 사용자가 제출한 작업에 대한 로그를 가져옵니다. |
+| sortBy | `xsd:string` | 아니요 | 정렬 필드를 선택할 수 있습니다. |
+| sortDirection | `xsd:string` | 아니요 | 정렬 순서(오름차순 또는 내림차순). |
+| startDate | `xsd:dateTime` | 아니요 | 작업 로그의 시작 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
+| endDate | `xsd:dateTime` | 아니요 | 작업 로그 종료 날짜 및 시간입니다. 이 필드에 대한 요청을 시간대를 제공합니다. |
+| numRows | `xsd:int` | 아니요 | 반환할 최대 행 수입니다. |
 
 **출력(getJobLogsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | 예 | 작업 로그 배열입니다. |
+| jobLogArray | `types: JobLogArray` | 예 | 작업 로그 배열입니다. |
 
 ## 예제 {#section-35871c94b4a44559912577efddbc46a6}
 

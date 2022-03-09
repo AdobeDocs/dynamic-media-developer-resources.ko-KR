@@ -5,10 +5,10 @@ title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | 예 | 만료되고 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
+| includeExpired | `xsd:boolean` | 예 | 만료되고 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
 
 **출력(getAllCompaniesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | 예 | 회사의 배열입니다. |
+| companyArray | `types:CompanyArray` | 예 | 회사의 배열입니다. |
 
 ## 예제 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 

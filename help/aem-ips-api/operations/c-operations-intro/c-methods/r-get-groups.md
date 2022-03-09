@@ -5,10 +5,10 @@ title: getGroups
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 21%
+source-wordcount: '61'
+ht-degree: 22%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
 
 **출력(getGroupsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | 예 | 그룹 배열입니다. |
+| groupArray | `types:GroupArray` | 예 | 그룹 배열입니다. |
 
 ## 예제 {#section-ed0708f611574354bf0c6ea83912b531}
 

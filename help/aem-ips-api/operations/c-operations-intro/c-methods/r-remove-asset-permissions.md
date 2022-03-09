@@ -2,13 +2,13 @@
 description: 선택한 자산에서 권한을 제거합니다.
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 16%
+source-wordcount: '68'
+ht-degree: 17%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 제거할 권한이 있는 자산의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| assetHandle | `xsd:string` | 예 | 제거할 권한이 있는 자산의 핸들입니다. |
 
 **출력(removeAssetPermissionsReturn)**
 

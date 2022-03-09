@@ -5,9 +5,9 @@ title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사의 손잡이입니다. |
-| `*`includeInvalid`*` | `xsd:boolean` | 예 | 잘못된 회사를 포함합니다. |
+| companyHandle | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사의 손잡이입니다. |
+| includeInvalid | `xsd:boolean` | 예 | 잘못된 회사를 포함합니다. |
 
 **출력(getCompanyMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열입니다. |
+| memberArray | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열입니다. |
 
 ## 예제 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

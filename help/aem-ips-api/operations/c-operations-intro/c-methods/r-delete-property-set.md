@@ -5,10 +5,10 @@ title: deletePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72429030-200d-4e13-a537-10a728998a26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 12%
+source-wordcount: '83'
+ht-degree: 13%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | 예 | 삭제할 속성 집합의 핸들입니다. |
+| setHandle | `xsd:string` | 예 | 삭제할 속성 집합의 핸들입니다. |
 
 **출력(deletePropertySetParam)**
 
@@ -39,7 +39,7 @@ IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-이 코드 샘플은 집합 핸들을 IPS 웹 서비스 서버로 보낸 `deletePropertySetParam`의 필드로 사용하여 속성 집합을 삭제합니다.
+이 코드 샘플은 집합의 핸들을 `deletePropertySetParam` 속성 집합을 삭제하기 위해 IPS 웹 서비스 서버로 전송됩니다.
 
 **요청**
 

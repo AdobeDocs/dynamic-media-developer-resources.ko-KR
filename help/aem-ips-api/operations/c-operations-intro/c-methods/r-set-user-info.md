@@ -5,10 +5,10 @@ title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 16%
+source-wordcount: '107'
+ht-degree: 17%
 
 ---
 
@@ -31,14 +31,14 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 사용자 핸들. |
-| `*`firstName`*` | `xsd:string` | 예 | 이름. |
-| `*`lastName`*` | `xsd:string` | 예 | 성. |
-| `*`이메일`*` | `xsd:string` | 예 | 사용자 이메일. |
-| `*`defaultRole`*` | `xsd:string` | 예 | 사용자가 속한 각 회사에서 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 다른 회사 단위 설정을 무시합니다. |
-| `*`passwordExpires`*` | `xsd:dateTime` | 아니요 | 암호 만료일을 설정합니다. |
-| `*`isValid`*` | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
+| userHandle | `xsd:string` | 아니요 | 사용자 핸들. |
+| firstName | `xsd:string` | 예 | 이름. |
+| lastName | `xsd:string` | 예 | 성. |
+| 이메일 | `xsd:string` | 예 | 사용자 이메일. |
+| defaultRole | `xsd:string` | 예 | 사용자가 속한 각 회사에서 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 다른 회사 단위 설정을 무시합니다. |
+| passwordExpires | `xsd:dateTime` | 아니요 | 암호 만료일을 설정합니다. |
+| isValid | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
 
 **출력(setUserInfoReturn)**
 

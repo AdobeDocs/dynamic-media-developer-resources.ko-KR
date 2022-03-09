@@ -5,10 +5,10 @@ title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 10%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
@@ -36,10 +36,10 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리할 회사의 핸들입니다 |
+| companyHandle | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리할 회사의 핸들입니다 |
 
 **출력(getActivePublishContextsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | 예 | 게시 컨텍스트에서 0개 이상의 값을 포함할 수 있는 활성 게시 컨텍스트의 배열입니다. |
+| contextArray | `types:StringArray` | 예 | 게시 컨텍스트에서 0개 이상의 값을 포함할 수 있는 활성 게시 컨텍스트의 배열입니다. |

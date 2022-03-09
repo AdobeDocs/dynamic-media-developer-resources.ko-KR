@@ -5,10 +5,10 @@ title: getPublishContexts
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '85'
+ht-degree: 20%
 
 ---
 
@@ -32,9 +32,7 @@ ht-degree: 18%
 >
 >* 자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 >* 모든 사용자는 공유 회사에 액세스할 수 있습니다.
-
 >
-
 
 
 ## 매개 변수 {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -76,7 +74,7 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`publishContextArray`*` | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형별로 필터링된 회사의 게시 컨텍스트 배열입니다. |
+| publishContextArray | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형별로 필터링된 회사의 게시 컨텍스트 배열입니다. |
 
 ## 예제 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

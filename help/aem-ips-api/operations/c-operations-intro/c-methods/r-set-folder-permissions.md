@@ -5,10 +5,10 @@ title: setFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '91'
+ht-degree: 15%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| `*`setChildren`*` | `xsd:boolean` | 예 | 폴더에 속하는 하위 항목에 대한 권한을 설정합니다. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | 예 | 권한 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| folderHandle | `xsd:string` | 예 | 폴더 핸들. |
+| setChildren | `xsd:boolean` | 예 | 폴더에 속하는 하위 항목에 대한 권한을 설정합니다. |
+| permissionArray | `types:PermissionUpdateArray` | 예 | 권한 배열입니다. |
 
 **출력(setFolderPermissionsReturn)**
 

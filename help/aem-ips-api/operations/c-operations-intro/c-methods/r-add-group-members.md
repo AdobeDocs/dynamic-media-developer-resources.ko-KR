@@ -5,9 +5,9 @@ title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 일련의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
+| userHandleArray | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 일련의 핸들입니다. |
 
 **출력(addGroupMembersParam)**
 
@@ -40,7 +40,7 @@ IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-이 예제에서는 `*`addGroupMembersParam`*`을 사용하여 사용자를 단일 회사에 추가합니다. IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+이 예에서는 addGroupMembersParam을 사용하여 사용자를 단일 회사에 추가합니다. IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 **요청**
 

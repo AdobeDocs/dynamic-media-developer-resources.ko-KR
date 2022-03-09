@@ -5,9 +5,9 @@ title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
@@ -35,14 +35,14 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
-| `*`assetNamesArray`*` | `types:StringArray` | 예 | 확인할 자산 이름의 배열입니다. |
+| companyHandle | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
+| assetNamesArray | `types:StringArray` | 예 | 확인할 자산 이름의 배열입니다. |
 
 **출력(checkAssetNamesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | 예 | 사용 중인 자산 이름의 배열입니다. |
+| inUseNameArray | `types:StringArray` | 예 | 사용 중인 자산 이름의 배열입니다. |
 
 ## 예제 {#section-bc5d120d74614a63a425ca3acc337219}
 

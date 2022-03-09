@@ -5,9 +5,9 @@ title: EmailConfirmation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '78'
 ht-degree: 6%
 
 ---
@@ -22,5 +22,5 @@ cdnCacheInvalidation 작업에 대한 응답으로 지정된 수신자에게 이
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`Originator`*` | `xsd:boolean` | true인 경우에는 Dynamic Media CDN에서 이메일 확인을 받도록 지정된 이메일 목록인 사용자의 웹 서비스 사용자 계정을 포함합니다. |
-| `*`ccOthersArray`*` | `types:EmailArray` | Dynamic Media CDN에서 확인 알림을 받도록 지정된 이메일 주소(최대 5개) 배열입니다. |
+| Originator | `xsd:boolean` | true인 경우에는 Dynamic Media CDN에서 이메일 확인을 받도록 지정된 이메일 목록인 사용자의 웹 서비스 사용자 계정을 포함합니다. |
+| ccOthersArray | `types:EmailArray` | Dynamic Media CDN에서 확인 알림을 받도록 지정된 이메일 주소(최대 5개) 배열입니다. |

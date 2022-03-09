@@ -2,13 +2,13 @@
 description: 폴더 이름을 변경합니다.
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -37,15 +37,15 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이름을 바꿀 폴더가 있는 회사를 처리합니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 폴더를 처리합니다. |
-| `*`folderName`*` | `xsd:string` | 예 | 새 폴더 이름. |
+| companyHandle | `xsd:string` | 예 | 이름을 바꿀 폴더가 있는 회사를 처리합니다. |
+| folderHandle | `xsd:string` | 예 | 폴더를 처리합니다. |
+| folderName | `xsd:string` | 예 | 새 폴더 이름. |
 
 **출력(renameFolderReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 예 | 이름이 변경된 폴더를 처리합니다. |
+| folderHandle | `xsd:string` | 예 | 이름이 변경된 폴더를 처리합니다. |
 
 ## 예제 {#section-98bdd2f88d164f488676e90aba1dc864}
 

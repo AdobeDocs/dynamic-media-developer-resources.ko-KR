@@ -5,10 +5,10 @@ title: resumeJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 17%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사의 핸들입니다. |
-| `*`jobHandle`*` | `xsd:string` | 예 | 일시 중지된 작업의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사의 핸들입니다. |
+| jobHandle | `xsd:string` | 예 | 일시 중지된 작업의 핸들입니다. |
 
 **출력(resumeJobReturn)**
 

@@ -5,9 +5,9 @@ title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`overwriteMode`*` | `xsd:string` | 아니요 | 자산 덮어쓰기 모드. |
-| `*`keepPublishState`*` | `xsd:boolean` | 아니요 | 자산을 다시 업로드할 때 게시 상태를 유지하려면 `true` 로 설정하십시오. |
-| `*`defaultSourceProfileHandle`*` | `xsd:string` | 아니요 | 기본 원본 색상 프로파일로 사용할 Icc 프로필 자산 |
-| `*`defaultDisplayProfileHandle`*` | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 Icc 프로필 자산 |
-| `*`iptcExifMappingXsltHandle`*` | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
-| `*`xmpMappingXsltHandle`*` | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
-| `*`diskSpaceWarningMin`*` | `xsd:int` | 아니요 | 경고 메시지가 전송되기 전에 사용 가능한 최소 디스크 공간(KB)입니다. |
-| `*`emailTrashCleanupWarning`*` | `xsd:boolean` | 아니요 | 자산이 휴지통에서 비워질 때마다 회사 관리자에게 알림을 보내려면 `true`으로 설정하십시오. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| overwriteMode | `xsd:string` | 아니요 | 자산 덮어쓰기 모드. |
+| keepPublishState | `xsd:boolean` | 아니요 | 을 로 설정합니다. `true` 자산을 다시 업로드할 때 게시 상태를 유지합니다. |
+| defaultSourceProfileHandle | `xsd:string` | 아니요 | 기본 원본 색상 프로파일로 사용할 Icc 프로필 자산 |
+| defaultDisplayProfileHandle | `xsd:string` | 아니요 | 기본 표시 색상 프로파일로 사용할 Icc 프로필 자산 |
+| iptcExifMappingXsltHandle | `xsd:string` | 아니요 | IPTC 및 EXIF 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
+| xmpMappingXsltHandle | `xsd:string` | 아니요 | XMP 메타데이터를 IPS 메타데이터 필드에 매핑하는 데 사용되는 XSL 자산입니다. |
+| diskSpaceWarningMin | `xsd:int` | 아니요 | 경고 메시지가 전송되기 전에 사용 가능한 최소 디스크 공간(KB)입니다. |
+| emailTrashCleanupWarning | `xsd:boolean` | 아니요 | 을 로 설정합니다. `true` 자산을 휴지통에서 비울 때마다 회사 관리자에게 알림을 보내는 것. |
 
 **출력(setCompanySettingsReturn)**
 

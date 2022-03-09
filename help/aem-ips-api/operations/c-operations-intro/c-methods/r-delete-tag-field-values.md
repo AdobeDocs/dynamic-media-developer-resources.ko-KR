@@ -5,9 +5,9 @@ title: deleteTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
-| `*`fieldHandle`*` | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
-| `*`valueArray`*` | `types:StringArray` | 예 | 필드의 사전에서 삭제할 태그 값의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
+| fieldHandle | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
+| valueArray | `types:StringArray` | 예 | 필드의 사전에서 삭제할 태그 값의 배열입니다. |
 
 **출력(deleteTagFieldValuesParam)**
 

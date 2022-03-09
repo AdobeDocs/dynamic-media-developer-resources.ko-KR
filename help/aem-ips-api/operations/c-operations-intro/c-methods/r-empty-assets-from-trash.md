@@ -1,13 +1,13 @@
 ---
+title: emptyAssetsFromTrash
 description: IPS 휴지통에서 자산을 제거합니다.
 solution: Experience Manager
-title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '258'
 ht-degree: 7%
 
 ---
@@ -26,7 +26,6 @@ IPS 휴지통에서 자산을 제거합니다.
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
 
 ## 매개 변수 {#section-8e1fb0ee3aae453581e99ef76e298569}
 
@@ -34,18 +33,18 @@ IPS 휴지통에서 자산을 제거합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 자산을 소유한 회사의 핸들입니다. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 휴지통에서 비울 항목을 나타내는 핸들의 배열입니다. |
+| companyHandle | xsd:string | 예 | 자산을 소유한 회사의 핸들입니다. |
+| assetHandleArray | 유형:HandleArray | 예 | 휴지통에서 비울 항목을 나타내는 핸들의 배열입니다. |
 
 **출력(emptyAssetsFromTrashParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | 예 | 휴지통에서 성공적으로 비운 자산 수입니다. |
-| `*`warningCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비우기 위해 시도할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:Int` | 예 | 작업에서 휴지통에서 자산을 비우기 위해 시도할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통으로 이동하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 오류를 제거하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | xsd:Int | 예 | 휴지통에서 성공적으로 비운 자산 수입니다. |
+| warningCount | xsd:Int | 예 | 작업에서 휴지통에서 자산을 비우기 위해 시도할 때 생성된 경고 수입니다. |
+| errorCount | xsd:Int | 예 | 작업에서 휴지통에서 자산을 비우기 위해 시도할 때 생성된 오류 수입니다. |
+| warningDetailArray | 유형:AssetOperationFaultArray | 아니요 | 작업에서 휴지통으로 이동하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| errorDetailArray | 유형:AssetOperationFaultArray | 아니요 | 작업에서 휴지통에서 오류를 제거하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-6154a873b6c342bf92e2036280cafdcf}
 
@@ -54,7 +53,7 @@ IPS 휴지통에서 자산을 제거합니다.
 **요청**
 
 ```java
-<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <companyHandle>c|6</companyHandle>
    <assetHandleArray>
       <items>a|942|1|579</items>
@@ -66,7 +65,7 @@ IPS 휴지통에서 자산을 제거합니다.
 **응답**
 
 ```java
-<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <successCount>2</successCount>
    <warningCount>0</warningCount>
    <errorCount>0</errorCount>

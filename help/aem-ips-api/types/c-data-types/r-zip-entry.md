@@ -5,10 +5,10 @@ title: ZipEntry
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '43'
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,8 @@ ZIP 파일의 항목입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`name`*` | `xsd:string` | 항목 이름. |
-| `*`isDirectory`*` | `xsd:boolean` | 항목이 디렉터리인지 확인합니다. |
-| `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜 및 시간입니다. |
-| `*`compressedSize`*` | `xsd:long` | 압축 크기입니다. |
-| `*`uncompressedSize`*` | `xsd:long` | 압축되지 않은 크기입니다. |
+| 이름 | `xsd:string` | 항목 이름. |
+| isDirectory | `xsd:boolean` | 항목이 디렉터리인지 확인합니다. |
+| lastModified | `xsd:dateTime` | 마지막 수정 날짜 및 시간입니다. |
+| compressedSize | `xsd:long` | 압축 크기입니다. |
+| uncompressedSize | `xsd:long` | 압축되지 않은 크기입니다. |

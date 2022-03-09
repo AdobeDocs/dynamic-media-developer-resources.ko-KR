@@ -2,13 +2,13 @@
 description: 자산에 대한 작업 로그를 가져옵니다. 배열에 반환되는 항목에는 해당 자산에 대한 작업 로그의 각 항목에 대한 자세한 정보가 포함되어 있습니다. logMessage 응답 필드는 authHeader 필드를 기반으로 현지화됩니다.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 자산이 속한 회사의 핸들. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 검색할 작업 로그가 있는 자산에 대한 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 자산이 속한 회사의 핸들. |
+| assetHandle | `xsd:string` | 예 | 검색할 작업 로그가 있는 자산에 대한 핸들입니다. |
 
 **출력(getAssetJobLogsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | 예 | 작업 로그 배열입니다. |
+| jobLogArray | `types:AssetJobLogArray` | 예 | 작업 로그 배열입니다. |
 
 ## 예제 {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

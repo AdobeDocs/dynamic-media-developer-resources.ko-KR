@@ -5,10 +5,10 @@ title: saveImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '253'
+ht-degree: 9%
 
 ---
 
@@ -46,56 +46,56 @@ ht-degree: 8%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 저장할 이미지 맵이 있는 회사의 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 맵이 속한 이미지 자산의 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 이미지 맵의 핸들입니다. NULL이면 이미지 맵을 만듭니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 이름 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 만들거나 저장하는 이미지 맵의 이름입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 영역 모양 선택. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 지역  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 지역 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 지역을 정의하는 점을 쉼표로 구분한 목록입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 작업  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 작업 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연관된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 얻으려면 IPS 인터페이스의 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여넣은 다음 IPS URL의 형식을 적절한 URL로 지정합니다. 예를 들어 <span class="codeph"> &amp; </span>은 <span class="codeph"> &amp;amp;가 됩니다. </span>. </p> </td> 
+   <td colname="col4"> <p>다음 <span class="codeph"> href </span> IPS 인터페이스에 지정된 대로 이미지 맵과 연관된 값입니다. </p> <p>를 가져오려면 <span class="codeph"> href </span> 값을 지정하면 IPS 인터페이스에서 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여넣은 다음 IPS URL을 적절한 URL로 포맷합니다. 예, <span class="codeph"> &amp; </span> 다음과 같이 <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 맵 목록(Z 축)의 순서. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 활성화됨  </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 활성화됨 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:부울 </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"></td> 
   </tr> 
@@ -106,7 +106,7 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`imageMapHandle`*` | `xsd:string` | 예 | 새 이미지 맵이나 편집한 이미지 맵의 핸들입니다. |
+| imageMapHandle | `xsd:string` | 예 | 새 이미지 맵이나 편집한 이미지 맵의 핸들입니다. |
 
 ## 예제 {#section-fdac488b640f427c8aa3d549c5032851}
 

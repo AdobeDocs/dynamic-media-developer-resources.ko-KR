@@ -5,10 +5,10 @@ title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 15%
+source-wordcount: '80'
+ht-degree: 16%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 제공 게시 설정이 있는 회사의 핸들입니다. |
-| `*`contextHandle`*` | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
+| companyHandle | `xsd:string` | 예 | 이미지 제공 게시 설정이 있는 회사의 핸들입니다. |
+| contextHandle | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
 
 **출력**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`publishSettingArray`*` | `xsd:string` | 예 | 이미지 서버 게시 설정의 배열입니다. |
+| publishSettingArray | `xsd:string` | 예 | 이미지 서버 게시 설정의 배열입니다. |

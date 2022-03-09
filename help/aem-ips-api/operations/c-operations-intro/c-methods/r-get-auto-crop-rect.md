@@ -5,10 +5,10 @@ title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e291597a-b863-42dd-88dc-13398b734410
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 14%
+source-wordcount: '152'
+ht-degree: 15%
 
 ---
 
@@ -34,23 +34,23 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->이 메서드를 호출할 때 `*`autoColorCropOptions`*` 또는 `*`autoTransparentCropOptions`*`를 지정하십시오.
+>이 메서드를 호출할 때 autoColorCropOptions 또는 autoTransparentCropOptions를 지정하십시오.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 작업할 자산의 핸들입니다. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | 아니요 | 색상을 기반으로 자르기 사각형을 계산합니다. [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)를 참조하십시오. |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)를 참조하십시오. |
+| companyHandle | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 작업할 자산의 핸들입니다. |
+| autoColorCropOptions | `types:AutoColorCropOptions` | 아니요 | 색상을 기반으로 자르기 사각형을 계산합니다. 자세한 내용은 [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. 자세한 내용은 [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **출력(getAutoCropRectReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | 예 | 계산된 자르기 영역의 시작 왼쪽 픽셀 좌표입니다. |
-| `*`yOffset`*` | `xsd:int` | 예 | 계산된 자르기 영역의 시작 위쪽 픽셀 좌표입니다. |
-| `*`width`*` | `xsd:int` | 예 | 계산된 자르기 영역의 폭(픽셀 단위)입니다. |
-| `*`height`*` | `xsd:int` | 예 | 계산된 자르기 영역의 높이(픽셀 단위)입니다. |
+| xOffset | `xsd:int` | 예 | 계산된 자르기 영역의 시작 왼쪽 픽셀 좌표입니다. |
+| yOffset | `xsd:int` | 예 | 계산된 자르기 영역의 시작 위쪽 픽셀 좌표입니다. |
+| 너비 | `xsd:int` | 예 | 계산된 자르기 영역의 폭(픽셀 단위)입니다. |
+| 높이 | `xsd:int` | 예 | 계산된 자르기 영역의 높이(픽셀 단위)입니다. |
 
 ## 예제 {#section-ba65bd66086d491cad1cea535954ee1f}
 
@@ -81,5 +81,5 @@ ht-degree: 14%
 >[!MORELIKETHIS]
 >
 >* [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
-* [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+>* [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 

@@ -5,9 +5,9 @@ title: deleteGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '86'
 ht-degree: 13%
 
 ---
@@ -30,8 +30,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 삭제할 그룹에 속하는 회사의 핸들입니다. |
-| `*`groupHandle`*` | `xsd:string` | 예 | 삭제할 그룹의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 삭제할 그룹에 속하는 회사의 핸들입니다. |
+| groupHandle | `xsd:string` | 예 | 삭제할 그룹의 핸들입니다. |
 
 **출력(deleteGroupParam)**
 

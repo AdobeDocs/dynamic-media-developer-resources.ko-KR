@@ -2,13 +2,13 @@
 description: 프로젝트 이름을 변경합니다.
 solution: Experience Manager
 title: renameProject
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 23%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 예 | 이름을 바꿀 프로젝트가 있는 회사를 처리합니다. |
-| `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트를 처리합니다. |
-| `*`projectName`*` | `xsd:string` | 예 | 새 프로젝트 이름. |
+| companyName | `xsd:string` | 예 | 이름을 바꿀 프로젝트가 있는 회사를 처리합니다. |
+| projectHandle | `xsd:string` | 예 | 프로젝트를 처리합니다. |
+| projectName | `xsd:string` | 예 | 새 프로젝트 이름. |
 
 **출력(renameProjectParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | 예 | 이름이 변경된 프로젝트의 핸들입니다. |
+| projectHandle | `xsd:string` | 예 | 이름이 변경된 프로젝트의 핸들입니다. |
 
 ## 예제 {#section-a0a06d9244774795b695a10b92b2a5e7}
 

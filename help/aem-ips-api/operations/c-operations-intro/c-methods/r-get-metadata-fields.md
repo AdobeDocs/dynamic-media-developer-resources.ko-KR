@@ -2,13 +2,13 @@
 description: 자산과 연결된 사용자 정의 메타데이터 필드를 가져옵니다.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 14%
+source-wordcount: '95'
+ht-degree: 15%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 그 회사 담당입니다. |
-| `*`assetType`*` | `xsd:string` | 예 | 메타데이터를 가져올 자산 유형입니다. |
+| companyHandle | `xsd:string` | 예 | 그 회사 담당입니다. |
+| assetType | `xsd:string` | 예 | 메타데이터를 가져올 자산 유형입니다. |
 
 **출력(getMetadataFieldsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`코드 구문`*` | `Code Phrase` |  |  |
+| 코드 구문 | `Code Phrase` |  |  |
 
 ## 예제 {#section-dbfde1483d614b5aac2b491cb32115d7}
 

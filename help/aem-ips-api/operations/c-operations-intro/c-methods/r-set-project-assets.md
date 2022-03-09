@@ -2,13 +2,13 @@
 description: 프로젝트에서 자산을 할당하거나 업데이트합니다.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 20%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`projectHandle`*` | `xsd:string` | 예 | 프로젝트 핸들. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들의 배열입니다. |
+| companyName | `xsd:string` | 예 | 회사 핸들. |
+| projectHandle | `xsd:string` | 예 | 프로젝트 핸들. |
+| assetHandleArray | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들의 배열입니다. |
 
 **출력(setProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 추가된 자산 수입니다. |
+| successCount | `xsd:int` | 예 | 성공적으로 추가된 자산 수입니다. |
 
 ## 예제 {#section-33c1a909c3dc4aa98da474c23a036596}
 

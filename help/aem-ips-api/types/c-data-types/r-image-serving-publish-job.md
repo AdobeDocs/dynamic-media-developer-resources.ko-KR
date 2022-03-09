@@ -5,10 +5,10 @@ title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`publishType`*` | `xsd:string` | 사용 가능한 게시 유형 중 하나입니다. |
-| `*`emailSetting`*` | `xsd:string` | 이메일 설정 선택. |
-| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL입니다. |
+| publishType | `xsd:string` | 사용 가능한 게시 유형 중 하나입니다. |
+| emailSetting | `xsd:string` | 이메일 설정 선택. |
+| httpCompletionUrl | `xsd:string` | 완료 알림을 보낼 URL입니다. |

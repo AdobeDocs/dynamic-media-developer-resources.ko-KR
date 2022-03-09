@@ -5,10 +5,10 @@ title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 15%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`fieldHandle`*` | `xsd:string` | 예 | 태그 필드 핸들. |
-| `*`valueArray`*` | `types:StringArray` | 예 | 필드의 기존 사전을 대체하는 태그 값의 배열입니다. 새 값이 기존 값과 일치할 때 자산 연결이 유지됩니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| fieldHandle | `xsd:string` | 예 | 태그 필드 핸들. |
+| valueArray | `types:StringArray` | 예 | 필드의 기존 사전을 대체하는 태그 값의 배열입니다. 새 값이 기존 값과 일치할 때 자산 연결이 유지됩니다. |
 
 **출력(setTagFieldValuesReturn)**
 

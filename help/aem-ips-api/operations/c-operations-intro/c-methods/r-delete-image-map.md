@@ -5,9 +5,9 @@ title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 12%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 맵이 포함된 회사의 핸들입니다. |
-| `*`imageMapHandle`*` | `xsd:string` | 예 | 삭제할 이미지 맵의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 삭제할 이미지 맵이 포함된 회사의 핸들입니다. |
+| imageMapHandle | `xsd:string` | 예 | 삭제할 이미지 맵의 핸들입니다. |
 
 **출력(deleteImageMapParam)**
 

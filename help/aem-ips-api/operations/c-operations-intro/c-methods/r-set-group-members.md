@@ -5,9 +5,9 @@ title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 9%
 
 ---
@@ -30,9 +30,9 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
-| `*`userHandleArray`*` | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자의 핸들 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
+| userHandleArray | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자의 핸들 배열입니다. |
 
 **출력(setGroupMembesReturn)**
 

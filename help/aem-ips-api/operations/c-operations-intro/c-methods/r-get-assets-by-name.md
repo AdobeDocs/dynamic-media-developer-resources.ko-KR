@@ -2,13 +2,13 @@
 description: 자산 이름의 배열을 기반으로 자산을 반환합니다.
 solution: Experience Manager
 title: getAssetsByName
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '212'
+ht-degree: 11%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 10%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p><span class="codeph"> true</span> 및 <span class="codeph"> assetSubTypeArray</span>가 비어 있지 않으면 하위 유형이 <span class="codeph"> assetSubTypeArray</span>에 있는 자산만 반환됩니다. </p> <p><span class="codeph"> false</span>이면 정의된 하위 유형이 없는 자산이 포함됩니다. </p> <p>기본값은 <span class="codeph"> false</span>입니다. </p> </td> 
+   <td colname="col4"> <p>If <span class="codeph"> true</span> 및 <span class="codeph"> assetSubTypeArray</span> 하위 유형이 비어 있는 자산만 비어 있지 않습니다. <span class="codeph"> assetSubTypeArray</span> 이 반환됩니다. </p> <p>If <span class="codeph"> false</span>을 입력하면 정의된 하위 유형이 없는 자산이 포함됩니다. </p> <p>기본값은 입니다. <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -114,7 +114,7 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetArray`*` | `types:AssetArray` | 아니요 | 필터 기준과 일치하는 자산의 배열입니다. |
+| assetArray | `types:AssetArray` | 아니요 | 필터 기준과 일치하는 자산의 배열입니다. |
 
 ## 예제 {#section-3b7447398e574c88aeaf8ca159cc78dd}
 

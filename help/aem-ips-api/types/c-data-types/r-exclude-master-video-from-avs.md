@@ -1,17 +1,21 @@
 ---
-description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
 title: ExcludeMasterVideoFromAVS
+description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '50'
 ht-degree: 10%
 
 ---
 
 # ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
+
+>[!IMPORTANT]
+>
+>Adobe에 대한 지원이 종료 중입니다. `ExcludeMasterVideoFromAVS` 매개 변수: 2022년 9월
 
 응용 비디오 세트에서 기본 비디오를 제외합니다.
 

@@ -5,10 +5,10 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 21%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사에서 반환할 패킷(예: `c|656`)을 사용하여 처리합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | XMP 패킷을 검색해야 하는 자산입니다. |
+| companyHandle | `xsd:string` | 예 | 회사에서 반환할 패킷과 함께 처리합니다(예: `c|656`). |
+| assetHandle | `xsd:string` | 예 | XMP 패킷을 검색해야 하는 자산입니다. |
 
 **출력(getXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`compressedPacket`*` | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷 을 참조하십시오. |
+| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷 을 참조하십시오. |
 
 ## 예제 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

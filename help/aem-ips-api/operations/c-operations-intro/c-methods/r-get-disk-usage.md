@@ -5,10 +5,10 @@ title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 13%
+source-wordcount: '98'
+ht-degree: 14%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 디스크 사용을 가져오려는 회사의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 디스크 사용을 가져오려는 회사의 핸들입니다. |
 
 **출력(getDiskUsageReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | 예 | 회사 디스크 사용 배열입니다. |
+| diskUsageArray | `types:DiskUsageArray` | 예 | 회사 디스크 사용 배열입니다. |
 
 ## 예제 {#section-cb16a97badc94076ad5da277db5ed16a}
 

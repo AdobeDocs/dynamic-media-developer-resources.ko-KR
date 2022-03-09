@@ -5,10 +5,10 @@ title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 15%
+source-wordcount: '41'
+ht-degree: 19%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`value`*` | `xsd:string` | 업데이트가 실패한 태그 값입니다. |
-| `*`코드`*` | `xsd:int` | 오류 코드 번호입니다. |
-| `*`이유`*` | `xsd:string` | 오류 메시지(일반 텍스트). |
+| 값 | `xsd:string` | 업데이트가 실패한 태그 값입니다. |
+| 코드 | `xsd:int` | 오류 코드 번호입니다. |
+| 이유 | `xsd:string` | 오류 메시지(일반 텍스트). |

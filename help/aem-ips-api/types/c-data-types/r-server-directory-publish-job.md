@@ -5,10 +5,10 @@ title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`emailSettings`*` | `xsd:string` | 이메일 설정 선택. |
-| `*`httpCompletionUrl`*` | `xsd:string` | 완료 알림을 보낼 URL입니다. |
+| emailSettings | `xsd:string` | 이메일 설정 선택. |
+| httpCompletionUrl | `xsd:string` | 완료 알림을 보낼 URL입니다. |

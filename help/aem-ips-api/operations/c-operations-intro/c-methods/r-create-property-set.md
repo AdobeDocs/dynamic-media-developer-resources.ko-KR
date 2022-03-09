@@ -5,9 +5,9 @@ title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '215'
 ht-degree: 8%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | 예 | 속성 집합의 기본 소유자에 대한 핸들입니다. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 속성 집합의 보조 소유자에 대한 핸들입니다. |
-| `*`propertyArray`*` | `types:PropertyArray` | 예 | 속성의 배열입니다. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| typeHandle | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
+| primaryOwnerHandle | `xsd:string` | 예 | 속성 집합의 기본 소유자에 대한 핸들입니다. |
+| secondaryOwnerHandle | `xsd:string` | 아니요 | 속성 집합의 보조 소유자에 대한 핸들입니다. |
+| propertyArray | `types:PropertyArray` | 예 | 속성의 배열입니다. |
+| permissionArray | `types:PermissionUpdateArray` |  |  |
 
 **출력(createPropertySetParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | 예 | 새 속성 집합의 핸들입니다. |
+| setHandle | `xsd:string` | 예 | 새 속성 집합의 핸들입니다. |
 
 ## 예제 {#section-4e1f5b2883664bc88f590fcd253df22b}
 

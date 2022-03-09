@@ -2,12 +2,12 @@
 description: 사용자가 볼 수 있는 내용을 결정하는 사전 설정된 보기를 만듭니다. 뷰어는 IPS에 사용할 수 있는 모든 유형일 수 있습니다. 사전 설정된 보기는 자산이 게시될 때 적용됩니다.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '158'
 ht-degree: 13%
 
 ---
@@ -31,17 +31,17 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 뷰어 사전 설정 및 자산을 포함하는 회사의 핸들입니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 자산이 포함된 폴더의 핸들입니다. |
-| `*`name`*` | `xsd:string` | 예 | 뷰어 이름. |
-| `*`type`*` | `xsd:string` | 예 | 뷰어 유형. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 아니요 | 사전 설정을 적용하는 이미지의 이름, 값 및 핸들이 포함된 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 뷰어 사전 설정 및 자산을 포함하는 회사의 핸들입니다. |
+| folderHandle | `xsd:string` | 예 | 자산이 포함된 폴더의 핸들입니다. |
+| 이름 | `xsd:string` | 예 | 뷰어 이름. |
+| 유형 | `xsd:string` | 예 | 뷰어 유형. |
+| configSettingArray | `types:ConfigSettingArray` | 아니요 | 사전 설정을 적용하는 이미지의 이름, 값 및 핸들이 포함된 배열입니다. |
 
 **출력(createViewerPresetReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`viewerPresetHandle`*` | `xsd:string` | 예 | 뷰어에 대한 사전 설정 핸들입니다. |
+| viewerPresetHandle | `xsd:string` | 예 | 뷰어에 대한 사전 설정 핸들입니다. |
 
 ## 예제 {#section-c88ea63536f3461cbe4677ba53f875dd}
 

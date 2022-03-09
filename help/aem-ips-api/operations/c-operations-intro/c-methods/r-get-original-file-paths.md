@@ -5,10 +5,10 @@ title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 원본 파일 경로를 가져오려는 자산의 핸들의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| assetHandleArray | `types:HandleArray` | 예 | 원본 파일 경로를 가져오려는 자산의 핸들의 배열입니다. |
 
 **출력(getOriginalFilePathsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | 예 | 원래 파일 경로를 나타내는 문자열 배열입니다. |
+| originalFileArray | `types:StringArray` | 예 | 원래 파일 경로를 나타내는 문자열 배열입니다. |
 
 ## 예제 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

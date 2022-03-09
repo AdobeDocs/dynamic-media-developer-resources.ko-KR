@@ -5,10 +5,10 @@ title: saveGroup
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 19%
+source-wordcount: '92'
+ht-degree: 20%
 
 ---
 
@@ -30,16 +30,16 @@ ht-degree: 19%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
-| `*`groupHandle`*` | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
-| `*`name`*` | `xsd:string` | 예 | 그룹 이름. |
-| `*`isSystemDefined`*` | `xsd:boolean` | 예 | `false` 기본값은 입니다. |
+| companyHandle | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
+| groupHandle | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
+| 이름 | `xsd:string` | 예 | 그룹 이름. |
+| isSystemDefined | `xsd:boolean` | 예 | `false` 기본값은 입니다. |
 
 **출력(saveGroupReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 예 | 그룹 핸들. |
+| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
 
 ## 예제 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

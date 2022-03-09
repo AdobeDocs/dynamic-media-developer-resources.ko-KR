@@ -2,12 +2,12 @@
 description: 자산 일괄 처리를 게시할 준비가 되었는지 확인합니다.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 자산 일괄 처리를 게시할 준비가 되었는지 확인합니다.
 
-[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)의 배치 버전입니다.
+의 배치 버전입니다. [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## 인증된 사용자 유형 {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -37,18 +37,18 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | 예 | 자산에 대한 게시 상태 값의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | 예 | 자산에 대한 게시 상태 값의 배열입니다. |
 
 **출력(setAssetsPublishStateParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 성공적으로 업데이트된 자산 수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 경고를 업데이트하려고 할 때 경고를 생성한 자산의 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 오류를 삭제하려고 할 때 오류를 생성한 자산의 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 경고를 생성한 자산 업데이트와 연관된 세부 사항입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 오류를 생성한 자산 업데이트와 연관된 세부 사항입니다. |
+| successCount | `xsd:int` | 예 | 성공적으로 업데이트된 자산 수입니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 경고를 업데이트하려고 할 때 경고를 생성한 자산의 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 오류를 삭제하려고 할 때 오류를 생성한 자산의 수입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 경고를 생성한 자산 업데이트와 연관된 세부 사항입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 오류를 생성한 자산 업데이트와 연관된 세부 사항입니다. |
 
 ## 예제 {#section-38cfdd3436214a06a1bae16875501d51}
 

@@ -2,12 +2,12 @@
 description: 여러 자산을 서로 독립적으로 이동합니다. 이 작업은 assetMoveArray에 포함된 AssetMove 유형을 사용하여 수행됩니다. 각 AssetMove 필드에는 대상 폴더가 포함되어 있습니다.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 9%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들입니다. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | 예 | 자산 이동 배열입니다. 자산 및 자산 대상 폴더가 포함되어 있습니다. |
+| companyHandle | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들입니다. |
+| assetMoveArray | `types:AssetMoveArray` | 예 | 자산 이동 배열입니다. 자산 및 자산 대상 폴더가 포함되어 있습니다. |
 
 **출력(moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> </span>다음을 포함하는 AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>에는 다음이 포함되어 있습니다. 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">경고를 던진 자산입니다. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">경고 코드. </li> 
@@ -81,7 +81,7 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> </span>다음을 포함하는 AssetOperationFaults: 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>에는 다음이 포함되어 있습니다. 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">오류를 발생시킨 자산입니다. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">오류 코드. </li> 
@@ -93,7 +93,7 @@ ht-degree: 9%
 
 ## 예제 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-이 코드 샘플은 자산을 `assetMoveArray`에 의해 지정된 특정 위치로 이동합니다. 이 배열에는 자산 핸들과 해당 폴더 핸들이 포함됩니다. 응답이 자산이 성공적으로 이동되었음을 나타냅니다.
+이 코드 샘플은 자산을 `assetMoveArray`. 이 배열에는 자산 핸들과 해당 폴더 핸들이 포함됩니다. 응답이 자산이 성공적으로 이동되었음을 나타냅니다.
 
 **요청**
 

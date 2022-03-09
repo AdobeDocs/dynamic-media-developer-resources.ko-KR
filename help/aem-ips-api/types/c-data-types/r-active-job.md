@@ -1,13 +1,13 @@
 ---
+title: ActiveJob
 description: 서버에서 실행되는 작업입니다. 또한 예약된 작업의 인스턴스입니다.
 solution: Experience Manager
-title: ActiveJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 서버에서 실행되는 작업입니다. 또한 예약된 작업의 인스턴스입니다.
 
-작업은 다음 3개 상태에 있습니다.
+작업은 다음 세 가지 상태에 있습니다.
 
 * 실행되도록 예약되었습니다.
 * 현재 실행 중입니다.
 * 실행을 완료했으며 작업 로그에 정보를 이미 썼습니다.
 
-작업 유형을 반환할 작업 유형 값을 지정합니다. 다음 작업을 반환할 수 있습니다.
+작업 유형을 반환하려면 작업 유형 값을 지정합니다. 다음 작업을 반환할 수 있습니다.
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -60,7 +60,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업과 함께 제출된 <span class="codeph"> ActiveJob</span> 유형의 원래 이름입니다. </td> 
+   <td colname="col3">의 원래 이름 <span class="codeph"> ActiveJob</span> 작업과 함께 제출된 유형. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 유형</span> </span> </td> 
@@ -80,12 +80,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 로케일</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업 로그 세부 사항 및 전자 메일 지역화의 로케일입니다. <p><span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>로 로케일을 지정합니다. 여기서 언어 코드는 ISO-639에 의해 지정된 소문자, 두 문자 코드이고 선택적 국가 코드는 ISO-3166에 의해 지정된 대소문자, 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. <span class="codeph"> en-US</span> </p></td> 
+   <td colname="col3">작업 로그 세부 사항 및 전자 메일 지역화의 로케일입니다. <p>로캘을 로 지정 <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>: 언어 코드가 ISO-639에 따라 소문자, 두 문자 코드이고, 선택적 국가 코드는 ISO-3166에 따라 지정된 대소문자 두 문자 코드입니다. 예를 들어 영어(미국)의 로케일 문자열은 다음과 같습니다. <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 설명</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업 설명은 원래 <span class="codeph"> submitJob</span>에 지정되었습니다. </td> 
+   <td colname="col3">작업 설명은 원래 <span class="codeph"> submitJob</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverName</span> </span> </td> 
@@ -165,12 +165,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UploadPostJob</span> </td> 
-   <td colname="col3"> 작업 세부 사항 추적 데스크톱 업로드입니다. </td> 
+   <td colname="col3"> 작업 세부 사항, 데스크탑 업로드 추적. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:내보내기 작업</span> </td> 
-   <td colname="col3">이전에 업로드한 파일의 인증된 내보내기를 허용합니다. <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>을 참조하십시오. </td> 
+   <td colname="col3">이전에 업로드한 파일의 인증된 내보내기를 허용합니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>. </td> 
   </tr> 
  </tbody> 
 </table>

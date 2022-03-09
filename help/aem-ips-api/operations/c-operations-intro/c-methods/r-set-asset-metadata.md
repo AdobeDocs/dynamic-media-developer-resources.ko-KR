@@ -2,13 +2,13 @@
 description: 자산에 대한 메타데이터 값을 설정합니다. 묶음으로 값을 설정하는 메타데이터 업데이트 배열과 함께 작동합니다.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 9%
+source-wordcount: '123'
+ht-degree: 10%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 업데이트할 자산이 있는 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산에 대한 핸들입니다. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | 예 | 메타데이터 업데이트 배열의 업데이트. |
+| companyHandle | `xsd:string` | 예 | 업데이트할 자산이 있는 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 자산에 대한 핸들입니다. |
+| updateArray | `types:MetadataUpdateArray` | 예 | 메타데이터 업데이트 배열의 업데이트. |
 
 **출력(setAssetMetadataReturn)**
 

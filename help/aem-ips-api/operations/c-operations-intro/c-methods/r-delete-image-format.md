@@ -5,9 +5,9 @@ title: deleteImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 11%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들입니다. |
-| `*`imageFormatHandle`*` | `xsd:string` | 예 | 삭제할 이미지 형식의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 삭제할 이미지 형식이 포함된 회사의 핸들입니다. |
+| imageFormatHandle | `xsd:string` | 예 | 삭제할 이미지 형식의 핸들입니다. |
 
 **출력(deleteImageFormatParam)**
 

@@ -5,10 +5,10 @@ title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 26%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 폴더 핸들. |
-| `*`destFolderHandle`*` | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| folderHandle | `xsd:string` | 예 | 폴더 핸들. |
+| destFolderHandle | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
 
 **출력(moveFolderReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 예 | 이동한 폴더로 처리합니다. |
+| folderHandle | `xsd:string` | 예 | 이동한 폴더로 처리합니다. |
 
 ## 예제 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

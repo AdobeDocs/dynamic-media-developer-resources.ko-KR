@@ -2,13 +2,13 @@
 description: 게시용으로 표시된 자산에 대한 게시 컨텍스트를 반환합니다.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -34,9 +34,7 @@ ht-degree: 15%
 >
 >* 자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 >* 모든 사용자는 공유 회사에 액세스할 수 있습니다.
-
 >
-
 
 
 ## 매개 변수 {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`assetHandleArray`*` | ` `type:HandleArray&quot; | 예 | 활성(게시용으로 표시됨) 컨텍스트를 쿼리할 자산 목록입니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| assetHandleArray | ` `type:HandleArray&quot; | 예 | 활성(게시용으로 표시됨) 컨텍스트를 쿼리할 자산 목록입니다. |
 
 **출력(batchGetAssetPublishContextsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | 예 | 각 자산이 게시용으로 표시된 게시 컨텍스트의 배열입니다. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | 예 | 각 자산이 게시용으로 표시된 게시 컨텍스트의 배열입니다. |
 
 ## 예제 {#section-457f6809ccfa425b9a0976313d613f4e}
 

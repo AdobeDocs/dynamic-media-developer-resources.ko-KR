@@ -2,13 +2,13 @@
 description: 자산 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 메타데이터를 검색할 회사의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 메타데이터를 검색할 회사의 핸들입니다. |
 
 **출력(getAssetMetadataFieldsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별 메타데이터 필드 배열입니다. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별 메타데이터 필드 배열입니다. |
 
 ## 예제 {#section-d79ab85f29144635b0b61416e52f4f3f}
 

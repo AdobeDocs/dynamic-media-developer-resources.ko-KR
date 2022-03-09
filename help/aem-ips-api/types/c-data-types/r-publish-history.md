@@ -5,10 +5,10 @@ title: PublishHistory
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`serverName`*` | `xsd:string` | 게시 기록을 소유하는 서버의 이름입니다. |
-| `*`contextName`*` | `xsd:string` | 게시 기록 컨텍스트 이름. |
-| `*`publishFormat`*` | `xsd:string` | 게시 형식입니다. |
-| `*`lastPublished`*` | `xsd:dateTime` | 자산이 마지막으로 게시된 날짜 및 시간입니다. |
+| serverName | `xsd:string` | 게시 기록을 소유하는 서버의 이름입니다. |
+| contextName | `xsd:string` | 게시 기록 컨텍스트 이름. |
+| publishFormat | `xsd:string` | 게시 형식입니다. |
+| lastPublished | `xsd:dateTime` | 자산이 마지막으로 게시된 날짜 및 시간입니다. |

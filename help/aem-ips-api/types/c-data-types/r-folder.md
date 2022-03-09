@@ -5,10 +5,10 @@ title: 폴더
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 10%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 10%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`folderHandle`*` | `xsd:string` | 폴더 핸들. |
-| `*`경로`*` | `xsd:string` | 폴더 경로. |
-| `*`lastModified`*` | `xsd:dateTime` | 마지막 수정 날짜. |
-| `*`childLastModified`*` | `xsd:dateTime` | 하위 폴더 및 폴더 하위 자산에 대한 마지막 수정 날짜입니다. |
-| `*`permissionsSetHandle`*` | `xsd:string` | 폴더 권한 핸들입니다. |
-| `*`hasSubfolder`*` | `types:Boolean` | 폴더에 하위 폴더가 있는지 확인합니다. |
-| `*`subfolderArray`*` | `types:FolderArray` | 폴더의 하위 폴더 배열입니다. |
+| folderHandle | `xsd:string` | 폴더 핸들. |
+| 경로 | `xsd:string` | 폴더 경로. |
+| lastModified | `xsd:dateTime` | 마지막 수정 날짜. |
+| childLastModified | `xsd:dateTime` | 하위 폴더 및 폴더 하위 자산에 대한 마지막 수정 날짜입니다. |
+| permissionsSetHandle | `xsd:string` | 폴더 권한 핸들입니다. |
+| hasSubfolder | `types:Boolean` | 폴더에 하위 폴더가 있는지 확인합니다. |
+| subfolderArray | `types:FolderArray` | 폴더의 하위 폴더 배열입니다. |

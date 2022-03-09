@@ -5,10 +5,10 @@ title: 마스크
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 13%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`maskHandle`*` | `xsd:string` | 마스크 핸들입니다. |
-| `*`name`*` | `xsd:string` | 마스크 이름. |
-| `*`maskPath`*` | `xsd:string` | 마스크의 상대 경로입니다. |
-| `*`maskFile`*` | `xsd:string` | 마스크 파일. |
-| `*`lastModified`*` | `types:dateTime` | 마스크가 마지막으로 수정된 날짜, 시간 및 시간대입니다. |
+| maskHandle | `xsd:string` | 마스크 핸들입니다. |
+| 이름 | `xsd:string` | 마스크 이름. |
+| maskPath | `xsd:string` | 마스크의 상대 경로입니다. |
+| maskFile | `xsd:string` | 마스크 파일. |
+| lastModified | `types:dateTime` | 마스크가 마지막으로 수정된 날짜, 시간 및 시간대입니다. |

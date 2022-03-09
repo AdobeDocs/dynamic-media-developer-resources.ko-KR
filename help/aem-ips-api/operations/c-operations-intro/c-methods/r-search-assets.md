@@ -2,12 +2,12 @@
 description: 지정된 기준에 따라 자산을 검색합니다.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 7%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 7%
 
 **응답 크기**
 
-`searchAssets` 한 번의 호출로 최대 1000개의 자산을 반환합니다. 호출당 최대 10,000개의 자산을 반환하려면 응답 데이터를 `totalRows`, `name`, `handle`, `type` 및 `subType` 필드의 하위 집합으로 제한하십시오. 더 큰 세트를 반환하려면 `resultPage` 매개 변수를 사용하여 페이징을 설정하십시오.
+`searchAssets` 한 번의 호출로 최대 1000개의 자산을 반환합니다. 호출당 최대 10,000개의 자산을 반환하려면 응답 데이터를 의 하위 집합으로 제한합니다 `totalRows`, `name`, `handle`, `type`, 및 `subType` 필드. 큰 세트를 반환하려면 `resultPage` 매개 변수.
 
 **responseFieldArray 또는 excludeFieldArray로 결과 파일 크기 제한**
 
-`responseFieldArray` 또는 `excludFieldArray` 매개 변수로 데이터 세트의 크기를 제한합니다. 이러한 매개 변수는 메모리 사용 및 대역폭을 줄이고 서버 응답 시간을 개선하는 데 도움이 됩니다.
+데이터 세트의 크기를 `responseFieldArray` 또는 `excludFieldArray` 매개 변수. 이러한 매개 변수는 메모리 사용 및 대역폭을 줄이고 서버 응답 시간을 개선하는 데 도움이 됩니다.
 
 ## 인증된 사용자 유형 {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -90,7 +90,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> include하위 폴더</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">하위 폴더를 검색하려면 <span class="codeph"> true</span>로 설정하십시오. </td> 
+   <td colname="col4">을 로 설정합니다. <span class="codeph"> true</span> 하위 폴더를 검색하려면 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -102,25 +102,25 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">삭제 상태 선택. 기본값은 <span class="codeph"> NotInTrash</span>입니다. </td> 
+   <td colname="col4">삭제 상태 선택. 기본값은 입니다. <span class="codeph"> NotInTrash</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p><span class="codeph"> keywordArray</span> 결과를 결합하기 위한 검색 일치 모드 선택 </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> 및  <span class="codeph"> metadataConditionArray</span>. 기본값은 <span class="codeph"> MatchAll</span>입니다. </p> </td> 
+   <td colname="col4"> <p>결과를 결합할 검색 일치 모드 선택 <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, 및 <span class="codeph"> metadataConditionArray</span>. 기본값은 입니다. <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p> <p>참고:  사용되지 않는 매개 변수입니다. 사용하지 않는 것이 좋습니다. </p> </p> <p>일치하는 키워드의 문자열 배열입니다. </p> </td> 
+   <td colname="col4"> <p> <p>참고: 사용되지 않는 매개 변수입니다. 사용하지 않는 것이 좋습니다. </p> </p> <p>일치하는 키워드의 문자열 배열입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p><span class="codeph"> systemFieldCondition</span> 일치 항목을 조합하기 위한 검색 일치 모드 선택 기본값은 <span class="codeph"> MatchAll</span>입니다. </p>. </td> 
+   <td colname="col4"> <p>결합할 검색 일치 모드 선택 <span class="codeph"> systemFieldCondition</span> 일치. 기본값은 입니다. <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -132,19 +132,19 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">검색 일치 모드 문자열 상수. 기본값은 <span class="codeph"> MatchAll</span>입니다. </td> 
+   <td colname="col4">검색 일치 모드 문자열 상수. 기본값은 입니다. <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:TagConditionArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <p>태그 필드 검색 조건자의 배열입니다. </p> <p>조건자는 <span class="codeph"> tagMatchMode</span> 설정에 따라 결합된 다음 <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> 및 <span class="codeph"> metadataConditionArray</span>에 있는 모든 용어와 <span class="codeph"> conditionMatchMode</span> 설정에 따라 결합됩니다. </p> </td> 
+   <td colname="col4"> <p>태그 필드 검색 조건자의 배열입니다. </p> <p>조건자는 <span class="codeph"> tagMatchMode</span> 를 설정하고 을 <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>, 및 <span class="codeph"> metadataConditionArray</span> 에 따르면 <span class="codeph"> conditionMatchMode</span> 설정 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"><span class="codeph"> metadataCondition</span> 일치 항목을 조합하기 위한 검색 일치 모드 기본값은 <span class="codeph"> MatchAll</span>입니다. </td> 
+   <td colname="col4">결합할 검색 일치 모드 <span class="codeph"> metadataCondition</span> 일치. 기본값은 입니다. <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,7 +174,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"><span class="codeph"> true</span> 및 <span class="codeph"> assetSubTypeArray</span>가 비어 있지 않으면 하위 유형이 <span class="codeph"> assetSubTypeArray</span>에 있는 자산만 반환됩니다. <span class="codeph"> false</span>(기본값)이면 정의된 하위 유형이 없는 자산이 반환됩니다. </td> 
+   <td colname="col4">If <span class="codeph"> true</span> 및 <span class="codeph"> assetSubTypeArray</span> 는 비어 있지 않고 하위 유형이 있는 자산만 비어 있습니다. <span class="codeph"> assetSubTypeArray</span> 이 반환됩니다. If <span class="codeph"> false</span> (기본값) 정의된 하위 유형이 없는 자산이 반환됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
@@ -204,7 +204,7 @@ ht-degree: 7%
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"><span class="codeph"> recordsPerPage</span> 페이지 크기를 기준으로 반환할 결과 페이지를 지정합니다. </td> 
+   <td colname="col4">다음을 기준으로 반환할 결과 페이지를 지정합니다 <span class="codeph"> recordsPerPage</span> 페이지 크기. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ ht-degree: 7%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | 아니요 | 페이지당 레코드가 제한되지 않을 때 검색에서 반환하는 행 수입니다. |
-| `*`assetArray`*` | `types:AssetArray` | 아니요 | 검색이 반환하는 자산입니다. |
+| totalRows | `xsd:int` | 아니요 | 페이지당 레코드가 제한되지 않을 때 검색에서 반환하는 행 수입니다. |
+| assetArray | `types:AssetArray` | 아니요 | 검색이 반환하는 자산입니다. |
 
 ## 예제 {#section-725484cc09b54772a838ad2cc930b94b}
 

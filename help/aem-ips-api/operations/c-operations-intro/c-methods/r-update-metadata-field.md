@@ -2,13 +2,13 @@
 description: 필드 메타데이터를 업데이트합니다.
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 12%
+source-wordcount: '153'
+ht-degree: 13%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 12%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 로 설정된 경우 오류가 발생합니다 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
@@ -87,7 +87,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 예 | 메타데이터 필드 핸들입니다. |
+| fieldHandle | `xsd:string` | 예 | 메타데이터 필드 핸들입니다. |
 
 ## 예제 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 

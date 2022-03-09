@@ -5,10 +5,10 @@ title: getPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 아니요 | 회사의 손잡이입니다. 속성 세트 유형은 여러 회사에 속할 수 있으므로 선택 사항입니다. |
-| `*`name`*` | `xsd:string` | 예 | 속성 집합 형식 이름입니다. |
+| companyHandle | `xsd:string` | 아니요 | 회사의 손잡이입니다. 속성 세트 유형은 여러 회사에 속할 수 있으므로 선택 사항입니다. |
+| 이름 | `xsd:string` | 예 | 속성 집합 형식 이름입니다. |
 
 **출력(getPropertySetTypeReturn)**
 

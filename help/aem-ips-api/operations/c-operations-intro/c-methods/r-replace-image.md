@@ -2,13 +2,13 @@
 description: 이미지 자산에 대한 이미지 데이터를 대체합니다.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 15%
+source-wordcount: '103'
+ht-degree: 16%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 예 | 바꾸려는 이미지가 있는 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 바꿀 자산의 핸들입니다. |
-| `*`urlModifier`*` | `xsd:string` | 예 | 새 이미지 데이터를 생성하는 이미지 서버 명령입니다. |
+| companyName | `xsd:string` | 예 | 바꾸려는 이미지가 있는 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 바꿀 자산의 핸들입니다. |
+| urlModifier | `xsd:string` | 예 | 새 이미지 데이터를 생성하는 이미지 서버 명령입니다. |
 
 **출력(replaceImageReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 예 | 새 자산을 처리합니다. |
+| assetHandle | `xsd:string` | 예 | 새 자산을 처리합니다. |
 
 ## 예제 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-이 코드 샘플은 이미지를 대신하며 `urlModifier` 를 교체 시 이미지 서버가 아무 작업도 수행하지 않도록 지정하는 명령으로 적용합니다.
+이 코드 샘플은 이미지를 대체하고 `urlModifier` 교체 시 이미지 서버가 작업을 수행하지 않도록 지정하는 명령을 사용합니다.
 
 **요청**
 

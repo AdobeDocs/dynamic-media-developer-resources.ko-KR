@@ -2,13 +2,13 @@
 description: 이미지 집합에 있는 멤버 배열을 가져옵니다.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,이미지 세트
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 15%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 세트가 포함된 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 세트 자산 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 이미지 세트가 포함된 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 이미지 세트 자산 핸들입니다. |
 
 **출력(getImageSetMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`memberArray`*` | `types:ImageSetMemberArray` | 아니요 | 이미지 집합 구성원의 배열입니다. |
+| memberArray | `types:ImageSetMemberArray` | 아니요 | 이미지 집합 구성원의 배열입니다. |
 
 ## 예제 {#section-888a9a78033346f39b171229de93dfa0}
 

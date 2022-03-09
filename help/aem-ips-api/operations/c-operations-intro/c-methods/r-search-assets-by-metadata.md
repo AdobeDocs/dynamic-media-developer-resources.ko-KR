@@ -2,12 +2,12 @@
 description: 메타데이터 인덱스 저장소에서 주어진 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '328'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 메타데이터 인덱스 저장소에서 주어진 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 
-`searchAssetsByMetadata` 을 사용하면 사용자 정의 메타데이터 필드를 검색할 수 있지만 `responseMetadataArray`에 지정된 경우 해당 필드가 반환되지 않습니다. 이 점을 설명하려면 다음 코드 예를 참조하십시오.
+While `searchAssetsByMetadata` 사용자 정의 메타데이터 필드를 검색할 수 있도록 이 필드들은 `responseMetadataArray`. 이 점을 설명하려면 다음 코드 예를 참조하십시오.
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ null 값 반환:
 </items>
 ```
 
-이 문제를 해결하려면 검색에서 반환되는 자산의 `fieldHandles` 을 사용하여 `getAssets` 를 실행할 수 있습니다([getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca) 참조). 이 메서드는 해당 자산에 대한 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색합니다.
+이 문제를 해결하려면 `fieldHandles` 검색할 자산에서 반환되어 실행됩니다. `getAssets` ( [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). 이 메서드는 해당 자산에 대한 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색합니다.
 
 ```java
 <ns:metadataConditionArray>
@@ -79,7 +79,7 @@ null 값 반환:
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 필터</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> 유형:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p><a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a> 를 참조하십시오. </p> </td> 
+   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p>자세한 내용은 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
@@ -103,7 +103,7 @@ null 값 반환:
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> recordsPerPage</span> 페이지 크기를 기준으로 반환할 결과 페이지를 지정합니다. </p> </td> 
+   <td colname="col4"> <p>다음을 기준으로 반환할 결과 페이지를 지정합니다 <span class="codeph"> recordsPerPage</span> 페이지 크기. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ null 값 반환:
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | 아니요 | 일치 항목 수. |
-| `*`assetArray`*` | `types:AssetArray` | 아니요 | 검색에서 반환된 자산의 배열입니다. |
+| totalRows | `xsd:int` | 아니요 | 일치 항목 수. |
+| assetArray | `types:AssetArray` | 아니요 | 검색에서 반환된 자산의 배열입니다. |
 
 ## metadataConditionArray 세부 정보 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ null 값 반환:
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (양식 `modified_at` 의 날짜: 2014년 7월 25일:13:22년 7월 25일 GMT-0500(CDT)
+* `created_at` (과 동일) `modified_at` (양식의 날짜: 2014년 7월 25일 22일:13:45 GMT-0500(CDT)
 
 * `created_by`
 
 **허용된 연산자**
 
-[!DNL operator] 은 값을 비교하고 를 포함하는 방법을 정의합니다.
+다음 [!DNL operator] 값을 비교하고 다음을 포함하는 방법을 정의합니다.
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ null 값 반환:
 * `StartsWith`
 * `EndsWith`
 
-`comparison_value`은 검색할 용어입니다.
+다음 `comparison_value` 은 검색할 용어입니다.
 
 ## 예제 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 이 코드 샘플은 다음 메타데이터 기준으로 검색을 수행합니다.
 
-* `name` 필드에  `1000801`가 있습니다.
+* `name` 필드 포함 `1000801`.
 
-* `dc.rights` 필드가  `Per Jessen Schmidt`같음.
+* `dc.rights` 필드 같음 `Per Jessen Schmidt`.
 
 **요청**
 

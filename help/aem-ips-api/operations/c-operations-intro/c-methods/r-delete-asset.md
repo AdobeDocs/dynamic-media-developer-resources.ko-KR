@@ -2,13 +2,13 @@
 description: 자산을 삭제합니다.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 삭제할 자산의 핸들입니다. |
 
 **출력(deleteAssetParam)**
 

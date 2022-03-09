@@ -5,10 +5,10 @@ title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 21%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
@@ -36,14 +36,14 @@ Zip 파일 데이터를 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | Zip 파일이 포함된 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | Zip 파일로 처리합니다. |
+| companyHandle | `xsd:string` | 예 | Zip 파일이 포함된 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | Zip 파일로 처리합니다. |
 
 **출력(getZipEntriesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | 예 | Zip 파일에 있는 항목의 배열입니다. |
+| zipArray | `types:ZipEntryArray` | 예 | Zip 파일에 있는 항목의 배열입니다. |
 
 ## 예제 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

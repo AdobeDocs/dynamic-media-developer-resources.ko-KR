@@ -5,10 +5,10 @@ title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 23%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`항목`*` | `types:PropertySet` | 속성 집합 배열입니다. |
+| 항목 | `types:PropertySet` | 속성 집합 배열입니다. |

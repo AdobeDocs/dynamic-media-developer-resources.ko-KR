@@ -2,13 +2,13 @@
 description: 자산 세트를 업데이트합니다.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
@@ -24,10 +24,10 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
-| `*`setDefinition`*` | `xsd:string` | 아니요 | 이미지 세트 멤버를 재설정합니다. |
-| `*`thumbAssetHandle`*` | `xsd:string` | 아니요 | 이미지 세트의 축소판 역할을 하는 자산의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
+| setDefinition | `xsd:string` | 아니요 | 이미지 세트 멤버를 재설정합니다. |
+| thumbAssetHandle | `xsd:string` | 아니요 | 이미지 세트의 축소판 역할을 하는 자산의 핸들입니다. |
 
 **출력(updateAssetSetReturn)**
 

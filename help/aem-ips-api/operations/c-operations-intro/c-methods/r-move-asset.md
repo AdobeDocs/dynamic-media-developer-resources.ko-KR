@@ -2,13 +2,13 @@
 description: 자산을 특정 폴더로 이동합니다.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이동할 자산을 처리합니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| assetHandle | `xsd:string` | 예 | 이동할 자산을 처리합니다. |
+| folderHandle | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
 
 **출력(moveAssetReturn)**
 

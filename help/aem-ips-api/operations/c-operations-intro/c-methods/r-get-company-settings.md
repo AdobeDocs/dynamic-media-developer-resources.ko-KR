@@ -5,10 +5,10 @@ title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '64'
+ht-degree: 25%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 23%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 설정을 검색할 회사의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 설정을 검색할 회사의 핸들입니다. |
 
 **출력(getCompanySettingsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`설정`*` | `types:CompanySettings` | 예 | 회사 설정. |
+| 설정 | `types:CompanySettings` | 예 | 회사 설정. |
 
 ## 예제 {#section-191f78995ecf473a95eadf7296204fd7}
 

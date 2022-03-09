@@ -2,13 +2,13 @@
 description: 메타데이터 필드에 대한 모든 값을 반환합니다.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 데이터를 가져올 회사의 핸들입니다. |
-| `*`metadataKey`*` | `xsd:string` | 예 | 점 표기법의 메타데이터 키. |
+| companyHandle | `xsd:string` | 예 | 데이터를 가져올 회사의 핸들입니다. |
+| metadataKey | `xsd:string` | 예 | 점 표기법의 메타데이터 키. |
 
 **출력(getDistinctMetadataValuesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | 예 | 요청된 메타데이터 필드의 값입니다. |
+| valueArray | `types:ValueArray` | 예 | 요청된 메타데이터 필드의 값입니다. |
 
 ## 예제 {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

@@ -5,10 +5,10 @@ title: pauseJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '61'
+ht-degree: 19%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`jobHandle`*` | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| jobHandle | `xsd:string` | 예 | 일시 중지할 작업을 처리합니다. |
 
 **출력(PauseJobReturn)**
 

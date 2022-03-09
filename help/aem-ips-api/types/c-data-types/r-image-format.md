@@ -5,10 +5,10 @@ title: ImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 10%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`imageFormatHandle`*` | `xsd:string` | 이미지 형식 핸들. |
-| `*`name`*` | `xsd:string` | 이미지 형식 이름입니다. |
-| `*`urlModifier`*` | `xsd:string` | 이미지 형식을 나타내는 이미지 서버 URL입니다. |
+| imageFormatHandle | `xsd:string` | 이미지 형식 핸들. |
+| 이름 | `xsd:string` | 이미지 형식 이름입니다. |
+| urlModifier | `xsd:string` | 이미지 형식을 나타내는 이미지 서버 URL입니다. |

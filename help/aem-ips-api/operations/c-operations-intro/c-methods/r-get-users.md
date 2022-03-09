@@ -5,7 +5,7 @@ title: getUsers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 10%
@@ -26,22 +26,22 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`inactive`*` | `xsd:boolean` | 아니요 | 비활성 사용자를 포함하거나 제외합니다. IPS가 아닌 관리자 사용자는 API 호출을 수행할 수 있는 권한이 있는 적어도 하나의 회사의 활성 구성원이어야 합니다. 사용자에게 활성 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
-| `*`includeInvalid`*` | `xsd:boolean` | 아니요 | 잘못된 사용자를 포함/제외할 수 있습니다. |
-| `*`companyHandleArray`*` | `types:HandleArray` | 아니요 | 회사별로 결과를 필터링합니다. |
-| `*`groupHandleArray`*` | `types:HandleArray` | 아니요 | 그룹별로 결과를 필터링합니다. |
-| `*`userRoleArray`*` | `types:StringArray` | 아니요 | 사용자 역할별로 결과를 필터링합니다. |
-| `*`charFilterField`*` | `xsd:string` | 아니요 | 필드의 문자열 접두사별로 결과를 필터링합니다(참조: [!DNL Trash State).] |
-| `*`charFilter`*` | `xsd:string` | 아니요 | 특정 문자별로 결과를 필터링합니다. |
-| `*`sortBy`*` | `xsd:string` | 아니요 | 사용자 정렬 필드 선택. |
-| `*`recordsPerPage`*` | `xsd:int` | 아니요 | 페이지당 지정된 레코드 수를 반환합니다. |
-| `*`resultsPage`*` | `xsd:int` | 아니요 | 결과 페이지. |
+| inactive | `xsd:boolean` | 아니요 | 비활성 사용자를 포함하거나 제외합니다. IPS가 아닌 관리자 사용자는 API 호출을 수행할 수 있는 권한이 있는 적어도 하나의 회사의 활성 구성원이어야 합니다. 사용자에게 활성 회사 멤버십이 없는 경우 인증 오류가 반환됩니다. |
+| includeInvalid | `xsd:boolean` | 아니요 | 잘못된 사용자를 포함/제외할 수 있습니다. |
+| companyHandleArray | `types:HandleArray` | 아니요 | 회사별로 결과를 필터링합니다. |
+| groupHandleArray | `types:HandleArray` | 아니요 | 그룹별로 결과를 필터링합니다. |
+| userRoleArray | `types:StringArray` | 아니요 | 사용자 역할별로 결과를 필터링합니다. |
+| charFilterField | `xsd:string` | 아니요 | 필드의 문자열 접두사별로 결과를 필터링합니다(참조: [!DNL Trash State).] |
+| charFilter | `xsd:string` | 아니요 | 특정 문자별로 결과를 필터링합니다. |
+| sortBy | `xsd:string` | 아니요 | 사용자 정렬 필드 선택. |
+| recordsPerPage | `xsd:int` | 아니요 | 페이지당 지정된 레코드 수를 반환합니다. |
+| resultsPage | `xsd:int` | 아니요 | 결과 페이지. |
 
 **출력(getUsersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userArray`*` | `types:UserArray` | 예 | 사용자 배열입니다. |
+| userArray | `types:UserArray` | 예 | 사용자 배열입니다. |
 
 ## 예제 {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 

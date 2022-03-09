@@ -2,13 +2,13 @@
 description: 메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '217'
+ht-degree: 9%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 8%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 설정된 경우 오류가 발생합니다. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 로 설정된 경우 오류가 발생합니다 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,11 +96,11 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | 예 | 새 메타데이터 필드를 처리합니다. |
+| fieldHandle | `xsd:string` | 예 | 새 메타데이터 필드를 처리합니다. |
 
 ## 예제 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-이 코드 샘플은 자산 유형 및 메타데이터 필드 유형 문자열 상수로 제한되는 새 메타데이터 필드를 만듭니다. `fieldHandle` 요소에 유효한 필드 핸들 값이 있으면 메타데이터 값이 변경되고 요청에 지정한 필드 핸들이 동일합니다.
+이 코드 샘플은 자산 유형 및 메타데이터 필드 유형 문자열 상수로 제한되는 새 메타데이터 필드를 만듭니다. 만약 `fieldHandle` 요소에 올바른 필드 핸들 값이 있고, 메타데이터 값을 변경하고, 요청에 지정한 것과 동일한 필드 핸들을 가져옵니다.
 
 **요청**
 

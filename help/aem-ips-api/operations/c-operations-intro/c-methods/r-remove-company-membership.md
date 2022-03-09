@@ -5,10 +5,10 @@ title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 12%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자의 핸들입니다. |
-| `*`companyHandleArray`*` | `types:HandleArray` | 예 | 사용자를 제거하는 회사의 핸들입니다. |
+| userHandle | `xsd:string` | 아니요 | 제거할 멤버십이 있는 사용자의 핸들입니다. |
+| companyHandleArray | `types:HandleArray` | 예 | 사용자를 제거하는 회사의 핸들입니다. |
 
 **출력(removeCompanyMembershipReturn)**
 

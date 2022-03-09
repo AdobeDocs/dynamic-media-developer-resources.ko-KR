@@ -5,10 +5,10 @@ title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | 예 | 속성 집합을 처리합니다. |
-| `*`replaceProperties`*` | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`로 설정하십시오. |
-| `*`propertyArray`*` | `types:PropertyArray` | 예 | 속성 세트에 대해 업데이트된 속성의 배열입니다. |
+| setHandle | `xsd:string` | 예 | 속성 집합을 처리합니다. |
+| replaceProperties | `xsd:string` | 아니요 | 을 로 설정합니다. `true` 를 클릭하여 속성을 바꿉니다. |
+| propertyArray | `types:PropertyArray` | 예 | 속성 세트에 대해 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**
 

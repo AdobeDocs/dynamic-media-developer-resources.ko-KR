@@ -2,13 +2,13 @@
 description: 프로젝트에서 자산을 제거합니다. 자산을 삭제하지 않습니다.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 10%
+source-wordcount: '178'
+ht-degree: 11%
 
 ---
 
@@ -32,19 +32,19 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들입니다. |
-| `*`projectHandle`*` | `xsd:string` | 예 | 이동할 프로젝트 자산의 핸들입니다. |
-| `*`assetHandleArray`*` | `types:HandleArray` | 예 | 이동할 자산에 대한 핸들의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 이동할 자산이 있는 회사의 핸들입니다. |
+| projectHandle | `xsd:string` | 예 | 이동할 프로젝트 자산의 핸들입니다. |
+| assetHandleArray | `types:HandleArray` | 예 | 이동할 자산에 대한 핸들의 배열입니다. |
 
 **출력(removeProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 자산 수를 제거했습니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 경고를 생성한 자산과 연결된 세부 정보의 배열로서, 프로젝트에서 해당 자산을 제거하려고 했습니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 오류를 제거하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | `xsd:int` | 예 | 자산 수를 제거했습니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 프로젝트에서 자산을 제거하려고 할 때 생성된 오류 수입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 경고를 생성한 자산과 연결된 세부 정보의 배열로서, 프로젝트에서 해당 자산을 제거하려고 했습니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 오류를 제거하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 

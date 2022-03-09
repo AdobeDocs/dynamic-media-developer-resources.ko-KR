@@ -5,9 +5,9 @@ title: getSearchStrings
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산을 처리합니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| assetHandle | `xsd:string` | 예 | 자산을 처리합니다. |
 
 **출력(getSearchStringsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | 예 | 자산 검색 문자열의 배열입니다. |
+| searchStringArray | `types:SearchStrings` | 예 | 자산 검색 문자열의 배열입니다. |
 
 ## 예제 {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 

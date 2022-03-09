@@ -5,10 +5,10 @@ title: deleteVignettePublishFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a437cb47-c45c-41a0-8499-53e4c2ae3164
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 13%
+source-wordcount: '75'
+ht-degree: 14%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 비네트가 속한 회사의 핸들입니다. |
-| `*`vignetteFormatHandle`*` | `xsd:string` | 예 | 삭제할 비네팅 게시 형식의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 비네트가 속한 회사의 핸들입니다. |
+| vignetteFormatHandle | `xsd:string` | 예 | 삭제할 비네팅 게시 형식의 핸들입니다. |
 
 **출력(deleteVignettePublishFormatParam)**
 

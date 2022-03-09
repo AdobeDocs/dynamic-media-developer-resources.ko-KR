@@ -5,10 +5,10 @@ title: 제외 부산물 조건
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
@@ -22,5 +22,5 @@ ht-degree: 9%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`엔진`*` | `xsd:string` | 제외할 자산을 만든 생성 엔진입니다. 값에 대해서는 생성 정보 를 참조하십시오. |
-| `*`generatedAssetType`*` | `xsd:string` | 제외된 자산 유형. 값에 대해서는 자산 유형 을 참조하십시오. |
+| 엔진 | `xsd:string` | 제외할 자산을 만든 생성 엔진입니다. 값에 대해서는 생성 정보 를 참조하십시오. |
+| generatedAssetType | `xsd:string` | 제외된 자산 유형. 값에 대해서는 자산 유형 을 참조하십시오. |

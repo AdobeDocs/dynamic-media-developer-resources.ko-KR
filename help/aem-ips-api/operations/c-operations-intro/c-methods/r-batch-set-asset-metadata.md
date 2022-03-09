@@ -2,12 +2,12 @@
 description: 일괄 처리 모드를 사용하여 자산 메타데이터를 설정합니다.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,메타데이터,자산 관리
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '145'
 ht-degree: 13%
 
 ---
@@ -33,18 +33,18 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 배치 작업에서 설정할 메타데이터가 있는 회사의 핸들입니다. |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | 예 | 자산에 적용된 메타데이터 업데이트 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 배치 작업에서 설정할 메타데이터가 있는 회사의 핸들입니다. |
+| updateArray | `types:BatchMetadataUpdateArray` | 예 | 자산에 적용된 메타데이터 업데이트 배열입니다. |
 
 **출력(batchSetAssetMetadataParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 메타데이터를 성공적으로 설정한 수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 경고를 생성하는 자산과 연관된 세부 정보의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 오류를 생성하는 자산과 연관된 세부 사항의 배열입니다. |
+| successCount | `xsd:int` | 예 | 메타데이터를 성공적으로 설정한 수입니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 오류 수입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 경고를 생성하는 자산과 연관된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 오류를 생성하는 자산과 연관된 세부 사항의 배열입니다. |
 
 ## 예제 {#section-2de798ac920e4b47b971b1729a64395b}
 

@@ -5,10 +5,10 @@ title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 19%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 작업할 이미지로 회사를 처리합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 이미지 자산에 대해 처리합니다. |
-| `*`pathName`*` | `xsd:string` | 예 | 반환할 Photoshop 경로의 이름입니다. |
+| companyHandle | `xsd:string` | 예 | 작업할 이미지로 회사를 처리합니다. |
+| assetHandle | `xsd:string` | 예 | 이미지 자산에 대해 처리합니다. |
+| pathName | `xsd:string` | 예 | 반환할 Photoshop 경로의 이름입니다. |
 
 **출력(getPhotoshopPathReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | 예 | 경로를 기반으로 이미지 좌표를 반환합니다. [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204)를 참조하십시오. |
+| perspectiveQuad | `types:PerspectiveQuad` | 예 | 경로를 기반으로 이미지 좌표를 반환합니다. 자세한 내용은 [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## 예제 {#section-1f0461cbdc184c8d8925336d5279db47}
 

@@ -5,10 +5,10 @@ title: setImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사 핸들. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | 예 | 사전 정의된 이미지 맵의 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 자산 핸들. |
+| imageMapArray | `types:ImageMapDefinitionArray` | 예 | 사전 정의된 이미지 맵의 배열입니다. |
 
 **출력(setImageMapReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | 예 | 이미지 맵 핸들이 자산에 적용된 배열입니다. |
+| imageMapHandleArray | `types:HandleArray` | 예 | 이미지 맵 핸들이 자산에 적용된 배열입니다. |
 
 ## 예제 {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

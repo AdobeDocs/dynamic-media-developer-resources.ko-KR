@@ -5,10 +5,10 @@ title: deleteFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 10%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
-| `*`folderHandle`*` | `xsd:string` | 예 | 삭제할 폴더의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 폴더가 속한 회사의 핸들입니다. |
+| folderHandle | `xsd:string` | 예 | 삭제할 폴더의 핸들입니다. |
 
 **출력(deleteFolderParam)**
 

@@ -5,9 +5,9 @@ title: deleteProject
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '128'
 ht-degree: 9%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | 예 | 프로젝트와 연결된 회사의 이름입니다. |
-| `*`projectHandle`*` | `xsd:string` | 예 | 삭제할 프로젝트의 핸들입니다. |
+| companyName | `xsd:string` | 예 | 프로젝트와 연결된 회사의 이름입니다. |
+| projectHandle | `xsd:string` | 예 | 삭제할 프로젝트의 핸들입니다. |
 
 **출력(deleteProjectReturn)**
 

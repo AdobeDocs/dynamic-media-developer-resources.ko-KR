@@ -5,10 +5,10 @@ title: 캐비닛 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 78ec00cd-c410-412c-970f-96226563a45a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 7%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | 원래 캐비닛의 상대 경로입니다. |
-| `*`originalFile`*` | `xsd:string` | 캐비닛 이름. |
-| `*`fileSize`*` | `xsd:int` | 캐비닛 크기입니다. |
-| `*`imagePath`*` | `xsd:string` | 비네트와 연관된 캐비닛의 상대 경로입니다. |
-| `*`imageFile`*` | `xsd:string` | 비네트와 연결된 캐비닛의 파일 이름입니다. |
-| `*`optimizedPath`*` | `xsd:string` | IPS에 최적화된 캐비닛의 경로입니다. |
-| `*`optimizedFile`*` | `xsd:string` | IPS에 최적화된 캐비닛 파일입니다. |
+| originalPath | `xsd:string` | 원래 캐비닛의 상대 경로입니다. |
+| originalFile | `xsd:string` | 캐비닛 이름. |
+| fileSize | `xsd:int` | 캐비닛 크기입니다. |
+| imagePath | `xsd:string` | 비네트와 연관된 캐비닛의 상대 경로입니다. |
+| imageFile | `xsd:string` | 비네트와 연결된 캐비닛의 파일 이름입니다. |
+| optimizedPath | `xsd:string` | IPS에 최적화된 캐비닛의 경로입니다. |
+| optimizedFile | `xsd:string` | IPS에 최적화된 캐비닛 파일입니다. |

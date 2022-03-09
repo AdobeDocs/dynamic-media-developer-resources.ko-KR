@@ -5,10 +5,10 @@ title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 17%
+source-wordcount: '90'
+ht-degree: 18%
 
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | 예 | 데이터베이스 객체에 바인딩된 데이터의 기본 소유자입니다. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | 아니요 | 데이터의 선택적 보조 소유자. |
+| typeHandle | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
+| primaryOwnerHandle | `xsd:string` | 예 | 데이터베이스 객체에 바인딩된 데이터의 기본 소유자입니다. |
+| secondaryOwnerHandle | `xsd:string` | 아니요 | 데이터의 선택적 보조 소유자. |
 
 **출력(getPropertySetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | 예 | 속성 세트의 배열입니다. |
+| setArray | `types:PropertySetArray` | 예 | 속성 세트의 배열입니다. |
 
 ## 예제 {#section-1358af974eab4259864910337a6f0bd2}
 

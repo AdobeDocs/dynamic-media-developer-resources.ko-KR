@@ -5,10 +5,10 @@ title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | 아니요 | 정보를 반환할 사용자를 처리합니다. |
-| `*`이메일`*` | `xsd:string` | 아니요 | 사용자 이메일 주소입니다. |
+| userHandle | `xsd:string` | 아니요 | 정보를 반환할 사용자를 처리합니다. |
+| 이메일 | `xsd:string` | 아니요 | 사용자 이메일 주소입니다. |
 
 **출력(getUserInfoReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할과 사용자의 유효 여부 및 암호가 만료되는 시기 |
+| userInfo | `types:User` | 예 | 사용자의 이름, 성, 이메일 주소 및 역할과 사용자의 유효 여부 및 암호가 만료되는 시기 |
 
 ## 예제 {#section-98d77a2e360a438dbe240099bea26a65}
 

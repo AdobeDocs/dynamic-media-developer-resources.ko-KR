@@ -5,10 +5,10 @@ title: 작업 장애
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
@@ -24,5 +24,5 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시�
 
 | ** 이름** | ** 유형** | ** 설명** |
 |---|---|---|
-| `*`코드`*` | `xsd:int` | CDN에서 제공된 오류 코드 |
-| `*`이유`*` | `xsd:string` | CDN에서 제공된 오류 메시지 |
+| 코드 | `xsd:int` | CDN에서 제공된 오류 코드 |
+| 이유 | `xsd:string` | CDN에서 제공된 오류 메시지 |

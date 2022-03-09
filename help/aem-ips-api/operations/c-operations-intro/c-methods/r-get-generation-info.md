@@ -5,10 +5,10 @@ title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
@@ -36,18 +36,18 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`코드 구문`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| `*`코드 구문`*` | `xsd:string` | 아니요 | 세대에 사용된 엔진입니다. 글꼴 스타일을 참조하십시오. |
-| `*`코드 구문`*` | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들입니다. |
-| `*`코드 구문`*` | `xsd:string` | 아니요 | 해당 세대에 사용된 자산 및 엔진을 쿼리할 자산의 핸들입니다. |
-| `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에 포함된 속성입니다. |
-| `*`코드 구문`*` | `xsd:StringArray` | 아니요 | 작업에서 제외된 속성입니다. |
+| 코드 구문 | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| 코드 구문 | `xsd:string` | 아니요 | 세대에 사용된 엔진입니다. 글꼴 스타일을 참조하십시오. |
+| 코드 구문 | `xsd:string` | 아니요 | 생성된 자산을 쿼리할 자산의 핸들입니다. |
+| 코드 구문 | `xsd:string` | 아니요 | 해당 세대에 사용된 자산 및 엔진을 쿼리할 자산의 핸들입니다. |
+| 코드 구문 | `xsd:StringArray` | 아니요 | 작업에 포함된 속성입니다. |
+| 코드 구문 | `xsd:StringArray` | 아니요 | 작업에서 제외된 속성입니다. |
 
 **출력(getGenerationInfoReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`generationArray`*` | `types:GenerationInfoArray` | 예 | 생성 정보의 배열입니다. |
+| generationArray | `types:GenerationInfoArray` | 예 | 생성 정보의 배열입니다. |
 
 ## 예제 {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

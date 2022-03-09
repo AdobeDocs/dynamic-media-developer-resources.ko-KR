@@ -5,10 +5,10 @@ title: deleteZoomTarget
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 12%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 확대/축소 대상이 속하는 회사의 핸들입니다. |
-| `*`zoomTargetHandle`*` | `xsd:string` | 예 | 삭제할 확대/축소 타겟의 핸들입니다. |
+| companyHandle | `xsd:string` | 예 | 확대/축소 대상이 속하는 회사의 핸들입니다. |
+| zoomTargetHandle | `xsd:string` | 예 | 삭제할 확대/축소 타겟의 핸들입니다. |
 
 **출력(deleteZoomTargetParam)**
 

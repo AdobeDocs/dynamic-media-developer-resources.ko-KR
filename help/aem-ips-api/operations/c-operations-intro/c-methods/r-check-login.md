@@ -5,10 +5,10 @@ title: checkLogin
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 12%
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
@@ -38,19 +38,19 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
-| `*`이메일`*` | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
-| `*`암호`*` | `xsd:string` | 예 | 사용자의 암호입니다. |
+| companyHandle | `xsd:string` | 아니요 | 사용자가 포함된 회사의 핸들입니다. |
+| 이메일 | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
+| 암호 | `xsd:string` | 예 | 사용자의 암호입니다. |
 
 **출력(checkLoginParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`status`*` | `xsd:string` | 예 | 사용자의 로그인 상태입니다. |
+| status | `xsd:string` | 예 | 사용자의 로그인 상태입니다. |
 
 ## 예제 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-이 샘플 코드는 회사 핸들 매개 변수, 전자 메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. 사용자 *이(가)*&#x200B;로그인할 수 있으면 이 메서드는 문자열 `ValidLogin`를 반환합니다. 사용자 *이(가)*&#x200B;로그인할 수 없는 경우 이 메서드는 문자열 `InvalidLogin`를 반환합니다.
+이 샘플 코드는 회사 핸들 매개 변수, 전자 메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. 사용자가 *다음을 수행할 수 있습니다.* log in, 이 메서드는 문자열 반환, `ValidLogin`. 사용자가 *사용할 수 없음* log in, 이 메서드는 문자열 반환, `InvalidLogin`.
 
 **요청**
 

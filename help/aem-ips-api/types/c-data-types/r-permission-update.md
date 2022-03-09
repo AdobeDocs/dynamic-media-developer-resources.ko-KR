@@ -5,10 +5,10 @@ title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | 그룹 핸들. |
-| `*`permissionType`*` | `xsd:string` | 권한 유형입니다. |
-| `*`isAllowed`*` | `xsd:boolean` | 권한 업데이트가 허용되는지 확인합니다. |
-| `*`isOverride`*` | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |
+| groupHandle | `xsd:string` | 그룹 핸들. |
+| permissionType | `xsd:string` | 권한 유형입니다. |
+| isAllowed | `xsd:boolean` | 권한 업데이트가 허용되는지 확인합니다. |
+| isOverride | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |

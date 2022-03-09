@@ -5,10 +5,10 @@ title: FontFieldUpdate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 14%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 12%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | 글꼴 자산 핸들. |
-| `*`fontName`*` | `xsd:string` | 글꼴 이름. |
-| `*`postscriptName`*` | `xsd:string` | PostScript 글꼴 이름입니다. |
-| `*`rtfName`*` | `xsd:string` | 리치 텍스트 글꼴 이름입니다. |
-| `*`글꼴 모음`*` | `xsd:string` | 글꼴 패밀리 이름입니다. |
-| `*`style`*` | `xsd:string` | 글꼴 스타일(값에 대한 글꼴 스타일 참조). |
-| `*`typeName`*` | `xsd:string` | 글꼴 유형 이름입니다. |
-| `*`type`*` | `xsd:string` | 글꼴 유형(값에 대한 글꼴 유형 참조). |
+| assetHandle | `xsd:string` | 글꼴 자산 핸들. |
+| fontName | `xsd:string` | 글꼴 이름. |
+| postscriptName | `xsd:string` | PostScript 글꼴 이름입니다. |
+| rtfName | `xsd:string` | 리치 텍스트 글꼴 이름입니다. |
+| 글꼴 모음 | `xsd:string` | 글꼴 패밀리 이름입니다. |
+| style | `xsd:string` | 글꼴 스타일(값에 대한 글꼴 스타일 참조). |
+| typeName | `xsd:string` | 글꼴 유형 이름입니다. |
+| 유형 | `xsd:string` | 글꼴 유형(값에 대한 글꼴 유형 참조). |

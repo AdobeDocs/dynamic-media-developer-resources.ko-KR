@@ -2,13 +2,13 @@
 description: 뷰어 구성 설정을 자산에 첨부합니다. 뷰어 사전 설정 또는 뷰어의 소스 자산일 수 있습니다.
 solution: Experience Manager
 title: setViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,뷰어 사전 설정
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 6b70f2c3-c98b-455f-b453-bb797744dadc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 11%
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사를 담당합니다. |
-| `*`assetHandle`*` | `xsd:string` | 예 | 자산 핸들. |
-| `*`name`*` | `xsd:string` | 예 | 자산 이름. |
-| `*`type`*` | `xsd:string` | 예 | 뷰어 구성을 적용할 자산의 유형입니다. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | 예 | 자산에 적용된 `ConfigSettings` 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| assetHandle | `xsd:string` | 예 | 자산 핸들. |
+| 이름 | `xsd:string` | 예 | 자산 이름. |
+| 유형 | `xsd:string` | 예 | 뷰어 구성을 적용할 자산의 유형입니다. |
+| configSettingArray | `types:ConfigSettingArray` | 예 | 의 배열 `ConfigSettings` 자산에 적용됨.. |
 
 **출력(setViewerConfigSettingsParam)**
 

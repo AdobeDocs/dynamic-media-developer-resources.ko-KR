@@ -5,9 +5,9 @@ title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | 예 | 삭제할 속성 집합 유형에 대한 핸들입니다. |
+| typeHandle | `xsd:string` | 예 | 삭제할 속성 집합 유형에 대한 핸들입니다. |
 
 **출력(deletePropertySetTypeParam)**
 
@@ -39,7 +39,7 @@ IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-이 코드 샘플은 IPS 웹 서비스 서버로 전송된 `deletePropertySetTypeParam`의 필드로 유형의 핸들을 사용하여 속성 집합 유형을 삭제합니다.
+이 코드 샘플은 형식의 핸들을 `deletePropertySetTypeParam` 속성 세트 유형을 삭제하기 위해 IPS 웹 서비스 서버로 전송됩니다.
 
 **요청**
 

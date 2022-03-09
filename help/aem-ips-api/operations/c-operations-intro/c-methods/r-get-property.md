@@ -5,10 +5,10 @@ title: getProperty
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 10%
 * `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: SVG 자산을 렌더링하기 위한 URL 접두사입니다.
-* `SvgRenderEnabled`: SVG 자산을 로 렌더링할 수 있는 경우 True입니다 `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: SVG 자산 렌더링용 URL 접두사입니다.
+* `SvgRenderEnabled`: SVG 자산을 `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]. 시스템은 최대 제한보다 큰 파일을 거부합니다.
+* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트)입니다 [!DNL POST]. 시스템은 최대 제한보다 큰 파일을 거부합니다.
 
 ## 인증된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
+| 이름 | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
 
 **출력(getPropertyReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | 예 | 속성 값입니다. |
+| 값 | `xsd:string` | 예 | 속성 값입니다. |
 
 ## 예제 {#section-3f80a78dd60c404181b34d3a912d7a36}
 

@@ -5,10 +5,10 @@ title: getProjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '66'
+ht-degree: 22%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
 
 **출력(getProjectsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | 예 | 회사와 연결된 프로젝트의 배열입니다. |
+| projectArray | `types:ProjectArray` | 예 | 회사와 연결된 프로젝트의 배열입니다. |
 
 ## 예제 {#section-8b12d0b948f644f68bf9a16060d3849a}
 

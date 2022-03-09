@@ -5,9 +5,9 @@ title: batchSetImageFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 10%
 
 ---
@@ -33,18 +33,18 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | 예 | 이미지 자산이 포함된 회사의 핸들입니다. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | 예 | 이미지 필드 업데이트 배열입니다. |
+| companyHandle | `xsd:string` | 예 | 이미지 자산이 포함된 회사의 핸들입니다. |
+| updateArray | `types:ImageFieldUpdateArray` | 예 | 이미지 필드 업데이트 배열입니다. |
 
 **출력(batchSetImageFields)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | 예 | 이미지 필드를 성공적으로 설정한 수입니다. |
-| `*`warningCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성된 경고 수입니다. |
-| `*`errorCount`*` | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성된 오류 수입니다. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | `xsd:int` | 예 | 이미지 필드를 성공적으로 설정한 수입니다. |
+| warningCount | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업이 이미지 필드를 설정하려고 할 때 생성된 오류 수입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

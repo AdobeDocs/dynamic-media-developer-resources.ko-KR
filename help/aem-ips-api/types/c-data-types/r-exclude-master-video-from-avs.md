@@ -4,10 +4,10 @@ description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->Adobe에 대한 지원이 종료 중입니다. `ExcludeMasterVideoFromAVS` 매개 변수: 2022년 9월
+>Adobe에 대한 지원이 종료 중입니다. `ExcludeMasterVideoFromAVS` 매개 변수: 2022년 9월 1일. 참조 - [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md).
 
 응용 비디오 세트에서 기본 비디오를 제외합니다.
 
@@ -35,7 +35,7 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
-   <td colname="col3"> <p>응용 비디오 세트에서 마스터 비디오 파일을 제외합니다. </p> <p>기본값은 true입니다. </p> </td> 
+   <td colname="col3"> <p>응용 비디오 세트에서 기본 비디오 파일을 제외합니다. </p> <p>기본값은 true입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

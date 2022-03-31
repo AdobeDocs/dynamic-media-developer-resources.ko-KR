@@ -4,7 +4,7 @@ description: 응용 비디오 세트에서 기본 비디오를 제외합니다.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 9%
@@ -18,6 +18,8 @@ ht-degree: 9%
 >Adobe에 대한 지원이 종료 중입니다. `ExcludeMasterVideoFromAVS` 매개 변수: 2022년 9월 1일. 참조 - [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md).
 
 응용 비디오 세트에서 기본 비디오를 제외합니다.
+
+<!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
 구문
 

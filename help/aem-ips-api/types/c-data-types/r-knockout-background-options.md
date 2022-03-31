@@ -1,24 +1,35 @@
 ---
-description: 선택한 이미지의 배경을 마스크(녹아웃)합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. 기본적으로 꺼져 있는 선택적 매개 변수입니다.
-solution: Experience Manager
 title: CkoutBackgroundOptions
+description: 선택한 이미지의 배경을 마스크(녹아웃)합니다. 이 데이터 유형을 사용하면 제목 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. 기본적으로 꺼져 있는 선택적 매개 변수입니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: aed8cf2e-5a09-43ff-9420-0d0d54059515
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
 # CkoutBackgroundOptions{#knockoutbackgroundoptions}
 
-선택한 이미지의 배경을 마스크(녹아웃)합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. 기본적으로 꺼져 있는 선택적 매개 변수입니다.
+선택한 이미지의 배경을 마스크(녹아웃)합니다. 이 데이터 유형을 사용하면 제목 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다.
+
+이 데이터 유형은 기본적으로 선택 사항입니다.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
 ## 매개 변수 {#section-3149b49ccb714e6eafa6655354816819}
+
+>[!IMPORTANT]
+>
+>다음을 구성하는 경우 `KnockoutBackgroundOptions` Adobe Experience Manager에서 다음 매개 변수를 대신 사용하십시오.
+>* `kbCorner`
+>* `kbTolerance`
+>* `kbFillMethod`
+>
+>For example: `KnockoutBackgroundOptions=kbCorner=UpperLeft&kbTolerance=0.2&kbFillMethod=MatchPixel`
 
 <table id="table_68131DE0A3C84908A43C6F7777F20973"> 
  <thead> 
@@ -32,7 +43,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 모퉁이</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업할 코너를 선택합니다. <span class="codeph"> </span> 코너에서는 다음 값을 허용합니다. 
+   <td colname="col3">작업할 코너를 선택합니다. <span class="codeph"> 모퉁이</span> 는 다음 값을 허용합니다. 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BottomLeft</span></li>
@@ -52,9 +63,9 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p><span class="codeph"><span class="varname"> 코너</span></span> 변수에 의해 지정된 위치의 픽셀 투명도를 제어합니다. <span class="codeph"> fillMethod</span>는 다음 값을 허용합니다. </p> 
+   <td colname="col3"> <p>에서 지정한 위치의 픽셀 투명도를 제어합니다 <span class="codeph"><span class="varname"> 모퉁이</span></span> 변수를 채우는 방법을 설명합니다. 다음 <span class="codeph"> fillMethod</span> 는 다음 값을 허용합니다. </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> Floodfill</span>: 지정된 모서리의 모든 픽셀을 투명하게 만듭니다. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: 지정된 모서리의 모든 픽셀을 투명하게 만듭니다. </li> 
      <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: 위치에 관계없이 일치하는 모든 픽셀을 투명하게 만듭니다. </li> 
     </ul> </td> 
   </tr> 
@@ -78,7 +89,7 @@ ht-degree: 2%
 
 ## 사용자 {#section-28c43baafe85434a9ee9e303ed10569a}
 
-`KnockoutBackgroundOptions` 유형은 다음 방법으로 사용됩니다.
+다음 `KnockoutBackgroundOptions` 유형은 다음 방법으로 사용됩니다.
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)

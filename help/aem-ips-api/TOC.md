@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 이미지 프로덕션 시스템 API
 feature-set: Experience Manager Assets
 user-guide-description: IPS(이미지 프로덕션 시스템) 웹 서비스 API를 사용하면 외부 애플리케이션과 서드파티 개발자가 IPS 에셋 및 기능에 프로그래밍 방식으로 액세스할 수 있습니다.
-source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 8%
@@ -234,7 +234,7 @@ ht-degree: 8%
    + [EmailArray](types/c-data-types/r-email-array.md)
    + [제외 부산물 배열](types/c-data-types/r-exclude-byproduct-array.md)
    + [제외 부산물 조건](types/c-data-types/r-exclude-byproduct-condition.md)
-   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)
+   + [ExcludeMasterVideoFromAVS](types/c-data-types/r-exclude-master-video-from-avs.md)<!-- Deprecated; remove May 2022 as per CQDOC-19165 and remove associated topic-->
    + [ExcelInfo](types/c-data-types/r-excel-info.md)
    + [내보내기 작업](types/c-data-types/r-exportjob.md)
    + [FlashInfo](types/c-data-types/r-flash-info.md)
@@ -439,7 +439,7 @@ ht-degree: 8%
    + [사용자 역할](string-constants/c-string-constants/r-user-roles.md)
    + [사용자 정렬 필드](string-constants/c-string-constants/r-user-sort-fields.md)
    + [뷰어 유형](string-constants/c-string-constants/r-viewer-type.md)
-+ 오류 {#faults}
++ 장애 {#faults}
    + [장애 개요](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)
@@ -448,32 +448,32 @@ ht-degree: 8%
    + [변경 로그](change-log/c-change-log.md)
    + 버전 6.0 {#version-6-0}
       + [버전 6.0](change-log/c-change-log/c-6/c-6.md)
-      + [작업:신규 및 수정됨](change-log/c-change-log/c-6/r-6-operations.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-6/r-6-types.md)
+      + [작업: 신규 및 수정됨](change-log/c-change-log/c-6/r-6-operations.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-6/r-6-types.md)
    + 버전 4.5 {#version-4-5}
       + [버전 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
-      + [작업:신규 및 수정됨](change-log/c-change-log/c-4-5/r-4-5-operations.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-4-5/r-4-5-types.md)
+      + [작업: 신규 및 수정됨](change-log/c-change-log/c-4-5/r-4-5-operations.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [제한된 사용](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + 버전 4.4 {#version-4-4}
       + [버전 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
-      + [작업:신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-operations.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-types.md)
-      + [문자열 상수:신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
+      + [작업: 신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-operations.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-types.md)
+      + [문자열 상수: 신규 및 수정됨](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + 버전 4.2 {#version-4-2}
       + [버전 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-4-2/r-4-2-types.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + 버전 4.0 {#version-4-0}
       + [버전 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [새로운 추가 및 변경 사항](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + 버전 3.8 {#version-3-8}
       + [버전 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
-      + [작업:신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-operations.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-types.md)
-      + [문자열 상수:신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
+      + [작업: 신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-operations.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-types.md)
+      + [문자열 상수: 신규 및 수정됨](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + 버전 3.7 {#version-3-7}
       + [버전 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [작업:신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-operations.md)
-      + [데이터 유형:신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-types.md)
-      + [문자열 상수:신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
+      + [작업: 신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [데이터 유형: 신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-types.md)
+      + [문자열 상수: 신규 및 수정됨](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [HTTP POST를 통해 UploadFile에 자산 업로드..](c-http-post.md)

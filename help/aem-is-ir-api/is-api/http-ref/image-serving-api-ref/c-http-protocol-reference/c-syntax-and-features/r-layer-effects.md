@@ -1,13 +1,13 @@
 ---
+title: 레이어 효과
 description: Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 layer=comp를 포함하여 모든 레이어(상위 레이어)에 첨부할 수 있는 특수 하위 레이어(효과 레이어)를 사용하여 구현됩니다.
 solution: Experience Manager
-title: 레이어 효과
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 lay
 
 ## 내부 및 외부 효과 {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*내부* 효과는 상위 레이어 위에 렌더링되며 상위 레이어의 불투명 영역에서만 표시됩니다. *외부* 효과는 상위 레이어 뒤에 렌더링되며(따라서 상위 레이어의 불투명 영역 내에 표시되지 않음) 합성 캔버스 내의 어디에나 배치할 수 있습니다. `effect=` 명령을 사용하여 양수 또는 음수 효과 레이어 번호를 할당하여 내부 또는 외부 효과를 선택합니다. 또한 `effect=` 명령은 동일한 상위 레이어에 첨부된 여러 효과 레이어 간의 z 순서를 제어합니다.
+*내부 효과* 상위 레이어 위에 렌더링되고 상위 레이어의 불투명 영역에서만 표시됩니다. *외부 효과* 상위 레이어 뒤에 렌더링되고(따라서 상위 레이어의 불투명 영역 내에 표시되지 않음) 합성 캔버스 내의 어디에나 배치할 수 있습니다. 양수 또는 음수 효과 레이어 번호를 `effect=` 명령. 다음 `effect=` 또한 동일한 상위 레이어에 연결된 여러 효과 레이어 간에 z 순서를 제어합니다.
 
 ## 상위 레이어에 대한 관계 {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-효과 레이어는 자동으로 크기가 지정되고 상위 레이어와 일치하도록 배치됩니다(즉, 효과 레이어는 상위 레이어의 `size=` 및 `origin=` 값을 상속함). `pos=` 일반적으로 그림자 및 내부 그림자 효과에 필요하므로 효과 레이어를 상위 레이어에서 멀리 이동하는 데 사용할 수 있습니다. 표준 레이어의 경우 `pos=` 은 이 레이어의 원본과 레이어 0 사이의 오프셋을 지정합니다. 효과 레이어의 경우 `pos=` 은 효과 레이어의 원본과 상위 레이어 사이의 오프셋을 지정합니다.
+효과 레이어는 자동으로 크기가 조절되고 상위 레이어와 일치하도록 배치됩니다(즉, 효과 레이어는 `size=` 및 `origin=` 상위 레이어의 값). `pos=` 일반적으로 그림자 및 내부 그림자 효과에 필요하므로 효과 레이어를 상위 레이어에서 멀리 이동하는 데 사용할 수 있습니다. 표준 레이어의 경우 `pos=` 효과 레이어의 경우 이 레이어의 원본과 레이어 0 사이의 오프셋을 지정합니다 `pos=` 효과 레이어의 원본과 상위 레이어 사이의 오프셋을 지정합니다.
 
 ## 지원되는 명령 및 속성 {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -46,7 +46,7 @@ Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 lay
 
 ## 기본 효과 매크로 {#section-a01e8dcc87c94495b54a6dfb21d2a718}
 
-레이어 효과를 쉽게 사용할 수 있도록 IS에서는 Photoshop 레이어 효과와 유사한 효과 레이어 특성에 대한 기본값을 제공하는 기본 이미지 카탈로그 `$shadow$` 및 `$glow$` 를 사용하여 두 개의 매크로를 제공합니다. 다음 표에는 기본 레이어 효과를 구현하는 데 사용할 효과 명령과 매크로가 나와 있습니다. 당연히 매크로에 지정된 특성을 URL에서 수정하거나 대체 매크로를 만들어 사용자 지정 레이어 효과를 구현할 수 있습니다.
+레이어 효과를 쉽게 사용할 수 있도록 IS에서는 기본 이미지 카탈로그를 사용하여 두 개의 매크로를 제공합니다. `$shadow$` 및 `$glow$`- Photoshop 레이어 효과와 유사한 효과 레이어 속성의 기본값을 제공합니다. 다음 표에는 기본 레이어 효과를 구현하는 데 사용할 효과 명령과 매크로가 나와 있습니다. 당연히 매크로에 지정된 특성을 URL에서 수정하거나 대체 매크로를 만들어 사용자 지정 레이어 효과를 구현할 수 있습니다.
 
 <table id="table_8089C41AD1F24223A58C7DD8F4DDF73C"> 
  <thead> 
@@ -81,7 +81,7 @@ Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 lay
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-테두리는 이미지의 알파 채널 또는 마스크의 윤곽선을 따릅니다. `effect=1`을 설정하면 테두리가 대신 내부 가장자리에 배치됩니다.
+테두리는 이미지의 알파 채널 또는 마스크의 윤곽선을 따릅니다. 설정 `effect=1` 대신 내부 가장자리에 테두리를 배치합니다.
 
 기본 효과 설정(색상 제외)을 사용하여 이미지에 파란색 그림자 효과를 추가합니다.
 
@@ -91,4 +91,4 @@ Photoshop 스타일 레이어 그림자 및 광선 효과는 레이어=0 및 lay
 
 ## 참조 {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[효과=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), 명령  [매크로%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[효과=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [명령 매크로%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

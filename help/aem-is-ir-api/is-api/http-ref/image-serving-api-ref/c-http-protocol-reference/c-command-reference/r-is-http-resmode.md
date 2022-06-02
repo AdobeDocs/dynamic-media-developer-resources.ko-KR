@@ -1,11 +1,11 @@
 ---
+title: resMode
 description: 재샘플링 모드. 이미지 데이터 크기 조절에 사용할 리샘플링 및/또는 보간 알고리즘을 선택합니다. 또한 [보기 변환] 중에 텍스트 레이어의 회전 및 합성 이미지의 크기 조절에 적용됩니다.
 solution: Experience Manager
-title: resMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 6%

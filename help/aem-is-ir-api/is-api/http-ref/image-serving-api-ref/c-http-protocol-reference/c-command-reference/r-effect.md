@@ -1,14 +1,14 @@
 ---
+title: 효과
 description: '[효과 레이어]를 선택합니다. 효과 레이어를 선택하고 현재 레이어와 연결된 요청 문자열에서 새 레이어 세그먼트를 시작합니다.'
 solution: Experience Manager
-title: 효과
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-새 세그먼트 내의 모든 명령은 지정된 효과 레이어에 적용됩니다. 효과 레이어 세그먼트는 다음 `layer=` 또는 `effect=` 명령으로 또는 요청 끝에 의해 종료됩니다.
+새 세그먼트 내의 모든 명령은 지정된 효과 레이어에 적용됩니다. 효과 레이어 세그먼트가 다음으로 끝납니다 `layer=` 또는 `effect=` 명령 또는 요청 끝에 있는 명령.
 
 *`n`* 외부 레이어 효과(즉, 상위 레이어 뒤의 효과)는 0보다 작아야 하며 내부 레이어 효과(즉, 상위 레이어 내의 효과)는 0보다 커야 합니다. 효과 레이어 번호는 연속될 필요가 없습니다.
 
 효과 레이어 번호는 동일한 상위 레이어에 대해 여러 효과 레이어가 있는 경우 z 순서를 지정합니다. 번호가 높은 레이어는 번호가 낮은 레이어의 맨 위에 배치됩니다.
 
-효과 레이어는 `layer=comp`에 첨부할 수 있습니다.
+효과 레이어는 `layer=comp`.
 
 ## 속성 {#section-e11f795deff345779ce280a82cf221ca}
 
@@ -47,4 +47,4 @@ ht-degree: 3%
 
 ## 참조 {#section-573273e9e0e64103a5764075f5e50180}
 
-` [layer=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md#reference-0f8d7fbef64841dd855917bd8fc22e6d)`
+[layer=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-layer.md)

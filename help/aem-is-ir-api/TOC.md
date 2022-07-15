@@ -26,18 +26,18 @@ ht-degree: 12%
    + [라이선스](c-installation/c-licensing.md)
    + [목차](c-installation/c-contents.md)
    + [설치 폴더](c-installation/c-install-folder.md)
-   + Windows {#windows-install}에 설치
+   + Windows에 설치 {#windows-install}
       + [Windows에 설치](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [처음 설치](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [관리자가 아닌 다른 사용자 계정으로 설치](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/t-installing-on-windows/t-update-win.md)
       + [설치 확인](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Linux {#linux-install}에 설치
+   + Linux에 설치 {#linux-install}
       + [Linux에 설치](c-installation/c-installing-linux/c-installing-linux.md)
       + [처음 설치](c-installation/c-installing-linux/t-first-install-lin.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/c-installing-linux/t-update-lin.md)
       + [설치 확인](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 이미지 제공 {#start-stop-image-servicing} 시작 및 중지
+   + 이미지 제공 시작 및 중지 {#start-stop-image-servicing}
       + [이미지 제공 시작 및 중지](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Windows에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Linux에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -47,7 +47,7 @@ ht-degree: 12%
    + [이미지 제공 구성 요소](is-api/image-serving-api-ref/r-components.md)
    + 구성 및 관리 {#config-admin}
       + [구성 및 관리](is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md)
-      + 서비스 공급자 구성 파일 {#server-config-files}
+      + 서비스 구성 파일 {#server-config-files}
          + [서버 구성 파일](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-server-configuration-files.md)
          + [PlatformServer.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-platformserverconf.md)
          + [monitor.conf](is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-monitorconf.md)
@@ -92,7 +92,7 @@ ht-degree: 12%
          + [서버 모니터링](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [표준 경고](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [힙스페이스 우선 순위 경고](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + 컨텐츠 관리 {#manage-content}
+      + 콘텐츠 관리 {#manage-content}
          + [콘텐츠 관리](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [이미지 카탈로그](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [소스 데이터](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
@@ -145,7 +145,7 @@ ht-degree: 12%
          + [워터마크](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-watermarks.md)
          + [정적(비이미지) 콘텐츠 제공](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
          + [미디어 집합 요청](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md)
-      + 텍스트 형식 {#text-formatting}
+      + 텍스트 서식 {#text-formatting}
          + [텍스트 서식 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md)
          + [글꼴 처리](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-font-handling.md)
          + [색상 처리](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-color-handling.md)
@@ -321,7 +321,7 @@ ht-degree: 12%
          + [대체 변수](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-substitution-variables.md)
          + 명령 매크로 {#command-macros}
             + [명령 매크로 개요](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-is-fxg-command-macros.md)
-            + [name](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
+            + [이름](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/r-is-fxg-command-macros/r-name.md)
          + FXG DOM 조작 작업 {#fxg-dom-ops}
             + [FXG DOM 조작 작업](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/c-dom-manipulation-operations.md)
             + [appendElement](is-api/fxg-server-protocol/image-serving-api-ref/c-is-fxg-server-protocol/c-dom-manipulation-operations/r-appendelement.md)
@@ -367,7 +367,7 @@ ht-degree: 12%
          + [카탈로그 데이터 파일](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-catalog-data-files.md)
          + [규칙 세트 파일](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-rule-set-files.md)
          + [문자 인코딩](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-file-formats/r-is-cat-character-encoding.md)
-      + 일반 데이터 형식 {#common-data-types}
+      + 일반적인 데이터 유형 {#common-data-types}
          + [일반적인 데이터 유형](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/c-common-data-types.md)
          + [색상](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-is-cat-color.md)
          + [플래그](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-common-data-types/r-flag.md)
@@ -520,7 +520,7 @@ ht-degree: 12%
       + [라이선스](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [IR 3.x 호환성 모듈 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [이미지 렌더링 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 이미지 렌더링 제거 중 {#uninstalling-image-rendering}
+      + 이미지 렌더링 제거 {#uninstalling-image-rendering}
          + [이미지 렌더링 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Linux 및 Solaris에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Windows에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -537,7 +537,7 @@ ht-degree: 12%
          + [메모리 고려 사항](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [동적 디스크 공간 고려 사항](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [비네팅 크기 제한](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + 컨텐츠 관리 {#managing-content}
+         + 콘텐츠 관리 {#managing-content}
             + [콘텐츠 관리](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [재료 카탈로그](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [소스 데이터](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
@@ -563,7 +563,7 @@ ht-degree: 12%
             + [비네팅](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-vignettes.md)
             + [장면 좌표](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-scene-coordinates.md)
             + [재료 해상도](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-vignettes/c-ir-material-resolution.md)
-         + 자료 {#materials}
+         + 재료 {#materials}
             + [자료 개요](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md)
             + [단색](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-solid-colors.md)
             + [반복 가능한 텍스처](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/r-ir-repeatable-textures.md)
@@ -579,7 +579,7 @@ ht-degree: 12%
             + [반사](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [광택 효과](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [고급 렌더링 설정](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + {#request-nesting-and-embedding} 중첩 및 포함 요청
+         + 중첩 및 포함 요청 {#request-nesting-and-embedding}
             + [중첩 및 포함 요청 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [포함된 이미지 서버 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [중첩 이미지 렌더링 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)
@@ -701,7 +701,7 @@ ht-degree: 12%
          + [TrustedDomains *](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md)
          + [UseLastModified](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md)
          + [VignetteMapFile](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-vignettemapfile.md)
-      + 재료 데이터 참조 {#material-data-reference}
+      + 자료 데이터 참조 {#material-data-reference}
          + [자료 데이터 참조](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/c-ir-material-data-reference.md)
          + [정렬](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-alignment.md)
          + [앵커](ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-anchor.md)
@@ -753,7 +753,7 @@ ht-degree: 12%
       + [ImageServing](is-api/is-utils/utilities/r-imageserving.md)
       + [유효성 확인](is-api/is-utils/utilities/r-is-utils-validate.md)
       + [&#39;playlog&#39; 유틸리티](is-api/is-utils/utilities/c-playlog.md)
-   + Vignette 변환기(vntc){#vignette-converter-vntc}
+   + 비네팅 변환기(vntc){#vignette-converter-vntc}
       + [비네팅 변환기(vntc)](utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)
       + [비네팅 변환기](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
       + [비네팅 크기 조절](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)

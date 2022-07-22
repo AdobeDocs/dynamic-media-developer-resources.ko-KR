@@ -6,10 +6,10 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 8e09f8168987788f7d55849b4a275c488cfcc0b9
+source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 2%
+source-wordcount: '383'
+ht-degree: 1%
 
 ---
 
@@ -74,27 +74,50 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
    * iOS 10
    * Safari 11
 
-**중요 사항**
+## TLS 1.0 및 1.1 지원 종료 {#tls}
+
+<!-- CQDOC-19433 -->
+
 2022년 9월 30일부터 Adobe Dynamic Media Viewer는 다음 사항에 대한 지원을 종료합니다.
 
 * TLS(전송 계층 보안) 1.0 및 1.1
 * TLS 1.2에 있는 다음의 약한 암호:
-   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384`
-   * `TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA`
-   * `TLS_RSA_WITH_AES_256_GCM_SHA384`
-   * `TLS_RSA_WITH_AES_256_CBC_SHA256`
-   * `TLS_RSA_WITH_AES_256_CBC_SHA`
-   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
-   * `TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA`
-   * `TLS_RSA_WITH_AES_128_GCM_SHA256`
-   * `TLS_RSA_WITH_AES_128_CBC_SHA256`
-   * `TLS_RSA_WITH_AES_128_CBC_SHA`
-   * `TLS_RSA_WITH_CAMELLIA_256_CBC_SHA`
-   * `TLS_RSA_WITH_CAMELLIA_128_CBC_SHA`
-   * `TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA`
-   * `TLS_RSA_WITH_SDES_EDE_CBC_SHA`
+   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+   * TLS_RSA_WITH_AES_256_GCM_SHA384
+   * TLS_RSA_WITH_AES_256_CBC_SHA256
+   * TLS_RSA_WITH_AES_256_CBC_SHA
+   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+   * TLS_RSA_WITH_AES_128_GCM_SHA256
+   * TLS_RSA_WITH_AES_128_CBC_SHA256
+   * TLS_RSA_WITH_AES_128_CBC_SHA
+   * TLS_RSA_WITH_동백_256_CBC_SHA
+   * TLS_RSA_WITH_동백_128_CBC_SHA
+   * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+   * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-<!-- Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
+## Dynamic Media 뷰어용 지원되지 않는 웹 브라우저 및 운영 체제 조합 {#browser-os-support}
+
+<!-- CQDOC-19433 -->
+
+Adobe Dynamic Media 뷰어는 다음 웹 브라우저 및 운영 체제 조합을 지원하지 않습니다.
+
+* Internet Explorer 11 + Windows 7
+* Internet Explorer 11 + Windows 8.1
+* Internet Explorer 11 + Windows Phone 8.1
+* Internet Explorer 11 + Windows Phone 8.1 업데이트
+* Safari 6 + iOS 6.0.1
+* Safari 7 + iOS 7.1
+* Safari 7 + OS X 10.9 Mavericks
+* Safari 8 + iOS 8.4
+* Safari 8 + OS X 10.10 Yosemite
+
+<!-- CQDOC-19433 -->
+
+<!-- 
+NOTE
+Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
 * Android™ 2.3.7
 * Android™ 4.0.4
@@ -110,6 +133,8 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 * Java™ 6u45
 * Java™ 7u25
 * OpenSSL 0.9.8y
-* Baidu January 2015 -->
+* Baidu January 2015
 
-<!-- FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
+NOTE
+FLASH VIEWERS END-OF-LIFE — Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform. -->
+

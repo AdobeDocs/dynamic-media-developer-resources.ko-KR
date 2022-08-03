@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 맞춤화하십시오. 인터랙티브 이미지와 비디오, 캐러셀, 스핀 세트 등을 포함합니다.
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

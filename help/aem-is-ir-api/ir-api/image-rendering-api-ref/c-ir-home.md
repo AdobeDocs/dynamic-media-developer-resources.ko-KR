@@ -1,13 +1,13 @@
 ---
+title: 이미지 렌더링 API
 description: 이미지 렌더링 API 참조에는 Dynamic Media 이미지 렌더링 API 설정 및 사용에 대한 정보가 포함되어 있습니다.
 solution: Experience Manager
-title: 이미지 렌더링 API
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e7cf4b21-8020-436a-b084-b81e9c8a8b9b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 1%
 
 ---

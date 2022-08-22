@@ -1,14 +1,14 @@
 ---
+title: MacroFile
 description: 매크로 정의 파일 경로입니다. 이 자료 카탈로그에 대한 매크로 정의가 포함된 파일을 지정합니다.
 solution: Experience Manager
-title: MacroFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b926246-54c5-40ca-a8d3-d1a1411d8931
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 

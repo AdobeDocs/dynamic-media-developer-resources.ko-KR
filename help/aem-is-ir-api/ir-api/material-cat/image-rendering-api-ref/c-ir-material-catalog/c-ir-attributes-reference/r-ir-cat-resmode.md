@@ -1,20 +1,20 @@
 ---
+title: ResMode
 description: 재샘플링 모드. resMode= 기본값은 입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 속성을 지정합니다.
 solution: Experience Manager
-title: ResMode
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c57932a0-529c-4f31-b60e-a38de6fe277f
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '67'
 ht-degree: 7%
 
 ---
 
 # ResMode{#resmode}
 
-재샘플링 모드. resMode= 기본값은 입니다. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 속성을 지정합니다.
+재샘플링 모드. 기본값은 입니다. `resMode=`. 렌더링된 이미지를 최종 크기로 조정하는 데 사용되는 리샘플링 및 보간 속성을 지정합니다.
 
 ## 속성 {#section-1183a155f33c4eca80f1dc6fb6bda1b5}
 

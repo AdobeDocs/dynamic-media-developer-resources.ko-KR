@@ -1,11 +1,11 @@
 ---
+title: IccProfileSrcGray
 description: 회색 음영 기본 입력 색상 프로파일 색상 프로파일을 포함하지 않는 회색 음영 재료 이미지에 사용할 ICC 색상 프로파일의 이름을 지정합니다.
 solution: Experience Manager
-title: IccProfileSrcGray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8c89f0bb-4912-4838-a9e2-fb5d2f255eae
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 3%

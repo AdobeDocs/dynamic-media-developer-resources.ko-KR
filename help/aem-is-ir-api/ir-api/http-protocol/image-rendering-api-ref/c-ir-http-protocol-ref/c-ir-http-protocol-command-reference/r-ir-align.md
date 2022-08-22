@@ -1,11 +1,11 @@
 ---
+title: 정렬
 description: 텍스처 렌더링 정렬. 선택한 비네팅 개체에 정의된 원본 점 중 사용할 원본 점을 지정합니다.
 solution: Experience Manager
-title: 정렬
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b76f173-809b-4b41-bf39-6b85f77ab2db
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 4%

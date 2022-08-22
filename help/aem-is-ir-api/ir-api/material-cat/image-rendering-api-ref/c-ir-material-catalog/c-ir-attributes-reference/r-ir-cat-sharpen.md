@@ -1,14 +1,14 @@
 ---
+title: 선명하게
 description: 기본 회신 이미지 선명하게 하기 인코딩 전에 크기가 조정된 경우 회신 이미지를 선명하게 할지 여부를 지정합니다.
 solution: Experience Manager
-title: 선명하게
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
 
 ## 기본값 {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-정의되지 않았거나 비어 있는 경우 `default::Sharpen`에서 상속됩니다.
+상속됨 `default::Sharpen` 정의되지 않았거나 비어 있는 경우.
 
 ## 참조 {#section-85393c62428f49739a2510f9427d3607}
 

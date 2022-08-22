@@ -1,13 +1,13 @@
 ---
+title: VignetteMapFile
 description: 비네팅 맵 데이터 파일 경로입니다. 이 이미지 카탈로그에 대한 비네팅 맵을 포함하는 파일을 지정합니다.
 solution: Experience Manager
-title: VignetteMapFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9b7c7b1-cc49-419f-8eea-0091ef8b3011
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---

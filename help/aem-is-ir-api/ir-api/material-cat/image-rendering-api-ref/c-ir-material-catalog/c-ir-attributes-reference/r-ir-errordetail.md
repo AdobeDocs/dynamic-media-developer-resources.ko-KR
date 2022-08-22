@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: 오류 메시지 세부 정보입니다. HTTP를 통해 반환되는 오류 메시지에 대한 세부 정보 수준을 error.message 값으로 지정합니다.
 solution: Experience Manager
-title: ErrorDetail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 5%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>전체 디버그 정보입니다. 해당되는 경우 Java 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않고 대신 <span class="codeph"> $error.message</span>에 수준 2 정보가 반환됩니다. </p></td> 
+  <td class="stentry"> <p>전체 디버그 정보입니다. 해당되는 경우 Java™ 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않고 대신 <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ ht-degree: 5%
 
 ## 기본값 {#section-5e78d550050840cc9a1de811c581b94f}
 
-지정하지 않았거나 비어 있는 경우 `default::ErrorDetail`에서 상속됩니다.
+상속됨 `default::ErrorDetail` 지정하지 않았거나 비어 있는 경우
 
 ## 참조 {#section-474e71922d194c7ca06f2aad3b30e025}
 

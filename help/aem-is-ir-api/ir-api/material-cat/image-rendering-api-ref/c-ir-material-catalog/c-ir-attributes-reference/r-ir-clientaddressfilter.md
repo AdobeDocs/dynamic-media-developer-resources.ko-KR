@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 클라이언트 IP 주소 필터입니다. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
 
-이 옵션을 지정하면 목록에 없는 IP 주소의 클라이언트에서 가져온 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost` 는 항상 암시적으로 `ClientAddressFilter` 명시적으로 지정하지 않더라도 정의. 보낸 요청 `localhost` 에 관계 없이 거부되지 않습니다 `ClientAddressFilter` 사양.
+지정하면 목록에 없는 IP 주소의 클라이언트에서 생성된 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost` 는 항상 암시적으로 `ClientAddressFilter` 명시적으로 지정하지 않더라도 정의. 보낸 요청 `localhost` 에 관계 없이 거부되지 않습니다 `ClientAddressFilter` 사양.
 
 ## 속성 {#section-21a2992f108d42fb8660c0d65aa61e13}
 

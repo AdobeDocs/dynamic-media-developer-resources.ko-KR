@@ -6,8 +6,8 @@ feature-set: Experience Manager Assets
 user-guide-description: IS(이미지 제공) 및 IR(이미지 렌더링) API 및 관련 기술에 대한 설명서를 살펴보십시오.
 source-git-commit: f64229a72bef887f356b118a1da4ba5177c28bbc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1466'
+ht-degree: 12%
 
 ---
 

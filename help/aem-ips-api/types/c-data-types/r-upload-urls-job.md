@@ -5,14 +5,14 @@ title: UploadUrlJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
 
-# UploadUrlJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 파일을 가져올 위치에서 URL을 업로드합니다.
 
@@ -72,7 +72,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:K녹아웃BackgroundOptions</span> </td> 
-   <td colname="col3">선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. 선택 사항입니다. <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CutoBackgroundOptions</a> 를 참조하십시오. </td> 
+   <td colname="col3">선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. 선택 사항입니다. 자세한 내용은<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CkoutBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
@@ -82,12 +82,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:MediaOptions</span> </td> 
-   <td colname="col3">비디오에서 축소판 이미지를 설정할 수 있는 옵션입니다. <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a> 를 참조하십시오. </td> 
+   <td colname="col3">비디오에서 축소판 이미지를 설정할 수 있는 옵션입니다. 자세한 내용은 <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> 미디어 옵션</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3">작업에 제출된 URL 수를 반환합니다. <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> 및 <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>에서 사용됩니다. </td> 
+   <td colname="col3">작업에 제출된 URL 수를 반환합니다. 사용 대상 <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> 및 <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 덮어쓰기</span> </span> </td> 
@@ -97,7 +97,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:PDFOptions</span> </td> 
-   <td colname="col3"> 이미지 서버에 PDF 파일을 업로드하는 옵션입니다. </td> 
+   <td colname="col3"> 이미지 서버에 PDF 파일을 업로드하기 위한 옵션입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -152,12 +152,12 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uncompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UncompressOptions</span> </td> 
-   <td colname="col3">이러한 선택적 설정을 사용하여 업로드된 TAR/ZIP 파일의 컨텐츠를 추출하고 처리합니다. <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UncompressOptions</a> 를 참조하십시오. </td> 
+   <td colname="col3">이러한 선택적 설정을 사용하여 업로드된 TAR/ZIP 파일의 컨텐츠를 추출하고 처리합니다. 자세한 내용은 <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> 압축 해제 옵션</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:UnsharpMaskOptions</span> </td> 
-   <td colname="col3">최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션입니다. 이 설정을 사용하여 이미지 선명도를 개선합니다. <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a> 를 참조하십시오. </td> 
+   <td colname="col3">최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션입니다. 이 설정을 사용하여 이미지 선명도를 개선합니다. 자세한 내용은 <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
@@ -174,13 +174,13 @@ ht-degree: 1%
 
 ## 주의 {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-`CropOptions`의 경우 다음 중 하나만 선택할 수 있습니다.
+대상 `CropOptions`로 지정하는 경우 다음 중 하나만 선택할 수 있습니다.
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-`PublishJob`의 경우 다음 중 하나만 선택할 수 있습니다.
+대상 `PublishJob`로 지정하는 경우 다음 중 하나만 선택할 수 있습니다.
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

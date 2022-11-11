@@ -5,14 +5,14 @@ title: 마스크
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 14%
+source-wordcount: '69'
+ht-degree: 13%
 
 ---
 
-# 마스크{#mask}
+# [!DNL Mask]{#mask}
 
 이미지의 일부를 마스크합니다. 마스크는 항상 이미지와 연결되어 있습니다. ImageInfo에서 마스크를 가져옵니다.
 

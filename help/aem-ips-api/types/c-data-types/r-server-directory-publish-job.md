@@ -5,14 +5,14 @@ title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '54'
 ht-degree: 9%
 
 ---
 
-# ServerDirectoryPublishJob{#serverdirectorypublishjob}
+# [!DNL ServerDirectoryPublishJob]{#serverdirectorypublishjob}
 
 서버 디렉토리에 게시할 준비가 된 것으로 표시된 모든 이미지, 템플릿 및 스핀 세트를 게시합니다.
 

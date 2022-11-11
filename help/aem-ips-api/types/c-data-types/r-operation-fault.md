@@ -5,14 +5,14 @@ title: 작업 장애
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 12%
 
 ---
 
-# 작업 장애{#operationfault}
+# [!DNL OperationFault]{#operationfault}
 
 CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시지.
 

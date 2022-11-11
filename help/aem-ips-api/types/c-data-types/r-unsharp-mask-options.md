@@ -2,17 +2,17 @@
 description: 최적화된 피라미드 TIF 파일에 대한 이미지 선명도를 향상시키는 데 도움이 되는 설정입니다.
 solution: Experience Manager
 title: UnsharpMaskOptions
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 10%
+source-wordcount: '186'
+ht-degree: 11%
 
 ---
 
-# UnsharpMaskOptions{#unsharpmaskoptions}
+# [!DNL UnsharpMaskOptions]{#unsharpmaskoptions}
 
 최적화된 피라미드 TIF 파일에 대한 이미지 선명도를 향상시키는 데 도움이 되는 설정입니다.
 
@@ -20,7 +20,7 @@ ht-degree: 10%
 
 ## 매개 변수 {#section-c3f0d03136ba4422819cb463bd393885}
 
-`minOccurs=" *`n`*".`에 `unsharpMaskOptions` 옵션에 대한 값을 지정합니다.
+값 지정 `unsharpMaskOptions` 옵션 `minOccurs=" *`n`*".`
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ ht-degree: 10%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 단색</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>값에는 <span class="codeph"> 0</span> 또는 <span class="codeph"> 1</span>만 포함됩니다. </p><p>각 색상 구성 요소에 개별적으로 적용하려면 <span class="codeph"> 0</span>(으)로 설정하거나 <span class="codeph"> 1</span>로 설정하여 이미지 명도(강도)에만 적용합니다. 레이어 마스크 또는 복합 마스크도 선명하게 표시됩니다. </p><p><span class="codeph"><span class="varname"> </span></span> 회색 음영 이미지에 대해서는 모노크로메인이 무시됩니다. </p></td>
+   <td colname="col3"><p>값에는 다음이 포함됩니다 <span class="codeph"> 0</span> 또는 <span class="codeph"> 1</span> 전용. </p><p>을 로 설정합니다. <span class="codeph"> 0</span> 각 색상 구성 요소에 개별적으로 또는 <span class="codeph"> 1</span> 이미지 밝기(강도)에만 적용하려면 레이어 마스크 또는 복합 마스크도 선명하게 표시됩니다. </p><p><span class="codeph"><span class="varname"> 단색</span></span> 회색 음영 이미지에 대해서는 이 무시됩니다. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ ht-degree: 10%
 
 ## 사용 대상 {#section-db8124a5468b498694a780f8a56a4560}
 
-`unsharpMaskOptions` 유형은 다음 방법으로 사용됩니다.
+다음 `unsharpMaskOptions` 유형은 다음 방법으로 사용됩니다.
 
 * [AssetsJob 재처리](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)

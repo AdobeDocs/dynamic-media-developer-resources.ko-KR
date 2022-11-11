@@ -5,14 +5,14 @@ title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
-# PropertySetType{#propertysettype}
+# [!DNL PropertySetType]{#propertysettype}
 
 PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
 
@@ -41,7 +41,7 @@ PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">회사 핸들. <p>참고:  회사 핸들이 없으면 유형이 전역적입니다. </p></td> 
+   <td colname="col3">회사 핸들. <p>참고: 회사 핸들이 없으면 유형이 전역적입니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span> </span> </td> 
@@ -51,7 +51,7 @@ PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">속성 집합 유형 중 하나입니다. 입력(<span class="codeph"> createPropertySetTypeParam</span>)을 참조하십시오. </td> 
+   <td colname="col3">속성 집합 유형 중 하나입니다. 입력 참조(<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 

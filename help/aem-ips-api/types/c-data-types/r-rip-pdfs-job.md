@@ -1,24 +1,24 @@
 ---
-description: 기존 PDF 자산을 다시 래핑하는 프로세스입니다.
+description: 기존 PDF 자산을 다시 리프하는 프로세스입니다.
 solution: Experience Manager
 title: RipPdfJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 2%
 
 ---
 
-# RipPdfJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
-기존 PDF 자산을 다시 래핑하는 프로세스입니다.
+기존 PDF 자산을 다시 리프하는 프로세스입니다.
 
 >[!NOTE]
 >
->이 작업 유형은 더 이상 사용되지 않습니다. 모든 향후 통합을 위해 `ReprocessAssetsJob`으로 전환하십시오.
+>이 작업 유형은 더 이상 사용되지 않습니다. 다음으로 전환 `ReprocessAssetsJob` 향후 모든 통합.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,7 +34,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>리플레이할 PDF 파일 배열을 처리합니다. </p> </td> 
+   <td colname="col3"> <p>복제할 PDF 파일의 배열을 처리합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -114,20 +114,20 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:K녹아웃BackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p>참조<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CutoBackgroundOptions</a> </p> </td> 
+   <td colname="col3"> <p>선택한 이미지의 배경을 마스크합니다. 이렇게 하면 제목 이미지 외부의 투명도와 함께 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택 사항입니다. </p> <p>자세한 내용은<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> CkoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 주의 {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-`*CropOptions`에 대한 선택 사항은 다음과 같습니다.
+선택 사항 `*CropOptions` 포함:
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-`*PublishJob`에 대한 선택 사항은 다음과 같습니다.
+선택 사항 `*PublishJob` 포함:
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

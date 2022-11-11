@@ -2,17 +2,17 @@
 description: searchAssets에 사용할 검색어를 추가합니다.
 solution: Experience Manager
 title: 메타데이터 조건
-feature: Dynamic Media Classic,SDK/API,메타데이터
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '173'
 ht-degree: 3%
 
 ---
 
-# 메타데이터 조건{#metadatacondition}
+# [!DNL MetadataCondition]{#metadatacondition}
 
 searchAssets에 사용할 검색어를 추가합니다.
 
@@ -97,7 +97,7 @@ searchAssets에 사용할 검색어를 추가합니다.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 대/소문자 구분</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> 메타데이터 서버에 대한 대/소문자 구분을 설정합니다. <span class="codeph"> searchAssetsByMetadata</span> 호출에 사용됩니다. </p> <p><a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p> 메타데이터 서버에 대한 대/소문자 구분을 설정합니다. 에서 사용됩니다 <span class="codeph"> searchAssetsByMetadata</span> 호출. </p> <p>자세한 내용은 <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

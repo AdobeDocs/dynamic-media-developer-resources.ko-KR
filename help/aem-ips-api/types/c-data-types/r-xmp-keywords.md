@@ -5,14 +5,14 @@ title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
-# XmpKeywords{#xmpkeywords}
+# [!DNL XmpKeywords]{#xmpkeywords}
 
 자산의 확장 가능한 메타데이터 플랫폼 키워드.
 
@@ -32,7 +32,7 @@ ht-degree: 16%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 항목</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p><span class="codeph"> dc:subject=</span> XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
+   <td colname="col3"> <p>에 병합되는 쉼표로 구분된 키워드 목록입니다 <span class="codeph"> dc:subject=</span> XMP 속성 노드입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

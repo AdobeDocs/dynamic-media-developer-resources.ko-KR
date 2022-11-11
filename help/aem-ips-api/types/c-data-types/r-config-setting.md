@@ -5,14 +5,14 @@ title: 구성 설정
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 25%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-# 구성 설정{#configsetting}
+# [!DNL ConfigSetting]{#configsetting}
 
 Dynamic Media 개발자만 사용됩니다.
 
@@ -22,6 +22,6 @@ Dynamic Media 개발자만 사용됩니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 이름 | `xsd:string` | 구성 이름. |
-| 값 | `xsd:string` | 구성 값. |
-| 처리 | `xsd:string` | 저장된 구성을 처리합니다. |
+| [!DNL name] | `xsd:string` | 구성 이름. |
+| [!DNL value] | `xsd:string` | 구성 값. |
+| [!DNL handle] | `xsd:string` | 저장된 구성을 처리합니다. |

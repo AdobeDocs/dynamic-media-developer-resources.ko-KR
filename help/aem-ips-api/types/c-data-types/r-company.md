@@ -5,14 +5,14 @@ title: 회사
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 34%
+source-wordcount: '29'
+ht-degree: 27%
 
 ---
 
-# 회사{#company}
+# [!DNL Company]{#company}
 
 회사를 나타냅니다.
 
@@ -23,6 +23,6 @@ ht-degree: 34%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | companyHandle | `xsd:string` | 회사 핸들. |
-| 이름 | `xsd:string` | 회사 이름. |
+| [!DNL name] | `xsd:string` | 회사 이름. |
 | rootPath | `xsd:string` | 회사의 루트 경로입니다. |
-| expires | `xsd:dateTime` | 회사가 만료된 날짜 및 시간입니다. |
+| [!DNL expires] | `xsd:dateTime` | 회사가 만료된 날짜 및 시간입니다. |

@@ -5,14 +5,14 @@ title: 예약된 작업 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2bc145ca-3cee-4832-908c-e45e124a2b6f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 27%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
-# 예약된 작업 배열{#scheduledjobarray}
+# [!DNL ScheduledJobArray]{#scheduledjobarray}
 
 예약된 작업의 배열입니다.
 

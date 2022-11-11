@@ -5,14 +5,14 @@ title: 작업 로그 세부 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 789736c5-d74d-4970-9665-b43e316aca69
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
 
-# 작업 로그 세부 정보{#joblogdetailaux}
+# [!DNL JobLogDetailAux]{#joblogdetailaux}
 
 주 작업 로그 메시지와 관련된 보조 메시지(JobDetail)를 포함합니다. 현재 처리된 자산과 관련된 경고 및 기타 세부 정보를 포함합니다.
 

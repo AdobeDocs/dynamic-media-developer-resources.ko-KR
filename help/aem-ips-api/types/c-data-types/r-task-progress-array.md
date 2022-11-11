@@ -5,14 +5,14 @@ title: 작업_진행_배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '38'
 ht-degree: 15%
 
 ---
 
-# 작업_진행_배열{#taskprogressarray}
+# [!DNL TaskProgressArray]{#taskprogressarray}
 
 작업 진행 배열입니다. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
 

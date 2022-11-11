@@ -5,14 +5,14 @@ title: 캐비닛 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 78ec00cd-c410-412c-970f-96226563a45a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '58'
 ht-degree: 8%
 
 ---
 
-# 캐비닛 정보{#cabinetinfo}
+# [!DNL CabinetInfo]{#cabinetinfo}
 
 캐비닛 자산의 속성입니다.
 

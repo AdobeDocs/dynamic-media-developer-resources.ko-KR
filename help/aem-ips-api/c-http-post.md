@@ -1,13 +1,13 @@
 ---
 title: HTTP POST를 통해 UploadFile 서블릿에 자산 업로드
-description: Dynamic Media Classic에 자산 업로드에는 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
+description: 에 자산 업로드 [!DNL Dynamic Media] Classic에는 업로드된 파일과 연관된 모든 로그 활동을 조정하는 작업을 설정하는 하나 이상의 HTTP POST 요청이 포함됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---

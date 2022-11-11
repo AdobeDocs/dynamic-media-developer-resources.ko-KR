@@ -5,9 +5,9 @@ title: 문제 해결
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 **캐시 폴더에서 사용하는 실제 디스크 공간이 를 초과합니다. ` *[!DNL cache.maxSize]*`설정[!DNL PlatformServer.conf]**
 
-이는 문제를 나타내지 않습니다. 파일 시스템 오버헤드가 플랫폼 서버의 디스크 캐시 설정에 포함되지 않습니다. 시스템에서 보고하는 총 금액은 설정보다 실질적으로 더 클 수 있습니다. 에 지정된 디스크 공간의 두 배를 예약하는 것이 좋습니다 ` *[!DNL cache.maxSize]*`.
+이는 문제를 나타내지 않습니다. 파일 시스템 오버헤드가 [!DNL Platform Server]의 디스크 캐시 설정. 시스템에서 보고하는 총 금액은 설정보다 실질적으로 더 클 수 있습니다. 에 지정된 디스크 공간의 두 배를 예약하는 것이 좋습니다 ` *[!DNL cache.maxSize]*`.
 
 **is-docs 예에서 손상된 이미지**
 
@@ -43,11 +43,11 @@ ht-degree: 1%
 
 **상당한 가동 시간 이후 캐시 누락이 너무 많습니다.**
 
-서버 사용량에 따라 디스크 공간이 사용 가능한 경우 Platform Server 디스크 캐시 크기를 늘려 성능을 향상시킬 수 있습니다. 구성 파일을 수동으로 편집하여 설정을 변경할 수 있습니다. 설명서를 참조하십시오.
+서버 사용량에 따라 성능이 향상될 수 있습니다 [!DNL Platform Server] 디스크 공간을 사용할 수 있는 경우 디스크 캐시 크기입니다. 구성 파일을 수동으로 편집하여 설정을 변경할 수 있습니다. 설명서를 참조하십시오.
 
 **로그 파일의 디스크 공간이 너무 많습니다.**
 
-이미지 서버와 Platform Server는 매일 새 로그 파일을 시작합니다. 기본적으로 [!DNL]에 배치됩니다 *[!DNL install_root]*/ImageServing/logs]. 로그 파일 크기, 유지된 로그 수 및 로그 컨텐츠를 구성할 수 있습니다. 설명서를 참조하십시오.
+이미지 서버 및 [!DNL Platform Server] 매일 새 로그 파일을 시작합니다. 기본적으로 [!DNL]에 배치됩니다 *[!DNL install_root]*/ImageServing/logs]. 로그 파일 크기, 유지된 로그 수 및 로그 컨텐츠를 구성할 수 있습니다. 설명서를 참조하십시오.
 
 **서버에 바이러스 백신 소프트웨어가 설치되어 있는 경우**
 

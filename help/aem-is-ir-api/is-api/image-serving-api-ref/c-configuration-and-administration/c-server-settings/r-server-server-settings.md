@@ -5,9 +5,9 @@ title: 서버
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Linux에서는 32비트 및 64비트 버전의 이미지 서버를 모두 사용
 
 >[!NOTE]
 >
->64비트 모드는 Windows에서 지원되지 않습니다. `ImageServer32`만 지정할 수 있습니다. 그렇지 않으면 이미지 제공이 시작되지 않습니다.
+>64비트 모드는 Windows에서 지원되지 않습니다. 전용 `ImageServer32` 지정할 수 있습니다. 그렇지 않으면 이미지 제공이 시작되지 않습니다.
 
-## SV::PsHeapSize - 플랫폼 서버 힙크기 {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] 힙크기 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Platform Server의 Java heap 크기입니다. 기본값은 &quot; `512m`&quot;(512MB)입니다.
+에 대한 Java heap 크기입니다 [!DNL Platform Server]. 기본값은 &quot;입니다. `512m`&quot; (512MB)
 
 ## IS::TcpPort, PS::isConnection.port - 이미지 서버 수신 포트 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Platform Server와 이미지 서버 간의 통신에 사용되는 포트를 지정합니다. 호스트 시스템에서 달리 사용되지 않는 포트 번호를 지정해야 합니다.
+간 통신에 사용되는 포트를 지정합니다. [!DNL Platform Server] 및 이미지 서버를 포함합니다. 호스트 시스템에서 달리 사용되지 않는 포트 번호를 지정해야 합니다.
 
 >[!NOTE]
 >
->이미지 제공 기능이 올바르게 작동하려면 `IS::TcpPort` 및 `PS::isConnection.port`에 대해 동일한 값을 설정해야 합니다.
+>이미지 제공 기능이 올바르게 작동하려면 `IS::TcpPort` 및 `PS::isConnection.port`.
 
 ## IS::PhysicalMemory - 이미지 서버 메모리 제한 {#section-85e37aa2ac6e456eb698da716dd3247d}
 

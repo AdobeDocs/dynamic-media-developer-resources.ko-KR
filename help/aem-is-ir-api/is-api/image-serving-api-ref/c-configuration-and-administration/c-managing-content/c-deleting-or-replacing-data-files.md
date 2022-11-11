@@ -5,9 +5,9 @@ title: 데이터 파일 삭제 또는 바꾸기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >이미지 제공 기능이 데이터 파일을 사용할 때는 바꾸거나 삭제해야 합니다. 그렇지 않으면 오류 또는 서버 충돌이 발생할 수 있습니다.
 
-모든 경우, 클라이언트에서 업데이트된 데이터를 보려면 Platform Server 캐시 및 클라이언트 캐시 항목이 오래된 상태가 되어야 합니다. 특정 캐시 항목은 `cache=validate` 명령.
+모든 경우에 [!DNL Platform Server] 클라이언트가 업데이트한 데이터를 보기 전에 캐시 및 클라이언트 캐시 항목이 오래된 상태가 되어야 합니다. 특정 캐시 항목은 `cache=validate` 명령.
 
 글꼴 파일 및 ICC 프로필 파일의 변경 사항은 캐시 관리자가 직접 추적하지 않습니다. 이러한 리소스가 해당 ID를 변경하지 않고 수정되면 서버 캐시가 변경 내용을 인식하지 못하고 `cache=validate` 캐시 항목이 업데이트되지 않습니다. `cache=update` 이러한 캐시 항목을 강제로 다시 생성하는 데 사용할 수 있습니다.
 

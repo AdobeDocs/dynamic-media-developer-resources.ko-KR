@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 </table>
 
 * 토큰 간의 공백은 선택 사항입니다.
-* 알 수 없는 특성 이름을 사용하는 레코드는 Platform Server에서 무시됩니다.
+* 알 수 없는 속성 이름을 사용하는 레코드는 [!DNL Platform Server].
 * 속성 이름은 ASCII 문자, 숫자 및 &quot;-&quot;, &quot;_&quot; 및 &quot;.&quot;의 조합으로 구성될 수 있습니다.
 * 동일한 속성 파일에서 동일한 속성 이름이 두 번 이상 발생하면 마지막으로 발생한 속성 이름이 우선합니다.
 * 파서가 무시하는 메모로 레코드를 표시하려면 &#39;#&#39;을(를) 첫 번째 문자로 사용하십시오.

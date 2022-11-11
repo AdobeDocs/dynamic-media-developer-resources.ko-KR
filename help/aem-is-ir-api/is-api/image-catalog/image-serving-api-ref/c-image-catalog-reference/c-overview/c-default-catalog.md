@@ -5,9 +5,9 @@ title: 기본 카탈로그
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 또한 특정 이미지 카탈로그가 작업에 포함되어 있지 않을 경우 기본 카탈로그는 모든 속성 및 데이터 레코드(매크로, 글꼴, ICC 프로필, 사전 처리 규칙 요청)를 제공합니다.
 
-Platform Server가 올바르게 작동하려면 기본 카탈로그의 카탈로그 특성 파일의 이름을 [!DNL default.ini]으로 지정해야 하며, 항상 카탈로그 폴더에 있어야 하며, 모든 필수 속성(모두 선택 사항인 `attribute::RootId` 및 다양한 카탈로그 데이터 파일에 대한 참조를 제외)으로 채워야 합니다.
+의 올바른 기능을 위해 [!DNL Platform Server] 기본 카탈로그에 대한 카탈로그 속성 파일의 이름은 지정해야 합니다 [!DNL default.ini]는 항상 카탈로그 폴더에 있어야 하며 를 제외한 모든 필수 속성으로 완전히 채워야 합니다 `attribute::RootId` 다양한 카탈로그 데이터 파일에 대한 참조(모두 선택 사항)입니다.
 
 >[!NOTE]
 >
->[!DNL default.ini]을 제외한 모든 카탈로그 특성 파일에는 고유한 `attribute::RootId` 값이 있어야 합니다. `attribute::RootId` 에서 [!DNL default.ini] 는 비어 있어야 합니다.
+>다음을 제외한 모든 카탈로그 속성 파일 [!DNL default.ini] 에는 고유해야 합니다 `attribute::RootId` 값. `attribute::RootId` in [!DNL default.ini] 비어 있어야 합니다.

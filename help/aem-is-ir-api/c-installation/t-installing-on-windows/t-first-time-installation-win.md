@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ ht-degree: 0%
    **중요 사항:** 라이센스는 이 호스트에 설치된 네트워크 인터페이스 카드 중 하나의 MAC 주소를 기반으로 합니다. 이 카드를 사용 안 함, 제거 또는 교체하면 라이센스가 더 이상 유효한 것으로 인식되지 않습니다. 이미지 제공 시 사용하는 하드웨어 구성에 대한 라이센스를 받아야 합니다.
 
    유효한 라이센스 없이 IS 를 계속 설치하고 나중에 라이센스를 설치할 수 있습니다. 계속하려면 을(를) 선택합니다. **[!UICONTROL 뒤로]** 로 돌아가기 [!DNL Authentication] 대화 상자를 선택한 다음 **[!UICONTROL 다음]**.
-1. &quot;Platform Server 관리 설정&quot; 페이지로 이동합니다. 필요에 따라 새 값을 입력하거나 기본값을 적용합니다.
+1. 다음 단계로 진행합니다.[!DNL Platform Server] 관리 설정 페이지. 필요에 따라 새 값을 입력하거나 기본값을 적용합니다.
 
    다음 항목을 구성할 수 있습니다.
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> Platform Server HTTP 연결 포트 </p> </td>
+      <td> <p> [!DNL Platform Server] HTTP 연결 포트 </p> </td>
       <td> <p>이미지 제공 및 이미지 렌더링을 위한 기본 HTTP 수신 포트 </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ ht-degree: 0%
       <td> <p>관리 수신 대기 포트 </p> </td>
    </tr> 
    <tr> 
-      <td> <p> 플랫폼 서버 캐시 크기(MB) </p> </td>
+      <td> <p> [!DNL Platform Server] 캐시 크기(MB) </p> </td>
       <td> <p>기본 응답 캐시의 초기 크기 </p> </td>
    </tr>
    <tr> 
-      <td> <p> 플랫폼 서버 캐시 위치 </p> </td>
+      <td> <p> [!DNL Platform Server] 캐시 위치 </p> </td>
       <td> <p>PS 캐시 폴더 </p> </td>
    </tr>
    </tbody>

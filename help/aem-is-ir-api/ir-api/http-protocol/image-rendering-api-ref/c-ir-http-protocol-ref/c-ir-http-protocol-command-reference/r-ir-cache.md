@@ -1,20 +1,20 @@
 ---
 title: 캐시
-description: 캐시 제어. 내부 Platform Server 캐시에서 클라이언트 측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템)과 캐싱을 선택적으로 비활성화할 수 있습니다.
+description: 캐시 제어. 클라이언트 측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템)과 내부 캐싱을 선택적으로 비활성화할 수 있습니다. [!DNL Platform Server] 캐시.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4745197a-9f2d-4e33-8c0e-0067fbd65254
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 # 캐시 {#cache}
 
-캐시 제어. 내부 Platform Server 캐시에서 클라이언트 측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템) 및 캐싱을 선택적으로 비활성화할 수 있습니다.
+캐시 제어. 내부 클라이언트 측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템) 및 캐싱을 선택적으로 비활성화할 수 있습니다 [!DNL Platform Server] 캐시.
 
 `cache= *`cacheControl`*`
 

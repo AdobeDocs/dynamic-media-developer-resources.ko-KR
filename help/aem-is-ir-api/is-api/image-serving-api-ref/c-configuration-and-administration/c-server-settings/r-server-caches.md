@@ -5,9 +5,9 @@ title: 서버 캐시
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## PS::cache.rootPaths - 캐시 데이터 폴더 {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-플랫폼 서버의 디스크 캐시에 대한 루트 폴더입니다. 에 상대적인 하나 이상의 절대 파일 경로 또는 경로 *[!DNL install_folder]*&#x200B;는 세미콜론(;)으로 구분됩니다. HTTP 응답 캐시에 대한 데이터는 지정된 모든 폴더에 고르게 분산됩니다. 보조 캐시(컴파일된 이미지 카탈로그 및 외부 이미지 데이터)에 대한 캐시가 기본 캐시 폴더(목록의 첫 번째 폴더)에 있습니다.
+의 루트 폴더 [!DNL Platform Server]의 디스크 캐시. 에 상대적인 하나 이상의 절대 파일 경로 또는 경로 *[!DNL install_folder]*&#x200B;는 세미콜론(;)으로 구분됩니다. HTTP 응답 캐시에 대한 데이터는 지정된 모든 폴더에 고르게 분산됩니다. 보조 캐시(컴파일된 이미지 카탈로그 및 외부 이미지 데이터)에 대한 캐시가 기본 캐시 폴더(목록의 첫 번째 폴더)에 있습니다.
 
 ## PS::cache.maxSize - 응답 데이터 캐시 크기 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

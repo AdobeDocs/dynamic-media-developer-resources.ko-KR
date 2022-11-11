@@ -5,9 +5,9 @@ title: 제한 및 알려진 문제
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Dynamic Media 이미지 제공 사용 시 고려해야 하는 몇 가지 제한 
 * 마지막 텍스트 행이 맞지 않으면 컷으로 표시되지 않고 전체 줄이 삭제됩니다.
 * `\slmult` 및 `\sl` MS Word 및 `text=`이렇게 하면 현재 및 이후 단락에 적용됩니다.
 
-* `\sb` MS Word 및 `text=`, Adobe InDesign 및 Photoshop에서는 이렇게 하지 않습니다.
+* `\sb` MS Word 및 `text=`, Adobe InDesign 및 [!DNL Photoshop] 이렇게 하지 마십시오.
 
-* `\sa` MS Word 및 `text=`, Adobe InDesign 및 Photoshop에서는 이렇게 하지 않습니다.
+* `\sa` MS Word 및 `text=`, Adobe InDesign 및 [!DNL Photoshop] 이렇게 하지 마십시오.
 
 ## 이전 버전과의 호환성 {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ Digimarc 라이브러리에서는 Digimarc 워터마크가 이미 감지된 경�
 
    이미지 제공 비피라미드형 TIFF의 경우 속성 값을 늘립니다 `MaxNonDsfSize` 에서 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일.
 
-* Adobe Photoshop CS3는 기본적으로 복합 이미지별로 계층화된 PSD 파일을 저장하지 않습니다.
+* Adobe [!DNL Photoshop] CS3는 기본적으로 복합 이미지별로 계층화된 PSD 파일을 저장하지 않습니다.
 
    *증상*:
 
-   Adobe Photoshop CS3 레이어 PSD 파일은 &quot;이 계층화된 Photoshop 파일이 복합 이미지와 함께 저장되지 않았습니다&quot;라는 텍스트가 있는 검정색으로 표시됩니다. 이미지 제공 회신 이미지 또는 IPS에 대한.
+   Adobe [!DNL Photoshop] CS3 레이어 PSD 파일은 &quot;이 레이어된 [!DNL Photoshop] 파일이 복합 이미지로 저장되지 않았습니다.&quot; 이미지 제공 회신 이미지 또는 IPS에 대한.
 
    *해결 방법*:
 
-   호환성을 최대화하면서 Adobe Photoshop CS3 파일을 저장합니다.
+   Adobe 저장 [!DNL Photoshop] 호환성을 극대화한 CS3 파일입니다.
 
 * CMYK/JPEG 회신 이미지에 ICC 프로파일을 지정하면 일부 브라우저에서 색상이 반전됩니다.*작업*:
 
@@ -116,7 +116,7 @@ Digimarc 라이브러리에서는 Digimarc 워터마크가 이미 감지된 경�
 * 16bpc PNG 이미지는 PhotoFont 텍스트에 대해 지원되지 않습니다.
 * 포함된 색상 프로필이 있는 PNG 이미지에 대한 색상 교정은 하드 코딩된 옵션을 사용합니다. 렌더링 의도가 상대 색조이고 PhotoFont 텍스트에 대해 블랙포인트 보상이 설정됩니다.
 * 회사에서 로케일 변환을 사용할 경우 파일 기반 조회는 지원되지 않습니다 [!DNL ini] 파일.
-* 이미지 제공 기능이 닫히지 않은 Photoshop 경로를 올바르게 쓰지 않습니다.
+* 이미지 제공 기능이 닫히지 않은 쓰기 안 함 [!DNL Photoshop] 경로가 올바르게 표시됩니다.
 * 이미지 제공 서비스는 현재 Adobe Media Encoder 4.0.1 이상을 사용하여 내보낸 TIFF 파일의 처리를 지원하지 않습니다. Adobe Media Encoder은 Premiere Pro CS4, After Effects CS4 및 Creative Suite 4 Production Premium에 포함되어 있습니다.
 * 사용 `text=` 자체 크기 조정 레이어가 있는 경우 선 맞춤에 둘 이상의 설정을 사용하는 RTF 문자열을 지원하지 않습니다.
 

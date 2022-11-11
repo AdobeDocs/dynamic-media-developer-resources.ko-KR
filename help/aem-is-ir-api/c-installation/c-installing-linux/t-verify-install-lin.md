@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 273478ab-f245-48ef-a125-fb738054484e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Linux®에 이미지 서비스를 설치한 후 설치를 확인합니다.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-응답에서 `imageServer`: Platform Server가 이미지 서버와 성공적으로 통신할 수 있음을 나타냅니다.
+응답에서 `imageServer`: [!DNL Platform Server] 이미지 서버와 통신할 수 없습니다.
 
 >설치된 경우 설명서 및 데모 패키지의 샘플 페이지를 사용하여 추가 확인을 수행할 수 있습니다.

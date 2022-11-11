@@ -5,9 +5,9 @@ title: 이미지 크기 제한
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## IS::MaxMessageSize - 응답 크기 제한 {#section-bd942385d4d144cd904003695d72c85e}
 
-이미지 서버가 Platform Server로 전송할 수 있는 데이터 크기를 제한합니다. 따라서 Image Serving이 HTTP(MB)를 통해 클라이언트로 반환할 수 있는 인코딩된/압축된 응답 이미지의 크기를 효과적으로 제한합니다.
+이미지 서버가 보낼 수 있는 데이터 크기를 제한합니다 [!DNL Platform Server]. 따라서 Image Serving이 HTTP(MB)를 통해 클라이언트로 반환할 수 있는 인코딩된/압축된 응답 이미지의 크기를 효과적으로 제한합니다.
 
 ## IS::MaxRenderRgnPixels - 출력 이미지 크기 제한 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## Is::MaxSavePixels - 파일에 저장할 크기 제한 {#section-d1547c4afa88467080ab08356f775e06}
 
-이미지 서버가 `req=saveToFile` 명령을 사용하여 파일에 기록할 이미지의 크기를 제한합니다. 정수 값이 0(수백만 픽셀)보다 큽니다. 파일 저장 작업이 해당 제한을 초과하는 경우 오류가 반환됩니다. 기본값은 1억 픽셀입니다.
+이미지 서버가 파일이 있는 파일에 기록할 이미지 크기를 제한합니다 `req=saveToFile` 명령. 정수 값이 0(수백만 픽셀)보다 큽니다. 파일 저장 작업이 해당 제한을 초과하는 경우 오류가 반환됩니다. 기본값은 1억 픽셀입니다.
 
 ## IS::MaxNonDsfSize - 비PTIFF 입력 이미지의 크기 제한 {#section-50de28a7158a436393cce5da0d1e4d46}
 

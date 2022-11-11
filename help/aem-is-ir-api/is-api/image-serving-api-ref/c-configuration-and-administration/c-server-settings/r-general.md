@@ -5,9 +5,9 @@ title: 일반
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## TC::PsPort - 기본 수신 포트 {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Platform Server의 기본 수신 포트를 지정합니다. 이 포트는 이미지 제공, 이미지 렌더링 및 Dynamic Media 뷰어(설치된 경우)에 대한 설명서 및 예제 페이지에 액세스하는 데에도 사용됩니다.
+에 대한 기본 수신 포트를 지정합니다. [!DNL Platform Server]. 이 포트는 이미지 제공, 이미지 렌더링 및 Dynamic Media 뷰어(설치된 경우)에 대한 설명서 및 예제 페이지에 액세스하는 데에도 사용됩니다.
 
 ## IS::CacheServerUrl - 서비스 루트 Url 캐싱 {#section-bcca227a1f91453b834db4ea050968e2}
 

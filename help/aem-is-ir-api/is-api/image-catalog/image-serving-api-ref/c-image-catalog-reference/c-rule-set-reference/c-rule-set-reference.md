@@ -5,9 +5,9 @@ title: 규칙 세트 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 사전 처리 규칙 컬렉션(*규칙 세트*)를 이미지 카탈로그 또는 기본 카탈로그에 첨부할 수 있습니다. 기본 카탈로그의 규칙은 요청이 특정 주 이미지 카탈로그를 식별하지 않는 경우에만 적용됩니다.
 
-요청 사전 처리 규칙은 경로 조작, 명령 추가, 명령 값 변경, 템플릿 또는 매크로 적용 등 Platform Server의 파서가 처리하기 전에 요청의 경로 및 쿼리 부분을 수정할 수 있습니다. 규칙을 사용하여 요청 난독화, 워터마킹 등의 카탈로그 속성으로만 일반적으로 제어되고 특정 클라이언트 IP 주소로 서비스를 제한하는 특정 보안 기능을 구성하고 재정의할 수도 있습니다.
+요청 사전 처리 규칙은 요청에 의해 처리되기 전에 요청의 경로 및 쿼리 부분을 수정할 수 있습니다. [!DNL Platform Server]경로 조작, 명령 추가, 명령 값 변경, 템플릿 또는 매크로 적용 등 의 파서입니다. 규칙을 사용하여 요청 난독화, 워터마킹 등의 카탈로그 속성으로만 일반적으로 제어되고 특정 클라이언트 IP 주소로 서비스를 제한하는 특정 보안 기능을 구성하고 재정의할 수도 있습니다.
 
 규칙 세트는 XML 문서 파일로 저장됩니다. 규칙 세트 파일의 상대 또는 절대 경로는 `attribute::RuleSetFile`.
 

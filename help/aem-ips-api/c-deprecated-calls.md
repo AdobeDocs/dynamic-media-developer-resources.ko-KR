@@ -1,13 +1,13 @@
 ---
 title: 더 이상 사용되지 않는 호출
-description: 이미지 프로덕션 시스템 API 호출과 Dynamic Media에서 더 이상 사용되지 않거나 지원되지 않는 관련 매개 변수
+description: 이미지 프로덕션 시스템 API 호출과 에서 더 이상 사용되지 않거나 지원되지 않는 관련 매개 변수 [!DNL Dynamic Media].
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 더 이상 사용되지 않는 호출 {#topic-654c0466e6434fe4a95953322255b08c}
 
-이미지 프로덕션 시스템 API 호출 및 Dynamic Media에서 더 이상 사용되지 않는 관련 매개 변수
+이미지 프로덕션 시스템 API 호출과 에서 더 이상 사용되지 않는 관련 매개 변수 [!DNL Dynamic Media].
 
 * `ExcludeMasterVideoFromAVS` - 다음에서 사용 안 함 [데이터 유형](/help/aem-ips-api/types/c-data-types/c-data-types.md). 이 매개 변수는 응용 비디오 세트에서 기본 비디오를 제외했습니다. <!-- Adobe is ending support for this parameter on September 1, 2022. -->
 * `addMediaPortalEvent` - 다음에서 사용 안 함 [작업](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). 이 매개 변수를 사용하면 IPS에 Media Portal 이벤트를 추가할 수 있습니다.

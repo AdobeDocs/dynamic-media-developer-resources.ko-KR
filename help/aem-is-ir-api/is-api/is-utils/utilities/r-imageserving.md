@@ -5,9 +5,9 @@ title: ImageServing
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 2%
    <td colname="col2"> <p> 서버 감독자 및 기타 모든 이미지 제공 구성 요소를 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
    <td colname="col2"> <p> 서버 감독자를 포함하여 모든 이미지 제공 구성 요소를 중지합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ ht-degree: 2%
    <td colname="col2"> <p>서버 감독자를 포함하여 모든 이미지 제공 구성 요소를 다시 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ps 다시 시작 | | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Tomcat/Platform 서버, 이미지 서버 또는 SVG를 다시 시작합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ps 다시 시작 | | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Tomcat을 다시 시작합니다./[!DNL Platform Server], 이미지 서버 또는 SVG 등 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 서버, Tomcat/Platform 서버 및 SVGserver에 대한 작동 시간 및 현재 메모리 사용 정보 또는 지정된 서버에 대한 상태를 반환합니다. 서버 감독자가 실행되고 있지 않으면 정보 메시지가 대신 반환됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>이미지 서버 Tomcat/에 대한 작동 시간 및 현재 메모리 사용 정보를 반환합니다.[!DNL Platform Server]및 SVGserver 또는 지정한 서버에 대한 상태입니다. 서버 감독자가 실행되고 있지 않으면 정보 메시지가 대신 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

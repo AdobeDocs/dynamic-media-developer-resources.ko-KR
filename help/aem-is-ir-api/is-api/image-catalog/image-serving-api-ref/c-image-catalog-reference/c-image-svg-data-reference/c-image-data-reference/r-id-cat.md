@@ -5,16 +5,16 @@ title: ID
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 7%
+source-wordcount: '98'
+ht-degree: 8%
 
 ---
 
 # ID {#id}
 
-Platform Server에서 이미지 데이터 파일의 레코드를 조회하는 인덱스 키 값입니다.
+이미지 데이터 파일의 레코드를 [!DNL Platform Server].
 
 일반적으로 SKU에 여러 이미지가 있는 경우 SKU 번호와 같은 짧고 고유한 이미지 식별자입니다. 또한, 이미지 제공 기능을 사용하여 웹 사이트를 쉽게 재고팅할 수 있도록 파일 경로처럼 보이는 보다 복잡한 문자열일 수 있습니다.
 

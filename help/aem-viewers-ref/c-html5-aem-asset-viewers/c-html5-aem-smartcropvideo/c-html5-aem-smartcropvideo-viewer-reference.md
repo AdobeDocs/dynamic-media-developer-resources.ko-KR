@@ -1,14 +1,14 @@
 ---
 title: 스마트 자르기 비디오 뷰어
-description: 스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생하는 비디오 플레이어입니다. Dynamic Media과 함께 Dynamic Media Classic 또는 Adobe Experience Manager에서 제공됩니다.
+description: 스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생합니다. Dynamic Media과 함께 Dynamic Media Classic 또는 Adobe Experience Manager에서 제공됩니다.
 keywords: 응답형
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2408'
 ht-degree: 0%
 
 ---

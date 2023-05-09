@@ -2,11 +2,11 @@
 cloud: Experience Cloud
 user-guide-title: Dynamic Media 이미지 프로덕션 시스템 API
 feature-set: Experience Manager Assets
-user-guide-description: IPS(이미지 프로덕션 시스템) 웹 서비스 API를 사용하면 외부 애플리케이션과 서드파티 개발자가 IPS 에셋 및 기능에 프로그래밍 방식으로 액세스할 수 있습니다.
+user-guide-description: IPS(Image Production System) 웹 서비스 API를 사용하면 외부 애플리케이션 및 타사 개발자가 프로그래밍 방식으로 IPS 자산 및 기능에 액세스할 수 있습니다.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '647'
-ht-degree: 8%
+ht-degree: 1%
 
 ---
 
@@ -259,7 +259,7 @@ ht-degree: 8%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [이미지 맵](types/c-data-types/r-image-map.md)
+   + [ImageMap](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -393,7 +393,7 @@ ht-degree: 8%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [ZipInfo](types/c-data-types/r-zip-info.md)
-   + [대상 확대/축소](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
@@ -407,7 +407,7 @@ ht-degree: 8%
    + [자동 자르기 모서리](string-constants/c-string-constants/r-auto-crop-corner.md)
    + [색상 관리 모드](string-constants/c-string-constants/r-color-management-modes.md)
    + [색상 공간](string-constants/c-string-constants/r-color-spaces.md)
-   + [이메일 설정](string-constants/c-string-constants/r-email-settings.md)
+   + [전자 메일 설정](string-constants/c-string-constants/r-email-settings.md)
    + [글꼴 스타일](string-constants/c-string-constants/r-font-styles.md)
    + [글꼴 유형](string-constants/c-string-constants/r-font-types.md)
    + [생성 정보](string-constants/c-string-constants/r-generation-info.md)
@@ -427,7 +427,7 @@ ht-degree: 8%
    + [프로필 클래스](string-constants/c-string-constants/r-profile-classes.md)
    + [게시 상태](string-constants/c-string-constants/r-publish-state.md)
    + [속성 집합 유형](string-constants/c-string-constants/r-property-set-types.md)
-   + [컨텍스트 게시](string-constants/c-string-constants/r-publish-context.md)
+   + [게시 컨텍스트](string-constants/c-string-constants/r-publish-context.md)
    + [게시 유형](string-constants/c-string-constants/r-publish-types.md)
    + [영역 모양](string-constants/c-string-constants/r-region-shape.md)
    + [검색 일치 모드](string-constants/c-string-constants/r-search-match-modes.md)

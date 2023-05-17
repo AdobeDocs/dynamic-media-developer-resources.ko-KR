@@ -1,14 +1,14 @@
 ---
+title: 명령 참조
 description: 이 섹션에서는 HTTP 프로토콜 명령을 설명합니다.
 solution: Experience Manager
-title: 명령 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: '322'
+ht-degree: 6%
 
 ---
 
@@ -16,21 +16,33 @@ ht-degree: 10%
 
 이 섹션에서는 HTTP 프로토콜 명령을 설명합니다.
 
-**AEM의 Dynamic Media에만 해당**: 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도  [!DNL Dynamic Media] AEM(  [!DNL Adobe Experience Manager])에서는  **이미지 수정자 필드에서 지정할 수 있는 다양한 고급 이미지 수정 사항을** 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
+>[!TIP]
+>
+>Dynamic Media을 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 확인하고 살펴봅니다 [_스냅샷_](https://snapshot.scene7.com/).
+>
+> 스냅샷은 최적화 및 동적 이미지 전달을 위해 Dynamic Media의 강력한 기능을 보여주기 위해 설계된 시각적 데모 도구입니다. 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 사용하여 테스트 이미지 또는 Dynamic Media URL을 실험합니다.
+>* 파일 크기(WebP 및 AVIF 전달 포함)
+>* 네트워크 대역폭
+>* DPR (장치 픽셀 비율)
+>
+>스냅샷 사용 용이성을 알아보려면 [스냅샷 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3분 17초).
 
-* 색상 수정 명령: `icc=` 및 `iccEmbed=`
-* 기본 템플릿 및 텍스트 렌더링 명령: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`
-* 로컬라이제이션 명령: `locale=` 및 `req=xlate`
-* `req=set` 는 일반적인 용도로 사용할 수 없습니다.
+
+**Adobe Experience Manager의 Dynamic Media에만 해당** - 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에도, [!DNL Dynamic Media] AEM( [!DNL Adobe Experience Manager])에서는 에서 지정할 수 있는 다양한 고급 이미지 수정 사항을 지원합니다 **이미지 수정자** 필드. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
+
+* 색상 수정 명령: `icc=` 및 `iccEmbed=`.
+* 기본 템플릿 및 텍스트 렌더링 명령: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`.
+* 로컬라이제이션 명령: `locale=` 및 `req=xlate`.
+* `req=set` 은 일반적인 용도로 사용할 수 없습니다.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* 비핵심 Dynamic Media 서비스: SVG, 이미지 렌더링 및 Web-to-Print.
+* 비핵심 Dynamic Media 서비스: SVG, 이미지 렌더링 및 Web-to-Print
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 설명서에서 Dynamic Media [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)을 참조하십시오.
+Dynamic Media도 참조하십시오 [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) 를 참조하십시오.
 
 * [정렬](r-align.md)
 * [앵커](r-anchor.md)
@@ -48,7 +60,7 @@ AEM 6.5 설명서에서 Dynamic Media [이미지 사전 설정 옵션](https://e
 * [효과](r-effect.md)
 * [effectMask](r-effectmask.md)
 * [확장](r-extend.md)
-* [맞춤](r-fit.md)
+* [fit](r-fit.md)
 * [뒤집기](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)

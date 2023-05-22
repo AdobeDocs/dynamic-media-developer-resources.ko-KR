@@ -8,7 +8,7 @@ exl-id: 074b8a74-9df9-4f0b-9196-a61783dda14b
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '20'
-ht-degree: 20%
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 20%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

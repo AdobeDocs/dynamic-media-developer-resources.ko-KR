@@ -8,7 +8,7 @@ exl-id: 95bf90d1-071e-467a-87aa-122911125233
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. 로 설정된 경우 <span class="codeph"> 0</span>이렇게 하면 새로 설정된 이미지의 종횡비를 유지하면서 가능한 가장 잘 맞는 현재 보기 포트가 유지됩니다. </p> </td> 
+   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. 로 설정된 경우 <span class="codeph"> 0</span>를 사용하면 새로 설정된 이미지의 종횡비를 유지하면서 가장 잘 맞는 현재 보기 포트를 유지할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-65be9301796240e38f31818229da7acc}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

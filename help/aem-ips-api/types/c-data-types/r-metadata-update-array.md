@@ -1,7 +1,7 @@
 ---
-description: 메타데이터 업데이트 배열입니다.
+description: 메타데이터 업데이트 배열.
 solution: Experience Manager
-title: MetadataUpdateArray
+title: 메타데이터 업데이트 배열
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-메타데이터 업데이트 배열입니다.
+메타데이터 업데이트 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:MetadataUpdate` | 메타데이터 업데이트 배열입니다. |
+| 항목 | `types:MetadataUpdate` | 메타데이터 업데이트 배열. |

@@ -1,5 +1,5 @@
 ---
-description: 관련 자산 그룹에 대한 프로젝트를 가져옵니다.
+description: 관련 에셋 그룹에 대한 프로젝트를 가져옵니다.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # getProjects{#getprojects}
 
-관련 자산 그룹에 대한 프로젝트를 가져옵니다.
+관련 에셋 그룹에 대한 프로젝트를 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-337649866b1f4098844d1974ed7ab5d0}
+## 승인된 사용자 유형 {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,13 +33,13 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
 
 **출력(getProjectsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | 예 | 회사와 연결된 프로젝트의 배열입니다. |
+| projectArray | `types:ProjectArray` | 예 | 회사와 연계된 프로젝트 배열. |
 
 ## 예제 {#section-8b12d0b948f644f68bf9a16060d3849a}
 

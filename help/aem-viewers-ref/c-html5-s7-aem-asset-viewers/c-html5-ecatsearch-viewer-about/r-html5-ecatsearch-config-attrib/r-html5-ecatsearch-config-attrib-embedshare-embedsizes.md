@@ -2,19 +2,19 @@
 description: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 68103754-1cbb-4e8d-b2b5-2770a7658140
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidheight`*[,0|1]]`]
+[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`폭`*, *`높이`*[,0|1][; *`폭`*, *`높이`*[,0|1]]`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
@@ -24,7 +24,7 @@ ht-degree: 17%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>포함 높이. </p> </td> 
+   <td colname="col2"> <p>높이를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
@@ -35,7 +35,7 @@ ht-degree: 17%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

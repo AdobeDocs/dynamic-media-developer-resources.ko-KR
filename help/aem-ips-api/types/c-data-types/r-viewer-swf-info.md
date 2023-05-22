@@ -8,7 +8,7 @@ exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 16%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | 원래 업로드한 뷰어 SWF 파일의 상대 경로입니다. |
-| originalFile | `xsd:string` | 원래 뷰어 SWF 파일의 파일 이름입니다. |
-| fileSize | `xsd:int` | 파일 크기. |
+| 원본 경로 | `xsd:string` | 원래 업로드한 뷰어 SWF 파일의 상대 경로입니다. |
+| 원본 파일 | `xsd:string` | 원래 뷰어 SWF 파일의 파일 이름입니다. |
+| 파일 크기 | `xsd:int` | 파일 크기. |

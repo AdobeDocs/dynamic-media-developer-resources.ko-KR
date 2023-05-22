@@ -1,6 +1,6 @@
 ---
 title: Windows에서 제거
-description: 다음 지침에 따라 Windows 시스템에서 이미지 렌더링을 제거합니다.
+description: Windows 시스템에서 이미지 렌더링을 제거하려면 다음 지침을 따르십시오.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Windows에서 제거{#uninstalling-on-windows}
 
-다음 지침에 따라 Windows 시스템에서 이미지 렌더링을 제거합니다.
+Windows 시스템에서 이미지 렌더링을 제거하려면 다음 지침을 따르십시오.
 
-1. 를 실행하여 제거 관리자를 실행합니다. ` *[!DNL install_folder]*\_uninst\uninstaller.exe`또는 시작 메뉴에서 **[!UICONTROL 프로그램]** > **[!UICONTROL Scene7]** > **[!UICONTROL 이미지 렌더링]** > **[!UICONTROL 제거]**.
+1. 를 실행하여 제거 관리자 실행 ` *[!DNL install_folder]*\_uninst\uninstaller.exe`또는 시작 메뉴에서 을 선택합니다 **[!UICONTROL 프로그램]** > **[!UICONTROL Scene7]** > **[!UICONTROL 이미지 렌더링]** > **[!UICONTROL 제거]**.

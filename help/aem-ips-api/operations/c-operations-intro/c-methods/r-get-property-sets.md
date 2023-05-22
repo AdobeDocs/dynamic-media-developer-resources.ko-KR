@@ -18,7 +18,7 @@ ht-degree: 18%
 
 구문
 
-## 인증된 사용자 유형 {#section-da858360b72941bfa8d9558b4da7d4da}
+## 승인된 사용자 유형 {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,15 +36,15 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| typeHandle | `xsd:string` | 예 | 속성 집합 형식에 대한 핸들입니다. |
-| primaryOwnerHandle | `xsd:string` | 예 | 데이터베이스 객체에 바인딩된 데이터의 기본 소유자입니다. |
-| secondaryOwnerHandle | `xsd:string` | 아니요 | 데이터의 선택적 보조 소유자. |
+| typeHandle | `xsd:string` | 예 | 속성 집합 유형에 대한 핸들입니다. |
+| primaryOwner핸들 | `xsd:string` | 예 | 데이터베이스 개체에 바인딩된 데이터의 기본 소유자입니다. |
+| secondaryOwner핸들 | `xsd:string` | 아니요 | 데이터의 선택적 보조 소유자입니다. |
 
 **출력(getPropertySetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | 예 | 속성 세트의 배열입니다. |
+| setArray | `types:PropertySetArray` | 예 | 속성 세트 배열. |
 
 ## 예제 {#section-1358af974eab4259864910337a6f0bd2}
 

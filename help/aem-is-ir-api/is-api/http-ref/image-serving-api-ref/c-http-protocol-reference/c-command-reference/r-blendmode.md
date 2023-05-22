@@ -1,5 +1,5 @@
 ---
-description: 혼합 모드. 레이어를 합성할 때 사용되는 혼합 유형을 지정합니다. Photoshop에서 사용할 수 있는 일반적으로 사용되는 혼합 모드를 시뮬레이션합니다. 자세한 내용은 Photoshop 설명서 을 참조하십시오.
+description: 혼합 모드. 레이어를 합성할 때 사용되는 혼합 유형을 지정합니다. Photoshop에서 일반적으로 사용되는 혼합 모드를 시뮬레이트합니다. 자세한 내용은 Photoshop 설명서 를 참조하십시오.
 solution: Experience Manager
 title: blendMode
 feature: Dynamic Media Classic,SDK/API
@@ -7,20 +7,20 @@ role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 15%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 
 # blendMode{#blendmode}
 
-혼합 모드. 레이어를 합성할 때 사용되는 혼합 유형을 지정합니다. Photoshop에서 사용할 수 있는 일반적으로 사용되는 혼합 모드를 시뮬레이션합니다. 자세한 내용은 Photoshop 설명서 을 참조하십시오.
+혼합 모드. 레이어를 합성할 때 사용되는 혼합 유형을 지정합니다. Photoshop에서 일반적으로 사용되는 혼합 모드를 시뮬레이트합니다. 자세한 내용은 Photoshop 설명서 를 참조하십시오.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## 속성 {#section-418aad5a417f49929d1953e226e5c8dd}
 
-레이어 특성. `layer=0` 및 `layer=comp`에서 무시됨.
+레이어 속성. 무시한 사람 `layer=0` 및 `layer=comp`.
 
 ## 기본값 {#section-69829acc6532448d8612a4a54e86f00e}
 

@@ -8,7 +8,7 @@ exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 로 설정된 경우 <span class="codeph"> 1</span>로 지정하는 경우, 레이블이 정의되지 않은 페이지의 경우에도 구성 요소는 드롭다운 패널을 모든 페이지의 요소로 채웁니다. </p> <p>로 설정된 경우 <span class="codeph"> 0</span> 명시적 레이블이 있는 항목만 드롭다운 패널에 표시됩니다. </p> </td> 
+   <td> <p> 로 설정된 경우 <span class="codeph"> 1</span>, 구성 요소는 레이블이 정의되지 않은 페이지의 경우에도 모든 페이지에 대한 요소로 드롭다운 패널을 채웁니다. </p> <p>로 설정된 경우 <span class="codeph"> 0</span> 명시적인 레이블이 있는 항목만 드롭다운 패널에 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-89a21bad65674a948db84412eb3e46d7}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-661ec4a10fc8484c92707ef12f92ac00}
 

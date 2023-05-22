@@ -1,5 +1,5 @@
 ---
-description: Flash 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여 다중 비트율 f4m 응답을 생성하는 데 사용되는 Flash 스트리밍 서버 URL 접두사입니다.
+description: Flash 스트리밍 서버 URL 접두사입니다. req=mbrSet으로 다중 비트 전송률 f4m 응답을 생성할 때 사용되는 Flash 스트리밍 서버 URL 접두사.
 solution: Experience Manager
 title: HttpFlashStreamingContext
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 1052e14d-2906-4be5-a13c-f5f34cd46d89
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 8%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
 # HttpFlashStreamingContext{#httpflashstreamingcontext}
 
-Flash 스트리밍 서버 URL 접두사. req=mbrSet을 사용하여 다중 비트율 f4m 응답을 생성하는 데 사용되는 Flash 스트리밍 서버 URL 접두사입니다.
+Flash 스트리밍 서버 URL 접두사입니다. req=mbrSet으로 다중 비트 전송률 f4m 응답을 생성할 때 사용되는 Flash 스트리밍 서버 URL 접두사.
 
 ## 속성 {#section-e7ae7d96a7cb40829de7e784fcbbad33}
 

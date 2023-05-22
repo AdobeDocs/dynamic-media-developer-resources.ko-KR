@@ -18,7 +18,7 @@ Zip 파일 데이터를 반환합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-33a3f03ba8a14086922397619ce12ab8}
+## 승인된 사용자 유형 {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +36,18 @@ Zip 파일 데이터를 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | Zip 파일이 포함된 회사의 핸들입니다. |
-| assetHandle | `xsd:string` | 예 | Zip 파일로 처리합니다. |
+| company핸들 | `xsd:string` | 예 | Zip 파일이 포함된 회사에 대한 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | Zip 파일을 처리합니다. |
 
 **출력(getZipEntriesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | 예 | Zip 파일에 있는 항목의 배열입니다. |
+| zipArray | `types:ZipEntryArray` | 예 | Zip 파일의 항목 배열. |
 
 ## 예제 {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-이 코드 샘플은 압축 및 압축되지 않은 크기를 포함한 Zip 파일 정보를 반환합니다.
+이 코드 샘플은 압축 및 압축 해제된 크기를 포함한 Zip 파일 정보를 반환합니다.
 
 **요청**
 

@@ -1,7 +1,7 @@
 ---
-description: 주 작업 로그 메시지와 관련된 보조 메시지(JobDetail)를 포함합니다. 현재 처리된 자산과 관련된 경고 및 기타 세부 정보를 포함합니다.
+description: 기본 작업 로그 메시지(JobDetail)와 관련된 보조 메시지를 포함합니다. 현재 처리된 에셋과 관련된 경고 및 기타 세부 정보를 포함합니다.
 solution: Experience Manager
-title: 작업 로그 세부 정보
+title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 789736c5-d74d-4970-9665-b43e316aca69
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-주 작업 로그 메시지와 관련된 보조 메시지(JobDetail)를 포함합니다. 현재 처리된 자산과 관련된 경고 및 기타 세부 정보를 포함합니다.
+기본 작업 로그 메시지(JobDetail)와 관련된 보조 메시지를 포함합니다. 현재 처리된 에셋과 관련된 경고 및 기타 세부 정보를 포함합니다.
 
 구문
 

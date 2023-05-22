@@ -23,6 +23,6 @@ ht-degree: 18%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | itemName | `xsd:string` | 처리 중인 항목의 이름입니다. |
-| progress | `xsd:double` | 진행 완료 %. |
-| progressMessage | `xsd:string` | 프로세스 메시지. |
-| lastProgressUpdate | `xsd:dateTime` | 마지막 업데이트 시간입니다. |
+| progress | `xsd:double` | 진행률 완료 % |
+| progressMessage | `xsd:string` | 메시지 처리. |
+| lastProgressUpdate | `xsd:dateTime` | 마지막 업데이트 시간. |

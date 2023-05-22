@@ -1,5 +1,5 @@
 ---
-description: 글꼴 필드 업데이트 배열입니다.
+description: 글꼴 필드 업데이트의 배열입니다.
 solution: Experience Manager
 title: FontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
-글꼴 필드 업데이트 배열입니다.
+글꼴 필드 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:FontFieldUpdate` | 글꼴 필드의 항목 업데이트 배열입니다. |
+| 항목 | `types:FontFieldUpdate` | 글꼴 필드 업데이트 배열의 항목입니다. |

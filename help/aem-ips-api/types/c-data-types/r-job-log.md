@@ -22,25 +22,25 @@ ht-degree: 3%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| companyHandle | `xsd:string` | 회사 핸들. |
+| company핸들 | `xsd:string` | 회사 핸들. |
 | jobHandle | `xsd:string` | 작업 핸들. |
 | jobName | `xsd:string` | 작업 이름. |
-| originalJobName | `xsd:string` | 작업에 대해 제출된 원래 이름 `submitJob`. |
-| submitUserEmail | `xsd:string` | 작업을 제출한 사용자의 전자 메일 주소입니다. |
-| logType | `xsd:string` | 작업 로그 유형 선택 |
-| jobSubType | `xsd:string` | 추가 작업 정보입니다. |
+| originalJobName | `xsd:string` | (이)가 있는 작업에 대해 제출된 원래 이름 `submitJob`. |
+| submitUseremail | `xsd:string` | 작업을 제출한 사용자의 이메일 주소입니다. |
+| logType | `xsd:string` | 작업 로그 유형 선택. |
+| jobSubtype | `xsd:string` | 추가 작업 정보. |
 | startDate | `xsd:dateTime` | 작업의 시작 날짜, 시간 및 시간대입니다. |
 | endDate | `xsd:dateTime` | 작업의 종료 날짜, 시간 및 시간대입니다. |
-| [!DNL description] | `xsd:string` | 작업에 대한 원래 `submitJob`. |
-| fileSuccessCount | `xsd:int` | 성공적으로 처리된 파일 수입니다. |
-| fileErrorCount | `xsd:int` | 오류를 일으킨 파일 수입니다. |
-| fileWarningCount | `xsd:int` | 경고를 생성한 파일 수입니다. |
-| fileDuplicateCount | `xsd:int` | 중복된 파일 수입니다. |
-| fileUpdateCount | `xsd:int` | 업데이트된 파일 수입니다. |
-| totalFileCount | `xsd:int` | 로그된 작업에서 처리한 파일 수입니다. |
-| transferSuccessCount | `xsd:int` | 전송 성공 수입니다. |
-| transferErrorCount | `xsd:int` | 전송 오류 수입니다. |
-| transferWarningCount | `xsd:int` | 전송 경고 수입니다. |
-| fatalError | `xsd:boolean` | 작업에서 치명적인 오류를 생성했는지 여부. |
-| detailTotalRows | `xsd:int` | 쿼리와 일치하는 행의 총 수입니다. 이는 `detailArray` 페이지 크기 제한 때문에. |
-| detailArray | `types:JobLogDetailArray` | 로그된 작업에 대한 세부 정보의 배열입니다. |
+| [!DNL description] | `xsd:string` | 원래 지정된 작업에 대한 설명 `submitJob`. |
+| fileSuccessCount | `xsd:int` | 정상적으로 처리된 파일 수. |
+| 파일 오류 수 | `xsd:int` | 오류가 발생한 파일 수입니다. |
+| fileAlertCount | `xsd:int` | 경고를 생성한 파일 수입니다. |
+| fileDuplicationCount | `xsd:int` | 중복 파일 수. |
+| fileUpdateCount | `xsd:int` | 업데이트된 파일 수. |
+| 총 파일 수 | `xsd:int` | 기록된 작업에서 처리된 파일 수입니다. |
+| transferSuccessCount | `xsd:int` | 성공한 전송 수입니다. |
+| transfer오류 수 | `xsd:int` | 전송 오류 수. |
+| transferWarningCount | `xsd:int` | 전송 경고 수. |
+| fatalError | `xsd:boolean` | 작업에서 치명적인 오류가 생성되었는지 여부입니다. |
+| 세부 정보 합계 행 | `xsd:int` | 쿼리와 일치하는 총 행 수로, 크기보다 클 수 있습니다. `detailArray` 페이지 크기 제한으로 인해 발생합니다. |
+| detailArray | `types:JobLogDetailArray` | 로그된 작업에 대한 세부 정보 배열. |

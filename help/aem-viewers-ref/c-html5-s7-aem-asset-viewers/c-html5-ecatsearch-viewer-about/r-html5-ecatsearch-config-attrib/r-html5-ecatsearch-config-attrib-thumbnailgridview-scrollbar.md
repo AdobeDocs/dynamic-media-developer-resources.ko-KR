@@ -2,13 +2,13 @@
 description: ThumbnailGridView.scrollbar
 solution: Experience Manager
 title: ThumbnailGridView.scrollbar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: f86816a9-ba0e-4b75-a4b1-246eabf5049e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 20%
+source-wordcount: '17'
+ht-degree: 23%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 20%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> 스크롤 막대의 사용을 활성화 또는 비활성화합니다. </p> </td> 
+   <td> <p> 스크롤 막대를 사용하거나 사용하지 않도록 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-f102ce7d6a514133b552c6a8466317cf}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-8582423c1d974c628be93247de6c1d79}
 

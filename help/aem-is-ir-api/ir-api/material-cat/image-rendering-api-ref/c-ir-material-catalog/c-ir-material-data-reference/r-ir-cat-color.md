@@ -1,5 +1,5 @@
 ---
-description: 재료 색상. 단색재용 원색 및 색조재용 첨가색
+description: 재질 색상. 단색 재료의 주 색상 및 색상화된 텍스처 재료의 추가 색상입니다.
 solution: Experience Manager
 title: 색상
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: af472ded-d9df-48d5-a237-c359b68bebe2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 10%
+source-wordcount: '83'
+ht-degree: 9%
 
 ---
 
 # 색상{#color}
 
-재료 색상. 단색재용 원색 및 색조재용 첨가색
+재질 색상. 단색 재료의 주 색상 및 색상화된 텍스처 재료의 추가 색상입니다.
 
 ## 속성 {#section-073772b43b264b37bd96d1fb7404d10b}
 
-색상. 단색 재료에 필요합니다. 반복 가능한 텍스쳐, 캐비닛 및 창 커버 재질의 경우 선택적으로 색상을 지정할 수 있습니다. 반복 가능한 텍스쳐 또는 캐비닛 재료의 색상을 수정하지 않는 경우 이 필드를 비워 두어야 합니다.
+색상. 단색 소재에 필요합니다. 반복 가능한 질감, 캐비닛 및 창 커버링 재료에 대해 색상화 색상을 지정하는 선택 사항입니다. 반복 가능한 질감이나 캐비닛 재료의 색상을 수정하지 않으려면 이 필드를 비워 두어야 합니다.
 
 ## 기본값 {#section-bf2c2ec642ed47da880ae2943b7d2c18}
 

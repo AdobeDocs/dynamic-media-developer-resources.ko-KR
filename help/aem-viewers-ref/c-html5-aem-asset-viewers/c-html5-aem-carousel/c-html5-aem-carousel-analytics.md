@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-기본적으로 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
+기본적으로 뷰어는 뷰어 유형 및 버전 정보를 사용하여 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -42,23 +42,23 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
-The viewer tracks the following SDK user events:
+뷰어는 다음 SDK 사용자 이벤트를 추적합니다.
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK 사용자 이벤트 </p> </th> 
-   <th colname="col2" class="entry"> <p>Sent when... </p> </th> 
+   <th colname="col2" class="entry"> <p>전송 시점... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>the viewer is loaded first. </p> </td> 
+   <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배너 </span> </p> </td> 
-   <td colname="col2"> <p>캐러셀 배너 이미지가 변경되었습니다. </p> </td> 
+   <td colname="col2"> <p>회전 배너 이미지가 변경되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: 이러한 명령은 요청에서 나타나는 위치에 관계없이 적용됩니다.
+description: 이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
 solution: Experience Manager
 title: 요청 명령
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
 # 요청 명령{#request-commands}
 
-이러한 명령은 요청에서 나타나는 위치에 관계없이 적용됩니다.
+이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 
@@ -35,27 +35,27 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e" type="reference" format="dita" scope="local"> iccEmbed</a> </p> </td> 
-  <td class="stentry"> <p>회신 이미지에 색상 프로필을 포함합니다. </p></td> 
+  <td class="stentry"> <p>응답 이미지에 색상 프로필을 임베드합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301" type="reference" format="dita" scope="local"> pathEmbed</a> </p></td> 
-  <td class="stentry"> <p>회신 이미지에 Photoshop 경로 데이터를 포함합니다. </p></td> 
+  <td class="stentry"> <p>응답 이미지에 Photoshop 경로 데이터를 임베드합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-xmpembed.md#reference-46ecf40a40a0442fa62de3a85dcb03e8" type="reference" format="dita" scope="local"> xmpEmbed</a> </p></td> 
-  <td class="stentry"> <p>회신 이미지에 XMP 메타데이터를 포함합니다. </p></td> 
+  <td class="stentry"> <p>응답 이미지에 XMP 메타데이터를 임베드합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> printRes</a> </p> </td> 
-  <td class="stentry"> <p>회신 이미지에 포함된 인쇄 해상도 값을 지정합니다. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491" type="reference" format="dita" scope="local"> 인쇄 영역</a> </p> </td> 
+  <td class="stentry"> <p>응답 이미지에 포함된 인쇄 해상도 값을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt</a> </p></td> 
   <td class="stentry"> <p>JPEG 인코딩 특성을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 수량</a> </p> </td> 
-  <td class="stentry"> <p>GIF 출력의 색상 양자화 특성을 지정합니다. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> 정량화</a> </p> </td> 
+  <td class="stentry"> <p>GIF 출력에 대한 색상 양자화 속성을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req</a> </p></td> 
@@ -78,7 +78,7 @@ ht-degree: 2%
   <td class="stentry"> <p>이미지/메타데이터 버전 ID. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> imageSet</a> </p> </td> 
-  <td class="stentry"> <p>이 요청에 사용할 이미지 세트를 지정합니다. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-imageset-req.md#reference-c42935490db84830b31e9e649895dee3" type="reference" format="dita" scope="local"> 이미지 집합</a> </p> </td> 
+  <td class="stentry"> <p>이 요청에 사용할 이미지 집합을 지정합니다. </p></td> 
  </tr> 
 </table>

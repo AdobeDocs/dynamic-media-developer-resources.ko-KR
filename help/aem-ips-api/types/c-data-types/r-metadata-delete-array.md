@@ -1,5 +1,5 @@
 ---
-description: 자산에서 삭제할 메타데이터의 배열입니다.
+description: 에셋에서 삭제할 메타데이터의 배열입니다.
 solution: Experience Manager
 title: MetadataDeleteArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MetadataDeleteArray]{#metadatadeletearray}
 
-자산에서 삭제할 메타데이터의 배열입니다.
+에셋에서 삭제할 메타데이터의 배열입니다.
 
 구문
 

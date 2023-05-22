@@ -16,7 +16,7 @@ ht-degree: 11%
 
 하나 이상의 자산에 대한 게시 상태를 설정하거나 업데이트합니다. 회사의 각 게시 컨텍스트에 대해 별도의 게시 상태를 설정할 수 있습니다.
 
-## 인증된 사용자 유형 {#section-815eb031f85143278c1560c18c5e3431}
+## 승인된 사용자 유형 {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +30,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
+>에셋을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-009b9006de8e4c16ad657c47f28ace9f}
 
@@ -38,21 +38,21 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
-| assetsContextHandle | `types:AssetsContextStateUpdateArray` | 예 | 자산 및 새 게시 상태의 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
+| assetsContext핸들 | `types:AssetsContextStateUpdateArray` | 예 | 에셋 배열 및 새 게시 상태. |
 
 **출력(setAssetsContextStateReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | successCount | `xsd:int` | 예 | 자산 수가 변경되었습니다. |
-| warningCount | `xsd:int` | 예 | 작업이 자산을 수정하려고 할 때 생성된 경고 수입니다. |
-| errorCount | `xsd:int` | 예 | 작업이 자산을 수정하려고 할 때 생성된 오류 수입니다. |
-| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 자산을 수정하려고 할 때 자산에서 생성된 오류 배열입니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 자산을 수정하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 에셋을 수정하려고 할 때 생성된 오류 수입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 자산을 수정하려고 할 때 자산에 의해 생성된 오류 배열. |
 
 ## 예제 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-이 코드 샘플은 `NotMarkedForPublish`.
+이 코드 샘플은 다음을 사용하여 에셋의 게시 상태를 `NotMarkedForPublish`.
 
 **요청**
 

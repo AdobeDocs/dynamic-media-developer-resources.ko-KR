@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 91e252dd-22e2-4c4e-bc92-67762114c2ce
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '175'
 ht-degree: 6%
 
 ---
@@ -18,9 +18,9 @@ XMP 메타데이터. 요청 경로에 지정된 이미지와 연결된 XMP 메�
 
 `req=xmp`
 
-다른 명령은 무시됩니다. UTF-8 인코딩이 적용됩니다. 응답은 MIME 유형이 `text/xml`인 XML로 지정됩니다.
+다른 명령은 무시됩니다. UTF-8 인코딩이 적용됩니다. 응답은 MIME 형식의 XML 형식입니다 `text/xml`.
 
-HTTP 응답은 `catalog::Expiration`을 기준으로 TTL로 캐시할 수 있습니다.
+HTTP 응답은 다음을 기반으로 하는 TTL로 캐시할 수 있습니다. `catalog::Expiration`.
 
 ## 속성 {#section-0d26b6a56c844153ae5cea4880370d00}
 
@@ -28,7 +28,7 @@ HTTP 응답은 `catalog::Expiration`을 기준으로 TTL로 캐시할 수 있습
 
 ## 기본값 {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-URL에 이미지 경로나 수정자가 포함되지 않은 경우
+URL에 이미지 경로나 수정자가 포함되지 않은 경우 다음을 수행합니다.
 
 ```
 #S7Z OK 
@@ -36,7 +36,7 @@ URL에 이미지 경로나 수정자가 포함되지 않은 경우
 copyright=Copyright (c) 1995-2014 Adobe Systems Incorporated. All rights reserved.
 ```
 
-그렇지 않으면 `req=img`
+그렇지 않으면, `req=img`
 
 ## 예제 {#section-34213692deab4a0f9037d5844132ee14}
 
@@ -61,11 +61,11 @@ HTML 파일에 포함된 클라이언트측 JavaScript에서 이미지 카탈로
 </script>
 ```
 
-원래 크기의 25%로 크기를 조정하여 특정 카탈로그 항목에 대한 마스크 이미지를 검색합니다.
+원래 크기의 25%로 크기가 조정된 특정 카탈로그 항목에 대한 마스크 이미지를 검색합니다.
 
 ` http:// *`서버`*/myRootId/myImageId?req=mask&scale=0.25`
 
-1-8 크기로 이미지 요청:
+1/8 크기로 이미지 요청:
 
 ` http:// *`서버`*/myRootId/myImageId?scl=8`
 
@@ -73,14 +73,14 @@ HTML 파일에 포함된 클라이언트측 JavaScript에서 이미지 카탈로
 
 ` http:// *`서버`*/myRootId/myImageId?req=img&scl=8`
 
-이미지 카탈로그에 지정된 축소판 속성에 따라 이미지의 축소판을 요청합니다.
+이미지 카탈로그에 지정된 썸네일 속성에 따라 이미지의 썸네일을 요청합니다.
 
 ` http:// *`서버`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
-서버 로그에 텍스트 메시지 보내기:
+서버 로그에 문자 메시지 보내기:
 
 ` http:// *`서버`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## 참조 {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [catalog::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md),  [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md),  [축소판 크기 조정](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f),  [속성](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9),  [이미지 맵](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catalog::Target](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [썸네일 크기 조정](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [속성](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [이미지 맵](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

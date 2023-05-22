@@ -1,5 +1,5 @@
 ---
-description: 컨텍스트 상태 업데이트 배열입니다.
+description: 컨텍스트 상태 업데이트의 배열입니다.
 solution: Experience Manager
 title: ContextStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL ContextStateUpdateArray]{#contextstateupdatearray}
 
-컨텍스트 상태 업데이트 배열입니다.
+컨텍스트 상태 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| ContextStateUpdateArray | `types:ContextStateUpdate` | 컨텍스트 상태 업데이트 배열입니다. |
+| ContextStateUpdateArray | `types:ContextStateUpdate` | 컨텍스트 상태 업데이트의 배열입니다. |

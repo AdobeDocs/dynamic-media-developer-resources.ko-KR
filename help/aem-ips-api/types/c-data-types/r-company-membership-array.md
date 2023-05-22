@@ -1,7 +1,7 @@
 ---
-description: CompanyMembershipArray
+description: 회사 멤버십 배열
 solution: Experience Manager
-title: CompanyMembershipArray
+title: 회사 멤버십 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3c272b30-c433-4350-a17c-6f49f48ec0fd

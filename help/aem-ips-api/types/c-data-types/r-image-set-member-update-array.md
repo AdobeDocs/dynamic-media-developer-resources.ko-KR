@@ -1,5 +1,5 @@
 ---
-description: 이미지 세트 멤버 업데이트 배열입니다.
+description: 이미지 집합 구성원 업데이트의 배열입니다.
 solution: Experience Manager
 title: ImageSetMemberUpdateArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL ImageSetMemberUpdateArray]{#imagesetmemberupdatearray}
 
-이미지 세트 멤버 업데이트 배열입니다.
+이미지 집합 구성원 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ImageSetMemberUpdate` | 이미지 세트 멤버 업데이트 배열입니다. |
+| 항목 | `types:ImageSetMemberUpdate` | 이미지 집합 구성원 업데이트의 배열입니다. |

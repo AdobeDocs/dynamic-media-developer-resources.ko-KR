@@ -1,6 +1,6 @@
 ---
-title: AssetMoveArray
-description: 자산 이동 배열입니다.
+title: 자산 이동 배열
+description: 자산 이동 배열.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL AssetMoveArray]{#assetmovearray}
 
-자산 이동 배열입니다.
+자산 이동 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `type:AssetMove` | 자산 이동 배열입니다. |
+| 항목 | `type:AssetMove` | 자산 이동 배열. |

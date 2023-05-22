@@ -1,7 +1,7 @@
 ---
-description: 이미지 세트를 업데이트합니다.
+description: 이미지 집합을 업데이트합니다.
 solution: Experience Manager
-title: updateImageSet
+title: 이미지 집합 업데이트
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
@@ -12,9 +12,9 @@ ht-degree: 20%
 
 ---
 
-# updateImageSet{#updateimageset}
+# 이미지 집합 업데이트{#updateimageset}
 
-이미지 세트를 업데이트합니다.
+이미지 집합을 업데이트합니다.
 
 구문
 
@@ -24,10 +24,10 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사의 핸들입니다. |
-| assetHandle | `xsd:string` | 예 | 수정할 이미지 세트의 핸들입니다. |
-| memberArray | `types:ImageSetMemberUpdateArray` | 아니요 | 이미지 세트 멤버를 재설정합니다. |
-| thumbAssetHandle | `xsd:string` | 아니요 | 이미지 세트의 축소판 역할을 하는 자산의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 수정할 이미지 세트가 포함된 회사에 대한 핸들입니다. |
+| assetHandle | `xsd:string` | 이스 | 수정할 이미지 세트에 대한 핸들입니다. |
+| memberArray | `types:ImageSetMemberUpdateArray` | 아니요 | 이미지 집합 구성원을 재설정합니다. |
+| thumbAssetHandle | `xsd:string` | 아니요 | 이미지 세트의 썸네일 역할을 하는 에셋의 핸들입니다. |
 
 **출력(updateImageSetReturn)**
 

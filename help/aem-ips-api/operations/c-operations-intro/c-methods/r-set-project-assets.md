@@ -1,7 +1,7 @@
 ---
-description: 프로젝트에서 자산을 할당하거나 업데이트합니다.
+description: 프로젝트에서 에셋을 할당하거나 업데이트합니다.
 solution: Experience Manager
-title: setProjectAssets
+title: 프로젝트 자산 설정
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
@@ -12,13 +12,13 @@ ht-degree: 20%
 
 ---
 
-# setProjectAssets{#setprojectassets}
+# 프로젝트 자산 설정{#setprojectassets}
 
-프로젝트에서 자산을 할당하거나 업데이트합니다.
+프로젝트에서 에셋을 할당하거나 업데이트합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-8d87939db6d547b48ca6d71771bbefa8}
+## 승인된 사용자 유형 {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,17 +35,17 @@ ht-degree: 20%
 |---|---|---|---|
 | companyName | `xsd:string` | 예 | 회사 핸들. |
 | projectHandle | `xsd:string` | 예 | 프로젝트 핸들. |
-| assetHandleArray | `types:HandleArray` | 예 | 프로젝트와 연결할 자산 핸들의 배열입니다. |
+| assetHandleArray | `types:HandleArray` | 예 | 프로젝트와 연결할 에셋 핸들의 배열입니다. |
 
 **출력(setProjectAssetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| successCount | `xsd:int` | 예 | 성공적으로 추가된 자산 수입니다. |
+| successCount | `xsd:int` | 예 | 성공적으로 추가된 에셋 수 |
 
 ## 예제 {#section-33c1a909c3dc4aa98da474c23a036596}
 
-이 코드 샘플은 프로젝트에 자산을 할당합니다. 요청은 성공 수(1개)를 반환합니다.
+이 코드 샘플은 프로젝트에 에셋을 할당합니다. 요청이 성공 카운트 1을 반환합니다.
 
 **요청**
 

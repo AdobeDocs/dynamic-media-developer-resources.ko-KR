@@ -1,5 +1,5 @@
 ---
-description: 지정된 자산에 대한 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 설정합니다. 이러한 명령은 자산의 표현을 삭제하지 않고 수정합니다.
+description: 지정된 에셋에 대한 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 설정합니다. 이러한 명령은 에셋을 삭제하지 않고 해당 에셋의 표현을 수정합니다.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # setUrlModifier{#seturlmodifier}
 
-지정된 자산에 대한 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 설정합니다. 이러한 명령은 자산의 표현을 삭제하지 않고 수정합니다.
+지정된 에셋에 대한 이미지 제공 또는 이미지 렌더링 프로토콜 명령을 설정합니다. 이러한 명령은 에셋을 삭제하지 않고 해당 에셋의 표현을 수정합니다.
 
-이미지 제공 작업의 경우 `urlModifier` 매개 변수는 수정자 카탈로그 필드에 게시되고 요청 URL에 지정된 모든 명령 앞에 적용됩니다. 의 명령 `urlPostApplyModifier` 에 게시됨 `PostModifier` 카탈로그 필드를 작성하고 요청 URL이나 `urlModifier`. 이미지 렌더링의 경우 `urlModifier` 및 `urlPostApplyModifier` 수정자 카탈로그 필드에 연결 및 게시됩니다.
+이미지 제공의 경우 `urlModifier` 매개 변수는 수정자 카탈로그 필드에 게시되고 요청 URL에 지정된 명령 앞에 적용됩니다. 의 명령 `urlPostApplyModifier` 에 게시됨 `PostModifier` 카탈로그 필드 및 요청 URL 또는 의 모든 명령 무시 `urlModifier`. 이미지 렌더링의 경우 `urlModifier` 및 `urlPostApplyModifier` 가 연결되어 수정자 카탈로그 필드에 게시됩니다.
 
-## 인증된 사용자 유형 {#section-fefcd732ccf64c78956606538f96c73d}
+## 승인된 사용자 유형 {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,14 +33,14 @@ ht-degree: 7%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| assetHandle | `xsd:string` | 예 | 자산 핸들. |
-| urlModifier | `xsd:string` | 아니요 | 요청이나 요청 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlPostApplyModifier` 명령. |
-| urlPostApplyModifier | `xsd:string` | 아니요 | 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlModifier` 및 요청 명령 |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 에셋 핸들. |
+| urlModifier | `xsd:string` | 아니요 | 요청 전에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlPostApplyModifier` 명령입니다. |
+| urlPostApplyModifier | `xsd:string` | 아니요 | 다음에 적용할 이미지 제공 또는 이미지 렌더링 프로토콜 명령 `urlModifier` 및 요청 명령을 사용할 수 있습니다. |
 
 **출력(setUrlModifierReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-801d4b9b986443f59a5783a3d6bf44aa}
 

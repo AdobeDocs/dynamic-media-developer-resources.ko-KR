@@ -18,7 +18,7 @@ ht-degree: 22%
 
 구문
 
-## 인증된 사용자 유형 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
+## 승인된 사용자 유형 {#section-27c77680a2f34e2f9ecd0af4ebb6847e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
 
 **출력(getGroupsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| groupArray | `types:GroupArray` | 예 | 그룹 배열입니다. |
+| groupArray | `types:GroupArray` | 예 | 그룹 배열. |
 
 ## 예제 {#section-ed0708f611574354bf0c6ea83912b531}
 

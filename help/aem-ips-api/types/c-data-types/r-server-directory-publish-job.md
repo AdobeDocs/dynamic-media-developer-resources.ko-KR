@@ -1,5 +1,5 @@
 ---
-description: 서버 디렉토리에 게시할 준비가 된 것으로 표시된 모든 이미지, 템플릿 및 스핀 세트를 게시합니다.
+description: 서버 디렉터리에 게시할 준비가 된 것으로 표시된 모든 이미지, 템플릿 및 회전 집합을 게시합니다.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL ServerDirectoryPublishJob]{#serverdirectorypublishjob}
 
-서버 디렉토리에 게시할 준비가 된 것으로 표시된 모든 이미지, 템플릿 및 스핀 세트를 게시합니다.
+서버 디렉터리에 게시할 준비가 된 것으로 표시된 모든 이미지, 템플릿 및 회전 집합을 게시합니다.
 
 구문
 

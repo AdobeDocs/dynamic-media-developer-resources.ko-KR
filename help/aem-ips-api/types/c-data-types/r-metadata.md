@@ -22,9 +22,9 @@ searchAssets에서 반환된 메타데이터 필드.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 이름 | `xsd:string` | 메타데이터 이름. |
+| name | `xsd:string` | 메타데이터 이름. |
 | 값 | `xsd:string` | 메타데이터 값. |
-| boolVal | `xsd:boolean` | 부울 메타데이터 값(부울 형식 필드에만 해당). |
-| longVal | `xsd:long` | 긴 메타데이터 값(int 형식 필드에만 해당). |
+| boolVal | `xsd:boolean` | 부울 메타데이터 값(부울 유형 필드만 해당). |
+| 롱발 | `xsd:long` | 긴 메타데이터 값(내부 유형 필드에만 해당). |
 | doubleVal | `xsd:double` | 이중 메타데이터 값(부동 소수점 형식 필드만 해당). |
-| dateVal | `xsd:dateTime` | 날짜 메타데이터 값(날짜 형식 필드에만 해당). |
+| dateVal | `xsd:dateTime` | 날짜 메타데이터 값(날짜 유형 필드에만 해당). |

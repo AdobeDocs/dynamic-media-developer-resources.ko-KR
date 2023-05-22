@@ -18,9 +18,9 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->다음 `urlModifier` 필드 값은 유효한 XML로 구성되어야 합니다. 예를 들어, `&` to `&`. 가져오기 `urlModfier` IPS 사용자 인터페이스의 값입니다.
+>다음 `urlModifier` 필드 값은 유효한 XML로 구성되어야 합니다. 예: 변경 `&` 끝 `&`. 가져오기 `urlModfier` IPS 사용자 인터페이스의 값입니다.
 
-## 인증된 사용자 유형 {#section-12c9d8d5933f4692bafb194060b4f882}
+## 승인된 사용자 유형 {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,10 +33,10 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 작업할 이미지 형식을 사용하는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 작업할 이미지 형식의 회사에 대한 핸들입니다. |
 | imageFormatHandle | `xsd:string` | 아니요 | 저장할 이미지 형식 핸들입니다. |
-| 이름 | `xsd:string` | 예 | 이미지 형식 이름입니다. |
-| urlModifier | `xsd:string` | 예 | 모든 IPS 프로토콜 쿼리 문자열일 수 있습니다. URL 수정자를 생성하는 가장 쉬운 방법은 IPS 사용자 인터페이스를 사용하여 만든 다음 쿼리 문자열을 잘라내어 붙여넣는 것입니다. |
+| name | `xsd:string` | 예 | 이미지 형식 이름입니다. |
+| urlModifier | `xsd:string` | 예 | 모든 IPS 프로토콜 쿼리 문자열일 수 있습니다. URL 수정자를 생성하는 가장 쉬운 방법은 IPS 사용자 인터페이스를 사용하여 수정자를 만든 다음 쿼리 문자열을 잘라내어 붙여넣는 것입니다. |
 
 **출력(saveImageFormatReturn)**
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 
 ## 예제 {#section-c7bd733212ef494297a97093f3af193f}
 
-이 코드 샘플은 이미지 형식을 만듭니다. 이 예제에서는 `urlModifier` 유효한 HTML 형식을 사용하는 IPS 사용자 인터페이스의 값에 의해 결정됩니다.
+이 코드 샘플은 이미지 형식을 만듭니다. 이 예에서는 `urlModifier` 은(는) 유효한 HTML 형식의 IPS 사용자 인터페이스에서의 값에 의해 결정됩니다.
 
 **요청**
 

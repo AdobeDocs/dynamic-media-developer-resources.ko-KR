@@ -1,5 +1,5 @@
 ---
-description: 자산 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
+description: 에셋 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
 solution: Experience Manager
 title: getAssetMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 23%
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
-자산 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
+에셋 유형별로 그룹화된 모든 메타데이터 필드를 반환합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## 승인된 사용자 유형 {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,13 +34,13 @@ ht-degree: 23%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 메타데이터를 검색할 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 메타데이터를 검색할 회사에 대한 핸들입니다. |
 
 **출력(getAssetMetadataFieldsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| assetFieldArray | `types:AssetMetadataFieldsArray` | 예 | 자산 유형별 메타데이터 필드 배열입니다. |
+| assetFieldArray | `types:AssetMetadataFieldsArray` | 예 | 에셋 유형별 메타데이터 필드 배열. |
 
 ## 예제 {#section-d79ab85f29144635b0b61416e52f4f3f}
 

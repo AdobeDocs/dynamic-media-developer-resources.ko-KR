@@ -1,6 +1,6 @@
 ---
 title: 검색 효과
-description: 뷰어는 기본 보기 위에 검색 결과 영역을 표시하여 카탈로그에 있는 단어나 구를 강조 표시합니다.
+description: 뷰어는 카탈로그에서 발견된 단어 또는 구를 강조 표시하기 위해 기본 보기 위에 검색 결과 영역을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # 검색 효과{#search-effect}
 
-뷰어는 기본 보기 위에 검색 결과 영역을 표시하여 카탈로그에 있는 단어나 구를 강조 표시합니다.
+뷰어는 카탈로그에서 발견된 단어 또는 구를 강조 표시하기 위해 기본 보기 위에 검색 결과 영역을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-검색 결과 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 검색 결과 영역의 모양이 제어됩니다.
 
 `.s7ecatalogsearchviewer .s7searcheffect .s7region`
 
@@ -39,7 +39,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-예 - 반투명 노란색 채우기로 검색 결과 영역을 설정하려면 다음을 수행합니다.
+예 - 반투명 노란색 채우기로 검색 결과 영역을 설정하려면:
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 

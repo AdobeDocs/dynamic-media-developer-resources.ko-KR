@@ -18,7 +18,7 @@ ht-degree: 20%
 
 구문
 
-## 인증된 사용자 유형 {#section-35d070e5c4d74ca69df508368953cfb8}
+## 승인된 사용자 유형 {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +34,18 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 아니요 | 사용자에 대한 핸들입니다. |
-| companyHandle | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
+| 사용자 핸들 | `xsd:string` | 아니요 | 사용자의 핸들입니다. |
+| company핸들 | `xsd:string` | 아니요 | 회사 손잡이. |
 
 **출력(getGroupMembershipReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| groupArray | `types:GroupArray` | 예 | 그룹 배열입니다. |
+| groupArray | `types:GroupArray` | 예 | 그룹 배열. |
 
 ## 예제 {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-이 코드 샘플은 그룹의 모든 멤버를 반환합니다. 회사 및 사용자 핸들은 선택 사항이므로 작업은 모든 그룹의 모든 구성원을 반환할 수 있습니다.
+이 코드 샘플은 그룹의 모든 멤버를 반환합니다. 회사 및 사용자 핸들은 선택 사항이므로 이 작업은 모든 그룹의 모든 구성원을 반환할 수 있습니다.
 
 **요청**
 

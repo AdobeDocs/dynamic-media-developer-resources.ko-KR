@@ -1,7 +1,7 @@
 ---
-description: 속성 집합 형식 배열입니다.
+description: 속성 집합 유형 배열입니다.
 solution: Experience Manager
-title: PropertySetTypeArray
+title: 속성 집합 유형 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 56f0bcf6-0a8c-4976-88ab-45700d5d5e3d
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetTypeArray]{#propertysettypearray}
 
-속성 집합 형식 배열입니다.
+속성 집합 유형 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 30%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:PropertySetType` | 속성 집합 형식 배열입니다. |
+| 항목 | `types:PropertySetType` | 속성 집합 유형 배열입니다. |

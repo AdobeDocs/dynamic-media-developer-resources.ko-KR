@@ -8,7 +8,7 @@ exl-id: 44fbc6be-7681-402a-936a-0511e138365c
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 1%
 
 1. 중지 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 1. ImageServer 웹 앱 디렉토리로 변경합니다.
-1. 의 내용을 복사합니다. [!DNL ir] 디렉토리 [!DNL `ROOT`] 디렉토리.
-1. 열기 [!DNL `ROOT/WEB-INF/web.xml`] 텍스트 편집기에서 을 참조하십시오.
-1. 줄을 검색합니다 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
-1. 주석 처리를 취소합니다 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 Analytics JavaScript 코드를 배치했습니다.
+1. 의 내용을 복사합니다. [!DNL ir] 디렉토리 입력 [!DNL `ROOT`] 디렉토리.
+1. 열기 [!DNL `ROOT/WEB-INF/web.xml`] 텍스트 편집기에서.
+1. 라인 검색 `<!-- Uncomment this to enable the Image Rendering 3.x protocol emulation. Only do this when you unpack ir.war in the ROOT webapp. -->`
+1. 주석 제거 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 코드를 삽입하지 마십시오.
 1. 다시 시작 `<cmdname class="+ topic/keyword sw-d/cmdname ">  PlatformServer</cmdname>`.
 
 **Linux® 예**
@@ -30,12 +30,12 @@ ht-degree: 1%
 
 `cd WEB-INF`
 
-그런 다음 편집 [!DNL `web.xml`] 즐겨찾는 편집기를 사용하여 주석 처리를 취소합니다 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 Analytics JavaScript 코드를 배치했습니다.
+편집 [!DNL `web.xml`] 즐겨찾는 편집기를 사용하여 주석 달기 취소 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 코드를 삽입하지 마십시오.
 
 **Windows 예**
 
-Explorer를 열고 `C:\Program Files\Scene7\ImageServing\webapps\ir`.
+Explorer를 열고 다음으로 이동 `C:\Program Files\Scene7\ImageServing\webapps\ir`.
 
-모든 파일 및 폴더를 선택하고 해당 파일을 내부에 복사합니다 `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
+모든 파일과 폴더를 선택하고 내부에 복사합니다. `C:\Program Files\Scene7\ImageServing\webapps\ROOT`.
 
-그런 다음 파일을 편집합니다 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`, 주석 달기 해제 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 Analytics JavaScript 코드를 배치했습니다.
+그런 다음 파일을 편집합니다 `c:\Program Files\Scene7\ImageServing\webapps\ROOT\WEB-INF\web.xml`, 주석 달기 해제 `<servlet>` 및 `<servlet-mapping>` 태그 사이에 코드를 삽입하지 마십시오.

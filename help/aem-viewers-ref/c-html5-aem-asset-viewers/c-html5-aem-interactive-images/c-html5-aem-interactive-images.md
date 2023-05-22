@@ -1,6 +1,6 @@
 ---
 title: 대화형 이미지
-description: 대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있는 확장 불가능한 단일 이미지를 표시하는 뷰어입니다. 이 뷰어의 목적은 "쇼퍼블 배너" 경험을 구현하는 것입니다. 즉, 사용자는 배너 이미지 위에 핫스팟을 선택하고 웹 사이트의 Quickview 또는 제품 세부 사항 페이지로 리디렉션할 수 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
+description: 대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있는 확장 불가능한 단일 이미지를 표시하는 뷰어입니다. 이 뷰어의 목적은 "구매 가능한 배너" 경험을 구현하는 것입니다. 즉, 사용자는 배너 이미지를 통해 핫스팟을 선택하고 웹 사이트의 빠른 보기 또는 제품 세부 사항 페이지로 리디렉션될 수 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 대화형 이미지{#interactive-image}
 
-대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있는 확장 불가능한 단일 이미지를 표시하는 뷰어입니다. 이 뷰어의 목적은 &quot;쇼퍼블 배너&quot; 경험을 구현하는 것입니다. 즉, 사용자는 배너 이미지 위에 핫스팟을 선택하고 웹 사이트의 Quickview 또는 제품 세부 사항 페이지로 리디렉션할 수 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
+대화형 이미지 뷰어는 클릭 가능한 핫스팟이 있는 확장 불가능한 단일 이미지를 표시하는 뷰어입니다. 이 뷰어의 목적은 &quot;구매 가능한 배너&quot; 경험을 구현하는 것입니다. 즉, 사용자는 배너 이미지를 통해 핫스팟을 선택하고 웹 사이트의 빠른 보기 또는 제품 세부 사항 페이지로 리디렉션될 수 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 
 >[!NOTE]
 >
@@ -22,51 +22,51 @@ ht-degree: 0%
 
 뷰어 유형은 508입니다.
 
-## Demo URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 데모 URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage.html)
 
 ## 시스템 요구 사항 {#section-b7270cc4290043399681dc504f043609}
 
-자세한 내용은 [시스템 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+다음을 참조하십시오 [시스템 요구 사항](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## 대화형 이미지 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-대화형 이미지 뷰어는 런타임 시 뷰어가 다운로드한 기본 JavaScript 파일 및 도우미 파일 세트(단일 JavaScript에는 이 특정 뷰어에서 사용하는 모든 뷰어 SDK 구성 요소, 자산, CSS)가 포함됩니다.
+대화형 이미지 뷰어는 런타임에 뷰어가 다운로드한 기본 JavaScript 파일 및 도우미 파일 세트(단일 JavaScript에는 이 특정 뷰어, 에셋, CSS에서 사용하는 모든 뷰어 SDK 구성 요소가 포함됨)를 나타냅니다.
 
-Interactive Image Viewer can be used in embedded mode only, where it is integrated into the target web page using the documented API.
+대화형 이미지 뷰어는 문서화된 API를 사용하여 대상 웹 페이지에 통합되는 내장 모드에서만 사용할 수 있습니다.
 
-Configuration and skinning are similar to that of the other viewers described in this Help. All skinning is achieved by way of custom CSS.
+구성 및 스키닝은 이 도움말에서 설명한 다른 뷰어의 구성과 유사합니다. 모든 스키닝은 사용자 지정 CSS를 통해 수행됩니다.
 
-자세한 내용은 [모든 뷰어에 공통되는 명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+다음을 참조하십시오 [모든 뷰어에 공통되는 명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 대해 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## 대화형 이미지 뷰어와 상호 작용 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 비디오 이미지 뷰어에서 지원하는 상호 작용은 데스크탑 시스템에서 핫스팟 활성화입니다. 이 활성화는 클릭 및 터치 장치에서 한 번의 탭으로 발생합니다.
 
-뷰어는 키보드로 액세스할 수 있습니다.
+뷰어는 키보드에 완전히 액세스할 수 있습니다.
 
-자세한 내용은 [키보드 액세스 가능성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+다음을 참조하십시오 [키보드 접근성 및 탐색](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## 대화형 이미지 뷰어 포함 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-대화형 이미지 뷰어는 호스팅 페이지에 포함됩니다. 이러한 웹 페이지에는 정적 레이아웃이 있거나 &quot;응답형&quot;일 수 있으며 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시될 수 있습니다.
+대화형 이미지 뷰어가 호스팅 페이지에 임베드됩니다. 이러한 웹 페이지는 정적 레이아웃을 가질 수 있거나, &quot;응답형&quot;일 수 있고 다른 디바이스에서 또는 다른 브라우저 창 크기에 대해 다르게 표시될 수 있습니다.
 
-이러한 요구 사항에 맞게 뷰어는 두 가지 기본 작업 모드를 지원합니다. 고정 크기 포함 및 응답형 포함.
+이러한 요구를 수용하기 위해 뷰어는 고정 크기 임베딩 및 응답형 임베딩의 두 가지 기본 작업 모드를 지원한다.
 
-**고정 크기 포함 모드 및 응답형 디자인 포함 모드 정보**
+**고정 크기 포함 모드 및 반응형 디자인 포함 모드 정보**
 
-포함된 모드에서는 뷰어가 기존 웹 페이지에 추가됩니다. 이 웹 페이지에는 이미 뷰어와 관련이 없는 일부 고객 콘텐츠가 있을 수 있습니다. 뷰어는 일반적으로 웹 페이지의 부동산의 일부만을 차지합니다.
+내장 모드에서 뷰어는 기존 웹 페이지에 추가됩니다. 이 웹 페이지에는 이미 뷰어와 관련이 없는 고객 콘텐츠가 있을 수 있습니다. 뷰어는 일반적으로 웹 페이지의 부동산의 일부만 점유한다.
 
-기본 사용 사례는 데스크톱 또는 태블릿 장치를 위한 웹 페이지 및 장치 유형에 따라 레이아웃을 자동으로 조정하는 응답형 디자인 페이지입니다.
+주요 사용 사례는 데스크탑 또는 태블릿 장치 중심의 웹 페이지와 장치 유형에 따라 레이아웃을 자동으로 조정하는 응답형 디자인 페이지입니다.
 
-뷰어가 초기 로드 후 크기를 변경하지 않는 경우 고정 크기 포함이 사용됩니다. 이 방법은 정적 레이아웃이 있는 웹 페이지에 가장 적합합니다.
+고정 크기 임베딩은 뷰어가 초기 로드 후 크기를 변경하지 않을 때 사용됩니다. 이 방법은 정적 레이아웃이 있는 웹 페이지에 가장 적합합니다.
 
-반응형 디자인 포함 에서는 컨테이너의 크기 변경에 응답하여 뷰어가 런타임에 크기를 조정해야 한다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
+반응형 디자인 포함에서는 뷰어가 컨테이너의 크기 변화에 반응하여 런타임에 크기를 조정해야 한다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
 
-응답형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방법에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너 너비만 설정하는 경우 `DIV`키를 제한 상태로 두면 뷰어는 사용된 자산의 종횡비에 따라 높이를 자동으로 선택합니다. 이 기능을 사용하면 측면에 패딩되지 않고 자산이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 및 Foundation과 같은 반응형 웹 디자인 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적입니다.
+반응형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방식에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너의 폭만 설정하는 경우 `DIV`, 높이를 제한되지 않은 상태로 두면 뷰어는 사용된 에셋의 종횡비에 따라 높이를 자동으로 선택합니다. 이 기능을 사용하면 에셋이 측면에 패딩 없이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 및 Foundation과 같은 반응형 웹 디자인 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적으로 사용됩니다.
 
-그렇지 않으면 웹 페이지에서 뷰어 컨테이너의 너비와 높이를 모두 설정합니다 `DIV`를 채울 때는 해당 영역만 표시됩니다. 또한 웹 페이지 레이아웃이 제공하는 크기를 따릅니다. 좋은 예는 뷰어를 모달 오버레이에 포함하는데, 이 오버레이는 웹 브라우저 창 크기에 따라 크기가 조정됩니다.
+그렇지 않으면 웹 페이지에서 뷰어의 컨테이너에 대한 너비와 높이를 모두 설정합니다 `DIV`, 뷰어가 해당 영역만 채웁니다. 또한 웹 페이지 레이아웃이 제공하는 크기를 따릅니다. 좋은 예는 뷰어를 모달 오버레이에 포함하고, 여기서 오버레이의 크기는 웹 브라우저 창 크기에 따라 지정됩니다.
 
 **고정 크기 포함**
 
@@ -74,16 +74,16 @@ Configuration and skinning are similar to that of the other viewers described in
 
 1. 웹 페이지에 뷰어 JavaScript 파일 추가.
 1. 컨테이너 정의 `DIV`.
-1. 뷰어 크기를 설정합니다.
-1. 뷰어를 만들고 초기화합니다.
+1. 뷰어 크기를 설정하는 중입니다.
+1. 뷰어를 만들고 초기화하는 중입니다.
 
 1. 웹 페이지에 뷰어 JavaScript 파일 추가.
 
-   뷰어를 만들려면 HTML 헤드에 스크립트 태그를 추가해야 합니다. 뷰어 API를 사용하려면 먼저 다음을 포함해야 합니다 [!DNL InterativeImage.js]. 다음 [!DNL InteractiveImage.js] 파일은 [!DNL html5/js/] 표준 IS-Viewers 배포의 하위 폴더:
+   뷰어를 만들려면 HTML 헤드에 스크립트 태그를 추가해야 합니다. 뷰어 API를 사용하기 전에 다음을 포함해야 합니다. [!DNL InterativeImage.js]. 다음 [!DNL InteractiveImage.js] 파일은 아래에 있습니다. [!DNL html5/js/] 표준 IS-Viewers 배포의 하위 폴더:
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveImage.js]
 
-뷰어가 Adobe Dynamic Media Classic 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-Viewers가 설치된 Adobe Dynamic Media Classic 서버 중 하나에 대한 전체 경로를 지정합니다.
+뷰어가 Adobe Dynamic Media Classic 서버 중 하나에 배포되고 동일한 도메인에서 제공되는 경우 상대 경로를 사용할 수 있습니다. 그렇지 않으면 IS-Viewer가 설치된 Adobe Dynamic Media Classic 서버 중 하나에 대한 전체 경로를 지정합니다.
 
 상대 경로는 다음과 같습니다.
 
@@ -93,16 +93,16 @@ Configuration and skinning are similar to that of the other viewers described in
 
 >[!NOTE]
 >
->기본 뷰어 JavaScript만 참조합니다 `include` 파일을 페이지에 넣을 수 있습니다. 런타임 시 뷰어의 논리에 의해 다운로드될 수 있는 웹 페이지 코드에서 추가 JavaScript 파일을 참조하지 마십시오. 특히 HTML5 SDK를 직접 참조하지 마십시오 `Utils.js` 뷰어에서 로드한 라이브러리 `/s7viewers` 컨텍스트 경로(소위 통합 SDK) `include`). 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리는 뷰어 논리와 뷰어 릴리스 간의 위치 변경으로 완전히 관리됩니다. Adobe은 이전 버전의 보조 뷰어를 유지하지 않습니다 `includes` 를 클릭합니다.
+>기본 뷰어 JavaScript만 참조 `include` 파일을 페이지에 넣습니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드의 추가 JavaScript 파일을 참조하지 마십시오. 특히, HTML5 SDK를 직접 참조하지 마십시오 `Utils.js` 다음에서 뷰어에 의해 로드된 라이브러리 `/s7viewers` 컨텍스트 경로(소위 통합 SDK) `include`). 이유는 이(가) `Utils.js` 또는 유사한 런타임 뷰어 라이브러리는 뷰어의 논리에 의해 완전히 관리되며 뷰어 릴리스 간 위치가 변경됩니다. Adobe이 이전 버전의 보조 뷰어를 유지하지 않음 `includes` 서버에 있습니다.
 >
 >
->따라서 보조 JavaScript에 대한 직접 참조를 보냅니다 `include` 페이지에서 뷰어에서 사용하는 는 새 제품 버전을 배포할 때 나중에 뷰어 기능을 중단합니다.
+>따라서 보조 JavaScript에 직접 참조 `include` 페이지의 뷰어에서 사용하는 는 향후 새 제품 버전이 배포될 때 뷰어 기능이 중단됩니다.
 
 1. 컨테이너 정의 `DIV`.
 
-   빈 항목 추가 `DIV` 뷰어를 표시할 페이지에 요소를 추가합니다. 다음 `DIV` 이 ID는 나중에 뷰어 API로 전달되므로 요소에는 해당 ID가 정의되어 있어야 합니다. DIV의 크기는 CSS를 통해 지정됩니다.
+   빈 항목 추가 `DIV` 요소를 사용하여 뷰어를 표시할 페이지를 지정합니다. 다음 `DIV` 이 ID는 나중에 뷰어 API로 전달되므로 요소에는 해당 ID가 정의되어 있어야 합니다. DIV는 CSS를 통해 지정된 크기가 있습니다.
 
-   자리 표시자 `DIV` 는 위치된 요소로서, `position` CSS 속성이 `relative` 또는 `absolute`.
+   자리 표시자 `DIV` 은(는) 배치된 요소입니다. 즉, `position` CSS 속성이 다음으로 설정됨 `relative` 또는 `absolute`.
 
    다음은 정의된 자리 표시자의 예입니다 `DIV` 요소:
 
@@ -112,13 +112,13 @@ Configuration and skinning are similar to that of the other viewers described in
 
 1. 뷰어 크기 설정
 
-   뷰어에 대한 정적 크기를 `.s7interactiveimage` 절대 단위의 최상위 CSS 클래스 또는 `stagesize` 수정자.
+   다음에 대해 선언하여 뷰어의 정적 크기를 설정할 수 있습니다. `.s7interactiveimage` 최상위 CSS 클래스(절대 단위)를 참조하거나 `stagesize` 수정자.
 
-   HTML 페이지에서 직접 CSS로 크기 조정을 지정할 수 있습니다. 또는 사용자 지정 뷰어 CSS 파일에 크기 조정을 배치할 수 있습니다. 이 파일은 나중에 Adobe Experience Manager Assets - On-Demand의 뷰어 사전 설정 레코드에 할당되거나 를 사용하여 명시적으로 전달됩니다 `style` 명령.
+   CSS에서 크기 조정을 HTML 페이지에 직접 입력할 수 있습니다. 또는 사용자 지정 뷰어 CSS 파일에 크기를 지정할 수 있습니다. 이 파일은 나중에 Adobe Experience Manager Assets - 온디맨드 의 뷰어 사전 설정 레코드에 할당되거나 를 사용하여 명시적으로 전달됩니다. `style` 명령입니다.
 
-   See [Video](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) for more information about styling the viewer with CSS.
+   다음을 참조하십시오 [비디오](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) CSS를 사용하여 뷰어를 스타일링하는 방법에 대한 자세한 내용.
 
-   다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예입니다.
+   다음은 HTML 페이지에서 정적 뷰어 크기를 정의하는 예제입니다.
 
    ```html {.line-numbers}
    #s7viewer.s7interactiveimage { 
@@ -127,23 +127,23 @@ Configuration and skinning are similar to that of the other viewers described in
    }
    ```
 
-   명시적으로 를 전달할 수 있습니다 `stagesize` 뷰어 초기화 코드가 있는 수정자 `params` 명령 참조 섹션에 설명된 대로 컬렉션 또는 API 호출로서 사용할 수 있습니다.
+   다음을 명시적으로 전달할 수 있습니다. `stagesize` 뷰어 초기화 코드가 있는 수정자 `params` 다음과 같이 명령 참조 섹션에 설명된 대로 API 호출로서 또는 컬렉션을 생성합니다.
 
    ```html {.line-numbers}
    interactiveImage.setParam("stagesize", "1174,500");
    ```
 
-   CSS 기반 접근 방식이 권장되며 이 예에서 사용됩니다.
+   CSS 기반 접근 방식이 권장되며 이 예제에서 사용됩니다.
 
-1. 뷰어를 만들고 초기화합니다.
+1. 뷰어를 만들고 초기화하는 중입니다.
 
-   위의 단계를 완료하면 의 인스턴스를 만듭니다 `s7viewers.InteractiveImage` 클래스, 모든 구성 정보를 해당 생성자에 전달하고 호출 `init()` 뷰어 인스턴스의 메서드입니다. 구성 정보는 JSON 개체로 생성자에게 전달됩니다. 최소한 이 개체에는 `containerId` 뷰어 컨테이너 ID와 중첩된 이름이 들어 있는 필드 `params` 뷰어에서 지원하는 구성 매개 변수가 있는 JSON 개체. 이 경우 `params` 개체에는 적어도 다음 방법으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성 및 초기 자산 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
+   위의 단계를 완료하면 인스턴스를 `s7viewers.InteractiveImage` 클래스에서 모든 구성 정보를 생성자에 전달하고 `init()` 뷰어 인스턴스의 메서드입니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 다음이 있어야 합니다. `containerId` 뷰어 컨테이너 ID의 이름과 중첩된 필드가 포함된 필드 `params` 뷰어에서 지원하는 구성 매개 변수가 있는 JSON 개체입니다. 이 경우 `params` 오브젝트에는 최소한 으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성 및 초기 에셋 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 DOM에 뷰어 컨테이너를 추가해야 합니다. Some browsers delay building DOM until the end of the web page. 호환성을 최대화하려면 `init()` 닫기 바로 전 메서드 `BODY` 태그 또는 본문 `onload()` 이벤트.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `init()` 닫기 직전 메서드 `BODY` 태그 또는 본문에 `onload()` 이벤트.
 
-   동시에 컨테이너 요소가 아직 웹 페이지 레이아웃의 일부일 필요는 없습니다. 예를 들어 `display:none` 지정된 스타일입니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 다시 레이아웃으로 가져오는 시점까지 초기화 프로세스를 지연합니다. 이 이벤트가 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
+   동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 다음을 사용하여 숨길 수 있습니다. `display:none` 스타일이 할당되었습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 이벤트가 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
-   다음은 뷰어 인스턴스를 만들고 필요한 최소 구성 옵션을 생성자에게 전달하여 생성자를 호출하는 예제입니다 `init()` 메서드를 사용합니다. 이 예제에서는 를 가정합니다 `interactiveImage` 는 뷰어 인스턴스입니다. `s7viewer` 은 자리 표시자의 이름입니다 `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` 는 이미지 제공 URL이고, `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` 는 자산입니다.
+   다음은 뷰어 인스턴스를 만들어 필요한 최소 구성 옵션을 생성자에 전달하고 `init()` 메서드를 사용합니다. 이 예제에서는 다음과 같이 가정합니다 `interactiveImage` 는 뷰어 인스턴스입니다. `s7viewer` 은 자리 표시자의 이름입니다. `DIV`; `http://aodmarketingna.assetsadobe.com/is/image` 는 이미지 제공 URL이고, `/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.` 은(는) 자산입니다.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -157,7 +157,7 @@ Configuration and skinning are similar to that of the other viewers described in
    </script> 
    ```
 
-   다음 코드는 고정된 크기로 비디오 이미지 뷰어를 포함하는 간단한 웹 페이지의 전체 예입니다.
+   다음 코드는 고정된 크기로 비디오 이미지 뷰어를 임베드하는 간단한 웹 페이지의 전체 예입니다.
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -186,9 +186,9 @@ Configuration and skinning are similar to that of the other viewers described in
    </html> 
    ```
 
-**Responsive design embedding with unrestricted height**
+**무제한 높이의 응답형 디자인 임베딩**
 
-With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer&#39;s container `DIV`. 다음 예에서는 웹 페이지에서 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 사용합니다. 그리고, 그것의 높이는 제한 없이 남아 있습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
+반응형 디자인 임베딩을 사용하면 일반적으로 웹 페이지에는 뷰어 컨테이너의 런타임 크기를 지정하는 일종의 유연한 레이아웃이 있습니다 `DIV`. 다음 예제에서는 웹 페이지가 뷰어의 컨테이너를 허용한다고 가정합니다 `DIV` 웹 브라우저 창 크기의 40%를 차지합니다. 그리고, 그것의 높이는 제한 없이 남아있습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -206,13 +206,13 @@ With responsive design embedding, the web page normally has some kind of flexibl
 </html> 
 ```
 
-이러한 페이지에 뷰어를 추가하는 것은 고정 크기 포함 단계와 비슷합니다. 유일한 차이점은 뷰어 크기를 명시적으로 정의할 필요가 없다는 것입니다.
+이러한 페이지에 뷰어를 추가하는 것은 고정 크기 임베딩 단계와 유사합니다. 유일한 차이점은 뷰어 크기를 명시적으로 정의할 필요가 없다는 것입니다.
 
 1. 웹 페이지에 뷰어 JavaScript 파일 추가.
 1. 컨테이너 정의 `DIV`.
-1. 뷰어를 만들고 초기화합니다.
+1. 뷰어를 만들고 초기화하는 중입니다.
 
-위의 모든 단계는 고정 크기 포함과 동일합니다. 컨테이너 추가 `DIV` 기존 `"holder"` `DIV`. 다음 코드는 완전한 예입니다. 브라우저 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 자산과 어떻게 일치하는지 확인합니다.
+위의 모든 단계는 고정 크기 포함과 동일합니다. 컨테이너 추가 `DIV` 기존 `"holder"` `DIV`. 다음 코드는 완전한 예입니다. 브라우저의 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 에셋과 어떻게 일치하는지 확인합니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -242,13 +242,13 @@ var interactiveImage = new s7viewers.InteractiveImage({
 </html> 
 ```
 
-다음 예제 페이지에서는 제한 높이가 있는 반응형 디자인 포함의 실제 사용을 보여 줍니다.
+다음 예제 페이지에서는 무제한 높이를 사용하는 응답형 디자인 포함의 보다 실제 사용을 보여 줍니다.
 
 [https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-banner/InteractiveImage-responsive-unrestricted-height.html)
 
 **폭 및 높이가 정의된 유연한 크기 포함**
 
-너비와 높이가 정의된 유연한 크기가 있는 경우 웹 페이지 스타일링이 다릅니다. 이 서비스는 두 가지 크기를 `"holder"` DIV를 실행하고 브라우저 창에 정렬합니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 추가합니다.
+폭과 높이가 정의된 유연한 크기의 포함이 있는 경우 웹 페이지 스타일이 다릅니다. 두 가지 크기를 모두 제공합니다. `"holder"` DIV를 실행하고 브라우저 창에서 가운데로 맞춥니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소를 100%로 설정합니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -274,7 +274,7 @@ height: 60%;
 </html> 
 ```
 
-나머지 포함 단계는 제한 높이가 없는 응답형 포함에 사용되는 단계와 동일합니다. 결과 예는 다음과 같습니다.
+임베딩 단계들의 나머지는 제한되지 않은 높이를 갖는 응답형 임베딩에 사용되는 단계들과 동일하다. 결과 예제는 다음과 같습니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -314,9 +314,9 @@ var interactiveImage = new s7viewers.InteractiveImage({
 
 **Setter 기반 API를 사용하여 포함**
 
-JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며 `setContainerId()`, `setParam()`, 및 `setAsset()` 별도의 JavaScript 호출을 사용하는 API 메서드.
+JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자는 매개 변수를 사용하지 않으며 를 사용하여 구성 매개 변수를 지정합니다. `setContainerId()`, `setParam()`, 및 `setAsset()` 별도의 JavaScript 호출을 사용한 API 메서드.
 
-다음 예에서는 setter 기반 API와 함께 고정 크기 포함 사용을 보여 줍니다.
+다음 예제에서는 setter 기반 API에 고정 크기 임베딩을 사용하는 방법을 보여 줍니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

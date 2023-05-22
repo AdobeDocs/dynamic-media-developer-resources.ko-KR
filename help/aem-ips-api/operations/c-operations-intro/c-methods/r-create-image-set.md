@@ -1,7 +1,7 @@
 ---
-description: 이미지 세트를 만듭니다.
+description: 이미지 집합을 만듭니다.
 solution: Experience Manager
-title: createImageSet
+title: 이미지 집합 만들기
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
@@ -12,13 +12,13 @@ ht-degree: 15%
 
 ---
 
-# createImageSet{#createimageset}
+# 이미지 집합 만들기{#createimageset}
 
-이미지 세트를 만듭니다.
+이미지 집합을 만듭니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## 승인된 사용자 유형 {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,11 +37,11 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 이미지 세트가 속한 회사의 핸들입니다. |
-| folderHandle | `xsd:string` | 예 | 폴더에 대한 핸들입니다. |
-| 이름 | `xsd:string` | 예 | 이미지 세트 이름입니다. |
-| 유형 | `xsd:string` | 예 | 이미지 세트 유형입니다. |
-| thumbAssetHandle | `xsd:string` | 아니요 | 새 이미지 세트의 축소판 역할을 하는 자산의 처리합니다. 지정하지 않으면 IPS는 세트에서 참조하는 첫 번째 이미지 자산을 사용합니다. |
+| company핸들 | `xsd:string` | 예 | 이미지 세트가 속한 회사에 대한 핸들입니다. |
+| folder핸들 | `xsd:string` | 예 | 폴더에 대한 핸들입니다. |
+| name | `xsd:string` | 예 | 이미지 집합 이름입니다. |
+| 유형 | `xsd:string` | 예 | 이미지 집합 유형입니다. |
+| thumbAssetHandle | `xsd:string` | 아니요 | 새 이미지 세트의 썸네일 역할을 하는 에셋의 핸들입니다. 지정하지 않으면 IPS는 집합에 의해 참조되는 첫 번째 이미지 자산을 사용하려고 합니다. |
 
 **출력**
 
@@ -51,7 +51,7 @@ ht-degree: 15%
 
 ## 예제 {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-이 코드 샘플은 회사, 폴더, 이름 및 유형별로 지정된 이미지 세트를 만듭니다. 응답은 새로 만든 이미지 세트의 자산 핸들입니다.
+이 코드 샘플은 회사, 폴더, 이름 및 형식으로 지정된 이미지 집합을 만듭니다. 응답은 새로 생성된 이미지 세트의 에셋 핸들입니다.
 
 **요청**
 

@@ -1,5 +1,5 @@
 ---
-description: 프로젝트 배열입니다.
+description: 프로젝트 배열.
 solution: Experience Manager
 title: 프로젝트 배열
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL ProjectArray]{#projectarray}
 
-프로젝트 배열입니다.
+프로젝트 배열.
 
 구문
 

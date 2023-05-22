@@ -1,6 +1,6 @@
 ---
 title: HTTP 프로토콜 명령 참조
-description: 이 명령 참조는 HTTP 프로토콜 명령에 대한 세부 정보를 제공합니다.
+description: 이 명령 참조는 HTTP 프로토콜 명령에 대한 세부 사항을 제공합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # HTTP 프로토콜 명령 참조 {#http-protocol-command-reference}
 
-이 명령 참조는 HTTP 프로토콜 명령에 대한 세부 정보를 제공합니다.
+이 명령 참조는 HTTP 프로토콜 명령에 대한 세부 사항을 제공합니다.

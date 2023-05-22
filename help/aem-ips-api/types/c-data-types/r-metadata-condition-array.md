@@ -1,7 +1,7 @@
 ---
-description: 메타데이터 조건 배열입니다.
+description: 메타데이터 조건의 배열입니다.
 solution: Experience Manager
-title: 메타데이터 조건 배열
+title: MetadataConditionArray
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bcc7631b-cff3-4cbb-ae3e-f6e0fb670ee0
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL MetadataConditionArray]{#metadataconditionarray}
 
-메타데이터 조건 배열입니다.
+메타데이터 조건의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:MetadataCondition` | 메타데이터 조건 배열입니다. |
+| 항목 | `types:MetadataCondition` | 메타데이터 조건의 배열입니다. |

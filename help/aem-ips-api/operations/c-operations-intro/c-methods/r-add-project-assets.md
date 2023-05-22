@@ -1,5 +1,5 @@
 ---
-description: 프로젝트에 하나 이상의 자산을 추가합니다.
+description: 하나 이상의 에셋을 프로젝트에 추가합니다.
 solution: Experience Manager
 title: addProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # addProjectAssets{#addprojectassets}
 
-프로젝트에 하나 이상의 자산을 추가합니다.
+하나 이상의 에셋을 프로젝트에 추가합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## 승인된 사용자 유형 {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,23 +33,23 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 현재 프로젝트와 연결된 회사를 처리합니다. |
-| projectHandle | `xsd:string` | 예 | 자산을 추가할 프로젝트를 처리합니다. |
-| projectHandleArray | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가하고 있는 자산의 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 현재 프로젝트와 연결된 회사에 대한 을(를) 처리합니다. |
+| projectHandle | `xsd:string` | 예 | 에셋을 추가할 프로젝트에 대한 을(를) 처리합니다. |
+| projectHandleArray | `xsd:HandleArray` | 예 | 현재 프로젝트에 추가하는 에셋 배열. |
 
 **출력(addProjectAssetsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| successCount | `xsd:int` | 예 | 추가된 자산 수입니다. |
-| warningCount | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
-| errorCount | `xsd:int` | 예 | 작업이 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
-| warningDetailHandle | `xsd:AssetOperationFaultArray` | 아니요 | 작업이 프로젝트에 추가하려고 할 때 자산에서 생성한 경고 배열입니다. |
-| companyHandle | `xsd:AssetOperationFaultArray` | 아니요 | 작업에서 자산에 오류를 추가하려고 할 때 자산에서 생성된 오류 배열입니다. |
+| successCount | `xsd:int` | 예 | 에셋 수가 추가되었습니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 프로젝트에 자산을 추가하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 프로젝트에 자산을 추가하려고 할 때 생성된 오류 수입니다. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | 아니요 | 작업에서 자산을 프로젝트에 추가하려고 할 때 자산에 의해 생성된 경고 배열. |
+| company핸들 | `xsd:AssetOperationFaultArray` | 아니요 | 작업에서 자산을 프로젝트에 추가하려고 할 때 자산에 의해 생성된 오류 배열. |
 
 ## 예제 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-이 예에서는 자산 핸들 배열의 단일 자산(해당 핸들에서 참조)을 요청에 지정된 프로젝트에 추가합니다. 응답이 응답되면 작업이 성공적으로 완료되었습니다. `successCount` 반환 `1`.
+이 예에서는 자산 핸들 배열의 핸들에서 참조되는 단일 자산을 요청에 지정된 프로젝트에 추가합니다. 응답이 있을 때 작업이 성공적으로 완료되었습니다. `successCount` 반환 `1`.
 
 **요청**
 

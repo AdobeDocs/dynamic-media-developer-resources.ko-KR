@@ -16,7 +16,7 @@ ht-degree: 15%
 
 글꼴 메타데이터 필드를 설정합니다.
 
-## 인증된 사용자 유형 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## 승인된 사용자 유형 {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,18 +30,18 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 글꼴이 포함된 회사를 처리합니다. |
-| updateArray | `types:FontFieldUpdateArray` | 예 | 글꼴 필드 업데이트 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 글꼴이 포함된 회사를 처리합니다. |
+| updateArray | `types:FontFieldUpdateArray` | 예 | 글꼴 필드 업데이트 배열. |
 
 **출력(batchSetFontFieldsParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| successCount | `xsd:int` | 예 | 글꼴 필드를 성공적으로 설정한 수입니다. |
+| successCount | `xsd:int` | 예 | 성공적으로 설정된 글꼴 필드 수입니다. |
 | warningCount | `xsd:int` | 예 | 작업에서 글꼴 필드를 설정하려고 할 때 생성된 경고 수입니다. |
-| errorCount | `xsd:int` | 예 | 작업에서 글꼴 필드를 설정하려고 할 때 발생한 오류 수입니다. |
-| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
-| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 글꼴 필드를 설정하려고 할 때 생성된 오류 수. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류가 발생한 자산과 관련된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

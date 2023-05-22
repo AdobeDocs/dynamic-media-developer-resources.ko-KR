@@ -1,5 +1,5 @@
 ---
-description: 권한을 할당하는 데 사용되는 명명된 사용자 집합입니다.
+description: 권한 할당에 사용되는 명명된 사용자 집합입니다.
 solution: Experience Manager
 title: 그룹
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL Group]{#group}
 
-권한을 할당하는 데 사용되는 명명된 사용자 집합입니다.
+권한 할당에 사용되는 명명된 사용자 집합입니다.
 
 구문
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| groupHandle | `xsd:string` | 그룹 핸들. |
-| companyHandle | `xsd:string` | 회사 핸들. |
+| group핸들 | `xsd:string` | 그룹 핸들. |
+| company핸들 | `xsd:string` | 회사 핸들. |
 | [!DNL name] | `xsd:string` | 그룹 이름. |
-| [!DNL is SystemDefined] | `xsd:string` | 그룹이 시스템에 의해 정의되는지 여부. |
+| [!DNL is SystemDefined] | `xsd:string` | 그룹이 시스템에 의해 정의되었는지 여부. |

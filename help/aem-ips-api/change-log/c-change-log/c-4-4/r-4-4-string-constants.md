@@ -1,20 +1,20 @@
 ---
-description: IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
+description: IPS API 버전 4.4에 대한 새로운 데이터 형식과 변경된 데이터 형식을 설명합니다.
 solution: Experience Manager
-title: 문자열 상수 새 및 수정됨
+title: String 상수 New 및 Modified
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '35'
 ht-degree: 2%
 
 ---
 
-# 문자열 상수: 신규 및 수정됨{#string-constants-new-and-modified}
+# 문자열 상수: New 및 Modified{#string-constants-new-and-modified}
 
-IPS API 버전 4.4의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
+IPS API 버전 4.4에 대한 새로운 데이터 형식과 변경된 데이터 형식을 설명합니다.
 
 구문
 

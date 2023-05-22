@@ -1,32 +1,32 @@
 ---
-description: eCatalog Viewer에 대한 JavaScript API 참조.
+description: eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+title: setHandler
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 33779874-2ab9-490a-8eaf-726adaa76327
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---
 
-# setHandlers{#sethandlers}
+# setHandler{#sethandlers}
 
-eCatalog Viewer에 대한 JavaScript API 참조.
+eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 
 [!DNL `setHandlers(handlers)`]
 
-콜백 처리기를 0개 이상 지정합니다. 이 메서드 호출은 해당 뷰어 인스턴스에 대해 이전에 할당한 이벤트 핸들러를 완전히 덮어씁니다. `init()` 앞에 를 호출해야 합니다.
+0개 이상의 콜백 핸들러를 지정합니다. 이 메서드 호출은 해당 뷰어 인스턴스에 대해 이전에 할당된 이벤트 핸들러를 완전히 덮어씁니다. 전에 호출해야 함 `init()`.
 
 ## 매개 변수 {#section-0cc9961784d04eb3b7d50011309b0119}
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 핸들러  </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 뷰어 이벤트 콜백이 있는 {Object}  </span> JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. </p> <p>뷰어 이벤트에 대한 자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> 이벤트 콜백 </a> 을 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 핸들러 </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 속성 이름이 지원되는 뷰어 이벤트 이름이고 속성 값이 적절한 콜백에 대한 JavaScript 함수 참조인 뷰어 이벤트 콜백이 있는 JSON 개체입니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-event-callbacks.md#concept-0bf5ff877043468db58ac62a92d002b6" format="dita" scope="local"> 이벤트 콜백 </a> 뷰어 이벤트에 대한 자세한 정보. </p> </td> 
   </tr> 
  </tbody> 
 </table>

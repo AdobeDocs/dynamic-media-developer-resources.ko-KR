@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 10%
+source-wordcount: '24'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,6 @@ ht-degree: 10%
 이 섹션에서는 SVG 데이터 속성에 대해 설명합니다.
 
 * [만료](r-expiration-svg.md)
-* [ID](r-id-svg.md)
+* [Id](r-id-svg.md)
 * [경로](r-path-svg.md)
 * [타임스탬프](r-timestamp-svg.md)

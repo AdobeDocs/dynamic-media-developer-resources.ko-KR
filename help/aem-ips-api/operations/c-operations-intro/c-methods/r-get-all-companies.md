@@ -18,7 +18,7 @@ ht-degree: 21%
 
 구문
 
-## 인증된 사용자 유형 {#section-773db3753b4842e5a4623ad810176508}
+## 승인된 사용자 유형 {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -28,17 +28,17 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| includeExpired | `xsd:boolean` | 예 | 만료되고 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
+| includeExpired | `xsd:boolean` | 예 | 만료된 회사와 만료되지 않은 회사를 반환하려면 true로 설정합니다. |
 
 **출력(getAllCompaniesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | 예 | 회사의 배열입니다. |
+| companyArray | `types:CompanyArray` | 예 | 회사의 배열. |
 
 ## 예제 {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-이 코드 샘플은 배열에 있는 IPS에 있는 모든 회사를 반환합니다. 참고로, 샘플 응답은 간결성을 위해 잘립니다.
+이 코드 샘플은 IPS에 있는 모든 회사를 배열로 반환합니다. 샘플 응답은 간결성을 위해 잘립니다.
 
 **요청**
 

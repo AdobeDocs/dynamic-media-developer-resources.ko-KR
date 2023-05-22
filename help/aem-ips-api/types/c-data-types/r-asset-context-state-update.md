@@ -1,6 +1,6 @@
 ---
 title: AssetContextStateUpdate
-description: 자산과 연결된 게시 컨텍스트에 대한 새 게시 상태 플래그 세트를 설정합니다.
+description: 자산과 연결된 게시 컨텍스트에 대한 새 게시 상태 플래그 집합을 설정합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 6%
 
 # [!DNL AssetContextStateUpdate]{#assetcontextstateupdate}
 
-자산과 연결된 게시 컨텍스트에 대한 새 게시 상태 플래그 세트를 설정합니다.
+자산과 연결된 게시 컨텍스트에 대한 새 게시 상태 플래그 집합을 설정합니다.
 
 **매개 변수**
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | assetHandle | `xsd:string` | 업데이트할 자산을 처리합니다. |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | 업데이트할 자산에 대한 게시 연락처 상태의 배열입니다. |
+| contextStateUpdateArray | `types:ContextStateUpdateArray` | 업데이트할 에셋의 게시 연락처 상태 배열입니다. |

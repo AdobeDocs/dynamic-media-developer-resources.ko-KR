@@ -1,6 +1,6 @@
 ---
-title: Linux®에서 시작 또는 중지
-description: Linux®에서 이미지 서비스를 시작하거나 중지하기 위한 두 가지 옵션이 있습니다.
+title: Linux에서 시작 또는 중지®
+description: Linux®에서 이미지 제공 시작 또는 중지에 대한 두 가지 옵션이 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Linux®에서 시작 또는 중지 {#starting-or-stopping-on-linux}
+# Linux에서 시작 또는 중지® {#starting-or-stopping-on-linux}
 
-Linux®에서 이미지 서비스를 시작하거나 중지하기 위한 두 가지 옵션이 있습니다.
+Linux®에서 이미지 제공 시작 또는 중지에 대한 두 가지 옵션이 있습니다.
 
-* 이미지 제공 상태를 확인하거나 이미지 제공 시작 및 중지 스크립트를 [!DNL ImageServing/bin] 폴더:
+* 이미지 제공 상태를 확인하거나 이미지 제공을 시작 및 정지하기 위한 스크립트는에서 찾을 수 있습니다. [!DNL ImageServing/bin] 폴더:
 
    `ImageServing.sh {start|stop|restart|status}`
-* 시스템 관리자에게는 다음 대체 방법을 잘 알고 있어야 합니다.
+* 다음 대안은 시스템 관리자에게 익숙해야 합니다.
 
    `/sbin/service ImageServing {start|stop|status}`

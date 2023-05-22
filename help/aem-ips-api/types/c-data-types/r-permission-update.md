@@ -1,5 +1,5 @@
 ---
-description: 권한 변경 사항에 대해 설명합니다.
+description: 권한 변경 내용을 설명합니다.
 solution: Experience Manager
 title: PermissionUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PermissionUpdate]{#permissionupdate}
 
-권한 변경 사항에 대해 설명합니다.
+권한 변경 내용을 설명합니다.
 
 구문
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| groupHandle | `xsd:string` | 그룹 핸들. |
-| permissionType | `xsd:string` | 권한 유형입니다. |
-| isAllowed | `xsd:boolean` | 권한 업데이트가 허용되는지 확인합니다. |
+| group핸들 | `xsd:string` | 그룹 핸들. |
+| permissionType | `xsd:string` | 권한 유형. |
+| isAllow | `xsd:boolean` | 권한 업데이트가 허용되는지 여부를 결정합니다. |
 | isOverride | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |

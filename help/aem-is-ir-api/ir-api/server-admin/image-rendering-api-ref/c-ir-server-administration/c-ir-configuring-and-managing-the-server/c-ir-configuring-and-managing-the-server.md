@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이미지 렌더링의 올바른 기능을 위해서는 이미지 제공 기능이 제대로 구성되고 작동해야 합니다.
+>이미지 렌더링이 올바르게 작동하려면 이미지 제공이 올바르게 구성되고 작동해야 합니다.
 
-자세한 내용은 Material Catalog Reference, HTTP Protocol Reference , Release Notes, Image Serving Documentation 을 참조하십시오.
+자세한 내용은 재질 카탈로그 참조, HTTP 프로토콜 참조 , 릴리스 노트, 이미지 서비스 설명서 를 참조하십시오

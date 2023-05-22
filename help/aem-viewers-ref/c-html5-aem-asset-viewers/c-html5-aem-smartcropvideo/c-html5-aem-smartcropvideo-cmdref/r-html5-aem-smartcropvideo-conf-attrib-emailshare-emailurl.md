@@ -4,10 +4,11 @@ description: 스마트 자르기 비디오 뷰어에 대한 구성 속성입니�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 1d6e7be8-19c0-474d-b8ea-c4cbb8d8a45b
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +29,7 @@ ht-degree: 12%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

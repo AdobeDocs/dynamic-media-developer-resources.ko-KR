@@ -1,7 +1,7 @@
 ---
-description: 태그 값 업데이트 배열입니다.
+description: 태그 값 업데이트의 배열입니다.
 solution: Experience Manager
-title: TagValueUpdateArray
+title: 태그 값 업데이트 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-태그 값 업데이트 배열입니다.
+태그 값 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:TagValueUpdate` | 태그 값 업데이트 배열입니다. |
+| 항목 | `types:TagValueUpdate` | 태그 값 업데이트의 배열입니다. |

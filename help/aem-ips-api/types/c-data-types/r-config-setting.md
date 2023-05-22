@@ -1,5 +1,5 @@
 ---
-description: Dynamic Media 개발자만 사용됩니다.
+description: Dynamic Media 개발자만 사용합니다.
 solution: Experience Manager
 title: 구성 설정
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ConfigSetting]{#configsetting}
 
-Dynamic Media 개발자만 사용됩니다.
+Dynamic Media 개발자만 사용합니다.
 
 구문
 

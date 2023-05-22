@@ -1,6 +1,6 @@
 ---
-title: 스핀 보기
-description: 기본 보기는 스핀 이미지로 구성됩니다.
+title: 회전 보기
+description: 기본 보기는 회전 이미지로 구성됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# 스핀 보기{#spin-view}
+# 회전 보기{#spin-view}
 
-기본 보기는 스핀 이미지로 구성됩니다.
+기본 보기는 회전 이미지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 보기 영역의 모양이 제어됩니다.
 
 ```
 .s7spinviewer .s7spinview
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 기본 보기의 16진수 형식 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 기본 보기를 투명하게 만들려면
+예 - 기본 보기를 투명하게 합니다.
 
 ```
 .s7spinviewer .s7spinview { 

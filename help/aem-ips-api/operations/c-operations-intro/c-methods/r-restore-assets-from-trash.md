@@ -18,7 +18,7 @@ ht-degree: 12%
 
 구문
 
-## 인증된 사용자 유형 {#section-15e887782c7d4ace897ff02c6ad5baa0}
+## 승인된 사용자 유형 {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,22 +33,22 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 복원할 자산이 있는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 복원할 자산이 있는 회사에 대한 핸들입니다. |
 | assetHandleArray | `types:HandleArray` | 예 | 복원할 자산의 핸들 배열입니다. |
 
 **출력(restoreAssetsFromTrashReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| successCount | `xsd:int` | 예 | 휴지통에서 성공적으로 제거된 자산 수입니다. |
-| warningCount | `xsd:int` | 예 | 작업에서 휴지통에서 자산을 복원하려고 할 때 생성된 경고 수입니다. |
-| errorCount | `xsd:int` | 예 | 휴지통에서 자산을 복원하려고 할 때 생성된 오류 수입니다. |
-| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 경고를 생성한 자산과 연관된 세부 사항의 배열입니다. |
-| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 휴지통에서 자산을 복원하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | `xsd:int` | 예 | 휴지통에서 성공적으로 제거된 자산 수. |
+| warningCount | `xsd:int` | 예 | 작업에서 휴지통에서 자산을 복원하려고 할 때 생성된 경고 수. |
+| errorCount | `xsd:int` | 예 | 휴지통에서 자산을 복원하는 동안 발생한 오류 수. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업이 휴지통에서 자산을 복원하려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업이 휴지통에서 자산을 복원하려고 할 때 오류가 발생한 자산과 관련된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-98fe0394b0634ca397c395f14f8a9358}
 
-이 코드 샘플은 휴지통에서 자산을 복원합니다. 응답이 작업이 성공적으로 완료되었음을 나타냅니다.
+이 코드 샘플은 휴지통에서 자산을 복원합니다. 응답은 작업이 성공적으로 완료되었음을 나타냅니다.
 
 **요청**
 

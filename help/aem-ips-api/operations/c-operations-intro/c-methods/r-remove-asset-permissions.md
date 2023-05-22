@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-239058fdb4454e519ac327e621cb3abc}
+## 승인된 사용자 유형 {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +30,16 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| assetHandle | `xsd:string` | 예 | 제거할 권한이 있는 자산의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
+| assetHandle | `xsd:string` | 예 | 제거할 권한이 있는 자산에 대한 핸들입니다. |
 
 **출력(removeAssetPermissionsReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-이 코드 샘플은 자산에서 권한을 제거합니다.
+이 코드 샘플은 에셋에서 권한을 제거합니다.
 
 **요청**
 

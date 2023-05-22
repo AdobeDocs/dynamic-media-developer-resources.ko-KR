@@ -1,5 +1,5 @@
 ---
-description: 그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 권한을 관리합니다.
+description: 그룹별로 에셋에 대한 액세스, 수정, 생성 또는 삭제 권한을 관리합니다.
 solution: Experience Manager
 title: 권한
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL Permission]{#permission}
 
-그룹별로 자산에 액세스, 수정, 만들기 또는 삭제할 권한을 관리합니다.
+그룹별로 에셋에 대한 액세스, 수정, 생성 또는 삭제 권한을 관리합니다.
 
 구문
 
@@ -22,8 +22,8 @@ ht-degree: 9%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| groupHandle | `xsd:string` | 그룹 핸들. |
+| group핸들 | `xsd:string` | 그룹 핸들. |
 | groupName | `xsd:string` | 그룹 이름. |
-| permissionType | `xsd:string` | 권한 유형을 선택합니다. |
-| isAllowed | `xsd:boolean` | 권한이 허용되는지 확인합니다. |
+| permissionType | `xsd:string` | 권한 유형 선택. |
+| isAllow | `xsd:boolean` | 사용 권한이 허용되는지 여부를 결정합니다. |
 | isOverride | `xsd:boolean` | 권한이 다른 권한을 재정의하는지 여부를 결정합니다. |

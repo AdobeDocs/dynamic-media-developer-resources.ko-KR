@@ -1,10 +1,11 @@
 ---
 title: 캡션 단추
-description: 이 단추는 닫힌 캡션 표시를 설정/해제합니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
+description: 이 단추는 닫힌 캡션 표시를 켜거나 끕니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -13,13 +14,13 @@ ht-degree: 2%
 
 # 캡션 단추{#caption-button}
 
-이 단추는 닫힌 캡션 표시를 설정/해제합니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
+이 단추는 닫힌 캡션 표시를 켜거나 끕니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+CSS를 사용하여 이 단추를 포함하는 컨트롤 막대에 따라 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
-이 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+이 단추의 모양은 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton
@@ -31,19 +32,19 @@ CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩을 포함하여 위쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 위쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩을 포함하여 오른쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 오른쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 패딩을 포함하여 왼쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 패딩을 포함하여 왼쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>패딩을 포함하여 아래쪽 테두리에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>패딩을 포함하여 아래쪽 테두리에서 위치합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -51,28 +52,28 @@ CSS를 사용하여 이 단추를 포함하는 컨트롤 막대를 기준으로 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>전체 화면 단추의 높이입니다. </p> </td> 
+   <td colname="col2"> <p>전체 화면 단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
-   <td colname="col2"> <p> 지정된 단추 상태에 대해 표시된 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 지정된 버튼 상태에 대해 표시된 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>자세한 내용은 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `selected='true'` 는 캡션이 표시되며 `selected='false'` 캡션을 숨길 때 사용됩니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 은 캡션이 표시될 때의 상태에 해당하고 `selected='false'` 캡션이 숨겨지면 사용됩니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
 
 ## 예 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-28 x 28픽셀인 닫힌 캡션 단추를 설정하려면 다음을 수행하십시오. 위쪽에서 4픽셀, 컨트롤 막대의 오른쪽 가장자리에서 68픽셀로 배치됩니다. 마지막으로, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+28 x 28픽셀이 되는 자막 단추를 설정하려면 다음을 수행합니다. 컨트롤 막대의 위쪽 가장자리에서 4픽셀, 오른쪽 가장자리에서 68픽셀이 위치한다. 마지막으로, 을 선택하거나 선택하지 않았을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 

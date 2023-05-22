@@ -18,7 +18,7 @@ ht-degree: 18%
 
 구문
 
-## 인증된 사용자 유형 {#section-cc36a437394c491594e704a08a161c87}
+## 승인된 사용자 유형 {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +36,8 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
-| fieldHandleArray | `types:HandleArray` | 예 | 반환하려는 태그 값에 대한 필드 핸들의 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들입니다. |
+| fieldHandleArray | `types:HandleArray` | 예 | 반환할 태그 값에 대한 필드 핸들의 배열입니다. |
 
 **출력(getTagFieldValuesReturn)**
 

@@ -1,7 +1,7 @@
 ---
 description: 이전 및 새 태그 필드 값을 정의합니다.
 solution: Experience Manager
-title: TagValueUpdate
+title: 태그 값 업데이트
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e

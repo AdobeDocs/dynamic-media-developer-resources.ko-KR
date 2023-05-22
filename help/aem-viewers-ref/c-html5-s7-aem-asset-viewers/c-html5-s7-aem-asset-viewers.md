@@ -1,6 +1,6 @@
 ---
-title: AEM Assets 및 Dynamic Media Classic용 뷰어
-description: AEM Assets 및 Dynamic Media Classic용 뷰어
+title: AEM Assets 및 Dynamic Media Classic 뷰어
+description: AEM Assets 및 Dynamic Media Classic 뷰어
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 553e9be6-2737-4d78-bbda-87e866003b2e
 source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
-# AEM Assets 및 Dynamic Media Classic용 뷰어{#viewers-for-aem-assets-and-dynamic-media-classic}
+# AEM Assets 및 Dynamic Media Classic 뷰어{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-다음 뷰어는 Adobe Experience Manager Assets와 Dynamic Media Classic 아래에서도 작동합니다.
+다음 뷰어는 Adobe Experience Manager Assets 및 Dynamic Media Classic에서도 작동합니다.
 
 * [기본 확대/축소](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [eCatalog](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)

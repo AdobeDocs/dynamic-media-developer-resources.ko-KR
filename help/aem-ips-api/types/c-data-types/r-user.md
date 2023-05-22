@@ -1,5 +1,5 @@
 ---
-description: 시스템의 리소스 및 유형 사용자입니다.
+description: 시스템의 리소스 및 유형 사용자.
 solution: Experience Manager
 title: 사용자
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL User]{#user}
 
-시스템의 리소스 및 유형 사용자입니다.
+시스템의 리소스 및 유형 사용자.
 
 구문
 
@@ -22,10 +22,10 @@ ht-degree: 9%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| userHandle | `xsd:string` | 사용자 핸들. |
-| firstName | `xsd:string` | 사용자 이름. |
-| lastName | `xsd:string` | 사용자 성. |
+| 사용자 핸들 | `xsd:string` | 사용자 핸들. |
+| 이름 | `xsd:string` | 사용자 이름. |
+| 성 | `xsd:string` | 사용자 성. |
 | 이메일 | `xsd:string` | 이메일 주소. |
-| defaultRole | `xsd:string` | 사용자가 속한 각 회사에서 사용자에 대한 역할을 설정합니다. 하지만 사용자 역할은 `IpsAmin` 다른 사용자 역할을 무시합니다. |
-| isValid | `xsd:boolean` | 사용자가 유효한지 확인합니다. |
+| 기본 역할 | `xsd:string` | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 사용자 역할 `IpsAmin` 다른 사용자 역할을 무시합니다. |
+| isValid | `xsd:boolean` | 사용자가 유효한지 여부를 결정합니다. |
 | passwordExpires | `xsd:dateTime` | 암호 만료 날짜를 설정합니다. |

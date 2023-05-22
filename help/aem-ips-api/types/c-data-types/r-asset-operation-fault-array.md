@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFaultArray
-description: 자산 작업 장애 배열입니다.
+description: 에셋 작업 오류 배열.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL AssetOperationFaultArray]{#assetoperationfaultarray}
 
-자산 작업 장애 배열입니다.
+에셋 작업 오류 배열.
 
 구문
 

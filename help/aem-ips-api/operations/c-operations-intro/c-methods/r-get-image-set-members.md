@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## 승인된 사용자 유형 {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,18 +39,18 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 이미지 세트가 포함된 회사의 핸들입니다. |
-| assetHandle | `xsd:string` | 예 | 이미지 세트 자산 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 이미지 세트가 포함된 회사에 대한 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 이미지 집합 자산 핸들입니다. |
 
 **출력(getImageSetMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| memberArray | `types:ImageSetMemberArray` | 아니요 | 이미지 집합 구성원의 배열입니다. |
+| memberArray | `types:ImageSetMemberArray` | 아니요 | 이미지 집합 구성원 배열입니다. |
 
 ## 예제 {#section-888a9a78033346f39b171229de93dfa0}
 
-이 코드 샘플은 특정 이미지 세트 멤버를 반환합니다. 응답은 빈 배열을 반환합니다.
+이 코드 샘플은 특정 이미지 집합 멤버를 반환합니다. 응답이 빈 배열을 반환합니다.
 
 **요청**
 

@@ -1,5 +1,5 @@
 ---
-description: 업로드 중에 지정된 옵션입니다. 업로드할 색상을 관리하는 방식에 영향을 줍니다.
+description: 업로드하는 동안 지정된 옵션입니다. 업로드용 색상 관리 방법에 영향을 줍니다.
 solution: Experience Manager
 title: 색상 관리 옵션
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ColorManagementOptions]{#colormanagementoptions}
 
-업로드 중에 지정된 옵션입니다. 업로드할 색상을 관리하는 방식에 영향을 줍니다.
+업로드하는 동안 지정된 옵션입니다. 업로드용 색상 관리 방법에 영향을 줍니다.
 
 구문
 
@@ -22,6 +22,6 @@ ht-degree: 11%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| colorManagement | `xsd:string` | 색상 관리 모드 선택. |
-| sourceProfileHandle | `xsd:string` | 소스 프로필 핸들. |
-| outputProfileHandle | `xsd:string` | 출력 프로필 핸들. |
+| 색상 관리 | `xsd:string` | 색상 관리 모드 선택. |
+| sourceProfile핸들 | `xsd:string` | 소스 프로필 핸들. |
+| outputProfile핸들 | `xsd:string` | 출력 프로필 핸들. |

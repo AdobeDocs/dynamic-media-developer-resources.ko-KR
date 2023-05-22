@@ -1,5 +1,5 @@
 ---
-description: 다수의 회사
+description: 여러 회사
 solution: Experience Manager
 title: CompanyArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL CompanyArray]{#companyarray}
 
-다수의 회사
+여러 회사
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Company` | 다수의 회사. |
+| 항목 | `types:Company` | 여러 회사들. |

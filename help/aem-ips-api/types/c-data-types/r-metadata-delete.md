@@ -1,7 +1,7 @@
 ---
-description: 자산에서 삭제할 메타데이터입니다.
+description: 에셋에서 삭제할 메타데이터.
 solution: Experience Manager
-title: 메타데이터 삭제
+title: MetadataDelete
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-자산에서 삭제할 메타데이터입니다.
+에셋에서 삭제할 메타데이터.
 
 구문
 
@@ -30,9 +30,9 @@ ht-degree: 20%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> 필드 핸들</span></span> </p> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>삭제할 메타데이터 매개 변수입니다. </p> </td> 
+   <td colname="col3"> <p>삭제할 메타데이터 매개 변수. </p> </td> 
   </tr> 
  </tbody> 
 </table>

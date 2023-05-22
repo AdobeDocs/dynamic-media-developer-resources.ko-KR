@@ -2,13 +2,13 @@
 description: EmailShare.emailurl
 solution: Experience Manager
 title: EmailShare.emailurl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog 검색
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4ebaed6f-7058-42cc-b3b2-0fe2c1d081e4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 14%
+source-wordcount: '19'
+ht-degree: 15%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,7 +1,7 @@
 ---
-description: 메타데이터 서버에 메타데이터를 게시합니다.
+description: 메타데이터를 메타데이터 서버에 게시합니다.
 solution: Experience Manager
-title: 메타데이터 게시 작업 유형
+title: MetadataPublishJobType
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL MetadataPublishJobType]{#metadatapublishjobtype}
 
-메타데이터 서버에 메타데이터를 게시합니다.
+메타데이터를 메타데이터 서버에 게시합니다.
 
 구문
 
@@ -32,7 +32,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
-   <td colname="col3">을 로 설정합니다. <span class="codeph"> True</span> 게시하려면 다음을 수행하십시오. <i>모두</i> 다시 메타데이터 서버에 데이터를 보냅니다. <p>참고: 데이터 양에 따라 몇 분~몇 시간이 걸릴 수 있습니다. </p><p>새 메타데이터나 변경된 메타데이터만 게시하려면 이 매개 변수를 설정하지 마십시오. </p></td> 
+   <td colname="col3">다음으로 설정 <span class="codeph"> True</span> 게시하려면 <i>모두</i> 메타데이터 서버로 다시 데이터를 전송합니다. <p>참고: 데이터 양에 따라 몇 분에서 몇 시간 정도 소요될 수 있습니다. </p><p>새 메타데이터나 변경된 메타데이터만 게시하려면 이 매개 변수를 설정하지 마십시오. </p></td> 
   </tr> 
  </tbody> 
 </table>

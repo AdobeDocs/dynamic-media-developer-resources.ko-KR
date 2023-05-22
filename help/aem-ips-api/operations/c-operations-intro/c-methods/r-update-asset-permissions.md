@@ -1,7 +1,7 @@
 ---
 description: 자산 권한을 업데이트합니다.
 solution: Experience Manager
-title: updateAssetPermissions
+title: updateAssetPermissons
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
@@ -12,13 +12,13 @@ ht-degree: 24%
 
 ---
 
-# updateAssetPermissions{#updateassetpermissons}
+# updateAssetPermissons{#updateassetpermissons}
 
 자산 권한을 업데이트합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-3928e9badc3842e1859af4ed362df719}
+## 승인된 사용자 유형 {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 24%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| assetHandle | `xsd:string` | 예 | 자산 핸들. |
-| updateArray | `types:PermissionUpdateArray` | 예 | 자산에 적용할 권한. |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 에셋 핸들. |
+| updateArray | `types:PermissionUpdateArray` | 예 | 에셋에 적용할 권한입니다. |
 
 **출력(updateAssetPermissionsReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 

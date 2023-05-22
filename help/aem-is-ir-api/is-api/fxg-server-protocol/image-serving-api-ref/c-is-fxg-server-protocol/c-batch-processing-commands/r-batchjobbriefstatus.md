@@ -20,14 +20,14 @@ ht-degree: 2%
 
 <table id="simpletable_86E581DBB352479CB4CB531434D91E83"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
-  <td class="stentry"> <p>제출 시 얻은 작업 ID. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 작업 ID </span> </p> </td> 
+  <td class="stentry"> <p>제출 시 획득한 작업 ID. </p> </td> 
  </tr> 
 </table>
 
 반환:
 
-XML 형식의 간략한 작업 상태 jobid가 잘못되었거나 작업이 삭제된 경우 오류가 발생합니다.
+작업 XML 형식의 간략한 상태. 작업 ID가 잘못되었거나 작업이 삭제된 경우 오류가 발생합니다.
 
 ## 예 {#section-806460949bb043438ad4dd4e7ab74145}
 

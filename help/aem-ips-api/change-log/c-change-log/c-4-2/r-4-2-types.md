@@ -1,20 +1,20 @@
 ---
-description: IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
+description: IPS API 버전 4.2의 새로운 데이터 형식과 변경된 데이터 형식을 설명합니다.
 solution: Experience Manager
-title: 신규 및 수정된 데이터 유형
+title: 새 데이터 유형 및 수정된 데이터 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '51'
+ht-degree: 1%
 
 ---
 
 # 데이터 유형: 신규 및 수정됨{#data-types-new-and-modified}
 
-IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형에 대해 설명합니다.
+IPS API 버전 4.2의 새로운 데이터 형식과 변경된 데이터 형식을 설명합니다.
 
 구문
 
@@ -49,7 +49,7 @@ IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형�
 * `preserveCrop`
 * `readyForPublish`
 
-**UploadDirectoryJob**
+**업로드 디렉터리 작업**
 
 추가된 매개 변수:
 
@@ -57,7 +57,7 @@ IPS API 버전 4.2의 새로운 데이터 유형과 변경된 데이터 유형�
 * `preserveCrop`
 * `videoEncodingPreset`
 
-**UploadUrlJob**
+**UploadUrlsJob**
 
 추가된 매개 변수:
 

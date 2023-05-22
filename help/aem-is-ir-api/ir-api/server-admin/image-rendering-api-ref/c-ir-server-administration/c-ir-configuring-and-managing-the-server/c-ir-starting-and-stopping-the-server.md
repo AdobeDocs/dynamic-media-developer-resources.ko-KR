@@ -1,5 +1,5 @@
 ---
-description: 이미지 렌더링은 이미지 제공 이미지 서버에 포함되어 있으며 [!DNL Platform Server] 구성 요소.
+description: 이미지 렌더링은 이미지 제공의 이미지 서버에 임베드되며 [!DNL Platform Server] 구성 요소.
 solution: Experience Manager
 title: 서버 시작 및 중지
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 서버 시작 및 중지{#starting-and-stopping-the-server}
 
-이미지 렌더링은 이미지 제공 이미지 서버에 포함되어 있으며 [!DNL Platform Server] 구성 요소.
+이미지 렌더링은 이미지 제공의 이미지 서버에 임베드되며 [!DNL Platform Server] 구성 요소.
 
 자세한 내용은 이미지 제공 설명서 를 참조하십시오.

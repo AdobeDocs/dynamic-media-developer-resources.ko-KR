@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Dynamic Media 릴리스 노트{#dynamic-media-release-notes}
 
-[!DNL Adobe Experience Cloud]에서 [!DNL Adobe Experience Manager] 솔루션의 일부 [!DNL Adobe Dynamic Media Classic]-에 대한 최신 릴리스 노트입니다.
+의 최신 릴리스 정보 [!DNL Adobe Dynamic Media Classic]-일부 [!DNL Adobe Experience Manager] 의 솔루션 [!DNL Adobe Experience Cloud].

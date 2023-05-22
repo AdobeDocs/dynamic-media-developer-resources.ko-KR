@@ -1,7 +1,7 @@
 ---
-description: 검색 결과에서 제외할 생성 엔진 및 생성된 자산 유형을 결정합니다.
+description: 검색 결과에서 제외할 생성 엔진 및 생성된 에셋 유형을 결정합니다.
 solution: Experience Manager
-title: 제외 부산물 조건
+title: ExcludeVasputeCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ExcludeByproductCondition]{#excludebyproductcondition}
 
-검색 결과에서 제외할 생성 엔진 및 생성된 자산 유형을 결정합니다.
+검색 결과에서 제외할 생성 엔진 및 생성된 에셋 유형을 결정합니다.
 
 구문
 

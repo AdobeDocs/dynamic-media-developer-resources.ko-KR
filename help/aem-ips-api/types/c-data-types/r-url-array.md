@@ -1,5 +1,5 @@
 ---
-description: CDN 캐시를 무효화하기 위한 URL의 배열입니다.
+description: CDN 캐시를 무효화하기 위한 URL 배열.
 solution: Experience Manager
 title: UrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 9%
 
 # [!DNL UrlArray]{#urlarray}
 
-CDN 캐시를 무효화하기 위한 URL의 배열입니다.
+CDN 캐시를 무효화하기 위한 URL 배열.
 
-**지원 기간**
+**다음 이후 지원됨**
 
 4.5.0, 패치 2011-02
 
@@ -32,9 +32,9 @@ CDN 캐시를 무효화하기 위한 URL의 배열입니다.
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 항목</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> 개 항목</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> 무효화할 URL 목록. WSDL 정의에 의해 최대 1000개의 URL로 제한됩니다. </p> </td> 
+   <td> <p> 무효화할 URL 목록입니다. WSDL 정의에 의해 최대 1000개의 URL로 제한됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

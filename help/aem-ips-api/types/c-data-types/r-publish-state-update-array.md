@@ -1,5 +1,5 @@
 ---
-description: 게시 상태 업데이트 배열입니다.
+description: 게시 상태 업데이트의 배열입니다.
 solution: Experience Manager
 title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL PublishStateUpdateArray]{#publishstateupdatearray}
 
-게시 상태 업데이트 배열입니다.
+게시 상태 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:PublishStateUpdate` | 게시 상태 업데이트 배열입니다. |
+| 항목 | `types:PublishStateUpdate` | 게시 상태 업데이트의 배열입니다. |

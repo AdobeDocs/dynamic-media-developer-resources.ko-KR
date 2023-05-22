@@ -1,5 +1,5 @@
 ---
-description: ICC 프로필 필드 업데이트 항목의 배열입니다.
+description: ICC 프로파일 필드 업데이트 항목의 배열입니다.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-ICC 프로필 필드 업데이트 항목의 배열입니다.
+ICC 프로파일 필드 업데이트 항목의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ICC 프로필 필드 업데이트 항목의 배열입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 배열 항목입니다. |
+| 항목 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 배열 항목. |

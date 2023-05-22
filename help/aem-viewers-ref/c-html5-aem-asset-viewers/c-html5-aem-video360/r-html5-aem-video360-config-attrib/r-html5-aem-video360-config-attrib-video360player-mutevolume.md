@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -22,14 +22,14 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 초기 로드 시 비디오 재생에 대한 음소거 모드를 설정합니다. <span class="codeph"> 1 </span> 로 설정하면 볼륨이 음소거됩니다. 그렇지 않으면 비디오가 사운드와 함께 재생됩니다. 특정 장치에서 로드 시 비디오 재생을 뮤팅하면 비디오가 자동 재생되도록 합니다. </p> </td> 
+   <td colname="col2"> <p> 초기 로드 시 비디오 재생을 위해 음소거 모드를 설정합니다. 로 설정된 경우 <span class="codeph"> 1 </span> 볼륨은 음소거되며, 그렇지 않으면 비디오가 소리와 함께 재생됩니다. 특정 장치에서 로드 시 비디오 재생을 음소거하면 비디오가 자동으로 재생될 수도 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-65be9301796240e38f31818229da7acc}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

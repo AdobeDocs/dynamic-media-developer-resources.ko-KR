@@ -1,6 +1,6 @@
 ---
 title: 이미지 제공 시작 및 중지
-description: 이 섹션에서는 Windows 및 Linux®에서 이미지 제공 시작 및 중지 지침을 제공합니다.
+description: 이 섹션에서는 Windows 및 Linux®에서 이미지 제공 시작 및 중지에 대한 지침을 제공합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 이미지 제공 시작 및 중지{#starting-and-stopping-image-serving}
 
-이 섹션에서는 Windows 및 Linux®에서 이미지 제공 시작 및 중지 지침을 제공합니다.
+이 섹션에서는 Windows 및 Linux®에서 이미지 제공 시작 및 중지에 대한 지침을 제공합니다.
 
 * [Windows에서 시작 또는 중지](t-startstop-windows.md)
-* [Linux®에서 시작 또는 중지](t-startstop-linux.md)
+* [Linux에서 시작 또는 중지®](t-startstop-linux.md)

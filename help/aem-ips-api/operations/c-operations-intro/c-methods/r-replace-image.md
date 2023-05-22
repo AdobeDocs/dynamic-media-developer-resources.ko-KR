@@ -18,7 +18,7 @@ ht-degree: 16%
 
 구문
 
-## 인증된 사용자 유형 {#section-e2aad71fb2a54612badc7b16f82ed544}
+## 승인된 사용자 유형 {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +33,7 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyName | `xsd:string` | 예 | 바꾸려는 이미지가 있는 회사의 핸들입니다. |
+| companyName | `xsd:string` | 예 | 교체하려는 이미지가 있는 회사의 핸들입니다. |
 | assetHandle | `xsd:string` | 예 | 바꿀 자산의 핸들입니다. |
 | urlModifier | `xsd:string` | 예 | 새 이미지 데이터를 생성하는 이미지 서버 명령입니다. |
 
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 ## 예제 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-이 코드 샘플은 이미지를 대체하고 `urlModifier` 교체 시 이미지 서버가 작업을 수행하지 않도록 지정하는 명령을 사용합니다.
+이 코드 샘플은 이미지를 바꾸고 `urlModifier` 이미지 서버가 교체 시 아무 작업도 수행하지 않도록 지정하는 명령을 사용합니다.
 
 **요청**
 

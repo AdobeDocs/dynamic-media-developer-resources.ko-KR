@@ -1,6 +1,6 @@
 ---
-title: 재료 카탈로그
-description: 재료 카탈로그
+title: 자재 카탈로그
+description: 자재 카탈로그
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# 재료 카탈로그{#material-catalog}
+# 자재 카탈로그{#material-catalog}

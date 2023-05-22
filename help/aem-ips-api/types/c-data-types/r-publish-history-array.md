@@ -1,5 +1,5 @@
 ---
-description: 게시 히스토리의 배열입니다.
+description: 게시 내역 배열.
 solution: Experience Manager
 title: PublishHistoryArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PublishHistoryArray]{#publishhistoryarray}
 
-게시 히스토리의 배열입니다.
+게시 내역 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:PublishHistory` | 게시 기록 배열입니다. |
+| 항목 | `types:PublishHistory` | 게시 내역 배열입니다. |

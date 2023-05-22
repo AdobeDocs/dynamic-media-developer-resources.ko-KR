@@ -1,7 +1,7 @@
 ---
-description: 이미지 형식의 배열입니다.
+description: 이미지 형식 배열.
 solution: Experience Manager
-title: ImageFormatArray
+title: 이미지 형식 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: daf6049f-24e8-4a4b-a9b3-c7f4f2e56f81
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL ImageFormatArray]{#imageformatarray}
 
-이미지 형식의 배열입니다.
+이미지 형식 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ImageFormat` | 이미지 형식의 배열입니다. |
+| 항목 | `types:ImageFormat` | 이미지 형식 배열. |

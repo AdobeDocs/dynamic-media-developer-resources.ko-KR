@@ -8,7 +8,7 @@ exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '31'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
@@ -22,14 +22,14 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>가상 현실 렌더링 모드가 활성화되어 있는지 여부를 지정합니다. VR 헤드셋에서 무시되었습니다. </p> </td> 
+   <td colname="col2"> <p>가상 현실 렌더링 모드가 활성화되어 있는지 여부를 지정합니다. VR 헤드셋에서 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-65be9301796240e38f31818229da7acc}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-bd374ffc5182484faa77a7a3c8fa70f2}
 

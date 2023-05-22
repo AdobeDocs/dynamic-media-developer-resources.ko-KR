@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: eCatalog Viewer에 대한 JavaScript API 참조.
+description: eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-eCatalog Viewer에 대한 JavaScript API 참조.
+eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 
 ` setContainerId( *`containerId`*)`
 
-의 ID를 설정합니다. `DOM` 컨테이너(일반적으로 `DIV`) 내의 아무 곳에나 삽입할 수 있습니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 이 컨테이너는 `init()` 가 실행됩니다. 전에 호출해야 합니다. `init()`.
+의 ID를 설정합니다 `DOM` 컨테이너(일반적으로 `DIV`)을 클릭하여 뷰어를 삽입합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요는 없습니다. 단, 컨테이너는 다음과 같은 경우에 존재해야 합니다. `init()` 가 실행되었습니다. 전에 호출해야 합니다. `init()`.
 
-이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체.
+뷰어 구성 정보가 로 전달되는 경우 이 메서드는 선택 사항입니다. `config` 생성자에 대한 JSON 개체입니다.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너 ID입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너 ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

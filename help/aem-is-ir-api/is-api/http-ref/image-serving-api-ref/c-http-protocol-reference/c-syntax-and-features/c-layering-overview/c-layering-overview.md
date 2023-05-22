@@ -1,6 +1,6 @@
 ---
-title: 계층화 개요
-description: 이미지 제공 기능을 사용하면 이미지, 텍스트 및 단색 레이어를 합성 이미지에 결합할 수 있습니다.
+title: 레이어 개요
+description: 이미지 제공에서는 원하는 수의 이미지, 텍스트 및 단색 레이어를 합성 이미지로 결합할 수 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# 계층화 개요{#layering-overview}
+# 레이어 개요{#layering-overview}
 
-이미지 제공 기능을 사용하면 이미지, 텍스트 및 단색 레이어를 합성 이미지에 결합할 수 있습니다.
+이미지 제공에서는 원하는 수의 이미지, 텍스트 및 단색 레이어를 합성 이미지로 결합할 수 있습니다.
 
 ## 참조 {#section-9d47587692d94637af61de851f3d118f}
 
@@ -26,7 +26,7 @@ ht-degree: 11%
 * [textPs=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md)
 * [pos=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md)
 * [크기](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md)
-* [원본=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
+* [origin=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md)
 * [앵커=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md)
 * [textPath=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md)
 * [textFlowPath=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md)

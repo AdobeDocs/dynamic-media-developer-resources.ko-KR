@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -26,84 +26,84 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \pard  </span> </td> 
-   <td> <p>단락 서식을 기본값으로 재설정합니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용 </p> </td> 
+   <td> <span class="codeph"> \pard </span> </td> 
+   <td> <p>단락 서식을 기본값으로 다시 설정합니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 전용 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ql  </span> </td> 
+   <td> <span class="codeph"> \ql </span> </td> 
    <td> <p>텍스트를 왼쪽으로 정렬합니다. </p> </td> 
    <td> <p>기본값. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \qr  </span> </td> 
+   <td> <span class="codeph"> \qr </span> </td> 
    <td> <p>텍스트를 오른쪽으로 정렬합니다. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \qc  </span> </td> 
-   <td> <p>텍스트를 가로로 가운데로. </p> </td> 
+   <td> <span class="codeph"> \qc </span> </td> 
+   <td> <p>텍스트를 가로로 가운데로 맞춥니다. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \qj  </span> </td> 
-   <td> <p>텍스트를 가로로 정당화합니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용 </p> </td> 
+   <td> <span class="codeph"> \qj </span> </td> 
+   <td> <p>텍스트를 가로로 양쪽 정렬합니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 전용 </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastql  </span> </td> 
-   <td> <p>단락의 마지막 줄을 왼쪽 맞춤합니다. </p> </td> 
-   <td> <p>기본값; <span class="codeph"> textPs= </span> 전용; <span class="codeph"> \qj </span>이(가) 활성 상태가 아닌 경우 무시됩니다. </p> </td> 
+   <td> <span class="codeph"> \lastql </span> </td> 
+   <td> <p>단락의 마지막 줄을 왼쪽으로 정렬합니다. </p> </td> 
+   <td> <p>기본값; <span class="codeph"> textPs= </span> 만 해당, 다음의 경우 무시됨 <span class="codeph"> \qj </span>이(가) 활성화되지 않았습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqr  </span> </td> 
-   <td> <p>균등 배치된 단락의 마지막 줄을 마우스 오른쪽 단추로 맞춥니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span> 활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <span class="codeph"> \lastqr </span> </td> 
+   <td> <p>양쪽 정렬된 단락의 마지막 줄을 오른쪽으로 정렬합니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 만 해당, 다음의 경우 무시됨 <span class="codeph"> \qj </span> 이(가) 활성화되지 않았습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqc  </span> </td> 
+   <td> <span class="codeph"> \lastqc </span> </td> 
    <td> <p>균등 배치된 단락의 마지막 줄을 가운데로 맞춥니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 만 해당, 다음의 경우 무시됨 <span class="codeph"> \qj </span>이(가) 활성화되지 않았습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqj  </span> </td> 
-   <td> <p>균등 배치된 단락의 마지막 줄을 일시 중단(연장)합니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> 전용; \qj <span class="codeph"> 가  </span>활성화되어 있지 않으면 무시됩니다. </p> </td> 
+   <td> <span class="codeph"> \lastqj </span> </td> 
+   <td> <p>균등 배치된 단락의 마지막 줄을 확인(늘리기)합니다. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> 만 해당, 다음의 경우 무시됨 <span class="codeph"> \qj </span>이(가) 활성화되지 않았습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \fi  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>첫 줄 들여쓰기. </p> </td> 
-   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <span class="codeph"> \fi <span class="varname"> N </span> </span> </td> 
+   <td> <p>첫 줄 들여쓰기입니다. </p> </td> 
+   <td> <p>트윕; <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \li  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \li <span class="varname"> N </span> </span> </td> 
    <td> <p>왼쪽 들여쓰기. </p> </td> 
-   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <p>트윕; <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ri  <span class="varname"> N  </span> </span> </td> 
+   <td> <span class="codeph"> \ri <span class="varname"> N </span> </span> </td> 
    <td> <p>오른쪽 들여쓰기. </p> </td> 
-   <td> <p>트위프; <span class="codeph"> textPs= </span>만 해당. </p> </td> 
+   <td> <p>트윕; <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \sl  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>줄 사이의 간격. </p> </td> 
-   <td> <p>0. 자동 줄 간격의 경우 기본 라인 간격보다 큰 경우에만 값을 사용할 양의 값. 강제 간격을 지정할 음수 값입니다. </p> </td> 
+   <td> <span class="codeph"> \sl <span class="varname"> N </span> </span> </td> 
+   <td> <p>줄 사이 간격. </p> </td> 
+   <td> <p>자동 라인 간격의 경우 0(기본값), 기본 라인 간격보다 큰 경우에만 값을 사용하려면 양수 값, 강제 간격의 경우 음수 값. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \slmult  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>줄 간격 여러 플래그. </p> </td> 
-   <td> <p><span class="codeph"> \sl </span>이 트위프이면 0(기본값)으로 설정하고, <span class="codeph"> \sl </span>이 기본 간격의 배수에 있으면 1로 설정합니다. </p> </td> 
+   <td> <span class="codeph"> \slmult <span class="varname"> N </span> </span> </td> 
+   <td> <p>라인 간격 여러 플래그. </p> </td> 
+   <td> <p>다음과 같은 경우 0(기본값)으로 설정합니다. <span class="codeph"> \sl </span> 은 트윕 단위이며, 일 경우 1로 설정됩니다. <span class="codeph"> \sl </span> 는 기본 간격의 배수입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \sb  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>단락 앞에 추가 공백. </p> </td> 
-   <td> <p>트위프; <span class="codeph"> text= </span>이(가) <span class="codeph"> \sb </span>을(를) 텍스트 상자의 첫 번째 단락에 적용하지만 <span class="codeph"> textPs= </span>는 적용하지 않습니다. </p> </td> 
+   <td> <span class="codeph"> \sb <span class="varname"> N </span> </span> </td> 
+   <td> <p>단락 앞에 추가 공백이 있습니다. </p> </td> 
+   <td> <p>트윕; <span class="codeph"> text= </span>적용 <span class="codeph"> \sb </span> 텍스트 상자의 첫 번째 단락에 <span class="codeph"> textPs= </span> 그렇지 않습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \sa  <span class="varname"> N  </span> </span> </td> 
-   <td> <p>단락 뒤에 추가 공간이 있습니다. </p> </td> 
-   <td> <p>트위프; <span class="codeph"> text= </span> \sa <span class="codeph"> \sa </span>을 텍스트 상자의 마지막 단락에 적용합니다. <span class="codeph"> textPs= </span>은 적용하지 않습니다. </p> </td> 
+   <td> <span class="codeph"> \sa <span class="varname"> N </span> </span> </td> 
+   <td> <p>단락 뒤에 추가 공백이 있습니다. </p> </td> 
+   <td> <p>트윕; <span class="codeph"> text= </span> 적용 <span class="codeph"> \sa </span> 텍스트 상자의 마지막 단락까지 <span class="codeph"> textPs= </span> 그렇지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

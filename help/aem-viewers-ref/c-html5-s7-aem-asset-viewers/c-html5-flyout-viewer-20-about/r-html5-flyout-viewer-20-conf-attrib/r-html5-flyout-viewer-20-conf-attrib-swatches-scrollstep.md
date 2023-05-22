@@ -8,7 +8,7 @@ exl-id: 89aafe05-a4d8-41c9-8621-9097f8dbc275
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '32'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 12%
  </tbody> 
 </table>
 
-해당 스크롤 단추를 클릭하거나 탭할 때마다 스크롤할 색상 견본 수를 지정합니다.
+해당 스크롤 단추를 클릭하거나 누를 때마다 스크롤할 견본 수를 지정합니다.
 
 ## 속성 {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-a08032f0fcf041c09e63c0238a339fc9}
 

@@ -1,7 +1,7 @@
 ---
-description: 뷰어 사전 설정 자산의 속성입니다.
+description: 뷰어 사전 설정 에셋의 속성입니다.
 solution: Experience Manager
-title: ViewerPresetInfo
+title: 뷰어 사전 설정 정보
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL ViewerPresetInfo]{#viewerpresetinfo}
 
-뷰어 사전 설정 자산의 속성입니다.
+뷰어 사전 설정 에셋의 속성입니다.
 
 구문
 

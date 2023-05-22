@@ -18,7 +18,7 @@ IPS에서 자산을 반환합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-4673c1c9f4314160af8b165eb2dd20cc}
+## 승인된 사용자 유형 {#section-4673c1c9f4314160af8b165eb2dd20cc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -49,19 +49,19 @@ IPS에서 자산을 반환합니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>그 회사 담당입니다. </p> </td> 
+   <td colname="col4"> <p>회사가 처리합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUser핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>특정 사용자를 가장합니다. 관리자에게만 사용됩니다. </p> </td> 
+   <td colname="col4"> <p>특정 사용자 가장. 관리자만 사용합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 액세스 그룹 핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>그룹별 필터링. </p> </td> 
@@ -70,24 +70,24 @@ IPS에서 자산을 반환합니다.
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>폴더 및 모든 하위 폴더를 리프 수준으로 검색하는 루트 폴더입니다. 제외된 경우 회사 루트가 사용됩니다. </p> </td> 
+   <td colname="col4"> <p>폴더 및 모든 하위 폴더를 리프 수준으로 검색할 루트 폴더입니다. 제외되는 경우 회사 루트가 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>응답에 포함된 필드 및 하위 필드. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:StringArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> exclude필드 배열</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>응답에서 제외된 필드 및 하위 필드. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Outpub(getAssetsReturn)**
+**Outputb(getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -103,7 +103,7 @@ IPS에서 자산을 반환합니다.
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>필터 기준과 일치하는 자산의 배열입니다. </p> </td> 
+   <td colname="col4"> <p>필터 조건과 일치하는 에셋 배열. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ ht-degree: 13%
 
 구문
 
-## 인증된 사용자 유형 {#section-5310d9fd00604cbf9756944900378855}
+## 승인된 사용자 유형 {#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,8 +33,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 배치 작업에서 설정할 메타데이터가 있는 회사의 핸들입니다. |
-| updateArray | `types:BatchMetadataUpdateArray` | 예 | 자산에 적용된 메타데이터 업데이트 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 배치 작업에서 메타데이터를 설정할 회사에 대한 핸들입니다. |
+| updateArray | `types:BatchMetadataUpdateArray` | 예 | 에셋에 적용되는 메타데이터 업데이트 배열. |
 
 **출력(batchSetAssetMetadataParam)**
 
@@ -43,8 +43,8 @@ ht-degree: 13%
 | successCount | `xsd:int` | 예 | 메타데이터를 성공적으로 설정한 수입니다. |
 | warningCount | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 경고 수입니다. |
 | errorCount | `xsd:int` | 예 | 작업에서 메타데이터를 설정하려고 할 때 생성된 오류 수입니다. |
-| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 경고를 생성하는 자산과 연관된 세부 정보의 배열입니다. |
-| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 자산에 대한 메타데이터를 일괄적으로 설정하려고 할 때 오류를 생성하는 자산과 연관된 세부 사항의 배열입니다. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 에셋에 대한 메타데이터를 일괄적으로 설정하려고 할 때 경고를 생성하는 에셋과 관련된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 에셋에 대한 메타데이터를 일괄적으로 설정하려고 할 때 오류를 생성하는 에셋과 관련된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-2de798ac920e4b47b971b1729a64395b}
 

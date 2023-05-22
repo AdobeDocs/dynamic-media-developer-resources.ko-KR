@@ -1,5 +1,5 @@
 ---
-description: 사용자의 그룹 구성원을 설정합니다.
+description: 사용자의 그룹 멤버십을 설정합니다.
 solution: Experience Manager
 title: setGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # setGroupMembership{#setgroupmembership}
 
-사용자의 그룹 구성원을 설정합니다.
+사용자의 그룹 멤버십을 설정합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## 승인된 사용자 유형 {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +30,17 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 아니요 | 그룹 구성원을 설정하려는 사용자에 대한 핸들입니다. |
-| companyHandle | `xsd:string` | 아니요 | 회사 핸들. |
-| groupHandleArray | `types:HandleArray` | 예 | 사용자가 속한 그룹의 핸들 배열입니다. |
+| 사용자 핸들 | `xsd:string` | 아니요 | 그룹 멤버십을 설정할 사용자에 대한 핸들입니다. |
+| company핸들 | `xsd:string` | 아니요 | 회사 핸들. |
+| groupHandleArray | `types:HandleArray` | 예 | 사용자가 속한 그룹에 대한 핸들의 배열입니다. |
 
 **출력(setGroupMembershipReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-67b86d259df24938896fe19061845811}
 
-이 코드 샘플은 사용자를 그룹의 구성원으로 만듭니다. 그룹 핸들 배열을 사용하여 여러 그룹에 사용자를 추가합니다.
+이 코드 샘플은 사용자를 그룹의 구성원으로 만듭니다. 그룹 핸들 배열로 여러 그룹에 사용자를 추가합니다.
 
 **요청**
 

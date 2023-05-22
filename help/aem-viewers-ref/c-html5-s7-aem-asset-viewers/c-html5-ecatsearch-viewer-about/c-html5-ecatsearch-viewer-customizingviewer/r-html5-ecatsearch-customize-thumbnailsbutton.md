@@ -1,6 +1,6 @@
 ---
 title: 축소판 단추
-description: 이 단추를 선택하면 기본 보기와 축소판 간의 뷰어가 토글됩니다. 이 단추는 주 컨트롤 모음에 나타납니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+description: 이 버튼을 선택하면 뷰어가 기본 보기와 썸네일 간에 전환됩니다. 이 단추는 기본 컨트롤 막대에 나타납니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # 축소판 단추{#thumbnails-button}
 
-이 단추를 선택하면 기본 보기와 축소판 간의 뷰어가 토글됩니다. 이 단추는 주 컨트롤 모음에 나타납니다. CSS를 사용하여 이 단추의 크기를 지정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+이 버튼을 선택하면 뷰어가 기본 보기와 썸네일 간에 전환됩니다. 이 단추는 기본 컨트롤 막대에 나타납니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-버튼의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+버튼의 모양은 다음 CSS 클래스 선택기로 제어합니다.
 
 `.s7ecatalogsearchviewer .s7thumbnailpagebutton`
 
@@ -33,12 +33,12 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 상단 </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대의 상단으로부터 오프셋입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-상단 </span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대의 위쪽에 있는 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
-   <td colname="col2"> <p> 왼쪽의 다음 단추까지의 거리 또는 이 단추가 행의 첫 번째 단추인 경우 컨트롤 막대의 왼쪽에 있는 거리. </p> </td> 
+   <td colname="col2"> <p> 왼쪽에 있는 다음 단추까지의 거리 또는 이 단추가 행의 첫 번째 단추인 경우 컨트롤 막대의 왼쪽입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,23 +49,23 @@ ht-degree: 1%
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기를 사용하여 다른 스킨을 다른 단추 상태에 적용할 수 있습니다. 특히, `selected='true'` 축소판 모드가 활성 상태이고 `selected='false'` 기본 보기에 있는 기본 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 썸네일 모드가 활성 상태일 때의 뷰어 상태에 해당하고 `selected='false'` 기본 보기의 기본 상태에 해당합니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 28 x 28픽셀인 축소판 단추를 설정하고 기본 컨트롤 막대의 왼쪽 모서리에서 4 픽셀, 왼쪽 모서리에서 5 픽셀을 배치합니다. 마지막으로, 선택 여부에 따라 4개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28x28픽셀이며 기본 컨트롤 막대의 맨 아래에서 4픽셀, 왼쪽 가장자리에서 5픽셀의 축소판 단추를 설정합니다. 마지막으로, 을 선택하거나 선택하지 않았을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailpagebutton{ 

@@ -18,7 +18,7 @@ SWF 뷰어 구성 설정을 업데이트합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## 승인된 사용자 유형 {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,10 +31,10 @@ SWF 뷰어 구성 설정을 업데이트합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
-| assetHandle | `xsd:string` | 예 | 자산 핸들. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
+| assetHandle | `xsd:string` | 예 | 에셋 핸들. |
 | configSettingArray | `types:ConfigSettingArray` | 예 | 뷰어에 적용할 구성 설정의 배열입니다. |
 
 **출력(updateViewerConfigSettingsReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.

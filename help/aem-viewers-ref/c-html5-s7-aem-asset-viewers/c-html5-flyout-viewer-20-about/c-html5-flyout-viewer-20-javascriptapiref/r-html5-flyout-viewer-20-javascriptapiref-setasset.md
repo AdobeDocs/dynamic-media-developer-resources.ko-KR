@@ -22,14 +22,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>} 새로운 자산 id, 명시적 이미지 세트 또는 프레임 특정 이미지 제공 한정자가 포함된 명시적 이미지 세트(옵션 글로벌 이미지 제공 수정자 추가) <span class="codeph"> ?</span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>} 새로운 에셋 id, 명시적 이미지 세트 또는 프레임별 이미지 제공 수정자를 사용하는 명시적 이미지 세트와 뒤에 추가된 선택적 전역 이미지 제공 수정자 <span class="codeph"> ?</span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-새 자산을 설정합니다. 이 매개 변수는 이전 또는 이후에 언제든지 호출할 수 있습니다 `init()`. 호출 후에 `init()`로 설정하면 뷰어가 런타임 시 자산을 교체합니다.
+새 자산을 설정합니다. 이 매개 변수는 언제든지 전후에 호출할 수 있습니다 `init()`. 다음 시간 이후에 호출되는 경우 `init()`, 뷰어는 런타임 시 자산을 교체합니다.
 
-참조 - [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
+참조: [init](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-javascriptapiref/r-html5-flyout-viewer-20-javascriptapiref-init.md#reference-8651640683fc4a538bfb660709d1a463).
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
@@ -49,13 +49,13 @@ ht-degree: 2%
 <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-다음과 같이 설정된 명시적 이미지:
+명시적 이미지 집합은 다음과 같습니다.
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-프레임별 이미지 제공 한정자를 사용한 명시적 이미지 세트:
+프레임별 이미지 제공 수정자를 사용하는 명시적 이미지 집합:
 
 ```
 <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")

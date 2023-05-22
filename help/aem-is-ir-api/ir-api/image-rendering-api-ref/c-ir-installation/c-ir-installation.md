@@ -1,6 +1,6 @@
 ---
 title: 구성
-description: 이미지 렌더링을 사용하려면 먼저 구성해야 합니다.
+description: 이미지 렌더링을 구성하려면 먼저 이미지 렌더링을 구성해야 합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # 구성{#configuration}
 
-이미지 렌더링을 사용하려면 먼저 구성해야 합니다.
+이미지 렌더링을 구성하려면 먼저 이미지 렌더링을 구성해야 합니다.

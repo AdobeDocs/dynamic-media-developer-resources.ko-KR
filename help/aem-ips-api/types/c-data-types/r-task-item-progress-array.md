@@ -1,7 +1,7 @@
 ---
-description: 작업 항목에 대한 정보 배열입니다.
+description: 작업 항목에 대한 정보 배열.
 solution: Experience Manager
-title: TaskItemProgressArray
+title: 작업 항목 진행률 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: deba612e-34ea-4892-8ee7-a2d5acb96299
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL TaskItemProgressArray]{#taskitemprogressarray}
 
-작업 항목에 대한 정보 배열입니다.
+작업 항목에 대한 정보 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 17%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:TaskItemProgress` | 작업 항목 진행 배열. 최소값은 0입니다. 최대값은 제한되지 않습니다. |
+| 항목 | `types:TaskItemProgress` | 작업 항목 진행률 배열. 최소 발생 횟수는 0입니다. 최대값은 무제한입니다. |

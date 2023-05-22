@@ -8,7 +8,7 @@ exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 Video360 뷰어에 대한 구성 속성입니다.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthhewidheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`폭`*, *`높이`*[,0|1][; *`폭`*, *`높이`*[,0|1]]`
 
 포함 공유 모달 대화 상자에서 크기 콤보 상자의 포함 크기 목록을 지정합니다.
 
@@ -28,7 +28,7 @@ Video360 뷰어에 대한 구성 속성입니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>포함 높이. </p> </td> 
+   <td colname="col2"> <p>높이를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
@@ -39,7 +39,7 @@ Video360 뷰어에 대한 구성 속성입니다.
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -1,7 +1,7 @@
 ---
-description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시지.
+description: CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 정보 메시지입니다.
 solution: Experience Manager
-title: 작업 장애
+title: OperationFault
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
@@ -14,9 +14,9 @@ ht-degree: 12%
 
 # [!DNL OperationFault]{#operationfault}
 
-CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시지.
+CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 정보 메시지입니다.
 
-**지원 기간**
+**다음 이후 지원됨**
 
 4.5.0, 패치 2011-02
 
@@ -24,5 +24,5 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 메시�
 
 | ** 이름** | ** 유형** | ** 설명** |
 |---|---|---|
-| 코드 | `xsd:int` | CDN에서 제공된 오류 코드 |
-| 이유 | `xsd:string` | CDN에서 제공된 오류 메시지 |
+| 코드 | `xsd:int` | CDN에서 오류 코드 제공 |
+| 이유 | `xsd:string` | CDN에서 오류 메시지 제공 |

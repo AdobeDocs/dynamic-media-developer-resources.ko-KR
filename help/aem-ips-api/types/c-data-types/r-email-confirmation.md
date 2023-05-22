@@ -1,7 +1,7 @@
 ---
 description: cdnCacheInvalidation 작업에 대한 응답으로 지정된 수신자에게 이메일을 보냅니다.
 solution: Experience Manager
-title: EmailConfirmation
+title: 이메일 확인
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b4698637-a897-47fa-92d4-4ab400e56962
@@ -22,5 +22,5 @@ cdnCacheInvalidation 작업에 대한 응답으로 지정된 수신자에게 이
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| Originator | `xsd:boolean` | true인 경우에는 Dynamic Media CDN에서 이메일 확인을 받도록 지정된 이메일 목록인 사용자의 웹 서비스 사용자 계정을 포함합니다. |
-| ccOthersArray | `types:EmailArray` | Dynamic Media CDN에서 확인 알림을 받도록 지정된 이메일 주소(최대 5개) 배열입니다. |
+| 작성자 | `xsd:boolean` | true인 경우 에는 사용자의 웹 서비스 사용자 계정이 포함됩니다. 이 계정은 Dynamic Media CDN에서 이메일 확인을 받도록 지정된 이메일 목록입니다. |
+| 기타 배열 | `types:EmailArray` | Dynamic Media CDN에서 확인 알림을 받도록 지정된 이메일 주소 배열(최대 5개)입니다. |

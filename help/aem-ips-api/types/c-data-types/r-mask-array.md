@@ -1,7 +1,7 @@
 ---
-description: 다수의 마스크.
+description: 마스크 배열.
 solution: Experience Manager
-title: MaskArray
+title: 마스크 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a0539a30-051c-4442-abae-99588bdfff10
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL MaskArray]{#maskarray}
 
-다수의 마스크.
+마스크 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Mask` | 마스크 배열입니다. |
+| 항목 | `types:Mask` | 마스크 배열. |

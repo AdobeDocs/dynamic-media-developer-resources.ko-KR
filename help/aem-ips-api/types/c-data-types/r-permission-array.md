@@ -1,5 +1,5 @@
 ---
-description: 권한 배열입니다.
+description: 권한 배열.
 solution: Experience Manager
 title: PermissionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PermissionArray]{#permissionarray}
 
-권한 배열입니다.
+권한 배열.
 
 구문
 

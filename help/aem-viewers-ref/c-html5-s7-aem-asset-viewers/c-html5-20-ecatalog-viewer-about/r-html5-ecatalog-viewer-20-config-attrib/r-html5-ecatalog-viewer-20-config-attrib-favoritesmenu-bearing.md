@@ -8,7 +8,7 @@ exl-id: f08545fd-f039-41a1-ad0b-430ce7c1bdd1
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 2%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|측면 맞춤</span> </p> </td> 
-   <td colname="col2"> <p> 로 설정된 경우 <span class="codeph"> up</span>, <span class="codeph"> 아래로</span>, <span class="codeph"> 왼쪽</span>, 또는 <span class="codeph"> 오른쪽</span>로 설정하면 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되므로 외부 컨테이너에 의해 패널이 클리핑됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 수직 맞추기</span>를 지정하면 구성 요소가 먼저 기본 패널 위치를 즐겨찾기 메뉴 아래로 이동합니다. 패널은 이러한 기본 위치에서 다음 방향 중 하나로 롤아웃하려고 합니다. 아래쪽, 오른쪽, 왼쪽. 각 시도를 통해 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 반복 롤아웃을 시도합니다. </p> <p>로 설정된 경우 <span class="codeph"> 적당한 측면</span>로 지정하는 경우 구성 요소는 유사한 논리를 사용합니다. 베이스는 오른쪽, 오른쪽, 아래로, 위로 롤아웃하여 오른쪽으로 이동됩니다. 그리고 나서, 기지들을 왼쪽으로, 아래로 그리고 위로 롤아웃하는 방향으로 이동합니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|가로 맞춤</span> </p> </td> 
+   <td colname="col2"> <p> 로 설정된 경우 <span class="codeph"> 위로</span>, <span class="codeph"> 아래로</span>, <span class="codeph"> left</span>, 또는 <span class="codeph"> 오른쪽</span>, 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되므로 외부 컨테이너에 의해 패널이 클리핑됩니다. </p> <p>로 설정된 경우 <span class="codeph"> 세로 맞춤</span>, 구성 요소는 먼저 기본 패널 위치를 즐겨찾기 메뉴의 맨 아래로 이동합니다. 이 레이아웃은 이러한 기본 위치에서 다음 방향 중 하나로 패널을 롤아웃하려고 합니다. 아래, 오른쪽, 왼쪽 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘리는지 확인합니다. 모든 시도가 실패하면 구성 요소는 베이스 패널 위치를 맨 위로 이동하려고 하고 상단, 오른쪽 및 왼쪽 방향에서 롤아웃 시도를 반복합니다. </p> <p>로 설정된 경우 <span class="codeph"> 옆면 맞춤</span>, 구성 요소는 유사한 논리를 사용합니다. 베이스가 먼저 오른쪽으로 이동하며 오른쪽, 아래쪽, 위로 롤아웃 방향을 시도합니다. 그런 다음 베이스를 왼쪽으로 이동하여 왼쪽, 아래쪽 및 위쪽 롤아웃 방향을 시도합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

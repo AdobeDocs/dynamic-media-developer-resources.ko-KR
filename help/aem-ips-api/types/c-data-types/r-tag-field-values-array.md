@@ -1,7 +1,7 @@
 ---
 description: 태그 필드 값의 배열입니다.
 solution: Experience Manager
-title: TagFieldValuesArray
+title: 태그 필드 값 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 68762d4c-b006-4a1a-ab0b-dafde2ab0a80

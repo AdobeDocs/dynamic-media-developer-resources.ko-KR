@@ -1,5 +1,5 @@
 ---
-description: 속성의 배열입니다.
+description: 속성의 배열.
 solution: Experience Manager
 title: PropertyArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PropertyArray]{#propertyarray}
 
-속성의 배열입니다.
+속성의 배열.
 
 구문
 

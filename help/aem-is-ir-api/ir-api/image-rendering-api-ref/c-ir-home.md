@@ -20,5 +20,5 @@ ht-degree: 1%
 * [라이선스](c-ir-installation/c-ir-licensing.md)
 * [IR 3.x 호환성 모듈 설정 및 구성](c-ir-installation/t-ir-setup-compatibility-module.md)
 * [이미지 렌더링 설정 및 구성](c-ir-installation/c-ir-setup-ir.md)
-* [이미지 렌더링 제거](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
+* [이미지 렌더링 제거 중](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
 * [서버 관리](c-ir-server-administration/c-ir-server-administration.md)

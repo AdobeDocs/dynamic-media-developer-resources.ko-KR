@@ -1,7 +1,7 @@
 ---
 description: 기존 태그 필드의 사전에 새 태그 값을 추가합니다.
 solution: Experience Manager
-title: addTagFieldValues
+title: addTagFieldValue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
@@ -12,13 +12,13 @@ ht-degree: 14%
 
 ---
 
-# addTagFieldValues{#addtagfieldvalues}
+# addTagFieldValue{#addtagfieldvalues}
 
 기존 태그 필드의 사전에 새 태그 값을 추가합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-ba1d7040661e48b7a6b035494e065c91}
+## 승인된 사용자 유형 {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,13 +30,13 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
-| fieldHandle | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들입니다. |
+| 필드 핸들 | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
 | valueArray | `xsd:string` | 예 | 필드의 기존 사전에 추가할 태그 값의 배열입니다. |
 
 **출력(addTagFieldValuesParam)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c4049392f1c548f883b8b1f8f167bada}
 

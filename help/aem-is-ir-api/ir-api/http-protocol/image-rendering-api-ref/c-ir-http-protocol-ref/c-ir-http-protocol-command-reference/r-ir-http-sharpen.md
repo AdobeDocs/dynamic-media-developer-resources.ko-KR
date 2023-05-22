@@ -1,6 +1,6 @@
 ---
-title: 선명
-description: 회신 이미지를 선명하게 합니다. 렌더링된 이미지가 wid= 또는 hei=를 기준으로 크기가 조정된 후에 선택적 선명하게 하기를 적용할 수 있습니다.
+title: 선명하게
+description: 응답 이미지를 선명하게 합니다. 선택적인 선명하게 하기는 렌더링된 이미지가 wid= 또는 hei=에 기초하여 스케일링된 후에 적용될 수 있다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 11%
 
 ---
 
-# 선명{#sharpen}
+# 선명하게{#sharpen}
 
-회신 이미지를 선명하게 합니다. 렌더링된 이미지가 wid= 또는 hei=를 기준으로 크기가 조정된 후에 선택적 선명하게 하기를 적용할 수 있습니다.
+응답 이미지를 선명하게 합니다. 선택적인 선명하게 하기는 렌더링된 이미지가 wid= 또는 hei=에 기초하여 스케일링된 후에 적용될 수 있다.
 
 `sharpen=0|1`
 
@@ -35,4 +35,4 @@ ht-degree: 11%
 
 ## 참조 {#section-6172f926a0a54d7b86081784ee47470e}
 
-[속성::선명 효과](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::선명하게](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

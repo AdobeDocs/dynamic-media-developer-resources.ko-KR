@@ -22,7 +22,7 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| companyHandle | `xsd:string` | 회사 핸들. |
+| company핸들 | `xsd:string` | 회사 핸들. |
 | [!DNL name] | `xsd:string` | 회사 이름. |
-| rootPath | `xsd:string` | 회사의 루트 경로입니다. |
-| [!DNL expires] | `xsd:dateTime` | 회사가 만료된 날짜 및 시간입니다. |
+| 루트 경로 | `xsd:string` | 회사의 루트 경로입니다. |
+| [!DNL expires] | `xsd:dateTime` | 회사가 만료되는 날짜 및 시간입니다. |

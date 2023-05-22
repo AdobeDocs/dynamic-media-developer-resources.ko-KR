@@ -1,7 +1,7 @@
 ---
-description: 권한 업데이트 배열입니다.
+description: 권한 업데이트의 배열입니다.
 solution: Experience Manager
-title: PermissionUpdateArray
+title: 권한 업데이트 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeff58a6-d6c0-4772-b735-5ba91afb61fc
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-권한 업데이트 배열입니다.
+권한 업데이트의 배열입니다.
 
 구문
 

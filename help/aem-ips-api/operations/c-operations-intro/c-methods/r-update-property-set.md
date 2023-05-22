@@ -1,5 +1,5 @@
 ---
-description: 속성 배열을 사용하여 속성 세트를 업데이트합니다.
+description: 속성 배열을 사용하여 속성 집합을 업데이트합니다.
 solution: Experience Manager
 title: updatePropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # updatePropertySet{#updatepropertyset}
 
-속성 배열을 사용하여 속성 세트를 업데이트합니다.
+속성 배열을 사용하여 속성 집합을 업데이트합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-116693bbfb5d44219e62bbb1ba19de96}
+## 승인된 사용자 유형 {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,17 +36,17 @@ ht-degree: 15%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| setHandle | `xsd:string` | 예 | 속성 집합을 처리합니다. |
-| replaceProperties | `xsd:string` | 아니요 | 을 로 설정합니다. `true` 를 클릭하여 속성을 바꿉니다. |
-| propertyArray | `types:PropertyArray` | 예 | 속성 세트에 대해 업데이트된 속성의 배열입니다. |
+| setHandle | `xsd:string` | 예 | 속성 집합에 대한 핸들입니다. |
+| replaceProperties | `xsd:string` | 아니요 | 다음으로 설정 `true` 속성을 바꿉니다. |
+| propertyArray | `types:PropertyArray` | 예 | 속성 집합에 대해 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-이 코드 샘플은 속성 배열의 속성이 있는 속성 세트를 업데이트합니다.
+이 코드 샘플은 속성 배열의 속성을 사용하여 속성 집합을 업데이트합니다.
 
 **요청**
 

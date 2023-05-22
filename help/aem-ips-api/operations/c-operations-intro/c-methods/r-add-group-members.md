@@ -18,7 +18,7 @@ ht-degree: 12%
 
 구문
 
-## 인증된 사용자 유형 {#section-b4406c54ed7c4827be4c1acc957e0057}
+## 승인된 사용자 유형 {#section-b4406c54ed7c4827be4c1acc957e0057}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +30,17 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
-| userHandleArray | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 일련의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
+| group핸들 | `xsd:string` | 예 | 그룹 핸들. |
+| userHandleArray | `types:HandleArray` | 예 | 그룹에 추가하려는 사용자에 대한 핸들의 배열입니다. |
 
 **출력(addGroupMembersParam)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-8f168b528aef4c4fa8c3d41f7686842f}
 
-이 예에서는 addGroupMembersParam을 사용하여 사용자를 단일 회사에 추가합니다. IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+이 예제에서는 addGroupMembersParam을 사용하여 사용자를 단일 회사에 추가합니다. IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 **요청**
 

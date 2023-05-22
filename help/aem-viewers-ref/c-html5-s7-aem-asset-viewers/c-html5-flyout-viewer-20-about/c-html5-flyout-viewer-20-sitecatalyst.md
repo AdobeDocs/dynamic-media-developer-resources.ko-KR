@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics 추적 지원
-description: 플라이아웃 뷰어는 Adobe Analytics 즉시 추적을 지원합니다.
+description: 플라이아웃 뷰어는 기본 제공되는 Adobe Analytics 추적을 지원합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User,Data Engineer,Data Architect
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-플라이아웃 뷰어는 Adobe Analytics 즉시 추적을 지원합니다.
+플라이아웃 뷰어는 기본 제공되는 Adobe Analytics 추적을 지원합니다.
 
-## 기본 추적 {#section-ba994f079d0343c8ae48adffaa3195a3}
+## 기본 제공 추적 {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-플라이아웃 뷰어가 지원합니다. [!DNL Adobe Analytics] 즉시 사용 가능한 추적. 추적을 활성화하려면 적절한 회사 사전 설정 이름을 `config2` 매개 변수.
+플라이아웃 뷰어는 [!DNL Adobe Analytics] 즉시 추적. 추적을 활성화하려면 적절한 회사 사전 설정 이름을 (으)로 전달합니다. `config2` 매개 변수.
 
-또한 뷰어는 뷰어 유형 및 버전 정보로 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
+뷰어는 또한 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var flyoutViewer = new s7viewers.FlyoutViewer({ 
@@ -64,19 +64,19 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>뷰어에서 자산을 <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>에셋은 뷰어에서 다음을 사용하여 교체됩니다. <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 확대/축소 </span> </p> </td> 
-   <td colname="col2"> <p>플라이아웃이 활성화되거나 확대/축소 수준이 변경되었습니다. </p> </td> 
+   <td colname="col2"> <p>플라이아웃이 활성화되거나 확대/축소 레벨이 변경됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패닝 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지가 패닝됩니다. </p> </td> 
+   <td colname="col2"> <p> 이미지가 패닝되었습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 견본 </span> </p> </td> 
-   <td colname="col2"> <p> 견본 을 클릭하거나 탭하여 이미지가 변경됩니다. </p> </td> 
+   <td colname="col2"> <p> 견본을 클릭하거나 탭하여 이미지가 변경됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

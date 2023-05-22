@@ -1,5 +1,5 @@
 ---
-description: 배경색 또는 투명도를 기반으로 이미지에 대해 잘린 영역을 반환합니다.
+description: 배경색 또는 투명도를 기준으로 이미지의 잘린 영역을 반환합니다.
 solution: Experience Manager
 title: getAutoCropRect
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 15%
 
 # getAutoCropRect{#getautocroprect}
 
-배경색 또는 투명도를 기반으로 이미지에 대해 잘린 영역을 반환합니다.
+배경색 또는 투명도를 기준으로 이미지의 잘린 영역을 반환합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## 승인된 사용자 유형 {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,22 +34,22 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->이 메서드를 호출할 때 autoColorCropOptions 또는 autoTransparentCropOptions를 지정하십시오.
+>이 메서드를 호출할 때 autoColorCropOptions 또는 autoTransparentCropOptions를 지정합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
 | assetHandle | `xsd:string` | 예 | 작업할 자산의 핸들입니다. |
-| autoColorCropOptions | `types:AutoColorCropOptions` | 아니요 | 색상을 기반으로 자르기 사각형을 계산합니다. 자세한 내용은 [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| autoTransparentCropOptions | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. 자세한 내용은 [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| 자동 색상 자르기 옵션 | `types:AutoColorCropOptions` | 아니요 | 색상을 기준으로 자르기 사각형을 계산합니다. 다음을 참조하십시오 [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| 자동 투명 자르기 옵션 | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. 다음을 참조하십시오 [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **출력(getAutoCropRectReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | xOffset | `xsd:int` | 예 | 계산된 자르기 영역의 시작 왼쪽 픽셀 좌표입니다. |
-| yOffset | `xsd:int` | 예 | 계산된 자르기 영역의 시작 위쪽 픽셀 좌표입니다. |
-| 너비 | `xsd:int` | 예 | 계산된 자르기 영역의 폭(픽셀 단위)입니다. |
+| yOffset | `xsd:int` | 예 | 계산된 자르기 영역의 시작 상단 픽셀 좌표입니다. |
+| 너비 | `xsd:int` | 예 | 계산된 자르기 영역의 너비(픽셀 단위)입니다. |
 | 높이 | `xsd:int` | 예 | 계산된 자르기 영역의 높이(픽셀 단위)입니다. |
 
 ## 예제 {#section-ba65bd66086d491cad1cea535954ee1f}

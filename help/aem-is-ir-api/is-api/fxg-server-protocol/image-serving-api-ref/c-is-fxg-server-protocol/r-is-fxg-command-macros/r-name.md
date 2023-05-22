@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 
-# 이름{#name}
+# name{#name}
 
 명령 매크로의 이름입니다.
 
@@ -25,4 +25,4 @@ ht-degree: 12%
  </tr> 
 </table>
 
-*`name`* 는 대/소문자를 구분하지 않으며 문자, 숫자 , &#39;-&#39;, &#39;_&#39; 및 &#39;&#39;의 조합으로 구성될 수 있습니다. 문자.
+*`name`* 는 대/소문자를 구분하지 않으며 문자, 숫자, &#39;-&#39;, &#39;_&#39; 및 &#39;.&#39;의 조합으로 구성될 수 있습니다. 문자.

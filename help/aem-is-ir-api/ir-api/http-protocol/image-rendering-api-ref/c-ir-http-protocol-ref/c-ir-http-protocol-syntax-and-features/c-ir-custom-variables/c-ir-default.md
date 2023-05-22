@@ -1,6 +1,6 @@
 ---
 title: 기본값
-description: 기본값이 없습니다.
+description: 기본값은 없습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 6%
 
 # 기본값{#default}
 
-기본값이 없습니다.
+기본값은 없습니다.
 
-정의된 변수만 서버로 대체됩니다. 모든 발생 횟수 `$ *[!DNL name]*$` 정의되지 않은 사용자 지정 변수는 리터럴으로 유지됩니다.
+정의된 변수만 서버로 대체됩니다. 다음 중 발생 횟수 `$ *[!DNL name]*$` 정의된 사용자 지정 변수와 일치하지 않는 값은 리터럴로 유지됩니다.

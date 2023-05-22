@@ -1,5 +1,5 @@
 ---
-description: 현재 활성 작업을 모두 가져옵니다.
+description: 현재 활성화된 모든 작업을 가져옵니다.
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # getActiveJobs{#getactivejobs}
 
-현재 활성 작업을 모두 가져옵니다.
+현재 활성화된 모든 작업을 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-125557a6ea7b4fc894d4bb468cd02118}
+## 승인된 사용자 유형 {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,19 +35,19 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 아니요 | 회사의 손잡이입니다. |
-| jobHandle | `xsd:string` | 아니요 | 작업 핸들입니다. |
-| originalName | `xsd:string` | 아니요 | 원래 작업 이름입니다. |
+| company핸들 | `xsd:string` | 아니요 | 회사 손잡이. |
+| jobHandle | `xsd:string` | 아니요 | 작업에 대한 핸들입니다. |
+| 원래 이름 | `xsd:string` | 아니요 | 원래 작업 이름입니다. |
 
 **출력(getActiveJobsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| jobArray | `xsd:string` | 예 | 활성 작업의 배열입니다. |
+| jobArray | `xsd:string` | 예 | 활성 작업 배열. |
 
 ## 예제 {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-이 코드 샘플은 IPS를 실행하는 회사의 모든 활성 작업을 반환합니다. 이 경우 IPS 예약 코디네이터가 실행 중인 활성 작업이 없는 상태로 비활성화되어 응답이 이례적인 경우 일반적인 상황에서 응답은 많은 활성 작업을 반환합니다.
+이 코드 샘플은 IPS로 실행되는 회사의 모든 활성 작업을 반환합니다. 이 경우 실행 중인 활성 작업이 없는 상태에서 IPS 예약 코디네이터가 비활성화되므로 응답이 이례적입니다. 정상적인 상황에서는 응답이 다수의 활성 작업을 반환합니다.
 
 **요청**
 

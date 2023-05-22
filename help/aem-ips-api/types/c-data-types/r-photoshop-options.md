@@ -1,5 +1,5 @@
 ---
-description: Photoshop 이미지 옵션.
+description: Photoshop 이미지 옵션
 solution: Experience Manager
 title: PhotoshopOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL PhotoshopOptions]{#photoshopoptions}
 
-Photoshop 이미지 옵션.
+Photoshop 이미지 옵션
 
 구문
 
@@ -32,7 +32,7 @@ Photoshop 이미지 옵션.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:PhotoshopLayerOptions</span> </td> 
-   <td colname="col3"> Photoshop 레이어 옵션 배열입니다. </td> 
+   <td colname="col3"> Photoshop 레이어 옵션 배열. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 프로세스</span> </span> </td> 

@@ -1,5 +1,5 @@
 ---
-description: 자산을 업로드하기 위한 URL의 배열입니다.
+description: 에셋 업로드를 위한 URL 배열.
 solution: Experience Manager
 title: UploadUrlArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL UploadUrlArray]{#uploadurlarray}
 
-자산을 업로드하기 위한 URL의 배열입니다.
+에셋 업로드를 위한 URL 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:UploadUrl` | 자산을 업로드하기 위한 URL의 배열입니다. |
+| 항목 | `types:UploadUrl` | 에셋 업로드를 위한 URL 배열. |

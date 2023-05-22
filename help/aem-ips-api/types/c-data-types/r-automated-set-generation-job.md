@@ -31,23 +31,23 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:HandleArray</span> </td> 
-   <td colname="col3">세트를 만드는 데 사용되는 자산 핸들의 배열입니다. <p>기본적으로 1000은 배열에 포함할 수 있는 최대 자산 수입니다. </p></td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col3">집합을 만드는 데 사용되는 자산 핸들의 배열입니다. <p>기본적으로 1000은 배열에 가질 수 있는 최대 에셋 수입니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 세트를 저장할 폴더의 경로입니다. 기본적으로 회사 루트 폴더에 저장합니다. </td> 
+   <td colname="col3"> 세트를 저장할 폴더의 경로입니다. 기본적으로 회사 루트 폴더에 저장됩니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
-   <td colname="col3"> 자산을 게시해야 하는지 여부를 나타내는 플래그를 설정합니다. </td> 
+   <td colname="col3"> 자산을 게시할지 여부를 나타내는 플래그를 설정합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">업로드한 파일에서 실행할 수 있는 일련의 생성 스크립트입니다. 자세한 내용은 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> 자동 설정 생성 옵션</a></td> 
+   <td colname="col2"> <span class="codeph"> 유형:AutoSetCreateOptions</span> </td> 
+   <td colname="col3">업로드된 파일에서 실행할 수 있는 집합 생성 스크립트의 배열입니다. 다음을 참조하십시오 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> 자동 설정 생성 옵션</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
@@ -63,11 +63,11 @@ ht-degree: 4%
 
 | 옵션 | 반환 |
 |---|---|
-| `All` | 지정된 수신자에 대한 모든 작업 알림(오류, 경고, 완료)입니다. |
-| `Error` | 지정한 받는 사람에게 작업 오류가 발생합니다. |
-| `ErrorAndWarning` | 지정한 수신자에 대한 작업 오류 및 경고 |
-| `JobCompletion` | 지정된 수신자에 대한 작업 완료 알림. |
-| `None` | 작업이 지정된 받는 사람에게 작업 알림을 보내지 않습니다. |
+| `All` | 지정된 수신자에 대한 모든 작업 알림(오류, 경고, 완료). |
+| `Error` | 지정된 수신자에 대한 작업 오류. |
+| `ErrorAndWarning` | 지정된 수신자에 대한 작업 오류 및 경고입니다. |
+| `JobCompletion` | 지정된 수신자에게 작업 완료 알림. |
+| `None` | 작업이 지정된 수신자에게 작업 알림을 보내지 않습니다. |
 
 ## 예 {#section-d01ee7671f274a1fa12737e8df91d2cf}
 

@@ -20,7 +20,7 @@ ht-degree: 1%
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 보기 영역의 모양이 제어됩니다.
 
 ```
 .s7interactiveimage .s7zoomview
@@ -35,13 +35,13 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
-   <td colname="col2"> <p> 기본 보기의 16진수 형식의 배경색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 기본 보기의 16진수 형식 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 기본 보기를 투명하게 만듭니다.
+예 - 기본 보기를 투명하게 합니다.
 
 ```
 .s7interactiveimage .s7zoomview { 

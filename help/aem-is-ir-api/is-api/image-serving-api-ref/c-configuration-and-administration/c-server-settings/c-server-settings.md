@@ -1,5 +1,5 @@
 ---
-description: 이 섹션에서는 편집 가능한 모든 구성 설정을 관심 영역으로 그룹화합니다.
+description: 이 섹션에서는 관심 영역별로 그룹화된 편집 가능한 모든 구성 설정에 대해 설명합니다.
 solution: Experience Manager
 title: 서버 설정
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: c3296c7a-35b3-4f01-a793-35c8304ffd95
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '61'
 ht-degree: 6%
 
 ---
 
 # 서버 설정{#server-settings}
 
-이 섹션에서는 편집 가능한 모든 구성 설정을 관심 영역으로 그룹화합니다.
+이 섹션에서는 관심 영역별로 그룹화된 편집 가능한 모든 구성 설정에 대해 설명합니다.
 
 * [일반](r-general.md)
 * [컨텐츠 데이터 폴더](r-content-data-folders.md)

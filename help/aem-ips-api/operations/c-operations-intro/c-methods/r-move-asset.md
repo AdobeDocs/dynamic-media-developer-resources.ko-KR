@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-e4f2d2a58132450aa36da6377134211e}
+## 승인된 사용자 유형 {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,13 +33,13 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
 | assetHandle | `xsd:string` | 예 | 이동할 자산을 처리합니다. |
-| folderHandle | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
+| folder핸들 | `xsd:string` | 예 | 대상 폴더에 대한 를 처리합니다. |
 
 **출력(moveAssetReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-78333769f4f14e2886fdf06433c9d2ad}
 

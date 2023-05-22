@@ -22,6 +22,6 @@ ht-degree: 12%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| emailSetting | `xsd:string` | 이메일 설정 선택. |
+| emailSettings | `xsd:string` | 이메일 설정 선택. |
 | httpCompletionUrl | `xsd:string` | 완료 알림을 보낼 URL입니다. |
-| contextHandle | `xsd:string` | 게시 컨텍스트를 처리합니다. |
+| context핸들 | `xsd:string` | 게시 컨텍스트에 대한 핸들입니다. |

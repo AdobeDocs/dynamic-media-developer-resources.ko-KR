@@ -1,5 +1,5 @@
 ---
-description: 메타데이터의 배열입니다.
+description: 메타데이터 배열.
 solution: Experience Manager
 title: MetadataArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL MetadataArray]{#metadataarray}
 
-메타데이터의 배열입니다.
+메타데이터 배열.
 
 구문
 
@@ -30,9 +30,9 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 항목</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 개 항목</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:메타데이터</span> </p> </td> 
-   <td colname="col3"> <p>메타데이터의 배열입니다. </p> </td> 
+   <td colname="col3"> <p>메타데이터 배열. </p> </td> 
   </tr> 
  </tbody> 
 </table>

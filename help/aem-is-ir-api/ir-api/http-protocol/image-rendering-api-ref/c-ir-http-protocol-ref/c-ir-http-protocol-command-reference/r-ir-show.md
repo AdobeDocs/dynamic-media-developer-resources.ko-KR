@@ -1,6 +1,6 @@
 ---
 title: 표시
-description: 겹치기 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 개체(윈도우 커버 프레임 개체 포함)를 표시합니다.
+description: 겹쳐있는 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 겹치는 오브젝트(창 커버링 프레임 오브젝트 포함)를 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
 # 표시{#show}
 
-겹치기 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 오버랩 개체(윈도우 커버 프레임 개체 포함)를 표시합니다.
+겹쳐있는 개체를 표시합니다. 현재 선택 영역에서 이전에 숨겨진 모든 겹치는 오브젝트(창 커버링 프레임 오브젝트 포함)를 표시합니다.
 
 `Show[= *`val`*]`
 
@@ -27,11 +27,11 @@ ht-degree: 9%
 
 ## 속성 {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-현재 선택 영역에 겹치는 개체가 없거나 겹치는 개체가 숨겨지지 않은 경우에는 무시됩니다.
+현재 선택 영역에 겹치는 오브젝트가 포함되어 있지 않거나 겹치는 오브젝트가 숨겨져 있지 않으면 무시됩니다.
 
 ## 기본값 {#section-04972797d24d4b9f93790a31dfaa4743}
 
-없음, 객체 가시성을 변경하지 마십시오.
+없음 - 객체 가시성이 변경되지 않습니다.
 
 ## 참조 {#section-2a1a37a35dfb41758897164e14f0105f}
 

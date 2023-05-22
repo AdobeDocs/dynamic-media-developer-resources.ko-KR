@@ -1,24 +1,24 @@
 ---
 description: 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
 solution: Experience Manager
-title: printerMark
+title: 프린터 표시
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 31%
+source-wordcount: '115'
+ht-degree: 33%
 
 ---
 
-# printerMark{#printermark}
+# 프린터 표시{#printermark}
 
 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
 
-` printerMark= *`trim `*, *`markdown `*, *`marketing`*, *`markdown`*, *`바코드 정보스타일`*, *``*, *`라인 `*, *`wearlayer 포함`*`
+` printerMark= *`재단선`*, *`재단 물림 기호`*, *`등록 표시`*, *`색상 막대`*, *`페이지 정보`*, *`스타일`*, *`선 두께`*, *`레이어 포함`*`
 
-다른 표시는 꺼져 있거나 켜질 수 있습니다. 프린터 표시의 스타일을 제어할 수도 있습니다.
+다른 표시를 끄거나 켤 수 있습니다. 프린터 표시의 스타일도 제어할 수 있습니다.
 
 다음은 유효한 값입니다.
 
@@ -51,11 +51,11 @@ ht-degree: 31%
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>기본값 </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>기본값은 기본값입니다. </p></td> 
+  <td class="stentry"> <p>기본값은 기본입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>line weight= </p></td> 
-  <td class="stentry"> <p>0.125 - 2.0 범위의 값은 모두 포함되며, </p></td> 
+  <td class="stentry"> <p>선 두께= </p></td> 
+  <td class="stentry"> <p>0.125 - 2.0 범위의 모든 값(두 값 모두 포함). </p></td> 
   <td class="stentry"> <p>기본값은 0.25입니다. </p></td> 
  </tr> 
  <tr class="strow"> 

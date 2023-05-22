@@ -16,7 +16,7 @@ ht-degree: 13%
 
 태그 필드의 사전에서 태그 필드 값을 제거합니다.
 
-## 인증된 사용자 유형 {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## 승인된 사용자 유형 {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -28,13 +28,13 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들. |
-| fieldHandle | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 태그 필드가 포함된 회사의 핸들입니다. |
+| 필드 핸들 | `xsd:string` | 예 | 수정할 태그 필드의 핸들입니다. |
 | valueArray | `types:StringArray` | 예 | 필드의 사전에서 삭제할 태그 값의 배열입니다. |
 
 **출력(deleteTagFieldValuesParam)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-92f9e575a6da491caa09e264b4d6ee55}
 

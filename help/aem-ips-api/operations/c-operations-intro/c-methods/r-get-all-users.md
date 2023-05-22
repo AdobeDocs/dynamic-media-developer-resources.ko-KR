@@ -1,5 +1,5 @@
 ---
-description: 배열에 있는 모든 사용자를 가져옵니다.
+description: 배열의 모든 사용자를 가져옵니다.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 21%
 
 # getAllUsers{#getallusers}
 
-배열에 있는 모든 사용자를 가져옵니다.
+배열의 모든 사용자를 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## 승인된 사용자 유형 {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,10 +43,10 @@ ht-degree: 21%
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4">설정 대상: 
+   <td colname="col4">다음으로 설정: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 잘못된 사용자를 포함하려면 다음을 수행하십시오. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 잘못된 사용자를 생략하려면 다음을 수행하십시오. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 잘못된 사용자를 포함합니다. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 잘못된 사용자를 생략합니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -56,12 +56,12 @@ ht-degree: 21%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userArray | `types:UserArray` | 예 | 모든 사용자의 배열입니다. |
-| 코드 구문 | `Code Phrase` |  |  |
+| userArray | `types:UserArray` | 예 | 모든 사용자 배열. |
+| 코드 구 | `Code Phrase` |  |  |
 
 ## 예제 {#section-9c9a2d335513478da20652c1b1443731}
 
-이 코드 샘플은 모든 사용자를 반환합니다. 간결성을 위해 응답이 잘립니다.
+이 코드 샘플은 모든 사용자를 반환합니다. 응답은 간결성을 위해 잘립니다.
 
 **요청**
 

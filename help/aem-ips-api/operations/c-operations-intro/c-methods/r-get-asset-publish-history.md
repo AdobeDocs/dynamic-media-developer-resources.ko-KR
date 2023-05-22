@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-3b9d6a129093458fa8890139a2718912}
+## 승인된 사용자 유형 {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,14 +36,14 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 자산 게시 내역이 있는 회사의 핸들입니다. |
-| assetHandle | `xsd:string` | 예 | 검사할 게시 기록이 있는 자산입니다. |
+| company핸들 | `xsd:string` | 예 | 자산 게시 기록이 있는 회사에 대한 핸들입니다. |
+| assetHandle | `xsd:string` | 예 | 검사할 게시 기록이 있는 에셋입니다. |
 
 **출력(getAssetPublishHistoryReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| pubHistoryArray | `types:PublishHistoryArray` | 예 | 자산의 게시 내역. |
+| pubHistoryArray | `types:PublishHistoryArray` | 예 | 에셋의 게시 내역. |
 
 ## 예제 {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

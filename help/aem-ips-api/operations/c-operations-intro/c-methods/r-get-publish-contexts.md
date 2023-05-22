@@ -16,7 +16,7 @@ ht-degree: 20%
 
 구문
 
-## 인증된 사용자 유형 {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## 승인된 사용자 유형 {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +30,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->* 자산을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
+>* 에셋을 반환하려면 사용자에게 읽기 권한이 있어야 합니다.
 >* 모든 사용자는 공유 회사에 액세스할 수 있습니다.
 >
 
@@ -50,19 +50,19 @@ ht-degree: 20%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 회사를 담당합니다. </td> 
+   <td colname="col4"> 회사를 위해 처리하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">반환할 게시 컨텍스트 유형입니다. 다음을 포함합니다. 
+   <td colname="col4">반환할 게시 컨텍스트의 유형입니다. 포함 사항: 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
-     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
-     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
+     <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> 이미지 제공</span></li>
+     <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> 이미지 렌더링</span></li>
      <li id="li_3CB3A9C4E7AB4A71819567A9566E396C"><span class="codeph"> 비디오</span></li>
      <li id="li_27E3DB89B53B4B50B2231622A157A228"><span class="codeph"> ServerDirectory</span></li>
     </ul></td> 
@@ -74,7 +74,7 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| publishContextArray | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형별로 필터링된 회사의 게시 컨텍스트 배열입니다. |
+| publishContextArray | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형으로 필터링된 회사의 게시 컨텍스트 배열. |
 
 ## 예제 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

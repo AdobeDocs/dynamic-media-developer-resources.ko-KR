@@ -1,5 +1,5 @@
 ---
-description: 확대/축소 타겟의 배열입니다.
+description: 확대/축소 대상 배열.
 solution: Experience Manager
 title: ZoomTargetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-확대/축소 타겟의 배열입니다.
+확대/축소 대상 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ZoomTarget` | 확대/축소 대상 배열입니다. |
+| 항목 | `types:ZoomTarget` | 확대/축소 대상 배열. |

@@ -1,7 +1,7 @@
 ---
 description: PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
 solution: Experience Manager
-title: getImageFormats
+title: getImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
@@ -12,13 +12,13 @@ ht-degree: 20%
 
 ---
 
-# getImageFormats{#getimageformats}
+# getImageFormat{#getimageformats}
 
 PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## 승인된 사용자 유형 {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -34,7 +34,7 @@ PDF, EPS, SWF 등과 같은 이미지 형식을 반환합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 가져오려는 이미지 형식이 있는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 가져오려는 이미지 형식이 있는 회사에 대한 핸들입니다. |
 
 **출력(getImageFormatsParam)**
 

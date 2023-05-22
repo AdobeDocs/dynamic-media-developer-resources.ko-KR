@@ -1,7 +1,7 @@
 ---
-description: 작업 로그 세부 정보의 배열입니다.
+description: 작업 로그 세부 정보 배열.
 solution: Experience Manager
-title: 작업 로그 세부 정보 배열
+title: 작업 로그 세부 사항 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL JobLogDetailArray]{#joblogdetailarray}
 
-작업 로그 세부 정보의 배열입니다.
+작업 로그 세부 정보 배열.
 
 구문
 

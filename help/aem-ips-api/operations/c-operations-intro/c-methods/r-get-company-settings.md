@@ -18,7 +18,7 @@ ht-degree: 25%
 
 구문
 
-## 인증된 사용자 유형 {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## 승인된 사용자 유형 {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 설정을 검색할 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 설정을 검색할 회사에 대한 핸들입니다. |
 
 **출력(getCompanySettingsReturn)**
 

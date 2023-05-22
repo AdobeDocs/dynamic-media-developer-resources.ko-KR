@@ -18,7 +18,7 @@ ht-degree: 22%
 
 구문
 
-## 인증된 사용자 유형 {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## 승인된 사용자 유형 {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,9 +35,9 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
 | jobHandle | `xsd:string` | 아니요 | 작업 핸들. |
-| originalName | `xsd:string` | 아니요 | 지정한 이름 `submitJob`. |
+| 원래 이름 | `xsd:string` | 아니요 | 다음에 의해 지정된 이름 `submitJob`. |
 
 **출력(getScheduledJobsReturn)**
 
@@ -47,7 +47,7 @@ ht-degree: 22%
 
 ## 예제 {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-이 코드 샘플은 작업 배열의 예약된 모든 작업을 반환합니다. 스토리지 자체에는 작업에 대한 자세한 정보가 포함되어 있습니다.
+이 코드 샘플은 작업 배열의 모든 예약된 작업을 반환합니다. 배열 자체에는 작업에 대한 자세한 정보가 포함되어 있습니다.
 
 **요청**
 

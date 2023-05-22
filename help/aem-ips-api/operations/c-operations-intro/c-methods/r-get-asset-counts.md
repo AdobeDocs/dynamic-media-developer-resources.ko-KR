@@ -16,10 +16,10 @@ ht-degree: 10%
 
 특정 회사와 연결된 자산 및 자산 수를 가져옵니다.
 
-다음 `countArray` 반환된 항목은 `assetTypes` (데이터 유형) `xsd:string`). 각각 자체 카운트 필드(데이터 유형)가 있습니다. `xsd:int`). 배열 요소당 여러 자산 유형을 나타낼 수 있습니다.
+다음 `countArray` 반환되는 는 `assetTypes` (데이터 유형 `xsd:string`), 각각 고유한 카운트 필드(데이터 유형)가 있음 `xsd:int`), 배열의 요소당 여러 에셋 유형을 표시할 수 있습니다.
 구문
 
-## 인증된 사용자 유형 {#section-6234754722184e828352f10eb18fbce9}
+## 승인된 사용자 유형 {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,13 +37,13 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 카운트할 자산이 있는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 계산하려는 자산이 있는 회사에 대한 핸들입니다. |
 
 **출력(getAssetCountsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| countArray | `types:AssetCountArray` | 아니요 | 각각 자체 카운트 필드가 있는 자산 유형의 배열로서, 배열 요소당 여러 자산 유형을 표현할 수 있습니다. |
+| countArray | `types:AssetCountArray` | 아니요 | 에셋 유형의 배열로, 각 배열에는 자체 카운트 필드가 있으며 배열의 요소당 여러 에셋 유형을 표시할 수 있습니다. |
 
 ## 예제 {#section-6052a503eb3843f6adb99e200fdba280}
 

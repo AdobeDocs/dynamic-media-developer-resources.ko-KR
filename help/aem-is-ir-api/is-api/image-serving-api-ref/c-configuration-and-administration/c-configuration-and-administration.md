@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: fa02b6f7-777f-4c4d-a959-0f0d0fc96774
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 3%
 * [데이터 캐시](c-data-caches/c-data-caches.md)
 * [서버 설정](c-server-settings/c-server-settings.md)
 * [오류 시 리디렉션](c-redirect-on-error.md)
-* [SVG 구성](c-configuring-svg.md)
+* [구성 SVG](c-configuring-svg.md)
 * [서버 구성](c-manual-server-configuration.md)
 * [SSL 암호 정의](r-ssl-ciphers.md)
 * [서버 감독자](c-server-supervisor.md)
 * [서버 로깅](c-server-logging/c-server-logging.md)
 * [서버 모니터링](c-server-monitoring/c-server-monitoring.md)
-* [콘텐츠 관리](c-managing-content/c-managing-content.md)
+* [컨텐츠 관리](c-managing-content/c-managing-content.md)

@@ -1,7 +1,7 @@
 ---
 description: 고유한 메타데이터 필드 값을 가져옵니다.
 solution: Experience Manager
-title: getUniqueMetadataValues
+title: getUniqueMetadataValue
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
@@ -12,13 +12,13 @@ ht-degree: 28%
 
 ---
 
-# getUniqueMetadataValues{#getuniquemetadatavalues}
+# getUniqueMetadataValue{#getuniquemetadatavalues}
 
 고유한 메타데이터 필드 값을 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-6a6b67e10a4c4e7bb18306115713380e}
+## 승인된 사용자 유형 {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +34,14 @@ ht-degree: 28%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
-| fieldHandle | `xsd:string` | 아니요 | 메타데이터 필드를 처리합니다. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
+| 필드 핸들 | `xsd:string` | 아니요 | 메타데이터 필드에 대한 처리입니다. |
 
 **출력(getUniqueMetadataValuesReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| values | `type:StringArray` |  |  |
+| 값 | `type:StringArray` |  |  |
 
 ## 예제 {#section-440f3bc3e5be436cb6ec26117d05f476}
 

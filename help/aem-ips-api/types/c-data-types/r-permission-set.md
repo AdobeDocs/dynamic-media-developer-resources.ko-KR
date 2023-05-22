@@ -20,5 +20,5 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | 권한 집합을 처리합니다. |
-| permissionArray | `types:PermissionArray` | 권한 배열입니다. |
+| 사용 권한 집합 핸들 | `xsd:string` | 권한 집합에 대한 핸들입니다. |
+| permissionArray | `types:PermissionArray` | 권한 배열. |

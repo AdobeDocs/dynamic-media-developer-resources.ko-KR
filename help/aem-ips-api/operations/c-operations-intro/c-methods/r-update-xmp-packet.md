@@ -18,7 +18,7 @@ ht-degree: 26%
 
 구문
 
-## 인증된 사용자 유형 {#section-ee88a759f4774482a4734201a971f610}
+## 승인된 사용자 유형 {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,9 +34,9 @@ ht-degree: 26%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| assetHandle | `xsd:string` | 예 | 자산 핸들. |
-| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷 |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 에셋 핸들. |
+| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷입니다. |
 
 **출력(updateXMPPacketReturn)**
 

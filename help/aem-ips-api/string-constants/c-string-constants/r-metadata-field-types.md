@@ -22,7 +22,7 @@ MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fie
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: 다음의 특별한 사례 [!DNL `SingleFixedTag`] 값으로 초기화된 수정할 수 없는 사전 [!DNL `True`] 및 [!DNL `False`].
+* [!DNL `BooleanTag`]: 의 특별한 경우 [!DNL `SingleFixedTag`] 수정할 수 없는 사전이 값으로 초기화되어 있는 경우 [!DNL `True`] 및 [!DNL `False`].
 
 * [!DNL `Color`]
 * [!DNL `Date`]
@@ -30,9 +30,9 @@ MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fie
 * [!DNL `FileName`]
 * [!DNL `Float`]
 * [!DNL `Int`]
-* [!DNL `MultiFixedTag`]: 닫힌 사전에서 문자열 값이 0개 이상 있습니다. 관리자만 사전을 수정할 수 있습니다.
-* [!DNL `MultiTag`]: 문자열 값이 0개 이상 있습니다.
-* [!DNL `SingleFixedTag`]: 닫힌 사전의 단일 문자열 값입니다. If `setAssetMetadata` 또는 `batchSetAssetMetadata` 사전에 없는 값으로 를 호출하면 오류가 반환됩니다. 관리자만 사전을 수정할 수 있습니다.
+* [!DNL `MultiFixedTag`]: 닫힌 사전에서 0개 이상의 문자열 값. 관리자만 사전을 수정할 수 있습니다.
+* [!DNL `MultiTag`]: 0개 이상의 문자열 값.
+* [!DNL `SingleFixedTag`]: 닫힌 사전의 단일 문자열 값입니다. If `setAssetMetadata` 또는 `batchSetAssetMetadata` 사전에 없는 값으로 을 호출하면 오류가 반환됩니다. 관리자만 사전을 수정할 수 있습니다.
 
 * [!DNL `SingleTag`]: 모든 단일 문자열 값.
 * [!DNL `String`]

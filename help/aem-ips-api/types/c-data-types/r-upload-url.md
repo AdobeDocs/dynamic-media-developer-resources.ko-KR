@@ -1,5 +1,5 @@
 ---
-description: URL을 통해 자산을 업로드하는 경우.
+description: URL을 통해 에셋을 업로드하는 경우.
 solution: Experience Manager
 title: UploadUrl
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL UploadUrl]{#uploadurl}
 
-URL을 통해 자산을 업로드하는 경우.
+URL을 통해 에셋을 업로드하는 경우.
 
 구문
 
@@ -22,5 +22,5 @@ URL을 통해 자산을 업로드하는 경우.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| sourceUrl | `xsd:string` | 자산이 업로드되는 소스 URL입니다. |
+| sourceUrl | `xsd:string` | 에셋이 업로드되는 소스 URL. |
 | destPath | `xsd:string` | 업로드할 파일의 IPS 파일 경로 및 이름입니다. |

@@ -1,7 +1,7 @@
 ---
-description: 이미지 세트에 속하는 자산.
+description: 이미지 세트에 속하는 에셋입니다.
 solution: Experience Manager
-title: ImageSetMember
+title: 이미지 집합 구성원
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: f0857d98-be79-40a6-8a84-c2c7b4c423c5
@@ -14,13 +14,13 @@ ht-degree: 7%
 
 # [!DNL ImageSetMember]{#imagesetmember}
 
-이미지 세트에 속하는 자산.
+이미지 세트에 속하는 에셋입니다.
 
-페이지 재설정은 [!DNL eCatalog] 새 페이지를 시작해야 합니다. `RenderSet` 는 해당 항목이 `RenderSet` 견본. 값은 `true` 대상 `eCatalog` 및 `RenderSet` 를 설정합니다.
+페이지 재설정은 [!DNL eCatalog] 새 페이지를 시작해야 합니다. `RenderSet` 의 일부임을 나타냅니다. `RenderSet` 견본. 값이 강제 적용됩니다. `true` 대상 `eCatalog` 및 `RenderSet` 를 설정합니다.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| asset | `type:Asset` | 이미지 세트 배열의 자산. |
-| pageReset | `xsd:boolean` | 새 페이지를 시작합니다. 설정은 무시되고 값은 강제로 `true` 대상 `eCatalog` 및 `RenderSet` 를 설정합니다. |
+| asset | `type:Asset` | 이미지 집합 배열의 에셋입니다. |
+| pageReset | `xsd:boolean` | 새 페이지를 시작합니다. 설정이 무시되고 값이 강제 적용됩니다. `true` 대상 `eCatalog` 및 `RenderSet` 를 설정합니다. |

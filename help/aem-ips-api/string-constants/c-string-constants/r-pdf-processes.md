@@ -1,5 +1,5 @@
 ---
-description: PDFOptions/type에 의해 사용됩니다.
+description: PDFOptions/type에서 사용됩니다.
 solution: Experience Manager
 title: PDF 프로세스
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 10%
+source-wordcount: '14'
+ht-degree: 14%
 
 ---
 
 # PDF 프로세스{#pdf-processes}
 
-PDFOptions/type에 의해 사용됩니다.
+PDFOptions/type에서 사용됩니다.
 
 구문
 

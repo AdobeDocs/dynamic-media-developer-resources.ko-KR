@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fd385327-29af-448c-9a25-75098b578272
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid  </span> </p> </td> 
-  <td class="stentry"> <p>제출 시 얻은 작업 ID. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 작업 ID </span> </p> </td> 
+  <td class="stentry"> <p>제출 시 획득한 작업 ID. </p> </td> 
  </tr> 
 </table>
 
 반환:
 
-XML 형식으로 작업의 세부 상태 오류: `jobid` 이 잘못되었거나 작업이 삭제되었습니다.
+작업의 세부 상태를 XML 형식으로 표시합니다. 다음의 경우 오류가 발생합니다. `jobid` 이(가) 잘못되었거나 작업이 삭제되었습니다.
 
 ## 예 {#section-55f463750afe4814b5fdbaa2f1aafab4}
 

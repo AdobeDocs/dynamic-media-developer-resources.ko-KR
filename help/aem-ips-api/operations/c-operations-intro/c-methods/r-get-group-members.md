@@ -1,5 +1,5 @@
 ---
-description: 특정 회사 및 그룹에 속하는 사용자를 가져옵니다.
+description: 특정 회사 및 그룹에 속한 사용자를 가져옵니다.
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getGroupMembers{#getgroupmembers}
 
-특정 회사 및 그룹에 속하는 사용자를 가져옵니다.
+특정 회사 및 그룹에 속한 사용자를 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-08a73460d122480292205bb8f2df9220}
+## 승인된 사용자 유형 {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,8 +30,8 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| groupHandle | `xsd:string` |  | 그룹에 대한 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
+| group핸들 | `xsd:string` |  | 그룹에 대한 핸들입니다. |
 
 **출력(getGroupMembersReturn)**
 
@@ -41,7 +41,7 @@ ht-degree: 18%
 
 ## 예제 {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-이 코드 샘플은 특정 그룹에 속하는 모든 사용자를 포함하는 사용자 핸들 배열을 반환합니다.
+이 코드 샘플은 특정 그룹에 속하는 모든 사용자가 포함된 사용자 핸들 배열을 반환합니다.
 
 **요청**
 

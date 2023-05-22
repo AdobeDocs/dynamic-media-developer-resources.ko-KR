@@ -1,5 +1,5 @@
 ---
-description: 자산 이미지와 연결된 확대/축소 대상을 설정합니다. 기존 확대/축소 타겟을 덮어씁니다.
+description: 에셋 이미지와 연결된 확대/축소 대상을 설정합니다. 기존 확대/축소 대상을 덮어씁니다.
 solution: Experience Manager
 title: setZoomTargets
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # setZoomTargets{#setzoomtargets}
 
-자산 이미지와 연결된 확대/축소 대상을 설정합니다. 기존 확대/축소 타겟을 덮어씁니다.
+에셋 이미지와 연결된 확대/축소 대상을 설정합니다. 기존 확대/축소 대상을 덮어씁니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-c5e1863e9cb1426591bfea513620b6ab}
+## 승인된 사용자 유형 {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,19 +33,19 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| assetHandle | `xsd:string` | 예 | 설정할 확대/축소 대상이 있는 자산 |
-| zoomTargetArray | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의의 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| assetHandle | `xsd:string` | 예 | 설정하려는 확대/축소 대상이 있는 에셋입니다. |
+| zoomTargetArray | `types:ZoomTargetDefinitionArray` | 예 | 확대/축소 대상 정의 배열입니다. |
 
 **출력(setZoomTargetsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| zoomTargetHandleArray | `types:HandleArray` | 예 | 이 작업으로 만든 확대/축소 대상에 대한 핸들 집합입니다. |
+| zoomTargetHandleArray | `types:HandleArray` | 예 | 이 작업으로 생성된 확대/축소 대상에 대한 핸들 집합입니다. |
 
 ## 예제 {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-이 코드 샘플은 이름, 위치(x 및 y축), 너비, 높이를 기준으로 확대/축소 대상 배열을 정의하고 배열을 자산에 지정합니다. 응답에는 새로 만든 확대/축소 타겟에 대한 핸들이 포함되어 있습니다.
+이 코드 샘플은 이름, 위치(x축 및 y축), 너비, 높이별로 확대/축소 대상 배열을 정의하고 배열을 에셋에 할당합니다. 응답에는 새로 생성된 확대/축소 대상에 대한 핸들이 포함됩니다.
 
 **요청**
 

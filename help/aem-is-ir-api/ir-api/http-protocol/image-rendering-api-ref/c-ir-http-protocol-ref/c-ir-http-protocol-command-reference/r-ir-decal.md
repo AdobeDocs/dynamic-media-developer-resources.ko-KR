@@ -1,6 +1,6 @@
 ---
-title: 십자
-description: 디칼 재료 선택기. 반복 가능한 비반복 가능한 디칼(decal) 재료에 대한 MSS(자재 사양 세그먼트)를 시작합니다.
+title: 데칼
+description: 데칼 소재 선택기. 반복할 수 없는 데칼 자료에 대한 MSS(Material Specification Segment)를 시작합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,13 +8,13 @@ exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
-# 십자 {#decal}
+# 데칼 {#decal}
 
-디칼 재료 선택기. 반복 가능한 비반복 가능한 디칼(decal) 재료에 대한 MSS(자재 사양 세그먼트)를 시작합니다.
+데칼 소재 선택기. 반복할 수 없는 데칼 자료에 대한 MSS(Material Specification Segment)를 시작합니다.
 
 ` decal[= *`val`*]`
 
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## 속성 {#section-4f975f78869e4c829c30cf3ca7646539}
 
-선택 명령; MSS 구분 기호.
+선택 명령, MSS 구분 기호.
 
 ## 기본값 {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

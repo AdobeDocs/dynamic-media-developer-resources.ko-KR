@@ -1,6 +1,6 @@
 ---
 title: 핫스팟 및 이미지 맵
-description: 뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 핫스팟 및 이미지 맵{#hotspots-and-image-maps}
 
-뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
+뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +35,12 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
-   <td colname="col2"> <p>핫스팟 아이콘 아트웍입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>핫스팟 아이콘 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스타일 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-예 - 두 개의 서로 다른 아이콘 상태에 대해 서로 다른 이미지를 표시하는 56 x 56 픽셀 핫스팟 아이콘을 설정합니다.
+예 - 두 개의 서로 다른 아이콘 상태에 대해 각각 다른 이미지를 표시하는 56 x 56픽셀 핫스팟 아이콘을 설정합니다.
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **이미지 맵 영역의 CSS 속성**
 
-이미지 맵 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 이미지 맵 영역의 모양이 제어됩니다.
 
 `.s7carouselviewer .s7imagemapeffect .s7region`
 
@@ -83,21 +83,21 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p>다음에서 이 색상 지정: <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p>다음에서 이 색상 지정: <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. <span class="codeph"> 너비 </span> <span class="codeph"> 단색 </span>"로 지정해야 합니다. 여기서 <span class="codeph"> 너비 </span>는 픽셀로 표현되고 <span class="codeph"> 색상 </span>은 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RR(R,G,B,A) &lt;A13/&gt; 로 설정됩니다.</span> </p> </td> 
+   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. 을(를) "(으)로 지정해야 합니다. <span class="codeph"> 폭 </span> <span class="codeph"> 단색 </span>", 여기서 <span class="codeph"> 폭 </span> 픽셀 단위로 표시되며, <span class="codeph"> 색상 </span> 다음으로 설정됨 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 한 픽셀 검정색 테두리로 투명한 이미지 맵 영역을 설정합니다.
+예 - 1픽셀 검정색 테두리가 있는 투명한 이미지 맵 영역을 설정합니다.
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 

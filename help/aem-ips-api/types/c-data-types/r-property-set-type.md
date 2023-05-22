@@ -1,7 +1,7 @@
 ---
-description: PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
+description: PropertySetType 및 createPropertySetTypeParam 필드에 대한 유효한 값.
 solution: Experience Manager
-title: PropertySetType
+title: 속성 집합 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 # [!DNL PropertySetType]{#propertysettype}
 
-PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
+PropertySetType 및 createPropertySetTypeParam 필드에 대한 유효한 값.
 
-값은 다음과 같습니다.
+값에는 다음이 포함됩니다.
 
 * `UserProperty`
 * `CompanyProperty`
@@ -36,27 +36,27 @@ PropertySetType 및 createPropertySetTypeParam 필드에 유효한 값입니다.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Type handle. </td> 
+   <td colname="col3"> 핸들을 입력합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">회사 핸들. <p>참고: 회사 핸들이 없으면 유형이 전역적입니다. </p></td> 
+   <td colname="col3">회사 핸들. <p>주: 회사 핸들이 없는 경우 유형은 글로벌입니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 이름 입력. </td> 
+   <td colname="col3"> 이름을 입력합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">속성 집합 유형 중 하나입니다. 입력 참조(<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col3">속성 집합 유형 중 하나. 입력(<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
-   <td colname="col3"> 여러 속성 집합 인스턴스를 이 유형의 개체에 연결할 수 있는지 여부 </td> 
+   <td colname="col3"> 이 형식의 개체에 여러 속성 집합 인스턴스를 첨부하도록 허용할지 여부입니다. </td> 
   </tr> 
  </tbody> 
 </table>

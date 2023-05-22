@@ -1,5 +1,5 @@
 ---
-description: 자산 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
+description: 에셋 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
 solution: Experience Manager
 title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL GenerationAttribute]{#generationattribute}
 
-자산 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
+에셋 생성 단계에 대한 정보가 포함된 이름-값 쌍입니다. getGenerationInfo를 참조하십시오.
 
 구문
 
@@ -22,5 +22,5 @@ ht-degree: 18%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 이름 | `xsd:string` | 속성 이름입니다. |
-| 값 | `xsd:string` | 속성 값. |
+| name | `xsd:string` | 속성 이름. |
+| 값 | `xsd:string` | 속성 값입니다. |

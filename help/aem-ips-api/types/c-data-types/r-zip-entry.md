@@ -1,7 +1,7 @@
 ---
-description: ZIP 파일의 항목입니다.
+description: ZIP 파일의 항목.
 solution: Experience Manager
-title: ZipEntry
+title: 우편번호 입력
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL ZipEntry]{#zipentry}
 
-ZIP 파일의 항목입니다.
+ZIP 파일의 항목.
 
 구문
 
@@ -22,8 +22,8 @@ ZIP 파일의 항목입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 이름 | `xsd:string` | 항목 이름. |
+| name | `xsd:string` | 항목 이름. |
 | isDirectory | `xsd:boolean` | 항목이 디렉터리인지 확인합니다. |
-| lastModified | `xsd:dateTime` | 마지막 수정 날짜 및 시간입니다. |
-| compressedSize | `xsd:long` | 압축 크기입니다. |
+| 마지막 수정일 | `xsd:dateTime` | 마지막 수정 날짜 및 시간입니다. |
+| compressedSize | `xsd:long` | 압축 크기. |
 | uncompressedSize | `xsd:long` | 압축되지 않은 크기입니다. |

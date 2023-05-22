@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '65'
 ht-degree: 4%
 
 ---
@@ -32,38 +32,38 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \라인 </span> </td> 
-   <td> <p>줄바꿈. </p> </td> 
+   <td> <p>줄 바꿈. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \\ </span> </td> 
-   <td> <p>슬래시. </p> </td> 
+   <td> <p>백슬래시. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
-   <td> <p>중괄호. </p> </td> 
-   <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <p>중괄호로 묶어 </p> </td> 
+   <td> <p>중괄호는 HTTP 인코딩이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace;  </span> </td> 
-   <td> <p>중괄호. </p> </td> 
-   <td> <p>중괄호는 HTTP로 인코딩되어야 합니다. </p> </td> 
+   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <p>동그랗게 닫는 중괄호. </p> </td> 
+   <td> <p>중괄호는 HTTP 인코딩이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
-   <td> <p>끊김 없는 공백. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>줄바꿈을 하지 않는 공백. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>줄바꿈 없는 하이픈. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>줄바꿈을 하지 않는 하이픈 </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
-   <td> <p>하이픈 옵션. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>하이픈(선택 사항) </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
   </tr> 
  </tbody> 
 </table>

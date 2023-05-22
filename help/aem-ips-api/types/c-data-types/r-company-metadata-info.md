@@ -1,7 +1,7 @@
 ---
 description: ID, 이름 및 유형과 같은 회사 메타데이터 개체에 대한 정보를 보유합니다.
 solution: Experience Manager
-title: CompanyMetadataInfo
+title: 회사 메타데이터 정보
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff

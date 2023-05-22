@@ -18,19 +18,19 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-뷰어가 이 섹션의 시작 부분에 요약된 대로 구성에서 작동하는 경우 게시된 비디오 배달이 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 기본 구성에서는 비디오 게재 프로토콜이 포함 웹 페이지의 게재 프로토콜을 엄격히 따릅니다. 그러나 를 사용하여 웹 페이지를 포함하여 사용하는 프로토콜에 관계없이 HTTPS 비디오 제공을 강제 적용할 수 있습니다 [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 구성 속성입니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS에서 안전하게 전달됩니다.)
+뷰어가 이 섹션의 시작 부분에 설명된 구성으로 작동하는 경우 게시된 비디오 전달은 HTTPS(보안) 및 HTTP(비보안) 모드에서 모두 발생할 수 있습니다. 디폴트 구성에서, 비디오 전달 프로토콜은 임베딩 웹 페이지의 전달 프로토콜을 엄격하게 따른다. 그러나 를 사용하여 웹 페이지를 포함하는 데 사용되는 프로토콜에 관계없이 HTTPS 비디오 전송을 강제할 수 있습니다. [VideoPlayer.ssl](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-ssl.md#reference-c28e1b700977493eadab5489458d7771) 구성 속성입니다. (작성자 모드의 비디오 미리 보기는 항상 HTTPS를 통해 안전하게 제공됩니다.)
 
-게시 방법에 따라 [!DNL Dynamic Media] Adobe Experience Manager에서 사용하는 비디오, `VideoPlayer.ssl` 구성 속성은 다음과 같이 다르게 적용됩니다.
+게시 방법에 따라 [!DNL Dynamic Media] Adobe Experience Manager에서 사용하는 비디오 `VideoPlayer.ssl` 구성 속성은 다음에 설명된 대로 다르게 적용됩니다.
 
-* 게시한 경우 [!DNL Dynamic Media] URL이 있는 비디오에서 다음을 추가합니다 `VideoPlayer.ssl` 아래와 같이 변경하는 것을 의미합니다. 예를 들어 보안 비디오 제공을 강제 수행하려면 을 추가합니다 `&VideoPlayer.ssl=on` 다음 뷰어 URL 예제의 끝:
+* 을(를) 게시하는 경우 [!DNL Dynamic Media] URL이 있는 비디오에서는 `VideoPlayer.ssl` URL로 복사합니다. 예를 들어 보안 비디오 전달을 강제 적용하려면 다음을 추가합니다 `&VideoPlayer.ssl=on` 다음 뷰어 URL 예제의 끝:
 
    ```
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
    ```
 
-   참조 - [URL을 웹 애플리케이션에 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+   참조: [웹 애플리케이션에 URL 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
 
-* 게시한 경우 [!DNL Dynamic Media] 포함 코드가 있는 비디오, 추가 `VideoPlayer.ssl` 포함 코드 조각에 있는 다른 뷰어 구성 매개 변수 목록에 추가합니다. 예를 들어 HTTPS 비디오 제공을 강제 수행하려면 다음을 추가합니다 `&VideoPlayer.ssl=on` 다음 예와 같습니다.
+* 을(를) 게시하는 경우 [!DNL Dynamic Media] 포함 코드가 있는 비디오, 사용자가 추가 `VideoPlayer.ssl` 포함 코드 조각의 다른 뷰어 구성 매개 변수 목록. 예를 들어 HTTPS 비디오 전송을 강제하려면 다음을 추가합니다 `&VideoPlayer.ssl=on` 다음 예제와 같이:
 
    ```html {.line-numbers}
    <style type="text/css"> 
@@ -77,4 +77,4 @@ ht-degree: 0%
    </script>
    ```
 
-   참조 - [웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+   참조: [웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

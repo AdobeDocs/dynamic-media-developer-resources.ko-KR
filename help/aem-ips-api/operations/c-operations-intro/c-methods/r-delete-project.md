@@ -1,5 +1,5 @@
 ---
-description: 회사에서 프로젝트를 삭제합니다. 자산과 프로젝트 사이의 링크가 끊겼지만 IPS에서 자산이 삭제되지 않습니다.
+description: 회사에서 프로젝트를 삭제합니다. 에셋과 프로젝트 간의 링크가 끊어졌지만 에셋은 IPS에서 삭제되지 않습니다.
 solution: Experience Manager
 title: deleteProject
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 9%
 
 # deleteProject{#deleteproject}
 
-회사에서 프로젝트를 삭제합니다. 자산과 프로젝트 사이의 링크가 끊겼지만 IPS에서 자산이 삭제되지 않습니다.
+회사에서 프로젝트를 삭제합니다. 에셋과 프로젝트 간의 링크가 끊어졌지만 에셋은 IPS에서 삭제되지 않습니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-d8a70e23c68d426e9af1357b978ae2f0}
+## 승인된 사용자 유형 {#section-d8a70e23c68d426e9af1357b978ae2f0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,16 +33,16 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyName | `xsd:string` | 예 | 프로젝트와 연결된 회사의 이름입니다. |
-| projectHandle | `xsd:string` | 예 | 삭제할 프로젝트의 핸들입니다. |
+| companyName | `xsd:string` | 예 | 프로젝트와 연계된 회사의 이름입니다. |
+| projectHandle | `xsd:string` | 예 | 삭제할 프로젝트에 대한 핸들입니다. |
 
 **출력(deleteProjectReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-e38507f1f7ec41b9a625f47390490254}
 
-이 코드 샘플은 프로젝트를 삭제하기 위해 IPS 웹 서비스 서버로 전송된 deleteProjectParam의 필드로 회사 핸들 및 프로젝트 핸들을 사용합니다.
+이 코드 샘플은 프로젝트를 삭제하기 위해 회사 핸들과 프로젝트 핸들을 IPS 웹 서비스 서버로 전송된 deleteProjectParam의 필드로 사용합니다.
 
 **요청**
 

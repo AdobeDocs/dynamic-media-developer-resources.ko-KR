@@ -20,4 +20,4 @@ ht-degree: 35%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| AssetPublishContextArray | `types:AssetPublishContext` | 자산 게시 컨텍스트의 배열입니다. |
+| AssetPublishContextArray | `types:AssetPublishContext` | 자산 게시 컨텍스트 배열. |

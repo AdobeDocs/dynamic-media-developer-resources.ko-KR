@@ -18,7 +18,7 @@ ht-degree: 19%
 
 구문
 
-## 인증된 사용자 유형 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## 승인된 사용자 유형 {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,14 +30,14 @@ ht-degree: 19%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| folderHandle | `xsd:string` | 예 | 폴더 핸들. |
-| updateChildren | `xsd:boolean` | 예 | 최상위 폴더에 대해 사용 권한이 설정된 하위 항목을 업데이트할지 여부를 결정합니다. |
-| updateArray | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| folder핸들 | `xsd:string` | 예 | 폴더 핸들. |
+| updateChills | `xsd:boolean` | 예 | 최상위 폴더에 설정된 권한으로 하위 항목을 업데이트할지 여부를 결정합니다. |
+| updateArray | `types:PermissionUpdateArray` | 예 | 폴더에 적용할 권한 업데이트의 배열입니다. |
 
 **출력(updateFolderPermissionsReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c3fe4d4388674870a3856c35ef66b631}
 

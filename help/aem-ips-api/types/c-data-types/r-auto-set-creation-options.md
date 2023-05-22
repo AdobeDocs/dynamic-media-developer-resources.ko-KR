@@ -1,5 +1,5 @@
 ---
-description: 업로드 작업에 대한 자동 설정 생성 스크립트 목록입니다. 업로드에 대해 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
+description: 업로드 작업에 대한 자동 설정 생성 스크립트 목록입니다. 업로드에 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
 solution: Experience Manager
 title: 자동 설정 생성 옵션
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-업로드 작업에 대한 자동 설정 생성 스크립트 목록입니다. 업로드에 대해 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
+업로드 작업에 대한 자동 설정 생성 스크립트 목록입니다. 업로드에 지정된 모든 스크립트가 업로드된 모든 자산에 적용된다고 가정합니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 7%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | 배열 [!DNL PropertySet] 업로드 중에 적용된 자동 세트 생성 스크립트를 정의하는 처리합니다. |
+| autoSetsArray | `types:HandleArray` | 배열 [!DNL PropertySet] 는 업로드 중에 적용된 자동 세트 생성 스크립트를 정의하는 핸들입니다. |

@@ -1,20 +1,20 @@
 ---
-description: JobLogDefault/assetType에서 사용됩니다.
+description: JobLogDetail/assetType에서 사용됩니다.
 solution: Experience Manager
-title: 작업 로그 파일 형식
+title: 작업 로그 파일 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 
-# 작업 로그 파일 형식{#job-log-file-types}
+# 작업 로그 파일 유형{#job-log-file-types}
 
-JobLogDefault/assetType에서 사용됩니다.
+JobLogDetail/assetType에서 사용됩니다.
 
 구문
 

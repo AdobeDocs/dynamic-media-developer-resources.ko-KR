@@ -1,14 +1,14 @@
 ---
 description: InDesign 파일 속성입니다.
 solution: Experience Manager
-title: InDesignInfo
+title: 인디자인 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34e7f447-4301-4120-87b6-6f3ddd1c5fb6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 33%
+ht-degree: 23%
 
 ---
 
@@ -22,6 +22,6 @@ InDesign 파일 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | 파일 경로입니다. |
-| originalFile | `xsd:string` | 파일 이름. |
-| fileSize | `xsd:int` | 파일 크기. |
+| 원본 경로 | `xsd:string` | 파일 경로. |
+| 원본 파일 | `xsd:string` | 파일 이름. |
+| 파일 크기 | `xsd:int` | 파일 크기. |

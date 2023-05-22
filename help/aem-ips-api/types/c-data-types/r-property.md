@@ -1,5 +1,5 @@
 ---
-description: 이름 및 값 쌍입니다.
+description: 이름 및 값 쌍.
 solution: Experience Manager
 title: 속성
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # [!DNL Property]{#property}
 
-이름 및 값 쌍입니다.
+이름 및 값 쌍.
 
 구문
 
@@ -22,5 +22,5 @@ ht-degree: 36%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 이름 | `xsd:string` | 속성 이름. |
-| 값 | `xsd:string` | 속성 값. |
+| name | `xsd:string` | 속성 이름. |
+| 값 | `xsd:string` | 속성 값입니다. |

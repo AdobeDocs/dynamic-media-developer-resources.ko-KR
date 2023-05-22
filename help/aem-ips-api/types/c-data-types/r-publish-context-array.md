@@ -1,5 +1,5 @@
 ---
-description: 게시 컨텍스트의 배열입니다.
+description: 게시 컨텍스트 배열.
 solution: Experience Manager
 title: PublishContextArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL PublishContextArray]{#publishcontextarray}
 
-게시 컨텍스트의 배열입니다.
+게시 컨텍스트 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 22%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| PublishContextArray | `types:PublishContext` | 게시 컨텍스트의 배열입니다. |
+| PublishContextArray | `types:PublishContext` | 게시 컨텍스트 배열. |

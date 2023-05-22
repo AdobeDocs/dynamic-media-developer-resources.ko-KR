@@ -1,6 +1,6 @@
 ---
 title: 즐겨찾기 효과
-description: 뷰어는 사용자가 원래 추가한 위치에서 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
+description: 뷰어는 사용자가 처음 추가한 위치의 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,40 +14,40 @@ ht-degree: 1%
 
 # 즐겨찾기 효과{#favorites-effect}
 
-뷰어는 사용자가 원래 추가한 위치에서 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
+뷰어는 사용자가 처음 추가한 위치의 기본 보기 위에 즐겨찾기 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-즐겨찾기 아이콘 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+즐겨찾기 아이콘의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon
 ```
 
-**즐겨찾기 아이콘 CSS 속성**
+**즐겨찾기 아이콘의 CSS 속성**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
-   <td colname="col2"> <p> 아이콘에 대해 표시되는 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p> 아이콘에 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>아이콘의 폭입니다. </p> </td> 
+   <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>아이콘 높이입니다. </p> </td> 
+   <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 36 x 36 픽셀 즐겨찾기 아이콘을 설정합니다.
+예 - 36x36픽셀 즐겨찾기 아이콘을 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon { 
@@ -57,7 +57,7 @@ ht-degree: 1%
 }
 ```
 
-데스크탑 시스템에서 구성 요소는 `cursortype` 에 적용할 수 있는 속성 선택기 `.s7favoriteseffect` 클래스 및 는 선택한 사용자 작업을 기반으로 커서 유형을 제어합니다. 다음 `cursortype` 지원되는 값은 다음과 같습니다.
+데스크탑 시스템에서 구성 요소는 `cursortype` 에 적용할 수 있는 속성 선택기 `.s7favoriteseffect` 및 클래스는 선택한 사용자 작업을 기반으로 커서의 유형을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -76,7 +76,7 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-예 - 각 구성 요소 상태 유형에 대해 서로 다른 마우스 커서를 사용합니다.
+예 - 구성 요소 상태 유형마다 다른 마우스 커서를 사용합니다.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect[cursortype="mode_add"] { 

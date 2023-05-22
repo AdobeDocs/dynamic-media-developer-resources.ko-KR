@@ -1,25 +1,26 @@
 ---
-title: 도구 설명
-description: 데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+title: 툴팁
+description: 데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 오버 시 표시되는 툴팁이 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 6%
+ht-degree: 2%
 
 ---
 
-# 도구 설명{#tooltips}
+# 툴팁{#tooltips}
 
-데스크탑 시스템에서는 단추와 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 도구 설명이 있습니다.
+데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 오버 시 표시되는 툴팁이 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-도구 설명의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+도구 설명의 모양은 다음 CSS 클래스 선택기를 사용하여 제어합니다.
 
 ```
 .s7tooltip
@@ -34,15 +35,15 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> 배경 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 색상 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> 배경 테두리 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 배경색. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +52,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴 이름. </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 이름입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -62,9 +63,9 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙. 뷰어의 CSS 파일에서 도구 설명이 사용자 지정된 경우에는 이 규칙이 필요하지 않습니다.
+>포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에는 `!IMPORTANT` 규칙. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 이 규칙이 필요하지 않습니다.
 
-예 - 3-px 모퉁이 반경, 검은색 배경 및 Arial®로 작성된 흰색 텍스트가 있는 회색 테두리가 있는 도구 설명을 설정하려면 11픽셀 크기를 설정합니다.
+예 - 회색 테두리에 모서리 반경이 3픽셀, 검정색 배경색, Arial®로 작성된 흰색 텍스트가 있는 도구 설명을 설정하려면 11픽셀 크기입니다.
 
 ```
 .s7tooltip { 

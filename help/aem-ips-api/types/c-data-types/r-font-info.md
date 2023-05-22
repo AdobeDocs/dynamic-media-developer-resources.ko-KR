@@ -1,7 +1,7 @@
 ---
-description: 글꼴 자산 속성.
+description: 글꼴 자산 속성입니다.
 solution: Experience Manager
-title: FontInfo
+title: 글꼴 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL FontInfo]{#fontinfo}
 
-글꼴 자산 속성.
+글꼴 자산 속성입니다.
 
 구문
 
@@ -22,6 +22,6 @@ ht-degree: 23%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | 글꼴 경로입니다. |
-| originalFile | `xsd:string` | 글꼴 이름. |
-| fileSize | `xsd:int` | 글꼴 크기입니다. |
+| 원본 경로 | `xsd:string` | 글꼴 경로. |
+| 원본 파일 | `xsd:string` | 글꼴 이름. |
+| 파일 크기 | `xsd:int` | 글꼴 크기입니다. |

@@ -1,5 +1,5 @@
 ---
-description: 회사의 구조(파일 수 등)에 대한 정보를 반환합니다.
+description: 회사 구조(파일 수 등)에 대한 정보를 반환합니다.
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 14%
 
 # getDiskUsage{#getdiskusage}
 
-회사의 구조(파일 수 등)에 대한 정보를 반환합니다.
+회사 구조(파일 수 등)에 대한 정보를 반환합니다.
 
-## 인증된 사용자 유형 {#authorized-user-types}
+## 승인된 사용자 유형 {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,17 +29,17 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 디스크 사용을 가져오려는 회사의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 디스크 사용을 가져오려는 회사에 대한 핸들입니다. |
 
 **출력(getDiskUsageReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | 예 | 회사 디스크 사용 배열입니다. |
+| diskUsageArray | `types:DiskUsageArray` | 예 | 회사 디스크 사용 배열. |
 
 ## 예제 {#section-cb16a97badc94076ad5da277db5ed16a}
 
-이 요청의 이름이 오해의 소지가 있습니다. 회사에서 사용 중인 디스크 공간의 양을 반영하는 스칼라 값만 반환하는 대신 회사 구조에 대한 다른 정보도 가져옵니다.
+이 요청의 이름은 오해의 소지가 있습니다. 기업이 사용하는 디스크 공간을 반영하는 스칼라 값만 반환하기보다는 기업의 구조에 대한 다른 정보도 얻게 된다.
 
 **요청**
 

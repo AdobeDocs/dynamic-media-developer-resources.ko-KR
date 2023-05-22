@@ -1,5 +1,5 @@
 ---
-title: AnimatedGifInfo
+title: 애니메이션 GifInfo
 description: 애니메이션 GIF 파일 자산의 속성입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -8,7 +8,7 @@ exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>GIF 파일의 경로입니다. </p> </td> 
+   <td colname="col3"> <p>GIF 파일 경로. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 14%
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedPath]</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>IPS에 최적화된 이미지 파일의 경로입니다. </p> </td> 
+   <td colname="col3"> <p>IPS 최적화 이미지 파일의 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedFile]</span></span> </p> </td> 

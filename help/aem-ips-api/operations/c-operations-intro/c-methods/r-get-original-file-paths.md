@@ -1,5 +1,5 @@
 ---
-description: 회사 자산의 원래 파일 경로를 가져옵니다.
+description: 회사 자산의 원본 파일 경로를 가져옵니다.
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 16%
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-회사 자산의 원래 파일 경로를 가져옵니다.
+회사 자산의 원본 파일 경로를 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-da8d8561e9174e938f3595a5d6e50089}
+## 승인된 사용자 유형 {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +30,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->자산에 대한 읽기 액세스 권한이 필요합니다.
+>에셋에 대한 읽기 액세스 권한이 필요합니다.
 
 ## 매개 변수 {#section-a6b394daba6e49a8882cf3051035d9d1}
 
@@ -38,8 +38,8 @@ ht-degree: 16%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사의 손잡이입니다. |
-| assetHandleArray | `types:HandleArray` | 예 | 원본 파일 경로를 가져오려는 자산의 핸들의 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 손잡이. |
+| assetHandleArray | `types:HandleArray` | 예 | 원래 파일 경로를 가져오려는 자산에 대한 핸들 배열입니다. |
 
 **출력(getOriginalFilePathsReturn)**
 
@@ -49,7 +49,7 @@ ht-degree: 16%
 
 ## 예제 {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-이 코드 샘플은 자산 핸들 배열의 고유한 자산 핸들과 지정된 자산의 파일 경로를 반환합니다.
+이 코드 샘플은 에셋 핸들 배열에 고유한 에셋 핸들로 지정된 에셋의 파일 경로를 반환합니다.
 
 **요청**
 

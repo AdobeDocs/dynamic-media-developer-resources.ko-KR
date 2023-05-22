@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}

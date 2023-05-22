@@ -1,5 +1,5 @@
 ---
-description: 사용자를 하나 이상의 회사에 추가합니다.
+description: 하나 이상의 회사에 사용자를 추가합니다.
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # addCompanyMembership{#addcompanymembership}
 
-사용자를 하나 이상의 회사에 추가합니다.
+하나 이상의 회사에 사용자를 추가합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
+## 승인된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +31,16 @@ ht-degree: 14%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 아니요 | 구성원을 추가할 사용자의 핸들입니다. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | 예 | 사용자를 추가할 회사의 배열입니다. |
+| 사용자 핸들 | `xsd:string` | 아니요 | 멤버십을 추가하려는 사용자에 대한 핸들입니다. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | 예 | 사용자를 추가하는 회사의 배열입니다. |
 
 **출력(addCompanyMembershipReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-5469f88bac7047cca131faa6b021e437}
 
-이 예에서는 companyHandleArray를 사용하여 사용자를 단일 회사에 추가합니다.
+이 예제에서는 companyHandleArray를 사용하여 사용자를 단일 회사에 추가합니다.
 
 **요청**
 

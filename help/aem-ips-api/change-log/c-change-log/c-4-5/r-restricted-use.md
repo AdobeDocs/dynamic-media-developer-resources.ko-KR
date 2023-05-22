@@ -1,5 +1,5 @@
 ---
-description: 베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media 개발 응용 프로그램 외부에서 사용하지 않습니다.
+description: Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media에서 개발한 애플리케이션 외부에서 사용할 수 없습니다.
 solution: Experience Manager
 title: 제한된 사용
 feature: Dynamic Media Classic,SDK/API
@@ -7,102 +7,102 @@ role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
 # 제한된 사용{#restricted-use}
 
-베타 WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media 개발 응용 프로그램 외부에서 사용하지 않습니다.
+Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media에서 개발한 애플리케이션 외부에서 사용할 수 없습니다.
 
-이러한 작업 및 유형은 후속 시스템 업데이트를 사용하지 않거나 변경하거나 사용하지 않을 수 있습니다.
+이러한 작업 및 유형은 후속 시스템 업데이트 시 비활성화, 변경 또는 사용 중단될 수 있습니다.
 
 **새 유형**
 
-* AssetPublishContexts
-* AssetPublishContextsArray
-* CompanyMetadataInfo
-* CompanyMetadataInfoArray
+* AssetPublishContext
+* AssetPublishContextArray
+* 회사 메타데이터 정보
+* 회사 메타데이터 정보 배열
 * CreateVideoSitemapJob
-* PublishContext
+* 게시 컨텍스트
 * PublishContextArray
 * SearchFilter
-* LongArray
+* 긴 배열
 
 **새 작업**
 
 * applyMetadataTemplate
-* batchGetAssetPublishContexts
-* createCompanyMetadata
-* deleteCompanyMetadata
-* getCompanyMetadata
+* batchGetAssetPublishContext
+* createCompanyMetdata
+* delete회사 메타데이터
+* getCompanyMeta
 * getPublishContexts
-* listCompanyMetadata
+* listCompanyMeta
 * removeMask
 * removePropertySetPermissions
-* searchAssetsBy유사성
+* searchAssetsBySimilarity
 * searchAssetsByFulltext
 * setAssetPublishState
 * setPropertySetPermissions
-* updateAssetSet
-* updateCompanyMetadata
-* updateImageSet
+* updateAsset
+* updateCompanyMeta
+* 이미지 집합 업데이트
 * updatePropertySetPermissions
 
 **수정된 유형**
 
-* `ActiveJob`이(가) `createVideoSitemapJob` 유형을 포함하도록 변경됨
+* 변경됨 `ActiveJob` 포함 `createVideoSitemapJob` 유형
 
-* `ScheduledJob`이(가) `createVideoSitemapJob` 유형을 포함하도록 변경됨
+* 변경됨 `ScheduledJob` 포함 `createVideoSitemapJob` 유형
 
-* `ImageServingPublishJob`이(가) 옵션 `contextHandle`을 포함하도록 변경되었습니다.
+* 변경됨 `ImageServingPublishJob` 선택 사항을 포함하려면 `contextHandle`
 
-* `ImageRenderingPublishJob`이(가) 옵션 `contextHandle`을 포함하도록 변경되었습니다.
+* 변경됨 `ImageRenderingPublishJob` 선택 사항을 포함하려면 `contextHandle`
 
-* `MetadataField`이(가) 옵션 `initialTagField`을 포함하도록 변경되었습니다.
+* 변경됨 `MetadataField` 선택 사항을 포함하려면 `initialTagField`
 
-* `MetadataCondition`이(가) 포함 및 선택적 `caseSensitive` 매개 변수로 변경되었습니다.
+* 변경됨 `MetadataCondition` 및 옵션 포함 `caseSensitive` 매개 변수
 
-* `PropertySet`이(가) 옵션 `PermissionArray`을 `permissions`(으)로 포함하도록 변경되었습니다.
+* 변경됨 `PropertySet` 선택 사항을 포함하려면 `PermissionArray` 다음으로: `permissions`
 
-* `UploadDirectoryJob`이 선택적 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수를 포함하도록 변경되었습니다.
+* 변경됨 `UploadDirectoryJob` 옵션 포함 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수
 
-* `VideoPublishJob`이(가) 옵션 `contextHandle`을 포함하도록 변경되었습니다.
+* 변경됨 `VideoPublishJob` 선택 사항을 포함하려면 `contextHandle`
 
 **수정된 작업**
 
-* `createAssetSet`이(가) 옵션 `thumbAssetHandle`을 포함하도록 변경되었습니다.
+* 변경됨 `createAssetSet` 선택 사항을 포함하려면 `thumbAssetHandle`
 
-* `createImageSet`이(가) 옵션 `thumbAssetHandle`을 포함하도록 변경되었습니다.
+* 변경됨 `createImageSet` 선택 사항을 포함하려면 `thumbAssetHandle`
 
-* `createMetadataField`이(가) 선택적 `initialTagValue` 매개 변수를 포함하도록 변경되었습니다.
+* 변경됨 `createMetadataField` 선택 사항을 포함하려면 `initialTagValue` 매개 변수
 
-* `createPropertySet`이(가) 옵션 `PermissionUpdateArray`을 `permissionArray`(으)로 포함하도록 변경되었습니다.
+* 변경됨 `createPropertySet` 선택 사항을 포함하려면 `PermissionUpdateArray` 다음으로: `permissionArray`
 
-* `getImageServingPublishSettings`이(가) 선택적 `contextHandle` 매개 변수를 포함하도록 변경되었습니다.
+* 변경됨 `getImageServingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
 
-* `getImageRenderingPublishSettings`이(가) 선택적 `contextHandle` 매개 변수를 포함하도록 변경되었습니다.
+* 변경됨 `getImageRenderingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
 
-* 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByFullText`을 변경했습니다.
+* 변경됨 `searchAssetsByFullText` 일련의 선택적 매개 변수를 포함하려면 다음을 수행합니다.
 
-   * `SearchFilter` as  `filters` parameter
-
-   * `sortBy`
-   * `sortDirection`
-
-* 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByMetadata`을 변경했습니다.
-
-   * `SearchFilter` as  `filters` parameter
+   * `SearchFilter` 다음으로: `filters` 매개 변수
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` 7개의 매개변수 순서
 
-* `setAssetPublishState`이(가) 옵션 `HandleArray`을 `contextHandleArray`(으)로 포함하도록 변경되었습니다.
+* 변경됨 `searchAssetsByMetadata` 일련의 선택적 매개 변수를 포함하려면 다음을 수행합니다.
 
-* `setImageServingPublishSettings`이(가) 선택적 `contextHandle` 매개 변수를 포함하도록 변경되었습니다.
+   * `SearchFilter` 다음으로: `filters` 매개 변수
 
-* `setImageRenderingPublishSettings`이(가) 선택적 `contextHandle`매개 변수를 포함하도록 변경되었습니다.
+   * `sortBy`
+   * `sortDirection`
+   * `haystackSearch` 7개 매개 변수의 시퀀스
 
-* 옵션 `createVideoSitemap` 작업 유형을 포함하도록 `submitJob`을 변경했습니다.
+* 변경됨 `setAssetPublishState` 선택 사항을 포함하려면 `HandleArray` 다음으로: `contextHandleArray`
+
+* 변경됨 `setImageServingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
+
+* 변경됨 `setImageRenderingPublishSettings` 선택 사항을 포함하려면 `contextHandle`매개 변수
+
+* 변경됨 `submitJob` 선택 사항을 포함하려면 `createVideoSitemap` 작업 유형

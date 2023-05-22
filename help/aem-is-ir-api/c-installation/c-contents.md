@@ -1,6 +1,6 @@
 ---
 title: 목차
-description: 설치 후 install_root의 폴더 계층에는 아래 나열된 파일과 폴더가 포함됩니다.
+description: 설치 후 install_root 의 폴더 계층에는 아래 나열된 파일과 폴더가 포함됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 목차{#contents}
 
-설치 후 install_root의 폴더 계층에는 아래 나열된 파일과 폴더가 포함됩니다.
+설치 후 install_root 의 폴더 계층에는 아래 나열된 파일과 폴더가 포함됩니다.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 2%
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>루트 설치 </p> </th> 
+   <th colname="col1" class="entry"> <p>설치 루트 </p> </th> 
    <th colname="col2" class="entry"> <p> </p> </th> 
    <th colname="col3" class="entry"> <p> </p> </th> 
    <th colname="col4" class="entry"> <p>설명 </p> </th> 
@@ -34,13 +34,13 @@ ht-degree: 2%
    <td colname="col1"> <p> <span class="filepath"> 라이센스 </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Linux®용 라이센스 파일 폴더입니다. </p> </td> 
+   <td colname="col4"> <p>Linux®용 라이센스 파일 폴더 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> ImageServing/ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> 이미지 제공/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 제공 설치 루트 폴더입니다. </p> </td> 
+   <td colname="col4"> <p>이미지 제공 설치 루트 폴더. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -58,7 +58,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh(.bat) </span> </p> </td> 
-   <td colname="col4"> <p>이미지 제공 시작 및 중지 스크립트. </p> </td> 
+   <td colname="col4"> <p>이미지 제공을 시작 및 정지하는 스크립트입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -69,8 +69,8 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> ic (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>이미지 제공 이미지 변환기 유틸리티입니다. </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> ic(.exe) </span> </p> </td> 
+   <td colname="col4"> <p>이미지 제공 이미지 변환기 유틸리티. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -81,20 +81,20 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> 유효성 검사(.exe) </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> 유효성 확인(.exe) </span> </p> </td> 
    <td colname="col4"> <p>이미지 제공 이미지 유효성 검사 유틸리티입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> Vntc (.exe) </span> </p> </td> 
-   <td colname="col4"> <p>이미지 렌더링 비네팅, 캐비닛 및 창 커버 변환기 유틸리티 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> Vntc(.exe) </span> </p> </td> 
+   <td colname="col4"> <p>이미지 렌더링 비네팅, 캐비닛 및 창 커버링 컨버터 유틸리티. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>데이터 캐시 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>데이터 캐시 폴더: 설치 시 또는 구성 파일을 수동으로 편집하여 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -116,9 +116,9 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 카탈로그/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>IS 이미지 카탈로그 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>IS 이미지 카탈로그 폴더. 설치 시 또는 구성 파일을 수동으로 편집하여 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,7 +130,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 서버가 작동하려면 이 필요합니다. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 서버가 작동하려면 가 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -154,7 +154,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> default-profiles/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 제공 서비스의 기본 프로필을 포함합니다. </p> </td> 
+   <td colname="col4"> <p>이미지 제공에 대한 기본 프로필을 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -166,13 +166,13 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 이미지/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 제공 소스 데이터 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>이미지 제공 소스 데이터 폴더. 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 로그/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>모든 PS 및 IS 로그 데이터가 이 폴더에 기록됩니다. 구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>모든 PS 및 IS 로그 데이터가 이 폴더에 기록됩니다. 구성 파일을 수동으로 편집하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -190,7 +190,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> 감독자-*.log </span> </p> </td> 
-   <td colname="col4"> <p>감독자 디버그/오류 로그 </p> </td> 
+   <td colname="col4"> <p>감독자 디버그/오류 로그. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -200,15 +200,15 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> ReadMe.htm </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 읽어보기.htm </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 정적 콘텐츠/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>정적 콘텐츠 데이터 소스 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>정적 콘텐츠 데이터 소스 폴더. 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -224,12 +224,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> 웹 앱/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> webapps/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>여기에 Java™ 웹 응용 프로그램(is-docs, ir-docs 및 is-viewer 포함)을 배포합니다. </p> </td> 
+   <td colname="col4"> <p>여기에 Java™ 웹 애플리케이션(is-docs, ir-docs 및 is-viewer 포함)을 배포합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> ImageRendering/ </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> 이미지 렌더링/ </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>이미지 렌더링 설치 루트 폴더. </p> </td> 
@@ -238,13 +238,13 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 백업/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이전 설치의 구성 파일 백업. </p> </td> 
+   <td colname="col4"> <p>이전 설치의 구성 파일 백업입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> 카탈로그/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 렌더링 카탈로그 폴더; 구성 파일을 수동으로 편집하거나 설치할 때 구성할 수 있습니다. </p> </td> 
+   <td colname="col4"> <p>이미지 렌더링 카탈로그 폴더. 설치 시 또는 구성 파일을 수동으로 편집하여 구성할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,7 +262,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 서버가 작동하려면 이 필요합니다. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> 서버가 작동하려면 가 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -274,7 +274,7 @@ ht-degree: 2%
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> 리소스/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>이미지 렌더링 소스 데이터 폴더; 구성 파일을 수동으로 편집합니다. </p> </td> 
+   <td colname="col4"> <p>이미지 렌더링 소스 데이터 폴더. 구성 파일을 수동으로 편집합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 이미지 최적화 작업에 대한 세부 사항입니다.
+description: 이미지 최적화 작업에 대한 세부 정보.
 solution: Experience Manager
 title: OptimizeImagesJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL OptimizeImagesJob]{#optimizeimagesjob}
 
-이미지 최적화 작업에 대한 세부 사항입니다.
+이미지 최적화 작업에 대한 세부 정보.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 21%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| emailSetting | `xsd:string` | 전자 메일 설정 필드입니다. |
+| emailSettings | `xsd:string` | 이메일 설정 필드. |

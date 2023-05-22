@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 14%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 구문
 
-## 인증된 사용자 유형 {#section-8199e8599ea64e7097a2acb633417b15}
+## 승인된 사용자 유형 {#section-8199e8599ea64e7097a2acb633417b15}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,27 +44,27 @@ ht-degree: 14%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>작업이 속한 회사의 핸들. </p> </td> 
+   <td colname="col4"> <p>작업이 속한 회사에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>실행할 작업의 핸들입니다. </p> </td> 
+   <td colname="col4"> <p>실행할 작업에 대한 핸들입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **출력(executeJobReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-96f71aa58a954293b9a98ff96d86f232}
 
-이 코드 샘플은 IPS에서 실행되도록 예약된 작업을 실행합니다.
+이 코드 샘플은 IPS로 실행되도록 예약된 작업을 실행합니다.
 
 **요청**
 

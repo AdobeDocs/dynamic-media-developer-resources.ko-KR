@@ -1,6 +1,6 @@
 ---
 title: AssetJobLogArray
-description: 자산 작업 로그 배열입니다.
+description: 자산 작업 로그 배열.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-자산 작업 로그 배열입니다.
+자산 작업 로그 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:AssetJobLog` | 자산 작업 로그 배열입니다. |
+| 항목 | `types:AssetJobLog` | 자산 작업 로그 배열. |

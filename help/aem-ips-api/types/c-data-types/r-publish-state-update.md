@@ -1,5 +1,5 @@
 ---
-description: 자산의 게시 상태를 업데이트하는 데 사용되는 매개 변수입니다.
+description: 에셋의 게시 상태를 업데이트하는 데 사용되는 매개 변수.
 solution: Experience Manager
 title: PublishStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PublishStateUpdate]{#publishstateupdate}
 
-자산의 게시 상태를 업데이트하는 데 사용되는 매개 변수입니다.
+에셋의 게시 상태를 업데이트하는 데 사용되는 매개 변수.
 
 구문
 
@@ -22,5 +22,5 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetHandle | `xsd:string` | 자산 핸들. |
-| publishState | `xsd:string` | 새 게시 상태입니다. |
+| assetHandle | `xsd:string` | 에셋 핸들. |
+| publishState | `xsd:string` | 새 게시 상태. |

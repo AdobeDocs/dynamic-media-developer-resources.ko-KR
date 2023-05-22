@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-b2bc2fa0cc944cea8be82524838307cc}
+## 승인된 사용자 유형 {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,14 +31,14 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 얻고자 하는 구성원이 있는 회사의 손잡이입니다. |
+| company핸들 | `xsd:string` | 예 | 멤버를 가져오려는 회사에 대한 핸들. |
 | includeInvalid | `xsd:boolean` | 예 | 잘못된 회사를 포함합니다. |
 
 **출력(getCompanyMembersReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| memberArray | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열입니다. |
+| memberArray | `types:CompanyMemberArray` | 예 | 사용자 멤버십 배열. |
 
 ## 예제 {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

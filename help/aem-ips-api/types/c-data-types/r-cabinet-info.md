@@ -1,5 +1,5 @@
 ---
-description: 캐비닛 자산의 속성입니다.
+description: 캐비닛 에셋의 속성입니다.
 solution: Experience Manager
 title: 캐비닛 정보
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL CabinetInfo]{#cabinetinfo}
 
-캐비닛 자산의 속성입니다.
+캐비닛 에셋의 속성입니다.
 
 구문
 
@@ -22,10 +22,10 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | 원래 캐비닛의 상대 경로입니다. |
-| originalFile | `xsd:string` | 캐비닛 이름. |
-| fileSize | `xsd:int` | 캐비닛 크기입니다. |
-| imagePath | `xsd:string` | 비네트와 연관된 캐비닛의 상대 경로입니다. |
-| imageFile | `xsd:string` | 비네트와 연결된 캐비닛의 파일 이름입니다. |
-| optimizedPath | `xsd:string` | IPS에 최적화된 캐비닛의 경로입니다. |
-| optimizedFile | `xsd:string` | IPS에 최적화된 캐비닛 파일입니다. |
+| 원본 경로 | `xsd:string` | 원래 캐비닛에 대한 상대 경로입니다. |
+| 원본 파일 | `xsd:string` | 캐비닛 이름입니다. |
+| 파일 크기 | `xsd:int` | 캐비닛 크기입니다. |
+| imagePath | `xsd:string` | 비네팅과 연결된 캐비닛의 상대 경로입니다. |
+| imageFile | `xsd:string` | 비네팅과 연결된 캐비닛의 파일 이름입니다. |
+| 최적화된 경로 | `xsd:string` | IPS 최적화 캐비닛의 경로입니다. |
+| 최적화된 파일 | `xsd:string` | IPS에 최적화된 캐비닛 파일입니다. |

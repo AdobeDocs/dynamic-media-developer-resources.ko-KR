@@ -1,26 +1,26 @@
 ---
 title: 기본 뷰어 영역
-description: 기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
+description: 주요 보기 영역은 360 영상이 차지하는 영역이다. 크기를 지정하지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 3%
 
 ---
 
 # 기본 뷰어 영역{#main-viewer-area}
 
-기본 보기 영역은 360 비디오가 점유하는 영역입니다. 크기가 지정되지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
+주요 보기 영역은 360 영상이 차지하는 영역이다. 크기를 지정하지 않은 경우 사용 가능한 장치 화면에 맞게 설정됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 보기 영역의 모양이 제어됩니다.
 
 ```
 .s7video360viewer
@@ -40,10 +40,10 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 예 {#section-ee18025b182a42dc98052de5f133ddfe}
 
-흰색 배경인 뷰어를 설정하고 크기를 512 x 288픽셀로 만들려면`#FFFFFF`
+흰색 배경의 뷰어를 설정하려면( `#FFFFFF`) 및 의 크기를 512 x 288 픽셀로 만듭니다.
 
 ```
 .s7video360viewer { 

@@ -1,6 +1,6 @@
 ---
-title: setHandlers
-description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
+title: setHandler
+description: 인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# setHandlers{#sethandlers}
+# setHandler{#sethandlers}
 
-인라인 확대/축소 뷰어에 대한 JavaScript API 참조.
+인라인 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
 
 `setHandlers(handlers)`
 
-콜백 처리기를 0개 이상 지정합니다. 이 메서드 호출은 해당 뷰어 인스턴스에 대해 이전에 할당한 이벤트 핸들러를 완전히 덮어씁니다. 전에 호출해야 함 `init()`.
+0개 이상의 콜백 핸들러를 지정합니다. 이 메서드 호출은 해당 뷰어 인스턴스에 대해 이전에 할당된 이벤트 핸들러를 완전히 덮어씁니다. 전에 호출해야 함 `init()`.
 
 ## 매개 변수 {#section-0cc9961784d04eb3b7d50011309b0119}
 
@@ -26,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 핸들러 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 뷰어 이벤트 콜백이 있는 JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고 속성 값은 적절한 콜백을 위한 JavaScript 함수 참조입니다. </p> <p>자세한 내용은 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a> 뷰어 이벤트에 대한 자세한 정보. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> 속성 이름이 지원되는 뷰어 이벤트 이름이고 속성 값이 적절한 콜백에 대한 JavaScript 함수 참조인 뷰어 이벤트 콜백이 있는 JSON 개체입니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-event-callbacks.md#concept-53eb01d28189437790268da4929f2a10" format="dita" scope="local"> 이벤트 콜백 </a> 뷰어 이벤트에 대한 자세한 정보. </p> </td> 
   </tr> 
  </tbody> 
 </table>

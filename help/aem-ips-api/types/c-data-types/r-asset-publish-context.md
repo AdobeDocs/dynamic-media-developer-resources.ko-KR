@@ -1,7 +1,7 @@
 ---
-description: 자산을 게시하도록 표시된 PublishContexts에 자산을 매핑합니다.
+description: 자산을 게시용으로 표시된 PublishContexts에 매핑합니다.
 solution: Experience Manager
-title: AssetPublishContexts
+title: AssetPublishContext
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-자산을 게시하도록 표시된 PublishContexts에 자산을 매핑합니다.
+자산을 게시용으로 표시된 PublishContexts에 매핑합니다.
 
 구문
 
@@ -23,4 +23,4 @@ ht-degree: 9%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | assetHandle | `xsd:string` | 자산을 처리합니다. |
-| publishContextArray | `types:PublishContextArray` | 자산이 게시용으로 표시된 게시 컨텍스트의 배열입니다. |
+| publishContextArray | `types:PublishContextArray` | 자산이 게시용으로 표시된 게시 컨텍스트 배열입니다. |

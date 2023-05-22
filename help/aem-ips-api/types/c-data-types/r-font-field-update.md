@@ -1,7 +1,7 @@
 ---
 description: 글꼴 속성에 대한 정보를 업데이트합니다.
 solution: Experience Manager
-title: FontFieldUpdate
+title: 글꼴 필드 업데이트
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
@@ -27,6 +27,6 @@ ht-degree: 9%
 | postscriptName | `xsd:string` | PostScript 글꼴 이름입니다. |
 | rtfName | `xsd:string` | 리치 텍스트 글꼴 이름입니다. |
 | [!DNL fontFamily] | `xsd:string` | 글꼴 패밀리 이름입니다. |
-| [!DNL style] | `xsd:string` | 글꼴 스타일(값에 대한 글꼴 스타일 참조). |
+| [!DNL style] | `xsd:string` | 글꼴 스타일(값은 글꼴 스타일 참조) |
 | typeName | `xsd:string` | 글꼴 유형 이름입니다. |
-| [!DNL type] | `xsd:string` | 글꼴 유형(값에 대한 글꼴 유형 참조). |
+| [!DNL type] | `xsd:string` | 글꼴 유형(값은 글꼴 유형 참조) |

@@ -1,20 +1,20 @@
 ---
-description: 이러한 항목에는 콘텐츠 관리에 대한 정보가 포함되어 있습니다.
+description: 이 항목에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 solution: Experience Manager
-title: 콘텐츠 관리
+title: 컨텐츠 관리
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: f79201d3-a423-42f0-815b-2e91a22eb6f0
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
-# 콘텐츠 관리{#managing-content}
+# 컨텐츠 관리{#managing-content}
 
-이러한 항목에는 콘텐츠 관리에 대한 정보가 포함되어 있습니다.
+이 항목에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
 * [이미지 카탈로그](c-image-catalogs.md)
 * [소스 데이터](r-source-data.md)

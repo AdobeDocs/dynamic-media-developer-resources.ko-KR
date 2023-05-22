@@ -1,5 +1,5 @@
 ---
-description: 파일을 이미지 서버에 게시합니다.
+description: 이미지 서버에 파일을 게시합니다.
 solution: Experience Manager
 title: ImageServingPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageServingPublishJob]{#imageservingpublishjob}
 
-파일을 이미지 서버에 게시합니다.
+이미지 서버에 파일을 게시합니다.
 
 구문
 
@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| publishType | `xsd:string` | 사용 가능한 게시 유형 중 하나입니다. |
-| emailSetting | `xsd:string` | 이메일 설정 선택. |
+| publishType | `xsd:string` | 사용 가능한 게시 유형 중 하나. |
+| emailSettings | `xsd:string` | 이메일 설정 선택. |
 | httpCompletionUrl | `xsd:string` | 완료 알림을 보낼 URL입니다. |

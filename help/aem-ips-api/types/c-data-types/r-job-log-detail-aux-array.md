@@ -1,5 +1,5 @@
 ---
-description: 보조 작업 로그 세부 정보 유형의 배열입니다.
+description: 보조 작업 로그 세부 정보 유형 배열.
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL JobLogDetailAuxArray]{#joblogdetailauxarray}
 
-보조 작업 로그 세부 정보 유형의 배열입니다.
+보조 작업 로그 세부 정보 유형 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:JobLogDetailAux` | 보조 작업 로그 세부 정보 유형의 배열입니다. |
+| 항목 | `types:JobLogDetailAux` | 보조 작업 로그 세부 정보 유형 배열. |

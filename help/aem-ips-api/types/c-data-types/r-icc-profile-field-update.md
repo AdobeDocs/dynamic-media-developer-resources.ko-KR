@@ -22,7 +22,7 @@ ICC 프로파일 속성에 대한 정보를 업데이트합니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetHandle | `xsd:string` | 업데이트할 ICC 프로필 자산의 핸들입니다. |
-| [!DNL class] | `xsd:string` | 프로필 클래스(값에 대해서는 &quot;프로필 클래스&quot; 참조). |
-| colorSpace | `xsd:string` | 프로필 색상 공간(값에 대해서는 &quot;색상 공간&quot; 참조). |
-| pcsType | `xsd:string` | 프로필 연결 공간(값에 대해서는 &quot;색상 공간&quot; 참조). |
+| assetHandle | `xsd:string` | 업데이트할 ICC 프로파일 자산의 핸들입니다. |
+| [!DNL class] | `xsd:string` | 프로필 클래스(값은 &quot;프로필 클래스&quot; 참조) |
+| 색상 공간 | `xsd:string` | 프로필 색상 공간(값은 &quot;색상 공간&quot; 참조). |
+| pcsType | `xsd:string` | 프로필 연결 공간(값은 &quot;색상 공간&quot; 참조). |

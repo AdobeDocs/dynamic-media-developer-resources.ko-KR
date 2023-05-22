@@ -1,6 +1,6 @@
 ---
-title: 파노라마 뷰어
-description: 생성자에서 새 HTML5 회전 뷰어 인스턴스를 만듭니다.
+title: PanoramicViewer
+description: 생성자는 새 HTML5 회전 뷰어 인스턴스를 만듭니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -11,17 +11,17 @@ ht-degree: 3%
 
 ---
 
-# 파노라마 뷰어{#panoramicviewer}
+# PanoramicViewer{#panoramicviewer}
 
 `PanoramicViewer([config])`
-생성자에서 새 HTML5 파노라마 뷰어 인스턴스를 만듭니다.
+생성자는 새 HTML5 파노라마 뷰어 인스턴스를 만듭니다.
 
 ## 매개 변수 {#section-fa807db629ce43bab286b1e1dc96c492}
 
-구성 {Object} 선택적 JSON 구성 개체를 사용하면 모든 뷰어 설정을 생성자에게 전달하고 개별 setter 메서드를 호출하지 않도록 할 수 있습니다. 다음 속성을 포함합니다.
-* containerId - 뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 {String} ID입니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요는 없지만 init()가 실행될 때는 컨테이너가 있어야 합니다. 필수
-* params - 속성 이름이 뷰어 특정 구성 옵션 또는 SDK 한정자이고 해당 속성 값이 해당 설정 값인 뷰어 구성 매개 변수가 있는 {Object} JSON 개체. 필수
-* handlers - 뷰어 이벤트 콜백이 있는 {Object} JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트의 이름이고 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. 뷰어 이벤트에 대한 자세한 내용은 이벤트 콜백 섹션을 참조하십시오. 선택 사항입니다
+config {Object} 선택적 JSON 구성 개체를 사용하면 모든 뷰어 설정을 생성자에 전달하고 개별 setter 메서드를 호출하지 않을 수 있습니다. 다음 속성을 포함합니다.
+* containerId - 뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 {String} ID입니다. 이 메서드가 호출될 때 컨테이너 요소를 만들 필요는 없지만 init()가 실행될 때 컨테이너가 있어야 합니다. 필수
+* params - {Object} JSON 개체와 뷰어 구성 매개변수가 있는 속성 이름 - 속성 이름은 뷰어별 구성 옵션 또는 SDK 수정자이고 해당 속성 값은 해당 설정 값입니다. 필수
+* 핸들러 - 뷰어 이벤트 콜백이 있는 {Object} JSON 개체. 여기서 속성 이름은 지원되는 뷰어 이벤트 이름이고 속성 값은 적절한 콜백에 대한 JavaScript 함수 참조입니다. 뷰어 이벤트에 대한 자세한 내용은 이벤트 콜백 섹션을 참조하십시오. 선택적
 
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

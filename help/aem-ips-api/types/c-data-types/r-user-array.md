@@ -1,7 +1,7 @@
 ---
-description: 사용자 배열입니다.
+description: 사용자 배열.
 solution: Experience Manager
-title: UserArray
+title: 사용자 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL UserArray]{#userarray}
 
-사용자 배열입니다.
+사용자 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:User` | 사용자 배열입니다. |
+| 항목 | `types:User` | 사용자 배열. |

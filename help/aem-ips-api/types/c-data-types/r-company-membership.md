@@ -22,4 +22,4 @@ ht-degree: 27%
 |---|---|---|
 | [!DNL company] | `types:Company` |  |
 | [!DNL role] | `xsd:string` |  |
-| isActive | `xsd:boolean` | 사용자가 속한 각 회사의 사용자 상태를 설정합니다. |
+| 활성 | `xsd:boolean` | 속한 각 회사의 사용자 상태를 설정합니다. |

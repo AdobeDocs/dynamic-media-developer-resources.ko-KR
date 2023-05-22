@@ -18,16 +18,16 @@ ht-degree: 12%
 
 지원되는 시스템 속성은 다음과 같습니다.
 
-* `IpsVersion`: IPS 버전 번호
-* `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사
+* `IpsVersion`: IPS 버전 번호.
+* `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사입니다.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: SVG 자산 렌더링용 URL 접두사입니다.
-* `SvgRenderEnabled`: SVG 자산을 `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: SVG 에셋 렌더링용 URL 접두사입니다.
+* `SvgRenderEnabled`: SVG 에셋을 렌더링할 수 있는 경우 참 `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트)입니다 [!DNL POST]. 시스템은 최대 제한보다 큰 파일을 거부합니다.
+* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]. 최대 한도보다 큰 파일은 거부됩니다.
 
-## 인증된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
+## 승인된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -45,7 +45,7 @@ ht-degree: 12%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| 이름 | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
+| name | `xsd:string` | 예 | 가져올 속성의 이름입니다. |
 
 **출력(getPropertyReturn)**
 

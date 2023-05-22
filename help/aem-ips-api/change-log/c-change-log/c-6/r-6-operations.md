@@ -1,5 +1,5 @@
 ---
-description: IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
+description: IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법을 설명합니다.
 solution: Experience Manager
 title: 새 작업 및 수정된 작업
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
 
 # 작업: 신규 및 수정됨{#operations-new-and-modified}
 
-IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대해 설명합니다.
+IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법을 설명합니다.
 
 구문
 
@@ -31,25 +31,25 @@ IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대�
 
 **추가됨**
 
-* 다음 항목에 `isHidden` 및 `initialTagValue`이 추가되었습니다.
+* 추가됨 `isHidden` 및 `initialTagValue` 끝:
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
    * `createMetadataField`
 
-* 다음에 `thumbAssetHandle`이 추가되었습니다.
+* 추가됨 `thumbAssetHandle` 끝:
 
    * `createImageSet`
    * `createAssetSet`
 
-   다음에 `companyHandle`이 추가되었습니다.
+   추가됨 `companyHandle` 끝:
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   다음에 `contextHandle`이 추가되었습니다.
+   추가됨 `contextHandle` 끝:
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
@@ -58,32 +58,32 @@ IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법에 대�
 
 
 
-* inactive에 includeInactive가 추가되었습니다.
+* includeInactive가 다음에 추가됨:
 
    * `getUsers`.
    * `getUserChars`.
 
-* `permissionArray`을 `createPropertySet`에 추가했습니다.
+* 추가됨 `permissionArray` 끝 `createPropertySet`.
 
-* `exportJob`을 `submitJob`에 추가했습니다.
+* 추가됨 `exportJob` 끝 `submitJob`.
 
 **변경**
 
-* `addUser` 및 `setUser`에서 `role`가 `defaultRole`(으)로 변경되었습니다.
+* 위치 `addUser` 및 `setUser`, 변경됨 `role` 끝 `defaultRole`.
 
-* `getCompanyMembers`에서 `userArray`이 `memberArray`(으)로 변경되었습니다.
+* 위치 `getCompanyMembers`, 변경됨 `userArray` 끝 `memberArray`.
 
-* `getCompanyMembership`에서 `companyArray`이 `membershipArray`(으)로 변경되었습니다.
+* 위치 `getCompanyMembership`, 변경됨 `companyArray` 끝 `membershipArray`.
 
-* `addUser`, `setCompanyMembership` 및 `addCompanyMembership`에서 `membershipArray`이 `companyHandleArray`로 변경되었습니다.
+* 위치 `addUser`, `setCompanyMembership`, 및 `addCompanyMembership`, 변경됨 `membershipArray` 끝 `companyHandleArray`.
 
-* `getCompanyMembership`에서 `companyArray`이 `membershipArray`(으)로 변경되었습니다.
+* 위치 `getCompanyMembership`, 변경됨 `companyArray` 끝 `membershipArray`.
 
-* `getUserChars`에서 `includeInvalid`은 이제 선택 사항입니다.
+* 위치 `getUserChars`, `includeInvalid` 는 이제 선택 사항입니다.
 
 **제거됨**
 
-* `renameAsset`에서 `renameFiles`이(가) 제거되었습니다.
+* 제거됨 `renameFiles` 출처: `renameAsset`.
 
-* `getXMPPanelViewDefinition`이(가) 제거되었습니다.
-* `searchAssetsByFulltext` 및 `searchAssetsBySimilarity`이(가) 제거되었습니다.
+* 제거됨 `getXMPPanelViewDefinition`.
+* 제거됨 `searchAssetsByFulltext` 및 `searchAssetsBySimilarity`.

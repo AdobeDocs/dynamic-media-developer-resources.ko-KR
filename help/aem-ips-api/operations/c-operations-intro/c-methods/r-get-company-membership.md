@@ -1,5 +1,5 @@
 ---
-description: 회사 배열에서 사용자 멤버십을 가져옵니다.
+description: 회사 배열에서 사용자의 멤버십을 가져옵니다.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 18%
 
 # getCompanyMembership{#getcompanymembership}
 
-회사 배열에서 사용자 멤버십을 가져옵니다.
+회사 배열에서 사용자의 멤버십을 가져옵니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-f8bba547e1f648648be99dc48fd72b5d}
+## 승인된 사용자 유형 {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,17 +37,17 @@ ht-degree: 18%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 아니요 | 가져오려는 멤버십이 있는 사용자의 핸들입니다. |
+| 사용자 핸들 | `xsd:string` | 아니요 | 멤버십을 가져올 사용자의 핸들입니다. |
 
 **출력(getCompanyMembershipReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | 예 | 회사 멤버십의 배열입니다. |
+| membershipArray | `types:CompanyMembershipArray` | 예 | 회사 멤버십 배열. |
 
 ## 예제 {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-이 코드 샘플은 사용자 핸들을 가져와서 사용자의 모든 회사 멤버십을 배열에 가져옵니다. 간결성을 위해 응답이 잘렸습니다.
+이 코드 샘플은 사용자 핸들을 가져와 배열에서 사용자의 모든 회사 멤버십을 가져옵니다. 간결성을 위해 응답이 잘렸습니다.
 
 **요청**
 

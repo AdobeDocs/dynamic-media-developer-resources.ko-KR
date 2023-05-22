@@ -18,7 +18,7 @@ ht-degree: 28%
 
 구문
 
-## 인증된 사용자 유형 {#section-7f1979fb5e504bdea3a8df01101b50c3}
+## 승인된 사용자 유형 {#section-7f1979fb5e504bdea3a8df01101b50c3}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +33,15 @@ ht-degree: 28%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
-| folderHandle | `xsd:string` | 예 | 폴더 핸들. |
-| destFolderHandle | `xsd:string` | 예 | 대상 폴더로 처리합니다. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
+| folder핸들 | `xsd:string` | 예 | 폴더 핸들. |
+| destFolderHandle | `xsd:string` | 예 | 대상 폴더에 대한 를 처리합니다. |
 
 **출력(moveFolderReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| folderHandle | `xsd:string` | 예 | 이동한 폴더로 처리합니다. |
+| folder핸들 | `xsd:string` | 예 | 이동된 폴더로 처리합니다. |
 
 ## 예제 {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

@@ -1,6 +1,6 @@
 ---
-title: 자산 수
-description: 회사의 자산 유형 및 카운트입니다.
+title: AssetCount
+description: 회사에 대한 자산 유형 및 개수.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # [!DNL AssetCount]{#assetcount}
 
-회사의 자산 유형 및 카운트입니다.
+회사에 대한 자산 유형 및 개수.
 
-자산 유형은 다음과 같습니다 [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], 및 기타.
+에셋 유형은 다음과 같습니다 [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]및 기타
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetType | `xsd:string` | 개수와 연결된 자산 유형입니다. |
-| 계수 | `sd:int` | 번호 `assetType` 회사의 자산입니다. |
+| assetType | `xsd:string` | 카운트와 연계된 에셋 유형. |
+| 계수 | `sd:int` | 의 수 `assetType` 회사 내 자산입니다. |

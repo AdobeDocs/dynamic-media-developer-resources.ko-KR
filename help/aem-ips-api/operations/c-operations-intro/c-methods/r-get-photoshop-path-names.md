@@ -18,7 +18,7 @@ ht-degree: 20%
 
 구문
 
-## 인증된 사용자 유형 {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## 승인된 사용자 유형 {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,8 +34,8 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
-| assetHandle | `xsd:string` | 예 | 이미지 자산에 대해 처리합니다. |
+| company핸들 | `xsd:string` | 예 | 작업할 이미지가 포함된 회사를 처리합니다. |
+| assetHandle | `xsd:string` | 예 | 이미지 에셋에 대해 처리합니다. |
 
 **출력(getPhotoshopPathNamesReturn)**
 

@@ -1,5 +1,5 @@
 ---
-description: 일괄 처리 모드에서 메타데이터를 업데이트합니다.
+description: 배치 모드로 메타데이터를 업데이트합니다.
 solution: Experience Manager
 title: 일괄 메타데이터 업데이트
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL BatchMetadataUpdate]{#batchmetadataupdate}
 
-일괄 처리 모드에서 메타데이터를 업데이트합니다.
+배치 모드로 메타데이터를 업데이트합니다.
 
 구문
 

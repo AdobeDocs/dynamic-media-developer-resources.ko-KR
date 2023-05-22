@@ -1,6 +1,6 @@
 ---
 title: AssetMove
-description: 자산에 대한 핸들 및 자산이 이동하는 핸들.
+description: 에셋에 대한 핸들 및 에셋이 이동되는 위치에 대한 핸들입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMove]{#assetmove}
 
-자산에 대한 핸들 및 자산이 이동하는 핸들.
+에셋에 대한 핸들 및 에셋이 이동되는 위치에 대한 핸들입니다.
 
 구문
 
@@ -23,4 +23,4 @@ ht-degree: 10%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | assetHandle | `xsd:string` | 이동할 자산의 핸들입니다. |
-| folderHandle | `xsd:string` | 대상 폴더에 대한 핸들입니다. |
+| folder핸들 | `xsd:string` | 대상 폴더에 대한 핸들입니다. |

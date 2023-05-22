@@ -1,7 +1,7 @@
 ---
-description: 속성 세트의 배열입니다.
+description: 속성 집합의 배열입니다.
 solution: Experience Manager
-title: PropertySetArray
+title: 속성 집합 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-속성 세트의 배열입니다.
+속성 집합의 배열입니다.
 
 구문
 

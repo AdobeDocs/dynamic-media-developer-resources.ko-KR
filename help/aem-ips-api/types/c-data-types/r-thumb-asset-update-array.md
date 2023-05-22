@@ -1,5 +1,5 @@
 ---
-description: 경험 자산에 대한 메타데이터 업데이트.
+description: 썸네일 자산에 대한 메타데이터가 업데이트됩니다.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
-경험 자산에 대한 메타데이터 업데이트.
+썸네일 자산에 대한 메타데이터가 업데이트됩니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 24%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ThumbAssetUpdates` | 경험 자산 업데이트 배열입니다. |
+| 항목 | `types:ThumbAssetUpdates` | 썸네일 에셋 업데이트의 배열입니다. |

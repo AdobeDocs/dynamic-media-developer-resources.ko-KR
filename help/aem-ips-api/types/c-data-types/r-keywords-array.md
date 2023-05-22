@@ -1,5 +1,5 @@
 ---
-description: 키워드 배열입니다.
+description: 키워드 배열.
 solution: Experience Manager
 title: KeywordsArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL KeywordsArray]{#keywordsarray}
 
-키워드 배열입니다.
+키워드 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 31%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Keywords` | 키워드 배열입니다. |
+| 항목 | `types:Keywords` | 키워드 배열. |

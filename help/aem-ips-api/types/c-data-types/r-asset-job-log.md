@@ -1,6 +1,6 @@
 ---
 title: AssetJobLog
-description: 특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
+description: 특정 자산과 연관된 작업 로그 항목의 세부 정보. getAssetJobLogs에서 반환된 데이터입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AssetJobLog]{#assetjoblog}
 
-특정 자산과 연관된 작업 로그 항목의 세부 정보입니다. getAssetJobLogs에서 반환된 데이터입니다.
+특정 자산과 연관된 작업 로그 항목의 세부 정보. getAssetJobLogs에서 반환된 데이터입니다.
 
 구문
 
@@ -42,17 +42,17 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업 로그의 메시지입니다. <p><span class="codeph"> [!DNL logMessage]</span> 응답 필드가 <span class="codeph"> authHeader</span> locale 필드. </p></td> 
+   <td colname="col3">작업 로그의 메시지. <p><span class="codeph"> [!DNL logMessage]</span> 응답 필드는 다음을 기반으로 현지화됨: <span class="codeph"> authHeader</span> 로케일 필드. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 로그 항목에 있는 작업 유형입니다. </td> 
+   <td colname="col3"> 로그 항목의 작업 유형입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL submitUserEmail]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 작업을 제출한 사용자의 전자 메일입니다. </td> 
+   <td colname="col3"> 작업을 제출한 사용자의 이메일입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logDate]</span> </span> </td> 
@@ -62,7 +62,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL auxArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:JobLogDetailArray</span> </td> 
-   <td colname="col3"> 각 작업 로그에 대한 보조 작업 로그 메시지의 배열입니다. </td> 
+   <td colname="col3"> 각 작업 로그에 대한 보조 작업 로그 메시지 배열. </td> 
   </tr> 
  </tbody> 
 </table>

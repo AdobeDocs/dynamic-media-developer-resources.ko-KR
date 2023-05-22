@@ -1,7 +1,7 @@
 ---
 description: 이미지 자산과 연결된 이미지 필드를 업데이트합니다.
 solution: Experience Manager
-title: ImageFieldUpdate
+title: 이미지 필드 업데이트
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82bc016b-8a2b-4811-a0b4-1e2a93add3b6
@@ -22,8 +22,8 @@ ht-degree: 8%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetHandle | `xsd:string` | 자산 핸들. |
-| [!DNL resolution] | `xsd:double` | 인치당 이미지 해상도(픽셀 단위)입니다. |
-| [!DNL anchorX] | `xsd:int` | X축 이미지 앵커. |
-| [!DNL anchorY] | `xsd:int` | Y축 이미지 앵커. |
-| [!DNL userData] | `xsd:string` | 값 `userData` 이미지 제공 사용자 데이터 카탈로그 필드에 게시되는 메타데이터 필드입니다. |
+| assetHandle | `xsd:string` | 에셋 핸들. |
+| [!DNL resolution] | `xsd:double` | 인치당 픽셀 단위의 이미지 해상도. |
+| [!DNL anchorX] | `xsd:int` | X축 이미지 앵커입니다. |
+| [!DNL anchorY] | `xsd:int` | Y축 이미지 앵커입니다. |
+| [!DNL userData] | `xsd:string` | 값 `userData` 메타데이터 필드: 이미지 제공 사용자 데이터 카탈로그 필드에 게시됩니다. |

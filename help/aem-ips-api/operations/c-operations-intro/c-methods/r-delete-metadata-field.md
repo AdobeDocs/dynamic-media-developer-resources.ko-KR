@@ -18,7 +18,7 @@ ht-degree: 11%
 
 구문
 
-## 인증된 사용자 유형 {#section-63e7d17f4b434995a872838bfff7f9ff}
+## 승인된 사용자 유형 {#section-63e7d17f4b434995a872838bfff7f9ff}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,16 +30,16 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 삭제할 메타데이터 필드가 포함된 회사의 핸들입니다. |
-| fieldHandle | `xsd:string` | 예 | 삭제할 메타데이터 필드의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 삭제할 메타데이터 필드가 포함된 회사에 대한 핸들입니다. |
+| 필드 핸들 | `xsd:string` | 예 | 삭제할 메타데이터 필드에 대한 핸들입니다. |
 
 **출력(deleteMetadataFieldParam)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. 회사 핸들 및 메타데이터 핸들을 `deleteMetadataFieldParam` 이 작업을 수행하기 위해 IPS 웹 서비스 서버에 전달되었습니다.
+이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. 회사 핸들과 메타데이터 핸들을 의 필드로 사용합니다. `deleteMetadataFieldParam` 이 작업을 수행하기 위해 IPS 웹 서비스 서버에 전달됩니다.
 
 **요청**
 

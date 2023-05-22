@@ -18,7 +18,7 @@ ht-degree: 22%
 
 구문
 
-## 인증된 사용자 유형 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
+## 승인된 사용자 유형 {#section-05c3ea8f7d2d42c6bf7af63e03f457a9}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사를 담당합니다. |
+| company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
 | assetHandle | `xsd:string` | 예 | 자산을 처리합니다. |
 
 **출력(getViewerConfigSettingsReturn)**
@@ -39,4 +39,4 @@ ht-degree: 22%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | 유형 | `xsd:string` | 예 | 구성 설정이 적용되는 뷰어 유형입니다. |
-| configSettingsArray | `types:ConfigSettingsArray` | 예 | 뷰어 구성 설정의 배열입니다. |
+| configSettingsArray | `types:ConfigSettingsArray` | 예 | 뷰어 구성 설정 배열. |

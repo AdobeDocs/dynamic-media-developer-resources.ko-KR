@@ -8,7 +8,7 @@ exl-id: b46daa2f-d565-4502-8842-2b95303a77d2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 5%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-알파|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정한 형식이 <span class="codeph"> -alpha</span>로 지정하는 경우 구성 요소는 이미지를 투명한 콘텐츠로 렌더링합니다. 다른 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명하게 처리합니다. 구성 요소에는 기본적으로 흰색 배경이 있습니다. 따라서 투명하도록 하려면 <span class="codeph"> 배경색</span> CSS 속성을 다음으로 <span class="codeph"> 투명</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td colname="col2"> <p> 구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정된 형식이 다음으로 끝나는 경우 <span class="codeph"> -알파</span>, 구성 요소는 이미지를 투명한 콘텐츠로 렌더링합니다. 기타 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명한 것으로 처리합니다. 구성 요소에는 기본적으로 흰색 배경이 있습니다. 따라서 투명하게 하려면 다음을 설정하십시오. <span class="codeph"> background-color</span> CSS 속성 대상 <span class="codeph"> 투명</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-1e637b22e8a44d759d588e47576891e6}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-71fb773f814649b2885aefee68073641}
 

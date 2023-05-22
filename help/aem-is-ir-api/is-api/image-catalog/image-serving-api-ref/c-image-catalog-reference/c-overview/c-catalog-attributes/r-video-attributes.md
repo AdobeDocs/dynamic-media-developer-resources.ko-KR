@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c6bf2736-df10-41a2-b3ec-c930d6881f20
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-httpflashstreamingcontext.md#reference-c540fe87640e41f7a689a14a05ef5c72" type="reference" format="dita" scope="local"> HttpFlashStreamingContext</a> </span> </p></td> 
-  <td class="stentry"> <p>Flash 스트리밍 서버 URL 접두사. </p></td> 
+  <td class="stentry"> <p>Flash 스트리밍 서버 URL 접두사입니다. </p></td> 
  </tr> 
 </table>

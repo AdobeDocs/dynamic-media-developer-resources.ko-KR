@@ -20,6 +20,6 @@ ht-degree: 14%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| companyHandle | `xsd:string` | 회사를 담당합니다. |
-| 역할 | `xsd:string` | 사용자가 속한 각 회사에 대해 가지는 역할입니다. |
-| isActive | `xsd:boolean` | 사용자가 속한 각 회사의 사용자 상태를 설정합니다. |
+| company핸들 | `xsd:string` | 회사를 위해 처리하십시오. |
+| 역할 | `xsd:string` | 사용자가 속한 각 회사에 대해 갖는 역할입니다. |
+| 활성 | `xsd:boolean` | 속한 각 회사의 사용자 상태를 설정합니다. |

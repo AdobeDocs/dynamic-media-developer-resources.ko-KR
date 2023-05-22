@@ -1,5 +1,5 @@
 ---
-description: 내부용입니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
+description: 내부 전용입니다. 이미지 렌더링 재질 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 17%
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-내부용입니다. 이미지 렌더링 자재 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
+내부 전용입니다. 이미지 렌더링 재질 카탈로그 참조-카탈로그 속성 섹션을 참조하십시오.
 
 구문
 
-## 인증된 사용자 유형 {#section-1097e0563c61480a8e97822dc3527070}
+## 승인된 사용자 유형 {#section-1097e0563c61480a8e97822dc3527070}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,11 +31,11 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 가져올 이미지 렌더링 게시 설정이 있는 회사의 핸들입니다. |
-| contextHandle | `xsd:string` | 예 | 게시 컨텍스트를 처리합니다. |
+| company핸들 | `xsd:string` | 예 | 이미지 렌더링 게시 설정을 가져오려는 회사에 대한 핸들입니다. |
+| context핸들 | `xsd:string` | 예 | 게시 컨텍스트에 대한 핸들입니다. |
 
 **출력(getImageRenderingPublishSettingsReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| publishSettingsArray | `type:ConfigSettingArray` | 예 | 이미지 렌더링 게시 설정. |
+| publishSettingsArray | `type:ConfigSettingArray` | 예 | 이미지 렌더링 게시 설정입니다. |

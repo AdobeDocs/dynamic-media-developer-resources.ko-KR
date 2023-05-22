@@ -1,5 +1,5 @@
 ---
-description: 단일 요청으로 모든 시스템 속성을 검색합니다.
+description: 단일 요청에서 모든 시스템 속성을 검색합니다.
 solution: Experience Manager
 title: getSystemProperties
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 20%
 
 # getSystemProperties{#getsystemproperties}
 
-단일 요청으로 모든 시스템 속성을 검색합니다.
+단일 요청에서 모든 시스템 속성을 검색합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-fc311ce90a54400fa95b9dd36b756e23}
+## 승인된 사용자 유형 {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`

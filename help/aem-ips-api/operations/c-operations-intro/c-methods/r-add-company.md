@@ -16,11 +16,11 @@ ht-degree: 9%
 
 시스템에 회사를 추가합니다.
 
-시스템에 추가할 회사의 이름을 보내고 선택적으로 회사가 만료되는지 여부를 보냅니다.
+시스템에 추가할 회사의 이름을 보내고 선택적으로 회사의 만료 여부를 보냅니다.
 
-이 작업이 호출되면 회사 핸들과 설명 필드가 포함된 companyInfo 유형이 생성됩니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`.
+이 작업이 호출되면 시스템은 회사 핸들과 설명 필드가 포함된 companyInfo 형식을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 이(가) throw됩니다. `ipsApiFault`.
 
-## 인증된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
+## 승인된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -50,7 +50,7 @@ ht-degree: 9%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>회사의 만료 날짜입니다. 이 필드에 대한 요청을 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. </p> </td> 
+   <td colname="col4"> <p>회사의 만료일. 이 필드에 대한 요청과 함께 시간대를 제공합니다. 시간대는 중부 표준시로 조정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ ht-degree: 9%
 
 ## 예제 {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-이 예에서는 IPS 시스템에 회사를 추가하라는 요청과 다른 작업을 수행하는 데 필요한 추가된 회사에 대한 정보를 자세히 설명하는 응답을 보여줍니다.
+이 예에서는 IPS 시스템에 회사를 추가하는 요청과 다른 작업을 수행하는 데 필요한 추가된 회사에 대한 정보를 자세히 설명하는 응답을 보여 줍니다.
 
 **요청**
 

@@ -1,7 +1,7 @@
 ---
-description: 자산의 확장 가능한 메타데이터 플랫폼 키워드.
+description: 자산의 확장 가능한 메타데이터 플랫폼 키워드입니다.
 solution: Experience Manager
-title: XmpKeywords
+title: Xmp 키워드
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL XmpKeywords]{#xmpkeywords}
 
-자산의 확장 가능한 메타데이터 플랫폼 키워드.
+자산의 확장 가능한 메타데이터 플랫폼 키워드입니다.
 
 구문
 
@@ -30,9 +30,9 @@ ht-degree: 18%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 항목</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 개 항목</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>에 병합되는 쉼표로 구분된 키워드 목록입니다 <span class="codeph"> dc:subject=</span> XMP 속성 노드입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
+   <td colname="col3"> <p>쉼표로 구분된 다음에 병합되는 키워드 목록 <span class="codeph"> dc:subject=</span> XMP 속성 노드입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

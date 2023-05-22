@@ -16,22 +16,22 @@ ht-degree: 2%
 
 비디오 뷰어에 대한 JavaScript API 참조.
 
-` setParams( *`params`*)`
+` setParams( *`매개 변수`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=값 매개 변수 쌍이 <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 매개 변수</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> 다음으로 구분된 name=value 매개 변수 쌍 <span class="codeph"> 및</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 와 구분된 이름=값 쌍을 나타냅니다 `&`. 쿼리 문자열과 마찬가지로 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. 호출하기 전에 `init()`로 지정하는 경우 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 다음과 같이 구분된 name=value 쌍을 나타냅니다. `&`. 쿼리 문자열에서와 같이, 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. 통화하기 전에 `init()`, 이 매개 변수를 호출해야 합니다.
 
-이 메서드는 뷰어 구성 정보가 `config` 생성자에 JSON 개체를 추가합니다.
+뷰어 구성 정보가 로 전달된 경우 이 메서드는 선택 사항입니다 `config` 생성자에 대한 JSON 개체입니다.
 
-참조 - [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+참조: [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

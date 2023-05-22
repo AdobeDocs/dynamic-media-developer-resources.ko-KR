@@ -1,24 +1,24 @@
 ---
-description: 자산을 게시할 준비가 되었는지 확인합니다.
+description: 에셋을 게시할 준비가 되었는지 여부를 결정합니다.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,자산 관리
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 12%
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
 # setAssetPublishState{#setassetpublishstate}
 
-자산을 게시할 준비가 되었는지 확인합니다.
+에셋을 게시할 준비가 되었는지 여부를 결정합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-11bec77e50b24461bb8c8aacf016eec8}
+## 승인된 사용자 유형 {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -28,7 +28,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->사용자는 자산에 대한 읽기 및 쓰기 액세스 권한이 있어야 합니다.
+>사용자에게 에셋에 대한 읽기 및 쓰기 권한이 있어야 합니다.
 
 ## 매개 변수 {#section-09d2ba001a2a455a9102550272f3eecb}
 
@@ -45,16 +45,16 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 회사의 손잡이입니다. </td> 
+   <td colname="col4"> 회사 손잡이. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 자산 핸들. </td> 
+   <td colname="col4"> 에셋 핸들. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -67,8 +67,8 @@ ht-degree: 12%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구문  </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> context핸들 배열</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -77,11 +77,11 @@ ht-degree: 12%
 
 **출력**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-c31ead6d0e594317a12c120509527792}
 
-이 코드 샘플은 `NotMarkedForPublish`을 사용하여 자산의 게시 상태를 설정합니다.
+이 코드 샘플은 다음을 사용하여 에셋의 게시 상태를 `NotMarkedForPublish`.
 
 **요청**
 

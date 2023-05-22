@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: 자산 카운트의 배열입니다.
+description: 에셋 수의 배열입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-자산 카운트의 배열입니다.
+에셋 수의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:AssetCount` | 자산 카운트의 배열입니다. |
+| 항목 | `types:AssetCount` | 에셋 수 배열. |

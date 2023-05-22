@@ -1,7 +1,7 @@
 ---
-description: 배치 메타데이터 업데이트 배열입니다.
+description: 일괄 처리 메타데이터 업데이트의 배열입니다.
 solution: Experience Manager
-title: BatchMetadataUpdateArray
+title: 일괄 메타데이터 업데이트 배열
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL BatchMetadataUpdateArray]{#batchmetadataupdatearray}
 
-배치 메타데이터 업데이트 배열입니다.
+일괄 처리 메타데이터 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:BatchMetadataUpdate` | 일괄 업데이트 배열입니다. |
+| 항목 | `types:BatchMetadataUpdate` | 일괄 업데이트 배열. |

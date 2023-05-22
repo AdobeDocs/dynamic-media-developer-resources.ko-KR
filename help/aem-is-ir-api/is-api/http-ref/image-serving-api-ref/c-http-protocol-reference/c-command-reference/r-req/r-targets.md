@@ -1,5 +1,5 @@
 ---
-description: 이미지 카탈로그에서 대상 데이터를 확대/축소합니다. URL 경로에 지정된 이미지 카탈로그 항목에 대한 확대/축소 대상 데이터를 반환합니다.
+description: 확대/축소는 이미지 카탈로그의 데이터를 타겟팅합니다. URL 경로에 지정된 이미지 카탈로그 항목에 대한 확대/축소 대상 데이터를 반환합니다.
 solution: Experience Manager
 title: 목표
 feature: Dynamic Media Classic,SDK/API
@@ -7,16 +7,16 @@ role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '181'
 ht-degree: 1%
 
 ---
 
 # 목표{#targets}
 
-이미지 카탈로그에서 대상 데이터를 확대/축소합니다. URL 경로에 지정된 이미지 카탈로그 항목에 대한 확대/축소 대상 데이터를 반환합니다.
+확대/축소는 이미지 카탈로그의 데이터를 타겟팅합니다. URL 경로에 지정된 이미지 카탈로그 항목에 대한 확대/축소 대상 데이터를 반환합니다.
 
-`req=targets[,text|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=targets[,text|{xml[, *`인코딩`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_D64E706258FD4A9C9C8026D97B472FCC"> 
  <tr class="strow"> 
@@ -25,18 +25,18 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>고유한 요청 식별자입니다. </p></td> 
+  <td class="stentry"> <p>고유 요청 식별자. </p></td> 
  </tr> 
 </table>
 
-`catalog::Targets`의 컨텐츠가 반환됩니다. &#39;text&#39; 형식이 요청되면 `catalog::Targets`에 있는 `??` 의 모든 인스턴스는 줄 끝기로 대체되고, 한 줄 종료자( `CR/LF`)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않는 경우 이 응답은 단일 선 종결자로 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청될 때 적절한 형식이 적용됩니다.
+의 콘텐츠 `catalog::Targets` 반환됩니다. &#39;text&#39; 형식을 요청하면 의 모든 인스턴스가 `??` 위치: `catalog::Targets` 선 터미네이터 및 단일 선 터미네이터( `CR/LF`)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 단일 줄 종결자로만 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청되면 적절한 형식이 적용됩니다.
 
 요청 문자열의 다른 명령은 무시됩니다.
 
-HTTP 응답은 `catalog::Expiration`을 기준으로 TTL로 캐시할 수 있습니다.
+HTTP 응답은 다음을 기반으로 하는 TTL로 캐시할 수 있습니다. `catalog::Expiration`.
 
-JSONP 응답 형식을 지원하는 요청을 사용하면 `req=` 매개 변수의 확장 구문을 사용하여 JS 콜백 처리기의 이름을 지정할 수 있습니다.
+JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사용하는 JS 콜백 핸들러의 이름을 지정할 수 있습니다. `req=` 매개 변수:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 는 JSONP 응답에 있는 JS 처리기의 이름입니다. a-z, A-Z 및 0-9자만 허용됩니다. 선택 사항입니다. 기본값은 `s7jsonResponse`입니다.
+`<reqHandler>` 는 JSONP 응답에 있는 JS 핸들러의 이름입니다. a-z, A-Z 및 0~9자만 허용됩니다. 선택적. 기본값은 입니다 `s7jsonResponse`.

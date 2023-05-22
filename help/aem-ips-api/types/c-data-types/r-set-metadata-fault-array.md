@@ -1,5 +1,5 @@
 ---
-description: 메타데이터 오류 배열입니다.
+description: 메타데이터 오류 배열.
 solution: Experience Manager
 title: SetMetadataFaultArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL SetMetadataFaultArray]{#setmetadatafaultarray}
 
-메타데이터 오류 배열입니다.
+메타데이터 오류 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:SetMetadataFault` | 메타데이터 오류 배열입니다. |
+| 항목 | `types:SetMetadataFault` | 메타데이터 오류 배열. |

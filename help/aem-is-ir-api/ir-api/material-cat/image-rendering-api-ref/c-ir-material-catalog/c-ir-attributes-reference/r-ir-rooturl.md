@@ -1,6 +1,6 @@
 ---
 title: RootUrl
-description: 상대 이미지 URL의 루트 URL 상대 이미지 URL의 루트 URL을 지정합니다.
+description: 상대 이미지 URL의 루트 URL입니다. 상대 이미지 URL의 루트 URL을 지정합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,21 +8,21 @@ exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
 # RootUrl{#rooturl}
 
-상대 이미지 URL의 루트 URL 상대 이미지 URL의 루트 URL을 지정합니다. 다음`attribute::RootUrl` 이 대신 사용됩니다. `attribute::RootPath` 언제 `src=` 값은 { 중괄호 }(으)로 묶입니다.
+상대 이미지 URL의 루트 URL입니다. 상대 이미지 URL의 루트 URL을 지정합니다. 다음`attribute::RootUrl` 대신 사용됨 `attribute::RootPath` 다음과 같은 경우 `src=` 값은 { 중괄호 }로 묶입니다.
 
 ## 속성 {#section-69cd0f71ea614770a8778c745d23197a}
 
-텍스트 문자열 값입니다. 선행 프로토콜 식별자를 포함한 절대 URL 루트 경로입니다. 지원되는 프로토콜은 다음과 같습니다. HTTP, HTTPS 및 FTP입니다.
+텍스트 문자열 값입니다. 선행 프로토콜 식별자를 포함하는 절대 URL 루트 경로입니다. 지원되는 프로토콜은 HTTP, HTTPS 및 FTP입니다.
 
 ## 기본값 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-상속됨 `default::RootUrl` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 상대 URL은 이 자료 카탈로그에서 지원되지 않습니다.
+상속 위치 `default::RootUrl` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 상대 URL은 이 재질 카탈로그에서 지원되지 않습니다.
 
 ## 참조 {#section-e33bbe7034b24367b68f9142718a8be1}
 

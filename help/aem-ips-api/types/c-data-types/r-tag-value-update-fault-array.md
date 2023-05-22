@@ -1,5 +1,5 @@
 ---
-description: 태그 값의 배열은 업데이트 오류입니다.
+description: 태그 값 업데이트 오류 배열.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
-태그 값의 배열은 업데이트 오류입니다.
+태그 값 업데이트 오류 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:TagValueUpdateFault` | 태그 값 업데이트 오류(오류 메시지) 배열입니다. |
+| 항목 | `types:TagValueUpdateFault` | 태그 값 업데이트 오류 배열(오류 메시지). |

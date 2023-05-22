@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 처리 `eventInfo` 필요한 경우 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -55,25 +55,25 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>SDK 사용자 이벤트 </p> </th> 
-   <th colname="col2" class="entry"> <p>전송 중... </p> </th> 
+   <th colname="col2" class="entry"> <p>보냄... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>뷰어가 처음 로드될 때. </p> </td> 
+   <td colname="col2"> <p>뷰어가 먼저 로드되는 경우입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>뷰어에서 자산을 교체할 때 <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col2"> <p>뷰어에서 를 사용하여 자산을 교체하는 경우 <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>재생이 시작될 때. </p> </td> 
+   <td colname="col2"> <p>재생이 시작되는 시기 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 일시 중지되면. </p> </td> 
+   <td colname="col2"> <p>재생이 일시 중지된 경우. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
@@ -81,10 +81,10 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>재생이 다음 이정표 중 하나에 도달하는 경우: 0%, 25%, 50%, 75% 또는 100% </p> </td> 
+   <td colname="col2"> <p>재생이 0%, 25%, 50%, 75% 또는 100% 이정표 중 하나에 도달하는 경우. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 대화형 견본 </span> </p> </td> 
    <td colname="col2"> <p>사용자가 대화형 견본을 클릭할 때마다 </p> </td> 
   </tr> 
  </tbody> 

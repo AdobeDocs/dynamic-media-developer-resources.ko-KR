@@ -18,7 +18,7 @@ ht-degree: 23%
 
 구문
 
-## 인증된 사용자 유형 {#section-093d1f611a1647568e885ddd842b8f78}
+## 승인된 사용자 유형 {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +33,7 @@ ht-degree: 23%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyName | `xsd:string` | 예 | 이름을 바꿀 프로젝트가 있는 회사를 처리합니다. |
+| companyName | `xsd:string` | 예 | 이름을 바꿀 프로젝트와 함께 회사를 처리합니다. |
 | projectHandle | `xsd:string` | 예 | 프로젝트를 처리합니다. |
 | projectName | `xsd:string` | 예 | 새 프로젝트 이름. |
 
@@ -45,7 +45,7 @@ ht-degree: 23%
 
 ## 예제 {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-이 코드 샘플은 프로젝트 이름을 변경하고 프로젝트 핸들을 반환합니다.
+이 코드 샘플은 프로젝트 이름을 바꾸고 프로젝트 핸들을 반환합니다.
 
 **요청**
 

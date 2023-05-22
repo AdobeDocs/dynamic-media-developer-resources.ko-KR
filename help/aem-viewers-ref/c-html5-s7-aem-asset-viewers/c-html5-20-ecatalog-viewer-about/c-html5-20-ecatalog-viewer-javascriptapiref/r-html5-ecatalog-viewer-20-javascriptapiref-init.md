@@ -1,6 +1,6 @@
 ---
 title: init
-description: eCatalog Viewer에 대한 JavaScript API 참조.
+description: eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # init{#init}
 
-eCatalog Viewer에 대한 JavaScript API 참조.
+eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 
 `init()`
 
-eCatalog 뷰어의 초기화를 시작합니다. 이 시간까지 컨테이너 DOM 요소를 만들어야 뷰어 코드가 ID로 찾을 수 있습니다.
+eCatalog 뷰어의 초기화를 시작합니다. 이 시간까지 뷰어 코드가 해당 ID로 찾을 수 있도록 컨테이너 DOM 요소를 만들어야 합니다.
 
-컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: `display:none` 할당된 스타일 - 뷰어는 초기화 프로세스를 일시 중지합니다. 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져올 때까지 발생합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
+컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: 다음을 사용하여 숨길 수 있음) `display:none` 할당된 스타일 - 뷰어가 초기화 프로세스를 일시 중단합니다. 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 그렇게 됩니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
-뷰어 수명 주기 동안 이 메서드를 한 번만 호출합니다. 후속 호출은 무시됩니다.
+뷰어 라이프사이클 중에 이 메서드를 한 번만 호출하면 됩니다. 이후의 호출은 무시됩니다.
 
 ## 매개 변수 {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

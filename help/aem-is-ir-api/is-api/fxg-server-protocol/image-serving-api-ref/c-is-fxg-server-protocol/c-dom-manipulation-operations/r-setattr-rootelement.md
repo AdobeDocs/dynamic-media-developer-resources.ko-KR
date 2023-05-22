@@ -1,5 +1,5 @@
 ---
-description: 특성을 FXG 루트 요소로 설정합니다.
+description: 속성을 FXG 루트 요소로 설정합니다.
 solution: Experience Manager
 title: setAttr.rootElement
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,User
 exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '45'
 ht-degree: 2%
 
 ---
 
 # setAttr.rootElement{#setattr-rootelement}
 
-특성을 FXG 루트 요소로 설정합니다.
+속성을 FXG 루트 요소로 설정합니다.
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 
-이 명령은 루트 요소의 특성을 조작할 수 있습니다.
+이 명령은 루트 요소의 속성을 조작할 수 있습니다.
 
 ## 예 {#section-2758a6e316c34b99b13b02147e5973bb}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 색상 균형을 조정합니다. 각 RGB 색상 구성 요소의 값을 개별적으로 조정합니다.
 
-`op_colorbalance= *``*, *``*, *`redAdjustgreenAdj`*`
+`op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
@@ -25,23 +25,23 @@ ht-degree: 2%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> greenAdj</span> </p></td> 
-  <td class="stentry"> <p>녹색 구성 요소 조정(-100..+100 int). </p></td> 
+  <td class="stentry"> <p>녹색 구성 요소 조정(-100...+100 int). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> blueAdj</span> </p></td> 
-  <td class="stentry"> <p>파란색 구성 요소 조정(-100..+100 int). </p></td> 
+  <td class="stentry"> <p>파란색 구성 요소 조정(-100...+100 int). </p></td> 
  </tr> 
 </table>
 
-색상 관리를 활성화하면 정확하지 않은 기본 변환을 사용하여 회색 및 CMYK 입력 이미지 데이터가 RGB로 변환됩니다.
+회색 및 CMYK 입력 이미지 데이터는 색상 관리가 활성화되어 있을 때 정확하지 않은 나이브 변환을 사용하여 RGB으로 변환됩니다.
 
 ## 속성 {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-레이어 명령. `layer=comp` 인 경우 현재 레이어 또는 복합 이미지에 적용됩니다. 효과 레이어에서 무시됨. 작업이 적용되기 전에 CMYK 이미지 및 레이어가 RGB로 변환됩니다.
+레이어 명령. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨. CMYK 이미지와 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
 
 ## 기본값 {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` 색상은 변경되지 않습니다.
+`op_colorbalance=0,0,0` 색상 변경은 없습니다.
 
 ## 예 {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 

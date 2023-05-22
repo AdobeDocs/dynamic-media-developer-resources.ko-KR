@@ -1,6 +1,6 @@
 ---
 title: RTF 인코딩 예
-description: 다음 예제에서는 텍스트 명령의 샘플과 텍스트 명령의 영향을 보여 줍니다.
+description: 다음 예제에서는 텍스트 명령의 샘플과 이러한 명령이 텍스트에 미치는 영향을 보여 줍니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # RTF 인코딩 예{#rtf-encoding-examples}
 
-다음 예제에서는 텍스트 명령의 샘플과 텍스트 명령의 영향을 보여 줍니다.
+다음 예제에서는 텍스트 명령의 샘플과 이러한 명령이 텍스트에 미치는 영향을 보여 줍니다.
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
-![RTF 인코딩 예 1개 이미지](assets/rtf01.png)
+![RTF 인코딩 예 1 이미지](assets/rtf01.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs48normal,%20\b1Bold\b0,%20\i1italic\i0`
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text={\fonttbl{\f0\fmodern\fprq1\fcharset0%20Courier%20New;}}\f0\fs72{\rtlch%20desrever}`
 
-![RTF 인코딩 예 10개 이미지](assets/rtf09.png)
+![RTF 인코딩 예 10 이미지](assets/rtf09.png)
 
 ## 참조 {#section-e702276fd0e847779cb75a6ccb92fbc8}
 

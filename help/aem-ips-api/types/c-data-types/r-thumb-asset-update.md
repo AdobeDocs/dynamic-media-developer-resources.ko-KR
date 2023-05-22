@@ -1,5 +1,5 @@
 ---
-description: 축소판 이미지 업데이트.
+description: 썸네일 이미지 업데이트.
 solution: Experience Manager
 title: ThumbAssetUpdate
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL ThumbAssetUpdate]{#thumbassetupdate}
 
-축소판 이미지 업데이트.
+썸네일 이미지 업데이트.
 
 구문
 
@@ -22,5 +22,5 @@ ht-degree: 26%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetHandle | `xsd:string` | 자산 핸들. |
-| thumbAssetHandle | `xsd:string` | 엄지 자산 핸들. |
+| assetHandle | `xsd:string` | 에셋 핸들. |
+| thumbAssetHandle | `xsd:string` | 썸네일 에셋 핸들. |

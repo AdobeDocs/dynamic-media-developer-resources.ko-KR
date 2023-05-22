@@ -1,31 +1,31 @@
 ---
-description: PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 [PDF 저장 옵션] 대화 상자나 PDF 사전 설정에서 생성한 파일입니다.
+description: PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 다른 이름으로 저장 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 생성한 파일입니다.
 solution: Experience Manager
-title: 작업 옵션
+title: 직업 선택
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 46%
+source-wordcount: '228'
+ht-degree: 47%
 
 ---
 
-# 작업 옵션{#joboption}
+# 직업 선택{#joboption}
 
-PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 [PDF 저장 옵션] 대화 상자나 PDF 사전 설정에서 생성한 파일입니다.
+PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 다른 이름으로 저장 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 생성한 파일입니다.
 
-` joboption= *`value`*`
+` joboption= *`값`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 값</span></span> </p> </td> 
   <td class="stentry"> <p>작업 옵션 파일의 IPSID입니다. </p></td> 
  </tr> 
 </table>
 
-IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF를 생성할 때 사용됩니다.
+IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF 생성 시 사용됩니다.
 
 현재 지원되는 옵션은 다음과 같습니다.
 
@@ -36,7 +36,7 @@ IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>이미지 </p></td> 
-  <td class="stentry"> <p> 다운샘플링색상, 회색 및 모노의 해상도, 임계값 및 압축 </p> </td> 
+  <td class="stentry"> <p> 다운샘플링색상, 회색 및 모노에 대한 , 해상도, 임계값 및 압축 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>글꼴 </p></td> 

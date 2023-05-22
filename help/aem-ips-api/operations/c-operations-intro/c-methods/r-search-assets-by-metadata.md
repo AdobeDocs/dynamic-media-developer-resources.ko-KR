@@ -1,7 +1,7 @@
 ---
-description: 메타데이터 인덱스 저장소에서 주어진 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
+description: 메타데이터 인덱스 저장소에서 지정된 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 solution: Experience Manager
-title: searchAssetsByMetadata
+title: searchAssetsByMeta
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
@@ -12,11 +12,11 @@ ht-degree: 8%
 
 ---
 
-# searchAssetsByMetadata{#searchassetsbymetadata}
+# searchAssetsByMeta{#searchassetsbymetadata}
 
-메타데이터 인덱스 저장소에서 주어진 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
+메타데이터 인덱스 저장소에서 지정된 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 
-While `searchAssetsByMetadata` 사용자 정의 메타데이터 필드를 검색할 수 있도록 이 필드들은 `responseMetadataArray`. 이 점을 설명하려면 다음 코드 예를 참조하십시오.
+While `searchAssetsByMetadata` 사용자 정의 메타데이터 필드를 검색할 수 있도록에 지정된 경우 해당 필드가 반환되지 않습니다. `responseMetadataArray`. 이 점을 설명하기 위해 다음 코드 예를 참조하십시오.
 
 ```java
 <ns:responseMetadataArray>
@@ -24,7 +24,7 @@ While `searchAssetsByMetadata` 사용자 정의 메타데이터 필드를 검색
 </ns:responseMetadataArray>
 ```
 
-null 값 반환:
+null 값을 반환합니다.
 
 ```java
 <items>
@@ -33,7 +33,7 @@ null 값 반환:
 </items>
 ```
 
-이 문제를 해결하려면 `fieldHandles` 검색할 자산에서 반환되어 실행됩니다. `getAssets` ( [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). 이 메서드는 해당 자산에 대한 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색합니다.
+이 문제를 해결하려면 `fieldHandles` 실행할 검색에서 반환된 에셋 중 `getAssets` (또한 참조) [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). 이 메서드는 해당 에셋의 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색할 수 있습니다.
 
 ```java
 <ns:metadataConditionArray>
@@ -45,7 +45,7 @@ null 값 반환:
 </ns:metadataConditionArray>
 ```
 
-## 인증된 사용자 유형 {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
+## 승인된 사용자 유형 {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,16 +70,16 @@ null 값 반환:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>회사의 손잡이입니다. </p> </td> 
+   <td colname="col4"> <p>회사 손잡이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 필터</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> 유형:SearchFilter</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p>자세한 내용은 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p>다음을 참조하십시오 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
@@ -88,34 +88,34 @@ null 값 반환:
    <td colname="col4"> <p>검색 기준을 정의하는 조건입니다. 자세한 내용은 아래를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetaArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>자산 요약의 응답에 채울 추가 필드입니다. 필드는 정규화된 형식으로 지정해야 합니다. </p> </td> 
+   <td colname="col4"> <p>에셋 요약의 응답에 채울 추가 필드입니다. 필드는 정규화된 형식으로 지정해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>응답에서 반환된 자산 수입니다. 기본값은 1000입니다. </p> </td> 
+   <td colname="col4"> <p>응답에서 반환된 에셋 수. 기본값은 1000입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>다음을 기준으로 반환할 결과 페이지를 지정합니다 <span class="codeph"> recordsPerPage</span> 페이지 크기. </p> </td> 
+   <td colname="col4"> <p>다음을 기준으로 반환할 결과 페이지 지정 <span class="codeph"> recordsPerPage</span> 페이지 크기. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 정렬 기준</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>선택한 자산 필드별로 정렬합니다. </p> </td> 
+   <td colname="col4"> <p>선택한 에셋 필드별로 정렬합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>정렬 방향 선택. 오름차순 은 기본값입니다. </p> </td> 
+   <td colname="col4"> <p>정렬 방향 선택. 오름차순은 기본값입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,8 +124,8 @@ null 값 반환:
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| totalRows | `xsd:int` | 아니요 | 일치 항목 수. |
-| assetArray | `types:AssetArray` | 아니요 | 검색에서 반환된 자산의 배열입니다. |
+| 합계 행 수 | `xsd:int` | 아니요 | 일치 항목 수. |
+| assetArray | `types:AssetArray` | 아니요 | 검색에서 반환된 에셋 배열. |
 
 ## metadataConditionArray 세부 정보 {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -143,7 +143,7 @@ null 값 반환:
 
 **값**
 
-`field_handle` 은 메타데이터 검색 키입니다. 점 표기법을 포함할 수 있습니다. 가능한 값은 다음과 같습니다.
+`field_handle` 는 메타데이터 검색 키입니다. 점 표기법을 포함할 수 있습니다. 가능한 값은 다음과 같습니다.
 
 * `asset_id` (접두사 없음)
 * `name`
@@ -156,7 +156,7 @@ null 값 반환:
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (과 동일) `modified_at` (양식의 날짜: 2014년 7월 25일 22일:13:45 GMT-0500(CDT)
+* `created_at` (과 동일 `modified_at` (양식 내 날짜: 2014년 7월 25일 금요일 22:13:45 GMT-0500(CDT)
 
 * `created_by`
 
@@ -171,15 +171,15 @@ null 값 반환:
 * `StartsWith`
 * `EndsWith`
 
-다음 `comparison_value` 은 검색할 용어입니다.
+다음 `comparison_value` 는 검색할 용어입니다.
 
 ## 예제 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
-이 코드 샘플은 다음 메타데이터 기준으로 검색을 수행합니다.
+이 코드 샘플은 다음 메타데이터 조건으로 검색을 수행합니다.
 
-* `name` 필드 포함 `1000801`.
+* `name` 필드는 다음을 포함 `1000801`.
 
-* `dc.rights` 필드 같음 `Per Jessen Schmidt`.
+* `dc.rights` 필드가 다음과 같음 `Per Jessen Schmidt`.
 
 **요청**
 

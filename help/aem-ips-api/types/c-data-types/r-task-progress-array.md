@@ -1,7 +1,7 @@
 ---
-description: 작업 진행 배열입니다. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
+description: 작업 진행 배열. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
 solution: Experience Manager
-title: 작업_진행_배열
+title: 작업 진행률 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL TaskProgressArray]{#taskprogressarray}
 
-작업 진행 배열입니다. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
+작업 진행 배열. 비디오 코드 변환 작업에 대한 정보를 포함합니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 15%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:TaskProgress` | 작업 진행 항목. 최소값은 0입니다. 최대 발생 횟수는 제한되지 않습니다. |
+| 항목 | `types:TaskProgress` | 작업 진행 항목. 최소 발생 횟수는 0입니다. 최대 발생 횟수는 제한되지 않습니다. |

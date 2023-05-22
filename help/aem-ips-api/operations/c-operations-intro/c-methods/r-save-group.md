@@ -18,7 +18,7 @@ ht-degree: 20%
 
 구문
 
-## 인증된 사용자 유형 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## 승인된 사용자 유형 {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,20 +30,20 @@ ht-degree: 20%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
-| groupHandle | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
-| 이름 | `xsd:string` | 예 | 그룹 이름. |
-| isSystemDefined | `xsd:boolean` | 예 | `false` 기본값은 입니다. |
+| company핸들 | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
+| group핸들 | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
+| name | `xsd:string` | 예 | 그룹 이름. |
+| isSystemDefinition | `xsd:boolean` | 예 | `false` 는 기본값입니다. |
 
 **출력(saveGroupReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
+| group핸들 | `xsd:string` | 예 | 그룹 핸들. |
 
 ## 예제 {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-이 코드 샘플은 특정 회사에 속하는 그룹을 만듭니다. 그룹이 이미 있으면 지정한 매개 변수 값과 함께 저장됩니다.
+이 코드 샘플은 특정 회사에 속하는 그룹을 만듭니다. 그룹이 이미 있으면 지정한 매개변수 값과 함께 저장됩니다.
 
 **요청**
 

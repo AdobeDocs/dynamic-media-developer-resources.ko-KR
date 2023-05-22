@@ -1,14 +1,14 @@
 ---
 description: 기본 비디오 자산에 대한 파일 정보입니다.
 solution: Experience Manager
-title: MasterVideoInfo
+title: 마스터 비디오 정보
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 7ca1ba11-56c0-4655-a144-7c9f6f17fc7c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 25%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | 파일 경로입니다. |
-| originalFile | `xsd:string` | 파일 이름. |
-| fileSize | `xsd:int` | 파일 크기. |
+| 원본 경로 | `xsd:string` | 파일 경로. |
+| 원본 파일 | `xsd:string` | 파일 이름. |
+| 파일 크기 | `xsd:int` | 파일 크기. |

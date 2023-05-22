@@ -8,7 +8,7 @@ exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 **기본 뷰어 영역의 CSS 속성**
 
-패널이 활성화되면 뷰어 사용자 인터페이스가 반투명 채우기로 표시됩니다. 이 채우기의 색상 및 불투명도는 다음 CSS 클래스 선택기로 제어됩니다.
+패널이 활성화되면 뷰어 사용자 인터페이스는 반투명 채우기로 덮여 있습니다. 이 채우기의 색상 및 불투명도는 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -35,7 +35,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>오버레이의 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-검색 결과 패널은 항상 사용 가능한 모든 뷰어 높이를 차지합니다. 그러나 너비를 구성할 수 있습니다. 폭을 중간 및 큰 크기 중단점에 대한 기본 설정인 절대 픽셀 값으로 설정할 수 있습니다. 또는 너비를 100%로 설정하여 검색 결과 패널이 전체 뷰어 영역을 차지하도록 할 수 있습니다. 패널 너비는 다음 CSS 클래스 선택기에 의해 제어됩니다.
+검색 결과 패널은 항상 사용 가능한 모든 뷰어 높이를 차지합니다. 그러나 너비는 구성할 수 있습니다. 너비를 절대 픽셀 값으로 설정할 수 있습니다. 이 값은 중간 및 큰 크기의 중단점에 대한 기본 설정입니다. 또는 너비를 100%로 설정하여 검색 결과 패널이 전체 뷰어 영역을 차지하도록 할 수 있습니다. 패널 너비는 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchresultspace
@@ -57,12 +57,12 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> 검색 결과 공간의 너비입니다. </p> </td> 
+   <td colname="col2"> <p> 검색 결과 공간 폭입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 크고 중간 크기 중단점에 250픽셀 단위의 검색 결과 패널을 설정하고 작은 크기 중단점에서 전체 크기 패널을 사용하려면 다음을 수행하십시오.
+예 - 큰 중단점과 중간 중단점에 250픽셀 너비의 검색 결과 패널을 설정하고 작은 중단점에 전체 크기 패널을 사용하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer.s7size_large .s7searchpanel .s7searchresultspanel, .s7ecatalogsearchviewer.s7size_medium .s7searchpanel .s7searchresultspanel { 
@@ -73,7 +73,7 @@ ht-degree: 2%
 }
 ```
 
-검색 결과 패널의 맨 위에는 검색 입력 상자가 표시됩니다. 입력 상자의 측면에 있는 패딩은 다음 CSS 클래스 선택기에 의해 제어됩니다.
+검색 결과 패널 상단은 검색 입력 상자 전용입니다. 입력 상자의 측면에 있는 패딩은 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputcontainer
@@ -85,7 +85,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 입력 상자 주위에 패딩됩니다. </p> </td> 
+   <td colname="col2"> <p> 입력 상자 주변의 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -105,20 +105,20 @@ ht-degree: 2%
    <td colname="col2"> <p>검색 입력 필드의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 입력 필드 한도와 입력 텍스트 사이의 내부 패딩입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩-왼쪽 </span> </p> </td> 
+   <td colname="col2"> <p> 입력 필드 경계와 입력 텍스트 사이의 내부 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>검색 입력 필드의 테두리입니다. </p> </td> 
+   <td colname="col2"> <p>검색 입력 필드의 테두리. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p>검색 입력 필드의 여백입니다 </p> </td> 
+   <td colname="col2"> <p>검색 입력 필드의 여백 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴의 크기입니다. </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -133,44 +133,44 @@ ht-degree: 2%
 }
 ```
 
-검색 입력 필드의 왼쪽에 있는 검색 버튼은 기본적으로 &quot;유리 보기&quot; 형태로, 다음 CSS 클래스 선택기에서 제어합니다.
+기본적으로 &quot;보이는 유리&quot; 형태의 검색 입력 필드 왼쪽에 있는 검색 단추는 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
 ```
  .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton
 ```
 
-**검색 입력 단추의 CSS 속성**
+**검색 입력 버튼의 CSS 속성**
 
 <table id="table_CDD818B40BB1416CB47B7C52F799DE0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>검색 입력 단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>검색 입력 단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>"보이는 유리" 아이콘 이미지의 URL입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 크기 </span> </p> </td> 
-   <td colname="col2"> <p>"보기 유리" 아이콘의 크기입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-size </span> </p> </td> 
+   <td colname="col2"> <p>"보이는 유리" 아이콘 크기. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>검색 입력 단추의 테두리입니다. </p> </td> 
+   <td colname="col2"> <p>검색 입력 단추의 테두리. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>검색 입력 단추의 여백입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 26 x 26 픽셀 &quot;유리&quot; 아이콘이 있는 검색 단추를 설정하려면 다음을 수행합니다. 1픽셀 테두리가 있는 30픽셀 크기:
+예 - 26 x 26픽셀 &quot;보이는 유리&quot; 아이콘으로 검색 단추를 설정하려면(1픽셀 테두리로 30픽셀):
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -183,7 +183,7 @@ ht-degree: 2%
 }
 ```
 
-기능을 처음 호출하면 검색 결과 패널에 텍스트 프롬프트가 표시될 수 있습니다. 또한 사용자의 검색이 결과를 반환하지 않은 경우에도 메시지가 표시됩니다. 모든 경우 텍스트는 검색 결과 패널의 주 부분에 나타나고 다음 CSS 클래스 선택기에 의해 제어됩니다.
+검색 결과 패널은 특징이 처음 호출될 때 텍스트 프롬프트를 표시할 수 있다. 또한 사용자의 검색 결과가 반환되지 않은 경우에도 메시지가 표시됩니다. 모든 경우 텍스트는 검색 결과 패널의 주 부분에 표시되며 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinfo
@@ -199,7 +199,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴의 이름입니다. </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-align </span> </p> </td> 
@@ -207,16 +207,16 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 텍스트의 크기입니다. </p> </td> 
+   <td colname="col2"> <p>글꼴 텍스트 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 텍스트 패널은 `state` 속성 선택기. 다른 텍스트 메시지에 다른 스타일을 적용하는 데 사용할 수 있습니다. 특히, `state='prompt'` 는 패널을 처음 호출할 때 표시되는 텍스트 프롬프트에 해당합니다. 다음 `state='results'` 는 검색 히트에 대한 정보가 있는 텍스트에 해당합니다. 그리고 마지막으로, `state='no_results'` 은 검색 쿼리에서 결과를 반환하지 않을 때 표시되는 텍스트에 해당합니다.
+>이 텍스트 패널은 `state` 속성 선택기: 다른 텍스트 메시지에 다른 스타일을 적용하는 데 사용할 수 있습니다. 특히, `state='prompt'` 패널이 처음 호출될 때 표시되는 텍스트 프롬프트에 해당합니다. 다음 `state='results'` 은 검색 히트에 대한 정보가 있는 텍스트에 해당합니다. 그리고 마지막으로 `state='no_results'` 검색 쿼리가 결과를 반환하지 않았을 때 표시되는 텍스트에 해당합니다.
 
-메시지 텍스트를 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+메시지 텍스트를 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
 예 - 회색 18픽셀 글꼴을 사용하는 텍스트 패널을 설정하려면 다음을 수행합니다.
 
@@ -227,24 +227,24 @@ ht-degree: 2%
 }
 ```
 
-검색 결과는 검색 히트가 있는 페이지의 단일 열 또는 단일 축소판 행으로 렌더링됩니다. 검색 결과 축소판 간의 간격은 다음 CSS 클래스 선택기로 제어됩니다.
+검색 결과는 검색 히트가 있는 페이지에 대해 단일 열 또는 단일 썸네일 행으로 렌더링됩니다. 검색 결과 썸네일 간의 간격은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell
 ```
 
-**축소판 셀의 CSS 속성**
+**썸네일 셀의 CSS 속성**
 
 <table id="table_26974E509F6943BB98CBC1E4BAE62D68"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
-   <td colname="col2"> <p> 각 축소판 주위의 세로 여백 크기입니다. 실제 축소판 간격은 <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col2"> <p> 각 썸네일 주변의 세로 여백 크기입니다. 실제 썸네일 간격은 다음에 대해 설정된 위쪽 및 아래쪽 여백의 합계와 같습니다. <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 10픽셀 간격을 설정하려면 다음을 수행합니다.
+예 - 10개의 픽셀 간격을 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumbcell { 
@@ -252,32 +252,32 @@ ht-degree: 2%
 }
 ```
 
-개별 축소판의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+개별 썸네일의 모양은 다음 CSS 클래스 선택기를 사용하여 제어합니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb
 ```
 
-**축소판의 CSS 속성**
+**썸네일의 CSS 속성**
 
 <table id="table_00829E44F75040A4B2AE19ACD550DA1E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
-   <td colname="col2"> <p>축소판의 폭입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>썸네일의 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
-   <td colname="col2"> <p>축소판의 높이입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>썸네일의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>축소판의 테두리입니다. </p> </td> 
+   <td colname="col2"> <p>썸네일의 테두리. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 215 x 129픽셀로 축소판을 설정하려면 밝은 회색의 기본 테두리와 어두운 회색으로 선택한 테두리를 사용합니다.
+예 - 215 x 129픽셀인 썸네일을 설정하려면 밝은 회색의 기본 테두리와 어두운 회색의 선택된 테두리를 사용합니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -286,7 +286,7 @@ ht-degree: 2%
 }
 ```
 
-축소판 레이블의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+썸네일 레이블의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
  .s7ecatalogsearchviewer 
@@ -298,16 +298,16 @@ ht-degree: 2%
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴의 이름입니다. </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 이름. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 글꼴의 크기입니다. </p> </td> 
+   <td colname="col2"> <p>텍스트 글꼴 크기입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -322,45 +322,45 @@ ht-degree: 2%
 }
 ```
 
-마우스 입력을 사용하는 시스템에서는 검색 결과 패널 아래에 두 개의 스크롤 버튼이 나타나고 사용자가 검색 결과를 스크롤합니다. 위쪽 및 아래쪽 스크롤 단추의 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
+마우스 입력을 사용하는 시스템에서는 검색 결과 패널 하단에 두 개의 스크롤 단추가 표시되어 사용자가 검색 결과를 스크롤할 수 있습니다. 위 및 아래 스크롤 단추의 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton 
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-CSS 위쪽, 왼쪽, 아래쪽 및 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리에서 자동으로 위치를 지정합니다.
+CSS 위쪽, 왼쪽, 아래쪽 및 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 로직은 뷰어를 자동으로 배치합니다.
 
-**스크롤 위쪽 및 아래쪽 단추의 CSS 속성**
+**위로 및 아래로 스크롤 단추의 CSS 속성**
 
 <table id="table_11063C7F428D4707A8138F17650F8F5F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>스크롤 단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
-   <td colname="col2"> <p>스크롤 단추의 높이입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>스크롤 단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기를 사용하여 여러 스킨을 `"up"`, `"down"`, `"over"`, 및 `"disabled"` 단추 상태.
+>이 버튼은 `state` 속성 선택기: 다른 스킨을 적용하는 데 사용할 수 있습니다. `"up"`, `"down"`, `"over"`, 및 `"disabled"` 단추 상태.
 
-단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+버튼 도구 팁은 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 125 x 35픽셀이고 각 상태에 대해 서로 다른 아트웍을 갖는 스크롤 업 단추를 설정하려면 다음을 수행합니다.
+예 - 125 x 35픽셀이며 각 상태에 대해 다른 아트웍이 있는 위로 스크롤 단추를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7scrollupbutton { 

@@ -1,5 +1,5 @@
 ---
-description: 메타데이터 필드의 배열입니다
+description: 메타데이터 필드의 배열
 solution: Experience Manager
 title: MetadataFieldArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL MetadataFieldArray]{#metadatafieldarray}
 
-메타데이터 필드의 배열입니다
+메타데이터 필드의 배열
 
 구문
 

@@ -16,12 +16,12 @@ ht-degree: 10%
 
 특정 그룹에서 회사 사용자를 제거합니다.
 
-**제거 명령 간의 차이**
+**제거 명령의 차이점**
 
 * `removeGroupMembers`: 그룹에서 여러 사용자를 제거합니다.
 * `removeGroupMembership`: 그룹 배열에서 개별 사용자를 제거합니다.
 
-## 인증된 사용자 유형 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## 승인된 사용자 유형 {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,17 +33,17 @@ ht-degree: 10%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 함께 작업할 사용자와 회사의 핸들입니다. |
-| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
-| userHandleArray | `types:HandleArray` | 예 | 그룹 멤버십을 제거하려는 사용자를 위한 일련의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 함께 작업할 사용자가 있는 회사의 핸들입니다. |
+| group핸들 | `xsd:string` | 예 | 그룹 핸들. |
+| userHandleArray | `types:HandleArray` | 예 | 그룹 멤버십을 제거할 사용자의 핸들 배열입니다. |
 
 **출력(removeGroupMembersParam)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-이 코드 샘플은 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열을 사용하는 그룹에서 여러 사용자를 제거합니다.
+이 코드 샘플은 지정된 회사에서 사용자를 제거합니다. 사용자 핸들 배열이 있는 그룹에서 여러 사용자를 제거합니다.
 
 **요청**
 

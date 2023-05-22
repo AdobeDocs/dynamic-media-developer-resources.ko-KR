@@ -8,7 +8,7 @@ exl-id: aa12a210-88d9-4b96-b598-6967496ac668
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -20,26 +20,26 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> 시간</span></span> </p> </td> 
-   <td colname="col2"> <p> 단일 확대/축소 단계 작업에 대한 애니메이션이 수행하는 시간(초)을 지정합니다. </p> </td> 
+   <td colname="col2"> <p> 단일 확대/축소 단계 작업의 애니메이션에 걸리는 시간을 초 단위로 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 완화</span></span> </p> </td> 
-   <td colname="col2"> <p> 전환이 보다 자연스러운 것처럼 보이게 하는 가속 또는 감속이라는 환상을 만듭니다. 완화를다음 중 하나로 설정할 수 있습니다. </p> <p> 
+   <td colname="col2"> <p> 가속 또는 감속 효과를 만들어 전환이 자연스럽게 보이도록 합니다. 완화를 다음 중 하나로 설정할 수 있습니다. </p> <p> 
      <ul id="ul_DA0D1CF2F2484410BFCCACA86661702E"> 
       <li id="li_93A2D53A53314D9594CEDC9EB20381D4">0(자동) </li> 
       <li id="li_AD6A1F03DE544959BC4AA0DD97494F8C"> 1(선형) </li> 
-      <li id="li_816A3CE796E3415B9650DDA204412A6A"> 2(이차) </li> 
-      <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3(세제곱근) </li> 
-      <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4(사분위수) </li> 
-      <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5(경단위) </li> 
-     </ul> </p> <p>자동 모드는 탄력적 확대/축소가 비활성화된 경우 항상 선형 전환을 사용합니다(기본값). 그렇지 않으면 전환 시간을 기반으로 하는 다른 완화 기능 중 하나에 해당합니다. 즉, 전환 시간이 짧을수록 완화 기능이 향상되어 가속 또는 감속 효과를 가속화할 수 있습니다. </p> </td> 
+      <li id="li_816A3CE796E3415B9650DDA204412A6A"> 2(2차) </li> 
+      <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3(3차) </li> 
+      <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4(4차) </li> 
+      <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5(5차) </li> 
+     </ul> </p> <p>자동 모드에서는 탄력적인 확대/축소가 비활성화되어 있으면(기본값) 항상 선형 전환을 사용합니다. 그렇지 않으면 전환 시간을 기준으로 다른 완화 기능 중 하나에 맞습니다. 즉, 전이 시간이 짧을수록 더 높은 완화 함수를 사용하여 가속 또는 감속 효과를 가속화시킨다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-ebfd9162c8504666bf0e4485bf3b1383}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-9f91ce6567384ab691e4d4f8a7015455}
 

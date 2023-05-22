@@ -18,9 +18,9 @@ ht-degree: 3%
 
 ` setContainerId( *`containerId`*)`
 
-뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 ID를 설정합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요가 없습니다. 그러나 이 컨테이너는 `init()` 가 실행됩니다. 전에 호출해야 합니다. `init()`.
+뷰어가 삽입되는 DOM 컨테이너(일반적으로 DIV)의 ID를 설정합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요는 없습니다. 단, 컨테이너는 다음과 같은 경우에 존재해야 합니다. `init()` 가 실행되었습니다. 전에 호출해야 합니다. `init()`.
 
-이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체.
+이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체입니다.
 
 ## 매개 변수 {#section-fa807db629ce43bab286b1e1dc96c492}
 
@@ -28,7 +28,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너 ID입니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> 컨테이너 ID. </p> </td> 
   </tr> 
  </tbody> 
 </table>

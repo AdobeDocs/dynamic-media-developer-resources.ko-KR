@@ -8,7 +8,7 @@ exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '181'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 2%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|측면 맞춤</span> </p> </td> 
-   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> 로 설정된 경우 <span class="codeph"> up</span>, <span class="codeph"> 아래로</span>, <span class="codeph"> 왼쪽</span>, 또는 <span class="codeph"> 오른쪽</span>로 설정하면 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되므로 외부 컨테이너에 의해 패널 클리핑이 발생할 수 있습니다. </p> <p>로 설정된 경우 <span class="codeph"> 수직 맞추기</span>로 지정하는 경우 구성 요소는 먼저 기본 패널 위치를 SocialShare의 맨 아래로 이동하고 해당 기본 위치에서 아래쪽, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 각 시도를 통해 구성 요소는 패널이 외부 컨테이너에 의해 잘렸는지 확인합니다. 모든 시도가 실패하면 구성 요소는 기본 패널 위치를 맨 위로 이동하고 맨 위, 오른쪽 및 왼쪽 방향에서 롤아웃 반복 시도를 시도합니다. </p> <p>로 설정된 경우 <span class="codeph"> 적당한 측면</span>로 지정하는 경우 구성 요소는 유사한 논리를 사용합니다. 하지만 첫 번째, 오른쪽, 다운 및 롤아웃 방향을 시도하면서 베이스를 오른쪽으로 이동한 다음, 왼쪽, 다운 및 롤아웃 방향을 따라 베이스를 왼쪽으로 이동합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 위쪽|아래쪽|왼쪽|오른쪽|수직 맞춤|가로 맞춤</span> </p> </td> 
+   <td colname="col2"> <p> 단추 컨테이너의 슬라이드 애니메이션 방향을 지정합니다. </p> <p> 로 설정된 경우 <span class="codeph"> 위로</span>, <span class="codeph"> 아래로</span>, <span class="codeph"> left</span>, 또는 <span class="codeph"> 오른쪽</span>, 패널은 추가 경계 확인 없이 지정된 방향으로 롤아웃되며, 이로 인해 외부 컨테이너에 의해 패널 클리핑이 발생할 수 있습니다. </p> <p>로 설정된 경우 <span class="codeph"> 세로 맞춤</span>, 구성 요소는 먼저 기본 패널 위치를 SocialShare의 맨 아래로 이동하고, 해당 기본 위치에서 맨 아래, 오른쪽 또는 왼쪽에서 패널을 롤아웃하려고 합니다. 매번 시도할 때마다 구성 요소는 패널이 외부 컨테이너에 의해 잘리는지 확인합니다. 모든 시도가 실패하면 구성 요소는 베이스 패널 위치를 맨 위로 이동하려고 하고 상단, 오른쪽 및 왼쪽 방향으로 롤아웃 시도를 반복합니다. </p> <p>로 설정된 경우 <span class="codeph"> 옆면 맞춤</span>, 구성 요소는 유사한 논리를 사용합니다. 그러나 오른쪽, 아래쪽 및 위쪽 롤아웃 방향을 시도하여 베이스를 먼저 오른쪽으로 이동하고 왼쪽, 아래쪽 및 위쪽 롤아웃 방향을 시도하여 베이스를 왼쪽으로 이동합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

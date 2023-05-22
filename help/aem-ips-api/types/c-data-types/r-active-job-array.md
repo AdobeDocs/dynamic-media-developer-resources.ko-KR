@@ -22,4 +22,4 @@ ht-degree: 28%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ActiveJob` | 활성 작업의 배열입니다. |
+| 항목 | `types:ActiveJob` | 활성 작업 배열. |

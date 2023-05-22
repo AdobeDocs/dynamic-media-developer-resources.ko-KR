@@ -1,6 +1,6 @@
 ---
 title: 색상 값
-description: color= 및 bgc= 속성의 색상 값은 HTML과 유사한 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+description: color= 및 bgc= 속성에 대한 색상 값은 HTML과 유사하게 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # 색상 값{#color-values}
 
-색상 값 `color=` 및 `bgc=` 속성은 HTML과 마찬가지로 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+색상 값 `color=` 및 `bgc=` 속성은 HTML과 유사하게 십진수로 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -22,16 +22,16 @@ ht-degree: 13%
   <td class="stentry"> <p><span class="codeph">{ {red , green , blue} | 회색 } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><i>빨강, 녹색, 파랑, 회색</i> </p></td> 
-  <td class="stentry"> <p>색상 구성 요소 값(0...255, 소수점 정수). </p></td> 
+  <td class="stentry"> <p><i>빨강, 초록, 파랑, 회색</i> </p></td> 
+  <td class="stentry"> <p>색상 구성 요소 값(0...255, 10진수) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>6자리 16진수 RGB 색상 값(RRGBB)이 압축되었습니다. </p></td> 
+  <td class="stentry"> <p>6자리 16진수 RGB 색상 값(RRGGBB)이 포장되었습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
-  <td class="stentry"> <p>두 자리 16진수의 회색 색상 값(0...FF)이 충진되었습니다. </p></td> 
+  <td class="stentry"> <p>2자리 16진수 회색 값(0...FF)이 팩에 포함되어 있습니다. </p></td> 
  </tr> 
 </table>
 

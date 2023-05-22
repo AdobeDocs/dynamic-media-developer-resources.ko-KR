@@ -1,7 +1,7 @@
 ---
-description: 이미지 필드 업데이트 배열입니다.
+description: 이미지 필드 업데이트의 배열입니다.
 solution: Experience Manager
-title: ImageFieldUpdateArray
+title: 이미지 필드 업데이트 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-이미지 필드 업데이트 배열입니다.
+이미지 필드 업데이트의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 25%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:ImageFieldUpdate` | 이미지 필드 업데이트 배열입니다. |
+| 항목 | `types:ImageFieldUpdate` | 이미지 필드 업데이트 배열. |

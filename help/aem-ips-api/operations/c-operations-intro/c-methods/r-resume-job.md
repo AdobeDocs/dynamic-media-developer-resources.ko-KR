@@ -18,7 +18,7 @@ ht-degree: 17%
 
 구문
 
-## 인증된 사용자 유형 {#section-eab49f4b6d1041179000326a10fee889}
+## 승인된 사용자 유형 {#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,12 +35,12 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사의 핸들입니다. |
-| jobHandle | `xsd:string` | 예 | 일시 중지된 작업의 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 다시 시작할 작업이 있는 회사에 대한 핸들입니다. |
+| jobHandle | `xsd:string` | 예 | 일시 중지된 작업에 대한 핸들입니다. |
 
 **출력(resumeJobReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-d0524e031f1f43d89430eade19526162}
 

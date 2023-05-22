@@ -1,5 +1,5 @@
 ---
-description: 사용자 계정을 만들고 해당 계정을 하나 이상의 회사에 추가합니다.
+description: 사용자 계정을 만들고 하나 이상의 회사에 해당 계정을 추가합니다.
 solution: Experience Manager
 title: addUser
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 13%
 
 # addUser{#adduser}
 
-사용자 계정을 만들고 해당 계정을 하나 이상의 회사에 추가합니다.
+사용자 계정을 만들고 하나 이상의 회사에 해당 계정을 추가합니다.
 
-사용자를 여러 회사에 추가할 때 회사 핸들링으로 해당 회사를 지정합니다. `companyHandleArray`. 이 작업은 방금 추가한 사용자에게 핸들을 반환합니다.
+여러 회사에 사용자를 추가할 때에서 회사 처리별로 해당 회사를 지정하십시오 `companyHandleArray`. 이 작업은 방금 추가한 사용자에게 핸들을 반환합니다.
 
-## 인증된 사용자 유형 {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## 승인된 사용자 유형 {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,20 +31,20 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| firstName | `xsd:string` | 예 | 사용자의 이름입니다. |
-| lastName | `xsd:string` | 예 | 사용자의 성입니다. |
+| 이름 | `xsd:string` | 예 | 사용자의 이름입니다. |
+| 성 | `xsd:string` | 예 | 사용자의 성입니다. |
 | 이메일 | `xsd:string` | 예 | 사용자의 이메일 주소입니다. |
-| defaultRole | `xsd:string` | 예 | 사용자가 속한 각 회사에서 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 다른 회사 단위 설정을 무시합니다. |
-| 암호 | `xsd:string` | 예 | 사용자의 암호를 설정합니다. |
-| passwordExpires | `xsd:dateTime` | 아니요 | 암호 만료 기간을 설정합니다. 요청을 전달할 때 시간대를 제공합니다. 시간대는 중부 시간으로 조정됩니다. |
-| isValid | `xsd:boolean` | 예 | 사용자가 유효한지 확인합니다. |
+| 기본 역할 | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나, `IpsAdmin` 역할은 다른 회사별 설정을 무시합니다. |
+| 암호 | `xsd:string` | 예 | 사용자 암호 설정 |
+| passwordExpires | `xsd:dateTime` | 아니요 | 암호 만료 기간을 설정합니다. 요청을 전달할 때 시간대를 제공합니다. 시간대는 중부 표준시로 조정됩니다. |
+| isValid | `xsd:boolean` | 예 | 사용자가 유효한지 여부를 결정합니다. |
 | membershipArray | `xsd:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |
 
 **출력(addUserParam)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| userHandle | `xsd:string` | 예 | 사용자에 대한 핸들입니다. |
+| 사용자 핸들 | `xsd:string` | 예 | 사용자의 핸들입니다. |
 
 ## 예제 {#section-2547cef622734b71919eef849960b5cb}
 

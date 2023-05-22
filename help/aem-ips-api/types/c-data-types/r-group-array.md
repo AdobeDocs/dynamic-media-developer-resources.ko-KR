@@ -1,5 +1,5 @@
 ---
-description: 그룹 배열입니다.
+description: 그룹 배열.
 solution: Experience Manager
 title: GroupArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # [!DNL GroupArray]{#grouparray}
 
-그룹 배열입니다.
+그룹 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 37%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Group` | 그룹 배열입니다. |
+| 항목 | `types:Group` | 그룹 배열. |

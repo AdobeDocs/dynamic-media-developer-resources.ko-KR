@@ -1,7 +1,7 @@
 ---
-description: 이미지 자산의 속성입니다.
+description: 이미지 에셋의 속성입니다.
 solution: Experience Manager
-title: ImageInfo
+title: 이미지 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # [!DNL ImageInfo]{#imageinfo}
 
-이미지 자산의 속성입니다.
+이미지 에셋의 속성입니다.
 
 구문
 
@@ -32,7 +32,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>원본 파일의 상대 경로입니다. </p> </td> 
+   <td colname="col3"> <p>원본 파일에 대한 상대 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL originalFile]</span> </span> </td> 
@@ -42,7 +42,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL optimizedPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>IPS에 최적화된 이미지 파일의 경로입니다. </p> </td> 
+   <td colname="col3"> <p>IPS 최적화 이미지 파일의 경로입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL optimizedFile]</span> </span> </td> 
@@ -52,7 +52,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>이미지의 마스크 경로입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 마스크의 경로. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskFile]</span> </span> </td> 
@@ -62,12 +62,12 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL width]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>이미지 너비(픽셀 단위)입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 너비(픽셀 단위). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL height]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>이미지 높이(픽셀 단위)입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 높이(픽셀 단위). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileSize]</span> </span> </td> 
@@ -77,7 +77,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>인치당 픽셀 수. </p> </td> 
+   <td colname="col3"> <p>인치당 픽셀 수 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
@@ -87,37 +87,37 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL description]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>이미지 설명입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 설명. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL comments]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>댓글(더 이상 사용되지 않음). </p> </td> 
+   <td colname="col3"> <p>댓글(삭제 예정). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL userData]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>이미지와 연관된 사용자 정보(더 이상 사용되지 않음). </p> </td> 
+   <td colname="col3"> <p>이미지와 연결된 사용자 정보(더 이상 사용되지 않음). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorX]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>가로 고정점(픽셀 단위)입니다. </p> </td> 
+   <td colname="col3"> <p>가로 고정점(픽셀). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL anchorY]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>픽셀의 수직 고정점. </p> </td> 
+   <td colname="col3"> <p>픽셀 단위의 세로 기준점. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>이미지 서버 URL 매개 변수입니다. </p> </td> 
+   <td colname="col3"> <p>이미지 서버 URL 매개 변수. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>의 끝에 연결된 매개 변수 <span class="codeph"> urlModifier</span>. 이미지 서버에 대한 명령인 매개 변수의 쿼리 문자열 형식 목록입니다. 값은 이미지 서버 프로토콜 가이드에 있습니다. </p> </td> 
+   <td colname="col3"> <p>의 끝에 연결된 매개 변수 <span class="codeph"> urlModifier</span>. 이미지 서버에 대한 명령인 매개 변수의 쿼리 문자열 형식 목록입니다. 값은 이미지 서버 프로토콜 안내서에 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
@@ -127,7 +127,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:MaskArray</span> </td> 
-   <td colname="col3"> <p>마스크 배열. </p> </td> 
+   <td colname="col3"> <p>배열을 마스킹합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 

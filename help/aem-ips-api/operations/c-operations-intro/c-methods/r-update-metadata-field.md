@@ -18,7 +18,7 @@ ht-degree: 13%
 
 구문
 
-## 인증된 사용자 유형 {#section-540e91823fee49a4920ca738f7bfeb99}
+## 승인된 사용자 유형 {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,28 +39,28 @@ ht-degree: 13%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 회사 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 필드 핸들</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 메타데이터 필드 핸들입니다. </td> 
+   <td colname="col4"> 메타데이터 필드 핸들. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 이름</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 메타데이터 필드 이름입니다. </td> 
+   <td colname="col4"> 메타데이터 필드 이름. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 메타데이터 필드 값입니다. </td> 
+   <td colname="col4"> 메타데이터 필드 값. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -72,13 +72,13 @@ ht-degree: 13%
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 강제 적용(검증)되는지 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이 로 설정된 경우 오류가 발생합니다 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 적용되는지(유효성 확인) 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이에 설정된 경우 오류가 발생합니다. <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 선택한 태그가 가리킬 수 있는 공유 열거형 값 집합을 만들 수 있습니다. </td> 
+   <td colname="col4"> 선택한 태그가 지정할 수 있는 공유 열거 값 집합을 만들 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,11 +87,11 @@ ht-degree: 13%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | 예 | 메타데이터 필드 핸들입니다. |
+| 필드 핸들 | `xsd:string` | 예 | 메타데이터 필드 핸들. |
 
 ## 예제 {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-이 코드 샘플 업데이트는 메타데이터 필드에 새 이름과 기본값을 할당합니다. 응답은 업데이트된 필드에 대한 핸들을 반환합니다.
+이 코드 샘플 업데이트는 메타데이터 필드에 새 이름과 기본값을 할당합니다. 응답은 업데이트된 필드에 핸들을 반환합니다.
 
 **요청**
 

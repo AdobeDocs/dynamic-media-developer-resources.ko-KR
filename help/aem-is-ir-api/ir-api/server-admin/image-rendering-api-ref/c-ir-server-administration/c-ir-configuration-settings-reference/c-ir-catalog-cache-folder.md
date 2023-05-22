@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 카탈로그 시스템 캐시의 루트 폴더입니다.
 
-절대 경로이거나 [!DNL *[!DNL install_folder]*]에 상대적인 경로일 수 있습니다. 기본값은 [!DNL *[!DNL install_folder]*/cache]에 해당하는 [!DNL ./cache]입니다.
+절대 경로이거나 [!DNL]에 상대적인 경로일 수 있습니다. *[!DNL install_folder]*]. 기본값은 입니다. [!DNL ./cache], [!DNL]에 해당 *[!DNL install_folder]*/cache].

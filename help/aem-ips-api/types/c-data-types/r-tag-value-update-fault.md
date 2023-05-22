@@ -1,7 +1,7 @@
 ---
-description: 태그 값 업데이트가 실패할 때 발생하는 오류입니다.
+description: 태그 값 업데이트에 실패하면 오류가 발생합니다.
 solution: Experience Manager
-title: TagValueUpdateFault
+title: 태그 값 업데이트 오류
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8225b3c7-626d-41b0-acd8-a20170427292
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-태그 값 업데이트가 실패할 때 발생하는 오류입니다.
+태그 값 업데이트에 실패하면 오류가 발생합니다.
 
 구문
 
@@ -22,6 +22,6 @@ ht-degree: 20%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 값 | `xsd:string` | 업데이트가 실패한 태그 값입니다. |
-| 코드 | `xsd:int` | 오류 코드 번호입니다. |
+| 값 | `xsd:string` | 업데이트에 실패한 태그 값입니다. |
+| 코드 | `xsd:int` | 오류 코드 번호. |
 | 이유 | `xsd:string` | 오류 메시지(일반 텍스트). |

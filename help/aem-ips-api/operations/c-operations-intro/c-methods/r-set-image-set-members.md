@@ -1,24 +1,24 @@
 ---
-description: 이미지 세트와 연결된 자산 목록을 설정합니다.
+description: 이미지 세트와 연결된 에셋 목록을 설정합니다.
 solution: Experience Manager
-title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,이미지 세트
+title: setImageSetMember
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '124'
 ht-degree: 9%
 
 ---
 
-# setImageSetMembers{#setimagesetmembers}
+# setImageSetMember{#setimagesetmembers}
 
-이미지 세트와 연결된 자산 목록을 설정합니다.
+이미지 세트와 연결된 에셋 목록을 설정합니다.
 
-이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 강제 적용합니다.
+이 작업은 `pageReset` 매개 변수 `ImageSets` 및 `SpinSets` 값을 true로 강제 설정합니다.
 
-## 인증된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
+## 승인된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->사용자는 이미지 세트 자산에 대한 읽기 및 쓰기 액세스 권한과 각 구성원 자산에 대한 읽기 액세스 권한을 가져야 합니다.
+>사용자는 이미지 집합 에셋에 대한 읽기 및 쓰기 액세스 권한과 각 멤버 에셋에 대한 읽기 액세스 권한을 보유해야 합니다.
 
 ## 매개 변수 {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -46,7 +46,7 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사 핸들. </p> </td> 
@@ -55,24 +55,24 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 이미지 세트 핸들. </td> 
+   <td colname="col4"> 이미지 집합 핸들입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 이미지 세트에 속하는 자산 멤버의 배열입니다. </td> 
+   <td colname="col4"> 이미지 집합에 속하는 자산 멤버의 배열입니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **출력(setImageSetMembersReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-7b87219034464aa98524178ccee27738}
 
-이 코드 샘플은 멤버 배열을 사용하여 이미지 세트의 멤버를 설정합니다.
+이 코드 샘플은 멤버 배열을 사용하여 이미지 집합의 멤버를 설정합니다.
 
 **요청**
 

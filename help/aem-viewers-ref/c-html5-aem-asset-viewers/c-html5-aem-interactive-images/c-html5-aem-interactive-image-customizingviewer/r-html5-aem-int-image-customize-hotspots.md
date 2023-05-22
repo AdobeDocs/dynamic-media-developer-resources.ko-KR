@@ -1,6 +1,6 @@
 ---
 title: 핫스팟
-description: 뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 핫스팟{#hotspots}
 
-뷰어는 원래 AEM Assets의 Dynamic Media에서 핫스팟이 작성된 위치의 기본 보기에 핫스팟 아이콘을 표시합니다.
+뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,12 +35,12 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지  </span> </p> </td> 
-   <td colname="col2"> <p>핫스팟 아이콘 아트웍입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>핫스팟 아이콘 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치  </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>를 참조하십시오. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스타일 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-예 - 두 개의 서로 다른 아이콘 상태에 대해 서로 다른 이미지를 표시하는 56 x 56 픽셀 핫스팟 아이콘을 설정합니다.
+예 - 두 개의 서로 다른 아이콘 상태에 대해 각각 다른 이미지를 표시하는 56 x 56픽셀 핫스팟 아이콘을 설정합니다.
 
 ```
 .s7interactiveimage .s7imagemapeffect .s7icon { 

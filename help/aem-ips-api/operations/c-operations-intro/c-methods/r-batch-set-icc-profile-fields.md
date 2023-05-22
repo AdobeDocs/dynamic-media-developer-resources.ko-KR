@@ -18,7 +18,7 @@ ICC 프로필 메타데이터 필드를 설정합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## 승인된 사용자 유형 {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +33,18 @@ ICC 프로필 메타데이터 필드를 설정합니다.
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | ICC 프로필이 포함된 회사를 처리합니다. |
-| 어레이 업데이트 | `xsd:string` | 예 | ICC 프로필 업데이트 배열입니다. |
+| company핸들 | `xsd:string` | 예 | ICC 프로파일이 포함된 회사를 처리합니다. |
+| 배열 업데이트 | `xsd:string` | 예 | ICC 프로필 업데이트 배열. |
 
 **출력(batchSetIccProfileFields)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| successCount | `xsd:int` | 예 | ICC 프로필 필드를 성공적으로 설정한 횟수입니다. |
-| warningCount | `xsd:int` | 예 | ICC 프로파일 필드를 설정하려고 할 때 생성된 경고 수입니다. |
-| errorCount | `xsd:int` | 예 | ICC 프로파일 필드를 설정하려고 할 때 생성되는 오류 수입니다. |
-| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업이 업데이트를 적용하려고 할 때 경고를 생성한 자산과 연관된 세부 정보의 배열입니다. |
-| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류를 생성한 자산과 연관된 세부 정보의 배열입니다. |
+| successCount | `xsd:int` | 예 | 성공적으로 설정된 ICC 프로파일 필드의 수입니다. |
+| warningCount | `xsd:int` | 예 | 작업에서 ICC 프로파일 필드를 설정하려고 할 때 생성된 경고 수입니다. |
+| errorCount | `xsd:int` | 예 | 작업에서 ICC 프로파일 필드를 설정하려고 할 때 생성된 오류 수. |
+| warningDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. |
+| errorDetailArray | `types:AssetOperationFaultArray` | 아니요 | 작업에서 업데이트를 적용하려고 할 때 오류가 발생한 자산과 관련된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

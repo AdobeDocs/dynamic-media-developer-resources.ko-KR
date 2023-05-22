@@ -1,6 +1,6 @@
 ---
 title: AssetArray
-description: 자산의 배열입니다.
+description: 에셋의 배열입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 35%
 
 # [!DNL AssetArray]{#assetarray}
 
-자산의 배열입니다.
+에셋의 배열입니다.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 35%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Asset` | 자산 배열. |
+| 항목 | `types:Asset` | 에셋 배열. |

@@ -16,9 +16,9 @@ ht-degree: 0%
 
 다음은 Scene 7 이미지 제공 텍스트 엔진에서 지원하는 키워드 및 명령 목록입니다.
 
-각 키워드 또는 명령에 대한 자세한 내용은 게시된 [RTF 1.6 사양](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx)을 참조하십시오.
+게시된 항목을 참조하십시오 [RTF 1.6 사양](https://msdn.microsoft.com/en-us/library/aa140277%28v=office.10%29.aspx) 각 키워드 또는 명령에 대한 자세한 내용.
 
-파서에서 아래 목록에 없는 RTF 명령은 무시됩니다.
+아래에 나열되지 않은 RTF 명령은 파서에서 무시됩니다.
 
 * [문서(텍스트 상자) 속성](r-document-text-box-properties.md)
 * [단락 서식](r-paragraph-formatting.md)

@@ -1,5 +1,5 @@
 ---
-description: 생성 속성의 배열입니다.
+description: 생성 속성 배열.
 solution: Experience Manager
 title: GenerationAttributeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL GenerationAttributeArray]{#generationattributearray}
 
-생성 속성의 배열입니다.
+생성 속성 배열.
 
 구문
 

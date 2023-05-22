@@ -1,6 +1,6 @@
 ---
 title: setAsset
-description: 기본 확대/축소 뷰어에 대한 JavaScript API 참조.
+description: 기본 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # setAsset{#setasset}
 
-기본 확대/축소 뷰어에 대한 JavaScript API 참조.
+기본 확대/축소 뷰어에 대한 JavaScript API 참조입니다.
 
 ` setAsset( *`asset`*)`
 
@@ -22,14 +22,14 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>} 새 자산 id를 추가하고 옵션 IS 수정자가 "?" 다음에 추가됩니다. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 콘텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>"?" 뒤에 선택적 IS 수정자가 추가된 새 자산 ID } </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-새 자산을 설정합니다. 이 매개 변수는 이전 또는 이후에 언제든지 호출할 수 있습니다 `init()`. 호출 후에 `init()`로 설정하면 뷰어가 런타임 시 자산을 교체합니다.
+새 자산을 설정합니다. 이 매개 변수는 언제든지 전후에 호출할 수 있습니다 `init()`. 다음 시간 이후에 호출되는 경우 `init()`, 뷰어는 런타임 시 자산을 교체합니다.
 
-참조 - [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+참조: [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 

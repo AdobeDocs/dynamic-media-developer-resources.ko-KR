@@ -1,6 +1,6 @@
 ---
 title: 플라이아웃 확대/축소 보기
-description: 기본 보기는 정적 이미지와 플라이아웃 보기에 표시된 확대 이미지 로 구성됩니다. 또한 정적 이미지 위에 표시되는 강조 표시 탐색 영역과 정적 이미지 위에 표시되는 팁 메시지로 구성됩니다.
+description: 기본 보기는 플라이아웃 보기에 표시된 정적 이미지와 확대/축소된 이미지로 구성됩니다. 또한 정적 이미지 위에 표시되는 강조 표시 탐색 영역과 정적 이미지 위에 표시되는 팁 메시지로 구성됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # 플라이아웃 확대/축소 보기{#flyout-zoom-view}
 
-기본 보기는 정적 이미지와 플라이아웃 보기에 표시된 확대 이미지 로 구성됩니다. 또한 정적 이미지 위에 표시되는 강조 표시 탐색 영역과 정적 이미지 위에 표시되는 팁 메시지로 구성됩니다.
+기본 보기는 플라이아웃 보기에 표시된 정적 이미지와 확대/축소된 이미지로 구성됩니다. 또한 정적 이미지 위에 표시되는 강조 표시 탐색 영역과 정적 이미지 위에 표시되는 팁 메시지로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-보고 있는 이미지의 차원이 플라이아웃 확대/축소 보기의 차원과 일치하지 않으면 이미지 컨텐츠가 플라이아웃 확대/축소 보기의 사각형 표시 영역 내에 중심이 됩니다.
+표시되는 이미지의 크기가 플라이아웃 확대/축소 보기의 크기와 일치하지 않으면 이미지 컨텐츠가 플라이아웃 확대/축소 보기의 사각형 표시 영역 내에서 가운데에 배치됩니다.
 
 **기본 보기의 CSS 속성**
 
@@ -37,13 +37,13 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 기본 보기의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 기본 보기를 투명하게 만들려면:
+예 - 기본 보기를 투명하게 하려면 다음을 수행합니다.
 
 ```
 .s7flyoutviewer .s7flyoutzoomview { 
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 **플라이아웃 보기의 CSS 속성**
 
-플라이아웃 보기의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+플라이아웃 보기의 모습은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom
@@ -69,11 +69,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 보기의 왼쪽 위 모서리에 상대적인 플라이아웃 보기의 수평 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 기본 보기의 왼쪽 위 모서리를 기준으로 한 플라이아웃 보기의 가로 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 보기의 왼쪽 위 모서리에 상대적인 플라이아웃 보기의 세로 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 기본 보기의 왼쪽 위 모서리를 기준으로 한 플라이아웃 보기의 세로 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -90,7 +90,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-예 - 플라이아웃 보기를 600 x 400픽셀로 설정하려면 이전 예제에 표시된 512 x 288 기본 보기의 오른쪽에 100픽셀 오프셋를 사용하여 다음을 수행하십시오.
+예 - 플라이아웃 보기를 600 x 400픽셀로 설정하려면 이전 예제에 표시된 512 x 288 기본 보기의 오른쪽에 100픽셀 오프셋이 있는 상태로 표시됩니다.
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7flyoutzoom { 
@@ -109,7 +109,7 @@ ht-degree: 2%
 .s7flyoutviewer .s7flyoutzoomview .s7highlight
 ```
 
-CSS를 사용하여 배경, 테두리, 투명도 및 유사한 속성을 제어할 수 있습니다. 그러나 강조 표시된 DOM 요소의 크기와 위치는 뷰어 로직에 의해 관리됩니다. CSS를 통해 재정의하는 것은 지원되지 않습니다.
+CSS를 이용하여 배경, 테두리, 투명도, 유사 속성을 제어할 수 있습니다. 그러나 강조 표시 DOM 요소의 크기와 위치는 뷰어 논리에 의해 관리됩니다. CSS를 통한 재정의는 지원되지 않습니다.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -120,21 +120,21 @@ CSS를 사용하여 배경, 테두리, 투명도 및 유사한 속성을 제어�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
-   <td colname="col2"> <p> 강조 표시의 색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> 강조 표시의 색상입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 불투명도 </span> </p> </td> 
-   <td colname="col2"> <p> 불투명도를 강조 표시합니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(불투명도-..); </span> </p> </td> 
+   <td colname="col2"> <p> 불투명도를 강조 표시합니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p>테두리가 강조 표시됩니다. </p> </td> 
+   <td colname="col2"> <p>테두리 강조 표시입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 40% 투명도와 픽셀 빨간색 테두리가 있는 녹색 강조 표시를 설정하려면 다음을 수행합니다.
+예 - 투명도가 40%이고 1픽셀 빨강 테두리가 있는 녹색 강조 표시를 설정하려면 다음을 수행합니다.
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7highlight { 
@@ -147,14 +147,14 @@ CSS를 사용하여 배경, 테두리, 투명도 및 유사한 속성을 제어�
 
 **커서의 CSS 속성**
 
-When `highlightmode` 매개 변수가 `cursor`를 선택하면 기본 보기에서 강조 표시가 고정 크기의 커서 아트워크로 대체되며 CSS 클래스 선택기로 제어됩니다.
+날짜 `highlightmode` 매개 변수가 로 설정되어 있습니다. `cursor`기본 보기의 강조 표시는 CSS 클래스 선택기로 제어되는 고정 크기 커서 아트워크로 대체됩니다.
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
 .s7cursor
 ```
 
-CSS를 사용하여 배경 이미지와 크기를 제어할 수 있습니다.
+CSS를 이용하여 배경 이미지와 크기를 조절할 수 있습니다.
 
 적용 가능한 CSS 속성은 다음과 같습니다.
 
@@ -167,27 +167,27 @@ CSS를 사용하여 배경 이미지와 크기를 제어할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
-   <td colname="col2"> <p>커서 아트웍입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>커서 아트워크입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>커서 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
-   <td colname="col2"> <p>커서 높이입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>커서 높이. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->커서가 `input` 속성 선택기: 다양한 장치에 대해 서로 다른 커서 아트워크와 크기를 적용하는 데 사용할 수 있습니다. 특히, `input="mouse"` 는 데스크탑 시스템에 해당하며 `input="touch"` 는 터치 장치에 해당합니다.
+>커서는 `input` 속성 선택기 : 디바이스별로 서로 다른 커서 아트웍과 크기를 적용하는 데 사용할 수 있습니다. 특히, `input="mouse"` 는 데스크탑 시스템에 해당하며 `input="touch"` 터치 장치에 해당합니다.
 
 **오버레이의 CSS 속성**
 
-이 `overlay` 매개 변수가 `1`에서는 강조 표시 프레임 주위의 영역 또는 커서 이미지는 CSS 클래스 선택기로 제어됩니다.
+다음의 경우 `overlay` 매개 변수가 로 설정되어 있습니다. `1`를 지정하면 강조 표시 프레임 또는 커서 이미지 주위의 영역이 CSS 클래스 선택기로 제어됩니다.
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,7 +203,7 @@ CSS를 사용하여 배경 이미지와 크기를 제어할 수 있습니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>오버레이 색상. </p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ CSS를 사용하여 배경 이미지와 크기를 제어할 수 있습니다.
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-CSS를 통해 글꼴 스타일, 크기, 모양 및 세로 오프셋을 구성할 수 있습니다. 그러나 가로 맞춤은 뷰어 논리에 의해 관리됩니다. 를 사용하여 CSS를 통해 재정의 `left` 또는 `right` 속성은 지원되지 않습니다.
+CSS를 통해 폰트 스타일, 크기, 모양, 수직 옵셋 등을 구성할 수 있다. 그러나 수평 정렬은 뷰어 논리에 의해 관리됩니다. CSS를 통해 재정의 `left` 또는 `right` 속성은 지원되지 않습니다.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -233,7 +233,7 @@ CSS를 통해 글꼴 스타일, 크기, 모양 및 세로 오프셋을 구성할
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>기본 뷰의 하단에서 오프셋합니다. </p> </td> 
+   <td colname="col2"> <p>기본 뷰의 아래쪽에서 오프셋합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
@@ -249,26 +249,26 @@ CSS를 통해 글꼴 스타일, 크기, 모양 및 세로 오프셋을 구성할
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>메시지 텍스트 주위에 패딩합니다. </p> </td> 
+   <td colname="col2"> <p>메시지 텍스트 주위에 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
-   <td colname="col2"> <p>메시지 텍스트의 배경색 채우기 색입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>메시지 텍스트의 배경 채우기 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>메시지 텍스트의 배경 테두리 반경. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 불투명도 </span> </p> </td> 
-   <td colname="col2"> <p>메시지 텍스트의 배경 불투명도입니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(불투명도-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>메시지 텍스트의 배경 불투명도입니다. </p> <p>Internet Explorer 8의 경우 <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-팁 메시지는 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 추가 정보.
+팁 메시지는 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 추가 정보.
 
-예 - 흰색 Arial® 12px 글꼴로 반투명 팁 메시지를 설정하고 기본 보기 아래쪽에서 50픽셀 오프셋하고 패딩과 반올림된 테두리를 설정하려면 다음을 수행합니다.
+예 - 흰색 Arial® 12px 글꼴, 기본 보기 아래쪽에서 오프셋된 50픽셀, 패딩 및 둥글게 표시된 테두리를 사용하여 반투명 팁 메시지를 설정하려면 다음 작업을 수행하십시오.
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

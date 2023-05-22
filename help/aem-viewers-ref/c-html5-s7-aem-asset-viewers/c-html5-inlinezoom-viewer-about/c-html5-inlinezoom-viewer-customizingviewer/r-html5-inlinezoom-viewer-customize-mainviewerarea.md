@@ -20,7 +20,7 @@ ht-degree: 3%
 
 **기본 뷰어 영역의 CSS 속성**
 
-보기 영역의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+다음 CSS 클래스 선택기를 사용하여 보기 영역의 모양이 제어됩니다.
 
 ```
 .s7flyoutviewer
@@ -40,16 +40,16 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>뷰어의 높이입니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경이 있는 플라이아웃 뷰어를 설정하려면( `#FFFFFF`)을 클릭하여 크기를 260 x 500픽셀로 만듭니다.
+예 - 흰색 배경이 있는 플라이아웃 뷰어를 설정합니다( `#FFFFFF`) 및 의 크기를 260 x 500픽셀로 지정합니다.
 
 ```
 .s7flyoutviewer { 

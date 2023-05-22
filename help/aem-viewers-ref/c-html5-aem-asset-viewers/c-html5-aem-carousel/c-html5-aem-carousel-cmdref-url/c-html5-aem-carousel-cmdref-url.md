@@ -1,6 +1,6 @@
 ---
 title: 명령 참조 - URL
-description: 캐러셀 뷰어에 대한 명령 참조 설명서입니다.
+description: 슬라이드 뷰어에 대한 명령 참조 설명서입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # 명령 참조 - URL{#command-reference-url}
 
-캐러셀 뷰어에 대한 명령 참조 설명서입니다.
+슬라이드 뷰어에 대한 명령 참조 설명서입니다.

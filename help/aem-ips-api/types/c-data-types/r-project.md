@@ -8,7 +8,7 @@ exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '21'
-ht-degree: 38%
+ht-degree: 28%
 
 ---
 
@@ -23,4 +23,4 @@ ht-degree: 38%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | 프로젝트 핸들 | `xsd:string` | 프로젝트 핸들. |
-| 이름 | `xsd:string` | 프로젝트 이름. |
+| name | `xsd:string` | 프로젝트 이름. |

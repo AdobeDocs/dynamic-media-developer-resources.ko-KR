@@ -1,5 +1,5 @@
 ---
-description: 작업 로그 배열입니다.
+description: 작업 로그 배열.
 solution: Experience Manager
 title: 작업 로그 배열
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL JobLogArray]{#joblogarray}
 
-작업 로그 배열입니다.
+작업 로그 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 27%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:JobLog` | 작업 로그 배열입니다. |
+| 항목 | `types:JobLog` | 작업 로그 배열. |

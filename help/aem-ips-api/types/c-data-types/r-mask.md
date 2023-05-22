@@ -1,5 +1,5 @@
 ---
-description: 이미지의 일부를 마스크합니다. 마스크는 항상 이미지와 연결되어 있습니다. ImageInfo에서 마스크를 가져옵니다.
+description: 이미지의 일부를 마스크합니다. 마스크는 항상 이미지와 연결됩니다. ImageInfo에서 마스크를 가져옵니다.
 solution: Experience Manager
 title: 마스크
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
 # [!DNL Mask]{#mask}
 
-이미지의 일부를 마스크합니다. 마스크는 항상 이미지와 연결되어 있습니다. ImageInfo에서 마스크를 가져옵니다.
+이미지의 일부를 마스크합니다. 마스크는 항상 이미지와 연결됩니다. ImageInfo에서 마스크를 가져옵니다.
 
 구문
 
@@ -22,8 +22,8 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| maskHandle | `xsd:string` | 마스크 핸들입니다. |
-| 이름 | `xsd:string` | 마스크 이름. |
-| maskPath | `xsd:string` | 마스크의 상대 경로입니다. |
-| maskFile | `xsd:string` | 마스크 파일. |
-| lastModified | `types:dateTime` | 마스크가 마지막으로 수정된 날짜, 시간 및 시간대입니다. |
+| maskHandle | `xsd:string` | 마스크 핸들. |
+| name | `xsd:string` | 마스크 이름. |
+| 마스크 경로 | `xsd:string` | 마스크의 상대 경로입니다. |
+| 마스크 파일 | `xsd:string` | 마스크 파일. |
+| 마지막 수정일 | `types:dateTime` | 마스크를 마지막으로 수정한 날짜, 시간 및 시간대입니다. |

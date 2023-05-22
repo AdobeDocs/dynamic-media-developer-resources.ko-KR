@@ -1,6 +1,6 @@
 ---
 title: 인쇄
-description: 인쇄 도구는 도구가 활성화될 때 표시되는 모달 대화 상자와 컨트롤 모음에 추가된 단추로 구성됩니다.
+description: 인쇄 도구는 컨트롤 막대에 추가된 단추와 도구를 활성화할 때 표시되는 모달 대화 상자로 구성됩니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # 인쇄{#print}
 
-인쇄 도구는 도구가 활성화될 때 표시되는 모달 대화 상자와 컨트롤 모음에 추가된 단추로 구성됩니다.
+인쇄 도구는 컨트롤 막대에 추가된 단추와 도구를 활성화할 때 표시되는 모달 대화 상자로 구성됩니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-인쇄 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+인쇄 단추의 모양은 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
 .s7ecatalogsearchviewer .s7print
@@ -29,12 +29,12 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 상단 </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대의 상단으로부터 오프셋입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-상단 </span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대의 위쪽에 있는 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
-   <td colname="col2"> <p> 왼쪽의 다음 단추까지의 거리 또는 이 단추가 행의 첫 번째 단추인 경우 컨트롤 막대의 왼쪽에 있는 거리. </p> </td> 
+   <td colname="col2"> <p> 왼쪽에 있는 다음 단추까지의 거리 또는 이 단추가 행의 첫 번째 단추인 경우 컨트롤 막대의 왼쪽입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -45,23 +45,23 @@ ht-degree: 2%
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 28 x 28픽셀인 인쇄 단추를 설정하고 네 개의 서로 다른 단추 상태에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀이며 네 가지 서로 다른 단추 상태에 대해 각각 다른 이미지를 표시하는 인쇄 단추를 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7print { 
@@ -99,13 +99,13 @@ background-image:url(images/v2/Print_dark_disabled.png);
    <td colname="col2"> <p> 배경 오버레이 불투명도. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>배경 오버레이 색상. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 70% 불투명도를 사용하여 회색 오버레이를 설정하려면 다음을 수행합니다.
+예 - 배경 오버레이를 불투명도가 70%인 회색으로 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay { 
@@ -114,7 +114,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-기본적으로 모달 대화 상자가 데스크탑 시스템의 화면 중앙에 표시됩니다. 대화 상자의 위치 지정 및 크기 조절은 구성 요소에서 관리합니다. 대화 상자는 다음 CSS 클래스 선택기로 제어됩니다.
+기본적으로 모달 대화 상자는 데스크탑 시스템에서 화면 중앙에 표시됩니다. 대화 상자의 위치 지정 및 크기 조정은 구성 요소에서 관리합니다. 이 대화 상자는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
@@ -125,17 +125,17 @@ background-image:url(images/v2/Print_dark_disabled.png);
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 테두리 반경 </span> </p> </td> 
-   <td colname="col2"> <p> 대화 상자 테두리 반경. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col2"> <p> 대화 상자 테두리 반경입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 대화 상자 배경색; </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 회색 배경을 갖도록 대화 상자를 설정하려면 다음을 수행합니다.
+예 - 회색 배경이 되도록 대화 상자를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -143,7 +143,7 @@ background-color: #dddddd;
 }
 ```
 
-대화 상자 헤더는 아이콘, 제목 텍스트 및 닫기 단추로 구성됩니다. 헤더 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자 머리글은 아이콘, 제목 텍스트 및 닫기 단추로 구성됩니다. 헤더 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
@@ -155,18 +155,18 @@ background-color: #dddddd;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 헤더 컨텐츠에 대한 내부 패딩. </p> </td> 
+   <td colname="col2"> <p> 헤더 콘텐츠에 대한 내부 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-아이콘 및 제목 텍스트는 다음과 같이 제어되는 추가 컨테이너에 래핑됩니다.
+아이콘과 제목 텍스트는 다음과 같이 제어되는 추가 컨테이너에 래핑됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
 ```
 
-**대화 상자의 CSS 속성**
+**대화 상자 라인의 CSS 속성**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -188,20 +188,20 @@ background-color: #dddddd;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
-   <td colname="col2"> <p>아이콘 너비. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
-   <td colname="col2"> <p>아이콘 이미지. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>아이콘 이미지 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -218,7 +218,7 @@ background-color: #dddddd;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 가중치입니다. </p> </td> 
+   <td colname="col2"> <p>글꼴 두께. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -226,7 +226,7 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 패밀리. </p> </td> 
+   <td colname="col2"> <p>글꼴 모음. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
@@ -235,54 +235,54 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-닫기 단추는 다음 CSS 클래스 선택기로 제어됩니다.
+닫기 단추는 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-**닫기 단추의 CSS 속성 **
+**닫기 단추 속성의 CSS **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p> 헤더 컨테이너에 대한 세로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 머리글 컨테이너를 기준으로 한 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 헤더 컨테이너에 대한 가로 단추 위치입니다. </p> </td> 
+   <td colname="col2"> <p> 헤더 컨테이너를 기준으로 한 가로 단추 위치. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>단추의 내부 패딩. </p> </td> 
+   <td colname="col2"> <p>단추의 내부 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
-   <td colname="col2"> <p>각 상태에 대한 단추 이미지입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col2"> <p>각 상태에 대한 단추 이미지. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경 위치 </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 위치를 지정합니다. </p> <p>참조 - <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprite </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+닫기 단추 도구 팁과 대화 상자 제목을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 패딩, 22 x 22픽셀 아이콘 및 굵은 16포인트 제목을 사용하여 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 마지막으로, 28x28픽셀 닫기 단추가 위쪽에서 2개의 픽셀과 대화 상자 컨테이너 오른쪽에서 2개의 픽셀을 배치했습니다.
+예 - 패딩, 22x22픽셀 아이콘 및 굵은 16포인트 제목이 있는 대화 상자 헤더를 설정하려면 다음을 수행하십시오. 마지막으로 28 x 28 픽셀 닫기 단추는 대화 상자 컨테이너의 맨 위에서 두 픽셀과 맨 오른쪽에서 두 픽셀을 배치합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -322,36 +322,36 @@ background-color: #dddddd;
 }
 ```
 
-대화 상자 바닥글은 취소 및 인쇄로 보내기 단추로 구성됩니다. 바닥글 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자 바닥글은 취소 단추와 인쇄로 보내기 단추로 구성됩니다. 바닥글 컨테이너는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**대화 상자 바닥글의 CSS 속성 **
+**대화 상자 바닥글 속성의 CSS **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리입니다. </p> </td> 
+   <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-바닥글에는 두 단추를 모두 유지하는 내부 컨테이너가 있습니다. 이 컨트롤은 다음 CSS 클래스 선택기로 제어됩니다.
+바닥글에는 두 단추를 모두 보관하는 내부 컨테이너가 있습니다. 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**대화 상자 단추 컨테이너의 CSS 속성**
+**대화 상자 버튼 컨테이너의 CSS 속성**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩. </p> </td> 
+   <td colname="col2"> <p> 바닥글과 단추 사이의 내부 패딩입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,16 +362,16 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**대화 상자의 CSS 속성 취소 단추**
+**대화 상자 취소 단추의 CSS 속성**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -379,7 +379,7 @@ background-color: #dddddd;
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +387,7 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
 인쇄로 보내기 단추는 다음 CSS 클래스 선택기로 제어됩니다.
 
@@ -395,24 +395,24 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogactionbutton
 ```
 
-**대화 상자 작업 단추의 CSS 속성**
+**대화 상자 작업 버튼의 CSS 속성**
 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,9 +420,9 @@ background-color: #dddddd;
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기. 다른 스킨을 다른 단추 상태에 적용하는 데 사용할 수 있습니다.
+>이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-또한 두 단추 모두 다른 대화 상자 단추와 동일한 CSS 설정을 포함할 수 있는 일반적인 CSS 클래스를 공유합니다.
+또한 두 버튼은 다른 대화 상자 버튼에 대해 동일한 CSS 설정을 포함할 수 있는 공통 CSS 클래스를 공유합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -434,7 +434,7 @@ background-color: #dddddd;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>단추 글꼴 가중치입니다. </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 두께. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -442,26 +442,26 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>단추 글꼴 모음입니다. </p> </td> 
+   <td colname="col2"> <p>단추 글꼴 모음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 라인 높이 </span> </p> </td> 
-   <td colname="col2"> <p> 단추 내부의 텍스트 높이. 세로 정렬에 영향을 줍니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 선 높이 </span> </p> </td> 
+   <td colname="col2"> <p> 단추 내부의 텍스트 높이입니다. 세로 정렬에 영향을 줍니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
    <td colname="col2"> <p>그림자. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
-   <td colname="col2"> <p>오른쪽 단추 여백. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백 </span> </p> </td> 
+   <td colname="col2"> <p>오른쪽 단추 여백입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-단추 도구 설명은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+버튼 도구 팁은 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 64 x 34 취소 단추와 96 x 34 인쇄로 보내기 단추가 있는 대화 상자 바닥글을 설정하려면 각 단추 상태에 대해 텍스트 색상 및 배경색을 다르게 지정합니다.
+예 - 64 x 34 취소 단추 및 96 x 34 인쇄로 보내기 단추가 있는 대화 상자 바닥글을 설정하려면 텍스트 색상과 배경색이 각 단추 상태에 따라 다릅니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -521,22 +521,22 @@ background-color: #dddddd;
 }
 ```
 
-머리글과 바닥글 사이에 있는 기본 대화 상자 영역에는 대화 상자 컨텐츠가 있습니다. 모든 경우 구성 요소는 이 영역의 너비를 관리하므로 CSS로 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
+기본 대화 상자 영역(머리글과 바닥글 사이)에는 대화 상자 내용이 포함됩니다. 모든 경우 구성 요소가 이 영역의 너비를 관리하지만 CSS에서는 이 영역을 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-**대화 상자의 CSS 속성 보기 영역 **
+**대화 상자 보기 영역의 CSS **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
-   <td colname="col2"> <p> 주 대화상자 영역의 높이입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -546,7 +546,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-예 - 자동으로 계산된 높이를 갖도록 기본 대화 상자 영역을 설정하려면 10개의 픽셀 여백을 사용하고 흰색 배경을 사용합니다.
+예 - 자동으로 계산된 높이를 갖도록 기본 대화 상자 영역을 설정하려면 10개의 픽셀 여백을 두고 흰색 배경을 사용합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -556,13 +556,13 @@ background-color: #dddddd;
 }
 ```
 
-모든 양식 컨텐츠(예: 레이블 및 입력 필드)는 다음 CSS 클래스 선택기를 사용하여 제어되는 컨테이너 내에 있습니다.
+모든 양식 콘텐츠(예: 레이블 및 입력 필드)는 다음 CSS 클래스 선택기로 제어되는 컨테이너 내에 있습니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**대화 상자 본문의 CSS 속성**
+**대화 상자 본문의 CSS **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -573,7 +573,7 @@ background-color: #dddddd;
  </tbody> 
 </table>
 
-예 - 양식 컨텐츠에 10픽셀 패딩을 포함하도록 설정하려면 다음을 수행합니다.
+예 - 10픽셀 패딩을 갖도록 양식 콘텐츠를 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -581,24 +581,24 @@ background-color: #dddddd;
 }
 ```
 
-대화 상자 양식은 라인별로 채워져 있으며 각 줄에는 양식 컨텐츠의 일부(레이블 및 텍스트 입력 필드 등)가 포함되어 있습니다. 단일 양식 선은 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자 폼은 줄별로 채워지며, 각 줄에는 레이블 및 텍스트 입력 필드와 같은 양식 내용의 일부가 전달됩니다. 단일 양식 줄은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**대화 상자 줄의 CSS 속성**
+**대화 상자 라인의 CSS 속성**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>내부 라인 패딩. </p> </td> 
+   <td colname="col2"> <p>안쪽 줄 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 각 행에 10픽셀 패딩이 있도록 대화 상자 양식을 설정하려면 다음을 수행합니다.
+예 - 각 줄에 대해 10픽셀 패딩을 포함하도록 대화 상자 양식을 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -606,7 +606,7 @@ background-color: #dddddd;
 }
 ```
 
-대화 상자 콘텐츠의 블록 크기는 다음 CSS 클래스 선택기로 제어됩니다.
+대화 상자 콘텐츠 블록의 크기는 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
@@ -617,17 +617,17 @@ background-color: #dddddd;
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
-   <td colname="col2"> <p>블록 너비. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>블록 폭. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
-   <td colname="col2"> <p>내부 라인 패딩. </p> </td> 
+   <td colname="col2"> <p>안쪽 줄 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 컨텐츠 블록을 너비가 430픽셀이고 하단에서 패딩이 10픽셀로 설정하려면 다음을 수행합니다.
+예 - 콘텐츠 블록을 430픽셀 너비로 설정하고 맨 아래에 10픽셀 패딩을 포함하도록 설정합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide { 
@@ -642,15 +642,15 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel
 ```
 
-이 클래스는 양식 사용자 인터페이스의 여러 위치에서 텍스트에 적용할 수 있으므로 레이블 크기 또는 위치를 제어하는 데 적합하지 않습니다.
+이 클래스는 사용자 인터페이스 형식의 다양한 위치에 있는 텍스트에 적용할 수 있으므로 레이블 크기나 위치를 제어하기에 적합하지 않습니다.
 
-**대화 상자 레이블의 CSS 속성입니다. **
+**대화 상자 레이블의 CSS 속성. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
-   <td colname="col2"> <p>레이블 글꼴 가중치입니다. </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 두께입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
@@ -658,18 +658,18 @@ background-color: #dddddd;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 패밀리에 레이블을 지정합니다. </p> </td> 
+   <td colname="col2"> <p>레이블 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
-   <td colname="col2"> <p>텍스트 색상을 레이블 지정합니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>레이블 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-대화 상자 레이블은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+대화 상자 레이블은 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 9픽셀 글꼴로 회색, 굵게 모든 레이블을 설정하려면 다음을 수행합니다.
+예 - 9픽셀 글꼴을 사용하여 모든 레이블을 회색, 굵은 글꼴로 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel { 
@@ -690,7 +690,7 @@ background-color: #dddddd;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 패딩 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩-왼쪽 </span> </p> </td> 
    <td colname="col2"> <p>내부 패딩. </p> </td> 
   </tr> 
  </tbody> 
@@ -704,7 +704,7 @@ background-color: #dddddd;
 }
 ```
 
-라디오 단추 및 해당 캡션 텍스트는 다음 CSS 클래스 선택기로 제어됩니다.
+라디오 버튼과 해당 캡션 텍스트는 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption
@@ -715,12 +715,12 @@ background-color: #dddddd;
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
-   <td colname="col2"> <p> 캡션이 있는 라디오 단추의 총 폭입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p> 캡션이 있는 라디오 단추의 총 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
-   <td colname="col2"> <p>캡션 텍스트 색상. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p>캡션 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,8 +736,8 @@ background-color: #dddddd;
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 순익 </span> </p> </td> 
-   <td colname="col2"> <p> 라디오 단추와 해당 캡션 사이의 간격. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백 </span> </p> </td> 
+   <td colname="col2"> <p> 라디오 단추와 해당 캡션 간의 간격. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -748,22 +748,22 @@ background-color: #dddddd;
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
 ```
 
-**대화 상자의 CSS 속성 인쇄 범위**
+**대화 상자 인쇄 범위의 CSS 속성**
 
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p> 숫자 선택기의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
-   <td colname="col2"> <p> 숫자 선택기 주변 간격. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col2"> <p> 숫자 선택기 주위의 간격입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 모든 라디오 단추를 검정 텍스트, 10픽셀 간격 및 42픽셀 너비 숫자 선택기를 사용하여 150픽셀 너비로 설정하려면 다음을 수행합니다.
+예 - 모든 라디오 단추를 150픽셀 너비에 검은색 텍스트, 10픽셀 간격 및 42픽셀 너비의 숫자 선택기를 사용하도록 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -780,37 +780,37 @@ background-color: #dddddd;
 }
 ```
 
-페이지 범위 선택과 인쇄 레이아웃 섹션 간의 가로 구분선은 다음 CSS 클래스 선택기로 제어됩니다.
+페이지 범위 선택과 인쇄 레이아웃 섹션 사이의 가로 구분선은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
  .s7ecatalogsearchviewer 
 .s7printdialog .s7horizontaldivider
 ```
 
-**수평 분할기의 CSS 속성**
+**가로 분할기의 CSS 속성**
 
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 구분선 주위에 테두리가 있습니다. </p> </td> 
+   <td colname="col2"> <p> 구분선 주변의 경계. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 패딩 </span> </p> </td> 
    <td colname="col2"> <p>내부 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>구분선 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
    <td colname="col2"> <p>외부 여백 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 양면에 10픽셀 수직 패딩과 맨 위에 10픽셀 여백이 있는 430픽셀 너비 회색 구분선을 설정하려면 다음을 수행합니다.
+예 - 양쪽에 10픽셀 수직 패딩이 있고 맨 위에 10픽셀 여백이 있는 430픽셀 너비의 회색 구분선을 설정하려면 다음을 수행합니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 

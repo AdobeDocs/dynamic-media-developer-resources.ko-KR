@@ -1,6 +1,6 @@
 ---
 title: 보조 컨트롤 막대
-description: 보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
+description: 보조 컨트롤 막대는 CSS에서 사용할 수 있을 때 첫 번째 및 마지막 페이지 단추와 페이지 표시기가 포함된 사각형 영역입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # 보조 컨트롤 막대{#secondary-control-bar}
 
-보조 컨트롤 막대는 CSS에서 사용할 수 있도록 만들 때 [첫 번째 페이지] 및 [마지막 페이지] 단추와 [페이지 표시기]를 포함하는 사각형 영역입니다.
+보조 컨트롤 막대는 CSS에서 사용할 수 있을 때 첫 번째 및 마지막 페이지 단추와 페이지 표시기가 포함된 사각형 영역입니다.
 
-기본적으로 휴대폰에만 표시되고 뷰어 하단에 배치됩니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 색상, 높이 및 세로 위치를 CSS로 변경할 수 있습니다.
+기본적으로 휴대폰에만 표시되고 뷰어 하단에 배치됩니다. 항상 사용 가능한 전체 뷰어 너비를 사용합니다. 뷰어 컨테이너를 기준으로 CSS별로 색상, 높이 및 세로 위치를 변경할 수 있습니다.
 
-보조 컨트롤 막대의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
+보조 컨트롤 막대의 모양은 다음 CSS 클래스 선택기를 사용하여 제어됩니다.
 
 `.s7ecatalogviewer .s7secondarycontrols .s7controlbar`
 
@@ -32,24 +32,24 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
-   <td colname="col2"> <p>뷰어 상단에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>뷰어의 맨 위에 있는 위치입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
-   <td colname="col2"> <p>뷰어 아래쪽에서 위치를 지정합니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 아래에서 위치 지정. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>기본 컨트롤 막대의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>보조 컨트롤 막대의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 72픽셀이고 뷰어 컨테이너의 하단에 있는 회색 보조 컨트롤 막대를 설정하려면 다음을 수행합니다.
+예 - 뷰어 컨테이너의 맨 아래에 위치하며 높이가 72픽셀인 회색 보조 컨트롤 막대를 설정합니다.
 
 ```
 .s7ecatalogviewer .s7secondarycontrols .s7controlbar {  

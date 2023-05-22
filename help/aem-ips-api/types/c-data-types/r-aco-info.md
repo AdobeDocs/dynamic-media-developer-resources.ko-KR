@@ -1,6 +1,6 @@
 ---
 title: AcoInfo
-description: ACO 자산의 속성입니다.
+description: ACO 자산 속성.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL AcoInfo]{#acoinfo}
 
-ACO 자산의 속성입니다.
+ACO 자산 속성.
 
 구문
 
@@ -22,6 +22,6 @@ ACO 자산의 속성입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| originalPath | `xsd:string` | ACO 파일 경로입니다. |
-| originalFile | `xsd:string` | ACO 파일 이름입니다. |
-| fileSize | `xsd:int` | ACO 파일 크기입니다. |
+| 원본 경로 | `xsd:string` | ACO 파일 경로. |
+| 원본 파일 | `xsd:string` | ACO 파일 이름. |
+| 파일 크기 | `xsd:int` | ACO 파일 크기. |

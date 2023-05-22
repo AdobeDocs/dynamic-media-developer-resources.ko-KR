@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFault
-description: 배치 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 일괄 처리가 아닌 작업에 대해 throw되었을 오류 메시지 필드에 해당합니다.
+description: 자산 일괄 처리 작업 중 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 비일괄 처리 작업을 위해 throw되었을 오류 메시지 필드에 해당합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AssetOperationFault]{#assetoperationfault}
 
-배치 자산 작업 중에 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 일괄 처리가 아닌 작업에 대해 throw되었을 오류 메시지 필드에 해당합니다.
+자산 일괄 처리 작업 중 생성된 경고 또는 오류 조건에 대한 정보를 포함합니다. 코드 및 이유 필드는 동일한 비일괄 처리 작업을 위해 throw되었을 오류 메시지 필드에 해당합니다.
 
 구문
 
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| assetHandle | `xsd:string` | 실패한 작업에 대한 자산 핸들입니다. |
+| assetHandle | `xsd:string` | 실패한 작업에 대한 에셋 핸들입니다. |
 | 코드 | `xsd:int` | 작업 오류 코드. |
-| 이유 | `xsd:string` | 오류 설명 또는 이유 |
+| 이유 | `xsd:string` | 오류 설명 또는 이유. |

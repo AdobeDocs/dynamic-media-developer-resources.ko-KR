@@ -1,5 +1,5 @@
 ---
-description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName 중 하나를 지정해야 합니다.
+description: 회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
@@ -7,18 +7,18 @@ role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '168'
 ht-degree: 8%
 
 ---
 
 # getCompanyInfo{#getcompanyinfo}
 
-회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName 중 하나를 지정해야 합니다.
+회사 핸들, 회사 이름, 루트 경로 및 만료 날짜를 포함하여 지정된 회사에 대한 정보를 반환합니다. 정보를 검색할 companyHandle 또는 companyName을 지정해야 합니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## 승인된 사용자 유형 {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,16 +44,16 @@ ht-degree: 8%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이 필요합니다. </p> </td> 
+   <td colname="col3"> <p>다음 중 하나 <span class="codeph"> <span class="varname"> company핸들</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span> 필수 항목입니다. </p> </td> 
    <td colname="col4"> <p>정보를 얻고자 하는 회사의 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이 필요합니다. </p> </td> 
-   <td colname="col4"> <p>정보를 얻을 회사의 이름입니다. </p> </td> 
+   <td colname="col3"> <p>다음 중 하나 <span class="codeph"> <span class="varname"> company핸들</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span> 필수 항목입니다. </p> </td> 
+   <td colname="col4"> <p>정보를 얻으려는 회사의 이름입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ ht-degree: 8%
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:회사</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
-   <td colname="col4"> <p>회사에 대한 및 기타 설명 정보를 처리합니다. </p> </td> 
+   <td colname="col4"> <p>회사에 대한 기타 설명 정보를 처리합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

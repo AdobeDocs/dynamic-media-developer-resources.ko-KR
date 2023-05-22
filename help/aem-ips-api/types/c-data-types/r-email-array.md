@@ -1,5 +1,5 @@
 ---
-description: 확인 알림을 받을 작성자 또는 최대 5개의 이메일 주소 목록을 지정하는 데 사용되는 배열입니다.
+description: 확인 알림을 수신할 최대 5개의 이메일 주소 목록 또는 작성자를 지정하는 데 사용되는 배열입니다.
 solution: Experience Manager
 title: EmailArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL EmailArray]{#emailarray}
 
-확인 알림을 받을 작성자 또는 최대 5개의 이메일 주소 목록을 지정하는 데 사용되는 배열입니다.
+확인 알림을 수신할 최대 5개의 이메일 주소 목록 또는 작성자를 지정하는 데 사용되는 배열입니다.
 
 구문
 

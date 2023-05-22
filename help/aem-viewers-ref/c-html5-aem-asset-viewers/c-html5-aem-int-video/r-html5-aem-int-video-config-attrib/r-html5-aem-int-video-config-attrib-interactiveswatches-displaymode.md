@@ -8,7 +8,7 @@ exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 연속|세그먼트</span> </p> </td> 
-   <td colname="col2"> <p> 세그먼트 경계나 세그먼트 경계에 관계없이 미리 보기로 계속 대화형 색상 견본을 채우며 빈 공간을 통해 세그먼트 경계를 표시할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 세그먼트 경계에 관계없이 썸네일을 사용하여 대화형 견본을 연속적으로 채우거나, 빈 공간을 사용하여 세그먼트 경계를 확인할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-1e637b22e8a44d759d588e47576891e6}
 
-선택 사항입니다.
+선택적.
 
 ## 기본값 {#section-71fb773f814649b2885aefee68073641}
 

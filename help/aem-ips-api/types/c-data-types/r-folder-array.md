@@ -1,7 +1,7 @@
 ---
-description: 폴더 배열입니다.
+description: 폴더 배열.
 solution: Experience Manager
-title: FolderArray
+title: 폴더 배열
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e7de5cf2-4a2c-41e5-ba2b-7052bb5e8101
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL FolderArray]{#folderarray}
 
-폴더 배열입니다.
+폴더 배열.
 
 구문
 
@@ -22,4 +22,4 @@ ht-degree: 33%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:Folder` | 폴더 배열입니다. |
+| 항목 | `types:Folder` | 폴더 배열. |

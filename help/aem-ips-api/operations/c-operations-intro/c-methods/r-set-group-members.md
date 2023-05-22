@@ -1,7 +1,7 @@
 ---
-description: 특정 회사에 속하는 사용자의 그룹 구성원을 설정합니다.
+description: 특정 회사에 속한 사용자의 그룹 멤버십을 설정합니다.
 solution: Experience Manager
-title: setGroupMembers
+title: setGroupMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
@@ -12,13 +12,13 @@ ht-degree: 9%
 
 ---
 
-# setGroupMembers{#setgroupmembers}
+# setGroupMember{#setgroupmembers}
 
-특정 회사에 속하는 사용자의 그룹 구성원을 설정합니다.
+특정 회사에 속한 사용자의 그룹 멤버십을 설정합니다.
 
-이 작업을 수행할 권한이 없는 경우 작업에 인증 오류가 발생합니다. 사용자 핸들 어레이의 사용자 중 어느 누구도 회사 핸들에 지정된 회사에 속하지 않는 경우에도 마찬가지입니다.
+이 작업을 수행할 수 있는 권한이 없는 경우 작업에 인증 오류가 발생합니다. 이는 사용자 핸들 배열의 사용자 중 회사 핸들에 지정된 회사에 속하지 않는 사용자가 있는 경우에도 마찬가지입니다.
 
-## 인증된 사용자 유형 {#section-4523594039c24aa29c8d0d5c9c415391}
+## 승인된 사용자 유형 {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +30,17 @@ ht-degree: 9%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 회사 핸들. |
-| groupHandle | `xsd:string` | 예 | 그룹 핸들. |
-| userHandleArray | `types:HandleArray` | 예 | 그룹 구성원을 설정하려는 사용자의 핸들 배열입니다. |
+| company핸들 | `xsd:string` | 예 | 회사 핸들. |
+| group핸들 | `xsd:string` | 예 | 그룹 핸들. |
+| userHandleArray | `types:HandleArray` | 예 | 설정할 그룹 멤버십의 사용자 핸들 배열입니다. |
 
 **출력(setGroupMembesReturn)**
 
-IPS API가 이 작업에 대한 응답을 반환하지 않습니다.
+IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-이 코드 샘플은 단일 사용자에 대한 그룹 구성원을 설정합니다.
+이 코드 샘플은 단일 사용자에 대한 그룹 멤버십을 설정합니다.
 
 **요청**
 

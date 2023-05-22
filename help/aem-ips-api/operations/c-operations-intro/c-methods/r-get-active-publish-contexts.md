@@ -1,5 +1,5 @@
 ---
-description: 지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 게시 컨텍스트가 활성 상태로 간주됩니다.
+description: 지정된 회사의 활성 게시 컨텍스트 목록을 가져옵니다. 게시 컨텍스트는 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 활성 상태로 간주됩니다.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-지정된 회사에 대한 활성 게시 컨텍스트 목록을 가져옵니다. 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 게시 컨텍스트가 활성 상태로 간주됩니다.
+지정된 회사의 활성 게시 컨텍스트 목록을 가져옵니다. 게시 컨텍스트는 컨텍스트에 대해 정의된 활성 서버가 하나 이상 있는 경우 활성 상태로 간주됩니다.
 
 구문
 
-## 인증된 사용자 유형 {#section-eb22397744434dfe92a59ffa2883c2e7}
+## 승인된 사용자 유형 {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| companyHandle | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리할 회사의 핸들입니다 |
+| company핸들 | `xsd:string` | 예 | 활성 게시 컨텍스트를 쿼리하기 위한 회사의 핸들입니다. |
 
 **출력(getActivePublishContextsReturn)**
 

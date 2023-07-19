@@ -1,14 +1,14 @@
 ---
-description: 만료
-solution: Experience Manager
 title: 만료
+description: 클라이언트 및 프록시 서버 캐싱을 관리하는 데 사용됩니다. 서버는 HTTP 응답 데이터의 만료 시간/날짜를 전송 시간/날짜에 추가하여 계산합니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 064dab12-5f58-4e19-a6b1-fbd20182e3aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 

@@ -1,20 +1,20 @@
 ---
-description: Id
-solution: Experience Manager
 title: Id
+description: 일반적으로 SKU 번호와 같은 짧고 고유한 식별자는 SKU에 여러 이미지가 있거나 로케일별 변형이 있는 경우와 같이 일종의 접미사가 있을 수 있습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d7b37180-cc93-41cd-bf14-5c262b046fbc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 3%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 
 # Id{#id}
 
-일반적으로 SKU 번호와 같은 짧고 고유한 식별자는 SKU에 여러 이미지가 있거나 로케일별 변형이 있는 경우와 같이 일부 종류의 접미사가 있을 수 있습니다. 또한 이미지 제공으로 웹 사이트를 쉽게 리모델링할 수 있도록 지원하기 위해 파일 경로처럼 보이는 보다 복잡한 문자열일 수 있습니다.
+일반적으로 SKU 번호와 같은 짧고 고유한 식별자는 SKU에 여러 이미지가 있거나 로케일별 변형이 있는 경우와 같이 일종의 접미사가 있을 수 있습니다. 또한 이미지 제공으로 웹 사이트를 쉽게 리모델링할 수 있도록 지원하기 위해 파일 경로처럼 보이는 보다 복잡한 문자열일 수 있습니다.
 
 >[!NOTE]
 >

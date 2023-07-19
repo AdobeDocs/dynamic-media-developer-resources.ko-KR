@@ -1,13 +1,13 @@
 ---
-description: 타임스탬프
-solution: Experience Manager
 title: 타임스탬프
+description: '''attribute::UseLastModified''가 설정되면 ''catalog::TimeStamp'' 값이 HTTP 응답에 Last-Modified HTTP 헤더로 반환됩니다. ''attribute::UseLastModified''가 설정되지 않은 경우에도 Last-Modified 헤더가 항상 정적 콘텐츠에 대해 반환됩니다.'
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3c47b14d-b629-474d-952a-b09e1b1162b4
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---

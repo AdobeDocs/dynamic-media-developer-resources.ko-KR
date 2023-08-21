@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 >
 >Dynamic Media을 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 알아보십시오 [_스냅샷_](https://snapshot.scene7.com/).
 >
-> 스냅숏은 Dynamic Media의 최적화된 동적 이미지 제공 기능을 보여 주도록 설계된 시각적 데모 도구입니다. 테스트 이미지 또는 Dynamic Media URL로 테스트하여 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 수행합니다.
+> 스냅샷은 Dynamic Media의 최적화된 동적 이미지 제공 기능을 보여 주기 위해 설계된 시각적 데모 도구입니다. 테스트 이미지 또는 Dynamic Media URL로 테스트하여 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 수행합니다.
 >* 파일 크기(WebP 및 AVIF 게재 포함)
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
@@ -57,6 +57,7 @@ Dynamic Media 참조 [이미지 사전 설정 옵션](https://experienceleague.a
 * [자르기](r-crop.md)
 * [자르기 경로](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [효과](r-effect.md)
 * [효과 마스크](r-effectmask.md)
 * [확장](r-extend.md)
@@ -75,6 +76,7 @@ Dynamic Media 참조 [이미지 사전 설정 옵션](https://experienceleague.a
 * [맵](r-map.md)
 * [마스크](r-mask.md)
 * [마스크 사용](r-maskuse.md)
+* [네트워크](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)

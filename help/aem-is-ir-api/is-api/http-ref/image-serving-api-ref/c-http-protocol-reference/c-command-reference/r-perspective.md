@@ -1,11 +1,11 @@
 ---
+title: 원근감
 description: 원근감 있는 변환. 레이어 소스 이미지에 원근 변환을 적용하여 사각형으로 지정된 영역을 채웁니다. 레이어의 다른 영역은 투명하게 유지됩니다.
 solution: Experience Manager
-title: 원근감
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2e0297b0-c9a4-4bbd-9f06-368f722288d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 1%

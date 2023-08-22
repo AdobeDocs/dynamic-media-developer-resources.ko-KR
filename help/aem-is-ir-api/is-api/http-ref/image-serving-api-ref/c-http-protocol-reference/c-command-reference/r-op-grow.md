@@ -1,11 +1,11 @@
 ---
-description: 이미지 확장/비활성화. 이미지 데이터에 형태학적 딜레이트(반경 > 0) 또는 에로드(반경 < 0)를 적용합니다.
-solution: Experience Manager
 title: op_grow
+description: 이미지 확장/비활성화. 형태학적 확장(반경 > 0) 또는 부식(반경 < 0)을 이미지 데이터에 적용합니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # op_grow{#op-grow}
 
-이미지 확장/비활성화. 이미지 데이터에 형태학적 딜레이트(반경 > 0) 또는 에로드(반경 &lt; 0)를 적용합니다.
+이미지 확장/비활성화. 형태학적 확장(반경 > 0) 또는 부식(반경 &lt; 0)을 이미지 데이터에 적용합니다.
 
 `op_grow= *`반경`*`
 

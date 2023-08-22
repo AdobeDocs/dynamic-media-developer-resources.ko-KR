@@ -1,11 +1,11 @@
 ---
+title: op_usmR
 description: 언샵 마스크 [언샵]을 사용하면 레이어=comp인 경우 모든 크기 조절 후에 레이어 또는 최종 보기 이미지가 마스크됩니다.
 solution: Experience Manager
-title: op_usmR
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 51a779be-568b-40e5-99d9-e875023a2b2c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%

@@ -1,11 +1,11 @@
 ---
+title: 캐시
 description: 캐시 제어. 내부 클라이언트 측 캐싱(브라우저, 프록시 서버, 네트워크 캐싱 시스템)과 캐싱을 선택적으로 비활성화할 수 있습니다 [!DNL Platform Server] 캐시입니다.
 solution: Experience Manager
-title: 캐시
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%

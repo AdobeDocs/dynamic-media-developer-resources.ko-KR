@@ -1,11 +1,11 @@
 ---
+title: 자르기 경로
 description: 포함된 명명된 패스의 테두리 상자로 자를 자를 자를 수 있습니다. 이렇게 자르면 이미지 크기가 변경됩니다.
 solution: Experience Manager
-title: 자르기 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 1%

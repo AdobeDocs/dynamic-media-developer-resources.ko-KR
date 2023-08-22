@@ -1,11 +1,11 @@
 ---
+title: bgc
 description: 배경색을 봅니다. 합성 이미지(이미지 보기)의 배경색을 지정합니다.
 solution: Experience Manager
-title: bgc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39ca0d63-55c6-40be-88b6-cf73828cc355
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 2%

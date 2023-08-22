@@ -1,11 +1,11 @@
 ---
+title: fmt
 description: 응답 이미지 형식.
 solution: Experience Manager
-title: fmt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 5%
@@ -70,7 +70,7 @@ ht-degree: 5%
 * *`format`* 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
 * *`pixelType`* 다음과 같은 경우에 출력 색상 공간 변환을 수행하는 데 사용할 수 있습니다. `icc=` 이(가) 지정되지 않았습니다.
 
-   에 해당하는 기본 색상 프로파일 *`pixelType`* 이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. *`pixelType`* 은(는) 다음의 경우 무시됩니다. `icc=` 출력 픽셀 유형을 결정하는 을 지정합니다.
+  에 해당하는 기본 색상 프로파일 *`pixelType`* 이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. *`pixelType`* 은(는) 다음의 경우 무시됩니다. `icc=` 출력 픽셀 유형을 결정하는 을 지정합니다.
 
 * *`compression`* 은(는) 다음 경우에만 허용됩니다. `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr`, 또는 `jpegxr-alpha` 은(는) (으)로 지정됩니다. *`format`*. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 

@@ -1,11 +1,11 @@
 ---
+title: 텍스트
 description: 레이어 텍스트. 텍스트 레이어의 텍스트 및 서식 내용을 지정합니다.
 solution: Experience Manager
-title: 텍스트
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%

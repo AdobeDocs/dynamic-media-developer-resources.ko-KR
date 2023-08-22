@@ -1,11 +1,11 @@
 ---
+title: 텍스트 각도
 description: 텍스트 렌더링 방향. textPs=로 지정된 텍스트를 정렬하여 텍스트 상자(size= 또는 textFlowPath=로 정의됨)에 렌더링하는 각도를 지정합니다.
 solution: Experience Manager
-title: 텍스트 각도
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 102dbdc0-77b8-4c60-b456-6cf693e0b38b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

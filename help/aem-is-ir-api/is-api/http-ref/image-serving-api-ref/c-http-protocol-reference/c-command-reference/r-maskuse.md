@@ -1,11 +1,11 @@
 ---
+title: 마스크 사용
 description: '이미지 마스크 사용. 이미지의 마스크나 알파 채널을 이미지에서 작업을 하는 데 사용하는 방법을 지정합니다(예: colorize=). 효과 레이어에 지정하면 효과를 모 레이어의 배경 영역이나 전체 모 레이어 사각형에 적용할 수 있습니다.'
 solution: Experience Manager
-title: 마스크 사용
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%

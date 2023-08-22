@@ -1,11 +1,11 @@
 ---
+title: clipXPath
 description: 반전된 레이어 클립 경로입니다. 현재 레이어의 제외 클립 경로를 지정합니다. clipXPath=로 정의된 영역 내에 있는 레이어의 모든 부분이 투명하게 렌더링됩니다.
 solution: Experience Manager
-title: clipXPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 3%

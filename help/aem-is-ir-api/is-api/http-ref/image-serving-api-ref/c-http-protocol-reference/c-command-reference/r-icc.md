@@ -1,11 +1,11 @@
 ---
+title: icc
 description: 출력 색상 프로필.
 solution: Experience Manager
-title: icc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 3%
@@ -37,7 +37,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-*`object`* 출력 색상 공간 프로필이 작업 프로필과 다를 경우 이미지를 변환해야 하는 대상 출력 색상 공간 프로필을 지정합니다. *`profile`* 은(는) 올바르거나 `icc::Name` 이미지 카탈로그나 기본 카탈로그의 ICC 프로파일 맵 또는 프로파일 파일에 대한 상대 경로에 정의되어 있습니다(일반적으로 [!DNL .icc] 또는 [!DNL .icm] suffix). 다음을 참조하십시오 [ *`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0)추가 정보.
+*`object`* 출력 색상 공간 프로필이 작업 프로필과 다를 경우 이미지를 변환해야 하는 대상 출력 색상 공간 프로필을 지정합니다. *`profile`* 은(는) 올바르거나 `icc::Name` 이미지 카탈로그나 기본 카탈로그의 ICC 프로파일 맵 또는 프로파일 파일에 대한 상대 경로에 정의되어 있습니다(일반적으로 [!DNL .icc] 또는 [!DNL .icm] suffix). 다음을 참조하십시오 [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) 추가 정보.
 
 >[!NOTE]
 >

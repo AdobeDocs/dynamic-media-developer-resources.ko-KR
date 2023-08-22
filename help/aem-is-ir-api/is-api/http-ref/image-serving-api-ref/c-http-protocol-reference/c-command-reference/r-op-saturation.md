@@ -1,11 +1,11 @@
 ---
+title: op_saturation
 description: 채도를 조정합니다. 레이어 또는 합성 이미지의 각 보이는 픽셀의 채도를 변경합니다.
 solution: Experience Manager
-title: op_saturation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 2%

@@ -1,11 +1,11 @@
 ---
+title: 텍스트 흐름 경로
 description: 텍스트 흐름 영역. textPs=로 지정된 텍스트가 유입되는 영역을 하나 이상 지정합니다.
 solution: Experience Manager
-title: 텍스트 흐름 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

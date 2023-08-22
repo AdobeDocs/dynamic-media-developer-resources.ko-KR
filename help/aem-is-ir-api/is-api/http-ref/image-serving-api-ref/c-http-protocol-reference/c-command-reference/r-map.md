@@ -1,11 +1,11 @@
 ---
+title: 맵
 description: 이미지 맵 데이터. 이 레이어에 대한 이미지 맵 데이터를 제공합니다. 이 레이어에 대해 카탈로그 맵의 데이터를 무시합니다.
 solution: Experience Manager
-title: 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7c1fbb50-98ec-4d9a-b608-93d60d687069
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 2%
@@ -47,7 +47,7 @@ While `mapA=` 및 `catalog::Map` 소스 이미지 좌표에 맵 데이터 지정
 
 ## 예 {#section-cd7691c94f984222845c86dcb0051ce8}
 
-단순 텍스트 레이어에 대해 사각형 이미지 맵을 정의합니다.
+간단한 텍스트 레이어에 대해 사각형 이미지 맵을 정의합니다.
 
 `…&layer=1&text=Scene7&map=<area%20alt=Scene7%20href=www.scene7.com>&…`
 

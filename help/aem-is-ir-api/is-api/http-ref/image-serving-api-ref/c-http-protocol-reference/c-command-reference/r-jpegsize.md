@@ -1,11 +1,11 @@
 ---
+title: jpeg 크기
 description: Jpeg 크기(킬로 바이트). JPEG 응답의 최대 크기(KB)를 지정합니다.
 solution: Experience Manager
-title: jpeg 크기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%

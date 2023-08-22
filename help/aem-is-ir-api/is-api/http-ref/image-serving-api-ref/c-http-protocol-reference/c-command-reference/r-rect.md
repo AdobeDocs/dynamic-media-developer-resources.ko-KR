@@ -1,11 +1,11 @@
 ---
+title: rect
 description: 최종 보기 사각형. 최종 보기 이미지를 여러 스트립 또는 타일로 분해하여 개별적으로 제공하고 가장자리를 따라 아티팩트 없이 클라이언트가 원활하게 재조립할 수 있습니다.
 solution: Experience Manager
-title: rect
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%

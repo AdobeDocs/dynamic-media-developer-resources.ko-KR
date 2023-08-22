@@ -1,14 +1,14 @@
 ---
-description: 프로그레시브 JPEG 스캔. 점진적 JPEG은 초기에 흐릿하거나 낮은 품질의 사진을 전체적으로 표시하는 방식으로 이미지를 표시합니다. 스캔 패스가 계속됨에 따라 이미지의 데이터가 더 완전히 다운로드될수록 더 명확해집니다. 이 매개 변수를 사용하면 전체 이미지를 표시하는 데 걸리는 스캔 횟수(3, 4 또는 5)를 설정할 수 있습니다.
-solution: Experience Manager
 title: pscan
+description: 프로그레시브 JPEG 스캔. 점진적 JPEG은 초기에 흐릿하거나 낮은 품질의 사진을 전체적으로 표시하는 방식으로 이미지를 표시합니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 1%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 

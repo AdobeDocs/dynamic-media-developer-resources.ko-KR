@@ -1,11 +1,11 @@
 ---
+title: scale
 description: 이미지 크기 조정. 전체 해상도 이미지를 기준으로 레이어 소스 이미지의 비율을 조정합니다.
 solution: Experience Manager
-title: scale
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 4%

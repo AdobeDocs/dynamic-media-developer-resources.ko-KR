@@ -1,11 +1,11 @@
 ---
+title: op_hue
 description: 색조를 조정합니다. 지정된 양만큼 레이어 또는 합성 이미지의 각 보이는 픽셀의 색조를 이동합니다.
 solution: Experience Manager
-title: op_hue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%

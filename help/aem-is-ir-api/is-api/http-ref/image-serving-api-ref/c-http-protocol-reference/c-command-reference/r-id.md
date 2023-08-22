@@ -1,11 +1,11 @@
 ---
+title: id
 description: 이미지/메타데이터 버전. 자주 변경되는 콘텐츠를 사용하여 작업할 때 Akamai, 브라우저 캐시 및 기업 프록시 서버 캐시와 같은 캐싱 네트워크의 서버는 일정 기간 동안 최신 상태가 아닐 수 있는 이미지 제공 응답을 저장할 수 있습니다.
 solution: Experience Manager
-title: id
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 3%

@@ -1,11 +1,11 @@
 ---
+title: 자르기
 description: 이미지 자르기. 전체 해상도 소스 이미지 또는 마스크 이미지를 기준으로 픽셀 단위 또는 표준화된 사각형 자르기 영역을 지정합니다.
 solution: Experience Manager
-title: 자르기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 1%

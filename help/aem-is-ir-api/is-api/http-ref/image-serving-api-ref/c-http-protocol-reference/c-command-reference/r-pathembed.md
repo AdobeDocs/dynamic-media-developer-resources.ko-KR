@@ -1,11 +1,11 @@
 ---
+title: pathEmbed
 description: 경로 데이터를 포함합니다. 레이어 0 소스 이미지 파일의 Photoshop 경로를 응답 이미지에 포함할지 여부를 지정합니다.
 solution: Experience Manager
-title: pathEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a3b305eb-0313-4c58-bd47-4f87e09d0e0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%

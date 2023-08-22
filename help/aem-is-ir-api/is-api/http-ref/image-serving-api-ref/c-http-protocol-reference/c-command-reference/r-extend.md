@@ -1,11 +1,11 @@
 ---
+title: 확장
 description: 레이어를 확장합니다. 레이어에 여백을 추가하거나 레이어 사각형을 자릅니다.
 solution: Experience Manager
-title: 확장
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 1%

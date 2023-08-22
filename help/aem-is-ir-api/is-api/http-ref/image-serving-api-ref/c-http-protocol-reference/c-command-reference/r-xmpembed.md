@@ -1,11 +1,11 @@
 ---
+title: xmpEmbed
 description: XMP 메타데이터를 포함합니다. XMP 메타데이터를 응답 이미지에 포함할지 여부를 지정합니다.
 solution: Experience Manager
-title: xmpEmbed
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 353b6ac4-1141-4f17-a3ad-ad48b321b36f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 2%

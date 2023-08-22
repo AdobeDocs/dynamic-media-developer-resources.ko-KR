@@ -1,11 +1,11 @@
 ---
+title: 이미지 집합
 description: 이미지 집합. req=set 응답을 생성할 때 사용할 이미지 세트 값을 지정합니다.
 solution: Experience Manager
-title: 이미지 집합
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 318c658d-7126-40f6-870b-11294a3f6f5f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 8%

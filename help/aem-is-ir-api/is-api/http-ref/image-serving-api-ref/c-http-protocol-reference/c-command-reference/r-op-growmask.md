@@ -1,11 +1,11 @@
 ---
+title: op_growMask
 description: 이미지 확장/비활성화. 형태학적 딜레이트(반경 > 0) 또는 에로드(반경 < 0)를 마스크 데이터에 적용합니다.
 solution: Experience Manager
-title: op_growMask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%

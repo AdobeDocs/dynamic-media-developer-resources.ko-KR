@@ -1,11 +1,11 @@
 ---
+title: 크기
 description: 레이어 크기. 회전=, 원근= 및 확장=을 레이어에 적용하기 전에 레이어의 크기 또는 최대 레이어 크기를 지정합니다.
 solution: Experience Manager
-title: 크기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%

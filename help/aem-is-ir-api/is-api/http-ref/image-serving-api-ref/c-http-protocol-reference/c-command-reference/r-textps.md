@@ -1,11 +1,11 @@
 ---
+title: textPs
 description: 레이어 텍스트(Adobe Photoshop 호환). 텍스트 레이어의 텍스트 본문을 지정합니다.
 solution: Experience Manager
-title: textPs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 95f343ce-bea3-425e-9a25-d1d141a976d9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 4%

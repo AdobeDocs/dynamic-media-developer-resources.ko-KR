@@ -1,11 +1,11 @@
 ---
+title: 인쇄 영역
 description: 인쇄 해상도. 응답 이미지에 포함된 인쇄 해상도 값을 재정의합니다.
 solution: Experience Manager
-title: 인쇄 영역
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 2%

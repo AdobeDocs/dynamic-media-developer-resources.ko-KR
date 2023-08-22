@@ -1,11 +1,11 @@
 ---
+title: 유형
 description: 정적 콘텐츠 유형 필터입니다. /is/content를 통해 제공되는 정적 콘텐츠의 필터 문자열을 지정합니다.
 solution: Experience Manager
-title: 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 4%

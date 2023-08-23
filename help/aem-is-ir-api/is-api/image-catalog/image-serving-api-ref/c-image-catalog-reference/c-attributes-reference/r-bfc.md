@@ -1,14 +1,14 @@
 ---
+title: Bfc
 description: 브라우저 형식 변환. 브라우저 형식 변환 기능을 사용할지 여부를 지정합니다.
 solution: Experience Manager
-title: Bfc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 1%
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
 
@@ -30,3 +30,7 @@ ht-degree: 1%
 ## 기본값 {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
 `Bfc=false`
+
+## 참조
+
+[bfc](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bfc.md), [dpr](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [네트워크](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

@@ -4,10 +4,10 @@ description: 네트워크 대역폭 최적화를 사용하여 실제 네트워�
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 96b60fd5f6e3550993cd7640138df4c9bbf6b955
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ## 속성
 
-
+요청 속성입니다. 네트워크 여건이 우수하면 효과가 없다.
 
 ## 기본값
 

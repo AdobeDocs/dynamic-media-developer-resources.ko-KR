@@ -4,9 +4,9 @@ description: 장치 픽셀 비율(DPR)&mdash( CSS 픽셀 비율&mdash라고도 �
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ DPR 값은 번들 CDN의 감지된 클라이언트측 값을 기반으로 합니
 
 ## 속성
 
-
+요청 속성입니다. 다음과 같은 경우에는 효과가 없습니다. `dpr` 해제 또는 `dprValue=1`.
 
 ## 기본값
 

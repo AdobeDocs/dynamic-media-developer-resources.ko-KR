@@ -1,22 +1,22 @@
 ---
-description: 텍스트 문자열 로컬라이제이션을 사용하면 이미지 카탈로그에 동일한 문자열 값에 대한 여러 로케일별 표현을 포함할 수 있습니다.
-solution: Experience Manager
 title: 텍스트 문자열 로컬라이제이션
+description: 텍스트 문자열 지역화를 사용하면 이미지 카탈로그에 동일한 문자열 값에 대한 여러 로케일별 표현을 포함할 수 있습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f105c7f2-b544-4c08-bb91-4916e485572d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
 
 # 텍스트 문자열 로컬라이제이션{#text-string-localization}
 
-텍스트 문자열 로컬라이제이션을 사용하면 이미지 카탈로그에 동일한 문자열 값에 대한 여러 로케일별 표현을 포함할 수 있습니다.
+텍스트 문자열 지역화를 사용하면 이미지 카탈로그에 동일한 문자열 값에 대한 여러 로케일별 표현을 포함할 수 있습니다.
 
-서버는 지정된 로케일과 일치하는 표현을 클라이언트로 반환합니다 `locale=`를 사용하면 클라이언트측 현지화를 방지하고 적절한 를 보냄으로써 애플리케이션에서 로케일을 전환할 수 있습니다 `locale=` IS 텍스트 요청이 포함된 값.
+서버는 지정된 로케일과 일치하는 표현을 클라이언트로 반환합니다 `locale=`를 사용하면 클라이언트측 현지화를 방지하고, 적절한 를 전송하여 애플리케이션에서 로케일을 전환할 수 있습니다 `locale=` IS 텍스트 요청이 포함된 값.
 
 ## 범위 {#section-a03f48e3bc0e4ab281909a2bd441a3c2}
 
@@ -79,11 +79,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-*`locId`* 은(는) ASCII여야 하며 &#39;^&#39;을(를) 포함할 수 없습니다.
+다음 *`locId`* 은(는) ASCII여야 하며 &#39;^&#39;을(를) 포함할 수 없습니다.
 
 &#39;^&#39;은(는) HTTP 인코딩이 있거나 없는 하위 문자열의 모든 위치에서 발생할 수 있습니다. 서버가 전체 서버와 일치함 *`localizationToken`* `^loc=locId^` 패턴을 사용하여 하위 문자열을 구분하십시오.
 
-*`stringElements`* 적어도 1개는 포함하지 아니한다 *`localizationToken`* 현지화 대상으로 간주되지 않습니다.
+다음 *`stringElements`*, 최소 하나 이상 포함하지 않음 *`localizationToken`*&#x200B;는 현지화 대상으로 간주되지 않습니다.
 
 ## 번역 맵 {#section-f7ce3df91b724adf95cee44eac4915d4}
 
@@ -119,11 +119,11 @@ ht-degree: 3%
 
 **언어 계열**
 
-복수 *`locId`* 값은 다음과 연관될 수 있습니다. *`locale`* 번역 맵에서. 이를 통해 선택한 국가별 또는 지역별 변형(예: 미국 영어 대 영국 영어)을 지원할 수 있습니다 *`stringElements`* 일반적인 기본 로케일로 대부분의 콘텐츠를 처리하는 동안(예: 국제 영어).
+복수 *`locId`* 값은 다음과 연관될 수 있습니다. *`locale`* 번역 맵에서. 그 이유는 국가별 또는 지역별 변형(예: 미국 영어 대 영국 영어)을 선택하여 지원할 수 있기 때문입니다 *`stringElements`* 일반적인 기본 로케일로 대부분의 콘텐츠를 처리하는 동안(예: 국제 영어).
 
-이 예제에서는 미국별 영어( )에 대한 지원을 추가하려고 합니다 `*`locId`* EUS`) 및 UK 전용 영어( `*`locId`* EUK`)을 클릭하여 대체 철자를 가끔씩 사용할 수 있습니다. 만약 EUK나 EUS가 존재하지 않는다면, 우리는 E로 후퇴할 것이다. 이와 유사하게, 오스트리아에 특유한 독일어 변형들( `DAT`)은 일반적인 독일어를 반환할 때 필요한 경우 사용할 수 있습니다 *`localizedStrings`* (다음으로 표시됨) `D`) 대부분의 경우.
+예를 들어 미국별 영어( )에 대한 지원이 추가되었습니다. `*`locId`* EUS`) 및 UK 전용 영어( `*`locId`* EUK`)을 클릭하여 대체 철자를 가끔씩 사용할 수 있습니다. EUK 또는 EUS가 존재하지 않는 경우, E. 이와 유사하게 오스트리아-특정 독일어 변형( `DAT`)은 일반적인 독일어를 반환할 때 필요한 경우 사용할 수 있습니다 *`localizedStrings`* (다음으로 표시됨) `D`) 대부분의 경우.
 
-`attribute::LocaleStrMap` 은 다음과 같이 표시됩니다.
+다음 `attribute::LocaleStrMap` 은 다음과 같이 표시됩니다.
 
 `en,E|en_us,EUS,E|en_uk,EUK,E|de,D|de_at,DAT,D|de_de,D`
 

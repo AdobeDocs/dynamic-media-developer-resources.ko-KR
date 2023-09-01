@@ -1,14 +1,14 @@
 ---
+title: SearchFilter
 description: 검색 기준을 정의하여 검색을 보다 효율적으로 만드는 데 도움이 되는 필터입니다.
 solution: Experience Manager
-title: SearchFilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a26966-33c9-48ca-b0ed-d05fc0e2050f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 2%
+source-wordcount: '265'
+ht-degree: 3%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3">검색에서 반환할 에셋 유형의 목록입니다. 예를 들어, <span class="codeph"> 이미지</span>. </td> 
+   <td colname="col3">검색에서 반환할 에셋 유형의 목록입니다. 예를 들어 <span class="codeph"> 이미지</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeAssetTypeArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:StringArray</span> </td> 
-   <td colname="col3"> 검색에서 제외할 자산 유형을 지정합니다. 예: 이미지. </td> 
+   <td colname="col3"> 검색에서 제외할 자산 유형을 지정합니다. 예를 들어 이미지가 그렇습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetSubTypeArray</span> </span> </td> 

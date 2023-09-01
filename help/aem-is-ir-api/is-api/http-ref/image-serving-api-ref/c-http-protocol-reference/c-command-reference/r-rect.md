@@ -1,20 +1,20 @@
 ---
 title: rect
-description: 최종 보기 사각형. 최종 보기 이미지를 여러 스트립 또는 타일로 분해하여 개별적으로 제공하고 가장자리를 따라 아티팩트 없이 클라이언트가 원활하게 재조립할 수 있습니다.
+description: 최종 보기 사각형. 이를 통해 최종 보기 이미지를 여러 스트립 또는 타일로 분해할 수 있으며, 이를 별도로 전달하고 클라이언트가 원활하게 재조립할 수 있으며, 가장자리를 따라 아티팩트가 없습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # rect{#rect}
 
-최종 보기 사각형. 최종 보기 이미지를 여러 스트립 또는 타일로 분해하여 개별적으로 제공하고 가장자리를 따라 아티팩트 없이 클라이언트가 원활하게 재조립할 수 있습니다.
+최종 보기 사각형. 이를 통해 최종 보기 이미지를 여러 스트립 또는 타일로 분해할 수 있으며, 이를 별도로 전달하고 클라이언트가 원활하게 재조립할 수 있으며, 가장자리를 따라 아티팩트가 없습니다.
 
 `rect= *`주역`*, *`크기`*[, *`크기 조절`*]`
 
@@ -37,11 +37,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->JPEG 압축을 사용할 때 최상의 결과를 얻으려면 스트립 또는 타일 크기가 JPEG 인코딩 타일 크기(16x16 픽셀)의 배수여야 합니다.
+>최상의 결과를 얻으려면 JPEG 압축을 사용할 때 스트립 또는 타일 크기가 JPEG 인코딩 타일 크기(16x16 픽셀)의 배수여야 합니다.
 
 ## 예 {#section-932fcfcb41d74a29bc929e4430c49601}
 
-인쇄 가능한 CMYK 이미지를 여러 개의 전체 해상도 스트립으로 분리하여 다운로드 파일 크기를 줄입니다. 연속 이미지를 요청하려는 경우:
+인쇄 가능한 CMYK 이미지를 여러 개의 전체 해상도 스트립으로 분리하여 다운로드 파일 크기를 줄입니다. 연속 이미지를 요청한 경우:
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ ht-degree: 1%
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-이 정보를 바탕으로 우리는 600x2000 픽셀 스트립 4개를 원한다고 결정한다. 다음 `rect=` 명령은 스트립 크기와 위치를 설명하는 데 사용됩니다.
+이 정보를 기반으로 4 개의 600x2000 픽셀 스트립이 필요합니다. 다음 `rect=` 명령은 스트립 크기와 위치를 설명하는 데 사용됩니다.
 
-이 이미지는 자주 변경되므로 `id=` cdn 또는 프록시 서버에서 캐시되었을 수 있는 이전 버전의 이미지에서 한 개 이상의 스트립으로 끝나는 기회를 최소화하는 명령입니다. 값 `image.version` 속성이 이 용도로 사용됩니다.
+이 이미지는 자주 변경되므로 `id=` 명령이 포함됩니다. 이렇게 하면 CDN 또는 프록시 서버에서 캐시되었을 수 있는 이전 버전의 이미지에서 한 개 이상의 스트립으로 끝날 가능성을 최소화합니다. 값 `image.version` 속성이 이 용도로 사용됩니다.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## 속성 {#section-aae223cee13e46d38b74680c048d945b}
 
-속성 보기. 현재 레이어 설정에 관계없이 적용됩니다.
+속성 보기. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다.
 
 뷰 이미지 외부로 연장되는 ROI의 모든 영역은 패딩된다. `bgc=`.
 

@@ -1,11 +1,11 @@
 ---
+title: createAsset
 description: 이미지 서버에 게시할 원시 집합 정의 문자열로 일반 자산 집합을 만듭니다.
 solution: Experience Manager
-title: createAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 6%
@@ -45,7 +45,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 자산 세트를 포함할 회사에 대한 핸들입니다. </td> 
+   <td colname="col4"> 자산 세트가 포함된 회사에 대한 핸들입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folder핸들 </span> </span> </td> 
@@ -69,7 +69,7 @@ ht-degree: 6%
    <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 집합 정의 문자열의 매개 변수입니다. <p>대상 뷰어에서 지정한 형식으로 확인해야 합니다. </p> </td> 
+   <td colname="col4"> 집합 정의 문자열의 매개 변수입니다. <p>이러한 매개 변수는 대상 뷰어에서 지정한 형식으로 확인해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
@@ -82,7 +82,7 @@ ht-degree: 6%
 
 **setDefinition에 대한 대체 함수**
 
-카탈로그 조회 또는 게시 중에 해결되는 대체 함수를 행에 지정할 수 있습니다. 대체 문자열의 형식은 다음과 같습니다. `${<substitution_func>}`. 사용 가능한 함수는 아래에 열거되어 있습니다.
+카탈로그 조회 또는 게시 중에 해결되는 대체 함수를 인라인으로 지정할 수 있습니다. 대체 문자열의 형식은 다음과 같습니다. `${<substitution_func>}`. 사용 가능한 기능은 아래에 요약되어 있습니다.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 6%
 | `getFilePath([asset_handle>])` | 자산의 기본 소스 파일 경로입니다. |
 | `getCatalogId([<asset_handle>])` | 자산의 카탈로그 ID입니다. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 에셋의 메타데이터 값. |
-| `getThumbCatalogId([<asset_handle>])` | 에셋의 카탈로그 ID(이미지 기반 에셋만 해당).연결된 썸네일 에셋의 카탈로그 ID(다른 에셋의 경우). 연결된 썸네일 자산을 사용할 수 없는 경우 이 함수는 빈 문자열을 반환합니다. |
+| `getThumbCatalogId([<asset_handle>])` | 자산의 카탈로그 ID(이미지 기반 자산만 해당). 연결된 썸네일 자산의 카탈로그 ID(다른 자산의 경우). 연결된 썸네일 자산을 사용할 수 없는 경우 이 함수는 빈 문자열을 반환합니다. |
 
 **샘플 미디어 setDefinition 문자열**
 
@@ -102,7 +102,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFileP
 6|19|144])};${getCatalogId([a|452|1|433])};2;${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])} 
 ```
 
-카탈로그 조회 또는 게시 시 다음과 유사한 문자열로 확인됩니다.
+카탈로그 조회 또는 게시 시 이 프로세스는 다음과 유사한 문자열로 확인됩니다.
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53

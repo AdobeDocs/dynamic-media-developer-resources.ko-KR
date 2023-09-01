@@ -1,14 +1,14 @@
 ---
+title: removeFolderPermissions
 description: 폴더 권한을 제거합니다.
 solution: Experience Manager
-title: removeFolderPermissions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 10830980-d504-4610-96c9-730937453256
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 11%
+source-wordcount: '105'
+ht-degree: 12%
 
 ---
 
@@ -71,7 +71,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-이 코드 샘플은 폴더 및 해당 하위 폴더에서 권한을 제거합니다. 설정 `updateChildren` 끝 `false` 상위 폴더에서만 권한을 제거해야 하는 경우.
+이 코드 샘플은 폴더 및 그 하위 폴더에서 권한을 제거합니다. 설정 `updateChildren` 끝 `false` 상위 폴더에서만 권한을 제거합니다.
 
 **요청**
 

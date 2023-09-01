@@ -1,11 +1,11 @@
 ---
+title: 대체
 description: 대체 문자열 요소입니다. 에서 선택 사항 <rule> 요소.
 solution: Experience Manager
-title: 대체
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%

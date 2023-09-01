@@ -5,9 +5,9 @@ title: 회사 설정
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 82e6362d-beab-47ff-bb20-11047f0d8787
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 2%
 
 ---
@@ -29,5 +29,5 @@ ht-degree: 2%
 | iptcExifMappingXslt | `types:Asset` | IPTC 및 EXIF 이미지 헤더 데이터를 IPS로 추출하려면 회사의 내부 필드 이름을 사용자 정의 필드 이름으로 변환해야 합니다. 업로드된 이미지에 대한 XSL 변환 테이블(기본값: &quot;IPTC 또는 EXIF 필드 추출 안 함&quot;)을 결정합니다. |
 | xmpMappingXslt | `types:Asset` | XMP 이미지 헤더 데이터를 IPS로 추출하려면 회사의 내부 필드 이름을 사용자 정의 필드 이름으로 변환해야 합니다. 업로드된 이미지에 대한 XSL 변환 테이블(기본값은 &quot;XMP 필드 추출 안 함&quot;)을 결정합니다. |
 | diskSpaceWarningMin | `xsd:int` | 경고가 전송되기 전 사용 가능한 이미지 디렉토리 최소 디스크 공간입니다. |
-| emailTrashCleanupWarning | `xsd:boolean` | 휴지통에 들어간 항목이 자동으로 삭제되기 전에 이메일을 전송할지 여부를 결정합니다. |
-| javascriptUploadEnabled | `types:Asset` | JavaScript 파일을 업로드할지 여부를 결정합니다. 이는 잠재적인 보안 위험이므로 이 옵션을 신중하게 사용하십시오. |
+| emailTrashCleanupWarning | `xsd:boolean` | 휴지통 항목이 자동으로 삭제되기 전에 이메일을 전송할지 여부를 결정합니다. |
+| javascriptUploadEnabled | `types:Asset` | JavaScript 파일을 업로드할지 여부를 결정합니다. 이 옵션은 잠재적인 보안 위험이므로 주의해서 사용하십시오. |

@@ -1,20 +1,20 @@
 ---
-description: 관리자가 컨텐츠 관리 시스템이나 템플릿 작업을 위해 조정할 새 메타데이터 필드를 만들 수 있습니다. 생성된 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
-solution: Experience Manager
 title: createMetadataField
+description: 이를 통해 관리자는 콘텐츠 관리 시스템과 또는 템플릿 작업을 조정할 메타데이터 필드를 만들 수 있습니다. 생성된 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 8%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-관리자가 컨텐츠 관리 시스템이나 템플릿 작업을 위해 조정할 새 메타데이터 필드를 만들 수 있습니다. 생성된 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
+이를 통해 관리자는 콘텐츠 관리 시스템과 또는 템플릿 작업을 조정할 메타데이터 필드를 만들 수 있습니다. 생성된 메타데이터 필드의 예로는 키워드, 이미지 작성자에 대한 정보 또는 저작권 소유자 정보가 있습니다.
 
 구문
 
@@ -40,7 +40,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> 메타데이터 필드가 속한 회사의 이름입니다. </td> 
+   <td colname="col4"> 메타데이터 필드가 속하는 회사의 이름입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
@@ -82,7 +82,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> 선택한 태그가 지정할 수 있는 공유 열거 값 집합을 만들 수 있습니다. </td> 
+   <td colname="col4"> 이 옵션을 사용하면 선택한 태그가 지정할 수 있는 공유된 특정 값 세트를 만들 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
-description: 메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
-solution: Experience Manager
 title: saveMetaField
+description: 메타데이터 필드를 만들거나 편집합니다. 메타데이터 필드를 만들려면 선택적 필드 핸들을 생략합니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '214'
 ht-degree: 9%
 
 ---
 
 # saveMetaField{#savemetadatafield}
 
-메타데이터 필드를 만들거나 편집합니다. 선택적 필드 핸들을 생략하여 새 메타데이터 필드를 만듭니다.
+메타데이터 필드를 만들거나 편집합니다. 메타데이터 필드를 만들려면 선택적 필드 핸들을 생략합니다.
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 ## 예제 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-이 코드 샘플은 Asset Type 및 Metadata Field Types 문자열 상수에 의해 제한된 새 메타데이터 필드를 만듭니다. 다음과 같은 경우 `fieldHandle` 요소에 유효한 필드 핸들 값이 있으면 메타데이터 값이 변경되고 요청에 지정한 것과 동일한 필드 핸들을 가져옵니다.
+이 코드 샘플은 Asset Type 및 Metadata Field Types 문자열 상수에 의해 제한된 메타데이터 필드를 만듭니다. 다음과 같은 경우 `fieldHandle` 요소에 유효한 필드 핸들 값이 있으면 메타데이터 값이 변경되고 요청에 지정한 것과 동일한 필드 핸들을 가져옵니다.
 
 **요청**
 

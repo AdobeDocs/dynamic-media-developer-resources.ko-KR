@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '228'
 ht-degree: 2%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 2%
 
 ## 속성 {#section-8ab5035055b24b858270d260912a7f3d}
 
-요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다. 다음과 같은 경우에만 사용됨 `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, 또는 `fmt=png8-alpha`. 그렇지 않으면 무시됩니다.
+요청 속성입니다. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다. 다음과 같은 경우에만 사용됨 `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, 또는 `fmt=png8-alpha`. 그렇지 않으면 무시됩니다.
 
-에 지정된 색상 *`colorList`* 16진수 6 형식의 RGB 값으로 구성되어야 합니다( 참조). [색상](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) 없이 `0x` 접두사입니다. 다른 색상 지정자는 허용되지 않습니다. *`numColors`* 은(는) 2~256 사이여야 합니다.
+에 지정된 색상 *`colorList`* 16진수 6 형식의 RGB 값으로 구성되어야 합니다( 참조). [색상](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) 없이 `0x` 접두사입니다. 다른 색상 지정자는 허용되지 않습니다. 수정자 *`numColors`* 은(는) 2-256이어야 합니다.
 
 ## 기본값 {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -53,11 +53,11 @@ ht-degree: 2%
 
 를 사용하여 GIF 썸네일 생성 `web` 팔레트 및 디더링 없음:
 
-` http:// *`서버`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
+`http:// *`*서버*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-이미지를 키 색상 투명도를 사용하는 두 가지 색상 GIF으로 변환하고 색상을 검정과 흰색으로 강제 변환합니다.
+이미지를 키 색상 투명도를 갖는 두 색조 GIF으로 변환하고 색상을 검정과 흰색으로 강제 변환합니다.
 
-` http:// *`서버`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+`http:// *`*서버*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 ## 참조 {#section-ea5e8de6084540cf86010370a4d0f01f}
 

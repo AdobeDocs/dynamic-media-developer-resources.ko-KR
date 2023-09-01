@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 3%
  </tr> 
 </table>
 
-이미지 및 텍스트 레이어의 경우, `color=` 레이어의 경계 사각형 내에 있는 투명 영역과 반불투명 영역을 앞에 지정된 색상**으로 채웁니다. `rotate=` 및 `extend=` 적용됩니다.
+이미지 및 텍스트 레이어가 있는 경우 `color=` 레이어의 경계 사각형 내에 있는 투명 영역과 반불투명 영역을 앞에 지정된 색상**으로 채웁니다. `rotate=` 및 `extend=` 적용됩니다.
 
 ## 속성 {#section-d6e74c36a49547849212e4db8927e678}
 
 레이어 속성입니다. 다음과 같은 경우 현재 레이어 또는 레이어 0에 적용됩니다. `layer=comp`.
 
-*`color`* 의 픽셀 유형에 해당하는 작업 색상 공간에 존재한다고 가정합니다. *`color`*. *`color`* 병합 시 레이어 이미지의 픽셀 유형이 다른 경우 정확하게 변환됩니다.
+수정자 *`color`* 의 픽셀 유형에 해당하는 작업 색상 공간에 존재한다고 가정합니다. *`color`*. 및 *`color`* 병합 시 레이어 이미지의 픽셀 유형이 다른 경우 정확하게 변환됩니다.
 
 ## 기본값 {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 ## 예 {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-다음 템플릿 조각에서는 텍스트 배경을 50% 불투명 색상으로 설정하고 동일한 색상을 사용하여 레이어 2 이미지 주위에 반투명한 10픽셀 테두리를 추가합니다.
+다음 템플릿 조각에서 텍스트 배경은 50% 불투명 색상으로 설정되고 동일한 색상을 사용하여 레이어 2 이미지 주위에 반투명한 10픽셀 테두리를 추가합니다.
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

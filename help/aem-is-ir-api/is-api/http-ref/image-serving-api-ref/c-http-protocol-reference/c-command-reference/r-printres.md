@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 2%
 
 ---
@@ -25,17 +25,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-인쇄 해상도는 일반적으로 다음 방법으로 정의됩니다. `catalog::PrintResolution` 카탈로그 항목의 경우, 그렇지 않으면 소스 이미지에 포함된 인쇄 해상도 값. 템플릿 또는 레이어 합성 이미지의 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
+인쇄 해상도는 일반적으로 다음 방법으로 정의됩니다. `catalog::PrintResolution` 카탈로그 엔트리이면 소스 이미지에 포함된 인쇄 해상도 값으로 표시됩니다. 템플릿 또는 레이어 합성 이미지가 있는 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
 
 인쇄 해상도를 설정해도 응답 이미지의 픽셀 크기는 변경되지 않습니다.
 
 ## 속성 {#section-03c7910ebe234804a319e5d0d8ef3a74}
 
-요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다.
+요청 속성입니다. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 기본값 {#section-d7d89fd235cc418fb381014612530f00}
 
-`catalog::PrintResolution` 또는 소스 이미지에 포함된 인쇄 해상도
+`catalog::PrintResolution`
+또는 소스 이미지에 포함된 인쇄 해상도
 
 ## 참조 {#section-4c479b6d6ccd41fc9ce8b239a28e726d}
 

@@ -1,13 +1,13 @@
 ---
+title: 압축 해제 옵션
 description: ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐츠를 추출하여 업로드하는(압축 해제) 업로드 설정입니다.
 solution: Experience Manager
-title: 압축 해제 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '97'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐�
 
 >[!NOTE]
 >
->`None` 는 기본값입니다.
+>설정 `None` 는 기본값입니다.
 
 ## 매개 변수 {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -34,11 +34,11 @@ ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐�
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 프로세스</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>ZIP 및 TAR 아카이브 파일 처리를 제어합니다. 2가지 옵션을 제공합니다. 
+   <td colname="col3"> <p>ZIP 및 TAR 아카이브 파일 처리를 제어합니다. 두 가지 옵션을 제공합니다. 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
       <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음:</span> 기본 자산으로 처리합니다. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제:</span> 콘텐츠 추출 및 처리 </li>
-     </ul><p>참고: 문자열 상수는 대/소문자를 구분합니다. 사용 <span class="codeph"> 압축 해제</span>, 아님 <span class="codeph"> 압축 풀기</span> 또는 <span class="codeph"> 압축 해제</span>. </p></p> </td> 
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제:</span> 콘텐츠를 추출하고 처리합니다. </li>
+     </ul><p>참고: 문자열 상수는 대/소문자를 구분합니다. 사용 <span class="codeph"> 압축 해제</span>, 아님 <span class="codeph"> 압축 풀기</span>, 또는 <span class="codeph"> 압축 해제</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

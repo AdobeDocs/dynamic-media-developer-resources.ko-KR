@@ -1,20 +1,20 @@
 ---
+title: MetadataField
 description: 특정 자산에 대한 사용자 정의 필드 정의입니다.
 solution: Experience Manager
-title: MetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
 
 # [!DNL MetadataField]{#metadatafield}
 
-특정 에셋에 대한 사용자 정의 필드 정의입니다.
+특정 자산에 대한 사용자 정의 필드 정의입니다.
 
 를 사용하여 태그 필드 정의 검색 `getMetadataFields` 또는 `getAssetMetadataField` 작업.
 
@@ -72,7 +72,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> 선택한 태그가 지정할 수 있는 공유 열거 값 집합을 만들 수 있습니다. </td> 
+   <td colname="col3"> 선택한 태그가 지정할 수 있는 공유 지정 값 집합을 만들 수 있습니다. </td> 
   </tr> 
  </tbody> 
 </table>

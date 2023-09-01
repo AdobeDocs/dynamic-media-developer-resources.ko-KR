@@ -1,20 +1,20 @@
 ---
-description: 기존 PDF 자산을 다시 리핑하는 프로세스입니다.
-solution: Experience Manager
 title: RipPdf작업
+description: 기존 PDF 에셋을 다시 가져오는 프로세스입니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '215'
 ht-degree: 2%
 
 ---
 
 # [!DNL RipPdfsJob]{#rippdfsjob}
 
-기존 PDF 자산을 다시 리핑하는 프로세스입니다.
+기존 PDF 에셋을 다시 가져오는 프로세스입니다.
 
 >[!NOTE]
 >
@@ -114,7 +114,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 녹아웃 배경</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 유형:녹아웃BackgroundOptions</span> </p> </td> 
-   <td colname="col3"> <p>선택한 이미지에 대해 배경을 마스크합니다. 이렇게 하면 피사체 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택적. </p> <p>다음을 참조하십시오<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 녹아웃 배경 옵션</a> </p> </td> 
+   <td colname="col3"> <p>선택한 이미지에 대해 배경을 마스크합니다. 이 기능을 사용하면 대상 이미지 외부의 투명도를 사용하여 다른 레이어에 오버레이할 수 있습니다. </p> <p>선택적. </p> <p>다음을 참조하십시오<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> 녹아웃 배경 옵션</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

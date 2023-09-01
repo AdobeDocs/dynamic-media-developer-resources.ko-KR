@@ -1,13 +1,13 @@
 ---
+title: req
 description: 요청 유형. 요청 유형을 지정합니다.
 solution: Experience Manager
-title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> oversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>다음 위치의 XML 목록을 반환합니다. <span class="codeph"> &lt;richtext /&gt;</span> 요소가 과도하게 설정되었습니다. </p> <p>다음 XML 목록을 반환합니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 클라이언트측에서 처리하기 위해 오버세트 된 요소입니다. 전용 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 넘치는 요소가 반환됩니다. <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> 은(는) 필수입니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 속성(을 사용할 때) <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. 임의 초과 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 가 없는 요소 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> 나열되지 않습니다. 각 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 목록의 요소에는 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>오버세트 텍스트 프레임의 테두리 상자 다음 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> 속성은 프레임에 텍스트를 맞출 수 있었던 스토리의 텍스트 인덱스를 나타냅니다. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> 에만 적용됩니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 요청한 FXG의 요소입니다. 나열되지 않습니다 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 모든 포함된 FXG의 요소입니다. </p> </td> 
+   <td colname="col2"> <p>XML 목록을 반환합니다. <span class="codeph"> &lt;richtext /&gt;</span> 요소가 과도하게 설정되었습니다. </p> <p>다음 XML 목록을 반환합니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 클라이언트측에서 처리하기 위해 오버세트 된 요소입니다. 전용 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 넘치는 요소가 반환됩니다. 다음 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> 은(는) 필수입니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 속성(을 사용할 때) <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. 임의 초과 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 가 없는 요소 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span> 나열되지 않습니다. 각 <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 목록의 요소에는 <span class="+ topic/ph pr-d/codeph codeph"> s7:elementid</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>오버세트 텍스트 프레임의 테두리 상자 다음 <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> 속성은 프레임에 텍스트를 맞출 수 있었던 스토리의 텍스트 인덱스를 나타냅니다. 다음 <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> 에만 적용됩니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 요청한 FXG의 요소입니다. 나열되지 않습니다. <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> 모든 포함된 FXG의 요소입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 존재</span> </p> </td> 

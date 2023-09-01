@@ -1,20 +1,20 @@
 ---
 title: illum
-description: 조명 맵 선택기. 이 재료가 렌더링되는 데 선호하는 조명 맵을 지정합니다.
+description: 조명 맵 선택기. 이 재료를 렌더링할 조명 맵을 지정합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '80'
 ht-degree: 3%
 
 ---
 
 # illum{#illum}
 
-조명 맵 선택기. 이 재료가 렌더링되는 데 선호하는 조명 맵을 지정합니다.
+조명 맵 선택기. 이 재료를 렌더링할 조명 맵을 지정합니다.
 
 `illum=-1|0|1|2`
 

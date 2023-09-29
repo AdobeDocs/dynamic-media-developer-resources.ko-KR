@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 보기 너비. fit=이 요청에 없을 때 응답 이미지(이미지 보기)의 너비를 지정합니다.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,19 +35,19 @@ If `scl=` 를 지정하지 않으면 합성 이미지가 크기에 맞게 조정
 
 ## 기본값 {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-둘 다 아닌 경우 `wid=`, `hei=`, 또는 `scl=` 이(가) 지정되면 응답 이미지의 크기가 합성 이미지 또는 `attribute::DefaultPix`, 둘 중 더 작은 것입니다.
+둘 다 아닌 경우 `wid=`, `hei=`, 또는 `scl=` 지정된 경우 응답 이미지의 크기가 합성 이미지 또는 `attribute::DefaultPix`, 둘 중 더 작은 것입니다.
 
 ## 속성 {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-속성 보기. 현재 레이어 설정에 관계없이 적용됩니다.
+속성 보기. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 예 {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-이미지를 200x200 사각형에 맞추도록 요청하고, 사각형이 아닌 경우 이미지를 오른쪽 위로 정렬합니다. 모든 배경 영역이 다음으로 채워짐 `attribute::BkgColor`.
+200x200 사각형에 맞게 이미지를 요청하고 정사각형이 아닌 경우 이미지를 오른쪽 위로 정렬합니다. 모든 배경 영역이 다음으로 채워짐 `attribute::BkgColor`.
 
 ` http:// *`서버`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-동일한 이미지가 200픽셀의 고정된 너비로 전달되지만 이미지의 종횡비를 유지하기 위해 높이가 달라집니다. 이 경우 반환된 이미지에 배경 채우기 영역이 없습니다. 이 경우 align=은 전혀 영향을 주지 않습니다.
+동일한 이미지가 200픽셀의 고정된 너비로 전달되지만 이미지의 종횡비를 유지하기 위해 높이가 달라집니다. 이 경우 반환된 이미지에 배경 채우기 영역이 없습니다. 이 경우, `align=` 전혀 효과가 없을 겁니다.
 
 ` http:// *`서버`*/myRootId/myImageId?wid=200`
 

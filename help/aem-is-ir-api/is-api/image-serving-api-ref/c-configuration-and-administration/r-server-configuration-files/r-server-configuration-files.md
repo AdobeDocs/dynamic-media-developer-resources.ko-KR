@@ -1,24 +1,24 @@
 ---
-description: 모든 구성 파일은 install_folder/conf에 있으며 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작해야 할 수 있습니다.
-solution: Experience Manager
 title: 서버 구성 파일
+description: 모든 구성 파일은 install_folder/conf에 있으며 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작하십시오.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # 서버 구성 파일{#server-configuration-files}
 
-모든 구성 파일은 install_folder/conf에 있으며 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작해야 할 수 있습니다.
+모든 구성 파일은 `install_folder/conf` 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작하십시오.
 
 >[!NOTE]
 >
->대부분의 서버 구성 파일에는 이 설명서에 설명되지 않은 추가 속성과 값이 포함되어 있습니다. 이러한 속성은 내부 서버용이며 Dynamic Media 기술 지원에서 명시적으로 지시하지 않는 한 수정해서는 안 됩니다.
+>대부분의 서버 구성 파일에는 이 설명서에 설명되지 않은 추가 속성과 값이 포함되어 있습니다. 이러한 속성은 내부 서버용이며 Dynamic Media 기술 지원에서 지시하지 않는 한 수정해서는 안 됩니다.
 
 이 문서에서는 다음 구성 파일의 설정에 대해 설명합니다.
 

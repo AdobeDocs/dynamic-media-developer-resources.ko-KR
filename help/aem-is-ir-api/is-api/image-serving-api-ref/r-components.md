@@ -1,20 +1,20 @@
 ---
-description: Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다
-solution: Experience Manager
 title: 이미지 제공 구성 요소
+description: Dynamic Media 이미지 제공은 다음 구성 요소로 구성됩니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # 이미지 제공 구성 요소{#image-serving-components}
 
-Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다.
+Dynamic Media 이미지 제공은 다음 구성 요소로 구성됩니다.
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -30,7 +30,7 @@ Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>대부분의 Java 기반 구성 요소에 대한 환경을 제공합니다. </p> </td> 
+   <td colname="col2"> <p>대부분의 Java 기반 구성 요소에 환경을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>모니터링/경고 서비스 </p> </td> 
@@ -46,7 +46,7 @@ Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>이미지 서버 </p> </td> 
-   <td colname="col2"> <p>모든 이미지 처리 및 이미지 파일 I/O 작업 수행 32비트 및 64비트 실행 파일은 모두 Linux에서 사용할 수 있습니다(32비트는 Windows에만 해당). </p> </td> 
+   <td colname="col2"> <p>모든 이미지 처리 및 이미지 파일 I/O 작업을 수행합니다. 32비트 및 64비트 실행 파일은 모두 Linux®에서 사용할 수 있습니다(32비트는 Windows에서만 사용). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>텍스트 렌더링 구성 요소 생성 </p> </td> 
@@ -54,7 +54,7 @@ Scene 7 이미지 제공은 다음 구성 요소로 구성됩니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p>SVG 렌더링 구성 요소 </p> </td> 
-   <td colname="col2"> <p>독립형 Java 애플리케이션(Tomcat에서 호스팅하지 않음). </p> </td> 
+   <td colname="col2"> <p>독립형 Java™ 애플리케이션(Tomcat에서 호스팅하지 않음). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dynamic Media 이미지 렌더링(예: 렌더링 서버) </p> </td> 

@@ -1,13 +1,13 @@
 ---
+title: 자산 요약
 description: 에셋에 대해 요약된 정보가 포함된 메타데이터 검색 결과.
 solution: Experience Manager
-title: 자산 요약
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '123'
 ht-degree: 12%
 
 ---
@@ -32,5 +32,5 @@ ht-degree: 12%
 | 마지막 수정일 | `xsd:dateTime` | 에셋이 마지막으로 업데이트된 날짜입니다. |
 | lastModifyUser | `xsd:string` | 에셋을 수정한 마지막 사용자입니다. |
 | metadataArray | `types:MetadataArray` | 자산과 연결된 메타데이터 값의 배열입니다. |
-| 점수 | `xsd:double` | 유사성 검색의 경우 정밀도를 정의합니다(0 = 일치 없음, 1 = 정확한 일치). |
-| scoreDetail | `xsd:string` | 유사성 검색의 결과로 유사한 영역에 대한 세부 정보를 보유합니다. |
+| 점수 | `xsd:double` | 유사성 검색이 있는 경우 정밀도를 정의합니다(0 = 일치 없음, 1 = 정확한 일치). |
+| scoreDetail | `xsd:string` | 유사성 검색 결과 유사한 영역에 대한 세부 정보를 보유하고 있다. |

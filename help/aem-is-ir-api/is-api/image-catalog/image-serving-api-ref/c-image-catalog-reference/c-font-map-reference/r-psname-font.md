@@ -1,22 +1,22 @@
 ---
-description: Postscript 글꼴 이름입니다. Postscript 글꼴 이름입니다.
-solution: Experience Manager
 title: PsName
+description: Postscript 글꼴 이름의 이름입니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 # PsName{#psname}
 
-Postscript 글꼴 이름입니다. Postscript 글꼴 이름입니다.
+Postscript 글꼴 이름입니다.
 
-이때 FXG 렌더러만 Postscript 이름으로 글꼴을 참조할 수 있습니다.
+현재 FXG 렌더러만 Postscript 이름으로 글꼴을 참조할 수 있습니다.
 
 ## 속성 {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 

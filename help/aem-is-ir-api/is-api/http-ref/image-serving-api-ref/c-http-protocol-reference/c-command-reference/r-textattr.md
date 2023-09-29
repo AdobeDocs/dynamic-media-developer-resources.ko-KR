@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -55,17 +55,17 @@ ht-degree: 1%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>합성 캔버스에 비례하여 정확한 크기로 텍스트를 렌더링할 경우 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). 이 항목만 <span class="varname"> resMode </span> 옵션이에 의해 지원됨 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>텍스트가 합성된 캔버스에 비례하여 정확한 크기로 렌더링될 경우 를 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). 이 항목만 <span class="varname"> resMode </span> 옵션이에 의해 지원됨 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. <span class="varname"> res </span> 은 다음과 같은 경우 무시됩니다 <span class="codeph"> autoRes </span> 이(가) 선택되어 있습니다. 이(가) 지원하지 않음 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. 다음 <span class="varname"> res </span> 은 다음과 같은 경우 무시됩니다 <span class="codeph"> autoRes </span> 이(가) 선택되어 있습니다. 이(가) 지원하지 않음 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 최대 해상도 </span> </p> </td> 
-      <td class="stentry"> <p>지정된 해상도를 사용합니다. 필요한 경우 텍스트를 레이어 rect로 자르지 않도록 줄이십시오. </p> <p>클리핑이 발생하지 않는 한 정확히 지정된 해상도로 텍스트를 렌더링하는 데 사용합니다. 클리핑하는 경우 모든 텍스트가 텍스트 상자 내에 완전히 포함되도록 해상도가 자동으로 감소합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. 이(가) 지원하지 않음 <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>지정된 해상도를 사용합니다. 필요한 경우 텍스트를 레이어 rect로 자르지 않도록 줄이십시오. </p> <p>클리핑이 발생하지 않는 한 지정된 해상도로 텍스트를 렌더링하는 데 사용합니다. 클리핑이 있는 경우 모든 텍스트가 텍스트 상자 내에 완전히 포함되도록 해상도가 자동으로 감소합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. 이(가) 지원하지 않음 <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>텍스트 레이어 크기가 size=로 지정되지 않았거나 너비만 지정된 경우 'autoRes' 및 'maxRes' 설정이 무시되고 지정된 해상도를 사용하여 텍스트를 렌더링합니다. </p> </td> 
+    </table> </p> <p>텍스트 레이어 크기가 size=로 지정되지 않았거나 너비만 지정된 경우 'autoRes' 및 'maxRes' 설정이 무시됩니다. 이 경우 지정된 해상도를 사용하여 텍스트를 렌더링합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 단어 줄바꿈 </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ ht-degree: 1%
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 줄바꿈 </span> </p> </td> 
-      <td class="stentry"> <p>표준 자동 줄 바꿈을 활성화합니다. </p> <p>필요한 경우 긴 단어를 나눕니다. <span class="codeph"> textPs= </span> 만 지원 <span class="codeph"> 줄바꿈 </span>. </p> </td> 
+      <td class="stentry"> <p>표준 자동 줄 바꿈을 활성화합니다. </p> <p>필요하면 긴 말을 가로막는다. <span class="codeph"> textPs= </span> 만 지원 <span class="codeph"> 줄바꿈 </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>단어 잘림 방지 줄바꿈을 활성화합니다. </p> <p>단어 끝부분이 잘려도 단어 하나 깨지지 않습니다. 일반적으로 와 함께 사용됩니다. <span class="codeph"> autoRes </span> 또는 <span class="codeph"> 최대 해상도 </span> 긴 말이 끊어지지 않도록 하기 위해서입니다. </p> </td> 
+      <td class="stentry"> <p>단어 잘림 방지 줄바꿈을 활성화합니다. </p> <p>단어 끝부분이 잘려도 단어 하나 깨지지 않습니다. 일반적으로 <span class="codeph"> autoRes </span> 또는 <span class="codeph"> 최대 해상도 </span> 긴 말이 끊어지지 않도록 하기 위해서입니다. </p> </td> 
      </tr> 
     </table> </p> <p>모두 <span class="codeph"> 줄바꿈 </span> 및 <span class="codeph"> nbwrap </span> 단어 경계와 하이픈을 자동으로 줄바꿈합니다. </p> </td> 
  </tr> 

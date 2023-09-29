@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-서버는 값을 값과 비교합니다. `catalog::Type` 요청된 정적 콘텐츠 항목의 을 참조하십시오. 값이 일치하면(대/소문자 구분) 항목이 클라이언트에 반환되고, 그렇지 않으면 오류가 반환됩니다.
+서버가 비교합니다 `val` (값: `catalog::Type` 요청된 정적 콘텐츠 항목의 을 참조하십시오. 값이 일치하면(대/소문자 구분) 항목이 클라이언트에 반환되고, 그렇지 않으면 오류가 반환됩니다.
 
 ## 속성 {#section-529b088434a44a9f86a64ef548d2925b}
 

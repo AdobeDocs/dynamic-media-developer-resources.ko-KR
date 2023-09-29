@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->대칭 이동된 레이어는 레이어 앵커를 기준으로 배치됩니다. 앵커가 레이어의 중심에 위치하지 않으면 대칭 이동= 값이 서로 다르면 레이어 위치가 달라집니다.
+>대칭 이동된 레이어는 레이어 앵커를 기준으로 배치됩니다. 다름 `flip=` 앵커가 레이어의 중심에 있지 않으면 값이 다른 레이어 위치를 만듭니다.
 
 ## 속성 {#section-294da2af7be746b5adfc35e29ee68217}
 

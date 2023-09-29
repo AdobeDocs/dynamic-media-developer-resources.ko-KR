@@ -1,20 +1,20 @@
 ---
-description: 이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
-solution: Experience Manager
 title: 요청 명령
+description: 이러한 명령은 요청의 나타나는 위치에 관계없이 적용됩니다.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '145'
 ht-degree: 2%
 
 ---
 
 # 요청 명령{#request-commands}
 
-이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
+이러한 명령은 요청의 나타나는 위치에 관계없이 적용됩니다.
 
 <table id="simpletable_3F7C17FB9E374EFDAD01EB24F57EC367"> 
  <tr class="strow"> 

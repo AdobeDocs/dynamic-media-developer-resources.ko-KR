@@ -4,7 +4,7 @@ description: 구성 요소가 이미지 서버에서 이미지를 로드하는 �
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 서버에서 이미지를 로드하기 위해 구성 요소에서 사용할 이미지 형식을 지정합니다. 지정된 형식이 "-alpha"로 끝날 경우, 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 기타 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명한 것으로 처리합니다. 구성 요소에는 기본적으로 투명한 배경이 있으므로 불투명하게 하려면 background-color CSS 속성을 원하는 색상으로 설정하십시오. </p> </td> 
+   <td colname="col2"> <p> 이미지 서버에서 이미지를 로드하기 위해 구성 요소에서 사용할 이미지 형식을 지정합니다. 지정된 형식이 "-alpha"로 끝날 경우, 구성 요소는 이미지를 투명한 컨텐츠로 렌더링합니다. 기타 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명한 것으로 처리합니다. 구성 요소에는 기본적으로 투명한 배경이 있습니다. 따라서 불투명하게 하려면 background-color CSS 속성을 원하는 색상으로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

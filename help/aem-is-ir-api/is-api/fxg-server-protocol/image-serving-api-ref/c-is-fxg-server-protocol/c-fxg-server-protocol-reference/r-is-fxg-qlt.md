@@ -1,13 +1,13 @@
 ---
+title: qlt
 description: Jpeg 품질입니다. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다. 이렇게 하면 파일 크기(응답 데이터의 양)와 결과 이미지의 시각적 품질이 간접적으로 달라집니다.
 solution: Experience Manager
-title: qlt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8801a650-303c-47a3-8136-c8b2b7a80e9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '186'
 ht-degree: 15%
 
 ---
@@ -35,8 +35,8 @@ Jpeg 품질입니다. 압축 수준을 제어할 JPEG 인코딩 특성을 지정
 
 설정 `chroma` 일반적인 JPEG 인코더에서 사용하는 RGB 색도 다운샘플링을 비활성화하는 플래그입니다. 이는 에지가 밝기보다 색조의 변화에 의해 정의될 때 이미지 내의 에지의 지각된 선명도를 증가시킬 수 있다. 이 플래그를 설정하면 파일 크기가 약간 증가할 수 있습니다. 텍스트가 약간 흐리게 보이는 경우 이 설정을 실험해 보십시오.
 
-`chroma` 출력 픽셀 유형이 CMYK 또는 회색인 경우 이 무시됩니다.
+다음 `chroma` 출력 픽셀 유형이 CMYK 또는 회색인 경우 이 무시됩니다.
 
 ## 예 {#section-a6c263f15c29424a86ef267c96a6630a}
 
-[!DNL http://server/is/agm/myRootId/myImageId?fmt=jpg&qlt=80]
+`http://server/is/agm/myRootId/myImageId?fmt=jpg&qlt=80`

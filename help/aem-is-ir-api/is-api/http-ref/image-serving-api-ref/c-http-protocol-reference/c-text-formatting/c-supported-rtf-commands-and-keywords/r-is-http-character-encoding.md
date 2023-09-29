@@ -1,13 +1,13 @@
 ---
+title: 문자 인코딩
 description: 문자 인코딩에 다음 명령을 사용합니다.
 solution: Experience Manager
-title: 문자 인코딩
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '87'
 ht-degree: 2%
 
 ---
@@ -42,12 +42,12 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>낮은 ANSI 영역의 문자가 뒤에 옵니다. </p> </td> 
+   <td> <p>낮은 ANSI 영역의 문자입니다. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \which </span> </td> 
-   <td> <p>높은 ANSI 영역의 문자가 뒤에 옵니다. </p> </td> 
+   <td> <p>높은 ANSI 영역의 문자입니다. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 둘 다인 경우 `wid=` 및 `scl=` 지정된 경우 합성 이미지는 다음 내용에 따라 잘릴 수 있습니다. `align=`특성. 날짜 `fit=` 이(가) 있음, `hei=` 정확한 응답 이미지 높이, 최소 또는 최대 응답 이미지 높이를 지정합니다. 다음에 대한 설명을 참조하십시오. [맞춤=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) 을 참조하십시오.
 
-If `scl=` 를 지정하지 않으면 합성 이미지가 크기에 맞게 조정됩니다. 둘 다인 경우 `wid=` 및 `hei=` 및 `scl=` 가 지정되지 않은 경우 이미지는 wid/hei 사각형 내에 완전히 맞게 크기가 조정되어 배경 영역이 가능한 한 적게 노출됩니다. 이 경우 이미지는 다음에 따라 보기 사각형 내에 배치됩니다. `align=` 특성. 배경 영역이 다음으로 채워짐 `bgc=`, 또는 로 지정되지 않은 경우 `attribute::BkgColor`.
+If `scl=` 를 지정하지 않으면 합성 이미지가 크기에 맞게 조정됩니다. 둘 다인 경우 `wid=` 및 `hei=` 및 `scl=` 를 지정하지 않으면 이미지가 wid/hei 직사각형 내에 완전히 맞게 조정되어 배경 영역이 최대한 적게 노출됩니다. 이 경우 이미지는 다음에 따라 뷰 사각형 내에 배치됩니다. `align=` 특성. 배경 영역이 다음으로 채워짐 `bgc=`, 또는 로 지정되지 않은 경우 `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ If `scl=` 를 지정하지 않으면 합성 이미지가 크기에 맞게 조정
 
 ## 속성 {#section-534923644a1e464496eeba83dedcbd3c}
 
-속성 보기. 현재 레이어 설정에 관계없이 적용됩니다.
+속성 보기. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 기본값 {#section-76544d34806d4124a8b173e229cba71f}
 
@@ -43,11 +43,11 @@ If `scl=` 를 지정하지 않으면 합성 이미지가 크기에 맞게 조정
 
 ## 예제 {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-이미지를 200x200 사각형에 맞추도록 요청하고, 사각형이 아닌 경우 이미지를 왼쪽 위로 정렬합니다. 모든 배경 영역이 다음으로 채워짐 `attribute::BkgColor`.
+200x200 사각형에 맞게 이미지를 요청하고 사각형이 아닌 경우 왼쪽 위로 이미지를 정렬합니다. 모든 배경 영역이 다음으로 채워짐 `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-동일한 이미지가 200픽셀의 고정된 높이에서 전달되지만 이미지의 종횡비에 맞게 너비가 달라집니다. 이 경우 반환된 이미지에 배경 채우기 영역이 없습니다. 이 경우 참고 사항 `align=` 전혀 효과가 없을 겁니다.
+동일한 이미지가 200픽셀의 고정된 높이에서 전달되지만 이미지의 종횡비에 맞게 너비가 달라집니다. 이 경우 반환된 이미지에 배경 채우기 영역이 없습니다. 그리고, 이 경우에는 `align=` 전혀 효과가 없을 겁니다.
 
 `http://server/myRootId/myImageId?hei=200`
 

@@ -1,13 +1,13 @@
 ---
+title: 크기
 description: 데칼 크기. 데칼 재질 개체의 너비, 높이 및 두께입니다.
 solution: Experience Manager
-title: 크기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## 속성 {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-쉼표로 구분된 실수 세 개. 음수이면 안 됩니다. 사용하지 않는 값을 0으로 설정합니다. 후행 0은 생략할 수 있습니다.
+쉼표로 구분된 실수 세 개. 음수가 아니어야 합니다. 사용하지 않는 값을 0으로 설정합니다. 후행 0은 생략할 수 있습니다.
 
 이미지를 지정된 크기에 맞게 늘려야 하는 경우에만 너비와 높이를 모두 지정합니다(종횡비가 변경될 수 있음). 이미지의 비율을 비례적으로 조절하려면 너비 또는 높이를 설정하십시오. 을 사용하려면 너비와 높이를 모두 0으로 설정하십시오 `catalog::Resolution`개체 크기를 결정합니다.
 

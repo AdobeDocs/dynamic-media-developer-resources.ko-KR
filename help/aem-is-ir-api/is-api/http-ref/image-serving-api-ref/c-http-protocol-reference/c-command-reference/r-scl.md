@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '134'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
  </tr> 
 </table>
 
-다음과 같은 경우에는 배율이 적용되지 않습니다. `scl=1`. *`invFactor`* 축소율이 1.0보다 크고 축소율이 1.0보다 작으면 합성 이미지가 확대됩니다.
+다음과 같은 경우에는 배율이 적용되지 않습니다. `scl=1`. An *`invFactor`* 1.0보다 크고 1.0보다 작은 값은 합성 이미지를 확대합니다.
 
 If `scl=` 이(가) 지정되고, `wid=` 및/또는 `hei=` 이(가) 있으면 이미지가 잘립니다. `wid=` 및/또는 `hei=` 배율 조정 후.
 
@@ -35,11 +35,11 @@ If `scl=` 이(가) 지정되고, `wid=` 및/또는 `hei=` 이(가) 있으면 이
 
 ## 속성 {#section-60af012719db477db4a4703e9a6da5f5}
 
-속성 보기. 현재 레이어 설정에 관계없이 적용됩니다.
+속성 보기. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다.
 
 ## 기본값 {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-둘 다 아닌 경우 `wid=`, `hei=`, 또는 `scl=` 이(가) 지정되면 응답 이미지의 크기가 합성 이미지 또는 `attribute::DefaultPix`, 둘 중 더 작은 것입니다.
+둘 다 아닌 경우 `wid=`, `hei=`, 또는 `scl=` 지정된 경우 응답 이미지의 크기가 합성 이미지 또는 `attribute::DefaultPix`, 둘 중 더 작은 것입니다.
 
 ## 예 {#section-a33f6239476a4b438d939656ad99aa76}
 

@@ -5,10 +5,10 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 23%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 23%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| company핸들 | `xsd:string` | 예 | 회사는 반환하려는 패킷을 처리합니다(예: `c|656`). |
+| company핸들 | `xsd:string` | 예 | 회사는 반환할 패킷을 처리합니다(예: `c|656`). |
 | assetHandle | `xsd:string` | 예 | XMP 패킷을 검색해야 하는 에셋입니다. |
 
 **출력(getXMPPacketReturn)**

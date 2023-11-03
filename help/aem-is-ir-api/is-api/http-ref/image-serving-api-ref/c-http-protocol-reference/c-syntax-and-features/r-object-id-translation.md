@@ -5,7 +5,7 @@ title: 개체 ID 변환
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 이미지 제공에서는 외부 개체 ID를 로케일별 개체(카탈로그) ID로 변환하는 메커니즘을 제공합니다. 기본 애플리케이션은 로케일별 객체 ID를 몰라도 로케일별 콘텐츠 및 여러 로케일 간에 공유되는 콘텐츠를 제공하기 위한 것입니다.
 
-전역 개체 ID만 사용하여 응용 프로그램을 작성할 수 있으며 이미지 제공은 로케일별 이미지 및 사용 가능한 경우 기타 콘텐츠를 자동으로 대체합니다.
+응용 프로그램은 전역 개체 ID만 사용하여 작성할 수 있으며 이미지 제공은 로케일별 이미지 및 기타 가능한 경우 콘텐츠를 자동으로 대체합니다.
 
 다음 *`locale`* 은(는) 다음을 사용하여 이미지 제공 요청에 지정됩니다. `locale=` 명령입니다.
 

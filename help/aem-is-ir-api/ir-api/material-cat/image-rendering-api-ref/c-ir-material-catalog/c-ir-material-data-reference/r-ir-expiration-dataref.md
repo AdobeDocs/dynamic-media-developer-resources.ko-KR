@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 브라우저는 파일의 만료 시간을 사용하여 캐시를 관리합니다. 서버에 요청을 전달하기 전에 브라우저는 해당 캐시를 확인하여 파일이 이미 다운로드되었는지 확인합니다. 이 경우 파일이 아직 만료되지 않은 경우 브라우저는 일반 GET 요청이 아닌 조건부 GET 요청(예: If-Modified-Since HTTP 요청 헤더 사용)을 보냅니다. 서버는 &#39;304&#39; 상태로 응답하고 이미지를 전송하지 않는 옵션이 있습니다. 그러면 브라우저가 해당 캐시에서 파일을 로드합니다. 이로 인해 자주 액세스하는 데이터에 대한 전반적인 성능이 크게 향상될 수 있습니다.
 
-서버에서 만료 HTTP 응답 헤더를 현재 날짜/시간에 렌더링 작업에 포함된 비네팅 및 모든 자료에 대한 가장 작은 비네팅::Expiration 및 모든 카탈로그::Expiration 값을 더한 값으로 설정합니다.
+서버는 만료 HTTP 응답 헤더를 현재 날짜/시간에 렌더링 작업에 포함된 비네팅 및 모든 자료에 대한 가장 작은 비네팅::Expiration 및 모든 카탈로그::Expiration 값을 더한 값으로 설정합니다.
 
-만료는 주로 이미지 데이터 응답에 대해 설정됩니다. 모든 오류 응답 또는 속성 응답을 포함하여 특정 유형의 응답은 항상 즉시 만료되도록 표시(또는 캐시할 수 없는 것으로 태그 지정)됩니다.
+만료는 주로 이미지 데이터 응답에 대해 설정됩니다. 모든 오류 응답 또는 속성 응답을 포함하여 특정 유형의 응답은 항상 즉시 만료되도록 표시되거나(또는 캐시 불가로 태그 지정됨).
 
 ## 속성 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 

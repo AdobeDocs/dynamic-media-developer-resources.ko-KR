@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 950b1230-5c4b-4222-87e2-d069287fc3ff
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드</span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. </p> <p>사용 <span class="codeph"> 없음</span> 즉시 표시하거나 숨길 수 있습니다. 사용 <span class="codeph"> 페이드</span> 점진적인 페이드 인 및 페이드 아웃 효과를 제공합니다. </p> <p>페이드는 Internet Explorer 8에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. </p> <p>사용 <span class="codeph"> 없음</span> 즉시 표시하거나 숨길 수 있습니다. 사용 <span class="codeph"> 페이드</span> 를 사용하여 점진적인 페이드 인/페이드 아웃 효과를 제공할 수 있습니다. </p> <p>페이드는 Internet Explorer 8에서 지원되지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 지연 숨기기</span> </span> </p> </td> 

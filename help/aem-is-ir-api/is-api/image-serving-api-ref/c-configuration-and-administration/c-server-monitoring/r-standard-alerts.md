@@ -5,9 +5,9 @@ title: 표준 경고
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
   <tr> 
    <td> <p>최소 트래픽 </p> </td> 
    <td> <p>Traf </p> </td> 
-   <td> <p>전체 요청 비율이 지정된 임계값 아래로 떨어질 때 생성됩니다. 일반적으로 서버 통신 문제(예: 서버가 오프라인 상태일 때)를 나타냅니다. </p> </td> 
+   <td> <p>전체 요청 비율이 지정된 임계값 아래로 떨어질 때 생성됩니다. 일반적으로 서버 통신 문제를 나타냅니다(예: 서버가 오프라인 상태일 때). </p> </td> 
   </tr> 
   <tr> 
    <td> <p>오류율 </p> </td> 

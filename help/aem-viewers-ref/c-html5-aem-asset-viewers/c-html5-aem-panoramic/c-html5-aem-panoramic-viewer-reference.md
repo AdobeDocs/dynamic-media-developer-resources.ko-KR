@@ -5,9 +5,9 @@ keywords: 반응형
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ HTML5 파노라마 뷰어는 파노라마 이미지를 표시하는 이미지 �
 
 HTML5 파노라마 뷰어는 런타임 시 뷰어가 다운로드한 기본 JavaScript 파일과 도우미 파일 세트를 나타냅니다. 도우미 파일 세트는 이 특정 뷰어, 에셋, CSS에서 사용하는 모든 HTML5 뷰어 SDK 구성 요소와 함께 포함된 단일 JavaScript입니다.
 HTML5 파노라마 뷰어는 IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하는 팝업 모드와 문서화된 API를 사용하여 대상 웹 페이지에 통합되는 임베드된 모드 모두에서 사용할 수 있습니다.
-구성 및 스키닝은 다른 HTML 5 시청자의 그것과 유사합니다. 모든 스키닝은 사용자 지정 CSS를 통해 수행할 수 있습니다.
+구성 및 스키닝은 다른 HTML 5 시청자의 그것과 유사합니다. 모든 스키닝은 맞춤형 CSS를 통해 달성할 수 있습니다.
 
 다음을 참조하십시오 [모든 뷰어에 공통되는 명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 대해 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 

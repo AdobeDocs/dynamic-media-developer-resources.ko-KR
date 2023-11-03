@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2585'
 ht-degree: 2%
@@ -871,7 +871,7 @@ background-color: #ffffff;
 
 이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-예 - &quot;드롭다운&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대한 별도의 이미지를 보유하려면 다음을 수행하십시오.
+예 - &quot;드롭다운&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대한 별도의 이미지를 보유하려면 다음을 수행합니다.
 
 ```
 .s7videoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 

@@ -5,7 +5,7 @@ title: req
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 546b8b3f-9e37-4e8d-bf0c-db8c12696b2b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 10%
@@ -39,7 +39,7 @@ ht-degree: 10%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-자세한 설명에 별도로 명시되지 않는 한 서버는 `text` MIME 유형의 응답 `text/plain`. 다음과 같은 많은 요청 유형을 사용하여 응답 유형을 지정할 수 있습니다. `text`, 이는 일반적으로 기본값입니다. `javascript`, `xml`, 또는 `json`. 연결된 응답 MIME 유형은 다음과 같습니다 `text/plain`, `text/javascript`, `text/xml`, 및 `text/javascript`, 각각
+자세한 설명에 별도로 명시되지 않는 한 서버는 `text` MIME 유형의 응답 `text/plain`. 다음과 같은 많은 요청 유형을 사용하여 응답 유형을 지정할 수 있습니다. `text` 이는 일반적으로 기본값이며, `javascript`, `xml`, 또는 `json`. 연결된 응답 MIME 유형은 다음과 같습니다 `text/plain`, `text/javascript`, `text/xml`, 및 `text/javascript`, 각각
 
 별도로 언급되지 않는 한, 응답은 다음 집합으로 포맷됩니다. `name=value` 쌍.
 

@@ -1,20 +1,20 @@
 ---
 title: 텍스트 위치
-description: text= renderer는 미리 크기가 지정된 레이어에 적용할 때(즉, size=가 지정된 경우에도) textPs= renderer와 근본적으로 다른 텍스트를 배치합니다.
+description: text= 렌더러는 미리 크기가 지정된 레이어에 적용할 때(즉, size=가 지정된 경우) textPs= 렌더러와 근본적으로 다른 텍스트를 배치합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # 텍스트 위치{#text-positioning}
 
-다음 `text=` 렌더러는 미리 크기가 조정된 레이어에 적용할 때(즉, size=가 지정된 경우에도) textPs= 렌더러와 근본적으로 다른 텍스트를 배치합니다.
+다음 `text=` 렌더러는 미리 크기가 지정된 레이어에 적용할 때(즉, size=가 지정된 경우) textPs= 렌더러와 근본적으로 다른 텍스트를 배치합니다.
 
 자가 크기 조정 `text=`및 `textPs=` 레이어는 비슷한 모양과 위치를 갖습니다.
 

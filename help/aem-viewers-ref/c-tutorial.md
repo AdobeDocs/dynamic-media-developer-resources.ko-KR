@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -115,7 +115,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 파일을 빈 템플릿으로 저장합니다. 원하는 파일 이름을 사용할 수 있습니다.
 
-   나중에 뷰어를 만들 때 이 빈 템플릿 파일을 참조로 사용합니다. 이 템플릿은 로컬에서 작동하며 웹 서버에서 제공되는 경우 작동합니다.
+   나중에 뷰어를 만들 때 이 빈 템플릿 파일을 참조로 사용할 수 있습니다. 이 템플릿은 로컬에서 작동하며 웹 서버에서 제공되는 경우 작동합니다.
 
 이제 뷰어에 스타일을 추가합니다.
 
@@ -178,8 +178,8 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -290,7 +290,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
    ![뷰어 예 2 이미지](assets/viewer-2.jpg)
 
-이제 뷰어에 확대, 축소 및 확대/축소 재설정 버튼을 추가합니다.
+이제 확대, 축소 및 확대/축소 재설정 단추를 뷰어에 추가합니다.
 
 ## 뷰어에 단추 추가 {#section-1fc334fa0d2b47eb9cdad461725c07be}
 

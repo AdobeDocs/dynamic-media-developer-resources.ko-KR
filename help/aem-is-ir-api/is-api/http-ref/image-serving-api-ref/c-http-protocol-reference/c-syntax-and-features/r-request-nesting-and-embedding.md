@@ -5,9 +5,9 @@ title: 중첩 및 포함 요청
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 사전 처리 규칙은 중첩 요청에 적용됩니다.
 
-다음 명령은 중첩 요청(요청 URL 또는 )에 지정될 때 무시됩니다 `catalog::Modifier` 또는 `catalog::PostModifier`):
+다음 명령은 중첩된 요청(요청 URL에서 또는 )에 지정될 때 무시됩니다 `catalog::Modifier` 또는 `catalog::PostModifier`):
 
 * `fmt=`
 * `qlt=`
@@ -119,7 +119,7 @@ FXG 그래픽 렌더러(예: [!DNL AGMServer])가 설치되고 이미지 제공�
 
 중요 구분 기호 문자( `'(',')'`) 및 명령 구분 기호 문자( `'?'`, `'&'`, `'='`중첩된 요청 내에서 는 HTTP 인코딩이 아니어야 합니다. 사실상, 임베드된 요청들은 외부(임베딩) 요청과 동일하게 인코딩되어야 한다.
 
-전체 절대 URL(다음의 경우) `attribute::AllowDirectUrls` 가 설정됨)이고, URL은 `attribute::RootUrl` 허용됩니다. 절대 URL이 포함되고 속성이 다음과 같은 경우 오류가 발생합니다. `AllowDirectUrls` 은 0이거나, 상대 URL이 지정된 경우 이고 `attribute::RootUrl` 은(는) 비어 있습니다.
+전체 절대 URL(다음의 경우) `attribute::AllowDirectUrls` 가 설정됨)이고, 상대 URL입니다 `attribute::RootUrl` 허용됩니다. 절대 URL이 포함되고 속성이 다음과 같은 경우 오류가 발생합니다. `AllowDirectUrls` 은 0이거나, 상대 URL이 지정된 경우 이고 `attribute::RootUrl` 은(는) 비어 있습니다.
 
 요청 URL의 경로 구성 요소에 외부 URL을 직접 지정할 수는 없지만, 상대 경로를 절대 URL로 변환하는 전처리 규칙을 설정할 수 있습니다(아래 예 참조).
 

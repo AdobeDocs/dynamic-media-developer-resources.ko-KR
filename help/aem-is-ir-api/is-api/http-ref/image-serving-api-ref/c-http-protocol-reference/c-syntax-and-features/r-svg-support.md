@@ -5,9 +5,9 @@ title: SVG 지원
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ SVG 파일에 임베드되고 대체 변수를 통해 SVG 템플릿에 전달되
 
 SVG 파일은 독립 실행형이어야 하며 이미지 제공 또는 이미지 렌더링 요청에서 참조되는 외부 이미지를 제외하고 보조 파일 또는 리소스를 참조해서는 안 됩니다(위 참조).
 
-정적 콘텐츠만 렌더링됩니다. 애니메이션, 버튼 등의 대화형 기능 가 있을 수 있지만 예상대로 렌더링되지 않을 수 있습니다.
+정적 콘텐츠만 렌더링됩니다. 애니메이션, 버튼 등의 대화형 기능. 가 있을 수 있지만 예상대로 렌더링되지 않을 수 있습니다.
 
 ICC 프로파일 기반 색상 사양은 현재 지원되지 않습니다.
 

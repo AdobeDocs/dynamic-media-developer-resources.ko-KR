@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57941e90-1462-43e6-80db-6b111e004f9b
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 플라이아웃 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 로드 시 플라이아웃 확대/축소 보기에 표시되는 사용자 인터페이스 요소 도구 설명 및 정보 메시지가 포함되어 있습니다.
 
-현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값이 있습니다( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
+현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
 
 뷰어가 시작되면 현재 로케일을 확인하여 로케일에 대해 지원되는 각 SYMBOL에 대한 사용자 정의 값이 있는지 확인합니다. 있는 경우 사용자 정의 값을 사용하고, 그렇지 않은 경우 기본 텍스트로 돌아갑니다.
 

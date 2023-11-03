@@ -5,9 +5,9 @@ title: 이미지 집합
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-콘텐츠 `catalog::ImageSet` 추가 수정 없이 반환되고(해당하는 경우 문자열 현지화 제외), 뒤에 단일 줄 종결자(CR/LF)가 옵니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 단일 줄 종결자로만 구성됩니다.
+콘텐츠 `catalog::ImageSet` 추가 수정 없이 가 반환되고(해당하는 경우 문자열 현지화 제외), 뒤에 한 줄 종결자(CR/LF)가 옵니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 한 줄 종결자로만 구성됩니다.
 
 요청 문자열의 다른 명령은 무시됩니다. HTTP 응답은 다음을 기반으로 하는 TTL로 캐시할 수 있습니다. `catalog::NonImgExpiration`.
 

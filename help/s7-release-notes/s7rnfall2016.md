@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * RequireJS 및 DOJO 라이브러리와의 호환성.
 
-   뷰어 배포 중 통합 SDK JS 캐싱.
+  뷰어 배포 중 통합 SDK JS 캐싱.
 
 ## 뷰어(이미지 제공 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
@@ -109,7 +109,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * 갤럭시
 
-   * 브라우저 설정에서 전체 화면 을 선택한 상태로 장치가 세로 모드에서 태블릿으로 감지되었습니다.
+   * 브라우저 설정에서 전체 화면을 확인한 상태로 장치가 세로 모드에서 태블릿으로 감지되었습니다.
 
 * 갤럭시 넥서스
 
@@ -153,7 +153,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * 에서 수정자를 제공하는 이미지 `iscommands` 에 추가되지 않음 `req=set` 디자인으로 요청합니다. 이미지 표시에만 영향을 주는 수정자가 제대로 작동합니다. 크기에 영향을 주는 수정자는 복잡한 에셋에서 사용해야 합니다. 예:
 
-   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
+  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
 * [플라이아웃] IE9는 마우스가 꺼진 후에도 화면에 남아 있는 경우가 있습니다.
 * 브라우저 크기 조정으로 인해 크기를 잘못 조정할 수 있습니다.
@@ -234,7 +234,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
    * 기본값을 비활성화하려면 구성 요소에 대해 다음 CSS 규칙을 파란색 강조 표시로 추가해야 합니다.
 
-      `-webkit-tap-highlight-color: rgba(0,0,0,0);`
+     `-webkit-tap-highlight-color: rgba(0,0,0,0);`
 
 * 블랙베리®
 
@@ -281,7 +281,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
    * 전체 화면 모드는 전체 장치 화면을 차지하지 않고 브라우저 창의 크기로 응용 프로그램 크기를 조정합니다.
    * 터치 장치에서는 사용자 지정 커서가 작동하지 않습니다.
-   * 터치 장치에서의 페이지 크기 조정은 현재 지원되지 않습니다. HTML5 뷰어를 포함하려면 적절한 설정이 있는 뷰포트 메타 태그가 필요합니다.
+   * 터치 장치에서의 페이지 확대는 현재 지원되지 않습니다. HTML5 뷰어를 포함하려면 적절한 설정이 있는 뷰포트 메타 태그가 필요합니다.
 
 * Xom
 

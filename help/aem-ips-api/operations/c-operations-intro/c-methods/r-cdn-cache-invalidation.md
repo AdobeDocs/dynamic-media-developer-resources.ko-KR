@@ -5,9 +5,9 @@ title: cdnCacheInvalidation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 3%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 3%
 
 ## cdnCacheInvalidation: 정보 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 유효성을 다시 검사하도록 강제합니다. Dynamic Media 서비스 URL 구조에 연결되어 있지 않고 회사가 생성될 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대한 API 오류를 초래합니다. CDN에서 유효하지 않은 것으로 간주하는 URL을 지원하지 않으면 전체 요청에 대한 API 오류도 발생합니다.
+CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 유효성을 다시 검사하도록 강제합니다. Dynamic Media 서비스 URL 구조에 연결되어 있지 않고 회사가 생성될 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대한 API 오류를 발생시킵니다. CDN이 지원하지 않고 잘못된 것으로 간주하는 잘못된 URL은 전체 요청에 대한 API 오류를 발생시키기도 합니다.
 
 **사용 빈도: 규칙**
 
-이 기능의 사용 빈도를 제어하는 규칙은 Dynamic Media의 CDN 파트너에 의해 제어됩니다. CDN은 사용자에게 최적의 서비스 성능을 유지하기 위해 이러한 무효화의 응답성을 저하하는 재량권을 갖습니다. Dynamic Media에 이 기능의 과다 사용에 대한 알림이 전송되면 회사별로 또는 전체 서비스에서 기능을 비활성화해야 합니다.
+이 기능의 사용 빈도를 제어하는 규칙은 Dynamic Media의 CDN 파트너에 의해 제어됩니다. CDN은 사용자에게 최적의 서비스 성능을 유지하기 위해 이러한 무효화의 응답성을 저하하는 재량권을 갖습니다. Dynamic Media에 이 기능의 과다 사용에 대한 알림이 전송되면 Adobe은 회사별로 또는 전체 서비스에서 기능을 비활성화해야 합니다.
 
 **확인 이메일**
 
@@ -98,7 +98,7 @@ Dynamic Media CDN 파트너의 확인 이메일은 목록 작성자 또는 최�
 
 ## 예 {#section-f414361a58e84dfcbbac30a358d02125}
 
-이 예에서는 CDN 캐시에서 4개의 URL이 무효화되도록 요청합니다. 응답에는 작업 성공에 대한 요약 카운트와 클라이언트가 이 기능을 사용할 수 있도록 CDN에서 직접 제공한 오류 세부 정보 목록이 포함됩니다.
+이 예에서는 CDN 캐시에서 4개의 URL이 무효화되도록 요청합니다. 응답에는 작업 성공에 대한 요약 카운트와 클라이언트가 이 기능을 사용할 수 있도록 CDN에서 직접 제공한 오류 세부 정보 목록이 포함되어 있습니다.
 
 `getCdnCacheInvalidationStatus` 작업.
 

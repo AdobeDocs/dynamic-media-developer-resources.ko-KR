@@ -5,9 +5,9 @@ title: 모니터링 및 경고 시스템
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ SMTP 전자 메일 서버의 수신 포트입니다.
 
 ## AS::monitorAlertGenerator.alertInterval - 모니터링 간격 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
-모니터링 시스템은 경보 간격 동안 경보 조건을 누적하고 각 간격이 끝날 때 누적된 모든 경보가 포함된 경보 이메일을 전송합니다. 밀리초, 정수 값 또는 60000 이상. 일반적으로 5분 또는 10분으로 설정됩니다.
+모니터링 시스템은 경보 간격 동안 경보 조건을 누적하고 각 간격이 끝날 때 모든 누적된 경보가 포함된 경보 이메일을 전송합니다. 밀리초, 정수 값 또는 60000 이상. 일반적으로 5분 또는 10분으로 설정됩니다.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - 힙 공간 경고 간격 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,11 @@ ht-degree: 0%
 * 동일한 이름이 단일 레이어에 여러 번 매핑되는 경우(예: `layer=1,image&layer=1,image`), 범위는 오류 없이 평소대로 설정됩니다.
 * 동일한 레이어에 대해 여러 이름이 지원됩니다.
 
-   두 이름 중 하나를 사용하여 레이어를 참조할 수 있습니다(예: `layer=1,image&layer=1,picture`).
+  두 이름 중 하나를 사용하여 레이어를 참조할 수 있습니다(예: `layer=1,image&layer=1,picture`).
 * 참조된 이름이 레이어 번호에 매핑되지 않은 경우(예: `layer=1,image&layer=picture`) 오류가 발생합니다.
 * 대체 변수는 레이어 수정자에서 지원되지 않습니다(예: `layer=$image$`).
 
-   이는 모든 순열에 적용되며, 일반적으로 레이어 이름뿐만 아니라 레이어 수정자에도 적용됩니다.
+  이는 모든 순열에 적용되며, 일반적으로 레이어 이름뿐만 아니라 레이어 수정자에도 적용됩니다.
 
 * 모든 병합 및 재정의 규칙은 여러 소스(요청, 사전 또는 사후 수정자 카탈로그 레코드, 매크로 등)에서 동일한 레이어를 참조하는 경우와 정확히 동일하게 작동해야 합니다.
 

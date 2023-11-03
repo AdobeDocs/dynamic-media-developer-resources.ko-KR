@@ -1,20 +1,20 @@
 ---
-description: 속성 집합은 속성 집합 유형에 따라 다양한 IPS 개체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 집합입니다. 속성 집합 형식에서 개체에 여러 집합을 연결할 수 없는 경우(PropertySetType/allowMultipleisfalse) 개체에 이미 같은 형식의 연결된 집합이 있으면 새 집합이 기존 집합을 대체합니다.
+description: 속성 집합은 속성 집합 유형에 따라 다양한 IPS 개체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 집합입니다. 속성 집합 형식에서 개체에 여러 집합을 첨부할 수 없는 경우(PropertySetType/allowMultipleisfalse) 개체에 이미 같은 형식의 연결된 집합이 있으면 새 집합이 기존 집합을 대체합니다.
 solution: Experience Manager
 title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
 
 # createPropertySet{#createpropertyset}
 
-속성 집합은 속성 집합 유형에 따라 다양한 IPS 개체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 집합입니다. 속성 집합 형식에서 개체에 여러 집합을 연결할 수 없는 경우(PropertySetType/allowMultipleisfalse) 개체에 이미 같은 형식의 연결된 집합이 있으면 새 집합이 기존 집합을 대체합니다.
+속성 집합은 속성 집합 유형에 따라 다양한 IPS 개체에 첨부할 수 있는 응용 프로그램별 이름-값 쌍 집합입니다. 속성 집합 형식에서 개체에 여러 집합을 첨부할 수 없는 경우(PropertySetType/allowMultipleisfalse) 개체에 이미 같은 형식의 연결된 집합이 있으면 새 집합이 기존 집합을 대체합니다.
 
 구문
 

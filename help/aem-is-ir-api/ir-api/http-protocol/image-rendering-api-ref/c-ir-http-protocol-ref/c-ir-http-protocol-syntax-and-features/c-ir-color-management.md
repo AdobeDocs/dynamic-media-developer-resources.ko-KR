@@ -5,9 +5,9 @@ title: 이미지 렌더링 색상 관리 *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 **참조**
 
-[인터내셔널 컬러 컨소시엄](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC 프로필 맵
+[인터내셔널 컬러 컨소시엄](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , ICC 프로필 맵
 
 ## 기본 색상 공간 {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 모든 렌더링 작업은 작업 색상 공간에서 실행됩니다.
 
-**중요 사항:** 작업 색상 공간의 ICC 프로파일은 입력 및 출력 변환을 지원해야 합니다. 출력 전용 프로파일이 작업 색상 공간(IR)으로 사용되는 경우 재료를 출력 공간으로 변환할 수 없습니다. 이러한 컬러 프로파일은 동일한 작업 컬러 공간에 재료가 존재하는 경우에도 여전히 사용될 수 있다. 다른 색상 공간에서 재료를 적용하려고 하면 실패합니다.
+**중요 사항:** 작업 색상 공간의 ICC 프로파일은 입력 및 출력 변환을 지원해야 합니다. 출력 전용 프로파일이 작업 색상 공간으로 사용되는 경우 IR은 재료를 변환 할 수 없습니다. 이러한 컬러 프로파일은 동일한 작업 컬러 공간에 재료가 존재하는 경우에도 여전히 사용될 수 있다. 다른 색상 공간에서 재료를 적용하려고 하면 오류가 발생합니다.
 
 ## 명시적 색상 값 {#section-31727bf1b23e477ca92572fbbf422d2f}
 

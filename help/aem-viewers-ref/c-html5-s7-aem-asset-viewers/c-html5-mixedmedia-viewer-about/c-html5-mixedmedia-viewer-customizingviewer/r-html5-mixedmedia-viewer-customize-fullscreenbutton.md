@@ -1,20 +1,20 @@
 ---
 title: 전체 화면 단추
-description: 이 버튼을 누르면 사용자가 선택했을 때 뷰어가 전체 화면 모드로 전환되거나 종료됩니다. 이 변수는 뷰어가 이미지 또는 스핀 세트를 표시할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+description: 이 버튼을 누르면 사용자가 선택한 경우 뷰어가 전체 화면 모드로 전환되거나 종료됩니다. 이 변수는 뷰어가 이미지 또는 스핀 세트를 표시할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 1df99614-9493-4c8a-bc51-4426b8c5467a
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
 
 # 전체 화면 단추{#full-screen-button}
 
-이 버튼을 누르면 사용자가 선택했을 때 뷰어가 전체 화면 모드로 전환되거나 종료됩니다. 이 변수는 뷰어가 이미지 또는 스핀 세트를 표시할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
+이 버튼을 누르면 사용자가 선택한 경우 뷰어가 전체 화면 모드로 전환되거나 종료됩니다. 이 변수는 뷰어가 이미지 또는 스핀 세트를 표시할 때 사용됩니다. 뷰어가 팝업 모드에서 작동하고 시스템이 기본 전체 화면을 지원하지 않는 경우에는 이 단추가 표시되지 않습니다. CSS를 사용하여 이 버튼의 크기를 조정하고, 스킨을 지정하고, 위치를 지정할 수 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 은 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 는 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) 추가 정보.
 

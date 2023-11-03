@@ -5,10 +5,10 @@ title: 글꼴 맵 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '100'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 이미지 카탈로그에 글꼴 맵이 필요한 경우 글꼴 맵 파일의 상대 경로나 절대 경로를 attribute::FontMapFile에 지정해야 합니다.
 
-특정 이미지 카탈로그의 글꼴 맵 항목은 기본 카탈로그의 글꼴 맵 항목을 재정의합니다.
+특정 이미지 카탈로그의 글꼴 맵 항목은 기본 카탈로그의 글꼴 맵 항목을 덮어씁니다.
 
 이미지 제공은 Adobe Type 1, OpenType 및 트루타입 글꼴을 지원합니다.
 

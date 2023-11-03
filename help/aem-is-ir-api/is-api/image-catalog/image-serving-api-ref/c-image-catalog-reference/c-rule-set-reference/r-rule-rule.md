@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 5%
 
 **`Name = "text"`**: 선택적. 을(를) 식별하는 데 사용됨 `<rule>` 디버그 로그 및 오류 메시지의 요소입니다.
 
-`  *`속성`* ="value"`: 선택 사항입니다. `<rule>` 요소는 임의의 조합으로 다음 속성 중 하나를 정의할 수 있습니다. 지정되고 규칙이 성공적으로 일치하면 이 요청에 대한 해당 카탈로그 특성이 재정의됩니다. 기본값은 입니다 `RequestType="is"`.
+`  *`속성`* ="value"`: 선택 사항입니다. `<rule>` 요소는 임의의 조합으로 다음 속성 중 하나를 정의할 수 있습니다. 지정되고 규칙이 성공적으로 일치하면 이 요청에 대한 해당 카탈로그 속성이 재정의됩니다. 기본값은 입니다 `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 

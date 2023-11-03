@@ -5,9 +5,9 @@ title: 캐시 클러스터링
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## PS::cacheCluster.fetchTimeout - 가져오기 시간 초과 {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-피어 서버에서 실제 캐시 데이터가 전달될 때까지 서버가 대기할 최대 시간(밀리초)을 지정합니다. 제한 시간이 만료되기 전에 전체 데이터가 전달되지 않으면 서버는 피어를 사용할 수 없다고 가정합니다. 그러면 캐시 항목이 로컬로 생성됩니다.
+피어 서버에서 실제 캐시 데이터가 전달될 때까지 서버가 대기하는 최대 시간(밀리초)을 지정합니다. 제한 시간이 만료되기 전에 전체 데이터가 전달되지 않으면 서버는 피어를 사용할 수 없다고 가정합니다. 그러면 캐시 항목이 로컬로 생성됩니다.

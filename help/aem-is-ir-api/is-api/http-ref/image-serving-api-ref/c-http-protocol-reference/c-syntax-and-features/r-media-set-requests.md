@@ -5,9 +5,9 @@ title: 미디어 집합 요청
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 ## 내부 집합 유형 감지 {#section-8f46490e467247e69ce284704def06f3}
 
-외부 세트가 유형 미디어 세트로 감지되면 응답에는 의 각 미디어 세트 항목에 해당하는 미디어 세트 항목 세트가 포함됩니다 `catalog::ImageSet`. 특정 미디어 세트 항목에 대해 선택적 유형 매개 변수가 지정된 경우 다음 표에 따라 출력 유형에 매핑됩니다.
+외부 세트가 유형 미디어 세트로서 검출될 때, 응답은 각각의 미디어 세트 엔트리에 대응하는 미디어 세트 아이템들의 세트를 포함한다 `catalog::ImageSet`. 특정 미디어 세트 항목에 대해 선택적 유형 매개 변수가 지정된 경우 다음 표에 따라 출력 유형에 매핑됩니다.
 
 | 입력 유형 | 출력 유형 |
 |---|---|

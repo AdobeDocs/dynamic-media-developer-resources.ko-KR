@@ -5,16 +5,16 @@ title: 정적(이미지가 아닌) 콘텐츠 제공
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
 
 # 정적(이미지가 아닌) 콘텐츠 제공{#serving-static-non-image-content}
 
-이미지 제공은 카탈로그의 비이미지 컨텐츠를 관리하고 별도의 메커니즘을 통해 제공하는 메커니즘을 제공합니다 `context /is/content`. 메커니즘을 통해 각 항목에 대한 TTL을 별도로 구성할 수 있습니다.
+이미지 제공은 카탈로그의 비이미지 컨텐츠를 관리하고 별도의 방식으로 제공하는 메커니즘을 제공합니다 `context /is/content`. 메커니즘을 통해 각 항목에 대한 TTL을 별도로 구성할 수 있습니다.
 
 ## 기본 구문 {#section-a986baaca8644d04bcd0ddf781ae916e}
 
@@ -113,7 +113,7 @@ ht-degree: 1%
 
 ## 정적 콘텐츠 필터링 {#section-896c37cf68bc446eb0766fb378898262}
 
-이 메커니즘을 사용하면 클라이언트가 해당 요구 사항에 적합한 콘텐츠만 받도록 할 수 있습니다. 정적 컨텐츠에 적절한 태그가 지정되었다고 가정 `catalog::UserType`값을 지정하면 클라이언트가 `type=` 요청에 대한 명령입니다. 이미지 제공에서는 제공된 값을 `type=` 다음 값에 대한 명령: `catalog::UserType` 그리고 불일치가 발생하면 부적절한 콘텐츠 대신 오류를 반환합니다.
+이 메커니즘을 사용하면 클라이언트가 해당 요구 사항에 적합한 콘텐츠만 받도록 할 수 있습니다. 정적 컨텐츠에 적절한 태그가 지정되었다고 가정 `catalog::UserType`값을 지정하면 클라이언트가 `type=` 요청에 대한 명령입니다. 이미지 제공에서는 제공된 값을 와 비교합니다. `type=` 다음 값에 대한 명령: `catalog::UserType` 그리고 불일치가 발생하면 부적절한 콘텐츠 대신 오류를 반환합니다.
 
 ## 참조 {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

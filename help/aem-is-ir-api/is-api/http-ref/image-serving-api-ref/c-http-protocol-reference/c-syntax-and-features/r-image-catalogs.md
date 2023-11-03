@@ -5,9 +5,9 @@ title: 이미지 카탈로그
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 * 특정 메타데이터 및 수정자 명령과 이미지를 지속적으로 연결할 수 있습니다.
 
-   이미지 카탈로그의 항목은 바로 가기 표기법을 사용하여 참조됩니다 `*`rootId/objId`*`, 여기서 `*`rootId`*` 이미지 카탈로그 식별 및 `*`objId`*` 카탈로그에서 데이터 레코드를 식별합니다.
+  이미지 카탈로그의 항목은 바로 가기 표기법을 사용하여 참조됩니다 `*`rootId/objId`*`, 여기서 `*`rootId`*` 이미지 카탈로그 식별 및 `*`objId`*` 카탈로그에서 데이터 레코드를 식별합니다.
 * JPEG 품질 또는 워터마크의 적용 여부와 같은 특정 요청 속성에 대한 기본값을 제공합니다.
 * 글꼴, ICC 프로파일, 매크로 정의 및 요청 템플릿 관리
 
-특정 이미지 카탈로그가 정의되지 않은 경우에도 기본 카탈로그( )를 통해 이미지 카탈로그의 모든 기능을 사용할 수 있습니다. [!DNL default.ini]).
+특정 이미지 카탈로그가 정의되지 않은 경우에도 기본 카탈로그( )를 통해 이미지 카탈로그의 모든 기능을 사용할 수 있습니다 [!DNL default.ini]).
 
 If `*`rootId`*` 요청의 URL 경로가 일치함 `attribute::RootId` 특정 이미지 카탈로그의 경우 해당 카탈로그가 이 요청의 기본 카탈로그가 됩니다. 기본 카탈로그는 전체 요청에 대한 기본 특성과 설정을 제공합니다. 일치하는 항목이 없으면 기본 카탈로그가 대신 사용됩니다.
 

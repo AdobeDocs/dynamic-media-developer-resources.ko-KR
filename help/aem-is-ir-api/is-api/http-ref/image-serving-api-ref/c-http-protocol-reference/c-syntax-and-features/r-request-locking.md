@@ -5,9 +5,9 @@ title: 잠금 요청
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---

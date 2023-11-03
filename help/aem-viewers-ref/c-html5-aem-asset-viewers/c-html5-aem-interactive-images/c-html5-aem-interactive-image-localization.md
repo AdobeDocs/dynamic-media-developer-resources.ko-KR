@@ -4,9 +4,9 @@ description: 대화형 이미지 뷰어가 표시하는 특정 컨텐츠는 현�
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 대화형 이미지 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 사용자 인터페이스 요소 도구 설명과 로드 시 플라이아웃 확대/축소 보기에 표시되는 정보 메시지가 포함되어 있습니다.
 
-현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값이 있습니다( `"en"`)는 기본 뷰어와 함께 제공되며, 필요한 만큼 많은 로케일에 대해 사용자 정의 값이 설정될 수 있습니다.
+현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값( `"en"`)는 기본 뷰어와 함께 제공되며, 필요한 만큼 많은 로케일에 대해 사용자 정의 값이 설정될 수 있습니다.
 
 뷰어가 시작되면 현재 로케일을 확인하여 해당 로케일에 대해 지원되는 각 SYMBOL에 대한 사용자 정의 값이 있는지 확인합니다. 있는 경우 사용자 정의 값을 사용하고, 그렇지 않은 경우 기본 텍스트로 돌아갑니다.
 

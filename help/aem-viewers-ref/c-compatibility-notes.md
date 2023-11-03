@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 ## 갤럭시 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* 브라우저 설정에서 전체 화면 을 선택한 상태로 장치가 세로 모드에서 태블릿으로 감지되었습니다.
+* 브라우저 설정에서 전체 화면을 확인한 상태로 장치가 세로 모드에서 태블릿으로 감지되었습니다.
 
 ## 갤럭시 넥서스 {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 

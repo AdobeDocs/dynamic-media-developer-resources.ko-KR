@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: c386a09c-21ce-4105-b416-e6ae50219af0
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 확대/축소 단추 및 전체 화면 단추 등 비디오 뷰어에 표시되는 특정 컨텐츠는 현지화가 적용됩니다.
 
-현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값이 있습니다( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
+현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
 
 뷰어가 시작되면 현재 로케일을 확인하여 로케일에 대해 지원되는 각 SYMBOL에 대한 사용자 정의 값이 있는지 확인합니다. 있는 경우 사용자 정의 값을 사용하고, 그렇지 않은 경우 기본 텍스트로 돌아갑니다.
 
@@ -86,7 +86,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLS_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>전체 화면 상태의 전체 화면 버튼. </p> </td> 
+   <td colname="col2"> <p>전체 화면 상태의 전체 화면 단추. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOL팁 </span> </p> </td> 

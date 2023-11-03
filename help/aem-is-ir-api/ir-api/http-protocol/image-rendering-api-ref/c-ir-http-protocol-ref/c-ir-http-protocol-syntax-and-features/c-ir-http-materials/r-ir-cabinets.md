@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 캐비닛 자료는 캐비닛 스타일 파일(.vnc 파일 확장명)을 지정합니다. 이 파일은 패라메트릭 레이아웃 정의와 함께 캐비닛의 사진 표현 및 캐비닛 전면을 렌더링하는 데 필요한 기타 정보를 포함하는 특수 데이터 파일입니다.
 
-[!DNL vnc] 파일에는 반복 가능한 나무 그레인 텍스처가 포함되어 있거나, 텍스처는 다음에 대한 두 번째 인수를 통해 외부에서 제공될 수 있습니다. `src=`. 확실하 [!DNL vnc] 파일은 선택한 캐비닛 전면 영역을 색상화하거나 텍스처링할 수 있습니다(일반적으로 래미네이트 캐비닛 스타일에 사용).
+[!DNL vnc] 파일에는 반복 가능한 나뭇결 텍스처가 포함되어 있거나, 텍스처는 다음에 대한 두 번째 인수를 통해 외부에 제공될 수 있습니다. `src=`. 확실하 [!DNL vnc] 파일은 선택한 캐비닛 전면 영역을 색상화하거나 텍스처링할 수 있습니다(일반적으로 래미네이트 캐비닛 스타일에 사용).
 
 캐비닛 재료는 캐비닛 객체에만 적용할 수 있습니다.
 

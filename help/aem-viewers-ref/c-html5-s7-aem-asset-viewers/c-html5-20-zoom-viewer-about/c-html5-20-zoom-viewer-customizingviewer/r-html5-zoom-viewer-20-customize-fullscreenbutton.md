@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 은 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 는 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

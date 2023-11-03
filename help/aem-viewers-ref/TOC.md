@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 사용자 지정합니다. 대화형 이미지 및 비디오, 회전 메뉴, 스핀 세트 등을 포함합니다.
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2056'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 + 뷰어 릴리스 정보 {#viewers-release-notes}
    + [Viewers 릴리스 노트 (5.16.5)](c-release-notes/c-rn-03-02-22.md)
    + 보관 {#archive}
-      + [뷰어 릴리스 정보 (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
+      + [Viewers 릴리스 노트 (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Viewers 릴리스 노트 (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [뷰어 릴리스 정보 (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [뷰어 릴리스 정보 (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)

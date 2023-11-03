@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2987'
 ht-degree: 2%
@@ -133,7 +133,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
  </tbody> 
 </table>
 
-예 - 전체 브라우저 창을 사용하고 터치 장치에 흰색 배경을 사용하는 대화 상자를 설정하려면:
+예 - 전체 브라우저 창을 사용하고 터치 장치에 흰색 배경을 포함하도록 대화 상자를 설정하려면:
 
 ```
 .s7videoviewer .s7touchinput .s7emaildialog .s7dialog { 
@@ -1420,7 +1420,7 @@ background-color: #B2B2B2;
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>단추 높이입니다. </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

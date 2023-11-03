@@ -5,7 +5,7 @@ title: 이미지 크기 제한
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -26,11 +26,11 @@ ht-degree: 0%
 
 ## IS::MaxSavePixels - 파일에 저장하기 위한 크기 제한 {#section-d1547c4afa88467080ab08356f775e06}
 
-이미지 서버가 파일에 기록할 이미지 크기를 제한합니다. `req=saveToFile` 명령입니다. 백만 픽셀에서 0보다 큰 정수 값입니다. 파일 저장 작업이 해당 제한을 초과하는 경우 오류가 반환됩니다. 기본값은 1억 픽셀입니다.
+이미지 서버가 파일에 쓰는 이미지의 크기를 제한합니다. `req=saveToFile` 명령입니다. 백만 픽셀에서 0보다 큰 정수 값입니다. 파일 저장 작업이 해당 제한을 초과하는 경우 오류가 반환됩니다. 기본값은 1억 픽셀입니다.
 
 ## IS::MaxNonDsfSize - PTIFF가 아닌 입력 이미지의 크기 제한 {#section-50de28a7158a436393cce5da0d1e4d46}
 
-이미지 서버가 열 수 있는 PTIFF가 아닌 이미지의 최대 크기(Mpixel)입니다. 이 제한보다 큰 PTIFF가 아닌 이미지에 액세스하려고 하면 이미지 제공에서 오류가 반환됩니다.
+이미지 서버가 열 수 있는 PTIFF가 아닌 이미지의 최대 크기(Mpixel)입니다. 이 제한보다 큰 PTIFF가 아닌 이미지에 액세스하려고 하면 이미지 제공이 오류를 반환합니다.
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 16%
 
 ## 예제 {#section-cebb93576bde4cb98cb27356ca66783b}
 
-이 코드 샘플은 이미지를 바꾸고 `urlModifier` 이미지 서버가 교체 시 아무 작업도 수행하지 않도록 지정하는 명령을 사용합니다.
+이 코드 샘플은 이미지를 대체하고 `urlModifier` 이미지 서버에서 교체 작업을 수행하지 않도록 지정하는 명령을 사용합니다.
 
 **요청**
 

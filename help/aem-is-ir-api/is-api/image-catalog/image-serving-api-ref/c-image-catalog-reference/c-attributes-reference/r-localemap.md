@@ -5,9 +5,9 @@ title: 로케일 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '208'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하는 데 사용
 
 ## 속성 {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-다음으로 구분된 하나 이상의 항목 |: 각 항목은 둘 이상의 쉼표로 구분된 문자열 값으로 구성됩니다. *`locId`* 및 `locale=` 비교됩니다. 대소문자를 구분하지 않습니다.
+다음으로 구분된 하나 이상의 항목 |: 각 항목은 둘 이상의 쉼표로 구분된 문자열 값으로 구성됩니다. *`locId`* 및 `locale=` 비교됩니다. 대/소문자를 구분하지 않습니다.
 
 ## 참조 {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 

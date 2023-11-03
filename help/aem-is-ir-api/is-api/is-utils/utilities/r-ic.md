@@ -5,9 +5,9 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 1%
 
 ---
@@ -330,6 +330,6 @@ ht-degree: 1%
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-모든 이미지 변환 *`srcFolder`*. JPG 파일들의 인코딩된 이미지 데이터는 이러한 이미지들의 이미지 피라미드의 나머지 부분뿐만 아니라 모든 비-JPG 입력 파일들의 전체 출력 이미지에 대한 완전 해상도 레벨, 손실 없는 LZW 압축에 사용된다. 픽셀 유형, 포함된 색상 프로파일, XMP 메타데이터 등 유지 관리됩니다.
+모든 이미지 변환 *`srcFolder`*. JPG 파일들의 인코딩된 이미지 데이터는 이러한 이미지들의 이미지 피라미드의 나머지 부분뿐만 아니라 모든 비-JPG 입력 파일들의 전체 출력 이미지에 대한 완전 해상도 레벨, 손실 없는 LZW 압축에 사용된다. 픽셀 유형, 임베드된 색상 프로파일, XMP 메타데이터 등. 유지 관리됩니다.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

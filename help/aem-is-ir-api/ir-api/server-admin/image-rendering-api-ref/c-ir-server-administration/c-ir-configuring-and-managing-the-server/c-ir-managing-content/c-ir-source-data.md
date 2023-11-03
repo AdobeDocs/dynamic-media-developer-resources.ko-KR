@@ -5,9 +5,9 @@ title: 소스 데이터
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: de2d8fa2-6793-49ba-b873-adf723369cce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 이미지 카탈로그가 포함되지 않으면 경로가 와 결합됩니다. `default::RootPath` 그런 다음 위와 같이 처리됩니다.
 
-일반적으로 소스 데이터 파일의 물리적 위치는 [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). 소스 데이터 파일이 여러 파일 시스템에 분산되도록 여러 값을 지정할 수 있습니다. 렌더링 서버는 데이터 파일을 찾을 때까지 지정된 순서대로 각 경로를 시도합니다.
+일반적으로 소스 데이터 파일의 물리적 위치는 [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). 소스 데이터 파일이 여러 파일 시스템에 분산되도록 여러 값을 지정할 수 있습니다. 렌더링 서버는 데이터 파일이 발견될 때까지 지정된 순서대로 각 경로를 시도합니다.
 
 모든 종류의 새 데이터 파일은 서버를 중지하지 않고 언제든지 추가할 수 있습니다.

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * 모든 재료 특성을 포함하여 재료를 지속적으로 정의할 수 있습니다.
 
-   재료 카탈로그에 정의된 재료는 재료 특성 세트가 아니라 간단한 ID를 사용하여 참조할 수 있습니다.
+  재료 카탈로그에 정의된 재료는 재료 특성 세트가 아니라 간단한 ID를 사용하여 참조할 수 있습니다.
 * JPEG 품질 또는 기본 응답 이미지 크기와 같은 특정 요청 속성에 대한 기본값을 제공합니다.
 * 비네팅, ICC 프로파일 및 요청 템플릿을 관리합니다.
 
@@ -34,4 +34,4 @@ If ` *[!DNL recId]*` 카탈로그 항목과 일치시킬 수 없습니다. ` *[!
 
 **참조**
 
-자료 카탈로그 참조, [ `src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`
+자료 카탈로그 참조, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), `attribute::RootId`, `attribute::RootPath`, `attribute::VignettePath`

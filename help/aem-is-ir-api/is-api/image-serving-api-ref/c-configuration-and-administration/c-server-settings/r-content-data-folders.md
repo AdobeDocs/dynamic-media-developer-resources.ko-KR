@@ -5,7 +5,7 @@ title: 컨텐츠 데이터 폴더
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 9aa4121f-25f8-49d0-a304-7ae756c046f5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -34,4 +34,4 @@ ht-degree: 0%
 
 ## IS::SaveDirectory - 파일 루트 폴더 저장 {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 
-의 루트 경로 `attribute::SavePath` (사용 주체) `req=saveToFile`). 이미지 서버는 이미지 파일을 만들 하위 폴더에 대해 만들기 액세스 권한이 있어야 합니다.
+의 루트 경로 `attribute::SavePath` (사용 주체) `req=saveToFile`). 이미지 서버는 이미지 파일을 만드는 하위 폴더에 대해 만들기 액세스 권한이 있어야 합니다.

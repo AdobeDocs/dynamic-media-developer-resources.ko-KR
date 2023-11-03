@@ -5,9 +5,9 @@ title: 목표
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 58f7b1ad-8762-4d23-b320-6f69e75ecf63
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-의 콘텐츠 `catalog::Targets` 반환됩니다. &#39;text&#39; 형식을 요청하면 의 모든 인스턴스가 `??` 위치: `catalog::Targets` 선 터미네이터 및 단일 선 터미네이터( `CR/LF`)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 단일 줄 종결자로만 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청되면 적절한 형식이 적용됩니다.
+의 콘텐츠 `catalog::Targets` 반환됩니다. &#39;text&#39; 형식을 요청하면 의 모든 인스턴스가 `??` 위치: `catalog::Targets` 선 터미네이터 및 한 줄 터미네이터( `CR/LF`)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 한 줄 종결자로만 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청되면 적절한 형식이 적용됩니다.
 
 요청 문자열의 다른 명령은 무시됩니다.
 

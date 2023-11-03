@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
@@ -71,11 +71,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 은 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 는 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 뷰어의 위쪽과 오른쪽 가장자리로부터 6 픽셀 위치에 32 x 32 픽셀인 전체 화면 단추를 설정합니다. 이 옵션을 선택하거나 선택하지 않은 경우 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시해야 합니다.
+예 - 뷰어의 위쪽과 오른쪽 가장자리에서 6픽셀 떨어진 32x32픽셀 전체 화면 단추를 설정합니다. 이 옵션을 선택하거나 선택하지 않은 경우 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시해야 합니다.
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 

@@ -5,9 +5,9 @@ title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 10%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
-   <td colname="col3">로 설정된 경우 사이트 맵을 생성합니다. <span class="codeph"> true</span>. <p><p>참고: 사이트 맵 생성 구성이 수동으로 설정된 경우 <span class="codeph"> forceUpdate</span> 이 설정되지 않은 경우 사이트 맵이 생성되지 않습니다. </p></p></td> 
+   <td colname="col3">로 설정된 경우 사이트 맵을 생성합니다. <span class="codeph"> true</span>. <p><p>참고: 사이트 맵 생성 구성이 수동으로 설정된 경우 <span class="codeph"> forceUpdate</span> 가 설정되지 않고 사이트 맵이 생성되지 않습니다. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

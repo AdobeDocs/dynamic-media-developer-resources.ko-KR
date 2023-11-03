@@ -1,20 +1,20 @@
 ---
 title: 오류 세부 정보
-description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지에 대한 세부 수준을 error.message 값으로 지정합니다.
+description: 오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지의 상세 수준을 error.message 값으로 지정합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
 
 # 오류 세부 정보{#errordetail}
 
-오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지에 대한 세부 수준을 error.message 값으로 지정합니다.
+오류 메시지 세부 정보. HTTP를 통해 반환되는 오류 메시지의 상세 수준을 error.message 값으로 지정합니다.
 
 ## 제목 {#section-c10d75d72ee24d16a67cc8d927f1deba}
 

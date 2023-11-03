@@ -5,9 +5,9 @@ title: 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 이미지 맵 데이터. 완료 HTML 없음 또는 이상 `<AREA>` 전면에서 후면으로 정렬된 요소.
 
-서버에서 SHAPE 및 COORDS 속성을 해석하고 변경할 수 있습니다. (SHAPE=CIRCLE은 이 릴리스에서 지원되지 않습니다.) 의 기타 모든 속성 `<AREA>` 수정 없이 전달됩니다. COORDS 속성으로 지정된 좌표 값은 수정되지 않은 소스 이미지의 왼쪽 상단 모서리에서 픽셀 오프셋이어야 합니다. (`%` 좌표는 이 릴리스에서 지원되지 않으므로 올바르게 처리되지 않을 수 있습니다.)
+서버에서 SHAPE 및 COORDS 속성을 해석하고 변경할 수 있습니다(이 릴리스에서는 SHAPE=CIRCLE이 지원되지 않음). 의 기타 모든 속성 `<AREA>` 수정 없이 전달됩니다. COORDS 속성으로 지정된 좌표 값은 수정되지 않은 소스 이미지의 왼쪽 상단 모서리에서 픽셀 오프셋이어야 합니다. (`%` 좌표는 이 릴리스에서 지원되지 않으므로 올바르게 처리되지 않을 수 있습니다.)
 
 ## 속성 {#section-f52d89fd399b4356ac05277e6c12f956}
 

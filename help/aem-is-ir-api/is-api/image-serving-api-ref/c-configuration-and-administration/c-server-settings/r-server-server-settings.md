@@ -5,9 +5,9 @@ title: 서버
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 메모리 내 이미지 데이터의 대략적인 제한으로, 실제 메모리의 백분율로 표시됩니다. 유효한 범위는 10%에서 90%입니다. 이미지 서버는 가능한 경우 지정된 양만큼 이미지 메모리 사용을 제한하려고 합니다. 대량 처리 활동 중에 일시적으로 제한을 초과할 수 있습니다.
 
-## IS::WorkerThreads - 이미지 서버 작업자 스레드 수 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Image Server Worker Threads 수 {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 이미지 서버에서 이미지 데이터 처리에 사용하는 최대 스레드 수입니다. 기본값은 0으로, 이미지 서버에서 스레드 수를 자동으로 최적화할 수 있습니다.
 
-일부 운영 체제에는 컨텍스트 전환 오버헤드가 높은 스레딩 모델이 있습니다. 이러한 상황에서 특정 스레드 카운트(예: CPU당 하나의 스레드)를 선택하면 전체 서버 성능이 향상될 수 있습니다. 최적의 설정을 찾기 위해서는 몇 가지 실험이 필요할 수 있다. 자세한 내용은 이미지 제공 릴리스 노트 및 운영 체제 설명서를 참조하십시오.
+일부 운영 체제에는 컨텍스트 전환 오버헤드가 높은 스레딩 모델이 있습니다. 이러한 상황에서 특정 스레드 수(예: CPU당 하나의 스레드)를 선택하면 전체 서버 성능이 향상될 수 있습니다. 최적의 설정을 찾기 위해서는 몇 가지 실험이 필요할 수 있다. 자세한 내용은 이미지 제공 릴리스 노트 및 운영 체제 설명서를 참조하십시오.
 
 ## IS::NumberOfTextServers - 텍스트 서버 인스턴스 수 {#section-971e20a90c1a473598fba738ed95671a}
 

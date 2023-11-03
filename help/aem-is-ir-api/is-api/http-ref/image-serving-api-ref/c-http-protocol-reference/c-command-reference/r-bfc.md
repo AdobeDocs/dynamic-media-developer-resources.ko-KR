@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 켜기|끄기 </span> </p> </td> 
-  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저 특정 파일 형식으로 변환하는 브라우저 형식 변환 기능이 true인지 여부를 지정합니다. ( <span class="codeph"> 날짜 </span>) 또는 false( <span class="codeph"> 끔 </span> (브라우저별 형식 변환 없음). </p> </td> 
+  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저별 파일 형식으로 변환하는 브라우저 형식 변환 기능이 true인지 여부를 지정합니다( <span class="codeph"> 날짜 </span>) 또는 false( <span class="codeph"> 끔 </span> (브라우저별 형식 변환 없음). </p> </td> 
  </tr> 
 </table>
 

@@ -5,9 +5,9 @@ title: 데이터 파일 삭제 또는 바꾸기
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 모든 경우에 다음 사항을 기억하십시오. [!DNL Platform Server] 업데이트된 데이터가 클라이언트에 표시되려면 먼저 캐시 및 클라이언트 캐시 항목이 부실해져야 합니다. 다음을 사용하여 특정 캐시 항목을 즉시 업데이트할 수 있습니다. `cache=validate` 명령입니다.
 
-글꼴 파일 및 ICC 프로파일 파일에 대한 변경 내용은 캐시 관리자에서 직접 추적하지 않습니다. 이러한 리소스가 ID를 변경하지 않고 수정된 경우 서버 캐시는 변경 사항을 알지 못하고 `cache=validate` 로 인해 캐시 항목이 업데이트되지 않습니다. `cache=update` 를 사용하여 이러한 캐시 항목을 강제로 다시 생성할 수 있습니다.
+글꼴 파일 및 ICC 프로파일 파일에 대한 변경 내용은 캐시 관리자에서 직접 추적하지 않습니다. 이러한 리소스가 ID를 변경하지 않고 수정된 경우 서버 캐시는 변경에 대해 알지 못하며 `cache=validate` 가 캐시 항목을 업데이트하지 않습니다. `cache=update` 를 사용하여 이러한 캐시 항목을 강제로 다시 생성할 수 있습니다.
 
 파일을 바꾸는 과정에서 발생하는 문제를 방지하려면 대체 파일에 새 이름을 지정하고 해당 카탈로그 항목을 업데이트하는 것이 좋습니다. 이렇게 하면 서버가 활성 상태인 동안 데이터 파일을 바꿀 수 있으며 추가 작업 없이 서버 캐시 항목이 즉시 부실 상태가 됩니다. 이 접근 방식은 ICC 프로파일, 글꼴 및 이미지 카탈로그로 관리되는 모든 이미지에 사용할 수 있습니다.

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 뷰어에 의해 표시되는 특정 콘텐츠는 현지화의 대상이 됩니다. 이러한 콘텐츠에는 사용자 인터페이스 요소 도구 팁과 비디오가 재생되지 않을 때 표시되는 오류 메시지가 포함됩니다.
 
-현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값이 있습니다( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
+현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
 
 뷰어가 시작되면 현재 로케일을 확인하여 로케일에 대해 지원되는 각 SYMBOL에 대한 사용자 정의 값이 있는지 확인합니다. 있는 경우 사용자 정의 값을 사용하고, 그렇지 않은 경우 기본 텍스트로 돌아갑니다.
 
@@ -94,7 +94,7 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLS_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>전체 화면 상태의 전체 화면 버튼. </p> </td> 
+   <td colname="col2"> <p>전체 화면 상태의 전체 화면 단추. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 

@@ -5,10 +5,10 @@ title: 샤프
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 10%
+source-wordcount: '111'
+ht-degree: 9%
 
 ---
 

@@ -5,9 +5,9 @@ title: 마스크 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '172'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 `mask=` 요청 재정의에서 `catalog::MaskPath`.
 
-`catalog::MaskPath` 기본 이미지의 알파 채널 무시( `catalog::Path`), 존재하는 경우 및 알파 채널이 연결되지 않은 경우(즉, 사전 곱해지지 않은 경우). 이미지 알파를 미리 곱하면 `catalog::MaskPath` 은 무시되고 알파 채널은 항상 사용됩니다.
+`catalog::MaskPath` 기본 이미지의 알파 채널 무시( `catalog::Path`), 존재하는 경우 및 알파 채널이 연결되지 않은 경우(즉, 사전 곱해지지 않음). 이미지 알파를 미리 곱하면 `catalog::MaskPath` 은 무시되고 알파 채널은 항상 사용됩니다.
 
 ## 기본값 {#section-78533e35bfec469ba087cb68a35bb81b}
 

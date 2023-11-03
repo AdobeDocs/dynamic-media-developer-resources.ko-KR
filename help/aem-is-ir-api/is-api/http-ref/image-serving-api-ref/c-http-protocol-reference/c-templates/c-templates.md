@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 템플릿은 이미지 카탈로그의 레코드로 저장되며 템플릿 본문은 `catalog::Modifier` 필드 및 `catalog::Path` 필드를 비우거나 동적으로 변경할 수 없는 정적 배경 이미지를 지정합니다.
 
-템플릿은 `template=` 명령 또는 요청 URL의 경로 구성 요소 대부분의 응용 프로그램에는 `template=` 템플릿을 지정하는 명령. 다음 `template=`명령은에서 발생해서는 안 됩니다. `catalog::PostModifier` 필드 및 은(는) `catalog::Modifier` 중첩된 IS 요청의 필드(예: `src=is{...}` construct). 템플릿 레코드는에서 참조할 수 없습니다. `src=` 또는 `mask=`명령입니다.
+템플릿은 `template=` 명령 또는 요청 URL의 경로 구성 요소 대부분의 응용 프로그램에는 `template=` 템플릿을 지정하는 명령. 다음 `template=`명령은에서 발생해서는 안 됩니다. `catalog::PostModifier` 필드 및 은(는) `catalog::Modifier` 중첩된 IS 요청의 필드(즉, 의 필드) `src=is{...}` construct). 템플릿 레코드는에서 참조할 수 없습니다. `src=` 또는 `mask=`명령입니다.
 
 임의 `src=` 또는 `mask=`템플릿에 포함된 명령은 요청의 기본 카탈로그나 다른 이미지 카탈로그로 확인될 수 있습니다. 없는 경우 `rootId` 을 명시적으로 지정하면 기본 카탈로그로 간주됩니다. 템플릿 지정 대상: `template=` 기본 카탈로그 또는 다른 이미지 카탈로그에 있을 수도 있습니다.
 

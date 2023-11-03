@@ -5,9 +5,9 @@ title: 루트 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 기본값 {#section-7d66ff9a3d7a4e3b834769269cb01f4f}
 
-상속 위치 `default::RootPath` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 이 소스 파일 루트 경로에 기여하지 않습니다.
+상속 위치 `default::RootPath` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 소스 파일 루트 경로에 기여하지 않습니다.
 
 ## 참조 {#section-6bf4ffc4987843a9a2dbe81b43076437}
 

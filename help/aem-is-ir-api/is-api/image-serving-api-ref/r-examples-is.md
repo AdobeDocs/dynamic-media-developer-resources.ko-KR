@@ -1,12 +1,12 @@
 ---
 title: 이미지 서버 예
-description: 이 페이지는 이미지 서버 예제에 연결됩니다.
+description: 이 페이지는 이미지 서버 예제에 연결되어야 합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
 hidefromtoc: true
-source-git-commit: 34be28b2768426da6387dafd0d28805c3e84a12c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 이미지 서버 예{#image-server-examples}
 
-이 항목은 이미지 서버 예제에 연결됩니다.
+이 항목은 이미지 서버 예제에 연결되어야 합니다.
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

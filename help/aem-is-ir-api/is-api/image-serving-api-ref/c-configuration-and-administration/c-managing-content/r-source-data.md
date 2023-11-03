@@ -5,9 +5,9 @@ title: 소스 데이터
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---

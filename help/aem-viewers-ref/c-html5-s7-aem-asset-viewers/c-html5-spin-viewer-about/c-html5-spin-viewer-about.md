@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Spin Viewer는 런타임 시 뷰어가 다운로드한 기본 JavaScript 파일�
 
 Spin Viewer는 IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하는 팝업 모드나 문서화된 API를 사용하여 대상 웹 페이지에 통합되는 임베드된 모드 모두에서 사용할 수 있습니다.
 
-구성 및 스키닝은 다른 뷰어의 것과 유사합니다. 모든 스키닝은 사용자 지정 CSS를 통해 수행할 수 있습니다.
+구성 및 스키닝은 다른 뷰어의 것과 유사합니다. 모든 스키닝은 맞춤형 CSS를 통해 달성할 수 있습니다.
 
 다음을 참조하십시오 [모든 뷰어에 공통되는 명령 참조 - 구성 속성](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) 및 [모든 뷰어에 대해 공통되는 명령 참조 - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 

@@ -5,9 +5,9 @@ title: 일반
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## IS::RemoteUrlTimeout - 원격 Image Source 시간 초과 {#section-437646c479cc4bea81dae42100a3c50a}
 
-이미지 서버가 오류를 반환하기 전에 HTTP를 통해 요청된 이미지 파일을 전달할 원격 서버를 기다리는 시간입니다. 정수 값(초)입니다.
+이미지 서버가 오류를 반환하기 전에 HTTP를 통해 요청된 이미지 파일을 원격 서버가 전달할 때까지 대기하는 시간입니다. 정수 값(초)입니다.
 
 ## PS::allowDefaultCatalogRequests - 기본 카탈로그 요청 활성화/비활성화 {#section-484e442a115a49b4ac269d1718b351e1}
 

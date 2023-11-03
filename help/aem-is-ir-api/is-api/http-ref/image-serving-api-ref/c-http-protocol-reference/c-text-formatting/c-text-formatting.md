@@ -5,9 +5,9 @@ title: 텍스트 서식
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '558'
 ht-degree: 7%
 
 ---

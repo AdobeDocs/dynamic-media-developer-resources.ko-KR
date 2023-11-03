@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '139'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 지원되는 이미지 파일 형식의 전체 목록은 이미지 변환기(IC) 유틸리티의 설명을 참조하십시오.
 
-여러 다른 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 형식에서 PTIFF 이미지를 생성하는 데 사용됩니다.
+서로 다른 여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 형식에서 PTIFF 이미지를 생성하는 데 사용됩니다.
 
 ## 기본값 {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

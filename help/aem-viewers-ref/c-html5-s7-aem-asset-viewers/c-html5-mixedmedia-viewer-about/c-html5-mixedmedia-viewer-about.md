@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   기본 보기 치수를 정적으로 설정하려면 내측의 절대 단위로 뷰어 크기를 정의합니다 `Container` 를 사용하는 SDK 구성 요소 `.s7mixedmediaviewer .s7container` CSS 선택기 또는 `stagesize` 수정자.
+   기본 보기 치수를 정적으로 설정하려면 내측의 절대 단위로 뷰어 크기를 정의합니다 `Container` 을 사용하는 SDK 구성 요소 `.s7mixedmediaviewer .s7container` CSS 선택기 또는 `stagesize` 수정자.
 
    다음은 내부에 대한 뷰어 크기를 정의하는 예제입니다 `Container` 에셋 전환 시 기본 보기 영역이 크기를 변경하지 않도록 SDK 구성 요소:
 

@@ -5,9 +5,9 @@ title: 경로 *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 이미지 렌더링은 Dynamic Media 이미지 제공과 동일한 소스 이미지 형식을 지원합니다.
 
-여러 다른 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. 이미지 제공에는 지원되는 모든 형식에서 PTIFF 이미지를 생성하는 이미지 변환기(IC) 유틸리티가 포함되어 있습니다.
+서로 다른 여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. 이미지 제공에는 지원되는 모든 형식에서 PTIFF 이미지를 생성하는 이미지 변환기(IC) 유틸리티가 포함되어 있습니다.
 
 지원되는 파일 형식의 전체 목록은 이미지 제공 설명서의 IC 유틸리티 설명을 참조하십시오.
 

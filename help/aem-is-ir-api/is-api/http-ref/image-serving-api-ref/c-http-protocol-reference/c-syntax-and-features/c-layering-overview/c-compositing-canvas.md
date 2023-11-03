@@ -5,9 +5,9 @@ title: 합성 캔버스
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2455d07f-a158-4335-a14c-213f8b3dd265
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---

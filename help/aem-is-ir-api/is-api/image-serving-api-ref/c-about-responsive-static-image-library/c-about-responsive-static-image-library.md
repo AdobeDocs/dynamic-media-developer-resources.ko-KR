@@ -5,7 +5,7 @@ title: 응답형 이미지 라이브러리 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%

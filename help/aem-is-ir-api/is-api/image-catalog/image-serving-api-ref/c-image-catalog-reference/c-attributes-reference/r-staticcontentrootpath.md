@@ -5,9 +5,9 @@ title: StaticContentRootPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55ca44cd-4330-47e6-94cc-58c078d34bbd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## 기본값 {#section-0f741f90fd8d4758a43162c2b5c8a3a3}
 
-상속 위치 `default::StaticContentsRootPath` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 이 소스 파일 루트 경로에 기여하지 않습니다.
+상속 위치 `default::StaticContentsRootPath` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 소스 파일 루트 경로에 기여하지 않습니다.
 
 ## 참조 {#section-9af8846d20d242789df67877f84ed8a7}
 

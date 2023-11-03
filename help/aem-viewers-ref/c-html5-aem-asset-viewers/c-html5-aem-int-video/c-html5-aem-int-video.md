@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 고정 크기 임베딩은 뷰어가 초기 로드 후 크기를 변경하지 않을 때 사용됩니다. 이 기능은 정적 레이아웃이 있는 웹 페이지에 가장 적합합니다.
 
-반응형 디자인 포함은 뷰어가 컨테이너의 크기 변화에 반응하여 런타임에 크기를 조정해야 한다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
+반응형 디자인 포함에서는 뷰어가 컨테이너의 크기 변화에 반응하여 런타임에 크기를 조정해야 한다고 가정합니다 `DIV`. 가장 일반적인 사용 사례는 유연한 페이지 레이아웃을 사용하는 웹 페이지에 뷰어를 추가하는 것입니다.
 
 반응형 디자인 포함 모드에서 뷰어는 웹 페이지의 컨테이너 크기 조절 방식에 따라 다르게 동작합니다 `DIV`. 웹 페이지에서 컨테이너의 폭만 설정하는 경우 `DIV`의 높이를 제한하지 않고, 뷰어는 사용되는 에셋의 종횡비에 따라 높이를 자동으로 선택합니다. 이 기능을 사용하면 에셋이 측면에 패딩 없이 보기에 완벽하게 맞습니다. 이 사용 사례는 Bootstrap 및 Foundation과 같은 반응형 웹 디자인 레이아웃 프레임워크를 사용하는 웹 페이지에 가장 일반적으로 사용됩니다.
 
@@ -151,7 +151,7 @@ ht-degree: 0%
 
    위의 단계를 완료하면 인스턴스를 `s7viewers.InteractiveVideoViewer` 클래스에서 모든 구성 정보를 생성자에 전달하고 `init()` 뷰어 인스턴스의 메서드입니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 다음이 있어야 합니다. `containerId` 뷰어 컨테이너 ID의 이름과 중첩된 필드가 포함된 필드 `params` 뷰어에서 지원하는 구성 매개 변수가 있는 JSON 개체입니다.
 
-   이 경우 `params` 오브젝트에는 최소한 으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성 및 초기 에셋 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행인 비디오 서버 URL이 로 전달된 뷰어를 만들고 시작할 수 있습니다. `videoserverurl` 속성, 초기 에셋 `asset` 매개 변수 및 대화형 데이터를 `interactivedata` 속성. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
+   이 경우 `params` 오브젝트에는 최소한 으로 전달된 이미지 제공 URL이 있어야 합니다. `serverUrl` 속성 및 초기 에셋 `asset` 매개 변수. JSON 기반 초기화 API를 사용하면 단일 코드 행인 비디오 서버 URL이 로 전달된 뷰어를 만들고 시작할 수 있습니다. `videoserverurl` 속성, 초기 에셋 `asset` 매개 변수 및 대화형 데이터 `interactivedata` 속성. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
    뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `init()` 닫기 직전 메서드 `BODY` 태그 또는 본문에 `onload()` 이벤트.
 

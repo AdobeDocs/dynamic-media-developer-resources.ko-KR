@@ -5,9 +5,9 @@ title: 카탈로그 속성 파일
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
-  <td class="stentry"> <p>속성 이름. 하나 이상의 문자, 숫자, -, _ 로 구성될 수 있습니다. 대소문자를 구분하지 않습니다. </p></td> 
+  <td class="stentry"> <p>속성 이름. 하나 이상의 문자, 숫자, -, _ 로 구성될 수 있습니다. 대/소문자를 구분하지 않습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 

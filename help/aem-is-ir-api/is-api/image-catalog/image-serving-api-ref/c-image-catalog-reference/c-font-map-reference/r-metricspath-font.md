@@ -5,9 +5,9 @@ title: 지표 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 글꼴 지표 파일 경로입니다. 파일 접미사를 포함한 글꼴 지표 파일의 경로 및 이름입니다.
 
-Adobe Type 1 글꼴에 사용됩니다. 지정하지 않으면 서버는 기본 글꼴 파일이 있는 동일한 폴더에서 글꼴 지표 파일을 찾으려고 시도합니다. 렌더링 시 필요한 글꼴 지표 파일을 찾을 수 없는 경우 오류가 발생합니다.
+Adobe Type 1 글꼴에 사용됩니다. 지정하지 않으면 서버는 기본 글꼴 파일이 있는 동일한 폴더에서 글꼴 지표 파일을 찾으려고 합니다. 렌더링 시 필요한 글꼴 지표 파일을 찾을 수 없는 경우 오류가 발생합니다.
 
 ## 속성 {#section-955268c581574875b05253d9e14544f3}
 

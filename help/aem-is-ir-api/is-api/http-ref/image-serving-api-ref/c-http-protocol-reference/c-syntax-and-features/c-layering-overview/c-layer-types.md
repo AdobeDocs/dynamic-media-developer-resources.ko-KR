@@ -5,7 +5,7 @@ title: 레이어 유형
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 텍스트 레이어 {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-은(는) 을(를) 포함해야 합니다. `text=` 또는 `textPs=` rich-text-formatted (RTF) 텍스트 조각 형식으로 텍스트 콘텐츠를 제공하는 명령입니다. 텍스트 레이어는 내용에 맞게 자체 크기 조정할 수 있으며, 또는 특정 크기로 텍스트를 줄바꿈하거나 특정 영역 내에서 텍스트를 제한해야 하는 등의 명시적 크기가 제공될 수 있습니다. `textPs=` 다음을 사용하여 정의된 임의의 도형으로 텍스트 흐름 지원 `textFlowPath=` 을 사용하여 정의된 임의의 경로로 `textPath=`. `textPs=` 또한 텍스트 상자 또는 지정된 셰이프에 텍스트를 임의의 각도로 렌더링할 수 있습니다( `textAngle=`).
+은(는) 을(를) 포함해야 합니다. `text=` 또는 `textPs=` rich-text-formatted (RTF) 텍스트 조각 형식으로 텍스트 콘텐츠를 제공하는 명령입니다. 텍스트 레이어는 내용에 맞게 자체 크기가 조정되거나 명확한 크기가 주어질 수 있습니다. 예를 들어, 텍스트를 특정 너비로 줄바꿈해야 하는 경우 또는 텍스트를 특정 영역 내에서 제한해야 하는 경우입니다. `textPs=` 다음을 사용하여 정의된 임의의 도형으로 텍스트 흐름 지원 `textFlowPath=` 을 사용하여 정의된 임의의 경로로 `textPath=`. `textPs=` 또한 텍스트 상자 또는 지정된 셰이프에 텍스트를 임의의 각도로 렌더링할 수 있습니다( `textAngle=`).
 
 ## 단색 레이어 {#section-56dfb672756643dda08dc93294809eb0}
 

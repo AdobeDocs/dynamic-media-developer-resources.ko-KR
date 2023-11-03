@@ -5,9 +5,9 @@ title: 오류 리디렉션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: a184e113-9708-412f-9b71-d75a35629adf
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---

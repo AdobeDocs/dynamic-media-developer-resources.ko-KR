@@ -5,9 +5,9 @@ title: 제한 사항 및 알려진 문제
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -61,48 +61,48 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 * 리디렉션을 반환하는 원격 URL(HTTP 상태 301, 302 또는 303)은 거부됩니다.
 * 구성 시 `errorRedirect.rootUrl` 이 속성에 정의된 IP 주소는 규칙 세트에 포함되어야 합니다 `<addressfilter>` 태그 값입니다.
 
-   *예*:
+  *예*:
 
-   서버 A가 다음을 정의함 `errorRedirect.rootUrl=10.10.10.10` .
+  서버 A가 다음을 정의함 `errorRedirect.rootUrl=10.10.10.10` .
 
-   IP 주소가 10.10.10.10인 서버 B는 `<addressfilter>` IP 주소(10.10.10.10)를 포함하도록 규칙 세트 파일의 태그 값입니다.
+  IP 주소가 10.10.10.10인 서버 B는 `<addressfilter>` IP 주소(10.10.10.10)를 포함하도록 규칙 세트 파일의 태그 값입니다.
 
 * 위치 지정이 있는 점 텍스트 및 텍스트 패스는 클리핑을 나타낼 수 있습니다.
 * `text=` 만 적용됨 `\sa` 및 `\sb` 단락이 아닌 전체 텍스트 블록
 
 * URL에 정의된 회사와 다음에 대해 정의된 다른 회사를 사용하는 경우 `src=` 또는 `mask=` 수정자, 다음에 대해 정의된 회사에 슬래시 접두사를 추가해야 합니다. `src=` 또는 `mask=` 을 참조하십시오.
 
-   *예*:
+  *예*:
 
-   `/is/image/MyCompany?src=/YourCompany/MyImage` .
+  `/is/image/MyCompany?src=/YourCompany/MyImage` .
 
-   대신: `/is/image/MyCompany?src=YourCompany/MyImage` .
+  대신: `/is/image/MyCompany?src=YourCompany/MyImage` .
 
 * 피라미드화되지 않은 Tiff 또는 비네팅 요청은에 유사한 오류 메시지를 생성합니다.
 
-   *&quot;이미지 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` 은(는) 유효한 DSF가 없으며 2.25MPixel의 면적이 최대 2MPixel을 초과합니다.&quot;* .
+  *&quot;이미지 `C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt` 은(는) 유효한 DSF가 없으며 2.25MPixel의 면적이 최대 2MPixel을 초과합니다.&quot;* .
 
-   가장 좋은 방법은 피라미드 Tiff와 vignette를 사용하는 것입니다. 비 피라미드형 팁이나 비네팅을 사용해야 하는 경우 아래 지침에 따라 크기 제한을 늘리십시오.
+  가장 좋은 방법은 피라미드 Tiff와 vignette를 사용하는 것입니다. 비 피라미드형 팁이나 비네팅을 사용해야 하는 경우 아래 지침에 따라 크기 제한을 늘리십시오.
 
-   *해결 방법*:
+  *해결 방법*:
 
-   이미지 렌더링 비피라미드형 비네팅의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일입니다.
+  이미지 렌더링 비피라미드형 비네팅의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일입니다.
 
-   이미지 제공 비피라미드형 TIFF의 경우 속성 값을 늘립니다. `MaxNonDsfSize` 다음에서 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일입니다.
+  이미지 제공 비피라미드형 TIFF의 경우 속성 값을 늘립니다. `MaxNonDsfSize` 다음에서 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일입니다.
 
 * Adobe [!DNL Photoshop] CS3는 기본적으로 합성 이미지를 사용하여 계층화된 PSD 파일을 저장하지 않습니다.
 
-   *증상*:
+  *증상*:
 
-   Adobe [!DNL Photoshop] CS3 계층화된 PSD 파일은 &quot;This layered [!DNL Photoshop] 파일이 합성 이미지로 저장되지 않았습니다.&quot; 이미지 제공 응답 이미지용 또는 IPS용
+  Adobe [!DNL Photoshop] CS3 계층화된 PSD 파일은 &quot;This layered [!DNL Photoshop] 파일이 합성 이미지로 저장되지 않았습니다.&quot; 이미지 제공 응답 이미지용 또는 IPS용
 
-   *해결 방법*:
+  *해결 방법*:
 
-   Adobe 저장 [!DNL Photoshop] 호환성 최대화가 설정된 CS3 파일입니다.
+  Adobe 저장 [!DNL Photoshop] 호환성 최대화가 설정된 CS3 파일입니다.
 
 * ICC 프로파일을 CMYK/JPEG 응답 이미지에 할당하면 일부 브라우저에서 색상이 반전됩니다.*해결 방법*:
 
-   다음을 사용하여 응답 이미지 형식 변경 `fmt=`
+  다음을 사용하여 응답 이미지 형식 변경 `fmt=`
 
 * 파일 헤더를 포함한 압축 후 HTTP 응답 이미지 데이터의 크기는 16MB로 제한됩니다.
 * &quot; ..&quot; 은(는) HTTP 요청의 경로 요소에서 허용되지 않습니다.
@@ -120,19 +120,19 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 * 이미지 제공은 현재 Adobe Media Encoder 4.0.1 이전 버전을 사용하여 내보낸 TIFF 파일의 처리를 지원하지 않습니다. Adobe Media Encoder은 Premiere Pro CS4, After Effects CS4 및 Creative Suite 4 Production Premium에 포함되어 있습니다.
 * 사용 `text=` 자체 크기 조정 레이어가 있는 경우 줄 양쪽 맞춤에 두 개 이상의 설정을 사용하는 RTF 문자열이 지원되지 않습니다.
 
-   *예*
+  *예*
 
-   RTF 문자열은 자체 크기 조정 텍스트 레이어의 왼쪽 및 오른쪽 줄 양쪽 맞춤을 모두 사용할 수 없습니다.
+  RTF 문자열은 자체 크기 조정 텍스트 레이어의 왼쪽 및 오른쪽 줄 양쪽 맞춤을 모두 사용할 수 없습니다.
 
 * SVG은 SVG 파일에 포함되지 않은 참조된 글꼴의 글꼴 조회 경로에 대한 자체 속성이 있습니다.
 
-   *증상*
+  *증상*
 
-   글꼴 정의가 포함된 렌더링된 SVG 이미지에서 잘못된 글꼴을 사용하고 있습니다.
+  글꼴 정의가 포함된 렌더링된 SVG 이미지에서 잘못된 글꼴을 사용하고 있습니다.
 
-   *해결 방법*
+  *해결 방법*
 
-   속성 설정 `svgProvider.fontRoot=` 위치: [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
+  속성 설정 `svgProvider.fontRoot=` 위치: [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * 자르기 현재 사용 중 `bgColor=` 대신 `color=` 를 눌러 새로 확장된 영역을 채웁니다.
 
@@ -146,9 +146,9 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
 * Netscape 및 Opera의 JavaScript 엔진은 nocache 헤더가 설정되어 있더라도 응답 데이터를 캐시합니다. 이로 인해 상태 저장 요청의 적절한 기능이 방해됩니다.
 
-   *해결 방법*
+  *해결 방법*
 
-   타임스탬프 또는 기타 고유 식별자를 요청 문자열에 추가합니다. 예: `"&.ts=currentTime`.
+  타임스탬프 또는 기타 고유 식별자를 요청 문자열에 추가합니다. 예: `"&.ts=currentTime`.
 
 ## 유틸리티에만 적용할 수 있는 제한 사항 {#section-906a6b2378154b3da122b2332983f7a5}
 

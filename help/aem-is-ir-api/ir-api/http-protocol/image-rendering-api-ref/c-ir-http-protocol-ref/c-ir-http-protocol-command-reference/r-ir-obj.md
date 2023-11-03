@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-전체 그룹 경로를 사용하여(즉, 대상 그룹 또는 객체 앞에 모든 상위 그룹이 있는 대상 그룹 또는 객체의 이름을 지정하여 /(슬래시)로 구분하여) 하위 그룹 또는 개별 객체를 선택할 수 있습니다.
+전체 그룹 경로를 사용하여(즉, 대상 그룹 또는 객체 앞에 모든 상위 그룹이 앞에 오도록 /(슬래시)로 구분하여 지정한 경우) 하위 그룹 또는 개별 객체를 선택할 수 있습니다.
 
 지정한 이름의 그룹/개체가 없으면 다음에서 지정한 작업을 수행합니다 `attribute::OnObjFail` 사용 중입니다.
 

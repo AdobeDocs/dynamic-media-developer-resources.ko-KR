@@ -5,9 +5,9 @@ title: 규칙
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f56012c-d01c-489c-9d18-91e256f72012
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ Expiration 속성은 기본 속성 값만 재정의합니다. 특정 속성이 `
 
 둘 다인 경우 `<expression>` 및 `<substitution>` 가 지정되고 캡처된 하위 문자열이 사용되지 않으면 일치하는 첫 번째 하위 문자열이 로 바뀝니다. `<substitution>`.
 
-If `<expression>` 이(가) 지정되지 않았습니다. 모든 경로가 일치하고 `<substitution>` 가 경로 끝에 추가됩니다.
+If `<expression>` 이(가) 지정되지 않았습니다. 경로가 일치하고, `<substitution>` 가 경로 끝에 추가됩니다.
 
 If `<substitution>` 을(를) 지정하지 않으면 일치하는 하위 문자열이 제거됩니다.
 

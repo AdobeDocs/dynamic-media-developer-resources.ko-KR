@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4c72500b-9750-4fae-9447-96cf600b31c7
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '3045'
 ht-degree: 2%
@@ -1421,7 +1421,7 @@ CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>단추 높이입니다. </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 

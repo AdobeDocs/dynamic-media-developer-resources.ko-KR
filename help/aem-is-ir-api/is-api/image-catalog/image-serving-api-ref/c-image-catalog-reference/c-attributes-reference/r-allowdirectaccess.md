@@ -5,9 +5,9 @@ title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b4000bdf-c21a-4976-82a7-70b2261dee0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,24 @@ ht-degree: 0%
 
 * 다음에 대한 직접 액세스만 허용 `IS` 및 `STATIC` 오브젝트 유형
 
-   `AllowDirectAccess=include:IS,STATIC`
+  `AllowDirectAccess=include:IS,STATIC`
 
 * 다음을 제외한 모든 오브젝트 유형에 대해 직접 액세스 허용 `IS` 및 `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* 다음에 대한 직접 액세스 허용 *아니요* 객체 유형(예: include none)
+* 다음에 대한 직접 액세스 허용 *아니요* 객체 유형(즉, 포함하지 않음)
 
-   `AllowDirectAccess=include:`
+  `AllowDirectAccess=include:`
 
-* 다음에 대한 직접 액세스 허용 *모두* 객체 유형(예: 제외 없음)
+* 다음에 대한 직접 액세스 허용 *모두* 객체 유형(즉, 제외 없음)
 
-   `AllowDirectAccess=exclude:`
+  `AllowDirectAccess=exclude:`
 
 * 등가물 `include:IS,STATIC` (if `include`/ `exclude` 이(가) 없음, `include` 가정)
 
-   `AllowDirectAccess=IS,STATIC`
+  `AllowDirectAccess=IS,STATIC`
 
-   는 다음과 같은 경우에 사용되는 기본값입니다. `AllowDirectAccess` 이 회사에 대한 특성이 지정되지 않았습니다.
+  는 다음과 같은 경우에 사용되는 기본값입니다. `AllowDirectAccess` 이 회사에 대한 특성이 지정되지 않았습니다.
 
 * 포함하지 않음, 해당 항목 `include:` (if `include`/ `exclude` 이(가) 없음, `include` 가정)
 
-   `AllowDirectAccess=`
+  `AllowDirectAccess=`

@@ -5,9 +5,9 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '259'
 ht-degree: 8%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 8%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| company핸들 | `xsd:string` | 예 | 새 자산을 파생할 자산이 포함된 회사에 대한 핸들입니다. |
+| company핸들 | `xsd:string` | 예 | 새 자산을 파생할 자산을 포함하는 회사에 대한 핸들입니다. |
 | owner핸들 | `xsd:string` | 예 | 새 이미지가 파생된 기본 이미지 에셋에 대한 핸들입니다. |
 | folder핸들 | `xsd:string` | 예 | 파생된 새 에셋이 생성되는 폴더에 대한 핸들입니다. |
 | name | `xsd:string` | 예 | 파생된 에셋의 이름입니다. |

@@ -5,9 +5,9 @@ title: 사용자 데이터
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-의 콘텐츠 `catalog::UserData` 반환됩니다. &#39;text&#39; 형식을 지정하면 `??` 위치: `catalog::UserData`는 선 터미네이터로 대체되고 단일 선 터미네이터(CR/LF)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 단일 줄 종결자로만 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청되면 적절한 형식이 적용됩니다.
+의 콘텐츠 `catalog::UserData` 반환됩니다. &#39;text&#39; 형식을 지정하면 `??` 위치: `catalog::UserData`는 선 터미네이터로 대체되고 한 줄 터미네이터(CR/LF)가 끝에 추가됩니다. URL 경로가 유효한 카탈로그 항목으로 확인되지 않으면 응답은 한 줄 종결자로만 구성됩니다. &#39;xml&#39; 또는 &#39;json&#39; 형식이 요청되면 적절한 형식이 적용됩니다.
 
 요청 문자열의 다른 명령은 무시됩니다.
 

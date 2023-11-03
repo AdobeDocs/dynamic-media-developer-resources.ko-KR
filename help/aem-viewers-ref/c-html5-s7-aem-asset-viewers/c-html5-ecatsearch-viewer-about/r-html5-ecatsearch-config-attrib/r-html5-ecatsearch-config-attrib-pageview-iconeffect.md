@@ -5,9 +5,9 @@ title: PageView.iconEffect
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eb2196cb-b771-4828-8390-cd9e3fe6c57e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> 자동 숨기기</span></span> </p> </td> 
-   <td colname="col2"> <p>다음 시간(초) 숫자 설정 <span class="codeph"> iconeffect</span> 자동으로 숨기기 전에 완전히 표시됩니다. 즉, 페이드 인 애니메이션이 완료된 다음 페이드 아웃 애니메이션이 시작되기 전까지의 시간입니다. 의 설정 <span class="codeph"> 0</span> 자동 숨기기 동작을 비활성화합니다. </p> </td> 
+   <td colname="col2"> <p>다음 시간(초) 숫자 설정 <span class="codeph"> iconeffect</span> 자동으로 숨기기 전에 완전히 표시됩니다. 즉, 페이드 인 애니메이션이 완료된 다음 페이드 아웃 애니메이션이 시작되기 전까지의 시간을 의미한다. 의 설정 <span class="codeph"> 0</span> 자동 숨기기 동작을 비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2e08a62b-9499-41f8-927b-89bed972b4eb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드 </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. 사용 <span class="codeph"> 없음 </span> 즉시 표시하거나 숨기는 데 사용합니다. <span class="codeph"> 페이드 </span> 에서는 점진적인 페이드 인/페이드 아웃 효과를 제공합니다(Internet Explorer 8에서는 지원되지 않음). </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. 사용 <span class="codeph"> 없음 </span> 즉시 표시하거나 숨기는 데 사용합니다. <span class="codeph"> 페이드 </span> 에서는 점진적인 페이드 인 및 페이드 아웃 효과를 제공합니다(Internet Explorer 8에서는 지원되지 않음). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 지연 숨기기 </span> </span> </p> </td> 

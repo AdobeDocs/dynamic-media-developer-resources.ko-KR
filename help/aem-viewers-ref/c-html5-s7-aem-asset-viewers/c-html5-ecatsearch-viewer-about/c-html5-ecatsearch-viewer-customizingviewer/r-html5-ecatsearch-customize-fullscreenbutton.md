@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a4b6fdc0-1047-46c6-bf77-4536819b7fcd
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -69,11 +69,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 은 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
+>이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='true'` 는 &quot;전체 화면&quot; 상태에 해당하며 `selected='false'` 은 &quot;일반&quot; 상태에 해당합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
 
-예 - 28 x 28픽셀이고 기본 컨트롤 막대의 맨 아래에서 4픽셀, 오른쪽 가장자리에서 5픽셀이 되는 전체 화면 단추를 설정합니다. 마지막으로, 을 선택하거나 선택하지 않았을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
+예 - 28 x 28픽셀이고 기본 컨트롤 막대의 맨 아래에서 4픽셀, 오른쪽 가장자리에서 5픽셀이 배치된 전체 화면 단추를 설정합니다. 마지막으로, 을 선택하거나 선택하지 않았을 때 4개의 서로 다른 단추 상태 각각에 대해 다른 이미지를 표시합니다.
 
 ```
 .s7ecatalogsearchviewer .s7fullscreenbutton { 

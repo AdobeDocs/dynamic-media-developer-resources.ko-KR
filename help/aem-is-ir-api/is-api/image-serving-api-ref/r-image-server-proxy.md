@@ -5,9 +5,9 @@ title: 이미지 서버 프록시
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0389a4af-a412-42eb-b7b4-716e47d623a0
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ IS 프록시의 URL 형식은 일반 IS 요청과 매우 유사합니다. 프록
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
-  <td class="stentry"> <p>응답 크기를 제한할 장치의 메모리 제한 포함된 미디어 속성의 백분율을 지정합니다. jpg 응답에만 적용됩니다. 응답 크기가 지정된 백분율 이내가 될 때까지 이미지 품질이 낮아집니다. </p></td> 
+  <td class="stentry"> <p>응답 크기를 제한할 장치의 메모리 제한 포함된 미디어 속성의 백분율을 지정합니다. 이는 jpg 응답에만 적용됩니다. 응답 크기가 지정된 백분율 이내가 될 때까지 이미지 품질이 낮아집니다. </p></td> 
  </tr> 
 </table>
 

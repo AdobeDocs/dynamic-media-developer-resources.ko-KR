@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -180,7 +180,7 @@ URL 경로에 지정된 비네팅 파일 또는 카탈로그 항목의 선택한
 
 `props`
 
-지정된 명령을 실행하고 렌더링된 이미지가 아닌 비네팅 속성 및 그룹 또는 개체 속성을 반환합니다. 다음을 참조하십시오 [속성](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 응답 구문 및 응답 MIME 유형에 대한 설명입니다. 기본 선택 사항은 다음 경우에 적용됩니다. `obj=` 또는 `sel=` 도 지정됩니다(참조). [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+지정된 명령을 실행하고 렌더링된 이미지가 아닌 비네팅 속성 및 그룹 또는 개체 속성을 반환합니다. 다음을 참조하십시오 [속성](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) 응답 구문 및 응답 MIME 유형에 대한 설명입니다. 기본 선택 사항은 다음 경우에 적용됩니다. `obj=` 또는 `sel=` 도 지정됩니다(참조). [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 다음 속성이 응답에 포함될 수 있습니다.
 

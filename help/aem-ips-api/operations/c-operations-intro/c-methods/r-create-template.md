@@ -5,10 +5,10 @@ title: createTemplate
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 10%
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 여러 텍스트와 이미지 레이어를 포함할 수 있는 레이어 이미지를 만듭니다.
 
-다음 `urlModifier` 매개 변수는 URL에 대한 사용자 제공 명령 이전에 적용된 이미지 서버 카탈로그에 저장된 이미지 서버 프로토콜 명령을 지정합니다. 다음 `urlPostApplyModifier` 매개 변수는 URL 명령 뒤에 적용된 프로토콜 명령을 지정하며, 충돌하는 사용자 제공 설정을 무시합니다.
+다음 `urlModifier` 매개 변수는 URL에 대한 사용자 제공 명령 이전에 적용된 이미지 서버 카탈로그에 저장된 이미지 서버 프로토콜 명령을 지정합니다. 다음 `urlPostApplyModifier` 매개 변수는 충돌하는 사용자 제공 설정을 무시하는 URL 명령 뒤에 적용되는 프로토콜 명령을 지정합니다.
 
 ## 승인된 사용자 유형 {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 | name | `xsd:string` | 예 | 템플릿 이름. |
 | 유형 | `xsd:string` | 예 | 템플릿 유형. |
 | urlModifier | `xsd:string` | 예 | URL에서 사용자가 제공한 명령 앞에 적용되는 IS 카탈로그에 저장된 이미지 서버 명령을 지정합니다. |
-| urlPostApplyModifier | `xsd:string` | 아니요 | URL 명령 다음에 적용되는 프로토콜 명령을 지정합니다. 그러면 충돌하는 사용자 제공 설정이 무시됩니다. |
+| urlPostApplyModifier | `xsd:string` | 아니요 | 충돌하는 사용자 제공 설정을 무시하는 URL 명령 뒤에 적용되는 프로토콜 명령을 지정합니다. |
 
 **출력(createTemplateParam)**
 

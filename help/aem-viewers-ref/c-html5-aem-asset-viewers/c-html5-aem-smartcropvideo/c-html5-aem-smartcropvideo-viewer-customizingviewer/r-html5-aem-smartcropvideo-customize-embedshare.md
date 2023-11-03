@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2590'
 ht-degree: 2%
@@ -871,7 +871,7 @@ background-color: #ffffff;
 
 이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-예 - &quot;드롭다운&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대한 별도의 이미지를 보유하려면 다음을 수행하십시오.
+예 - &quot;드롭다운&quot; 단추를 28 x 28픽셀로 설정하고 각 상태에 대한 별도의 이미지를 보유하려면 다음을 수행합니다.
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7combobox .s7comboboxbutton { 

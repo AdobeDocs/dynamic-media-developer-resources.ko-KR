@@ -1,20 +1,20 @@
 ---
-description: '사용자 특성(예: 이름, 이메일, 역할 등)을 설정합니다.'
+description: '사용자 속성(예: 이름, 이메일, 역할 등)을 설정합니다.'
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 17%
+source-wordcount: '113'
+ht-degree: 16%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-사용자 특성(예: 이름, 이메일, 역할 등)을 설정합니다.
+사용자 속성(예: 이름, 이메일, 역할 등)을 설정합니다.
 
 구문
 

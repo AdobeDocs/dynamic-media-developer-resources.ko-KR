@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Mobile Viewer에 적용되는 경우 CSS에 정의된 4개의 CSS 미디어 쿼�
    }
    ```
 
-1. 고해상도 화면이 있는 태블릿에 특정한 규칙만 포함합니다.
+1. 고해상도 화면이 있는 태블릿에 대한 규칙만 포함합니다.
 
    ```
    @media only screen and (max-device-width:13.5in) and (max-device-height:13.5in) and (max-device-width:799px) and (-webkit-min-device-pixel-ratio:1.5), 

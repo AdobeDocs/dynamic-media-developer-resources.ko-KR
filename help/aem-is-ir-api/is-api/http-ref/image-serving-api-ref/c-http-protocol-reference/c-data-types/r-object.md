@@ -5,9 +5,9 @@ title: 개체
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 *`rootId`* 는 이미지 카탈로그를 식별합니다. (참조: [이미지 카탈로그](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) 을 참조하십시오.) If *`rootId`* 은 URL 경로에 지정되며 해당 카탈로그는 *주요 카탈로그* 을 참조하십시오. 그렇지 않으면 기본 카탈로그가 기본 카탈로그로 사용됩니다. 동일한 요청에서 여러 개의 다른 이미지 카탈로그를 사용할 수 있습니다.
 
-서버는 처음에 다음과 같이 가정합니다 *`rootId`* 이(가)에서 생략되었습니다. `src=`, `mask=`, 및 `icc=` 및 명령이 기본 카탈로그에서 카탈로그 항목 찾기를 시도합니다. 효과적으로, 서버는 전체 를 사용하려고 시도합니다 *`object`* 문자열 *`objId.`*
+서버는 처음에 다음과 같이 가정합니다 *`rootId`* 이(가)에서 생략되었습니다. `src=`, `mask=`, 및 `icc=` 및 가 기본 카탈로그에서 카탈로그 항목을 찾으려고 합니다. 효과적으로, 서버는 전체 를 사용하려고 시도합니다 *`object`* 문자열 *`objId.`*
 
 카탈로그 항목이 발견되면 사용됩니다. 그렇지 않으면 서버는 다음으로 *`rootId`* 이미지 카탈로그의 카탈로그가 식별되면 검색됩니다. *`objId`*. 및 항목이 발견되면 사용됩니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 지원되는 파일 형식의 전체 목록은 IC(이미지 변환기) 유틸리티의 설명을 참조하십시오.
 
-여러 다른 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 형식에서 PTIF 이미지를 만드는 데 사용됩니다.
+여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Dynamic Media 피라미드 TIFF(PTIF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. IC 유틸리티는 지원되는 모든 이미지 형식에서 PTIF 이미지를 만드는 데 사용됩니다.
 
 ## 예제 {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 

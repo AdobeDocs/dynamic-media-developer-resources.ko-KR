@@ -5,9 +5,9 @@ title: 작업 메서드
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **responseFieldArray 및 excludeFieldArray**
 
-일부 작업을 수행하면 호출자가 응답에 포함된 필드를 제한할 수 있습니다. 필드를 제한하면 요청을 처리하는 데 필요한 시간과 메모리를 줄이고 응답 데이터의 크기를 줄이는 데 도움이 됩니다. 호출자는 를 전달하여 특정 필드 목록을 요청할 수 있습니다. `responseFieldArray` 매개 변수 또는 를 통해 제외된 필드 목록이 열거되어 있음 `excludeFieldArray` 매개 변수.
+일부 작업을 수행하면 호출자가 응답에 포함된 필드를 제한할 수 있습니다. 필드를 제한하면 요청을 처리하는 데 필요한 시간과 메모리를 줄이고 응답 데이터의 크기를 줄이는 데 도움이 됩니다. 호출자는 를 전달하여 특정 필드 목록을 요청할 수 있습니다. `responseFieldArray` 매개 변수 또는 열거형으로 다음을 통해 제외된 필드 목록 `excludeFieldArray` 매개 변수.
 
 모두 `responseFieldArray` 및 `excludeFieldArray` 다음으로 구분된 노드 경로를 사용하여 필드 지정 `/`. 예를 들어, `searchAssets` 각 에셋에 대한 이름, 마지막 수정 날짜 및 메타데이터만 반환합니다.
 

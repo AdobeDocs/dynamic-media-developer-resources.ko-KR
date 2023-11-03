@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Akamai와 같은 분산 캐싱 네트워크가 etag 헤더를 지원하지 않�
 
 * `catalog::TimeStamp`, `vignette::TimeStamp`, 또는 `attribute::TimeStamp` 가 정의되지 않았으므로 의 수정 시간이 [!DNL catalog.ini] 파일은 의 기본값으로 사용됩니다. `catalog::TimeStamp`.
 
-* 각 서버는 네트워크 마운트를 통해 자료 카탈로그 파일을 공유하는 대신 로컬 파일 시스템에 고유한 카탈로그 파일 인스턴스를 가지고 있습니다.
+* 네트워크 마운트를 통해 자료 카탈로그 파일을 공유하는 대신 각 서버는 로컬 파일 시스템에 카탈로그 파일의 자체 인스턴스를 가지고 있습니다.
 * 동일한 인스턴스 2개 이상 [!DNL catalog.ini] 파일의 파일 수정 날짜가 다릅니다. 파일을 잘못 복사했기 때문일 수 있습니다.
 
 ## 속성 {#section-453952244193452caccfaf7f601007c1}

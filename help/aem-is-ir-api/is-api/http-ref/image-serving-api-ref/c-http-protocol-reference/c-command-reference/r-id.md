@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 이미지 제공에는 버전 관리 메커니즘이 포함되어 있어 응용 프로그램에서 오래된 캐시 항목을 사용할 가능성을 줄일 수 있습니다. 이 메커니즘에는 다음과 같은 항목이 포함됩니다. `req=props` 이미지 데이터 및 메타데이터(예: 이미지 맵 또는 확대/축소 대상 데이터)에 대한 버전 식별자 문자열을 가져옵니다. 그런 다음 버전 식별자 문자열이 를 사용하여 캐시 가능한 이미지 제공 요청에 추가됩니다. `id=` 명령입니다.
 
-소스 이미지 또는 메타데이터가 변경되면 해당 버전 ID 값도 변경됩니다. 를 사용하여 최신 버전 ID 값 포함 `id=` 명령은 이전 캐시 항목에 더 이상 액세스하지 않도록 합니다.
+소스 이미지 또는 메타데이터가 변경되면 해당 버전 ID 값도 변경됩니다. 를 사용하여 최신 버전 ID 값 포함 `id=` 명령은 이전 캐시 항목에 더 이상 액세스할 수 없도록 합니다.
 
 다음 표에는 각 버전에 사용할 버전 식별자 문자열이 나열되어 있습니다 `req=` 유형:
 

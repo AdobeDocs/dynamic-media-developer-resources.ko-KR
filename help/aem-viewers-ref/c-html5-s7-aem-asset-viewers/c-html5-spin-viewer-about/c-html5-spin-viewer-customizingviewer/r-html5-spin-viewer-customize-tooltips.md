@@ -1,11 +1,11 @@
 ---
 title: 툴팁
-description: 데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 오버 시 표시되는 툴팁이 있습니다.
+description: 데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 툴팁이 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 1bc1a67b-7345-44bc-aed9-d20a61929e21
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 툴팁{#tooltips}
 
-데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 오버 시 표시되는 툴팁이 있습니다.
+데스크탑 시스템에서는 버튼과 같은 일부 사용자 인터페이스 요소에 마우스 가리키기에 표시되는 툴팁이 있습니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

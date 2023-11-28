@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: e1f0f8bdac2b7a8397adac3bb9ba38d0c519f8fb
+source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -20,22 +20,22 @@ RTF 문자열에서 참조되는 모든 글꼴은 기본 카탈로그 또는 현
 
 지정된 글꼴 `attribute::DefaultFont` RTF 문자열에 명시적으로 지정되지 않은 경우 가 사용됩니다.
 
-이미지 제공은 TrueType, OpenType, Adobe Type 1(Windows만 해당) 글꼴을 지원합니다.
+이미지 제공에서는 TrueType, OpenType®, Adobe Type 1(Windows 전용) 글꼴을 지원합니다.
 
-## Photofont® 글꼴 지원 {#section-74560ae898cf4708aba4c8b4093f5f00}
+<!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 
-`textPs=` 는 다음과 같은 제한 사항을 가진 Photofont® 글꼴을 지원합니다.
+Photofont&reg; fonts support `textPs=`, with the following restrictions:
 
-* `\cf` 는 Photofont 글꼴을 지정하는 텍스트 범위에서 무시되며 Photofont 글꼴 면에는 미리 정의된 색상이 있습니다.
-* 합성 글꼴 스타일은 지원되지 않습니다. `\b` 및 `\i`해당 글꼴 맵 항목이 필요합니다. 그렇지 않으면 오류가 반환됩니다
+* `\cf` is ignored in text spans that specify a Photofont font; Photofont font faces have predefined colors 
+* Synthesized font styles are not supported; use of `\b` and `\i`require corresponding font map entries, otherwise an error is returned 
 
-* 세로 텍스트 흐름은 지원되지 않습니다.
-* 16비트 이미지가 있는 Photofont 글꼴은 지원되지 않습니다.
-* 이미지당 여러 개의 글리프가 있는 Photofont 글꼴은 지원되지 않습니다
-* Photofont 글리프 이미지에 색상 프로파일이 포함되어 있지 않은 경우 단조로운 색상 변환이 적용됩니다. 이 경우 상대 색도계 렌더링 의도 및 검은 점 보상이 항상 적용됩니다
+* Vertical text flow is not supported 
+* Photofont fonts with 16-bit images are not supported 
+* Photofont fonts with multiple glyphs per image are not supported 
+* Naïve color conversion is applied unless the Photofont glyph images embed color profiles; in this case, relative colorimetric render intent and blackpoint compensation are always applied
 
-을(를) 참조하십시오 [www.photofont.com](https://www.photofont.com) 추가 정보.
+See [https://www.photofont.com](https://www.photofont.com) for additional information. -->
 
 ## 참조 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[글꼴 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107), [ [!DNL www.photofont.com] ](https://www.photofont.com)
+[글꼴 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

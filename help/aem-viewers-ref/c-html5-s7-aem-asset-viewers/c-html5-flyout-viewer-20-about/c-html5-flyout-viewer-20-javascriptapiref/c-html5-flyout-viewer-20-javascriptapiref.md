@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 7f85f6d0-bcc8-4d9b-ae0b-6fb9e1e7f0da
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 다음 모든 예에서, `<instance>` 는 에서 인스턴스화된 JavaScript 뷰어 객체의 실제 이름을 나타냅니다. `s7viewers.FlyoutViewer` 클래스.
 
 * [dispose](r-html5-flyout-viewer-20-javascriptapiref-dispose.md)
-* [플라이아웃 뷰어](r-html5-flyout-viewer-20-javascriptapiref-.flyoutviewer.md)
+* [플라이아웃 뷰어](r-html5-flyout-viewer-20-javascriptapiref-flyoutviewer.md)
 * [getComponent](r-html5-flyout-viewer-20-javascriptapiref-getcomponent.md)
 * [init](r-html5-flyout-viewer-20-javascriptapiref-init.md)
 * [setAsset](r-html5-flyout-viewer-20-javascriptapiref-setasset.md)
-* [setContainerId](r-html5-flyout-viewer-20-javascriptapiref-.setcontainerid.md)
+* [setContainerId](r-html5-flyout-viewer-20-javascriptapiref-setcontainerid.md)
 * [setHandler](r-html5-flyout-viewer-20-javascriptapiref-sethandlers.md)
 * [setLocalizedText](r-html5-flyout-viewer-20-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-flyout-viewer-20-javascriptapiref-setparam.md)

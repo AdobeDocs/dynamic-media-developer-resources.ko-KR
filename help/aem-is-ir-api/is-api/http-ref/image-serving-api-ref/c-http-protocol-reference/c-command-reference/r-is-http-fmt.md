@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 5%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-알파 | swf | swf3-alpha | swf3 | tif-alpha | tif | 웹 알파 | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | 높이 | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf 알파 | swf | swf3-alpha | swf3 | tif-alpha | tif | 웹 알파 | webp
 
 | *`format`* | 설명 |
 |---|---|
@@ -26,8 +26,9 @@ ht-degree: 5%
 | `avif` | 손실 및 무손실 AVIF. |
 | `eps` | 압축 해제된 바이너리 캡슐화된 PostScript입니다. |
 | `f4m` | Flash 스트리밍 서버 매니페스트 형식입니다. |
-| `gif-alpha` | 2-256개 색상과 주요 색상 투명도가 있는 GIF. |
+| `gif-alpha` | 2~255색 및 키 색상 투명도가 포함된 GIF. |
 | `gif` | 2~256색 GIF. |
+| `heic` | 무손실 높이. 이 형식은 지원되지 않는 경우 브라우저에서 기본적으로 다운로드됩니다. |
 | `jpeg` | 손실 JPEG. |
 | `jpeg2000-alpha` | 알파 채널이 있는 손실 및 무손실 JPEG 2000. |
 | `jpeg2000` | 손실 및 손실 없는 JPEG 2000. |
@@ -50,14 +51,14 @@ ht-degree: 5%
 | `webp-alpha` | 알파 채널이 있는 손실 및 무손실 WebP. |
 | `webp` | 손실 및 손실 없는 WebP. |
 
-| *`pixelType`* – rgb | 회색 | cmyk |
+| *`pixelType`* - rgb | 회색 | cmyk |
 | *`pixelType`* | 설명 |
 |---|---|
 | `cmyk` | CMYK 이미지 데이터를 반환합니다. |
 | `gray` | 회색 음영 이미지 데이터를 반환합니다. |
 | `rgb` | RGB 이미지 데이터를 반환합니다. |
 
-| *`compression`* – none | lzw | zip | jpeg | 손실 | 무손실 |
+| *`compression`* - jpeg | 손실 | 무손실 | lzw | 없음 | zip |
 | *`compression`* | 설명 |
 |---|---|
 | `jpeg` | JPEG 압축(손실). |
@@ -192,43 +193,43 @@ ht-degree: 5%
 
 **JPEG 형식(기본값)으로 작은 저품질 미리 보기 이미지 요청:**
 
-` http:// *`서버`*/myRootId/myImageId?qlt=60&wid=200`
+` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
 
 **회색으로 변환된 동일한 이미지를 요청합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
+` http:// *`server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
 **알파 채널을 사용하여 고해상도로 손실 없는 형식으로 동일한 이미지를 요청합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=png-alpha&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
 **회색 음영 TIFF 이미지와 동일한 이미지에 대해 알파 채널을 요청합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
+` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
 **기본 ICC 프로파일을 사용하여 동일한 이미지를 cmyk로 변환합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
 **다른 ICC 프로파일을 사용하여 동일한 이미지를 cmyk로 변환하고 프로파일을 TIFF 이미지에 포함합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
+` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
 **픽셀 유형 변환 없이 JPEG 압축을 사용하여 이 이미지를 TIF 파일로 제공합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
+` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
 **이미지를 키 색상 투명도를 사용하는 두 가지 색상 GIF으로 변환하고 색상을 검정과 흰색으로 강제 변환합니다.**
 
-` http:// *`서버`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 **품질 설정이 80인 손실:**
 
-` http:// *`서버`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
+` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp&qlt=80`
 
 **알파 포함 무손실:**
 
-` http:// *`서버`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
+` http:// *`server`*/myRootId/myImageId?wid=300&fmt=webp-alpha,,lossless`
 
 **품질 설정이 80인 손실:**
 

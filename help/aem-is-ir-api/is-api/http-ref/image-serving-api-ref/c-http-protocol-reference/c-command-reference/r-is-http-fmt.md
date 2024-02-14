@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
+source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '907'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 2%
 | *`compression`* | 설명 |
 |---|---|
 | `jpeg` | JPEG 압축(손실). |
-| `lossy` | WebP, JPEG 2000 및 JPEG XR 압축(손실). |
-| `lossless` | WebP, JPEG 2000 및 JPEG XR 압축(무손실). |
+| `lossy` | JPEG 2000, JPEG XR 압축(손실) 및 WebP |
+| `lossless` | HEIC, JPEG 2000, JPEG XR 압축(무손실), WebP |
 | `lzw` | LZW (Lempel-Ziv-Welch) 압축(무손실). |
 | `none` | 압축이 해제되었습니다. |
 | `zip` | &quot;수축&quot; 압축(무손실). |

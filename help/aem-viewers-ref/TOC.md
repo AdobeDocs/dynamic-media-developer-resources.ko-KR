@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Dynamic Media 뷰어 참조 안내서
 feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 사용자 지정합니다. 대화형 이미지 및 비디오, 회전 메뉴, 스핀 세트 등을 포함합니다.
-source-git-commit: f970421ccc482b698343aa18e7dfde7bea4c2a89
+source-git-commit: 8d5dbc2d2b5e228f8496fd71633bf1cb96218226
 workflow-type: tm+mt
 source-wordcount: '2066'
 ht-degree: 1%
@@ -738,7 +738,7 @@ ht-degree: 1%
       + [Adobe Analytics 추적 지원](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-analytics.md)
       + [보조 기술 지원](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-assistive.md)
       + [사용자 인터페이스 요소의 현지화](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md)
-      + [핫스팟 및 이미지 맵 지원](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot--image-support.md)
+      + [핫스팟 및 이미지 맵 지원](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-hotspot-image-support.md)
       + [이미지 미리 로드](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md)
       + [Viewer SDK 네임스페이스](c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)
    + 대화형 이미지 {#interactive-images}

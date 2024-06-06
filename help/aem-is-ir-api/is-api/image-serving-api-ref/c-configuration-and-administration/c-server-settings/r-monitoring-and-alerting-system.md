@@ -5,9 +5,9 @@ title: 모니터링 및 경고 시스템
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ SMTP 전자 메일 서버의 수신 포트입니다.
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - 힙 공간 경고 간격 {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-다른 힙 공간 경고가 발생하기 전 최소 힙 공간 경고 발생 시간. 간격 시간(밀리초)입니다. 정수 값, 0 이상.
+다른 힙 공간 경고가 발생하기 전 힙 공간 경고 이후 최소 시간입니다. 간격 시간(밀리초)입니다. 정수 값, 0 이상.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - 경고를 활성화하는 최소 트래픽 {#section-8b4db2d6f96642309ca35c49eb3ab230}
 

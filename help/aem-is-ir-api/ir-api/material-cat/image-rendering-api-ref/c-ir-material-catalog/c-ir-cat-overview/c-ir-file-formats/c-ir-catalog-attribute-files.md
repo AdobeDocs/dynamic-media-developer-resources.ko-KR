@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 이름 </span> </span> </p> </td> 
-  <td class="stentry"> <p>속성 이름, 하나 이상의 문자, 숫자, '-' 및 '_'로 구성될 수 있으며 대소문자를 구분하지 않습니다. </p> </td> 
+  <td class="stentry"> <p>속성 이름, 하나 이상의 문자, 숫자, -(하이픈) 및 _(밑줄)로 구성될 수 있으며 대소문자를 구분하지 않습니다.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 값 </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ ht-degree: 0%
 </table>
 
 * 토큰 사이의 공백은 선택 사항입니다.
-* 알 수 없는 속성 이름을 가진 레코드는 [!DNL Platform Server].
-* 속성 이름은 ASCII 문자, 숫자 및 &quot;-&quot;, &quot;_&quot;, &quot;.&quot;의 모든 조합으로 구성될 수 있습니다.
+* 다음 [!DNL Platform Server] 은 알 수 없는 속성 이름이 있는 레코드를 무시합니다.
+* 속성 이름은 ASCII 문자, 숫자 및 `-`, `_`, 및 `.` 자.
 * 동일한 속성 이름이 동일한 속성 파일에서 두 번 이상 발생하면 마지막으로 발생한 이름이 우선합니다.
-* 파서가 무시하는 주석으로 레코드를 표시하려면 &#39;#&#39;를 첫 번째 문자로 사용하십시오.
+* 사용 `#` 모든 레코드를 파서가 무시하는 주석으로 표시하는 첫 번째 문자입니다.

@@ -5,10 +5,10 @@ title: 반복
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 18%
+source-wordcount: '128'
+ht-degree: 17%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>1/4 낙서 벽지가 걸려 있다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>1/4 낙하 벽지가 매달려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>세 번째 낙서 벽지가 걸려 있다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>벽지가 세 번째 드롭으로 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
@@ -53,15 +53,15 @@ ht-degree: 18%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>다섯 번째 낙지가 걸려 있다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>다섯 번째 낙서 벽지가 걸려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
-  <td class="- topic/stentry stentry"> <p>배경 무늬가 거꾸로 매달려 있습니다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>벽지가 거꾸로 매달려 있습니다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>무작위 벽지가 걸려 있습니다. </p></td> 
+  <td class="- topic/stentry stentry"> <p>무작위로 벽지가 매달려 있다. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
@@ -111,4 +111,4 @@ ht-degree: 18%
 
 ## 참조 {#section-a08887a91db34ed3b183899c69c9f74f}
 
-[반복=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8)
+[repeat=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-repeat.md#reference-37749da8233f42599ecf4731055fb7d8)

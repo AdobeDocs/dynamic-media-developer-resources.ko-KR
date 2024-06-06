@@ -1,14 +1,14 @@
 ---
+title: name
 description: 명령 매크로의 이름입니다.
 solution: Experience Manager
-title: name
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '33'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 명령 매크로의 이름입니다.
 
-`&$ *`name`*$`
+`&$ *`이름`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
@@ -25,4 +25,4 @@ ht-degree: 14%
  </tr> 
 </table>
 
-*`name`* 는 대/소문자를 구분하지 않으며 문자, 숫자, &#39;-&#39;, &#39;_&#39; 및 &#39;.&#39;의 조합으로 구성될 수 있습니다. 문자.
+명령 *`name`* 는 대/소문자를 구분하지 않으며 문자, 숫자의 조합으로 구성될 수 있습니다. `-` (하이픈), `_` (밑줄) 및 `.` (마침표)자.

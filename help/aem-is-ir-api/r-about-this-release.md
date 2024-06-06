@@ -5,9 +5,9 @@ title: 이 릴리스 정보
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f837191b-1151-4c29-8059-b4d3e09e304e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 ## 알려진 문제 및 동작 변경 {#section-9dbc05206187477f926a78e8108a34e1}
 
 * 문자가 URL로 인코딩되어 있더라도 자산 ID의 물음표 문자는 더 이상 지원되지 않습니다.
-* 동적 배너 `/xfl/flash/` 요청은 더 이상 지원되지 않으며 이제 http 404 오류 코드를 반환합니다.
+* 동적 배너 `/xfl/flash/` 요청은 더 이상 지원되지 않으며 이제 HTTP 404 오류 코드를 반환합니다.
 * W2P `/is/agm/` 요청은 더 이상 지원되지 않습니다.
 * 일부 오류 메시지는 더 이상 브라우저에 렌더링되지 않습니다. 따라서 디버그할 추적 로그를 검토해야 합니다.
 

@@ -5,9 +5,9 @@ title: 비네팅 옵션
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <table id="simpletable_6D0C967EB84947FBAC34B46C4BB23AF0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> -컨텐트</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> -contents</span> </p></td> 
   <td class="stentry"> <p>개체 계층 구조를 나타내고 선택한 개체 특성을 포함하는 XML 파일을 만듭니다. 파일의 내용은 가 반환하는 것과 같습니다 <span class="codeph"> req=contents</span> 명령입니다. 파일의 이름은 소스 파일과 같지만 <span class="filepath"> .xml</span> 접미사. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +42,7 @@ ht-degree: 0%
   <td class="stentry"> <p>비네팅에서 이미지 맵 파일의 추출을 활성화합니다. HTML 맵 데이터는 <span class="codeph"> &lt;map&gt;</span> 요소를 생성하지 않습니다. 출력 파일의 이름은 출력 이미지 파일과 동일하지만 <span class="filepath"> .htm</span> 접미사. 명령이 지정되었지만 비네팅에 맵 데이터가 없는 경우 경고 메시지가 생성되고 파일이 생성되지 않습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> -프로파일</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> -profile</span> </p></td> 
   <td class="stentry"> <p>비네팅에 포함된 ICC 프로파일의 복사본을 파일에 저장합니다. 명령을 지정했지만 비네팅에 ICC 프로파일이 없는 경우 경고 메시지가 생성되고 ICC 프로파일 파일이 생성되지 않습니다. </p></td> 
  </tr> 
  <tr class="strow"> 

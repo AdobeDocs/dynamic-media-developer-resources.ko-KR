@@ -5,9 +5,9 @@ title: 텍스트 레이어
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6793eb7d-6c10-4136-b6d4-186a698a8e52
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ textPs= 는 이 섹션에서 설명하는 다양한 사용 모델을 지원합�
 * 자체 크기 조정 텍스트 레이어는 `size=` 명령 또는 `size=0,0` 이(가) 지정되었습니다.
 
 * 자체 크기 조정 텍스트 레이어의 레이어 크기는 렌더링된 실제 텍스트에 의해 결정됩니다.
-* 일반적으로 자체 크기 조정 텍스트 레이어의 기본 레이어 앵커는 입니다. *아님* 레이어의 중앙에서(아래 참조).
+* 자체 크기 조정 텍스트 레이어의 기본 레이어 앵커는 일반적으로 입니다 *아님* 레이어의 중앙에서(아래 참조).
 * If `anchor=` 또는 `origin=` 텍스트 레이어의 크기를 자동으로 조정하도록 지정하면 텍스트 레이어의 위치가 텍스트 컨텐츠의 영향을 받습니다.
 
 * 날짜 `size=` 를 지정하면 문자 글리프의 일부가 레이어 사각형 외부에서 렌더링될 수 있습니다.

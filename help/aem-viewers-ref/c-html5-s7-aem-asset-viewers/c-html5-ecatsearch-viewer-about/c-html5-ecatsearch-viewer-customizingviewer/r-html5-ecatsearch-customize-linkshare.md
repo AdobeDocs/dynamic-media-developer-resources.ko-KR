@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0b792a15-ed00-4ee5-90f4-511ac9e035b6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 2%
+source-wordcount: '1399'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -125,11 +125,11 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
    <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>를 설정 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 선호됨). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>를 설정 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 선호됨). </p> </td> 
   </tr> 
  </tbody> 
@@ -190,11 +190,11 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -248,7 +248,7 @@ background-color: #ffffff;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> 머리글 컨테이너를 기준으로 한 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 헤더 컨테이너를 기준으로 한 가로 단추 위치. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +335,7 @@ background-color: #ffffff;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리. </p> </td> 
   </tr> 
  </tbody> 
@@ -371,15 +371,15 @@ background-color: #ffffff;
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -404,15 +404,15 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -525,7 +525,7 @@ background-color: #ffffff;
 }
 ```
 
-기본 대화 상자 영역(머리글과 바닥글 사이)에는 대화 상자 내용이 포함됩니다. 모든 경우 구성 요소는 이 영역의 너비를 관리합니다. CSS에서는 이 영역을 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
+머리글과 바닥글 사이의 기본 대화 상자 영역에는 대화 상자 내용이 포함됩니다. 모든 경우 구성 요소는 이 영역의 너비를 관리합니다. CSS에서는 이 영역을 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7linkdialog .s7dialogviewarea
@@ -536,7 +536,7 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 설정되어 있는 경우에는 적용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -544,7 +544,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p>외부 여백. </p> </td> 
   </tr> 
  </tbody> 
@@ -610,7 +610,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>레이블 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p>레이블 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -639,7 +639,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 너비. </p> </td> 
   </tr> 
   <tr> 
@@ -669,7 +669,7 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>공유 링크 컨테이너 주변의 테두리. </p> </td> 
   </tr> 
   <tr> 
@@ -699,7 +699,7 @@ background-color: #ffffff;
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>링크 너비 공유. </p> </td> 
   </tr> 
  </tbody> 

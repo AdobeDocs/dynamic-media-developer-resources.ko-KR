@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25057e72-f079-4221-91c2-760d99d30633
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 2%
+source-wordcount: '1488'
+ht-degree: 0%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 왼쪽에 있는 다음 단추까지의 거리 또는 한 행에 있는 첫 번째 단추인 경우 컨트롤 막대의 왼쪽입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -188,11 +188,11 @@ background-color: #dddddd;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ background-color: #dddddd;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> 머리글 컨테이너를 기준으로 한 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -254,11 +254,11 @@ background-color: #dddddd;
    <td colname="col2"> <p> 헤더 컨테이너를 기준으로 한 가로 단추 위치. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -333,7 +333,7 @@ background-color: #dddddd;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리. </p> </td> 
   </tr> 
  </tbody> 
@@ -367,15 +367,15 @@ background-color: #dddddd;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -400,15 +400,15 @@ background-color: #dddddd;
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -521,7 +521,7 @@ background-color: #dddddd;
 }
 ```
 
-기본 대화 상자 영역(머리글과 바닥글 사이)에는 대화 상자 내용이 포함됩니다. 모든 경우 구성 요소가 이 영역의 너비를 관리하지만 CSS에서는 이 영역을 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
+머리글과 바닥글 사이의 기본 대화 상자 영역에는 대화 상자 내용이 포함됩니다. 모든 경우 구성 요소가 이 영역의 너비를 관리하지만 CSS에서는 이 영역을 설정할 수 없습니다. 기본 대화 상자 영역은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
@@ -532,7 +532,7 @@ background-color: #dddddd;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -540,7 +540,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p>외부 여백. </p> </td> 
   </tr> 
  </tbody> 
@@ -617,7 +617,7 @@ background-color: #dddddd;
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>블록 폭. </p> </td> 
   </tr> 
   <tr> 
@@ -661,7 +661,7 @@ background-color: #dddddd;
    <td colname="col2"> <p>레이블 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p>레이블 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -715,11 +715,11 @@ background-color: #dddddd;
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p> 캡션이 있는 라디오 단추의 총 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p>캡션 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -753,11 +753,11 @@ background-color: #dddddd;
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p> 숫자 선택기의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p> 숫자 선택기 주위의 간격입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -792,7 +792,7 @@ background-color: #dddddd;
 <table id="table_AB42F1DC92BB4946868F0A9FE86ABAA6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p> 구분선 주변의 경계. </p> </td> 
   </tr> 
   <tr> 
@@ -800,11 +800,11 @@ background-color: #dddddd;
    <td colname="col2"> <p>내부 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>구분선 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p>외부 여백 </p> </td> 
   </tr> 
  </tbody> 

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '2606'
-ht-degree: 2%
+source-wordcount: '2640'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -125,11 +125,11 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
    <td colname="col2"> <p>대화 상자 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>를 설정 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 선호됨). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>를 설정 해제하거나 100%로 설정해야 합니다. 이 경우 대화 상자는 전체 브라우저 창을 사용합니다(이 모드는 터치 장치에서 선호됨). </p> </td> 
   </tr> 
  </tbody> 
@@ -190,11 +190,11 @@ background-color: #ffffff;
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -248,7 +248,7 @@ background-color: #ffffff;
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> 머리글 컨테이너를 기준으로 한 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -256,11 +256,11 @@ background-color: #ffffff;
    <td colname="col2"> <p> 헤더 컨테이너를 기준으로 한 가로 단추 위치. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -335,7 +335,7 @@ background-color: #ffffff;
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p> 대화 상자의 나머지 부분과 바닥글을 시각적으로 구분하는 데 사용할 수 있는 테두리. </p> </td> 
   </tr> 
  </tbody> 
@@ -371,15 +371,15 @@ background-color: #ffffff;
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -404,15 +404,15 @@ background-color: #ffffff;
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p> 각 상태에 대한 단추 텍스트 색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -536,7 +536,7 @@ background-color: #ffffff;
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 기본 대화 상자 영역의 높이입니다. 대화 상자가 데스크탑 모드에서 작동하는 경우에만 지정해야 합니다. 대화 상자의 크기가 전체 브라우저 창을 차지하도록 설정되어 있는 경우에는 적용할 수 없습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -544,7 +544,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>기본 대화 상자 영역의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p>외부 여백. </p> </td> 
   </tr> 
  </tbody> 
@@ -612,7 +612,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>레이블 글꼴 모음입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색상 </span> </p> </td> 
    <td colname="col2"> <p>레이블 텍스트 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -641,7 +641,7 @@ background-color: #ffffff;
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>입력 필드 폭. </p> </td> 
   </tr> 
   <tr> 
@@ -671,11 +671,11 @@ background-color: #ffffff;
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>포함 코드 컨테이너의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>포함 코드 컨테이너 주위의 테두리. </p> </td> 
   </tr> 
   <tr> 
@@ -760,7 +760,7 @@ background-color: #ffffff;
    <td colname="col2"> <p>세로 레이블 정렬. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>레이블 너비. </p> </td> 
   </tr> 
  </tbody> 
@@ -786,7 +786,7 @@ background-color: #ffffff;
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 폭. </p> </td> 
   </tr> 
  </tbody> 
@@ -818,7 +818,7 @@ background-color: #ffffff;
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 텍스트 높이입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -843,7 +843,7 @@ background-color: #ffffff;
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>콤보 상자 안의 세로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -851,11 +851,11 @@ background-color: #ffffff;
    <td colname="col2"> <p>콤보 상자 안의 가로 단추 위치입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -907,7 +907,7 @@ background-color: #ffffff;
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>패널 테두리. </p> </td> 
   </tr> 
  </tbody> 
@@ -957,11 +957,11 @@ background-color: #ffffff;
 <table id="table_8E01F5461CD04AC18B2C3725A961476A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -996,7 +996,7 @@ background-color: #ffffff;
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> 포함 크기 콤보 상자로부터의 거리입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1021,15 +1021,15 @@ background-color: #ffffff;
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>입력 필드 주변의 테두리. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p> 입력 필드 여백. </p> </td> 
   </tr> 
   <tr> 
@@ -1062,7 +1062,7 @@ background-color: #ffffff;
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>패널 폭을 스크롤합니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -1087,15 +1087,15 @@ background-color: #ffffff;
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 막대 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 패널의 위쪽에서 오프셋된 세로 스크롤 막대입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 하단 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 패널 아래쪽에서 오프셋된 세로 스크롤 막대입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -1127,7 +1127,7 @@ background-color: #ffffff;
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>트랙 폭. </p> </td> 
   </tr> 
   <tr> 
@@ -1157,11 +1157,11 @@ background-color: #B2B2B2;
 <table id="table_90BC468FE138441C9DBAB1EB109F3DB0"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>썸네일 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>엄지손가락 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -1227,11 +1227,11 @@ CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 폭 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 

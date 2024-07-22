@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '61'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> true|false </span> </p> </td> 
-  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저별 파일 형식으로 변환하는 브라우저 형식 변환 기능이 켜져 있는지 여부를 지정합니다. ( <span class="codeph"> true </span>) 또는 해제( <span class="codeph"> false </span>). </p> </td> 
+  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저별 파일 형식으로 변환하는 브라우저 형식 변환 기능이 켜져 있는지(<span class="codeph"> true </span>) 아니면 꺼져 있는지(<span class="codeph"> false </span>) 지정합니다. </p> </td> 
  </tr> 
 </table>
 

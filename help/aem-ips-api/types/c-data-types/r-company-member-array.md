@@ -20,4 +20,4 @@ ht-degree: 75%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:CompanyMember` |  |
+| 항목 | `types:CompanyMember` | |

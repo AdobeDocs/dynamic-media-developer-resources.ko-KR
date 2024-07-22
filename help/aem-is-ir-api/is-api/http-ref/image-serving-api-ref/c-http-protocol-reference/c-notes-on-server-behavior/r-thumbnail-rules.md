@@ -16,6 +16,6 @@ ht-degree: 0%
 
 이러한 썸네일 규칙을 알고 있어야 합니다.
 
-1. If `catalog::ThumbType=Crop`그런 다음 (잘린) 이미지는 전체 대상 rect를 유지하면서 가능한 가장 작은 크기로 크기가 조정됩니다. If `catalog::ThumbType=Fit`그런 다음 (잘린) 이미지는 전체 이미지를 대상 rect에 맞추면서 가능한 가장 큰 크기로 크기가 조정됩니다. If `catalog::ThumbType=Texture`, (자른) 이미지는 다음 비율로 조정됩니다. `catalog::ThumbRes` 끝 `catalog::Resolution`.
-1. 다음을 기준으로 대상 rect에 맞게 배율 조정된 이미지 정렬 `attribute::ThumbHorizAlign` 및 `attribute::ThumbVertAlign`.
+1. `catalog::ThumbType=Crop`이면 (잘린) 이미지는 전체 대상 rect를 유지하면서 가능한 가장 작은 크기로 크기가 조정됩니다. `catalog::ThumbType=Fit`이면 (잘린) 이미지는 전체 이미지를 대상 rect에 맞추는 동안 가능한 가장 큰 크기로 크기가 조정됩니다. `catalog::ThumbType=Texture`이면 (잘린) 이미지는 `catalog::ThumbRes`과(와) `catalog::Resolution`의 비율로 조정됩니다.
+1. `attribute::ThumbHorizAlign` 및 `attribute::ThumbVertAlign`을(를) 기준으로 대상 rect에 맞춰 크기 조정된 이미지를 정렬합니다.
 1. 결과를 대상 rect로 자릅니다.

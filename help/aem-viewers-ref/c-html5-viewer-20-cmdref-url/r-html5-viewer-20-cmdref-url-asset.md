@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-다음 경우를 제외하고 이 속성은 필수입니다. `video` 매개 변수가 사용됩니다. 다음을 참조하십시오 [외부 비디오 지원](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) 비디오 또는 [외부 비디오 지원](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) 를 클릭합니다.
+`video` 매개 변수를 사용하지 않으면 이 속성이 필요합니다. 비디오 아래의 [외부 비디오 지원](../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3) 또는 Video360 아래의 [외부 비디오 지원](../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)을 참조하십시오.
 
 또는
 
@@ -44,36 +44,36 @@ ht-degree: 2%
 
 또는
 
-` asset= *`이미지`* | *`imageList`* | *`imageListWithModifier`* | *`다차원 회전 집합`* [%3F *`수정자`*]`
+` asset= *`이미지`* | *`imageList`* | *`imageListWithModifiers`* | *`multiDimensionalSpinSet`* [%3F *`modifiers`*]`
 
 <table id="table_A2A0ACD942E942BC99AF0DC80FB1C670"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 이미지 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 단일 이미지를 지정합니다. 이미지 이름에 있는 안전하지 않은 문자에 이중 HTTP 인코딩을 적용합니다. </p> <p>또는 이미지 세트에 대한 참조를 지정합니다. 뷰어는 를 사용하여 서버에서 이미지 세트를 검색합니다. <span class="codeph"> req=set IS </span> 요청. </p> </td> 
+   <td colname="col2"> <p> 단일 이미지를 지정합니다. 이미지 이름에 있는 안전하지 않은 문자에 이중 HTTP 인코딩을 적용합니다. </p> <p>또는 이미지 세트에 대한 참조를 지정합니다. 뷰어가 <span class="codeph"> req=set IS </span> 요청을 사용하여 서버에서 이미지 집합을 검색합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList </span> </span> </p> </td> 
    <td colname="col2"> <p> 항목 또는 프레임의 정렬된 시퀀스로 구성되는 명시적 이미지 집합을 쉼표로 구분하여 지정합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifier </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers </span> </span> </p> </td> 
    <td colname="col2"> <p> 각 프레임에 고유한 이미지 제공 수정자가 있는 명시적 이미지 집합을 지정합니다. 이 경우 프레임 목록은 괄호 안에 래핑됩니다. 프레임별 이미지 제공 수정자에 있는 모든 쉼표에 이중 HTTP 인코딩을 적용해야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 다차원 회전 집합 </span> </span> </p> </td> 
-   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 회전 집합을 지정합니다. </p> <p> <span class="codeph"> (( <span class="varname"> 가로 회전 집합 </span>)[,( <span class="varname"> 가로 회전 집합 </span>)]) </span> </p> <p> 위치 <span class="codeph"> <span class="varname"> 가로 회전 집합 </span> </span> 는 주어진 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모두 <span class="codeph"> <span class="varname"> 가로 회전 집합 </span> </span> 은(는) 프레임 수가 같아야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
+   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 회전 집합을 지정합니다. </p> <p> <span class="codeph">((<span class="varname"> horizontalSpinSet </span>)[,(<span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> 여기서 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>은(는) 주어진 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모든 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>의 프레임 수가 같아야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 수정자 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 제공 명령 <span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분 기호는 다음으로 HTTP 인코딩이 적용되어야 합니다. <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>, 각각 </p> </td> 
+   <td colname="col2"> <p> 이미지 제공 명령, <span class="codeph"> &amp; </span> 및 <span class="codeph"> = </span> 구분 기호는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>(으)로 HTTP 인코딩이 적용되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 또는
 
-` asset=( *`mediaSet`* | ( *`비디오`*; *`견본 ID`* | *`이미지`*; *`견본 ID`* | *`setId`*; *`견본 ID`*); *`ID`*;( *`비디오`*; *`견본 ID`* | *`이미지`*; *`견본 ID`* | *`setId`*; *`견본 ID`*); *`ID`*;] [%3F *`수정자`*]`
+` asset=( *`미디어 집합`* | ( *`비디오`*; *`견본 ID`* | *`이미지`*; *`견본 ID`* | *`세트 ID`*; *`견본 ID`*); *`ID`*;( *`비디오`*; *`견본 ID`* | *`이미지`*; *`견본 ID`* | *`세트 ID`*; *`견본 ID`*); *`ID`*;] [%3F *`수정자`*]`
 
 <table id="table_D31C8507C02A4452A79DEDDEC62EF2F5"> 
  <tbody> 
@@ -105,12 +105,12 @@ ht-degree: 2%
       <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>중첩된 견본 세트의 경우. </p> </li> 
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> 회전 </span> </p> <p>회전 세트용입니다. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> 비디오 </span> </p> <p>단일 비디오용 </p> </li> 
-      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set </span> </p> <p>응용 비디오 세트용. </p> </li> 
+      <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> 비디오 집합 </span> </p> <p>응용 비디오 세트용. </p> </li> 
      </ul> </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 수정자 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 제공 명령 <span class="codeph"> 및 </span> 및 <span class="codeph"> = </span> 구분 기호는 다음으로 HTTP 인코딩이 적용되어야 합니다. <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>, 각각 </p> </td> 
+   <td colname="col2"> <p> 이미지 제공 명령, <span class="codeph"> &amp; </span> 및 <span class="codeph"> = </span> 구분 기호는 각각 <span class="codeph"> %26 </span> 및 <span class="codeph"> %3D </span>(으)로 HTTP 인코딩이 적용되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

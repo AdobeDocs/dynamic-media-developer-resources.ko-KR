@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 6%
 >
 >이 속성은 확대/축소 뷰어, 비디오 뷰어, 회전 뷰어, 대화형 이미지 뷰어, 대화형 비디오 뷰어 및 회전 메뉴 뷰어에 적용됩니다.
 
-`stageSize= *`폭`*, *`높이`*`
+`stageSize= *`너비`*, *`높이`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 폭</span>,<span class="varname"> 높이</span></span> </p> </td> 
-   <td colname="col2"> <p> 뷰어의 전체 너비 및 높이입니다. 값: <span class="codeph"> 0,0</span> 는 CSS 규칙 및 웹 페이지 레이아웃에 따라 뷰어 크기가 조정됨을 의미합니다. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 너비</span>,<span class="varname"> 높이</span></span> </p> </td> 
+   <td colname="col2"> <p> 뷰어의 전체 너비 및 높이입니다. <span class="codeph"> 0,0</span> 값은 CSS 규칙 및 웹 페이지 레이아웃에 따라 뷰어 크기가 조정되었음을 의미합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

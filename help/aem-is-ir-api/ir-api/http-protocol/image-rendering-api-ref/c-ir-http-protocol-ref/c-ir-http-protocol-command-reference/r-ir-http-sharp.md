@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7921ceba-e249-4aab-823e-c54705c4a7c3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '126'
 ht-degree: 5%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 5%
  </tr> 
 </table>
 
-`sharp=1` 재료가 렌더링된 후 선명하게 하기를 적용합니다. `sharp=2` 텍스처의 초기 크기 조절 후 장면으로 변환되기 전에 선명하게 하기를 적용합니다. `sharp=3` 변환 전후에 선명하게 하기를 적용합니다.
+`sharp=1` 재료가 렌더링된 후에 선명하게 하기를 적용하고, `sharp=2`이(가) 텍스처의 초기 크기 조절 후에 선명하게 하기를 적용하고, 장면으로 변형되기 전에 선명하게 하기를 적용하고, `sharp=3`은(는) 변형 전후에 선명하게 하기를 적용합니다.
 
-선명하게 하기 알고리즘 및 선명하게 하기 및 기타 USM(언샵 마스킹) 매개 변수의 양은 비네팅 또는 가 제공하는 기본 재질 템플릿에 의해 제어됩니다. `rs=`.
+선명하게 하기 알고리즘 및 선명하게 하기 및 기타 USM(언샵 마스킹) 매개 변수의 양은 비네팅 또는 `rs=`에서 제공하는 기본 재질 템플릿에 의해 제어됩니다.
 
 ## 속성 {#section-498ec9fcb8eb415fb99532d36c11d4c7}
 
@@ -47,8 +47,8 @@ ht-degree: 5%
 
 ## 기본값 {#section-febfa16e65864987b4d328e2ff1df64d}
 
-`catalog::Sharp`, 자료가 카탈로그 항목을 기반으로 하는 경우, 그렇지 않은 경우 `attribute::Sharp`.
+`catalog::Sharp`(자료가 카탈로그 항목을 기반으로 하는 경우), 그렇지 않으면 `attribute::Sharp`.
 
 ## 참조 {#section-0d5e2c94342c4ee586374ad9c917eeb9}
 
-[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [선명하게=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)
+[카탈로그::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharpen=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharpen.md#reference-13034d22d176483cb99ccafc2a4f6a6e), [rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf)

@@ -18,4 +18,4 @@ ht-degree: 0%
 
 외부 HTTP 서버에서 가져온 이미지도 응답 데이터 캐시에 저장됩니다. 이러한 이미지는 캐시 항목이 생성되기 전에 유효성 검사 유틸리티를 사용하여 자동으로 검증됩니다.
 
-다음 [!DNL Platform Server] 효율적인 액세스를 위해 이미지 카탈로그 데이터를 컴파일합니다. 이 데이터는에 저장됩니다. `CS::CatalogCacheFolder`.
+[!DNL Platform Server]은(는) 효율적인 액세스를 위해 이미지 카탈로그 데이터를 컴파일합니다. 이 데이터는 `CS::CatalogCacheFolder`에 저장됩니다.

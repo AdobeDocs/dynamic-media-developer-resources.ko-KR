@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7videoplayer
 ```
 
-**비디오 플레이어의 CSS 속성**
+비디오 플레이어의 **CSS 속성**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>기본 보기의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 시스템에서 비디오를 재생할 수 없는 경우에 표시되는 오류 메시지를 현지화할 수 있습니다.
 
-다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+[사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)을 참조하세요.
 
 예 - 비디오 플레이어 크기를 512 x 288픽셀로 설정한 비디오 뷰어를 설정합니다.
 
@@ -53,16 +53,16 @@ background-color: transparent;
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
-**폐쇄 캡션의 CSS 속성**
+**자막의 CSS 속성**
 
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>닫힌 캡션 텍스트 배경 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>캡션 텍스트 색상을 닫습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -111,15 +111,15 @@ background-color: transparent;
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 아이콘 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-왼쪽 </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 아이콘의 왼쪽 여백은 일반적으로 아이콘 폭의 절반을 뺀 것입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +127,7 @@ background-color: transparent;
    <td colname="col2"> <p> 애니메이션 아이콘 위쪽 여백으로, 일반적으로 아이콘 높이의 절반을 뺍니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 손잡이 아트워크. </p> </td> 
   </tr> 
  </tbody> 

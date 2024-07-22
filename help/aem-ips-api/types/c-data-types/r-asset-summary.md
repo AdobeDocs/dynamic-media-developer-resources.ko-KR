@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 12%
+source-wordcount: '125'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 12%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | assetHandle | `xsd:string` | 에셋 핸들. |
-| 유형 | `xsd:string` | 자산 유형. 에셋 유형 상수는 가능한 값을 정의합니다. 선택적. |
+| 유형 | `xsd:string` | 에셋 유형. 에셋 유형 상수는 가능한 값을 정의합니다. 선택적. |
 | name | `xsd:string` | 에셋 이름. 선택적. |
 | 폴더 | `xsd:string` | 에셋이 포함된 폴더입니다. |
 | 파일 이름 | `xsd:string` | 에셋의 파일 이름입니다. |

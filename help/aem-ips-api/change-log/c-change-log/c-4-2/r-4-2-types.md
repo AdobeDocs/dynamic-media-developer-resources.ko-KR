@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ IPS API 버전 4.2의 새로운 데이터 형식과 변경된 데이터 형식�
 * `ImageSetInfo`
 * `RenderSetInfo`
 
-**AssetsJob 재처리**
+**ReprocessAssetsJob**
 
 추가된 매개 변수:
 
@@ -49,7 +49,7 @@ IPS API 버전 4.2의 새로운 데이터 형식과 변경된 데이터 형식�
 * `preserveCrop`
 * `readyForPublish`
 
-**업로드 디렉터리 작업**
+**UploadDirectoryJob**
 
 추가된 매개 변수:
 

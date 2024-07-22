@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 5%
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph"> \일반 </span> </td> 
+   <td> <span class="codeph"> \plain </span> </td> 
    <td> <p>문자 서식을 기본값으로 재설정합니다. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>만. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
    <td> <p>글꼴. </p> </td> 
-   <td> <p> <span class="codeph"> \fonttbl </span> 색인입니다. </p> </td> 
+   <td> <p> <span class="codeph"> \fonttbl </span> 인덱스. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs <span class="varname"> N </span> </span> </td> 
@@ -42,7 +42,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf <span class="varname"> N </span> </span> </td> 
-   <td> <p>글꼴 색상. </p> </td> 
+   <td> <p>글꼴 색입니다. </p> </td> 
    <td> <p>0 기반 색인을 색상표로 변환. </p> </td> 
   </tr> 
   <tr> 
@@ -73,12 +73,12 @@ ht-degree: 5%
       <li id="li_F9382148CCCC4A6AB373DD96D28B71EE"> <span class="codeph"> \uld </span> </li> 
       <li id="li_141276B2082E4AD0A8C7D3BDDADD6EE2"> <span class="codeph"> \uldash </span> </li> 
       <li id="li_32CE2C69EEFE462FB21F49FF52A65B0B"> <span class="codeph"> \uldashd </span> </li> 
-      <li id="li_DCF3CD4F884845A5A6B84BDD8DB3A572"> <span class="codeph"> \uldashdd </span> </li> 
+      <li id="li_DCF3CD4F884845A5A6B84BDD8DB3A572"> <span class="codeph"> \uldashed </span> </li> 
       <li id="li_FDEF96CCE14D41BDB878AADCFF73068F"> <span class="codeph"> \uldb </span> </li> 
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave </span> </li> 
-     </ul> </p> <p>이러한 기능은 현재 표준으로 구현됩니다 <span class="codeph"> \ul </span> 밑줄. 다른 모든 RTF 밑줄 명령은 무시됩니다. </p> </td> 
+     </ul> </p> <p>이러한 기능은 현재 표준 <span class="codeph"> \ul </span> 밑줄로 구현됩니다. 다른 모든 RTF 밑줄 명령은 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone </span> </td> 
@@ -93,12 +93,12 @@ ht-degree: 5%
   <tr> 
    <td> <span class="codeph"> \caps </span> </td> 
    <td> <p>대문자 </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>만. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps </span> </td> 
    <td> <p>소문자("작은 대문자") </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> 만 해당. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span>만. </p> </td> 
   </tr> 
  </tbody> 
 </table>

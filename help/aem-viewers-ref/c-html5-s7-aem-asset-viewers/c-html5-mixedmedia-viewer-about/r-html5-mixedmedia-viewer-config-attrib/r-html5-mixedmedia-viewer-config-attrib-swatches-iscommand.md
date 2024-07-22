@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '62'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> 모든 견본에 적용되는 이미지 제공 명령 문자열. URL에 지정된 경우 다음 모든 항목을 HTTP 인코딩해야 합니다. <span class="codeph"> 및</span> 및 <span class="codeph"> =</span> 다음으로: <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>, 각각 </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 모든 견본에 적용되는 이미지 제공 명령 문자열. URL에 지정되는 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>의 모든 항목을 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>(으)로 HTTP 인코딩해야 합니다. </p> <p> <p>참고: 이미지 크기 조정 조작 명령은 지원되지 않습니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

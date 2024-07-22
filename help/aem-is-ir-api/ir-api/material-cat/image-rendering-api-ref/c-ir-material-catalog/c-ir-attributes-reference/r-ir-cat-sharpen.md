@@ -22,7 +22,7 @@ ht-degree: 10%
 
 ## 기본값 {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-상속 위치 `default::Sharpen` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::Sharpen`에서 상속됩니다.
 
 ## 참조 {#section-85393c62428f49739a2510f9427d3607}
 

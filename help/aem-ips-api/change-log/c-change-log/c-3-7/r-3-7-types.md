@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '41'
 ht-degree: 2%
 
 ---
@@ -32,4 +32,4 @@ IPS API 버전 3.7의 새로운 데이터 형식과 변경된 데이터 형식�
 
 **자산**
 
-* 추가됨 `ZipInfo`.
+* `ZipInfo`을(를) 추가했습니다.

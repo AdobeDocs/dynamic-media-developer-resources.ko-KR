@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 26%
 |---|---|---|---|
 | company핸들 | `xsd:string` | 예 | 회사 핸들. |
 | assetHandle | `xsd:string` | 예 | 에셋 핸들. |
-| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] 설정하거나 업데이트할 XMP 패킷입니다. |
+| compressedPacket | `xsd:Base 64 binary` | 예 | 설정하거나 업데이트할 XMP 패킷 [!DNL zlib-compressed]개입니다. |
 
 **출력(updateXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| 성공 | `xsd:boolean` | 예 | 반환 `true` 패킷이 업데이트된 경우. |
+| 성공 | `xsd:boolean` | 예 | 패킷이 업데이트된 경우 `true`을 반환합니다. |
 
 ## 예제 {#section-38b556b94e5044bf97a954519ff6c212}
 

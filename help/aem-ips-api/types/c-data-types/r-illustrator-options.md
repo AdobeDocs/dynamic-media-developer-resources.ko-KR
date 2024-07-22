@@ -24,5 +24,5 @@ Adobe Illustrator 파일 옵션
 |---|---|---|
 | [!DNL process] | `xsd:string` | Illustrator 프로세스 선택 |
 | [!DNL resolution] | `xsd:string` | 파일 확인. |
-| 색상 공간 | `xsd:string` | Target 색상 공간. |
+| 색상 공간 | `xsd:string` | 대상 색상 공간. |
 | [!DNL alpha] | `xsd:boolean` | 파일을 이미지로 래스터화할지 여부입니다. 원본 파일이 오버레이 로고를 만들기 위해 이러한 방식으로 정의된 경우 투명 배경을 만듭니다. |

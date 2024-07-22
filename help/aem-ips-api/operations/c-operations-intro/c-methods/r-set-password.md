@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 5%
+source-wordcount: '236'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->*전용* 다음 `IpsAdmin` 사용자 유형은 다른 사용자에 대해 setPassword 호출을 실행할 수 있는 권한이 있습니다.
+>*`IpsAdmin` 사용자 유형만* 다른 사용자에 대해 setPassword 호출을 실행할 수 있습니다.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -49,7 +49,7 @@ ht-degree: 5%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 사용자 핸들 </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> userHandle </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>사용자 핸들. </p> </td> 
@@ -64,10 +64,10 @@ ht-degree: 5%
       <li id="li_71224B3A89C8461AB689BAD383EC8CEA">최소 암호 길이는 8자입니다. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">암호에는 다음 문자 클래스의 문자가 하나 이상 포함되어야 합니다. 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">소문자 영어 문자 예를 들어, <span class="codeph"> a b c d e </span> 등 </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">대문자 영문. 예를 들어, <span class="codeph"> 에이 비 씨 디 이 </span> 기타 등등. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">숫자. 예를 들어, <span class="codeph"> 1 2 3 4 5 </span> 기타 등등. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자 예를 들어 다음 중 하나를 사용할 수 있습니다. <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">소문자 영어 문자 예: <span class="codeph"> a b c d e </span> 등 </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">대문자 영문. 예를 들어 <span class="codeph"> A B C D E </span> 등입니다. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">숫자. 예를 들어 <span class="codeph"> 1 2 3 4 5 </span> 등입니다. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자 예를 들어 <span class="codeph"> &amp;grave; ~ ! 중 하나를 사용할 수 있습니다. @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -86,7 +86,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-이 코드 샘플은 사용자 암호를 만듭니다. 다음 이유로 암호가 만료되지 않습니다. `passwordExpires` 이(가) 생략되었습니다.
+이 코드 샘플은 사용자 암호를 만듭니다. `passwordExpires`이(가) 생략되어 암호가 만료되지 않습니다.
 
 **요청**
 

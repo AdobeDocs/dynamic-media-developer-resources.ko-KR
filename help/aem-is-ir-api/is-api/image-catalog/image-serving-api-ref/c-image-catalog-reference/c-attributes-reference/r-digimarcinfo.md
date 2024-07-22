@@ -20,12 +20,12 @@ ht-degree: 5%
 
 쉼표로 구분된 정수 4개.
 
-다음을 참조하십시오 [catalog::DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md) 을 참조하십시오.
+자세한 내용은 [catalog::DigimarcInfo](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md)을(를) 참조하십시오.
 
 ## 기본값 {#section-c77d2620f90148d5ad9041131180d611}
 
-상속 위치 `default::DigimarcInfo` 필드가 지정되지 않았거나 비어 있는 경우.
+필드가 지정되지 않았거나 비어 있는 경우 `default::DigimarcInfo`에서 상속됩니다.
 
 ## 참조 {#section-543464e27f0a43249860a883b1ebfa15}
 
-[attribute::DigimarcId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68) , [catalog::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)
+[특성::DigimarcId](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68) , [카탈로그::DigimarcInfo](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba)

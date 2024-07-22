@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # RenderSettings{#rendersettings}
 
-기본 고급 렌더링 설정입니다. 의 기본값 `catalog::RenderSettings`.
+기본 고급 렌더링 설정입니다. `catalog::RenderSettings`의 기본값입니다.
 
 ## 속성 {#section-fa89db09aeeb420292cf783f07b8547a}
 
@@ -22,8 +22,8 @@ ht-degree: 5%
 
 ## 기본값 {#section-4e76784aeecd4f09a33124aded7406cb}
 
-`default::RenderSettings` 지정되지 않았거나 비어 있는 경우.
+지정하지 않았거나 비어 있는 경우 `default::RenderSettings`입니다.
 
 ## 참조 {#section-f35d7772f4b744d1846331e19ea99173}
 
-[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)
+[rs=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rs.md#reference-d20cefaaa6cd4f449d1591c87959b4cf) , [카탈로그::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd)

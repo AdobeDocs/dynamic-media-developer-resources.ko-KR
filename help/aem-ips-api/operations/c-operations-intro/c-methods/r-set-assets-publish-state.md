@@ -8,7 +8,7 @@ exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 자산 배치를 게시할 준비가 되었는지 여부를 결정합니다.
 
-배치 버전: [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+[setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563)의 일괄 처리 버전입니다.
 
 ## 승인된 사용자 유형 {#section-0804726f683944dbbe9acfc3d35ccf25}
 

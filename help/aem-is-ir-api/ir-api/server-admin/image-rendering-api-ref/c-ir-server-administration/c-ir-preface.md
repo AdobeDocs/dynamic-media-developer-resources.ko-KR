@@ -8,7 +8,7 @@ exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 이 설명서에서는 서버 관리 문제에 대해 설명하고 Dynamic Media 이미지 렌더링에 대한 구성 설정에 대해 설명합니다.
 
-**대상**
+**의도한 대상**
 
 이 설명서는 Dynamic Media 이미지 렌더링을 설치, 구성 및 관리해야 하는 시스템 관리자 및 웹 마스터를 위한 것입니다.
 

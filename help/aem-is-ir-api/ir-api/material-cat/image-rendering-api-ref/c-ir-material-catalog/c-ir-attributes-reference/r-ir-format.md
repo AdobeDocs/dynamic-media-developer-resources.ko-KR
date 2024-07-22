@@ -18,13 +18,13 @@ ht-degree: 10%
 
 ## 속성 {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-텍스트 문자열입니다. 은(는) 이 지원하는 형식 토큰 중 하나여야 합니다. `fmt=` 명령:
+텍스트 문자열입니다. `fmt=` 명령에서 지원하는 형식 토큰 중 하나여야 합니다.
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## 기본값 {#section-256b0f8afdd846eaac68ec2019258708}
 
-상속 위치 `default::Format` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::Format`에서 상속됩니다.
 
 ## 참조 {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

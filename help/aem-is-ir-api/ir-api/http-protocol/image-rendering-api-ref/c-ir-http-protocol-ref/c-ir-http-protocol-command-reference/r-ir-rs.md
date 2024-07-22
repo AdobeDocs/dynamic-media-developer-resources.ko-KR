@@ -20,7 +20,7 @@ ht-degree: 3%
 
 <table id="simpletable_4B028996E5824FC18B9749D1A6A3C2E3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 값</span> </p> </td> 
   <td class="stentry"> <p>렌더링 설정 문자열. </p></td> 
  </tr> 
 </table>
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 예 {#section-47e4811882574441a4d517e42a35f352}
 
-이미지 작성에서 몇 가지 실험을 수행한 결과, USM(unsharp-masking)이 제공된 응용 프로그램과 재료에 대해 정확한 선명도를 제공한다고 판명되었습니다. USM을 구성하는 렌더링 설정 문자열이 `rs=` 이 자료에 사용할 명령:
+이미지 작성에서 몇 가지 실험을 수행한 결과, USM(unsharp-masking)이 제공된 응용 프로그램과 재료에 대해 정확한 선명도를 제공한다고 판명되었습니다. USM을 구성하는 렌더링 설정 문자열이 이 자료에 사용할 `rs=` 명령에 복사됩니다.
 
 `…&rs=U2V20W50X2&…`
 

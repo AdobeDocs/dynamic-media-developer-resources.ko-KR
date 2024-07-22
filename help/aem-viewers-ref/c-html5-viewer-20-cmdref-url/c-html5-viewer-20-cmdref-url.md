@@ -16,4 +16,4 @@ ht-degree: 0%
 
 모든 뷰어에 공통되는 명령 참조 설명서입니다.
 
-아래 나열된 명령은 URL을 통해 또는 API를 사용하여 적용됩니다 `setParam()` 또는 `setParams()` 메서드를 사용합니다.
+아래 나열된 명령은 URL을 통해 또는 API `setParam()` 또는 `setParams()` 메서드를 사용하여 적용됩니다.

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 47%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
@@ -36,7 +36,7 @@ IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>이미지 </p></td> 
-  <td class="stentry"> <p> 다운샘플링색상, 회색 및 모노에 대한 , 해상도, 임계값 및 압축 </p> </td> 
+  <td class="stentry"> <p> 색상, 회색 및 모노에 대한 다운샘플링, 해상도, 임계값 및 압축 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>글꼴 </p></td> 
@@ -44,7 +44,7 @@ IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>색상 </p></td> 
-  <td class="stentry"> <p> 색상 전략(이미지에만 태그 지정은 모든 항목에 태그 지정으로 처리됨) </p> <p> 문서 렌더링 의도 </p> <p> 4.2.5에서는 다음 작업 공간만 지원됩니다. </p> <p> 
+  <td class="stentry"> <p> 색상 전략(태그만 이미지는 모두 태그로 처리됨) </p> <p> 문서 렌더링 의도 </p> <p> 4.2.5에는 다음 작업 공간만 지원됩니다. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RGB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>고급 </p></td> 
-  <td class="stentry"> <p>[OPI 설명 유지]가 항상 켜져 있음. </p></td> 
+  <td class="stentry"> <p>OPI 주석 보존은 항상 켜져 있습니다. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>표준 </p></td> 

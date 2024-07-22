@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # RootUrl{#rooturl}
 
-상대 이미지 URL의 루트 URL입니다. 상대 이미지 URL의 루트 URL을 지정합니다. 다음`attribute::RootUrl` 대신 사용됨 `attribute::RootPath` 다음과 같은 경우 `src=` 값은 { 중괄호 }로 묶입니다.
+상대 이미지 URL의 루트 URL입니다. 상대 이미지 URL의 루트 URL을 지정합니다. `src=` 값이 { 중괄호 }로 묶인 경우 `attribute::RootPath` 대신 `attribute::RootUrl`이(가) 사용됩니다.
 
 ## 속성 {#section-69cd0f71ea614770a8778c745d23197a}
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-7a81569728474725a70f3a2cc4d48e85}
 
-상속 위치 `default::RootUrl` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 상대 URL은 이 재질 카탈로그에서 지원되지 않습니다.
+정의되지 않은 경우 `default::RootUrl`에서 상속됩니다. 정의되어 있지만 비어 있는 경우 상대 URL은 이 재질 카탈로그에서 지원되지 않습니다.
 
 ## 참조 {#section-e33bbe7034b24367b68f9142718a8be1}
 

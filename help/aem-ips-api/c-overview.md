@@ -26,7 +26,6 @@ IPS API는 표준 SOAP 및 HTTP 프로토콜을 사용하며 이러한 표준을
 >
 >* [IPS 웹 서비스 WSDL 버전](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
 >* [작업 메서드](operations/c-operations-intro/c-methods/c-methods.md)
->* [데이터 유형](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
+>* [데이터 형식](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
 >* [문자열 상수](string-constants/c-string-constants/c-string-constants.md)
->* [장애](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
-
+>* [오류](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)

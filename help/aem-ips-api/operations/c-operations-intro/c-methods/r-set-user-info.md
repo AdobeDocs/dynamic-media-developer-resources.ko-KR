@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 16%
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 | 이름 | `xsd:string` | 예 | 이름. |
 | 성 | `xsd:string` | 예 | 성. |
 | 이메일 | `xsd:string` | 예 | 사용자 이메일. |
-| 기본 역할 | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나, `IpsAdmin` 역할은 다른 회사별 설정을 무시합니다. |
+| 기본 역할 | `xsd:string` | 예 | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 `IpsAdmin` 역할은 다른 회사별 설정을 무시합니다. |
 | passwordExpires | `xsd:dateTime` | 아니요 | 의 암호 만료일을 설정합니다. |
 | isValid | `xsd:boolean` | 예 | 사용자가 유효한 IPS 사용자인지 확인합니다. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | 예 | 회사 핸들의 배열입니다. |

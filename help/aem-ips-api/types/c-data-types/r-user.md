@@ -26,6 +26,6 @@ ht-degree: 9%
 | 이름 | `xsd:string` | 사용자 이름. |
 | 성 | `xsd:string` | 사용자 성. |
 | 이메일 | `xsd:string` | 이메일 주소. |
-| 기본 역할 | `xsd:string` | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 사용자 역할 `IpsAmin` 다른 사용자 역할을 무시합니다. |
+| 기본 역할 | `xsd:string` | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 사용자 역할 `IpsAmin`은(는) 다른 사용자 역할을 재정의합니다. |
 | isValid | `xsd:boolean` | 사용자가 유효한지 여부를 결정합니다. |
 | passwordExpires | `xsd:dateTime` | 암호 만료 날짜를 설정합니다. |

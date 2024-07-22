@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b30ce72f-7c74-407c-bd4a-042b84c469e9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 2%
 
 ## 제한 사항 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-이미지 제공이 (으)로 다시 되돌림 `DefaultImageMode=0` 이미지 렌더링, FXG 또는 `req=set` 요청이 실패합니다.
+중첩 이미지 렌더링, FXG 또는 `req=set` 요청이 실패할 경우 이미지 제공이 다시 `DefaultImageMode=0`(으)로 되돌아갑니다.
 
 ## 기본값 {#section-9e318524a2a5496386901286748c7ee7}
 
-상속 위치 `default::DefaultImage` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::DefaultImage`에서 상속됩니다.
 
 ## 참조 {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 

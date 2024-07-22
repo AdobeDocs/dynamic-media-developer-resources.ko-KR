@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Dynamic Media 이미지 서비스를 사용하기 전에 시스템이 시스템 
 
 >[!NOTE]
 >
->AMD64 및 Intel® EM64T를 지원하는 프로세서가 장착된 시스템은 일반적으로 NUMA(Non-Uniform Memory Architecture) 플랫폼으로 구성됩니다. 이는 커널이 단일 메모리 노드를 구성하는 것이 아니라 부트 시에 여러 메모리 노드를 구성하는 것을 의미한다. 다중 노드 구성은 다른 노드가 소진되기 전에 하나 이상의 노드에서 메모리 소진을 초래할 수 있다. 메모리 소진이 발생하면 커널은 프로세스를 종료하기로 결정할 수 있습니다(예: 이미지 서버 또는 [!DNL Platform Server]사용 가능한 메모리가 있어도) Adobe 따라서 이러한 시스템을 실행하는 경우 NUMA를 끄는 것이 좋습니다. 사용 `numa=off` 시작 옵션을 사용하여 커널이 이러한 프로세스를 중지하지 않도록 합니다.
+>AMD64 및 Intel® EM64T를 지원하는 프로세서가 장착된 시스템은 일반적으로 NUMA(Non-Uniform Memory Architecture) 플랫폼으로 구성됩니다. 이는 커널이 단일 메모리 노드를 구성하는 것이 아니라 부트 시에 여러 메모리 노드를 구성하는 것을 의미한다. 다중 노드 구성은 다른 노드가 소진되기 전에 하나 이상의 노드에서 메모리 소진을 초래할 수 있다. 메모리 소진이 발생하면 커널은 사용 가능한 메모리가 있더라도 프로세스를 종료하기로 결정할 수 있습니다(예: 이미지 서버 또는 [!DNL Platform Server]). Adobe 따라서 이러한 시스템을 실행하는 경우 NUMA를 끄는 것이 좋습니다. 커널이 이러한 프로세스를 중지하지 않도록 하려면 `numa=off` 시작 옵션을 사용하십시오.
 
 **Windows**
 
@@ -40,7 +40,7 @@ Dynamic Media 이미지 서비스를 사용하기 전에 시스템이 시스템 
 * 설치 및 기본 작업을 위해 사용 가능한 하드 디스크 공간 2GB, 소스 이미지, 로그, 데이터 캐시 및 매니페스트 파일에 추가 디스크 공간이 필요합니다.
 * 고속 이더넷 네트워크 인터페이스 카드.
 
-**참고(Linux®):** SELinux가 켜져 있으면 이미지 제공이 작동하지 않습니다. 이 옵션은 기본적으로 활성화되어 있습니다. SELinux를 비활성화하려면 [!DNL /etc/selinux/config] 파일을 만들고 SELinux 값을 다음 위치에서 변경합니다.
+**참고(Linux®):** 이미지 제공이 SELinux를 켠 상태에서는 작동하지 않습니다. 이 옵션은 기본적으로 활성화되어 있습니다. SELinux를 비활성화하려면 [!DNL /etc/selinux/config] 파일을 편집하고 SELinux 값을 다음 위치에서 변경합니다.
 
 `SELINUX=enforcing`
 
@@ -48,7 +48,7 @@ Dynamic Media 이미지 서비스를 사용하기 전에 시스템이 시스템 
 
 `SELINUX=disabled`
 
-**참고(Linux®):** 서버의 호스트 이름을 IP 주소로 확인할 수 있는지 확인합니다. 불가능한 경우 정규화된 호스트 이름과 IP 주소를 추가합니다. [!DNL /etc/hosts] 다음 예제와 같습니다.
+**참고(Linux®):** 서버의 호스트 이름을 IP 주소로 확인할 수 있는지 확인하십시오. 가능하지 않은 경우 다음 예제와 같이 정규화된 호스트 이름과 IP 주소를 [!DNL /etc/hosts]에 추가하십시오.
 
 `<ip address> <fully qualified hostname>`
 

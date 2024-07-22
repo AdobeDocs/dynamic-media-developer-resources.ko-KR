@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 90ec189e-6de4-44b3-8760-1e8636b919ba
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 2%
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p>패딩을 포함하여 위쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +39,7 @@ ht-degree: 2%
    <td colname="col2"> <p>패딩을 포함하여 오른쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 비디오 시간 컨트롤의 폭입니다. Internet Explorer 8 이상이 제대로 작동하려면 이 속성이 필요합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ ht-degree: 2%
    <td colname="col2"> <p>시간 표시 텍스트에 사용할 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>시간 표시 텍스트에 사용할 글꼴 색상입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ ht-degree: 2%
 
 ## 예 {#section-e8caea0a303c425a8a637c2a47c06355}
 
-비디오 시간을 밝은 회색(16진수)으로 설정합니다. `#BBBBBB`)를 지정할 수 있습니다. 12픽셀 크기로, 컨트롤 막대의 위쪽에서 15픽셀, 컨트롤 막대의 위쪽 및 오른쪽 가장자리에서 80픽셀이 됩니다.
+비디오 시간을 밝은 회색(16진수 `#BBBBBB`)으로 설정합니다. 이 값은 12픽셀이며 컨트롤 막대의 맨 위에서 15픽셀, 컨트롤 막대의 맨 위와 오른쪽 가장자리에서 80픽셀입니다.
 
 ```
 .s7interactivevideoviewer .s7videotime { 

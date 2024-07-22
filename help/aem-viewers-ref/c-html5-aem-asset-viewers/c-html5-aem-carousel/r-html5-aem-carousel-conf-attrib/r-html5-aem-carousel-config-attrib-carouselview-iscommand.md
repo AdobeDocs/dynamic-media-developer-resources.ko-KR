@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 8%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
-   <td colname="col2"> <p> 배너 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정되는 경우 <span class="codeph"> 및</span> 및 <span class="codeph"> =</span> 은(는) (으)로 HTTP 인코딩되어야 합니다. <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>, 각각 </p> </td> 
+   <td colname="col2"> <p> 배너 이미지에 적용되는 이미지 제공 명령 문자열. URL에 지정되는 경우 <span class="codeph"> &amp;</span> 및 <span class="codeph"> =</span>은(는) 각각 <span class="codeph"> %26</span> 및 <span class="codeph"> %3D</span>(으)로 HTTP 인코딩이 적용되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

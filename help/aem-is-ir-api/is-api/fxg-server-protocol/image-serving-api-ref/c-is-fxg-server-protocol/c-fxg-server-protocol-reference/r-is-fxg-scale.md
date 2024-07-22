@@ -1,18 +1,18 @@
 ---
 description: 이미지 크기 조정. 전체 해상도 이미지를 기준으로 이미지의 배율을 조정합니다.
 solution: Experience Manager
-title: scale
+title: 크기 조절
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 9%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
-# scale{#scale}
+# 크기 조절{#scale}
 
 이미지 크기 조정. 전체 해상도 이미지를 기준으로 이미지의 배율을 조정합니다.
 

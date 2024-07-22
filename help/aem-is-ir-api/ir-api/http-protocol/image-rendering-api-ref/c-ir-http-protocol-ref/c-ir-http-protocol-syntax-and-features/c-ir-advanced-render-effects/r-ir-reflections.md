@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '137'
+ht-degree: 2%
 
 ---
 
@@ -38,18 +38,18 @@ ht-degree: 3%
    <td> <p>없음 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> 거칠어= </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> 거칠게= </span> </a> </p> </td> 
    <td> <p>표면 거칠기 </p> </td> 
    <td> <p>40% </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> type=</span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35" type="reference" format="dita" scope="local"> <span class="codeph"> 유형=</span> </a> </p> </td> 
    <td> <p>재질 유형 </p> </td> 
    <td> <p>0(알 수 없음) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-렌더러는 의 범위를 조정합니다. `gloss=` 및 `rough=` 다음에 따른 속성 `type=`. 직물과 같은 일부 재료 유형은 돌 또는 금속과 같은 재료 유형보다 반사성이 적다. 더욱이, 하나에 대해 특정된 동일한 양의 광택은 종종 다른 반사 효과를 초래한다. 속성 `gloss=` 거칠기는 다음과 같은 경우에 상당히 넓은 색역을 갖는다. `type=` 이(가) 지정되지 않았거나 가 (으)로 설정된 경우 `0`.
+렌더러가 `type=`에 따라 `gloss=` 및 `rough=` 특성의 범위를 조정합니다. 직물과 같은 일부 재료 유형은 돌 또는 금속과 같은 재료 유형보다 반사성이 적다. 더욱이, 하나에 대해 특정된 동일한 양의 광택은 종종 다른 반사 효과를 초래한다. `type=`이(가) 지정되지 않았거나 `0`(으)로 설정된 경우 특성 `gloss=` 및 거칠기의 색역이 매우 넓습니다.
 
-`glossmap=` 픽셀 단위로 재료의 광택을 제어하는 데 사용됩니다.
+`glossmap=`을(를) 사용하여 픽셀별로 재료의 광택을 제어합니다.

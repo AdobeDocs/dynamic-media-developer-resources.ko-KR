@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 매개 변수 {#section-9f747df071854c6896fdbb95684ad947}
 
-을 사용하여 자산의 게시 컨텍스트 상태 설정 `setAssetsContextState`.
+`setAssetsContextState`(으)로 자산의 게시 컨텍스트 상태를 설정합니다.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -51,5 +51,4 @@ ht-degree: 9%
 
 >[!MORELIKETHIS]
 >
->* [게시 상태](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
-
+>* [Publish 상태](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

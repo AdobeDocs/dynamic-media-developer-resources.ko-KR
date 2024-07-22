@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '167'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>전체 디버그 정보. 해당되는 경우 Java 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않고 대신 레벨 2 정보가 반환됩니다. <span class="codeph"> $error.message</span>. 이 정보는 Dynamic Media 기술 지원에 문제를 보고할 때 유용할 수 있습니다. </p></td> 
+  <td class="stentry"> <p>전체 디버그 정보. 해당되는 경우 Java 스택 추적을 추가합니다. 오류 이미지에는 스택 추적이 포함되지 않고 대신 <span class="codeph"> $error.message</span>에 수준 2 정보를 반환합니다. 이 정보는 Dynamic Media 기술 지원에 문제를 보고할 때 유용할 수 있습니다. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 기본값 {#section-8f27098e509945a18676aca0675c8f41}
 
-상속 위치 `default::ErrorDetail` 지정되지 않았거나 비어 있는 경우.
+지정하지 않았거나 비어 있는 경우 `default::ErrorDetail`에서 상속됩니다.
 
 ## 참조 {#section-5451b0525ed74121950bfc34726c3970}
 

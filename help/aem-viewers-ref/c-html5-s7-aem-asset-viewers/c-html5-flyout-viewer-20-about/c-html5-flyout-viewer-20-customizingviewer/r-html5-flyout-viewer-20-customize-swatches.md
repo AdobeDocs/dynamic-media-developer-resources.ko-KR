@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7040edf2-4356-4493-b886-8c5694f5863a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 2%
+source-wordcount: '439'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 모든 썸네일이 컨테이너의 너비에 맞지 않는 경우에만 스크롤 단추가 데스크탑에 표시됩니다. 모바일 장치에서 또는 썸네일이 컨테이너 너비에 맞을 수 있는 경우 스크롤 버튼이 표시되지 않습니다.
 
-**견본의 CSS 속성**
+견본의 **CSS 속성**
 
 다음 CSS 클래스 선택기를 사용하여 견본 컨테이너의 모양이 제어됩니다.
 
@@ -37,11 +37,11 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 견본의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>견본의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -77,8 +77,8 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 각 썸네일 주변의 가로 및 세로 여백 크기입니다. 실제 썸네일 간격은 다음에 설정된 왼쪽 및 오른쪽 여백의 합계와 같습니다. <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
+   <td colname="col2"> <p> 각 썸네일 주변의 가로 및 세로 여백 크기입니다. 실제 썸네일 간격은 <span class="codeph"> .s7thumbcell </span>에 설정된 왼쪽 및 오른쪽 여백의 합계와 같습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,15 +108,15 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 썸네일 견본의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>썸네일 견본의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>썸네일 견본의 테두리입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->썸네일은 `state` 속성 선택기: 다른 썸네일 상태에 다른 스킨을 적용하는 데 사용됩니다. 특히, `state="selected"` 는 현재 기본 보기에 표시된 이미지의 썸네일에 해당합니다. `state="default"` 은 나머지 썸네일에 해당합니다. `state="over"` 마우스를 가리킬 때 사용됩니다.
+>썸네일은 서로 다른 썸네일 상태에 다른 스킨을 적용하는 데 사용되는 `state` 특성 선택기를 지원합니다. 특히 `state="selected"`은(는) 현재 기본 보기에 표시된 이미지의 썸네일에 해당하고, `state="default"`은(는) 나머지 썸네일에 해당하며, `state="over"`은(는) 마우스 가리키기에 사용됩니다.
 
 예 - 56 x 56픽셀인 썸네일을 설정하려면 밝은 회색의 기본 테두리와 어두운 회색의 선택된 테두리를 사용합니다.
 
@@ -150,7 +150,7 @@ ht-degree: 2%
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`, `bottom`, 및 `right` 속성. 대신 뷰어 로직은 뷰어를 자동으로 배치합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 로직은 뷰어를 자동으로 배치합니다.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
@@ -161,29 +161,29 @@ CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 단추의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>스크롤 단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기: 단추 상태에 다른 스킨을 적용하는 데 사용됩니다. `up`, `down`, `over`, 및 `disabled`.
+>이 단추는 단추 상태 `up`, `down`, `over` 및 `disabled`에 다른 스킨을 적용하는 데 사용되는 `state` 특성 선택기를 지원합니다.
 
-버튼 도구 팁은 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) 추가 정보.
+버튼 도구 팁은 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27)를 참조하십시오.
 
 예 - 56 x 56픽셀이고 각 상태에 대해 서로 다른 아트웍을 가진 스크롤 단추를 설정하려면 다음을 수행합니다.
 

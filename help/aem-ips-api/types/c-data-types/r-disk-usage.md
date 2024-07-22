@@ -8,7 +8,7 @@ exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 14%
 | companyName | `xsd:string` | 회사 이름. |
 | imageCount | `xsd:int` | 저장된 이미지 수. |
 | 디스크 공간 사용 | `xsd:long` | 총 파일 면(KB)입니다. |
-| 마지막 수정일 | `xsd:dateTime` | 날짜, 시간 및 시간대 `DiskUsage` 유형이 마지막으로 수정되었습니다. |
+| 마지막 수정일 | `xsd:dateTime` | `DiskUsage` 유형을 마지막으로 수정한 날짜, 시간 및 시간대입니다. |

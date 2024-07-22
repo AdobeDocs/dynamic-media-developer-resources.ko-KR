@@ -8,7 +8,7 @@ exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -49,22 +49,22 @@ IPS(이미지 프로덕션 시스템)에서 자산을 반환합니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사가 처리합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUser핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>특정 사용자 가장. 관리자만 사용합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 액세스 그룹 핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>그룹별 필터링. </p> </td> 
+   <td colname="col4"> <p>그룹별로 필터링합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -74,13 +74,13 @@ IPS(이미지 프로덕션 시스템)에서 자산을 반환합니다.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>응답에 포함된 필드 및 하위 필드. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> exclude필드 배열</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
    <td colname="col4"> <p>응답에서 제외된 필드 및 하위 필드. </p> </td> 
   </tr> 

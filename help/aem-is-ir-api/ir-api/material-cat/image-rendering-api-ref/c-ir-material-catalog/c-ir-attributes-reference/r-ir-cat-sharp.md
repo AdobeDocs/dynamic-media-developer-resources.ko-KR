@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # 샤프{#sharp}
 
-기본 재질 선명하게 하기. 특정 카탈로그 레코드에 유효한 값이 없는 경우 기본 재질 선명하게 하기 모드를 설정합니다. `catalog::Sharp` 값.
+기본 재질 선명하게 하기. 특정 카탈로그 레코드에 유효한 `catalog::Sharp` 값이 없는 경우 기본 재질 선명하게 하기 모드를 설정합니다.
 
 ## 속성 {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -41,8 +41,8 @@ ht-degree: 10%
 
 ## 기본값 {#section-613130fca7c04ce7a7734265f27aa1ea}
 
-상속 위치 `default::Sharp` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::Sharp`에서 상속됩니다.
 
 ## 참조 {#section-7771824f2822443ab0297e8793bb48ae}
 
-[catalog::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a), [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)
+[카탈로그::Sharp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a), [카탈로그::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-rendersettings-dataref.md#reference-9ce753ae4096455eadcc12ac064de711)

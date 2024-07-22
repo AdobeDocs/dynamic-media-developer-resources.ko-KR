@@ -46,12 +46,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:CabinetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:CabinetInfo</span> </td> 
    <td colname="col3"> 캐비닛 자산 유형에 대한 속성입니다. </td> 
   </tr> 
   <tr> 
@@ -66,27 +66,27 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cssInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:CssInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:CssInfo</span> </td> 
    <td colname="col3"> CSS 파일에 대한 세부 정보. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">가상 파일 이름을 반환합니다. 전체 가상 파일 경로는 <span class="codeph"> 폴더</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">가상 파일 이름을 반환합니다. 전체 가상 파일 경로는 <span class="codeph"> 폴더</span>+<span class="codeph"> fileName</span>입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -111,17 +111,17 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:이미지 정보</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:ImageInfo</span> </td> 
    <td colname="col3"> 이미지 자산에 대한 속성입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -181,22 +181,22 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -206,28 +206,28 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 자산을 게시할지 여부를 나타내는 플래그를 설정합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL renderSceneInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:RenderSceneInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:RenderSceneInfo</span> </td> 
    <td colname="col3"> 렌더링 장면 자산의 속성입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL subType]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">하위 유형 값을 지원하는 일반 자산 하위 유형(예: <span class="codeph"> 자산 집합</span>). </td> 
+   <td colname="col3">하위 유형 값을 지원하는 일반 자산 하위 유형(예: <span class="codeph"> AssetSet</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
@@ -241,7 +241,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:TemplateInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:TemplateInfo</span> </td> 
    <td colname="col3"> 템플릿 에셋의 속성입니다. </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">자산 유형. 다음을 참조하십시오 <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> 자산 유형</a> 값. </td> 
+   <td colname="col3">에셋 유형. 값은 <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local">개 자산 유형</a>을 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -261,7 +261,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> <p>비디오 자산의 속성입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -281,32 +281,32 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL watermarkInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:WatermarkInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:WatermarkInfo</span> </td> 
    <td colname="col3"> 워터마크 자산의 속성입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:창 커버링 정보</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:WindowCoveringInfo</span> </td> 
    <td colname="col3"> 자산을 포함하는 창의 속성입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL xmlInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:XmlInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:XmlInfo</span> </td> 
    <td colname="col3"> XML 자산의 속성입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:XslInfo</span> </td> 
+   <td colname="col2"> <span class="codeph">개 유형:XslInfo</span> </td> 
    <td colname="col3"> XSL 자산 속성. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 코드 구 </span> </td> 
+   <td colname="col2"> <span class="codeph"> 코드 구문 </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

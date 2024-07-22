@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 `maskUse=norm|invert|off`
 
-다음 표는 의 효과를 보여줍니다. `maskUse=` 사용 가능 여부 및 레이어 이미지와 연관된 마스크(알파 채널)의 유형에 따라 달라집니다.
+다음 표에서는 레이어 이미지와 연결된 마스크(알파 채널)의 사용 가능 여부 및 유형에 따라 `maskUse=`의 효과를 보여 줍니다.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
@@ -26,18 +26,18 @@ ht-degree: 2%
    <th class="entry"> <b> 값</b> </th> 
    <th class="entry"> <b> 마스크 없음</b> </th> 
    <th class="entry"> <b> 연결되지 않은 알파(또는 별도의 마스크 이미지)</b> </th> 
-   <th class="entry"> <b> 관련(사전 곱함) 알파</b> </th> 
+   <th class="entry"> <b> 관련(미리 곱함) 알파</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 꺼짐 </span> </p> </td> 
+   <td> <p> <span class="codeph"> / </span> </p> </td> 
    <td> <p> 불투명 이미지 사각형 </p> </td> 
    <td> <p> 불투명 이미지 사각형 </p> </td> 
    <td> <p> 단색 검정으로 채워진 사각형 위의 이미지 전경 영역 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 규범 </span> </p> </td> 
+   <td> <p> <span class="codeph"> 표준 </span> </p> </td> 
    <td> <p> 불투명 이미지 사각형 </p> </td> 
    <td> <p> 이미지의 전경 영역 </p> </td> 
    <td> <p> 이미지 또는 레이어의 전경 영역 </p> </td> 
@@ -53,9 +53,9 @@ ht-degree: 2%
 
 ## 속성 {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-이미지 또는 레이어 속성. 다음과 같은 경우 레이어 0에 적용됩니다. `layer=comp`. 효과 레이어에 지정된 경우 명령은 부모 레이어에서 상속된 마스크를 수정합니다.
+이미지 또는 레이어 속성. `layer=comp`인 경우 레이어 0에 적용됩니다. 효과 레이어에 지정된 경우 명령은 부모 레이어에서 상속된 마스크를 수정합니다.
 
-의 비헤이비어 `maskUse=` 이미지 마스크를 적용할 수 없는 경우 텍스트 또는 단색 레이어로 지정할 때 가 정의되지 않고 지원되지 않습니다( 로 지정됨). `mask=` 또는 `catalog::Mask`).
+적용할 수 있는 이미지 마스크가 없을 때 텍스트 또는 단색 레이어로 지정한 경우(`mask=` 또는 `catalog::Mask`(으)로 지정한 경우) `maskUse=`의 동작이 정의되지 않았으며 지원되지 않습니다.
 
 ## 기본값 {#section-982dd8174641437786dcb3729ace6428}
 
@@ -69,4 +69,4 @@ ht-degree: 2%
 
 ## 참조 {#section-f239d8f4ce70434f8d30e482ed60ee5e}
 
-[color=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [마스크=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)
+[색상=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) , [마스크=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e)

@@ -35,7 +35,7 @@ ht-degree: 12%
 | assetHandle | `xsd:string` | 예 | 에셋 핸들. |
 | name | `xsd:string` | 예 | 에셋 이름. |
 | 유형 | `xsd:string` | 예 | 뷰어 구성을 적용할 에셋의 유형입니다. |
-| configSettingArray | `types:ConfigSettingArray` | 예 | 배열 `ConfigSettings` 자산에 적용됨.. |
+| configSettingArray | `types:ConfigSettingArray` | 예 | 자산에 적용된 `ConfigSettings`의 배열.. |
 
 **출력(setViewerConfigSettingsParam)**
 

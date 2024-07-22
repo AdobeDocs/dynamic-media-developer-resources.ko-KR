@@ -20,12 +20,12 @@ ht-degree: 1%
 
 ## 사용 {#usage}
 
-` validate *`fileType`* [ *`옵션`*] [ *`sourceFile`* [ … ]]`
+` validate *`fileType`* [ *`options`*] [ *`sourceFile`* [ … ]]`
 
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>소스 파일 형식, 하나 이상을 지정해야 합니다(-any는 IC에서 지원하는 동일한 이미지 파일 형식을 허용합니다). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Source 파일 형식. 최소 하나 이상을 지정해야 합니다(-any는 IC에서 지원하는 동일한 이미지 파일 형식을 허용합니다). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 옵션 </span> </span> </p> </td> 
@@ -39,14 +39,14 @@ ht-degree: 1%
 
 ## 반환 {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-성공하면 0입니다. 오류가 발생하면 0이 아닌 값이 반환되고 오류 세부 정보가 로 전송됩니다. `stderr`.
+성공하면 0입니다. 오류가 발생하면 0이 아닌 값이 반환되고 오류 세부 정보가 `stderr`(으)로 전송됩니다.
 
 ## 옵션 {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>이미지 파일 목록을 포함하는 별도의 텍스트 파일을 지정합니다. 파일당 하나의 레코드입니다. If <span class="codeph"> -fileList </span> 포함, <span class="varname"> sourceFile </span> 을(를) 지정하지 않아야 합니다. </p> </td> 
+  <td class="stentry"> <p>이미지 파일 목록을 포함하는 별도의 텍스트 파일을 지정합니다. 파일당 하나의 레코드입니다. <span class="codeph"> -fileList </span>이(가) 포함된 경우 <span class="varname"> sourceFile </span>을(를) 지정하지 않아야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -65,15 +65,15 @@ ht-degree: 1%
   <td class="stentry"> <p> 이미지가 잘못된 경우 자세한 정보를 인쇄합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -자동 </span> </p> </td> 
-  <td class="stentry"> <p>비활성화 <span class="codeph"> stdout </span>/ <span class="codeph"> stder </span> 출력. 상태만 반환됩니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> - 자동 </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> 출력을 사용하지 않습니다. 상태만 반환됩니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 
   <td class="stentry"> <p>추가 파일의 유효성을 검사하지 못한 경우에도 파일 유효성 검사 오류가 발생하면 처리를 종료합니다. 기본적으로 유효성 검사 오류가 발생하면 처리가 계속됩니다 </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> -version </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -버전 </span> </p> </td> 
   <td class="stentry"> <p>이 유틸리티의 버전 정보를 반환합니다. 다른 옵션을 사용하지 않고 을(를) 지정합니다. </p> </td> 
  </tr> 
 </table>

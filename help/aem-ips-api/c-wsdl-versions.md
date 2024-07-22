@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-의 기본값 `<IPS_webapp>` 은(는) `scene7`.
+`<IPS_webapp>`의 기본값은 `scene7`입니다.
 
 **서비스 위치**
 
@@ -137,13 +137,13 @@ IPS API SOAP 바인딩은 HTTP 전송만 지원합니다. HTTPS POST 방법을 �
 
 요청을 처리하려면 SOAPAction HTTP 헤더를 요청한 작업의 이름으로 설정합니다. WSDL 바인딩 섹션의 작업 이름 특성은 이름을 지정합니다.
 
-**메시지 포맷**
+**메시지 형식**
 
-문서/리터럴 스타일은 XML 스키마 정의 언어( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))을 참조하고 WSDL 파일에서 지정합니다. 모든 형식에는 WSDL 파일에 지정된 대상 네임스페이스 값을 사용하여 정규화된 이름이 필요합니다.
+document/literal 스타일은 XML 스키마 정의 언어([https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/))를 기반으로 하고 WSDL 파일에 지정된 형식의 모든 입력 및 출력 메시지에 사용됩니다. 모든 형식에는 WSDL 파일에 지정된 대상 네임스페이스 값을 사용하여 정규화된 이름이 필요합니다.
 
 **인증 요청**
 
-API 요청에서 인증 자격 증명을 전달하는 기본 방법은 `authHeader` ips API WSDL에 정의된 요소입니다.
+API 요청에서 인증 자격 증명을 전달하는 기본 방법은 IPS API WSDL에 정의된 대로 `authHeader` 요소를 사용하는 것입니다.
 
 ```
 <element name="authHeader"> 
@@ -181,7 +181,7 @@ API 요청에서 인증 자격 증명을 전달하는 기본 방법은 `authHead
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 로케일 </span> </p> </td> 
-   <td colname="col2"> <p> 요청에 대한 선택적 로케일. 다음을 참조하십시오 <b>로케일</b> 을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 요청에 대한 선택적 로케일. 자세한 내용은 <b>로케일</b>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
@@ -202,9 +202,9 @@ API 요청에서 인증 자격 증명을 전달하는 기본 방법은 `authHead
  </tbody> 
 </table>
 
-다음 `authHeader` 요소는 항상 네임스페이스에 정의됩니다. `http://www.scene7.com/IpsApi/xsd`API 버전에 관계없이 사용할 수 있습니다.
+`authHeader` 요소는 API 버전에 관계없이 항상 `http://www.scene7.com/IpsApi/xsd` 네임스페이스에 정의되어 있습니다.
 
-다음은 를 사용하는 예제입니다. `authHeader` 요청 SOAP 헤더의 요소:
+다음은 요청 SOAP 헤더에서 `authHeader` 요소를 사용하는 예입니다.
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -219,17 +219,17 @@ API 요청에서 인증 자격 증명을 전달하는 기본 방법은 `authHead
 
 **기타 요청 인증 방법**
 
-클라이언트 응용 프로그램에서 `authHeader` SOAP 헤더, API 요청은 RFC 2617에 지정된 대로 HTTP 기본 인증을 사용하여 자격 증명을 지정할 수도 있습니다.
+어떤 이유로 클라이언트 응용 프로그램에서 `authHeader` SOAP 헤더를 전달할 수 없는 경우 API 요청은 RFC 2617에 지정된 대로 HTTP 기본 인증을 사용하여 자격 증명을 지정할 수도 있습니다.
 
-HTTP 기본 인증의 경우 각 SOAP POST 요청의 HTTP 헤더 섹션에 다음 형식의 헤더가 포함되어야 합니다.
+HTTP 기본 인증을 위해 각 SOAP POST 요청의 HTTP 헤더 섹션에는 다음 형식의 헤더가 포함되어야 합니다.
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-위치 `base64()` 표준 Base64 인코딩을 적용하고 `<IPS_user_email>` 은 유효한 IPS 사용자의 이메일 주소입니다. `<password>` 는 사용자의 암호입니다.
+`base64()`이(가) 표준 Base64 인코딩을 적용하는 경우 `<IPS_user_email>`은(는) 올바른 IPS 사용자의 전자 메일 주소이고 `<password>`은(는) 사용자 암호입니다.
 
-초기 요청으로 인증 헤더를 선제적으로 전송합니다. 요청에 인증 자격 증명이 포함되지 않은 경우 `IpsApiService` 이(가) 다음의 상태 코드로 응답하지 않음 `401 (Unauthorized)`. 대신 의 상태 코드가 `500 (Internal Server Error)` 요청을 인증할 수 없다는 SOAP 오류 본문이 반환됨
+초기 요청으로 인증 헤더를 선제적으로 전송합니다. 요청에 인증 자격 증명이 포함되지 않은 경우 `IpsApiService`이(가) `401 (Unauthorized)` 상태 코드로 응답하지 않습니다. 대신 `500 (Internal Server Error)`의 상태 코드가 요청을 인증할 수 없다는 SOAP 오류 본문과 함께 반환됩니다.
 
-IPS 3.8 이전에는 SOAP 헤더를 통한 인증이 `AuthUser` 및 `AuthPassword` 네임스페이스의 요소 `http://www.scene7.com/IpsApi`. 예:
+IPS 3.8 이전에는 SOAP 헤더를 통한 인증이 `http://www.scene7.com/IpsApi` 네임스페이스의 `AuthUser` 및 `AuthPassword` 요소를 사용하여 구현되었습니다. 예:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ IPS 3.8 이전에는 SOAP 헤더를 통한 인증이 `AuthUser` 및 `AuthPasswor
 </soap:Header>
 ```
 
-이 스타일은 이전 버전과의 호환성을 위해 계속 지원되지만 `authHeader` 요소를 생성하지 않습니다.
+이 스타일은 이전 버전과의 호환성을 위해 계속 지원되지만 `authHeader` 요소를 위해 더 이상 사용되지 않습니다.
 
 **권한 부여 요청**
 
 호출자의 자격 증명이 인증된 후, 호출자가 요청된 작업을 수행할 수 있는 권한이 있는지 확인하기 위해 요청을 검사합니다. 인증은 호출자의 사용자 역할에 기반하며 대상 회사, 대상 사용자 및 기타 운영 매개변수를 확인해야 할 수도 있습니다. 또한 이미지 포털 사용자는 특정 폴더 및 에셋 작업을 수행하는 데 필요한 권한이 있는 그룹에 속해야 합니다. 작업 참조 섹션에서는 각 작업에 대한 인증 요구 사항을 자세히 설명합니다.
 
-**샘플 SOAP 요청 및 응답**
+**SOAP 요청 및 응답 샘플**
 
-다음 예제는 을(를) `addCompany` http 헤더를 포함한 작업:
+다음 예제에서는 HTTP 헤더를 포함한 전체 `addCompany` 작업을 보여 줍니다.
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP 오류**
 
-작업에 예외 조건이 발생하면 SOAP 오류가 일반 응답 대신 SOAP 메시지의 본문으로 반환됩니다. 예를 들어 관리자가 아닌 사용자가 이전 을 전송하려고 하는 경우 `addCompany` 요청하면 다음 응답이 반환됩니다.
+작업에 예외 조건이 발생하면 정상적인 응답 대신 SOAP 메시지의 본문으로 SOAP 오류가 반환됩니다. 예를 들어 관리자가 아닌 사용자가 이전 `addCompany` 요청을 보내려고 하면 다음 응답이 반환됩니다.
 
 ```
 HTTP/1.1 500 Internal Server Error 

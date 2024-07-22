@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|왼쪽|오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 견본이 보기에서 채우는 방식을 지정합니다. </p> <p> <span class="codeph"> left </span> 왼쪽에서 오른쪽으로 채우기 순서를 설정합니다. <span class="codeph"> 오른쪽 </span> 보기를 오른쪽에서 왼쪽, 위에서 아래로 채우도록 순서를 반전시킵니다. 날짜 <span class="codeph"> auto </span> 이 설정되면 locale이 로 설정되면 구성 요소가 오른쪽 모드를 적용합니다. <span class="codeph"> "ja" </span>, 및 는 를 사용하지 않는 경우 left를 사용합니다. </p> </td> 
+   <td colname="col2"> <p> 견본이 보기에서 채우는 방식을 지정합니다. </p> <p> <span class="codeph"> 왼쪽 </span>은(는) 왼쪽에서 오른쪽으로 채우도록 설정하고, <span class="codeph"> 오른쪽 </span>은(는) 보기가 오른쪽에서 왼쪽으로, 위에서 아래로 채워지도록 순서를 반전시킵니다. <span class="codeph"> 자동 </span>이(가) 설정되면 구성 요소는 locale이 <span class="codeph"> "ja" </span>(으)로 설정되면 오른쪽 모드를 적용하고 그렇지 않으면 왼쪽을 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ## 속성 {#section-c7e757f63b2c4b5ebaacbadb51c72ce4}
 
-레이어 명령. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨. CMYK 이미지 또는 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
+레이어 명령. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다. 효과 레이어에서 무시됨. CMYK 이미지 또는 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
 
 ## 기본값 {#section-be56be0759634c79b4f264f194a94dbc}
 
-`op_brightness=0`을 참조하십시오.
+`op_brightness=0`(밝기 변경 없음).
 
 ## 예 {#section-c25f952f1b77409abb9ccf885862d75c}
 

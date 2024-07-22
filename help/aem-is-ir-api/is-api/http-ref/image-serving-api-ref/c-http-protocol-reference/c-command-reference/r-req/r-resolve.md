@@ -18,6 +18,6 @@ ht-degree: 2%
 
 `req=resolve`
 
-최종 요청 문자열이 결과 이미지 대신 MIME 유형으로 반환됩니다 `text/plain`.
+MIME 유형이 `text/plain`인 결과 이미지 대신 최종 요청 문자열이 반환됩니다.
 
 HTTP 응답을 캐시할 수 없습니다.

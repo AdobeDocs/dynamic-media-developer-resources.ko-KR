@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->다음 `s7mapoverlay` 과거의 이미지 맵 아이콘에 스타일을 지정하는 데 사용된 CSS 클래스는 이제 더 이상 사용되지 않습니다. `s7icon` 대신,
+>과거의 이미지 맵 아이콘에 스타일을 지정하는 데 사용된 `s7mapoverlay` CSS 클래스는 이제 사용되지 않습니다. 대신 `s7icon`을(를) 사용하십시오.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -39,19 +39,19 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>이미지 맵 아이콘 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>이미지 맵 아이콘 너비(픽셀 단위). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>이미지 맵 아이콘 높이(픽셀 단위). </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이미지 맵 아이콘은 `state` 속성 선택기: 의 아이콘 상태에 다양한 스킨을 적용하는 데 사용할 수 있습니다. `default` 및 `active`.
+>이미지 맵 아이콘은 `default` 및 `active`의 아이콘 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
 
 예 - 서로 다른 두 아이콘 상태에 대해 각각 다른 이미지를 표시하는 28 x 28픽셀 이미지 맵 아이콘을 설정합니다.
 
@@ -77,7 +77,7 @@ opacity: 1;
 }
 ```
 
-참조: [이미지 맵 지원](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a).
+[이미지 맵 지원](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-image-map-support.md#concept-28759efae5014a1fa8b0fb14dc26812a)도 참조하세요.
 
 다음 CSS 클래스 선택기를 사용하여 이미지 맵 영역의 모양이 제어됩니다.
 
@@ -98,17 +98,17 @@ opacity: 1;
    <td colname="col2"> <p> 이미지 맵 영역 채우기 색입니다. </p> <p>#RRGGBB, RGB(R,G,B) 또는 RGBA(R,G,B,A) 형식으로 지정됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 이미지 맵 영역 채우기 색입니다. </p> <p>#RRGGBB, RGB(R,G,B) 또는 RGBA(R,G,B,A) 형식으로 지정됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. </p> <p>다음으로 지정됨 <span class="codeph"> <span class="varname"> 폭 </span> 단색 <span class="varname"> 색상 </span> </span>, 여기서 <span class="codeph"> <span class="varname"> 폭 </span> </span> 픽셀 단위로 표시되며 <span class="codeph"> <span class="varname"> 색상 </span> </span> 는 #RRGGBB, RGB(R,G,B) 또는 RGBA(R,G,B,A)로 설정됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
+   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. </p> <p><span class="codeph"> <span class="varname"> 너비 </span> 단색 <span class="varname"> 색상 </span> </span>(으)로 지정됨. 여기서 <span class="codeph"> <span class="varname"> 너비 </span> </span>은(는) 픽셀로 표현되고 <span class="codeph"> <span class="varname"> 색상 </span> </span>은(는) #RRGGBB, RGB(R,G,B) 또는 RGBA(R,G,B,A)로 설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 를 사용하여 투명한 이미지 맵 영역 설정 `1` 픽셀 검정 테두리:
+예 - `1`픽셀 검정색 테두리로 투명한 이미지 맵 영역 설정:
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 

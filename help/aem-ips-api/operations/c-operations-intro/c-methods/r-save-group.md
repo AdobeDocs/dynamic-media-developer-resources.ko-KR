@@ -8,7 +8,7 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 20%
 | company핸들 | `xsd:string` | 예 | 저장할 그룹이 있는 회사의 핸들입니다. |
 | group핸들 | `xsd:string` | 아니요 | 그룹에 대한 핸들입니다. |
 | name | `xsd:string` | 예 | 그룹 이름. |
-| isSystemDefinition | `xsd:boolean` | 예 | `false` 는 기본값입니다. |
+| isSystemDefinition | `xsd:boolean` | 예 | `false`이(가) 기본값입니다. |
 
 **출력(saveGroupReturn)**
 

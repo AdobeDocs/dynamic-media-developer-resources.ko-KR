@@ -20,8 +20,8 @@ ht-degree: 0%
 
 또한 특정 이미지 카탈로그가 작업에 포함되지 않은 경우 기본 카탈로그는 모든 속성 및 데이터 레코드(매크로, 글꼴, ICC 프로파일, 요청 전처리 규칙)를 제공합니다.
 
-의 올바른 작동을 위해 [!DNL Platform Server] 기본 카탈로그의 카탈로그 속성 파일 이름을 지정해야 합니다. [!DNL default.ini]은(는) 항상 카탈로그 폴더에 있어야 하며, 을(를) 제외한 모든 필수 속성으로 채워야 합니다. `attribute::RootId` 및 다양한 카탈로그 데이터 파일에 대한 참조를 추가합니다(모두 선택 사항).
+[!DNL Platform Server]이(가) 올바르게 작동하려면 기본 카탈로그의 카탈로그 특성 파일 이름이 [!DNL default.ini]이고, 카탈로그 폴더에 항상 있어야 하며, `attribute::RootId`과(와) 다양한 카탈로그 데이터 파일에 대한 참조(모두 선택 사항)를 제외한 모든 필수 특성으로 완전히 채워야 합니다.
 
 >[!NOTE]
 >
->다음을 제외한 모든 카탈로그 속성 파일 [!DNL default.ini] 은(는) 고유해야 합니다. `attribute::RootId` 값. `attribute::RootId` 위치: [!DNL default.ini] 은(는) 비어 있어야 합니다.
+>[!DNL default.ini]을(를) 제외한 모든 카탈로그 특성 파일에는 고유한 `attribute::RootId` 값이 있어야 합니다. [!DNL default.ini]의 `attribute::RootId`은(는) 비어 있어야 합니다.

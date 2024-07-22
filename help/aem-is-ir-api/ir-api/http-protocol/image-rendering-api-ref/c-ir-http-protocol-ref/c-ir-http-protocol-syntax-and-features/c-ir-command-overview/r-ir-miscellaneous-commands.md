@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <table id="simpletable_ADE850DCC3364A1B8B375A17BA95E5D5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb" type="reference" format="dita" scope="local"> req</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb" type="reference" format="dita" scope="local"> 요청</a></span> </p></td> 
   <td class="stentry"> <p>요청 명령입니다. </p></td> 
   <td class="stentry"></td> 
  </tr> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '42'
 ht-degree: 11%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 11%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-필수. (Unless `asset` 매개 변수가 사용됩니다. 다음을 참조하십시오 [외부 비디오 지원]
+필수. `asset` 매개 변수를 사용하지 않는 경우. [외부 비디오 지원]을 참조하세요.
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3)
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}

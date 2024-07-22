@@ -8,7 +8,7 @@ exl-id: 06c381f6-5896-4d9b-b6f4-a907b3774d08
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -40,10 +40,10 @@ ht-degree: 3%
 * [Photoshop 레이어 이름 지정 모드](r-photoshop-layer-naming-modes.md)
 * [PostScript 색상 공간 모드](r-postscript-colorspace-modes.md)
 * [프로필 클래스](r-profile-classes.md)
-* [게시 상태](r-publish-state.md)
+* [Publish 주](r-publish-state.md)
 * [속성 집합 유형](r-property-set-types.md)
-* [게시 컨텍스트](r-publish-context.md)
-* [게시 유형](r-publish-types.md)
+* [Publish 컨텍스트](r-publish-context.md)
+* [Publish 유형](r-publish-types.md)
 * [영역 모양](r-region-shape.md)
 * [일치 모드 검색](r-search-match-modes.md)
 * [정렬 방향](r-sort-directions.md)

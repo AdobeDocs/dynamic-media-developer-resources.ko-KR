@@ -22,7 +22,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 없음|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> 재생/일시 중지를 전환하기 위한 한 번의 클릭/누르기 매핑을 구성합니다. 을 로 설정 <span class="codeph"> 없음</span> 한 번 클릭/탭하여 재생/일시 중지를 비활성화합니다. 로 설정된 경우 <span class="codeph"> playPause</span>를 클릭하면 비디오 재생과 일시 중지 간을 전환합니다. 일부 장치에서는 기본 컨트롤을 사용할 수 있습니다. 이런 경우, <span class="codeph"> singleclick</span> 비헤이비어가 비활성화되었습니다. </p> </td> 
+   <td colname="col2"> <p> 재생/일시 중지를 전환하기 위한 한 번의 클릭/누르기 매핑을 구성합니다. <span class="codeph"> none</span>(으)로 설정하면 한 번 클릭/탭하여 재생/일시 중지할 수 없습니다. <span class="codeph"> playPause</span>(으)로 설정하면 비디오 클릭 시 비디오 재생과 일시 중지 간을 전환합니다. 일부 장치에서는 기본 컨트롤을 사용할 수 있습니다. 이 경우 <span class="codeph"> singleclick</span> 동작이 비활성화됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

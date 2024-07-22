@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 10%
 
 Video360 뷰어에 대한 구성 속성입니다.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`폭`*, *`높이`*[,0|1][; *`폭`*, *`높이`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`너비`*, *`높이`*[,0|1][; *`너비`*, *`높이`*[,0|1]]`
 
 포함 공유 모달 대화 상자에서 크기 콤보 상자의 포함 크기 목록을 지정합니다.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 너비 </span> </span> </p> </td> 
    <td colname="col2"> <p> 포함 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 높이 </span> </span> </p> </td> 
    <td colname="col2"> <p>높이를 포함합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> 콤보 상자에서 이 목록 항목을 처음에 미리 선택할지 여부를 지정합니다. </p> </td> 
   </tr> 
  </tbody> 

@@ -42,4 +42,4 @@ ht-degree: 11%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| contextArray | `types:StringArray` | 예 | 게시 컨텍스트에서 0개 이상의 값을 포함할 수 있는 활성 게시 컨텍스트의 배열입니다. |
+| contextArray | `types:StringArray` | 예 | Publish 컨텍스트에서 0개 이상의 값을 포함할 수 있는 활성 게시 컨텍스트의 배열입니다. |

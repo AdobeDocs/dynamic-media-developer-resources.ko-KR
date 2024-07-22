@@ -8,7 +8,7 @@ exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 | companyHandleArray | `types:HandleArray` | 아니요 | 회사별로 결과를 필터링합니다. |
 | groupHandleArray | `types:HandleArray` | 아니요 | 그룹별로 결과를 필터링합니다. |
 | userRoleArray | `types:StringArray` | 아니요 | 사용자 역할별로 결과를 필터링합니다. |
-| charFilterField | `xsd:string` | 아니요 | 필드의 문자열 접두사로 결과 필터링(참조) [!DNL Trash State).] |
+| charFilterField | `xsd:string` | 아니요 | 필드의 문자열 접두사로 결과 필터링([!DNL Trash State).] 참조) |
 | charFilter | `xsd:string` | 아니요 | 특정 문자로 결과를 필터링합니다. |
 | 정렬 기준 | `xsd:string` | 아니요 | 사용자 정렬 필드 선택. |
 | recordsPerPage | `xsd:int` | 아니요 | 페이지당 지정된 레코드 수를 반환합니다. |

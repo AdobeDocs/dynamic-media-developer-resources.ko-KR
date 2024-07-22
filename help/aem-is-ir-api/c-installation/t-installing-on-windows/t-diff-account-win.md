@@ -16,7 +16,7 @@ ht-degree: 0%
 
 설치 후 다른 사용자 계정에서 실행되도록 서비스를 설정합니다.
 
-1. 다음을 선택하여 Windows 로컬 보안 정책 설정에 액세스 **[!UICONTROL 시작 메뉴]** > **[!UICONTROL 설정]** > **[!UICONTROL Campaign 컨트롤 패널]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 로컬 보안 정책]**.
-1. 선택 **[!UICONTROL 보안 설정]** > **[!UICONTROL 로컬 정책]** > **[!UICONTROL 사용자 권한 할당]**.
-1. 를 두 번 클릭합니다. **[!UICONTROL 서비스로 로그온]** 정책.
-1. 선택 **[!UICONTROL 추가...]** 사용자 또는 그룹을 선택한 다음 를 선택합니다. **[!UICONTROL 확인]** 확인할 수 있습니다.
+1. **[!UICONTROL 시작 메뉴]** > **[!UICONTROL 설정]** > **[!UICONTROL Campaign 컨트롤 패널]** > **[!UICONTROL 관리 도구]** > **[!UICONTROL 로컬 보안 정책]**&#x200B;을 선택하여 Windows 로컬 보안 정책 설정에 액세스하십시오.
+1. **[!UICONTROL 보안 설정]** > **[!UICONTROL 로컬 정책]** > **[!UICONTROL 사용자 권한 할당]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 서비스로 로그온]** 정책을 두 번 클릭합니다.
+1. **[!UICONTROL 추가...]**&#x200B;를 선택하고 사용자 또는 그룹을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택하여 확인합니다.

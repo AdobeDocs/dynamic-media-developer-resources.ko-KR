@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 95bf90d1-071e-467a-87aa-122911125233
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 10%
+source-wordcount: '42'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_49FFD1BC53B846F09A6D214BC8C5C3FE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. 로 설정된 경우 <span class="codeph"> 0</span>를 사용하면 새로 설정된 이미지의 종횡비를 유지하면서 가장 잘 맞는 현재 보기 포트를 유지할 수 있습니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td colname="col2"> <p> 프레임(이미지)이 변경되면 보기 포트를 재설정합니다. <span class="codeph"> 0</span>(으)로 설정된 경우 새로 설정된 이미지의 종횡비를 유지하면서 가장 잘 맞는 현재 보기 포트를 유지합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

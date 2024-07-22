@@ -16,7 +16,7 @@ ht-degree: 2%
 
 catalog::RootId를 제외한 모든 카탈로그 속성은 선택 사항입니다.
 
-모든 속성은 기본 카탈로그 속성 파일( )에 필요합니다. [!DNL default.ini]).
+기본 카탈로그 특성 파일([!DNL default.ini])에 모든 특성이 필요합니다.
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)

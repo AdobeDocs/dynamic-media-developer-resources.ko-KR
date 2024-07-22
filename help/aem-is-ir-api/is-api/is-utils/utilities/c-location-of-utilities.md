@@ -16,4 +16,4 @@ ht-degree: 0%
 
 이미지 제공에는 세 가지 유틸리티가 포함되어 있습니다.
 
-64비트 버전은 [!DNL *`install_folder`*/bin64/].
+64비트 버전은 [!DNL *`install_folder`*/bin64/]에 있습니다.

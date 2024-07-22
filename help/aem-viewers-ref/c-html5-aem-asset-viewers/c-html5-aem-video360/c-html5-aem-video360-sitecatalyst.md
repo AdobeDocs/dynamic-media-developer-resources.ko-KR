@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 4%
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## 사용자 지정 추적 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -60,27 +60,27 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 로드 </p> </td> 
    <td colname="col2"> <p>뷰어가 먼저 로드되는 경우입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>뷰어에서 를 사용하여 자산을 교체하는 경우 <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 교체 </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산을 스왑하는 경우. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 재생 </span> </p> </td> 
    <td colname="col2"> <p>재생이 시작되는 시기 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 일시 중지 </span> </p> </td> 
    <td colname="col2"> <p>재생이 일시 중지된 경우. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 중지 </p> </td> 
    <td colname="col2"> <p>재생이 중지되는 경우입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 마일스톤 </span> </p> </td> 
    <td colname="col2"> <p>재생이 0%, 25%, 50%, 75% 또는 100% 이정표 중 하나에 도달하는 경우. </p> </td> 
   </tr> 
   <tr> 

@@ -26,6 +26,6 @@ ht-degree: 11%
 | 원본 파일 | `xsd:string` | 파일 이름. |
 | 파일 크기 | `xsd:int` | 파일 크기. |
 | imagePath | `xsd:string` | 이미지 경로. |
-| imageFile | `xsd:string` |  |
+| imageFile | `xsd:string` | |
 | 최적화된 경로 | `xsd:string` | 파일에 대한 경로가 최적화되었습니다. |
 | 최적화된 파일 | `xsd:string` | 최적화된 파일 이름입니다. |

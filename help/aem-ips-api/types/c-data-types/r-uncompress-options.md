@@ -18,7 +18,7 @@ ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐�
 
 >[!NOTE]
 >
->설정 `None` 는 기본값입니다.
+>`None` 설정이 기본값입니다.
 
 ## 매개 변수 {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -36,9 +36,9 @@ ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐�
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>ZIP 및 TAR 아카이브 파일 처리를 제어합니다. 두 가지 옵션을 제공합니다. 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음:</span> 기본 자산으로 처리합니다. </li>
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> 없음:</span> 기본 자산으로 처리. </li>
       <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> 압축 해제:</span> 콘텐츠를 추출하고 처리합니다. </li>
-     </ul><p>참고: 문자열 상수는 대/소문자를 구분합니다. 사용 <span class="codeph"> 압축 해제</span>, 아님 <span class="codeph"> 압축 풀기</span>, 또는 <span class="codeph"> 압축 해제</span>. </p></p> </td> 
+     </ul><p>참고: 문자열 상수는 대/소문자를 구분합니다. <span class="codeph"> 압축 해제</span> 또는 <span class="codeph"> 압축 해제</span>이(가) 아닌 <span class="codeph"> 압축 해제</span>을(를) 사용합니다. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,8 +58,8 @@ ZIP 및 TAR 파일을 기본 에셋으로 처리하거나(없음) 해당 콘텐�
 
 ## 사용한 사람 {#section-b2a829cf5511412e968bb2000f85cc31}
 
-다음 `unCompressionOptions` 다음에서 유형 사용:
+`unCompressionOptions` 형식은 다음 경우에 사용됩니다.
 
-* [업로드 디렉터리 작업](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

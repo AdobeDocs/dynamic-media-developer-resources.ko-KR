@@ -8,7 +8,7 @@ exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 기본적으로 뷰어는 뷰어 유형 및 버전 정보를 사용하여 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -53,7 +53,7 @@ var interactiveImage = new s7viewers.InteractiveImage({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 로드 </p> </td> 
    <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
   </tr> 
   <tr> 

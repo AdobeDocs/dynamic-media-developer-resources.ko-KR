@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '88'
+ht-degree: 3%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 4%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> 사용자가 마우스나 터치 제스처를 사용하여 견본을 스크롤하는 기능을 활성화하거나 비활성화합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> 다음에 있음 <span class="codeph"> 0-1 </span> 범위는 실제 속도의 잘못된 방향 이동에 대한 퍼센트 값입니다. </p> <p>로 설정된 경우 <span class="codeph"> 1 </span>마우스와 함께 이동합니다. </p> <p>로 설정된 경우 <span class="codeph"> 0 </span>를 사용하면 잘못된 방향으로 이동할 수 없습니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 0-1 </span> 범위에 있으며 실제 속도와 반대 방향의 이동에 대한 퍼센트 값입니다. </p> <p><span class="codeph"> 1 </span>(으)로 설정된 경우 마우스와 함께 이동합니다. </p> <p><span class="codeph"> 0 </span>(으)로 설정하면 잘못된 방향으로 이동할 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

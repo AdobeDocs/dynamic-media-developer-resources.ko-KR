@@ -97,7 +97,7 @@ ht-degree: 16%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>에지 무작위화 장치. </p> </td> 
+  <td class="stentry"> <p>Edge 랜더마이저입니다. </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ ht-degree: 16%
 
 ## 기본값 {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, 자료가 카탈로그 항목을 기반으로 하는 경우, 그렇지 않은 경우 `0` (직선 반복).
+`catalog::Repeat`(자료가 카탈로그 항목을 기반으로 하는 경우), 그렇지 않은 경우 `0`(연속 반복).
 
 ## 참조 {#section-ac99113b64654d75a3a86e41db546269}
 

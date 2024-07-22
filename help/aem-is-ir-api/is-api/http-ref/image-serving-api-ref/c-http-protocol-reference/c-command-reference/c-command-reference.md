@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
 source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 6%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 6%
 
 >[!TIP]
 >
->Dynamic Media을 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 알아보십시오 [_스냅샷_](https://snapshot.scene7.com/).
+>Dynamic Media [_스냅숏_](https://snapshot.scene7.com/)을(를) 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 알아보십시오.
 >
 > 스냅샷은 Dynamic Media의 최적화된 동적 이미지 제공 기능을 보여 주기 위해 설계된 시각적 데모 도구입니다. 테스트 이미지 또는 Dynamic Media URL로 테스트하여 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 수행합니다.
 >* 파일 크기(WebP 및 AVIF 게재 포함)
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅샷을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅샷 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3분 17초).
+>스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)를 재생하세요(3분 17초).
 
 
-**Adobe Experience Manager의 Dynamic Media 전용** - 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에, [!DNL Dynamic Media] AEM에서 ( [!DNL Adobe Experience Manager])는에서 지정할 수 있는 다양한 고급 이미지 수정 사항을 지원합니다. **이미지 수정자** 필드. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
+**Adobe Experience Manager의 Dynamic Media 전용** - 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에 AEM([!DNL Adobe Experience Manager])의 [!DNL Dynamic Media]에서는 **이미지 수정자** 필드에서 지정할 수 있는 다양한 고급 이미지 수정 사항을 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
 
-* 색상 교정 명령: `icc=` 및 `iccEmbed=`.
+* 색상 수정 명령: `icc=` 및 `iccEmbed=`.
 * 기본 템플릿 및 텍스트 렌더링 명령: `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` 및 `textPs=`.
-* 현지화 명령: `locale=` 및 `req=xlate`.
-* `req=set` 는 일반 용도로 사용할 수 없습니다.
+* 지역화 명령: `locale=` 및 `req=xlate`.
+* `req=set`은(는) 일반 사용에 사용할 수 없습니다.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
@@ -42,14 +42,14 @@ ht-degree: 6%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Dynamic Media 참조 [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) AEM 6.5 설명서에서 참조할 수 있습니다.
+AEM 6.5 설명서에서 Dynamic Media [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)을 참조하십시오.
 
 * [정렬](r-align.md)
 * [앵커](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
-* [blendMode](r-blendmode.md)
+* [블렌드 모드](r-blendmode.md)
 * [캐시](r-is-http-cache.md)
 * [클립 경로](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
@@ -108,7 +108,7 @@ Dynamic Media 참조 [이미지 사전 설정 옵션](https://experienceleague.a
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [회전](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [크기 조절](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [크기](r-size-reference.md)
 * [src](r-src.md)

@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Adobe이 다음에 대한 지원을 종료합니다. `ExcludeMasterVideoFromAVS` 매개 변수 2022년 9월 1일 참조: [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md).
+>Adobe에서 `ExcludeMasterVideoFromAVS` 매개 변수에 대한 지원을 2022년 9월 1일에 종료합니다. [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md)도 참조하세요.
 
 응용 비디오 세트에서 기본 비디오를 제외합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>응용 비디오 세트에서 기본 비디오 파일을 제외합니다. </p> <p>기본값은 true입니다. </p> </td> 
   </tr> 
  </tbody> 

@@ -101,7 +101,7 @@ ht-degree: 17%
  </tr> 
 </table>
 
-과 함께 사용됨 `gloss=` 및 `rough=` 반사 및 광택 효과 동작을 제어합니다. 서로 다른 물질이 서로 다른 효과를 냅니다. `gloss=` 및 `rough=` 동일합니다.
+반사 및 광택 효과 동작을 제어하기 위해 `gloss=` 및 `rough=`과(와) 함께 사용됩니다. `gloss=`과(와) `rough=`이(가) 동일한 경우에도 다른 재료가 다른 효과를 냅니다.
 
 ## 속성 {#section-2345b2508273426295ce8ac46182ea64}
 
@@ -109,8 +109,8 @@ ht-degree: 17%
 
 ## 기본값 {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` 자료가 카탈로그 항목을 기반으로 하는 경우. 그렇지 않은 경우 `type=0`. 지정되지 않은 경우 또는 `type=0`로 지정하는 경우 서버는 대상 객체 및 기타 재료 속성에 따라 적합한 기본값을 선택합니다.
+`catalog::Type` 자료가 카탈로그 항목을 기반으로 하는 경우. 그렇지 않으면 `type=0`입니다. 지정하지 않거나 `type=0`인 경우 서버는 대상 개체 및 기타 재질 특성에 따라 적절한 기본값을 선택합니다.
 
 ## 참조 {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [거칠어=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[광택=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [황삭=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 각각의 스캔의 실제 속도는 사용자의 시스템 및 데이터를 수신하고 압축을 푸는 컴퓨터의 전송 속도에 의존한다.
 
-`Auto` 는 독립 JPEG 라이브러리에서 계산하고 색상 모델에 따라 달라지는 스캔 설정을 사용합니다. 값: `3`, `4`, `5` JPEG 파일을 pjpeg(프로그레시브 JPEG)로 저장할 때 Adobe Photoshop에 있는 스캔 설정에 해당합니다.
+`Auto`은(는) 독립 JPEG 라이브러리에서 계산되고 색상 모델에 따라 달라지는 스캔 설정을 사용합니다. `3`, `4`, `5` 값은 JPEG 파일을 pjpeg(점진적 JPEG)로 저장할 때 Adobe Photoshop에 있는 검색 설정에 해당합니다.
 
-If `pscan` 가 설정되지 않은 경우 기본값이 로 설정됩니다. `auto`.
+`pscan`이(가) 설정되지 않은 경우 기본값은 `auto`입니다.
 
 ## 속성 {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

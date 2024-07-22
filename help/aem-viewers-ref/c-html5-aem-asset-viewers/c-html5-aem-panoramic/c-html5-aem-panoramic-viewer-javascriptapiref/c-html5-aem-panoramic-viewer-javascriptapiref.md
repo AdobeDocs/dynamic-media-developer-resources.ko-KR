@@ -6,7 +6,7 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -15,4 +15,4 @@ ht-degree: 0%
 
 HTML5 파노라마 뷰어의 기본 클래스는 PanoramicViewer입니다. s7viewers 네임스페이스에서 선언됩니다. 이 JavaScript API는 이 특정 클래스의 생성자, 메서드 및 콜백을 다룹니다.
 
-다음 모든 예에서, `<instance>` 는 에서 인스턴스화된 JavaScript 뷰어 객체의 실제 이름을 나타냅니다. `s7viewers.PanoramicViewer` 클래스.
+다음 모든 예에서 `<instance>`은(는) `s7viewers.PanoramicViewer` 클래스에서 인스턴스화된 JavaScript 뷰어 개체의 실제 이름을 나타냅니다.

@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 351f63a4-cc1b-4db9-93df-c21acd02e12a
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> 허용 오차</span> </td> 
+   <td colname="col1"> <span class="codeph"> 허용 한도</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">투명도를 기준으로 이미지 가장자리에서 공백을 제거합니다. 사용: 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">

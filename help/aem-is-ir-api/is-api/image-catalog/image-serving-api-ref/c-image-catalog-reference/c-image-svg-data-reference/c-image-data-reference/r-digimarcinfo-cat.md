@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 12%
+source-wordcount: '243'
+ht-degree: 7%
 
 ---
 
@@ -20,9 +20,9 @@ Digimarc 이미지 정보입니다. Digimarc 임베딩을 활성화하고 워터
 
 쉼표로 구분된 4개의 정수 값.
 
-`*`유형`*, *`플래그`*, *`val1`*, *`val2`*`
+`*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
-`*`유형`*` Digimarc 포함을 활성화하고 워터마크 유형을 지정합니다.
+`*`type`*`은(는) Digimarc 포함을 사용하도록 설정하고 워터마크 형식을 지정합니다.
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -55,7 +55,7 @@ Digimarc 이미지 정보입니다. Digimarc 임베딩을 활성화하고 워터
  </tbody> 
 </table>
 
-`*`플래그`*` 은(는) 세 개의 값이 있는 비트 필드입니다. 복사가 금지된 콘텐츠를 나타내려면 비트 0을 설정하고, 제한된 콘텐츠를 나타내려면 비트 1을 설정하고, 성인용 콘텐츠를 나타내려면 비트 2를 설정합니다.
+`*`플래그`*`은(는) 값이 세 개인 비트 필드입니다. 복사가 금지된 콘텐츠를 나타내려면 비트 0을 설정하고, 제한된 콘텐츠를 나타내려면 비트 1을 설정하고, 성인용 콘텐츠를 나타내려면 비트 2를 설정합니다.
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -100,7 +100,7 @@ Digimarc 이미지 정보입니다. Digimarc 임베딩을 활성화하고 워터
  </tbody> 
 </table>
 
-의 해석 `*`val1`*` 및 `*`val2`*` 다음에 종속 `*`유형`*`:
+`*`val1`*` 및 `*`val2`*`의 해석은 `*`type`*`에 따라 다릅니다.
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 

@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: 회전판 뷰어에 대한 JavaScript API 참조.
+description: 슬라이드 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # setParam{#setparam}
 
-회전판 뷰어에 대한 JavaScript API 참조.
+슬라이드 뷰어에 대한 JavaScript API 참조.
 
 ` setParam( *`이름, 값`*)`
 
-viewer 매개 변수를 지정된 값으로 설정합니다. 매개 변수는 뷰어별 구성 옵션 또는 소프트웨어 개발 키트 수정자입니다. 이 매개 변수는 전에 호출됩니다. `init()`.
+viewer 매개 변수를 지정된 값으로 설정합니다. 매개 변수는 뷰어별 구성 옵션 또는 소프트웨어 개발 키트 수정자입니다. 이 매개 변수는 `init()` 전에 호출됩니다.
 
-뷰어 구성 정보가 로 전달된 경우 이 메서드는 선택 사항입니다 `config` 생성자에 대한 JSON 개체입니다.
+뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달된 경우 이 메서드는 선택 사항입니다.
 
-참조: [xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md).
+[xref](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md)도 참조하세요.
 
 ## 매개 변수 {#section-c68a5a3688d342fd9d6a7fd59867cc7a}
 
@@ -34,7 +34,7 @@ viewer 매개 변수를 지정된 값으로 설정합니다. 매개 변수는 �
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 값 </span> </span> </p> </td>
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> 매개 변수 값입니다. 값은 퍼센트 인코딩할 수 없습니다. </p> </td>
+   <td colname="col2"> <p> 매개 변수의 <span class="codeph"> {string} </span> 값입니다. 값은 퍼센트 인코딩할 수 없습니다. </p> </td>
   </tr>
  </tbody>
 </table>

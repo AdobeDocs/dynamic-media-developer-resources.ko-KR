@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '139'
 ht-degree: 3%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 3%
    <td colname="col3"> 마지막 진행 정보가 마지막으로 업데이트된 시간입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 작업 항목 진행률 배열</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> taskItemProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:TaskItemProgressArray</span> </td> 
    <td colname="col3"> 작업 항목 배열. </td> 
   </tr> 
@@ -74,10 +74,10 @@ ht-degree: 3%
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">값에는 다음이 포함됩니다. 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> 알 수 없음</span>: 작업 모니터가 상태 간에 전환되는 때입니다. </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 신규</span>: 작업 모니터가 생성되었지만 아직 작업을 수락하지 않았습니다. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> 알 수 없음</span>: 작업 모니터가 상태 간에 전환되는 경우. </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> 새 </span>: 작업 모니터가 만들어졌지만 작업을 아직 수락하지 않았습니다. </li>
      <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> 처리 중</span>: 작업 모니터가 현재 작업을 처리 중입니다. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> 중지 중</span>: 작업 중지 요청으로 인해 작업 모니터가 작업을 중지하는 중입니다. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> 중지</span>: 작업 중지 요청으로 인해 작업 모니터가 작업을 중지하는 중입니다. </li>
      <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> 완료</span>: 작업 모니터 작업에 할당된 작업이 완료되었습니다. </li>
      <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> 실패</span>: 치명적인 오류를 나타냅니다. </li>
     </ul></td> 

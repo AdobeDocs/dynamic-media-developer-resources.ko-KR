@@ -8,7 +8,7 @@ exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 사용자 핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>그룹 멤버십을 추가하려는 사용자에 대해 을 처리합니다. </p> </td> 

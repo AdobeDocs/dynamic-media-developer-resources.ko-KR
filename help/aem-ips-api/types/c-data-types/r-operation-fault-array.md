@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '55'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배열입니다.
 
-**다음 이후 지원됨**
+**다음 날짜 이후에 지원됨**
 
 4.5.0, 패치 2011-02
 
@@ -32,8 +32,8 @@ CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 메시지 배�
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> 개 항목</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname">개 항목</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> 형식:OperationFault</span> </p> </td> 
    <td> <p> CDN 무효화 요청으로 인한 메시지 목록입니다. </p> </td> 
   </tr> 
  </tbody> 

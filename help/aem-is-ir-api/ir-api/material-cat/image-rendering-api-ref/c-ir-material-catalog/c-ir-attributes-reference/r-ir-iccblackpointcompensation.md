@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # IccBlackPoint 보상{#iccblackpointcompensation}
 
-검은 점 보상. 을 사용하여 명시적으로 선택하지 않은 경우 색상 변환에 검은 점 보상을 적용할지 여부를 지정합니다. `icc=`.
+검은 점 보상. `icc=`을(를) 사용하여 명시적으로 선택하지 않은 경우 색상 변환에 검은 점 보상을 적용할지 여부를 지정합니다.
 
 ## 속성 {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-플래그. 다음으로 설정 `0` 또는 을 비활성화하려면 `1` 검은 점 보상을 활성화합니다.
+플래그. 검은 점 보상을 사용하려면 `0`(으)로 설정하고, 검은 점 보상을 사용하려면 `1`(으)로 설정합니다.
 
 ## 기본값 {#section-5bc6703a43a149f18af88b70baae568f}
 
-상속 위치 `default::IccBlackPointCompensation` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::IccBlackPointCompensation`에서 상속됩니다.
 
 ## 참조 {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 

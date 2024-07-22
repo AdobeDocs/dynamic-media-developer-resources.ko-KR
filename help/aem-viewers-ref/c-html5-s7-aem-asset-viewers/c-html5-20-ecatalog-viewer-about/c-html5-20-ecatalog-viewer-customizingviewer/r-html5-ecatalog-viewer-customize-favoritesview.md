@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -26,16 +26,16 @@ ht-degree: 1%
 
 즐겨찾기 보기의 위치 및 높이는 보기에서 관리됩니다. CSS에서는 너비만 정의할 수 있습니다.
 
-**즐겨찾기 보기의 CSS 속성**
+즐겨찾기 보기의 **CSS 속성**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 즐겨찾기 보기의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>보기의 폭입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -61,8 +61,8 @@ ht-degree: 1%
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 각 썸네일 주변의 세로 여백 크기입니다. 실제 썸네일 간격은 에 대해 설정된 위쪽 및 아래쪽 여백의 합과 같습니다. <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
+   <td colname="col2"> <p> 각 썸네일 주변의 세로 여백 크기입니다. 실제 썸네일 간격은 <span class="codeph"> .s7thumbcell </span>에 대해 설정된 위쪽 여백과 아래쪽 여백의 합과 같습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,15 +86,15 @@ ht-degree: 1%
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>썸네일의 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>썸네일의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
    <td colname="col2"> <p>썸네일의 테두리. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->썸네일은 `state` 속성 선택기: 다른 썸네일 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `state="selected"` 사용자가 최근에 선택한 썸네일에 해당합니다. 속성 `state="default"` 은 나머지 썸네일에 해당합니다. 및, 속성 `state="over"` 마우스를 가리킬 때 사용됩니다.
+>썸네일은 `state` 특성 선택기를 지원하며, 이 선택기를 사용하여 다른 썸네일 상태에 다른 스킨을 적용할 수 있습니다. 특히 `state="selected"`은(는) 사용자가 최근에 선택한 썸네일에 해당합니다. `state="default"` 특성은 나머지 썸네일에 해당합니다. 그리고 `state="over"` 특성은 마우스 가리키기에 사용됩니다.
 
 예 - 75 x 75픽셀인 썸네일을 설정하려면 밝은 회색의 기본 테두리와 어두운 회색의 선택된 테두리를 사용합니다.
 
@@ -125,12 +125,12 @@ ht-degree: 1%
 .s7ecatalogviewer .s7favoritesview .s7label
 ```
 
-**즐겨찾기 레이블의 CSS 속성**
+즐겨찾기 레이블의 **CSS 속성**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 글꼴 패밀리 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 글꼴 모음 </span> </p> </td> 
    <td colname="col2"> <p>글꼴 이름. </p> </td> 
   </tr> 
   <tr> 

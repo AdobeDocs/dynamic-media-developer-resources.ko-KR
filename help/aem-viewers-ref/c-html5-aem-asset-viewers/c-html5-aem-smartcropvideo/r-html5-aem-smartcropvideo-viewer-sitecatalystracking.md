@@ -7,8 +7,8 @@ role: Developer,User,Data Engineer,Data Architect
 exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 3%
+source-wordcount: '164'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 3%
 
 스마트 자르기 비디오 뷰어는 즉시 사용할 수 있는 Adobe Analytics 추적을 지원합니다.
 
-추적을 활성화하려면 적절한 회사 사전 설정 이름을 (으)로 전달합니다. `config2` 매개 변수.
+추적을 사용하려면 올바른 회사 사전 설정 이름을 `config2` 매개 변수로 전달하십시오.
 
 뷰어는 또한 뷰어 유형 및 버전 정보와 함께 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
 ## 사용자 지정 추적 {#section-ab10bd7caf184721a366cf3953071934}
 
-타사 분석 시스템과 통합하려면 다음을 청취해야 합니다 `trackEvent` 뷰어 콜백 및 프로세스 `eventInfo` 필요에 따라 콜백 함수의 인수입니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -62,27 +62,27 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 로드 </p> </td> 
    <td colname="col2"> <p>뷰어가 먼저 로드됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>에셋은 뷰어에서 다음을 사용하여 교체됩니다. <span class="codeph"> setAsset() </span> API. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 교체 </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> setAsset() </span> API를 사용하여 뷰어에서 자산을 바꿨습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 재생 </span> </p> </td> 
    <td colname="col2"> <p>재생이 시작되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 일시 중지 </span> </p> </td> 
    <td colname="col2"> <p>재생이 일시 중지되었습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 중지 </p> </td> 
    <td colname="col2"> <p>재생이 중지됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 마일스톤 </span> </p> </td> 
    <td colname="col2"> <p>재생은 0%, 25%, 50%, 75% 및 100% 맷돌 중 하나에 도달합니다. </p> </td> 
   </tr> 
  </tbody> 

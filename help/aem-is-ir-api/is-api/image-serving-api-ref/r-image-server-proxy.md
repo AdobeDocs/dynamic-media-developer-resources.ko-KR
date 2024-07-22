@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## URL 형식 {#section-2e8c40b0547c4f99874cdf502b338940}
 
-IS 프록시의 URL 형식은 일반 IS 요청과 매우 유사합니다. 프록시에 전달된 모든 IS 수정자는 이미지 서버로 전달됩니다. 에서 IS 수정자에 대한 정보를 찾을 수 있습니다 [HTTP 프로토콜 참조](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e).
+IS 프록시의 URL 형식은 일반 IS 요청과 매우 유사합니다. 프록시에 전달된 모든 IS 수정자는 이미지 서버로 전달됩니다. [HTTP 프로토콜 참조](../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-introduction/c-introduction.md#concept-dbbd5241bc6248ad9b9d7f6c635c311e)에서 IS 한정자에 대한 정보를 찾을 수 있습니다.
 
 `http://<server>/is-proxy/image/<company><asset>?<modifiers>`
 
@@ -28,15 +28,15 @@ IS 프록시의 URL 형식은 일반 IS 요청과 매우 유사합니다. 프록
 
 <table id="simpletable_40C1DFB183B54A79BCF65D51ED480CE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> widpercent = &lt;숫자&gt;</span> </p></td> 
   <td class="stentry"> <p>이미지 너비로 사용할 장치의 사용 가능한 너비 비율을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> heipercent = &lt;숫자&gt;</span> </p></td> 
   <td class="stentry"> <p>이미지 높이로 사용할 장치의 사용 가능한 높이의 백분율을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;number&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sizepercent = &lt;숫자&gt;</span> </p></td> 
   <td class="stentry"> <p>응답 크기를 제한할 장치의 메모리 제한 포함된 미디어 속성의 백분율을 지정합니다. 이는 jpg 응답에만 적용됩니다. 응답 크기가 지정된 백분율 이내가 될 때까지 이미지 품질이 낮아집니다. </p></td> 
  </tr> 
 </table>

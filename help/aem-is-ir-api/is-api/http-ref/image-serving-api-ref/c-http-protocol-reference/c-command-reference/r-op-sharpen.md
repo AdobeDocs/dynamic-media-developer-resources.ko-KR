@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 6%
 
 ## 속성 {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Layer 속성 또는 view 속성. 다음과 같은 경우 현재 레이어 또는 최종 뷰 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨.
+Layer 속성 또는 view 속성. `layer=comp`인 경우 현재 레이어 또는 최종 보기 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`를 사용하십시오.
+`op_sharpen=0`(선명하게 하기 효과 없음).
 
 ## 예 {#section-3202122df5db4e14b358ecabfb6d8b85}
 

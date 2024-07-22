@@ -16,4 +16,4 @@ ht-degree: 0%
 
 이미지 렌더링에 사용되는 자료에 대한 자세한 내용은 HTTP 프로토콜 참조의 자료를 참조하십시오.
 
-다음을 참조하십시오 [자료](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).
+[재질](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f)을 참조하세요.

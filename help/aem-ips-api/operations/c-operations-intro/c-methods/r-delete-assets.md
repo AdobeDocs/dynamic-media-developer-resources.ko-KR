@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 11%
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
@@ -42,14 +42,14 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>자산이 속한 회사에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>삭제할 자산의 배열입니다. </p> </td> 
   </tr> 
@@ -88,13 +88,13 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>작업에서 자산을 삭제하려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>작업에서 자산을 삭제하려고 할 때 오류가 발생한 자산과 관련된 세부 정보의 배열입니다. </p> </td> 
   </tr> 
@@ -103,7 +103,7 @@ ht-degree: 11%
 
 ## 예제 {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-이 코드 샘플은 회사에 핸들을 전송하고 `deleteAssetsParam` 웹 서비스 서버에 요청합니다. `deleteAssetsReturn` 두 에셋이 모두 삭제되었음을 나타내는 성공 카운트 2를 반환합니다.
+이 코드 샘플은 회사에 핸들을 보내고 `deleteAssetsParam` 요청의 자산 핸들 배열을 웹 서비스 서버에 보냅니다. `deleteAssetsReturn`은(는) 두 자산이 모두 삭제되었음을 나타내는 성공 개수 2를 반환합니다.
 
 **요청**
 

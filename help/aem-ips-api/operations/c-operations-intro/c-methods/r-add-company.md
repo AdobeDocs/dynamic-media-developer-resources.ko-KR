@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 시스템에 추가할 회사의 이름을 보내고 선택적으로 회사의 만료 여부를 보냅니다.
 
-이 작업이 호출되면 시스템은 회사 핸들과 설명 필드가 포함된 companyInfo 형식을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 이(가) throw됩니다. `ipsApiFault`.
+이 작업이 호출되면 시스템은 회사 핸들과 설명 필드가 포함된 companyInfo 형식을 가져옵니다. 요청한 회사 이름이 시스템에 이미 있으면 `ipsApiFault`이(가) 발생합니다.
 
 ## 승인된 사용자 유형 {#section-ae926c7672984be79f6102748accab72}
 
@@ -47,7 +47,7 @@ ht-degree: 9%
    <td colname="col4"> <p>추가할 회사의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 만료</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>회사의 만료일. 이 필드에 대한 요청과 함께 시간대를 제공합니다. 시간대는 중부 표준시로 조정됩니다. </p> </td> 

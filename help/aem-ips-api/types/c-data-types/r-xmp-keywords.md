@@ -30,9 +30,9 @@ ht-degree: 18%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 개 항목</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname">개 항목</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>쉼표로 구분된 다음에 병합되는 키워드 목록 <span class="codeph"> dc:subject=</span> XMP 속성 노드입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> dc:subject=</span> XMP 속성 노드에 병합되는 쉼표로 구분된 키워드 목록입니다. 개별 값에 쉼표가 나타나면 백슬래시(\) 문자로 이스케이프해야 합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

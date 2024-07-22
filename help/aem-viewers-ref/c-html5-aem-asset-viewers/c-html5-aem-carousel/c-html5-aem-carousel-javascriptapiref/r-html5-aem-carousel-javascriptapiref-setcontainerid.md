@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: 회전판 뷰어에 대한 JavaScript API 참조.
+description: 슬라이드 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # setContainerId{#setcontainerid}
 
-회전판 뷰어에 대한 JavaScript API 참조.
+슬라이드 뷰어에 대한 JavaScript API 참조.
 
 ` setContainerId( *`containerId`*)`
 
-DOM 컨테이너의 ID를 설정합니다(일반적으로 `DIV`)을 클릭하여 뷰어를 삽입합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요는 없습니다. 단, 컨테이너는 다음과 같은 경우에 존재해야 합니다. `init()` 가 실행되었습니다. 전에 호출해야 합니다. `init()`.
+뷰어가 삽입되는 DOM 컨테이너(일반적으로 `DIV`)의 ID를 설정합니다. 이 메서드가 호출될 때까지 컨테이너 요소를 만들 필요는 없습니다. 그러나 `init()`을(를) 실행할 때는 컨테이너가 있어야 합니다. `init()` 전에 호출해야 합니다.
 
-이 메서드는 뷰어 구성 정보가 `config` 생성자에 대한 JSON 개체입니다.
+뷰어 구성 정보가 `config` JSON 개체와 함께 생성자에 전달되는 경우 이 메서드는 선택 사항입니다.
 
 ## 매개 변수 {#section-fa807db629ce43bab286b1e1dc96c492}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1ded69eb-62cd-49da-ab53-124348359a58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -35,25 +35,25 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 회전 표시기 아트워크입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>회전 표시기 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>회전 표시기 높이입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-회전 표시기가 `state` 로 설정된 속성 선택기 `spin_1D` 1차원 회전 세트가 있는 경우 `spin_2D` 다차원 회전 세트가 있는 경우.
+회전 표시기는 1차원 회전 집합이 있는 경우 `spin_1D`(으)로 설정되고, 다차원 회전 집합이 있는 경우 `spin_2D`(으)로 설정된 `state` 특성 선택기를 지원합니다.
 
 예 - 100x100픽셀 확대/축소 표시기를 설정합니다.
 

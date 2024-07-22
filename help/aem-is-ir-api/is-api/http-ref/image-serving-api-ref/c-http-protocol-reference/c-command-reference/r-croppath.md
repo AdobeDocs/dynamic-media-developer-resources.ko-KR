@@ -22,16 +22,16 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>레이어 소스 이미지에 포함된 경로 이름(ASCII만 해당). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> 는 레이어 소스 이미지에 포함된 경로의 이름입니다. 이미지 내용과의 상대 정렬을 유지하기 위해 필요에 따라 경로가 자동으로 변형됩니다. 두 개 이상인 경우 <span class="codeph"><span class="varname"> pathName</span></span> 을 지정하면 서버가 각 경로의 경계 상자로 한 번에 하나씩 자릅니다. 임의 <span class="codeph"><span class="varname"> pathName</span></span> 소스 이미지에서 찾을 수 없음 은 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>레이어 소스 이미지에 포함된 경로 이름(ASCII만 해당). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span>은(는) 레이어 원본 이미지에 포함된 경로 이름입니다. 이미지 내용과의 상대 정렬을 유지하기 위해 필요에 따라 경로가 자동으로 변형됩니다. 둘 이상의 <span class="codeph"><span class="varname"> pathName</span></span>이(가) 지정된 경우 서버는 각 경로의 경계 상자로 한 번에 하나씩 자릅니다. 원본 이미지에서 찾을 수 없는 <span class="codeph"><span class="varname"> pathName</span></span>은(는) 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 속성 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-레이어 속성입니다. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
-`cropPathE=` 레이어 소스 이미지에 지정된 이름의 경로가 없거나 레이어 소스가 이미지가 아닌 경우에는 무시됩니다.
+지정된 이름의 경로가 레이어 원본 이미지에 없거나 레이어 원본이 이미지가 아니면 `cropPathE=`이(가) 무시됩니다.
 
 ## 기본값 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

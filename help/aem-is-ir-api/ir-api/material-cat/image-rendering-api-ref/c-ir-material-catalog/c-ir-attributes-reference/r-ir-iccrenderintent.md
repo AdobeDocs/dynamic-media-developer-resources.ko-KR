@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 3%
 
 ---
 
 # IccRenderIntent{#iccrenderintent}
 
-색상 변환 렌더링 의도. 렌더링 의도를 로 지정하지 않은 경우 색상 변환에 대한 기본 렌더링 의도를 제공합니다. `icc=`.
+색상 변환 렌더링 의도. 렌더링 의도가 `icc=`에 지정되어 있지 않은 경우 색상 변환에 대한 기본 렌더링 의도를 제공합니다.
 
 ## 속성 {#section-0a38c60e1525426185616c42824aee2c}
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-상속 위치 `default::IccRenderIntent`정의되지 않은 경우. 비어 있으면 &#39;상대 색도계&#39;가 적용됩니다.
+정의되지 않은 경우 `default::IccRenderIntent`에서 상속됩니다. 비어 있으면 &#39;상대 색도계&#39;가 적용됩니다.
 
 ## 참조 {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 

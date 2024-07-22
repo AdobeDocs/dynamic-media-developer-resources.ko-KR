@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## TC::directory - 로그 파일 폴더 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-다음 대상이 속한 폴더 [!DNL Platform Server] 로그 파일을 씁니다. 절대 경로이거나 상대 경로일 수 있습니다. *`install_folder`*. 기본값은 입니다 [!DNL  *`install_folder`*/logs].
+[!DNL Platform Server]에서 로그 파일을 쓰는 폴더입니다. 절대 경로이거나 *`install_folder`*&#x200B;에 상대적인 경로일 수 있습니다. 기본값은 [!DNL  *`install_folder`*/logs]입니다.
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ ht-degree: 3%
 
 ## TC::prefix - 액세스 로그 파일 이름 {#section-1003856323b844049632710a5a056aa7}
 
-액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 날짜 및 파일 접미사( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])는 지정된 문자열에 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot;입니다. `access-`&quot;.
+액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 지정한 문자열에 날짜 및 파일 접미사([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])가 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot; `access-`&quot;입니다.
 
 ## TC::pattern - 액세스 로그 패턴 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-다음에 대한 데이터 패턴을 지정합니다. [!DNL Platform Server] 로그 레코드에 액세스합니다. 패턴 문자열은 해당 값으로 대체되는 변수를 지정합니다. 패턴 문자열의 다른 모든 문자는 문자 그대로 로그 레코드로 전송됩니다.
+[!DNL Platform Server] 액세스 로그 레코드에 대한 데이터 패턴을 지정합니다. 패턴 문자열은 해당 값으로 대체되는 변수를 지정합니다. 패턴 문자열의 다른 모든 문자는 문자 그대로 로그 레코드로 전송됩니다.
 
-캐시 준비 유틸리티를 사용하려면 공백을 필드 구분 기호로 사용해야 합니다. 다음 [!DNL Platform Server] 필드 값의 모든 공백 및 &#39;%&#39; 문자를 다음으로 바꾸기 `%20` 및 `%25`, 각각
+캐시 준비 유틸리티를 사용하려면 공백을 필드 구분 기호로 사용해야 합니다. [!DNL Platform Server]은(는) 필드 값의 모든 공백 및 &#39;%&#39; 문자를 각각 `%20` 및 `%25`(으)로 바꿉니다.
 
 지원되는 패턴 변수는 다음과 같습니다.
 
@@ -76,11 +76,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>날짜 및 시간, 형식: <span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> 밀리미터 </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> 밀리초 단위입니다. <span class="varname"> offset </span> 는 GMT 시간 오프셋)이며, 응답이 클라이언트에 전송될 때 시간 값이 캡처됩니다. </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname">MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname">mm </span>: <span class="varname"> ss </span> 형식의 날짜 및 시간입니다. <span class="varname"> SSS </span> 오프셋 </span> </p> <p> ( <span class="varname"> SSS </span>은(는) 밀리초, <span class="varname"> 오프셋 </span>은(는) GMT 시간 오프셋입니다.) 응답이 클라이언트에 전송될 때 시간 값이 캡처됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
-   <td> <p>요청 메서드 ( <span class="codeph"> GET </span>, <span class="codeph"> POST </span>등). </p> </td> 
+   <td> <p>요청 메서드(<span class="codeph"> GET </span>, <span class="codeph"> POST </span> 등). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %O </span> </p> </td> 
@@ -100,7 +100,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>과 동일 <span class="codeph"> %r </span>, 그러나 제한된 HTTP 인코딩을 URI에 적용하여 로그 구문 분석 문제를 방지합니다. </p> </td> 
+   <td> <p><span class="codeph"> %r </span>과(와) 동일하지만 제한된 HTTP 인코딩을 URI에 적용하여 로그 구문 분석 문제를 방지합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -148,7 +148,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>다음 <span class="codeph"> etag </span> 응답 헤더 값(응답 데이터의 MD5 서명). </p> </td> 
+   <td> <p><span class="codeph"> etag </span> 응답 헤더 값(응답 데이터의 MD5 서명)입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
-   <td> <p>다음과 같은 경우 캐시 항목 또는 '-'를 전달한 캐시 클러스터의 피어 서버 IP 주소 <span class="codeph"> CacheUse </span> 둘 다 아님 <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p><span class="codeph"> CacheUse </span>이(가) <span class="codeph"> REMOTE_CREATED </span> 또는 <span class="codeph"> REMOTE_UPDATED </span>이(가) 아닌 경우 캐시 항목 또는 '-'를 전달한 캐시 클러스터에 있는 피어 서버의 IP 주소입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
@@ -183,7 +183,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
-   <td> <p>대문자 값 <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p><span class="codeph"> req= </span>의 대문자 값. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
@@ -191,11 +191,11 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
-   <td> <p>소요 시간 [!DNL Platform Server] 출력 스트림에 데이터를 쓴 후 응답을 보냅니다. </p> </td> 
+   <td> <p>출력 스트림에 데이터를 쓴 후 응답을 보내는 데 [!DNL Platform Server]이(가) 소요되는 시간입니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
-   <td> <p>좋아요 <span class="codeph"> %B </span>에는 포함되어 있지만 304(수정되지 않은) 응답에 대한 값은 포함되어 있습니다. </p> </td> 
+   <td> <p><span class="codeph"> %B </span>과(와) 유사하지만 304(수정되지 않은) 응답 값을 포함합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
@@ -212,4 +212,4 @@ ht-degree: 3%
  </tbody> 
 </table>
 
-기본값은 입니다. `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`
+기본값은 `"%G %a %s %{ProcessingStatus}r %{Size}r %D %{ParseTime}r %{FetchTime}r %O %{ReqType}r '%{RootId}r' %{CacheUse}r %R [%I] '%{Referer}i' %{Host}i %{X-Forwarded-For}i %{If-None-Match}i %{If-Match}i %{If-Modified-Since}i %{Digest}r %{ContentType}r %p %{Exception}r %{CacheKey}r %{PeerServer}" %{SendTime}r %{Context}r %{TransformedUrl}r %{PathBasedAccess}r.`입니다.

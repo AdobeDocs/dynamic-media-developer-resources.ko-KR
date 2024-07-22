@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: c0f28a87-c168-4c6b-bbe1-af6b98e9f52f
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
 
 # iccEmbed{#iccembed}
 
-ICC 프로파일을 포함합니다. 작업 중인 ICC 색상 프로파일 또는 을 사용하여 지정된 프로파일 중 어느 것을 사용할지 지정합니다. `icc=` 을(를) 회신 이미지에 포함해야 합니다.
+ICC 프로파일을 포함합니다. 작업 중인 ICC 색상 프로파일 또는 `icc=`(으)로 지정된 프로파일을 응답 이미지에 포함할지 여부를 지정합니다.
 
 `iccEmbed=0|1`
 
@@ -24,7 +24,7 @@ ICC 프로파일을 포함합니다. 작업 중인 ICC 색상 프로파일 또�
 
 ## 기본값 {#section-68ed1f0c68dc46b58972804799c277b7}
 
-`iccEmbed=0`: 출력 이미지에 ICC 프로파일이 포함되지 않은 경우.
+출력 이미지에 ICC 프로필이 포함되지 않은 경우 `iccEmbed=0`.
 
 ## 참조 {#section-e9e6bb04e2154f4387261edcbbbfe7d3}
 

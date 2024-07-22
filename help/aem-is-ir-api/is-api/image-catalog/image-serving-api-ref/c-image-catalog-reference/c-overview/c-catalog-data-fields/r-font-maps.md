@@ -26,7 +26,7 @@ ht-degree: 0%
   <td class="stentry"> <p>기울임체 플래그(세 번째 인덱스 키). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md" type="reference" format="dita" scope="local"> 지표 경로</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-metricspath-font.md" type="reference" format="dita" scope="local"> MetricsPath</a></span> </p></td> 
   <td class="stentry"> <p>글꼴 지표 파일 경로입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +38,7 @@ ht-degree: 0%
   <td class="stentry"> <p>Postscript 글꼴 이름(FXG 렌더링용). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> 글꼴 경로</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-fontpath-font.md" type="reference" format="dita" scope="local"> FontPath</a></span> </p></td> 
   <td class="stentry"> <p>사용자 글꼴 파일 경로입니다. </p></td> 
  </tr> 
 </table>

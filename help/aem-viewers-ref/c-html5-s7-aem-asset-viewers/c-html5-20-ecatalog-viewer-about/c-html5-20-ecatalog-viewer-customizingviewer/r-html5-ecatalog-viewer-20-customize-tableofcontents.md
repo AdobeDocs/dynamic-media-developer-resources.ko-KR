@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 1%
+source-wordcount: '1082'
+ht-degree: 0%
 
 ---
 
@@ -35,33 +35,33 @@ ht-degree: 1%
    <td colname="col2"> <p> 컨트롤 막대의 위쪽에 있는 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-왼쪽 </span> </p> </td> 
    <td colname="col2"> <p> 왼쪽에 있는 다음 단추까지의 거리 또는 한 행에 있는 첫 번째 단추인 경우 컨트롤 막대의 왼쪽입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 목차 버튼의 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p> 목차 버튼의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>이 단추는 `state` 특성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
 예 - 기본 컨트롤 막대의 맨 아래에서 4픽셀, 왼쪽에서 43픽셀로 배치된 목차 단추를 설정합니다. 크기는 28 x 28픽셀이며 네 개의 서로 다른 버튼 상태에 대해 각각 다른 이미지가 표시됩니다.
 
@@ -96,15 +96,15 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 드롭다운 패널의 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
    <td colname="col2"> <p> 패널 경계와 컨텐츠 간의 내부 오프셋입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상자 그림자 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상자-그림자 </span> </p> </td> 
    <td colname="col2"> <p> 패널 주위에 그림자를 그립니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -143,7 +143,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
    <td colname="col2"> <p>글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>항목의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -155,7 +155,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 
 >[!NOTE]
 >
->드롭다운 목록 항목은 `state` 속성 선택기: 마우스로 가리키거나 선택한 항목 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
+>드롭다운 목록 항목은 `state` 특성 선택기를 지원하며, 이 선택기는 마우스로 가리키거나 선택한 항목 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다.
 
 예 - Helvetica® 14픽셀 글꼴과 19픽셀 높이의 드롭다운 항목을 설정합니다. 항목을 선택하면 마우스로 가리키고 밝은 회색 배경이 있는 어두운 회색 배경이 있습니다.
 
@@ -184,15 +184,15 @@ background-color: rgb(178, 178, 178);
 <table id="table_FAA5072E4AAC48F4BE00B05D87FD9827"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최소 폭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">분 너비 </span> </p> </td> 
    <td colname="col2"> <p> 최소 요소 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최대 폭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 최대 너비 </span> </p> </td> 
    <td colname="col2"> <p> 최대 요소 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 패딩 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 오른쪽 </span> </p> </td> 
    <td colname="col2"> <p> 페이지 색인과 페이지 레이블 간의 거리입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -200,7 +200,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->를 설정하여 페이지 인덱스를 완전히 숨길 수 있습니다. `display:none` 대상: `s7index` CSS 클래스입니다.
+>`s7index` CSS 클래스에 대해 `display:none`을(를) 설정하여 페이지 인덱스를 완전히 숨길 수 있습니다.
 
 예제 1 - 오른쪽에서 최소 너비가 40픽셀이고 최대 너비가 70픽셀이며 5픽셀 여백이 있는 페이지 인덱스를 설정합니다.
 
@@ -231,11 +231,11 @@ display: none;
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최소 폭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">분 너비 </span> </p> </td> 
    <td colname="col2"> <p> 최소 요소 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최대 폭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 최대 너비 </span> </p> </td> 
    <td colname="col2"> <p> 최대 요소 너비입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -261,11 +261,11 @@ max-width: 240px;
 <table id="table_D34A63AAE6324699ABDCC08355D33035"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p> 스크롤 막대 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p> 패널 영역의 위쪽에서 오프셋된 세로 스크롤 막대입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -301,11 +301,11 @@ max-width: 240px;
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>트랙 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>트랙 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -331,35 +331,35 @@ max-width: 240px;
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>썸네일 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>엄지 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 상단 </span> </p> </td> 
    <td colname="col2"> <p> 트랙 상단 사이의 수직 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 안쪽 여백-아래 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩-하단 </span> </p> </td> 
    <td colname="col2"> <p>트랙 하단 사이의 수직 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 지정된 썸네일 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb은 `state` 속성 선택기: 다른 스킨을 `up`, `down`, `over`, 및 `disabled` thumb states.
+>Thumb은 `up`, `down`, `over` 및 `disabled` Thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
 
 예 - 28 x 45픽셀이고 위쪽과 아래쪽에 10픽셀 여백이 있으며 각 상태에 대해 서로 다른 아트워크가 있는 스크롤 막대 썸을 설정합니다.
 
@@ -396,36 +396,36 @@ max-width: 240px;
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS를 사용하여 스크롤 단추를 배치할 수 없습니다 `top`, `left`, `bottom`, 및 `right` 속성. 대신 뷰어 로직은 속성을 자동으로 배치합니다.
+CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 대신 뷰어 논리에서 자동으로 배치합니다.
 
 **위로 스크롤 및 아래로 스크롤 단추의 CSS 속성**
 
 <table id="table_89561098E43D44C2865267687BBF38F4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 너비입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>단추 높이입니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
+   <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p> 지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->버튼은 `state` 속성 선택기: 다른 스킨을 `up`, `down`, `over`, 및 `disabled` 단추 상태.
+>단추는 `up`, `down`, `over` 및 `disabled` 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
 예 - 28 x 32픽셀이며 각 상태에 대해 다른 아트웍이 있는 스크롤 단추를 설정합니다.
 

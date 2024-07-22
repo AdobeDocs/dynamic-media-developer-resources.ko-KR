@@ -8,7 +8,7 @@ exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 이미지 파일 경로. 텍스처 또는 데칼 이미지 파일의 상대 경로 및 이름입니다.
 
-서버는 이 값을 와 결합합니다 `attribute::RootPath` 실제 이미지 파일 경로를 빌드합니다. 절대 경로일 수도 있습니다.
+서버에서 이 값을 `attribute::RootPath`과(와) 결합하여 실제 이미지 파일 경로를 만듭니다. 절대 경로일 수도 있습니다.
 
 텍스처, 캐비닛 및 창 커버링 재료에 대한 텍스처 이미지 파일과 데칼 및 벽 테두리 재료에 대한 RGB 또는 RGBA 이미지 파일을 지정하는 데 사용됩니다. 모든 캐비닛 및 창 커버링 재료가 별도의 반복 가능한 텍스처 이미지를 필요로 하는 것은 아닙니다.
 
@@ -38,4 +38,4 @@ ht-degree: 2%
 
 ## 참조 {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[IC 유틸리티](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC 유틸리티](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [특성::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

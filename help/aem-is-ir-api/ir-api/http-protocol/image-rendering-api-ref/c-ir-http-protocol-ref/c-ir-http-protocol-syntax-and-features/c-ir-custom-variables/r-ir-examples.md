@@ -18,11 +18,11 @@ ht-degree: 1%
 
 IR 변수는 비네팅, 로고 이미지 및 사용자 지정 텍스트를 식별하는 데 사용됩니다.
 
-다음 `vignette::Modifier` (이)라는 레코드의 필드 *템플릿* 재질 카탈로그의 비네팅 맵에서 `myCat` 에는 다음이 포함되어 있습니다.
+재질 카탈로그 `myCat`의 비네팅 맵에서 이름이 *template*&#x200B;인 레코드의 `vignette::Modifier` 필드에 다음이 포함되어 있습니다.
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-사용된 모든 비네팅은 재료 카탈로그의 비네팅 맵에 나열됩니다 `myCat`.
+사용된 모든 비네팅은 재질 카탈로그 `myCat`의 비네팅 맵에 나열됩니다.
 
 이제 클라이언트가 기본 이미지 검색을 위해 다음 요청을 수행할 수 있습니다(템플릿 시작 부분에 정의된 변수 사용).
 
@@ -32,4 +32,4 @@ IR 변수는 비네팅, 로고 이미지 및 사용자 지정 텍스트를 식�
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-이미지 제공에 대한 자세한 내용은 이미지 제공 설명서 를 참조하십시오 `text=` 명령입니다.
+이미지 제공 `text=` 명령에 대한 자세한 내용은 이미지 제공 설명서를 참조하십시오.

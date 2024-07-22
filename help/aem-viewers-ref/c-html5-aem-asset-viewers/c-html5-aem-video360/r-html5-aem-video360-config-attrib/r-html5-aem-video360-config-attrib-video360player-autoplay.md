@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 20%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Video360 뷰어에 대한 구성 속성입니다.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> 시청자가 로드 시 비디오 재생을 시작할지 여부를 나타냅니다. 특정 모바일 장치와 같은 일부 시스템은 자동 재생을 지원하지 않을 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 

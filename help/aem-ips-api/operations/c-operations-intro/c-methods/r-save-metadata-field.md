@@ -8,7 +8,7 @@ exl-id: 56a45324-5027-4375-a790-c965f682e4b9
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 회사 손잡이. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 필드 핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 필드 핸들. </td> 
@@ -79,15 +79,15 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> IPS 시스템별 메타데이터를 숨기거나 노출합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname">이(가) 적용됨</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 적용되는지(유효성 확인) 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 잘못된 값이에 설정된 경우 오류가 발생합니다. <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>값이 설정될 때 메타데이터 필드가 적용되는지(유효성 확인) 여부를 나타내는 부울 플래그입니다. </p> <p>true로 설정하면 <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>에 잘못된 값이 설정되면 오류가 발생합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +100,7 @@ ht-degree: 9%
 
 ## 예제 {#section-4441c26d1f41466ba972b43dd5189e89}
 
-이 코드 샘플은 Asset Type 및 Metadata Field Types 문자열 상수에 의해 제한된 메타데이터 필드를 만듭니다. 다음과 같은 경우 `fieldHandle` 요소에 유효한 필드 핸들 값이 있으면 메타데이터 값이 변경되고 요청에 지정한 것과 동일한 필드 핸들을 가져옵니다.
+이 코드 샘플은 Asset Type 및 Metadata Field Types 문자열 상수에 의해 제한된 메타데이터 필드를 만듭니다. `fieldHandle` 요소에 유효한 필드 핸들 값이 있으면 메타데이터 값이 변경되고 요청에 지정한 것과 동일한 필드 핸들을 가져옵니다.
 
 **요청**
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 1%
 
 수정 타임스탬프. 이 비네팅을 마지막으로 수정한 날짜/시간을 지정합니다.
 
-If `attribute::UseLastModified` 은(는) 설정되어 있으며, 가장 최근 `vignette::TimeStamp` 및 `catalog::TimeStamp`요청에 포함된 비네팅 및 모든 재료의 값이 HTTP 응답에서 마지막으로 수정된 헤더로 반환됩니다.
+`attribute::UseLastModified`이(가) 설정되면 비네팅 및 요청에 포함된 모든 자료의 가장 최근 `vignette::TimeStamp` 및 `catalog::TimeStamp` 값이 HTTP 응답에서 마지막으로 수정된 헤더로 반환됩니다.
 
 >[!NOTE]
 >
 >비네팅 파일의 실제 파일 시간은 이 용도로 사용되지 않습니다.
 
-다음 `catalog::TimeStamp` 카탈로그 기반 캐시 유효성 검사에도 사용됩니다. 다음을 참조하십시오 [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+`catalog::TimeStamp`은(는) 카탈로그 기반 캐시 유효성 검사에도 사용됩니다. [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md)을(를) 참조하십시오.
 
 ## 속성 {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
@@ -32,16 +32,16 @@ Java™ 형식의 날짜/시간 값입니다. 이 값은 자정, 1970년 1월 1�
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
-* *[!DNL hh]* 은(는) 0~23 범위에 있습니다.
-* *[!DNL zzz]* 는 &#39;GMT&#39; 또는 &#39;PST&#39;와 같은 3~4자 표준 시간대 코드입니다. 일광 절약 시간제는 시간대 코드(예: 태평양 표준시간의 경우 &#39;PST&#39;, 태평양 일광 절약 시간제의 경우 &#39;PDT&#39;)에서 계산해야 합니다.
-* *[!DNL offset]* 는 GMT를 기준으로 한 시간대 오프셋(시간 또는 시간:분 단위)입니다. 예를 들어 &#39;PDT&#39;는 &#39;GMT -7&#39;과 같습니다.
+* *[!DNL hh]*&#x200B;은(는) 0~23 범위에 있습니다.
+* *[!DNL zzz]*&#x200B;은(는) &#39;GMT&#39; 또는 &#39;PST&#39;와 같은 3~4자 표준 시간대 코드입니다. 일광 절약 시간제는 시간대 코드(예: 태평양 표준시간의 경우 &#39;PST&#39;, 태평양 일광 절약 시간제의 경우 &#39;PDT&#39;)에서 계산해야 합니다.
+* *[!DNL offset]*&#x200B;은(는) GMT를 기준으로 한 시간대 오프셋(시간 또는 시간:분 단위)입니다. 예를 들어 &#39;PDT&#39;는 &#39;GMT -7&#39;과 같습니다.
 
-문자열 형식의 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바르지 않으면 이 값은 무시되고 [!DNL]이 수정됩니다 *[!DNL catalog]*.ini] 파일이 대신 사용됩니다.
+문자열 형식의 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바르지 않으면 이 값이 무시되고 대신 [!DNL *[!DNL catalog]*.ini] 파일의 수정 시간이 사용됩니다.
 
 ## 기본값 {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-다음 `attribute::TimeStamp` 은(는) 비어 있거나 없는 필드입니다.
+`attribute::TimeStamp`은(는) 비어 있거나 없는 필드입니다.
 
 ## 참조 {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 
-[attribute::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) , [catalog::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319), [attribute::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)
+[특성::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) , [카탈로그::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319), [특성::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)

@@ -101,7 +101,7 @@ ht-degree: 17%
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>에지 무작위화 장치. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Edge 랜더마이저입니다. </p></td> 
  </tr> 
 </table>
 

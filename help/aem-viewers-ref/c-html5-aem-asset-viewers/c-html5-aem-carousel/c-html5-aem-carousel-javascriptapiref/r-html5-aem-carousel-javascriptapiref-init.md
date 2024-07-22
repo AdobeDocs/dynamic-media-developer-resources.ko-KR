@@ -1,6 +1,6 @@
 ---
 title: init
-description: 회전판 뷰어에 대한 JavaScript API 참조.
+description: 슬라이드 뷰어에 대한 JavaScript API 참조.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # init{#init}
 
-회전판 뷰어에 대한 JavaScript API 참조.
+슬라이드 뷰어에 대한 JavaScript API 참조.
 
 `init()`
 
 슬라이드 뷰어의 초기화를 시작합니다. 이 시점까지 뷰어 코드가 해당 ID로 찾을 수 있도록 컨테이너 DOM 요소를 만들어야 합니다.
 
-컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: 다음을 사용하여 숨길 수 있음) `display:none` 스타일 - 뷰어가 초기화 프로세스를 일시 중단합니다. 웹 페이지가 컨테이너 요소를 레이아웃으로 되돌려 놓는 순간까지 일시 중단되고 뷰어 로드는 자동으로 다시 시작됩니다.
+컨테이너 요소가 아직 웹 페이지 레이아웃의 일부가 아닌 경우(예: `display:none` 스타일을 사용하여 숨길 수 있음) 뷰어가 초기화 프로세스를 일시 중단합니다. 웹 페이지가 컨테이너 요소를 레이아웃으로 되돌려 놓는 순간까지 일시 중단되고 뷰어 로드는 자동으로 다시 시작됩니다.
 
 이 메서드는 뷰어 수명 주기 동안 한 번만 호출합니다. 이후의 호출은 무시됩니다.
 

@@ -18,4 +18,4 @@ ht-degree: 0%
 
 이러한 메커니즘은 캐비닛 및 창 덮개 재료에는 지원되지 않습니다.
 
-참조: [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) 및 이미지 제공 참조.
+[src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) 및 이미지 제공 참조도 참조하십시오.

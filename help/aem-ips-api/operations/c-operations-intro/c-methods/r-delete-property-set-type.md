@@ -8,7 +8,7 @@ exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-이 코드 샘플은 형식의 핸들을 `deletePropertySetTypeParam` 속성 집합 유형을 삭제하기 위해 IPS 웹 서비스 서버로 전송됩니다.
+이 코드 샘플은 속성 집합 형식을 삭제하기 위해 형식의 핸들을 IPS 웹 서비스 서버로 보낸 `deletePropertySetTypeParam`의 필드로 사용합니다.
 
 **요청**
 

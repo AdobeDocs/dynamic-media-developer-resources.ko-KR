@@ -24,7 +24,7 @@ swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하
 
 ## 기본값 {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-상속 위치 `default::TrustedDomains` 없는 경우.
+없는 경우 `default::TrustedDomains`에서 상속됨.
 
 ## 참조 {#section-65d0846e41674882a4d0d56a8f6d524b}
 

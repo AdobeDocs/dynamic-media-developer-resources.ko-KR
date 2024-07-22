@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 13%
 
 ## 예제 {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-이 샘플 코드는 회사 핸들 매개 변수, 이메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. 사용자인 경우 *can* 로그인하면 이 메서드는 문자열을 반환합니다. `ValidLogin`. 사용자인 경우 *할 수 없음* 로그인하면 이 메서드는 문자열을 반환합니다. `InvalidLogin`.
+이 샘플 코드는 회사 핸들 매개 변수, 이메일 주소 및 암호를 사용하여 사용자가 IPS에 로그인할 수 있는지 여부를 결정합니다. *can* 사용자가 로그인하면 이 메서드는 문자열 `ValidLogin`을(를) 반환합니다. 사용자 *로그인할 수 없는*&#x200B;인 경우 이 메서드는 문자열 `InvalidLogin`을(를) 반환합니다.
 
 **요청**
 

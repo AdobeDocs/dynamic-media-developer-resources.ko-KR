@@ -22,4 +22,4 @@ ht-degree: 7%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | 배열 [!DNL PropertySet] 는 업로드 중에 적용된 자동 세트 생성 스크립트를 정의하는 핸들입니다. |
+| autoSetsArray | `types:HandleArray` | 업로드 중에 적용된 자동 집합 생성 스크립트를 정의하는 [!DNL PropertySet] 핸들의 배열입니다. |

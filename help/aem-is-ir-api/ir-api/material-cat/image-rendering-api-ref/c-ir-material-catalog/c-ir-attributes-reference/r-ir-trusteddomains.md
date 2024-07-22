@@ -18,12 +18,12 @@ Flash 애플리케이션 웹 도메인. Adobe Flash 응용 프로그램을 사�
 
 ## 속성 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-웹 도메인 이름의 쉼표로 구분된 목록이 포함된 문자열입니다. 비어 있는 경우 의 이미지 속성에 액세스할 수 있으려면 이미지 렌더링과 동일한 도메인에서 애플리케이션을 제공해야 합니다. [!DNL swf]형식이 지정된 응답입니다.
+웹 도메인 이름의 쉼표로 구분된 목록이 포함된 문자열입니다. 비어 있는 경우 [!DNL swf] 형식의 응답에서 이미지 속성에 액세스할 수 있으려면 이미지 렌더링과 동일한 도메인에서 응용 프로그램을 제공해야 합니다.
 
 ## 기본값 {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-상속 위치 `default::TrustedDomains` 없는 경우.
+없는 경우 `default::TrustedDomains`에서 상속됨.
 
 ## 참조 {#section-2f829671c385411d8e1a7525def5529f}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , `mask=`, [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , `mask=`, [특성::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)

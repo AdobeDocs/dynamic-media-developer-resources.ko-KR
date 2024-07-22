@@ -8,7 +8,7 @@ exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -35,20 +35,20 @@ ht-degree: 2%
    <td colname="col2"> <p> 서버 감독자 및 기타 모든 이미지 제공 구성 요소를 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 중지 </p> </td> 
    <td colname="col2"> <p> 서버 감독자를 포함하여 모든 이미지 제공 구성 요소를 중지합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 다시 시작 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> </span> 다시 시작 </p> </td> 
    <td colname="col2"> <p>서버 감독자를 포함하여 모든 이미지 제공 구성 요소를 다시 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> { ps 다시 시작 | | svg } </span> </p> </td> 
-   <td colname="col2"> <p> Tomcat/ 다시 시작[!DNL Platform Server], 이미지 서버 또는 SVG </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> { ps 다시 시작 | 은(는) | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Tomcat/[!DNL Platform Server], 이미지 서버 또는 SVG을 다시 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>이미지 서버, Tomcat/에 대한 가동 시간 및 현재 메모리 사용량 정보 반환[!DNL Platform Server]및 SVGserver 또는 지정된 서버에 대한 상태만 반환합니다. 서버 감독자가 실행되고 있지 않으면 정보 메시지가 대신 반환됩니다. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | 은(는) | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>이미지 서버, Tomcat/[!DNL Platform Server] 및 SVGserver에 대한 가동 시간 및 현재 메모리 사용 정보나 지정된 서버에 대한 상태를 반환합니다. 서버 감독자가 실행되지 않는 경우에는 정보 메시지가 대신 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -25,18 +25,18 @@ ht-degree: 2%
  </tr> 
 </table>
 
-*`radius`* 는 합성 이미지를 기준으로 픽셀 단위입니다. 레이어 효과를 페더링하는 데에도 사용됩니다.
+*`radius`*&#x200B;은(는) 합성 이미지를 기준으로 픽셀 단위입니다. 레이어 효과를 페더링하는 데에도 사용됩니다.
 
 ## 속성 {#section-92573fe2c07746a7bab93a81fc3d208d}
 
-레이어 명령. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`.
+레이어 명령. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다.
 
 ## 기본값 {#section-a976cb86620d489085a8fc9bae2626c0}
 
-`op_blur=0`, 흐림 효과 없음
+흐림 효과 없이 `op_blur=0`.
 
 ## 예 {#section-1ebacde68388492eb108ae0fcd7424db}
 
-이미지의 배경을 흐리게 합니다. 에서 별도의 마스크 이미지를 참조합니다. `catalog::MaskPath`. 참고: `layer=0`은(는) 명시적으로 지정해야 합니다. 그렇지 않으면 `op_blur` 전체 합성 이미지에 적용됩니다.
+이미지의 배경을 흐리게 합니다. `catalog::MaskPath`에서 별도의 마스크 이미지를 참조합니다. `layer=0`을(를) 명시적으로 지정해야 합니다. 그렇지 않으면 `op_blur`이(가) 전체 합성 이미지에 적용됩니다.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

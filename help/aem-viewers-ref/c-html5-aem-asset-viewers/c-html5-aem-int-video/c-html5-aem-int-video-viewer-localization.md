@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 대화형 비디오 뷰어가 표시하는 특정 컨텐츠는 현지화가 적용됩니다. 이러한 콘텐츠에는 사용자 인터페이스 요소 도구 팁과 비디오가 재생될 수 없을 때 표시되는 오류 메시지가 포함됩니다.
 
-현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 영어 로케일에 대한 기본 연관 텍스트 값( `"en"`) 기본 제공 뷰어와 함께 제공됩니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
+현지화할 수 있는 뷰어의 모든 텍스트 콘텐츠는 SYMBOL이라는 특수한 뷰어 SDK 식별자에 의해 표현됩니다. 모든 SYMBOL에는 기본 뷰어와 함께 제공되는 영어 로케일(`"en"`)에 대한 기본 관련 텍스트 값이 있습니다. 또한 필요한 수만큼 로케일에 대해 사용자 정의 값이 설정되어 있을 수 있습니다.
 
 뷰어가 시작되면 현재 로케일을 확인하여 해당 로케일에 대해 지원되는 각 SYMBOL에 대한 사용자 정의 값이 있는지 확인합니다. 있는 경우 사용자 정의 값을 사용하고, 그렇지 않은 경우 기본 텍스트로 돌아갑니다.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-위의 예에서 현지화 개체는 두 개의 로케일( `"en"` 및 `"fr"`)에서 각 로케일의 두 가지 사용자 인터페이스 요소에 대한 현지화 기능을 제공합니다.
+위의 예에서 로컬라이제이션 개체는 두 개의 로케일(`"en"` 및 `"fr"`)을 정의하고 각 로케일에서 두 개의 사용자 인터페이스 요소에 대한 로컬라이제이션을 제공합니다.
 
-웹 페이지 코드는 로컬라이제이션 개체를 뷰어 생성자에 값으로 전달해야 합니다. `localizedTexts` 구성 객체의 필드입니다. 다른 옵션은 를 호출하여 현지화 개체를 전달하는 것입니다. `setLocalizedTexts(localizationInfo)` 메서드를 사용합니다.
+웹 페이지 코드는 구성 개체의 `localizedTexts` 필드 값으로 지역화 개체를 뷰어 생성자에 전달해야 합니다. 다른 방법은 `setLocalizedTexts(localizationInfo)` 메서드를 호출하여 현지화 개체를 전달하는 것입니다.
 
 지원되는 기호는 다음과 같습니다.
 
@@ -57,7 +57,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>최상위 뷰어 요소에 대한 ARIA 레이블입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLS_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p> 재생 일시 중지 단추 상태를 선택했습니다. </p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>재생 일시 중지 단추 상태를 선택 해제했습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_PLAY </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
    <td colname="col2"> <p> 재생 재생 일시 중지 단추 상태. </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>비디오 스크러버. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOL팁 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>컨트롤 막대의 비디오 시간입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -86,14 +86,14 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> ARIA를 통해 노출된 볼륨 슬라이더 노브 레이블 <span class="codeph"> aria-valuetext </span> 특성. </p> </td> 
+   <td colname="col2"> <p> ARIA <span class="codeph"> aria-valuetext </span> 속성을 통해 노출된 볼륨 슬라이더 노브 레이블입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLS_SELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>정상 상태의 전체 화면 단추. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLS_UNSELECTED </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>전체 화면 상태의 전체 화면 단추. </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>취소 단추의 캡션입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLS_CANCEL </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
    <td colname="col2"> <p>취소 단추. </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>콜 투 액션 패널 닫기 버튼. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.오류 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
    <td colname="col2"> <p>비디오 재생이 가능하지 않을 때 표시되는 오류 메시지. </p> </td> 
   </tr> 
  </tbody> 

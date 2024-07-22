@@ -1,5 +1,5 @@
 ---
-description: 일괄 작업의 작업 ID.
+description: 일괄 작업의 작업 ID입니다.
 solution: Experience Manager
 title: 작업 ID
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 작업 ID{#jobid}
 
-일괄 작업의 작업 ID.
+일괄 작업의 작업 ID입니다.
 
 상태 또는 출력이 요청되는 작업을 지정하거나 특정 작업을 삭제하기 위해 일괄 작업 요청에 사용됩니다. 이 값은 작업이 제출될 때 반환되는 작업 ID 문자열입니다.

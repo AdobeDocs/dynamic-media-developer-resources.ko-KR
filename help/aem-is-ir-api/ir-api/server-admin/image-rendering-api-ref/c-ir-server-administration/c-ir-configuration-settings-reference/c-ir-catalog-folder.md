@@ -16,4 +16,4 @@ ht-degree: 0%
 
 재질 카탈로그 폴더의 위치(모든 catalog.ini 파일이 있어야 함).
 
-절대 경로이거나 [!DNL]에 상대적인 경로일 수 있습니다. *[!DNL install_folder]*]. 기본값은 입니다 [!DNL ./catalog], [!DNL]에 해당 *[!DNL install_folder]*/catalog].
+절대 경로이거나 [!DNL *[!DNL install_folder]*]에 상대적인 경로일 수 있습니다. 기본값은 [!DNL *[!DNL install_folder]*/catalog]에 해당하는 [!DNL ./catalog]입니다.

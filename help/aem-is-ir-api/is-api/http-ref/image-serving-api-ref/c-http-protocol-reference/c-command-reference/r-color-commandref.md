@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '201'
 ht-degree: 3%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 3%
 
 <table id="simpletable_68645167998A42229CEF858909FD447E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 색상 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 색 </span> </span> </p> </td> 
   <td class="stentry"> <p>회색, RGB 또는 CMYK 색상 값(알파 포함 또는 제외) </p> </td> 
  </tr> 
 </table>
 
-이미지 및 텍스트 레이어가 있는 경우 `color=` 레이어의 경계 사각형 내에 있는 투명 영역과 반불투명 영역을 앞에 지정된 색상**으로 채웁니다. `rotate=` 및 `extend=` 적용됩니다.
+이미지 및 텍스트 레이어가 있는 경우 `rotate=` 및 `extend=`이(가) 적용되기 전에 `color=`이(가) 지정된 색상*으로 레이어의 경계 사각형 내에 투명 영역과 반불투명 영역을 채웁니다.
 
 ## 속성 {#section-d6e74c36a49547849212e4db8927e678}
 
-레이어 속성입니다. 다음과 같은 경우 현재 레이어 또는 레이어 0에 적용됩니다. `layer=comp`.
+레이어 속성입니다. `layer=comp`인 경우 현재 레이어 또는 레이어 0에 적용됩니다.
 
-수정자 *`color`* 의 픽셀 유형에 해당하는 작업 색상 공간에 존재한다고 가정합니다. *`color`*. 및 *`color`* 병합 시 레이어 이미지의 픽셀 유형이 다른 경우 정확하게 변환됩니다.
+수정자 *`color`*&#x200B;은(는) *`color`*&#x200B;의 픽셀 유형에 해당하는 작업 색상 공간에 있는 것으로 간주됩니다. 병합 시 레이어 이미지의 픽셀 유형이 다른 경우 *`color`*&#x200B;이(가) 정확하게 변환됩니다.
 
 ## 기본값 {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +45,4 @@ ht-degree: 3%
 
 ## 참조 {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[색상](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [색상 관리](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extend=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [색상 관리](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

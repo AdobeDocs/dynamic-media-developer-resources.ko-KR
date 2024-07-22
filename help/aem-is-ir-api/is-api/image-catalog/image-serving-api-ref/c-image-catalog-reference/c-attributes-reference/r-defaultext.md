@@ -24,8 +24,8 @@ ht-degree: 2%
 
 ## 기본값 {#section-1194c36ffe0748c5b9ff7d732a506588}
 
-상속 위치 `default::DefaultExt` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 이 카탈로그를 사용할 때 이미지 이름에 기본 접미사가 적용되지 않습니다.
+정의되지 않은 경우 `default::DefaultExt`에서 상속됩니다. 정의되어 있지만 비어 있는 경우 이 카탈로그를 사용할 때 이미지 이름에 기본 접미사가 적용되지 않습니다.
 
 ## 참조 {#section-d7c408b979844643adff8258f500eb7c}
 
-[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
+[카탈로그::경로](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [카탈로그::마스크 경로](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)

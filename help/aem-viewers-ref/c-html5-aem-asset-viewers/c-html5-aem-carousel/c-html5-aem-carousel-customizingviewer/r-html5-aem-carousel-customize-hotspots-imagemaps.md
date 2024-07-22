@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -35,19 +35,19 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>핫스팟 아이콘 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스타일 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>핫스팟 아이콘 너비. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>핫스팟 아이콘 높이. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,15 +84,15 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경 </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p>다음에서 이 색상 지정: <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식. </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p>다음에서 이 색상 지정: <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p>이미지 맵 영역 채우기 색입니다. </p> <p><span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span> 형식으로 이 색상을 지정하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 경계 </span> </p> </td> 
-   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. 을(를) "(으)로 지정해야 합니다. <span class="codeph"> 폭 </span> <span class="codeph"> 단색 </span>", 여기서 <span class="codeph"> 폭 </span> 픽셀 단위로 표시되며, <span class="codeph"> 색상 </span> 다음으로 설정됨 <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, 또는 <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 </span> </p> </td> 
+   <td colname="col2"> <p> 이미지 맵 영역 테두리 스타일입니다. <span class="codeph"> 너비 </span> <span class="codeph"> 단색 </span>(으)로 지정해야 합니다. 여기서 <span class="codeph"> 너비 </span>은(는) 픽셀 단위로 표시되고 <span class="codeph"> 색상 </span>은(는) <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> 또는 <span class="codeph"> RGBA(R,G,B,A) </span>(으)로 설정됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

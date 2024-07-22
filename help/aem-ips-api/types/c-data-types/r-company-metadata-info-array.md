@@ -22,5 +22,5 @@ CompanyMetadataInfo 요소의 배열입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 코드 구 | `Code Phrase` |  |
-| 코드 구 | `Code Phrase` |  |
+| 코드 구 | `Code Phrase` | |
+| 코드 구 | `Code Phrase` | |

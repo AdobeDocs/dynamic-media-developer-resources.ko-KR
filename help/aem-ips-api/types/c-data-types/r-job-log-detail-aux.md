@@ -23,5 +23,5 @@ ht-degree: 7%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | logMessage | `xsd:string` | 보조 메시지. |
-| logType | `xsd:string` | 로그 유형: `IPSJobLog.gcUploadWarning` 또는 `IPSJobLog.gcUploadError`. |
+| logType | `xsd:string` | 로그 형식: `IPSJobLog.gcUploadWarning` 또는 `IPSJobLog.gcUploadError`. |
 | dateCreated | `xsd:dateTime` | 보조 작업 로그 생성 날짜입니다. |

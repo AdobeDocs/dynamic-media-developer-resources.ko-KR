@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 빠른 보기 정보 {#section-7990e44f641042d2a38ba20c9413b3f8}
 
-이러한 유형의 대화형 견본은 Adobe Experience Manager Assets - On-demand의 &quot;빠른 보기&quot; 작업 유형을 사용하여 작성해야 합니다. 사용자가 이러한 견본을 활성화하면 뷰어가 실행됩니다 `quickViewActivate` JavaScript 콜백하고 견본 데이터를 전달합니다. 포함 웹 페이지가 이 콜백을 수신하고 트리거할 때 페이지가 자체 Quickview 구현을 여는 것으로 예상됩니다.
+이러한 유형의 대화형 견본은 Adobe Experience Manager Assets - On-demand의 &quot;빠른 보기&quot; 작업 유형을 사용하여 작성해야 합니다. 사용자가 이러한 견본을 활성화하면 뷰어가 `quickViewActivate` JavaScript 콜백을 실행하고 견본 데이터를 전달합니다. 포함 웹 페이지가 이 콜백을 수신하고 트리거할 때 페이지가 자체 Quickview 구현을 여는 것으로 예상됩니다.
 
 ## 외부 웹 페이지로 리디렉션 {#section-32ebe3c3a7f74892a428c5d48801de4d}
 

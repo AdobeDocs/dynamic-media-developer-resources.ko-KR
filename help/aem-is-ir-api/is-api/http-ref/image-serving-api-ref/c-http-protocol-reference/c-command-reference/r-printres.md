@@ -20,12 +20,12 @@ ht-degree: 2%
 
 <table id="simpletable_85C271760AE5466C96115027E6511559"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 값</span> </p> </td> 
   <td class="stentry"> <p>인쇄 해상도(dpi). </p></td> 
  </tr> 
 </table>
 
-인쇄 해상도는 일반적으로 다음 방법으로 정의됩니다. `catalog::PrintResolution` 카탈로그 엔트리이면 소스 이미지에 포함된 인쇄 해상도 값으로 표시됩니다. 템플릿 또는 레이어 합성 이미지가 있는 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
+인쇄 해상도는 일반적으로 카탈로그 항목인 경우 `catalog::PrintResolution`에 의해 정의되며, 그렇지 않은 경우 소스 이미지에 포함된 인쇄 해상도 값에 의해 정의됩니다. 템플릿 또는 레이어 합성 이미지가 있는 경우 응답 파일에 포함된 기본 인쇄 해상도는 레이어 번호가 가장 낮은 레이어 이미지의 인쇄 해상도입니다.
 
 인쇄 해상도를 설정해도 응답 이미지의 픽셀 크기는 변경되지 않습니다.
 

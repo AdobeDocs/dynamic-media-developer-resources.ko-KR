@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 4%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">집합을 만드는 데 사용되는 자산 핸들의 배열입니다. <p>기본적으로 1000은 배열에 가질 수 있는 최대 에셋 수입니다. </p></td> 
+   <td colname="col2"> <span class="codeph"> 형식:HandleArray</span> </td> 
+   <td colname="col3">집합을 만드는 데 사용되는 자산 핸들의 배열입니다. <p>기본적으로 1000은 배열에 포함할 수 있는 최대 에셋 수입니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
@@ -41,13 +41,13 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 자산을 게시할지 여부를 나타내는 플래그를 설정합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:AutoSetCreateOptions</span> </td> 
-   <td colname="col3">업로드된 파일에서 실행할 수 있는 집합 생성 스크립트의 배열입니다. 다음을 참조하십시오 <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> 자동 설정 생성 옵션</a></td> 
+   <td colname="col2"> <span class="codeph"> 유형:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">업로드된 파일에서 실행할 수 있는 집합 생성 스크립트의 배열입니다. <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a>을(를) 참조하십시오.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
@@ -59,7 +59,7 @@ ht-degree: 4%
 
 **emailSetting 옵션**
 
-다음 `emailSetting` 매개 변수에는 다음 옵션이 포함됩니다.
+`emailSetting` 매개 변수에는 다음 옵션이 포함됩니다.
 
 | 옵션 | 반환 |
 |---|---|

@@ -39,7 +39,7 @@ ht-degree: 0%
    <td colname="col2"> <p> 썸네일의 기본 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local"> BkgColor</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-bkgcolor.md#reference-ed53106ee50442d7a2dd3e1f60e6f0f8" format="dita" scope="local">BkgColor</a></span> </p> </td> 
    <td colname="col2"> <p> 응답 이미지의 기본 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ ht-degree: 0%
    <td colname="col2"> <p> 기본 JPEG 인코더 설정입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> 리소스 모드</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
    <td colname="col2"> <p> 기본 재샘플링 모드. </p> </td> 
   </tr> 
   <tr> 

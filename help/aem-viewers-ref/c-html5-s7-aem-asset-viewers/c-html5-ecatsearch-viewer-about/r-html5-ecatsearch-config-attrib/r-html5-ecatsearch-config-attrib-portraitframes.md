@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 분할|단색</span> </p> </td> 
-   <td colname="col2"> <p>다음으로 설정 <span class="codeph"> split</span> 모바일 장치에서 세로 방향으로 사용할 때 뷰어에 이중 페이지 스프레드가 별도의 페이지로 표시되도록 할 수 있습니다. 다음으로 설정 <span class="codeph"> 단색</span> 장치 방향에 관계없이 항상 이중 페이지 스프레드를 단색 이미지로 표시합니다. </p> </td> 
+   <td colname="col2"> <p>모바일 장치에서 세로 방향으로 사용할 때 뷰어에 이중 페이지 스프레드를 별도의 페이지로 표시하려면 <span class="codeph"> split</span>(으)로 설정하십시오. 장치 방향에 관계없이 항상 이중 페이지 스프레드를 단색 이미지로 표시하려면 <span class="codeph"> 단색</span>(으)로 설정하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,17 +18,17 @@ eCatalog 뷰어에 대한 JavaScript API 참조입니다.
 
 [!DNL ` setParams( *`매개 변수`*)`]
 
-하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, 다음과 같이 구분된 name=value 쌍을 나타냅니다. [!DNL `&`]. 쿼리 문자열에서와 마찬가지로, 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. 통화하기 전에 [!DNL `init()`], 이 매개 변수를 호출해야 합니다.
+하나 이상의 매개 변수를 지정된 값으로 설정합니다. 메서드 인수 구문은 URL 쿼리 문자열과 동일합니다. 즉, [!DNL `&`](으)로 구분된 이름=값 쌍을 나타냅니다. 쿼리 문자열에서와 마찬가지로, 이름과 값은 UTF8을 사용하여 퍼센트 인코딩됩니다. [!DNL `init()`]을(를) 호출하기 전에 이 매개 변수를 호출해야 합니다.
 
-뷰어 구성 정보가 로 전달되는 경우 이 메서드는 선택 사항입니다. [!DNL `config`] 생성자에 대한 JSON 개체입니다.
+뷰어 구성 정보가 [!DNL `config`] JSON 개체와 함께 생성자에 전달되는 경우 이 메서드는 선택 사항입니다.
 
-참조: [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b)도 참조하세요.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 매개 변수</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> 다음으로 구분된 name=value 매개 변수 쌍 <span class="codeph"> 및</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> 이름=값 매개 변수 쌍이 <span class="codeph"> &amp;</span>(으)로 구분되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: 이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
+description: 이 명령은 요청의 표시 위치에 관계없이 적용됩니다.
 solution: Experience Manager
 title: 명령 보기
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
 # 명령 보기{#view-commands}
 
-이러한 명령은 요청의 표시 위치에 관계없이 적용됩니다.
+이 명령은 요청의 표시 위치에 관계없이 적용됩니다.
 
 <table id="simpletable_A423F1CD30EC4DE9AD15C4514F169FC9"> 
  <tr class="strow"> 
@@ -22,7 +22,7 @@ ht-degree: 3%
   <td class="stentry"> <p>합성 이미지로 보기를 정렬합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local"> bgc</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88" type="reference" format="dita" scope="local">bgc</a> </p> </td> 
   <td class="stentry"> <p>보기 배경색을 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 

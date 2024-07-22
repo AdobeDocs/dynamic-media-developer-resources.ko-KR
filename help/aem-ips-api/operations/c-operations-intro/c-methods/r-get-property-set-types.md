@@ -8,7 +8,7 @@ exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 13%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4">속성 세트 유형이 연결된 회사에 대한 핸들입니다. <p>전역 속성 집합 유형을 반환하려면 을 생략합니다. </p> </td> 

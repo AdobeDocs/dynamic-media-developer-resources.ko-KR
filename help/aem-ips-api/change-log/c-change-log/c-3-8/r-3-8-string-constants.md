@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 5%
+source-wordcount: '58'
+ht-degree: 1%
 
 ---
 
@@ -20,13 +20,13 @@ IPS API 버전 3.8에 대한 새로운 문자열 상수와 변경된 문자열 �
 
 ## 새 상수 {#section-8171990eacae40c690830256f69e7afa}
 
-**영역 모양**
+**지역 셰이프**
 
 * 사용한 사람: `ImageMap/shapeType`, `saveImageMapParam/shapeType`
 
 * 값: `Rectangle` 및 `Polygon`.
 
-**게시 상태**
+**Publish 상태**
 
 * 사용한 사람: `searchAssetsParam/publishState` 및 `setAssetPublishStateParam/publishState`.
 

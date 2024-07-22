@@ -8,7 +8,7 @@ exl-id: dae44565-083d-47f5-8a08-2567590315a4
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 19%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ getPhotoshopPath 작업에서 반환된 이미지 위치 좌표입니다.
 
 ## 예 {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-다음 `PerspectiveQuad` type은 다음 순서로 데이터를 반환합니다.
+`PerspectiveQuad` 형식은 다음 순서로 데이터를 반환합니다.
 
 ```
 <complexType name="PerspectiveQuad">
@@ -52,4 +52,3 @@ getPhotoshopPath 작업에서 반환된 이미지 위치 좌표입니다.
 >[!MORELIKETHIS]
 >
 >* [getPhotoshopPath](../../operations/c-operations-intro/c-methods/r-get-photoshop-path.md#reference-545f902f84194951ac04e947fdc803b9)
-

@@ -1,5 +1,5 @@
 ---
-description: 소스 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택한 속성을 반환합니다.
+description: Source 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택한 속성을 반환합니다.
 solution: Experience Manager
 title: imageprops
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: b4337c20-8e47-4d61-b234-19434f5c5216
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '334'
+ht-degree: 4%
 
 ---
 
 # imageprops{#imageprops}
 
-소스 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택한 속성을 반환합니다.
+Source 이미지 속성입니다. URL 경로에 지정된 이미지 파일 또는 카탈로그 항목의 선택한 속성을 반환합니다.
 
 `req=imageprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,15 +25,15 @@ ht-degree: 7%
  </tr> 
 </table>
 
-HTTP 응답은 다음을 기반으로 하는 TTL로 캐시할 수 있습니다. `attribute::NonImgExpiration`.
+`attribute::NonImgExpiration`을(를) 기반으로 하는 TTL로 HTTP 응답을 캐시할 수 있습니다.
 
 요청 문자열의 다른 명령은 무시됩니다.
 
-JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사용하는 JS 콜백 핸들러의 이름을 지정할 수 있습니다. `req=` 매개 변수:
+JSONP 응답 형식을 지원하는 요청을 사용하면 `req=` 매개 변수의 확장 구문을 사용하여 JS 콜백 처리기의 이름을 지정할 수 있습니다.
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` 는 JSONP 응답에 있는 JS 핸들러의 이름입니다. a-z, A-Z 및 0~9자만 허용됩니다. 선택적. 기본값은 입니다 `s7jsonResponse`.
+`<reqHandler>`은(는) JSONP 응답에 있는 JS 처리기의 이름입니다. a-z, A-Z 및 0~9자만 허용됩니다. 선택 사항입니다. 기본값은 `s7jsonResponse`입니다.
 
 다음 속성이 반환됩니다.
 
@@ -47,12 +47,12 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
   <tr> 
    <td> <p> <span class="codeph"> image.anchor</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> 카탈로그::앵커</span> 또는 기본 기준점 </p> </td> 
+   <td> <p> <span class="codeph"> 카탈로그::Anchor</span> 또는 기본 앵커 지점 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> image.expation</span> </p> </td> 
+   <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> 이중 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Expiration</span> 또는 기본 TTL(Time to Live) </p> </td> 
+   <td> <p> <span class="codeph"> 카탈로그::Expiration</span> 또는 기본 TTL(Time to Live) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
@@ -65,7 +65,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
    <td> <p> 이 이미지와 연결된 프로필의 이름/설명 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 이미지. embeddedIcc 프로파일</span> </p> </td> 
+   <td> <p> <span class="codeph"> 이미지. embeddedIccProfile</span> </p> </td> 
    <td> <p> 부울 </p> </td> 
    <td> <p> 연결된 프로필이 이미지에 포함된 경우 1 </p> </td> 
   </tr> 
@@ -87,10 +87,10 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
   <tr> 
    <td> <p> <span class="codeph"> image.modifier</span> </p> </td> 
    <td> <p> 문자열 </p> </td> 
-   <td> <p> <span class="codeph"> catalog::Modifier</span> 카탈로그 항목이 아닌 경우 또는 비어 있음 </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Modifier</span> 또는 카탈로그 항목이 아닌 경우 비어 있음 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> 이미지. photoshopPathName</span> </p> </td> 
+   <td> <p> <span class="codeph"> 이미지. photoshopPathNames</span> </p> </td> 
    <td> <p> 문자열 </p> </td> 
    <td> <p> 이 이미지와 연결된 모든 Photoshop 경로의 이름을 쉼표로 구분한 목록 </p> </td> 
   </tr> 
@@ -102,7 +102,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
   <tr> 
    <td> <p> <span class="codeph"> image.postModifier</span> </p> </td> 
    <td> <p> 문자열 </p> </td> 
-   <td> <p> <span class="codeph"> attribute::PostModifier</span> 카탈로그 항목이 아닌 경우 또는 비어 있음 </p> </td> 
+   <td> <p> <span class="codeph"> 특성::PostModifier</span> 또는 카탈로그 항목이 아닌 경우 비어 있음 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes</span> </p> </td> 
@@ -117,7 +117,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
   <tr> 
    <td> <p> <span class="codeph"> image.timeStamp</span> </p> </td> 
    <td> <p> 문자열 </p> </td> 
-   <td> <p>수정 날짜/시간(부터) <span class="codeph"> catalog::TimeStamp</span> 또는 이미지 파일) </p> </td> 
+   <td> <p>수정 날짜/시간(<span class="codeph"> 카탈로그::TimeStamp</span> 또는 이미지 파일) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.thumbRes</span> </p> </td> 
@@ -137,7 +137,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 확장 구문을 사�
   <tr> 
    <td> <p> <span class="codeph"> image.translatedId</span> </p> </td> 
    <td> <p> 문자열 </p> </td> 
-   <td> <p> 다음에 대한 카탈로그 ID <span class="varname"> 오브젝트</span> 경로에 지정된 문제가 해결되었습니다( 참조). <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> 개체 ID 변환</a>). </p> </td> 
+   <td> <p> 경로에 지정된 <span class="varname"> 개체</span>이(가) 확인되는 카탈로그 ID입니다(<a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414" type="reference" format="dita" scope="local"> 개체 ID 변환</a> 참조). </p> </td> 
   </tr> 
  </tbody> 
 </table>

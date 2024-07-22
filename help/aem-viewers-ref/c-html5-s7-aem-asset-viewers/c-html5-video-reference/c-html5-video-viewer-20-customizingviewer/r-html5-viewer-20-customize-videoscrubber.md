@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '1037'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p>패딩을 포함하여 위쪽 테두리에서 위치. </p> </td> 
   </tr> 
   <tr> 
@@ -41,11 +41,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 패딩을 포함하여 아래쪽 테두리에서 위치합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>비디오 스크러버의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>비디오 스크러버 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,16 +59,16 @@ ht-degree: 2%
 .s7videoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**트랙의 CSS 속성**
+트랙의 **CSS 속성**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>해당 트랙의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>해당 트랙의 색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -85,24 +85,24 @@ ht-degree: 2%
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p>세로 손잡이 오프셋. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>손잡이 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>손잡이 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>손잡이 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ ht-degree: 2%
 .s7videoviewer .s7videoscrubber .s7videotime
 ```
 
-**재생된 시간의 CSS 속성 버블**
+**재생된 시간의 CSS 속성**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
@@ -126,15 +126,15 @@ ht-degree: 2%
    <td colname="col2"> <p> 시간 표시 텍스트에 사용할 글꼴 크기입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p> 시간 표시 텍스트에 사용할 글꼴 색상입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>버블 영역 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>거품 영역 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -142,21 +142,21 @@ ht-degree: 2%
    <td colname="col2"> <p>버블 영역 패딩. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>버블 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 텍스트 맞춤 </span> </p> </td> 
    <td colname="col2"> <p>텍스트를 버블 영역과 정렬합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-비디오 스크러버 도구 팁을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) 추가 정보.
+비디오 스크러버 도구 팁을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)를 참조하십시오.
 
 **예** - 사용자 지정 트랙 색상으로 비디오 스크러버를 사용하여 비디오 뷰어를 설정합니다. 스크러버는 10픽셀이어야 하며, 컨트롤 막대의 위쪽 및 왼쪽 가장자리에서 10픽셀과 35픽셀을 배치해야 합니다.
 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-비디오 챕터가 활성화된 경우 `navigation` 매개 변수, 챕터 위치는 비디오 스크러버 트랙 맨 위에 마커로 표시됩니다.
+`navigation` 매개 변수로 비디오 챕터를 활성화하면 챕터 위치가 비디오 스크러버 트랙 위에 마커로 표시됩니다.
 
 비디오 챕터 마커는 다음 CSS 클래스 선택기에 의해 제어됩니다.
 
@@ -189,34 +189,34 @@ background-color:#888888;
  .s7videoviewer .s7videoscrubber .s7navigation
 ```
 
-**비디오 챕터 마커의 CSS 속성**
+비디오 챕터 마커의 **CSS 속성**
 
 <table id="table_51F16E47BEF3430B919ABEEDBE543973"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 마커 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 마커 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 마커 아트워크. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>다음을 참조하십시오 <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p> CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS 스프라이트 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 속성 선택기: 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `selected='default'` 는 기본 비디오 챕터 마커 상태에 해당하며, `selected='over'` 마우스 오버 또는 터치 제스처로 비디오 챕터 마커가 활성화될 때 사용됩니다.
+>이 단추는 서로 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 모두 지원합니다. 특히 `selected='default'`은(는) 기본 비디오 챕터 마커 상태에 해당하며 `selected='over'`은(는) 마우스 오버 또는 터치 제스처로 비디오 챕터 마커가 활성화될 때 사용됩니다.
 
-**예** - 5 x 8 픽셀이고 &quot;기본&quot; 및 &quot;초과&quot; 상태에 다른 아트를 사용하는 비디오 챕터 마커를 설정합니다.
+**예** - 5 x 8픽셀이고 &quot;기본&quot; 및 &quot;초과&quot; 상태에 다른 아트를 사용하는 비디오 챕터 마커를 설정합니다.
 
 ```
 .s7videoviewer .s7videoscrubber .s7navigation { 
@@ -244,7 +244,7 @@ background-image: url("images/v2/VideoScrubberDiamond_over.png");
 <table id="table_7F33738422F84978B9132495F67C2156"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최대 폭 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 최대 너비 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 버블의 최대 폭입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ bottom:8px;
 <table id="table_56FBC3BADDEA4E15924DD750CADC474F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 버블 헤더 높이. </p> </td> 
   </tr> 
   <tr> 
@@ -284,17 +284,17 @@ bottom:8px;
    <td colname="col2"> <p>비디오 챕터 버블 헤더 텍스트에 대한 내부 패딩입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 버블 헤더 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 선 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 줄 높이 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 버블 헤더 텍스트 줄 높이. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예** - 높이 22픽셀, 선 높이 22픽셀, 가로 여백 12픽셀 및 회색 배경인 비디오 챕터 버블 헤더를 설정합니다.
+**예** - 높이 22픽셀, 선 높이 22픽셀, 가로 여백 12픽셀 및 회색 배경인 비디오 챕터 버블 헤더를 설정하려면.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -316,7 +316,7 @@ background-color: rgba(51, 51, 51, 0.8);
 <table id="table_D58D6B22BAEE4E26BAAB34783AE5A044"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
@@ -332,13 +332,13 @@ background-color: rgba(51, 51, 51, 0.8);
    <td colname="col2"> <p>글꼴 모음. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 패딩 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 패딩 오른쪽 </span> </p> </td> 
    <td colname="col2"> <p> 시작 시간과 챕터 제목 사이의 패딩. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예** - 회색 10픽셀 Verdana 글꼴을 사용하여 챕터 시작 시간을 설정하고 오른쪽에 10픽셀 패딩이 있습니다.
+**예** - 회색 10픽셀 Verdana 글꼴을 사용하여 챕터 시작 시간을 설정하려면 오른쪽에 10픽셀 패딩이 있습니다.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header .s7starttime { 
@@ -360,7 +360,7 @@ padding-right: 10px;
 <table id="table_240DD3E119584DCC95FF480B60266603"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 제목 텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
@@ -400,11 +400,11 @@ font-weight: bold;
 <table id="table_780382ECB3D049118857DCA21D130326"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 설명 텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 설명 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -420,7 +420,7 @@ font-weight: bold;
    <td colname="col2"> <p>비디오 챕터 설명 글꼴 모음 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 선 높이 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 줄 높이 </span> </p> </td> 
    <td colname="col2"> <p>비디오 챕터 설명 줄 높이입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -455,20 +455,20 @@ padding: 12px 12px 9px;
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p>쐐기 커넥터 색상. </p> <p>다음으로 정의됨 <span class="codeph"> &lt;color&gt; 투명 </span> 따라서 위쪽 테두리 색상만 정의되고 나머지 테두리는 투명하게 유지됩니다. </p> </td> 
+   <td colname="col2"> <p>쐐기 커넥터 색상. </p> <p>위쪽 테두리 색만 정의되고 나머지 테두리는 투명하게 남도록 <span class="codeph"> &lt;color&gt; 투명 </span>(으)로 정의됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 
-   <td colname="col2"> <p> 쐐기 커넥터 너비. </p> <p>다음으로 정의됨 <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> 따라서 동일한 너비가 위쪽 및 가로 테두리에 대해서만 정의되고 아래쪽 테두리 너비는 <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 테두리 너비 </span> </p> </td> 
+   <td colname="col2"> <p> 쐐기 커넥터 너비. </p> <p><span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span>(으)로 정의되므로 위쪽 및 가로 테두리에 대해서만 동일한 너비를 정의하며 아래쪽 테두리 너비는 <span class="codeph"> 0 </span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> 음수 하단 여백만 정의합니다. 값과 동일해야 합니다. <span class="codeph"> border-width </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백 </span> </p> </td> 
+   <td colname="col2"> <p> 음수 하단 여백만 정의합니다. <span class="codeph"> border-width </span>과(와) 같은 값을 가져야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**예** - 회색 6픽셀 쐐기 커넥터를 설정하려면 다음을 수행합니다.
+**예** - 회색 6픽셀 쐐기 커넥터를 설정하려면:
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7tail { 

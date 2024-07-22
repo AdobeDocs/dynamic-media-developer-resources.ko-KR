@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9aca6693-32ac-4abd-9595-95bce60050ec
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 3%
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 반환:
 
-삭제 요청을 받은 시점의 작업 상태, 다음과 같은 경우 오류 발생 `jobid` 이(가) 잘못되었거나 작업이 이미 삭제되었습니다.
+`jobid`이(가) 잘못되었거나 작업이 이미 삭제된 경우 삭제 요청을 받은 시점의 작업 상태입니다.
 
 ## 예 {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

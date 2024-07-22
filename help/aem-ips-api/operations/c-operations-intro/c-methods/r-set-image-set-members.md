@@ -8,7 +8,7 @@ exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 이미지 세트와 연결된 에셋 목록을 설정합니다.
 
-이 작업은 `pageReset` 매개 변수 `ImageSets` 및 `SpinSets` 값을 true로 강제 설정합니다.
+이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 강제 적용합니다.
 
 ## 승인된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -46,7 +46,7 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사 핸들. </p> </td> 
@@ -59,7 +59,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 집합에 속하는 자산 멤버의 배열입니다. </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: e291597a-b863-42dd-88dc-13398b734410
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 15%
 |---|---|---|---|
 | company핸들 | `xsd:string` | 예 | 작업할 자산이 있는 회사의 핸들입니다. |
 | assetHandle | `xsd:string` | 예 | 작업할 자산의 핸들입니다. |
-| 자동 색상 자르기 옵션 | `types:AutoColorCropOptions` | 아니요 | 색상을 기준으로 자르기 사각형을 계산합니다. 다음을 참조하십시오 [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| 자동 투명 자르기 옵션 | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. 다음을 참조하십시오 [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| 자동 색상 자르기 옵션 | `types:AutoColorCropOptions` | 아니요 | 색상을 기준으로 자르기 사각형을 계산합니다. [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)을 참조하십시오. |
+| 자동 투명 자르기 옵션 | `types:AutoTransparentCropOptions` | 아니요 | 투명도를 기반으로 자르기 사각형을 계산합니다. [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)을 참조하세요. |
 
 **출력(getAutoCropRectReturn)**
 
@@ -81,5 +81,4 @@ ht-degree: 15%
 >[!MORELIKETHIS]
 >
 >* [자동 색상 자르기 옵션](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [자동 투명 자르기 옵션](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-
+>* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)

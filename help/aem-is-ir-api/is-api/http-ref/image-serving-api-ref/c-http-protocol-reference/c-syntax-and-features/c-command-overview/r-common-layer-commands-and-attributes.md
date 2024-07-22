@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c95d198c-757f-405e-ba08-094cd402c929
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '137'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
   <td class="stentry"> <p>레이어 사각형을 확장(또는 자르기)합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
+  <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> 색상</a> </p></td> 
   <td class="stentry"> <p>레이어 색상 및 불투명도를 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 

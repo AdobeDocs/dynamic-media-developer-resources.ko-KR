@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->64비트 모드는 Windows에서 지원되지 않습니다. 전용 `ImageServer32` 을(를) 지정할 수 있습니다. 그렇지 않으면 이미지 제공이 시작되지 않습니다.
+>64비트 모드는 Windows에서 지원되지 않습니다. `ImageServer32`만 지정할 수 있습니다. 그렇지 않으면 이미지 제공이 시작되지 않습니다.
 
 ## SV::PsHeapSize - [!DNL Platform Server] 힙 크기 {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-에 대한 Java 힙 크기 [!DNL Platform Server]. 기본값은 &quot;입니다. `512m`&quot;(512MB)
+[!DNL Platform Server]에 대한 Java 힙 크기입니다. 기본값은 &quot; `512m`&quot;(512MB)입니다.
 
 ## IS::TcpPort, PS::isConnection.port - 이미지 서버 수신 포트 {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-다음 사이의 통신에 사용되는 포트를 지정합니다. [!DNL Platform Server] 및 이미지 서버도 포함됩니다. 호스트 시스템에서 사용되지 않는 포트 번호를 지정해야 합니다.
+[!DNL Platform Server]과(와) 이미지 서버 간의 통신에 사용되는 포트를 지정합니다. 호스트 시스템에서 사용되지 않는 포트 번호를 지정해야 합니다.
 
 >[!NOTE]
 >
->이미지 제공이 올바르게 작동하려면 동일한 값을 설정해야 합니다. `IS::TcpPort` 및 `PS::isConnection.port`.
+>이미지 제공이 올바르게 작동하려면 `IS::TcpPort` 및 `PS::isConnection.port`에 대해 동일한 값을 설정해야 합니다.
 
 ## IS::PhysicalMemory - 이미지 서버 메모리 제한 {#section-85e37aa2ac6e456eb698da716dd3247d}
 

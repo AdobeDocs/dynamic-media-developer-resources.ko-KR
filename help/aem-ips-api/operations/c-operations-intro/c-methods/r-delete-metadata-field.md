@@ -8,7 +8,7 @@ exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,7 +39,7 @@ IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 
 ## 예제 {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. 회사 핸들과 메타데이터 핸들을 의 필드로 사용합니다. `deleteMetadataFieldParam` 이 작업을 수행하기 위해 IPS 웹 서비스 서버에 전달됩니다.
+이 코드 샘플은 회사의 메타데이터 필드를 삭제합니다. 회사 핸들과 메타데이터 핸들을 IPS 웹 서비스 서버에 전달된 `deleteMetadataFieldParam`의 필드로 사용하여 이 작업을 수행합니다.
 
 **요청**
 

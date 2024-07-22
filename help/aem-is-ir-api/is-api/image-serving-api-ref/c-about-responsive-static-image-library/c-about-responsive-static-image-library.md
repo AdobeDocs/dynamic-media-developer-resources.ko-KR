@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>이미지 제공 템플릿에서 이미지 제공 명령을 사용하여 이미지 크기에 따라 특정 템플릿 매개 변수를 제어할 수도 있습니다. 다음 예제에서는 텍스트 오버레이의 글꼴 크기를 를 사용하여 매개 변수화하는 이미지 제공 템플릿을 사용합니다. <span class="codeph"> $fontsize </span> 매개 변수. 응답 이미지는 텍스트가 항상 읽을 수 있도록 작은 이미지 크기에 대해 큰 글꼴 크기를 사용하도록 구성되어 있습니다. </p> </td> 
+   <td colname="col2"> <p>이미지 제공 템플릿에서 이미지 제공 명령을 사용하여 이미지 크기에 따라 특정 템플릿 매개 변수를 제어할 수도 있습니다. 다음 예제에서는 <span class="codeph"> $fontsize </span> 매개 변수를 사용하여 텍스트 오버레이의 글꼴 크기를 매개 변수화하는 이미지 제공 템플릿을 사용합니다. 응답 이미지는 텍스트가 항상 읽을 수 있도록 작은 이미지 크기에 대해 큰 글꼴 크기를 사용하도록 구성되어 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

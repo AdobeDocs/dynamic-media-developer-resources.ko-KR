@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f9430ce-65b9-44be-8d0e-58dbb529c5c2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '75'
 ht-degree: 8%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 개체 해상도. 전체 크기 이미지에 대한 개체 해상도입니다.
 
-를 사용하여 해상도 기반 배율에 사용됩니다. `res=` 명령입니다.
+`res=` 명령을 사용하여 해상도 기반 크기 조절에 사용됩니다.
 
 ## 속성 {#section-861a86da50364e2181d62778338359ea}
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 
 ## 기본값 {#section-5b3a83d6410b43efa1fa3add396196f9}
 
-`attribute::Resolution` 필드가 없거나, 값이 0이거나, 필드가 비어 있는 경우 사용됩니다.
+필드가 없거나 값이 0이거나 필드가 비어 있는 경우 `attribute::Resolution`이(가) 사용됩니다.
 
 ## 참조 {#section-100aded64efe434db5b523ed50defbb3}
 

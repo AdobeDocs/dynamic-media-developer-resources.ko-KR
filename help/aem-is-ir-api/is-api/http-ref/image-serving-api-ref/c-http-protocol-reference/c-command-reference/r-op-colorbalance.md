@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 1%
 
 ---
@@ -37,14 +37,14 @@ ht-degree: 1%
 
 ## 속성 {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-레이어 명령. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨. CMYK 이미지와 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
+레이어 명령. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다. 효과 레이어에서 무시됨. CMYK 이미지와 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
 
 ## 기본값 {#section-08d84ef715964f7daea86f5ef237d199}
 
-`op_colorbalance=0,0,0` 색상 변경은 없습니다.
+`op_colorbalance=0,0,0`(색상 변경 없음).
 
 ## 예 {#section-7e97fa36e01d4af8ab03fc9d493da1a1}
 
 색상 균형을 빨간색으로 푸시합니다.
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`..

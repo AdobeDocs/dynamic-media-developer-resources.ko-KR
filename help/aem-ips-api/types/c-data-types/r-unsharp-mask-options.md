@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 7150b4a8-a44d-4858-96f2-6004d5f48e77
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 11%
+source-wordcount: '189'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 ## 매개 변수 {#section-c3f0d03136ba4422819cb463bd393885}
 
-값 지정 `unsharpMaskOptions` 옵션 `minOccurs=" *`n`*".`
+`minOccurs=" *`n`*".`(으)로 `unsharpMaskOptions` 옵션 값 지정
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -62,7 +62,7 @@ ht-degree: 11%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 단색</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>값은 다음과 같습니다 <span class="codeph"> 0</span> 또는 <span class="codeph"> 1</span> 만 해당. </p><p>다음으로 설정 <span class="codeph"> 0</span> 각 색상 구성 요소에 개별적으로 적용하거나 <span class="codeph"> 1</span> 이미지 밝기(강도)에만 적용합니다. 레이어 마스크 또는 복합 마스크도 선명하게 됩니다. </p><p><span class="codeph"><span class="varname"> 단색</span></span> 회색 음영 이미지에는 무시됩니다. </p></td>
+   <td colname="col3"><p>값에는 <span class="codeph"> 0</span> 또는 <span class="codeph"> 1</span>만 포함됩니다. </p><p>각 색상 구성 요소에 별도로 적용하려면 <span class="codeph"> 0</span>(으)로 설정하고 이미지 밝기(강도)에만 적용하려면 <span class="codeph"> 1</span>(으)로 설정합니다. 레이어 마스크 또는 복합 마스크도 선명하게 됩니다. </p><p>회색 음영 이미지에는 <span class="codeph"><span class="varname"> 흑백</span></span>이(가) 무시됩니다. </p></td>
   </tr>
  </tbody>
 </table>
@@ -83,7 +83,7 @@ ht-degree: 11%
 
 ## 사용한 사람 {#section-db8124a5468b498694a780f8a56a4560}
 
-다음 `unsharpMaskOptions` 다음에서 유형 사용:
+`unsharpMaskOptions` 형식은 다음 경우에 사용됩니다.
 
 * [AssetsJob 재처리](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [업로드 디렉터리 작업](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
@@ -93,4 +93,3 @@ ht-degree: 11%
 >[!MORELIKETHIS]
 >
 >* [이미지 제공 API 참조: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)
-

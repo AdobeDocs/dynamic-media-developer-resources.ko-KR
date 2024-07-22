@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 4%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 4%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>의 끝에 연결된 매개 변수 <span class="codeph"> urlModifier</span>. 이미지 서버에 대한 명령인 매개 변수의 쿼리 문자열 형식 목록입니다. 값은 이미지 서버 프로토콜 안내서에 있습니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> urlModifier</span>의 끝에 연결된 매개 변수입니다. 이미지 서버에 대한 명령인 매개 변수의 쿼리 문자열 형식 목록입니다. 값은 이미지 서버 프로토콜 안내서에 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 
@@ -126,12 +126,12 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masks]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:MaskArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:MaskArray</span> </td> 
    <td colname="col3"> <p>배열을 마스킹합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageMaps]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:ImageMapArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:ImageMapsArray</span> </td> 
    <td colname="col3"> <p>이미지 맵 배열입니다. </p> </td> 
   </tr> 
  </tbody> 

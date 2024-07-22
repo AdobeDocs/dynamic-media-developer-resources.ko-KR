@@ -16,7 +16,7 @@ ht-degree: 1%
 
 뷰어는 웹 페이지가 뷰어 초기화 프로세스 또는 런타임 동작을 추적하는 데 사용하는 JavaScript 이벤트 콜백을 지원합니다.
 
-콜백 핸들러는 이벤트 이름과 해당 핸들러 함수를 `handlers` 다음으로 속성: `config` 뷰어의 생성자에 있는 JSON 개체입니다. 또는 다음을 사용할 수 있습니다 `setHandlers()` API 메서드.
+`handlers` 속성이 있는 이벤트 이름 및 해당 처리기 함수를 뷰어의 생성자에 있는 `config` JSON 개체로 전달하여 콜백 처리기를 할당합니다. 또는 `setHandlers()` API 메서드를 사용할 수 있습니다.
 
 지원되는 뷰어 이벤트는 다음과 같습니다.
 
@@ -30,7 +30,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> initComplete </span> </p> </td> 
-   <td colname="col2"> <p>뷰어 초기화가 완료되고 모든 내부 구성 요소가 생성되면 트리거되므로 <span class="codeph"> getComponent() </span> API. 콜백 핸들러는 인수를 사용하지 않습니다. </p> </td> 
+   <td colname="col2"> <p>뷰어 초기화가 완료되고 모든 내부 구성 요소가 만들어지면 트리거되므로 <span class="codeph"> getComponent() </span> API를 사용할 수 있습니다. 콜백 핸들러는 인수를 사용하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 
@@ -47,10 +47,10 @@ ht-degree: 1%
    <td colname="col1"> <p> <span class="codeph"> quickViewActivate </span> </p> </td> 
    <td colname="col2"> <p> 사용자가 연결된 빠른 보기 데이터가 있는 핫스팟을 활성화하면 트리거됩니다. 콜백 핸들러는 다음 인수를 사용합니다. </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
-      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> 데이터 {Object} </span> - 핫스팟 정의의 데이터가 포함된 JSON 개체입니다. 필드 <span class="codeph"> sku </span> 다른 필드는 선택 사항이지만 소스 핫스팟 정의에 따라 달라지는 경우 필수입니다. </p> </li> 
+      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> 데이터 {Object} </span> - 핫스팟 정의의 데이터가 포함된 JSON 개체입니다. 필드 <span class="codeph"> sku </span>은(는) 필수이지만 다른 필드는 선택 사항이며 원본 핫스팟 정의에 따라 다릅니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-참조: [대화형 이미지](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-interactiveimage.md#reference-bd16cadc0c054fafb0db4994741d47cd) 및 [setHandler](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).
+[InteractiveImage](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-interactiveimage.md#reference-bd16cadc0c054fafb0db4994741d47cd) 및 [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643)도 참조하십시오.

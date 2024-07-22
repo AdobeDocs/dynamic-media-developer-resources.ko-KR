@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 메타데이터 인덱스 저장소에서 지정된 검색어를 검색합니다. searchAssets 메서드와 같은 자산 데이터를 반환합니다.
 
-While `searchAssetsByMetadata` 사용자 정의 메타데이터 필드를 검색할 수 있도록에 지정된 경우 해당 필드가 반환되지 않습니다. `responseMetadataArray`. 이 점을 설명하기 위해 다음 코드 예를 참조하십시오.
+`searchAssetsByMetadata`에서 사용자 정의 메타데이터 필드를 검색할 수 있지만 해당 필드가 `responseMetadataArray`에 지정된 경우에는 반환되지 않습니다. 이 점을 설명하기 위해 다음 코드 예를 참조하십시오.
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ null 값을 반환합니다.
 </items>
 ```
 
-이 문제를 해결하려면 `fieldHandles` 실행할 검색에서 반환된 에셋 중 `getAssets` (또한 참조) [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). 이 메서드는 해당 에셋의 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색할 수 있습니다.
+이 문제를 해결하려면 검색에서 반환된 자산의 `fieldHandles`을(를) 사용하여 `getAssets`을(를) 실행할 수 있습니다([getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca) 참조). 이 메서드는 해당 에셋의 사용자 정의 필드 값을 가져옵니다. 다음 구문 예를 사용하여 사용자 정의 메타데이터 필드를 검색할 수 있습니다.
 
 ```java
 <ns:metadataConditionArray>
@@ -70,7 +70,7 @@ null 값을 반환합니다.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>회사 손잡이. </p> </td> 
@@ -79,7 +79,7 @@ null 값을 반환합니다.
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 필터</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p>다음을 참조하십시오 <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>검색 기준을 정의하는 데 도움이 되는 필터. </p> <p><a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
@@ -88,7 +88,7 @@ null 값을 반환합니다.
    <td colname="col4"> <p>검색 기준을 정의하는 조건입니다. 자세한 내용은 아래를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetaArray</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>에셋 요약의 응답에 채울 추가 필드입니다. 필드는 정규화된 형식으로 지정해야 합니다. </p> </td> 
@@ -103,7 +103,7 @@ null 값을 반환합니다.
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>다음을 기준으로 반환할 결과 페이지 지정 <span class="codeph"> recordsPerPage</span> 페이지 크기. </p> </td> 
+   <td colname="col4"> <p><span class="codeph">개의 recordsPerPage</span> 페이지 크기를 기준으로 반환할 결과 페이지를 지정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 정렬 기준</span> </span> </p> </td> 
@@ -143,9 +143,9 @@ null 값을 반환합니다.
 
 **값**
 
-`field_handle` 는 메타데이터 검색 키입니다. 점 표기법을 포함할 수 있습니다. 가능한 값은 다음과 같습니다.
+`field_handle`은(는) 메타데이터 검색 키입니다. 점 표기법을 포함할 수 있습니다. 가능한 값은 다음과 같습니다.
 
-* `asset_id` (접두사 없음)
+* `asset_id`(접두사 없음)
 * `name`
 * `folder_path`
 * `type`
@@ -156,13 +156,13 @@ null 값을 반환합니다.
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (과 동일 `modified_at` (양식 내 날짜: 2014년 7월 25일 금요일 22:13:45 GMT-0500(CDT)
+* `created_at`(`modified_at`과(와) 동일(양식의 날짜: 2014년 7월 25일 금요일 22:13:45 GMT-0500(CDT))
 
 * `created_by`
 
 **허용된 연산자**
 
-다음 [!DNL operator] 값을 비교하고 다음을 포함하는 방법을 정의합니다.
+[!DNL operator]은(는) 값을 비교하고 다음을 포함하는 방법을 정의합니다.
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ null 값을 반환합니다.
 * `StartsWith`
 * `EndsWith`
 
-다음 `comparison_value` 는 검색할 용어입니다.
+`comparison_value`은(는) 검색할 용어입니다.
 
 ## 예제 {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 이 코드 샘플은 다음 메타데이터 조건으로 검색을 수행합니다.
 
-* `name` 필드는 다음을 포함 `1000801`.
+* `name` 필드에 `1000801`이(가) 포함되어 있습니다.
 
-* `dc.rights` 필드가 다음과 같음 `Per Jessen Schmidt`.
+* `dc.rights` 필드가 `Per Jessen Schmidt`입니다.
 
 **요청**
 

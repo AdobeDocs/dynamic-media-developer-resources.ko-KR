@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->를 지정하더라도 새 폴더는 이미지 폴더에 종속됩니다. `/` 회사의 루트를 나타냅니다.
+>`/`을(를) 지정하여 회사의 루트를 나타내더라도 새 폴더는 이미지 폴더에 종속됩니다.
 
 구문
 

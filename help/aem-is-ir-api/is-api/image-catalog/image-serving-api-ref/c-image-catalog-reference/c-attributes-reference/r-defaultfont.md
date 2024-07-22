@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-ed0199be32a24e31a47b345ce7d109f6}
 
-상속 위치 `default::DefaultFont` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::DefaultFont`에서 상속됩니다.
 
 ## 참조 {#section-b012591f90a2428a8062afe4f3b6ce33}
 

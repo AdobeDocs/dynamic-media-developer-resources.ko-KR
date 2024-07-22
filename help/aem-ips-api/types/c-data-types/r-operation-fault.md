@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '52'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 12%
 
 CDN 무효화 요청에 제공된 URL 중 하나에 응답하는 세부 정보 메시지입니다.
 
-**다음 이후 지원됨**
+**다음 날짜 이후에 지원됨**
 
 4.5.0, 패치 2011-02
 

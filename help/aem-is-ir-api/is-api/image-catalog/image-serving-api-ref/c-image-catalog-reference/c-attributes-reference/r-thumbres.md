@@ -16,7 +16,7 @@ ht-degree: 3%
 
 기본 썸네일 해상도. 특정 카탈로그 레코드에 유효한 catalog::ThumbRes 값이 없는 경우 썸네일 개체 해상도의 기본값을 제공합니다.
 
-썸네일 요청에만 사용됩니다( `req=tmb`) 및 시기 `catalog::ThumbType=3`.
+썸네일 요청(`req=tmb`) 및 `catalog::ThumbType=3`인 경우에만 사용됩니다.
 
 ## 속성 {#section-88d37d0e030f4879a9e584dd2cc780f3}
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-86588899ec9b4276a98b03d7faf64003}
 
-상속 위치 `default::ThumbRes` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::ThumbRes`에서 상속됩니다.
 
 ## 참조 {#section-a6d2cce2e404441a996dba98a95c8e16}
 

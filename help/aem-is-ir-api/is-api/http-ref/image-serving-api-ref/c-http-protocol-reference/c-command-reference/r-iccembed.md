@@ -24,9 +24,9 @@ ht-degree: 3%
 
 ## 기본값 {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`: 출력 이미지에 ICC 프로파일이 포함되지 않은 경우. 출력 이미지 형식이 ICC 프로파일 포함을 지원하지 않는 경우에는 무시됩니다.
+출력 이미지에 ICC 프로필이 포함되지 않은 경우 `iccEmbed=0`. 출력 이미지 형식이 ICC 프로파일 포함을 지원하지 않는 경우에는 무시됩니다.
 
-다음을 참조하십시오 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) 을 참조하십시오.
+자세한 내용은 [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)을(를) 참조하십시오.
 
 ## 참조 {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 

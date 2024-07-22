@@ -26,4 +26,4 @@ ht-degree: 8%
 | [!DNL resolution] | `xsd:double` | 인치당 픽셀 단위의 이미지 해상도. |
 | [!DNL anchorX] | `xsd:int` | X축 이미지 앵커입니다. |
 | [!DNL anchorY] | `xsd:int` | Y축 이미지 앵커입니다. |
-| [!DNL userData] | `xsd:string` | 값 `userData` 메타데이터 필드: 이미지 제공 사용자 데이터 카탈로그 필드에 게시됩니다. |
+| [!DNL userData] | `xsd:string` | 이미지 제공 사용자 데이터 카탈로그 필드에 게시된 `userData` 메타데이터 필드의 값입니다. |

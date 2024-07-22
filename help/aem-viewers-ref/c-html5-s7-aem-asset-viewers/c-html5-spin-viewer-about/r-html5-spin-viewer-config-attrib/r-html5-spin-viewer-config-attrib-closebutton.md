@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 18%
+source-wordcount: '25'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> 다음으로 설정 <span class="codeph"> 1</span> 닫기 단추 표시를 활성화하려면 다음을 설정하십시오. <span class="codeph"> 0</span> 닫기 단추를 숨깁니다. </p> </td> 
+   <td colname="col2"> <p> 닫기 단추 표시를 사용하려면 <span class="codeph"> 1</span>(으)로 설정하고 닫기 단추를 숨기려면 <span class="codeph"> 0</span>(으)로 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

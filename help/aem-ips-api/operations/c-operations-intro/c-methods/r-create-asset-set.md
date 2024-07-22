@@ -8,7 +8,7 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 6%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 자산 세트가 포함된 회사에 대한 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folder핸들 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 새 자산 세트가 생성되는 폴더에 대한 핸들입니다. </td> 
@@ -82,11 +82,11 @@ ht-degree: 6%
 
 **setDefinition에 대한 대체 함수**
 
-카탈로그 조회 또는 게시 중에 해결되는 대체 함수를 인라인으로 지정할 수 있습니다. 대체 문자열의 형식은 다음과 같습니다. `${<substitution_func>}`. 사용 가능한 기능은 아래에 요약되어 있습니다.
+카탈로그 조회 또는 게시 중에 해결되는 대체 함수를 인라인으로 지정할 수 있습니다. 대체 문자열의 형식은 `${<substitution_func>}`입니다. 사용 가능한 기능은 아래에 요약되어 있습니다.
 
 >[!NOTE]
 >
->매개 변수 목록의 핸들 리터럴은 대괄호로 묶어야 합니다 `([])`. 대체 문자열 외부에 있는 모든 텍스트는 확인 중에 출력 문자열에 축어적으로 복사됩니다.
+>매개 변수 목록의 핸들 리터럴은 대괄호 `([])`(으)로 둘러싸야 합니다. 대체 문자열 외부에 있는 모든 텍스트는 확인 중에 출력 문자열에 축어적으로 복사됩니다.
 
 | **대체 함수** | **반환** |
 |---|---|
@@ -95,7 +95,7 @@ ht-degree: 6%
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | 에셋의 메타데이터 값. |
 | `getThumbCatalogId([<asset_handle>])` | 자산의 카탈로그 ID(이미지 기반 자산만 해당). 연결된 썸네일 자산의 카탈로그 ID(다른 자산의 경우). 연결된 썸네일 자산을 사용할 수 없는 경우 이 함수는 빈 문자열을 반환합니다. |
 
-**샘플 미디어 setDefinition 문자열**
+**샘플 미디어 집합 정의 문자열**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 

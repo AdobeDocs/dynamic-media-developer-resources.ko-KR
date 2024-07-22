@@ -16,7 +16,7 @@ ht-degree: 2%
 
 이름으로 객체를 선택합니다. 지정된 비네팅 그룹을 이름별로 선택하고 새 MSS를 시작합니다.
 
-` obj= *`name`*`
+` obj= *`이름`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 전체 그룹 경로를 사용하여(즉, 대상 그룹 또는 객체 앞에 모든 상위 그룹이 앞에 오도록 /(슬래시)로 구분하여 지정한 경우) 하위 그룹 또는 개별 객체를 선택할 수 있습니다.
 
-지정한 이름의 그룹/개체가 없으면 다음에서 지정한 작업을 수행합니다 `attribute::OnObjFail` 사용 중입니다.
+지정한 이름의 그룹/개체가 없으면 `attribute::OnObjFail`에 지정된 작업을 수행합니다.
 
 ## 속성 {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-선택 명령, MSS 구분 기호. 다음 중 하나를 사용하여 다른 객체를 선택할 때까지 객체 선택은 지속됩니다. `obj=` 또는 `sel=`.
+선택 명령, MSS 구분 기호. `obj=` 또는 `sel=`을(를) 사용하여 다른 개체를 선택할 때까지 개체 선택은 계속됩니다.
 
 그룹/객체 경로 및 이름은 대소문자를 구분하지 않습니다.
 
@@ -41,4 +41,4 @@ ht-degree: 2%
 
 ## 참조 {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
-[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [attribute::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)
+[sel=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-sel.md#reference-01322c58d414481385c29fcdd27a090b), [특성::OnFailObj](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d)

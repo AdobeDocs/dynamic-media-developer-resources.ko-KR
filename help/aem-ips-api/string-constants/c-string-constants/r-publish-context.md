@@ -1,7 +1,7 @@
 ---
 description: getActivePublishContextsReturn/publishContext에서 사용됩니다.
 solution: Experience Manager
-title: 게시 컨텍스트
+title: Publish 컨텍스트
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2eaa6771-18e9-4758-bfa9-23cce278bee7
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# 게시 컨텍스트{#publish-context}
+# Publish 컨텍스트{#publish-context}
 
 getActivePublishContextsReturn/publishContext에서 사용됩니다.
 

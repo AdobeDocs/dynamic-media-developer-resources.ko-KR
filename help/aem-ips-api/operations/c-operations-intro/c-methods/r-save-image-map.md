@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 9%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 저장할 이미지 맵이 있는 회사의 핸들입니다. </td> 
@@ -58,7 +58,7 @@ ht-degree: 9%
    <td colname="col4"> 이미지 맵이 속한 이미지 에셋에 대한 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 이미지 맵 핸들 </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 이미지 맵에 대한 핸들입니다. NULL인 경우 이미지 맵을 만듭니다. </td> 
@@ -85,17 +85,17 @@ ht-degree: 9%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 작업 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> <p>다음 <span class="codeph"> href </span> IPS 인터페이스에 지정된 대로 이미지 맵과 연결된 값입니다. </p> <p>을(를) 가져오려면 <span class="codeph"> href </span> 값을 설정하고, IPS 인터페이스에서 이미지를 클릭하고, URL을 이 요소에 복사하여 붙여 넣은 다음 IPS URL의 형식을 적절한 URL로 지정합니다. 예를 들어, <span class="codeph"> 및 </span> 다음과 같음 <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연결된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 가져오려면 IPS 인터페이스에서 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여 넣은 다음 IPS URL의 형식을 적절한 URL로 지정하십시오. 예를 들어 <span class="codeph"> 및 </span>은(는) <span class="codeph"> &amp;amp; </span>이(가) 됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 위치 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 이미지 맵 목록의 순서(Z축)입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 활성화됨 </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울 </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 사용 </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"></td> 
   </tr> 

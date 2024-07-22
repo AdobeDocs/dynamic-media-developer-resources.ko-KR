@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.minRequestRate - 낮은 트래픽 임계값 {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
-현재 샘플링 간격 동안 받은 초당 평균 요청 수가 이 임계값 아래에 도달하면 최소 트래픽 경고가 전송됩니다. 이 값을 0으로 설정하여 경고를 비활성화합니다. 초당 요청으로 표현됩니다. 실수 값 0 이상.
+현재 샘플링 간격 동안 받은 초당 평균 요청 수가 이 임계값 아래로 떨어질 때 최소 트래픽 경고가 전송됩니다. 이 값을 0으로 설정하여 경고를 비활성화합니다. 초당 요청으로 표현됩니다. 실수 값 0 이상.
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace - 사용 가능한 힙 공간 임계값 {#section-ce6705045f6842769030ccb1894594cc}
 
-사용 가능한 최소 Java 힙 공간을 지정합니다. 사용 가능한 힙 공간이 이 임계값 아래에 있는 경우 Java 가비지 수집 주기 직후 우선 순위 경고가 전송됩니다. 50MB가 권장됩니다. [!DNL Platform Server]. 사용 가능한 힙 공간을 이 값 이상으로 유지하면 가비지 수집 주기의 빈도가 줄어들어 전체 서버 성능이 향상될 수 있습니다. 정수 값(바이트)(0 이상).
+사용 가능한 최소 Java 힙 공간을 지정합니다. 사용 가능한 힙 공간이 이 임계값 아래에 있는 경우 Java 가비지 수집 주기 직후 우선 순위 경고가 전송됩니다. [!DNL Platform Server]의 안전한 작업에는 50MB가 권장됩니다. 사용 가능한 힙 공간을 이 값 이상으로 유지하면 가비지 수집 주기의 빈도가 줄어들어 전체 서버 성능이 향상될 수 있습니다. 정수 값(바이트)(0 이상).
 
 ## AS::monitorAlertGenerator.maxOverlap - 최대 동시 요청 수 {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

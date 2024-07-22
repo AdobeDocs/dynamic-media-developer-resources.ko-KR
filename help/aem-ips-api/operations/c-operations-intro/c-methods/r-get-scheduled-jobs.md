@@ -8,7 +8,7 @@ exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 |---|---|---|---|
 | company핸들 | `xsd:string` | 예 | 회사 손잡이. |
 | jobHandle | `xsd:string` | 아니요 | 작업 핸들. |
-| 원래 이름 | `xsd:string` | 아니요 | 다음에 의해 지정된 이름 `submitJob`. |
+| 원래 이름 | `xsd:string` | 아니요 | `submitJob`에 의해 지정된 이름입니다. |
 
 **출력(getScheduledJobsReturn)**
 

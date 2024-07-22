@@ -27,17 +27,17 @@ ht-degree: 12%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 원본 경로</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>업로드된 비디오의 상대 경로입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 원본 파일</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>원본 비디오의 이름입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 파일 크기</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> fileSize</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>파일 크기. </p> </td> 
   </tr> 

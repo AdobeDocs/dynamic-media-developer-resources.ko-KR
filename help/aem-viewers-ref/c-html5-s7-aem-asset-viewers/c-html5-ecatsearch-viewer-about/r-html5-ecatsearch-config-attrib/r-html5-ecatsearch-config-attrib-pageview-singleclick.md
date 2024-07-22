@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|확대/축소|재설정|확대/축소 재설정 </span> </p> </td> 
-   <td colname="col2"> <p> 한 번 클릭/누르기로 확대/축소하는 동작의 매핑을 구성합니다. 을 로 설정 <span class="codeph"> 없음 </span> 한 번 클릭/탭 확대/축소를 비활성화합니다. 로 설정된 경우 <span class="codeph"> 확대/축소 </span> 이미지를 클릭하면 1단계 확대되고, Ctrl 키를 누른 상태에서 클릭하면 1단계 축소됩니다. 을 로 설정 <span class="codeph"> 재설정 </span> 이미지를 한 번 클릭하면 확대/축소가 초기 확대/축소 수준으로 재설정됩니다. 대상 <span class="codeph"> zoomReset </span>, 현재 확대/축소 비율이 지정된 제한에 도달하거나 초과할 경우 재설정이 적용되며, 그렇지 않으면 확대/축소가 적용됩니다. </p> </td> 
+   <td colname="col2"> <p> 한 번 클릭/누르기로 확대/축소하는 동작의 매핑을 구성합니다. <span class="codeph"> 없음 </span>(으)로 설정하면 한 번 클릭/탭 확대/축소가 비활성화됩니다. <span class="codeph"> 확대/축소로 설정된 경우 </span> 이미지를 클릭하면 1단계 확대되고, Ctrl 키를 누른 상태에서 클릭하면 1단계 축소됩니다. <span class="codeph"> 재설정 </span>(으)로 설정하면 이미지를 한 번 클릭할 때 확대/축소가 초기 확대/축소 수준으로 재설정됩니다. <span class="codeph"> zoomReset </span>의 경우 현재 확대/축소 비율이 지정된 제한에 도달하거나 초과할 경우 재설정이 적용되며 그렇지 않으면 확대/축소가 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-58cbfe8a90214c49bbbfb7e83c569d75}
 
-[!DNL `zoomReset`] 데스크탑 컴퓨터에서 [!DNL `none`] 터치 디바이스에서.
+데스크톱 컴퓨터에서는 [!DNL `zoomReset`]이고, 터치 장치에서는 [!DNL `none`]입니다.
 
 ## 예 {#section-5f63781afec94e0189e135995f686c20}
 

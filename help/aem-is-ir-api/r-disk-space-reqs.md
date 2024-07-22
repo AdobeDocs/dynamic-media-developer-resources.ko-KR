@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 35486f3f-f0aa-4b69-a1d2-4bc6b5e41c43
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -19,20 +19,20 @@ ht-degree: 0%
 <table id="table_0AE363AB76304F258A19E43500FE8423"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>설명/ 기본 위치/ 다음으로 설정</b> </th> 
+   <th class="entry"> <b>설명/</b>(으)로 설정된 기본 위치 </th> 
    <th class="entry"> <b>계산/권장 사항</b> </th> 
-   <th class="entry"> <b>설명</b> </th> 
+   <th class="entry"> <b>댓글</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p><b>소스 이미지, 글꼴, ICC 프로파일</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPath </span> </p> </td> 
+   <td> <p><b>Source 이미지, 글꼴, ICC 프로필</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/images </span> <span class="codeph"></span> </p> <p> <span class="codeph"> IS::RootPaths </span> </p> </td> 
    <td> <p>다양합니다. 아래 설명을 참조하십시오. </p> </td> 
    <td> <p>이미지 서버에서만 액세스할 수 있으며 서버는 데이터를 수정하지 않습니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>HTTP 응답 데이터 캐시</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/cache/is-response </span> </p> <p> <span class="codeph"> PS::ResponseCacheFolders </span> </p> </td> 
-   <td> <p> <span class="codeph"> 플랫폼 서버::cache.maxSize </span> x 2, 최소 2GB 권장. </p> </td> 
+   <td> <p> <span class="codeph"> PlatformServer::cache.maxSize </span> x 2; 최소 2GB 권장. </p> </td> 
    <td> <p>이 캐시는 또한 중첩/임베드된 데이터 및 외부 소스 이미지를 저장합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -41,12 +41,12 @@ ht-degree: 0%
    <td> <p>카탈로그가 처음 로드될 때 채워집니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>로그 데이터</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph"> SV::LogFile </span> </p> </td> 
+   <td> <p><b>로그 데이터</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/logs </span> </p> <p> <span class="codeph"> PS::LogFolder </span> </p> <p> <span class="codeph"> IS::LogFile </span> </p> <p> <span class="codeph">SV::LogFile </span> </p> </td> 
    <td> <p>100MB 이상 </p> </td> 
    <td> <p>로깅 구성 및 서버 사용에 따라 달라집니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>이미지 서버 임시 파일</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph"> SV::TempDirectory </span> </p> </td> 
+   <td> <p><b>이미지 서버 임시 파일</b> </p> <p> <span class="filepath"> <span class="varname"> install_folder </span>/temp </span> </p> <p> <span class="codeph"> IS::TempDirectory </span> </p> <p> <span class="codeph">SV::TempDirectory </span> </p> </td> 
    <td> <p>대부분의 용도는 100MB로 충분합니다. </p> </td> 
    <td> <p>단기 데이터입니다. PTIFF 및 특정 응답 이미지 형식 이외의 소스 이미지에 필요할 수 있습니다. </p> </td> 
   </tr> 
@@ -59,11 +59,11 @@ Adobe은 이미지 변환기 명령줄 도구(IC)를 사용하여 모든 소스 
 
 PTIFF 파일을 사용하는 경우 다음과 같은 경험적 규칙을 사용하여 공간 요구 사항을 결정할 수 있습니다.
 
-*`total_space`* (바이트) = *`number_of_images`*  ×(2000 + *`avg_pixel_count`* x *`avg_num_components`*  ×  *`p_factor`*)
+*`total_space`*(바이트) = *`number_of_images`* × (2000 + *`avg_pixel_count`* x *`avg_num_components`* × *`p_factor`*)
 
 * *`avg_pixel_count`* 모든 원본 소스 이미지의 평균 픽셀 크기(너비 x 높이)입니다. 예를 들어 원본 이미지가 일반적으로 2k × 2k 픽셀 정도라면 이는 400만 픽셀입니다.
-* *`avg_num_components`* 이미지 유형에 따라 다릅니다. 대부분의 RGB 이미지의 경우 3이고, 대부분의 CMYK 또는 RGBA 이미지의 경우 4입니다. 이미지의 절반이 RGB 이미지이고 나머지 절반이 RGBA인 경우 3.5를 사용합니다.
-* *`p_factor`* 이미지가 IC로 변환될 때 설정되는 압축 유형 및 품질에 따라 달라집니다.
+* *`avg_num_components`*&#x200B;은(는) 이미지 유형에 따라 다릅니다. 대부분의 RGB 이미지의 경우 3이고, 대부분의 CMYK 또는 RGBA 이미지의 경우 4입니다. 이미지의 절반이 RGB 이미지이고 나머지 절반이 RGBA인 경우 3.5를 사용합니다.
+* *`p_factor`*&#x200B;은(는) IC로 이미지를 변환할 때 설정된 압축 유형과 품질에 따라 다릅니다.
 
 <table id="table_89995BECF30243569954819D07DA2A2F"> 
  <thead> 
@@ -98,4 +98,4 @@ PTIFF 파일을 사용하는 경우 다음과 같은 경험적 규칙을 사용�
 
 *`total_space`* = 30,000 × (2k + 0.5k × 0.5k × 3 × 0.1) + 3 × 10,000 × (2k + 4k × 6k × 4 × 0.1) = 2.2 G + 268GB = 약 270GB
 
-최상의 품질을 보장하려면 zip 과 같은 압축을 사용할 수 있습니다. 가정: *`p_factor`* 0.4의 경우 필요한 총 디스크 공간이 약 4배 더 큽니다. 이 경우 1TB를 약간 넘게 됩니다.
+최상의 품질을 보장하려면 zip 과 같은 압축을 사용할 수 있습니다. *`p_factor`*&#x200B;이(가) 0.4라고 가정하면 필요한 총 디스크 공간은 약 4배 큽니다. 이 경우 1TB를 약간 넘게 됩니다.

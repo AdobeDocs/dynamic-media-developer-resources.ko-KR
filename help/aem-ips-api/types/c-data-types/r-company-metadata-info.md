@@ -22,5 +22,5 @@ ID, 이름 및 유형과 같은 회사 메타데이터 개체에 대한 정보�
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| [!DNL Code Phrase] | `Code Phrase` |  |
+| [!DNL Code Phrase] | `Code Phrase` | |
 

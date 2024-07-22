@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 1%
+source-wordcount: '662'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p>뷰어의 맨 위에 있는 위치입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -39,11 +39,11 @@ ht-degree: 1%
    <td colname="col2"> <p>뷰어 아래에서 위치 지정. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>기본 컨트롤 막대의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>기본 컨트롤 막대의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -75,7 +75,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 위치 </span> </p> </td> 
-   <td colname="col2"> <p>로 설정된 경우 <span class="codeph"> 정적 </span> 스크롤 기능이 비활성화되었습니다. </p> <p>이 속성을 다음으로 설정 <span class="codeph"> 절대 </span> 을 클릭하여 스크롤 기능을 활성화합니다. </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 정적 </span>(으)로 설정하면 스크롤 기능이 비활성화됩니다. </p> <p>스크롤 기능을 사용하려면 이 속성을 <span class="codeph"> 절대 </span>(으)로 설정하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,11 +95,11 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>일반적으로 스크롤 단추 자체의 너비와 같거나 커야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>컨테이너 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,29 +120,29 @@ CSS를 통해 스크롤 단추 자체의 크기를 조정하고 스킨을 지정
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>단추 폭. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>단추 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경 이미지 </span> </p> </td> 
    <td colname="col2"> <p>지정된 단추 상태에 대해 표시되는 이미지입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p>참조: <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 백그라운드 위치 </span> </p> </td> 
+   <td colname="col2"> <p>CSS 스프라이트를 사용하는 경우 아트워크 스프라이트 내부에 배치합니다. </p> <p><a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS 스프라이트 </a>도 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->이 버튼은 `state` 및 `selected` 속성 선택기 : 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `state="selected"` 컨트롤 막대 컨텐츠를 왼쪽으로 스크롤할 수 있을 때의 초기 스크롤 단추 상태에 해당합니다. 다음 `state="default"` 컨텐츠가 왼쪽으로 스크롤되고 스크롤 단추가 초기 상태로 돌아가도록 제안할 때의 상태에 해당합니다.
+>이 단추는 `state` 및 `selected` 특성 선택기를 지원하며, 이 선택기는 다른 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히 `state="selected"`은(는) 제어줄 내용을 왼쪽으로 스크롤할 수 있을 때 초기 스크롤 단추 상태에 해당합니다. `state="default"`은(는) 콘텐츠가 왼쪽으로 스크롤되고 스크롤 단추가 초기 상태로 돌아가도록 제안하는 상태에 해당합니다.
 
-단추 도구 설명을 현지화할 수 있습니다. 다음을 참조하십시오 [사용자 인터페이스 요소의 현지화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 추가 정보.
+단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 
 **예** - 휴대폰용 기본 컨트롤 막대에서 스크롤 기능을 사용하도록 설정합니다. 그리고 선택 또는 선택 안 할 때 4개의 서로 다른 버튼 상태에 대해 각각 다른 이미지를 표시하는 스크롤 단추를 64 x 64픽셀로 설정합니다.
 

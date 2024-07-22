@@ -8,7 +8,7 @@ exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 7%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>자산을 소유하는 회사에 대해 을(를) 처리합니다. </p> </td> 
@@ -58,13 +58,13 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>원하는 응답 필드의 배열. 소개에서 response- FieldArray/excludeFieldArray 를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> exclude필드 배열</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> 형식:StringArray</span> </p> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>제외된 응답 필드의 배열. 소개에서 response- FieldArray/excludeFieldArray 를 참조하십시오. </p> </td> 
   </tr> 
@@ -102,7 +102,7 @@ ht-degree: 7%
    <td colname="col4"> <p>레이어 또는 템플릿 URL에서 참조된 에셋의 배열입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerarray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:AssetArray</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>지정된 자산을 소유하는 자산 배열. </p> </td> 
@@ -115,30 +115,30 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:GenerationInfoArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>다음 <span class="codeph"> generatorArray</span> 이 에셋이 만들어진 방법을 나열합니다. 예를 들어 다음과 같습니다. <span class="codeph"> assetHandler</span> 는 PDF의 이미지 페이지이며 PDF 프로세서 도구가 포함되어 있고 PdfFile 에셋을 참조합니다. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span>은(는) 이 에셋이 만들어진 방법을 나열합니다. 예를 들어 <span class="codeph"> assetHandler</span>이(가) PDF의 이미지 페이지인 경우 PDF 프로세서 도구가 포함되고 PdfFile 에셋이 참조됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:GenerationInfoArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>다음 <span class="codeph"> generatedArray</span> 이 에셋이 생성된 방법을 반전시킵니다. 예를 들어 <span class="codeph"> generatedArray</span> 에서 생성된 이미지 목록을 포함할 수 있습니다. <span class="codeph"> assetHandler</span> PdfFile 자산인 경우 </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatedArray</span>은(는) 이 에셋이 만들어진 방식을 반전시킵니다. 예를 들어 <span class="codeph"> generatedArray</span>이(가) PdfFile 자산인 경우 이 <span class="codeph"> assetHandler</span>에서 생성된 이미지 목록을 포함할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:에셋</span> </td> 
+   <td colname="col2"> <span class="codeph"> 유형:Asset</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
    <td colname="col4"> <p>요청 에셋과 연결된 썸네일 에셋 정보. 썸네일 자산이 지정되지 않은 경우 응답에서 필드가 생략됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-매개 변수를 사용할 수 있습니다 `responseFieldArray` 또는 `excludeFieldArray` 응답 크기를 제한합니다. 특히 `GenerationInfo` 반환된 항목 `generatorArray` 또는 `generatedArray` 원본과 생성된 에셋 레코드를 모두 포함하는 기본값입니다. PDF 에셋 유형의 경우, 이 동작으로 인해 응답에 &quot;작성자&quot; PDF 에셋 레코드의 복사본이 원치 않게 여러 개 표시됩니다. 을 추가하여 이 문제를 제거할 수 있습니다. `generatedArray/items/originator` 끝 `excludeFieldArray`. 또는 포함할 응답 필드의 명시적 목록을 지정할 수 있습니다 `responseFieldArray`.
+매개 변수 `responseFieldArray` 또는 `excludeFieldArray`을(를) 사용하여 응답 크기를 제한할 수 있습니다. 특히 `generatorArray` 또는 `generatedArray`에서 반환된 `GenerationInfo` 항목은 기본적으로 원본자와 생성된 에셋 레코드를 모두 포함합니다. PDF 에셋 유형의 경우, 이 동작으로 인해 응답에 &quot;작성자&quot; PDF 에셋 레코드의 복사본이 원치 않게 여러 개 표시됩니다. `excludeFieldArray`에 `generatedArray/items/originator`을(를) 추가하여 이 문제를 제거할 수 있습니다. 또는 `responseFieldArray`에 포함할 응답 필드의 명시적 목록을 지정할 수 있습니다.
 
 ## 예제 {#section-8946ea4b9cb94912a8408249c897f192}
 
-다음의 기본 예는 PDF에서 추출된 이미지에 대한 생성기의 핸들에 대한 요청이다. 여기에는 다음이 포함됩니다 `containerArray` 길이가 1이고 다음을 포함하는 항목이 있는 것 `assetHandle` PDF.
+다음의 기본 예는 PDF에서 추출된 이미지에 대한 생성기의 핸들에 대한 요청이다. 여기에는 PDF의 `assetHandle`을(를) 포함하는 항목이 있는 길이 1의 `containerArray`이(가) 포함됩니다.
 
 **요청**
 
@@ -253,7 +253,7 @@ ht-degree: 7%
 </soapenv:Envelope>
 ```
 
-다음 예에서는 그룹이 `groupHandleArray`. 이 예에서는 하나의 그룹만 사용합니다.
+다음 예제에서는 `groupHandleArray`이(가) 있는 회사에 그룹이 추가됩니다. 이 예에서는 하나의 그룹만 사용합니다.
 
 **요청**
 

@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정된 형식이 &quot;-alpha&quot;로 끝날 경우, 구성 요소는 이미지를 투명한 것으로 렌더링합니다. 기타 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명한 것으로 처리합니다. 구성 요소에는 기본적으로 투명한 배경이 있습니다. 따라서 불투명하게 하려면 `background-color` CSS 속성 대상 `desired_color`
+구성 요소가 이미지 서버에서 이미지를 로드하는 데 사용하는 이미지 형식을 지정합니다. 지정된 형식이 &quot;-alpha&quot;로 끝날 경우, 구성 요소는 이미지를 투명한 것으로 렌더링합니다. 기타 모든 이미지 형식의 경우 구성 요소는 이미지를 불투명한 것으로 처리합니다. 구성 요소에는 기본적으로 투명한 배경이 있습니다. 따라서 불투명하게 하려면 `background-color` CSS 속성을 `desired_color`(으)로 설정하십시오.
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 

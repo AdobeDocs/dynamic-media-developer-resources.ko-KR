@@ -11,8 +11,8 @@ role: Developer,User
 user-guide-description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 최신 릴리스 정보입니다.
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 # Dynamic Media 릴리스 노트 {#release-notes}
 
 + [최신 릴리스 정보](s7rn2017.md)
-+ 보관 {#archive-release-notes}
++ {#archive-release-notes} 보관
    + [Scene7 2016년 가을 릴리스](s7rnfall2016.md)
    + [Scene7 Publishing System 6.10 릴리스 노트(2015년 5월)](s7rn610.md)
    + [Scene7 Publishing System 6.9 릴리스 노트(2014년 10월)](s7rn69.md)

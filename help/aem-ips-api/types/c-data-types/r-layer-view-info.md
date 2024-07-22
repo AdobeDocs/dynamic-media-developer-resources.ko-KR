@@ -22,6 +22,6 @@ ht-degree: 13%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| url | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL입니다. 결합 `urlModifier` 및 `urlPostAp- plyModifier` 필드. |
-| urlModifier | `xsd:string` | 요청 전에 적용할 이미지 제공 프로토콜 명령 또는 `urlPostApplyModifier` 명령입니다. |
-| urlPostApplyModifier | `xsd:string` | 다음에 적용할 이미지 제공 프로토콜 명령 `urlModifier` 및 요청 명령을 사용할 수 있습니다. |
+| url | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL입니다. `urlModifier` 및 `urlPostAp- plyModifier` 필드를 결합합니다. |
+| urlModifier | `xsd:string` | 요청 또는 `urlPostApplyModifier` 명령 전에 적용할 이미지 제공 프로토콜 명령입니다. |
+| urlPostApplyModifier | `xsd:string` | `urlModifier` 이후에 적용할 이미지 제공 프로토콜 명령과 요청 명령. |

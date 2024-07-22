@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
 source-git-commit: e8e3ce9850ab8059aed81e720574d0c93f867a22
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 RTF 문자열에서 참조되는 모든 글꼴은 기본 카탈로그 또는 현재 이미지 카탈로그의 글꼴 맵 파일에서 사용할 수 있어야 합니다. 그렇지 않으면 오류가 반환됩니다.
 
-해당 글꼴 파일을 등록하면 기울임꼴 및 굵은 글꼴 텍스트에 가장 적합한 품질을 얻을 수 있습니다. 사용할 수 없는 경우 서버는 표준 면에서 굵은 글꼴 및/또는 기울임꼴 글꼴을 합성할 수 있습니다. (참조: [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md).
+해당 글꼴 파일을 등록하면 기울임꼴 및 굵은 글꼴 텍스트에 가장 적합한 품질을 얻을 수 있습니다. 사용할 수 없는 경우 서버는 표준 면에서 굵은 글꼴 및/또는 기울임꼴 글꼴을 합성할 수 있습니다. [attribute::SynthesizeFontStyles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md)을(를) 참조하십시오.
 
-지정된 글꼴 `attribute::DefaultFont` RTF 문자열에 명시적으로 지정되지 않은 경우 가 사용됩니다.
+RTF 문자열에 명시적으로 지정되지 않은 경우 `attribute::DefaultFont`(으)로 지정된 글꼴 이름이 사용됩니다.
 
 이미지 제공에서는 TrueType, OpenType®, Adobe Type 1(Windows 전용) 글꼴을 지원합니다.
 
@@ -38,4 +38,4 @@ See [https://www.photofont.com](https://www.photofont.com) for additional inform
 
 ## 참조 {#section-6cb8a802aa044836bbe449d559093f3a}
 
-[글꼴 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [attribute::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [attribute::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)
+[글꼴 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/c-font-map-reference.md#concept-f81f319d03c646c5a8ef87b3277dd37d), [특성::SynthesizeFontStyles](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15), [특성::DefaultFont](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107)

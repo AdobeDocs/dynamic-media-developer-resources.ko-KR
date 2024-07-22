@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ Dynamic Media 이미지 작성 패키지의 일부인 비네팅 작성 도구는
 >
 >렌더링 설정은 이미지 렌더링 및 이미지 작성의 고급 기능입니다. 렌더링 설정 사용에 대한 교육, 자문 또는 둘 다에 대해서는 Adobe 기술 지원 센터 또는 Adobe 컨설팅 담당자에게 문의하십시오.
 
-이러한 설정은 이미지 작성에서 대화식으로 제어됩니다. 를 사용하여 이미지 렌더링에서 동일한 설정을 적용할 수 있습니다. `rs=` 명령(또는 `catalog::RenderSettings` value). 이 메커니즘은 각 재료에 대해 서로 다른 선명하게 하기 옵션을 선택하고 밝은 영역의 채도나 어두운 영역의 대비를 변경하는 등 조명 렌더링 알고리즘의 동작을 수정하는 데 사용됩니다.
+이러한 설정은 이미지 작성에서 대화식으로 제어됩니다. `rs=` 명령을 사용하거나 `catalog::RenderSettings` 값을 사용하여 이미지 렌더링에서 동일한 설정을 적용할 수 있습니다. 이 메커니즘은 각 재료에 대해 서로 다른 선명하게 하기 옵션을 선택하고 밝은 영역의 채도나 어두운 영역의 대비를 변경하는 것과 같은 조명 렌더링 알고리즘의 동작을 수정하는 데 사용됩니다.
 
 ## 고급 렌더링 설정(rs=) 값 {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -96,7 +96,7 @@ Dynamic Media 이미지 작성 패키지의 일부인 비네팅 작성 도구는
       <li id="li_CA93566F5D4F4D3CAA1D0816562A3851">쌍1차 </li> 
       <li id="li_D334ACF969E749A89A464B21C96CE8A6">슈퍼샘플링 </li> 
       <li id="li_FAC72C36FF4A418F8A5B05F3B4E7C5D8">자동 선택 </li> 
-      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">푸아송 샘플러 </li> 
+      <li id="li_6E9D81045A0C4804A4D35D9B239F6486">푸아송 Sampler </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ Dynamic Media 이미지 작성 패키지의 일부인 비네팅 작성 도구는
   </tr> 
   <tr> 
    <td colname="col1"> <p>xx </p> </td> 
-   <td colname="col2"> <p>모양. </p> </td> 
+   <td colname="col2"> <p>도형. </p> </td> 
    <td colname="col3"> <p>-100 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p>위 값의 'xx'를 참조하십시오. </p> </td> 

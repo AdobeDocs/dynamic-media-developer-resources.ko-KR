@@ -39,7 +39,7 @@ PropertySetType 및 createPropertySetTypeParam 필드에 대한 유효한 값.
    <td colname="col3"> 핸들을 입력합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">회사 핸들. <p>주: 회사 핸들이 없는 경우 유형은 글로벌입니다. </p></td> 
   </tr> 
@@ -51,11 +51,11 @@ PropertySetType 및 createPropertySetTypeParam 필드에 대한 유효한 값.
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">속성 집합 유형 중 하나. 입력(<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col3">속성 집합 유형 중 하나. 입력(<span class="codeph"> createPropertySetTypeParam</span>)을 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 이 형식의 개체에 여러 속성 집합 인스턴스를 첨부하도록 허용할지 여부입니다. </td> 
   </tr> 
  </tbody> 

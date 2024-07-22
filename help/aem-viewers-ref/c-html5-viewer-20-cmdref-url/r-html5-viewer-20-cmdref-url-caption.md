@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 6%
    <td colname="col2"> <p> WebVTT 캡션 컨텐츠의 URL 또는 경로를 지정합니다. 이미지 제공은 WebVTT 파일을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다. 활성화됨 <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다. <span class="codeph"> 1 </span>이(가) 활성화되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,25 +51,25 @@ ht-degree: 6%
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>테스트 정렬 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 왼쪽|오른쪽|중간|시작|종료 </span> </p> </td> 
-   <td colname="col4"> <p> 텍스트 정렬을 제어합니다. </p> <p>기본값은 입니다 <span class="codeph"> 가운데 </span>. </p> </td> 
+   <td colname="col4"> <p> 텍스트 정렬을 제어합니다. </p> <p>기본값은 <span class="codeph"> 가운데 </span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">에서 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 위치 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 캡션 텍스트 시작 부분에 대한 VideoPlayer 구성 요소에 삽입되는 비율입니다. </p> <p>기본값은 입니다 <span class="codeph"> 0% </span>. </p> </td> 
+   <td colname="col4"> <p> 캡션 텍스트 시작 부분에 대한 VideoPlayer 구성 요소에 삽입되는 비율입니다. </p> <p>기본값은 <span class="codeph"> 0% </span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">초 </span> </p> </td> 
    <td colname="col2"> <p>선 크기 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 캡션에 사용되는 비디오 너비의 백분율입니다. </p> <p>기본값은 입니다 <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> 캡션에 사용되는 비디오 너비의 백분율입니다. </p> <p>기본값은 <span class="codeph"> 100% </span>입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>라인 위치 </p> </td> 
    <td colname="col3"> <p> 0%-100%|정수 </p> </td> 
-   <td colname="col4"> <p> 페이지의 라인 위치를 결정합니다. </p> <p>퍼센트 기호가 없는 정수로 표시되는 경우 텍스트가 표시되는 맨 위의 줄 수입니다. </p> <p>백분율로 표현된 경우(% 기호가 마지막 문자) 표시 영역 아래에 해당 백분율의 캡션 텍스트가 표시됩니다. </p> <p>기본값은 입니다 <span class="codeph"> 100% </span>. </p> </td> 
+   <td colname="col4"> <p> 페이지의 라인 위치를 결정합니다. </p> <p>퍼센트 기호가 없는 정수로 표시되는 경우 텍스트가 표시되는 맨 위의 줄 수입니다. </p> <p>백분율로 표현된 경우(% 기호가 마지막 문자) 표시 영역 아래에 해당 백분율의 캡션 텍스트가 표시됩니다. </p> <p>기본값은 <span class="codeph"> 100% </span>입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,8 +83,8 @@ WebVTT 파일 내에 다른 WebVTT 기능이 있는 경우에는 지원되지 �
    <td colname="col2"> <p> WebVTT 캡션 컨텐츠의 URL 또는 경로를 지정합니다. WebVTT 파일은 이미지 제공에 의해 제공됩니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다. </p> <p>활성화됨 <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다. </p> <p><span class="codeph"> 1 </span>이(가) 활성화되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

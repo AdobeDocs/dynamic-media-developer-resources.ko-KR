@@ -30,8 +30,8 @@ ht-degree: 23%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> 개 항목</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> 유형:메타데이터</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname">개 항목</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type:Metadata</span> </p> </td> 
    <td colname="col3"> <p>메타데이터 배열. </p> </td> 
   </tr> 
  </tbody> 

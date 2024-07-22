@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1336330e-86e5-418d-bea3-0c09368e3528
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 속성 {#section-bc4bc8b897c64535b88681e57d72942f}
 
-쉼표로 구분된 2개의 정수. 이미지의 위쪽, 왼쪽 모서리를 기준으로 한 픽셀 오프셋입니다. 다음과 같은 경우 무시됨 `catalog::Alignment=3` 그리고 단색과 캐비닛 소재에 의해.
+쉼표로 구분된 2개의 정수. 이미지의 위쪽, 왼쪽 모서리를 기준으로 한 픽셀 오프셋입니다. `catalog::Alignment=3`인 경우 및 단색 및 캐비닛 자재별로 무시됩니다.
 
 ## 기본값 {#section-b7ccc419a356415294706cd295ae96c9}
 

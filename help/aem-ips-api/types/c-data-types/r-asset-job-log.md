@@ -8,7 +8,7 @@ exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 7%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">작업 로그의 메시지. <p><span class="codeph"> [!DNL logMessage]</span> 응답 필드는 다음을 기반으로 현지화됨: <span class="codeph"> authHeader</span> 로케일 필드. </p></td> 
+   <td colname="col3">작업 로그의 메시지. <p><span class="codeph"> [!DNL logMessage]</span> 응답 필드가 <span class="codeph"> authHeader</span> 로케일 필드를 기반으로 현지화되었습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 

@@ -8,7 +8,7 @@ exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 12%
 
 지원되는 시스템 속성은 다음과 같습니다.
 
-* `IpsVersion`: IPS 버전 번호.
+* `IpsVersion`: IPS 버전 번호입니다.
 * `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사입니다.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: SVG 에셋 렌더링용 URL 접두사입니다.
-* `SvgRenderEnabled`: SVG 에셋을 렌더링할 수 있는 경우 참 `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: SVG 자산을 렌더링하기 위한 URL 접두사입니다.
+* `SvgRenderEnabled`: `SvgRenderRootUrl`에서 SVG 자산을 렌더링할 수 있는 경우 True입니다.
 
-* `UploadPostMaxFileSize`: 업로드에 허용되는 파일 데이터의 최대 크기(바이트) [!DNL POST]. 최대 한도보다 큰 파일은 거부됩니다.
+* `UploadPostMaxFileSize`: 업로드 [!DNL POST]에 허용되는 파일 데이터의 최대 크기(바이트)입니다. 최대 한도보다 큰 파일은 거부됩니다.
 
 ## 승인된 사용자 유형 {#section-2cd36bbd46ed414b8753569d5895530e}
 

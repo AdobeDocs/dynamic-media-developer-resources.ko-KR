@@ -8,7 +8,7 @@ exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -44,15 +44,15 @@ ht-degree: 8%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> company핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>다음 중 하나 <span class="codeph"> <span class="varname"> company핸들</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span> 필수 항목입니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이(가) 필요합니다. </p> </td> 
    <td colname="col4"> <p>정보를 얻고자 하는 회사의 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>다음 중 하나 <span class="codeph"> <span class="varname"> company핸들</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span> 필수 항목입니다. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> 또는 <span class="codeph"> <span class="varname"> companyName</span> </span>이(가) 필요합니다. </p> </td> 
    <td colname="col4"> <p>정보를 얻으려는 회사의 이름입니다. </p> </td> 
   </tr> 
  </tbody> 

@@ -23,5 +23,5 @@ ht-degree: 23%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | url | `xsd:string` | 템플릿을 나타내는 이미지 서버 URL입니다. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

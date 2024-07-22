@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '452'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 `src = *`catalogEntry`*|{{ *`materialFile`*| *`embeddedReq`*}[, *`materialFile`*]`
 
-`srcE= *`name`*`
+`srcE= *`이름`*`
 
-`srcN= *`색인`*`
+`srcN= *`인덱스`*`
 
 <table id="simpletable_A64C4F084C0A4DDCA45A921D4BD7AAEA"> 
  <tr class="strow"> 
@@ -37,11 +37,11 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>재질 카탈로그 ID(<span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>재질 카탈로그 ID(<span class="codeph"> 특성::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>자재 카탈로그 항목(<span class="codeph"> catalog::Id</span>). </p></td> 
+  <td class="stentry"> <p>재질 카탈로그 항목(<span class="codeph"> 카탈로그::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
@@ -64,30 +64,30 @@ ht-degree: 1%
   <td class="stentry"> <p>외부 서버에 요청합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> 이름</span> </p></td> 
   <td class="stentry"> <p>임베디드 소재 이름. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> 색인</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> 인덱스</span> </p></td> 
   <td class="stentry"> <p>임베디드 재료의 0 기반 색인 번호. </p></td> 
  </tr> 
 </table>
 
 반복 가능한 질감, 데칼 및 배경 무늬 재료에는 파일 또는 포함된 요청으로 지정될 수 있는 단일 이미지가 필요합니다.
 
-캐비닛 자료는 캐비닛 스타일 파일( [!DNL .vnc]) - 중첩 요청으로 지정할 수 없습니다. 텍스처 이미지 파일은 캐비닛에 대해 선택 사항이며, 지정되는 경우 파일 또는 포함된 요청일 수 있습니다.
+캐비닛 자료는 캐비닛 스타일 파일([!DNL .vnc])이 필요하며, 중첩 요청으로 지정할 수 없습니다. 텍스처 이미지 파일은 캐비닛에 대해 선택 사항이며, 지정되는 경우 파일 또는 포함된 요청일 수 있습니다.
 
-창 커버링 소재에는 창 커버링 스타일 파일( [!DNL .vnw]) - 중첩 요청으로 지정할 수 없습니다. 텍스처 파일은 선택 사항이며 지정되는 경우 파일 또는 포함된 요청일 수 있습니다.
+창 표지 자료는 창 표지 스타일 파일([!DNL .vnw])이 필요하며, 중첩 요청으로 지정할 수 없습니다. 텍스처 파일은 선택 사항이며 지정되는 경우 파일 또는 포함된 요청일 수 있습니다.
 
-이미지 렌더링에서는 재질 카탈로그, 카탈로그 항목 및 데이터 파일 조회에 대해 이미지 제공과 동일한 규칙을 사용합니다. 다음에 대한 설명을 참조하십시오. *`object`* 자세한 내용은 이미지 제공 설명서의 데이터 유형 을 참조하십시오.
+이미지 렌더링에서는 재질 카탈로그, 카탈로그 항목 및 데이터 파일 조회에 대해 이미지 제공과 동일한 규칙을 사용합니다. 자세한 내용은 이미지 서비스 제공 설명서에서 *`object`* 데이터 형식에 대한 설명을 참조하십시오.
 
-*`materialFile`* 상대 경로입니다. `attribute::RootPath`.
+*`materialFile`*&#x200B;은(는) `attribute::RootPath`에 상대적인 경로입니다.
 
-*`foreignReq`* 다음 중 하나를 기준으로 하는 URL일 수 있습니다. `attribute::RootUrl`또는 절대 URL( `attribute::AllowDirectUrls` 이(가) 설정되어 있습니다.
+*`foreignReq`*&#x200B;은(는) `attribute::RootUrl`에 상대적인 URL이거나 `attribute::AllowDirectUrls`이(가) 설정된 경우 절대 URL일 수 있습니다.
 
-If *`catId`* 을(를) 지정하지 않으면 세션 카탈로그가 사용됩니다.
+*`catId`*&#x200B;을(를) 지정하지 않으면 세션 카탈로그가 사용됩니다.
 
-`srcE=` 및 `srcN=` 비네팅에 임베드된 자료에 대한 액세스를 제공합니다.
+`srcE=` 및 `srcN=`은(는) 비네팅에 포함된 자료에 대한 액세스를 제공합니다.
 
 ## 지원되는 파일 형식 {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -99,7 +99,7 @@ If *`catId`* 을(를) 지정하지 않으면 세션 카탈로그가 사용됩니
 
 ## 속성 {#section-e68d03788d534e2184147987d51dfd0f}
 
-재질 속성입니다. 단색을 제외한 모든 재료에 필요합니다(단색 재료에는 허용되지 않음). 모든 문자열은 대소문자를 구분합니다. *`index`* 0보다 크거나 같아야 합니다.
+재질 속성입니다. 단색을 제외한 모든 재료에 필요합니다(단색 재료에는 허용되지 않음). 모든 문자열은 대소문자를 구분합니다. *`index`*&#x200B;은(는) 0 이상이어야 합니다.
 
 ## 기본값 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -111,7 +111,7 @@ MSS는 별도의 반복 가능한 텍스처가 있는 색상화된 캐비닛을 
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-동일한 자료가 자료 카탈로그에 있을 수 있습니다 `'cat`&#39; 레코드의 &#39; `12-3-2`&#39;:
+&#39;`12-3-2`&#39; 레코드의 재질 카탈로그 `'cat`&#39;에 동일한 자료가 있을 수 있습니다.
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -121,4 +121,4 @@ MSS는 별도의 반복 가능한 텍스처가 있는 색상화된 캐비닛을 
 
 ## 참조 {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[자재 카탈로그](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribute::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[재질 카탈로그](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2), [특성::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [특성::AllowDirectUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)

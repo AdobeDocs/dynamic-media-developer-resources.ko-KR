@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: ba55a3b6-9f8b-4b69-8604-f0893f56eb5d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '83'
 ht-degree: 6%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 ## 기본값 {#section-2d1258d2b7ce4929ac327a5d41a108dd}
 
-상속 위치 `default::Resolution` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::Resolution`에서 상속됩니다.
 
 ## 참조 {#section-dffa1f318fd84833b74d08d09c24c974}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b02f033d-be84-4cd0-b4bb-3ae9e424680c
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 6%
+source-wordcount: '54'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> 구성 요소 미리 로드 동작을 지정합니다. 로 설정된 경우 <span class="codeph"> -1</span> 구성 요소가 초기화되거나 자산이 변경되면 모든 견본이 동시에 로드됩니다. 로 설정된 경우 <span class="codeph"> 0</span> 표시되는 견본만 로드됩니다. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span> 표시되는 영역 주위에서 사전 로드되는 표시되지 않는 행/열의 수를 정의합니다. </p> </td> 
+   <td colname="col2"> <p> 구성 요소 미리 로드 동작을 지정합니다. <span class="codeph"> -1</span>(으)로 설정하면 구성 요소가 초기화되거나 자산이 변경될 때 모든 견본들이 동시에 로드됩니다. <span class="codeph"> 0</span>(으)로 설정하면 보이는 견본만 로드됩니다. </p> <p><span class="codeph"> <span class="varname"> preloadnbr</span></span>은(는) 표시되는 영역 주위에서 사전 로드되는 표시되지 않는 행/열의 수를 정의합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

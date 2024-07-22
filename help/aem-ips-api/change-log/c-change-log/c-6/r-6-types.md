@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 2%
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -40,34 +40,34 @@ IPS API 버전 6의 새로운 형식과 변경된 형식을 설명합니다.
 
 **추가됨**
 
-* 추가됨 `numUrls` 끝 `UploadUrlsJob`.
+* `UploadUrlsJob`에 `numUrls`을(를) 추가했습니다.
 
-* 추가됨 `fileName` 끝 `Asset.`
+* `Asset.`에 `fileName`을(를) 추가함
 
-* 추가됨 `isHidden` 끝 `MetadataField`.
+* `MetadataField`에 `isHidden`을(를) 추가했습니다.
 
-* 추가됨 `taskState` 끝 `TaskProgress`.
+* `TaskProgress`에 `taskState`을(를) 추가했습니다.
 
-* 추가됨 `exportJob` 끝 `ActiveJob` 및 `ScheduledJob`.
+* `ActiveJob` 및 `ScheduledJob`에 `exportJob`을(를) 추가했습니다.
 
-* 추가됨 `optmizedPath` 및 `optimizedFile` 끝 `PsdInfo`.
+* `PsdInfo`에 `optmizedPath` 및 `optimizedFile`을(를) 추가했습니다.
 
-* 추가됨 `contextHandle` 끝:
+* `contextHandle`이(가) 다음에 추가됨:
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* 에 다음 매개 변수를 추가했습니다. `Asset`:
+* `Asset`에 다음 매개 변수를 추가했습니다.
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**변경**
+**변경됨**
 
-* 위치 `User`, 변경됨 `role` 끝 `defaultRole`.
+* `User`에서 `role`을(를) `defaultRole`(으)로 변경했습니다.
 
-* 위치 `Folder`, 변경됨 `permissions` 끝 `permissionsSetHandle`.
+* `Folder`에서 `permissions`을(를) `permissionsSetHandle`(으)로 변경했습니다.
 
-* 위치 `AssetSummary`, `type` 및 `name` 이제 선택 사항입니다.
+* `AssetSummary`에서 `type` 및 `name`은(는) 이제 선택 사항입니다.

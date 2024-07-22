@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -27,8 +27,8 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 
 * Adobe Dynamic Media 이미지 제공 6.7.1 이상.
 * HTML5 뷰어에는 SDK JavaScript 서버측 라이브러리 3.11.5 이상이 필요합니다.
-* *친구에게 이메일 보내기* 소셜 기능을 사용하려면 s7ondemand 5.0.9 이상이 필요합니다.
-* eCatalog 뷰어 - [정보 패널 팝업](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 지원하려면 info server 2.1.8 이상이 필요합니다.
+* *친구에게 이메일 보내기* 소셜 기능에는 s7ondemand 5.0.9 이상이 필요합니다.
+* eCatalog 뷰어 - [정보 패널 팝업](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 지원을 사용하려면 정보 서버 2.1.8 이상이 필요합니다.
 * 검색 기능 구성 요소에는 s7search 2.3.0 이상이 필요합니다.
 
 ## 뷰어 시스템 요구 사항 {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -41,33 +41,33 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 * 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
    * Android™ OS 4.x
    * BlackBerry® 10(기본 브라우저) 비디오 재생만 지원됩니다.
-   * 크롬
+   * Chrome
    * Edge
    * 파이어폭스
    * Internet Explorer 11
-   * iOS6
+   * iOS
    * iPad 2(Safari 및 Chrome 브라우저만 해당)
    * iPhone
    * Safari 11
 * 모바일 장치의 Internet Explorer는 지원되지 않습니다.
-* *PanoramicViewer* 는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
+* *PanoramicViewer*&#x200B;는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
    * Android™ 4.4(전화 장치만 해당)
-   * 크롬
+   * Chrome
    * Edge
    * 파이어폭스
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* 및 *DimensionalViewer* 는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
+* *Video360Viewer* 및 *DimensionalViewer*&#x200B;은(는) 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
    * Android™ 5(전화 장치만 해당)
-   * 크롬
+   * Chrome
    * Edge
    * 파이어폭스
    * iOS 12
    * Safari 12
-* *확대/축소 세로 뷰어* 는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
+* *ZoomVerticalViewer*&#x200B;는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
    * Android™ 4.x
-   * 크롬
+   * Chrome
    * Edge
    * 파이어폭스
    * Internet Explorer 11

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e9bf641f-5bc9-42d9-a030-5591cd883373
 source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 `getComponent(componentId)`
 
-뷰어에서 사용하는 뷰어 SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지는 이 메서드를 사용하여 기본 뷰어의 동작을 확장하거나 사용자 지정할 수 있습니다. 다음 이후에만 이 메서드 호출 `initComplete` 뷰어 콜백이 실행되었습니다. 그렇지 않으면 뷰어 로직에 의해 구성 요소가 아직 생성되지 않을 수 있습니다.
+뷰어에서 사용하는 뷰어 SDK 구성 요소에 대한 참조를 반환합니다. 웹 페이지는 이 메서드를 사용하여 기본 뷰어의 동작을 확장하거나 사용자 지정할 수 있습니다. `initComplete` 뷰어 콜백이 실행된 후에만 이 메서드를 호출하십시오. 그렇지 않으면 뷰어 논리에 의해 구성 요소가 아직 만들어지지 않았을 수 있습니다.
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
@@ -49,7 +49,7 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ZoomView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 확대 단추 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ ht-degree: 1%
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 전체 화면 단추 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ SDK API를 사용하여 작업하는 경우 뷰어 SDK 네임스페이스에 설
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-다음 `{Object}` 는 Viewer SDK 구성 요소에 대한 참조입니다. 메서드는 를 반환합니다 `null` 다음과 같은 경우 `componentId` 는 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 뷰어 논리에 의해 아직 만들어지지 않은 경우 입니다.
+`{Object}`은(는) Viewer SDK 구성 요소에 대한 참조입니다. `componentId`이(가) 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 메서드가 `null`을(를) 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -8,7 +8,7 @@ exl-id: e5bb2188-d262-4324-9f71-68634b6af654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -68,22 +68,22 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> 자산 작업 오류</span>다음을 포함합니다. 
+   <td colname="col4"> 다음을 포함하는 <span class="codeph"> AssetOperationFaults</span>: 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">경고를 발생시킨 에셋입니다. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets에서 경고를 보냈습니다. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">경고 코드. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">경고 사유. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> 유형:AssetOperationFaultArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4"> <span class="codeph"> 자산 작업 오류</span>다음을 포함합니다. 
+   <td colname="col4"> 다음을 포함하는 <span class="codeph"> AssetOperationFaults</span>: 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">오류가 발생한 에셋입니다. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets에서 오류가 발생했습니다. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">오류 코드. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">오류 원인. </li> 
     </ul> </td> 
@@ -93,7 +93,7 @@ ht-degree: 9%
 
 ## 예제 {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-이 코드 샘플은 자산을 `assetMoveArray`. 배열에는 에셋 핸들과 해당 폴더 핸들이 포함됩니다. 응답은 자산이 성공적으로 이동되었음을 나타냅니다.
+이 코드 샘플은 자산을 `assetMoveArray`에서 지정한 특정 위치로 이동합니다. 배열에는 에셋 핸들과 해당 폴더 핸들이 포함됩니다. 응답은 자산이 성공적으로 이동되었음을 나타냅니다.
 
 **요청**
 

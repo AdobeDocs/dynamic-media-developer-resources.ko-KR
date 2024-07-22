@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>장치가 세로 방향일 때 스프레드 내의 페이지에 대한 0부터 시작하는 인덱스입니다. "왼쪽에서 오른쪽" 환경의 경우 <span class="codeph"> 0</span> 은(는) "왼쪽 페이지"를 의미하며 <span class="codeph"> 1</span> 는 "오른쪽 페이지"를 의미합니다. "오른쪽에서 왼쪽" 환경의 경우 반대입니다. <span class="codeph"> 0</span> 는 "오른쪽 페이지"를 의미하며 <span class="codeph"> 1</span> 는 "왼쪽 페이지"를 의미합니다. </p> <p>지정하지 않으면 <span class="codeph"> 0</span> 는 기본적으로 로 간주됩니다. 장치가 가로 방향인 경우 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>장치가 세로 방향일 때 스프레드 내의 페이지에 대한 0부터 시작하는 인덱스입니다. "왼쪽에서 오른쪽" 환경의 경우 <span class="codeph"> 0</span>은(는) "왼쪽 페이지"를 의미하고 <span class="codeph"> 1</span>은(는) "오른쪽 페이지"를 의미합니다. "오른쪽에서 왼쪽" 환경의 경우 반대입니다. <span class="codeph"> 0</span>은(는) "오른쪽 페이지"를 의미하고 <span class="codeph"> 1</span>은(는) "왼쪽 페이지"를 의미합니다. </p> <p>지정하지 않으면 기본적으로 <span class="codeph"> 0</span>이(가) 사용됩니다. 장치가 가로 방향인 경우 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

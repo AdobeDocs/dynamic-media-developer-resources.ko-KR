@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 19%
 
 ## 예제 {#section-a0cd532b67e346d088fbec141231a0e5}
 
-이 코드 샘플은 `ApiTestProject` 을(를) 핸들로 지정한 회사에 포함합니다. 응답이 프로젝트에 대한 핸들을 반환합니다.
+이 코드 샘플은 핸들로 지정된 회사에 `ApiTestProject`(이)라는 프로젝트를 만듭니다. 응답이 프로젝트에 대한 핸들을 반환합니다.
 
 **요청**
 

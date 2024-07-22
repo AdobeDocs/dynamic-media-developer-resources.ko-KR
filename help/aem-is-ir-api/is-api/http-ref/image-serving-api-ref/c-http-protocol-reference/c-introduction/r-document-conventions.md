@@ -30,47 +30,47 @@ ht-degree: 0%
   <td class="stentry"> <p>기울임꼴 은 변수나 매개 변수가 실제 값으로 대체되는 것을 나타냅니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 명령= </span> </p> </td> 
   <td class="stentry"> <p>후행 '='가 있는 이름은 이미지 제공 HTTP 프로토콜 명령을 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 특성:: </span> 는 이미지 카탈로그 속성을 참조합니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 특성::항목 </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 특성 접두사가 있는 이름: </span>이(가) 이미지 카탈로그 특성을 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalog::Item </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 카탈로그: </span> 는 이미지 카탈로그 데이터 필드를 참조합니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 카탈로그::항목 </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 카탈로그 접두사가 있는 이름: </span>이(가) 이미지 카탈로그 데이터 필드를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> icc::항목 </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> icc: </span> 는 ICC 색상 프로파일 맵의 필드를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> icc:: </span>이(가) 접두사로 붙은 이름이 ICC 색상 프로파일 맵의 필드를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> font::Item </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 글꼴:: </span> 는 글꼴 맵의 필드를 나타냅니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 글꼴 접두사가 있는 이름: </span>은(는) 글꼴 맵의 필드를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 매크로:: 항목 </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 매크로:: </span> 매크로 정의 테이블의 필드를 참조합니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 매크로:: </span> 접두사가 있는 이름이 매크로 정의 테이블의 필드를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 규칙 집합::항목 </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 규칙 세트: </span> 는 URL 사전 처리 규칙 세트의 요소를 참조합니다. </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 규칙 집합: </span> 접두사가 있는 이름은 URL 사전 처리 규칙 집합의 요소를 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item </span> </p> </td> 
-  <td class="stentry"> <p>접두사가 있는 이름 <span class="codeph"> 기본값: </span> 는 기본 이미지 카탈로그의 속성을 참조합니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 기본값::항목 </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 기본값이 접두사로 추가된 이름: </span>이(가) 기본 이미지 카탈로그의 특성을 참조합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> 선택 사항 </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> 선택적 </span>] </span> </p> </td> 
   <td class="stentry"> <p>선택적 구문 요소는 대괄호로 묶습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> 선택 사항 </span>] </span> </p> </td> 
-  <td class="stentry"> <p>다음 <span class="varname"> 선택 사항 </span> 구문 요소는 한 번 이상 반복할 수 있습니다. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> 선택적 </span>] </span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 선택적 </span> 구문 요소는 한 번 이상 반복될 수 있습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 항목1 </span>| <span class="varname"> 항목2 </span> </span> </p> </td> 
   <td class="stentry"> <p>세로 막대는 왼쪽에 있는 단일 구문 항목 또는 오른쪽에 있는 항목을 사용할 수 있음을 나타냅니다. 정확히 하나의 항목을 선택해야 합니다. </p> </td> 
  </tr> 
  <tr class="strow"> 

@@ -1,5 +1,5 @@
 ---
-description: PostScript 파일 속성.
+description: PostScript 파일 속성입니다.
 solution: Experience Manager
 title: GenerationInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL GenerationInfo]{#generationinfo}
 
-PostScript 파일 속성.
+PostScript 파일 속성입니다.
 
 구문
 

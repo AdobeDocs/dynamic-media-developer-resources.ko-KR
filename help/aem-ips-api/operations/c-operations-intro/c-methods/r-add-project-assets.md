@@ -8,7 +8,7 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 11%
 
 ## 예제 {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-이 예에서는 자산 핸들 배열의 핸들에서 참조되는 단일 자산을 요청에 지정된 프로젝트에 추가합니다. 응답이 있을 때 작업이 성공적으로 완료되었습니다. `successCount` 반환 `1`.
+이 예에서는 자산 핸들 배열의 핸들에서 참조되는 단일 자산을 요청에 지정된 프로젝트에 추가합니다. 응답 `successCount`이(가) `1`을(를) 반환하는 경우 작업이 완료되었습니다.
 
 **요청**
 

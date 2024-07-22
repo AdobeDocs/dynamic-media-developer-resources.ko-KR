@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|왼쪽|오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 썸네일이 보기에서 채우는 방식을 지정합니다. </p> <p>다음으로 설정 <span class="codeph"> left </span> 을 클릭하여 왼쪽에서 오른쪽으로 채우기 순서를 설정합니다. </p> <p>다음으로 설정 <span class="codeph"> 오른쪽 </span> 보기를 오른쪽에서 왼쪽, 위에서 아래로 채우도록 순서를 반전시킵니다. </p> <p>다음으로 설정 <span class="codeph"> auto </span> 로케일을 로 설정할 때 구성 요소가 오른쪽 모드를 적용하도록 합니다. <span class="codeph"> "ja" </span>; 그렇지 않으면, <span class="codeph"> left </span> 를 사용합니다. </p> </td> 
+   <td colname="col2"> <p> 썸네일이 보기에서 채우는 방식을 지정합니다. </p> <p>왼쪽에서 오른쪽 채우기 순서를 설정하려면 왼쪽 </span>을(를) <span class="codeph">(으)로 설정하십시오. </p> <p><span class="codeph"> right </span>(으)로 설정하면 보기가 오른쪽에서 왼쪽으로, 위에서 아래로 채워지도록 순서를 반전시킵니다. </p> <p>로케일이 <span class="codeph"> "ja" </span>(으)로 설정된 경우 구성 요소를 오른쪽 모드로 적용하려면 <span class="codeph"> 자동 </span>(으)로 설정하십시오. 그렇지 않으면 <span class="codeph"> 왼쪽 </span>이(가) 사용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

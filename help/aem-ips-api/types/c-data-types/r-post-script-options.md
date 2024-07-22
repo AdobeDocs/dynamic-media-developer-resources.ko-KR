@@ -1,5 +1,5 @@
 ---
-description: PostScript 파일 옵션
+description: PostScript 파일 옵션입니다.
 solution: Experience Manager
 title: PostScript 옵션
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL PostScriptOptions]{#postscriptoptions}
 
-PostScript 파일 옵션
+PostScript 파일 옵션입니다.
 
 구문
 
@@ -22,7 +22,7 @@ PostScript 파일 옵션
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 프로세스 | `xsd:string` | PostScript 프로세스 선택 |
+| 프로세스 | `xsd:string` | PostScript 프로세스 선택. |
 | 해상도 | `xsd:double` | 파일 확인. |
 | 색상 공간 | `xsd:string` | PostScript 색상 공간 모드. |
 | 알파 | `xsd:boolean` | 파일을 이미지로 래스터화할지 여부입니다. 원본 파일 가 이러한 방식으로 정의된 경우 투명 배경이 만들어집니다. 일반적으로 오버레이 로고를 만드는 데 사용됩니다. |

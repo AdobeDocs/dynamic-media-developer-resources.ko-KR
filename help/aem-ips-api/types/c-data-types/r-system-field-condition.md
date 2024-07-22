@@ -16,7 +16,7 @@ ht-degree: 6%
 
 searchAssets 작업에 대한 시스템 필드 검색 조건입니다.
 
-단항 비교의 경우 정확히 하나의 값( `boolVal`, `longVal`, `doubleVal`, 또는 `dateVal`시스템 필드 유형에 따라 )를 선택합니다. 검색 범위의 경우 전달 `min<Type>` 및 `max<Type>` 매개 변수 및 전달 `op` 값 `Between` 또는 `NotBetween`.
+단항 비교의 경우 시스템 필드 형식에 따라 정확히 하나의 값(`boolVal`, `longVal`, `doubleVal` 또는 `dateVal`)을 전달합니다. 검색 범위의 경우 `min<Type>` 및 `max<Type>` 매개 변수를 전달하고 `Between` 또는 `NotBetween`의 `op` 값을 전달합니다.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

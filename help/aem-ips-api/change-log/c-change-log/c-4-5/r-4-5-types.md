@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
@@ -41,10 +41,10 @@ IPS API 버전 4.5의 새로운 데이터 형식과 변경된 데이터 형식�
 
 ## 수정된 유형 {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* 에셋에 새 항목 포함 `fileName` 가상 파일 이름을 반환하는 필드입니다.
-* `AssetSummary` 반환: `type` 및 `name` 필드
+* 자산에 가상 파일 이름을 반환하는 새 `fileName` 필드가 포함되어 있습니다.
+* `AssetSummary`이(가) `type` 및 `name` 필드를 반환합니다
 
-* `MetadataField` 포함 `isHidden`
+* `MetadataField`에 `isHidden` 포함
 
 * `MetadataUpdate`
-* `UploadUrlsJob` 을(를) 필요로 함 `urlArray` 및 추가 옵션 `numUrls` count
+* `UploadUrlsJob`에는 `urlArray`이(가) 필요하며 선택적 `numUrls` 수를 추가합니다.

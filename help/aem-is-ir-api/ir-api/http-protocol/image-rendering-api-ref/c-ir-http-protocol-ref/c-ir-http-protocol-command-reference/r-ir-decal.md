@@ -20,7 +20,7 @@ ht-degree: 9%
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> 값 </span> </p> </td> 
   <td class="stentry"> <p>무시됨. </p> </td> 
  </tr> 
 </table>

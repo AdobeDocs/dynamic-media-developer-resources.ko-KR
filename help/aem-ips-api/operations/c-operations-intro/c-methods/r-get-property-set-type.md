@@ -8,7 +8,7 @@ exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 유형</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PropertySetType</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:PropertySetType</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4">다음을 포함하는 형식 구조: 
     <ul id="ul_FC028882124D4CD6870A076CBFB80333"> 

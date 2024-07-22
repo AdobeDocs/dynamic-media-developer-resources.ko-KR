@@ -18,7 +18,7 @@ ht-degree: 2%
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 
-FXG 노드 요소에 `s7:elementID` 정의된 경우 이 명령을 사용하여 해당 노드의 속성을 삭제할 수 있습니다.
+FXG 노드 요소에 `s7:elementID`이(가) 정의되어 있으면 이 명령을 사용하여 해당 노드의 특성을 삭제할 수 있습니다.
 
 ## 예 {#section-dece7192384a412c9afdfbda6f08bc97}
 
@@ -28,4 +28,4 @@ FXG 노드 요소에 `s7:elementID` 정의된 경우 이 명령을 사용하여 
 
 `<Group d:id="4" d:type="layer" d:userLabel="WhiteFrame" s7:elementID="middle_area">`
 
-이 예에서는 속성을 제거합니다. *[!DNL x]*, *[!DNL y]*, 및 *[!DNL visible]* 원래 FXG 노드에서 가져옵니다.
+이 예제에서는 원래 FXG 노드에서 *[!DNL x]*, *[!DNL y]* 및 *[!DNL visible]* 특성을 제거합니다.

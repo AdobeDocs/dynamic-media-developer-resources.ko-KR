@@ -29,7 +29,7 @@ ht-degree: 0%
 
 카탈로그 데이터 파일은 카탈로그 속성 파일의 파일 참조에 의해 이미지 카탈로그와 연결됩니다. 동일한 카탈로그 데이터 파일을 여러 이미지 카탈로그에서 공유할 수 있습니다.
 
-카탈로그 속성 파일에 [!DNL .ini] 파일 접미사 및에 있어야 합니다. [!DNL Platform Server]의 카탈로그 폴더( `PlatformServer::catalog.rootPath`). 카탈로그 데이터 파일은 동일한 폴더 또는 사용자가 액세스할 수 있는 다른 폴더에 있을 수 있습니다. [!DNL Platform Server].
+카탈로그 특성 파일에는 [!DNL .ini] 파일 접미사가 있어야 하며 [!DNL Platform Server]의 카탈로그 폴더(`PlatformServer::catalog.rootPath`)에 있어야 합니다. 카탈로그 데이터 파일은 [!DNL Platform Server]에 액세스할 수 있는 폴더 또는 다른 폴더에 있을 수 있습니다.
 
 이 문서에서는 Dynamic Media 이미지 제공 시스템의 이미지 카탈로그 파일 형식에 대해 설명합니다. 의도한 대상은 웹 또는 사용자 지정 애플리케이션에 Dynamic Media 이미지 서비스를 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자입니다.
 

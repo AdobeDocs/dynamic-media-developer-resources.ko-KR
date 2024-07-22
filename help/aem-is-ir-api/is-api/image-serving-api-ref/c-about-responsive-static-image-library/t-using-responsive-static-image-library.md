@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,31 +18,31 @@ ht-degree: 0%
 
 **응답형 이미지 라이브러리를 사용하려면**
 
-1. Dynamic Media Classic, [이미지 사전 설정 만들기](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) 사전 설정과 함께 응답형 이미지 라이브러리를 사용하려는 경우.
+1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing).
 
-   응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 이미지 크기에 영향을 주는 설정(예: )은 사용하지 마십시오 `wid=`, `hei=`, 또는 `scl=`. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
+   응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=`과 같이 이미지 크기에 영향을 주는 설정은 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
 1. 라이브러리 JavaScript 파일을 웹 페이지에 추가합니다.
 
-   라이브러리 API를 사용하려면 먼저 다음을 포함해야 합니다. `responsive_image.js`. 이 JavaScript 파일은에 있습니다. `libs/` 표준 IS-Viewers 배포의 하위 폴더:
+   라이브러리 API를 사용하려면 먼저 `responsive_image.js`을(를) 포함해야 합니다. 이 JavaScript 파일은 표준 IS-Viewers 배포의 `libs/` 하위 폴더에 있습니다.
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. 기존 이미지를 설정합니다.
 
-   라이브러리는 라이브러리가 작동하는 이미지 인스턴스에서 특정 구성 속성을 읽습니다. 다음 항목 앞에 속성 정의 `s7responsiveImage` 이러한 이미지에 대해 API 함수가 호출됩니다.
+   라이브러리는 라이브러리가 작동하는 이미지 인스턴스에서 특정 구성 속성을 읽습니다. 이러한 이미지에 대해 `s7responsiveImage` API 함수가 호출되기 전에 특성을 정의합니다.
 
-   또한 기존 이미지 URL을 `data-src` 특성. 그런 다음 기존 을 설정합니다. `src` 1x1 GIF 이미지가 데이터 URI로 인코딩되도록 하는 속성입니다. 이렇게 하면 로드 시 웹 페이지에서 전송되는 HTTP 요청 수가 줄어듭니다. 그러나 SEO(검색 엔진 최적화)가 필요한 경우 `title` 이미지 인스턴스의 속성입니다.
+   또한 기존 이미지 URL을 `data-src` 특성에 넣는 것이 좋습니다. 그런 다음 데이터 URI로 인코딩된 1x1 GIF 이미지를 갖도록 기존 `src` 특성을 설정합니다. 이렇게 하면 로드 시 웹 페이지에서 전송되는 HTTP 요청 수가 줄어듭니다. 그러나 SEO(검색 엔진 최적화)가 필요한 경우 이미지 인스턴스에 `title` 특성을 설정하는 것이 좋습니다.
 
-   다음은 을(를) 정의하는 예제입니다 `data-breakpoints` 데이터 URI로 인코딩된 1x1 GIF을 사용하는 이미지에 대한 특성:
+   다음은 이미지에 대한 `data-breakpoints` 특성을 정의하고 Data URI로 인코딩된 1x1 GIF을 사용하는 예입니다.
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. 호출 `s7responsiveImage` 라이브러리가 관리하는 모든 이미지 인스턴스에 대한 API 함수입니다.
+1. 라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다.
 
-   호출 `s7responsiveImage` 라이브러리가 관리하는 모든 이미지 인스턴스에 대한 API 함수입니다. 이러한 호출 후에 라이브러리는 의 런타임 크기에 따라 원본 이미지를 이미지 제공에서 다운로드한 이미지로 대체합니다. `IMG` 요소(웹 페이지 레이아웃의 요소 및 장치 화면의 밀도)입니다.
+   라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다. 이러한 호출이 있으면 라이브러리는 웹 페이지 레이아웃에 있는 `IMG` 요소의 런타임 크기 및 장치 화면의 밀도에 따라 원본 이미지를 이미지 제공에서 다운로드한 이미지로 대체합니다.
 
-   다음 코드는 호출 예입니다 `s7responsiveImage` 다음과 같이 가정할 때 이미지에 대한 API 함수 `responsiveImage` 는 해당 이미지의 ID입니다.
+   다음 코드는 `responsiveImage`이(가) 해당 이미지의 ID라고 가정할 때 이미지에서 `s7responsiveImage` API 함수를 호출하는 예제입니다.
 
    ```
    <script type="text/javascript"> 
@@ -87,10 +87,10 @@ ht-degree: 0%
 
 AEM 6.4 및 Dynamic Media Viewers 5.9에는 두 가지 스마트 자르기 모드가 있습니다.
 
-* **수동** - 사용자 정의 중단점 및 해당 이미지 서비스 명령이 이미지 요소의 특성 내에 정의되어 있습니다.
+* **수동** - 사용자 정의 중단점과 해당 이미지 서비스 명령이 이미지 요소의 특성 내에 정의되어 있습니다.
 * **스마트 자르기** - 계산된 스마트 자르기 렌디션은 게재 서버에서 자동으로 검색됩니다. 이미지 요소의 런타임 크기를 사용하여 최상의 렌디션을 선택합니다.
 
-스마트 자르기 모드를 사용하려면 `data-mode` 특성 대상 `smart crop`. 예:
+스마트 자르기 모드를 사용하려면 `data-mode` 특성을 `smart crop`(으)로 설정합니다. 예:
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-연결된 이미지 요소는 `s7responsiveViewer` 중단점이 변경될 때 런타임에 이벤트가 발생합니다.
+연결된 이미지 요소는 중단점이 변경될 때 런타임 중에 `s7responsiveViewer` 이벤트를 전달합니다.
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

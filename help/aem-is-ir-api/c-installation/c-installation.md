@@ -8,7 +8,7 @@ exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 이미지 렌더링은 이 두 서버 구성 요소의 일부입니다.
 
-다음 지침에서, `install_root` 는 이미지 제공 및 이미지 렌더링이 설치된 루트 폴더를 나타냅니다. 및 `server:port` 는에 대한 주 수신 포트로 구성된 호스트 이름 또는 IP 주소 및 포트 번호를 나타냅니다. [!DNL Platform Server].
+후속 지침에서 `install_root`은(는) 이미지 제공 및 이미지 렌더링이 설치된 루트 폴더를 참조합니다. `server:port`은(는) [!DNL Platform Server]의 주 수신 대기 포트로 구성된 호스트 이름 또는 IP 주소 및 포트 번호를 나타냅니다.
 
 * [라이선스](c-licensing.md)
 * [목차](c-contents.md)

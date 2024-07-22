@@ -31,11 +31,11 @@ ht-degree: 3%
  </tr> 
 </table>
 
-다음을 참조하십시오 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 추가 정보: 설명 포함 `*`pathName`*` 및 `*`pathDefinition`*`.
+`*`pathName`*` 및 `*`pathDefinition`*`에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오.
 
 ## 속성 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-레이어 속성입니다. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 다음과 같은 경우 무시됨 `clipPath=` 이(가) 지정되지 않았습니다. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `clipPath=`이(가) 지정되지 않은 경우 무시됩니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-d1986aa31af14767aeb1b4a57add67f4}
 

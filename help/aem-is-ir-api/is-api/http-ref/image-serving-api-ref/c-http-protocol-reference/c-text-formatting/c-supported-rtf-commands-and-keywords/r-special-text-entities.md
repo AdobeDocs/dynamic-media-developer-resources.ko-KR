@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 4%
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \라인 </span> </td> 
+   <td> <span class="codeph"> \줄 </span> </td> 
    <td> <p>줄 바꿈. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -53,17 +53,17 @@ ht-degree: 4%
   <tr> 
    <td> <span class="codeph"> \~ </span> </td> 
    <td> <p>줄바꿈을 하지 않는 공백. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>만. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>줄바꿈을 하지 않는 하이픈 </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>만. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \- </span> </td> 
    <td> <p>하이픈(선택 사항) </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> 만 해당. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span>만. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -23,5 +23,5 @@ ht-degree: 11%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | 색상 관리 | `xsd:string` | 색상 관리 모드 선택. |
-| sourceProfile핸들 | `xsd:string` | 소스 프로필 핸들. |
+| sourceProfile핸들 | `xsd:string` | Source 프로필 핸들. |
 | outputProfile핸들 | `xsd:string` | 출력 프로필 핸들. |

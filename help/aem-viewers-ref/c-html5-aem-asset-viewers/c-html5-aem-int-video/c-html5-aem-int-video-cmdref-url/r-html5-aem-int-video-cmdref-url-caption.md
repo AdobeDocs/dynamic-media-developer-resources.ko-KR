@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 11%
+source-wordcount: '208'
+ht-degree: 3%
 
 ---
 
@@ -34,25 +34,25 @@ ht-degree: 11%
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>텍스트 정렬 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> 왼쪽|오른쪽|중간|시작|종료 </span> </p> </td> 
-   <td colname="col4"> <p> 텍스트 맞춤을 제어합니다. </p> <p>기본값은 입니다 <span class="codeph"> 가운데 </span>. </p> </td> 
+   <td colname="col4"> <p> 텍스트 맞춤을 제어합니다. </p> <p>기본값은 <span class="codeph"> 가운데 </span>입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">에서 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 위치 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 캡션 텍스트 시작 부분에 대한 VideoPlayer 구성 요소에 삽입되는 비율입니다. </p> <p>기본값은 0입니다%. </p> </td> 
+   <td colname="col4"> <p> 캡션 텍스트 시작 부분에 대한 VideoPlayer 구성 요소에 삽입되는 비율입니다. </p> <p>기본값은 0%입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">초 </span> </p> </td> 
    <td colname="col2"> <p>선 크기 </p> </td> 
    <td colname="col3"> <p> 0%-100% </p> </td> 
-   <td colname="col4"> <p> 캡션에 사용되는 비디오 너비의 백분율입니다. </p> <p>기본값은 100입니다%. </p> </td> 
+   <td colname="col4"> <p> 캡션에 사용되는 비디오 너비의 백분율입니다. </p> <p>기본값은 100%입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>라인 위치 </p> </td> 
    <td colname="col3"> <p> 0%-100%|정수 </p> </td> 
-   <td colname="col4"> <p> 페이지의 라인 위치를 결정합니다. </p> <p>정수(퍼센트 기호 없음)로 표시되는 경우 텍스트가 표시되는 위쪽의 줄 수입니다. </p> <p>백분율(퍼센트 기호가 마지막 문자)이면 표시 영역 아래에 해당 백분율로 캡션 텍스트가 표시됩니다. </p> <p>기본값은 100입니다%. </p> </td> 
+   <td colname="col4"> <p> 페이지의 라인 위치를 결정합니다. </p> <p>정수(퍼센트 기호 없음)로 표시되는 경우 텍스트가 표시되는 위쪽의 줄 수입니다. </p> <p>백분율(퍼센트 기호가 마지막 문자)이면 표시 영역 아래에 해당 백분율로 캡션 텍스트가 표시됩니다. </p> <p>기본값은 100%입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,8 +66,8 @@ WebVTT 파일에 있는 다른 WebVTT 기능은 지원되지 않지만 캡션을
    <td colname="col2"> <p> WebVTT 캡션 컨텐츠의 URL 또는 경로를 지정합니다. 이미지 제공으로 WebVTT 파일을 제공합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다(활성화됨: <span class="codeph"> 1 </span>). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> 기본 캡션 상태를 지정합니다(<span class="codeph"> 1 </span> 사용). </p> </td> 
   </tr> 
  </tbody> 
 </table>

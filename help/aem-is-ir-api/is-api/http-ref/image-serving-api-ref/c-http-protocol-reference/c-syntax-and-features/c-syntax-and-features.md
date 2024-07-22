@@ -17,7 +17,7 @@ ht-degree: 0%
 이 단원의 항목에서는 HTTP 프로토콜의 구문 및 기능에 대해 설명합니다.
 
 * [이미지 제공 HTTP 프로토콜 기본 구문](r-basic-syntax.md)
-* [이미지 제공 HTTP 프로토콜 명령 개요](c-command-overview/c-command-overview.md)
+* [이미지 제공 HTTP 프로토콜 명령   개요](c-command-overview/c-command-overview.md)
 * [레이어 개요](c-layering-overview/c-layering-overview.md)
 * [레이어 작업](c-layering-overview/c-layer-operations.md)
 * [레이어 효과](r-layer-effects.md)

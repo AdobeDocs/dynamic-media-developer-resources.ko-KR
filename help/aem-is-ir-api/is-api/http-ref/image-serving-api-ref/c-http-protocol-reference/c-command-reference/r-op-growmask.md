@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 2%
 
 ## 속성 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-현재 레이어 또는 레이어에 적용 `0` if `layer=comp`.
+현재 레이어 또는 `layer=comp`인 경우 `0` 레이어에 적용됩니다.
 
 ## 기본값 {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMask=0`, 변경 사항 없음.
+`op_growMask=0`(변경 없음).
 
 ## 참조 {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

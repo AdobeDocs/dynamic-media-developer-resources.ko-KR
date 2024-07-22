@@ -25,13 +25,13 @@ ht-degree: 2%
  </tr> 
 </table>
 
-다음을 참조하십시오 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 추가 정보: 설명 포함 *`pathDefinition`*.
+*`pathDefinition`*&#x200B;에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오.
 
-RTF 여백 명령 `\margl`, `\margr`, `\margt`, 및 `\margb` 다음의 경우 무시됨 `textFlowPath=` 이(가) 있습니다. 경로 정의를 지정하지 않은 경우 `textFlowPath=` 은(는) 무시됩니다.
+`textFlowPath=`이(가) 있는 경우 RTF 여백 명령 `\margl`, `\margr`, `\margt` 및 `\margb`이(가) 무시됩니다. 경로 정의를 지정하지 않으면 `textFlowPath=`이(가) 무시됩니다.
 
 ## 속성 {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-텍스트 레이어 속성( `textPs=` 만 해당). 다른 레이어에서 무시됨. 적용 대상 `layer=0` 에 대해 지정된 경우 `layer=comp`.
+텍스트 레이어 특성(`textPs=`만 해당). 다른 레이어에서 무시됨. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다.
 
 ## 기본값 {#section-68c4559b9e8242059b82e5a39a455dfc}
 

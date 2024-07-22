@@ -20,16 +20,16 @@ ht-degree: 4%
 
 <table id="simpletable_00B21BD9E47E4D2FB0042CB507431916"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> 값</span> </p> </td> 
   <td class="stentry"> <p>플래그 값입니다. </p></td> 
  </tr> 
 </table>
 
 현재 캐비닛 재료에만 사용됩니다.
 
-`flags=0` (기본값) 실선 도어로 위쪽 캐비닛을 렌더링합니다.
+`flags=0`(기본값) 실선 도어로 위쪽 캐비닛을 렌더링합니다.
 
-`flags=1` 유리 문으로 상부 캐비닛을 렌더링합니다(비네팅을 유리 문으로 작성한 경우).
+`flags=1` 유리 문으로 위쪽 캐비닛을 렌더링합니다(비네팅을 유리 문으로 만든 경우).
 
 ## 속성 {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ ht-degree: 4%
 
 ## 기본값 {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` 유리문도 없고
+`flags=0` 유리 문이 없습니다.

@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # FlyoutZoomView.flyouttransition{#flyoutzoomview-flyouttransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`은신처`*[, *`은신지연`*]]]]`
+` [FlyoutZoomView.|<containerId>_flyout.]flyouttransition=[none|slide|fade][, *`showtime`*[, *`showdelay`*[, *`hidetime`*[, *`hidedelay`*]]]]`
 
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 없음|슬라이드|페이드 </span> </span> </p> </td> 
-   <td colname="col2"> <p> 플라이아웃 보기가 표시되거나 숨겨지면 적용되는 효과의 유형을 지정합니다. 포함 <span class="codeph"> 없음 </span>, 플라이아웃 이미지가 활성화된 후 준비되면 즉시 나타납니다. <span class="codeph"> 슬라이드 </span> 슬라이드 애니메이션을 왼쪽에서 오른쪽 방향으로 재생합니다. <span class="codeph"> 페이드 </span> 플라이아웃 이미지에 알파 전환을 적용합니다. </p> </td> 
+   <td colname="col2"> <p> 플라이아웃 보기가 표시되거나 숨겨지면 적용되는 효과의 유형을 지정합니다. <span class="codeph"> 없음 </span>에서 플라이아웃 이미지는 활성화 및 준비 시 즉시 나타납니다. <span class="codeph"> 슬라이드 </span>에서는 슬라이드 애니메이션이 왼쪽에서 오른쪽 방향으로 재생됩니다. <span class="codeph"> 페이드 </span>에서는 플라이아웃 이미지에 알파 전환을 적용합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
@@ -31,11 +31,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 애니메이션 표시를 시작하는 사용자 동작과 애니메이션 표시 자체의 시작 간 지연 시간(초)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 은신처 </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 숨김 시간 </span> </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 숨기기가 완료되는 데 소요되는 시간(초)입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 은신지연 </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 지연 숨기기 </span> </span> </p> </td> 
    <td colname="col2"> <p> 애니메이션 숨기기를 시작하는 사용자 동작과 애니메이션 숨기기 자체의 시작 간 지연 시간(초)입니다. </p> </td> 
   </tr> 
  </tbody> 

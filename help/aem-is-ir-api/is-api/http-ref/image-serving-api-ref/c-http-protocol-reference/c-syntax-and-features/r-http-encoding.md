@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 23%
+source-wordcount: '227'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 명령 값은 %xx 이스케이프 시퀀스를 사용하여 http 인코딩해야 하므로 값 문자열에 예약된 문자 &#39;=&#39;, &#39;&amp;&#39; 및 &#39;%&#39;가 포함되지 않습니다.
 
-그렇지 않으면 표준 HTTP 인코딩 규칙이 적용됩니다. HTTP 사양을 사용하려면 안전하지 않은 문자와 같은 제어 문자의 인코딩이 필요합니다. `<return>` 및 `<tab>`. 문자의 URL 인코딩은 &quot;%&quot; 기호 다음에 문자에 대한 ISO-Latin 코드 포인트의 두 자리 16진수 표현(대/소문자 구분 안 함)이 옵니다. 안전하지 않은 문자 및 코드 포인트는 다음과 같습니다.
+그렇지 않으면 표준 HTTP 인코딩 규칙이 적용됩니다. HTTP 사양을 사용하려면 안전하지 않은 문자와 `<return>` 및 `<tab>`과(와) 같은 모든 제어 문자의 인코딩이 필요합니다. 문자의 URL 인코딩은 &quot;%&quot; 기호 다음에 문자에 대한 ISO-Latin 코드 포인트의 두 자리 16진수 표현(대/소문자 구분 안 함)이 옵니다. 안전하지 않은 문자 및 코드 포인트는 다음과 같습니다.
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
@@ -122,7 +122,7 @@ ht-degree: 23%
    <td colname="col3"> <p>36 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp; </p> </td> 
+   <td colname="col1"> <p>및 </p> </td> 
    <td colname="col2"> <p>26 </p> </td> 
    <td colname="col3"> <p>38 </p> </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,18 +30,18 @@ ht-degree: 22%
 
 ## 매개 변수 {#section-b4075df0e4414b00b961d978d5471db9}
 
-**입력(getXMPPacketParam)**
+**입력(getXMPPacketParam**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| company핸들 | `xsd:string` | 예 | 회사는 반환할 패킷을 처리합니다(예: `c|656`). |
+| company핸들 | `xsd:string` | 예 | 회사가 반환할 패킷을 처리합니다(예: `c|656`). |
 | assetHandle | `xsd:string` | 예 | XMP 패킷을 검색해야 하는 에셋입니다. |
 
 **출력(getXMPPacketReturn)**
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷. |
+| compressedPacket | `xsd:Base 64 binary` | 예 | [!DNL zlib-compressed] XMP 패킷입니다. |
 
 ## 예제 {#section-d681af49122e4ca9bcd04110a2e98e6f}
 

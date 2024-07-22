@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**세트 표시기의 CSS 속성**
+**집합 표시기의 CSS 속성**
 
 다음 CSS 클래스 선택기를 사용하여 설정된 표시기 컨테이너의 모양이 제어됩니다.
 
@@ -35,7 +35,7 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>설정 표시기의 16진수 형식 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -62,15 +62,15 @@ ht-degree: 1%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>설정된 표시기 점의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>설정된 표시점의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-왼쪽 </span> </p> </td> 
    <td colname="col2"> <p>왼쪽 여백(픽셀). </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ ht-degree: 1%
    <td colname="col2"> <p>상단 여백(픽셀). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 오른쪽 여백 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 여백-오른쪽 </span> </p> </td> 
    <td colname="col2"> <p>오른쪽 여백(픽셀 단위). </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ ht-degree: 1%
    <td colname="col2"> <p>테두리 반경(픽셀). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p>16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->표시기 점을 설정하면 `state` 속성 선택기: 다른 썸네일 상태에 다른 스킨을 적용하는 데 사용할 수 있습니다. 특히, `state="selected"` 은 현재 썸네일 페이지에 해당합니다. `state="unselected"` 는 기본 점 상태에 해당합니다.
+>표시 점 설정은 `state` 특성 선택기를 지원하며, 이 선택기를 사용하여 다른 썸네일 상태에 다른 스킨을 적용할 수 있습니다. 특히 `state="selected"`은(는) 썸네일의 현재 페이지에 해당하며 `state="unselected"`은(는) 기본 점 상태에 해당합니다.
 
 예 - 2개의 픽셀 가로 여백, 5개의 픽셀 위쪽 여백, 1개의 픽셀 아래쪽 여백, 12개의 픽셀 반경, 기본 색상 및 #939393 활성 색상을 사용하여 15x15 픽셀#D5D3D3 설정된 표시점을 만들려면 다음 작업을 수행하십시오.
 

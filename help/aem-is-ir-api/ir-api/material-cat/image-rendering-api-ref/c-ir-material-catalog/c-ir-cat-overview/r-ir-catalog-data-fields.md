@@ -8,7 +8,7 @@ exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 10%
+ht-degree: 2%
 
 ---
 
@@ -61,11 +61,11 @@ ht-degree: 10%
   <td class="stentry"> <p>재질 색상. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> 기본 색상 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-basecolor.md#reference-5f02371b1d8e444ab12d2614d9792de8" type="reference" format="dita" scope="local"> BaseColor </a> </p></td> 
   <td class="stentry"> <p>색상화 가능한 재료의 색소화 색상. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> 일럼 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-illum.md#reference-faeb85b387544d04b8aa4ccc3ab12e0f" type="reference" format="dita" scope="local"> Illum </a> </p></td> 
   <td class="stentry"> <p>조명 맵 선택기. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -73,7 +73,7 @@ ht-degree: 10%
   <td class="stentry"> <p>표면 광택. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 거칠음 </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> 거칠기 </a> </p></td> 
   <td class="stentry"> <p>표면 거칠기. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -81,7 +81,7 @@ ht-degree: 10%
   <td class="stentry"> <p>서피스 재료 유형. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> 샤프</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-sharp-dataref.md#reference-f79a14bd52474dfd8495115d398a30d0" type="reference" format="dita" scope="local"> 선명하게</a> </p></td> 
   <td class="stentry"> <p>텍스처/데칼 선명하게 하기. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -124,7 +124,7 @@ ht-degree: 10%
   <td class="stentry"> <p>비네팅 파일 경로. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> 수정자</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> 한정자</a> </p></td> 
   <td class="stentry"> <p>사전 정의된 요청 수정자. </p></td> 
  </tr> 
  <tr class="strow"> 

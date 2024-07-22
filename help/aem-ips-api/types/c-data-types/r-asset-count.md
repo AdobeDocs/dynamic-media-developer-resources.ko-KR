@@ -16,9 +16,9 @@ ht-degree: 10%
 
 회사에 대한 자산 유형 및 개수.
 
-에셋 유형은 다음과 같습니다 [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet]및 기타
+에셋 유형에는 [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] 등이 있습니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | assetType | `xsd:string` | 카운트와 연계된 에셋 유형. |
-| 계수 | `sd:int` | 의 수 `assetType` 회사 내 자산입니다. |
+| 계수 | `sd:int` | 회사에 있는 `assetType`개 에셋 수 |

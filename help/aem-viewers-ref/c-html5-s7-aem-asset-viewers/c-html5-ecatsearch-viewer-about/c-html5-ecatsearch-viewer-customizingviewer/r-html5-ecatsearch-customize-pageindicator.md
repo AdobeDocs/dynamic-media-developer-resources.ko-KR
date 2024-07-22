@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 최상위 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상위 </span> </p> </td> 
    <td colname="col2"> <p>패딩을 포함한 기본 컨트롤 막대(데스크탑 시스템 및 태블릿) 또는 보조 컨트롤 막대(휴대폰)의 위쪽 테두리에서 배치합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -37,7 +37,7 @@ ht-degree: 3%
    <td colname="col2"> <p>패딩을 포함한 기본 컨트롤 막대(데스크탑 시스템 및 태블릿) 또는 보조 컨트롤 막대(휴대폰)의 오른쪽 테두리에서 배치합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 왼쪽 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 남음 </span> </p> </td> 
    <td colname="col2"> <p>패딩을 포함하여 기본 컨트롤 막대(데스크탑 시스템 및 태블릿) 또는 보조 컨트롤 막대(휴대폰)의 왼쪽 테두리에서 배치합니다. </p> </td> 
   </tr> 
   <tr> 
@@ -45,16 +45,16 @@ ht-degree: 3%
    <td colname="col2"> <p>패딩을 포함하여 기본 컨트롤 막대(데스크탑 시스템 및 태블릿) 또는 보조 컨트롤 막대(휴대폰)의 아래쪽 테두리에서 배치합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>페이지 표시기의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>페이지 표시기의 높이입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>글꼴 색상. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
+   <td colname="col2"> <p>글꼴 색입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 

@@ -1,6 +1,6 @@
 ---
 title: 헤더
-description: HTTP 응답 헤더 요소입니다. 에서 선택 사항 <rule> 요소.
+description: HTTP 응답 헤더 요소입니다. <rule> 요소에서 선택 사항입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # 헤더{#header}
 
-HTTP 응답 헤더 요소입니다. 에서 선택 사항 `<rule>` 요소.
+HTTP 응답 헤더 요소입니다. `<rule>` 요소에서 선택 사항입니다.
 
 ## 속성 {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*텍스트*&quot;** : 필수. HTTP 헤더의 이름을 지정합니다.
+**`Name`= &quot;*text*&quot;** : 필수 필드입니다. HTTP 헤더의 이름을 지정합니다.
 
-**`Action`= &quot;set&quot; |`"add"`**: 선택 사항입니다. 기본값은 입니다 `"set"`: 현재 헤더 값을 대체합니다. 지정 `"add"` 따라서 쉼표로 구분된 헤더 값을 추가할 수 있습니다.
+**`Action`= &quot;set&quot; |`"add"`**: 선택 사항입니다. 기본값은 `"set"`이며, 이 값은 현재 헤더 값을 대체합니다. 헤더 값을 쉼표로 구분하여 추가할 수 있도록 `"add"`을(를) 지정하십시오.
 
 ## 데이터 {#section-a387f541396c49d99c29692a38032914}
 
@@ -43,6 +43,6 @@ HTTP 응답 헤더 요소입니다. 에서 선택 사항 `<rule>` 요소.
 </rule>
 ```
 
-이 규칙은 HTTP 응답 헤더를 설정하는 다음 요청에 의해 트리거됩니다. `Edge-Control::no-store`:
+이 규칙은 HTTP 응답 헤더 `Edge-Control::no-store`을(를) 설정하는 다음 요청에 의해 트리거됩니다.
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

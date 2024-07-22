@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 33%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 33%
 
 프린터 표시를 표시합니다. 프린터 표시를 표시하는 방법을 지정합니다.
 
-` printerMark= *`재단선`*, *`재단 물림 기호`*, *`등록 표시`*, *`색상 막대`*, *`페이지 정보`*, *`스타일`*, *`선 두께`*, *`레이어 포함`*`
+` printerMark= *`재단 표시`*, *`재단 표시`*, *`등록 표시`*, *`색상 막대`*, *`페이지 정보`*, *`스타일`*, *`선 두께`*, *`레이어 포함`*`
 
 다른 표시를 끄거나 켤 수 있습니다. 프린터 표시의 스타일도 제어할 수 있습니다.
 
@@ -24,27 +24,27 @@ ht-degree: 33%
 
 <table id="simpletable_C84560940CAC46D8BE9D0EFEE5EBF323"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>trim marks= </p></td> 
+  <td class="stentry"> <p>트리밍 표시= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>기본값은 0입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>bleed marks= </p></td> 
+  <td class="stentry"> <p>재단 물림 기호= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>기본값은 0입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>registration marks= </p></td> 
+  <td class="stentry"> <p>등록 표시= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>기본값은 0입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>color bars= </p></td> 
+  <td class="stentry"> <p>색상 막대= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>기본값은 0입니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>page information= </p></td> 
+  <td class="stentry"> <p>페이지 정보= </p></td> 
   <td class="stentry"> <p>0|1 </p></td> 
   <td class="stentry"> <p>기본값은 0입니다. </p></td> 
  </tr> 

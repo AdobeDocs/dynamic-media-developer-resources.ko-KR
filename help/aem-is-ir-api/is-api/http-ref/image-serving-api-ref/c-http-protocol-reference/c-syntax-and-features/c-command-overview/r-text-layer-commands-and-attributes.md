@@ -8,7 +8,7 @@ exl-id: a40b90ca-98c1-4f1f-9825-ff9d57d67bb4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
   <td class="stentry"> <p>추가 텍스트 속성을 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd" type="reference" format="dita" scope="local"> 텍스트 경로</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd" type="reference" format="dita" scope="local"> textPath</a> </p></td> 
   <td class="stentry"> <p>텍스트를 그릴 경로를 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -34,7 +34,7 @@ ht-degree: 1%
   <td class="stentry"> <p>추가 텍스트 경로 속성을 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef" type="reference" format="dita" scope="local"> 텍스트 흐름 경로</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef" type="reference" format="dita" scope="local"> textFlowPath</a> </p></td> 
   <td class="stentry"> <p>사각형이 아닌 텍스트 흐름 영역을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,7 +42,7 @@ ht-degree: 1%
   <td class="stentry"> <p>텍스트 흐름 제외 영역을 지정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15" type="reference" format="dita" scope="local"> 텍스트 각도</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textangle.md#reference-447f624c0e764d0cb5c75846d1b44d15" type="reference" format="dita" scope="local"> textAngle</a> </p></td> 
   <td class="stentry"> <p>텍스트 기준선 각도를 설정합니다. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ SVG 렌더러의 Java 힙 크기입니다. 기본값은 &quot;200m&quot;(200MB)�
 
 ## PS::svgProvider.rootPaths - 데이터 루트 폴더 SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-SVG 소스 데이터 파일의 위치입니다. 하나 이상의 절대 파일 경로이거나 상대적이 경로일 수 있습니다 *[!DNL install_folder]*&#x200B;세미콜론으로 구분됩니다. 일반적으로 와 동일한 값으로 설정됩니다. `IS::RootPath`.
+SVG 소스 데이터 파일의 위치입니다. 하나 이상의 절대 파일 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적인 경로이며 세미콜론으로 구분됩니다. 일반적으로 `IS::RootPath`과(와) 동일한 값으로 설정됩니다.
 
 ## PS::svgProvider.SVGFileSizeLimit - 최대 SVG 파일 크기 {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -30,17 +30,17 @@ SVG 소스 데이터 파일의 위치입니다. 하나 이상의 절대 파일 �
 
 ## IS::SvgMAxRenderRgnPixels - SVG 출력 이미지 크기 제한 {#section-5be1fd9639424d878a5ffd11736d3920}
 
-SVGRender가 생성할 수 있는 이미지의 크기를 제한합니다. 백만 픽셀에서 0보다 큰 정수 값입니다. 렌더링 작업이 크기 제한을 초과할 경우 오류가 반환됩니다. 초기값은 4입니다.
+SVGRender가 생성할 수 있는 이미지의 크기를 제한합니다. 백만 픽셀에서 0보다 큰 정수 값입니다. 렌더링 작업이 크기 제한을 초과할 경우 오류가 반환됩니다. 기본값은 4입니다.
 
-## PS::svgProvider.port - [!DNL Platform Server] 수신 포트 {#section-f7e42a96c2dd4523b46f0557c239e659}
+## PS::svgProvider.port - [!DNL Platform Server] 수신 대기 포트 {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-SvgRender에서 이미지를 가져오는 데 사용되는 포트 [!DNL Platform Server] SVG 렌더링에 포함될 예정입니다.
+SvgRender가 SVG 렌더링에 포함할 [!DNL Platform Server]에서 이미지를 얻는 데 사용되는 포트입니다.
 
-중요 SVGRender 구성 요소가 제대로 작동하려면 이 구성 옵션을 와 동일한 값으로 설정해야 합니다. `TC::PsPort`.
+중요 SVGRender 구성 요소가 올바르게 작동하려면 이 구성 옵션을 `TC::PsPort`과(와) 동일한 값으로 설정해야 합니다.
 
 ## PS::svgProvider.fontRoot - SVG 글꼴 파일 폴더 {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-SvgRender가 SVG 텍스트를 렌더링하는 데 필요한 글꼴 파일을 찾는 위치를 지정합니다(일반적으로 `IS::RootPaths`. 기본값은 [!DNL]입니다  *[!DNL install_folder]*/images].
+SvgRender가 SVG 텍스트를 렌더링하는 데 필요한 글꼴 파일을 찾는 위치를 지정합니다. 일반적으로 `IS::RootPaths`에 지정된 경로 중 하나입니다. 기본값은 [!DNL *[!DNL install_folder]*/images]입니다.
 
 ## SVG::SVGRender.port, IS::SVGTcpPort - SVG 통신 포트 {#section-608687123aa644b7b58fe42385d71b79}
 
@@ -48,4 +48,4 @@ SvgRender가 SVG 텍스트를 렌더링하는 데 필요한 글꼴 파일을 찾
 
 >[!NOTE]
 >
->SVGRender 구성 요소가 올바르게 작동하려면 동일한 포트 번호를 다음에 대해 지정해야 합니다. `SVG::SVGRender.port` 및 `IS::SVGTcpPort`.
+>SVGRender 구성 요소가 올바르게 작동하려면 `SVG::SVGRender.port` 및 `IS::SVGTcpPort`에 대해 동일한 포트 번호를 지정해야 합니다.

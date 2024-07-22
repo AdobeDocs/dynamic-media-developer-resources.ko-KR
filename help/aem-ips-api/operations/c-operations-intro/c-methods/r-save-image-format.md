@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->다음 `urlModifier` 필드 값은 유효한 XML로 구성되어야 합니다. 예: 변경 `&` 끝 `&`. 가져오기 `urlModfier` IPS 사용자 인터페이스의 값입니다.
+>`urlModifier` 필드 값은 올바른 XML로 구성되어야 합니다. 예를 들어 `&`을(를) `&`(으)로 변경합니다. IPS 사용자 인터페이스에서 `urlModfier` 값을 가져옵니다.
 
 ## 승인된 사용자 유형 {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 
 ## 예제 {#section-c7bd733212ef494297a97093f3af193f}
 
-이 코드 샘플은 이미지 형식을 만듭니다. 이 예에서는 `urlModifier` 은(는) 유효한 HTML 형식의 IPS 사용자 인터페이스에서의 값에 의해 결정됩니다.
+이 코드 샘플은 이미지 형식을 만듭니다. 이 예제에서 `urlModifier`은(는) 올바른 HTML 형식의 IPS 사용자 인터페이스에서 해당 값으로 결정되었습니다.
 
 **요청**
 

@@ -18,7 +18,7 @@ Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된
 
 이러한 작업 및 유형은 후속 시스템 업데이트 시 비활성화, 변경 또는 사용 중단될 수 있습니다.
 
-**새 유형**
+**새 형식**
 
 * AssetPublishContext
 * AssetPublishContextArray
@@ -50,59 +50,59 @@ Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된
 * 이미지 집합 업데이트
 * updatePropertySetPermissions
 
-**수정된 유형**
+**수정된 형식**
 
-* 변경됨 `ActiveJob` 포함 `createVideoSitemapJob` 유형
+* `createVideoSitemapJob` 형식을 포함하도록 `ActiveJob`을(를) 변경했습니다.
 
-* 변경됨 `ScheduledJob` 포함 `createVideoSitemapJob` 유형
+* `createVideoSitemapJob` 형식을 포함하도록 `ScheduledJob`을(를) 변경했습니다.
 
-* 변경됨 `ImageServingPublishJob` 선택 사항을 포함하려면 `contextHandle`
+* 선택적 `contextHandle`을(를) 포함하도록 `ImageServingPublishJob`을(를) 변경했습니다.
 
-* 변경됨 `ImageRenderingPublishJob` 선택 사항을 포함하려면 `contextHandle`
+* 선택적 `contextHandle`을(를) 포함하도록 `ImageRenderingPublishJob`을(를) 변경했습니다.
 
-* 변경됨 `MetadataField` 선택 사항을 포함하려면 `initialTagField`
+* 선택적 `initialTagField`을(를) 포함하도록 `MetadataField`을(를) 변경했습니다.
 
-* 변경됨 `MetadataCondition` 및 옵션 포함 `caseSensitive` 매개 변수
+* 및 선택적 `caseSensitive` 매개 변수를 포함하도록 `MetadataCondition`을(를) 변경했습니다.
 
-* 변경됨 `PropertySet` 선택 사항을 포함하려면 `PermissionArray` 다음으로: `permissions`
+* 선택적 `PermissionArray`을(를) `permissions`(으)로 포함하도록 `PropertySet`을(를) 변경함
 
-* 변경됨 `UploadDirectoryJob` 옵션 포함 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수
+* 선택적 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수를 포함하도록 `UploadDirectoryJob`을(를) 변경했습니다.
 
-* 변경됨 `VideoPublishJob` 선택 사항을 포함하려면 `contextHandle`
+* 선택적 `contextHandle`을(를) 포함하도록 `VideoPublishJob`을(를) 변경했습니다.
 
 **수정된 작업**
 
-* 변경됨 `createAssetSet` 선택 사항을 포함하려면 `thumbAssetHandle`
+* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createAssetSet`을(를) 변경했습니다.
 
-* 변경됨 `createImageSet` 선택 사항을 포함하려면 `thumbAssetHandle`
+* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createImageSet`을(를) 변경했습니다.
 
-* 변경됨 `createMetadataField` 선택 사항을 포함하려면 `initialTagValue` 매개 변수
+* 선택적 `initialTagValue` 매개 변수를 포함하도록 `createMetadataField`을(를) 변경했습니다.
 
-* 변경됨 `createPropertySet` 선택 사항을 포함하려면 `PermissionUpdateArray` 다음으로: `permissionArray`
+* 선택적 `PermissionUpdateArray`을(를) `permissionArray`(으)로 포함하도록 `createPropertySet`을(를) 변경함
 
-* 변경됨 `getImageServingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageServingPublishSettings`을(를) 변경했습니다.
 
-* 변경됨 `getImageRenderingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageRenderingPublishSettings`을(를) 변경했습니다.
 
-* 변경됨 `searchAssetsByFullText` 일련의 선택적 매개 변수를 포함하려면 다음을 수행합니다.
+* 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByFullText`을(를) 변경했습니다.
 
-   * `SearchFilter` 다음으로: `filters` 매개 변수
-
-   * `sortBy`
-   * `sortDirection`
-
-* 변경됨 `searchAssetsByMetadata` 일련의 선택적 매개 변수를 포함하려면 다음을 수행합니다.
-
-   * `SearchFilter` 다음으로: `filters` 매개 변수
+   * `filters` 매개 변수로 `SearchFilter`
 
    * `sortBy`
    * `sortDirection`
-   * `haystackSearch` 7개 매개 변수의 시퀀스
 
-* 변경됨 `setAssetPublishState` 선택 사항을 포함하려면 `HandleArray` 다음으로: `contextHandleArray`
+* 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByMetadata`을(를) 변경했습니다.
 
-* 변경됨 `setImageServingPublishSettings` 선택 사항을 포함하려면 `contextHandle` 매개 변수
+   * `filters` 매개 변수로 `SearchFilter`
 
-* 변경됨 `setImageRenderingPublishSettings` 선택 사항을 포함하려면 `contextHandle`매개 변수
+   * `sortBy`
+   * `sortDirection`
+   * 7개 매개 변수의 `haystackSearch` 시퀀스
 
-* 변경됨 `submitJob` 선택 사항을 포함하려면 `createVideoSitemap` 작업 유형
+* 선택적 `HandleArray`을(를) `contextHandleArray`(으)로 포함하도록 `setAssetPublishState`을(를) 변경함
+
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageServingPublishSettings`을(를) 변경했습니다.
+
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageRenderingPublishSettings`을(를) 변경했습니다.
+
+* 선택적 `createVideoSitemap` 작업 유형을 포함하도록 `submitJob`을(를) 변경했습니다.

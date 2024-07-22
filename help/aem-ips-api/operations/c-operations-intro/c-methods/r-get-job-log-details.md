@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 11%
+source-wordcount: '216'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 회사 작업 로그의 세부 정보를 가져옵니다.
 
-다음 `logMessage` 응답 필드는 다음을 기반으로 현지화됩니다. `authHeader` `locale` 필드.
+`logMessage` 응답 필드가 `authHeader` `locale` 필드를 기반으로 현지화되었습니다.
 
 ## 승인된 사용자 유형 {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -44,7 +44,7 @@ ht-degree: 11%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> company핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4"> 작업 로그가 속한 회사에 대한 핸들입니다. </td> 
@@ -56,14 +56,14 @@ ht-degree: 11%
    <td colname="col4"> 활성 또는 완료된 작업에 대한 핸들. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 원래 이름</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 작업 로그의 원래 이름. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:StringArray</span> </td> 
    <td colname="col3"> 아니요 </td> 
    <td colname="col4"> 하나 이상의 로그 유형 상수. 존재하는 경우 지정된 로그 유형만 반환됩니다. 기본적으로 모든 로그 유형이 반환됩니다. </td> 
   </tr> 
@@ -71,13 +71,13 @@ ht-degree: 11%
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">최대 수 <span class="codeph"> detailArray</span> 반환할 항목입니다. 최대값과 기본값은 1000입니다. </td> 
+   <td colname="col4">반환할 최대 <span class="codeph"> detailArray</span> 항목 수입니다. 최대값과 기본값은 1000입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> 아니요 </td> 
-   <td colname="col4">의 페이지 번호 <span class="codeph"> recordsPerPage</span>-반환할 결과. 기본값은 1입니다. </td> 
+   <td colname="col4">반환할 <span class="codeph">개의 recordsPerPage</span>-results 페이지 수입니다. 기본값은 1입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 정렬 기준</span> </span> </td> 

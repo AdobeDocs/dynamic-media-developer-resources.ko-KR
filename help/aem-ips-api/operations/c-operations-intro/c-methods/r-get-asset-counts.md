@@ -8,7 +8,7 @@ exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 특정 회사와 연결된 자산 및 자산 수를 가져옵니다.
 
-다음 `countArray` 반환되는 는 `assetTypes` (데이터 유형 `xsd:string`), 각각 고유한 카운트 필드(데이터 유형)가 있음 `xsd:int`), 배열의 요소당 여러 에셋 유형을 표시할 수 있습니다.
+반환된 `countArray`은(는) 각각 고유한 카운트 필드(데이터 형식 `xsd:int`)가 있는 `assetTypes`(데이터 형식 `xsd:string`)의 배열로 구성되어 배열의 요소당 여러 자산 형식을 표시할 수 있습니다.
 구문
 
 ## 승인된 사용자 유형 {#section-6234754722184e828352f10eb18fbce9}
@@ -47,7 +47,7 @@ ht-degree: 10%
 
 ## 예제 {#section-6052a503eb3843f6adb99e200fdba280}
 
-이 코드 샘플은 회사의 핸들을 `getAssetCountsParam` 자산 수를 가져오기 위해 IPS 웹 서비스 서버로 전송됩니다.
+이 코드 샘플은 자산 수를 가져오기 위해 회사의 핸들을 IPS 웹 서비스 서버로 보낸 `getAssetCountsParam`의 필드로 사용합니다.
 
 **요청**
 

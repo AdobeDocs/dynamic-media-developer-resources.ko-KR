@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4b444f0f-2313-4477-8a22-7840b4783c88
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '79'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 기본값 {#section-86c4230a16454464880f64d4ab5ad533}
 
-상속 위치 `default::IccDither` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::IccDither`에서 상속됩니다.
 
 ## 참조 {#section-fe119006eb414a618b6ec9edbed8fe94}
 

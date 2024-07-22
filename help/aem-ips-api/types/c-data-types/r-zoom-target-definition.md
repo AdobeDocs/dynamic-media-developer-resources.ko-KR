@@ -8,7 +8,7 @@ exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 23%
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 23%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| name | `xsd:string` | 목표 이름. |
+| name | `xsd:string` | 대상 이름. |
 | x위치 | `xsd:int` | 확대/축소 대상의 X 위치입니다. |
 | y위치 | `xsd:int` | 확대/축소 대상의 Y 위치입니다. |
 | 너비 | `xsd:int` | 확대/축소 대상 너비. |

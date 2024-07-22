@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 48239519-7935-45e4-ae36-5e687a356cc1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 응답 이미지 크기 제한. 클라이언트로 반환할 수 있는 응답 이미지의 최대 너비 및 높이입니다.
 
-요청으로 인해 너비 및/또는 높이가 보다 큰 응답 이미지가 발생하는 경우 서버에서 오류를 반환합니다 `attribute::MaxSize`.
+요청으로 인해 너비 및/또는 높이가 `attribute::MaxSize`보다 큰 응답 이미지가 발생하는 경우 서버에서 오류를 반환합니다.
 
 ## 속성 {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 뷰어는 기본 보기의 맨 위에 핫스팟 아이콘 렌더링을 지원합니다. 핫스팟 아이콘의 모양은 핫스팟 섹션에 설명된 대로 CSS를 통해 제어됩니다.
 
-다음을 참조하십시오 [핫스팟](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+[핫스팟](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/r-html5-aem-int-image-customize-hotspots.md#reference-2ac3cc414ef2467390bf53145f1d8d74)을 참조하세요.
 
 핫스팟은 JavaScript 콜백을 트리거하여 호스팅 웹 페이지에서 빠른 보기 기능을 활성화하거나 사용자를 외부 웹 페이지로 리디렉션할 수 있습니다.
 

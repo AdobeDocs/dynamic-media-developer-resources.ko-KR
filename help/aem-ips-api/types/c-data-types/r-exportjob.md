@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 11%
+source-wordcount: '192'
+ht-degree: 10%
 
 ---
 
@@ -38,22 +38,22 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> types:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p>목록 <span class="codeph"> assetHandle</span> 내보내는 데 필요합니다. 다음을 참조하십시오 <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> 핸들 배열</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> 형식:HandleArray</span> </p> </td> 
+   <td colname="col3" valign="top"> <p>내보내야 하는 <span class="codeph"> assetHandle</span> 목록입니다. <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>의 유형을 지정합니다. <span class="codeph"> export.Possible 값</span>: [orig, convert] </p> <p> 
+   <td colname="col3"> <p><span class="codeph"> export.Possible Values</span>의 형식을 지정합니다. [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">If <span class="codeph"> fmt=orig</span>: 에셋을 원본으로 내보냅니다. </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">If <span class="codeph"> fmt=convert</span>, 에셋은 다음에 지정된 형식으로 변환됩니다. <span class="codeph"> is_modifer</span> 또는 <span class="codeph"> 매크로</span> 입력 매개 변수 </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9"><span class="codeph"> fmt=orig</span>이면 에셋을 원본으로 내보냅니다. </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564"><span class="codeph"> fmt=convert</span>인 경우 자산은 <span class="codeph"> is_modifer</span> 또는 <span class="codeph"> macro</span> 입력 매개 변수에 지정된 형식으로 변환됩니다. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>다음을 지정합니다. <span class="codeph"> 이미지 서버</span> ExportJob에 추가되는 렌더링 URL 문자열 <span class="codeph"> 전환</span> 요청. </p> <p>다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS 설명서</a> IS 수정자 보내기에 대한 자세한 내용은 </p> </td> 
+   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> 요청에 추가된 <span class="codeph"> ImageServer</span> 렌더링 URL 문자열을 지정합니다. </p> <p>IS 수정자 전송에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS 설명서</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 
@@ -80,7 +80,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
  </tbody> 
 </table>
 
-ExportJob 요청의 경우, `fmt=convert` 및 둘 다 `is_modifier` 및 `macro` 제공된 경우 대상 파일은에서 제공한 형식을 따릅니다. `macro`. 예:
+`fmt=convert`과(와) `is_modifier` 및 `macro`이(가) 모두 제공된 ExportJob 요청의 경우 대상 파일은 `macro`에서 제공한 형식을 따릅니다. 예:
 
 ```
 input_file = fileToExport.jpg

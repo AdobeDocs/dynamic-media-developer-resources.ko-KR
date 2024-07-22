@@ -18,9 +18,9 @@ Video360 뷰어에 대한 JavaScript API 참조
 
 `setVideo(videoUrl)`
 
-새 외부 비디오를 설정합니다. 전후에 언제든지 호출할 수 있습니다. `init()`. 다음 시간 이후에 호출되는 경우 `init()`, 뷰어가 런타임에 비디오를 교체합니다.
+새 외부 비디오를 설정합니다. `init()` 전후에 언제든지 호출할 수 있습니다. `init()` 이후에 호출되는 경우 뷰어는 런타임에 비디오를 교체합니다.
 
-참조: [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+[init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6)도 참조하세요.
 
 ## 매개 변수 {#section-b6affc90b3a84584b684641c86862e01}
 
@@ -28,7 +28,7 @@ Video360 뷰어에 대한 JavaScript API 참조
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>새 비디오의 절대 URL입니다. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> 문자열</span>}에 새 비디오에 대한 절대 URL이 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

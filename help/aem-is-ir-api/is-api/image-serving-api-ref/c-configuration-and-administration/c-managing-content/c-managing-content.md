@@ -17,6 +17,6 @@ ht-degree: 0%
 이 항목에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
 * [이미지 카탈로그](c-image-catalogs.md)
-* [소스 데이터](r-source-data.md)
+* [Source 데이터](r-source-data.md)
 * [정적 콘텐츠 소스 데이터](c-static-content-source-data.md)
 * [데이터 파일 삭제 또는 바꾸기](c-deleting-or-replacing-data-files.md)

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 물질이 데칼 MSS에 지정되어 있으면 데칼로 간주됩니다. 데칼은 일반적으로 RGBA 이미지이며 알파 채널은 데칼의 모양을 정의합니다.
 
-각 플랫, 플로우 라인, 스케치, 평면 또는 벽 개체에 하나의 데칼을 적용할 수 있습니다(&#39;텍스처 없음&#39; 플래그가 설정되지 않은 경우). 데칼은 데칼의 정렬을 통해 개체에 적용됩니다. `anchor=` (비네팅 객체의 데칼 원점 포함) 이 위치는 다음과 같이 추가로 조정할 수 있습니다. `pos=`.
+각 플랫, 플로우 라인, 스케치, 평면 또는 벽 개체에 하나의 데칼을 적용할 수 있습니다(&#39;텍스처 없음&#39; 플래그가 설정되지 않은 경우). 데칼의 `anchor=`을(를) 비네팅 개체의 데칼 원점과 정렬하여 개체에 데칼이 적용됩니다. `pos=`(으)로 위치를 추가로 조정할 수 있습니다.
 
 데칼 재료가 두께를 정의하고 비네팅 오브젝트가 라이트 벡터를 정의하는 경우 그림자가 렌더링됩니다.
 
@@ -37,14 +37,14 @@ ht-degree: 3%
    <td colname="col3"> <p>없음. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> size= </span> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-size.md#reference-1220d6fbcde4479aba91de7adacdc988" type="reference" format="dita" scope="local"> <span class="codeph"> 크기= </span> </a> </p> </td> 
    <td colname="col2"> <p>데칼 너비, 높이 및 두께(그림자). </p> </td> 
-   <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> 이미지 높이 </span> x <span class="codeph"> res, 0 </span> </p> </td> 
+   <td colname="col3"> <p> <span class="varname"> imageWidth </span> x <span class="codeph"> res </span>, <span class="varname"> imageHeight </span> x <span class="codeph"> res, 0 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-res.md#reference-0ad9de8887144c83a6db97b4994f7c04" type="reference" format="dita" scope="local"> <span class="codeph"> res= </span> </a> </p> </td> 
    <td colname="col2"> <p>텍스처 해상도(size=가 지정된 경우 무시됨). </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> attribute::Resolution </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> 특성::해상도 </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26" type="reference" format="dita" scope="local"> <span class="codeph"> 앵커= </span> </a> </p> </td> 
@@ -53,7 +53,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pos.md#reference-22c10904a0ce4c8bb41c2c78104221b8" type="reference" format="dita" scope="local"> <span class="codeph"> pos= </span> </a> </p> </td> 
-   <td colname="col2"> <p>상대적 데칼 위치. </p> </td> 
+   <td colname="col2"> <p>상대적 데칼 위치입니다. </p> </td> 
    <td colname="col3"> <p>0, 0 </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ ht-degree: 3%
    <td colname="col3"> <p>100% </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> sharp= </span> </a> </td> 
+   <td colname="col1"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a" type="reference" format="dita" scope="local"> <span class="codeph"> 선명하게= </span> </a> </td> 
    <td colname="col2"> <p>선명하게 하기. </p> </td> 
    <td colname="col3"> <p>0(선명하게 하기 없음) </p> </td> 
   </tr> 

@@ -22,4 +22,4 @@ ht-degree: 2%
 
 ## 기본값 {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-상속 위치 `default::ShowOverlapObjs` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::ShowOverlapObjs`에서 상속됩니다.

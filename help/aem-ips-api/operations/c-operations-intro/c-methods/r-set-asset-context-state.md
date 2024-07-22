@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 11%
 
 ## 예제 {#section-283a073f3cb14bcda5abed863c538aa4}
 
-이 코드 샘플은 다음을 사용하여 에셋의 게시 상태를 `NotMarkedForPublish`.
+이 코드 샘플은 `NotMarkedForPublish`을(를) 사용하여 에셋의 게시 상태를 설정합니다.
 
 **요청**
 

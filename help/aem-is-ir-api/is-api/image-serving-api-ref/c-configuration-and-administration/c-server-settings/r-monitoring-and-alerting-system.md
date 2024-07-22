@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - 경고 시스템 활성화 {#section-612f8ea61794426ab205e22e5f665fa9}
 
-을 &#39;true&#39;로 설정하고 이메일 알림 설정을 구성하여 이메일 알림을 사용하도록 설정합니다. 을 로 설정 `false` 모든 이메일 경고를 끕니다. 이 기능은 유지 관리를 위해 서버를 오프라인으로 전환할 때 유용할 수 있습니다. 부울.
+을 &#39;true&#39;로 설정하고 이메일 알림 설정을 구성하여 이메일 알림을 사용하도록 설정합니다. `false`(으)로 설정하면 모든 전자 메일 알림이 꺼집니다. 이 기능은 유지 관리를 위해 서버를 오프라인 상태로 만들 때 유용할 수 있습니다. 부울.
 
 ## AS::mailSender.host - SMTP 호스트 {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ SMTP 전자 메일 서버의 수신 포트입니다.
 
 ## AS::monitorAlertGenerator.messageFrom - 메시지 발신자 {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-에 사용해야 하는 이메일 주소 **[!UICONTROL 출처:]** 이메일 필드.
+**[!UICONTROL 보낸 사람]** 메일 필드에 사용해야 하는 메일 주소입니다.
 
 ## AS::monitorAlertGenerator.alertInterval - 모니터링 간격 {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

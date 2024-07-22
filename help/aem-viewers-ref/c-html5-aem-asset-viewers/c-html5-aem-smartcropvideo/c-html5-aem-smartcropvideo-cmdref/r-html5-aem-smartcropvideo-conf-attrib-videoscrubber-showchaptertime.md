@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5a539831-01d7-45a8-9d75-41782ec7fa94
 source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 10%
+source-wordcount: '38'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 비디오 챕터 레이블의 제목 표시줄에서 비디오 챕터 시간을 비활성화하거나 활성화합니다. </p> </td> 
   </tr> 
  </tbody> 

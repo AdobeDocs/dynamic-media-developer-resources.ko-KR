@@ -8,7 +8,7 @@ exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 15%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | setHandle | `xsd:string` | 예 | 속성 집합에 대한 핸들입니다. |
-| replaceProperties | `xsd:string` | 아니요 | 다음으로 설정 `true` 속성을 바꿉니다. |
+| replaceProperties | `xsd:string` | 아니요 | 속성을 바꾸려면 `true`(으)로 설정하십시오. |
 | propertyArray | `types:PropertyArray` | 예 | 속성 집합에 대해 업데이트된 속성의 배열입니다. |
 
 **출력(updatePropertySetReturn)**

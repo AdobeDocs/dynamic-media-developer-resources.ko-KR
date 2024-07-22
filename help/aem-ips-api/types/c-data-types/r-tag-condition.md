@@ -30,18 +30,18 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 필드 핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 태그 필드 핸들입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> 작업</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">태그 필드 유형과 value 또는 valueArray 필드의 사용 여부에 따라 다릅니다. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">If <span class="codeph"> 값</span> 전달됨, <span class="codeph"> op</span> 는 문자열 상수 Matches여야 합니다. 조건은 태그 값과 연결된 모든 자산과 일치합니다. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">If <span class="codeph"> valueArray</span> 가 전달되면 op 필드는 상수가 될 수 있습니다. <span class="codeph"> MatchAny</span> 단일 또는 다중 값 태그 필드에 사용됩니다. A <span class="codeph"> MatchAny</span> 조건이 의 태그 값 중 하나 이상과 연결된 모든 에셋과 일치함 <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">여러 값이 있는 태그 필드의 경우 작업 필드를 상수로 설정할 수 있습니다 <span class="codeph"> 모두 일치</span> (으)로 <span class="codeph"> valueArray</span> 필드. 이 경우 조건은 의 모든 태그 값과 연결된 에셋만 일치합니다 <span class="codeph"> valueArray</span> (다른 태그 값 외에 있을 수 있음). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5"><span class="codeph"> 값</span>이(가) 전달되면 <span class="codeph"> op</span>은(는) 문자열 상수 Matches여야 합니다. 조건은 태그 값과 연결된 모든 자산과 일치합니다. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD"><span class="codeph"> valueArray</span>이(가) 전달되면 작업 필드는 단일 또는 다중 값 태그 필드에 대한 상수 <span class="codeph"> MatchesAny</span>일 수 있습니다. <span class="codeph"> MatchesAny</span> 조건이 <span class="codeph"> valueArray</span>의 태그 값 중 하나 이상과 연결된 모든 에셋과 일치합니다. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">다중 값 태그 필드의 경우 작업 필드를 <span class="codeph"> valueArray</span> 필드와 함께 상수 <span class="codeph"> MatchesAll</span>(으)로 설정할 수 있습니다. 이 경우 조건은 <span class="codeph"> valueArray</span>의 모든 태그 값과 연결된 에셋만 일치합니다(다른 태그 값과 함께). </li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:StringArray</span> </td> 
    <td colname="col3"> 일치하는 값이 여러 개 있습니다. </td> 
   </tr> 
  </tbody> 

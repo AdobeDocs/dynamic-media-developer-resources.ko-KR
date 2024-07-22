@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '63'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 ## 기본값 {#section-fd5b5f0417bd444189b20494d179193e}
 
-상속 위치 `default::RequestLock` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::RequestLock`에서 상속됩니다.
 
 ## 참조 {#section-851a0b6c15ce4ea8b88dedfb579e9736}
 

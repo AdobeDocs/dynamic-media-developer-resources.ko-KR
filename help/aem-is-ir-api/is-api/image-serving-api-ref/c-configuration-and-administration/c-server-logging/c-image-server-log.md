@@ -18,4 +18,4 @@ ht-degree: 0%
 
 또한 서버 문제를 디버깅하기 위해 이미지 파일 액세스와 같은 실질적인 추가 세부 정보를 추적하도록 이미지 서버 로그를 구성할 수 있습니다.
 
-이미지 서버 로그가에 구성되어 있습니다. [!DNL ImageServerRegistry.xml].
+이미지 서버 로그가 [!DNL ImageServerRegistry.xml]에 구성되었습니다.

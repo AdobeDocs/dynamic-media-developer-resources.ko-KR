@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 2%
    <td colname="col2"> <p> 배경 테두리 색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> 배경색. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
+   <td colname="col2"> <p> 배경색입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 색 </span> </p> </td> 
    <td colname="col2"> <p>텍스트 색상. </p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에는 `!IMPORTANT` 규칙. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 이 규칙이 필요하지 않습니다.
+>포함 웹 페이지 내에서 도구 설명 스타일을 사용자 지정하는 경우 모든 속성에 `!IMPORTANT` 규칙이 포함되어야 합니다. 뷰어의 CSS 파일에서 도구 설명을 사용자 지정하는 경우에는 이 규칙이 필요하지 않습니다.
 
 예 - 회색 테두리에 모서리 반경이 3픽셀, 검정색 배경색, Arial®로 작성된 흰색 텍스트가 있는 도구 설명을 설정하려면 11픽셀 크기입니다.
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 * [요청 명령](r-request-commands-and-attributes.md)
 * [명령 보기](r-view-commands-and-attributes.md)
 * [일반 작업](r-common-operations-and-attributes.md)
-* [소스 이미지 작업](r-source-image-operations-and-attributes.md)
+* [Source 이미지 작업](r-source-image-operations-and-attributes.md)
 * [공통 레이어 명령](r-common-layer-commands-and-attributes.md)
 * [이미지 레이어 명령](r-image-layer-commands-and-attributes.md)
 * [텍스트 레이어 명령](r-text-layer-commands-and-attributes.md)

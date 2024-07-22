@@ -8,7 +8,7 @@ exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 22%
+ht-degree: 18%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 22%
 | company핸들 | `xsd:string` | 예 | 회사 핸들. |
 | jobHandle | `xsd:string` | 예 | 중지할 작업을 처리합니다. |
 
-**출력(stopJobReturn0)**
+**출력(stopJobReturn0**
 
 IPS API는 이 작업에 대한 응답을 반환하지 않습니다.
 

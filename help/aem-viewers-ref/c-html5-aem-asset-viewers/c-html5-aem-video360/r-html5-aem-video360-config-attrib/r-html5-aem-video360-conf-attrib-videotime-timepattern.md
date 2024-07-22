@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a3a4f3f9-b6ef-4ee2-b006-578b743698ad
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Video360 뷰어에 대한 구성 속성입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대에 표시되는 시간 패턴을 설정합니다. 여기서 <span class="codeph"> h</span> 은(는) 시간입니다. <span class="codeph"> m</span> 은(는) 분이고, <span class="codeph"> s</span> 은(는) 초입니다. </p> <p>각 시간 단위에 사용되는 문자 수는 단위에 대해 표시할 자릿수를 결정합니다. 숫자가 지정된 자릿수와 맞지 않으면 동등한 값이 후속 단위에 표시됩니다. </p> <p>예를 들어 현재 동영상 시간이 67분 5초이면 시간 패턴입니다 <span class="codeph"> m:ss</span> 는 67:05로 표시됩니다. 동일한 시간이 1로 표시됩니다.:07:지정된 시간 패턴이 <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대에 표시되는 시간 패턴을 설정합니다. 여기서 <span class="codeph"> h</span>은(는) 시간, <span class="codeph"> m</span>은(는) 분, <span class="codeph"> s</span>은(는) 초입니다. </p> <p>각 시간 단위에 사용되는 문자 수는 단위에 대해 표시할 자릿수를 결정합니다. 숫자가 지정된 자릿수와 맞지 않으면 동등한 값이 후속 단위에 표시됩니다. </p> <p>예를 들어 현재 동영상 시간이 67분 5초이면 시간 패턴 <span class="codeph">m:ss</span>은(는) 67:05로 표시됩니다. 지정된 시간 패턴이 <span class="codeph">시간:mm:초</span>인 경우 동일한 시간은 1:07:5로 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

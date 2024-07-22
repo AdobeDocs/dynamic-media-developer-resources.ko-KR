@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 주역</span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 픽셀</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 열</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">픽셀</span> </span>, <span class="codeph"><span class="varname">픽셀</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 픽셀</span> </span>, <span class="codeph"><span class="varname"> py</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> 픽셀 단위 값(int) </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname">픽셀</span> </span>, <span class="codeph"><span class="varname">픽셀</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> x</span>, <span class="varname"> y</span> 값(픽셀)(int) </p></td> 
  </tr> 
 </table>
 
-좌표 `0,0` 는 이미지 또는 사각형의 왼쪽 상단 모서리를 나타냅니다. 값을 늘리면 오른쪽 아래로 이동합니다.
+좌표 `0,0`은(는) 이미지 또는 사각형의 왼쪽 위 모서리를 나타냅니다. 값을 늘리면 오른쪽 아래로 이동합니다.

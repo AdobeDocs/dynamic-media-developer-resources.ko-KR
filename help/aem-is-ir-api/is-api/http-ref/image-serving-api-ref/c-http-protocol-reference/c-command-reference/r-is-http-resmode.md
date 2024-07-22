@@ -8,7 +8,7 @@ exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 6%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 6%
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 빌린 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 청구됨 </span> </p> </td> 
    <td colname="col2"> <p>표준 이중선형 보간을 선택합니다. 가장 빠른 리샘플링 방법으로 일부 앨리어싱 아티팩트가 눈에 띕니다. </p> </td> 
   </tr> 
   <tr> 
@@ -30,7 +30,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>수정된 Lanczos Window 기능을 보간 알고리즘으로 선택합니다. 높은 CPU 비용으로 2차 큐빅보다 약간 더 선명한 결과를 얻을 수 있습니다. <span class="codeph"> 예리하 </span> 이(가) (으)로 대체되었습니다. <span class="codeph"> sharp2 </span>앨리어싱 아티팩트(Moié)를 유발할 가능성이 더 낮습니다. </p> </td> 
+   <td colname="col2"> <p>보간 알고리즘으로 수정된 Lanczos Window 함수를 선택합니다. 높은 CPU 비용으로 2차 큐빅보다 약간 더 선명한 결과를 얻을 수 있습니다. <span class="codeph"> 선명하게 </span>이(가) <span class="codeph"> 선명하게2 </span>(으)로 바뀌었습니다. 이 경우 앨리어싱 아티팩트(모아레)가 발생할 가능성이 더 낮습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
@@ -41,7 +41,7 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->두 옵션을 모두 사용할 때 이미지의 종횡비를 유지하려면 `resMode=bisharp` 및 `fit=stretch`, width 매개 변수 또는 height 매개 변수를 사용하는 것이 좋습니다. 두 매개변수를 정의해야 하는 경우 다음 예제와 같이 다른 레이어로 래핑할 수 있습니다.
+>`resMode=bisharp`과(와) `fit=stretch`을(를) 모두 사용할 때 이미지의 종횡비를 유지하려면 width 매개 변수 또는 height 매개 변수를 사용하는 것이 좋습니다. 두 매개변수를 정의해야 하는 경우 다음 예제와 같이 다른 레이어로 래핑할 수 있습니다.
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

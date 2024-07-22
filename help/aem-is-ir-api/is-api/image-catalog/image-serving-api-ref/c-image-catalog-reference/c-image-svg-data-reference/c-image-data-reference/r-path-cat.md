@@ -16,7 +16,7 @@ ht-degree: 4%
 
 이미지 파일 경로.
 
-이 카탈로그 레코드와 연결된 소스 이미지 파일의 상대 또는 절대 경로 및 이름입니다. 서버는 소스 데이터 관리에 설명된 경로 확인 규칙을 사용하여 데이터 파일을 찾습니다.
+이 카탈로그 레코드와 연결된 소스 이미지 파일의 상대 또는 절대 경로 및 이름입니다. 서버는 Source 데이터 관리에 설명된 경로 확인 규칙을 사용하여 데이터 파일을 찾습니다.
 
 ## 속성 {#path-properties}
 
@@ -34,6 +34,6 @@ ht-degree: 4%
 
 ## 참조 {#path-seealso}
 
-[IC 유틸리티](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[IC 유틸리티](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [특성::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [특성::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

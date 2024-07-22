@@ -8,7 +8,7 @@ exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 예 </td> 
    <td colname="col4">다음으로 설정: 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> 잘못된 사용자를 포함합니다. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> 잘못된 사용자를 생략합니다. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108">잘못된 사용자를 포함하도록 <span class="codeph"> true</span>. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE">잘못된 사용자를 생략하려면 <span class="codeph"> false</span>을(를) 사용하십시오. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

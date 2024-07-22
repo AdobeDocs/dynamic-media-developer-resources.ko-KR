@@ -22,4 +22,4 @@ AssetMetadataFields 배열. 자산 유형별로 그룹화된 결과를 사용하
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:AssetMetadataFields` | An `AssetMetadataFields` 배열 항목. |
+| 항목 | `types:AssetMetadataFields` | `AssetMetadataFields` 배열 항목입니다. |

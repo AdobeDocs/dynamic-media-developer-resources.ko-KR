@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bf928c22-23e9-4df3-b2d7-0841c64baf19
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 3%
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -35,21 +35,21 @@ ht-degree: 3%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 너비 </span> </p> </td> 
    <td colname="col2"> <p>뷰어의 폭입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 높이 </span> </p> </td> 
    <td colname="col2"> <p>뷰어 높이. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
    <td colname="col2"> <p> 16진수 형식의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-예 - 흰색 배경이 있는 플라이아웃 뷰어를 설정합니다( `#FFFFFF`) 및 의 크기를 260 x 500픽셀로 지정합니다.
+예 - 흰색 배경(`#FFFFFF`)을 사용하는 플라이아웃 뷰어를 설정하고 크기를 260x500픽셀로 지정합니다.
 
 ```
 .s7flyoutviewer { 

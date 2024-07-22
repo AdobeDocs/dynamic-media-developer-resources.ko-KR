@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 1f11a686-7239-4922-a608-5330864184ac
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '50'
 ht-degree: 2%
 
 ---
@@ -40,14 +40,14 @@ IPS API 버전 3.7에 대한 새로운 작업 및 변경된 작업 방법을 설
 
 **searchAsset**
 
-* 제거됨 `name` 매개 변수.
-* 추가됨 `excludeFieldArray`.
+* `name` 매개 변수를 제거했습니다.
+* `excludeFieldArray`을(를) 추가했습니다.
 
 **getFolders**
 
-* 추가됨 `excludeFieldArray`.
+* `excludeFieldArray`을(를) 추가했습니다.
 
 **getFolderTree**
 
-* 추가됨 `excludeFieldArray` 및 `getUniqueMetadataValues`.
-* 작성 `fieldHandle` 필수 매개 변수.
+* `excludeFieldArray` 및 `getUniqueMetadataValues`을(를) 추가했습니다.
+* `fieldHandle`을(를) 필수 매개 변수로 만들었습니다.

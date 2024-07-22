@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f412a379-525e-42fc-97bf-b10e00da6a20
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -16,31 +16,31 @@ ht-degree: 1%
 
 오류 응답 이미지입니다. 이미지 제공은 일반적으로 오류가 발생하면 텍스트 메시지와 함께 오류 상태를 반환합니다.
 
-`attribute::ErrorImage` 오류가 발생한 경우 반환할 이미지, 카탈로그 항목 또는 템플릿을 구성할 수 있습니다.
+오류 발생 시 이미지, 카탈로그 항목 또는 템플릿을 구성할 수 있도록 `attribute::ErrorImage`을(를) 허용합니다.
 
 >[!NOTE]
 >
->누락된 이미지는 다음으로 처리할 수도 있습니다. `attribute::DefaultImage`.
+>`attribute::DefaultImage`에서 누락된 이미지를 처리할 수도 있습니다.
 
-오류 메시지 텍스트를 응답 이미지로 렌더링할 수 있는 이미지 제공 템플릿을 구성할 수 있습니다. 다음과 같이 사전 정의된 변수를 포함할 수 있습니다. `$error.title` 간단한 오류 설명으로 대체되는 템플릿 `$error.message`: 보다 자세한 오류 설명(세부 정보 수준은 다음으로 구성됨)으로 대체됩니다. `attribute::ErrorDetail`).
+오류 메시지 텍스트를 응답 이미지로 렌더링할 수 있는 이미지 제공 템플릿을 구성할 수 있습니다. 미리 정의된 다음 변수는 `$error.title` 템플릿에 포함될 수 있으며, 이 템플릿은 간단한 오류 설명으로 대체되고, `$error.message`은(는) 더 자세한 오류 설명으로 대체됩니다(`attribute::ErrorDetail`(으)로 세부 수준이 구성됨).
 
 오류 이미지/템플릿을 성공적으로 처리할 수 있으면 HTTP 상태 200이 반환됩니다. 이 처리 중에 오류가 발생하면 HTTP 오류 상태와 텍스트 메시지가 반환됩니다.
 
 ## 속성 {#section-f460c6c2dd1f46b29f9a79b093575f45}
 
-텍스트 문자열입니다. 지정하면 이미지 카탈로그의 유효한 catalog::Id 값 또는 상대 값이어야 합니다(대상). `attribute::RootPath`) 또는 이미지 서버에서 액세스할 수 있는 이미지 파일의 절대 경로입니다.
+텍스트 문자열입니다. 지정하면 이미지 카탈로그의 유효한 catalog::Id 값이거나, 이미지 서버에서 액세스할 수 있는 이미지 파일의 상대 경로이거나(`attribute::RootPath`에 대한) 절대 경로여야 합니다.
 
 ## 기본값 {#section-2885f289e5714ddca665a6aee401967f}
 
-상속 위치 `default::ErrorImage` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우, 다음과 같은 경우에도 오류 이미지 동작이 비활성화됩니다. `default::ErrorImage` 가 정의되고 HTTP 오류 상태 및 텍스트 메시지가 반환됩니다.
+정의되지 않은 경우 `default::ErrorImage`에서 상속됩니다. 정의되어 있지만 비어 있는 경우, `default::ErrorImage`이(가) 정의되어 있어도 오류 이미지 동작이 비활성화되고 HTTP 오류 상태와 텍스트 메시지가 반환됩니다.
 
 ## 예 {#section-c92090abe1d247529542a8dd4960c2e6}
 
-이미지에 렌더링된 오류 메시지와 함께 응답 이미지를 가져오려면 먼저 이미지 카탈로그에서 템플릿을 정의해야 합니다. 이 경우 이미지 카탈로그에 라는 항목이 만들어집니다. `onError`, 다음을 포함 `catalog::Modifier`:
+이미지에 렌더링된 오류 메시지와 함께 응답 이미지를 가져오려면 먼저 이미지 카탈로그에서 템플릿을 정의해야 합니다. 이 경우 이미지 카탈로그에 `onError`(이)라는 항목을 만듭니다. 이 항목에는 `catalog::Modifier`의 다음 항목이 포함됩니다.
 
 `size=300,300&bgc=ffffff&text=$error.message$`
 
-템플릿이 (으)로 등록됨 `attribute::ErrorImage`:
+템플릿이 `attribute::ErrorImage`에 등록되었습니다.
 
 `ErrorImage=myCatalog/onError`
 
@@ -48,4 +48,4 @@ ht-degree: 1%
 
 ## 참조 {#section-bbf1f85fc0a34033bdda1dd3e4e0bbb6}
 
-[attribute::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494) , [catalog::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md), [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561)
+[특성::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494) , [카탈로그::Id](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md), [특성::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [특성::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561)

@@ -16,7 +16,7 @@ ht-degree: 3%
 
 상대 이미지 URL의 루트 URL입니다. 상대 이미지 URL의 루트 URL을 지정합니다.
 
-`attribute::RootUrl` 대신 사용됨 `attribute::RootPath` 다음과 같은 경우 `src=` 또는 `mask=` 값은 {중괄호} 또는 (괄호)로 묶습니다.
+`src=` 또는 `mask=` 값을 {중괄호} 또는 (괄호)로 묶으면 `attribute::RootPath` 대신 `attribute::RootUrl`이(가) 사용됩니다.
 
 ## 속성 {#section-fe02269b4b724319a5d1f2cfcae31cba}
 
@@ -24,8 +24,8 @@ ht-degree: 3%
 
 ## 기본값 {#section-fa5e3fc993c04086bc2b06dfeea4ae5c}
 
-상속 위치 `default::RootUrl` 정의되지 않은 경우. 정의되어 있지만 비어 있는 경우 상대 URL은 이 이미지 카탈로그에서 지원되지 않습니다.
+정의되지 않은 경우 `default::RootUrl`에서 상속됩니다. 정의되어 있지만 비어 있는 경우 상대 URL은 이 이미지 카탈로그에서 지원되지 않습니다.
 
 ## 참조 {#section-ade4789086df4e76ae041cd4acfa2f85}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [마스크=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [attribute:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [규칙 집합::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [특성:RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494), [규칙 집합::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e)

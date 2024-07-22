@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이미지와 SVG 데이터가 매우 유사하더라도 이미지 카탈로그의 개별 테이블에서 유지됩니다.
 
-이미지 데이터가 필요한 경우 이미지를 항목화하는 이미지 데이터 파일의 상대 또는 절대 경로를에 지정해야 합니다 `attribute::CatalogFile`. SVG 데이터가 필요한 경우 SVG 데이터 파일의 상대 또는 절대 경로를에 지정해야 합니다. `attribute::SvgCatalogFile`.
+이미지 데이터가 필요한 경우 이미지를 항목화하는 이미지 데이터 파일의 상대 경로나 절대 경로를 `attribute::CatalogFile`에 지정해야 합니다. SVG 데이터가 필요한 경우 `attribute::SvgCatalogFile`에 SVG 데이터 파일의 상대 경로나 절대 경로를 지정해야 합니다.
 
 * [이미지 데이터 참조](c-image-data-reference/c-image-data-reference.md)
 * [SVG 데이터 참조](c-svg-data-reference/c-svg-data-reference.md)

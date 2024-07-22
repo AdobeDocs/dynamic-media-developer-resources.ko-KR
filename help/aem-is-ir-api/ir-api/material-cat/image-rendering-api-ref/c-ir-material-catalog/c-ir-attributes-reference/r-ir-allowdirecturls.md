@@ -16,7 +16,7 @@ ht-degree: 6%
 
 절대 소스 URL 허용
 
-다음으로 설정 `1` 절대 HTTP URL 허용(&quot; `http://`&quot;) 위치 `src=` 명령입니다. 다음으로 설정 `0` 절대 URL을 허용하지 않습니다.
+`src=` 명령에 절대 HTTP URL(&quot; `http://`&quot;(으)로 시작)을 허용하려면 `1`(으)로 설정하십시오. 절대 URL을 허용하지 않으려면 `0`(으)로 설정하십시오.
 
 ## 속성 {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
@@ -24,8 +24,8 @@ ht-degree: 6%
 
 ## 기본값 {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-상속 위치 `default::AllowDirectUrls` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::AllowDirectUrls`에서 상속됩니다.
 
 ## 참조 {#section-66e0c597a8b04155b40538385312b389}
 
-[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , [attribute::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)
+[src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) , [특성::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402)

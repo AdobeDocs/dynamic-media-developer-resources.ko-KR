@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '120'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 기본값 {#section-71f94aa65e404d14b441674c040b59e3}
 
-상속 위치 `default::SynthesizeFontStyles` 정의되지 않은 경우 또는 비어 있는 경우.
+정의되지 않았거나 비어 있는 경우 `default::SynthesizeFontStyles`에서 상속됩니다.
 
 ## 참조 {#section-47a79659cc844272b6d5f36c946e12ac}
 

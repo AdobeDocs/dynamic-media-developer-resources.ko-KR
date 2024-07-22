@@ -8,7 +8,7 @@ exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 권한 자산을 사용하여 단일 자산의 권한을 설정합니다.
 
-자산은 기본적으로 상위 폴더의 권한을 상속합니다. 에셋에 대한 권한을 설정하면 를 호출하지 않는 한 에셋은 더 이상 상위 항목의 권한을 상속하지 않습니다. `removeAssetPermissions`.
+Assets은 기본적으로 상위 폴더의 권한을 상속합니다. 에셋에 대한 권한을 설정하면 `removeAssetPermissions`을(를) 호출하지 않는 한 에셋은 더 이상 상위 에셋의 권한을 상속하지 않습니다.
 
 ## 승인된 사용자 유형 {#section-91fafc170c734ed2a77beafda9221768}
 

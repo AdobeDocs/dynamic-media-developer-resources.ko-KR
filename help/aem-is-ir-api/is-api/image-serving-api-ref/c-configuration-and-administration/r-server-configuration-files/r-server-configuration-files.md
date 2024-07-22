@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 # 서버 구성 파일{#server-configuration-files}
 
-모든 구성 파일은 `install_folder/conf` 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작하십시오.
+모든 구성 파일은 `install_folder/conf`에 있으며 대부분의 텍스트 편집기에서 편집할 수 있습니다. 변경 사항을 적용하려면 서버를 다시 시작하십시오.
 
 >[!NOTE]
 >

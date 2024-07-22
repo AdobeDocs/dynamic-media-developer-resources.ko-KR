@@ -25,16 +25,16 @@ ht-degree: 2%
  </tr> 
 </table>
 
-양수 값을 지정하면 텍스트가 시계 방향으로 회전합니다. `textAngle=90` 텍스트를 위에서 아래로 그립니다.
+양수 값은 텍스트를 시계 방향으로 회전합니다. `textAngle=90`은(는) 텍스트를 위에서 아래로 그립니다.
 
 ## 속성 {#section-6d586a632daa4261a8ce62db56140b36}
 
-레이어 속성입니다. 적용 대상 `layer=0` if `layer=comp`. 다음과 같은 경우 무시됨 `textPs=` 이 레이어에 지정되지 않았거나 `textPath=` 이(가) 지정되었습니다.
+레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 이 레이어에 `textPs=`이(가) 지정되지 않았거나 `textPath=`이(가) 지정된 경우 무시됩니다.
 
 ## 기본값 {#section-49a9f5819c994c27928282c14b2bb2a7}
 
-`textAngle=0` 순환 없음.
+순환이 없는 경우 `textAngle=0`.
 
 ## 참조 {#section-dccc29ff33704061b2519b56b7be45fd}
 
-[텍스트 서식](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [텍스트 위치](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767), [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [textPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)
+[텍스트 서식](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [텍스트 위치](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87), [텍스트 흐름=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767), [텍스트 흐름 경로=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef), [텍스트 경로=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textpath.md#reference-b09cc0902dff4725bdb54d5da4076ccd)

@@ -22,7 +22,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>사용자 지정 CSS 파일, 모든 폐쇄 캡션 콘텐츠 또는 탐색 콘텐츠에 대한 기본 경로를 지정합니다. </p> <p>패스에 행간이 없는 경우 <span class="filepath"> /</span>: 뷰어 HTML 페이지의 위치를 기준으로 합니다. 패스에 행간이 있는 경우 <span class="filepath"> /</span>, 동일한 서버의 절대 경로를 지정합니다. </p> <p> 스타일 명령을 지정하지 않으면 기본 CSS 파일 로드에 영향을 주지 않습니다. </p> </td> 
+   <td colname="col2"> <p>사용자 지정 CSS 파일, 모든 폐쇄 캡션 콘텐츠 또는 탐색 콘텐츠에 대한 기본 경로를 지정합니다. </p> <p>경로에 선행 <span class="filepath">/</span>이(가) 없으면 뷰어 HTML 페이지의 위치를 기준으로 합니다. 경로에 선행 <span class="filepath">/</span>이(가) 있는 경우 동일한 서버의 절대 경로를 지정합니다. </p> <p> 스타일 명령을 지정하지 않으면 기본 CSS 파일 로드에 영향을 주지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

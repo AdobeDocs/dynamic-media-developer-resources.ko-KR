@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 6%
+source-wordcount: '166'
+ht-degree: 4%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 6%
  </tr> 
 </table>
 
-*`template`* 은(는) 템플릿 본문이 포함된 이미지 카탈로그 항목이어야 합니다. `catalog::Modifier`.
+*`template`*&#x200B;은(는) `catalog::Modifier`에 포함된 템플릿 본문이 있는 이미지 카탈로그 항목이어야 합니다.
 
-날짜 `template=` 이(가) 있으면 요청 경로에 지정된 개체가 레이어 0의 소스로 적용되지 않습니다. 그러나 로 참조할 수 있습니다. `src=` 또는 `mask=` 사전 정의된 경로 변수를 사용하여 템플릿의 모든 위치 `$object$` as a `src=` 값. `catalog::Modifier` 요청 경로에 지정된 개체의 는 `$object$` 템플릿 내에 있는 반면 `catalog::PostModifier` 는 항상 적용됩니다.
+`template=`이(가) 있으면 요청 경로에 지정된 개체가 레이어 0의 소스로 적용되지 않습니다. 그러나 미리 정의된 경로 변수 `$object$`을(를) `src=` 값으로 사용하여 템플릿의 어디에서나 `src=` 또는 `mask=`(으)로 참조할 수 있습니다. 요청 경로에 지정된 개체의 `catalog::Modifier`은(는) 템플릿 내에서 `$object$`의 대체로만 적용되지만 `catalog::PostModifier`은(는) 항상 적용됩니다.
 
 레이어 0은 템플릿 본문에 정의되며 이미지, 단색, 텍스트 또는 중첩 또는 임베드된 요청 레이어가 될 수 있습니다.
 
-`catalog:PostModifier` / *`object`* 은(는) 다음의 경우 무시됩니다. *`object`* 과 함께 사용됨 `template=`.
+*`object`*&#x200B;을(를) `template=`과(와) 함께 사용하면 *`object`*&#x200B;의 `catalog:PostModifier`이(가) 무시됩니다.
 
 ## 기본값 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 
@@ -43,8 +43,8 @@ ht-degree: 6%
 
 ## 예 {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-의 예를 참조하십시오. [템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+[템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)의 예제를 참조하십시오.
 
 ## 참조 {#section-067587444f774469931ecafd5a39834c}
 
-[오브젝트](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [사전 정의된 경로 변수](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[개체](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [미리 정의된 경로 변수](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

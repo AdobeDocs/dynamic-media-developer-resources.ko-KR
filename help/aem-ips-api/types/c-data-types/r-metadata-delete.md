@@ -30,7 +30,7 @@ ht-degree: 20%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> 필드 핸들</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>삭제할 메타데이터 매개 변수. </p> </td> 
   </tr> 

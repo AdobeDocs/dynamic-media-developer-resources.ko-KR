@@ -8,7 +8,7 @@ exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 ## 속성 {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-텍스트 문자열입니다. 필수. 은(는) 유효한 이미지 서버 파일 경로여야 합니다(절대 또는 상대). `attribute::RootPath`.
+텍스트 문자열입니다. 필수. 올바른 이미지 서버 파일 경로여야 합니다. 절대 경로이거나 `attribute::RootPath`에 상대적입니다.
 
 ## 기본값 {#section-67b79d62b3e24c62aff6844cc5e04251}
 

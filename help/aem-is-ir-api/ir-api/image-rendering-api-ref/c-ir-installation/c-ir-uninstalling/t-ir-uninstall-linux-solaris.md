@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c81feaba-18da-441a-bfd5-40275558a384
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 5%
+source-wordcount: '119'
+ht-degree: 4%
 
 ---
 
@@ -18,10 +18,10 @@ Linux® 또는 Solaris™ 시스템에서 이미지 렌더링을 제거하려면
 
 ## 방법 1
 
-1. 찾기 [!DNL uninstall.sh].
+1. [!DNL uninstall.sh] 찾기.
 
-   ImageRendering이 설치된 디렉토리에 있습니다. 이 디렉터리가 제거된 경우 원본 설치 패키지를 압축하지 않고 압축을 풀고 압축을 풀어야 추출합니다 [!DNL uninstall.sh].
-1. 실행 [!DNL uninstall.sh] 화면에 표시되는 안내를 따르십시오.
+   ImageRendering이 설치된 디렉토리에 있습니다. 이 디렉터리를 제거한 경우 [!DNL uninstall.sh]을(를) 추출하려면 원래 설치 패키지를 압축하지 않고 추적하지 않아야 합니다.
+1. [!DNL uninstall.sh]을(를) 실행하고 화면에 표시되는 안내를 따릅니다.
 
 ## 방법 2
 
@@ -32,7 +32,7 @@ Linux® 또는 Solaris™ 시스템에서 이미지 렌더링을 제거하려면
 1. 시스템에서 ImageRendering을 제거합니다. 사용하는 명령은 시스템에 따라 다릅니다.
    * Linux®: `rpm -e ImageRendering`
 
-   * Solaris™ `pkgrm ImageRendering`
+   * Solaris™: `pkgrm ImageRendering`
 
 1. 2단계에서 제거되지 않은 모든 디렉토리 또는 파일을 삭제합니다.
 

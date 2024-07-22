@@ -7,23 +7,23 @@ role: Developer,User
 exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 2%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
 # PageView.enableHD{#pageview-enablehd}
 
-` [PageView.|<containerId>_pageView.]enableHD=always|never|limit[, *`수`*]`
+` [PageView.|<containerId>_pageView.]enableHD=always|never|limit[, *`숫자`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 항상|절대|제한</span> </p> </td> 
-   <td colname="col2"> <p> 장치의 최적화를 활성화, 제한 또는 비활성화합니다. <span class="codeph"> devicePixelratio</span> 다음보다 큼 <span class="codeph"> 1</span>: iPhone 4 및 이와 유사한 장치와 같이 고밀도 디스플레이를 사용하는 장치입니다. 활성화하면 구성 요소는 장비의 픽셀 비율이 인 것처럼 IS 이미지 요청의 크기를 제한합니다. <span class="codeph"> 1</span> 그리고 그렇게 해서 대역폭을 줄입니다. </p> <p>아래 예 참조 </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 항상|제한 안 함|제한</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> devicePixelRatio</span>이 <span class="codeph"> 1</span>보다 큰 장치, 즉, iPhone4 및 이와 유사한 장치와 같이 고밀도 디스플레이를 사용하는 장치의 최적화를 활성화, 제한 또는 비활성화합니다. 활성화하면 구성 요소가 장치의 픽셀 비율이 <span class="codeph"> 1</span>인 것처럼 IS 이미지 요청의 크기를 제한하여 대역폭을 줄입니다. </p> <p>아래 예 참조 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 수</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 숫자</span></span> </p> </td> 
    <td colname="col2"> <p> 제한 설정을 사용하는 경우 구성 요소는 높은 픽셀 밀도를 지정된 제한까지만 활성화합니다. </p> <p>아래 예를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,16 +59,16 @@ ht-degree: 2%
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 안 함</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 사용 안 함</span> </p> </td> 
    <td colname="col2"> <p>이 설정은 항상 픽셀 밀도 1을 사용하며 장치의 HD 기능을 무시합니다. 따라서 요청된 이미지는 항상 1000 x 1000입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 제한&lt;number&gt;</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 제한&lt;숫자&gt;</span> </p> </td> 
    <td colname="col2"> <p>결과 이미지가 지정된 제한 이하인 경우에만 장치 픽셀 밀도가 요청되고 제공됩니다. </p> <p>제한 번호는 너비 또는 높이 차원에 적용됩니다. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>제한 번호가 1600이고 픽셀 밀도가 1.5이면 1500 x 1500 이미지가 제공됩니다. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>제한 번호가 1600이고 픽셀 밀도가 2인 경우 2000 x 2000 이미지가 제한을 초과하므로 1000 x 1000 이미지가 제공됩니다. </p> </li> 
-     </ul> </p> <p><b>모범 사례</b>: 제한 수는 최대 크기 이미지에 대한 회사 설정과 함께 작동해야 합니다. 따라서 제한 수를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
+     </ul> </p> <p><b>모범 사례</b>: 최대 크기 이미지에 대한 회사 설정에서 제한 숫자를 사용해야 합니다. 따라서 제한 수를 회사 최대 이미지 크기 설정과 동일하게 설정합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,4 +20,4 @@ ht-degree: 71%
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| [!DNL items] | `types:CompanyMembership` |  |
+| [!DNL items] | `types:CompanyMembership` | |

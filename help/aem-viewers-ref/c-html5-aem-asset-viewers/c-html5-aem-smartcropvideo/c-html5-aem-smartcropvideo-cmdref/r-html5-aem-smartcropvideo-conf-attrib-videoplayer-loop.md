@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
 source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 12%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> 재생이 완료된 후 비디오를 다시 재생할지 여부를 나타냅니다. </p> </td> 
   </tr> 
  </tbody> 

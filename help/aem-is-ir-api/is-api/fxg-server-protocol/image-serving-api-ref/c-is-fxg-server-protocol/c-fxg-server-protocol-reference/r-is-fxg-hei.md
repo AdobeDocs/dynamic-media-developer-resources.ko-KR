@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 2%
 
 <table id="simpletable_627E67D201744588815325F3C55F76A5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> 값</span></span> </p> </td> 
   <td class="stentry"> <p>이미지 높이, 픽셀 단위(정수: 0보다 큼). </p></td> 
  </tr> 
 </table>
 
-래스터 형식은 기본 뷰 크기(또는 DefaultPix 설정)를 사용하여 렌더링됩니다. 선택 **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;을 클릭한 다음 폭과 높이 값을 입력합니다. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 이미지 서버 게시를 수행하여 변경 사항을 적용합니다.
+래스터 형식은 기본 뷰 크기(또는 DefaultPix 설정)를 사용하여 렌더링됩니다. **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Publish 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 선택한 다음 너비 및 높이 값을 입력하십시오. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 Publish 이미지 제공 작업을 수행하여 변경 사항을 적용합니다.
 
-을(를) 적용하면 `scale=1` 명령을 실행하면 래스터 형식 요청이 FXG에 지정된 크기로 렌더링됩니다.
+`scale=1` 명령을 적용하면 래스터 형식 요청이 FXG에 지정된 크기로 렌더링됩니다.
 
 ## 기본값 {#section-76ee3daa77cb468ab310821357cc9404}
 
-If `wid=`, `hei=`, 또는 `scale=` 를 지정하지 않으면 응답 이미지가 FXG 파일에 지정된 기본 보기 크기입니다.
+`wid=`, `hei=` 또는 `scale=`을(를) 지정하지 않으면 응답 이미지가 FXG 파일에 지정된 기본 보기 크기입니다.
 
 ## 예 {#section-a91c14d31e71481ba054412d9f642885}
 

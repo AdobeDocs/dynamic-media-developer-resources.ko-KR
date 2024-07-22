@@ -22,7 +22,7 @@ URL 쿼리 문자열 및 구성에서 다음 명령을 적용할 수 있습니�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> 상대 또는 절대 CSS 위치. </p> <p>사용자 지정 CSS 파일의 위치를 지정합니다. 다음과 같은 경우 <span class="codeph"><span class="varname"> cssPath</span></span> 상대적이므로 뷰어 HTML 페이지 위치와 다음 값에 대해 확인됩니다. <span class="codeph"> contentUrl=</span> 매개 변수. </p> </td> 
+   <td colname="col2"> <p> 상대 또는 절대 CSS 위치. </p> <p>사용자 지정 CSS 파일의 위치를 지정합니다. <span class="codeph"><span class="varname"> cssPath</span></span>이(가) 상대적인 경우 뷰어 HTML 페이지 위치와 <span class="codeph"> contentUrl=</span> 매개 변수의 값에 대해 확인됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

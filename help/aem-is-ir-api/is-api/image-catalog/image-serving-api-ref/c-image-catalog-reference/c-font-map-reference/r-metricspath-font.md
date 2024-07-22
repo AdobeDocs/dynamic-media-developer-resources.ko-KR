@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0f1f98a5-b53b-4e20-b4c8-e70482b01a04
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '107'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Adobe Type 1 글꼴에 사용됩니다. 지정하지 않으면 서버는 기본 
 
 ## 속성 {#section-955268c581574875b05253d9e14544f3}
 
-텍스트 문자열입니다. Adobe Type 1 파일의 경우 선택 사항입니다. 비어 있거나 유효한 이미지 서버 파일 경로여야 합니다(절대 또는 상대). `attribute::RootPath`.
+텍스트 문자열입니다. Adobe Type 1 파일의 경우 선택 사항입니다. 비어 있거나 `attribute::RootPath`에 대한 절대 또는 상대 이미지 서버 파일 경로가 유효해야 합니다.
 
 ## 기본값 {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

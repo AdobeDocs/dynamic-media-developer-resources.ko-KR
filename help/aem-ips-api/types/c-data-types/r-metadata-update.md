@@ -32,7 +32,7 @@ setAssetMetadata에 사용되는 특정 에셋에 대한 메타데이터 값을 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 필드 핸들</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> 메타데이터 필드 핸들. </td> 
   </tr> 
@@ -43,11 +43,11 @@ setAssetMetadata에 사용되는 특정 에셋에 대한 메타데이터 값을 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:부울</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> 부울 메타데이터 값(부울 유형 필드만 해당). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> 롱발</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> 긴 메타데이터 값(내부 유형 필드에만 해당). </td> 
   </tr> 
@@ -63,7 +63,7 @@ setAssetMetadata에 사용되는 특정 에셋에 대한 메타데이터 값을 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:StringArray</span> </td> 
    <td colname="col3"> <p>에셋의 기존 태그 값 목록에 를 추가합니다. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">단일 값 태그 필드는 마지막 값만 저장합니다. </li> 
@@ -71,8 +71,8 @@ setAssetMetadata에 사용되는 특정 에셋에 대한 메타데이터 값을 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTag값 배열</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:StringArray</span> </td> 
    <td colname="col3">에셋의 기존 태그 값 목록을 대체합니다. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">단일 값 태그 필드는 마지막 값만 저장합니다. </li> 
@@ -81,7 +81,7 @@ setAssetMetadata에 사용되는 특정 에셋에 대한 메타데이터 값을 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> 형식:StringArray</span> </td> 
    <td colname="col3"> 자산의 태그 값 목록에서 지정된 값(있는 경우)을 삭제합니다. </td> 
   </tr> 
  </tbody> 

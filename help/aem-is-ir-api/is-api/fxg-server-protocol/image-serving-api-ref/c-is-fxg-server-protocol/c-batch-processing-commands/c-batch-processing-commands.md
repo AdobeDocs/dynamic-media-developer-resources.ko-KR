@@ -16,9 +16,9 @@ ht-degree: 0%
 
 다음 명령은 PlatformServer에 의해 노출된 일괄 처리 API로 구성됩니다.
 
-다음과 같이 특수 요청 형식으로 지정됩니다. `?req=<command>`
+다음 특수 요청 형식으로 지정됩니다. `?req=<command>`
 
-이러한 명령에 대해 표시된 예는 가상 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]그리고 AcmeCorp라는 가상의 회사가 작업 ID도 가상의 것입니다.
+이러한 명령에 대해 표시된 예제에서는 가상 `PlatformServer` URL &quot; [!DNL scene7.adobe.com:8080]&quot;과(와) AcmeCorp라는 가상 회사를 사용합니다. 작업 ID도 가상의 것입니다.
 
 * [batchjobbriefstatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)

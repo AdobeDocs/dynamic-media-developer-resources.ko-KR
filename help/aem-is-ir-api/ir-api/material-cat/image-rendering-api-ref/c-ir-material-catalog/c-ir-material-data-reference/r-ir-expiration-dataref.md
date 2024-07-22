@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 1%
 
 ## 속성 {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 
-실수, -2, -1, 0 또는 그 이상. 응답 이미지가 생성된 이후 만료까지 남은 시간. 응답 이미지를 항상 즉시 만료하여 클라이언트 캐싱을 효과적으로 비활성화하려면 0으로 설정합니다. -1로 설정하여 다음으로 표시 `never expire`. 이 경우 서버는 항상 조건에 대한 응답으로 304 상태(수정되지 않음)를 반환합니다 `GET` 파일이 실제로 변경되었는지 확인하지 않고 요청합니다. 에서 제공한 기본값을 사용하려면 -2로 설정하십시오. `attribute::Expiration`.
+실수, -2, -1, 0 또는 그 이상. 응답 이미지가 생성된 이후 만료까지 남은 시간. 응답 이미지를 항상 즉시 만료하여 클라이언트 캐싱을 효과적으로 비활성화하려면 0으로 설정합니다. `never expire`(으)로 표시하려면 -1로 설정하십시오. 이 경우 서버는 파일이 실제로 변경되었는지 확인하지 않고 조건부 `GET` 요청에 대해 항상 304 상태(수정되지 않음)를 반환합니다. `attribute::Expiration`에서 제공한 기본값을 사용하려면 -2로 설정하십시오.
 
 ## 기본값 {#section-79d71706e12a4493a69d7febc3a1f271}
 
-`attribute::Expiration` 필드가 없거나, 값이 -2이거나, 필드가 비어 있는 경우 사용됩니다.
+필드가 없거나 값이 -2이거나 필드가 비어 있는 경우 `attribute::Expiration`이(가) 사용됩니다.
 
 ## 참조 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
-[attribute::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [비네팅::만료](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+[특성::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [비네팅::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)

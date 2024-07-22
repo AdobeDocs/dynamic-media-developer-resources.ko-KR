@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: a030aa84-182a-48b6-9616-dc07e48dd05e
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 12%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> 장 레이블의 제목 표시줄에 대한 장 시간 표시를 활성화/비활성화합니다. </p> </td> 
   </tr> 
  </tbody> 

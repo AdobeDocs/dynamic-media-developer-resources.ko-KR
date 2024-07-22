@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 7%
+source-wordcount: '42'
+ht-degree: 2%
 
 ---
 
@@ -38,4 +38,4 @@ IPS API 버전 3.7에 대한 새로운 문자열 상수와 변경된 문자열 �
 
 **자산 유형**
 
-* 추가됨 `Zip`.
+* `Zip`을(를) 추가했습니다.

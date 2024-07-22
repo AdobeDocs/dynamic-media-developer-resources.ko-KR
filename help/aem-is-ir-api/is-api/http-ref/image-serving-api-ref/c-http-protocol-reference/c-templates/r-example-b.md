@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 90ef96fc-c12f-4fc8-b465-6520b71f4e7b
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 
 <table id="simpletable_37BA3B2A75A9468C9ADEBBC034BADAE7"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> catalog::Id</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> catalog::Modifier</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> 카탈로그::Id</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> 카탈로그::Modifier</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> myTemplate2</span> </p></td> 
@@ -27,9 +27,9 @@ ht-degree: 0%
  </tr> 
 </table>
 
-이미지가 레이어 0에 배치되고 높이 값은 `size=` 이 0으로 설정되어 있습니다. 이 설정을 사용하면 너비를 800픽셀로 조절한 후 이미지의 높이에 따라 실제 높이가 결정됩니다.
+이미지가 레이어 0에 배치되고 높이 값 `size=`이(가) 0으로 설정됩니다. 이 설정을 사용하면 너비를 800픽셀로 조절한 후 이미지의 높이에 따라 실제 높이가 결정됩니다.
 
-변수 `extend=` 위쪽과 아래쪽에 100픽셀, 오른쪽에 200픽셀을 추가합니다.
+변수 `extend=`은(는) 위쪽과 아래쪽에 100픽셀을 추가하고 오른쪽에 200픽셀을 추가합니다.
 
 레이어 0과 레이어 1의 원점은 원하는 텍스트 위치를 얻기 위해 합성 영역의 오른쪽 가운데에 배치됩니다.
 

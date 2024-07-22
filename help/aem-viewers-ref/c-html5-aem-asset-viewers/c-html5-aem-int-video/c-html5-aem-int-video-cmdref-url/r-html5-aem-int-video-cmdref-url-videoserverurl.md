@@ -16,12 +16,12 @@ ht-degree: 6%
 
 비디오 뷰어에 대한 URL 명령입니다.
 
-` videoServerUrl= *`비디오 루트 경로`*`
+` videoServerUrl= *`videoRootPath`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 비디오 루트 경로</span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
    <td colname="col2"> <p> 비디오 서버 루트 경로입니다. 도메인을 지정하지 않으면 페이지가 제공되는 도메인이 대신 적용됩니다. 표준 URI 경로 확인이 적용됩니다. </p> </td> 
   </tr> 
  </tbody> 

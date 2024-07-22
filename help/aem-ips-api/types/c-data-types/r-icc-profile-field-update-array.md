@@ -22,4 +22,4 @@ ICC 프로파일 필드 업데이트 항목의 배열입니다.
 
 | 이름 | 유형 | 설명 |
 |---|---|---|
-| 항목 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 배열 항목. |
+| 항목 | `types:IccProfileUpdate` | `IccProfileFieldUpdate` 배열 항목입니다. |

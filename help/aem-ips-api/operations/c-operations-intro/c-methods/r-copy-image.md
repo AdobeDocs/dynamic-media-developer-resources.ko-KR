@@ -8,7 +8,7 @@ exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 13%
    <td colname="col4"> <p>이미지 에셋에 대한 핸들입니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folder핸들</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>예 </p> </td> 
    <td colname="col4"> <p>이미지를 복사할 폴더에 대한 핸들입니다. </p> </td> 

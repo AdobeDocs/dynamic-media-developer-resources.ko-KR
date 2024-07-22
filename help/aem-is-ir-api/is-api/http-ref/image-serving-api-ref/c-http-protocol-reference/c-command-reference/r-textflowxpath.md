@@ -25,11 +25,11 @@ ht-degree: 5%
  </tr> 
 </table>
 
-다음을 참조하십시오 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 추가 정보: 설명 포함 *`pathDefinition`*. 경로 정의를 지정하지 않은 경우 `textFlowXPath=` 은(는) 무시됩니다.
+*`pathDefinition`*&#x200B;에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오. 경로 정의를 지정하지 않으면 `textFlowXPath=`이(가) 무시됩니다.
 
 ## 속성 {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-텍스트 레이어 속성( `textPs=` 만 해당). 다른 레이어에서 무시되거나 `textFlowPath=`. 적용 대상 `layer=0` 에 대해 지정된 경우 `layer=comp`.
+텍스트 레이어 특성(`textPs=`만 해당). 다른 레이어에서 무시되거나 `textFlowPath=` 없이 지정된 경우. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다.
 
 ## 기본값 {#section-9405cda904684d829ed12a9e40a4dc46}
 

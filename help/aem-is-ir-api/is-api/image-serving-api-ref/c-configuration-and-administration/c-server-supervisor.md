@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 시작 및 중지 {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-이미지 제공 유틸리티 스크립트를 사용하여 서버 감독자가 시작, 중지 및 다시 시작됩니다. 다음을 참조하십시오. [유틸리티 설명서](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) 추가 정보.
+이미지 제공 유틸리티 스크립트를 사용하여 서버 감독자가 시작, 중지 및 다시 시작됩니다. 자세한 내용은 [유틸리티 설명서](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)를 참조하세요.
 
 서버 감독자를 시작하고 중지하면 다른 모든 이미지 제공 구성 요소가 자동으로 시작되고 중지됩니다.
 

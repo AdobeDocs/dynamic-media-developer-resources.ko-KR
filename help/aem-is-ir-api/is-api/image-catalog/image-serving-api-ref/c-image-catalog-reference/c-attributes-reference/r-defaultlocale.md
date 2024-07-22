@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 속성 {#section-a101e9658d304e9caf032a99ecb80386}
 
-텍스트 문자열입니다. 다음과 같은 경우 무시됨 `attribute::LocaleMap` 및 `attribute::LocaleStrMap` 비어 있는 경우 또는 `locale=` 은(는) 지정되어 있으며 비어 있지 않습니다.
+텍스트 문자열입니다. `attribute::LocaleMap` 및 `attribute::LocaleStrMap`이(가) 비어 있거나 `locale=`이(가) 지정되어 비어 있지 않으면 무시됩니다.
 
 ## 참조 {#section-b9ffc98baf6c4f67a26466f90cee18b6}
 

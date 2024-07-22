@@ -25,15 +25,15 @@ ht-degree: 2%
  </tr> 
 </table>
 
-`op_saturation=-100` 이미지의 채도를 완전히 낮춥니다.
+`op_saturation=-100`은(는) 이미지의 채도를 완전히 줄입니다.
 
 ## 속성 {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-레이어 명령. 다음과 같은 경우 현재 레이어 또는 합성 이미지에 적용됩니다. `layer=comp`. 효과 레이어에서 무시됨.
+레이어 명령. `layer=comp`인 경우 현재 레이어 또는 합성 이미지에 적용됩니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`을 참조하십시오. CMYK 이미지 또는 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
+`op_saturation=0`(채도가 변경되지 않음). CMYK 이미지 또는 레이어는 작업을 적용하기 전에 RGB으로 변환됩니다.
 
 ## 예 {#section-033b272f1b7e4efeb94e841fd8095357}
 

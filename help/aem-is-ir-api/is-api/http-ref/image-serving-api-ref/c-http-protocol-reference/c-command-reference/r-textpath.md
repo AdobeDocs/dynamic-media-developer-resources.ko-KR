@@ -25,21 +25,21 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-다음을 참조하십시오 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 추가 정보: 설명 포함 *`pathDefinition`*.
+*`pathDefinition`*&#x200B;에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오.
 
 >[!NOTE]
 >
->다음과 다름 `clipPath=`하위 경로 끝에 &#39;z&#39; 또는 &#39;Z&#39;를 지정하지 않으면 텍스트 경로가 자동으로 닫히지 않습니다.
+>`clipPath=`과(와) 달리 하위 경로 끝에 &#39;z&#39; 또는 &#39;Z&#39;를 지정하지 않으면 텍스트 경로가 자동으로 닫히지 않습니다.
 
-*`pathDefinition`* 여러 개의 하위 경로를 포함할 수 있습니다. 텍스트는 지정된 순서대로 하위 경로에 렌더링됩니다.
+*`pathDefinition`*&#x200B;에는 여러 하위 경로가 포함될 수 있습니다. 텍스트는 지정된 순서대로 하위 경로에 렌더링됩니다.
 
-RTF 명령 `\ql`, `\qc`, `\qr`, `\li`, 및 `\ri` 를 사용하여 렌더링된 텍스트를 패스를 따라 배치할 수 있습니다.
+RTF 명령 `\ql`, `\qc`, `\qr`, `\li` 및 `\ri`을(를) 사용하여 경로를 따라 렌더링된 텍스트를 배치할 수 있습니다.
 
 ## 속성 {#section-068137df436c46b9b55d271eb60e7285}
 
-텍스트 레이어 속성( `textPs=` 만 해당). 다른 레이어에서 무시됨. 적용 대상 `layer=0` 에 대해 지정된 경우 `layer=comp`. 다음과 같은 경우 무시됨 `textPs=` 있음.
+텍스트 레이어 특성(`textPs=`만 해당). 다른 레이어에서 무시됨. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다. `textPs=`이(가) 있는 경우 무시됩니다.
 
-레이어에 두 항목이 모두 포함된 경우 오류가 반환됩니다 `textPath=` 및 `textFlowPath=`.
+레이어에 `textPath=`과(와) `textFlowPath=`이(가) 모두 포함된 경우 오류가 반환됩니다.
 
 ## 기본값 {#section-697b1f2cfc43498080a31327e6eb173d}
 

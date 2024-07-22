@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 9%
+source-wordcount: '105'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->If `catalog::Size`가 제공되며 실제 전체 해상도 이미지 크기와 동일하지 않으므로 정의되지 않은 동작이 발생할 수 있습니다.
+>`catalog::Size`이(가) 제공되고 실제 전체 해상도 이미지 크기와 같지 않으면 정의되지 않은 동작이 발생할 수 있습니다.
 
 ## 속성 {#section-5c914ec8b1444a8e99d811b647cd42a3}
 
@@ -32,4 +32,4 @@ ht-degree: 9%
 
 ## 참조 {#section-e63797357d5a4119a10db1e6e088f6e9}
 
-[catalog::Path](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) , [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)
+[카탈로그::경로](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md#reference-306afcaff172440ca81b85da8d78213c) , [res=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md)

@@ -19,7 +19,7 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> 스내핀</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> snapin</span> </span> </p> </td> 
    <td> <p>단추를 견본 옆에 정렬합니다. </p> </td> 
   </tr> 
   <tr> 

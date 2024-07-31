@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -51,14 +51,16 @@ ht-degree: 2%
 | `webp-alpha` | 알파 채널이 있는 손실 및 무손실 WebP. |
 | `webp` | 손실 및 손실 없는 WebP. |
 
-| *`pixelType`* - rgb | 회색 | cmyk |
+*`pixelType`* - rgb | 회색 | cmyk
+
 | *`pixelType`* | 설명 |
 |---|---|
 | `cmyk` | CMYK 이미지 데이터를 반환합니다. |
 | `gray` | 회색 음영 이미지 데이터를 반환합니다. |
 | `rgb` | RGB 이미지 데이터를 반환합니다. |
 
-| *`compression`* - jpeg | 손실 | 무손실 | lzw | 없음 | zip |
+*`compression`* - jpeg | 손실 | 무손실 | lzw | 없음 | zip
+
 | *`compression`* | 설명 |
 |---|---|
 | `jpeg` | JPEG 압축(손실). |

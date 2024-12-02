@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic 릴리스 노트
-description: "Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 릴리스 노트입니다."
+description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 릴리스 노트입니다.
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic

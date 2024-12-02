@@ -1,6 +1,6 @@
 ---
 title: Scene7 2016년 가을 릴리스
-description: "Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Scene7 2016년 가을 릴리스의 최신 릴리스 정보입니다."
+description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Scene7 2016년 가을 릴리스의 최신 릴리스 정보입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User

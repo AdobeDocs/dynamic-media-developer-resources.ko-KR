@@ -20,7 +20,7 @@ ht-degree: 0%
 # Dynamic Media 릴리스 노트 {#release-notes}
 
 + [최신 릴리스 정보](s7rn2017.md)
-+ {#archive-release-notes} 보관
++ 보관{#archive-release-notes}
    + [Scene7 2016년 가을 릴리스](s7rnfall2016.md)
    + [Scene7 Publishing System 6.10 릴리스 노트(2015년 5월)](s7rn610.md)
    + [Scene7 Publishing System 6.9 릴리스 노트(2014년 10월)](s7rn69.md)

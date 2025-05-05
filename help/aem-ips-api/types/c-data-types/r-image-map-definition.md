@@ -25,5 +25,5 @@ ht-degree: 12%
 | name | `xsd:string` | 이미지 맵 정의의 이름입니다. |
 | shapeType | `xsd:string` | 영역 셰이프 값 중 하나. |
 | 지역 | `xsd:string` | 이미지 맵 좌표. 형식은 HTML `<area>` 태그 특성을 기반으로 합니다. |
-| 작업	 | `xsd:string` | `href` URL을 포함하여 HTML `<area>` 태그에 포함할 기타 특성입니다. |
+| 작업  | `xsd:string` | `href` URL을 포함하여 HTML `<area>` 태그에 포함할 기타 특성입니다. |
 | 활성화됨 | `xsd:boolean` | 이미지 맵이 활성화된 경우 True입니다. |

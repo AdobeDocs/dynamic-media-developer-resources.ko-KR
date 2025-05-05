@@ -41,12 +41,12 @@ ht-degree: 3%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lbrace; </span> </td> 
+   <td> <span class="codeph"> &lbrace; </span> </td> 
    <td> <p>중괄호로 묶어 </p> </td> 
    <td> <p>중괄호는 HTTP 인코딩이어야 합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;rbrace; </span> </td> 
+   <td> <span class="codeph"> &rbrace; </span> </td> 
    <td> <p>동그랗게 닫는 중괄호. </p> </td> 
    <td> <p>중괄호는 HTTP 인코딩이어야 합니다. </p> </td> 
   </tr> 

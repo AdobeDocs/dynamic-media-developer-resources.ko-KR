@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## SV::log - 서버 감독자 추적 로그 파일 경로 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe은 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보내어 [!DNL Platform Server](`PS::LogDays`)에서 구현한 로그 파일 관리를 사용할 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
+서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe은 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보내어 [!DNL Platform Server] (`PS::LogDays`)에서 구현한 로그 파일 관리를 사용할 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
 
 >[!NOTE]
 >

@@ -22,7 +22,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 자산 </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> 문자열 </span> 새 자산 id 또는 선택적 이미지 제공 수정자가 <span class="codeph"> 뒤에 추가된 명시적 이미지 집합입니까? </span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="codeph"> 문자열 </span> 새 자산 id 또는 선택적 이미지 제공 수정자가 <span class="codeph"> 뒤에 추가된 명시적 이미지 집합입니까? </span>. </p> <p> IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

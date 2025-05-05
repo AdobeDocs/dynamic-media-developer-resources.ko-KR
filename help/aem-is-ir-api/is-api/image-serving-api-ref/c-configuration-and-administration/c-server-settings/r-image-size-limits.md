@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## IS::MaxMessageSize - 응답 크기 제한 {#section-bd942385d4d144cd904003695d72c85e}
 
-이미지 서버에서 [!DNL Platform Server](으)로 보낼 수 있는 데이터 크기를 제한합니다. 효과적으로, 이미지 제공이 HTTP(MB)를 통해 클라이언트에 반환할 수 있는 인코딩/압축 응답 이미지의 크기를 제한합니다.
+이미지 서버에서 [!DNL Platform Server] (으)로 보낼 수 있는 데이터 크기를 제한합니다. 효과적으로, 이미지 제공이 HTTP(MB)를 통해 클라이언트에 반환할 수 있는 인코딩/압축 응답 이미지의 크기를 제한합니다.
 
 ## IS::MaxRenderRgnPixels - 출력 이미지 크기 제한 {#section-868ceb9764dd42dfb133ffeb72f9d3fb}
 

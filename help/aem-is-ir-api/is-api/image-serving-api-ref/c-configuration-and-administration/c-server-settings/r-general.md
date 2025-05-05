@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## IS::CacheServerUrl - 캐싱 서비스 루트 Url {#section-bcca227a1f91453b834db4ea050968e2}
 
-이미지 서버가 캐싱 서비스에 액세스할 수 있도록 하는 HTTP 루트 경로를 지정합니다. 포트 번호가 `TC::PsPort`과(와) 일치하는 [!DNL http://localhost:TC::PsPort /is/cache/secondary](으)로 설정해야 합니다.
+이미지 서버가 캐싱 서비스에 액세스할 수 있도록 하는 HTTP 루트 경로를 지정합니다. 포트 번호가 `TC::PsPort`과(와) 일치하는 [!DNL http://localhost:TC::PsPort /is/cache/secondary] (으)로 설정해야 합니다.
 
 ## IS::RemoteUrlDefaultExpiration - 원격 Image Source 기본 TTL {#section-e4c31228b459492cacd2f482d9575f71}
 

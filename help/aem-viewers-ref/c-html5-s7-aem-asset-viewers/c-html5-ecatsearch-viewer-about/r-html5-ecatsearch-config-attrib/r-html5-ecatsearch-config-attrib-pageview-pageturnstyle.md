@@ -16,7 +16,7 @@ ht-degree: 2%
 
 [!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *`분할선 너비`*, *`분할선 색상`*, *`분할선 불투명도`*, *`borderOnOff`*, *`borderColor`*, *`채우기 색상`*`]
 
-데스크톱 시스템에서 [!DNL `PageView.frametransition`]이(가) [!DNL `turn`] 또는 [!DNL `auto`](으)로 설정된 경우 구성 요소 모양을 제어합니다.
+데스크톱 시스템에서 [!DNL `PageView.frametransition`]이(가) [!DNL `turn`] 또는 [!DNL `auto`] (으)로 설정된 경우 구성 요소 모양을 제어합니다.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 

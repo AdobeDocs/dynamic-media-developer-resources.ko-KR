@@ -26,18 +26,18 @@ ht-degree: 7%
    + [라이선스](c-installation/c-licensing.md)
    + [목차](c-installation/c-contents.md)
    + [설치 폴더](c-installation/c-install-folder.md)
-   + Windows {#windows-install}에 설치 중
+   + Windows에 설치 중 {#windows-install}
       + [Windows에 설치](c-installation/t-installing-on-windows/t-installing-on-windows.md)
       + [처음 설치](c-installation/t-installing-on-windows/t-first-time-installation-win.md)
       + [관리자가 아닌 다른 사용자 계정으로 설치](c-installation/t-installing-on-windows/t-diff-account-win.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/t-installing-on-windows/t-update-win.md)
       + [설치 확인](c-installation/t-installing-on-windows/t-verify-win.md)
-   + Linux {#linux-install}에 설치 중
+   + Linux에 설치 중 {#linux-install}
       + [Linux에 설치](c-installation/c-installing-linux/c-installing-linux.md)
       + [처음 설치](c-installation/c-installing-linux/t-first-install-lin.md)
       + [IS 4.7.4 이상에서 업데이트](c-installation/c-installing-linux/t-update-lin.md)
       + [설치 확인](c-installation/c-installing-linux/t-verify-install-lin.md)
-   + 이미지 제공 {#start-stop-image-servicing} 시작 및 중지
+   + 이미지 제공 시작 및 중지 {#start-stop-image-servicing}
       + [이미지 제공 시작 및 중지](c-installation/t-starting-and-stopping/t-starting-and-stopping.md)
       + [Windows에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-windows.md)
       + [Linux에서 시작 또는 중지](c-installation/t-starting-and-stopping/t-startstop-linux.md)
@@ -92,7 +92,7 @@ ht-degree: 7%
          + [서버 모니터링](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-server-monitoring.md)
          + [표준 경고](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/r-standard-alerts.md)
          + [힙 공간 우선 순위 경고](is-api/image-serving-api-ref/c-configuration-and-administration/c-server-monitoring/c-heap-space-priority-alert.md)
-      + {#manage-content} 콘텐츠 관리
+      + 콘텐츠 관리{#manage-content}
          + [컨텐츠 관리](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-managing-content.md)
          + [이미지 카탈로그](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/c-image-catalogs.md)
          + [Source 데이터](is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md)
@@ -120,7 +120,7 @@ ht-degree: 7%
             + [텍스트 레이어 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-text-layer-commands-and-attributes.md)
             + [단색 레이어 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-solid-color-layer-commands-and-attributes.md)
             + [레이어 효과 명령](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-layer-effect-commands-and-attributes.md)
-         + {#layering} 계층화
+         + 계층화{#layering}
             + [레이어 개요](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layering-overview.md)
             + [레이어 지정](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-specifying-layers.md)
             + [레이어 순서](is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-layering-overview/c-layer-order.md)
@@ -522,7 +522,7 @@ ht-degree: 7%
       + [라이선스](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-licensing.md)
       + [IR 3.x 호환성 모듈 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/t-ir-setup-compatibility-module.md)
       + [이미지 렌더링 설정 및 구성](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-setup-ir.md)
-      + 이미지 렌더링 {#uninstalling-image-rendering}을(를) 제거하는 중
+      + 이미지 렌더링을(를) 제거하는 중 {#uninstalling-image-rendering}
          + [이미지 렌더링 제거 중](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
          + [Linux 및 Solaris에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-linux-solaris.md)
          + [Windows에서 제거](ir-api/image-rendering-api-ref/c-ir-installation/c-ir-uninstalling/t-ir-uninstall-windows.md)
@@ -530,7 +530,7 @@ ht-degree: 7%
       + [서버 관리](ir-api/image-rendering-api-ref/c-ir-server-administration/c-ir-server-administration.md)
       + [서버 관리 서문](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-preface.md)
       + [서버 관리 개요](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-server-overview.md)
-      + {#configuring-and-managing-the-server} 서버 구성 및 관리
+      + 서버 구성 및 관리{#configuring-and-managing-the-server}
          + [서버 개요 구성 및 관리](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-configuring-and-managing-the-server.md)
          + [구성 파일](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-config-files.md)
          + [서버 시작 및 중지](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-starting-and-stopping-the-server.md)
@@ -539,7 +539,7 @@ ht-degree: 7%
          + [메모리 고려 사항](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-memory-considerations.md)
          + [동적 디스크 공간 고려 사항](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-dynamic-disk-space-considerations.md)
          + [비네팅 크기 제한](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-vignette-size-limitation.md)
-         + {#managing-content} 콘텐츠 관리
+         + 콘텐츠 관리{#managing-content}
             + [컨텐츠 관리](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-managing-content.md)
             + [자료 카탈로그](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-server-material-catalogs.md)
             + [Source 데이터](ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuring-and-managing-the-server/c-ir-managing-content/c-ir-source-data.md)
@@ -581,7 +581,7 @@ ht-degree: 7%
             + [반사](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/r-ir-reflections.md)
             + [광택 효과](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-gloss-effects.md)
             + [고급 렌더링 설정](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-advanced-render-effects/c-ir-advanced-render-settings.md)
-         + {#request-nesting-and-embedding} 중첩 및 포함 요청
+         + 중첩 및 포함 요청{#request-nesting-and-embedding}
             + [요청 중첩 및 포함 *](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
             + [포함된 이미지 서버 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-embedded-image-serving-requests.md)
             + [중첩 이미지 렌더링 요청](ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-request-nesting-and-embedding/c-ir-nested-image-rendering-requests.md)

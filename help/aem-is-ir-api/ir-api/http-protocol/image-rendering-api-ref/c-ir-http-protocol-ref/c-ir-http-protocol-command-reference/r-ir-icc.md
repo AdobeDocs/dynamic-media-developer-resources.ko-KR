@@ -16,7 +16,7 @@ ht-degree: 1%
 
 출력 색상 프로파일.
 
-icc= *`profile`**`renderIntent`*[,*`blackpointComp`*]]
+icc= *`profile`**`renderIntent`*[,*`blackpointComp`*]&rbrack;
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 

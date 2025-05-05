@@ -58,4 +58,4 @@ Adobe 직원이고 기여가 있는 경우 `AdobeDocs` 회사 git의 조직
 
 ## 추가 정보
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) gitHub 제작 플랫폼을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오.
+다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ko) gitHub 제작 플랫폼을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오.

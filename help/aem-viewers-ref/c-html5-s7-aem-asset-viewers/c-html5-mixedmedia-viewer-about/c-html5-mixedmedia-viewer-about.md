@@ -187,7 +187,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    다음 샘플 페이지에서 외부 뷰어 영역이 고정된 비헤이비어를 볼 수 있습니다. 세트 간에 전환할 때 외부 뷰어 크기는 변경되지 않습니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko)
 
    기본 보기 차원을 정적으로 설정하려면 `.s7mixedmediaviewer .s7container` CSS 선택기를 사용하거나 `stagesize` 한정자를 사용하여 내부 `Container` SDK 구성 요소의 뷰어 크기를 절대 단위로 정의합니다.
 
@@ -202,7 +202,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    다음 샘플 페이지에서는 기본 보기 크기가 고정된 뷰어 동작을 보여 줍니다. 세트 간에 전환하면 기본 보기는 정적으로 유지되며 웹 페이지 컨텐츠가 세로로 이동합니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko)
 
    Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정하거나 `params` 컬렉션이 있는 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. 또는 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 사용됩니다.
 
@@ -329,7 +329,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [라이브 데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
 
 ## 폭 및 높이가 정의된 유연한 크기 포함 {#section-0a329016f9414d199039776645c693de}
 

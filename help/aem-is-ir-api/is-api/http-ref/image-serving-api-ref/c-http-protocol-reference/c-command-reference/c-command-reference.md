@@ -25,7 +25,7 @@ ht-degree: 4%
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en)를 재생하세요(3분 17초).
+>스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=ko)를 재생하세요(3분 17초).
 
 
 **Adobe Experience Manager의 Dynamic Media 전용** - 사용자 인터페이스에서 사용할 수 있는 기본 이미지 설정 외에 AEM([!DNL Adobe Experience Manager])의 [!DNL Dynamic Media]에서는 **이미지 수정자** 필드에서 지정할 수 있는 다양한 고급 이미지 수정 사항을 지원합니다. 이러한 매개 변수는 아래에 정의되어 있습니다. 그러나 AEM의 Dynamic Media에서는 다음 기능이 지원되지 않습니다.
@@ -42,7 +42,7 @@ ht-degree: 4%
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-AEM 6.5 설명서에서 Dynamic Media [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic)을 참조하십시오.
+AEM 6.5 설명서에서 Dynamic Media [이미지 사전 설정 옵션](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=ko#dynamic)을 참조하십시오.
 
 * [정렬](r-align.md)
 * [앵커](r-anchor.md)

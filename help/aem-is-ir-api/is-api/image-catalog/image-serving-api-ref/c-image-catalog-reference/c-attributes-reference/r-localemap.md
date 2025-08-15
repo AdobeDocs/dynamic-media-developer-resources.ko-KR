@@ -33,7 +33,7 @@ ID 번역 맵. 일반 이미지 ID를 로케일별 ID로 변환하는 데 사용
  </tr> 
 </table>
 
-`LocaleMap`은(는) `locSuffix` 수에 매핑할 수 있는 `locId`을(를) 참조합니다.
+`LocaleMap`은(는) `locId` 수에 매핑할 수 있는 `locSuffix`을(를) 참조합니다.
 
 빈 *`locSuffix`* 값이 허용됩니다. *`locSuffix`* 값은 검색할 순서대로 정렬해야 합니다. 첫 번째 일치 항목이 반환됩니다.
 

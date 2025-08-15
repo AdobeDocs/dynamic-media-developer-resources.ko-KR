@@ -68,7 +68,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \charscaley <span class="varname"> N </span> </span> </td> 
    <td> <p>세로 문자 크기 조절. </p> </td> 
-   <td> <p>양수 또는 음수 퍼센트, 기본값은 100, Dynamic Media 확장. </p> <p> <span class="codeph"> \charscaley </span>도 <span class="codeph"> text= </span>과(와) 함께 적용할 경우 줄 간격의 크기를 조절합니다. <span class="codeph"> textPs= </span>은(는) 세로 문자 크기 조절의 양에 관계없이 항상 줄 간격을 유지합니다. </p> </td> 
+   <td> <p>양수 또는 음수 백분율, 기본값은 100, Dynamic Media 확장 프로그램입니다. </p> <p> <span class="codeph"> \charscaley </span>도 <span class="codeph"> text= </span>과(와) 함께 적용할 경우 줄 간격의 크기를 조절합니다. <span class="codeph"> textPs= </span>은(는) 세로 문자 크기 조절의 양에 관계없이 항상 줄 간격을 유지합니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch </span> </td> 
@@ -88,7 +88,7 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \copyfitlines <span class="varname"> N </span> </span> </td> 
    <td> <p>최대 카피 맞춤 라인(소프트 제한). </p> </td> 
-   <td> <p>0(줄 제한 없음); <span class="codeph"> textPs= </span>만; Dynamic Media 확장명. </p> </td> 
+   <td> <p>줄 제한이 없는 경우 0, textPs= <span class="codeph">만, Dynamic Media 확장.</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines <span class="varname"> N </span> </span> </td> 

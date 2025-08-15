@@ -26,7 +26,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>쌍입방 보간을 선택합니다. 이중 선형 보간보다 CPU 집약도가 높지만 덜 눈에 띄는 앨리어싱 아티팩트가 있는 더 선명한 이미지를 만듭니다. </p> </td> 
+   <td colname="col2"> <p>쌍입방 보간을 선택합니다. 이중 선형 보간보다 CPU 집약적이나 덜 눈에 띄는 앨리어싱 아티팩트가 있는 더 선명한 이미지를 만듭니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="+ topic/ph pr-d/codeph codeph"> sharp2 </span> </p> </td> 

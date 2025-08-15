@@ -25,7 +25,7 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
-* Adobe Dynamic Media 이미지 제공 6.7.1 이상.
+* Adobe Dynamic Media 이미지 제공 6.7.1 이상
 * HTML5 뷰어에는 SDK JavaScript 서버측 라이브러리 3.11.5 이상이 필요합니다.
 * *친구에게 이메일 보내기* 소셜 기능에는 s7ondemand 5.0.9 이상이 필요합니다.
 * eCatalog 뷰어 - [정보 패널 팝업](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) 지원을 사용하려면 정보 서버 2.1.8 이상이 필요합니다.
@@ -97,7 +97,7 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Dynamic Media Viewer에서 지원되지 않는 웹 브라우저 및 운영 체제 조합 {#browser-os-support}
+## Dynamic Media 뷰어에 지원되지 않는 웹 브라우저 및 운영 체제 조합 {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 

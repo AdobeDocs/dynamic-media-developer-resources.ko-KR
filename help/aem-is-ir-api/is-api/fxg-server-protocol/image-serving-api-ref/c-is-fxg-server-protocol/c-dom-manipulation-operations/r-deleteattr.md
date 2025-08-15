@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 7cecd0aa-c928-4652-a92f-f21ebcf83304
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '48'
 ht-degree: 2%
 
 ---
 
 # 삭제 속성{#deleteattr}
 
-지정된 s7:elementID에 대한 속성을 삭제합니다.
+지정된 s7:elementID에 대한 특성을 삭제합니다.
 
 `deleteAttr.elementID={attributeName%26attributeName}`
 

@@ -137,7 +137,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>"다른 이메일 주소 추가" 버튼 캡션 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span>에서 <span class="codeph"> EmailShare.FROM </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">에서 </span> EmailShare.FROM </p> </td> 
    <td colname="col2"> <p>"보낸 사람" 입력 필드에 대한 레이블입니다. </p> </td> 
   </tr> 
   <tr> 
@@ -254,11 +254,11 @@ defaultLocale:"en"
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>facebook 공유 단추에 대한 도구 설명입니다. </p> </td> 
+   <td colname="col2"> <p>Facebook 공유 단추에 대한 도구 설명입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>twitter 공유 단추에 대한 도구 설명입니다. </p> </td> 
+   <td colname="col2"> <p>Twitter 공유 단추에 대한 도구 설명입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 

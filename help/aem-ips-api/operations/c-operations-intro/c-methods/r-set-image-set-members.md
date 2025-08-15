@@ -16,7 +16,7 @@ ht-degree: 8%
 
 이미지 세트와 연결된 에셋 목록을 설정합니다.
 
-이 작업은 `ImageSets` 및 `SpinSets`에 대한 `pageReset` 매개 변수를 무시하고 값을 true로 강제 적용합니다.
+이 작업은 `pageReset` 및 `ImageSets`에 대한 `SpinSets` 매개 변수를 무시하고 값을 true로 강제 적용합니다.
 
 ## 승인된 사용자 유형 {#section-8968d6a39a344cfc8521020d92ae8916}
 

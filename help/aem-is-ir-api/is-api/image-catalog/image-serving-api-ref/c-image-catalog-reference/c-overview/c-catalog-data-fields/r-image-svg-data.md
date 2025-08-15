@@ -1,5 +1,5 @@
 ---
-description: 이미지 및 SVG 데이터 파일에서 다음 필드가 인식됩니다.
+description: 다음 필드는 이미지 및 SVG 데이터 파일에서 인식됩니다.
 solution: Experience Manager
 title: Image_SVG 데이터
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Image_SVG 데이터{#image-svg-data}
 
-이미지 및 SVG 데이터 파일에서 다음 필드가 인식됩니다.
+다음 필드는 이미지 및 SVG 데이터 파일에서 인식됩니다.
 
 ## 카탈로그 관리 {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 

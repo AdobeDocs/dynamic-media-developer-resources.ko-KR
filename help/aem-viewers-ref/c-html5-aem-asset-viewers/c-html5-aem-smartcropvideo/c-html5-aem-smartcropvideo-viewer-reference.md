@@ -1,6 +1,6 @@
 ---
 title: 스마트 자르기 비디오 뷰어
-description: 스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생합니다. Dynamic Media이 포함된 Dynamic Media Classic 또는 Adobe Experience Manager에서 제공됩니다.
+description: 스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생합니다. Dynamic Media Classic 또는 Adobe Experience Manager에서 Dynamic Media와 함께 제공됩니다.
 keywords: 반응형
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # 스마트 자르기 비디오{#smart-crop-video}
 
-스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생합니다. Dynamic Media Classic 또는 Dynamic Media이 있는 Experience Manager에서 제공됩니다.
+스마트 자르기 비디오 뷰어는 스마트 자르기 지원을 추가하여 H.264 형식으로 인코딩된 스트리밍 및 점진적 비디오를 재생합니다. Dynamic Media Classic 또는 Experience Manager에서 Dynamic Media와 함께 제공됩니다.
 
 [시스템 요구 사항 및 필수 구성 요소](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842)를 참조하십시오.
 
-단일 비디오와 응용 비디오 세트가 모두 지원됩니다. 또한 뷰어는 외부 위치에 호스팅된 점진적 비디오 및 HLS 스트림 작업을 지원합니다. HTML5 비디오를 지원하는 데스크탑 및 모바일 웹 브라우저에서 모두 작동하도록 설계되었습니다. 이 뷰어는 또한 비디오 콘텐츠, 비디오 챕터 탐색 및 소셜 미디어 공유 도구 위에 표시되는 선택적 폐쇄 캡션을 지원합니다.
+단일 비디오와 응용 비디오 세트가 모두 지원됩니다. 또한 뷰어는 외부 위치에서 호스팅되는 점진적 비디오 및 HLS 스트림 작업을 지원합니다. HTML5 비디오를 지원하는 데스크탑 및 모바일 웹 브라우저에서 모두 작동하도록 설계되었습니다. 이 뷰어는 또한 비디오 콘텐츠, 비디오 챕터 탐색 및 소셜 미디어 공유 도구 위에 표시되는 선택적 폐쇄 캡션을 지원합니다.
 
-스마트 자르기 비디오 뷰어는 기본 시스템이 지원할 때마다 기본 구성에서 HLS 형식의 HTML5 스트리밍 비디오 재생을 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서는 뷰어가 HTML5 점진적 비디오 제공으로 대체됩니다.
+스마트 자르기 비디오 뷰어는 기본 시스템이 지원할 때마다 기본 구성에서 HTML5 스트리밍 비디오 재생을 HLS 형식으로 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서는 뷰어가 HTML5 점진적 비디오 제공으로 대체됩니다.
 
 뷰어 유형 518.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 스마트 자르기 비디오 뷰어 사용 {#section-f21ac23d3f6449ad9765588d69584772}
 
-스마트 자르기 비디오 뷰어는 기본 JavaScript 파일 및 도우미 파일 세트를 나타냅니다. 단일 JavaScript에는 런타임 시 뷰어에서 다운로드한 이 특정 뷰어, 에셋 및 CSS에서 사용하는 모든 뷰어 SDK 구성 요소가 포함되어 있습니다.
+스마트 자르기 비디오 뷰어는 기본 JavaScript 파일 및 도우미 파일 세트를 나타냅니다. 단일 JavaScript에는 런타임 시 뷰어가 다운로드한 이 특정 뷰어, 에셋 및 CSS에서 사용하는 모든 뷰어 SDK 구성 요소가 포함되어 있습니다.
 
 IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하여 팝업 모드에서 스마트 자르기 비디오 뷰어를 사용할 수 있습니다. 또는 내장된 모드로 뷰어를 사용할 수 있습니다. 이 모드에서는 문서화된 API를 사용하여 뷰어가 타겟 웹 페이지에 통합됩니다.
 
@@ -68,7 +68,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 스마트 자르기 비디오 뷰어는 소셜 미디어 공유 도구를 지원합니다. 이 버튼은 사용자가 클릭하거나 탭하면 공유 도구 모음으로 확장되는 사용자 인터페이스에서 단일 버튼으로 사용할 수 있습니다.
 
-공유 도구 모음에는 Facebook, Twitter, 이메일 공유, 포함 코드 공유 및 링크 공유와 같이 지원되는 각 공유 채널 유형에 대한 아이콘이 있습니다. 이메일 공유, 포함 공유 또는 링크 공유 도구가 활성화되면 뷰어에 해당 데이터 입력 양식이 있는 모달 대화 상자가 표시됩니다. facebook 또는 Twitter이 호출되면 뷰어는 사용자를 소셜 미디어 서비스에서 표준 공유 대화 상자로 리디렉션합니다. 또한 공유 도구가 활성화되면 비디오 재생이 자동으로 일시 중지됩니다.
+공유 도구 모음에는 Facebook, Twitter, 이메일 공유, 포함 코드 공유 및 링크 공유와 같이 지원되는 각 공유 채널 유형에 대한 아이콘이 있습니다. 이메일 공유, 포함 공유 또는 링크 공유 도구가 활성화되면 뷰어에 해당 데이터 입력 양식이 있는 모달 대화 상자가 표시됩니다. Facebook 또는 Twitter가 호출되면 뷰어는 사용자를 소셜 미디어 서비스에서 표준 공유 대화 상자로 리디렉션합니다. 또한 공유 도구가 활성화되면 비디오 재생이 자동으로 일시 중지됩니다.
 
 웹 브라우저 보안 제한으로 인해 공유 도구를 전체 화면 모드에서 사용할 수 없습니다.
 
@@ -135,7 +135,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
 >[!NOTE]
 >
->페이지의 기본 뷰어 JavaScript `include` 파일만 참조합니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드에 있는 추가 JavaScript 파일을 참조하지 마십시오. 특히 `/s7viewers` 컨텍스트 경로(통합 SDK `include`이라고 함)에서 뷰어가 로드한 HTML5 SDK `Utils.js` 라이브러리를 직접 참조하지 마십시오. 그 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리의 위치가 뷰어의 논리에 의해 완전히 관리되고 뷰어 릴리스 간 위치가 변경되기 때문입니다. Adobe이 서버에 이전 버전의 보조 뷰어 `includes`을(를) 보관하지 않습니다.
+>페이지의 기본 뷰어 JavaScript `include` 파일만 참조합니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드에 있는 추가 JavaScript 파일을 참조하지 마십시오. 특히 `Utils.js` 컨텍스트 경로의 뷰어가 로드한 HTML5 SDK `/s7viewers` 라이브러리(이른바 통합 SDK `include`)를 직접 참조하지 마십시오. 그 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리의 위치가 뷰어의 논리에 의해 완전히 관리되고 뷰어 릴리스 간 위치가 변경되기 때문입니다. Adobe은 서버에 이전 버전의 보조 뷰어 `includes`을(를) 보관하지 않습니다.
 >
 >
 >따라서 뷰어가 사용하는 보조 JavaScript `include`을(를) 페이지에서 직접 참조하면 나중에 새 제품 버전을 배포할 때 뷰어 기능이 중단됩니다.
@@ -158,7 +158,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    `.s7videoviewer` 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 한정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   크기 조정을 HTML 페이지의 오른쪽 CSS 또는 사용자 지정 뷰어 CSS 파일에 넣을 수 있습니다. 이 레코드는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달됩니다.
+   HTML 페이지의 오른쪽 CSS 또는 사용자 지정 뷰어 CSS 파일에 크기 조정을 삽입할 수 있습니다. 이 레코드는 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달됩니다.
 
    CSS를 사용한 뷰어 스타일에 대한 자세한 내용은 [스마트 자르기 비디오 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e)을 참조하십시오.
 
@@ -183,7 +183,7 @@ IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하
 
    위의 단계를 완료하면 `s7viewers.SmartCropVideoViewer` 클래스의 인스턴스를 만들고 모든 구성 정보를 생성자에 전달하며 뷰어 인스턴스에서 `init()` 메서드를 호출합니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 뷰어 컨테이너 ID의 이름을 포함하는 `containerId` 필드와 뷰어에서 지원하는 구성 매개 변수와 함께 중첩된 `params` JSON 개체가 있어야 합니다. 이 경우 `params` 개체에는 적어도 `serverUrl` 속성으로 전달된 이미지 제공 URL, `videoserverurl` 속성으로 전달된 비디오 서버 URL 및 `asset` 매개 변수로 전달된 초기 자산이 있어야 합니다. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `BODY` 태그를 닫기 직전에 또는 본문 `onload()` 이벤트에서 `init()` 메서드를 호출하십시오.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `init()` 태그를 닫기 직전에 또는 본문 `BODY` 이벤트에서 `onload()` 메서드를 호출하십시오.
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
@@ -293,7 +293,7 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 
 [라이브 데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
+[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **너비 및 높이가 정의된 응답형 디자인 포함**
 

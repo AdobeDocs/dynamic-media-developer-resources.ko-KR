@@ -31,13 +31,13 @@ eCatalog Search Viewer는 전자 브로셔를 스프레드별로 표시하거나
 
 ## 데모 URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## eCatalog 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 eCatalog Search Viewer는 런타임에 뷰어가 다운로드한 기본 JavaScript 파일 및 도우미 파일 세트(단일 JavaScript에 이 특정 뷰어, 에셋, CSS에서 사용하는 모든 뷰어 SDK 구성 요소가 포함됨)를 나타냅니다
 
-IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여 팝업 모드에서 또는 문서화된 API를 사용하여 대상 웹 페이지에 통합된 임베드된 모드에서 eCatalog 검색 뷰어를 사용할 수 있습니다.
+IS-Viewer와 함께 제공되는 프로덕션 준비 HTML 페이지를 사용하여 팝업 모드로 또는 문서화된 API를 사용하여 대상 웹 페이지에 통합된 임베드 모드에서 eCatalog 검색 뷰어를 사용할 수 있습니다.
 
 구성 및 스키닝은 다른 뷰어의 것과 유사합니다. 모든 스키닝은 사용자 지정 CSS를 통해 수행됩니다.
 
@@ -86,7 +86,7 @@ eCatalog Search Viewer는 다른 모바일 애플리케이션에서 일반적으
 
 eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 버튼은 사용자가 클릭하거나 탭하면 공유 도구 모음으로 확장되는 기본 컨트롤 막대에서 버튼으로 사용할 수 있습니다.
 
-공유 도구 모음에는 Facebook, Twitter, 이메일 공유, 포함 코드 공유 및 링크 공유를 포함하여 지원되는 각 공유 채널 유형에 대한 아이콘이 있습니다. 이메일 공유, 포함 공유 또는 링크 공유 도구가 활성화되면 뷰어에 해당 데이터 입력 양식이 있는 모달 대화 상자가 표시됩니다. facebook 또는 Twitter이 호출되면 뷰어는 사용자를 소셜 서비스에서 표준 공유 대화 상자로 리디렉션합니다. 웹 브라우저 보안 제한으로 인해 공유 도구를 전체 화면 모드에서 사용할 수 없습니다.
+공유 도구 모음에는 Facebook, Twitter, 이메일 공유, 포함 코드 공유 및 링크 공유를 포함하여 지원되는 각 공유 채널 유형에 대한 아이콘이 있습니다. 이메일 공유, 포함 공유 또는 링크 공유 도구가 활성화되면 뷰어에 해당 데이터 입력 양식이 있는 모달 대화 상자가 표시됩니다. Facebook 또는 Twitter가 호출되면 뷰어는 사용자를 소셜 서비스에서 표준 공유 대화 상자로 리디렉션합니다. 웹 브라우저 보안 제한으로 인해 공유 도구를 전체 화면 모드에서 사용할 수 없습니다.
 
 뷰어의 검색 기능은 기본 도구 모음에서 보이는 유리 아이콘으로 사용할 수 있습니다. 아이콘을 클릭하거나 탭하면 입력 필드가 있는 검색 패널이 활성화됩니다. 키워드나 구를 입력하고 Enter 키를 누르면 뷰어가 패널에서 검색 결과를 렌더링하고 기본 보기에서 찾은 단어를 강조 표시합니다.
 
@@ -165,7 +165,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 버튼은
 
    `.s7ecatalogsearchviewer`개의 최상위 CSS 클래스에 대해 절대 단위로 선언하거나 `stagesize` 한정자를 사용하여 뷰어의 정적 크기를 설정할 수 있습니다.
 
-   CSS에서 HTML 페이지를 직접 조정하거나, 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나, 스타일 명령을 사용하여 명시적으로 전달되는 사용자 지정 뷰어 CSS 파일에 크기를 지정할 수 있습니다.
+   CSS에서 나중에 HTML의 뷰어 사전 설정 레코드에 할당되거나 스타일 명령을 사용하여 명시적으로 전달되는 사용자 지정 뷰어 CSS 파일 또는 Dynamic Media Classic 페이지에서 직접 크기를 조정할 수 있습니다.
 
    CSS를 사용하여 뷰어를 스타일링하는 방법에 대한 자세한 내용은 [eCatalog 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0)을 참조하십시오.
 
@@ -189,7 +189,7 @@ eCatalog 검색 뷰어는 소셜 공유 도구를 지원합니다. 이 버튼은
 
    위의 단계를 완료하면 `s7viewers.eCatalogSearchViewer` 클래스의 인스턴스를 만들고 모든 구성 정보를 해당 생성자에 전달하고 뷰어 인스턴스에서 `init()` 메서드를 호출합니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 뷰어 컨테이너 ID의 이름을 포함하는 `containerId` 필드와 뷰어에서 지원하는 구성 매개 변수와 함께 중첩된 `params` JSON 개체가 있습니다. 이 경우 `params` 개체에는 최소한 `serverUrl` 속성으로 전달된 이미지 제공 URL이 있어야 하며 초기 자산은 `asset` 매개 변수로 전달되어야 합니다. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 그러나 호환성을 최대화하려면 닫기 `BODY` 태그 바로 앞 또는 본문 `onload()` 이벤트에서 `init()` 메서드를 호출하십시오.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 그러나 호환성을 최대화하려면 닫기 `init()` 태그 바로 앞 또는 본문 `BODY` 이벤트에서 `onload()` 메서드를 호출하십시오.
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 경우 뷰어 로드는 자동으로 다시 시작됩니다.
 

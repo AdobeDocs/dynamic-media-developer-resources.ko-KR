@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: e137f795-e0f7-4b72-b7e8-188e254bbb45
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 시간 값 *`zzz`*&#x200B;은(는) `GMT` 또는 `PST`과(와) 같은 3~4자 표준 시간대 코드입니다. 일광 절약 시간제는 시간대 코드에서 계산해야 합니다(예: 태평양 표준시간의 경우 `PST`, 태평양 일광 절약 시간제의 경우 `PDT`).
 
-시간 값 *`offset`*&#x200B;은(는) GMT에 상대적인 시간 또는 시간:분 단위 표준 시간대 오프셋입니다. 예를 들어 `PDT`은(는) `GMT -7`과(와) 같습니다.
+시간 값 *`offset`*&#x200B;은(는) GMT를 기준으로 한 시간 또는 시간:minutes 단위의 시간대 오프셋입니다. 예를 들어 `PDT`은(는) `GMT -7`과(와) 같습니다.
 
 문자열 형식의 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바르지 않으면 이 값이 무시되고 대신 [!DNL *`catalog`*.ini] 파일의 수정 시간이 사용됩니다.
 

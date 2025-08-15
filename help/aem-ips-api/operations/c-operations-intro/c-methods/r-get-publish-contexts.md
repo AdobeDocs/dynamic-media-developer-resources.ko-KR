@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '85'
 ht-degree: 17%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 17%
 
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
-| publishContextArray | 유형:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형으로 필터링된 회사의 게시 컨텍스트 배열. |
+| publishContextArray | 형식:PublishContextArray | 예 | 필요한 경우 컨텍스트 유형으로 필터링된 회사의 게시 컨텍스트 배열. |
 
 ## 예제 {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

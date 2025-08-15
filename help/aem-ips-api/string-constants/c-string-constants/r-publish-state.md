@@ -1,7 +1,7 @@
 ---
 description: searchAssetsParam/publishState, setAssetPublishStateParam/publishState 및 ContextStateUpdate/publishState에서 사용됩니다.
 solution: Experience Manager
-title: Publish 주
+title: 게시 상태
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0be4ef1b-f1d3-4698-a5ed-d721c328291a
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 ---
 
-# Publish 주{#publish-state}
+# 게시 상태{#publish-state}
 
 searchAssetsParam/publishState, setAssetPublishStateParam/publishState 및 ContextStateUpdate/publishState에서 사용됩니다.
 

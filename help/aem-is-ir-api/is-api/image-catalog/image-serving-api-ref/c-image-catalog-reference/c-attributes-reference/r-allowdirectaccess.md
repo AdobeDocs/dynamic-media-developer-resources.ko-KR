@@ -43,7 +43,7 @@ ht-degree: 0%
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* `IS` 및 `STATIC` `AllowDirectAccess=exclude:IS,STATIC`을(를) 제외한 모든 개체 유형에 대해 직접 액세스 허용
+* `IS` 및 `STATIC``AllowDirectAccess=exclude:IS,STATIC`을(를) 제외한 모든 개체 유형에 대해 직접 액세스 허용
 
 * *no* 개체 형식에 대한 직접 액세스 허용(즉, 포함하지 않음)
 

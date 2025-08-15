@@ -33,7 +33,7 @@ ht-degree: 0%
  </tr> 
 </table>
 
-`LocaleStrMap`은(는) `internalLocId` 수에 매핑할 수 있는 `locId`을(를) 참조합니다.
+`LocaleStrMap`은(는) `locId` 수에 매핑할 수 있는 `internalLocId`을(를) 참조합니다.
 
 빈 *`locale`* 값은 빈 문자열 및 알 수 없는 `locale=` 문자열과 일치합니다. 이를 통해 알 수 없는 로케일에 대한 기본 규칙을 정의할 수 있습니다.
 

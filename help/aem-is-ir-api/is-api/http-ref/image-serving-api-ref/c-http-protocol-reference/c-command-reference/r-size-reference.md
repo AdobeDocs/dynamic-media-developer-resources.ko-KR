@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ## 예 {#section-d1adaddd9e0b4ca881fd8e0a7541e5d9}
 
-[템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)에서 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)을(를) 참조하십시오.
+[템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)에서 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)을(를) 참조하십시오.
 
 ## 참조 {#section-63dfdf3750e249d2ab4c825ccd2e7181}
 

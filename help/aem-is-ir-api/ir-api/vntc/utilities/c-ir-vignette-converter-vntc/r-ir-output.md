@@ -16,7 +16,7 @@ ht-degree: 0%
 
 vntc는 stderr 또는 로그 파일로 전송되는 텍스트 데이터를 생성합니다.
 
-데이터 형식이 텍스트 레코드당 하나의 `name=value` 속성으로 지정됩니다. 문자열 값은 따옴표로 묶이지 않습니다. `-log`이(가) 지정된 경우에도 경고 및 오류 메시지는 항상 `stderr`(으)로 전송됩니다.
+데이터 형식이 텍스트 레코드당 하나의 `name=value` 속성으로 지정됩니다. 문자열 값은 따옴표로 묶이지 않습니다. `stderr`이(가) 지정된 경우에도 경고 및 오류 메시지는 항상 `-log`(으)로 전송됩니다.
 
 특정 속성은 동일한 출력에서 여러 번 발생할 수 있습니다. 0으로 시작하는 시퀀스 번호는 이러한 속성의 이름에 마침표로 구분되어 추가됩니다. 이러한 속성은 아래에서 속성 이름 뒤에 `. *`n`*` 접미사를 사용하여 식별됩니다.
 
@@ -123,7 +123,7 @@ vntc는 stderr 또는 로그 파일로 전송되는 텍스트 데이터를 생�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">접미사=<span class="varname"> 문자열</span></span> </p></td> 
-  <td class="stentry"> <p><span class="varname"> sourceFile</span>이(가) 비네팅인 경우 <span class="codeph"> vnt</span>, <span class="varname"> sourceFile</span>이(가) 캐비닛 스타일인 경우 <span class="codeph"> vnc</span>, <span class="varname"> sourceFile</span>이(가) 창 표지 스타일인 경우 <span class="codeph"> vnw</span>. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> sourceFile</span>이(가) 비네팅인 경우 <span class="varname"> vnt</span>, <span class="codeph"> sourceFile</span>이(가) 캐비닛 스타일인 경우 <span class="varname"> vnc</span>, <span class="codeph"> sourceFile</span>이(가) 창 표지 스타일인 경우 <span class="varname"> vnw</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">targetFileVersion=<span class="varname"> 값</span></span> </p></td> 

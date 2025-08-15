@@ -1,5 +1,5 @@
 ---
-description: SVG 파일 자산의 속성입니다.
+description: SVG 파일 에셋의 속성입니다.
 solution: Experience Manager
 title: SvgInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL SvgInfo]{#svginfo}
 
-SVG 파일 자산의 속성입니다.
+SVG 파일 에셋의 속성입니다.
 
 구문
 

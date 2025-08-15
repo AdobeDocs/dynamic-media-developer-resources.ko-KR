@@ -22,7 +22,7 @@ ht-degree: 3%
 
 확대/축소, 회전 및 브로셔 뷰어 클라이언트는 이 필드를 속성 데이터 형식을 사용한다고 가정합니다. 이러한 클라이언트는 뷰어 구성 및 사용자 지정에 이 필드를 사용합니다. 자세한 내용은 뷰어 설명서 를 참조하십시오.
 
-이 필드는 텍스트 문자열 현지화에 적용됩니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
+이 필드는 텍스트 문자열 현지화에 적용됩니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
 
 ## 기본값 {#section-7ee879762130467199745f2abc662f1e}
 

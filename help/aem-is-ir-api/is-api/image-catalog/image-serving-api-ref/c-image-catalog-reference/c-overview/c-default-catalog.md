@@ -24,4 +24,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL default.ini]을(를) 제외한 모든 카탈로그 특성 파일에는 고유한 `attribute::RootId` 값이 있어야 합니다. [!DNL default.ini]의 `attribute::RootId`은(는) 비어 있어야 합니다.
+>[!DNL default.ini]을(를) 제외한 모든 카탈로그 특성 파일에는 고유한 `attribute::RootId` 값이 있어야 합니다. `attribute::RootId`의 [!DNL default.ini]은(는) 비어 있어야 합니다.

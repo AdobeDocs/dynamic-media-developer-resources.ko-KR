@@ -36,14 +36,14 @@ ht-degree: 4%
 | triggerState | `xsd:int` | 작업 트리거 상태 선택. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 이미지 제공 게시 작업에 대한 작업 세부 정보. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 이미지 렌더링 작업에 대한 작업 세부 정보. |
-| videoPublishJob | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보. [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ko)을(를) 참조하십시오. |
+| videoPublishJob | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보. [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을(를) 참조하십시오. |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | 서버 디렉토리 게시 작업에 대한 작업 세부 정보. |
 | upload디렉터리 작업 | `types:UploadDirectoryJob` | 업로드 디렉터리 작업에 대한 작업 세부 정보. |
 | uploadUrlsJob | `types:UploadUrlsJob` | 업로드 URL 작업에 대한 작업 세부 정보. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdf작업 | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. [내보내기 작업](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ko)을 참조하세요. |
+| exportJob | `types:ExportJob` | 이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. [내보내기 작업](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하세요. |
 
 ## 주의 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

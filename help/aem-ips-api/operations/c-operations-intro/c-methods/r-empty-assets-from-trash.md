@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '252'
 ht-degree: 6%
 
 ---
@@ -34,7 +34,7 @@ Assets은 수동으로 비우거나 휴지통에서 나올 때까지 휴지통�
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | company핸들 | xsd:string | 예 | 자산을 소유하는 회사에 대한 핸들입니다. |
-| assetHandleArray | types:HandleArray | 예 | 휴지통에서 비울 항목을 나타내는 핸들의 배열입니다. |
+| assetHandleArray | 형식:HandleArray | 예 | 휴지통에서 비울 항목을 나타내는 핸들의 배열입니다. |
 
 **출력(emptyAssetsFromTrashParam)**
 
@@ -43,8 +43,8 @@ Assets은 수동으로 비우거나 휴지통에서 나올 때까지 휴지통�
 | successCount | xsd:Int | 예 | 휴지통에서 성공적으로 비운 자산 수입니다. |
 | warningCount | xsd:Int | 예 | 작업이 휴지통에서 자산을 비우려고 할 때 생성된 경고 수입니다. |
 | errorCount | xsd:Int | 예 | 작업에서 휴지통에서 자산을 비우려고 할 때 생성된 오류 수입니다. |
-| warningDetailArray | 유형:AssetOperationFaultArray | 아니요 | 작업에서 휴지통에서 비우려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. |
-| errorDetailArray | 유형:AssetOperationFaultArray | 아니요 | 작업이 휴지통에서 비우려고 할 때 오류를 생성한 에셋과 관련된 세부 정보의 배열입니다. |
+| warningDetailArray | 형식:AssetOperationFaultArray | 아니요 | 작업에서 휴지통에서 비우려고 할 때 경고를 생성한 자산과 관련된 세부 정보의 배열입니다. |
+| errorDetailArray | 형식:AssetOperationFaultArray | 아니요 | 작업이 휴지통에서 비우려고 할 때 오류를 생성한 에셋과 관련된 세부 정보의 배열입니다. |
 
 ## 예제 {#section-6154a873b6c342bf92e2036280cafdcf}
 

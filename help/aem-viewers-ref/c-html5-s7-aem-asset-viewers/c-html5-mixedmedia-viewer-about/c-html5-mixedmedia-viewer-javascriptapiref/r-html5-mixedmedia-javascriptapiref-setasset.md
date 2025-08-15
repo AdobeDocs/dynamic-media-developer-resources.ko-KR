@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`에셋`*` - 새 에셋 ID 또는 명시적 혼합 미디어 집합으로 `?` 뒤에 선택적 이미지 제공 수정자가 추가되었습니다. `String`
+`*`에셋`*` - 새 에셋 ID 또는 명시적 혼합 미디어 집합으로 `String` 뒤에 선택적 이미지 제공 수정자가 추가되었습니다. `?`
 
 IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다.
 
@@ -36,7 +36,7 @@ IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 �
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>구성 요소 ID </p> </th> 
-   <th colname="col2" class="entry"> <p>Viewer SDK 구성 요소 클래스 이름 </p> </th> 
+   <th colname="col2" class="entry"> <p>뷰어 SDK 구성 요소 클래스 이름 </p> </th> 
   </tr> 
  </thead>
  <tbody> 

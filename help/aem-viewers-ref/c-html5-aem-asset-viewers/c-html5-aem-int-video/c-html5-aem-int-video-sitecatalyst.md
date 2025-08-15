@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics 추적 지원
-description: HTML5 비디오 360 뷰어는 즉시 사용할 수 있는 Adobe Analytics 추적을 지원합니다.
+description: HTML5 Video360 Viewer는 Adobe Analytics 추적을 기본적으로 지원합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Adobe Analytics 추적 지원{#support-for-adobe-analytics-tracking}
 
-HTML5 비디오 360 뷰어는 즉시 사용할 수 있는 Adobe Analytics 추적을 지원합니다.
+HTML5 Video360 Viewer는 Adobe Analytics 추적을 기본적으로 지원합니다.
 
 추적을 사용하려면 올바른 회사 사전 설정 이름을 `config2` 매개 변수로 전달하십시오.
 

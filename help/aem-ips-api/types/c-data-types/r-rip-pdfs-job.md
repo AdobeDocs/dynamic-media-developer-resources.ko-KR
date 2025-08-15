@@ -34,7 +34,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> 형식:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>리핑할 PDF 파일 배열에 대해 처리합니다. </p> </td> 
+   <td colname="col3"> <p>리핑할 PDF 파일 배열을 처리합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 

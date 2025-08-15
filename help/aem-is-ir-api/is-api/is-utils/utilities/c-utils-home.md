@@ -1,5 +1,5 @@
 ---
-description: 이미지 제공 유틸리티 안내서에는 Dynamic Media 이미지 서버 및 이미지 렌더링과 함께 사용되는 유틸리티에 대한 정보가 포함되어 있습니다.
+description: 이미지 제공 유틸리티 안내서에는 Dynamic Media 이미지 서버 및 이미지 렌더링에 사용되는 유틸리티에 대한 정보가 포함되어 있습니다.
 solution: Experience Manager
 title: 이미지 서비스 제공 유틸리티
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # 이미지 서비스 제공 유틸리티{#image-serving-utilities}
 
-이미지 제공 유틸리티 안내서에는 Dynamic Media 이미지 서버 및 이미지 렌더링과 함께 사용되는 유틸리티에 대한 정보가 포함되어 있습니다.
+이미지 제공 유틸리티 안내서에는 Dynamic Media 이미지 서버 및 이미지 렌더링에 사용되는 유틸리티에 대한 정보가 포함되어 있습니다.
 
 * [유틸리티 위치](c-location-of-utilities.md)
 * [ic](r-ic.md)

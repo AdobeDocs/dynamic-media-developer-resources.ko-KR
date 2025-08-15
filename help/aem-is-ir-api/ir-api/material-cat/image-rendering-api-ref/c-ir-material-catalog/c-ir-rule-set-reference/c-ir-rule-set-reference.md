@@ -49,7 +49,7 @@ ht-degree: 0%
 
 실제 규칙이 정의되지 않은 경우에도 `<?xml>`, `<!DOCTYPE>` 및 `<ruleset>` 요소는 항상 올바른 규칙 집합 XML 파일에 필요합니다.
 
-`<rule>`개 요소를 포함하는 하나의 `<ruleset>` 요소가 허용됩니다.
+`<ruleset>`개 요소를 포함하는 하나의 `<rule>` 요소가 허용됩니다.
 
 전처리 규칙 파일의 내용은 대/소문자를 구분합니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 ## OnMatch 특성 {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-`<rule>` 요소의 `OnMatch` 특성을 사용하여 기본 동작을 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error.`(으)로 설정될 수 있습니다.
+`OnMatch` 요소의 `<rule>` 특성을 사용하여 기본 동작을 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error.`(으)로 설정될 수 있습니다.
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 

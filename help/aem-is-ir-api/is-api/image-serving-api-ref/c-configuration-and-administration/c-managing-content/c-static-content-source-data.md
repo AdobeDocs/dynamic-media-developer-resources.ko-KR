@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ` *[!DNL catalogPath]*`은(는) 절대 또는 상대 파일 경로/이름입니다. *[!DNL requestPath]*&#x200B;은(는) 상대 파일 경로/이름이어야 합니다.
 
-[!DNL PlatformServer.conf]에서 여러 `PS::staticContent.rootPaths` 값을 정의할 수 있습니다. 이를 통해 소스 데이터 파일을 여러 파일 시스템에 분산할 수 있습니다. [!DNL Platform Server]은(는) 데이터 파일을 찾을 때까지 지정된 순서대로 대체 경로를 시도합니다.
+`PS::staticContent.rootPaths`에서 여러 [!DNL PlatformServer.conf] 값을 정의할 수 있습니다. 이를 통해 소스 데이터 파일을 여러 파일 시스템에 분산할 수 있습니다. [!DNL Platform Server]은(는) 데이터 파일을 찾을 때까지 지정된 순서대로 대체 경로를 시도합니다.

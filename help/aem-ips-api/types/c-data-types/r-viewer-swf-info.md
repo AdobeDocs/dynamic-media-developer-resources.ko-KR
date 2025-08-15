@@ -1,5 +1,5 @@
 ---
-description: 뷰어 SWF 파일 자산의 속성입니다.
+description: 뷰어 SWF 파일 에셋의 속성입니다.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-뷰어 SWF 파일 자산의 속성입니다.
+뷰어 SWF 파일 에셋의 속성입니다.
 
 구문
 

@@ -25,28 +25,28 @@ ht-degree: 2%
 | `avif-alpha` | 알파 채널을 사용한 손실 및 무손실 AVIF. |
 | `avif` | 손실 및 무손실 AVIF. |
 | `eps` | 압축되지 않은 바이너리 캡슐화된 PostScript. |
-| `f4m` | Flash 스트리밍 서버 매니페스트 형식입니다. |
-| `gif-alpha` | 2~255색 및 키 색상 투명도가 포함된 GIF. |
-| `gif` | 2~256색 GIF. |
+| `f4m` | Flash Streaming Server 매니페스트 형식입니다. |
+| `gif-alpha` | GIF은 2~255가지 색상과 키 색상 투명도를 자랑합니다. |
+| `gif` | GIF(2~256색). |
 | `heic` | 무손실 높이. 이 형식은 지원되지 않는 경우 브라우저에서 기본적으로 다운로드됩니다. |
-| `jpeg` | 손실 JPEG. |
-| `jpeg2000-alpha` | 알파 채널이 있는 손실 및 무손실 JPEG 2000. |
+| `jpeg` | JPEG |
+| `jpeg2000-alpha` | 알파 채널이 포함된 손실 및 무손실 JPEG 2000. |
 | `jpeg2000` | 손실 및 손실 없는 JPEG 2000. |
-| `jpegxr-alpha` | 알파 채널이 있는 손실 및 무손실 JPEG XR. |
-| `jpegxr` | 손실 및 무손실 JPEG XR. |
-| `jpg` | 손실 JPG. |
+| `jpegxr-alpha` | 알파 채널이 포함된 손실 및 손실 없는 JPEG XR. |
+| `jpegxr` | 손실 및 손실 없는 JPEG XR. |
+| `jpg` | JPG |
 | `m3u8` | Apple 스트리밍 서버 매니페스트 형식입니다. |
-| `pdf` | 이미지가 PDF에 포함되었습니다. |
-| `pjpeg` | 점진적 JPEG. |
+| `pdf` | PDF에 포함된 이미지. |
+| `pjpeg` | 프로그레시브 JPEG. |
 | `png-alpha` | 알파 채널을 사용한 24비트 무손실 PNG. |
 | `png` | 24비트 무손실 PNG. |
 | `png8-alpha` | 알파 채널이 포함된 8비트 무손실 PNG. |
 | `png8` | 8비트 무손실 PNG. |
-| `swf-alpha` | 손실 JPEG과 수축 압축된 마스크가 Adobe AS2 swf 파일에 포함되어 있습니다. |
+| `swf-alpha` | 손실 JPEG 및 Adobe AS2 swf 파일에 포함된 수축 압축 마스크 |
 | `swf` | Adobe AS2 swf 파일에 포함된 손실 JPEG. |
-| `swf3-alpha` | 손실 JPEG과 수축 압축된 마스크가 Adobe AS3 swf 파일에 포함되어 있습니다. **참고:** swf 및 swf 알파 형식은 ActionScript 2 응용 프로그램(Flash Player 8 이하)에 가장 적합합니다. swf3 및 swf3-alpha 형식은 ActionScript3 응용 프로그램(Flash Player 9 이상)에 사용하는 것이 좋습니다. |
+| `swf3-alpha` | 손실 JPEG 및 Adobe AS3 swf 파일에 포함된 수축 압축 마스크 **참고:** swf 및 swf 알파 형식은 ActionScript 2 응용 프로그램(Flash Player 8 및 이전 버전)에 가장 적합합니다. swf3 및 swf3-alpha 형식은 ActionScript3 응용 프로그램(Flash Player 9 이상)에 사용하는 것이 좋습니다. |
 | `swf3` | Adobe AS3 swf 파일에 포함된 손실 JPEG. |
-| `tif-alpha` | 알파 채널을 사용하는 TIFF. |
+| `tif-alpha` | 알파 채널이 있는 TIFF. |
 | `tif` | TIFF. |
 | `webp-alpha` | 알파 채널이 있는 손실 및 무손실 WebP. |
 | `webp` | 손실 및 손실 없는 WebP. |
@@ -65,21 +65,21 @@ ht-degree: 2%
 |---|---|
 | `jpeg` | JPEG 압축(손실). |
 | `lossy` | JPEG 2000, JPEG XR 압축(손실) 및 WebP |
-| `lossless` | HEIC, JPEG 2000, JPEG XR 압축(무손실), WebP |
+| `lossless` | HEIC, JPEG 2000, JPEG XR 압축(무손실) 및 WebP |
 | `lzw` | LZW (Lempel-Ziv-Welch) 압축(무손실). |
 | `none` | 압축이 해제되었습니다. |
 | `zip` | &quot;수축&quot; 압축(무손실). |
 
 * *`format`*&#x200B;은(는) 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
-* `icc=`이(가) 지정되지 않은 경우 *`pixelType`*&#x200B;을(를) 사용하여 출력 색상 공간 변환을 수행할 수 있습니다.
+* *`pixelType`*&#x200B;이(가) 지정되지 않은 경우 `icc=`을(를) 사용하여 출력 색상 공간 변환을 수행할 수 있습니다.
 
-  *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 유형을 결정하는 `icc=`을(를) 지정하면 *`pixelType`*&#x200B;이(가) 무시됩니다.
+  *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 유형을 결정하는 *`pixelType`*&#x200B;을(를) 지정하면 `icc=`이(가) 무시됩니다.
 
 * *`compression`*&#x200B;은(는) `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` 또는 `jpegxr-alpha`이(가) *`format`*(으)로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용한 TIFF, JPEG 압축을 사용한 PDF 및 SWF 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. WebP, JPEG 2000 및 JPEG XR도 `qlt=`을(를) 사용하지만 값이 다른 형식에 대해 다른 품질을 제공합니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용하는 TIFF, JPEG 압축을 사용하는 PDF 및 SWF 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. WebP, JPEG 2000 및 JPEG XR도 `qlt=`을(를) 사용하지만 그 결과 서로 다른 형식에 대해 다른 품질을 제공합니다. `quantize=` 또는 `fmt=gif`인 경우 `fmt=gif-alpha`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
-모든 *`formats`* 및 *`pixelTypes`*&#x200B;에 대해 픽셀 구성 요소당 8비트(GIF의 경우 픽셀당 8비트)가 반환됩니다.
+모든 *`formats`* 및 *`pixelTypes`*&#x200B;에 대해 픽셀당 8비트(GIF의 경우 픽셀당 8비트)가 반환됩니다.
 
 다음 표에는 유효한 *`format`*과(와) *`pixelType`* 조합, 해당 HTTP 응답 MIME 유형, ICC 프로필을 포함할 수 있는지 여부([iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e) 참조) 및 적용할 수 있는 형식별 옵션이 나열되어 있습니다.
 
@@ -148,7 +148,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> <span class="varname"> 압축 </span> </span>이(가) <span class="codeph"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> </span> 압축 <span class="codeph"> <span class="varname">이(가) </span> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -168,7 +168,7 @@ ht-degree: 2%
    <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, 회색 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> <p> <p>참고: Adobe Flash Player은 임베드된 ICC 프로파일을 무시합니다. </p> </p> </td> 
+   <td colname="col4"> <p>아니요 </p> <p> <p>참고: Adobe Flash Player에서는 포함된 ICC 프로파일을 무시합니다. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> 특성::TrustedDomains </span> </p> </td> 
   </tr>
   <tr valign="top"> 
@@ -176,7 +176,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만 해당. 'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="varname"> 압축 </span>이(가) <span class="codeph"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만 해당. 'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 압축 </span>이(가) <span class="varname"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
@@ -192,15 +192,15 @@ ht-degree: 2%
 
 요청 속성입니다. `req=img`(기본값) 또는 `req=mask`인 경우 현재 레이어 설정에 관계없이 적용되고, 그렇지 않은 경우에는 무시됩니다.
 
-`iccProfile=`이(가) 지정된 경우 *`type`*&#x200B;이(가) 무시됩니다.
+*`type`*&#x200B;이(가) 지정된 경우 `iccProfile=`이(가) 무시됩니다.
 
 ## 기본값 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`. 여기서 *`defaultType`*&#x200B;은(는) 다음과 같이 처리됩니다. `icc=`이(가) 지정된 경우 *`defaultType`*&#x200B;은(는) 지정된 ICC 프로필의 픽셀 유형에 해당합니다. `icc=`이(가) 지정되지 않은 경우 *`defaultType`*&#x200B;은(는) `req=mask`인 경우 `gray`이고, 그렇지 않은 경우 `rgb`입니다.
+` fmt=jpeg, *`defaultType`*,none`. 여기서 *`defaultType`*&#x200B;은(는) 다음과 같이 처리됩니다. `icc=`이(가) 지정된 경우 *`defaultType`*&#x200B;은(는) 지정된 ICC 프로필의 픽셀 유형에 해당합니다. `icc=`이(가) 지정되지 않은 경우 *`defaultType`*&#x200B;은(는) `gray`인 경우 `req=mask`이고, 그렇지 않은 경우 `rgb`입니다.
 
 ## 예제 {#section-b93222e652df404a84c69025247f07df}
 
-**JPEG 형식(기본값)으로 작고 낮은 품질의 미리 보기 이미지를 요청합니다.**
+**JPEG 형식으로 작고 낮은 품질의 미리 보기 이미지 요청(기본값):**
 
 ` http:// *`서버`*/myRootId/myImageId?qlt=60&wid=200`
 
@@ -212,7 +212,7 @@ ht-degree: 2%
 
 ` http:// *`서버`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**회색 음영 TIFF 이미지와 같은 이미지에 대해 알파 채널을 요청합니다.**
+**회색 음영 TIFF 이미지와 동일한 이미지에 대해 알파 채널을 요청합니다.**
 
 ` http:// *`서버`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 

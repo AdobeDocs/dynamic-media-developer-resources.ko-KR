@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## IS::CacheServerUrl - 캐싱 서비스 루트 Url {#section-bcca227a1f91453b834db4ea050968e2}
 
-이미지 서버가 캐싱 서비스에 액세스할 수 있도록 하는 HTTP 루트 경로를 지정합니다. 포트 번호가 `TC::PsPort`과(와) 일치하는 [!DNL http://localhost:TC::PsPort /is/cache/secondary] (으)로 설정해야 합니다.
+이미지 서버가 캐싱 서비스에 액세스할 수 있도록 하는 HTTP 루트 경로를 지정합니다. 포트 번호가 [!DNL http://localhost:TC::PsPort /is/cache/secondary]과(와) 일치하는 `TC::PsPort`(으)로 설정해야 합니다.
 
 ## IS::RemoteUrlDefaultExpiration - 원격 Image Source 기본 TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## PS::saveToFile.saveTimeout - 파일 저장 시간 초과 {#section-d22afd8ad86144b28684ed95a59db40e}
 
-`timeout=`이(가) 지정되지 않은 경우 `req=saveToFile`의 기본 시간 초과 값입니다. `msec`. 지정된 시간 내에 저장 작업이 완료되지 않으면 오류가 반환됩니다.
+`req=saveToFile`이(가) 지정되지 않은 경우 `timeout=`의 기본 시간 초과 값입니다. `msec`. 지정된 시간 내에 저장 작업이 완료되지 않으면 오류가 반환됩니다.

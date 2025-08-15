@@ -22,7 +22,7 @@ MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fie
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: [!DNL `True`] 및 [!DNL `False`] 값으로 초기화된 수정할 수 없는 사전이 있는 [!DNL `SingleFixedTag`]의 특수 사례입니다.
+* [!DNL `BooleanTag`]: [!DNL `SingleFixedTag`] 및 [!DNL `True`] 값으로 초기화된 수정할 수 없는 사전이 있는 [!DNL `False`]의 특수 사례입니다.
 
 * [!DNL `Color`]
 * [!DNL `Date`]

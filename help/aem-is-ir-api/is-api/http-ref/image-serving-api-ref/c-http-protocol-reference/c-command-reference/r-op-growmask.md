@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 속성 {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-현재 레이어 또는 `layer=comp`인 경우 `0` 레이어에 적용됩니다.
+현재 레이어 또는 `0`인 경우 `layer=comp` 레이어에 적용됩니다.
 
 ## 기본값 {#section-14c908bb87cb42acbea709effea2f964}
 

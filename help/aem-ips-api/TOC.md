@@ -16,7 +16,7 @@ ht-degree: 1%
 + [Dynamic Media 이미지 프로덕션 시스템 API 정보](c-overview.md)
 + [더 이상 사용되지 않는 호출](c-deprecated-calls.md)
 + [IPS 웹 서비스 WSDL 버전](c-wsdl-versions.md)
-+ 작업 메서드 {#operation-methods}
++ 작업 방법 {#operation-methods}
    + [작업 메서드](operations/c-operations-intro/c-operations-intro.md)
    + 작업 매개 변수 {#operation-parameters}
       + [작업 매개 변수 개요](operations/c-operations-intro/c-methods/c-methods.md)
@@ -176,7 +176,7 @@ ht-degree: 1%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ 데이터 형식 {#data-types}
++ 데이터 유형 {#data-types}
    + [데이터 유형](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -425,10 +425,10 @@ ht-degree: 1%
    + [Photoshop 레이어 이름 지정 모드](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [PostScript 색상 공간 모드](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [프로필 클래스](string-constants/c-string-constants/r-profile-classes.md)
-   + [Publish 주](string-constants/c-string-constants/r-publish-state.md)
+   + [게시 상태](string-constants/c-string-constants/r-publish-state.md)
    + [속성 집합 유형](string-constants/c-string-constants/r-property-set-types.md)
-   + [Publish 컨텍스트](string-constants/c-string-constants/r-publish-context.md)
-   + [Publish 유형](string-constants/c-string-constants/r-publish-types.md)
+   + [게시 컨텍스트](string-constants/c-string-constants/r-publish-context.md)
+   + [게시 유형](string-constants/c-string-constants/r-publish-types.md)
    + [영역 모양](string-constants/c-string-constants/r-region-shape.md)
    + [일치 모드 검색](string-constants/c-string-constants/r-search-match-modes.md)
    + [정렬 방향](string-constants/c-string-constants/r-sort-directions.md)
@@ -438,7 +438,7 @@ ht-degree: 1%
    + [사용자 역할](string-constants/c-string-constants/r-user-roles.md)
    + [사용자 정렬 필드](string-constants/c-string-constants/r-user-sort-fields.md)
    + [뷰어 유형](string-constants/c-string-constants/r-viewer-type.md)
-+ 오류 {#faults}
++ 장애 {#faults}
    + [오류 개요](faults/c-faults/c-faults.md)
    + [authenticationFault](faults/c-faults/r-authentication-fault.md)
    + [authorizationFault](faults/c-faults/r-authorization-fault.md)

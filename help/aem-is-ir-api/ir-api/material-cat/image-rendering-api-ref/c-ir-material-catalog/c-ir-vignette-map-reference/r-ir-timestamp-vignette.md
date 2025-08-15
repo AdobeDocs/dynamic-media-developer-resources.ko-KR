@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,11 @@ Java™ 형식의 날짜/시간 값입니다. 이 값은 자정, 1970년 1월 1�
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
 * *[!DNL hh]*&#x200B;은(는) 0~23 범위에 있습니다.
 * *[!DNL zzz]*&#x200B;은(는) &#39;GMT&#39; 또는 &#39;PST&#39;와 같은 3~4자 표준 시간대 코드입니다. 일광 절약 시간제는 시간대 코드(예: 태평양 표준시간의 경우 &#39;PST&#39;, 태평양 일광 절약 시간제의 경우 &#39;PDT&#39;)에서 계산해야 합니다.
-* *[!DNL offset]*&#x200B;은(는) GMT를 기준으로 한 시간대 오프셋(시간 또는 시간:분 단위)입니다. 예를 들어 &#39;PDT&#39;는 &#39;GMT -7&#39;과 같습니다.
+* *[!DNL offset]*&#x200B;은(는) GMT를 기준으로 한 시간 또는 시간 단위의 시간대 오프셋:minutes입니다. 예를 들어 &#39;PDT&#39;는 &#39;GMT -7&#39;과 같습니다.
 
 문자열 형식의 날짜/시간 값의 모든 요소가 있어야 합니다. 날짜/시간 값의 형식이 올바르지 않으면 이 값이 무시되고 대신 [!DNL *[!DNL catalog]*.ini] 파일의 수정 시간이 사용됩니다.
 

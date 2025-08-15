@@ -1,6 +1,6 @@
 ---
 title: Scene7 2016년 가을 릴리스
-description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Scene7 2016년 가을 릴리스의 최신 릴리스 정보입니다.
+description: Adobe Experience Cloud Adobe Experience Manager 솔루션의 일부인 Adobe Scene7 2016년 가을 릴리스의 최신 릴리스 정보입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Scene7 2016년 가을 릴리스{#scene-fall-release}
 
-Adobe Experience Cloud에 있는 Adobe Scene7 Adobe Experience Manager 솔루션의 2016년 가을 릴리스 부분에 대한 최신 릴리스 정보입니다.
+Adobe Experience Cloud Adobe Experience Manager 솔루션의 Adobe Scene7 2016년 가을 릴리스 부분에 대한 최신 릴리스 정보입니다.
 
 ## Scene7 2016년 가을 릴리스 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-[!DNL Adobe Experience Cloud]에 있는 [!DNL Adobe Experience Manager] 솔루션의 [!DNL Adobe Scene7] 2016년 가을 릴리스 부분에 대한 최신 릴리스 정보입니다.
+[!DNL Adobe Scene7]에 있는 [!DNL Adobe Experience Manager] 솔루션의 [!DNL Adobe Experience Cloud] 2016년 가을 릴리스 부분에 대한 최신 릴리스 정보입니다.
 
 * [일반](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -30,18 +30,18 @@ Adobe Experience Cloud에 있는 Adobe Scene7 Adobe Experience Manager 솔루션
 
 ## 일반 {#section-52afeb72ecb34c1585ea67a5051825a2}
 
-Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하게 됩니다.
+Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하게 되었습니다.
 
-[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=ko#dynamic)를 참조하십시오.
+[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)를 참조하십시오.
 
-## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
+## 이미지 생산 시스템 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko)을(를) 참조하십시오.
+전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)을(를) 참조하십시오.
 
 **새로운 기능, 개선 사항 및 버그 수정**
 
 * [!DNL Adobe Scene7 Publishing System] 사용자 인터페이스에서 비디오 다시 자르기 기능을 제거했습니다.
-* 필요하고 가능한 경우 모든 Scene7 서블릿에 인증이 추가되었습니다
+* 필요한 경우와 가능한 경우 모든 Scene7 서블릿에 인증이 추가되었습니다
 * 휴지통의 목록 보기와 관련된 버그 수정.
 * 보안 문제로 인해 사용자 관리에서 **Dynamic Media Classic(Scene7) 관리자 만들기** 사용자 기능을 제거했습니다.
 * FTP WebAdmin이 이제 OKTA 인증을 지원합니다.
@@ -58,7 +58,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.3에 대한 버그 수정**
 
@@ -68,7 +68,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.2에 대한 버그 수정**
 
@@ -77,7 +77,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.1에 대한 새로운 기능, 개선 사항 및 버그 수정**
 
@@ -121,10 +121,10 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * HTC 모바일 장치
 
-   * HTC 모바일 장치 Adobe의 결과는 기본 핀치 확대/축소를 비활성화할 수 없음이 HTC UI 래퍼 (HTC 센스)의 &quot;기능&quot;임을 보여줍니다. 이 문제로 인해 뷰어에서 &quot;핀치 투 줌&quot; 제스처를 사용할 때 전체 페이지가 확대/축소될 수 있습니다. 대신 두 번 탭하여 사용하는 것이 좋습니다.
+   * HTC 모바일 장치 Adobe의 결과는 기본 핀치 확대/축소를 비활성화하지 못하는 것이 HTC UI 래퍼 (HTC 센스)의 &quot;기능&quot;임을 보여줍니다. 이 문제로 인해 뷰어에서 &quot;핀치 투 줌&quot; 제스처를 사용할 때 전체 페이지가 확대/축소될 수 있습니다. 대신 두 번 탭하여 사용하는 것이 좋습니다.
    * 이미지 맵 아이콘들은 이미지 맵들이 작고 함께 닫혀 있는 경우 중첩될 수 있다.
 
-* HTML5 비디오
+* HTML 비디오
 
    * Internet Explorer 9: 사용자 지정 포스터 이미지가 표시되지 않습니다.
    * `IntialBitRate` 수정자는 소프트웨어 HLS 및 Flash HDS 재생에서만 지원됩니다. 재생이 기본 플레이어를 사용하는 경우 작동하지 않습니다.
@@ -172,7 +172,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
    * 닫기 단추는 뷰어가 하위 창에 열려 있는 경우에만 작동합니다.
    * `iscommands` 한정자는 이미지 크기에 영향을 주는 이미지 제공 한정자를 지원하지 않습니다.
 
-* HTML5 eCatalog
+* HTML eCatalog
 
    * 다른 HTML 페이지로 이동한 다음 다시 돌아가는 경우 뷰어가 다시 첫 번째 페이지로 재설정됩니다.
    * iOS 디바이스를 회전한 후 페이지 레이아웃이 잘못 표시되는 경우가 있습니다. 페이지 확대/축소는 레이아웃을 수정합니다.
@@ -180,7 +180,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
    * InitalFrame은 여러 페이지 스프레드에서 맨 왼쪽 페이지에만 연결됩니다. 세로 모드에서 모바일 장치에 영향을 줍니다.
    * 브라우저 제한 사항으로 인해 IE9에서는 인쇄 기능을 사용할 수 없습니다.
 
-* HTML5 MixedMedia
+* HTML5 혼합 미디어
 
    * 사운드트랙 재생은 지원되지 않습니다.
 
@@ -188,27 +188,27 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
    * 발신 이메일에서 썸네일을 제대로 렌더링하려면 `serverurl` 한정자에 절대 URL이 있어야 합니다.
 
-* HTML5 비디오
+* HTML 비디오
 
-   * 포스터 이미지에 &quot;최대 크기&quot; 오류가 발생할 수 있습니다. 회사는 이미지 제공 Publish에 대한 제한 설정을 늘려야 합니다.
-   * HTML 페이지 호스팅이 외부 서버(Scene7 서버 아님)에서 제공되는 경우 비디오 캡션에는 회사 규칙 세트가 필요합니다. 도움이 필요하면 Adobe 지원 센터에 문의하십시오.
+   * 포스터 이미지에 &quot;최대 크기&quot; 오류가 발생할 수 있습니다. 회사는 이미지 제공 게시의 제한 설정을 늘려야 합니다.
+   * HTML 페이지 호스팅이 외부 서버(Scene7 서버가 아님)에서 제공되는 경우 비디오 캡션에는 회사 규칙 세트가 필요합니다. 도움이 필요하면 Adobe 지원 센터에 문의하십시오.
    * Analytics 추적에서 버퍼링으로 인해 잘못된 재생 비율이 보고될 수 있음
    * 포스터 이미지 대신 검정색 프레임이 iPad 또는 Android™ 디바이스에 표시될 수 있습니다.
    * iPad 또는 Android™ 장치에서 뷰어를 로드하는 동안 화면에서 검은색 프레임이 깜박일 수 있습니다.
    * iPad 장치에서 배경을 흰색/투명으로 설정하면 VideoPlayer 구성 요소 옆에 검정색 테두리가 표시됩니다.
    * iOS 7을 사용하여 비디오의 마지막 프레임이 iPad에서 왜곡될 수 있습니다.
-   * Chrome, Firefox 및 Internet Explorer 브라우저의 HLS 스트리밍 모드에서 비디오 검색 중에 가끔 매크로차단이 발생할 수 있습니다.
+   * Chrome, Firefox 및 Internet Explorer 브라우저에서 HLS 스트리밍 모드로 비디오를 검색하는 동안 가끔 매크로블로킹이 발생할 수 있습니다.
       * 포스터 이미지가 Microsoft® Edge 브라우저에 처음 표시되지 않을 수 있습니다.
       * 포스터 이미지는 점진적 재생을 사용할 때 Internet Explorer 9에서 비디오 로드 후 숨겨질 수 있습니다.
 
 ## Scene7 HTML5 뷰어 SDK 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-사용 안내서는 클라이언트 설치의 Adobe HTML5 Viewer SDK 폴더에 있습니다. 구성 요소 API 설명서는 클라이언트 설치의 docs 하위 폴더에 있습니다.
+사용 안내서는 클라이언트 설치의 Adobe HTML5 뷰어 SDK 폴더에 있습니다. 구성 요소 API 설명서는 클라이언트 설치의 docs 하위 폴더에 있습니다.
 
 **3.0.2에 대한 버그 수정**
 
 * VideoPlayer - Windows 7의 Internet Explorer 11에서 비디오를 재생하지 못했습니다.
-* TableOfContents - `initialframe`이(가) HTML 5 eCatalog 뷰어의 모바일 장치에서 세로 모드에 영향을 주지 않았습니다.
+* TableOfContents - `initialframe`이(가) HTML5 eCatalog 뷰어의 모바일 장치에서 세로 모드에 영향을 주지 않았습니다.
 
 **3.0.1에 대한 새로운 기능, 개선 사항 및 버그 수정**
 
@@ -302,7 +302,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 * 컨테이너
 
-   * 컨테이너의 테두리, 패딩 및 여백은 지원되지 않습니다. Adobe은 상위 DIV에 스타일 요소를 추가할 것을 제안합니다.
+   * 컨테이너의 테두리, 패딩 및 여백은 지원되지 않습니다. Adobe에서는 상위 DIV에 스타일 요소를 추가하는 것이 좋습니다.
    * 컨테이너 크기를 명시적으로 설정해야 합니다. 그렇지 않으면 구성 요소의 크기가 올바르게 지정될 수 있습니다.
 
 * 인쇄 구성 요소

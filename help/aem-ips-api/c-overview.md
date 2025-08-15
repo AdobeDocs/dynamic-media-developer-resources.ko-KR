@@ -16,11 +16,11 @@ ht-degree: 0%
 
 IPS(이미지 프로덕션 시스템) 웹 서비스 API를 사용하면 외부 애플리케이션과 타사 개발자가 IPS 에셋 및 기능에 프로그래밍 방식으로 액세스할 수 있습니다.
 
-이 참조 안내서에서는 IPS 웹 서비스 API에 사용되는 모든 서비스, 메서드 및 데이터 형식을 포함하고 정의합니다. Java™(Apache Axis2 라이브러리 사용), Flex Adobe 및 Microsoft® .NET과의 호환성을 테스트했습니다.
+이 참조 안내서에서는 IPS 웹 서비스 API에 사용되는 모든 서비스, 메서드 및 데이터 형식을 포함하고 정의합니다. Java™(Apache Axis2 라이브러리 사용), Adobe Flex 및 Microsoft® .NET과의 호환성을 테스트했습니다.
 
 ## 표준 및 프로토콜 {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-IPS API는 표준 SOAP 및 HTTP 프로토콜을 사용하며 이러한 표준을 준수하는 모든 클라이언트와 호환됩니다. 추가 테스트는 API가 Java™(Apache Axis2 라이브러리 사용), Flex Adobe 및 Microsoft® .NET과 호환되는지 확인하는 데 도움이 됩니다.
+IPS API는 표준 SOAP 및 HTTP 프로토콜을 사용하며 이러한 표준을 준수하는 모든 클라이언트와 호환됩니다. 추가 테스트는 API가 Java™(Apache Axis2 라이브러리 사용), Adobe Flex 및 Microsoft® .NET과 호환되는지 확인하는 데 도움이 됩니다.
 
 >[!MORELIKETHIS]
 >

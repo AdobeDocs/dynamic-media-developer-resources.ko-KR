@@ -19,7 +19,7 @@ ht-degree: 0%
 
 뷰어 하단에 있는 썸네일은 자산 유형 표시기와 함께 각 미디어 세트 요소를 나타냅니다. 견본 세트 요소를 선택하면 견본 세트 내의 색상 변화를 선택할 수 있는 보조 견본 행이 나타납니다. 이미지 및 견본 세트 요소는 연속 또는 인라인 모드에서 확대/축소를 지원하고 회전 세트는 확대/축소와 회전을 모두 지원합니다. 비디오 및 응용 비디오 세트는 선택적 폐쇄 캡션이 비디오 컨텐츠 위에 표시되는 한 모든 기본 재생 컨트롤을 지원합니다. 사용자는 전체 화면 버튼을 클릭하여 언제든지 전체 화면으로 전환할 수 있습니다. 뷰어에는 선택 사항인 닫기 버튼이 있습니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 
-혼합 미디어 뷰어는 기본 시스템이 이를 지원할 때마다 기본 구성에서 HLS 형식의 HTML5 스트리밍 비디오 재생을 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서는 뷰어가 HTML5 점진적 비디오 제공으로 대체됩니다.
+혼합 미디어 뷰어는 기본 시스템이 HTML을 지원할 때마다 기본 구성으로 HLS 5 스트리밍 비디오 재생을 사용합니다. HTML5 스트리밍을 지원하지 않는 시스템에서는 뷰어가 HTML5 점진적 비디오 제공으로 대체됩니다.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
 >[!NOTE]
 >
->페이지의 기본 뷰어 JavaScript `include` 파일만 참조합니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드에 있는 추가 JavaScript 파일을 참조하지 마십시오. 특히 `/s7viewers` 컨텍스트 경로(통합 SDK `include`이라고 함)에서 뷰어가 로드한 HTML5 SDK `Utils.js` 라이브러리를 직접 참조하지 마십시오. 그 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리의 위치가 뷰어의 논리에 의해 완전히 관리되고 뷰어 릴리스 간 위치가 변경되기 때문입니다. Adobe이 서버에 이전 버전의 보조 뷰어 `includes`을(를) 보관하지 않습니다.
+>페이지의 기본 뷰어 JavaScript `include` 파일만 참조합니다. 런타임 시 뷰어의 논리로 다운로드할 수 있는 웹 페이지 코드에 있는 추가 JavaScript 파일을 참조하지 마십시오. 특히 `Utils.js` 컨텍스트 경로의 뷰어가 로드한 HTML5 SDK `/s7viewers` 라이브러리(이른바 통합 SDK `include`)를 직접 참조하지 마십시오. 그 이유는 `Utils.js` 또는 유사한 런타임 뷰어 라이브러리의 위치가 뷰어의 논리에 의해 완전히 관리되고 뷰어 릴리스 간 위치가 변경되기 때문입니다. Adobe은 서버에 이전 버전의 보조 뷰어 `includes`을(를) 보관하지 않습니다.
 >
 >
 >따라서 뷰어가 사용하는 보조 JavaScript `include`을(를) 페이지에서 직접 참조하면 나중에 새 제품 버전을 배포할 때 뷰어 기능이 중단됩니다.
@@ -172,7 +172,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    이 뷰어는 다중 항목 세트로 작업할 때 썸네일을 표시합니다. 데스크탑 시스템에서는 썸네일이 기본 보기 아래에 배치됩니다. 동시에 뷰어는 `setAsset()` API를 사용하여 런타임 중에 기본 자산을 교환할 수 있습니다. 개발자는 새 에셋에 항목이 하나만 있을 때 맨 아래에 있는 썸네일 영역을 뷰어가 관리하는 방법을 제어할 수 있습니다. 외부 뷰어 크기를 그대로 유지하고 기본 보기에서 높이를 늘리고 축소판 영역을 차지하도록 할 수 있습니다. 또는 기본 보기 크기를 정적으로 유지하고 외부 뷰어 영역을 축소하여 웹 페이지 콘텐츠를 위로 이동할 수 있습니다. 그런 다음 썸네일에서 남은 무료 페이지 부동산을 사용합니다.
 
-   외부 뷰어 경계를 그대로 유지하려면 `.s7mixedmediaviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의하십시오. CSS의 크기 조정은 HTML 페이지 또는 사용자 지정 뷰어 CSS 파일에 바로 지정할 수 있으며, 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당되거나 style 명령을 사용하여 명시적으로 전달될 수 있습니다.
+   외부 뷰어 경계를 그대로 유지하려면 `.s7mixedmediaviewer` 최상위 CSS 클래스의 크기를 절대 단위로 정의하십시오. CSS의 크기 조절은 HTML 페이지 바로 위 또는 사용자 지정 뷰어 CSS 파일에 지정하고 나중에 Dynamic Media Classic의 뷰어 사전 설정 레코드에 할당하거나 style 명령을 사용하여 명시적으로 전달할 수 있습니다.
 
    CSS를 사용하여 뷰어를 스타일링하는 방법에 대한 자세한 내용은 [혼합 미디어 뷰어 사용자 지정](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4)을 참조하십시오.
 
@@ -187,11 +187,11 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    다음 샘플 페이지에서 외부 뷰어 영역이 고정된 비헤이비어를 볼 수 있습니다. 세트 간에 전환할 때 외부 뷰어 크기는 변경되지 않습니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   기본 보기 차원을 정적으로 설정하려면 `.s7mixedmediaviewer .s7container` CSS 선택기를 사용하거나 `stagesize` 한정자를 사용하여 내부 `Container` SDK 구성 요소의 뷰어 크기를 절대 단위로 정의합니다.
+   기본 보기 차원을 정적으로 만들려면 `Container` CSS 선택기를 사용하거나 `.s7mixedmediaviewer .s7container` 한정자를 사용하여 내부 `stagesize` SDK 구성 요소에 대한 뷰어 크기를 절대 단위로 정의합니다.
 
-   다음은 자산을 전환할 때 기본 보기 영역의 크기가 변경되지 않도록 내부 `Container` SDK 구성 요소의 뷰어 크기를 정의하는 예입니다.
+   다음은 자산을 전환할 때 기본 보기 영역이 크기를 변경하지 않도록 내부 `Container` SDK 구성 요소에 대한 뷰어 크기를 정의하는 예입니다.
 
    ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -202,7 +202,7 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
    다음 샘플 페이지에서는 기본 보기 크기가 고정된 뷰어 동작을 보여 줍니다. 세트 간에 전환하면 기본 보기는 정적으로 유지되며 웹 페이지 컨텐츠가 세로로 이동합니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
    Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정하거나 `params` 컬렉션이 있는 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. 또는 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 사용됩니다.
 
@@ -214,9 +214,9 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
 
 1. 뷰어를 만들고 초기화하는 중입니다.
 
-   위의 단계를 완료하면 `s7viewers.MixedMediaViewer` 클래스의 인스턴스를 만들고 모든 구성 정보를 해당 생성자에 전달하고 뷰어 인스턴스에서 `init()` 메서드를 호출합니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 뷰어가 지원하는 구성 매개 변수와 함께 뷰어 컨테이너 ID 및 중첩된 `params` JSON 개체의 이름이 들어 있는 `containerId` 필드가 있어야 합니다. 이 경우 `params` 개체에는 적어도 `serverUrl` 속성으로 전달된 이미지 제공 URL, `videoserverurl` 속성으로 전달된 비디오 서버 URL, `asset` 매개 변수로 전달된 초기 자산이 있어야 합니다. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
+   위의 단계를 완료하면 `s7viewers.MixedMediaViewer` 클래스의 인스턴스를 만들고 모든 구성 정보를 해당 생성자에 전달하고 뷰어 인스턴스에서 `init()` 메서드를 호출합니다. 구성 정보는 JSON 개체로 생성자에 전달됩니다. 최소한 이 개체에는 뷰어가 지원하는 구성 매개 변수와 함께 뷰어 컨테이너 ID 및 중첩된 `containerId` JSON 개체의 이름이 들어 있는 `params` 필드가 있어야 합니다. 이 경우 `params` 개체에는 적어도 `serverUrl` 속성으로 전달된 이미지 제공 URL, `videoserverurl` 속성으로 전달된 비디오 서버 URL, `asset` 매개 변수로 전달된 초기 자산이 있어야 합니다. JSON 기반 초기화 API를 사용하면 단일 코드 행으로 뷰어를 만들고 시작할 수 있습니다.
 
-   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `BODY` 태그를 닫기 직전에 또는 본문 `onload()` 이벤트에서 `init()` 메서드를 호출하십시오.
+   뷰어 코드가 ID로 컨테이너 요소를 찾을 수 있도록 뷰어 컨테이너를 DOM에 추가해야 합니다. 일부 브라우저는 웹 페이지가 끝날 때까지 DOM 빌드를 지연합니다. 호환성을 최대화하려면 `init()` 태그를 닫기 직전에 또는 본문 `BODY` 이벤트에서 `onload()` 메서드를 호출하십시오.
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 작업이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
@@ -329,7 +329,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [라이브 데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
+[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## 폭 및 높이가 정의된 유연한 크기 포함 {#section-0a329016f9414d199039776645c693de}
 

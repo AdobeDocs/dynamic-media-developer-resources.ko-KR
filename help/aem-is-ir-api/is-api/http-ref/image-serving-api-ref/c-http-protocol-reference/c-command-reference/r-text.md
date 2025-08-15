@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 속성 {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 같은 레이어의 `src=` 및 `textPs=`과(와) 함께 사용할 수 없습니다. `text=`, `textPs=` 및 `src=`의 마지막 항목이 우세하여 이것이 이미지 레이어인지 텍스트 레이어인지를 결정합니다. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=0`인 경우 `layer=comp`에 적용됩니다. 같은 레이어의 `src=` 및 `textPs=`과(와) 함께 사용할 수 없습니다. `text=`, `textPs=` 및 `src=`의 마지막 항목이 우세하여 이것이 이미지 레이어인지 텍스트 레이어인지를 결정합니다. 효과 레이어에서 무시됨.
 
 ## 기본값 {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## 예 {#section-d011f765ec5c418d814a821019b0eef0}
 
-[템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)에서 [텍스트 서식](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) 및 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)의 예제를 참조하십시오.
+[템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c)에서 [텍스트 서식](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) 및 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)의 예제를 참조하십시오.
 
 ## 참조 {#section-207b779ab67342a5acd343e6bcc749c4}
 

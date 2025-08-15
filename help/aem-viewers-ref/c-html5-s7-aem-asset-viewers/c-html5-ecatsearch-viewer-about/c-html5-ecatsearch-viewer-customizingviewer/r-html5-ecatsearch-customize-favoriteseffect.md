@@ -57,7 +57,7 @@ ht-degree: 0%
 }
 ```
 
-데스크톱 시스템에서 구성 요소는 `.s7favoriteseffect` 클래스에 적용할 수 있는 `cursortype` 특성 선택기를 지원하고 선택한 사용자 작업을 기반으로 커서 형식을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
+데스크톱 시스템에서 구성 요소는 `cursortype` 클래스에 적용할 수 있는 `.s7favoriteseffect` 특성 선택기를 지원하고 선택한 사용자 작업을 기반으로 커서 형식을 제어합니다. 다음 `cursortype` 값이 지원됩니다.
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 

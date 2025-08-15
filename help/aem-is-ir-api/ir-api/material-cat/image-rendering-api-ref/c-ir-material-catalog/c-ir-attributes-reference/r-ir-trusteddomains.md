@@ -1,6 +1,6 @@
 ---
 title: 트러스트된 도메인
-description: Flash 애플리케이션 웹 도메인. Adobe Flash 응용 프로그램을 사용하려면 swf 형식으로 제공된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
+description: Flash 애플리케이션 웹 도메인. Adobe Flash 응용 프로그램에서는 swf 형식으로 제공된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # 트러스트된 도메인{#trusteddomains}
 
-Flash 애플리케이션 웹 도메인. Adobe Flash 응용 프로그램을 사용하려면 swf 형식으로 제공된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
+Flash 애플리케이션 웹 도메인. Adobe Flash 응용 프로그램에서는 swf 형식으로 제공된 이미지의 속성에 액세스해야 할 수 있습니다. swf는 신뢰할 수 있는 응용 프로그램 도메인의 이름을 등록하여 액세스 권한을 명시적으로 부여해야 합니다.
 
 ## 속성 {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 

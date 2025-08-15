@@ -20,7 +20,7 @@ ht-degree: 1%
 
 *`reqId`* 고유 요청 식별자
 
-이름이 `catalogRecord.exists`인 단일 속성을 반환합니다. 지정된 카탈로그 항목이 이미지 또는 기본 카탈로그에 있는 경우 속성 값은 &quot;1&quot;로 설정되고, 그렇지 않은 경우 속성 값은 &quot;0&quot;으로 설정됩니다. `/is/content` 컨텍스트에 대한 `req=exists` 요청은 정적 콘텐츠 카탈로그에 지정된 레코드가 있는지 여부를 나타냅니다.
+이름이 `catalogRecord.exists`인 단일 속성을 반환합니다. 지정된 카탈로그 항목이 이미지 또는 기본 카탈로그에 있는 경우 속성 값은 &quot;1&quot;로 설정되고, 그렇지 않은 경우 속성 값은 &quot;0&quot;으로 설정됩니다. `req=exists` 컨텍스트에 대한 `/is/content` 요청은 정적 콘텐츠 카탈로그에 지정된 레코드가 있는지 여부를 나타냅니다.
 
 요청 문자열의 다른 명령은 무시됩니다. `attribute::NonImgExpiration`을(를) 기반으로 하는 TTL로 HTTP 응답을 캐시할 수 있습니다.
 

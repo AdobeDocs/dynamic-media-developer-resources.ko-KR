@@ -43,7 +43,7 @@ ht-degree: 1%
 
 이미지 또는 레이어 속성. `layer=comp`인 경우 레이어 0에 적용됩니다. 효과 레이어에서 무시됨.
 
-*`object`*&#x200B;은(는) `catalog::Modifier`에서 `src=` 또는 `mask=` 명령을 포함하는 카탈로그 레코드로 확인할 수 없습니다.
+*`object`*&#x200B;은(는) `src=`에서 `mask=` 또는 `catalog::Modifier` 명령을 포함하는 카탈로그 레코드로 확인할 수 없습니다.
 
 `is` 및 `ir` 접두사는 대/소문자를 구분하지 않습니다.
 

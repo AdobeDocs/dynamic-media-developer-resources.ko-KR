@@ -32,8 +32,8 @@ Linux®에 이미지 서비스를 설치한 후 설치를 확인합니다.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
+[!DNL  http:// *[!DNL server:port]*/ir/render]
 
-응답에서 [!DNL Platform Server]이(가) 이미지 서버와 성공적으로 통신할 수 있음을 나타내는 `imageServer`(으)로 시작하는 항목이 있는지 확인합니다.
+응답에서 `imageServer`이(가) 이미지 서버와 성공적으로 통신할 수 있음을 나타내는 [!DNL Platform Server]&#x200B;(으)로 시작하는 항목이 있는지 확인합니다.
 
 >설명서 및 데모 패키지(설치된 경우)의 샘플 페이지를 사용하여 추가 확인을 수행할 수 있습니다.

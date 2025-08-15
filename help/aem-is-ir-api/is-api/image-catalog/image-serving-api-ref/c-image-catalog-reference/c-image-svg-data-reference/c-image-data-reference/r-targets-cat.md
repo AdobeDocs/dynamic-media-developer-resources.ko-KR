@@ -16,7 +16,7 @@ ht-degree: 1%
 
 확대/축소 대상 데이터. 확대/축소 뷰어 클라이언트와 함께 사용할 수 있는 확대/축소 대상 속성이 하나 이상 없습니다.
 
-서버에서 &#39;`??`&#39; 레코드 종결자 토큰을 바꾼 후 `req=targets`에 대한 응답으로 이 필드의 내용을 반환합니다.
+서버에서 &#39;`req=targets`&#39; 레코드 종결자 토큰을 바꾼 후 `??`에 대한 응답으로 이 필드의 내용을 반환합니다.
 
 각 확대/축소 대상에는 최대 4개의 속성이 연관될 수 있습니다.
 
@@ -57,11 +57,11 @@ ht-degree: 1%
 
 타겟. *`num`*.rect는 각 확대/축소 대상에 필요하며 이미지 내에 사각형을 완전히 지정해야 합니다. 다른 모든 속성은 선택 사항입니다.
 
-*`label`* 및 *`userData`*&#x200B;이(가) 텍스트 문자열 로컬라이제이션에 참여합니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
+*`label`* 및 *`userData`*&#x200B;이(가) 텍스트 문자열 로컬라이제이션에 참여합니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
 
 회전 및 브로셔 뷰어 클라이언트와 관련된 애플리케이션의 경우 이미지 세트를 정의하는 동일한 카탈로그 레코드에서 확대/축소 대상을 정의해야 합니다. 이미지 집합 멤버의 카탈로그 레코드에 있는 확대/축소 대상 정의는 뷰어에서 무시됩니다.
 
-Dynamic Media 뷰어에는 `catalog::Modifier`의 명령으로 이미 조정된 전체 해상도 이미지의 좌표에서 확대/축소 대상이 필요합니다.
+Dynamic Media 뷰어에는 `catalog::Modifier`의 명령에 의해 이미 조정된 전체 해상도 이미지의 좌표에서 확대/축소 대상이 필요합니다.
 
 ## 속성 {#section-b3f8eba4985f4b00bb935d592fe770f9}
 

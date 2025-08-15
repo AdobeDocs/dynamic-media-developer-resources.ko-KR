@@ -177,7 +177,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>다른 이메일 주소 추가 단추. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span>에서 <span class="codeph"> EmailShare.FROM </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">에서 </span> EmailShare.FROM </p> </td> 
    <td colname="col2"> <p>입력 필드에서. </p> </td> 
   </tr> 
   <tr> 
@@ -321,7 +321,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>"현재 페이지" 라디오 단추의 캡션 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> </span>에서 <span class="codeph"> Print.PRINT_RANGE_FROM </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">에서 </span> Print.PRINT_RANGE_FROM </p> </td> 
    <td colname="col2"> <p>라디오 단추에서 범위 분산 캡션입니다. </p> </td> 
   </tr> 
   <tr> 

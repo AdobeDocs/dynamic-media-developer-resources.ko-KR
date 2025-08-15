@@ -31,7 +31,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-`*`pathName`*` 및 `*`pathDefinition`*`에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오.
+[pathName](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) 및 `*`pathDefinition`*`에 대한 설명을 포함한 추가 정보는 `*`clipPath=`*`을(를) 참조하십시오.
 
 ## 속성 {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 

@@ -28,7 +28,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|무료 </span> </p> </td> 
-   <td colname="col2"> <p> 탐색 프레임 위치를 제어합니다. </p> <p></span> 이미지에 <span class="codeph">(으)로 설정하면 기본 보기 내의 실제 이미지 영역 내에만 탐색 프레임을 배치할 수 있습니다. </p> <p><span class="codeph"> 사용 가능 </span>(으)로 설정하면 사용자가 이미지 컨텐츠 외부에서도 논리 기본 보기 영역의 아무 곳에나 탐색 프레임을 이동할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 탐색 프레임 위치를 제어합니다. </p> <p><span class="codeph"> 이미지에 </span>(으)로 설정하면 기본 보기 내의 실제 이미지 영역 내에만 탐색 프레임을 배치할 수 있습니다. </p> <p><span class="codeph"> 사용 가능 </span>(으)로 설정하면 사용자가 이미지 컨텐츠 외부에서도 논리 기본 보기 영역의 아무 곳에나 탐색 프레임을 이동할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

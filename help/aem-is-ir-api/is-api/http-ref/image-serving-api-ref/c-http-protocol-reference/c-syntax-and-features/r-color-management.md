@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0c9a489c-36e0-4934-b9c5-33414a9ce0b8
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 
 >[!NOTE]
 >
->`op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` 및 `op_saturation=` 명령은 RGB 작업입니다. 이러한 작업은 레이어 색상 공간이 RGB 픽셀 유형인 경우에만 색상 충실도를 유지합니다. RGB 이외에는 순한 색 변환을 사용하여 데이터가 RGB으로 변환되며 그 결과 색상 충실도가 제한됩니다. 이러한 레이어들에 대한 레이어 색상 공간은 결정되지 않은 것으로 간주되어야 한다.
+>`op_brightness=`, `op_colorbalance=`, `op_colorize=`, `op_contrast=`, `op_hue=` 및 `op_saturation=` 명령은 RGB 작업입니다. 이러한 작업은 레이어 색상 공간에 RGB 픽셀 유형이 있는 경우에만 색상 충실도를 유지합니다. RGB 이외의 경우 순한 색상 변환을 사용하여 데이터가 RGB으로 변환되며 그 결과 색상 충실도가 제한됩니다. 이러한 레이어들에 대한 레이어 색상 공간은 결정되지 않은 것으로 간주되어야 한다.
 
 색상 변환 옵션은 `icc=`과(와) 함께 제공되거나, `icc=`이(가) 지정되지 않은 경우 `attribute::IccRenderIntent`, `attribute::IccBlackPointCompensation` 및 `attribute::IccDither`과(와) 함께 제공됩니다.
 
@@ -76,13 +76,13 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 
 ## 포함된 ICC 색상 프로파일 {#section-98b4a7d9f9814e8ba27d6dcf3dcf850c}
 
-이미지 제공에는 기본 이미지 카탈로그에 있는 대부분의 표준 Adobe ICC 프로파일이 포함됩니다. 이러한 프로필은 일반적인 이름(예: Photoshop에 표시됨)이나 더 짧은 식별자를 사용하여 액세스할 수 있습니다. 다음 표에는 모든 표준 ICC 프로파일이 나열되어 있습니다. `icc=` 명령의 프로필을 공통 이름으로 참조할 때 공백은 `%20`(으)로 인코딩해야 합니다.
+이미지 제공에는 기본 이미지 카탈로그에 있는 대부분의 표준 Adobe ICC 프로필이 포함됩니다. 이러한 프로필은 일반적인 이름(예: Photoshop에 표시됨)이나 더 짧은 식별자를 사용하여 액세스할 수 있습니다. 다음 표에는 모든 표준 ICC 프로파일이 나열되어 있습니다. `icc=` 명령의 프로필을 공통 이름으로 참조할 때 공백은 `%20`(으)로 인코딩해야 합니다.
 
 기본 카탈로그나 특정 이미지 카탈로그에 추가 프로필을 표준 프로필에 추가할 수 있습니다. 자세한 내용은 [ICC 프로필 맵 참조](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)를 참조하십시오.
 
 >[!NOTE]
 >
->다음 표는 *Dynamic Media Hybrid*&#x200B;에만 적용됩니다(`dynamicmedia` 실행 모드에서 실행).
+>다음 표는 *Dynamic Media 하이브리드*&#x200B;에만 적용됩니다(`dynamicmedia` 실행 모드에서 실행).
 
 | 식별자 | 일반 이름 | 파일 이름 |
 |-- |-- |-- |
@@ -98,9 +98,9 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 | `sRGB` | sRGB IEC61966-2.1 | sRgb 색상 공간 Profile.icm |
 | `WideGamutRGB` | 광영역 RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | 코팅 FOGRA27(ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | 코팅 FOGRA39(ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `CoatedGraCol` | 코팅 GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `CoatedFogra27` | 코팅된 FOGRA27(ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | 코팅된 FOGRA39(ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `CoatedGraCol` | 코팅된 GRACoL 2006(ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 유럽 ISO 코팅 FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `EuroscaleCoated` | 유로스케일 코팅 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -116,7 +116,7 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 | `SheetfedUncoated` | 미국 Sheetfed Uncoated v2 | USSheetfedUncoated.icc |
 | `UncoatedFogra29` | 코팅되지 않은 FOGRA29(ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | 웹 코팅 FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | 웹으로 코팅된 FOGRA28(ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `WebCoatedGrade3` | Web Coated SWOP 2006 Grade 3 용지 | WebCoatedSWOP2006Grade3.icc |
 | `WebCoatedGrade5` | 웹코팅 SWOP 2006 Grade 5 용지 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |
@@ -137,9 +137,9 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 | `sRGB` | sRGB IEC61966-2.1 | sRgb 색상 공간 Profile.icm |
 | `WideGamutRGB` | 광영역 RGB | WideGamutRGB.icc |
 | **CMYK** |  |  |
-| `CoatedFogra27` | 코팅 FOGRA27(ISO 12647-2:2004) | CoatedFOGRA27.icc |
-| `CoatedFogra39` | 코팅 FOGRA39(ISO 12647-2:2004) | CoatedFOGRA39.icc |
-| `Coated GRACoL 2006 (ISO 12647-2:2004)` | 코팅 GRACoL 2006 (ISO 12647-2:2004) | CoatedGRACoL2006.icc |
+| `CoatedFogra27` | 코팅된 FOGRA27(ISO 12647-2:2004) | CoatedFOGRA27.icc |
+| `CoatedFogra39` | 코팅된 FOGRA39(ISO 12647-2:2004) | CoatedFOGRA39.icc |
+| `Coated GRACoL 2006 (ISO 12647-2:2004)` | 코팅된 GRACoL 2006(ISO 12647-2:2004) | CoatedGRACoL2006.icc |
 | `EuropeISOCoated` | 유럽 ISO 코팅 FOGRA27 | EuropeISOCoatedFOGRA27.icc |
 | `Euroscale Coated v2` | Euroscale Coated v2 | EuroscaleCoated.icc |
 | `EuroscaleUncoated` | Euroscale Uncoated v2 | EuroscaleUncoated.icc |
@@ -155,7 +155,7 @@ Source 이미지는 ICC 프로파일을 포함하여 입력 색상 공간을 정
 | `UncoatedFogra29` | 코팅되지 않은 FOGRA29(ISO 12647-2:2004) | UncoatedFOGRA29.icc |
 | `US Newsprint (SNAP 2007)` | 미국 신문용지(SNAP 2007) | USNewsprintSNAP2007.icc |
 | `WebCoated` | U.S. Web Coated (SWOP) v2 | USWebCoatedSWOP.icc |
-| `WebCoatedFogra28` | 웹 코팅 FOGRA28 (ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
+| `WebCoatedFogra28` | 웹으로 코팅된 FOGRA28(ISO 12647-2:2004) | WebCoatedFOGRA28.icc |
 | `Web Coated SWOP 2006 Grade 3 Paper` | Web Coated SWOP 2006 Grade 3 용지 | WebCoatedSWOP2006Grade3.icc |
 | `Web Coated SWOP Grade 5 Paper` | 웹코팅 SWOP 2006 Grade 5 용지 | WebCoatedSWOP2006Grade5.icc |
 | `WebUncoated` | U.S. Web Uncoated v2 | USWebUncoated.icc |

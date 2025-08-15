@@ -1,5 +1,5 @@
 ---
-description: Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media에서 개발한 애플리케이션 외부에서 사용할 수 없습니다.
+description: Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media로 개발된 응용 프로그램 외부에서 사용할 수 없습니다.
 solution: Experience Manager
 title: 제한된 사용
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 제한된 사용{#restricted-use}
 
-Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media에서 개발한 애플리케이션 외부에서 사용할 수 없습니다.
+Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된 작업 및 데이터 유형은 Dynamic Media로 개발된 응용 프로그램 외부에서 사용할 수 없습니다.
 
 이러한 작업 및 유형은 후속 시스템 업데이트 시 비활성화, 변경 또는 사용 중단될 수 있습니다.
 
@@ -52,57 +52,57 @@ Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된
 
 **수정된 형식**
 
-* `createVideoSitemapJob` 형식을 포함하도록 `ActiveJob`을(를) 변경했습니다.
+* `ActiveJob` 형식을 포함하도록 `createVideoSitemapJob`을(를) 변경했습니다.
 
-* `createVideoSitemapJob` 형식을 포함하도록 `ScheduledJob`을(를) 변경했습니다.
+* `ScheduledJob` 형식을 포함하도록 `createVideoSitemapJob`을(를) 변경했습니다.
 
-* 선택적 `contextHandle`을(를) 포함하도록 `ImageServingPublishJob`을(를) 변경했습니다.
+* 선택적 `ImageServingPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
 
-* 선택적 `contextHandle`을(를) 포함하도록 `ImageRenderingPublishJob`을(를) 변경했습니다.
+* 선택적 `ImageRenderingPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
 
-* 선택적 `initialTagField`을(를) 포함하도록 `MetadataField`을(를) 변경했습니다.
+* 선택적 `MetadataField`을(를) 포함하도록 `initialTagField`을(를) 변경했습니다.
 
-* 및 선택적 `caseSensitive` 매개 변수를 포함하도록 `MetadataCondition`을(를) 변경했습니다.
+* 및 선택적 `MetadataCondition` 매개 변수를 포함하도록 `caseSensitive`을(를) 변경했습니다.
 
-* 선택적 `PermissionArray`을(를) `permissions`(으)로 포함하도록 `PropertySet`을(를) 변경함
+* 선택적 `PropertySet`을(를) `PermissionArray`(으)로 포함하도록 `permissions`을(를) 변경함
 
-* 선택적 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수를 포함하도록 `UploadDirectoryJob`을(를) 변경했습니다.
+* 선택적 `UploadDirectoryJob`, `xmpKeywords` 및 `xmpTemplateId` 매개 변수를 포함하도록 `xmpTemplateOverride`을(를) 변경했습니다.
 
-* 선택적 `contextHandle`을(를) 포함하도록 `VideoPublishJob`을(를) 변경했습니다.
+* 선택적 `VideoPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
 
 **수정된 작업**
 
-* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createAssetSet`을(를) 변경했습니다.
+* 선택적 `createAssetSet`을(를) 포함하도록 `thumbAssetHandle`을(를) 변경했습니다.
 
-* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createImageSet`을(를) 변경했습니다.
+* 선택적 `createImageSet`을(를) 포함하도록 `thumbAssetHandle`을(를) 변경했습니다.
 
-* 선택적 `initialTagValue` 매개 변수를 포함하도록 `createMetadataField`을(를) 변경했습니다.
+* 선택적 `createMetadataField` 매개 변수를 포함하도록 `initialTagValue`을(를) 변경했습니다.
 
-* 선택적 `PermissionUpdateArray`을(를) `permissionArray`(으)로 포함하도록 `createPropertySet`을(를) 변경함
+* 선택적 `createPropertySet`을(를) `PermissionUpdateArray`(으)로 포함하도록 `permissionArray`을(를) 변경함
 
-* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageServingPublishSettings`을(를) 변경했습니다.
+* 선택적 `getImageServingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
 
-* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageRenderingPublishSettings`을(를) 변경했습니다.
+* 선택적 `getImageRenderingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
 
 * 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByFullText`을(를) 변경했습니다.
 
-   * `filters` 매개 변수로 `SearchFilter`
+   * `SearchFilter` 매개 변수로 `filters`
 
    * `sortBy`
    * `sortDirection`
 
 * 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByMetadata`을(를) 변경했습니다.
 
-   * `filters` 매개 변수로 `SearchFilter`
+   * `SearchFilter` 매개 변수로 `filters`
 
    * `sortBy`
    * `sortDirection`
    * 7개 매개 변수의 `haystackSearch` 시퀀스
 
-* 선택적 `HandleArray`을(를) `contextHandleArray`(으)로 포함하도록 `setAssetPublishState`을(를) 변경함
+* 선택적 `setAssetPublishState`을(를) `HandleArray`(으)로 포함하도록 `contextHandleArray`을(를) 변경함
 
-* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageServingPublishSettings`을(를) 변경했습니다.
+* 선택적 `setImageServingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
 
-* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageRenderingPublishSettings`을(를) 변경했습니다.
+* 선택적 `setImageRenderingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
 
-* 선택적 `createVideoSitemap` 작업 유형을 포함하도록 `submitJob`을(를) 변경했습니다.
+* 선택적 `submitJob` 작업 유형을 포함하도록 `createVideoSitemap`을(를) 변경했습니다.

@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> 비디오 재생 종료 시 뷰어에 "콜 투 액션" 패널이 표시되는지 여부를 나타냅니다. </p> </td> 
+   <td colname="col2"> <p> 비디오 재생이 끝날 때 뷰어에 "call-to-action" 패널이 표시되는지 여부를 나타냅니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

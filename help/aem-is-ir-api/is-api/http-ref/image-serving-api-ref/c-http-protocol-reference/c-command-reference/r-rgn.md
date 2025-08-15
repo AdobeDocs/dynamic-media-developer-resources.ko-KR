@@ -39,7 +39,7 @@ rgn= *`coord`*, *`size`*
 
 합성 이미지 외부로 확장된 ROI 영역에 `bgc=`(으)로 패딩됩니다.
 
-`scl=`, `wid=`, `hei=`, `fit=`, `rect=` 또는 `align=`을(를) 사용하여 최종 크기 조정 및 맞춤 전에 `rgn=`을(를) 적용합니다.
+`rgn=`, `scl=`, `wid=`, `hei=`, `fit=` 또는 `rect=`을(를) 사용하여 최종 크기 조정 및 맞춤 전에 `align=`을(를) 적용합니다.
 
 ## 기본값 {#section-6a3df8f670084def900ffef9dab7e94a}
 

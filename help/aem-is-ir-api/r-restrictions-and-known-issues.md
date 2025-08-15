@@ -1,5 +1,5 @@
 ---
-description: Dynamic Media 이미지 서비스 제공 을 사용할 때 고려해야 하는 몇 가지 제한 사항과 알려진 문제가 있습니다.
+description: Dynamic Media 이미지 서비스 제공 을 사용할 때 고려해야 할 몇 가지 제한 사항과 알려진 문제가 있습니다.
 solution: Experience Manager
 title: 제한 사항 및 알려진 문제
 feature: Dynamic Media Classic,SDK/API
@@ -7,21 +7,21 @@ role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
 
 # 제한 사항 및 알려진 문제{#restrictions-and-known-issues}
 
-Dynamic Media 이미지 서비스 제공 을 사용할 때 고려해야 하는 몇 가지 제한 사항과 알려진 문제가 있습니다.
+Dynamic Media 이미지 서비스 제공 을 사용할 때 고려해야 할 몇 가지 제한 사항과 알려진 문제가 있습니다.
 
 ## 설명서 정오표 {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
 * 줄 수가 `\copyfitmaxlines` 설정의 최대값과 텍스트 입력에 있는 명시적 줄 수를 초과하지 않습니다.
 * 이미지 집합에 일치하는 중괄호와 괄호가 필요합니다. 중괄호와 괄호가 일치하지 않으면 URL로 인코딩해야 합니다.
 * 서버측 글로벌 응답 시간 경고에 오류 응답이 포함됩니다.
-* 이미지 또는 마스크 요청에 `rect=` 명령을 사용할 때는 현재 `id=` 명령이 필요합니다.
+* 이미지 또는 마스크 요청에 `id=` 명령을 사용할 때는 현재 `rect=` 명령이 필요합니다.
 
 ## 알려진 차이점 textPs= 와 text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -65,7 +65,7 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
   서버 A가 `errorRedirect.rootUrl=10.10.10.10` 을(를) 정의했습니다.
 
-  IP 주소가 10.10.10.10인 서버 B는 규칙 세트 파일에서 `<addressfilter>` 태그 값을 설정하여 IP 주소(10.10.10.10)를 포함합니다.
+  IP 주소가 10.10.10.10인 서버 B가 규칙 집합 파일의 `<addressfilter>` 태그 값을 설정하여 해당 IP 주소(10.10.10.10)를 포함합니다.
 
 * 위치 지정이 있는 점 텍스트 및 텍스트 패스는 클리핑을 나타낼 수 있습니다.
 * `text=`은(는) 단락별로 적용되지 않고 전체 텍스트 블록에만 `\sa` 및 `\sb`을(를) 적용합니다.
@@ -88,19 +88,19 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
   이미지 렌더링 비피라미드형 비네팅의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일에서 IrMaxNonPyrVignetteSize의 속성 값을 늘립니다.
 
-  이미지 제공 비피라미드형 TIFF의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일에서 `MaxNonDsfSize`의 속성 값을 늘리십시오.
+  이미지 제공 비피라미드형 TIFF의 경우 `MaxNonDsfSize` 구성 파일에서 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]의 속성 값을 늘리십시오.
 
-* Adobe [!DNL Photoshop] CS3은(는) 기본적으로 합성 이미지로 계층화된 PSD 파일을 저장하지 않습니다.
+* Adobe [!DNL Photoshop] CS3은 기본적으로 합성 이미지로 계층화된 PSD 파일을 저장하지 않습니다.
 
   *증상*:
 
-  Adobe [!DNL Photoshop] CS3 계층화된 PSD 파일이 &quot;이 계층화된 [!DNL Photoshop] 파일이 복합 이미지로 저장되지 않았습니다.&quot;라는 텍스트가 있는 검정색으로 표시됩니다. 이미지 제공 응답 이미지용 또는 IPS용
+  Adobe [!DNL Photoshop] CS3 계층화된 PSD 파일은 &quot;이 계층화된 [!DNL Photoshop] 파일이 합성 이미지로 저장되지 않았습니다.&quot;라는 텍스트가 있는 검정색으로 표시됩니다. 이미지 제공 응답 이미지용 또는 IPS용
 
   *해결 방법*:
 
   호환성 최대화가 설정된 Adobe [!DNL Photoshop] CS3 파일을 저장합니다.
 
-* ICC 프로파일을 CMYK/JPEG 응답 이미지에 할당하면 일부 브라우저에서 색상이 반전됩니다.*해결 방법*:
+* CMYK/JPEG 회신 이미지에 ICC 프로필을 할당하면 일부 브라우저에서 색상이 반전됩니다.*해결 방법*:
 
   `fmt=`을(를) 사용하여 응답 이미지 형식 변경
 
@@ -117,14 +117,14 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 * 색상 프로파일이 포함된 PNG 이미지의 색상을 수정하면 하드 코딩된 옵션이 사용됩니다. 렌더링 의도는 상대 색도계이며 PhotoFont 텍스트에 대해 검은 점 보상이 켜져 있습니다.
 * 회사 [!DNL ini] 파일에서 로케일 변환이 활성화된 경우 파일 기반 조회가 지원되지 않습니다.
 * 이미지 제공에서 닫히지 않은 [!DNL Photoshop] 경로를 올바르게 쓰지 않습니다.
-* 이미지 제공은 현재 Adobe Media Encoder 4.0.1 이전 버전을 사용하여 내보낸 TIFF 파일의 처리를 지원하지 않습니다. Adobe Media Encoder은 Premiere Pro CS4, After Effects CS4 및 Creative Suite 4 Production Premium에 포함되어 있습니다.
+* 이미지 제공은 현재 Adobe Media Encoder 4.0.1 또는 이전 버전을 사용하여 내보낸 TIFF 파일의 처리를 지원하지 않습니다. Adobe Media Encoder은 Premiere Pro CS4, After Effects CS4 및 Creative Suite 4 Production Premium에 포함되어 있습니다.
 * 자체 크기 조정 레이어와 함께 `text=`을(를) 사용하면 줄 양쪽 맞춤에 두 개 이상의 설정을 사용하는 RTF 문자열이 지원되지 않습니다.
 
   *예*
 
   RTF 문자열은 자체 크기 조정 텍스트 레이어의 왼쪽 및 오른쪽 줄 양쪽 맞춤을 모두 사용할 수 없습니다.
 
-* SVG은 SVG 파일에 포함되지 않은 참조된 글꼴의 글꼴 조회 경로에 대한 자체 속성이 있습니다.
+* SVG에는 SVG 파일에 포함되지 않은 참조된 글꼴의 글꼴 조회 경로에 대한 자체 속성이 있습니다.
 
   *증상*
 
@@ -132,9 +132,9 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
   *해결 방법*
 
-  [!DNL install_root/ImageServing/conf/PlatformServer.conf]에서 `svgProvider.fontRoot=` 속성을 설정합니다.
+  `svgProvider.fontRoot=`에서 [!DNL install_root/ImageServing/conf/PlatformServer.conf] 속성을 설정합니다.
 
-* 자르기는 현재 `color=` 대신 `bgColor=`을(를) 사용하여 새로 확장된 영역을 채우는 중입니다.
+* 자르기는 현재 `bgColor=` 대신 `color=`을(를) 사용하여 새로 확장된 영역을 채우는 중입니다.
 
 * `bgColor=`이(가) 색상 프로파일을 포함하는 기본 색상 공간과 일치하지 않으면 색상 변환이 올바르지 않을 수 있습니다.
 * 레이어에 마스크나 알파 데이터가 없으면 외부 레이어 효과가 렌더링되지 않습니다.

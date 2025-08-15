@@ -29,7 +29,7 @@ ht-degree: 18%
 
 `referencePoint <string> (northWest, north, northEast, west, center, east, southWest, south, southEast, none, inherit)`
 
-기본값은 none입니다. `inherit` 값은 `none`이(가) 아닌 경우 페이지 또는 그룹 수준의 맨 위에서 모든 하위 항목에 `s7:referencePoint` 값을 전달합니다. `none` 설정은 개체에 대한 참조점이 없으며 FXG 좌표계가 사용됨을 의미합니다.
+기본값은 none입니다. `inherit` 값은 `s7:referencePoint`이(가) 아닌 경우 페이지 또는 그룹 수준의 맨 위에서 모든 하위 항목에 `none` 값을 전달합니다. `none` 설정은 개체에 대한 참조점이 없으며 FXG 좌표계가 사용됨을 의미합니다.
 
 >[!NOTE]
 >

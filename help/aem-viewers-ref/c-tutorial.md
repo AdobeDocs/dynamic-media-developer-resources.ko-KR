@@ -1,6 +1,6 @@
 ---
-title: Viewer SDK 자습서
-description: Viewer SDK는 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 콘텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
+title: 뷰어 SDK 자습서
+description: 뷰어 SDK은 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Viewer SDK 자습서{#viewer-sdk-tutorial}
+# 뷰어 SDK 자습서{#viewer-sdk-tutorial}
 
-Viewer SDK는 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 콘텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
+뷰어 SDK은 사용자 지정 뷰어 개발을 위한 JavaScript 기반 구성 요소 집합을 제공합니다. 뷰어는 Adobe Dynamic Media에서 제공하는 리치 미디어 컨텐츠를 웹 페이지에 포함할 수 있는 웹 기반 애플리케이션입니다.
 
-예를 들어 SDK는 대화형 확대/축소 및 패닝을 제공합니다. 또한 Dynamic Media Classic이라는 백엔드 애플리케이션을 통해 Adobe Dynamic Media에 업로드된 에셋의 360° 보기 및 비디오 재생을 제공합니다.
+예를 들어 SDK은 대화형 확대/축소 및 패닝을 제공합니다. 또한 Dynamic Media Classic이라는 백엔드 애플리케이션을 통해 Adobe Dynamic Media에 업로드된 에셋의 360° 보기 및 비디오 재생을 제공합니다.
 
 구성 요소는 HTML5 기능을 사용하지만 Android™ 및 Apple iOS 장치와 Internet Explorer 이상을 포함한 데스크톱에서 작동하도록 설계되었습니다. 이러한 종류의 경험은 지원되는 모든 플랫폼에 대해 단일 워크플로우를 제공할 수 있음을 의미합니다.
 
-SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS와, 정의 설정 가져오기, 구문 분석 또는 추적과 같은 일종의 지원 역할을 하는 비 UI 구성 요소를 통해 이러한 구성 요소의 스타일을 지정할 수 있습니다. 모든 구성 요소 동작은 수정자를 통해 사용자 지정할 수 있습니다. 예를 들어 URL에 `name=value` 쌍으로 지정할 수 있습니다.
+SDK은 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS와, 정의 설정 가져오기, 구문 분석 또는 추적과 같은 일종의 지원 역할을 하는 비 UI 구성 요소를 통해 이러한 구성 요소의 스타일을 지정할 수 있습니다. 모든 구성 요소 동작은 수정자를 통해 사용자 지정할 수 있습니다. 예를 들어 URL에 `name=value` 쌍으로 지정할 수 있습니다.
 
 이 자습서에는 기본 확대/축소 뷰어를 만드는 데 도움이 되는 다음 작업 순서가 포함되어 있습니다.
 
@@ -34,17 +34,17 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 ## Adobe Developer Connection에서 최신 Viewer SDK 다운로드 {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->에서 최신 Viewer SDK를 다운로드합니다.
+1. Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->에서 최신 Viewer SDK을 다운로드합니다.
 
    >[!NOTE]
    >
-   >SDK가 원격으로 로드되므로 Viewer SDK 패키지를 다운로드할 필요 없이 이 자습서를 완료할 수 있습니다. 그러나 뷰어 패키지에는 고유한 뷰어를 만드는 데 도움이 되는 추가 예와 API 참조 안내서가 포함되어 있습니다.
+   >SDK이 원격으로 로드되므로 Viewer SDK 패키지를 다운로드할 필요 없이 이 자습서를 완료할 수 있습니다. 그러나 뷰어 패키지에는 고유한 뷰어를 만드는 데 도움이 되는 추가 예와 API 참조 안내서가 포함되어 있습니다.
 
-## Viewer SDK 로드 {#section-98596c276faf4cf79ccf558a9f4432c6}
+## 뷰어 SDK 로드 {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. 먼저 만들려는 기본 확대/축소 뷰어를 개발할 새 페이지를 설정합니다.
 
-   빈 SDK 애플리케이션을 설정하는 데 사용하는 Bootstrap 또는 로더 코드를 이 새 페이지로 간주합니다. 즐겨 찾는 텍스트 편집기를 열고 다음 HTML 마크업을 붙여 넣습니다.
+   빈 SDK 애플리케이션을 설정하는 데 사용하는 Bootstrap 또는 로더 코드의 새 페이지를 생각해 보십시오. 즐겨 찾는 텍스트 편집기를 열고 다음 HTML 마크업을 붙여 넣습니다.
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -123,7 +123,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 생성 중인 이 전체 페이지 뷰어의 경우 몇 가지 기본 스타일을 추가할 수 있습니다.
 
-   `head`의 아래쪽에 다음 `style` 블록을 추가하십시오.
+   `style`의 아래쪽에 다음 `head` 블록을 추가하십시오.
 
    ```html {.line-numbers}
    <style> 
@@ -148,7 +148,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 구성 요소 `Container` 및 `ZoomView`을(를) 포함하여 실제 뷰어를 만듭니다.
 
-   [!DNL Utils.js] 스크립트가 로드된 후 `<head>` 요소의 아래쪽에 다음 `include` 문을 삽입합니다.
+   `include` 스크립트가 로드된 후 `<head>` 요소의 아래쪽에 다음 [!DNL Utils.js] 문을 삽입합니다.
 
    ```javascript {.line-numbers}
    <!-- 
@@ -215,7 +215,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 사용자가 집합에서 이미지를 선택할 수 있도록 하려면 구성 요소 `MediaSet` 및 `Swatches`을(를) 추가할 수 있습니다.
 
-   다음 SDK에 다음을 포함합니다.
+   다음 SDK에 다음이 포함됩니다.
 
    ```javascript {.line-numbers}
    s7sdk.Util.lib.include('s7sdk.set.MediaSet'); 
@@ -228,9 +228,9 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. `initViewer` 함수 내에서 `MediaSet` 및 `Swatches` 구성 요소를 인스턴스화합니다.
+1. `MediaSet` 함수 내에서 `Swatches` 및 `initViewer` 구성 요소를 인스턴스화합니다.
 
-   `ZoomView` 및 `Container` 구성 요소 뒤에 `Swatches` 인스턴스를 인스턴스화하십시오. 그렇지 않으면 스택 순서가 `Swatches`을(를) 숨깁니다.
+   `Swatches` 및 `ZoomView` 구성 요소 뒤에 `Container` 인스턴스를 인스턴스화하십시오. 그렇지 않으면 스택 순서가 `Swatches`을(를) 숨깁니다.
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -372,7 +372,7 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. `ZoomViewer.css`에서 다음 `s7swatches` 규칙을 편집합니다.
+1. `s7swatches`에서 다음 `ZoomViewer.css` 규칙을 편집합니다.
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -389,4 +389,4 @@ SDK는 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
    이제 기본 확대/축소 뷰어가 완료되었습니다.
 
-   이 뷰어 튜토리얼은 Dynamic Media 뷰어 SDK가 제공하는 기본 사항에 대해 설명합니다. SDK를 사용하여 작업할 때 다양한 표준 구성 요소를 사용하여 타겟 대상을 위한 풍부한 보기 경험을 손쉽게 구축하고 스타일을 지정할 수 있습니다.
+   이 뷰어 튜토리얼은 Dynamic Media 뷰어 SDK이 제공하는 기본 사항에 대해 설명합니다. SDK을 사용하여 작업할 때 다양한 표준 구성 요소를 사용하여 타겟 대상을 위한 풍부한 보기 경험을 손쉽게 구축하고 스타일을 지정할 수 있습니다.

@@ -68,22 +68,22 @@ ht-degree: 0%
   <tr> 
    <td> <span class="codeph"> \cyan <span class="varname"> N </span> </span> </td> 
    <td> <p>사이안 색상 구성 요소입니다. </p> </td> 
-   <td> <p>Dynamic Media 확장 프로그램은 <span class="codeph"> \cmykcolortbl </span>에만 나타날 수 있습니다. 0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장 기능. <span class="codeph"> \cmykcolortbl </span>에만 표시될 수 있습니다. 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \자홍색 <span class="varname"> N </span> </span> </td> 
    <td> <p>자홍색 색상 구성 요소입니다. </p> </td> 
-   <td> <p>Dynamic Media 확장 프로그램은 <span class="codeph"> \cmykcolortbl </span>에만 나타날 수 있습니다. 0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장 기능. <span class="codeph"> \cmykcolortbl </span>에만 표시될 수 있습니다. 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \노란색 <span class="varname"> N </span> </span> </td> 
    <td> <p>노란색 색상 구성 요소입니다. </p> </td> 
-   <td> <p>Dynamic Media 확장 프로그램은 <span class="codeph"> \cmykcolortbl </span>에만 나타날 수 있습니다. 0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장 기능. <span class="codeph"> \cmykcolortbl </span>에만 표시될 수 있습니다. 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black <span class="varname"> N </span> </span> </td> 
    <td> <p>검정색 구성 요소. </p> </td> 
-   <td> <p>Dynamic Media 확장 프로그램은 <span class="codeph"> \cmykcolortbl </span>에만 나타날 수 있습니다. 0...100 </p> </td> 
+   <td> <p>Dynamic Media 확장 기능. <span class="codeph"> \cmykcolortbl </span>에만 표시될 수 있습니다. 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl <span class="varname"> N </span> </span> </td> 

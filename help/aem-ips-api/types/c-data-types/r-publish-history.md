@@ -23,6 +23,6 @@ ht-degree: 11%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | serverName | `xsd:string` | 게시 내역을 소유하는 서버의 이름입니다. |
-| contextName | `xsd:string` | Publish 내역 컨텍스트 이름. |
-| publishFormat | `xsd:string` | Publish 형식입니다. |
+| contextName | `xsd:string` | 게시 내역 컨텍스트 이름. |
+| publishFormat | `xsd:string` | 게시 형식. |
 | 마지막으로 게시됨 | `xsd:dateTime` | 에셋이 마지막으로 게시된 날짜 및 시간입니다. |

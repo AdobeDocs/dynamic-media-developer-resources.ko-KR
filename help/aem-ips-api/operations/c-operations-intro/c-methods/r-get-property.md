@@ -22,7 +22,7 @@ ht-degree: 10%
 * `IpsImageServerUrl`: IPS 이미지 서버의 전체 외부 URL 접두사입니다.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: SVG 자산을 렌더링하기 위한 URL 접두사입니다.
+* `SvgRenderRootUrl`: SVG 에셋을 렌더링하기 위한 URL 접두사입니다.
 * `SvgRenderEnabled`: `SvgRenderRootUrl`에서 SVG 자산을 렌더링할 수 있는 경우 True입니다.
 
 * `UploadPostMaxFileSize`: 업로드 [!DNL POST]에 허용되는 파일 데이터의 최대 크기(바이트)입니다. 최대 한도보다 큰 파일은 거부됩니다.

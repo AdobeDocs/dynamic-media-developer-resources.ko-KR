@@ -27,11 +27,11 @@ ht-degree: 4%
 
 *`template`*&#x200B;은(는) `catalog::Modifier`에 포함된 템플릿 본문이 있는 이미지 카탈로그 항목이어야 합니다.
 
-`template=`이(가) 있으면 요청 경로에 지정된 개체가 레이어 0의 소스로 적용되지 않습니다. 그러나 미리 정의된 경로 변수 `$object$`을(를) `src=` 값으로 사용하여 템플릿의 어디에서나 `src=` 또는 `mask=`(으)로 참조할 수 있습니다. 요청 경로에 지정된 개체의 `catalog::Modifier`은(는) 템플릿 내에서 `$object$`의 대체로만 적용되지만 `catalog::PostModifier`은(는) 항상 적용됩니다.
+`template=`이(가) 있으면 요청 경로에 지정된 개체가 레이어 0의 소스로 적용되지 않습니다. 그러나 미리 정의된 경로 변수 `src=`을(를) `mask=` 값으로 사용하여 템플릿의 어디에서나 `$object$` 또는 `src=`(으)로 참조할 수 있습니다. 요청 경로에 지정된 개체의 `catalog::Modifier`은(는) 템플릿 내에서 `$object$`의 대체로만 적용되지만 `catalog::PostModifier`은(는) 항상 적용됩니다.
 
 레이어 0은 템플릿 본문에 정의되며 이미지, 단색, 텍스트 또는 중첩 또는 임베드된 요청 레이어가 될 수 있습니다.
 
-*`object`*&#x200B;을(를) `template=`과(와) 함께 사용하면 *`object`*&#x200B;의 `catalog:PostModifier`이(가) 무시됩니다.
+`catalog:PostModifier`을(를) *`object`*&#x200B;과(와) 함께 사용하면 *`object`*&#x200B;의 `template=`이(가) 무시됩니다.
 
 ## 기본값 {#section-9de53ea27c4b4fd4811e40e345d8ba05}
 

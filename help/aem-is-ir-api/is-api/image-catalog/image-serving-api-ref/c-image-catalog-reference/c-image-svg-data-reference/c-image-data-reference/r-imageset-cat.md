@@ -115,9 +115,9 @@ ht-degree: 1%
 
 ## 속성 {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-텍스트 문자열입니다. `attribute::RootPath`을(를) 기준으로 쉼표로 구분된 `catalog::Id` 값 목록, 절대 이미지 서버 파일 경로 또는 파일 경로입니다. 세트에서 동일한 이미지를 두 번 이상 참조할 수 있습니다. 정의된 카탈로그 레코드는 임의의 위치에 있는 세트에 나타날 수 있습니다.
+텍스트 문자열입니다. `catalog::Id`을(를) 기준으로 쉼표로 구분된 `attribute::RootPath` 값 목록, 절대 이미지 서버 파일 경로 또는 파일 경로입니다. 세트에서 동일한 이미지를 두 번 이상 참조할 수 있습니다. 정의된 카탈로그 레코드는 임의의 위치에 있는 세트에 나타날 수 있습니다.
 
-이 필드는 텍스트 문자열 현지화에 적용됩니다. *`label`*&#x200B;개의 문자열(*`solidColorSpecifier`*&#x200B;의 일부) 외에 하나 이상의 &#39; `^loc=…^`&#39; 로컬라이제이션 토큰이 포함된 경우 구분된 모든 필드가 현지화됩니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
+이 필드는 텍스트 문자열 현지화에 적용됩니다. *`label`*&#x200B;개의 문자열(*`solidColorSpecifier`*&#x200B;의 일부) 외에 하나 이상의 &#39; `^loc=…^`&#39; 로컬라이제이션 토큰이 포함된 경우 구분된 모든 필드가 현지화됩니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
 
 ## 기본값 {#section-c3a60e360393478284f0f2d2da5b963b}
 

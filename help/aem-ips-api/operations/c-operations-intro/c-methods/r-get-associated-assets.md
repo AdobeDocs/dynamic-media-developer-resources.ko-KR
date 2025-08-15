@@ -134,11 +134,11 @@ ht-degree: 5%
  </tbody> 
 </table>
 
-매개 변수 `responseFieldArray` 또는 `excludeFieldArray`을(를) 사용하여 응답 크기를 제한할 수 있습니다. 특히 `generatorArray` 또는 `generatedArray`에서 반환된 `GenerationInfo` 항목은 기본적으로 원본자와 생성된 에셋 레코드를 모두 포함합니다. PDF 에셋 유형의 경우, 이 동작으로 인해 응답에 &quot;작성자&quot; PDF 에셋 레코드의 복사본이 원치 않게 여러 개 표시됩니다. `excludeFieldArray`에 `generatedArray/items/originator`을(를) 추가하여 이 문제를 제거할 수 있습니다. 또는 `responseFieldArray`에 포함할 응답 필드의 명시적 목록을 지정할 수 있습니다.
+매개 변수 `responseFieldArray` 또는 `excludeFieldArray`을(를) 사용하여 응답 크기를 제한할 수 있습니다. 특히 `GenerationInfo` 또는 `generatorArray`에서 반환된 `generatedArray` 항목은 기본적으로 원본자와 생성된 에셋 레코드를 모두 포함합니다. PDF 에셋 유형의 경우, 이 동작으로 인해 응답에 &quot;작성자&quot; PDF 에셋 레코드의 복사본이 원치 않게 여러 개 표시됩니다. `generatedArray/items/originator`에 `excludeFieldArray`을(를) 추가하여 이 문제를 제거할 수 있습니다. 또는 `responseFieldArray`에 포함할 응답 필드의 명시적 목록을 지정할 수 있습니다.
 
 ## 예제 {#section-8946ea4b9cb94912a8408249c897f192}
 
-다음의 기본 예는 PDF에서 추출된 이미지에 대한 생성기의 핸들에 대한 요청이다. 여기에는 PDF의 `assetHandle`을(를) 포함하는 항목이 있는 길이 1의 `containerArray`이(가) 포함됩니다.
+다음 기본 예는 PDF에서 추출된 이미지에 대한 생성기 핸들에 대한 요청입니다. 여기에는 PDF의 `containerArray`을(를) 포함하는 항목과 함께 길이 1의 `assetHandle`이(가) 포함됩니다.
 
 **요청**
 

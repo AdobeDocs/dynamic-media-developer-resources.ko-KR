@@ -20,7 +20,7 @@ ht-degree: 0%
 * [데이터 캐시](c-data-caches/c-data-caches.md)
 * [서버 설정](c-server-settings/c-server-settings.md)
 * [오류 시 리디렉션](c-redirect-on-error.md)
-* [구성 SVG](c-configuring-svg.md)
+* [SVG 구성](c-configuring-svg.md)
 * [서버 구성](c-manual-server-configuration.md)
 * [SSL 암호 정의](r-ssl-ciphers.md)
 * [서버 감독자](c-server-supervisor.md)

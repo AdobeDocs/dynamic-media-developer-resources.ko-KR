@@ -1,6 +1,6 @@
 ---
 title: 색상 값
-description: color= 및 bgc= 속성에 대한 색상 값은 HTML과 유사하게 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+description: color= 및 bgc= 속성에 대한 색상 값은 HTML과 마찬가지로 십진수로 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 색상 값{#color-values}
 
-`color=` 및 `bgc=` 특성에 대한 색상 값은 HTML과 유사한 10진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
+`color=` 및 `bgc=` 특성에 대한 색상 값은 HTML과 유사한 십진수, 쉼표로 구분된 구성 요소 값 목록 또는 16진수 표기법을 사용하여 지정할 수 있습니다.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 

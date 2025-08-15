@@ -1,5 +1,5 @@
 ---
-description: 이 문서에서는 Dynamic Media 이미지 렌더링용 재질 카탈로그에 대해 설명합니다.
+description: 이 문서에서는 Dynamic Media 이미지 렌더링의 재질 카탈로그에 대해 설명합니다.
 solution: Experience Manager
 title: 소개
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # 소개{#introduction}
 
-이 문서에서는 Dynamic Media 이미지 렌더링용 재질 카탈로그에 대해 설명합니다.
+이 문서에서는 Dynamic Media 이미지 렌더링의 재질 카탈로그에 대해 설명합니다.
 
 **의도한 대상**
 
-이 문서는 웹 사이트 또는 사용자 지정 애플리케이션에 Dynamic Media 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 위한 것입니다.
+이 문서는 웹 사이트 또는 사용자 지정 애플리케이션에 Dynamic Media 이미지 렌더링을 활용하려는 숙련된 프로그래머 및 웹 사이트 개발자를 대상으로 합니다.
 
-독자가 Dynamic Media 이미지 작성 및 이미지 렌더링, 일반적인 HTTP 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.
+판독기가 Dynamic Media 이미지 작성 및 이미지 렌더링, 일반적인 HTTP 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.
 
 **문서 규칙**
 

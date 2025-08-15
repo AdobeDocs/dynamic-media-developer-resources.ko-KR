@@ -16,7 +16,7 @@ ht-degree: 2%
 
 클라이언트 IP 주소 필터. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
 
-지정하면 목록에 없는 IP 주소의 클라이언트에서 가져온 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
+지정하면 목록에 없는 IP 주소의 클라이언트에서 가져온 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `localhost` 사양에 관계없이 `ClientAddressFilter`에서 시작된 요청은 거부되지 않습니다.
 
 ## 속성 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ddd.ddd.ddd.ddd]* 형식의 *[!DNL ipAddress]* IP 주소
+* *[!DNL ipAddress]* 형식의 *[!DNL ddd.ddd.ddd.ddd]* IP 주소
 
 * *[!DNL netmask]* 넷 마스크(0...32)
 

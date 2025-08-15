@@ -20,15 +20,15 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> 템플릿</span></span> </p> </td> 
-   <td> <p>정보 서버에서 반환된 데이터가 병합되는 컨텐츠 템플릿입니다. </p> <p>컨텐트 템플릿은 이 DTD 다음에 나오는 XML입니다. </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
+   <td> <p>정보 서버에서 반환된 데이터가 병합되는 컨텐츠 템플릿입니다. </p> <p>컨텐트 템플릿은 이 DTD 다음에 나오는 XML입니다. </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      &rbrack;&gt;</code> </p> <p>콘텐츠 템플릿의 실제 구문은 다음과 같습니다. </p> <p> <code>&lt;info&gt;
+      ]&gt;</code> </p> <p>콘텐츠 템플릿의 실제 구문은 다음과 같습니다. </p> <p> <code>&lt;info&gt;
       &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&gt;
-      &lt;!&lbrack;CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
+      &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]&gt;
       &lt;/info&gt;</code> </p> <p>즉, 템플릿은 선택적 기본 <span class="codeph"> &lt;var&gt;</span> 요소를 포함할 수 있는 <span class="codeph"> &lt;info&gt;</span> 요소로 시작해야 합니다. 템플릿 콘텐츠 자체 <span class="codeph"> TEMPLATE_CONTENT</span>이(가) HTML 텍스트입니다. 또한 콘텐츠 템플릿에는 <span class="codeph"> $</span>자로 둘러싸인 변수 이름이 포함될 수 있습니다. 이러한 문자는 정보 서버가 반환하는 변수 값이나 기본 값으로 대체됩니다. </p> <p>템플릿에 정의된 기본 변수는 전역(롤오버 특성이 설정되지 않은 경우) 또는 특정 롤오버 키(롤오버 특성이 있는 경우)일 수 있습니다. </p> <p>키를 롤오버하는 데 특정한 템플릿 처리 변수는 전역 변수보다 우선합니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->정보 패널 팝업을 구성할 때 정보 패널에 전달된 HTML 코드와 JavaScript 코드가 클라이언트의 컴퓨터에서 실행됩니다. 따라서 이러한 HTML 코드와 JavaScript 코드가 안전한지 확인하십시오.
+>정보 패널 팝업을 구성할 때 정보 패널에 전달된 HTML 코드와 JavaScript 코드가 클라이언트의 컴퓨터에서 실행됩니다. 따라서 이러한 HTML 코드 및 JavaScript 코드가 안전한지 확인하십시오.
 
 ## 속성 {#section-6dd7785357d740d095fa9f7fd0f67da4}
 

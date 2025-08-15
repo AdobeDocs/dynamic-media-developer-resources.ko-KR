@@ -26,4 +26,4 @@ ht-degree: 0%
 
 ## 외부 웹 페이지로 리디렉션 {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Experience Manager Dynamic Media에서 작업 유형 &quot;빠른 보기&quot;로 작성된 핫스팟 또는 이미지 맵은 사용자를 외부 URL로 리디렉션합니다. 작성 중에 설정된 설정에 따라 URL이 새 브라우저 탭, 동일한 창 또는 명명된 브라우저 창에서 열립니다.
+Experience Manager의 Dynamic Media에서 작업 유형 &quot;빠른 보기&quot;로 작성된 핫스팟 또는 이미지 맵은 사용자를 외부 URL로 리디렉션합니다. 작성 중에 설정된 설정에 따라 URL이 새 브라우저 탭, 동일한 창 또는 명명된 브라우저 창에서 열립니다.

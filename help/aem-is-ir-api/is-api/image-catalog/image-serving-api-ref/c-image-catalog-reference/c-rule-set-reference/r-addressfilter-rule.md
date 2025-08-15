@@ -32,7 +32,7 @@ ht-degree: 5%
 
 `<addressfilter>`이(가) 비어 있거나 지정되지 않은 경우 액세스가 제한되지 않습니다.
 
-`<rule>` 요소의 `<expression>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
+`<expression>` 요소의 `<rule>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
 
 ## 참조 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

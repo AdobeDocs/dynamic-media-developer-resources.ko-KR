@@ -26,7 +26,7 @@ IPS API 버전 3.8에 대한 새로운 문자열 상수와 변경된 문자열 �
 
 * 값: `Rectangle` 및 `Polygon`.
 
-**Publish 상태**
+**게시 상태**
 
 * 사용한 사람: `searchAssetsParam/publishState` 및 `setAssetPublishStateParam/publishState`.
 

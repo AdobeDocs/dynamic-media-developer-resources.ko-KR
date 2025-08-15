@@ -24,9 +24,9 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 가져와야 합니다.
+>업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 발생해야 합니다.
 
-**Dynamic Media 지역의 URL에 액세스**
+**Dynamic Media 영역에 대한 URL에 액세스**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -61,11 +61,11 @@ https://<server>/scene7/UploadFile
 
 >[!NOTE]
 >
->업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 가져와야 합니다.
+>업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 발생해야 합니다.
 
 |  HTTP POST 양식 부분  |  설명  |
 |---|---|
-| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서. [SOAP](/help/aem-ips-api/c-wsdl-versions.md)에서 **인증 요청**&#x200B;을 참조하십시오. |
+| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서. **SOAP**&#x200B;에서 [인증 요청](/help/aem-ips-api/c-wsdl-versions.md)을 참조하십시오. |
 | `file params`  |   선택 사항입니다. 각 POST 요청과 함께 업로드할 파일을 하나 이상 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 각 파일 부분은 IPS의 대상 파일 이름으로 사용되는 Content-Disposition 헤더에 파일 이름 매개 변수를 포함할 수 있습니다. |
 
 |  HTTP POST 양식 부분   |  uploadPostParams 요소 이름   |  유형   |  설명   |
@@ -80,19 +80,19 @@ https://<server>/scene7/UploadFile
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택 사항입니다. 기본값은 false입니다. |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams`이(가) 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) 보기 |
 
-포함된 파일의 처리를 지정하는 `<uploadParams>` 블록은 `<uploadPostParams>` 블록 내에 있습니다.
+포함된 파일의 처리를 지정하는 `<uploadPostParams>` 블록은 `<uploadParams>` 블록 내에 있습니다.
 
 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)을(를) 참조하십시오.
 
 동일한 작업의 일부로 개별 파일에 대해 `uploadParams` 매개 변수가 변경될 수 있다고 가정할 수는 있지만, 이는 사실이 아닙니다. 전체 작업에 동일한 `uploadParams` 매개 변수를 사용합니다.
 
-새 업로드 작업에 대한 초기 POST 요청에서 `jobName` 매개 변수를 지정해야 합니다. 특히 고유한 작업 이름을 사용하여 후속 작업 상태 폴링 및 작업 로그 쿼리를 단순화해야 합니다. 동일한 업로드 작업에 대한 추가 POST 요청에서는 초기 요청에서 반환된 `jobHandle` 값을 사용하여 `jobName` 대신 `jobHandle` 매개 변수를 지정해야 합니다.
+새 업로드 작업에 대한 초기 POST 요청에서는 `jobName` 매개 변수를 지정해야 합니다. 이 매개 변수는 후속 작업 상태 폴링 및 작업 로그 쿼리를 단순화하기 위해 고유한 작업 이름을 사용하는 것이 좋습니다. 동일한 업로드 작업에 대한 추가 POST 요청에서는 초기 요청에서 반환된 `jobHandle` 값을 사용하여 `jobName` 대신 `jobHandle` 매개 변수를 지정해야 합니다.
 
 업로드 작업에 대한 최종 POST 요청은 `endJob` 매개 변수를 true로 설정하여 이 작업에 대해 이후 파일이 POST되지 않도록 해야 합니다. 이렇게 하면 모든 POST된 파일이 수집된 후 작업을 즉시 완료할 수 있습니다. 그렇지 않으면 30분 내에 추가 POST 요청이 수신되지 않으면 작업 시간이 초과됩니다.
 
 ## UploadPOST 응답 {#section-421df5cc04d44e23a464059aad86d64e}
 
-성공적인 POST 요청의 경우 XSD가 다음에서 지정하는 대로 응답 본문은 XML `uploadPostReturn` 문서입니다.
+XSD가 다음에서 지정하는 대로 성공적인 POST 요청의 경우 응답 본문은 XML `uploadPostReturn` 문서입니다.
 
 ```xml {.line-numbers}
 <element name="uploadPostReturn"> 
@@ -104,7 +104,7 @@ https://<server>/scene7/UploadFile
     </element>
 ```
 
-반환된 `jobHandle`은(는) 동일한 작업에 대한 후속 POST 요청에 대해 `uploadPostParams`/ `jobHandle` 매개 변수로 전달됩니다. `getActiveJobs` 작업으로 작업 상태를 폴링하거나 `getJobLogDetails` 작업으로 작업 로그를 쿼리하는 데에도 사용할 수 있습니다.
+반환된 `jobHandle`이(가) 동일한 작업에 대한 후속 POST 요청의 `uploadPostParams`/ `jobHandle` 매개 변수로 전달되었습니다. `getActiveJobs` 작업으로 작업 상태를 폴링하거나 `getJobLogDetails` 작업으로 작업 로그를 쿼리하는 데에도 사용할 수 있습니다.
 
 POST 요청을 처리하는 동안 오류가 발생하면 응답 본문은 [오류](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)에 설명된 API 오류 유형 중 하나로 구성됩니다.
 

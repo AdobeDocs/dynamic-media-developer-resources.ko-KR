@@ -41,11 +41,11 @@ ht-degree: 2%
 
 `http:// *`서버`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-`wid=` 및 `hei=`을(를) 사용하지 않고 레이어 0에 `size=`을(를) 적용하여 보기 크기를 설정합니다. 이 메서드를 사용하면 `labelImage`의 최종 크기를 변경하지 않고 `myImageId`의 크기를 조정할 수 있습니다. 또한 `scl=1`을(를) 지정하십시오. 그렇지 않으면 합성 이미지가 `attribute::DefaultPix`(0,0(으)로 설정되지 않은 경우)로 조정될 수 있습니다. 수정자 `color=`은(는) 회전 전에 텍스트 상자에 반불투명 배경색을 추가합니다.
+`size=` 및 `wid=`을(를) 사용하지 않고 레이어 0에 `hei=`을(를) 적용하여 보기 크기를 설정합니다. 이 메서드를 사용하면 `myImageId`의 최종 크기를 변경하지 않고 `labelImage`의 크기를 조정할 수 있습니다. 또한 `scl=1`을(를) 지정하십시오. 그렇지 않으면 합성 이미지가 `attribute::DefaultPix`(0,0(으)로 설정되지 않은 경우)로 조정될 수 있습니다. 수정자 `color=`은(는) 회전 전에 텍스트 상자에 반불투명 배경색을 추가합니다.
 
 두 레이어의 원점을 왼쪽 위 모서리로 설정하여 원하는 정렬을 수행합니다. 레이어 1의 원점은 회전한 후 `labelImage`에 적용됩니다.
 
-회전된 텍스트의 예제는 [템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)의 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)을(를) 참조하십시오.
+회전된 텍스트의 예제는 [템플릿](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac)의 [예제 A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e)을(를) 참조하십시오.
 
 ## 참조 {#section-c371ee0845994b7382c02e782d1bc595}
 

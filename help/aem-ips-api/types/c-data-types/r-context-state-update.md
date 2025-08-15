@@ -51,4 +51,4 @@ ht-degree: 9%
 
 >[!MORELIKETHIS]
 >
->* [Publish 상태](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [게시 상태](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

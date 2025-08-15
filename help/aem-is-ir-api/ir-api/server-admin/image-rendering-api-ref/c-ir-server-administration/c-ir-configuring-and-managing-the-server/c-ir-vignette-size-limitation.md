@@ -16,7 +16,7 @@ ht-degree: 0%
 
 이미지 렌더링은 비피라미드 비네팅에 대해 2메가픽셀 크기 제한을 적용합니다.
 
-응용 프로그램에서 이미지 영역(너비 x 높이)이 이 제한보다 큰 비피라미드 비네팅을 지원하려면 [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf]에서 `IrMaxNonPyrVignetteSize` 값을 수정합니다.
+응용 프로그램에서 이미지 영역(너비 x 높이)이 이 제한보다 큰 비피라미드 비네팅을 지원하려면 [!DNL `IrMaxNonPyrVignetteSize` /ImageServing/conf /ImageServerRegistry.conf]에서 *[!DNL install_root]* 값을 수정합니다.
 
 >[!NOTE]
 >

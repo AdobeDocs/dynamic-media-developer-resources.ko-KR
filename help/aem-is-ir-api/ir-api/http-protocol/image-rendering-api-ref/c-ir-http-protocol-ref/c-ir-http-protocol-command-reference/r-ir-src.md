@@ -33,7 +33,7 @@ ht-degree: 1%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 이미지 렌더링은 Dynamic Media 이미지 제공과 동일한 소스 이미지 형식을 지원합니다.
 
-서로 다른 여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 가장 잘 수행됩니다. 이미지 제공에는 지원되는 모든 형식에서 PTIFF 이미지를 생성하는 이미지 변환기(IC) 유틸리티가 포함되어 있습니다.
+서로 다른 여러 해상도의 이미지 데이터가 필요한 응용 프로그램은 Scene7 피라미드 TIFF(PTIFF) 다중 해상도 형식을 사용할 때 성능이 가장 좋습니다. 이미지 제공에는 지원되는 모든 형식에서 PTIFF 이미지를 생성하는 이미지 변환기(IC) 유틸리티가 포함되어 있습니다.
 
 지원되는 파일 형식의 전체 목록은 이미지 제공 설명서의 IC 유틸리티 설명을 참조하십시오.
 
@@ -111,7 +111,7 @@ MSS는 별도의 반복 가능한 텍스처가 있는 색상화된 캐비닛을 
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-&#39;`12-3-2`&#39; 레코드의 재질 카탈로그 `'cat`&#39;에 동일한 자료가 있을 수 있습니다.
+&#39;`'cat`&#39; 레코드의 재질 카탈로그 `12-3-2`&#39;에 동일한 자료가 있을 수 있습니다.
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 

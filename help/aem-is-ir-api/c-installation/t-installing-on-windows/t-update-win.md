@@ -1,6 +1,6 @@
 ---
 title: IS 4.7.4 이상에서 업데이트
-description: Dynamic Media 이미지 서비스 제공 업그레이드 시 이 절차를 사용하십시오.
+description: Dynamic Media 이미지 서비스 제공을 업그레이드할 때 이 절차를 사용하십시오.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # IS 4.7.4 이상에서 업데이트{#updating-from-is-or-later}
 
-Dynamic Media 이미지 서비스 제공 업그레이드 시 이 절차를 사용하십시오.
+Dynamic Media 이미지 서비스 제공을 업그레이드할 때 이 절차를 사용하십시오.
 
 이전 버전의 이미지 제공에서 업그레이드하는 경우, 올바른 프로세스에 대해 지원 센터에 문의하십시오.
 

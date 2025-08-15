@@ -57,4 +57,4 @@ Assets은 각 게시 상태 및 컨텍스트에 대해 별도의 마커를 유�
 
 >[!MORELIKETHIS]
 >
->* [Publish 컨텍스트](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [컨텍스트 게시](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

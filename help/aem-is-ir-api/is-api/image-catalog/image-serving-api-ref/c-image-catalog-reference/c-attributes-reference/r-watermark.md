@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## 속성 {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-텍스트 문자열입니다. 지정하면 이 이미지 카탈로그(또는 [!DNL default.ini]에 지정된 경우 기본 카탈로그)에서 올바른 `Catalog::Id` 값이어야 합니다.
+텍스트 문자열입니다. 지정하면 이 이미지 카탈로그(또는 `Catalog::Id`에 지정된 경우 기본 카탈로그)에서 올바른 [!DNL default.ini] 값이어야 합니다.
 
 ## 기본값 {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## TC::directory - 로그 파일 폴더 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-[!DNL Platform Server]에서 로그 파일을 쓰는 폴더입니다. 절대 경로이거나 *`install_folder`*&#x200B;에 상대적인 경로일 수 있습니다. 기본값은 [!DNL &#x200B; *`install_folder`*/logs]입니다.
+[!DNL Platform Server]에서 로그 파일을 쓰는 폴더입니다. 절대 경로이거나 *`install_folder`*&#x200B;에 상대적인 경로일 수 있습니다. 기본값은 [!DNL  *`install_folder`*/logs]입니다.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## TC::prefix - 액세스 로그 파일 이름 {#section-1003856323b844049632710a5a056aa7}
 
-액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 지정한 문자열에 날짜 및 파일 접미사([!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log])가 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot; `access-`&quot;입니다.
+액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 지정한 문자열에 날짜 및 파일 접미사([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])가 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot; `access-`&quot;입니다.
 
 ## TC::pattern - 액세스 로그 패턴 {#section-22775ea85cee444d8a7d7336a3b1feef}
 

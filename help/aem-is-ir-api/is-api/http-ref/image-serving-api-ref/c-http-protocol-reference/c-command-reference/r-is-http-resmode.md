@@ -26,11 +26,11 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
-   <td colname="col2"> <p>쌍입방 보간을 선택합니다. 2선형 보간보다 CPU를 많이 사용하지만 덜 눈에 띄는 앨리어싱 아티팩트가 있는 더 선명한 이미지를 만듭니다. </p> </td> 
+   <td colname="col2"> <p>쌍입방 보간을 선택합니다. CPU 집약적인 것이 쌍선형 보간보다 더 많지만 덜 눈에 띄는 앨리어싱 아티팩트가 있는 더 선명한 이미지를 만듭니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>보간 알고리즘으로 수정된 Lanczos Window 함수를 선택합니다. 높은 CPU 비용으로 2차 큐빅보다 약간 더 선명한 결과를 얻을 수 있습니다. <span class="codeph"> 선명하게 </span>이(가) <span class="codeph"> 선명하게2 </span>(으)로 바뀌었습니다. 이 경우 앨리어싱 아티팩트(모아레)가 발생할 가능성이 더 낮습니다. </p> </td> 
+   <td colname="col2"> <p>보간 알고리즘으로 수정된 Lanczos Window 함수를 선택합니다. 더 높은 CPU 비용으로 쌍입방보다 약간 더 선명한 결과를 만들 수 있습니다. <span class="codeph"> 선명하게 </span>이(가) <span class="codeph"> 선명하게2 </span>(으)로 바뀌었습니다. 이 경우 앨리어싱 아티팩트(모아레)가 발생할 가능성이 더 낮습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 

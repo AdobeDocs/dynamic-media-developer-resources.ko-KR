@@ -22,13 +22,13 @@ ht-degree: 1%
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` 뷰어에서 사용하는 뷰어 SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
+`*`componentID`*` - `{String}` 뷰어에서 사용하는 Viewer SDK 구성 요소의 ID입니다. 이 뷰어는 다음 구성 요소 ID를 지원합니다.
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>구성 요소 ID </p> </th> 
-   <th colname="col2" class="entry"> <p>Viewer SDK 구성 요소 클래스 이름 </p> </th> 
+   <th colname="col2" class="entry"> <p>뷰어 SDK 구성 요소 클래스 이름 </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -103,13 +103,13 @@ ht-degree: 1%
  </tbody> 
 </table>
 
-SDK API를 사용하여 작업하는 경우 [Viewer SDK 네임스페이스](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)에 설명된 대로 올바른 정규화된 SDK 네임스페이스를 사용해야 합니다.
+SDK API를 사용하여 작업할 때는 [뷰어 SDK 네임스페이스](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621)에 설명된 대로 올바르고 정규화된 SDK 네임스페이스를 사용해야 합니다.
 
 특정 구성 요소에 대한 자세한 내용은 *뷰어 SDK API* 설명서를 참조하십시오.
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` 뷰어 SDK 구성 요소에 대한 참조입니다. `componentId`이(가) 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 메서드가 `null`을(를) 반환합니다.
+`{Object}` Viewer SDK 구성 요소에 대한 참조입니다. `null`이(가) 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 메서드가 `componentId`을(를) 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

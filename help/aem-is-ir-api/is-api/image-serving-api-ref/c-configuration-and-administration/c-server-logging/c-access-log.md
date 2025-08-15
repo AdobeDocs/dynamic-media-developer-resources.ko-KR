@@ -20,6 +20,6 @@ server.xml에 액세스 로그가 구성되어 있습니다.
 
 >[!NOTE]
 >
->이미지 제공([!DNL /is/image/*]) 및 이미지 렌더링([!DNL /ir/render/*])에 대한 클라이언트 트래픽 외에도 액세스 로그에는 특정 내부 트래픽, 즉 [!DNL Platform Server] 카탈로그 시스템 액세스([!DNL /is-catalog/*]), 캐시 공유 및 오류 리디렉션 요청([!DNL /is/cache/*]), Dynamic Media 뷰어([!DNL /is-viewers/*])와 같은 [!DNL Platform Server]에 배포된 다른 패키지 액세스, [!DNL Platform Server]에서 서비스하는 정적 트래픽 및 정적 콘텐츠 요청(예: [!DNL /is-docs/*])이 포함될 수 있습니다.
+>이미지 제공([!DNL /is/image/*]) 및 이미지 렌더링([!DNL /ir/render/*])에 대한 클라이언트 트래픽 외에도, 액세스 로그에는 특정 내부 트래픽, 즉 [!DNL Platform Server] 카탈로그 시스템에 대한 액세스([!DNL /is-catalog/*]), 캐시 공유 및 오류 리디렉션 요청([!DNL /is/cache/*]), Dynamic Media 뷰어([!DNL Platform Server])와 같은 [!DNL /is-viewers/*]에 배포된 다른 패키지에 대한 액세스, [!DNL Platform Server]에서 서비스하는 정적 트래픽 및 정적 콘텐츠 요청(예: [!DNL /is-docs/*])이 포함될 수 있습니다.
 
 [!DNL /is-catalog] 및 [!DNL /is/cache] 루트 경로가 있는 요청은 항상 클라이언트 트래픽 분석에서 제외해야 합니다.

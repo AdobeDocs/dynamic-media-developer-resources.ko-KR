@@ -36,7 +36,7 @@ ht-degree: 23%
 |---|---|---|---|
 | company핸들 | `xsd:string` | 예 | 회사 핸들. |
 | assetHandle | `xsd:string` | 예 | 에셋 핸들. |
-| compressedPacket | `xsd:Base 64 binary` | 예 | 설정하거나 업데이트할 XMP 패킷 [!DNL zlib-compressed]개입니다. |
+| compressedPacket | `xsd:Base 64 binary` | 예 | 설정하거나 업데이트할 [!DNL zlib-compressed] XMP 패킷입니다. |
 
 **출력(updateXMPPacketReturn)**
 

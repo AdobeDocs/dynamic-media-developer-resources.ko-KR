@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe은 모든 로그 파일을 `TC::directory`과(와) 동일한 폴더에 기록하도록 구성할 것을 권장합니다. 이렇게 하면 모든 이미지 제공 로그 파일이 `TC::maxDays`(으)로 구성된 자동 로그 파일 순환에 참여하게 되므로 디스크 공간 부족 조건으로 인해 서버가 불안정해질 수 있습니다.
+>Adobe에서는 모든 로그 파일을 `TC::directory`과(와) 동일한 폴더에 기록하도록 구성할 것을 권장합니다. 이렇게 하면 모든 이미지 제공 로그 파일이 `TC::maxDays`(으)로 구성된 자동 로그 파일 순환에 참여하게 되므로 디스크 공간 부족 조건으로 인해 서버가 불안정해질 수 있습니다.
 
 ## SV::log - 서버 감독자 추적 로그 파일 경로 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe은 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보내어 [!DNL Platform Server] (`PS::LogDays`)에서 구현한 로그 파일 관리를 사용할 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
+서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]&#x200B;(`PS::LogFolder`)에 의해 구현된 로그 파일 관리를 사용하려면 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogDays`)과 동일한 폴더로 보낼 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## IS::Log - 이미지 서버 디버그 로그 파일 경로 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-이미지 서버 추적 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. ImageServer는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe은 [!DNL Platform Server]에 의해 구현된 로그 파일 관리를 사용하려면 이미지 서버 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보낼 것을 권장합니다(`PS::LogDays` 참조).
+이미지 서버 추적 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. ImageServer는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]에 의해 구현된 로그 파일 관리를 사용하려면 이미지 서버 로그 파일을 `PS::LogFolder` 로그 파일([!DNL Platform Server])과 동일한 폴더로 보낼 것을 권장합니다(`PS::LogDays` 참조).
 
 >[!NOTE]
 >

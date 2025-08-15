@@ -1,5 +1,5 @@
 ---
-description: 대담한 깃발. RTF boldface 명령(b)에서 요청할 때 이 글꼴 맵 레코드에서 참조하는 글꼴 파일을 사용할지 여부를 지정합니다.
+description: 대담한 깃발. RTF boldface 명령(\b)에서 요청할 때 이 글꼴 맵 레코드에서 참조하는 글꼴 파일을 사용할지 여부를 지정합니다.
 solution: Experience Manager
 title: 굵게
 feature: Dynamic Media Classic,SDK/API

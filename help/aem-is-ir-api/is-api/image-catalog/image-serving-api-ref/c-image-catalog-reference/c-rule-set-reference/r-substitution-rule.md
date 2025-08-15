@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 `<substitution>` 요소가 속한 `<rule>` 요소에 `replace="all"`이(가) 지정되면 입력 문자열의 모든 일치 항목이 대체됩니다. 기본적으로 첫 번째 일치만 대체 문자열로 대체됩니다.
+>이 `replace="all"` 요소가 속한 `<rule>` 요소에 `<substitution>`이(가) 지정되면 입력 문자열의 모든 일치 항목이 대체됩니다. 기본적으로 첫 번째 일치만 대체 문자열로 대체됩니다.
 
 ## 참고 {#section-cedf2adabaaf441c9f598fb0ea180246}
 

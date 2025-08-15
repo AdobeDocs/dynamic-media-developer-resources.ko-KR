@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## cdnCacheInvalidation: 정보 {#section-4f70d2bc79d64288b961836ab17e9690}
 
-CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 유효성을 다시 검사하도록 강제합니다. Dynamic Media 서비스 URL 구조에 연결되어 있지 않고 회사가 생성될 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대한 API 오류를 발생시킵니다. CDN이 지원하지 않고 잘못된 것으로 간주하는 잘못된 URL은 전체 요청에 대한 API 오류를 발생시키기도 합니다.
+CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처리된 후 Dynamic Media 네트워크의 현재 게시된 데이터에 대해 이러한 URL에 대한 모든 HTTP 요청의 유효성을 다시 검사하도록 강제합니다. Dynamic Media 서비스 URL 구조에 연결되지 않고 회사가 생성될 때 할당된 Dynamic Media 회사 루트 ID와 직접 일치하는 모든 URL은 전체 요청에 대한 API 오류를 초래합니다. CDN이 지원하지 않고 잘못된 것으로 간주하는 잘못된 URL은 전체 요청에 대한 API 오류를 발생시키기도 합니다.
 
 **사용 빈도: 규칙**
 
@@ -26,7 +26,7 @@ CDN 캐시 무효화는 이 무효화 요청이 CDN 네트워크를 통해 처�
 
 **확인 전자 메일**
 
-Dynamic Media CDN 파트너의 확인 이메일은 목록 작성자 또는 최대 5개의 다른 이메일 주소로 보낼 수 있습니다. API는 이메일에 참조된 URL이 지워졌다는 알림을 전체 CDN 네트워크에 받으면 확인을 전송합니다. 제공된 URL 수가 단일 알림에서 Dynamic Media이 CDN 파트너에게 전달할 수 있는 수를 초과하는 경우 `cdnCacheInvalidation`에 대한 단일 호출로 여러 이메일을 보낼 수 있습니다. 현재, 요청이 100개의 URL을 초과하지만 CDN 파트너의 요청에 따라 변경될 수 있습니다.
+Dynamic Media CDN 파트너의 확인 이메일은 목록의 작성자 또는 최대 5개의 다른 이메일 주소로 보낼 수 있습니다. API는 이메일에 참조된 URL이 지워졌다는 알림을 전체 CDN 네트워크에 받으면 확인을 전송합니다. 제공된 URL의 수가 Dynamic Media가 단일 알림에서 CDN 파트너에게 전달할 수 있는 수를 초과하는 경우 `cdnCacheInvalidation`에 대한 단일 호출로 여러 이메일을 보낼 수 있습니다. 현재, 요청이 100개의 URL을 초과하지만 CDN 파트너의 요청에 따라 변경될 수 있습니다.
 
 **다음 날짜 이후에 지원됨**
 
@@ -61,7 +61,7 @@ Dynamic Media CDN 파트너의 확인 이메일은 목록 작성자 또는 최�
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> 유형:UrlArray</span> </p> </td> 
    <td> <p> 예 </p> </td> 
-   <td> <p> CDN 캐시에서 무효화할 최대 1000개의 URL 목록. 모든 URL에는 무효화할 Dynamic Media 회사 루트 ID가 포함되어 있어야 합니다. </p> </td> 
+   <td> <p> CDN 캐시에서 무효화할 최대 1000개의 URL 목록. 모든 URL에는 무효화할 Dynamic Media 회사 루트 ID가 포함되어야 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

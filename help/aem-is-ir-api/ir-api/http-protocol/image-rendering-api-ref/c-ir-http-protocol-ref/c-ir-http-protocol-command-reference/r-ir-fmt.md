@@ -22,12 +22,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> 형식 </span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
-  <td class="stentry"> <p>손실 JPEG. </p> </td> 
+  <td class="stentry"> <p>JPEG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>손실 JPG. </p> </td> 
+  <td class="stentry"> <p>JPG </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -47,7 +47,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>tif-alpha </p> </td> 
-  <td class="stentry"> <p>알파 채널을 사용하는 TIFF. </p> </td> 
+  <td class="stentry"> <p>알파 채널이 있는 TIFF. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -57,12 +57,12 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>swf 알파 </p> </td> 
-  <td class="stentry"> <p>손실 JPEG 및 Macromedia swf 파일에 포함된 수축 압축 마스크. </p> </td> 
+  <td class="stentry"> <p>손실 JPEG 및 Macromedia swf 파일에 포함된 수축 압축 마스크 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>pdf </p> </td> 
-  <td class="stentry"> <p>이미지가 PDF에 포함되었습니다. </p> </td> 
+  <td class="stentry"> <p>PDF에 포함된 이미지. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -77,7 +77,7 @@ ht-degree: 4%
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gif-alpha </p> </td> 
-  <td class="stentry"> <p>255가지 색상과 키 색상 투명도가 포함된 GIF. </p> </td> 
+  <td class="stentry"> <p>GIF은 255가지 색상과 키 색상 투명도가 있습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pixelType </span> </p> </td> 
@@ -116,11 +116,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-`icc=`이(가) 지정되지 않은 경우 *`pixelType`* 효과 출력 색상 공간 변환. *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 형식을 결정하는 `icc=`을(를) 지정하면 *`pixelType`*&#x200B;이(가) 무시됩니다.
+*`pixelType`*&#x200B;이(가) 지정되지 않은 경우 `icc=` 효과 출력 색상 공간 변환. *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 형식을 결정하는 *`pixelType`*&#x200B;을(를) 지정하면 `icc=`이(가) 무시됩니다.
 
 *`compression`* tif, tif-alpha 또는 PDF이 *`format`*(으)로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt-` JPEG, JPEG 압축을 사용한 TIFF, JPEG 압축을 사용한 PDF 및 SWF 파일 형식에 대한 JPEG 인코딩 옵션을 설정합니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt-` JPEG 인코딩 옵션을 JPEG, JPEG 압축을 사용한 TIFF, JPEG 압축을 사용한 PDF 및 SWF 파일 형식으로 설정합니다. `quantize=` 또는 `fmt=gif`인 경우 `fmt=gif-alpha`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 형식 및 픽셀 유형에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 
@@ -163,13 +163,13 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>(<span class="varname"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>(<span class="codeph"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="varname"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf 알파 </p> </td> 
    <td colname="col2"> <p>rgb, 회색 </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>아니요 </p> <p>(Flash Player은 포함된 ICC 프로파일을 무시합니다.) </p> </td> 
+   <td colname="col4"> <p>아니요 </p> <p>Flash Player에서는 포함된 ICC 프로파일을 무시합니다. </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> 특성::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
@@ -177,7 +177,7 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph">(없음|zip|jpeg),qlt= </span> </p> <p> (<span class="varname"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph">(없음|zip|jpeg),qlt= </span> </p> <p> (<span class="codeph"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="varname"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -206,7 +206,7 @@ ht-degree: 4%
 
 ## 기본값 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* 기본값은 `attribute::Format`이고 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`입니다. *`pixelType`* `icc=`이(가) 지정되지 않은 경우 기본값은 `rgb`입니다. 그렇지 않으면 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
+*`format`* 기본값은 `attribute::Format`이고 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`입니다. *`pixelType`* `rgb`이(가) 지정되지 않은 경우 기본값은 `icc=`입니다. 그렇지 않으면 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
 
 ## 참조 {#section-c55efc881fc94c70bff91b870e026a7b}
 

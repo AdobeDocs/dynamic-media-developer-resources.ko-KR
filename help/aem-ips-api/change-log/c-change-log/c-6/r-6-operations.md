@@ -61,9 +61,9 @@ IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법을 설�
    * `getUsers`.
    * `getUserChars`.
 
-* `createPropertySet`에 `permissionArray`을(를) 추가했습니다.
+* `permissionArray`에 `createPropertySet`을(를) 추가했습니다.
 
-* `submitJob`에 `exportJob`을(를) 추가했습니다.
+* `exportJob`에 `submitJob`을(를) 추가했습니다.
 
 **변경됨**
 
@@ -81,7 +81,7 @@ IPS API 버전 6에 대한 새로운 작업 및 변경된 작업 방법을 설�
 
 **제거됨**
 
-* `renameAsset`에서 `renameFiles`을(를) 제거했습니다.
+* `renameFiles`에서 `renameAsset`을(를) 제거했습니다.
 
 * `getXMPPanelViewDefinition`을(를) 제거했습니다.
 * `searchAssetsByFulltext` 및 `searchAssetsBySimilarity`을(를) 제거했습니다.

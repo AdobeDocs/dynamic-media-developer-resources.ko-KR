@@ -29,7 +29,7 @@ ht-degree: 0%
    * `timeStamp {Number}` 이벤트 타임스탬프.
    * `eventInfo {String}` 이벤트 페이로드.
 
-* `quickViewActivate` - 사용자가 대화형 견본 구성 요소 내에서 또는 비디오 재생 끝에 표시된 &quot;콜 투 액션&quot; 화면에서 대화형 견본을 클릭하거나 탭할 때 트리거됩니다. 콜백 핸들러는 다음 필드가 있는 JSON 개체인 유일한 인수를 사용합니다.
+* `quickViewActivate` - 사용자가 대화형 견본 구성 요소 내에서 또는 비디오 재생 끝에 표시된 &quot;call to action&quot; 화면에서 대화형 견본을 클릭하거나 탭할 때 트리거됩니다. 콜백 핸들러는 다음 필드가 있는 JSON 개체인 유일한 인수를 사용합니다.
 
    * 대화형 견본과 연결된 `sku` { `String`} SKU 값입니다.
    * `<additionalVariable>` { `String`}개 이상의 추가 변수가 대화형 견본과 연결되어 있습니다.

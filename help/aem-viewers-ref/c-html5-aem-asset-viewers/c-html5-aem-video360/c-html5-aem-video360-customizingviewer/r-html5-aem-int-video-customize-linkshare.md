@@ -243,7 +243,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7closebutton
 ```
 
-**닫기 단추 속성의 CSS &#x200B;**
+**닫기 단추 속성의 CSS **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +330,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**대화 상자 바닥글 속성의 CSS &#x200B;**
+**대화 상자 바닥글 속성의 CSS **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +531,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogviewarea
 ```
 
-**대화 상자 보기 영역의 CSS &#x200B;**
+**대화 상자 보기 영역의 CSS **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -566,7 +566,7 @@ background-color: #ffffff;
 .s7video360viewer .s7linkdialog .s7dialogbody
 ```
 
-**대화 상자 본문의 CSS &#x200B;**
+**대화 상자 본문의 CSS **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -593,7 +593,7 @@ background-color: #ffffff;
 
 이 클래스는 양식 사용자 인터페이스의 여러 위치에 있는 텍스트에 적용할 수 있으므로 레이블 크기나 위치를 제어하기에 적합하지 않습니다.
 
-**대화 상자 레이블의 CSS 속성. &#x200B;**
+**대화 상자 레이블의 CSS 속성. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

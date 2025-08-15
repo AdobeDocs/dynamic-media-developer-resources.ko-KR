@@ -22,7 +22,7 @@ ht-degree: 1%
 
 [!DNL Platform Server] 및 이미지 서버는 아래 설명된 세 가지 유형의 로그 파일을 만듭니다.
 
-다른 이미지 제공 구성 요소와 Dynamic Media 뷰어와 같은 특정 기타 Dynamic Media 패키지도 동일한 폴더에 로그 파일을 만들 수 있습니다. 이러한 로그 파일은 Dynamic Media 내부용이며 문제 해결을 위해 Dynamic Media 기술 지원에서 요청할 수 있습니다.
+다른 이미지 제공 구성 요소와 Dynamic Media 뷰어와 같은 특정 기타 Dynamic Media 패키지도 동일한 폴더에 로그 파일을 만들 수 있습니다. 이러한 로그 파일은 Dynamic Media 내부용이며 문제 해결 목적으로 Dynamic Media 기술 지원에서 요청할 수 있습니다.
 
 * [액세스 로그](c-access-log.md)
 * [추적 로그](c-trace-log.md)

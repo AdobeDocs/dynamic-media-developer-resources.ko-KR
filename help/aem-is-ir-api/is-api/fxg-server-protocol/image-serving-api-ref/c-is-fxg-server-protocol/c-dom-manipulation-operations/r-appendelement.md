@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: f93bc31e-c0ae-4375-bb6a-eba6f11945b2
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '56'
 ht-degree: 1%
 
 ---
 
 # appendElement{#appendelement}
 
-s7:elementID에 XML을 추가합니다.
+XML을 s7:elementID에 추가합니다.
 
 `appendElement.elementID=<XML>`
 

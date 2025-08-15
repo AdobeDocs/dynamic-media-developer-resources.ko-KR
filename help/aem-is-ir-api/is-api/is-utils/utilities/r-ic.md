@@ -16,11 +16,11 @@ ht-degree: 0%
 
 이미지 변환 유틸리티.
 
-`ic`은(는) 이미지 파일을 최적화된 PTIFF(피라미드 TIFF 형식)로 변환하는 명령줄 도구입니다. 이미지 제공은 변환 없이 이미지를 처리할 수 있지만 512x512 픽셀보다 큰 모든 이미지를 PTIFF로 변환하는 것이 좋습니다. 이 변환은 최적의 서버 성능과 리소스 사용을 보장하며 응답 시간을 최소화합니다.
+`ic`은(는) 이미지 파일을 최적화된 PTIFF(피라미드형 TIFF 형식)로 변환하는 명령줄 도구입니다. 이미지 제공은 변환 없이 이미지를 처리할 수 있지만 512x512 픽셀보다 큰 모든 이미지를 PTIFF로 변환하는 것이 좋습니다. 이 변환은 최적의 서버 성능과 리소스 사용을 보장하며 응답 시간을 최소화합니다.
 
-사진 콘텐츠가 포함된 PTIFF 파일은 JPEG 인코딩되는 것이 좋습니다(`-jpegcompress` 지정). 컴퓨터 생성 콘텐츠는 무손실 압축(`-deflatecompress` 또는 `-lzwcompress`)을 활용할 수 있습니다. 컬러 변환 또는 픽셀 타입 변환이 필요하지 않는 한, JPEG 소스 이미지 데이터는 품질 저하를 피하기 위해 디코딩 없이 PTIFF로 전달된다. 이 경우, 지정된 압축 옵션은 낮은 해상도 피라미드 레벨에만 적용됩니다.
+사진 콘텐츠가 포함된 PTIFF 파일은 JPEG으로 인코딩되는 것이 좋습니다(`-jpegcompress` 지정). 컴퓨터 생성 콘텐츠는 무손실 압축(`-deflatecompress` 또는 `-lzwcompress`)을 활용할 수 있습니다. 색 변환 또는 픽셀 유형 변환이 필요하지 않는 한, JPEG 소스 이미지 데이터는 품질 저하를 피하기 위해 디코딩 없이 PTIFF로 전달된다. 이 경우, 지정된 압축 옵션은 낮은 해상도 피라미드 레벨에만 적용됩니다.
 
-큰 이미지를 변환하지 않는 경우에는 사용할 메모리 양을 제어하는 매개 변수를 설정할 필요가 없습니다. 그러나 필요한 경우 아래에 설명된 `-maxmem` 설정을 사용하여 `ic`에 더 많은 메모리를 제공하십시오. 필요한 메모리의 양을 계산하는 좋은 방법은 이미지의 폭과 이미지의 높이를 곱하고 채널 수를 곱하는 것입니다. 예를 들어 알파 곱하기 3이 있는 RGB 이미지의 경우 4입니다. 또한 채널이 구성 요소당 8개가 아닌 16비트인 경우 최종 결과의 두 배가 됩니다.
+큰 이미지를 변환하지 않는 경우에는 사용할 메모리 양을 제어하는 매개 변수를 설정할 필요가 없습니다. 그러나 필요한 경우 아래에 설명된 `ic` 설정을 사용하여 `-maxmem`에 더 많은 메모리를 제공하십시오. 필요한 메모리의 양을 계산하는 좋은 방법은 이미지의 폭과 이미지의 높이를 곱하고 채널 수를 곱하는 것입니다. 예를 들어 알파 곱하기 3이 있는 RGB 이미지의 경우 4입니다. 또한 채널이 구성 요소당 8개가 아닌 16비트인 경우 최종 결과의 두 배가 됩니다.
 
 ## 사용 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -77,7 +77,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegcompress </span> </p> </td> 
-   <td colname="col2"> <p>JPEG 인코딩을 사용하십시오. <span class="codeph"> <span class="varname"> sourceFile </span> </span>에 알파 데이터가 포함된 경우 무시됩니다. </p> </td> 
+   <td colname="col2"> <p>JPEG 인코딩을 사용합니다. <span class="codeph"> <span class="varname"> sourceFile </span> </span>에 알파 데이터가 포함된 경우 무시됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> 품질 </span>&gt; </span> </p> </td> 
@@ -326,10 +326,10 @@ ht-degree: 0%
 
 `ic -convert src/myFile.png src/myFile.tif`
 
-*`srcFolder`*&#x200B;의 모든 이미지를 JPEG으로 인코딩된 피라미드 TIFF으로 변환하고 *`destFolder`*&#x200B;에 배치합니다.
+*`srcFolder`*&#x200B;의 모든 이미지를 JPEG으로 인코딩된 피라미드형 TIFF로 변환하고 *`destFolder`*&#x200B;에 배치합니다.
 
 `ic -convert -jpegcompress -jpegquality 90 -overwrite -continueOnError srcFolder destFolder`
 
-*`srcFolder`*&#x200B;의 모든 이미지를 변환합니다. JPG 파일의 인코딩된 이미지 데이터는 이러한 이미지의 나머지 이미지 피라미드뿐만 아니라 모든 비 JPG 입력 파일의 전체 출력 이미지에 대해 전체 해상도 레벨의 손실 없는 LZW 압축에 사용됩니다. 픽셀 유형, 임베드된 색상 프로파일, XMP 메타데이터 등. 유지 관리됩니다.
+*`srcFolder`*&#x200B;의 모든 이미지를 변환합니다. JPG 파일의 인코딩된 이미지 데이터는 이러한 이미지의 나머지 이미지 피라미드뿐만 아니라 모든 비 JPG 입력 파일의 전체 출력 이미지에 대해 전체 해상도 수준의 손실 없는 LZW 압축에 사용됩니다. 픽셀 유형, 임베드된 색상 프로파일, XMP 메타데이터 등. 유지 관리됩니다.
 
 `ic -convert -lzwcompress -embedXmpData -embedColorProfile -maintainpixeltype -overwrite -continueOnError srcFolder destFolder`

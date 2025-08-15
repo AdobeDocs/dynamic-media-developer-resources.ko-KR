@@ -23,7 +23,7 @@ IPS API v4.0의 새로운 변경 사항과 구현된 변경 사항에 대해 설
 
 `PostScriptOptions/alpha` 필드를 추가했습니다.
 
-`getProperty` 작업에 대해 `VideoRootUrl` 및 `SwfRootUrl` 속성을 추가했습니다.
+`VideoRootUrl` 작업에 대해 `SwfRootUrl` 및 `getProperty` 속성을 추가했습니다.
 
 호출 응용 프로그램을 추적하기 위해 선택적 `appName` 및 `appVersion` 매개 변수를 `authHeader`에 추가했습니다. `ipsApiService.log`에 로깅을 추가했습니다.
 
@@ -35,11 +35,11 @@ IPS API v4.0의 새로운 변경 사항과 구현된 변경 사항에 대해 설
 
 자산 간 메타데이터 필드를 허용하기 위해 자산 유형 문자열 상수 `'Asset'`개를 추가했습니다.
 
-`searchAssets`에 대해 `trashState` 매개 변수를 구현했습니다.
+`trashState`에 대해 `searchAssets` 매개 변수를 구현했습니다.
 
 `getAssetPublishHistory` 작업을 구현했습니다.
 
-Flex에서 오류 처리를 사용하도록 설정하는 선택적 `faultHttpStatusCode` SOAP 헤더를 추가했습니다. Flex의 경우 `<faultHttpStatusCode>200</faultHttpStatusCode>` 사용. 오류 응답에 대한 기본 상태 코드는 `500 (Internal Server Error)`입니다.
+Flex에서 오류 처리를 사용하도록 설정하는 선택적 `faultHttpStatusCode` SOAP 헤더가 추가되었습니다. Flex의 경우 `<faultHttpStatusCode>200</faultHttpStatusCode>` 사용. 오류 응답에 대한 기본 상태 코드는 `500 (Internal Server Error)`입니다.
 
 휴지통에서 자산을 복원하고 휴지통에서 자산을 비우는 작업이 추가되었습니다.
 
@@ -53,7 +53,7 @@ CRUD 작업을 구현했습니다.
 
 `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`이(가) 추가되었습니다.
 
-새 `createMetadataField` 및 `updateMetadataField` 작업을 위해 사용되지 않는 `saveMetadataField` 작업.
+새 `saveMetadataField` 및 `createMetadataField` 작업을 위해 사용되지 않는 `updateMetadataField` 작업.
 
 `deleteAssetsParam` 일괄 삭제 작업을 구현했습니다.
 
@@ -65,13 +65,13 @@ CRUD 작업을 구현했습니다.
 
 `getAssetCounts`을(를) 구현했습니다.
 
-`ImageSet` 자산에 `RenderSet` 구성원을 포함하는 데 대한 지원이 `setImageSetMembers`에 추가되었습니다.
+`setImageSetMembers` 자산에 `RenderSet` 구성원을 포함하는 데 대한 지원이 `ImageSet`에 추가되었습니다.
 
 `replaceImage` 작업이 추가되었습니다.
 
 `copyImage` 작업이 추가되었습니다.
 
-`LayerViewInfo`, `TemplateInfo` 및 `WatermarkInfo`에 대한 `setUrlModifier` 작업과 `urlModifier/urlPostApplyModifier` 필드를 추가했습니다.
+`setUrlModifier`, `urlModifier/urlPostApplyModifier` 및 `LayerViewInfo`에 대한 `TemplateInfo` 작업과 `WatermarkInfo` 필드를 추가했습니다.
 
 `createDerivedAsset` 작업이 추가되었습니다. 현재 `ownerHandle`은(는) 이미지 자산을 참조해야 하며 형식은 `AdjustedView` 또는 `LayerView`일 수 있습니다.
 
@@ -79,11 +79,11 @@ CRUD 작업을 구현했습니다.
 
 IPS 회사 설정 `CompanySettings`이(가) 웹 서비스 API로 포팅되었습니다.
 
-`searchAssets` 작업에 `excludeByproducts` 필터 플래그를 추가했습니다. 이 플래그를 true로 설정하면 `PSDlayer`개의 이미지와 PDF 리핑된 이미지가 실행됩니다.
+`excludeByproducts` 작업에 `searchAssets` 필터 플래그를 추가했습니다. 이 플래그를 true로 설정하면 `PSDlayer`개의 이미지가 실행되고 PDF에서 리핑된 이미지가 실행됩니다.
 
 `getGenerationInfo` 작업이 추가되었습니다.
 
-`getProperty` 작업에 `SystemMessage` 속성 이름을 추가했습니다.
+`SystemMessage` 작업에 `getProperty` 속성 이름을 추가했습니다.
 
 해당 에셋 정보 필드와 일치하도록 일부 에셋 유형 문자열 상수를 수정했습니다.
 
@@ -166,15 +166,15 @@ API 작업의 로케일을 설정하기 위해 선택적 로케일 매개 변수
 
 gzip 응답 제어에 대한 SOAP 및 HTTP 헤더 지원이 구현되었습니다.
 
-`authHeader`에 `gzipResponse` 플래그를 추가했습니다. 없는 경우 API는 HTTP `Accept-Encoding` 헤더를 확인합니다.
+`gzipResponse`에 `authHeader` 플래그를 추가했습니다. 없는 경우 API는 HTTP `Accept-Encoding` 헤더를 확인합니다.
 
 강력한 형식의 메타데이터 필드 조건에 대한 searchAssets 지원이 추가되었습니다.
 
 * 모든 필드 형식의 경우 문자열 비교 연산자(`Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)를 사용하여 값을 전달할 수 있습니다.
 * 부울 필드의 경우 `boolVal`이(가) `Equals` 작업과 함께 전달될 수 있습니다.
-* Int 필드의 경우 숫자 비교 연산자(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)를 사용하여 `longVal`을(를) 전달하거나 숫자 범위 작업(`Between, NotBetween`)을 사용하여 `minLong/maxLong`을(를) 전달할 수 있습니다.
-* 부동 필드의 경우 숫자 비교 연산자(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)를 사용하여 `doubleVal`을(를) 전달하거나 숫자 범위 작업(`Between, NotBetween`)을 사용하여 `minDouble/maxDouble`을(를) 전달할 수 있습니다.
-* 날짜 필드의 경우 숫자 비교 연산자(`Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`)로 `dateVal`을(를) 전달하거나 숫자 범위 작업(`Between, NotBetween`)으로 minDate/maxDate를 전달할 수 있습니다.
+* Int 필드의 경우 숫자 비교 연산자(`longVal`)를 사용하여 `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`을(를) 전달하거나 숫자 범위 작업(`minLong/maxLong`)을 사용하여 `Between, NotBetween`을(를) 전달할 수 있습니다.
+* 부동 필드의 경우 숫자 비교 연산자(`doubleVal`)를 사용하여 `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`을(를) 전달하거나 숫자 범위 작업(`minDouble/maxDouble`)을 사용하여 `Between, NotBetween`을(를) 전달할 수 있습니다.
+* 날짜 필드의 경우 숫자 비교 연산자(`dateVal`)로 `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`을(를) 전달하거나 숫자 범위 작업(`Between, NotBetween`)으로 minDate/maxDate를 전달할 수 있습니다.
 
 설명, `jobSubType` 및 `originalJobName` 필드를 `JobLog` 형식에 추가했습니다.
 
@@ -185,8 +185,8 @@ gzip 응답 제어에 대한 SOAP 및 HTTP 헤더 지원이 구현되었습니�
 또한 다음 필드는 `getJobLogs`과(와) `getJobLogDetails`에 모두 포함되지 않습니다. 이전 버전에서는 `getJobLogDetails`에서만 사용할 수 있었습니다.
 
 * `endDate`(작업이 완료된 경우).
-* `fileDuplicateCount`(이전에는 항상 `getJobLogs`을(를) 가진 `0`이었습니다.)
-* `fileUpdateCount`(이전에는 항상 `getJobLogs`을(를) 사용하여 `0`이었고 `fileSuccessCount`에 포함되었습니다. 이제 별도의 필드로 분할됩니다.)
+* `fileDuplicateCount`(이전에는 항상 `0`을(를) 가진 `getJobLogs`이었습니다.)
+* `fileUpdateCount`(이전에는 항상 `0`을(를) 사용하여 `getJobLogs`이었고 `fileSuccessCount`에 포함되었습니다. 이제 별도의 필드로 분할됩니다.)
 
 `JobLogDetail` 형식에 assetHandle 필드를 추가했습니다.
 
@@ -194,9 +194,9 @@ gzip 응답 제어에 대한 SOAP 및 HTTP 헤더 지원이 구현되었습니�
 
 SKU 시스템 필드를 사용하지 않습니다. 필드가 `SystemFieldCondition`(으)로 `searchAssets`에 전달되면 무시됩니다.
 
-`searchAssets`에 `excludeAssetTypeArray` 필터를 추가했습니다.
+`excludeAssetTypeArray`에 `searchAssets` 필터를 추가했습니다.
 
-`Asset`에 `MaskInfo` 형식을 추가했습니다.
+`MaskInfo`에 `Asset` 형식을 추가했습니다.
 
 IPS로 관리할 새 자산 유형 추가:
 

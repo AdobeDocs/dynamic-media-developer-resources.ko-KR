@@ -1,6 +1,6 @@
 ---
 title: 핫스팟 및 이미지 맵
-description: 뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+description: 뷰어는 AEM Assets의 Dynamic Media - on-demand에서 핫스팟을 처음 작성한 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 핫스팟 및 이미지 맵{#hotspots-and-image-maps}
 
-뷰어는 AEM Assets의 Dynamic Media(온디맨드 방식)에서 핫스팟을 처음 작성한 위치에 기본 보기 위에 핫스팟 아이콘을 표시합니다.
+뷰어는 AEM Assets의 Dynamic Media - on-demand에서 핫스팟을 처음 작성한 위치에서 기본 보기 위에 핫스팟 아이콘을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

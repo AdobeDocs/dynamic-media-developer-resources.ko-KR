@@ -18,7 +18,7 @@ CMYK 기본 입력 색상 프로파일. 색상 프로파일을 포함하지 않�
 
 ## 속성 {#section-fc2ad12a3c6e4c7cab495f1878638e66}
 
-텍스트 문자열입니다. 지정하면 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵 또는 `attribute::RootPath`에 상대적인 파일 경로의 올바른 `icc::Name` 값이어야 합니다. 참조된 ICC 프로파일은 CMYK 프로파일이어야 합니다.
+텍스트 문자열입니다. 지정하면 이 이미지 카탈로그 또는 기본 카탈로그의 ICC 프로필 맵 또는 `icc::Name`에 상대적인 파일 경로의 올바른 `attribute::RootPath` 값이어야 합니다. 참조된 ICC 프로파일은 CMYK 프로파일이어야 합니다.
 
 ## 기본값 {#section-c1f63b4bd32a4f38bf5d68decb9e25da}
 

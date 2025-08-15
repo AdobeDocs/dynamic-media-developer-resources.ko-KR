@@ -56,7 +56,7 @@ ht-degree: 1%
 <table id="simpletable_CEFDAE8395E6493E902D58A7E5A25BC7"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringElement </span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="varname"> defaultString </span>&rbrack;*&lbrace; <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> defaultString </span>]*{ <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span> </p> </td> 
  </tr> 
 </table>
 
@@ -83,11 +83,11 @@ ht-degree: 1%
 
 &#39;^&#39;은(는) HTTP 인코딩이 있거나 없는 하위 문자열의 모든 위치에서 발생할 수 있습니다. 서버가 전체 *`localizationToken`* `^loc=locId^` 패턴과 일치하여 별도의 하위 문자열을 찾습니다.
 
-하나 이상의 *`localizationToken`*&#x200B;을(를) 포함하지 않는 *`stringElements`*&#x200B;은(는) 현지화 대상으로 간주되지 않습니다.
+하나 이상의 *`stringElements`*&#x200B;을(를) 포함하지 않는 *`localizationToken`*&#x200B;은(는) 현지화 대상으로 간주되지 않습니다.
 
 ## 번역 맵 {#section-f7ce3df91b724adf95cee44eac4915d4}
 
-`attribute::LocaleStrMap`은(는) 클라이언트에 반환할 *`localizedStrings`*&#x200B;을(를) 결정하기 위해 서버에서 사용하는 규칙을 정의합니다. 이 ID는 각각 내부 로캘 ID( *`locId`*)가 없는 *`locales`* 입력(`locale=`(으)로 지정된 값과 일치)로 구성됩니다. 예:
+`attribute::LocaleStrMap`은(는) 클라이언트에 반환할 *`localizedStrings`*&#x200B;을(를) 결정하기 위해 서버에서 사용하는 규칙을 정의합니다. 이 ID는 각각 내부 로캘 ID( *`locales`*)가 없는 `locale=` 입력(*`locId`*(으)로 지정된 값과 일치)로 구성됩니다. 예:
 
 `attribute::LocaleStrMap= en,E|nl,N|de,D|,`
 
@@ -97,9 +97,9 @@ ht-degree: 1%
 
 ## 번역 프로세스 {#section-a2a8a3e5850f4f7c9d2318267afe98a2}
 
-위의 예제 번역 맵과 `/is/image/myCat/myItem?req=&locale=nl` 요청이 주어지면 서버는 먼저 로케일 맵에서 &quot; `nl`&quot;을(를) 찾습니다. 일치하는 항목 `nl,N`은(는) 각 *`stringElement`*&#x200B;에 대해 `^loc=N^`(으)로 표시된 *`localizedString`*&#x200B;이(가) 반환되어야 함을 나타냅니다. 이 *`localizationToken`*&#x200B;이(가) *`stringElement`*&#x200B;에 없으면 빈 값이 반환됩니다.
+위의 예제 번역 맵과 `/is/image/myCat/myItem?req=&locale=nl` 요청이 주어지면 서버는 먼저 로케일 맵에서 &quot; `nl`&quot;을(를) 찾습니다. 일치하는 항목 `nl,N`은(는) 각 *`stringElement`*&#x200B;에 대해 *`localizedString`*(으)로 표시된 `^loc=N^`이(가) 반환되어야 함을 나타냅니다. 이 *`localizationToken`*&#x200B;이(가) *`stringElement`*&#x200B;에 없으면 빈 값이 반환됩니다.
 
-`myCat/myItem`에 대한 `catalog::UserData`에 다음 내용이 포함되어 있다고 가정합니다(명확성을 위해 줄 바꿈을 삽입함).
+`catalog::UserData`에 대한 `myCat/myItem`에 다음 내용이 포함되어 있다고 가정합니다(명확성을 위해 줄 바꿈을 삽입함).
 
 `val1=111?? str1=Default1^loc=N^Dutch1^loc=D^German1?? val2=value2?? str2=^loc=E^English2^loc=N^Dutch2^loc=D^German2?? str3=Default3^loc=N^Dutch3^loc=D^German3`
 
@@ -121,7 +121,7 @@ ht-degree: 1%
 
 여러 *`locId`* 값이 번역 맵의 각 *`locale`*&#x200B;과(와) 연결되어 있을 수 있습니다. 일반적인 기본 로케일(예: 국제 영어)로 대부분의 콘텐츠를 처리하면서 선택한 *`stringElements`*&#x200B;에 대해 국가별 또는 지역별 변형(예: 미국 영어 대 영국 영어)을 지원할 수 있기 때문입니다.
 
-예를 들어 가끔씩 대체 철자를 지원하기 위해 미국별 영어(`*`locId`* EUS`)와 영국별 영어(`*`locId`* EUK`)에 대한 지원이 추가되었습니다. EUK 또는 EUS가 없는 경우 E로 대체됩니다. 마찬가지로 대부분의 경우 일반적인 독일어 *`localizedStrings`*(`D`(으)로 표시됨)을(를) 반환하는 동안 필요한 경우 오스트리아별 독일어 변형(`DAT`)을 사용할 수 있습니다.
+예를 들어 가끔씩 대체 철자를 지원하기 위해 미국별 영어(`*`locId`* EUS`)와 영국별 영어(`*`locId`* EUK`)에 대한 지원이 추가되었습니다. EUK 또는 EUS가 없는 경우 E로 대체됩니다. 마찬가지로 대부분의 경우 일반적인 독일어 `DAT`(*`localizedStrings`*(으)로 표시됨)을(를) 반환하는 동안 필요한 경우 오스트리아별 독일어 변형(`D`)을 사용할 수 있습니다.
 
 `attribute::LocaleStrMap`은(는) 다음과 같이 표시됩니다.
 

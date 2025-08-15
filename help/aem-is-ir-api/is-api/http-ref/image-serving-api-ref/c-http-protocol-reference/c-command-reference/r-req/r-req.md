@@ -39,7 +39,7 @@ ht-degree: 8%
 * [xlate](r-xlate.md)
 * [xmp](r-xmp.md)
 
-자세한 설명에 별도로 명시되지 않는 한 서버는 MIME 유형이 `text/plain`인 `text` 응답을 반환합니다. 일반적으로 기본값인 `text`, `javascript`, `xml` 또는 `json`과(와) 같은 많은 요청 유형을 사용하여 응답 유형을 지정할 수 있습니다. 연결된 응답 MIME 형식은 각각 `text/plain`, `text/javascript`, `text/xml` 및 `text/javascript`입니다.
+자세한 설명에 별도로 명시되지 않는 한 서버는 MIME 유형이 `text`인 `text/plain` 응답을 반환합니다. 일반적으로 기본값인 `text`, `javascript`, `xml` 또는 `json`과(와) 같은 많은 요청 유형을 사용하여 응답 유형을 지정할 수 있습니다. 연결된 응답 MIME 형식은 각각 `text/plain`, `text/javascript`, `text/xml` 및 `text/javascript`입니다.
 
 별도로 명시하지 않는 한 응답은 `name=value`쌍 집합으로 포맷됩니다.
 

@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ## 범위 {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-이미지, SVG 및 정적 콘텐츠 카탈로그의 항목에 대한 모든 참조는 번역 글꼴로 간주되며 ICC 프로필 참조는 번역되지 않습니다. [!DNL /is/image] 및 [!DNL /is/static requests]의 경로에 있는 *`object`* 외에도 이러한 명령 및 카탈로그 특성은 ID 변환의 대상이 됩니다. `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` 및 `attribute::Watermark`.
+이미지, SVG 및 정적 콘텐츠 카탈로그의 항목에 대한 모든 참조는 번역 글꼴로 간주되며 ICC 프로필 참조는 번역되지 않습니다. *`object`* 및 [!DNL /is/image]의 경로에 있는 [!DNL /is/static requests] 외에도 이러한 명령 및 카탈로그 특성은 ID 변환의 대상이 됩니다. `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage` 및 `attribute::Watermark`.
 
 ## ID 번역 맵 {#section-9e417b352c314dfe94e831fdd62cddc8}
 
@@ -44,11 +44,11 @@ ht-degree: 2%
 
 ## 번역 프로세스 {#section-1f64db17e9f644d88e09853670e14a16}
 
-위의 예에서 서버는 먼저 ID 변환 맵에서 *`locale`* &quot; `de_de`&quot;을(를) 찾습니다. 그런 다음 이 항목의 &quot; `_D`&quot; 및 &quot;&quot;(빈 접미사)와 연결된 *`locSuffixes`*&#x200B;을(를) 반복합니다. 각 반복에 대해 접미사는 이미지 ID와 카탈로그에서 존재 여부를 테스트한 결과 ID에 추가됩니다. 발견된 경우 해당 카탈로그 항목이 사용되고, 그렇지 않으면 다음 항목이 테스트됩니다. 이 예제에서는 `myCat/myImg_D` 및 `myCat/myImg` 항목을 검사합니다. 일치하는 항목이 없으면 서버에서 오류 또는 기본 이미지(구성된 경우)를 반환합니다.
+위의 예에서 서버는 먼저 ID 변환 맵에서 *`locale`* &quot; `de_de`&quot;을(를) 찾습니다. 그런 다음 이 항목의 &quot; *`locSuffixes`*&quot; 및 &quot;&quot;(빈 접미사)와 연결된 `_D`을(를) 반복합니다. 각 반복에 대해 접미사는 이미지 ID와 카탈로그에서 존재 여부를 테스트한 결과 ID에 추가됩니다. 발견된 경우 해당 카탈로그 항목이 사용되고, 그렇지 않으면 다음 항목이 테스트됩니다. 이 예제에서는 `myCat/myImg_D` 및 `myCat/myImg` 항목을 검사합니다. 일치하는 항목이 없으면 서버에서 오류 또는 기본 이미지(구성된 경우)를 반환합니다.
 
 ## 알 수 없는 로케일 {#section-b2f3c83f2dc845d69b5908107b775537}
 
-위의 예에서 `attribute::LocaleMap`에는 알 수 없는 `locale=` 값(번역 맵에 명시적으로 나열되지 않은 값)에 사용되는 기본 번역 규칙을 정의하는 빈 *`locale`*&#x200B;이(가) 포함되어 있습니다. 이 번역 맵이 요청 `/is/image/myCat/myImg?locale=ja`에 적용된 경우 `myCat/myImg_E`(있는 경우) 또는 `myCat/myImg`(으)로 확인됩니다.
+위의 예에서 `attribute::LocaleMap`에는 알 수 없는 *`locale`* 값(번역 맵에 명시적으로 나열되지 않은 값)에 사용되는 기본 번역 규칙을 정의하는 빈 `locale=`이(가) 포함되어 있습니다. 이 번역 맵이 요청 `/is/image/myCat/myImg?locale=ja`에 적용된 경우 `myCat/myImg_E`(있는 경우) 또는 `myCat/myImg`(으)로 확인됩니다.
 
 번역 맵에서 기본 번역 규칙을 지정하지 않으면 알 수 없는 `locale=` 값이 있는 모든 요청에 대해 오류가 반환됩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 지역 표준을 해결하기 위해 로케일(예: 유럽, 중동, 북미)을 그룹화하는 것이 종종 바람직합니다. 이 작업은 다중 계층 조회를 통해 수행할 수 있습니다.
 
-이 예제에서는 서양 및 중동 지역의 컬렉션을 지원하려고 합니다. 두 컬렉션은 모두 일반 이미지 컬렉션을 기반으로 하며, 모두 여러 이미지를 추가하거나 수정합니다. 그런 다음 `w1` 및 `w3`에 대해 이미지가 공유된다는 점을 제외하고 두 컬렉션은 특정 로케일(두 개의 중동 지역 변형에 대해 `m1`, `m2`, 세 개의 서양 로케일에 대해 `w1`, `w2` 및 `w3`)에 대해 추가로 개선됩니다. 알 수 없는 로케일은 일반 컬렉션에만 매핑되며 로케일별 이미지에 대한 액세스 권한이 없습니다.
+이 예제에서는 서양 및 중동 지역의 컬렉션을 지원하려고 합니다. 두 컬렉션은 모두 일반 이미지 컬렉션을 기반으로 하며, 모두 여러 이미지를 추가하거나 수정합니다. 그런 다음 `m1` 및 `m2`에 대해 이미지가 공유된다는 점을 제외하고 두 컬렉션은 특정 로케일(두 개의 중동 지역 변형에 대해 `w1`, `w2`, 세 개의 서양 로케일에 대해 `w3`, `w1` 및 `w3`)에 대해 추가로 개선됩니다. 알 수 없는 로케일은 일반 컬렉션에만 매핑되며 로케일별 이미지에 대한 액세스 권한이 없습니다.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -114,7 +114,7 @@ ht-degree: 2%
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> </span>에 대한 <span class="codeph"> </p> </td> 
+   <td> <p> <span class="codeph">에 대한 </span> </p> </td> 
    <td> <p> <span class="codeph"> myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 </span> </p> </td> 
   </tr> 
   <tr> 

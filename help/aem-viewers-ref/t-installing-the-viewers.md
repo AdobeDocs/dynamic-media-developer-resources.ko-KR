@@ -24,12 +24,12 @@ IS Viewers 파일을 하드 드라이브에 복사한 다음 `s7viewers.war` 파
 
 >[!NOTE]
 >
->이미지 제공 뷰어에 대한 업그레이드 설치가 없습니다. Adobe은 설치를 계속하기 전에 기존 Dynamic Media 뷰어(s7viewers) 디렉토리를 백업하는 것을 권장합니다.
+>이미지 제공 뷰어에 대한 업그레이드 설치가 없습니다. Adobe은 설치를 계속하기 전에 기존 Dynamic Media 뷰어(s7viewers) 디렉터리를 백업하는 것을 권장합니다.
 
 **동일한 서버에 여러 뷰어를 설치하려면:**
 
 1. 뷰어 .war의 이름을 원하는 컨텍스트로 변경하고 파일을 원하는 위치에 배포합니다.
-1. `config.js`에서 `this.isViewerRoot` 매개 변수를 설정합니다.
+1. `this.isViewerRoot`에서 `config.js` 매개 변수를 설정합니다.
 1. 새로 만든 뷰어 폴더의 루트에서 `config.js`을(를) 엽니다.
 1. `this.isViewerRoot = "/s7viewers"` 매개 변수를 `s7viewers.war` 파일의 컨텍스트로 설정합니다. (예: `"/s7viewers-4.0"`)
 1. 파일을 저장하고 닫습니다.

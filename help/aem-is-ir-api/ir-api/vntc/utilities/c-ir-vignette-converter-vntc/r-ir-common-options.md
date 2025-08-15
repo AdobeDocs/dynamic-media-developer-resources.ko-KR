@@ -31,7 +31,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> 간격 </span> </span> </p> </td> 
-  <td class="stentry"> <p>손실 없는 PNG 대신 출력 파일에 포함된 RGB 및 회색 음영 이미지 데이터에 대해 손실 JPEG 인코딩을 선택합니다. 알파(RGBA)가 있는 이미지는 항상 PNG 인코딩을 사용하여 저장됩니다. <span class="varname"> 간격 </span>은(는) JPEG 품질(1...100)을 지정합니다. 85 이상이 권장됩니다. 기본값은 PNG 인코딩을 선택하는 <span class="codeph"> -jpegquality 0 </span>입니다. </p> </td> 
+  <td class="stentry"> <p>RGB용 손실 JPEG 인코딩과 출력 파일에 포함된 회색 음영 이미지 데이터를 무손실 PNG 대신 선택합니다. 알파(RGBA)가 있는 이미지는 항상 PNG 인코딩을 사용하여 저장됩니다. <span class="varname"> 간격 </span>은(는) JPEG 품질(1...100)을 지정합니다. 85 이상이 권장됩니다. 기본값은 PNG 인코딩을 선택하는 <span class="codeph"> -jpegquality 0 </span>입니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -log <span class="varname"> 경로 </span> </span> </p> </td> 
@@ -39,7 +39,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p><span class="filepath"> vntc </span> 프로세스의 우선 순위를 낮추십시오. 비네팅을 처리하는 동안 <span class="filepath"> vntc </span>이(가) 전체 CPU를 인수하지 않도록 이 프로세스를 사용할 수 있습니다. 운영 체제는 다른 중요한 프로세스에 더 많은 시간을 제공할 수 있습니다. <span class="varname"> 간격 </span>은(는) 우선 순위가 낮은 비율(0..100)을 지정합니다. 기본값은 <span class="codeph"> -lowerpriority 0 </span>이며, 이는 <span class="filepath"> vntc </span> 프로세스의 우선 순위를 낮추지 않습니다. </p> </td> 
+  <td class="stentry"> <p><span class="filepath"> vntc </span> 프로세스의 우선 순위를 낮추십시오. 비네팅을 처리하는 동안 <span class="filepath"> vntc </span>이(가) 전체 CPU을 인수하지 않도록 이 프로세스를 사용할 수 있습니다. 운영 체제는 다른 중요한 프로세스에 더 많은 시간을 제공할 수 있습니다. <span class="varname"> 간격 </span>은(는) 우선 순위가 낮은 비율(0..100)을 지정합니다. 기본값은 <span class="codeph"> -lowerpriority 0 </span>이며, 이는 <span class="filepath"> vntc </span> 프로세스의 우선 순위를 낮추지 않습니다. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> 간격 </span> </span> </p> </td> 

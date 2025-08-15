@@ -44,8 +44,8 @@ ht-degree: 8%
 | folder핸들 | `xsd:string` | 예 | 파생된 새 에셋이 생성되는 폴더에 대한 핸들입니다. |
 | name | `xsd:string` | 예 | 파생된 에셋의 이름입니다. |
 | 유형 | `xsd:string` | 예 | 새로 파생된 자산의 자산 유형: `AdjustedView` 또는 `LayerView`. |
-| urlModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 `urlPostApplyModifier` 명령에 *이전*&#x200B;에 적용되었습니다. |
-| urlPostApplyModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 `urlPostApplyModifier` 명령에 *after* 적용되었습니다. |
+| urlModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 *명령에*&#x200B;이전`urlPostApplyModifier`에 적용되었습니다. |
+| urlPostApplyModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 *명령에* after`urlPostApplyModifier` 적용되었습니다. |
 
 **출력(createDerivedAssetParam)**
 

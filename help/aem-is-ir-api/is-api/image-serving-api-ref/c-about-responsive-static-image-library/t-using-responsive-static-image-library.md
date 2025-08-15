@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **응답형 이미지 라이브러리를 사용하려면**
 
-1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ko#image-sizing).
+1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing).
 
    응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=`과 같이 이미지 크기에 영향을 주는 설정은 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
 1. 라이브러리 JavaScript 파일을 웹 페이지에 추가합니다.
@@ -32,7 +32,7 @@ ht-degree: 0%
 
    또한 기존 이미지 URL을 `data-src` 특성에 넣는 것이 좋습니다. 그런 다음 데이터 URI로 인코딩된 1x1 GIF 이미지를 갖도록 기존 `src` 특성을 설정합니다. 이렇게 하면 로드 시 웹 페이지에서 전송되는 HTTP 요청 수가 줄어듭니다. 그러나 SEO(검색 엔진 최적화)가 필요한 경우 이미지 인스턴스에 `title` 특성을 설정하는 것이 좋습니다.
 
-   다음은 이미지에 대한 `data-breakpoints` 특성을 정의하고 Data URI로 인코딩된 1x1 GIF을 사용하는 예입니다.
+   다음은 이미지에 대한 `data-breakpoints` 특성을 정의하고 데이터 URI로 인코딩된 1x1 GIF을 사용하는 예입니다.
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
@@ -42,7 +42,7 @@ ht-degree: 0%
 
    라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다. 이러한 호출이 있으면 라이브러리는 웹 페이지 레이아웃에 있는 `IMG` 요소의 런타임 크기 및 장치 화면의 밀도에 따라 원본 이미지를 이미지 제공에서 다운로드한 이미지로 대체합니다.
 
-   다음 코드는 `responsiveImage`이(가) 해당 이미지의 ID라고 가정할 때 이미지에서 `s7responsiveImage` API 함수를 호출하는 예제입니다.
+   다음 코드는 `s7responsiveImage`이(가) 해당 이미지의 ID라고 가정할 때 이미지에서 `responsiveImage` API 함수를 호출하는 예제입니다.
 
    ```
    <script type="text/javascript"> 

@@ -30,7 +30,7 @@ Layer 속성 또는 view 속성. `layer=comp`인 경우 현재 레이어 또는 
 
 ## 예 {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-이미지 리샘플링으로 인해 약간 흐려지는 점을 보완합니다. 또한 선명해진 가장자리를 따라 추가 JPEG 아티팩트가 발생하지 않도록 JPEG 품질을 높입니다.
+이미지 리샘플링으로 인해 약간 흐려지는 점을 보완합니다. 또한 선명해진 가장자리를 따라 추가 JPEG 아티팩트가 생기지 않도록 JPEG 품질을 높입니다.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 핫스팟 빠른 보기 {#section-cda48fc9730142d0bb3326bac7df3271}
 
-이러한 유형의 핫스팟은 Dynamic Media, Adobe Experience Manager Assets - On-demand의 &quot;빠른 보기&quot; 작업 유형을 사용하여 작성해야 합니다. 사용자가 이러한 핫스팟을 활성화하면 뷰어가 `quickViewActivate` JavaScript 콜백을 실행하고 핫스팟 데이터를 전달합니다. 포함 웹 페이지는 이 콜백을 수신해야 합니다. 페이지가 트리거되면 고유한 빠른 보기 구현이 열립니다.
+이러한 유형의 핫스팟은 Adobe Experience Manager Assets - 온디맨드의 Dynamic Media에서 &quot;빠른 보기&quot; 작업 유형을 사용하여 작성해야 합니다. 사용자가 이러한 핫스팟을 활성화하면 뷰어가 `quickViewActivate` JavaScript 콜백을 실행하고 핫스팟 데이터를 전달합니다. 포함 웹 페이지는 이 콜백을 수신해야 합니다. 페이지가 트리거되면 고유한 빠른 보기 구현이 열립니다.
 
 ## 외부 웹 페이지로 리디렉션 {#section-ef820c71251e4215800bb99c0c9ebe16}
 

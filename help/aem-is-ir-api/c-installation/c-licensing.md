@@ -1,6 +1,6 @@
 ---
 title: 라이선스
-description: 이미지 제공을 사용하려면 Dynamic Media 이미지 제공 라이선스 키가 필요하며 이미지 제공을 사용할 각 시스템에 설치해야 합니다.
+description: 이미지 서비스를 사용하려면 Dynamic Media 이미지 서비스 제공 라이선스 키가 필요하며 이미지 서비스를 사용할 각 시스템에 설치해야 합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 라이선스{#licensing}
 
-이미지 제공을 사용하려면 Dynamic Media 이미지 제공 라이선스 키가 필요하며 이미지 제공을 사용할 각 시스템에 설치해야 합니다.
+이미지 서비스를 사용하려면 Dynamic Media 이미지 서비스 제공 라이선스 키가 필요하며 이미지 서비스를 사용할 각 시스템에 설치해야 합니다.
 
 마찬가지로 이미지 렌더링을 사용하려면 Dynamic Media 이미지 렌더링 라이선스 키가 필요합니다. 이미지 렌더링은 이미지 제공 라이선스 없이 사용할 수 있으며, 이와 반대로도 사용할 수 있습니다.
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 SVG 렌더러의 Java 힙 크기입니다. 기본값은 &quot;200m&quot;(200MB)입니다.
 
-## PS::svgProvider.rootPaths - 데이터 루트 폴더 SVG {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
+## PS::svgProvider.rootPaths - SVG 데이터 루트 폴더 {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
 SVG 소스 데이터 파일의 위치입니다. 하나 이상의 절대 파일 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적인 경로이며 세미콜론으로 구분됩니다. 일반적으로 `IS::RootPath`과(와) 동일한 값으로 설정됩니다.
 

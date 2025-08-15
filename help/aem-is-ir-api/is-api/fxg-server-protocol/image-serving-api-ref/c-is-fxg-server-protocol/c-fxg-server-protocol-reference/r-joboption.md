@@ -1,5 +1,5 @@
 ---
-description: PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 다른 이름으로 저장 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 생성한 파일입니다.
+description: PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator에서 PDF으로 저장 옵션 대화 상자 또는 InDesign의 PDF 사전 설정에서 생성한 파일입니다.
 solution: Experience Manager
 title: 직업 선택
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # 직업 선택{#joboption}
 
-PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator이 InDesign의 다른 이름으로 저장 PDF 옵션 대화 상자 또는 PDF 사전 설정에서 생성한 파일입니다.
+PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설정은 Illustrator에서 PDF으로 저장 옵션 대화 상자 또는 InDesign의 PDF 사전 설정에서 생성한 파일입니다.
 
 ` joboption= *`값`*`
 
@@ -25,7 +25,7 @@ PDF 작업 옵션을 적용합니다. 작업 옵션 파일 또는 PDF 사전 설
  </tr> 
 </table>
 
-IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. 작업 옵션 파일에 포함된 PDF 옵션은 PDF 생성 시 사용됩니다.
+IPS/Dynamic Media Classic에서 작업 옵션 파일을 업로드하고 게시할 수 있습니다. PDF이 생성될 때 작업 옵션 파일에 포함된 PDF 옵션이 사용됩니다.
 
 현재 지원되는 옵션은 다음과 같습니다.
 

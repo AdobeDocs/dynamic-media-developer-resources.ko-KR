@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Adobe에서 `ExcludeMasterVideoFromAVS` 매개 변수에 대한 지원을 2022년 9월 1일에 종료합니다. [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md)도 참조하세요.
+>Adobe은 `ExcludeMasterVideoFromAVS` 매개 변수에 대한 지원을 2022년 9월 1일에 종료합니다. [더 이상 사용되지 않는 호출](/help/aem-ips-api/c-deprecated-calls.md)도 참조하세요.
 
 응용 비디오 세트에서 기본 비디오를 제외합니다.
 

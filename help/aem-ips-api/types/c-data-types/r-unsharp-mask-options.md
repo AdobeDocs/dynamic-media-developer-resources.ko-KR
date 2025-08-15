@@ -20,7 +20,7 @@ ht-degree: 8%
 
 ## 매개 변수 {#section-c3f0d03136ba4422819cb463bd393885}
 
-`minOccurs=" *`n`*".`(으)로 `unsharpMaskOptions` 옵션 값 지정
+`unsharpMaskOptions`n`minOccurs=" *`(으)로 `*".` 옵션 값 지정
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -92,4 +92,4 @@ ht-degree: 8%
 
 >[!MORELIKETHIS]
 >
->* [이미지 제공 API 참조: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=ko)
+>* [이미지 제공 API 참조: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html)

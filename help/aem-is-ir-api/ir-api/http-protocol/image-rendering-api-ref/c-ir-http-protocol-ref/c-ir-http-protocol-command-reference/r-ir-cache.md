@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ## 속성 {#section-0dcbd62e1122400e8c347f408f2d937e}
 
-요청의 어느 위치에서나 발생할 수 있습니다. 요청이 응답 이미지를 반환하지 않는 경우 무시됩니다. 재질 카탈로그에서 클라이언트측 캐싱을 사용하지 않도록 설정하면 *`clientControl`* 속성이 무시됩니다(`attribute::Expiration`에 음수 값이 있는 경우). 서버 캐싱을 사용하지 않도록 설정한 경우(`PlatformServer::cache.enable`) 속성 *`serverControl`*&#x200B;이(가) 무시됩니다.
+요청의 어느 위치에서나 발생할 수 있습니다. 요청이 응답 이미지를 반환하지 않는 경우 무시됩니다. 재질 카탈로그에서 클라이언트측 캐싱을 사용하지 않도록 설정하면 *`clientControl`* 속성이 무시됩니다(`attribute::Expiration`에 음수 값이 있는 경우). 서버 캐싱을 사용하지 않도록 설정한 경우(*`serverControl`*) 속성 `PlatformServer::cache.enable`이(가) 무시됩니다.
 
 ## 기본값 {#section-9034a1f4d7984c8f8dce3fc1e1803723}
 

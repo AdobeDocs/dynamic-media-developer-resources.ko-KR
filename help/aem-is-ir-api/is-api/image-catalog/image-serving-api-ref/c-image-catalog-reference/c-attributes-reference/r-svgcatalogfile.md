@@ -1,5 +1,5 @@
 ---
-description: SVG 데이터 파일 경로입니다. 이 카탈로그의 SVG 데이터를 포함하는 파일을 지정합니다.
+description: SVG 데이터 파일 경로. 이 카탈로그의 SVG 데이터가 포함된 파일을 지정합니다.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-SVG 데이터 파일 경로입니다. 이 카탈로그의 SVG 데이터를 포함하는 파일을 지정합니다.
+SVG 데이터 파일 경로. 이 카탈로그의 SVG 데이터가 포함된 파일을 지정합니다.
 
 SVG 데이터 파일은 지정된 정확한 순서로 모든 이미지 데이터 파일 뒤에 로드됩니다. 동일한 `catalog::Id` 값이 둘 이상의 레코드(같거나 다른 이미지 또는 SVG 카탈로그 파일)에 있으면 마지막 인스턴스가 우세합니다.
 

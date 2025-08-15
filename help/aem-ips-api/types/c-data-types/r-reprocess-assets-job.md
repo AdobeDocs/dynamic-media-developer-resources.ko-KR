@@ -1,5 +1,5 @@
 ---
-description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일의 재처리를 허용하는 작업 유형입니다.
+description: PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있도록 허용하는 작업 유형입니다.
 solution: Experience Manager
 title: AssetsJob 재처리
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일의 재처리를 허용하는 작업 유형입니다.
+PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기본 파일을 재처리할 수 있도록 허용하는 작업 유형입니다.
 
 구문
 
@@ -82,7 +82,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">개 유형:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 PDF 파일을 업로드하기 위한 옵션입니다. </p> </td> 
+   <td colname="col3"> <p>PDF 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -142,7 +142,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">개 유형:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>이미지 서버에 InDesign 파일을 업로드하기 위한 옵션입니다. </p> </td> 
+   <td colname="col3"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> 녹아웃 배경</span> </span> </p> </td> 
@@ -152,7 +152,7 @@ PDF 리핑 및 이미지 재최적화를 포함하여 이전에 업로드한 기
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph">개 유형:UnsharpMaskOptions</span> </p> </td> 
-   <td colname="col3"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션입니다. 이러한 설정을 사용하여 이미지 선명도를 개선합니다. </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html?lang=ko"> UnsharpMaskOptions</a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>최적화된 피라미드 TIF 파일을 만들 때 언샵 마스크 설정을 제어할 수 있는 옵션입니다. 이러한 설정을 사용하여 이미지 선명도를 개선합니다. </p> <p><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>을(를) 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>

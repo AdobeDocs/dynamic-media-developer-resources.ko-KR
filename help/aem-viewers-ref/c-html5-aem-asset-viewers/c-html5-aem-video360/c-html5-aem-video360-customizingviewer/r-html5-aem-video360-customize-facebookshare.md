@@ -18,7 +18,7 @@ Facebook 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩�
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-다음 CSS 클래스 선택기를 사용하여 Facebook 공유 버튼의 모양이 제어됩니다.
+Facebook 공유 단추의 모양은 다음 CSS 클래스 선택기로 제어됩니다.
 
 ```
 .s7video360viewer .s7facebookshare
@@ -55,7 +55,7 @@ CSS 클래스에서 `display:none` CSS 속성을 설정하여 소셜 공유 패�
 
 단추 도구 설명을 현지화할 수 있습니다. [사용자 인터페이스 요소의 로컬라이제이션](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1)을 참조하세요.
 
-**예** - 28 x 28픽셀이고 네 개의 서로 다른 단추 상태에 대해 각각 다른 이미지를 표시하는 Facebook 공유 단추를 설정하려면 다음을 수행합니다.
+**예** - Facebook 공유 단추를 28x28픽셀로 설정하고 4개의 다른 단추 상태 각각에 대해 다른 이미지를 표시하려면:
 
 ```
 .s7video360viewer .s7facebookshare { 

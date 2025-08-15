@@ -25,7 +25,7 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-*`pathDefinition`*&#x200B;에 대한 설명을 포함한 추가 정보는 [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)을(를) 참조하십시오.
+[에 대한 설명을 포함한 추가 정보는 ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*&#x200B;을(를) 참조하십시오.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ RTF 명령 `\ql`, `\qc`, `\qr`, `\li` 및 `\ri`을(를) 사용하여 경로를 �
 
 ## 속성 {#section-068137df436c46b9b55d271eb60e7285}
 
-텍스트 레이어 특성(`textPs=`만 해당). 다른 레이어에서 무시됨. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다. `textPs=`이(가) 있는 경우 무시됩니다.
+텍스트 레이어 특성(`textPs=`만 해당). 다른 레이어에서 무시됨. `layer=0`에 대해 지정된 경우 `layer=comp`에 적용됩니다. `textPs=`이(가) 있는 경우 무시됩니다.
 
 레이어에 `textPath=`과(와) `textFlowPath=`이(가) 모두 포함된 경우 오류가 반환됩니다.
 

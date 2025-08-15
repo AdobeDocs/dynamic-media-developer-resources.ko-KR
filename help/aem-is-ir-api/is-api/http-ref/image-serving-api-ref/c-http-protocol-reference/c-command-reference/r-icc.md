@@ -57,13 +57,13 @@ ht-degree: 1%
 
 ## 속성 {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-요청 속성입니다. 이미지 형식이 *`profile`*&#x200B;과(와) 일치하지 않는 `fmt=`(으)로 지정된 경우 서버에서 오류를 반환합니다.
+요청 속성입니다. 이미지 형식이 `fmt=`과(와) 일치하지 않는 *`profile`*(으)로 지정된 경우 서버에서 오류를 반환합니다.
 
 지정된 ICC 프로필과 호환되지 않으면 수정자 *`renderIntent`* 및 *`blackpointComp`*&#x200B;이(가) 무시됩니다. CMYK 출력 장치 프로필은 다른 렌더링 의도를 지원할 가능성이 높습니다.
 
 ## 기본값 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `fmt=`에 지정된 이미지 유형과 일치하는 출력 프로필(`attribute::IccProfile*`)로 변환된 이미지를 전달합니다.
+색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `attribute::IccProfile*`에 지정된 이미지 유형과 일치하는 출력 프로필(`fmt=`)로 변환된 이미지를 전달합니다.
 
 지정하지 않으면 *`renderIntent`*&#x200B;은(는) `attribute::IccRenderIntent`에서 상속되고, *`blackpointComp`*&#x200B;은(는) `attribute::IccBlackPointCompensation`에서 상속되며, *`dither`*&#x200B;은(는) `attribute::IccDither`에서 상속됩니다.
 

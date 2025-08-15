@@ -47,6 +47,6 @@ ht-degree: 1%
 
 [!DNL `http://server/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`]
 
-이미지를 키 색상 투명도를 갖는 두 색조 GIF으로 변환하고 색상을 검정과 흰색으로 강제 변환합니다.
+이미지를 키 색상 투명도를 갖는 이중톤 GIF으로 변환하고 색상을 검정과 흰색으로 강제 변환합니다.
 
 [!DNL `http://server/is/agm/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`]

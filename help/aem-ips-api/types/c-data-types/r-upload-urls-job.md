@@ -67,7 +67,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">개 유형:InDesignOptions</span> </td> 
-   <td colname="col3"> 서버에 InDesign 파일을 업로드하기 위한 옵션입니다. </td> 
+   <td colname="col3"> InDesign 파일을 서버에 업로드하기 위한 옵션입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 녹아웃 배경</span> </span> </td> 
@@ -97,7 +97,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">개 유형:PDFOptions</span> </td> 
-   <td colname="col3"> 이미지 서버에 PDF 파일을 업로드하기 위한 옵션입니다. </td> 
+   <td colname="col3"> PDF 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

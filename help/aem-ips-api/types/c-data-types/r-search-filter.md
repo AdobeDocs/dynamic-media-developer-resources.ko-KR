@@ -69,7 +69,7 @@ ht-degree: 3%
    <td colname="col3">다음으로 설정: 
     <ul id="ul_8C164A5D9F0F43968C86A67FA6884F35"> 
      <li id="li_D8009688FF2C439D98D6C1052C1A6CBE"><span class="codeph"> True</span>: 원본 자산만 반환합니다. </li> 
-     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>: 생성된 콘텐츠를 반환합니다. 예: 업로드된 PDF의 이미지. </li> 
+     <li id="li_4970226BF0FF42388CAE4415FB63AF16"><span class="codeph"> False</span>: 생성된 콘텐츠를 반환합니다. 예를 들어 업로드된 PDF의 이미지입니다. </li> 
     </ul> </td> 
   </tr> 
   <tr> 

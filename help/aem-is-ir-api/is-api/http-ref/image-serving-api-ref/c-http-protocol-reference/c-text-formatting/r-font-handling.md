@@ -20,7 +20,7 @@ RTF 문자열에서 참조되는 모든 글꼴은 기본 카탈로그 또는 현
 
 RTF 문자열에 명시적으로 지정되지 않은 경우 `attribute::DefaultFont`(으)로 지정된 글꼴 이름이 사용됩니다.
 
-이미지 제공에서는 TrueType, OpenType®, Adobe Type 1(Windows 전용) 글꼴을 지원합니다.
+이미지 제공에서는 TrueType, OpenType®, Adobe Type 1(Windows에만 해당) 글꼴을 지원합니다.
 
 <!-- THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}
 

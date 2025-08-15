@@ -90,7 +90,7 @@ JSONP 응답 형식을 지원하는 요청을 사용하면 `req=` 매개 변수�
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.quality </span> </p> </td> 
    <td> <p> 정수 </p> </td> 
-   <td> <p> JPEG 품질입니다. (<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span> 참조) </p> </td> 
+   <td> <p> JPEG 품질. (<span class="codeph"> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352" type="reference" format="dita" scope="local"> qlt= </a> </span> 참조) </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> image.type </span> </p> </td> 

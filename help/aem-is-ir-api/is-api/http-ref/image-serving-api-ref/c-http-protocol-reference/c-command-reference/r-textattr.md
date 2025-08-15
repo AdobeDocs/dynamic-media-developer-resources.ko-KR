@@ -55,11 +55,11 @@ ht-degree: 0%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>텍스트가 합성된 캔버스에 비례하여 정확한 크기로 렌더링될 경우 를 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). <span class="codeph"> textPs= </span>에서 지원하는 유일한 <span class="varname"> resMode </span> 옵션입니다. </p> </td> 
+      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>텍스트가 합성된 캔버스에 비례하여 정확한 크기로 렌더링될 경우 를 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). <span class="varname"> textPs= </span>에서 지원하는 유일한 <span class="codeph"> resMode </span> 옵션입니다. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. <span class="codeph"> autoRes </span>을(를) 선택한 경우 <span class="varname"> res </span>이(가) 무시됩니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
+      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. <span class="varname"> autoRes </span>을(를) 선택한 경우 <span class="codeph"> res </span>이(가) 무시됩니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 속성 {#section-114ca0b8585b403c873e2251478ad1d5}
 
-텍스트 레이어 속성입니다. 이미지, 단색 및 효과 레이어에서 무시됩니다. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다.
+텍스트 레이어 속성입니다. 이미지, 단색 및 효과 레이어에서 무시됩니다. `layer=0`에 대해 지정된 경우 `layer=comp`에 적용됩니다.
 
 ## 기본값 {#section-855230f5330b4afc8a933f00a1ed4612}
 

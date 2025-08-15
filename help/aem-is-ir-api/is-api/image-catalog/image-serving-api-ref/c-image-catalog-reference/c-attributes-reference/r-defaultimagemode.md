@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ## 제한 사항 {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-중첩 이미지 렌더링, FXG 또는 `req=set` 요청이 실패할 경우 이미지 제공이 다시 `DefaultImageMode=0`(으)로 되돌아갑니다.
+중첩 이미지 렌더링, FXG 또는 `DefaultImageMode=0` 요청이 실패할 경우 이미지 제공이 다시 `req=set`(으)로 되돌아갑니다.
 
 ## 기본값 {#section-9e318524a2a5496386901286748c7ee7}
 

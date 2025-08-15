@@ -40,17 +40,17 @@ IPS API 버전 6의 새로운 형식과 변경된 형식을 설명합니다.
 
 **추가됨**
 
-* `UploadUrlsJob`에 `numUrls`을(를) 추가했습니다.
+* `numUrls`에 `UploadUrlsJob`을(를) 추가했습니다.
 
-* `Asset.`에 `fileName`을(를) 추가함
+* `fileName`에 `Asset.`을(를) 추가함
 
-* `MetadataField`에 `isHidden`을(를) 추가했습니다.
+* `isHidden`에 `MetadataField`을(를) 추가했습니다.
 
-* `TaskProgress`에 `taskState`을(를) 추가했습니다.
+* `taskState`에 `TaskProgress`을(를) 추가했습니다.
 
-* `ActiveJob` 및 `ScheduledJob`에 `exportJob`을(를) 추가했습니다.
+* `exportJob` 및 `ActiveJob`에 `ScheduledJob`을(를) 추가했습니다.
 
-* `PsdInfo`에 `optmizedPath` 및 `optimizedFile`을(를) 추가했습니다.
+* `optmizedPath`에 `optimizedFile` 및 `PsdInfo`을(를) 추가했습니다.
 
 * `contextHandle`이(가) 다음에 추가됨:
 

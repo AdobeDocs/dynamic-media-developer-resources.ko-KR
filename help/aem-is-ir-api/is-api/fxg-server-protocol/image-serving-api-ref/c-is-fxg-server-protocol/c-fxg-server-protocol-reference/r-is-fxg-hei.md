@@ -25,7 +25,7 @@ ht-degree: 1%
  </tr> 
 </table>
 
-래스터 형식은 기본 뷰 크기(또는 DefaultPix 설정)를 사용하여 렌더링됩니다. **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Publish 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 선택한 다음 너비 및 높이 값을 입력하십시오. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 Publish 이미지 제공 작업을 수행하여 변경 사항을 적용합니다.
+래스터 형식은 기본 뷰 크기(또는 DefaultPix 설정)를 사용하여 렌더링됩니다. **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 선택한 다음 너비 및 높이 값을 입력하십시오. 크기가 작을수록 성능이 향상됩니다. 설정을 저장하고 이미지 서버 게시를 수행하여 변경 사항을 적용합니다.
 
 `scale=1` 명령을 적용하면 래스터 형식 요청이 FXG에 지정된 크기로 렌더링됩니다.
 
@@ -44,6 +44,6 @@ ht-degree: 1%
 * PNG
 * JPG
 * JPEG
-* GIF-알파
+* GIF-alpha
 * TIF-alpha
 * PNG-alpha

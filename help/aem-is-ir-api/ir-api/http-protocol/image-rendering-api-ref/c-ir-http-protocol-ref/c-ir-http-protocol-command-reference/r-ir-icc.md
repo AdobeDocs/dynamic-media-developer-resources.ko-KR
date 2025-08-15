@@ -16,7 +16,7 @@ ht-degree: 1%
 
 출력 색상 프로파일.
 
-icc= *`profile`**`renderIntent`*[,*`blackpointComp`*]&rbrack;
+icc= *`profile`**`renderIntent`*[,*`blackpointComp`*]]
 
 <table id="simpletable_DF1914FD351E4F2BA61372A52F0CFFBF"> 
  <tr class="strow"> 
@@ -57,7 +57,7 @@ CMYK 출력 장치 프로필은 다른 렌더링 의도를 지원할 가능성�
 
 ## 기본값 {#section-bbd3206fdcac4dc48a08fc9eba14fc90}
 
-색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `fmt=`에 지정된 이미지 유형과 일치하는 출력 프로필(`attribute::IccProfile*`)로 변환된 이미지를 전달합니다.
+색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `attribute::IccProfile*`에 지정된 이미지 유형과 일치하는 출력 프로필(`fmt=`)로 변환된 이미지를 전달합니다.
 
 지정하지 않으면 *`renderIntent`*&#x200B;은(는) `attribute::IccRenderIntent`에서 상속되고 *`blackpointComp`*&#x200B;은(는) `attribute::IccBlackPointCompensation`에서 상속됩니다.
 

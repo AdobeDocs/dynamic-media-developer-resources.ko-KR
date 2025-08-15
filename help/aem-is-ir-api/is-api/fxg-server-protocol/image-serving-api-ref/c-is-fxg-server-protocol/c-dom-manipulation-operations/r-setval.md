@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 03ec2ffb-ad9a-4135-bc31-2d71284955f6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '60'
 ht-degree: 1%
 
 ---
 
 # setVal{#setval}
 
-s7:elementID에 대한 텍스트 노드 값을 설정합니다.
+s7:elementID에 대한 텍스트 노드 값을 설정하십시오.
 
 `setVal.elementID= *[!DNL value]*`
 
@@ -22,7 +22,7 @@ FXG 노드 요소에 `s7:elementID`이(가) 정의되어 있으면 해당 노드
 
 ## 예 {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-`TextGraphic` 노드에 대해 `s7:elementID="paragraph1"` 특성이 정의된 경우 다음 특성이 유효합니다.
+`s7:elementID="paragraph1"` 노드에 대해 `TextGraphic` 특성이 정의된 경우 다음 특성이 유효합니다.
 
 `&setVal.paragraph=Hello`
 

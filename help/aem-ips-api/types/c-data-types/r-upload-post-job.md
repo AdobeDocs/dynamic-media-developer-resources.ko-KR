@@ -20,7 +20,7 @@ getActiveJobs를 사용하여 데스크탑 업로드를 추적합니다.
 
 >[!NOTE]
 >
->업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 가져와야 합니다.
+>업로드 작업에 대한 모든 POST 요청은 동일한 IP 주소에서 발생해야 합니다.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -74,7 +74,7 @@ getActiveJobs를 사용하여 데스크탑 업로드를 추적합니다.
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">개 유형:InDesignOptions</span> </td> 
    <td colname="col3"> <p>아니요 </p> </td> 
-   <td colname="col4"> <p>이미지 서버에 InDesign 파일을 업로드하기 위한 옵션입니다. </p> </td> 
+   <td colname="col4"> <p>InDesign 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
@@ -110,7 +110,7 @@ getActiveJobs를 사용하여 데스크탑 업로드를 추적합니다.
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph">개 유형:PDFOptions</span> </td> 
    <td colname="col3"> <p>아니요</p> </td> 
-   <td colname="col4"> <p>이미지 서버에 PDF 파일을 업로드하기 위한 옵션입니다. </p> </td> 
+   <td colname="col4"> <p>PDF 파일을 이미지 서버에 업로드하기 위한 옵션입니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

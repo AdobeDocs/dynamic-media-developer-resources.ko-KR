@@ -20,4 +20,4 @@ ht-degree: 0%
 
 기본 보기에 `application` 역할이 있습니다. 기본 보기에 대한 간략한 설명이 `aria-roledescription`에 제공됩니다. 이 값은 해당 기본 보기 구성 요소의 `ROLE_DESCRIPTION` 지역화 기호로 정의됩니다. `aria-describedby`을(를) 사용하여 키보드 사용자를 위한 탐색 힌트가 제공됩니다. 사용 힌트에 대한 텍스트는 `USAGE_HINT` 지역화 기호에서 가져옵니다. 에셋에 UserData 필드에 정의된 레이블이 있는 경우 `aria-label` 특성은 해당 레이블의 값으로 설정됩니다.
 
-견본을 표시하는 구성 요소에 `aria-label` 특성이 있는 `listbox` 역할이 해당 구성 요소의 `LABEL` 지역화 기호 값으로 설정되어 있습니다. 개별 견본에는 집합의 견본 위치를 설명하는 `aria-setsize` 및 `aria-posinset` 특성이 있는 `option` 역할이 있습니다. 견본을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.
+견본을 표시하는 구성 요소에 `listbox` 특성이 있는 `aria-label` 역할이 해당 구성 요소의 `LABEL` 지역화 기호 값으로 설정되어 있습니다. 개별 견본에는 집합의 견본 위치를 설명하는 `option` 및 `aria-setsize` 특성이 있는 `aria-posinset` 역할이 있습니다. 견본을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.

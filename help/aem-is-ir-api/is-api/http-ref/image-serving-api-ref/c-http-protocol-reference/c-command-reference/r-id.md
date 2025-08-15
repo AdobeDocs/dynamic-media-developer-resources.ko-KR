@@ -35,7 +35,7 @@ ht-degree: 3%
  <thead> 
   <tr> 
    <th class="entry"> <b> req= 유형</b> </th> 
-   <th class="entry"> req=props</b>의 <b> 버전 식별자 </th> 
+   <th class="entry"> req=props<b>의 </b> 버전 식별자 </th> 
   </tr> 
  </thead>
  <tbody> 

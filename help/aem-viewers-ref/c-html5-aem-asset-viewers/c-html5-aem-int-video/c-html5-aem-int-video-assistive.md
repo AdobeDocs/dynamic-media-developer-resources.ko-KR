@@ -18,13 +18,13 @@ ht-degree: 0%
 
 최상위 뷰어 요소에는 기본적으로 뷰어 이름으로 설정된 `region` 역할 및 `aria-label` 특성이 있습니다. `Container.LABEL` 지역화 기호를 사용하여 레이블을 제어할 수 있습니다.
 
-단추에는 `aria-label` 특성이 있는 설명 텍스트 세트와 `button` 역할이 있습니다. `aria-label` 특성 값은 단추의 현지화 기호 값에서 채워집니다. 단추를 사용하지 않도록 설정하면 `aria-disabled` 특성이 그에 따라 설정됩니다.
+단추에는 `button` 특성이 있는 설명 텍스트 세트와 `aria-label` 역할이 있습니다. `aria-label` 특성 값은 단추의 현지화 기호 값에서 채워집니다. 단추를 사용하지 않도록 설정하면 `aria-disabled` 특성이 그에 따라 설정됩니다.
 
-슬라이더 구성 요소에는 현재 슬라이더 위치를 설명하는 `aria-valuenow`, `aria-valuemin` 및 `aria-valuemax` 특성이 있는 `slider` 역할이 있습니다.
+슬라이더 구성 요소에는 현재 슬라이더 위치를 설명하는 `slider`, `aria-valuenow` 및 `aria-valuemin` 특성이 있는 `aria-valuemax` 역할이 있습니다.
 
-썸네일에는 `ThumbnailGridView.LABEL` 지역화 기호에 의해 제어되는 `aria-label` 특성을 가진 `dialog` 역할이 있습니다. 개별 썸네일에는 `button` 역할이 있습니다. 썸네일을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.
+썸네일에는 `dialog` 지역화 기호에 의해 제어되는 `aria-label` 특성을 가진 `ThumbnailGridView.LABEL` 역할이 있습니다. 개별 썸네일에는 `button` 역할이 있습니다. 썸네일을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.
 
-견본을 표시하는 구성 요소에 `aria-label` 특성이 있는 `listbox` 역할이 해당 구성 요소의 `LABEL` 지역화 기호 값으로 설정되어 있습니다. 개별 견본에는 집합의 견본 위치를 설명하는 `aria-setsize` 및 `aria-posinset` 특성이 있는 `option` 역할이 있습니다. 견본을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.
+견본을 표시하는 구성 요소에 `listbox` 특성이 있는 `aria-label` 역할이 해당 구성 요소의 `LABEL` 지역화 기호 값으로 설정되어 있습니다. 개별 견본에는 집합의 견본 위치를 설명하는 `option` 및 `aria-setsize` 특성이 있는 `aria-posinset` 역할이 있습니다. 견본을 선택하면 `aria-selected` 특성이 `true`(으)로 설정됩니다.
 
 추가 `aria-haspopup` 특성이 `true`(으)로 설정되어 있고 실제 드롭다운 패널 요소를 참조하는 `aria-controls` 특성이 있는 단추에 의해 드롭다운 목록이 활성화됩니다. 드롭다운 패널 자체에는 `menu` 역할이 있고 하위 요소에는 `menuitem` 역할이 있습니다. 각 메뉴 항목에는 `aria-label` 특성이 지정되어 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 조치 수행 질문
-description: 이 비디오가 종료되면 콜 투 액션 패널이 나타나고 특정 비디오와 연결된 모든 대화형 견본을 표시합니다.
+description: call to action 패널은 비디오가 끝날 때 나타나고 특정 비디오와 연결된 모든 대화형 견본을 표시합니다.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,36 +14,36 @@ ht-degree: 1%
 
 # 조치 수행 질문{#call-to-action}
 
-이 비디오가 종료되면 콜 투 액션 패널이 나타나고 특정 비디오와 연결된 모든 대화형 견본을 표시합니다.
+call to action 패널은 비디오가 끝날 때 나타나고 특정 비디오와 연결된 모든 대화형 견본을 표시합니다.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 패널은 비디오 제목을 표시하는 헤더 영역, 오른쪽 위 모서리의 재생 버튼 및 스크롤 가능한 격자로 표시되는 실제 대화형 견본으로 구성됩니다. [callToActionRecapp](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6) 구성 특성을 사용하여 패널을 비활성화할 수 있습니다.
 
-콜 투 액션 패널은 항상 사용 가능한 전체 뷰어 영역을 가져옵니다.
+call to action 패널은 항상 사용 가능한 전체 뷰어 영역을 가져옵니다.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 배경색의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 배경색의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction
 ```
 
-## 콜 투 액션 패널의 배경색 CSS 속성 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
+## call to action 패널의 배경색 CSS 속성 {#css-properties-of-the-background-color-of-the-call-to-action-panel}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 배경색 </span> </p> </td> 
-   <td colname="col2"> <p> 콜 투 액션 패널의 배경색입니다. </p> </td> 
+   <td colname="col2"> <p> call to action 패널의 배경색입니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 예 {#example}
 
-어두운 회색 배경의 콜 투 액션 패널을 설정하려면:
+어두운 회색 배경의 call to action 패널을 설정하려면:
 
 ```
 .s7interactivevideoviewer .s7calltoaction { 
@@ -53,13 +53,13 @@ ht-degree: 1%
 
 <!--<a id="section_AD18C770788B49989BEDAA608ECA804C"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 헤더의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 헤더의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## 콜 투 액션 패널 헤더의 CSS 속성 {#css-properties-of-the-call-to-action-panel-header}
+## call to action 패널 헤더의 CSS 속성 {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -92,13 +92,13 @@ ht-degree: 1%
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 헤더 제목의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 헤더 제목의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
 ```
 
-## 콜 투 액션 패널의 헤더 제목 CSS 속성:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
+## call to action 패널에서 헤더 제목의 CSS 속성:  {#css-properties-of-the-header-title-in-the-call-to-action-panel}
 
 <table id="table_A5E36A5C4C664346B6DAE9A02B36C3D2"> 
  <tbody> 
@@ -148,13 +148,13 @@ ht-degree: 1%
 
 <!--<a id="section_D23A6D4BA0614286A060982B359E3C08"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 닫기 버튼의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 닫기 버튼의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton
 ```
 
-## 콜 투 액션 패널에 있는 닫기 버튼의 CSS 속성: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
+## call to action 패널에 있는 닫기 버튼의 CSS 속성: {#css-properties-of-the-close-button-in-the-call-to-action-panel}
 
 <table id="table_CB0BCBE70DB447BC8D31034A96308924"> 
  <tbody> 
@@ -220,13 +220,13 @@ ht-degree: 1%
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 썸네일 격자 보기의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 썸네일 격자 보기의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
 ```
 
-## 콜 투 액션 패널에 있는 썸네일 격자 보기의 CSS 속성:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
+## call to action 패널에 있는 썸네일 격자 보기의 CSS 속성:  {#css-properties-of-the-thumbnail-grid-view-in-the-call-to-action-panel}
 
 <table id="table_A0DDD21C84944D48A639F51FCC8DF065"> 
  <tbody> 
@@ -249,13 +249,13 @@ ht-degree: 1%
 
 <!--<a id="section_D2E5AADFCE0345468DC0D2977E2765D2"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 썸네일 셀의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 썸네일 셀의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## 콜 투 액션 패널에 있는 썸네일 셀의 CSS 속성: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## call to action 패널에 있는 썸네일 셀의 CSS 속성: {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -281,13 +281,13 @@ ht-degree: 1%
 
 <!--<a id="section_D06CF9F709A3447F83DC6E1CE7CA58B5"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 썸네일의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 축소판의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumb
 ```
 
-## 콜 투 액션 패널에 있는 썸네일의 CSS 속성: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
+## call to action 패널에 있는 썸네일의 CSS 속성: {#css-properties-of-the-thumbnail-in-the-call-to-action-panel}
 
 <table id="table_ECD7477F4BE94BA8943210FA8B6B8D01"> 
  <tbody> 
@@ -323,13 +323,13 @@ ht-degree: 1%
 
 <!--<a id="section_F1B7E3FA3ABD4D71848586A3B308F9E2"></a>-->
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 썸네일 레이블의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 썸네일 레이블의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label
 ```
 
-## 콜 투 액션 패널에 있는 썸네일 레이블의 CSS 속성: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
+## call to action 패널에 있는 썸네일 레이블의 CSS 속성: {#css-properties-of-the-thumbnail-label-in-the-call-to-action-panel}
 
 <table id="table_E2C9F21EBD9140FD9D20A4BBAD117E2F"> 
  <tbody> 
@@ -367,15 +367,15 @@ ht-degree: 1%
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-보기에 수직으로 맞출 수 있는 것보다 많은 썸네일이 있는 경우 썸네일은 오른쪽에 세로 스크롤 막대를 렌더링합니다. 기본적으로 콜 투 액션 패널은 엄지 단추와 스크롤 단추 없이 작은 세로 막대를 렌더링합니다. 하지만 뷰어 CSS를 변경하여 막대를 사용자 지정할 수 있습니다.
+보기에 수직으로 맞출 수 있는 것보다 많은 썸네일이 있는 경우 썸네일은 오른쪽에 세로 스크롤 막대를 렌더링합니다. 기본적으로 call to action 패널은 썸네일 및 스크롤 단추 없이 작은 세로 막대를 렌더링합니다. 하지만 뷰어 CSS를 변경하여 막대를 사용자 지정할 수 있습니다.
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 스크롤 막대 영역의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 스크롤 막대 영역의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
 ```
 
-## 콜 투 액션 패널에서 스크롤 막대 영역의 CSS 속성: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
+## call to action 패널에서 스크롤 막대 영역의 CSS 속성: {#css-properties-of-the-scroll-bar-area-in-the-call-to-action-panel}
 
 <table id="table_6D3A4A68BFDB44259A6E2E632B9195F3"> 
  <tbody> 
@@ -415,7 +415,7 @@ ht-degree: 1%
 
 스크롤 막대 트랙은 위쪽 및 아래쪽 스크롤 막대 단추 사이의 영역입니다. 이 구성 요소는 트랙의 위치와 높이를 자동으로 설정합니다.
 
-다음 CSS 클래스 선택기는 콜 투 액션 패널에서 스크롤 막대 트랙의 모양을 제어합니다.
+다음 CSS 클래스 선택기는 call to action 패널에서 스크롤 막대 트랙의 모양을 제어합니다.
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack
@@ -457,7 +457,7 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## 클릭 유도 문안 패널에 있는 썸네일 높이의 CSS 속성: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## call to action 패널에서 썸네일 높이의 CSS 속성: {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -524,9 +524,9 @@ ht-degree: 1%
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-CSS 위쪽, 왼쪽, 아래쪽 또는 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 뷰어 로직은 스크롤 단추를 자동으로 배치합니다. 대화형 비디오 뷰어의 작업 패널 호출에서는 스크롤 막대에 이 단추를 사용하지 않으므로 기본 CSS에서 이 단추의 크기는 0픽셀로 설정됩니다.
+CSS 위쪽, 왼쪽, 아래쪽 또는 오른쪽 속성을 사용하여 스크롤 단추를 배치할 수 없습니다. 뷰어 로직은 스크롤 단추를 자동으로 배치합니다. 대화형 비디오 뷰어의 call to action 패널에서는 스크롤 막대에 이러한 단추를 사용하지 않으므로 기본 CSS에서 해당 크기가 0픽셀로 설정됩니다.
 
-## 콜 투 액션 패널의 상단 및 하단 스크롤 단추의 CSS 속성:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## call to action 패널의 위쪽 및 아래쪽 스크롤 단추의 CSS 속성:  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 

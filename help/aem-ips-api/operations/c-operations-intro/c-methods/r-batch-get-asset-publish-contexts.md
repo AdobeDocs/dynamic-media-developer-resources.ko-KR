@@ -43,7 +43,7 @@ ht-degree: 14%
 | 이름 | 유형 | 필수 | 설명 |
 |---|---|---|---|
 | company핸들 | `xsd:string` | 예 | 회사를 위해 처리하십시오. |
-| assetHandleArray | ` `types:HandleArray&quot; | 예 | 활성(게시용으로 표시) 컨텍스트에 대해 쿼리할 자산 목록입니다. |
+| assetHandleArray | ` `유형:HandleArray&quot; | 예 | 활성(게시용으로 표시) 컨텍스트에 대해 쿼리할 자산 목록입니다. |
 
 **출력(batchGetAssetPublishContextsReturn)**
 

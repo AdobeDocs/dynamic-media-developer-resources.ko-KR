@@ -18,7 +18,7 @@ Twitter 공유 도구는 소셜 공유 패널에 추가된 단추로 구성됩�
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
-다음 CSS 클래스 선택기를 사용하여 Twitter 공유 버튼의 모양이 제어됩니다.
+Twitter 공유 단추의 모양은 다음 CSS 클래스 선택기로 제어합니다.
 
 ```
 .s7smartcropvideoviewer .s7twittershare

@@ -200,7 +200,7 @@ background-color: rgb(178, 178, 178);
 
 >[!NOTE]
 >
->`s7index` CSS 클래스에 대해 `display:none`을(를) 설정하여 페이지 인덱스를 완전히 숨길 수 있습니다.
+>`display:none` CSS 클래스에 대해 `s7index`을(를) 설정하여 페이지 인덱스를 완전히 숨길 수 있습니다.
 
 예제 1 - 오른쪽에서 최소 너비가 40픽셀이고 최대 너비가 70픽셀이며 5픽셀 여백이 있는 페이지 인덱스를 설정합니다.
 
@@ -359,7 +359,7 @@ max-width: 240px;
 
 >[!NOTE]
 >
->Thumb은 `up`, `down`, `over` 및 `disabled` Thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
+>Thumb은 `state`, `up`, `down` 및 `over` Thumb 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `disabled` 특성 선택기를 지원합니다.
 
 예 - 28 x 45픽셀이고 위쪽과 아래쪽에 10픽셀 여백이 있으며 각 상태에 대해 서로 다른 아트워크가 있는 스크롤 막대 썸을 설정합니다.
 
@@ -423,7 +423,7 @@ CSS `top`, `left`, `bottom` 및 `right` 속성을 사용하여 스크롤 단추�
 
 >[!NOTE]
 >
->단추는 `up`, `down`, `over` 및 `disabled` 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
+>단추는 `state`, `up`, `down` 및 `over` 단추 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `disabled` 특성 선택기를 지원합니다.
 
 단추 도구 설명을 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)를 참조하십시오.
 

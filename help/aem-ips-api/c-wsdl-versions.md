@@ -18,7 +18,7 @@ IPS 웹 서비스는 IPS 웹 서비스 구성 요소가 설치된 IPS 설치에�
 
 ## WSDL 액세스 {#section-62e69fa2c87f4dc9bca72f10ba028f6c}
 
-아래와 같이 Scene7 WSDL에 액세스합니다.
+아래 그림과 같이 Scene7 WSDL에 액세스합니다.
 
 ```
 https://<IPS_hostname:<IPS_port>/<IPS_webapp>/ 
@@ -36,7 +36,7 @@ https://<IPS_hostname>:<IPS_port>/<IPS_webapp>/
 services/IpsApiService 
 ```
 
-**Dynamic Media 지역의 URL에 액세스**
+**Dynamic Media 영역에 대한 URL에 액세스**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
@@ -131,7 +131,7 @@ IPS API 웹 서비스는 SOAP 바인딩만 지원합니다.
 
 **지원되는 전송**
 
-IPS API SOAP 바인딩은 HTTP 전송만 지원합니다. HTTPS POST 방법을 사용하여 모든 SOAP 요청을 수행합니다.
+IPS API SOAP 바인딩은 HTTP 전송만 지원합니다. HTTPS POST 메서드를 사용하여 모든 SOAP 요청을 수행합니다.
 
 **SOAP 작업 헤더**
 
@@ -197,7 +197,7 @@ API 요청에서 인증 자격 증명을 전달하는 기본 방법은 IPS API W
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> faultHttpStatusCode </span> </p> </td> 
-   <td colname="col2"> <p> 오류 응답에 대한 HTTP 상태 코드를 재정의하기 위한 선택적 매개 변수입니다. 기본적으로 오류 응답은 HTTP 상태 코드 500(내부 서버 오류)을 반환합니다. Adobe Flash을 포함한 일부 클라이언트 플랫폼은 상태 코드 200(OK)이 반환되지 않으면 응답 본문을 읽을 수 없습니다. </p> </td> 
+   <td colname="col2"> <p> 오류 응답에 대한 HTTP 상태 코드를 재정의하기 위한 선택적 매개 변수입니다. 기본적으로 오류 응답은 HTTP 상태 코드 500(내부 서버 오류)을 반환합니다. Adobe Flash를 포함한 일부 클라이언트 플랫폼은 상태 코드 200(OK)이 반환되지 않으면 응답 본문을 읽을 수 없습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,7 +229,7 @@ HTTP 기본 인증을 위해 각 SOAP POST 요청의 HTTP 헤더 섹션에는 �
 
 초기 요청으로 인증 헤더를 선제적으로 전송합니다. 요청에 인증 자격 증명이 포함되지 않은 경우 `IpsApiService`이(가) `401 (Unauthorized)` 상태 코드로 응답하지 않습니다. 대신 `500 (Internal Server Error)`의 상태 코드가 요청을 인증할 수 없다는 SOAP 오류 본문과 함께 반환됩니다.
 
-IPS 3.8 이전에는 SOAP 헤더를 통한 인증이 `http://www.scene7.com/IpsApi` 네임스페이스의 `AuthUser` 및 `AuthPassword` 요소를 사용하여 구현되었습니다. 예:
+IPS 3.8 이전에는 SOAP 헤더를 통한 인증이 `AuthUser` 네임스페이스의 `AuthPassword` 및 `http://www.scene7.com/IpsApi` 요소를 사용하여 구현되었습니다. 예:
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -300,7 +300,7 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 
 **SOAP 오류**
 
-작업에 예외 조건이 발생하면 정상적인 응답 대신 SOAP 메시지의 본문으로 SOAP 오류가 반환됩니다. 예를 들어 관리자가 아닌 사용자가 이전 `addCompany` 요청을 보내려고 하면 다음 응답이 반환됩니다.
+작업에 예외 조건이 발생하면 SOAP 오류가 일반적인 응답 대신 SOAP 메시지 본문으로 반환됩니다. 예를 들어 관리자가 아닌 사용자가 이전 `addCompany` 요청을 보내려고 하면 다음 응답이 반환됩니다.
 
 ```
 HTTP/1.1 500 Internal Server Error 

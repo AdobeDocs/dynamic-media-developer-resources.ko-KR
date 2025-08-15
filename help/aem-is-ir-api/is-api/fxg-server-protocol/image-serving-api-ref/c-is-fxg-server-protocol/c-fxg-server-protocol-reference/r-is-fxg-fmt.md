@@ -25,7 +25,7 @@ ht-degree: 3%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"></td> 
-  <td class="stentry"> <p> 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다. </p> <p> <span class="codeph"> jpeg </span>: 손실 JPEG </p> <p> <span class="codeph"> png </span>: 손실 없는 PNG </p> <p> <span class="codeph"> png-alpha </span>: 알파 채널이 있는 손실 없는 PNG </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: 알파 채널이 있는 TIFF </p> <p> <span class="codeph"> swf </span>: Adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf </span>: 이미지가 PDF에 포함됨 </p> <p> <span class="codeph"> gif </span>: 2~256색 GIF </p> <p> <span class="codeph"> gif-alpha </span>: 2~255가지 색상과 키-색상 투명도가 포함된 GIF </p> <p> <span class="codeph"> fxg </span>: 변수 및 DOM 조작이 적용된 FXG </p> <p> <span class="codeph"> fxgraw </span>: 원본 FXG가 서버에 저장됨 </p> </td> 
+  <td class="stentry"> <p> 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다. </p> <p> <span class="codeph"> jpeg </span>: 손실 있는 JPEG </p> <p> <span class="codeph"> png </span>: 손실 없는 PNG </p> <p> <span class="codeph"> png-alpha </span>: 알파 채널이 있는 손실 없는 PNG </p> <p> <span class="codeph"> tif </span>: TIFF </p> <p> <span class="codeph"> tif-alpha </span>: 알파 채널이 있는 TIFF </p> <p> <span class="codeph"> swf </span>: Adobe swf 파일에 포함된 손실 JPEG </p> <p> <span class="codeph"> pdf </span>: PDF에 이미지가 포함됨 </p> <p> <span class="codeph"> gif </span>: 2~256색 GIF </p> <p> <span class="codeph"> gif-alpha </span>: 2~255색 및 키-색상 투명도가 포함된 GIF </p> <p> <span class="codeph"> fxg </span>: 변수 및 DOM 조작이 적용된 FXG </p> <p> <span class="codeph"> fxgraw </span>: 원본 FXG가 서버에 저장됨 </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> pixelType</span> </span> </p></td> 
@@ -39,7 +39,7 @@ ht-degree: 3%
 
 `tiffCompression`은(는) tif, tif-alpha가 형식으로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용한 TIFF 형식의 JPEG 인코딩 옵션을 설정할 수 있습니다. quantize= 는 fmt=gif 또는 fmt=gif-alpha인 경우 사용할 수 있습니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt=`을(를) 사용하여 JPEG, TIFF 및 JPEG 압축 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. quantize= 는 fmt=gif 또는 fmt=gif-alpha인 경우 사용할 수 있습니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 형식 및 `pixelTypes[7]`에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 IR 변수는 비네팅, 로고 이미지 및 사용자 지정 텍스트를 식별하는 데 사용됩니다.
 
-재질 카탈로그 `myCat`의 비네팅 맵에서 이름이 *template*&#x200B;인 레코드의 `vignette::Modifier` 필드에 다음이 포함되어 있습니다.
+재질 카탈로그 `vignette::Modifier`의 비네팅 맵에서 이름이 *template*&#x200B;인 레코드의 `myCat` 필드에 다음이 포함되어 있습니다.
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 

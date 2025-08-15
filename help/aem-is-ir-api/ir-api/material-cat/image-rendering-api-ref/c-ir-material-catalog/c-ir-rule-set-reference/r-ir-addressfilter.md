@@ -30,9 +30,9 @@ ht-degree: 1%
 
 `<addressfilter>`이(가) 비어 있거나 지정되지 않은 경우 액세스가 제한되지 않습니다.
 
-`<rule>` 요소의 `<expression>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
+`<expression>` 요소의 `<rule>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
 
-`localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
+`localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `localhost` 사양에 관계없이 `ClientAddressFilter`에서 시작된 요청은 거부되지 않습니다.
 
 ## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

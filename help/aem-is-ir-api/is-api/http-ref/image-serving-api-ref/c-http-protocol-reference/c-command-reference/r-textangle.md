@@ -29,7 +29,7 @@ ht-degree: 2%
 
 ## 속성 {#section-6d586a632daa4261a8ce62db56140b36}
 
-레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 이 레이어에 `textPs=`이(가) 지정되지 않았거나 `textPath=`이(가) 지정된 경우 무시됩니다.
+레이어 속성입니다. `layer=0`인 경우 `layer=comp`에 적용됩니다. 이 레이어에 `textPs=`이(가) 지정되지 않았거나 `textPath=`이(가) 지정된 경우 무시됩니다.
 
 ## 기본값 {#section-49a9f5819c994c27928282c14b2bb2a7}
 

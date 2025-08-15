@@ -85,7 +85,7 @@ ht-degree: 8%
    <td colname="col1"> <span class="codeph"> <span class="varname"> 작업 </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> 예 </td> 
-   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연결된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 가져오려면 IPS 인터페이스에서 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여 넣은 다음 IPS URL의 형식을 적절한 URL로 지정하십시오. 예를 들어 <span class="codeph"> 및 </span>은(는) <span class="codeph"> &amp;amp; </span>이(가) 됩니다. </p> </td> 
+   <td colname="col4"> <p>IPS 인터페이스에 지정된 대로 이미지 맵과 연결된 <span class="codeph"> href </span> 값입니다. </p> <p><span class="codeph"> href </span> 값을 가져오려면 IPS 인터페이스에서 이미지를 클릭하고 URL을 복사하여 이 요소에 붙여 넣은 다음 IPS URL의 형식을 적절한 URL로 지정하십시오. 예를 들어 <span class="codeph"> 및 </span>은(는) <span class="codeph"> &amp; </span>이(가) 됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> 위치 </span> </span> </td> 

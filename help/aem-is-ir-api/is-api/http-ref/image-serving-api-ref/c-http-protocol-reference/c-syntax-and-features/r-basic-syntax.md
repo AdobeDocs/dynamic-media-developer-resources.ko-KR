@@ -35,11 +35,11 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 수정자</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">명령|{$<span class="varname"> 매크로</span>$}|{<span class="varname">개의 댓글</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">명령|{$<span class="varname"> 매크로</span>$}|&lbrace;<span class="varname">개의 댓글</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 명령</span> </span> </p> </td> 
-  <td class="stentry"> <p>{<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 매크로</span> </span> </p> </td> 

@@ -1,5 +1,5 @@
 ---
-description: 글꼴 이름. RTF \fontbl 명령에 지정된 것과 동일한 글꼴 이름입니다.
+description: 글꼴 이름. RTF fontbl 명령에 지정된 것과 동일한 글꼴 이름입니다.
 solution: Experience Manager
 title: 이름
 feature: Dynamic Media Classic,SDK/API

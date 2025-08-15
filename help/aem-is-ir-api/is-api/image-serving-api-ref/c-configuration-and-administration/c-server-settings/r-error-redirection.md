@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## PS::errorRedirect.rootUrl - 리디렉션 서버 {#section-85f22e48d68842a490b0e1191543b558}
 
-로컬에서 실패한 요청을 리디렉션해야 하는 2차 이미지 서비스 배포의 루트 URL( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*])입니다. 이 설정이 비어 있거나 정의되지 않으면 오류 리디렉션이 비활성화됩니다(기본값).
+로컬에서 실패한 요청을 리디렉션해야 하는 2차 이미지 서비스 배포의 루트 URL( HTTP:// *[!DNL domain]*[: *[!DNL port]*])입니다. 이 설정이 비어 있거나 정의되지 않으면 오류 리디렉션이 비활성화됩니다(기본값).
 
 ## PS::errorRedirect.connectTimeout - 리디렉션 연결 시간 초과 {#section-3971be8f720d4b32a2cc7860b4085971}
 

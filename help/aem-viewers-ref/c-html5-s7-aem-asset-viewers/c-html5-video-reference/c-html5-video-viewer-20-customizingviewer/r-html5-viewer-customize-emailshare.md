@@ -241,7 +241,7 @@ background-color: #ffffff;
 .s7videoviewer .s7emaildialog .s7closebutton
 ```
 
-**닫기 단추 속성의 CSS **
+**닫기 단추 속성의 CSS &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ background-color: #ffffff;
 .s7videoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**대화 상자 바닥글 속성의 CSS **
+**대화 상자 바닥글 속성의 CSS &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ background-color: #ffffff;
 .s7videoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**대화 상자 보기 영역의 CSS **
+**대화 상자 보기 영역의 CSS &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +571,7 @@ background-color: #ffffff;
 
 이 컨테이너의 높이가 기본 대화 상자 영역보다 큰 경우 구성 요소에서 자동으로 세로 스크롤을 활성화합니다.
 
-**대화 상자 본문의 CSS **
+**대화 상자 본문의 CSS &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +623,7 @@ background-color: #ffffff;
 
 이 클래스는 양식 사용자 인터페이스의 여러 위치에 있는 텍스트에 적용할 수 있으므로 레이블 크기나 위치를 제어하기에 적합하지 않습니다.
 
-**대화 상자 레이블의 CSS 속성. **
+**대화 상자 레이블의 CSS 속성. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +959,7 @@ background-color: #ffffff;
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**대화 상자 콘텐츠 조각의 CSS **
+**대화 상자 콘텐츠 조각의 CSS &#x200B;**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1094,7 @@ background-color: #ffffff;
 .s7videoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**대화 상자 콘텐츠 원본 의 CSS **
+**대화 상자 콘텐츠 원본 의 CSS &#x200B;**
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

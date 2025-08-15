@@ -17,4 +17,4 @@ ht-degree: 0%
 다음을 사용하여 기술 지원에 문의하십시오.
 
 * **전화** - 800-898-9743, 06:00부터 18:00까지, 미국 태평양 표준시, 월요일부터 금요일까지(공휴일은 제외).
-* **지원 사례 만들기** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **지원 사례 만들기** - [https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

@@ -32,11 +32,11 @@ Adobe Experience Cloud Adobe Experience Manager 솔루션의 Adobe Scene7 2016�
 
 Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하게 되었습니다.
 
-[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)를 참조하십시오.
+[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=ko#dynamic)를 참조하십시오.
 
 ## 이미지 생산 시스템 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)을(를) 참조하십시오.
+전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko)을(를) 참조하십시오.
 
 **새로운 기능, 개선 사항 및 버그 수정**
 
@@ -58,7 +58,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
 
 **이미지 제공 5.5.3에 대한 버그 수정**
 
@@ -68,7 +68,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
 
 **이미지 제공 5.5.2에 대한 버그 수정**
 
@@ -77,7 +77,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
 
 **이미지 제공 5.5.1에 대한 새로운 기능, 개선 사항 및 버그 수정**
 

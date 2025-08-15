@@ -170,7 +170,7 @@ ht-degree: 1%
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> 유형:ExportJob</span> </td> 
-   <td colname="col3">이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> 내보내기 작업</a>을(를) 참조하십시오. </td> 
+   <td colname="col3">이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=ko" format="http" scope="external"> 내보내기 작업</a>을(를) 참조하십시오. </td> 
   </tr> 
  </tbody> 
 </table>

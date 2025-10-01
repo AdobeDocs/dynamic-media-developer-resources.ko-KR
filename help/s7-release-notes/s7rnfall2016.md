@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Adobe Experience Cloud Adobe Experience Manager 솔루션의 Adobe Scene7 2016�
 
 Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하게 되었습니다.
 
-[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=ko#dynamic)를 참조하십시오.
+[HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)를 참조하십시오.
 
 ## 이미지 생산 시스템 {#section-24487cb493444d808fb7193f0a00cdd4}
 
-전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=ko)을(를) 참조하십시오.
+전체 문서를 보려면 [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)을(를) 참조하십시오.
 
 **새로운 기능, 개선 사항 및 버그 수정**
 
@@ -58,7 +58,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.3에 대한 버그 수정**
 
@@ -68,7 +68,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.2에 대한 버그 수정**
 
@@ -77,7 +77,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 ## 뷰어(이미지 제공 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko)를 참조하십시오.
+전체 문서를 보려면 [뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en)를 참조하십시오.
 
 **이미지 제공 5.5.1에 대한 새로운 기능, 개선 사항 및 버그 수정**
 
@@ -151,10 +151,7 @@ Adobe은 전반적인 성능이 개선된 HTTP/2 컨텐츠 제공을 발표하�
 
 **알려진 문제 및 제한 사항**
 
-* `iscommands`의 이미지 제공 수정자가 `req=set` 요청에 기본적으로 추가되지 않습니다. 이미지 표시에만 영향을 주는 수정자가 제대로 작동합니다. 크기에 영향을 주는 수정자는 복잡한 에셋에서 사용해야 합니다. 예:
-
-  `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
-
+* `iscommands`의 이미지 제공 수정자가 `req=set` 요청에 기본적으로 추가되지 않습니다. 이미지 표시에만 영향을 주는 수정자가 제대로 작동합니다. 크기에 영향을 주는 수정자는 복잡한 에셋에서 사용해야 합니다.
 * [플라이아웃] IE9은 마우스가 꺼진 후에도 화면에 남아 있는 경우가 있습니다.
 * 브라우저 크기 조정으로 인해 크기를 잘못 조정할 수 있습니다.
 * iPad 2: 대형 eCatalog 자산이 iOS에서 Safari를 충돌시킵니다.

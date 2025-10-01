@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,11 @@ ht-degree: 0%
 
 ## 데모 URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ko)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
+
+<!--
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
+-->
 
 ## 시스템 요구 사항 {#section-b7270cc4290043399681dc504f043609}
 
@@ -66,11 +70,13 @@ ht-degree: 0%
 
 사용자 지정 CSS를 적용하여 시각적 맞춤화를 수행할 수 있습니다.
 
-다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
+<!--
+The following is an example of HTML code that opens the viewer in a new window:
 
 ```html {.line-numbers}
 <a href="https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/CarouselViewer.html?asset=/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner&serverurl=https://adobedemo62-h.assetsadobe.com/is/image" target="_blank">Open popup viewer</a>
 ```
+-->
 
 **고정 크기 포함 모드 및 반응형 디자인 포함 모드 정보**
 
@@ -161,6 +167,7 @@ ht-degree: 0%
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 기능이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
+
    다음은 뷰어 인스턴스를 만들어 필요한 최소 구성 옵션을 생성자에 전달하고 `init()` 메서드를 호출하는 예입니다. 이 예제에서는 `carouselViewer`이(가) 뷰어 인스턴스이고, `s7viewer`이(가) 자리 표시자 `DIV`의 이름이고, `https://adobedemo62-h.assetsadobe.com/is/image`이(가) 이미지 제공 URL이고, `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`이(가) 자산이라고 가정합니다.
 
    ```javascript {.line-numbers}
@@ -174,6 +181,7 @@ ht-degree: 0%
    }).init(); 
    </script>
    ```
+
 
    다음 코드는 고정된 크기로 회전식 뷰어를 임베드하는 간단한 웹 페이지의 전체 예입니다.
 
@@ -206,7 +214,9 @@ ht-degree: 0%
 
 **무제한 높이의 응답형 디자인 포함**
 
-응답형 디자인 임베딩을 사용하면 일반적으로 웹 페이지에는 뷰어의 컨테이너 `DIV`의 런타임 크기를 지정하는 일종의 유연한 레이아웃이 있습니다. 다음 예제에서는 웹 페이지에서 뷰어의 컨테이너 `DIV`이(가) 웹 브라우저 창 크기의 40%를 차지하도록 허용한다고 가정합니다. 그리고, 그것의 높이는 제한 없이 남아있습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
+응답형 디자인 임베딩을 사용하면 일반적으로 웹 페이지에는 뷰어의 컨테이너 `DIV`의 런타임 크기를 지정하는 일종의 유연한 레이아웃이 있습니다.
+
+다음 예제에서는 웹 페이지에서 뷰어의 컨테이너 `DIV`이(가) 웹 브라우저 창 크기의 40%를 차지하도록 허용한다고 가정합니다. 그리고, 그것의 높이는 제한 없이 남아있습니다. 웹 페이지 HTML 코드는 다음과 같습니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -262,11 +272,12 @@ var carouselViewer = new s7viewers.CarouselViewer({
 
 다음 예제 페이지에서는 무제한 높이를 사용하는 응답형 디자인 포함의 보다 실제 사용을 보여 줍니다.
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ko)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
 
 **너비 및 높이가 정의된 유연한 크기 포함**
 
 폭과 높이가 정의된 유연한 크기 포함에서는 웹 페이지 스타일이 다릅니다. 두 크기를 `"holder"` DIV에 제공하고 브라우저 창에서 가운데로 맞춥니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
+
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -330,9 +341,11 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+
 **Setter 기반 API를 사용하여 포함**
 
 JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며, 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 구성 매개 변수를 지정합니다.
+
 
 다음 예제에서는 setter 기반 API에 고정 크기 임베딩을 사용하는 방법을 보여 줍니다.
 
@@ -360,3 +373,4 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+

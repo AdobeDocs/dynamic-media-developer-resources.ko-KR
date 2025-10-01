@@ -5,9 +5,9 @@ title: 명령 참조 - 구성 속성
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 0%
 선택적.
 
 이미지 제공이 제공하는 이미지의 URL입니다. URL이 없으면 라이브러리는 `src` 특성에 설정된 값을 폴백으로 사용합니다. 이 속성은 응답형 이미지 라이브러리가 다른 위치에서 관리하는 초기 이미지 및 동적 이미지를 제공합니다.
-
-**예**
+<!--
+**Example** 
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
@@ -34,13 +35,15 @@ ht-degree: 0%
 
 `data-src`이(가) 설정되지 않은 경우 `src`은(는) 필수 항목이며 이미지 제공에서 제공하는 이미지에 대한 URL을 포함해야 합니다.
 
-**예**
+<!--
+**Example**
 
-`src` 특성에 데이터 URI를 사용하고 `data-src` 특성에 이미지 제공 URL을 사용하는 경우:
+Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## 데이터 중단점 {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -52,23 +55,26 @@ ht-degree: 0%
 
 여러 이미지 제공 명령 또는 이미지 사전 설정 이름이 &quot;`&`&quot; 문자로 구분됩니다. 이미지 제공 명령 값에 쉼표가 있으면 해당 쉼표는 `%2C`(으)로 대체됩니다. 이미지 사전 설정 이름이 달러 기호(`$`)로 줄바꿈됩니다.
 
-**예**
+<!--
+**Examples**
 
-**중단점만 사용**
+**Using breakpoints only**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**이미지 제공 명령 사용**
+**Using Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**이미지 사전 설정 사용**
+**Using Image Presets**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**이미지 사전 설정 및 이미지 제공 명령 사용**
+**Using Image Presets & Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+-->
 
 ## 데이터 모드 {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 

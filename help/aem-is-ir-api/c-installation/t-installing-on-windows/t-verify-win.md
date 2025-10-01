@@ -23,7 +23,7 @@ Dynamic Media 이미지 서비스를 설치한 후 설치를 확인해야 합니
 
    `http:// server:port /is/image`
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 응답에 이미지 서버가 수신 중임을 나타내는 &quot; `imageServer.`&quot; 항목이 있는지 확인합니다.
 

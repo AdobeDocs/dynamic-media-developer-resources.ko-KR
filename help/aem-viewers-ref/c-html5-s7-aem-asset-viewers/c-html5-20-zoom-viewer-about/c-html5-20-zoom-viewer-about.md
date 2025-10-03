@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -176,33 +176,41 @@ target="_blank">Open popup viewer</a>
    }
    ```
 
-   다음 예제에서는 고정된 바깥쪽 뷰어로 동작을 확인할 수 있습니다. 세트 간에 전환할 때 외부 뷰어 크기는 변경되지 않습니다.
+<!-- You can see the behavior with a fixed outer viewer in the following example. Notice that when you switch between sets, the outer viewer size does not change: -->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=ko)
+<!--
 
-   기본 보기 차원을 정적으로 설정하려면 `Container` `.s7zoomviewer` CSS 선택기를 사용하거나 `.s7container` 수정자를 사용하여 내부 `stagesize` SDK 구성 요소에 대한 뷰어 크기를 절대 단위로 정의하십시오.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
-   다음은 자산을 전환할 때 기본 보기 영역이 크기를 변경하지 않도록 내부 `Container` SDK 구성 요소에 대한 뷰어 크기를 정의하는 예입니다.
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7zoomviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
+기본 보기 차원을 정적으로 설정하려면 `Container` `.s7zoomviewer` CSS 선택기를 사용하거나 `.s7container` 수정자를 사용하여 내부 `stagesize` SDK 구성 요소에 대한 뷰어 크기를 절대 단위로 정의하십시오.
 
-   다음 데모 페이지에는 기본 보기 크기가 고정된 뷰어 동작이 표시됩니다. 세트 간에 전환하면 기본 보기는 정적인 상태로 유지되며 웹 페이지 콘텐츠가 세로로 이동합니다.
+다음은 자산을 전환할 때 기본 보기 영역이 크기를 변경하지 않도록 내부 `Container` SDK 구성 요소에 대한 뷰어 크기를 정의하는 예입니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=ko)
+```html {.line-numbers}
+#s7viewer.s7zoomviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정할 수 있습니다. 또는 다음과같이 이 도움말의 명령 참조 섹션에 설명된 대로 `params` 컬렉션을 사용하는 뷰어 초기화 코드로 명시적으로 전달하거나 API 호출로 전달할 수 있습니다.
+<!-- The following demo page shows the viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically. -->
 
-   ```html {.line-numbers}
-    zoomViewer.setParam("stagesize", 
-   "640,480");
-   ```
+<!--
 
-   CSS 기반 접근 방식이 권장되며 이 예제에서 사용됩니다.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
+
+-->
+
+Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정할 수 있습니다. 또는 다음과같이 이 도움말의 명령 참조 섹션에 설명된 대로 `params` 컬렉션을 사용하는 뷰어 초기화 코드로 명시적으로 전달하거나 API 호출로 전달할 수 있습니다.
+
+```html {.line-numbers}
+ zoomViewer.setParam("stagesize", 
+"640,480");
+```
+
+CSS 기반 접근 방식이 권장되며 이 예제에서 사용됩니다.
 
 1. 뷰어를 만들고 초기화하는 중입니다.
 

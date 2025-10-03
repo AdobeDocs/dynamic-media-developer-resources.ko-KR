@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 기본적으로 뷰어는 뷰어 유형 및 버전 정보를 사용하여 구성된 이미지 서버에 단일 추적 HTTP 요청을 보냅니다.
 
-타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다. 다음 코드는 이러한 처리기 함수의 예입니다.
+타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다.
+
+<!-- The following code is an example of such handler function: -->
+
+<!--
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -41,6 +45,8 @@ var carouselViewer = new s7viewers.CarouselViewer({
 } 
 });
 ```
+
+-->
 
 뷰어는 다음 SDK 사용자 이벤트를 추적합니다.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **응답형 이미지 라이브러리를 사용하려면**
 
-1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ko#image-sizing).
+1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing).
 
    응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=`과 같이 이미지 크기에 영향을 주는 설정은 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
 1. 라이브러리 JavaScript 파일을 웹 페이지에 추가합니다.
@@ -32,13 +32,13 @@ ht-degree: 0%
 
    또한 기존 이미지 URL을 `data-src` 특성에 넣는 것이 좋습니다. 그런 다음 데이터 URI로 인코딩된 1x1 GIF 이미지를 갖도록 기존 `src` 특성을 설정합니다. 이렇게 하면 로드 시 웹 페이지에서 전송되는 HTTP 요청 수가 줄어듭니다. 그러나 SEO(검색 엔진 최적화)가 필요한 경우 이미지 인스턴스에 `title` 특성을 설정하는 것이 좋습니다.
 
-<!--
-   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
+
+   다음은 이미지에 대한 `data-breakpoints` 특성을 정의하고 데이터 URI로 인코딩된 1x1 GIF을 사용하는 예입니다.
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
--->
+
 
 1. 라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다.
 
@@ -58,8 +58,8 @@ ht-degree: 0%
 
 크기가 유연하도록 이미지 요소를 스타일링하는 것은 웹 페이지의 책임입니다. 응답형 이미지 라이브러리 자체는 고정 크기와 &quot;유연한&quot; 이미지를 구분하지 않습니다. 고정 크기 이미지에 적용하면 새 이미지가 한 번만 로드됩니다.
 
-<!--
-The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
+
+다음 코드는 응답형 이미지 라이브러리에서 관리하는 단일 유동 이미지가 있는 간단한 웹 페이지의 전체 예입니다. 이 예에는 이미지가 웹 브라우저 창 크기에 &quot;반응형&quot;이 되도록 하는 추가 CSS 스타일이 포함되어 있습니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -84,9 +84,8 @@ The following code is a complete example of a trivial web page that has a single
   </script> 
  </body> 
 </html>
-
 ```
--->
+
 
 **스마트 자르기 사용**
 

@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2130'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ eCatalog Viewer는 전자 브로셔를 스프레드별로 표시하거나 페이
 
 이 뷰어는 전자 카탈로그에서 작동하며 선택적 이미지 맵과 소셜 공유 도구를 지원합니다. 확대/축소 도구, 카탈로그 탐색 도구, 전체 화면 지원, 썸네일 및 선택적 닫기 버튼이 있습니다. 이 뷰어는 소셜 공유 도구, 인쇄, 다운로드 및 즐겨찾기도 지원합니다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다.
 
-<!--
-## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+
+## 데모 URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
--->
+
 
 ## eCatalog 뷰어 사용 {#section-e6c68406ecdc4de781df182bbd8088b4}
 

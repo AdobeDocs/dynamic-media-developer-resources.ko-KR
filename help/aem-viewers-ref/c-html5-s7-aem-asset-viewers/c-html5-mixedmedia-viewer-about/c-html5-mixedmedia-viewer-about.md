@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: 4964c2ac68b4baab7347d6d0e26e2237995720e8
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2511'
 ht-degree: 0%
 
 ---
@@ -185,32 +185,41 @@ IS-Viewer와 함께 제공된 프로덕션 준비 HTML 페이지를 사용하여
    }
    ```
 
-   다음 샘플 페이지에서 외부 뷰어 영역이 고정된 비헤이비어를 볼 수 있습니다. 세트 간에 전환할 때 외부 뷰어 크기는 변경되지 않습니다.
+<!-- You can see the behavior with a fixed outer viewer area on the following sample page. Notice that when you switch between sets, the outer viewer size does not change:-->
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=ko)
+<!--
 
-   기본 보기 차원을 정적으로 만들려면 `Container` CSS 선택기를 사용하거나 `.s7mixedmediaviewer .s7container` 한정자를 사용하여 내부 `stagesize` SDK 구성 요소에 대한 뷰어 크기를 절대 단위로 정의합니다.
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   다음은 자산을 전환할 때 기본 보기 영역이 크기를 변경하지 않도록 내부 `Container` SDK 구성 요소에 대한 뷰어 크기를 정의하는 예입니다.
+-->
 
-   ```html {.line-numbers}
-   #s7viewer.s7mixedmediaviewer .s7container { 
-    width: 640px; 
-    height: 480px; 
-   }
-   ```
 
-   다음 샘플 페이지에서는 기본 보기 크기가 고정된 뷰어 동작을 보여 줍니다. 세트 간에 전환하면 기본 보기는 정적으로 유지되며 웹 페이지 컨텐츠가 세로로 이동합니다.
+기본 보기 차원을 정적으로 만들려면 `Container` CSS 선택기를 사용하거나 `.s7mixedmediaviewer .s7container` 한정자를 사용하여 내부 `stagesize` SDK 구성 요소에 대한 뷰어 크기를 절대 단위로 정의합니다.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=ko)
+다음은 자산을 전환할 때 기본 보기 영역이 크기를 변경하지 않도록 내부 `Container` SDK 구성 요소에 대한 뷰어 크기를 정의하는 예입니다.
 
-   Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정하거나 `params` 컬렉션이 있는 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. 또는 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 사용됩니다.
+```html {.line-numbers}
+#s7viewer.s7mixedmediaviewer .s7container { 
+ width: 640px; 
+ height: 480px; 
+}
+```
 
-   ```html {.line-numbers}
-   mixedMediaViewer.setParam("stagesize", "640,480");
-   ```
+<!-- The following sample page shows viewer behavior with a fixed main view size. Notice that when you switch between sets, the main view remains static and the web page content moves vertically: -->
 
-   CSS 기반 접근 방식이 권장되며 이 예제에서 사용됩니다.
+<!--
+
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
+
+   -->
+
+Dynamic Media Classic의 뷰어 사전 설정 레코드에서 `stagesize` 한정자를 설정하거나 `params` 컬렉션이 있는 뷰어 초기화 코드로 명시적으로 전달할 수 있습니다. 또는 다음과 같이 이 도움말의 명령 참조 섹션에 설명된 대로 API 호출로 사용됩니다.
+
+```html {.line-numbers}
+mixedMediaViewer.setParam("stagesize", "640,480");
+```
+
+CSS 기반 접근 방식이 권장되며 이 예제에서 사용됩니다.
 
 1. 뷰어를 만들고 초기화하는 중입니다.
 
@@ -329,7 +338,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 
 [라이브 데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[대체 데모 위치](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
+<!--
+
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+
+-->
 
 ## 폭 및 높이가 정의된 유연한 크기 포함 {#section-0a329016f9414d199039776645c693de}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ HTML5 Video360 Viewer는 Adobe Analytics 추적을 기본적으로 지원합니�
 
 타사 분석 시스템과 통합하려면 `trackEvent` 뷰어 콜백을 수신하고 필요에 따라 콜백 함수의 `eventInfo` 인수를 처리해야 합니다.
 
-<!--
-The following code is an example of such handler function:
+
+다음 코드는 이러한 처리기 함수의 예입니다.
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -49,7 +49,7 @@ var video360Viewer = new s7viewers.Video360Viewer({
 } 
 });
 ```
--->
+
 
 뷰어는 다음 SDK 사용자 이벤트를 추적합니다.
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '1707'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 <!--
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html?lang=ko)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewerDemo.html)
 -->
 
 ## 시스템 요구 사항 {#section-b7270cc4290043399681dc504f043609}
@@ -167,8 +167,13 @@ The following is an example of HTML code that opens the viewer in a new window:
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 이 기능이 발생하면 뷰어 로드가 자동으로 다시 시작됩니다.
 
+<!--
 
-   다음은 뷰어 인스턴스를 만들어 필요한 최소 구성 옵션을 생성자에 전달하고 `init()` 메서드를 호출하는 예입니다. 이 예제에서는 `carouselViewer`이(가) 뷰어 인스턴스이고, `s7viewer`이(가) 자리 표시자 `DIV`의 이름이고, `https://adobedemo62-h.assetsadobe.com/is/image`이(가) 이미지 제공 URL이고, `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner`이(가) 자산이라고 가정합니다.
+   The following is an example of creating a viewer instance, passing minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes `carouselViewer` is the viewer instance; `s7viewer` is the name of placeholder `DIV`; `https://adobedemo62-h.assetsadobe.com/is/image` is the Image Serving URL, and `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` is the asset:
+
+-->
+
+<!--
 
    ```javascript {.line-numbers}
    <script type="text/javascript"> 
@@ -182,8 +187,13 @@ The following is an example of HTML code that opens the viewer in a new window:
    </script>
    ```
 
+-->
 
-   다음 코드는 고정된 크기로 회전식 뷰어를 임베드하는 간단한 웹 페이지의 전체 예입니다.
+<!--
+   The following code is a complete example of a trivial web page that embeds the Carousel Viewer with a fixed size:
+-->
+
+<!--
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -211,6 +221,8 @@ The following is an example of HTML code that opens the viewer in a new window:
    </body> 
    </html>
    ```
+-->
+
 
 **무제한 높이의 응답형 디자인 포함**
 
@@ -240,7 +252,11 @@ The following is an example of HTML code that opens the viewer in a new window:
 1. `DIV` 컨테이너를 정의하는 중입니다.
 1. 뷰어를 만들고 초기화하는 중입니다.
 
-위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 `DIV` `"holder"`에 컨테이너 `DIV`을(를) 추가합니다. 다음 코드는 완전한 예입니다. 브라우저의 크기를 조정할 때 뷰어 크기가 어떻게 변경되고 뷰어 종횡비가 에셋과 어떻게 일치하는지 확인합니다.
+위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 `DIV` `"holder"`에 컨테이너 `DIV`을(를) 추가합니다.
+
+<!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
+
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -270,14 +286,21 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
-다음 예제 페이지에서는 무제한 높이를 사용하는 응답형 디자인 포함의 보다 실제 사용을 보여 줍니다.
+-->
 
-[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ko](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html?lang=ko)
+<!-- The following examples page illustrates more real-life uses of responsive design embedding with unrestricted height: -->
+
+<!--
+
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html](/dynamic-media-demo/viewers-ref/carousel/CarouselViewer-responsive-unrestricted-height.html)
+
+-->
 
 **너비 및 높이가 정의된 유연한 크기 포함**
 
-폭과 높이가 정의된 유연한 크기 포함에서는 웹 페이지 스타일이 다릅니다. 두 크기를 `"holder"` DIV에 제공하고 브라우저 창에서 가운데로 맞춥니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
+폭과 높이가 정의된 유연한 크기 포함에서는 웹 페이지 스타일이 다릅니다. `"holder"` DIV에 두 크기를 모두 제공하고 브라우저 창에 가운데로 맞춥니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
 
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -303,7 +326,7 @@ height: 60%;
 </html>
 ```
 
-임베딩 단계들의 나머지는 제한되지 않은 높이를 갖는 응답형 임베딩에 사용되는 단계들과 동일하다. 결과 예제는 다음과 같습니다.
+The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. The resulting example is the following:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -341,13 +364,16 @@ var carouselViewer = new s7viewers.CarouselViewer({
 </html>
 ```
 
+-->
+
 
 **Setter 기반 API를 사용하여 포함**
 
 JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며, 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 구성 매개 변수를 지정합니다.
 
+<!-- The following example illustrates using fixed size embedding with the setter-based API: -->
 
-다음 예제에서는 setter 기반 API에 고정 크기 임베딩을 사용하는 방법을 보여 줍니다.
+<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -373,4 +399,6 @@ carouselViewer.init();
 </body> 
 </html>
 ```
+
+-->
 

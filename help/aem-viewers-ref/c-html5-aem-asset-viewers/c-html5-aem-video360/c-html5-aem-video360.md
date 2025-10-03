@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: 2d4a26d04e11f544b4cbabaca592d77cfa2241d3
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -26,12 +26,10 @@ Video360 뷰어는 기본 시스템이 HTML을 지원할 때마다 기본 구성
 
 뷰어 유형은 517입니다.
 
-<!--
-## Demo URLs {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
+## 데모 URL {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
 [https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS](https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS)
 
--->
 
 ## 시스템 요구 사항 {#section-b7270cc4290043399681dc504f043609}
 
@@ -101,15 +99,12 @@ VR 헤드셋 및 VR HMD 마운트에서, VR 모드에서 다른 재생 제어가
 
 사용자 지정 CSS를 적용하여 시각적 맞춤화를 수행할 수 있습니다.
 
-<!--
-The following is an example of HTML code that opens the viewer in a new window:
--->
+다음은 새 창에서 뷰어를 여는 HTML 코드의 예입니다.
 
-<!--
 ```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/Video360Viewer.html?asset=Viewers/space_station_360-AVS" target="_blank">Open popup viewer</a>
 ```
--->
+
 
 **고정 크기 포함 모드 및 반응형 디자인 포함 모드 정보**
 
@@ -204,17 +199,15 @@ The following is an example of HTML code that opens the viewer in a new window:
 
    동시에 컨테이너 요소는 아직 웹 페이지 레이아웃의 일부가 아니어야 합니다. 예를 들어 할당된 `display:none` 스타일을 사용하여 숨길 수 있습니다. 이 경우 뷰어는 웹 페이지가 컨테이너 요소를 레이아웃으로 다시 가져오는 순간까지 초기화 프로세스를 지연합니다. 그런 경우 뷰어 로드는 자동으로 다시 시작됩니다.
 
-<!--
-   The following is an example of creating a viewer instance, passing the minimum necessary configuration options to the constructor and calling the `init()` method. The example assumes the following:
 
-    * The viewer instance is `video360Viewer`. 
-    * The name of placeholder `DIV` is `s7viewer`. 
-    * The Image Serving URL is `https://s7d9.scene7.com/is/image`. 
-    * The video server URL is `https://s7d9.scene7.com/is/content`. 
-    * The asset is `Viewers/space_station_360-AVS`.
--->
+   다음은 뷰어 인스턴스를 만들어 필요한 최소 구성 옵션을 생성자에 전달하고 `init()` 메서드를 호출하는 예입니다. 이 예제에서는 다음을 가정합니다.
 
-<!--
+   * 뷰어 인스턴스는 `video360Viewer`입니다.
+   * 자리 표시자 `DIV`의 이름은 `s7viewer`입니다.
+   * 이미지 제공 URL은 `https://s7d9.scene7.com/is/image`입니다.
+   * 비디오 서버 URL은 `https://s7d9.scene7.com/is/content`입니다.
+   * 자산은 `Viewers/space_station_360-AVS`입니다.
+
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -229,13 +222,10 @@ The following is an example of HTML code that opens the viewer in a new window:
    </script>
    ```
 
--->
 
-<!--
-   The following code is a complete example of a trivial web page that embeds the Video360 Viewer with a fixed size:
--->
+   다음 코드는 Video360 Viewer에 고정 크기를 임베드하는 간단한 웹 페이지의 전체 예입니다.
 
-<!--
+
    ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
@@ -262,16 +252,13 @@ The following is an example of HTML code that opens the viewer in a new window:
    </script> 
    </body> 
    </html>
- ```
- -->
+   ```
 
-<!--  
-**Responsive design embedding with unrestricted height**
 
-With responsive design embedding, the web page normally has some kind of flexible layout in place that dictates the runtime size of the viewer's container `DIV`. For the following example, assume that the web page allows the viewer's container `DIV` to take 40% of the web browser window size, leaving its height unrestricted. The web page HTML code would look like the following:
--->
+**무제한 높이의 응답형 디자인 포함**
 
-<!--
+응답형 디자인 임베딩을 사용하면 일반적으로 웹 페이지에는 뷰어의 컨테이너 `DIV`의 런타임 크기를 지정하는 일종의 유연한 레이아웃이 있습니다. 다음 예제에서는 웹 페이지에서 뷰어의 컨테이너 `DIV`이(가) 웹 브라우저 창 크기의 40%를 차지하도록 허용하고 높이는 제한되지 않는다고 가정합니다. 웹 페이지 HTML 코드는 다음과 같습니다.
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -287,21 +274,18 @@ With responsive design embedding, the web page normally has some kind of flexibl
 </body> 
 </html>
 ```
--->
 
-<!--
-Adding the viewer to such a page is similar to the steps for fixed size embedding. The only difference is that you do not need to explicitly define the viewer size.
 
-1. Adding the viewer JavaScript file to your web page. 
-1. Defining the container DIV. 
-1. Creating and initializing the viewer.
+이러한 페이지에 뷰어를 추가하는 것은 고정 크기 임베딩 단계와 유사합니다. 유일한 차이점은 뷰어 크기를 명시적으로 정의할 필요가 없다는 것입니다.
 
-All the steps above are the same as with the fixed size embedding. Add the container DIV to the existing `"holder"` DIV. 
+1. 웹 페이지에 뷰어 JavaScript 파일 추가.
+1. 컨테이너 DIV 정의.
+1. 뷰어를 만들고 초기화하는 중입니다.
 
-The following code is a complete example. Notice how viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
--->
+위의 모든 단계는 고정 크기 포함과 동일합니다. 기존 `"holder"` DIV에 컨테이너 DIV를 추가합니다.
 
-<!--
+다음 코드는 완전한 예입니다. 브라우저의 크기를 조정할 때 뷰어 크기가 어떻게 변경되는지, 뷰어 종횡비가 에셋과 어떻게 일치하는지 확인합니다.
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -330,15 +314,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </body> 
 </html>
 ```
--->
 
-<!--
-**Responsive Embedding with Width and Height Defined**
 
-If there is responsive embedding with width and height defined, the web page styling is different. It provides both sizes to the `"holder"` DIV and center it in the browser window. Also, the web page sets the size of the `HTML` and `BODY` element to 100 percent.
--->
+**너비 및 높이가 정의된 응답형 포함**
 
-<!--
+폭과 높이가 정의된 응답형 포함이 있는 경우 웹 페이지 스타일이 다릅니다. 두 크기를 `"holder"` DIV에 제공하고 브라우저 창에서 가운데로 맞춥니다. 또한 웹 페이지는 `HTML` 및 `BODY` 요소의 크기를 100%로 설정합니다.
+
+
 ```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
@@ -362,12 +344,11 @@ height: 60%;
 </body> 
 </html>
 ```
--->
 
-<!--
-The rest of the embedding steps are identical to the steps used for responsive embedding with unrestricted height. 
 
-The resulting example is the following:
+임베딩 단계들의 나머지는 제한되지 않은 높이를 갖는 응답형 임베딩에 사용되는 단계들과 동일하다.
+
+결과 예제는 다음과 같습니다.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -406,19 +387,13 @@ var video360Viewer = new s7viewers.Video360Viewer({
 </html>
 ```
 
--->
+**Setter 기반 API를 사용하여 포함**
+
+JSON 기반 초기화를 사용하는 대신 setter 기반 API 및 no-args 생성자를 사용할 수 있습니다. 이 API 생성자를 사용하면 매개 변수를 사용하지 않으며, 별도의 JavaScript 호출과 함께 `setContainerId()`, `setParam()` 및 `setAsset()` API 메서드를 사용하여 구성 매개 변수를 지정합니다.
+
+다음 예제에서는 setter 기반 API에 고정 크기 임베딩을 사용하는 방법을 보여 줍니다.
 
 
-<!--
-**Embedding Using Setter-based API**
-
-Instead of using JSON-based initialization, it is possible to use setter-based API and no-args constructor. Using this API constructor does not take any parameters and configuration parameters are specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
-
-The following example illustrates using fixed size embedding with the setter-based API:
-
--->
-
-<!--
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -446,5 +421,4 @@ video360Viewer.init();
 </html>
 ```
 
--->
 

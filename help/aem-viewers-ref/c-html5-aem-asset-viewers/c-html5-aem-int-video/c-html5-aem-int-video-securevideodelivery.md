@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ ht-degree: 0%
 
 Adobe Experience Manager에서 사용하는 [!DNL Dynamic Media] 비디오를 게시하는 방법에 따라 `VideoPlayer.ssl` 구성 특성이 다음에 표시된 대로 다르게 적용됩니다.
 
-* URL이 있는 [!DNL Dynamic Media] 비디오를 게시하는 경우 `VideoPlayer.ssl`을(를) URL에 추가합니다. 예를 들어 보안 비디오 전달을 강제 적용하려면 다음 뷰어 URL 예제의 끝에 `&VideoPlayer.ssl=on`을(를) 추가합니다.
+* URL이 있는 [!DNL Dynamic Media] 비디오를 게시하는 경우 `VideoPlayer.ssl`을(를) URL에 추가합니다.
+
+<!-- For example, to force secure video delivery, you append `&VideoPlayer.ssl=on` to the end of the following viewer URL example:-->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  [웹 응용 프로그램에 URL 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ko#dynamic)도 참조하세요.
+-->
 
-* 포함 코드가 있는 [!DNL Dynamic Media] 비디오를 게시하는 경우 포함 코드 조각의 다른 뷰어 구성 매개 변수 목록에 `VideoPlayer.ssl`을(를) 추가합니다. 예를 들어 HTTPS 비디오 전송을 강제하려면 다음 예제와 같이 `&VideoPlayer.ssl=on`을(를) 추가합니다.
+[웹 응용 프로그램에 URL 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)도 참조하세요.
+
+* 포함 코드가 있는 [!DNL Dynamic Media] 비디오를 게시하는 경우 포함 코드 조각의 다른 뷰어 구성 매개 변수 목록에 `VideoPlayer.ssl`을(를) 추가합니다.
+
+<!-- For example, to force HTTPS video delivery, you append `&VideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```html {.line-numbers}
   <style type="text/css"> 
@@ -76,5 +86,6 @@ Adobe Experience Manager에서 사용하는 [!DNL Dynamic Media] 비디오를 �
    s7interactivevideoviewer.init(); 
   </script>
   ```
+-->
 
-  [웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ko#dynamic)도 참조하세요.
+[웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)도 참조하세요.

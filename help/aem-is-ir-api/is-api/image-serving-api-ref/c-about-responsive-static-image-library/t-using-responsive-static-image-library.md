@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **응답형 이미지 라이브러리를 사용하려면**
 
-1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing).
+1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ko#image-sizing).
 
    응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=`과 같이 이미지 크기에 영향을 주는 설정은 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
 1. 라이브러리 JavaScript 파일을 웹 페이지에 추가합니다.

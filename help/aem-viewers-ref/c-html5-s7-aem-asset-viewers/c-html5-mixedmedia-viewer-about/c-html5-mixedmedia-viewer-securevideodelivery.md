@@ -34,7 +34,7 @@ Adobe Experience Manager에서 사용하는 Dynamic Media 비디오를 게시하
 
 -->
 
-[(웹 응용 프로그램에 URL 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)도 참조하세요.
+[(웹 응용 프로그램에 URL 연결](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ko#dynamic)도 참조하세요.
 
 * 포함 코드가 있는 Dynamic Media 비디오를 게시하는 경우 포함 코드 조각의 다른 뷰어 구성 매개 변수 목록에 `VideoPlayer.ssl`을(를) 추가합니다.
 
@@ -68,4 +68,4 @@ Adobe Experience Manager에서 사용하는 Dynamic Media 비디오를 게시하
 
 -->
 
-[(웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)도 참조하세요.
+[(웹 페이지에 비디오 포함](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=ko#dynamic)도 참조하세요.

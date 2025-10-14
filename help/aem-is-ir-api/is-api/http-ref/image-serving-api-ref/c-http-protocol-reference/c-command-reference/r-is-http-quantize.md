@@ -43,7 +43,7 @@ ht-degree: 1%
 
 요청 속성입니다. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다. `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` 또는 `fmt=png8-alpha`인 경우에만 사용됩니다. 그렇지 않으면 무시됩니다.
 
-*`colorList`*&#x200B;에 지정된 색상은 hex6 형식의 RGB 값으로 구성되어야 합니다([ 접두사가 없는 ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)color`0x` 참조). 다른 색상 지정자는 허용되지 않습니다. *`numColors`* 한정자는 2-256이어야 합니다.
+*`colorList`*&#x200B;에 지정된 색상은 hex6 형식의 RGB 값으로 구성되어야 합니다([&#x200B; 접두사가 없는 &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)color`0x` 참조). 다른 색상 지정자는 허용되지 않습니다. *`numColors`* 한정자는 2-256이어야 합니다.
 
 ## 기본값 {#section-ca3e817617244e8798ccff67b2023a32}
 

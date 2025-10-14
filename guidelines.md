@@ -37,7 +37,7 @@ Adobe은 Adobe Dynamic Media 사용자가 경쟁이 치열한 환경에서 작�
 
 설명서를 개선하기 위한 모든 아이디어를 기여로 제출할 수 있습니다. 그러나 주석, 문제 및 가져오기 요청은 *기여* 만 해당. 이러한 기여는 Dynamic Media을 사용하거나, 프로젝트를 구현하거나, 기술적인 문제를 해결하는 방법에 대한 질문에 답하기 위한 것은 아닙니다.
 
-Dynamic Media 사용 또는 기술 오류에 대한 질문은 다음을 통해 보고해야 합니다 [Experience Cloud 엔터프라이즈 지원 포털](https://experienceleague.adobe.com/ko?support-solution=General&amp;support-tab=home#support) 또는에서 논의됨 [Experience Manager 커뮤니티.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)
+Dynamic Media 사용 또는 기술 오류에 대한 질문은 다음을 통해 보고해야 합니다 [Experience Cloud 엔터프라이즈 지원 포털](https://experienceleague.adobe.com/ko?support-solution=General&support-tab=home#support) 또는에서 논의됨 [Experience Manager 커뮤니티.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko)
 
 ***설명서 기여는 Adobe 고객 지원 센터를 대체할 수 없습니다*** 그리고 지원 관련 질문에 대한 답변을 구하는 기여는 거부됩니다.
 

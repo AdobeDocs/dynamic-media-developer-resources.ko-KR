@@ -25,7 +25,7 @@ textPath= *`pathDefinition`*
  </tr> 
 </table>
 
-[에 대한 설명을 포함한 추가 정보는 ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*&#x200B;을(를) 참조하십시오.
+[에 대한 설명을 포함한 추가 정보는 &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)clipPath=*`pathDefinition`*&#x200B;을(를) 참조하십시오.
 
 >[!NOTE]
 >

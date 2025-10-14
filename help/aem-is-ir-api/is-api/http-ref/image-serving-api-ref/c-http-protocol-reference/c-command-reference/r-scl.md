@@ -43,7 +43,7 @@ ht-degree: 2%
 
 ## 예 {#section-a33f6239476a4b438d939656ad99aa76}
 
-[의 일반 응용 프로그램에 대해서는 ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)rotate=`scl=`의 예제를 참조하십시오.
+[의 일반 응용 프로그램에 대해서는 &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096)rotate=`scl=`의 예제를 참조하십시오.
 
 ## 참조 {#section-ccefd5de59924059903d66d4974ce317}
 

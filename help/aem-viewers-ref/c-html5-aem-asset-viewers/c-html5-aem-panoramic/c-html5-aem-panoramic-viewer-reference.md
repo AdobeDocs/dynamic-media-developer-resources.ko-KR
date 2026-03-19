@@ -2,10 +2,11 @@
 title: 파노라마 뷰어
 description: HTML5 Panoramic Viewer는 파노라마 이미지를 표시하는 이미지 뷰어입니다. 이 뷰어의 목적은, 등장방형적 이미지로도 알려진 구형의 파노라마를 디스플레이하는 것이다. 회전식 움직임에 의한 자동 패닝과 패닝을 지원한다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다. 가상 현실 뷰잉 모드는 지원되는 모바일 디바이스에서 이용 가능하다.
 keywords: 반응형
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1916'
 ht-degree: 0%
@@ -275,7 +276,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

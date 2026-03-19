@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
 breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
 feature-set: Experience Manager Assets
 user-guide-description: IS(이미지 제공) 및 IR(이미지 렌더링) API 및 관련 기술에 대한 설명서를 살펴보십시오.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Dynamic Media 이미지 제공 및 렌더링 API {#image-serving-api}
 
-+ [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ko) -->
++ [Dynamic Media 이미지 제공 및 이미지 렌더링 API 홈](homeisir.md)
 + [이 릴리스 정보](r-about-this-release.md)
 + [시스템 요구 사항 및 사전 요구 사항](r-requirements-and-prerequisites.md)
 + [디스크 공간 요구 사항 및 권장 사항](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 7%
       + [캐비닛 스타일 파일 옵션](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [반환](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [출력](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

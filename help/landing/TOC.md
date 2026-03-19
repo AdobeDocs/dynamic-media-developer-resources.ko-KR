@@ -8,8 +8,8 @@ user-guide-title: Adobe Dynamic Media 개발자 리소스
 breadcrumb-title: Dynamic Media 개발자 리소스
 user-guide-description: 뷰어 참조 안내서, 이미지 제작 시스템 API, 이미지 제공 및 렌더링 API, 보관된 Scene7 릴리스 노트 등의 Dynamic Media 개발자 리소스에 액세스합니다.
 feature-set: Experience Manager Assets
-index: y
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+index: true
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -21,7 +21,8 @@ ht-degree: 2%
 
 + [홈](home.md)
 
-<!--This TOC may not be necessary. Not sure, so leaving it in.
+<!--
+This TOC may not be necessary. Not sure, so leaving it in.
 + [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
 + [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)

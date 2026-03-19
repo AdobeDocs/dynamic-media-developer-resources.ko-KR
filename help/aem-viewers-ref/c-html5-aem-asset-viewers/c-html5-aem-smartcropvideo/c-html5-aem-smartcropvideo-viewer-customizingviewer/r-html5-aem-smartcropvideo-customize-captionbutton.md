@@ -1,11 +1,12 @@
 ---
 title: 캡션 단추
 description: 이 단추는 닫힌 캡션 표시를 켜거나 끕니다. caption 매개 변수를 지정하지 않으면 표시되지 않습니다.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%

@@ -1,12 +1,13 @@
 ---
 title: 명령 참조 - 구성 속성
 description: 스마트 자르기 비디오 뷰어에 대한 구성 속성 설명서.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 mini-toc-levels: 3
 exl-id: 698c03b1-bec0-44bf-9c79-c66e0192344a
-source-git-commit: eaf59166fcc1ff8ec5a2e846ef0eb180c8cbdd5a
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%

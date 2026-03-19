@@ -1,11 +1,12 @@
 ---
 title: 사용자 인터페이스 요소의 현지화
 description: 스마트 자르기 비디오 뷰어에 표시되는 특정 콘텐츠는 현지화가 적용됩니다. 이 콘텐츠에는 사용자 인터페이스 요소 도구 팁과 비디오를 재생할 수 없을 때 표시되는 오류 메시지가 포함되어 있습니다.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: e5019948-d8ed-4bb2-b652-2936b6f694c9
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 회전 집합을 지정합니다. </p> <p> <span class="codeph">((<span class="varname"> horizontalSpinSet </span>) [,(<span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> 여기서 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>은(는) 주어진 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모든 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>의 프레임 수가 같아야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
+   <td colname="col2"> <p>다음 구문을 사용하여 명시적 다차원 회전 집합을 지정합니다. </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> 여기서 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>은(는) 주어진 가로 축에 대해 쉼표로 구분된 프레임 목록입니다. 모든 <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span>의 프레임 수가 같아야 합니다. </p> <p> <p>참고: 이 기능은 Adobe Dynamic Media Classic에서 지원되며 Adobe Experience Manager Assets에서는 지원되지 않습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 수정자 </span> </span> </p> </td> 

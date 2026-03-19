@@ -5,9 +5,9 @@ title: 이미지 집합
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
 | `*`기본 견본 집합`*` | `*`견본 항목`*&#42;[',' *`견본 항목`*]` |
 |---|---|
 | `*`견본 항목`*` | `*`imageId`*[';' *`견본`*]` |
-| `*`견본`*` | `*`견본 ID`*|solidColorSpecifier` |
+| `*`견본`*` | `*`견본 ID`*`\|`solidColorSpecifier` |
 | `*`imageId`*` | IS 이미지 참조 (catalog/id) |
 | `*`견본 ID`*` | IS 이미지 참조 (catalog/id) |
 | `*`solidColorSpecifier`*` | ` '{0x' *`rrggbb`* [ *`label`*]'}'` |
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 | `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchicalSwatchItem`*` | `*`견본 항목`* | { *`기본 견본 집합 ID`* ';' *`견본`* }` |
+| `*`hierarchicalSwatchItem`*` | `*`견본 항목`*` \| `{` *`basicSwatchSetId`* &#39;;&#39; *`swatch`* `}` |
 | `*`basicSwatchSetId`*` | 기본 견본 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(카탈로그/ID) |
 
 **기본 회전 집합**
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 | `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
+| `*`2dSpinItem`*` | `*`imageId`*` \| `{` &#39;{&#39; *`basicSpinSet`* &#39;}&#39; `}` \| `*`basicSpinSetId`*` |
 | `*`basicSpinSetId`*` | 기본 회전 집합을 정의하는 카탈로그 레코드에 대한 IS 참조(catalog/id) |
 
 **페이지 집합**
@@ -93,12 +93,12 @@ ht-degree: 1%
 
 | `*`mediaSet`*` | `*`항목`* &#42;[ , *`항목`* ]` |
 |---|---|
-| `*`항목`*` | ` { *`비디오 항목`* | *`다시 자르기 항목`* | *`이미지 항목`*}} | *`세트 항목`* } [ ; [ *`ID`* ] [ ; [ *`예약`* ] ] ]` |
+| `*`항목`*` | `{ *`비디오 항목`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`비디오 항목`*` | `*`비디오`* ; *`견본 ID`*` |
 | `*`recutItem`*` | `*`다시 자르기`* ; *`견본 ID`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`견본 ID`*` |
-| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
+| `*`ID`*` | `media type identifier` `[` img \| 기본 \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| 회전 \| 비디오 `]` |
 | `*`견본 ID`*` | IS 이미지 ID |
 | `*`비디오`*` | 비디오/애니메이션 파일 경로 또는 정적 카탈로그 ID |
 | `*`다시 자르기`*` | 다시 자르기 정의 XML 파일 경로 또는 정적 카탈로그 ID |

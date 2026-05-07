@@ -4,9 +4,9 @@ user-guide-title: Dynamic Media 이미지 제공 및 렌더링 API
 breadcrumb-title: Dynamic Media 이미지 제공 및 렌더링 API
 feature-set: Experience Manager Assets
 user-guide-description: IS(이미지 제공) 및 IR(이미지 렌더링) API 및 관련 기술에 대한 설명서를 살펴보십시오.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 7%
 
 ---
@@ -510,7 +510,7 @@ ht-degree: 7%
       + [규칙 집합](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [대체](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [이미지 서버 프록시](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [이미지 서버 예](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[이미지 서버 예](is-api/image-serving-api-ref/r-examples-is.md)
    + 응답형 정적 이미지 라이브러리 {#responsive-static-image-library}
       + [응답형 정적 이미지 라이브러리](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [응답형 이미지 라이브러리 사용](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -768,6 +768,6 @@ ht-degree: 7%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ko)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->

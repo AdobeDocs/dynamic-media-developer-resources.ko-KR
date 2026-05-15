@@ -5,9 +5,13 @@ title: saveToFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/6JtqM7IKcYInFZ4zyuAIVwOabdXIltB2ZsVZP6pLL4E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: 184
 ht-degree: 1%
 
 ---
@@ -62,7 +66,7 @@ ht-degree: 1%
 
 요청이 실패하거나 시간 초과되면 HTTP 응답 상태 200 및 403을 반환합니다. 응답에 MIME 유형이 `text/plain`이고 캐시할 수 없습니다.
 
-중요 `attribute::SavePath`에 있는 쓰기 가능한 기존 폴더의 경로를 지정하여 파일에 저장을 사용하도록 설정해야 합니다. `saveToFile=`이(가) 비어 있으면 `attribute::SavePath`이(가) 실패합니다.
+중요 `attribute::SavePath`에 있는 쓰기 가능한 기존 폴더의 경로를 지정하여 파일에 저장을 사용하도록 설정해야 합니다. `attribute::SavePath`이(가) 비어 있으면 `saveToFile=`이(가) 실패합니다.
 
 *`file`*&#x200B;은(는) 필수이며 `attribute::SavePath`과(와) 결합된 상대 경로여야 합니다. 이미지 제공에서는 폴더를 만들지 않습니다. 대상 폴더는 서버에 있어야 하며 이미지 제공에서 파일을 만들 수 있는 적절한 권한 설정이 있어야 합니다.
 

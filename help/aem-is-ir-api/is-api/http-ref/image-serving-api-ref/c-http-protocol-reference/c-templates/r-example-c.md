@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
+TQID: 'https://experienceleague.adobe.com/PRayyg-oBmqHohNjYBa4bgtxdK9tdb6qd6vaLkGJZEg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: 412
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 
 각 의류/액세서리 사진은 이미지 크기를 최소화하기 위해 마스크 테두리 상자에 마스킹되고 잘립니다. 이미지 앵커 및 해상도는 레이어와 배경 이미지 간의 정렬을 유지하도록 신중하게 제어되며, 모든 이미지는 `catalog::Resolution` 및 `catalog::Anchor`에 저장된 적절한 값으로 이미지 카탈로그에 추가됩니다.
 
-레이어 구성 외에도 선택한 항목의 색상을 변경할 수도 있습니다. 이러한 항목에 대한 레코드는 원래 색상을 제거하고 색상화 명령에 적합한 방식으로 명도와 대비를 조정하도록 사전 처리됩니다. 이 사전 처리는 Adobe Photoshop과 같은 이미지 편집 도구를 사용하여 오프라인으로 수행할 수도 있고, 간단한 경우 `op_brightness=` 필드에 `op_contrast=` 및 `catalog::Modifier`을(를) 추가하여 소규모로 수행할 수도 있습니다.
+레이어 구성 외에도 선택한 항목의 색상을 변경할 수도 있습니다. 이러한 항목에 대한 레코드는 원래 색상을 제거하고 색상화 명령에 적합한 방식으로 명도와 대비를 조정하도록 사전 처리됩니다. 이 사전 처리는 Adobe Photoshop과 같은 이미지 편집 도구를 사용하여 오프라인으로 수행할 수도 있고, 간단한 경우 `catalog::Modifier` 필드에 `op_brightness=` 및 `op_contrast=`을(를) 추가하여 소규모로 수행할 수도 있습니다.
 
 모든 개체가 이미 이미지 앵커(`catalog::Anchor`)에 의해 올바르게 정렬되고 크기 조정(`catalog::Resolution`)되었기 때문에 이 응용 프로그램에서는 별도의 템플릿을 사용할 수 없습니다. 이는 적절한 레이어 순서를 보장하기 위해 클라이언트에 맡깁니다.
 
@@ -42,7 +46,7 @@ layer=6&res=999&src=rootId/shoes21
 
 모든 원본 이미지의 해상도가 전체 크기 수준에서 동일한 경우 `res=` 명령을 생략할 수 있습니다(이 응용 프로그램의 경우).
 
-`rootId`은(는) URL 경로에 지정된 `src=`과(와) 동일하더라도 모든 `rootId` 명령에 대해 지정해야 합니다.
+`rootId`은(는) URL 경로에 지정된 `rootId`과(와) 동일하더라도 모든 `src=` 명령에 대해 지정해야 합니다.
 
 이미지 카탈로그를 사용할 필요가 없는 경우 해상도 기반의 크기 조정 접근 방식은 불가능합니다. 이 경우 배경 레이어의 `catalog::Resolution` 값에 대한 각 레이어의 `catalog::Resolution` 값의 비율을 기반으로 각 레이어 항목에 대한 명시적 배율 요소를 계산해야 합니다. 따라서 레이어 수가 적은 합성 요청은 다음과 같이 표시될 수 있습니다.
 

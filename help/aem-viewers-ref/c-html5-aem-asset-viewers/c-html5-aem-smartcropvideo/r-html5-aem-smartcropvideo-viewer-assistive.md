@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video,Accessibility
 role: Developer,User
 exl-id: b2bfd93b-707e-4a03-a14e-14ec23328fdd
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+TQID: 'https://experienceleague.adobe.com/obdWIz9XkQQ9RCpfejLJrjVKKxCoPK3Qt-rW1BXad20'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: 181
 ht-degree: 0%
 
 ---
@@ -18,9 +23,9 @@ ht-degree: 0%
 
 최상위 뷰어 요소에는 기본적으로 뷰어 이름으로 설정된 `region` 역할 및 `aria-label` 특성이 있습니다. `Container.LABEL` 지역화 기호를 사용하여 레이블을 제어할 수 있습니다.
 
-단추에는 `button` 특성이 있는 설명 텍스트 세트와 `aria-label` 역할이 있습니다. `aria-label` 특성 값은 단추의 현지화 기호 값에서 채워집니다. 단추를 사용하지 않도록 설정하면 `aria-disabled` 특성이 그에 따라 설정됩니다.
+단추에는 `aria-label` 특성이 있는 설명 텍스트 세트와 `button` 역할이 있습니다. `aria-label` 특성 값은 단추의 현지화 기호 값에서 채워집니다. 단추를 사용하지 않도록 설정하면 `aria-disabled` 특성이 그에 따라 설정됩니다.
 
-슬라이더 구성 요소에는 현재 슬라이더 위치를 설명하는 `slider`, `aria-valuenow` 및 `aria-valuemin` 특성이 있는 `aria-valuemax` 역할이 있습니다.
+슬라이더 구성 요소에는 현재 슬라이더 위치를 설명하는 `aria-valuenow`, `aria-valuemin` 및 `aria-valuemax` 특성이 있는 `slider` 역할이 있습니다.
 
 추가 `aria-haspopup` 특성이 `true`(으)로 설정되어 있고 실제 드롭다운 패널 요소를 참조하는 `aria-controls` 특성이 있는 단추에 의해 드롭다운 목록이 활성화됩니다. 드롭다운 패널 자체에는 `menu` 역할이 있고 하위 요소에는 `menuitem` 역할이 있습니다. 각 메뉴 항목에는 `aria-label` 특성이 지정되어 있습니다.
 

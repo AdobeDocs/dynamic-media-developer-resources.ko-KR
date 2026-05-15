@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/m3ZesKWdK5ltybJWB9ZTOQa19Bimlu-g7xRE2OrQ-rY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: 597
 ht-degree: 4%
 
 ---
@@ -116,11 +120,11 @@ ht-degree: 4%
  </tr> 
 </table>
 
-*`pixelType`*&#x200B;이(가) 지정되지 않은 경우 `icc=` 효과 출력 색상 공간 변환. *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 형식을 결정하는 *`pixelType`*&#x200B;을(를) 지정하면 `icc=`이(가) 무시됩니다.
+`icc=`이(가) 지정되지 않은 경우 *`pixelType`* 효과 출력 색상 공간 변환. *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. *`pixelType`* 출력 픽셀 유형을 결정하는 `icc=`을(를) 지정하면 무시됩니다.
 
 *`compression`* tif, tif-alpha 또는 PDF이 *`format`*(으)로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt-` JPEG 인코딩 옵션을 JPEG, JPEG 압축을 사용한 TIFF, JPEG 압축을 사용한 PDF 및 SWF 파일 형식으로 설정합니다. `quantize=` 또는 `fmt=gif`인 경우 `fmt=gif-alpha`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt-` JPEG 인코딩 옵션을 JPEG, JPEG 압축을 사용한 TIFF, JPEG 압축을 사용한 PDF 및 SWF 파일 형식으로 설정합니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 형식 및 픽셀 유형에 대해 픽셀 구성 요소당 8비트가 반환됩니다.
 
@@ -163,7 +167,7 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>(<span class="codeph"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="varname"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>(<span class="varname"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf 알파 </p> </td> 
@@ -177,7 +181,7 @@ ht-degree: 4%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph">(없음|zip|jpeg),qlt= </span> </p> <p> (<span class="codeph"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="varname"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph">(없음|zip|jpeg),qlt= </span> </p> <p> (<span class="varname"> tiffCompression </span>이(가) 'jpeg'로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -206,7 +210,7 @@ ht-degree: 4%
 
 ## 기본값 {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* 기본값은 `attribute::Format`이고 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`입니다. *`pixelType`* `rgb`이(가) 지정되지 않은 경우 기본값은 `icc=`입니다. 그렇지 않으면 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
+*`format`* 기본값은 `attribute::Format`이고 *`tiffCompression`* 기본값은 `attribute::TiffEncoding`입니다. *`pixelType`* `icc=`이(가) 지정되지 않은 경우 기본값은 `rgb`이고, 그렇지 않은 경우 지정된 ICC 프로필의 픽셀 유형에 해당합니다.
 
 ## 참조 {#section-c55efc881fc94c70bff91b870e026a7b}
 

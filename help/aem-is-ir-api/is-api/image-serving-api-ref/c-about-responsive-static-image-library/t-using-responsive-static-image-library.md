@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/06qs3B4mQcS7CSQs46RYnhTTpSa2xONlzN4Nfg0oU0g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 567
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 **응답형 이미지 라이브러리를 사용하려면**
 
-1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=ko#image-sizing).
+1. Dynamic Media Classic에서 사전 설정과 함께 응답형 이미지 라이브러리를 사용할 계획인 경우 [이미지 사전 설정을 만듭니다](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing).
 
    응답형 이미지 라이브러리와 함께 사용되는 이미지 사전 설정을 정의할 때 `wid=`, `hei=` 또는 `scl=`과 같이 이미지 크기에 영향을 주는 설정은 사용하지 마십시오. 이미지 사전 설정에서 크기 필드를 지정하지 마십시오. 대신 빈 값으로 둡니다.
 1. 라이브러리 JavaScript 파일을 웹 페이지에 추가합니다.
@@ -44,7 +49,7 @@ ht-degree: 0%
 
    라이브러리가 관리하는 모든 이미지 인스턴스에 대해 `s7responsiveImage` API 함수를 호출합니다. 이러한 호출이 있으면 라이브러리는 웹 페이지 레이아웃에 있는 `IMG` 요소의 런타임 크기 및 장치 화면의 밀도에 따라 원본 이미지를 이미지 제공에서 다운로드한 이미지로 대체합니다.
 
-   다음 코드는 `s7responsiveImage`이(가) 해당 이미지의 ID라고 가정할 때 이미지에서 `responsiveImage` API 함수를 호출하는 예제입니다.
+   다음 코드는 `responsiveImage`이(가) 해당 이미지의 ID라고 가정할 때 이미지에서 `s7responsiveImage` API 함수를 호출하는 예제입니다.
 
    ```
    <script type="text/javascript"> 

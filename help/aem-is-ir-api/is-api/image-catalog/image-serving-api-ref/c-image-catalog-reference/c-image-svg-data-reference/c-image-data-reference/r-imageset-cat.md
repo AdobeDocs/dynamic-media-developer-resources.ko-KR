@@ -5,9 +5,13 @@ title: 이미지 집합
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 681
 ht-degree: 1%
 
 ---
@@ -93,12 +97,12 @@ ht-degree: 1%
 
 | `*`mediaSet`*` | `*`항목`* &#42;[ , *`항목`* ]` |
 |---|---|
-| `*`항목`*` | `{ *`비디오 항목`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
+| `*`항목`*` | `{ *`videoItem`*` \| *`recutItem`* \| *`imageItem`*`}}`\|*`setItem`*`}` `[` ; `[`*`ID`*`]` `[` ; `[`*`reserved`*`] ] ]` |
 | `*`비디오 항목`*` | `*`비디오`* ; *`견본 ID`*` |
 | `*`recutItem`*` | `*`다시 자르기`* ; *`견본 ID`*` |
 | `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
 | `*`setItem`*` | `{ *`setId`*` \| `{` &#39;{&#39; *`inlineSet`* &#39;}&#39; `} }` ; *`swatchId`* |
-| `*`ID`*` | `media type identifier` `[` img \| 기본 \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| 회전 \| 비디오 `]` |
+| `*`ID`*` | `media type identifier` `[` img \| basic \| advanced_image \| img \| img_set \| advanced_imageset \| advanced_swatchset \| spin \| 비디오 `]` |
 | `*`견본 ID`*` | IS 이미지 ID |
 | `*`비디오`*` | 비디오/애니메이션 파일 경로 또는 정적 카탈로그 ID |
 | `*`다시 자르기`*` | 다시 자르기 정의 XML 파일 경로 또는 정적 카탈로그 ID |
@@ -115,9 +119,9 @@ ht-degree: 1%
 
 ## 속성 {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-텍스트 문자열입니다. `catalog::Id`을(를) 기준으로 쉼표로 구분된 `attribute::RootPath` 값 목록, 절대 이미지 서버 파일 경로 또는 파일 경로입니다. 세트에서 동일한 이미지를 두 번 이상 참조할 수 있습니다. 정의된 카탈로그 레코드는 임의의 위치에 있는 세트에 나타날 수 있습니다.
+텍스트 문자열입니다. `attribute::RootPath`을(를) 기준으로 쉼표로 구분된 `catalog::Id` 값 목록, 절대 이미지 서버 파일 경로 또는 파일 경로입니다. 세트에서 동일한 이미지를 두 번 이상 참조할 수 있습니다. 정의된 카탈로그 레코드는 임의의 위치에 있는 세트에 나타날 수 있습니다.
 
-이 필드는 텍스트 문자열 현지화에 적용됩니다. *`label`*&#x200B;개의 문자열(*`solidColorSpecifier`*&#x200B;의 일부) 외에 하나 이상의 &#39; `^loc=…^`&#39; 로컬라이제이션 토큰이 포함된 경우 구분된 모든 필드가 현지화됩니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
+이 필드는 텍스트 문자열 현지화에 적용됩니다. *`label`*&#x200B;개의 문자열(*`solidColorSpecifier`*&#x200B;의 일부) 외에 하나 이상의 &#39; `^loc=…^`&#39; 로컬라이제이션 토큰이 포함된 경우 구분된 모든 필드가 현지화됩니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
 
 ## 기본값 {#section-c3a60e360393478284f0f2d2da5b963b}
 

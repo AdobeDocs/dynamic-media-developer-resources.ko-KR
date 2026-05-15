@@ -5,10 +5,14 @@ title: 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5562b0e0-0476-4dd0-acce-058601b9af0a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/70KfRxztxkghF-HS5uK-wPIelm-XGRF0ywyYnWxWNAw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: 72
+ht-degree: 9%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 8%
 
 ## 속성 {#section-b3b295feac084b56bd8a153c04987153}
 
-텍스트 문자열입니다. 선택 사항입니다. 지정하면 유효한 상대 또는 절대 파일 경로여야 합니다. 비어 있는 경우 `vignette::Modifier`에 `vignette=` 명령이 포함되어야 합니다.
+텍스트 문자열입니다. 선택적. 지정하면 유효한 상대 또는 절대 파일 경로여야 합니다. 비어 있는 경우 `vignette::Modifier`에 `vignette=` 명령이 포함되어야 합니다.
 
 ## 기본값 {#section-a1d2133856084eb79a5be8230a4b38fd}
 

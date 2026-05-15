@@ -5,10 +5,14 @@ title: 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e9490b5c-0f85-4256-8590-0d6aa52a19d5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/JY0barcvbF72sTyYW4iIhjFE-8tfqtbI78PDccLcXV0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 3%
+source-wordcount: 135
+ht-degree: 2%
 
 ---
 
@@ -22,7 +26,7 @@ ht-degree: 3%
 
 텍스트 문자열 값입니다. 지정하면 하나 이상의 완전한 HTML `<AREA>` 요소여야 합니다.
 
-이 필드는 텍스트 문자열 현지화에 적용됩니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
+이 필드는 텍스트 문자열 현지화에 적용됩니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
 
 ## 기본값 {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

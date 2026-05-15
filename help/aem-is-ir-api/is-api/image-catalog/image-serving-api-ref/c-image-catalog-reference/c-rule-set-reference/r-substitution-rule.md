@@ -5,9 +5,13 @@ title: 대체
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/ZdC23CxEXKYN0d-h7nM8588KTS5Vy6BTh0kl5Iseq0w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 170
 ht-degree: 1%
 
 ---
@@ -36,7 +40,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 `replace="all"` 요소가 속한 `<rule>` 요소에 `<substitution>`이(가) 지정되면 입력 문자열의 모든 일치 항목이 대체됩니다. 기본적으로 첫 번째 일치만 대체 문자열로 대체됩니다.
+>이 `<substitution>` 요소가 속한 `<rule>` 요소에 `replace="all"`이(가) 지정되면 입력 문자열의 모든 일치 항목이 대체됩니다. 기본적으로 첫 번째 일치만 대체 문자열로 대체됩니다.
 
 ## 참고 {#section-cedf2adabaaf441c9f598fb0ea180246}
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e2ad2d4-9061-41d1-941b-8be4c17a6c43
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/NZsbUGCd25rHyvrmt-Rh3XN0p3pHqEtGZrXLp-7JBsc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: 337
 ht-degree: 0%
 
 ---
@@ -23,11 +27,11 @@ ht-degree: 0%
 
 * 이전 버전의 이미지 렌더링에서 사용할 다양한 비네팅, 캐비닛 및 창 표지 스타일 파일의 파일 버전을 생성합니다.
 * 전체 해상도 또는 썸네일에서 보기 이미지를 추출합니다(`-thumbwidth` 및 `-image` 참조).
-* 소스 파일에서 관련 속성을 추출하여 `-info` 또는 선택적 로그 파일(`stdout`)로 보냅니다.`-log`
+* 소스 파일에서 관련 속성을 추출하여 `-info` 또는 선택적 로그 파일(`-log`)로 보냅니다.`stdout`
 
 [!DNL vntc]의 사용은 선택 사항이지만 Adobe에서는 최상의 서버 성능을 위해 사용을 권장합니다. 또한 비네팅 변환기는 광범위한 오류 검사를 구현하며 성실하게 사용할 경우 충돌을 포함한 심각한 서버 문제를 방지할 수 있습니다.
 
-프로덕션 비네팅을 생성할 때 출력 비네팅의 픽셀 너비(피라미드 또는 다중 해상도 비네팅의 경우 0)가 생성된 출력 비네팅 파일의 이름에 추가됩니다. 캐비닛 스타일 파일을 처리할 때는 출력 해상도가 출력 파일 이름에 추가됩니다. 선택적 썸네일, 이미지 및 로그 파일과 프로덕션 비네팅 또는 캐비닛 스타일 파일을 포함한 모든 출력 파일은 *[!DNL sourceFile]*&#x200B;을(를) 지정하지 않는 한 `-destPath`이(가) 있는 동일한 디렉터리에 배치됩니다.
+프로덕션 비네팅을 생성할 때 출력 비네팅의 픽셀 너비(피라미드 또는 다중 해상도 비네팅의 경우 0)가 생성된 출력 비네팅 파일의 이름에 추가됩니다. 캐비닛 스타일 파일을 처리할 때는 출력 해상도가 출력 파일 이름에 추가됩니다. 선택적 썸네일, 이미지 및 로그 파일과 프로덕션 비네팅 또는 캐비닛 스타일 파일을 포함한 모든 출력 파일은 `-destPath`을(를) 지정하지 않는 한 *[!DNL sourceFile]*&#x200B;이(가) 있는 동일한 디렉터리에 배치됩니다.
 
 비네팅 변환기는 기본적으로 최대 3GB의 메모리로 제한됩니다. vntc가 이 제한에 도달하면 처리가 중지되고 오류가 발생합니다. 이 제한은 `-maxmem`을(를) 사용하여 변경할 수 있습니다.
 

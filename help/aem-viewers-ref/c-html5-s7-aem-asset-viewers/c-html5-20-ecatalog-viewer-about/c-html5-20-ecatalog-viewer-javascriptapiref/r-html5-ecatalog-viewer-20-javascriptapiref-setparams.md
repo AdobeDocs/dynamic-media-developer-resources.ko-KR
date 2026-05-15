@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: a93c14e8-d322-4630-9334-1b4413f1e443
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/C38zIkos57sdfGwrnK2KbVZhmJ-BCCz2w5W2ZEgnLFA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 98
 ht-degree: 2%
 
 ---
@@ -28,7 +32,7 @@ eCatalog 뷰어에 대한 JavaScript API 참조입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 매개 변수</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> 이름=값 매개 변수 쌍이 <span class="codeph"> &amp;</span>(으)로 구분되었습니다. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> 이름=값 매개 변수 쌍은 <span class="codeph"> &amp;</span>(으)로 구분됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

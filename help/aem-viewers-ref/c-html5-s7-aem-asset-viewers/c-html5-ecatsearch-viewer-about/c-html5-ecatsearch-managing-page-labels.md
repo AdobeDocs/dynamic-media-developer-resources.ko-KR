@@ -5,9 +5,13 @@ title: 페이지 레이블 관리
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 73c3904f-678f-47c4-b895-86671402df79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/EprHC1GFDB5Lkytg4NZf8Am0myr-jXC2wxxcefelvc8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 269
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 0%
 * Dynamic Media Classic 내부의 백엔드에서 작성자가 정의한 레이블.
 * 뷰어에서 자동으로 생성된 레이블입니다.
 
-기호 기반 레이블은 `MediaSet.LABEL_XX[_YY]`사용자 인터페이스 요소의 지역화`MediaSet.LABEL_DELIM`에 설명된 대로 [&#x200B; 및 &#x200B;](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) 기호를 사용하여 정의됩니다. 전체 전자 카탈로그 스프레드에 대해 이러한 레이블을 정의할 수 있습니다. 이 경우 짧은 SYMBOL 구문(`MediaSet.LABEL_XX`)을 사용해야 합니다. 또는 전체 SYMBOL 구문(`MediaSet.LABEL_XX_YY`)을 사용하여 각 페이지에 대해 개별적으로 지정하십시오.
+기호 기반 레이블은 [사용자 인터페이스 요소의 지역화](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)에 설명된 대로 `MediaSet.LABEL_XX[_YY]` 및 `MediaSet.LABEL_DELIM` 기호를 사용하여 정의됩니다. 전체 전자 카탈로그 스프레드에 대해 이러한 레이블을 정의할 수 있습니다. 이 경우 짧은 SYMBOL 구문(`MediaSet.LABEL_XX`)을 사용해야 합니다. 또는 전체 SYMBOL 구문(`MediaSet.LABEL_XX_YY`)을 사용하여 각 페이지에 대해 개별적으로 지정하십시오.
 
 전자 카탈로그 스프레드의 두 페이지에 대한 레이블을 정의하면 뷰어는 `MediaSet.LABEL_DELIM` SYMBOL을 사용하여 이러한 레이블을 하나의 문자열로 연결합니다. SYMBOL 기반 레이블은 백엔드에 정의된 레이블이나 뷰어에서 자동으로 생성한 레이블보다 우선합니다.
 

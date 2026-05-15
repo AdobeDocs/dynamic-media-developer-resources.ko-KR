@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/8v8lYH-ju92td0-fbFVEJL42Z2EB4jj85zAd4MDd3js'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 526
 ht-degree: 0%
 
 ---
@@ -145,7 +149,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-오버레이는 가능한 값 `type`(단일 이미지의 경우), `image`(견본 세트의 경우), `swatchset`(스핀 세트의 경우) 및 `spinset`(단일 비디오 또는 응용 비디오 세트의 경우)으로 `video` 특성 선택기를 지원합니다.
+오버레이는 가능한 값 `image`(단일 이미지의 경우), `swatchset`(견본 세트의 경우), `spinset`(스핀 세트의 경우) 및 `video`(단일 비디오 또는 응용 비디오 세트의 경우)으로 `type` 특성 선택기를 지원합니다.
 
 예 - 스핀 세트, 견본 세트 및 비디오에 대한 아이콘 오버레이를 설정하려면 다음을 수행합니다.
 

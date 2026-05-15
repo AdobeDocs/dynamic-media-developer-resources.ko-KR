@@ -5,9 +5,14 @@ title: 액세스 로깅
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/YY1vKXzVCe8TRK0lYsdkH5ds5EHCGkBOz1TaMx5IMi4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: 681
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## TC::directory - 로그 파일 폴더 {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-[!DNL Platform Server]에서 로그 파일을 쓰는 폴더입니다. 절대 경로이거나 *`install_folder`*&#x200B;에 상대적인 경로일 수 있습니다. 기본값은 [!DNL &#x200B; *`install_folder`*/logs]입니다.
+[!DNL Platform Server]에서 로그 파일을 쓰는 폴더입니다. 절대 경로이거나 *`install_folder`*&#x200B;에 상대적인 경로일 수 있습니다. 기본값은 [!DNL  *`install_folder`*/logs]입니다.
 
 >[!NOTE]
 >
@@ -32,7 +37,7 @@ ht-degree: 0%
 
 ## TC::prefix - 액세스 로그 파일 이름 {#section-1003856323b844049632710a5a056aa7}
 
-액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 지정한 문자열에 날짜 및 파일 접미사([!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log])가 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot; `access-`&quot;입니다.
+액세스 로그 데이터가 기록되는 파일의 이름 접두사입니다. 지정한 문자열에 날짜 및 파일 접미사([!DNL  *`yyyy`*-*`mm`*-*`dd`*.log])가 추가됩니다. 액세스 로그 파일의 이름은 추적 로그 파일의 이름과 달라야 합니다. 기본값은 &quot; `access-`&quot;입니다.
 
 ## TC::pattern - 액세스 로그 패턴 {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -76,7 +81,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p><span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname">MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname">mm </span>: <span class="varname"> ss </span> 형식의 날짜 및 시간입니다. <span class="varname"> SSS </span> 오프셋 </span> </p> <p> ( <span class="varname"> SSS </span>은(는) 밀리초, <span class="varname"> 오프셋 </span>은(는) GMT 시간 오프셋입니다.) 응답이 클라이언트에 전송될 때 시간 값이 캡처됩니다. </p> </td> 
+   <td> <p><span class="codeph"> <span class="varname"> yyyy </span>- <span class="varname">MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname">mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> 오프셋 </span> </p> <p> ( <span class="varname"> SSS </span>은(는) 밀리초, <span class="varname"> 오프셋 </span>은(는) GMT 시간 오프셋입니다.) 응답이 클라이언트에 전송될 때 시간 값이 캡처됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -92,7 +97,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %q </span> </p> </td> 
-   <td> <p>쿼리 문자열('?' 앞에 추가됨) 존재하는 경우). </p> </td> 
+   <td> <p>쿼리 문자열(존재하는 경우 앞에 '?'가 붙음). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %r </span> </p> </td> 
@@ -139,7 +144,7 @@ ht-degree: 0%
    <td> <p>[!DNL Platform Server] 캐시 관리 키워드: <span class="codeph"> { 재사용됨 | 생성됨 | 업데이트됨 | 원격 | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | 확인됨 | 무시됨 | 정의되지 않음 } </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType} 또는 </span> </p> </td> 
    <td> <p>응답 MIME 유형. </p> </td> 
   </tr> 
   <tr> 

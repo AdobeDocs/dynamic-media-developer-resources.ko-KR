@@ -5,9 +5,13 @@ title: 워터마크
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/5gqAaM5kFHj67LxcMVGeEU2uus6mA-BT9kCewY1cZOw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 워터마크 레코드에서 요청 명령(예: `fmt=`) 및 보기 명령(예: `wid=`)은 무시됩니다. 단, `align=`은(는) 예외입니다. `align=`을(를) 사용하여 대상 이미지를 기준으로 워터마크 이미지를 상대적으로 배치할 수 있습니다. 이것은 타겟 이미지의 코너 또는 에지에 대한 워터마크의 위치를 허용한다.
 
-크기 조절 및 정렬 후 서버는 워터마크 이미지의 `blendMode=` 또는 `opac=`에 대해 지정된 `layer=0` 및 `layer=comp` 값을 사용하여 대상 이미지 위에 워터마크 이미지를 계층화합니다. 마지막으로, 타겟 이미지에 대해 지정된 요청 및 뷰 명령이 적용되어 응답 이미지를 구성한다.
+크기 조절 및 정렬 후 서버는 워터마크 이미지의 `layer=0` 또는 `layer=comp`에 대해 지정된 `blendMode=` 및 `opac=` 값을 사용하여 대상 이미지 위에 워터마크 이미지를 계층화합니다. 마지막으로, 타겟 이미지에 대해 지정된 요청 및 뷰 명령이 적용되어 응답 이미지를 구성한다.
 
 워터마크 이미지는 `wid=` 및 `hei=` 명령으로 응답 이미지에 추가된 빈 공백에 확장되지 않습니다.
 

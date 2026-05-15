@@ -5,9 +5,14 @@ title: 규칙 세트 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/ZRyGq2UXh41F4IpGudN48CV0LxzrDjZKk2yaOQnUP3o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -50,7 +55,7 @@ ht-degree: 0%
 
 실제 규칙이 정의되지 않은 경우에도 `<?xml>` 및 `<ruleset>` 요소는 항상 올바른 규칙 집합 XML 파일에 필요합니다.
 
-`<ruleset>`개 요소를 포함하는 하나의 `<rule>` 요소가 허용됩니다.
+`<rule>`개 요소를 포함하는 하나의 `<ruleset>` 요소가 허용됩니다.
 
 전처리 규칙 파일의 내용은 대/소문자를 구분합니다.
 
@@ -70,7 +75,7 @@ ht-degree: 0%
 
 ## OnMatch 특성 {#section-ed952fa55d99422db0ee68a2b9d395d3}
 
-기본 동작은 `OnMatch` 요소의 `<rule>` 특성으로 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error`(으)로 설정될 수 있습니다.
+기본 동작은 `<rule>` 요소의 `OnMatch` 특성으로 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error`(으)로 설정될 수 있습니다.
 
 <table id="table_6680A81492B24CE593330DA7B0075E8F"> 
  <thead> 
@@ -132,7 +137,7 @@ ht-degree: 0%
 
 `<substitution><![CDATA[&qlt=95,1&resmode=bicub]]></substitution>`
 
-**예제 B.** 특정 웹 응용 프로그램에서 쿼리 문자열을 허용하지 않습니다. 경로의 나머지 부분을 이미지 이름으로 사용하여 후행 경로 요소 `small`, `medium` 또는 `large`을(를) 템플릿으로 변환하는 규칙을 정의합니다. 예를 들어 `myCat/myImage/small`은(는) `myCat/smallTemplate?src=myCat/myImage`(으)로 변환됩니다.
+**예제 B.** 특정 웹 응용 프로그램에서는 쿼리 문자열을 허용하지 않습니다. 경로의 나머지 부분을 이미지 이름으로 사용하여 후행 경로 요소 `small`, `medium` 또는 `large`을(를) 템플릿으로 변환하는 규칙을 정의합니다. 예를 들어 `myCat/myImage/small`은(는) `myCat/smallTemplate?src=myCat/myImage`(으)로 변환됩니다.
 
 하위 문자열을 사용하여 요청을 재구성할 수 있습니다.
 

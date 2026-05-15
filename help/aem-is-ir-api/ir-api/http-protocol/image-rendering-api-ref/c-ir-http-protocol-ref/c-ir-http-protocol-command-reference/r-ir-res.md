@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f207355d-5819-47fc-bda5-27a411449569
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/F-ow5-VFHuZFZ7F-v3csRKFxospULbiR2bDpqbvUaYc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 105
 ht-degree: 2%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 2%
  </tr> 
 </table>
 
-데칼 자료가 있으면 `size=`과(와) `size=`을(를) 모두 지정하면 `res=`이(가) 우선합니다.
+데칼 자료가 있으면 `size=`과(와) `res=`을(를) 모두 지정하면 `size=`이(가) 우선합니다.
 
 ## 속성 {#section-6a458ddc202f46e0b668c9f040a65cef}
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/9q5b5QHvqpr2APewYZZVf34gEMrQ2vSFvrpcLDlby5g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: 2662
 ht-degree: 0%
 
 ---
@@ -243,7 +247,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7closebutton
 ```
 
-**닫기 단추 속성의 CSS &#x200B;**
+**닫기 단추 속성의 CSS **
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -330,7 +334,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**대화 상자 바닥글 속성의 CSS &#x200B;**
+**대화 상자 바닥글 속성의 CSS **
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -531,7 +535,7 @@ background-color: #ffffff;
 .s7videoviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**대화 상자 보기 영역의 CSS &#x200B;**
+**대화 상자 보기 영역의 CSS **
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -568,7 +572,7 @@ background-color: #ffffff;
 
 이 컨테이너의 높이가 기본 대화 상자 영역보다 큰 경우 구성 요소에서 자동으로 세로 스크롤을 활성화합니다.
 
-**대화 상자 본문의 CSS &#x200B;**
+**대화 상자 본문의 CSS **
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -595,7 +599,7 @@ background-color: #ffffff;
 
 이 클래스는 양식 사용자 인터페이스의 여러 위치에 있는 텍스트에 적용할 수 있으므로 레이블 크기나 위치를 제어하기에 적합하지 않습니다.
 
-**대화 상자 레이블의 CSS 속성. &#x200B;**
+**대화 상자 레이블의 CSS 속성. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -794,7 +798,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->콤보 상자는 가능한 값 `expanded` 및 `true`이(가) 있는 `false` 특성 선택기를 지원합니다. `true` 값은 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시되면 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 값은 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 너비 및 높이 입력 필드에 공백을 허용하도록 축소해야 합니다.
+>콤보 상자는 가능한 값 `true` 및 `false`이(가) 있는 `expanded` 특성 선택기를 지원합니다. `true` 값은 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시되면 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 값은 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 너비 및 높이 입력 필드에 공백을 허용하도록 축소해야 합니다.
 
 예 - 사전 정의된 항목을 표시할 경우 포함 크기 콤보 상자의 너비를 300픽셀로 설정하고 사용자 지정 크기를 표시할 경우 110픽셀로 설정하려면 다음을 수행합니다.
 

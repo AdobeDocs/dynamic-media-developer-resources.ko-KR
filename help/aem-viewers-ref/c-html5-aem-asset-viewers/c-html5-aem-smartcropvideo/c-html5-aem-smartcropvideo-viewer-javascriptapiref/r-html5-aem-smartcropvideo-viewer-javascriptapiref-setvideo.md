@@ -6,10 +6,14 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 5e735e11-e359-4b98-b4a9-2c69a8eb424a
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Cg621Iwygc34wVOLCj42eugeeYXswbn2etjPej-o4ME'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: 154
+ht-degree: 1%
 
 ---
 
@@ -21,8 +25,8 @@ ht-degree: 2%
 
 새 외부 비디오 및 선택적 추가 비디오 데이터를 설정합니다. `init()` 전후에 언제든지 호출할 수 있습니다. `init()` 이후에 호출되는 경우 뷰어는 런타임에 비디오를 교체합니다.
 
-[init]도 참조하세요.
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-javascriptapiref/r-html5-aem-smartcropvideo-viewer-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
+[init 참조]
+(#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
 ## 매개 변수 {#section-b6affc90b3a84584b684641c86862e01}
 

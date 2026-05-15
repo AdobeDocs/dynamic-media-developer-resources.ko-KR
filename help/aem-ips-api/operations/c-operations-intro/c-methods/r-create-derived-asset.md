@@ -5,9 +5,13 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/zREQqRBLpYJ30WoTEa2cmVplhQAlcqoBgzRIsMAy5sg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 259
 ht-degree: 8%
 
 ---
@@ -44,8 +48,8 @@ ht-degree: 8%
 | folder핸들 | `xsd:string` | 예 | 파생된 새 에셋이 생성되는 폴더에 대한 핸들입니다. |
 | name | `xsd:string` | 예 | 파생된 에셋의 이름입니다. |
 | 유형 | `xsd:string` | 예 | 새로 파생된 자산의 자산 유형: `AdjustedView` 또는 `LayerView`. |
-| urlModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 *명령에*&#x200B;이전`urlPostApplyModifier`에 적용되었습니다. |
-| urlPostApplyModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 *명령에* after`urlPostApplyModifier` 적용되었습니다. |
+| urlModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 `urlPostApplyModifier` 명령에 *이전*&#x200B;에 적용되었습니다. |
+| urlPostApplyModifier | `xsd:string` | 아니요 | 이미지 제공 또는 이미지 렌더링 프로토콜 명령이 요청 또는 `urlPostApplyModifier` 명령에 *after* 적용되었습니다. |
 
 **출력(createDerivedAssetParam)**
 

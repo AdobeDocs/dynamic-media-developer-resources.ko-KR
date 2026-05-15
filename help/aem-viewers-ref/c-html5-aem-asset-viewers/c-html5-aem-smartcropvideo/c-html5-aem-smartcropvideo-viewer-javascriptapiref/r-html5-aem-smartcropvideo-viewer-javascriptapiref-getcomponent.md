@@ -6,9 +6,13 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 76e028b5-e7d6-4cd8-b532-c54c82fd3ebb
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/HwrU-TQ4yyJD-MKB7d9iGVG9yJmwzwqh0LmT1715Rv0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 217
 ht-degree: 0%
 
 ---
@@ -104,14 +108,14 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-SDK API를 사용하여 작업할 때는 [뷰어 SDK 네임스페이스]에 설명된 대로 올바른 정규화된 SDK 네임스페이스를 사용해야 합니다
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153).
+SDK API를 사용하여 작업할 때는 [뷰어 SDK 네임스페이스에 설명된 대로 올바른 정규화된 SDK 네임스페이스를 사용해야 합니다]
+(#concept-679bfabb3e3e4c12a285c4e9c4144153).
 
 특정 구성 요소에 대한 자세한 내용은 뷰어 SDK API 설명서 를 참조하십시오.
 
 ## 반환 {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Viewer SDK 구성 요소에 대한 참조입니다. `null`이(가) 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 메서드가 `componentId`을(를) 반환합니다.
+`{Object}` Viewer SDK 구성 요소에 대한 참조입니다. `componentId`이(가) 지원되는 뷰어 구성 요소가 아니거나 구성 요소가 아직 뷰어 논리에 의해 만들어지지 않은 경우 메서드가 `null`을(를) 반환합니다.
 
 ## 예 {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

@@ -5,9 +5,13 @@ title: 이미지 제공
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/KyiS-GblbCE-Q4Exrdz8T1W5thFn9cHellB-1-QYZaw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: 147
 ht-degree: 1%
 
 ---
@@ -43,11 +47,11 @@ ht-degree: 1%
    <td colname="col2"> <p>서버 감독자를 포함하여 모든 이미지 제공 구성 요소를 다시 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> { ps 다시 시작 | 은(는) | svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> { ps 다시 시작 | | svg } </span> </p> </td> 
    <td colname="col2"> <p> Tomcat/[!DNL Platform Server], 이미지 서버 또는 SVG을 다시 시작합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | 은(는) | svg ] </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 상태 [ ps | | svg ] </span> </p> </td> 
    <td colname="col2"> <p>이미지 서버, Tomcat/[!DNL Platform Server] 및 SVGserver에 대한 가동 시간 및 현재 메모리 사용 정보나 지정된 서버에 대한 상태를 반환합니다. 서버 감독자가 실행되지 않는 경우에는 정보 메시지가 대신 반환됩니다. </p> </td> 
   </tr> 
  </tbody> 

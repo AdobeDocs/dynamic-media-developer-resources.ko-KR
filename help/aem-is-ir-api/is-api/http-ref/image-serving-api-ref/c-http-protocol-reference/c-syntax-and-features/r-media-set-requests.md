@@ -5,9 +5,14 @@ title: 미디어 집합 요청
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/mcwY5R2hIttDyWKya6b3Jyvt2zwMdLyS4Xp8otY0c34'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: 968
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ## 요청 구문 {#section-d72b1d95e4ce4bb1b332ce096c2b99f1}
 
-`catalog::ImageSet` 한정자를 사용하고 네트 경로의 카탈로그 레코드 ID를 참조하여 `req=set`에 대한 집합 응답을 검색할 수 있습니다. 또는 `imageset=` 한정자를 사용하여 URL에서 이미지 집합을 직접 지정할 수도 있습니다. `imageset=` 한정자를 사용하여 이미지 집합을 지정하는 경우 이미지 집합 값을 이스케이프하고 포함된 한정자가 URL 쿼리 문자열의 일부로 해석되지 않도록 하려면 전체 값을 중괄호로 묶어야 합니다.
+`req=set` 한정자를 사용하고 네트 경로의 카탈로그 레코드 ID를 참조하여 `catalog::ImageSet`에 대한 집합 응답을 검색할 수 있습니다. 또는 `imageset=` 한정자를 사용하여 URL에서 이미지 집합을 직접 지정할 수도 있습니다. `imageset=` 한정자를 사용하여 이미지 집합을 지정하는 경우 이미지 집합 값을 이스케이프하고 포함된 한정자가 URL 쿼리 문자열의 일부로 해석되지 않도록 하려면 전체 값을 중괄호로 묶어야 합니다.
 
 ## 집합 응답 유형 {#section-93eb0a1f70344da2a888e56372ad3896}
 
@@ -126,7 +131,7 @@ ht-degree: 0%
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-`labelkey=` 수정자는 `catalog::UserData` 필드와 함께 사용하여 이미지 및 견본에 대한 레이블을 생성합니다. `catalog:UserData` 필드는 키/값 쌍의 집합으로 구문 분석되고 레이블 키는 지정된 키의 값을 검색하기 위해 이 집합에 대해 색인화됩니다. 이 값은 *`l`* 및 *`s`*&#x200B;에 대한 *`i`* 특성에서 반환됩니다.
+`labelkey=` 수정자는 `catalog::UserData` 필드와 함께 사용하여 이미지 및 견본에 대한 레이블을 생성합니다. `catalog:UserData` 필드는 키/값 쌍의 집합으로 구문 분석되고 레이블 키는 지정된 키의 값을 검색하기 위해 이 집합에 대해 색인화됩니다. 이 값은 *`s`* 및 *`i`*&#x200B;에 대한 *`l`* 특성에서 반환됩니다.
 
 ## 적용된 제한 사항 {#section-b9f042873bee45a5ae11b69fd42f2bca}
 

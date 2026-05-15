@@ -5,9 +5,13 @@ title: SVG 지원
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/yN93vSajgH09FJqxpDsa1j3fFlBR9EdCREXvhUy8q2U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 514
 ht-degree: 0%
 
 ---
@@ -32,7 +36,7 @@ SVG 파일은 이미지와 유사하게 이미지 카탈로그 항목 또는 상
 
 ## 이미지 참조 {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
-`<image>` 요소를 사용하여 SVG에 이미지를 삽입할 수 있습니다. `xlink::href` 요소의 `<image>` 특성에서 참조하는 이미지는 올바른 이미지 제공 요청이어야 합니다. 외래 URL은 허용되지 않습니다.
+`<image>` 요소를 사용하여 SVG에 이미지를 삽입할 수 있습니다. `<image>` 요소의 `xlink::href` 특성에서 참조하는 이미지는 올바른 이미지 제공 요청이어야 합니다. 외래 URL은 허용되지 않습니다.
 
 `http://`(으)로 시작하는 전체 이미지 제공 요청 또는 `/is/image`(으)로 시작하는 상대 URL을 지정하십시오. 전체 HTTP 경로를 지정하면 상대 형식으로 변환하기 위해 경로에서 도메인 이름이 제거됩니다. 전체 HTTP 경로를 사용하면 타사 SVG 렌더러로 파일을 미리 볼 수 있으므로 이점이 있을 수 있습니다.
 

@@ -5,9 +5,13 @@ title: 개체
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 64846f8f-ebc6-446c-8277-04c45111dc24
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UL5jAeFV4IyldSWQDddhTNVUzS3Gt-qN2PyXky6cHrM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: 490
 ht-degree: 1%
 
 ---
@@ -37,9 +41,9 @@ Source 개체 지정자입니다. 이미지, SVG 및 ICC 프로파일 객체를 
  </tr> 
 </table>
 
-*`rootId`*&#x200B;이(가) 이미지 카탈로그를 식별합니다. 자세한 내용은 [이미지 카탈로그](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)를 참조하세요. URL 경로에 *`rootId`*&#x200B;이(가) 지정되어 있으면 해당 카탈로그가 이 요청의 *주 카탈로그*&#x200B;가 됩니다. 그렇지 않으면 기본 카탈로그가 기본 카탈로그로 사용됩니다. 동일한 요청에서 여러 개의 다른 이미지 카탈로그를 사용할 수 있습니다.
+*`rootId`*&#x200B;이(가) 이미지 카탈로그를 식별합니다. 자세한 내용은 [이미지 카탈로그](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3)를 참조하세요. URL 경로에 *`rootId`*&#x200B;이(가) 지정되어 있으면 해당 카탈로그가 이 요청의 *기본 카탈로그*&#x200B;가 됩니다. 그렇지 않으면 기본 카탈로그가 기본 카탈로그로 사용됩니다. 동일한 요청에서 여러 개의 다른 이미지 카탈로그를 사용할 수 있습니다.
 
-서버는 처음에 *`rootId`*, `src=` 및 `mask=` 명령에서 `icc=`이(가) 생략되었다고 가정하고 기본 카탈로그에서 카탈로그 항목을 찾으려고 시도합니다. 사실상, 서버는 전체 *`object`* 문자열을 *`objId.`*(으)로 사용하려고 합니다.
+서버는 처음에 `src=`, `mask=` 및 `icc=` 명령에서 *`rootId`*&#x200B;이(가) 생략되었다고 가정하고 기본 카탈로그에서 카탈로그 항목을 찾으려고 시도합니다. 사실상, 서버는 전체 *`object`* 문자열을 *`objId.`*(으)로 사용하려고 합니다.
 
 카탈로그 항목이 발견되면 이 항목이 사용됩니다. 그렇지 않으면 서버는 다음에 이미지 카탈로그의 *`rootId`*&#x200B;과(와) 일치하려고 시도합니다. 카탈로그가 식별되면 *`objId`*&#x200B;을(를) 검색합니다. 및 항목이 발견되면 사용됩니다.
 
@@ -47,9 +51,9 @@ Source 개체 지정자입니다. 이미지, SVG 및 ICC 프로파일 객체를 
 
 *`rootId`*&#x200B;과(와) *`objId`*&#x200B;은(는) 모두 대/소문자를 구분합니다. *`path`*&#x200B;은(는) UNIX에서만 대/소문자를 구분합니다.
 
-선행 `/`이(가) 지정된 경우 주 카탈로그 대신 기본 카탈로그가 검색됩니다. 이 기능은 주로 명시적 경로에 기본 카탈로그의 `default::RootPath`이(가) 아닌 `attribute::RootPath`이(가) 필요한 경우에 유용하지만, 기본 카탈로그의 항목에 의해 재정의되는 기본 카탈로그의 항목에 대한 액세스 권한을 얻는 데 사용할 수도 있습니다.
+선행 `/`이(가) 지정된 경우 주 카탈로그 대신 기본 카탈로그가 검색됩니다. 이 기능은 주로 명시적 경로에 기본 카탈로그의 `attribute::RootPath`이(가) 아닌 `default::RootPath`이(가) 필요한 경우에 유용하지만, 기본 카탈로그의 항목에 의해 재정의되는 기본 카탈로그의 항목에 대한 액세스 권한을 얻는 데 사용할 수도 있습니다.
 
-*을(를) 실제 파일 경로로 변환하는 방법에 대한 자세한 내용은*&#x200B;서버 구성 가이드&#x200B;*의*&#x200B;콘텐츠 관리&#x200B;*`path`*&#x200B;를 참조하십시오.
+*`path`*&#x200B;을(를) 실제 파일 경로로 변환하는 방법에 대한 자세한 내용은 *서버 구성 가이드*&#x200B;의 *콘텐츠 관리*&#x200B;를 참조하십시오.
 
 >[!NOTE]
 >
@@ -65,7 +69,7 @@ Source 개체 지정자입니다. 이미지, SVG 및 ICC 프로파일 객체를 
 
 **두 개의 다른 이미지 카탈로그에서 이미지 및 ICC 프로필에 액세스**
 
-&#39; [!DNL myImage]&#39;(으)로 식별된 이미지 카탈로그에서 &#39; [!DNL myCatalog]&#39; 이미지를 검색하고 이름이 &#39; [!DNL sRGB]&#39;인 이미지 카탈로그에 있는 ICC 프로필 &#39; [!DNL myProfiles]&#39;을(를) 연결합니다.
+&#39; [!DNL myCatalog]&#39;(으)로 식별된 이미지 카탈로그에서 &#39; [!DNL myImage]&#39; 이미지를 검색하고 이름이 &#39; [!DNL myProfiles]&#39;인 이미지 카탈로그에 있는 ICC 프로필 &#39; [!DNL sRGB]&#39;을(를) 연결합니다.
 
 ` http:// *`서버`*/myCatalog/myImage?icc=myProfiles/sRGB&iccEmbed=true`
 
@@ -77,7 +81,7 @@ Source 개체 지정자입니다. 이미지, SVG 및 ICC 프로파일 객체를 
 
 **특성을 제공하기 위해 카탈로그를 계속 사용하는 동안 이미지 파일에 직접 액세스**
 
-[!DNL my/image/path/myImage.tif]에 구성된 기본 jpg 특성을 사용하여 `myImageCatalog`에 액세스:
+`myImageCatalog`에 구성된 기본 jpg 특성을 사용하여 [!DNL my/image/path/myImage.tif]에 액세스:
 
 `http://server/myImageCatalog/my/image/path/myImage.tif?wid=200`
 

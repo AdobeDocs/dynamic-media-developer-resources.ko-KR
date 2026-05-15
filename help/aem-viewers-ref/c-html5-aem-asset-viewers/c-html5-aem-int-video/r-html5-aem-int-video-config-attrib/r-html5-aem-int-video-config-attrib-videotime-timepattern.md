@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: de071adf-6c3c-4702-8950-8246b8ee459e
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/T2S4fAjAry5waLTPztxZjvDzVBVCoBqbfJXSZK-5SAQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대에 표시되는 시간 패턴을 설정합니다. 여기서 <span class="codeph">h</span>은(는) 시간을 나타내고, <span class="codeph">m</span>은(는) 분을 나타내고, <span class="codeph">s</span>은(는) 초를 나타냅니다. </p> <p>각 시간 단위에 사용되는 문자 수는 단위에 대해 표시할 자릿수를 결정합니다. 숫자가 지정된 자릿수와 맞지 않으면 동등한 값이 후속 단위에 표시됩니다. </p> <p>예를 들어 현재 동영상 시간이 67분 5초이면 시간 패턴 <span class="codeph">m:ss</span>이(가) 67:05로 표시됩니다. 시간 패턴이 :07:시간<span class="codeph">초:mm:인 경우 동일한 시간이 1</span>5로 표시됩니다. </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대에 표시되는 시간 패턴을 설정합니다. 여기서 <span class="codeph">h</span>은(는) 시간을 나타내고, <span class="codeph">m</span>은(는) 분을 나타내고, <span class="codeph">s</span>은(는) 초를 나타냅니다. </p> <p>각 시간 단위에 사용되는 문자 수는 단위에 대해 표시할 자릿수를 결정합니다. 숫자가 지정된 자릿수와 맞지 않으면 동등한 값이 후속 단위에 표시됩니다. </p> <p>예를 들어 현재 동영상 시간이 67분 5초이면 시간 패턴 <span class="codeph">m:ss</span>이(가) 67:05로 표시됩니다. 시간 패턴이 <span class="codeph">시간:mm:초</span>인 경우 동일한 시간이 1:07:5로 표시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/vkvp3WTt-nSSAQPaHUgXvMCuEkD-vEno-ot3Nxn9ReE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: 407
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 ## SV::log - 서버 감독자 추적 로그 파일 경로 {#section-3697bc480ff646e79cacc2812c55ef26}
 
-서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]&#x200B;(`PS::LogFolder`)에 의해 구현된 로그 파일 관리를 사용하려면 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogDays`)과 동일한 폴더로 보낼 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
+서버 감독자 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. 서버 감독자는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]&#x200B;(`PS::LogDays`)에 의해 구현된 로그 파일 관리를 사용하려면 모든 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보낼 것을 권장합니다. 기본값은 [!DNL logs/Supervisor.log]입니다.
 
 >[!NOTE]
 >
@@ -34,7 +39,7 @@ ht-degree: 0%
 
 ## IS::Log - 이미지 서버 디버그 로그 파일 경로 {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-이미지 서버 추적 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. ImageServer는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]에 의해 구현된 로그 파일 관리를 사용하려면 이미지 서버 로그 파일을 `PS::LogFolder` 로그 파일([!DNL Platform Server])과 동일한 폴더로 보낼 것을 권장합니다(`PS::LogDays` 참조).
+이미지 서버 추적 로그 파일의 폴더 및 기본 파일 이름입니다. 경로는 절대 경로이거나 *[!DNL install_folder]*&#x200B;에 상대적일 수 있습니다. ImageServer는 파일 이름(있는 경우 파일 접미사 앞)에 하이픈과 현재 날짜(*[!DNL -yyyy-mm-dd]*)를 추가합니다. Adobe에서는 [!DNL Platform Server]에 의해 구현된 로그 파일 관리를 사용하려면 이미지 서버 로그 파일을 [!DNL Platform Server] 로그 파일(`PS::LogFolder`)과 동일한 폴더로 보낼 것을 권장합니다(`PS::LogDays` 참조).
 
 >[!NOTE]
 >

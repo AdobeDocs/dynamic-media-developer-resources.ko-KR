@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0f78a835-9057-4c79-843a-52b33a1bdd3f
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/tNKu0P8Sgoxas-opiWd1GWkuWYWDfXE0-j1A-p-j-jM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 3%
+source-wordcount: 206
+ht-degree: 2%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|왼쪽|오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p>페이지가 기본 보기 및 썸네일에 표시되는 방식을 지정합니다. 또한 사용자가 뷰어 사용자 인터페이스와 상호 작용하여 카탈로그 프레임 사이를 변경하는 방식을 지정합니다. </p> <p><span class="codeph"> 왼쪽 </span>을(를) 사용하면 초기 페이지에 대한 오른쪽 맞춤과 마지막 페이지에 대한 왼쪽 맞춤을 설정합니다. 왼쪽에서 오른쪽 렌더링 순서를 위해 개별 페이지 하위 이미지를 결합합니다. 또한 오른쪽에서 왼쪽 슬라이드 애니메이션을 사용하여 카탈로그를 진행하도록 기본 보기를 설정합니다(<span class="codeph"> PageView.frametransition </span>이(가) slide로 설정된 경우). 마지막으로, 축소판은 왼쪽에서 오른쪽으로 채우도록 설정됩니다. </p> <p>마찬가지로 <span class="codeph"> 오른쪽 </span>을(를) 사용하면 초기 페이지에 대한 왼쪽 맞춤과 마지막 페이지에 대한 오른쪽 맞춤을 설정합니다. 오른쪽에서 왼쪽 렌더링 순서를 위해 개별 페이지 하위 이미지를 결합합니다. 또한 왼쪽/오른쪽 슬라이드 애니메이션을 사용하여 카탈로그를 진행하도록 기본 보기를 설정합니다(<span class="codeph"> PageView.frametransition </span>이(가) slide로 설정된 경우). 마지막으로 축소판 보기를 오른쪽에서 왼쪽, 위에서 아래로 채우도록 축소판 순서를 반대로 합니다. </p> <p><span class="codeph"> 자동 </span>이(가) 설정되면 뷰어는 로케일이 <span class="codeph">자로 설정되면 </span> 오른쪽 <span class="codeph"> 모드를 적용하고, </span>그렇지 않으면 <span class="codeph"> 왼쪽 </span> 모드를 사용합니다. </p> </td> 
+   <td colname="col2"> <p>페이지가 기본 보기 및 썸네일에 표시되는 방식을 지정합니다. 또한 사용자가 뷰어 사용자 인터페이스와 상호 작용하여 카탈로그 프레임 사이를 변경하는 방식을 지정합니다. </p> <p><span class="codeph"> 왼쪽 </span>을(를) 사용하면 초기 페이지에 대한 오른쪽 맞춤과 마지막 페이지에 대한 왼쪽 맞춤을 설정합니다. 왼쪽에서 오른쪽 렌더링 순서를 위해 개별 페이지 하위 이미지를 결합합니다. 또한 오른쪽에서 왼쪽 슬라이드 애니메이션을 사용하여 카탈로그를 진행하도록 기본 보기를 설정합니다(<span class="codeph"> PageView.frametransition </span>이(가) slide로 설정된 경우). 마지막으로, 축소판은 왼쪽에서 오른쪽으로 채우도록 설정됩니다. </p> <p>마찬가지로 <span class="codeph"> 오른쪽 </span>을(를) 사용하면 초기 페이지에 대한 왼쪽 맞춤과 마지막 페이지에 대한 오른쪽 맞춤을 설정합니다. 오른쪽에서 왼쪽 렌더링 순서를 위해 개별 페이지 하위 이미지를 결합합니다. 또한 왼쪽/오른쪽 슬라이드 애니메이션을 사용하여 카탈로그를 진행하도록 기본 보기를 설정합니다(<span class="codeph"> PageView.frametransition </span>이(가) slide로 설정된 경우). 마지막으로 축소판 보기를 오른쪽에서 왼쪽, 위에서 아래로 채우도록 축소판 순서를 반대로 합니다. </p> <p><span class="codeph"> 자동 </span>이(가) 설정되면 뷰어는 로케일이 <span class="codeph">자로 설정되면 <span class="codeph"> 오른쪽 </span> 모드를 적용하고, </span>그렇지 않으면 <span class="codeph"> 왼쪽 </span> 모드를 사용합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

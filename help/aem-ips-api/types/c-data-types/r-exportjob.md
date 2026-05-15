@@ -5,9 +5,13 @@ title: ExportJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0266b9f-c6e0-4843-b002-0bc068d43424
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/h-GfeigJEitlDHdIGUYv-Trj3fhk5Lp9hcWxeL-A3qA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 198
 ht-degree: 10%
 
 ---
@@ -44,7 +48,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL fmt]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> export.Possible Values</span>의 형식을 지정합니다. [orig, convert] </p> <p> 
+   <td colname="col3"> <p><span class="codeph"> 내보내기의 형식을 지정합니다.가능한 값</span>: [orig, convert] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
       <li id="li_DAB2844CC55145C88A18A1F8EC4527F9"><span class="codeph"> fmt=orig</span>이면 에셋을 원본으로 내보냅니다. </li> 
       <li id="li_07F2F8D159934D889FDC1022AB12B564"><span class="codeph"> fmt=convert</span>인 경우 자산은 <span class="codeph"> is_modifer</span> 또는 <span class="codeph"> macro</span> 입력 매개 변수에 지정된 형식으로 변환됩니다. </li> 
@@ -53,7 +57,7 @@ ExportJob은 다음 자산 유형을 지원하지 않습니다.
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> 요청에 추가된 <span class="codeph"> ImageServer</span> 렌더링 URL 문자열을 지정합니다. </p> <p>IS 수정자 전송에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=ko" scope="external" format="html"> IS 설명서</a>를 참조하십시오. </p> </td> 
+   <td colname="col3"> <p>ExportJob <span class="codeph"> convert</span> 요청에 추가된 <span class="codeph"> ImageServer</span> 렌더링 URL 문자열을 지정합니다. </p> <p>IS 수정자 전송에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> IS 설명서</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 

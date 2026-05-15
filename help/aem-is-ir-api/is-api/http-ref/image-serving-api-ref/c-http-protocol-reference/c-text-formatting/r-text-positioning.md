@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/7I2AvTFME7oJArnXGqgFmm1pqEDGq5syGguLHlkdvfg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 312
 ht-degree: 0%
 
 ---
@@ -28,25 +32,25 @@ ht-degree: 0%
 
 다음 예제는 미리 크기가 조정된 텍스트에 대한 것입니다. 자체 크기 조정 텍스트에 대한 동작이 다릅니다.
 
-**&#x200B; `Text=`은(는) 항상 맨 위에 좁은 여백을 제공합니다.**
+** `Text=`은(는) 항상 맨 위에 좁은 여백을 제공합니다.**
 
 ![텍스트 위치 지정 예제 한 이미지](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `textPs=`에서는 텍스트를 텍스트 상자 위쪽에 단단히 정렬하여 Arial®:**&#x200B;과 같은 일반적인 글꼴에서도 약간 오려냅니다.
+** `textPs=`에서는 텍스트를 텍스트 상자 위쪽에 단단히 정렬하여 Arial®:**과 같은 일반적인 글꼴에서도 약간 오려냅니다.
 
 ![텍스트 위치 지정 예제 2개 이미지](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-**&#x200B; `text=`이(가) 렌더링된 텍스트를 자동으로 아래로 이동하여 클리핑을 방지합니다.**
+** `text=`이(가) 렌더링된 텍스트를 자동으로 아래로 이동하여 클리핑을 방지합니다.**
 
 ![텍스트 위치 지정 예: 이미지 3개](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-**&#x200B; `textPs=`은(는) 융기된 부분이 포함된 텍스트를 이동하지 않으므로 텍스트가 레이어 0:**&#x200B;에 있는 경우 상당한 클리핑이 발생합니다.
+** `textPs=`은(는) 융기된 부분이 포함된 텍스트를 이동하지 않으므로 텍스트가 레이어 0:**에 있는 경우 상당한 클리핑이 발생합니다.
 
 ![텍스트 위치 지정 예제 4개 이미지](assets/tp04.png)
 

@@ -5,9 +5,13 @@ title: setPassword
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e8d95b55-0a97-4887-b711-7be99833c389
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/01-S0tkyxnXa6YT4Wch4SB5kPAcTo-ImUhN4uNUY3ks'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 230
 ht-degree: 4%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->** 사용자 유형만`IpsAdmin` 다른 사용자에 대해 setPassword 호출을 실행할 수 있습니다.
+>*`IpsAdmin` 사용자 유형만* 다른 사용자에 대해 setPassword 호출을 실행할 수 있습니다.
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -67,7 +71,7 @@ ht-degree: 4%
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">소문자 영어 문자 예: <span class="codeph"> a b c d e </span> 등 </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">대문자 영문. 예를 들어 <span class="codeph"> A B C D E </span> 등입니다. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">숫자. 예를 들어 <span class="codeph"> 1 2 3 4 5 </span> 등입니다. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자 예를 들어 <span class="codeph"> &grave; ~ ! 중 하나를 사용할 수 있습니다. @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">특수 기호 문자 예를 들어, 다음 중 하나를 사용할 수 있습니다. <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

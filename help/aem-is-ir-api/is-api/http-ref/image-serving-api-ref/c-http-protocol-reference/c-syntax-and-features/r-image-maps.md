@@ -5,9 +5,13 @@ title: 이미지 맵
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/r0AiVRiFWvxKwq-80xpo-G4gZZDCRE6WjciJpiz9V-U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -47,7 +51,7 @@ IS는 맵 좌표에 공간 변환(예: 스케일링 및 회전)을 적용한 다
 
 다른 모든 명령은 효과적으로 무시됩니다.
 
-`SHAPE` 요청을 처리하는 동안 `COORDS`의 `AREA` 및 `req=map` 특성을 수정할 수 있습니다. `AREA` 요소의 다른 모든 특성은 수정 없이 전달됩니다. 대부분의 경우 `SHAPE` 값을 `DEFAULT`에서 `RECT`(으)로 변경하거나(`COORDS` 특성도 추가함) `COORDS` 값을 변경합니다.
+`req=map` 요청을 처리하는 동안 `AREA`의 `SHAPE` 및 `COORDS` 특성을 수정할 수 있습니다. `AREA` 요소의 다른 모든 특성은 수정 없이 전달됩니다. 대부분의 경우 `SHAPE` 값을 `DEFAULT`에서 `RECT`(으)로 변경하거나(`COORDS` 특성도 추가함) `COORDS` 값을 변경합니다.
 
 처리하는 동안 비어 있는 모든 `AREA` 요소는 완전히 제거됩니다. 맵이 `layer=comp`과(와) 연결되어 있으면 다른 모든 맵 뒤에 배치됩니다. 데이터는 하나 이상의 HTML `AREA` 요소로 텍스트 형식으로 반환됩니다. 빈 응답 문자열은 지정된 개체에 대한 이미지 맵이 없음을 나타냅니다.
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 16e17e2f-be98-4a5a-ba5e-5d18e7f76fa4
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/yvM-wFzdvuBToLTXLr0cXFosBuxiE1yLiuusNJvQwCo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 123
 ht-degree: 2%
 
 ---
@@ -28,7 +32,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|켜기</span> </p> </td> 
-   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS) 또는 비보안 연결(HTTP)을 통해 전달되는지 여부를 제어합니다. </p> <p><span class="codeph"> auto</span>(으)로 설정된 경우 비디오 게재 프로토콜은 포함된 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되면 비디오도 HTTPS를 통해 전달되며 반대로 전달됩니다. 웹 페이지가 HTTP를 사용하는 경우 비디오는 HTTP를 통해 전달됩니다. </p> <p><span class="codeph">에 </span>(으)로 설정된 경우 비디오 게재는 웹 페이지 프로토콜에 관계없이 항상 보안 연결을 통해 발생합니다. </p> <p>게시된 비디오 게재에만 영향을 미치며 작성자 모드의 비디오 미리 보기에는 무시됩니다. </p> </td> 
+   <td colname="col2"> <p> 비디오가 보안 SSL 연결(HTTPS) 또는 비보안 연결(HTTP)을 통해 전달되는지 여부를 제어합니다. </p> <p><span class="codeph"> auto</span>(으)로 설정된 경우 비디오 게재 프로토콜은 포함된 웹 페이지의 프로토콜에서 상속됩니다. 웹 페이지가 HTTPS를 통해 로드되면 비디오도 HTTPS를 통해 전달되며 반대로 전달됩니다. 웹 페이지가 HTTP를 사용하는 경우 비디오는 HTTP를 통해 전달됩니다. </p> <p></span>에 <span class="codeph">(으)로 설정된 경우 비디오 게재는 웹 페이지 프로토콜에 관계없이 항상 보안 연결을 통해 발생합니다. </p> <p>게시된 비디오 게재에만 영향을 미치며 작성자 모드의 비디오 미리 보기에는 무시됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

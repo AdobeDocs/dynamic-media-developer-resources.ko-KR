@@ -5,9 +5,13 @@ title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fe5df3a8-c9b2-4fad-ab9f-ca0b06016faf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NkzpvFZFbluayVtCa7qBVcSgY2aU5N7R2-rZkQCZHkw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: 121
 ht-degree: 5%
 
 ---
@@ -32,7 +36,7 @@ ht-degree: 5%
 
 `<addressfilter>`이(가) 비어 있거나 지정되지 않은 경우 액세스가 제한되지 않습니다.
 
-`<expression>` 요소의 `<rule>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
+`<rule>` 요소의 `<expression>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
 
 ## 참조 {#section-6f51ec2218d9450bb7642f9fdad1988a}
 

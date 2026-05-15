@@ -5,9 +5,13 @@ title: addressfilter
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0da9299b-fe14-4a69-8567-2d79ad2ce0bd
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+TQID: 'https://experienceleague.adobe.com/583zFF80AMZnaF4C-RQpRQI684hRlPRCuwoMPHGJ6eg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 150
 ht-degree: 1%
 
 ---
@@ -30,9 +34,9 @@ ht-degree: 1%
 
 `<addressfilter>`이(가) 비어 있거나 지정되지 않은 경우 액세스가 제한되지 않습니다.
 
-`<expression>` 요소의 `<rule>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
+`<rule>` 요소의 `<expression>`이(가) 없거나 비어 있으면 `<addressfilter>`이(가) 모든 요청에 적용됩니다.
 
-`localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `localhost` 사양에 관계없이 `ClientAddressFilter`에서 시작된 요청은 거부되지 않습니다.
+`localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
 
 ## SeeaAlso {#section-02056065e0c042e1b155b2f3e5b84ef7}
 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2cfeeba0-3230-481c-857a-bed3fedc836c
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/YehjMoK88ylklqHA9ZpjPgW8xoMwhLQqR-2e73ayWRM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 82
 ht-degree: 3%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|왼쪽|오른쪽 </span> </p> </td> 
-   <td colname="col2"> <p> 썸네일이 보기에서 채우는 방식을 지정합니다. </p> <p>왼쪽에서 오른쪽 채우기 순서를 설정하려면 왼쪽 <span class="codeph">을(를) </span>(으)로 설정하십시오. </p> <p><span class="codeph"> right </span>(으)로 설정하면 보기가 오른쪽에서 왼쪽으로, 위에서 아래로 채워지도록 순서를 반전시킵니다. </p> <p>로케일이 <span class="codeph"> "ja" </span>(으)로 설정된 경우 구성 요소를 오른쪽 모드로 적용하려면 <span class="codeph"> 자동 </span>(으)로 설정하십시오. 그렇지 않으면 <span class="codeph"> 왼쪽 </span>이(가) 사용됩니다. </p> </td> 
+   <td colname="col2"> <p> 썸네일이 보기에서 채우는 방식을 지정합니다. </p> <p>왼쪽에서 오른쪽 채우기 순서를 설정하려면 왼쪽 </span>을(를) <span class="codeph">(으)로 설정하십시오. </p> <p><span class="codeph"> right </span>(으)로 설정하면 보기가 오른쪽에서 왼쪽으로, 위에서 아래로 채워지도록 순서를 반전시킵니다. </p> <p>로케일이 <span class="codeph"> "ja" </span>(으)로 설정된 경우 구성 요소를 오른쪽 모드로 적용하려면 <span class="codeph"> 자동 </span>(으)로 설정하십시오. 그렇지 않으면 <span class="codeph"> 왼쪽 </span>이(가) 사용됩니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

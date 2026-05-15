@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/Z1AZf1odRYmyN5r7KqKsuOHniQ7inwPAWl-kF7ycItU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 218
 ht-degree: 1%
 
 ---
@@ -24,7 +28,7 @@ ht-degree: 1%
 
 ## 매개 변수 {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`에셋`*` - 새 에셋 ID 또는 명시적 혼합 미디어 집합으로 `String` 뒤에 선택적 이미지 제공 수정자가 추가되었습니다. `?`
+`*`에셋`*` - 새 에셋 ID 또는 명시적 혼합 미디어 집합으로 `?` 뒤에 선택적 이미지 제공 수정자가 추가되었습니다. `String`
 
 IR(이미지 렌더링) 또는 UGC(사용자 생성 컨텐츠)를 사용하는 이미지는 이 뷰어에서 지원되지 않습니다.
 

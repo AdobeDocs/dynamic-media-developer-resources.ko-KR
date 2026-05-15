@@ -5,9 +5,14 @@ title: 메타데이터 필드 유형
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: cbbe55f2-bd22-44f5-9440-f58fb45b8d9a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/XFRmGmRc9iE5xmW0P2KfDzc-X-3TTrNYWkzNieSodQc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 95
 ht-degree: 2%
 
 ---
@@ -22,7 +27,7 @@ MetadataField/type, saveMetadataFieldParam/fieldType 및 createMetadataField/fie
 
 * [!DNL `Untyped`]
 * [!DNL `Boolean`]
-* [!DNL `BooleanTag`]: [!DNL `SingleFixedTag`] 및 [!DNL `True`] 값으로 초기화된 수정할 수 없는 사전이 있는 [!DNL `False`]의 특수 사례입니다.
+* [!DNL `BooleanTag`]: [!DNL `True`] 및 [!DNL `False`] 값으로 초기화된 수정할 수 없는 사전이 있는 [!DNL `SingleFixedTag`]의 특수 사례입니다.
 
 * [!DNL `Color`]
 * [!DNL `Date`]

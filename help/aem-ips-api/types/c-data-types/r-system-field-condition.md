@@ -5,9 +5,13 @@ title: 시스템 필드 조건
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/dCZl4pLGuG5hHpEq04W-qv8mRWcFiA7PvmzcO7Un-sM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 6%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 6%
 
 searchAssets 작업에 대한 시스템 필드 검색 조건입니다.
 
-단항 비교의 경우 시스템 필드 형식에 따라 정확히 하나의 값(`boolVal`, `longVal`, `doubleVal` 또는 `dateVal`)을 전달합니다. 검색 범위의 경우 `min<Type>` 및 `max<Type>` 매개 변수를 전달하고 `op` 또는 `Between`의 `NotBetween` 값을 전달합니다.
+단항 비교의 경우 시스템 필드 형식에 따라 정확히 하나의 값(`boolVal`, `longVal`, `doubleVal` 또는 `dateVal`)을 전달합니다. 검색 범위의 경우 `min<Type>` 및 `max<Type>` 매개 변수를 전달하고 `Between` 또는 `NotBetween`의 `op` 값을 전달합니다.
 
 ## 매개 변수 {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

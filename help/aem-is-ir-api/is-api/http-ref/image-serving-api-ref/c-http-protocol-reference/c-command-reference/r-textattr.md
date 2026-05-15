@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7md74Pcl5SuFEi6v8mdpYTAxj3bJZTykMzg7bpT8Aqo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 458
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 앤티앨리어싱 </span> </span> </p> </td> 
-  <td class="stentry"> <p>텍스트 렌더링 엔진에서 사용하는 앤티앨리어싱 모드를 제어합니다. </p> <p> <span class="codeph"> 해제 | 규범 | 파삭파삭하 | 예리하 | 강력함 | </span> 매끄럽게 </p> <p> 
+  <td class="stentry"> <p>텍스트 렌더링 엔진에서 사용하는 앤티앨리어싱 모드를 제어합니다. </p> <p> <span class="codeph"> 해제 | norm | 선명한 | 선명하게 | 강력함 | 매끄럽게 </span> </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> / </span> </p> </td> 
@@ -55,11 +59,11 @@ ht-degree: 0%
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>텍스트가 합성된 캔버스에 비례하여 정확한 크기로 렌더링될 경우 를 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). <span class="varname"> textPs= </span>에서 지원하는 유일한 <span class="codeph"> resMode </span> 옵션입니다. </p> </td> 
+      <td class="stentry"> <p>지정된 해상도를 사용합니다. </p> <p>텍스트가 합성된 캔버스에 비례하여 정확한 크기로 렌더링될 경우 를 사용합니다. 텍스트 상자가 너무 작으면 텍스트가 레이어 크기로 잘릴 수 있습니다(지정된 경우). <span class="codeph"> textPs= </span>에서 지원하는 유일한 <span class="varname"> resMode </span> 옵션입니다. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. <span class="varname"> autoRes </span>을(를) 선택한 경우 <span class="codeph"> res </span>이(가) 무시됩니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
+      <td class="stentry"> <p>레이어 rect를 텍스트로 가장 잘 채우도록 해상도를 자동으로 조정합니다. </p> <p>를 사용하여 텍스트 상자가 잘릴 위험 없이 가능한 한 많이 채워지도록 텍스트 크기를 자동으로 조정합니다. 자동 줄 바꿈을 사용하면 최종 해상도에서 텍스트가 다시 줄 바꿈될 수 있습니다. <span class="codeph"> autoRes </span>을(를) 선택한 경우 <span class="varname"> res </span>이(가) 무시됩니다. <span class="codeph"> textPs= </span>에서 지원되지 않습니다. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
@@ -69,7 +73,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> 단어 줄바꿈 </span> </span> </p> </td> 
-  <td class="stentry"> <p>줄바꿈 모드를 지정합니다. </p> <p> <span class="codeph"> 줄바꿈 | noRap | nbWrap </span> </p> <p> 
+  <td class="stentry"> <p>줄바꿈 모드를 지정합니다. </p> <p> <span class="codeph"> 줄바꿈 | 줄바꿈 안 함 | nbWrap </span> </p> <p> 
     <table id="simpletable_FF2510E029EC41E29BC30D9FC2923EA3"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> 줄 바꿈 </span> </p> </td> 
@@ -89,7 +93,7 @@ ht-degree: 0%
 
 ## 속성 {#section-114ca0b8585b403c873e2251478ad1d5}
 
-텍스트 레이어 속성입니다. 이미지, 단색 및 효과 레이어에서 무시됩니다. `layer=0`에 대해 지정된 경우 `layer=comp`에 적용됩니다.
+텍스트 레이어 속성입니다. 이미지, 단색 및 효과 레이어에서 무시됩니다. `layer=comp`에 대해 지정된 경우 `layer=0`에 적용됩니다.
 
 ## 기본값 {#section-855230f5330b4afc8a933f00a1ed4612}
 

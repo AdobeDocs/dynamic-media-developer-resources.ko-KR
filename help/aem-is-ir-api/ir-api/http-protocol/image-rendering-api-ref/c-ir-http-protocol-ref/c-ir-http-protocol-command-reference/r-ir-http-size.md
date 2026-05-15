@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/Dlc-HhO8gjpNds-8-cv3vCxILlTePVblpu1D1MP8eN0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 220
 ht-degree: 2%
 
 ---
@@ -39,7 +43,7 @@ ht-degree: 2%
 
 ## 기본값 {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-데칼 자료가 카탈로그 항목을 기반으로 하는 경우 `catalog::Size`, 그렇지 않은 경우 `size=0,0,0`. `res=` 및 *`wid`*&#x200B;이(가) 지정되지 않았거나 0으로 설정된 경우 *`hei`*&#x200B;에서 십진수 크기가 계산됩니다. *`thickness`*&#x200B;이(가) 지정되지 않았거나 0으로 설정된 경우 그림자 효과를 렌더링하지 않습니다.
+데칼 자료가 카탈로그 항목을 기반으로 하는 경우 `catalog::Size`, 그렇지 않은 경우 `size=0,0,0`. *`wid`* 및 *`hei`*&#x200B;이(가) 지정되지 않았거나 0으로 설정된 경우 `res=`에서 십진수 크기가 계산됩니다. *`thickness`*&#x200B;이(가) 지정되지 않았거나 0으로 설정된 경우 그림자 효과를 렌더링하지 않습니다.
 
 ## 예 {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

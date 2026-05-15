@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/swX7HTiWiAhQlPu9f7Qsay2htiJcxnxOCMeu7YlrCm8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: 269
 ht-degree: 1%
 
 ---
@@ -55,7 +59,7 @@ ht-degree: 1%
 
 이미지 또는 레이어 속성. `layer=comp`인 경우 레이어 0에 적용됩니다. 효과 레이어에 지정된 경우 명령은 부모 레이어에서 상속된 마스크를 수정합니다.
 
-적용할 수 있는 이미지 마스크가 없을 때 텍스트 또는 단색 레이어로 지정한 경우(`maskUse=` 또는 `mask=`(으)로 지정한 경우) `catalog::Mask`의 동작이 정의되지 않았으며 지원되지 않습니다.
+적용할 수 있는 이미지 마스크가 없을 때 텍스트 또는 단색 레이어로 지정한 경우(`mask=` 또는 `catalog::Mask`(으)로 지정한 경우) `maskUse=`의 동작이 정의되지 않았으며 지원되지 않습니다.
 
 ## 기본값 {#section-982dd8174641437786dcb3729ace6428}
 

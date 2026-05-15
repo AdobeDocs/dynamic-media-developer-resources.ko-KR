@@ -5,9 +5,13 @@ title: 난독화 요청
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 358d714b-703d-418b-90c0-5940f5388c7d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/77Q5rV3cP4KoBz3rFKlEmBlumS0TBthuLbLQBETPitE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: 220
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->이 기능을 사용하는 경우 <br>- Dynamic Media 사용자 인터페이스에 **[!UICONTROL 마지막으로 게시됨]** 필드에 대한 올바른 세부 정보가 표시되지 않을 수 있습니다. 그러나 이 영향은 게시에 영향을 주지 않습니다.<br>- 현재 **[!UICONTROL 난독화 요청]** 및 **[!UICONTROL 잠금 요청]**&#x200B;을 사용하면 HLS 비디오 스트리밍이 작동하지 않습니다.<br>- 현재 **[!UICONTROL 난독화 요청]** 및 **[!UICONTROL 잠금 요청]**&#x200B;을 사용하도록 설정한 경우 일부 Dynamic Media 뷰어가 작동하지 않습니다.
+>이 기능을 사용하는 경우 <br>- Dynamic Media 사용자 인터페이스에 **[!UICONTROL 마지막으로 게시됨]** 필드에 대한 올바른 세부 정보가 표시되지 않을 수 있습니다. 그러나 이 효과는 게시에 영향을 주지 않습니다.<br>- 현재 **[!UICONTROL 난독화 요청]** 및 **[!UICONTROL 잠금 요청]**&#x200B;이 활성화되어 있으면 HLS 비디오 스트리밍이 작동하지 않습니다.<br>- 현재 **[!UICONTROL 난독화 요청]** 및 **[!UICONTROL 잠금 요청]**&#x200B;이 활성화되어 있으면 일부 Dynamic Media Viewer가 작동하지 않습니다.
 
 ## 예 {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 

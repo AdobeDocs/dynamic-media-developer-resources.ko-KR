@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a77b71c3-8600-4d7a-ba52-e158cf9668eb
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/9pR44QWe8G9qjTzNukUN0hEitEoGA47T3gbRUA6-Kpg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 235
 ht-degree: 1%
 
 ---
@@ -37,7 +41,7 @@ ht-degree: 1%
 
 ## 속성 {#section-2d067c6d371748e19cb157684700a49d}
 
-요청 내의 어느 곳에서든 발생할 수 있습니다. `wid=`, `hei=` 또는 `scl=`(으)로 이미지 크기를 조정해도 응답 이미지에 포함된 인쇄 해상도 값은 변경되지 않습니다. 명령 시퀀스에서 `scl=` 또는 `wid=` 다음에 `hei=`이(가) 발생하는 경우 무시됩니다.
+요청 내의 어느 곳에서든 발생할 수 있습니다. `wid=`, `hei=` 또는 `scl=`(으)로 이미지 크기를 조정해도 응답 이미지에 포함된 인쇄 해상도 값은 변경되지 않습니다. 명령 시퀀스에서 `wid=` 또는 `hei=` 다음에 `scl=`이(가) 발생하는 경우 무시됩니다.
 
 ## 기본값 {#section-c7c6efa03d864592a3398b6f1de5a0b0}
 

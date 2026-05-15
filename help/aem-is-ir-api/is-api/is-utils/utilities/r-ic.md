@@ -5,10 +5,15 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ALpdD-ZyQbjzCD6-sexqaq2gMQZGAZvMd7MqaDC6Gyo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: 1258
+ht-degree: 1%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 사진 콘텐츠가 포함된 PTIFF 파일은 JPEG으로 인코딩되는 것이 좋습니다(`-jpegcompress` 지정). 컴퓨터 생성 콘텐츠는 무손실 압축(`-deflatecompress` 또는 `-lzwcompress`)을 활용할 수 있습니다. 색 변환 또는 픽셀 유형 변환이 필요하지 않는 한, JPEG 소스 이미지 데이터는 품질 저하를 피하기 위해 디코딩 없이 PTIFF로 전달된다. 이 경우, 지정된 압축 옵션은 낮은 해상도 피라미드 레벨에만 적용됩니다.
 
-큰 이미지를 변환하지 않는 경우에는 사용할 메모리 양을 제어하는 매개 변수를 설정할 필요가 없습니다. 그러나 필요한 경우 아래에 설명된 `ic` 설정을 사용하여 `-maxmem`에 더 많은 메모리를 제공하십시오. 필요한 메모리의 양을 계산하는 좋은 방법은 이미지의 폭과 이미지의 높이를 곱하고 채널 수를 곱하는 것입니다. 예를 들어 알파 곱하기 3이 있는 RGB 이미지의 경우 4입니다. 또한 채널이 구성 요소당 8개가 아닌 16비트인 경우 최종 결과의 두 배가 됩니다.
+큰 이미지를 변환하지 않는 경우에는 사용할 메모리 양을 제어하는 매개 변수를 설정할 필요가 없습니다. 그러나 필요한 경우 아래에 설명된 `-maxmem` 설정을 사용하여 `ic`에 더 많은 메모리를 제공하십시오. 필요한 메모리의 양을 계산하는 좋은 방법은 이미지의 폭과 이미지의 높이를 곱하고 채널 수를 곱하는 것입니다. 예를 들어 알파 곱하기 3이 있는 RGB 이미지의 경우 4입니다. 또한 채널이 구성 요소당 8개가 아닌 16비트인 경우 최종 결과의 두 배가 됩니다.
 
 ## 사용 {#section-fb5293fa79894442aba831c1e14c5cc9}
 
@@ -103,7 +108,7 @@ ht-degree: 0%
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> 모드 </span>&gt; &lt; <span class="varname"> tolerance </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>자르기 사각형을 계산하여 단색 배경을 최소화합니다. 자동 자르기 알고리즘으로 인해 전체 이미지가 잘리는 경우 자르기 정보가 출력되지 않습니다. </p> <p>이미지를 변환하지 않고 자르기 사각형을 계산하려면 <span class="codeph"> -autocrop </span>을(를) <span class="codeph"> -convert </span> 없이 지정하고 <span class="codeph"> <span class="varname"> destFile 없이 지정하십시오.</span> </span></p>
 
-<p><i><b>모퉁이</b></i> - ul | 우르 | ll | lr </p>
+<p><i><b>모퉁이</b></i> - ul | url | ll | lr </p>
    <p> 시드 점을 사용할 이미지의 모서리를 지정합니다. 모드가 1인 경우 무시됩니다.</p>
    <p><i><b>모드</b></i> - 0 | 1</p>
    <p>지정된 모서리 픽셀의 색상을 기준으로 자르려면 0으로 설정합니다. 알파 데이터가 소스 이미지와 연결되어 있으면 미리 곱해진 색상 데이터에서 작동합니다.</p>
@@ -287,7 +292,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | 회색 </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | greyA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 압축 해제됨 | 압축됨 </p> </td> 
    <td> <p> 병합된 이미지만 포함되고 레이어와 추가 채널은 무시됩니다. </p> </td> 
@@ -301,14 +306,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
-   <td> <p> RGB | RGBA | 회색 | 회색 | 색인화됨 </p> </td> 
+   <td> <p> RGB | RGBA | 회색 | greyA | 색인화됨 </p> </td> 
    <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> 압축 </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | 회색 | 색인화됨 </p> </td> 
+   <td> <p> CMYK | CMYKA | RGB | RGBA | 회색 | greyA | 색인화됨 </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> 압축 해제됨 | ZIP | LZW | JPEG | CCITT 규칙 | CCITT G3 | CCITT G4 | 패키지 비트 </p> </td> 
    <td> <p> 첫 번째 연결된 알파 채널을 제외하고 추가 채널은 무시됩니다. </p> </td> 

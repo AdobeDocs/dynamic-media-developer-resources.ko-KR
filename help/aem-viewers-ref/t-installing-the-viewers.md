@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7a8d7205-d3bf-4ca8-b80a-9072436a3df5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Zz0BTc333AIELPKRWFeIxhNvTyOJZH1RHLYNvZpt-ZY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 1%
 
 ---
@@ -29,7 +33,7 @@ IS Viewers 파일을 하드 드라이브에 복사한 다음 `s7viewers.war` 파
 **동일한 서버에 여러 뷰어를 설치하려면:**
 
 1. 뷰어 .war의 이름을 원하는 컨텍스트로 변경하고 파일을 원하는 위치에 배포합니다.
-1. `this.isViewerRoot`에서 `config.js` 매개 변수를 설정합니다.
+1. `config.js`에서 `this.isViewerRoot` 매개 변수를 설정합니다.
 1. 새로 만든 뷰어 폴더의 루트에서 `config.js`을(를) 엽니다.
 1. `this.isViewerRoot = "/s7viewers"` 매개 변수를 `s7viewers.war` 파일의 컨텍스트로 설정합니다. (예: `"/s7viewers-4.0"`)
 1. 파일을 저장하고 닫습니다.

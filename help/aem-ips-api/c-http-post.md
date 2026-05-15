@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 0%
+source-wordcount: 716
+ht-degree: 2%
 
 ---
 
@@ -65,22 +69,22 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST 양식 부분  |  설명  |
 |---|---|
-| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서. **SOAP**&#x200B;에서 [인증 요청](/help/aem-ips-api/c-wsdl-versions.md)을 참조하십시오. |
-| `file params`  |   선택 사항입니다. 각 POST 요청과 함께 업로드할 파일을 하나 이상 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 각 파일 부분은 IPS의 대상 파일 이름으로 사용되는 Content-Disposition 헤더에 파일 이름 매개 변수를 포함할 수 있습니다. |
+| `auth`  |   필수. 인증 및 클라이언트 정보를 지정하는 XML authHeader 문서. [SOAP](/help/aem-ips-api/c-wsdl-versions.md)에서 **인증 요청**&#x200B;을 참조하십시오. |
+| `file params`  |   선택적. 각 POST 요청과 함께 업로드할 파일을 하나 이상 포함할 수 있습니다. `uploadPostParams/fileName` 매개 변수가 지정되지 않은 경우 각 파일 부분은 IPS의 대상 파일 이름으로 사용되는 Content-Disposition 헤더에 파일 이름 매개 변수를 포함할 수 있습니다. |
 
 |  HTTP POST 양식 부분   |  uploadPostParams 요소 이름   |  유형   |  설명   |
 |---|---|---|---|
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일을 업로드할 회사에 대해 을(를) 처리합니다.  |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobName`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 업로드 작업의 이름입니다.  |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobHandle`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 이전 요청에서 시작된 업로드 작업에 대한 핸들입니다.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택 사항입니다. 현지화를 위한 언어 및 국가 코드.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택 사항입니다. 작업에 대한 설명.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택 사항입니다. 특히 파일 이름의 전체 경로를 지원하지 않는 브라우저 및 기타 클라이언트의 경우 파일 이름 속성에 접두사로 사용할 대상 폴더 경로입니다.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `fileName`  |  `xsd:string`  | 선택 사항입니다. 대상 파일의 이름입니다. 파일 이름 속성을 재정의합니다. |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택 사항입니다. 기본값은 false입니다. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택적. 현지화를 위한 언어 및 국가 코드.  |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택적. 작업에 대한 설명.  |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택적. 특히 파일 이름의 전체 경로를 지원하지 않는 브라우저 및 기타 클라이언트의 경우 파일 이름 속성에 접두사로 사용할 대상 폴더 경로입니다.  |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `fileName`  |  `xsd:string`  | 선택적. 대상 파일의 이름입니다. 파일 이름 속성을 재정의합니다. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택적. 기본값은 false입니다. |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams`이(가) 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) 보기 |
 
-포함된 파일의 처리를 지정하는 `<uploadPostParams>` 블록은 `<uploadParams>` 블록 내에 있습니다.
+포함된 파일의 처리를 지정하는 `<uploadParams>` 블록은 `<uploadPostParams>` 블록 내에 있습니다.
 
 [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)을(를) 참조하십시오.
 

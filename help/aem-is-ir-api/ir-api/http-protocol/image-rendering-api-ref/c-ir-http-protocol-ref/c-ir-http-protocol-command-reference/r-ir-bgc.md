@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/0Er9kHrfQj1lt14SlNJHxqddJZOp8BaO-lLYSqc5ajU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 159
 ht-degree: 2%
 
 ---
@@ -29,7 +33,7 @@ ht-degree: 2%
 
 일반적인 텍스처 색상화의 경우 `bgc=` 값이 텍스처 이미지에서 가장 중요하거나 지배적인 색상일 수 있습니다. Dynamic Media 이미지 작성에서는 텍스처 이미지에서 합리적인 `bgc=` 색상 값을 추출하는 반자동 도구를 제공합니다.
 
-질감이 아닌 비네팅 개체에 질감 재료를 적용할 경우 `bgc=`을(를) 지정하지 않으면 `color=`이(가) 전경색으로 적용됩니다.
+질감이 아닌 비네팅 개체에 질감 재료를 적용할 경우 `color=`을(를) 지정하지 않으면 `bgc=`이(가) 전경색으로 적용됩니다.
 
 ## 속성 {#section-b2db6f147d7f443ba9f671de04c2ef19}
 

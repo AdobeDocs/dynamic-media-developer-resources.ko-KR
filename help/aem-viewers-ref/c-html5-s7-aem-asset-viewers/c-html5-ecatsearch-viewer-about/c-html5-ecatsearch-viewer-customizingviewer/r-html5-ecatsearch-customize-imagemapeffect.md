@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 873fc387-1d2a-4d74-b85e-fcbb13b691c5
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/cG9m71LkGsy3wqj16qS-pvskuP6J-XrF93jog28I62c'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: 319
 ht-degree: 0%
 
 ---
@@ -59,7 +63,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->이미지 맵 아이콘은 `state` 및 `default`의 아이콘 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `active` 특성 선택기를 지원합니다.
+>이미지 맵 아이콘은 `default` 및 `active`의 아이콘 상태에 다른 스킨을 적용하는 데 사용할 수 있는 `state` 특성 선택기를 지원합니다.
 
 예 - 서로 다른 두 아이콘 상태에 대해 각각 다른 이미지를 표시하는 28 x 28픽셀 이미지 맵 아이콘을 설정합니다.
 

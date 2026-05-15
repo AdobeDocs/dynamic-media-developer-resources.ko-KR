@@ -5,9 +5,13 @@ title: 제한 사항 및 알려진 문제
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/TCVO43J9ABVIbKSBwPE6jSfMR8I-2sc-7Nj-gGDEyPM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1250
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ Dynamic Media 이미지 서비스 제공 을 사용할 때 고려해야 할 몇 
 * 줄 수가 `\copyfitmaxlines` 설정의 최대값과 텍스트 입력에 있는 명시적 줄 수를 초과하지 않습니다.
 * 이미지 집합에 일치하는 중괄호와 괄호가 필요합니다. 중괄호와 괄호가 일치하지 않으면 URL로 인코딩해야 합니다.
 * 서버측 글로벌 응답 시간 경고에 오류 응답이 포함됩니다.
-* 이미지 또는 마스크 요청에 `id=` 명령을 사용할 때는 현재 `rect=` 명령이 필요합니다.
+* 이미지 또는 마스크 요청에 `rect=` 명령을 사용할 때는 현재 `id=` 명령이 필요합니다.
 
 ## 알려진 차이점 textPs= 와 text= {#section-16ede4c13a7648feb0d2fc93341fd4aa}
 
@@ -88,7 +92,7 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
   이미지 렌더링 비피라미드형 비네팅의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일에서 IrMaxNonPyrVignetteSize의 속성 값을 늘립니다.
 
-  이미지 제공 비피라미드형 TIFF의 경우 `MaxNonDsfSize` 구성 파일에서 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml]의 속성 값을 늘리십시오.
+  이미지 제공 비피라미드형 TIFF의 경우 [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] 구성 파일에서 `MaxNonDsfSize`의 속성 값을 늘리십시오.
 
 * Adobe [!DNL Photoshop] CS3은 기본적으로 합성 이미지로 계층화된 PSD 파일을 저장하지 않습니다.
 
@@ -132,9 +136,9 @@ Digimarc 라이브러리는 Digimarc 워터마크가 이미 감지된 경우 이
 
   *해결 방법*
 
-  `svgProvider.fontRoot=`에서 [!DNL install_root/ImageServing/conf/PlatformServer.conf] 속성을 설정합니다.
+  [!DNL install_root/ImageServing/conf/PlatformServer.conf]에서 `svgProvider.fontRoot=` 속성을 설정합니다.
 
-* 자르기는 현재 `bgColor=` 대신 `color=`을(를) 사용하여 새로 확장된 영역을 채우는 중입니다.
+* 자르기는 현재 `color=` 대신 `bgColor=`을(를) 사용하여 새로 확장된 영역을 채우는 중입니다.
 
 * `bgColor=`이(가) 색상 프로파일을 포함하는 기본 색상 공간과 일치하지 않으면 색상 변환이 올바르지 않을 수 있습니다.
 * 레이어에 마스크나 알파 데이터가 없으면 외부 레이어 효과가 렌더링되지 않습니다.

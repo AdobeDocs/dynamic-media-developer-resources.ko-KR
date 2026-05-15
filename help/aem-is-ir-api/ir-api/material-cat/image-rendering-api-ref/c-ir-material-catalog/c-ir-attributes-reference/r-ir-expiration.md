@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6d9cca06-f675-4ae4-a187-9cd716e7c554
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/UkPYVP3aAoseZcXo5zLTVIiejTIPv5HXHekcIgS-B4U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: 103
 ht-degree: 4%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 4%
 
 ## 속성 {#section-8e2bade105ec4905ae5c4911f500279f}
 
-실수입니다. `0` 이상입니다. 회신 데이터가 생성된 이후 만료까지 남은 시간 수. 응답 이미지를 항상 즉시 만료하여 클라이언트 캐싱을 효과적으로 비활성화하려면 `0`(으)로 설정하십시오. `-1`만료되지 않음&#x200B;*(으)로 표시하려면*(으)로 설정하십시오.
+실수입니다. `0` 이상입니다. 회신 데이터가 생성된 이후 만료까지 남은 시간 수. 응답 이미지를 항상 즉시 만료하여 클라이언트 캐싱을 효과적으로 비활성화하려면 `0`(으)로 설정하십시오. *만료되지 않음*(으)로 표시하려면 `-1`(으)로 설정하십시오.
 
 ## 기본값 {#section-18cfce46edb441bfae7dd9d3e0217ba9}
 

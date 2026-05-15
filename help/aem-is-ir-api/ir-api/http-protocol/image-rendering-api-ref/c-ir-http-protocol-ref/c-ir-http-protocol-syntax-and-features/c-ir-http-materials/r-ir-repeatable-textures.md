@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3693498b-994a-460a-8b2e-780a1482d37a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/hWfVo7g-LL9l-G8FkN4HZ4B1X7uX85LlklZFjNBsjZI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 251
 ht-degree: 3%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 3%
 
 반복 가능한 텍스처에는 직물(의류 및 실내 장식 모두), 벽-벽 바닥 덮개, 벽지, 카운터탑 재료, 목재 그레인 텍스처, 루핑 및 사이딩 재료 및 기타 일반적인 텍스처와 같은 내부 및 외부 재료가 포함됩니다.
 
-반복 가능한 텍스처는 플랫, 플로우 라인, 스케치, 평면, 벽 및 캐비닛 객체에 적용할 수 있습니다. 텍스트가 아닌 개체에 적용하면 개체가 `color=`(또는 `bgc=`이(가) 지정되지 않은 경우 `color=`)로 칠해집니다.
+반복 가능한 텍스처는 플랫, 플로우 라인, 스케치, 평면, 벽 및 캐비닛 객체에 적용할 수 있습니다. 텍스트가 아닌 개체에 적용하면 개체가 `color=`(또는 `color=`이(가) 지정되지 않은 경우 `bgc=`)로 칠해집니다.
 
 이미지를 지정하는 `src=` 특성이 포함되어 있고 전사 또는 담벼락 테두리가 아닌 MSS에서 물질이 발생하는 경우 해당 물질은 질감으로 간주됩니다.
 

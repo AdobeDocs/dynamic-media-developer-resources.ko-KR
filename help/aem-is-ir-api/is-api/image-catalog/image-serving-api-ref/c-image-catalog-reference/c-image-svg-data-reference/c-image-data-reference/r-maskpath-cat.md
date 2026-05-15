@@ -5,9 +5,14 @@ title: 마스크 경로
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b67e0b62-d2cc-4b05-bd09-65b206466df5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/tUXD-vnkr3qkaH3B-dE-e9wfSPXAcnwRbqG9KuJej9E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 175
 ht-degree: 2%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 2%
 
 ## 속성 {#section-cdc3b7e2811e41008479cd97887c01b7}
 
-텍스트 문자열 값입니다. 선택 사항입니다. 지정하면 올바른 상대 또는 절대 이미지 서버 파일 경로여야 합니다. 파일 접미사가 없으면 `attribute::DefaultExt`이(가) 추가됩니다.
+텍스트 문자열 값입니다. 선택적. 지정하면 올바른 상대 또는 절대 이미지 서버 파일 경로여야 합니다. 파일 접미사가 없으면 `attribute::DefaultExt`이(가) 추가됩니다.
 
 기본 이미지(`catalog::Path`)와 마스크 이미지(`catalog::MaskPath`)가 모두 카탈로그 레코드에 정의된 경우 두 이미지 모두 픽셀 크기가 정확히 동일해야 합니다. 마스크 이미지는 8비트 회색 음영이어야 합니다.
 

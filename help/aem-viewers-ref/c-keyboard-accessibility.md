@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
 TQID: 'https://experienceleague.adobe.com/Yo1xl9U8Ld3nzbeHm6pQxAncRKQIXEWimijQM4FjLtc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 588
@@ -31,7 +36,7 @@ ht-degree: 0%
 
 운영 체제 및 웹 브라우저 설정에 따라 입력 포커스를 갖는 사용자 인터페이스 요소는 시각적 포커스 표시를 수신합니다. 예를 들어, 시각적 표시기는 사용자 인터페이스 요소 주위에 렌더링된 얇은 경계일 수 있다.
 
-뷰어 CSS에서 이러한 포커스 하이라이트를 비활성화하거나 맞춤화할 수 있습니다. 이 도움말 시스템의 목차에서 특정 뷰어 이름(예: 기본 확대/축소 또는 대화형 비디오)에서 **사용자 지정 *뷰어 이름*** >**&#x200B;포커스 강조 표시&#x200B;**를 클릭합니다.
+뷰어 CSS에서 이러한 포커스 하이라이트를 비활성화하거나 맞춤화할 수 있습니다. 이 도움말 시스템의 목차에서 특정 뷰어 이름(예: 기본 확대/축소 또는 대화형 비디오)에서 **사용자 지정 *뷰어 이름*** >**&#x200B;포커스 강조 표시&#x200B;**&#x200B;를 클릭합니다.
 
 개별 뷰어 사용자 인터페이스 요소에서 지원하는 키 입력은 대부분의 경우 명확하고 검색하기 쉽습니다.
 

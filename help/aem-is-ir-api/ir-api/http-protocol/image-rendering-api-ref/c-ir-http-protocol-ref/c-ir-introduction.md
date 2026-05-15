@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
 TQID: 'https://experienceleague.adobe.com/I21iWFmYP0Vwunf3evtnLAr3tslHOsTOB0sGWG6l-bc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 387
@@ -99,6 +103,6 @@ ht-degree: 0%
 
 **공통 용어**
 
-** *`MSS`* ** 재료 사양 세그먼트: 요청에 있는 두 선택 명령 사이의 재료 속성 집합입니다.
+**&#x200B; *`MSS`* &#x200B;** 재료 사양 세그먼트: 요청에 있는 두 선택 명령 사이의 재료 속성 집합입니다.
 
-** *`vignette`*&#x200B;은(는) 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성에서 준비된 이미지를 **.
+**&#x200B; *`vignette`*&#x200B;은(는) 이미지 렌더링에 사용하기 위해 Dynamic Media 이미지 작성에서 준비된 이미지를 &#x200B;**.

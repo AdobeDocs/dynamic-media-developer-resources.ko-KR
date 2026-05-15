@@ -1,18 +1,26 @@
 ---
-title: ImageMapEffect.mapTips
-description: ImageMapEffect.mapTips
+title: ImageMapEffect.맵 팁
+description: ImageMapEffect.맵 팁
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/s57oHTZDPo4kxslhgraEQQOErNSwZ1Z23vgmwpj7a90'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 10%
+source-wordcount: 29
+ht-degree: 17%
 
 ---
 
-# ImageMapEffect.mapTips{#imagemapeffect-maptips}
+# ImageMapEffect.맵 팁{#imagemapeffect-maptips}
 
 `[ImageMapEffect.|<containerId>_imageMapEffect.]mapTips=0|1`
 

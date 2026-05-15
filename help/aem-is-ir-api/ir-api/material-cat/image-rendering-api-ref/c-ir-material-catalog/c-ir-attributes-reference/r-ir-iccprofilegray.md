@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 21f37090-a68c-4d86-a807-bda243a8f99e
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/ZZOkc6f5V3-Luuwr5ku38nIy8snq4kh2lR4dqunXvFc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 115
 ht-degree: 2%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 2%
 
 ## 속성 {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-텍스트 문자열입니다. 지정하면 이 재질 카탈로그나 기본 카탈로그의 ICC 프로필 맵 또는 `icc::Name`에 상대적인 파일 경로의 올바른 `attribute::RootPath` 값이어야 합니다. 참조된 ICC 프로파일은 회색 음영 프로파일이어야 합니다.
+텍스트 문자열입니다. 지정하면 이 재질 카탈로그나 기본 카탈로그의 ICC 프로필 맵 또는 `attribute::RootPath`에 상대적인 파일 경로의 올바른 `icc::Name` 값이어야 합니다. 참조된 ICC 프로파일은 회색 음영 프로파일이어야 합니다.
 
 ## 기본값 {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 

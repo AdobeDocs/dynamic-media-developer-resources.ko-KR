@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 00f6d27e-9f6b-4eea-8f42-833fbc0f1c38
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/cXLJJQ5CS-Apmq-8qYV-ew-lcvfRjoNfIbl2qyyKB6U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -22,7 +30,7 @@ ht-degree: 0%
 
 매크로는 별도의 매크로 정의 파일로 정의되며, 재료 카탈로그 또는 기본 카탈로그에 첨부할 수 있습니다.
 
-*[!DNL name]*&#x200B;은(는) 대/소문자를 구분하지 않으며 ASCII 문자, 숫자 , &#39;-&#39;, &#39;_&#39; 및 &#39;.&#39;의 조합으로 구성될 수 있습니다. 자.
+*[!DNL name]*&#x200B;은(는) 대/소문자를 구분하지 않으며 ASCII 문자, 숫자 , &#39;-&#39;, &#39;_&#39; 및 &#39;.&#39; 문자 조합으로 구성될 수 있습니다.
 
 요청의 &#39;?&#39; 뒤에 있는 곳이나 `vignette::Modifier` 필드 내에 있는 모든 곳에서 매크로를 호출합니다. 매크로는 하나 이상의 이미지 렌더링 명령만 나타낼 수 있으며 &#39;&amp;&#39; 구분 기호를 사용하여 다른 명령과 구분해야 합니다.
 

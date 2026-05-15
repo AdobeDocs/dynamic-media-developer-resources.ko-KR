@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/e7zzYHSi7X5tdPAy-0CWTK-Wqs5nfhEDLs2HYJ1D-f4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 242
 ht-degree: 6%
 
 ---
@@ -35,7 +43,7 @@ JPEG 품질. 압축 수준을 제어할 JPEG 인코딩 특성을 지정합니다
 
 ## 속성 {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다. 출력 이미지 파일 형식이 JPEG 인코딩을 지원하지 않는 경우에는 무시됩니다. `fmt=`을(를) 지원하는 출력 이미지 형식에 대한 자세한 내용은 `qlt=`의 설명을 참조하세요.
+요청 속성입니다. 현재 레이어 설정에 관계없이 적용됩니다. 출력 이미지 파일 형식이 JPEG 인코딩을 지원하지 않는 경우에는 무시됩니다. `qlt=`을(를) 지원하는 출력 이미지 형식에 대한 자세한 내용은 `fmt=`의 설명을 참조하세요.
 
 출력 픽셀 유형이 CMYK 또는 회색인 경우 *`chroma`*&#x200B;이(가) 무시됩니다.
 

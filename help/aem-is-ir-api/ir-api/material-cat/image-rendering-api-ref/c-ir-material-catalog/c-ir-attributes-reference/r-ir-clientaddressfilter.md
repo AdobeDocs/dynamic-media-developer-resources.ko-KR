@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/azMITpRcITTOEB0FCev6vWiTmocumP-0HTQD3rIV-fA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 156
 ht-degree: 2%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 2%
 
 클라이언트 IP 주소 필터. 하나 이상의 IP 주소 또는 주소 범위를 지정할 수 있습니다.
 
-지정하면 목록에 없는 IP 주소의 클라이언트에서 가져온 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `localhost` 사양에 관계없이 `ClientAddressFilter`에서 시작된 요청은 거부되지 않습니다.
+지정하면 목록에 없는 IP 주소의 클라이언트에서 가져온 이 이미지 카탈로그에 대한 요청이 거부됩니다. `localhost`은(는) 명시적으로 지정되지 않았더라도 항상 암시적으로 `ClientAddressFilter` 정의의 일부입니다. `ClientAddressFilter` 사양에 관계없이 `localhost`에서 시작된 요청은 거부되지 않습니다.
 
 ## 속성 {#section-21a2992f108d42fb8660c0d65aa61e13}
 
@@ -24,7 +32,7 @@ ht-degree: 2%
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* 형식의 *[!DNL ddd.ddd.ddd.ddd]* IP 주소
+* *[!DNL ddd.ddd.ddd.ddd]* 형식의 *[!DNL ipAddress]* IP 주소
 
 * *[!DNL netmask]* 넷 마스크(0...32)
 

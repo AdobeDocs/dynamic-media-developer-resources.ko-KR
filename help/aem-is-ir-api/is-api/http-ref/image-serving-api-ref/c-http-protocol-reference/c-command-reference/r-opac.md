@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38e0e1dc-46c0-48a4-b676-f7e6d262392f
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/--AimuhKd3XDT-daEAA73WfUPmCZmaCXSrXmLVO8Y6I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 223
 ht-degree: 1%
 
 ---
@@ -31,7 +39,7 @@ ht-degree: 1%
 
 이미지 레이어의 전경 불투명도는 레이어 마스크 또는 이미지의 알파 채널에 의해 결정되거나, 둘 다 없는 경우에는 100%입니다. 텍스트 레이어의 전경 불투명도는 100%이고 단색 레이어의 불투명도는 `color=`에 의해 설정됩니다.
 
-`opac=`은(는) 단색 및 효과 레이어(`color=`)의 전경 영역을 제외하고 `bgColor=` 또는 `color=`(으)로 채워진 영역의 불투명도를 수정하지 않습니다.
+`opac=`은(는) 단색 및 효과 레이어(`color=`)의 전경 영역을 제외하고 `color=` 또는 `bgColor=`(으)로 채워진 영역의 불투명도를 수정하지 않습니다.
 
 이미지, 텍스트 또는 단색 레이어에 지정된 경우 *`opacity`*&#x200B;은(는) 연결된 모든 효과 레이어를 포함하여 전체 레이어를 적용하고 *`fillOpacity`*&#x200B;은(는) 기본 레이어 콘텐츠에만 적용됩니다. 효과 레이어에 지정하면 *`opacity`*&#x200B;이(가) 효과 레이어에 적용되고 *`fillOpacity`*&#x200B;은(는) 무시됩니다.
 

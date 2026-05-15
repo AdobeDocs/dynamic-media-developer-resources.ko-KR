@@ -5,9 +5,20 @@ title: 서버 캐시
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/UUki7PR7tT4njGw6HktkaobgrM7iwdBZsP-Nbz2TdIY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 299
 ht-degree: 0%
 
 ---
@@ -22,7 +33,7 @@ ht-degree: 0%
 
 ## PS::cache.maxSize - 응답 데이터 캐시 크기 {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 
-HTTP 응답 캐시의 최대 크기(바이트)입니다. 이 설정은 캐시되는 실제 데이터의 양을 제한하므로 파일 시스템 오버헤드는 고려하지 않습니다. [응답 데이터 캐시](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)를 참조하세요. 여러 캐시 데이터 폴더를 지정하면 캐시 데이터가 모든 폴더에 고르게 분산됩니다. `cache.maxSize`의 [!DNL PlatformServer.conf] 값은 바이트 단위입니다.
+HTTP 응답 캐시의 최대 크기(바이트)입니다. 이 설정은 캐시되는 실제 데이터의 양을 제한하므로 파일 시스템 오버헤드는 고려하지 않습니다. ([응답 데이터 캐시](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-data-caches/c-response-data-cache.md#concept-81ea996c242441f2a69f7e9d9b3a29ca)를 참조하세요.) 여러 캐시 데이터 폴더를 지정하면 캐시 데이터가 모든 폴더에 고르게 분산됩니다. [!DNL PlatformServer.conf]의 `cache.maxSize` 값은 바이트 단위입니다.
 
 ## PS::cache.maxEntries - 응답 데이터 캐시 최대 항목 {#section-5603e327e90542a5b50aeeb27b080410}
 

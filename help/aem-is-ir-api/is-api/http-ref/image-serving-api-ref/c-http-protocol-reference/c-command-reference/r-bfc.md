@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UB-6NSVes81igYNQs-XoMSWq2Ch1xxiVTsC8tstbmyM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 97
 ht-degree: 3%
 
 ---
@@ -21,7 +29,7 @@ ht-degree: 3%
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> 설정/해제 </span> </p> </td> 
-  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저별 파일 형식으로 변환하는 브라우저 형식 변환 기능이 true(<span class="codeph">의 </span>)인지 false(<span class="codeph">의 </span>(브라우저별 형식 변환이 없는 경우) 여부를 지정합니다. </p> </td> 
+  <td class="stentry"> <p>JPEG 또는 PNG 이미지를 더 작은 브라우저별 파일 형식으로 변환하는 브라우저 형식 변환 기능이 true(</span>의 <span class="codeph">)인지 false(</span>의 <span class="codeph">(브라우저별 형식 변환이 없는 경우) 여부를 지정합니다. </p> </td> 
  </tr> 
 </table>
 

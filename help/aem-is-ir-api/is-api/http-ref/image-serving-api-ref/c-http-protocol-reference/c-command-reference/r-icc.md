@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8be7be8c-a23d-4a5b-93e4-44231155616b
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/Hg1FY5migettNtLHrXevywDf07HhOejo5Z05l8d4lRU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: 281
 ht-degree: 1%
 
 ---
@@ -57,13 +65,13 @@ ht-degree: 1%
 
 ## 속성 {#section-9fcd3e7bd1fd43c887b0f18a2f3c7259}
 
-요청 속성입니다. 이미지 형식이 `fmt=`과(와) 일치하지 않는 *`profile`*(으)로 지정된 경우 서버에서 오류를 반환합니다.
+요청 속성입니다. 이미지 형식이 *`profile`*&#x200B;과(와) 일치하지 않는 `fmt=`(으)로 지정된 경우 서버에서 오류를 반환합니다.
 
 지정된 ICC 프로필과 호환되지 않으면 수정자 *`renderIntent`* 및 *`blackpointComp`*&#x200B;이(가) 무시됩니다. CMYK 출력 장치 프로필은 다른 렌더링 의도를 지원할 가능성이 높습니다.
 
 ## 기본값 {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `attribute::IccProfile*`에 지정된 이미지 유형과 일치하는 출력 프로필(`fmt=`)로 변환된 이미지를 전달합니다.
+색상 관리가 활성화되어 있고 `icc=`이(가) 지정되지 않은 경우 서버는 `fmt=`에 지정된 이미지 유형과 일치하는 출력 프로필(`attribute::IccProfile*`)로 변환된 이미지를 전달합니다.
 
 지정하지 않으면 *`renderIntent`*&#x200B;은(는) `attribute::IccRenderIntent`에서 상속되고, *`blackpointComp`*&#x200B;은(는) `attribute::IccBlackPointCompensation`에서 상속되며, *`dither`*&#x200B;은(는) `attribute::IccDither`에서 상속됩니다.
 

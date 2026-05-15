@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/DAvANJggSrj6-wEEL8qYAMlOeuavo7usySKl1g-npVg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 2%
 
 ---
@@ -22,7 +32,7 @@ ht-degree: 2%
    <td colname="col1"> <p> <span class="codeph"> 없음|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> 비디오 재생이 시작되기 전에 첫 번째 프레임에 표시할 이미지로, <span class="codeph"> serverurl</span>에 대해 확인됩니다. URL에 지정되는 경우 HTTP 인코딩은 다음과 같습니다. </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
-      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> %3F<span class="codeph">(으)로 </span> </p> </li> 
+      <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> <span class="codeph"> %3F</span>(으)로 </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span>(<span class="codeph"> %26</span>) </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span>(으)로 <span class="codeph"> %3D</span> </p> </li> 
      </ul> </p> <p><span class="codeph"><span class="varname"> image_id</span></span> 값이 생략된 경우 구성 요소는 해당 자산에 대한 기본 포스터 이미지를 대신 사용하려고 합니다. </p> <p>비디오가 경로로 지정되면 기본 포스터 이미지 카탈로그 ID가 비디오 경로에서 <span class="codeph"> catalog_id/image_id</span> 쌍으로 파생됩니다. 여기서 <span class="codeph"> catalog_id</span>은(는) 경로의 첫 번째 토큰에 해당합니다. <span class="codeph"> image_id</span>은(는) 확장이 제거된 비디오의 이름입니다. 해당 ID의 이미지가 없는 경우 포스터 이미지가 표시되지 않습니다. </p> <p>기본 포스터 이미지가 표시되지 않도록 하려면 <span class="codeph"> none</span>을(를) 포스터 이미지 값으로 지정하십시오. <span class="codeph"><span class="varname"> isCommands</span></span>만 지정된 경우 이미지가 표시되기 전에 명령이 기본 포스터 이미지에 적용됩니다. </p> </td> 

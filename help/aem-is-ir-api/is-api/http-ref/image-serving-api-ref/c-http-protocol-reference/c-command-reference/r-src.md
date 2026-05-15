@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88b89e70-59cf-4fb9-bbe7-0ac5eff792f1
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/4BChH5cLIy-7A3mnQqqo0S7Z4XfoC4T-34gI-YM-tGY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 192
 ht-degree: 2%
 
 ---
@@ -43,9 +51,9 @@ ht-degree: 2%
 
 ## 속성 {#section-2c22bb89a35d470f833df8ba898efd93}
 
-레이어 속성입니다. `layer=0`인 경우 `layer=comp`에 적용됩니다. 같은 레이어에서 `text=` 및 `textPs=`과(와) 함께 사용할 수 없습니다. `text=`, `textPs=` 또는 `src=`의 마지막 항목이 우세하여 이것이 이미지 레이어인지 텍스트 레이어인지를 결정합니다. 효과 레이어에서 무시됨.
+레이어 속성입니다. `layer=comp`인 경우 `layer=0`에 적용됩니다. 같은 레이어에서 `text=` 및 `textPs=`과(와) 함께 사용할 수 없습니다. `text=`, `textPs=` 또는 `src=`의 마지막 항목이 우세하여 이것이 이미지 레이어인지 텍스트 레이어인지를 결정합니다. 효과 레이어에서 무시됨.
 
-*`object`*은(는) 해당 `src=`에 `mask=` 또는 `catalog::Modifier` 명령을 포함하는 다른 카탈로그 레코드로 확인할 수 없습니다. (요청 중첩을 사용하여 유사한 효과를 얻을 수 있습니다.)
+*`object`*은(는) 해당 `catalog::Modifier`에 `src=` 또는 `mask=` 명령을 포함하는 다른 카탈로그 레코드로 확인할 수 없습니다. (요청 중첩을 사용하여 유사한 효과를 얻을 수 있습니다.)
 
 `is`, `ir` 및 `fxg` 접두사는 대/소문자를 구분합니다.
 

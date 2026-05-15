@@ -5,9 +5,19 @@ title: 규칙 세트 참조
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 194600d0-72d9-47fb-8525-598beb2ce17d
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/HxgWcboIyA2RYuXbHMKaUiRQFL8IDNKegdOqMgz2plE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 642
 ht-degree: 0%
 
 ---
@@ -49,7 +59,7 @@ ht-degree: 0%
 
 실제 규칙이 정의되지 않은 경우에도 `<?xml>`, `<!DOCTYPE>` 및 `<ruleset>` 요소는 항상 올바른 규칙 집합 XML 파일에 필요합니다.
 
-`<ruleset>`개 요소를 포함하는 하나의 `<rule>` 요소가 허용됩니다.
+`<rule>`개 요소를 포함하는 하나의 `<ruleset>` 요소가 허용됩니다.
 
 전처리 규칙 파일의 내용은 대/소문자를 구분합니다.
 
@@ -65,7 +75,7 @@ ht-degree: 0%
 
 ## OnMatch 특성 {#section-7a8ad3597780486985af5e9a3b1c7b56}
 
-`OnMatch` 요소의 `<rule>` 특성을 사용하여 기본 동작을 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error.`(으)로 설정될 수 있습니다.
+`<rule>` 요소의 `OnMatch` 특성을 사용하여 기본 동작을 수정할 수 있습니다. `OnMatch`은(는) `break`(기본값), `continue` 또는 `error.`(으)로 설정될 수 있습니다.
 
 <table id="table_4CABF55B33854A128D5F326B31C6C397"> 
  <thead> 

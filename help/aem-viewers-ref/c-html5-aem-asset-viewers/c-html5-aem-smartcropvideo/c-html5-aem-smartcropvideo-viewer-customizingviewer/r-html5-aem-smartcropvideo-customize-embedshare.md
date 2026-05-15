@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tcVFYRTmobtTJo01ub86IgjoYzHvfIpbl9YN1-azHjE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: 2667
 ht-degree: 0%
 
 ---
@@ -795,7 +803,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->콤보 상자는 가능한 값 `expanded` 및 `true`이(가) 있는 `false` 특성 선택기를 지원합니다. `true` 값은 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시되면 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 값은 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 너비 및 높이 입력 필드에 공백을 허용하도록 축소해야 합니다.
+>콤보 상자는 가능한 값 `true` 및 `false`이(가) 있는 `expanded` 특성 선택기를 지원합니다. `true` 값은 콤보 상자에 미리 정의된 포함 크기 중 하나가 표시되면 사용되므로 사용 가능한 모든 너비를 사용해야 합니다. `false` 값은 콤보 상자에서 사용자 지정 크기 옵션을 선택할 때 사용되므로 사용자 지정 너비 및 높이 입력 필드에 공백을 허용하도록 축소해야 합니다.
 
 예 - 사전 정의된 항목을 표시할 경우 포함 크기 콤보 상자의 너비를 300픽셀로 설정하고 사용자 지정 크기를 표시할 경우 110픽셀로 설정합니다.
 

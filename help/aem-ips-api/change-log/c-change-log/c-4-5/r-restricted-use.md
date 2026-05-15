@@ -5,9 +5,19 @@ title: 제한된 사용
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6602c5bc-9f75-4885-ae14-cab14e6afa5e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/X-Q28iVTM95SDSwlSy3yhmJcfJv0TC3LtxXPRv8RCpg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 0%
 
 ---
@@ -52,57 +62,57 @@ Beta WSDL에서 사용할 수 있는 이러한 새로운 작업 또는 수정된
 
 **수정된 형식**
 
-* `ActiveJob` 형식을 포함하도록 `createVideoSitemapJob`을(를) 변경했습니다.
+* `createVideoSitemapJob` 형식을 포함하도록 `ActiveJob`을(를) 변경했습니다.
 
-* `ScheduledJob` 형식을 포함하도록 `createVideoSitemapJob`을(를) 변경했습니다.
+* `createVideoSitemapJob` 형식을 포함하도록 `ScheduledJob`을(를) 변경했습니다.
 
-* 선택적 `ImageServingPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle`을(를) 포함하도록 `ImageServingPublishJob`을(를) 변경했습니다.
 
-* 선택적 `ImageRenderingPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle`을(를) 포함하도록 `ImageRenderingPublishJob`을(를) 변경했습니다.
 
-* 선택적 `MetadataField`을(를) 포함하도록 `initialTagField`을(를) 변경했습니다.
+* 선택적 `initialTagField`을(를) 포함하도록 `MetadataField`을(를) 변경했습니다.
 
-* 및 선택적 `MetadataCondition` 매개 변수를 포함하도록 `caseSensitive`을(를) 변경했습니다.
+* 및 선택적 `caseSensitive` 매개 변수를 포함하도록 `MetadataCondition`을(를) 변경했습니다.
 
-* 선택적 `PropertySet`을(를) `PermissionArray`(으)로 포함하도록 `permissions`을(를) 변경함
+* 선택적 `PermissionArray`을(를) `permissions`(으)로 포함하도록 `PropertySet`을(를) 변경함
 
-* 선택적 `UploadDirectoryJob`, `xmpKeywords` 및 `xmpTemplateId` 매개 변수를 포함하도록 `xmpTemplateOverride`을(를) 변경했습니다.
+* 선택적 `xmpKeywords`, `xmpTemplateId` 및 `xmpTemplateOverride` 매개 변수를 포함하도록 `UploadDirectoryJob`을(를) 변경했습니다.
 
-* 선택적 `VideoPublishJob`을(를) 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle`을(를) 포함하도록 `VideoPublishJob`을(를) 변경했습니다.
 
 **수정된 작업**
 
-* 선택적 `createAssetSet`을(를) 포함하도록 `thumbAssetHandle`을(를) 변경했습니다.
+* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createAssetSet`을(를) 변경했습니다.
 
-* 선택적 `createImageSet`을(를) 포함하도록 `thumbAssetHandle`을(를) 변경했습니다.
+* 선택적 `thumbAssetHandle`을(를) 포함하도록 `createImageSet`을(를) 변경했습니다.
 
-* 선택적 `createMetadataField` 매개 변수를 포함하도록 `initialTagValue`을(를) 변경했습니다.
+* 선택적 `initialTagValue` 매개 변수를 포함하도록 `createMetadataField`을(를) 변경했습니다.
 
-* 선택적 `createPropertySet`을(를) `PermissionUpdateArray`(으)로 포함하도록 `permissionArray`을(를) 변경함
+* 선택적 `PermissionUpdateArray`을(를) `permissionArray`(으)로 포함하도록 `createPropertySet`을(를) 변경함
 
-* 선택적 `getImageServingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageServingPublishSettings`을(를) 변경했습니다.
 
-* 선택적 `getImageRenderingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `getImageRenderingPublishSettings`을(를) 변경했습니다.
 
 * 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByFullText`을(를) 변경했습니다.
 
-   * `SearchFilter` 매개 변수로 `filters`
+   * `filters` 매개 변수로 `SearchFilter`
 
    * `sortBy`
    * `sortDirection`
 
 * 일련의 선택적 매개 변수를 포함하도록 `searchAssetsByMetadata`을(를) 변경했습니다.
 
-   * `SearchFilter` 매개 변수로 `filters`
+   * `filters` 매개 변수로 `SearchFilter`
 
    * `sortBy`
    * `sortDirection`
    * 7개 매개 변수의 `haystackSearch` 시퀀스
 
-* 선택적 `setAssetPublishState`을(를) `HandleArray`(으)로 포함하도록 `contextHandleArray`을(를) 변경함
+* 선택적 `HandleArray`을(를) `contextHandleArray`(으)로 포함하도록 `setAssetPublishState`을(를) 변경함
 
-* 선택적 `setImageServingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageServingPublishSettings`을(를) 변경했습니다.
 
-* 선택적 `setImageRenderingPublishSettings` 매개 변수를 포함하도록 `contextHandle`을(를) 변경했습니다.
+* 선택적 `contextHandle` 매개 변수를 포함하도록 `setImageRenderingPublishSettings`을(를) 변경했습니다.
 
-* 선택적 `submitJob` 작업 유형을 포함하도록 `createVideoSitemap`을(를) 변경했습니다.
+* 선택적 `createVideoSitemap` 작업 유형을 포함하도록 `submitJob`을(를) 변경했습니다.

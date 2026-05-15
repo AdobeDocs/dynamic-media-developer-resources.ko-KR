@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/tjiZfVTztBPgsIYS1SGtVeBxo0Wq1q8Ur-kq3Xtm6og'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: 202
 ht-degree: 3%
 
 ---
@@ -25,7 +33,7 @@ ht-degree: 3%
  </tr> 
 </table>
 
-이미지 및 텍스트 레이어가 있는 경우 `color=` 및 `rotate=`이(가) 적용되기 전에 `extend=`이(가) 지정된 색상*으로 레이어의 경계 사각형 내에 투명 영역과 반불투명 영역을 채웁니다.
+이미지 및 텍스트 레이어가 있는 경우 `rotate=` 및 `extend=`이(가) 적용되기 전에 `color=`이(가) 지정된 색상*으로 레이어의 경계 사각형 내에 투명 영역과 반불투명 영역을 채웁니다.
 
 ## 속성 {#section-d6e74c36a49547849212e4db8927e678}
 

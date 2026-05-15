@@ -5,9 +5,17 @@ title: 이미지 제공 HTTP 프로토콜 기본 구문
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
@@ -35,7 +43,7 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 수정자</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">명령|{$<span class="varname"> 매크로</span>$}|&lbrace;<span class="varname">개의 댓글</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">명령|{$<span class="varname"> 매크로</span>$}|&lbrace;.<span class="varname"> 댓글</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> 명령</span> </span> </p> </td> 
@@ -81,7 +89,7 @@ HTTP 프로토콜 기본 구문은 다음과 같습니다.
 
 ## 설명 {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-주석은 어디에서나 요청 문자열에 포함될 수 있으며 명령 separator(&amp;) 바로 다음에 마침표(.)로 식별됩니다. (인코딩되지 않은) 명령 구분 기호가 다음에 발생할 때 설명이 종료됩니다. 이 기능은 타임스탬프 및 데이터베이스 ID와 같이, 이미지 제공용으로 사용되지 않는 정보를 요청에 추가하는 데 사용할 수 있습니다.
+주석은 어디에나 요청 문자열에 포함될 수 있으며 마침표(.)로 식별됩니다. 구분 기호(&amp;) 바로 다음에 옵니다. (인코딩되지 않은) 명령 구분 기호가 다음에 발생할 때 설명이 종료됩니다. 이 기능은 타임스탬프 및 데이터베이스 ID와 같이, 이미지 제공용으로 사용되지 않는 정보를 요청에 추가하는 데 사용할 수 있습니다.
 
 ## 참조 {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

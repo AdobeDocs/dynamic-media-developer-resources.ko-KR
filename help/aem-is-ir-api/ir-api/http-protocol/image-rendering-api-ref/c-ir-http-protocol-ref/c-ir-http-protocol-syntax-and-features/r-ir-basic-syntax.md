@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/v-ucFAnnoq6ywaB97QSXodqnO4VWFvaK6I2HJ2-a4Fc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 227
 ht-degree: 0%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 요청</span> </p> </td> 
-   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> 비네팅</span> ] [ ?<span class="varname">개의 수정자</span> ] </p> </td> 
+   <td colname="col2"> <p>http://<span class="varname"> server</span>/ir/render[/<span class="varname"> 비네팅</span> ] [ ?<span class="varname"> 한정자</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> 서버 </span> </p> </td> 
@@ -79,7 +87,7 @@ ht-degree: 0%
 
 **댓글**
 
-주석은 어디에서나 요청 문자열에 포함될 수 있으며 명령 구분 기호(&amp;) 바로 뒤에 있는 마침표(.)로 식별됩니다. (인코딩되지 않은) 명령 구분 기호가 다음에 발생할 때 설명이 종료됩니다. 이 기능은 타임스탬프 및 데이터베이스 ID와 같이, 이미지 제공용이 아닌 정보를 요청에 추가하는 데 사용할 수 있습니다.
+주석은 어디에나 요청 문자열에 포함될 수 있으며 마침표(.)로 식별됩니다. 명령 구분 기호(&amp;)를 바로 뒤에 옵니다. (인코딩되지 않은) 명령 구분 기호가 다음에 발생할 때 설명이 종료됩니다. 이 기능은 타임스탬프 및 데이터베이스 ID와 같이, 이미지 제공용이 아닌 정보를 요청에 추가하는 데 사용할 수 있습니다.
 
 **HTTP 디코딩**
 

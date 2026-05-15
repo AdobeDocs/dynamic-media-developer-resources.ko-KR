@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/UyITy7WNd7wQzOa7UaS4xLgVfjnRwkws2sonnmbaVN0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 950
 ht-degree: 3%
 
 ---
@@ -166,7 +174,7 @@ URL 경로에 지정된 비네팅 파일 또는 카탈로그 항목의 선택한
 
 맵 데이터의 크기가 `wid=` 또는 `hei=`(으)로 조정되거나 수정되지 않았습니다. 응답 MIME 형식은 `<text/xml>`입니다.
 
-응답 데이터는 HTML `<map>` 태그와 유사한 `<area>` 요소 집합을 포함하는 `<AREA>` 요소로 구성됩니다.
+응답 데이터는 HTML `<AREA>` 태그와 유사한 `<area>` 요소 집합을 포함하는 `<map>` 요소로 구성됩니다.
 
 각 `<area>` 요소에는 표준 `type=` 및 `coord=` 특성과 비네팅 그룹 이름 또는 이름 경로를 지정하는 `name=` 특성이 포함되어 있습니다. 해당 개체 그룹의 마스크에 불연속 영역이 있는 경우 이름이 같은 여러 `<area>` 요소가 있습니다.
 
@@ -298,7 +306,7 @@ URL 경로에 지정된 비네팅 파일 또는 카탈로그 항목의 선택한
 
 `userdata`
 
-`vignette::UserData`의 내용을 반환합니다. 서버에서 `'??'`의 모든 `vignette::UserData`을(를) 줄 종결자(`<cr><lf>`)로 바꿉니다. 응답 MIME 유형이 &lt;text/plain>으로 설정된 텍스트 데이터로 응답의 형식이 지정됩니다.
+`vignette::UserData`의 내용을 반환합니다. 서버에서 `vignette::UserData`의 모든 `'??'`을(를) 줄 종결자(`<cr><lf>`)로 바꿉니다. 응답 MIME 유형이 &lt;text/plain>으로 설정된 텍스트 데이터로 응답의 형식이 지정됩니다.
 
 URL 경로에 지정된 개체가 유효한 비네팅 맵 항목으로 확인되지 않거나 `vignette::UserData`이(가) 비어 있는 경우 응답에는 줄 종결자(`CR/LF`)만 포함됩니다.
 

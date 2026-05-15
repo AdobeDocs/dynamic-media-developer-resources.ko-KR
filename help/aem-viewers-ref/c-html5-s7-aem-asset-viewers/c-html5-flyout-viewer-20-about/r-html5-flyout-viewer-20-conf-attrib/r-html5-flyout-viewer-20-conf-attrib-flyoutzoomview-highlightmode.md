@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/x43ipzx6iKOODZ10S8o8yJA9pg0Gl8mldfS5fEiVQJ4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: 258
 ht-degree: 1%
 
 ---
@@ -28,7 +36,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|무료 </span> </p> </td> 
-   <td colname="col2"> <p> 탐색 프레임 위치를 제어합니다. </p> <p><span class="codeph"> 이미지에 </span>(으)로 설정하면 기본 보기 내의 실제 이미지 영역 내에만 탐색 프레임을 배치할 수 있습니다. </p> <p><span class="codeph"> 사용 가능 </span>(으)로 설정하면 사용자가 이미지 컨텐츠 외부에서도 논리 기본 보기 영역의 아무 곳에나 탐색 프레임을 이동할 수 있습니다. </p> </td> 
+   <td colname="col2"> <p> 탐색 프레임 위치를 제어합니다. </p> <p></span> 이미지에 <span class="codeph">(으)로 설정하면 기본 보기 내의 실제 이미지 영역 내에만 탐색 프레임을 배치할 수 있습니다. </p> <p><span class="codeph"> 사용 가능 </span>(으)로 설정하면 사용자가 이미지 컨텐츠 외부에서도 논리 기본 보기 영역의 아무 곳에나 탐색 프레임을 이동할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

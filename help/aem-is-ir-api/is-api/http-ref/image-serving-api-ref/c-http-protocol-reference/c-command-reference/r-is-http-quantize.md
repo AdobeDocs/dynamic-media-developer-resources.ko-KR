@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/gQ4YOSwrnbp0uNqQzC-aexuXaU9DZwQHXz3PdfaTaV0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 237
 ht-degree: 1%
 
 ---
@@ -26,7 +34,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 디더 </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>디더링 옵션을 지정합니다. </p> <p>Floyd-Steinberg 오류 확산을 위해 <span class="codeph"> 확산 </span>(으)로 설정 </p> <p>디더링을 비활성화하려면 <span class="codeph">에서 </span>(으)로 설정하십시오.</p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffuse|off} </span> </p> <p>디더링 옵션을 지정합니다. </p> <p>Floyd-Steinberg 오류 확산을 위해 <span class="codeph"> 확산 </span>(으)로 설정 </p> <p>디더링을 비활성화하려면 </span>에서 <span class="codeph">(으)로 설정하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
@@ -43,7 +51,7 @@ ht-degree: 1%
 
 요청 속성입니다. 이 설정은 현재 레이어 설정에 관계없이 적용됩니다. `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` 또는 `fmt=png8-alpha`인 경우에만 사용됩니다. 그렇지 않으면 무시됩니다.
 
-*`colorList`*&#x200B;에 지정된 색상은 hex6 형식의 RGB 값으로 구성되어야 합니다([&#x200B; 접두사가 없는 &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md)color`0x` 참조). 다른 색상 지정자는 허용되지 않습니다. *`numColors`* 한정자는 2-256이어야 합니다.
+*`colorList`*&#x200B;에 지정된 색상은 hex6 형식의 RGB 값으로 구성되어야 합니다(`0x` 접두사가 없는 [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) 참조). 다른 색상 지정자는 허용되지 않습니다. *`numColors`* 한정자는 2-256이어야 합니다.
 
 ## 기본값 {#section-ca3e817617244e8798ccff67b2023a32}
 

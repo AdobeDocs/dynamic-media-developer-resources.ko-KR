@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/3Q3u7x6yK2HLZIXgl7assFjTQadj1L39A9oKPl2Y-7c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: 977
 ht-degree: 0%
 
 ---
@@ -123,7 +131,7 @@ SDK은 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 생성 중인 이 전체 페이지 뷰어의 경우 몇 가지 기본 스타일을 추가할 수 있습니다.
 
-   `style`의 아래쪽에 다음 `head` 블록을 추가하십시오.
+   `head`의 아래쪽에 다음 `style` 블록을 추가하십시오.
 
    ```html {.line-numbers}
    <style> 
@@ -148,7 +156,7 @@ SDK은 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
 
 1. 구성 요소 `Container` 및 `ZoomView`을(를) 포함하여 실제 뷰어를 만듭니다.
 
-   `include` 스크립트가 로드된 후 `<head>` 요소의 아래쪽에 다음 [!DNL Utils.js] 문을 삽입합니다.
+   [!DNL Utils.js] 스크립트가 로드된 후 `<head>` 요소의 아래쪽에 다음 `include` 문을 삽입합니다.
 
    ```javascript {.line-numbers}
    <!-- 
@@ -228,9 +236,9 @@ SDK은 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. `MediaSet` 함수 내에서 `Swatches` 및 `initViewer` 구성 요소를 인스턴스화합니다.
+1. `initViewer` 함수 내에서 `MediaSet` 및 `Swatches` 구성 요소를 인스턴스화합니다.
 
-   `Swatches` 및 `ZoomView` 구성 요소 뒤에 `Container` 인스턴스를 인스턴스화하십시오. 그렇지 않으면 스택 순서가 `Swatches`을(를) 숨깁니다.
+   `ZoomView` 및 `Container` 구성 요소 뒤에 `Swatches` 인스턴스를 인스턴스화하십시오. 그렇지 않으면 스택 순서가 `Swatches`을(를) 숨깁니다.
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -372,7 +380,7 @@ SDK은 뷰어 콘텐츠를 구성하는 UI 구성 요소로 구성됩니다. CSS
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. `s7swatches`에서 다음 `ZoomViewer.css` 규칙을 편집합니다.
+1. `ZoomViewer.css`에서 다음 `s7swatches` 규칙을 편집합니다.
 
    ```CSS {.line-numbers}
    .s7swatches { 

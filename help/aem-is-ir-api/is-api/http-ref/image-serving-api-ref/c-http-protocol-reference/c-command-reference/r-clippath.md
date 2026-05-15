@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/K4w8R8Ke-0GXFdhfpxgAcltyN3icVsJJdRGfx1OiSjg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: 556
 ht-degree: 0%
 
 ---
@@ -49,7 +57,7 @@ ht-degree: 0%
 >
 >`scale=`, `rotate=` 및 `anchor=` 명령은 자체 크기 조정 단색 레이어에 허용되지 않습니다.
 
-`*`pathDefinition`*`에서는 값을 구분하기 위해 공백 대신 쉼표를 사용한다는 점을 제외하고 SVG `d=` 요소의 `<path>` 특성 값과 유사한 문자열을 사용할 수 있습니다. `*`pathDefinition`*`에는 하나 이상의 닫힌 루프 하위 경로가 포함될 수 있습니다.
+`*`pathDefinition`*`에서는 값을 구분하기 위해 공백 대신 쉼표를 사용한다는 점을 제외하고 SVG `<path>` 요소의 `d=` 특성 값과 유사한 문자열을 사용할 수 있습니다. `*`pathDefinition`*`에는 하나 이상의 닫힌 루프 하위 경로가 포함될 수 있습니다.
 
 `*`pathDefinition`*`에서는 다음 경로 명령이 지원됩니다.
 
@@ -83,7 +91,7 @@ ht-degree: 0%
   <tr valign="top"> 
    <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 
    <td> <p> 절대 곡선화 </p> </td> 
-   <td> <p> 현재 위치에서 x,y로 베지어 곡선을 그립니다. x1,y1은 곡선 시작 부분의 제어점이고 x2,y2는 곡선 끝 부분의 제어점입니다. </p> </td> 
+   <td> <p> 현재 위치에서 x,y까지 베지어 곡선을 그립니다. x1,y1은 커브 시작 부분의 제어점이고 x2,y2는 커브 끝 부분의 제어점입니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span>} </td> 

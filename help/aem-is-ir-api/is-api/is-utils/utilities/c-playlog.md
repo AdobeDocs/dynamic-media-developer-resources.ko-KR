@@ -5,9 +5,17 @@ title: '''playlog'' 유틸리티'
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e0213978-3a1d-44b4-82bf-4527b980b29e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/z8SkpY0A2aAo5ULL61m5uUiesuovSrcVjhzNRGbkAUQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: 437
 ht-degree: 0%
 
 ---
@@ -47,7 +55,7 @@ ht-degree: 0%
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -x <span class="varname"> 접미사 </span> </span> </p> </td> 
-  <td class="stentry"> <p>로그 파일에서 추출된 요청에 추가할 접미사. 로그 파일의 라이브 요청에서 재생 요청을 구분하는 데 사용할 수 있습니다. '?' 또는 '&amp;' 구분 기호가 자동으로 삽입됩니다. 접미사는 중괄호 내의 위치별로 모든 로그 필드를 참조할 수 있으며 기본값은 md5 서명 필드에 해당합니다. </p> <p>기본값: <span class="codeph"> 플레이로그={25} </span>) </p> </td> 
+  <td class="stentry"> <p>로그 파일에서 추출된 요청에 추가할 접미사, 로그 파일의 라이브 요청에서 재생 요청을 구분하는 데 사용할 수 있음, '?' 또는 '&amp;' 구분 기호가 자동으로 삽입됨, 접미사는 중괄호 내의 위치별로 모든 로그 필드를 참조할 수 있으며 기본적으로 md5 서명 필드에 해당합니다. </p> <p>기본값: <span class="codeph"> 플레이로그={25} </span>) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -v </span> </p> </td> 

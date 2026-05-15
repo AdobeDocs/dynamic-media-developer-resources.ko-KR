@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d26b797-5099-49fb-b7e0-46747f35ab84
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/1-o3GqgzwvPYV8UDBuZu5udOiG-p8Tue3Fo-ft8-QhI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -30,6 +38,6 @@ ht-degree: 0%
 
 명령 값의 앞과 뒤에 있는 변수 이름(`$`)을 포함하여 변수를 참조합니다. 예를 들어 명령 이름 다음에 오는 `=`과(와) 후속 `&` 또는 요청 끝 사이에 있을 수 있습니다. 서버는 이러한 각 `$ [!DNL name]$` 항목을 `[!DNL string]`(으)로 대체합니다. 명령 이름(명령의 등호 앞) 및 요청의 경로 부분에서 `$ [!DNL name]$`의 발생 항목에 대체가 발생하지 않습니다.
 
-사용자 지정 변수는 중첩되지 않을 수 있습니다. `$ [!DNL name]$` 내의 모든 `[!DNL string]` 항목은 대체되지 않습니다. 예를 들어 요청 조각 `$var2=apple&$var1=my$var2$tree&text=$var1$`은(는) `text=my$var2$tree`(으)로 확인됩니다.
+사용자 지정 변수는 중첩되지 않을 수 있습니다. `[!DNL string]` 내의 모든 `$ [!DNL name]$` 항목은 대체되지 않습니다. 예를 들어 요청 조각 `$var2=apple&$var1=my$var2$tree&text=$var1$`은(는) `text=my$var2$tree`(으)로 확인됩니다.
 
-`$`은(는) 예약된 문자가 아닙니다. 요청에서 다른 문자가 발생할 수 있습니다. 예를 들어 `src=my$texture$file.tif`에 숫자 인수가 필요하므로 `[!DNL my$texture$file.tif]`은(는) 올바른 명령이지만 `wid=$number$`(이)라는 재질 카탈로그 항목 또는 텍스처 파일이 있다고 가정할 경우 `wid=`은(는) 그렇지 않습니다.
+`$`은(는) 예약된 문자가 아닙니다. 요청에서 다른 문자가 발생할 수 있습니다. 예를 들어 `wid=`에 숫자 인수가 필요하므로 `src=my$texture$file.tif`은(는) 올바른 명령이지만 `[!DNL my$texture$file.tif]`(이)라는 재질 카탈로그 항목 또는 텍스처 파일이 있다고 가정할 경우 `wid=$number$`은(는) 그렇지 않습니다.

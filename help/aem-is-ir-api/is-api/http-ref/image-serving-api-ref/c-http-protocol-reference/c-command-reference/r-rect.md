@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/v-sAA1KXCiZvFp6NATVZtxYxnQCji3YJZCFa-hcHQYA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 366
 ht-degree: 1%
 
 ---
@@ -65,7 +73,7 @@ ht-degree: 1%
 
 보기 이미지 외부로 확장되는 ROI 영역에 `bgc=`(으)로 패딩됩니다.
 
-중요 `rect=`이(가) *,*, `scl=`, `wid=`, `hei=` 및 `fit=`과(와) 함께 최종 크기 조정 및 피팅에 `rgn=`after`align=`적용됩니다.
+중요 `rect=`이(가) `scl=`, `wid=`, `hei=`, `fit=`, `rgn=` 및 `align=`과(와) 함께 최종 크기 조정 및 피팅에 *after*&#x200B;적용됩니다.
 
 ## 기본값 {#section-b296d3bbfb19441f87137a452b70f19a}
 

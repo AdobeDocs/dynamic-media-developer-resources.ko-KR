@@ -5,9 +5,17 @@ title: 사용자 인터페이스 요소의 현지화
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/k-ToJzA2bXCcIYGLiXJtPFESV9Bl-HrVhky1nSfmVao'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1080
 ht-degree: 0%
 
 ---
@@ -177,7 +185,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>다른 이메일 주소 추가 단추. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">에서 </span> EmailShare.FROM </p> </td> 
+   <td colname="col1"> <p> </span>에서 <span class="codeph"> EmailShare.FROM </p> </td> 
    <td colname="col2"> <p>입력 필드에서. </p> </td> 
   </tr> 
   <tr> 
@@ -321,7 +329,7 @@ defaultLocale:"en"
    <td colname="col2"> <p>"현재 페이지" 라디오 단추의 캡션 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">에서 </span> Print.PRINT_RANGE_FROM </p> </td> 
+   <td colname="col1"> <p> </span>에서 <span class="codeph"> Print.PRINT_RANGE_FROM </p> </td> 
    <td colname="col2"> <p>라디오 단추에서 범위 분산 캡션입니다. </p> </td> 
   </tr> 
   <tr> 

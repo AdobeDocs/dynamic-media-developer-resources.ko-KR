@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-PushPHP2ZvNu2IFmB-1akxSvlXtDvxStXgFTAw1t-w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 444
 ht-degree: 1%
 
 ---
@@ -99,7 +107,7 @@ ht-degree: 1%
 
 ## 속성 {#section-e68d03788d534e2184147987d51dfd0f}
 
-재질 속성입니다. 단색을 제외한 모든 재료에 필요합니다(단색 재료에는 허용되지 않음). 모든 문자열은 대소문자를 구분합니다. *`index`*&#x200B;은(는) 0 이상이어야 합니다.
+재질 속성입니다. 단색을 제외한 모든 재료에 필요합니다(단색 재료에는 허용되지 않음). 모든 문자열은 대소문자를 구분합니다. *`index`* 0보다 크거나 같아야 합니다.
 
 ## 기본값 {#section-dde549c1917540dc8f9555962202da3c}
 
@@ -111,7 +119,7 @@ MSS는 별도의 반복 가능한 텍스처가 있는 색상화된 캐비닛을 
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-&#39;`'cat`&#39; 레코드의 재질 카탈로그 `12-3-2`&#39;에 동일한 자료가 있을 수 있습니다.
+&#39;`12-3-2`&#39; 레코드의 재질 카탈로그 `'cat`&#39;에 동일한 자료가 있을 수 있습니다.
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 

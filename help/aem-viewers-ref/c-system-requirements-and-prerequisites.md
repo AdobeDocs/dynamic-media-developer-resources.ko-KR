@@ -6,10 +6,21 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tPpOrJ26zb4wztdD5XE6ErLB-6D1IZPO4MSaumdUevY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: 360
+ht-degree: 0%
 
 ---
 
@@ -36,10 +47,10 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
 **구성 요소 뷰어에 대한 클라이언트 브라우저 최소 요구 사항:**
 
 * 다음 운영 체제 버전 이상에서 지원됩니다.
-   * Microsoft® Windows® 7
+   * ® Windows® 7
    * macOS x 10.12
 * 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
-   * Android™ OS 4.x
+   * ™ OS 4.x
    * BlackBerry® 10(기본 브라우저) 비디오 재생만 지원됩니다.
    * Chrome
    * Edge
@@ -48,31 +59,31 @@ Dynamic Media HTML5 뷰어에 대한 시스템 요구 사항입니다.
    * iOS
    * iPad 2(Safari 및 Chrome 브라우저만 해당)
    * iPhone
-   * Safari 11
+   * Safar 11
 * 모바일 장치의 Internet Explorer는 지원되지 않습니다.
 * *PanoramicViewer*&#x200B;는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
-   * Android™ 4.4(전화 장치만 해당)
+   * ™ 4.4(전화 장치만 해당)
    * Chrome
    * Edge
    * 파이어폭스
    * Internet Explorer 11
    * iOS 10
-   * Safari 11
+   * Safar 11
 * *Video360Viewer* 및 *DimensionalViewer*&#x200B;은(는) 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
-   * Android™ 5(전화 장치만 해당)
+   * ™ 5(전화 장치만 해당)
    * Chrome
    * Edge
    * 파이어폭스
    * iOS 12
-   * Safari 12
+   * 사파리 12
 * *ZoomVerticalViewer*&#x200B;는 다음 브라우저/플랫폼 버전 이상에서 지원됩니다.
-   * Android™ 4.x
+   * ™ 4.x
    * Chrome
    * Edge
    * 파이어폭스
    * Internet Explorer 11
    * iOS 10
-   * Safari 11
+   * Safar 11
 
 ## TLS 1.0 및 1.1 지원 종료 {#tls}
 

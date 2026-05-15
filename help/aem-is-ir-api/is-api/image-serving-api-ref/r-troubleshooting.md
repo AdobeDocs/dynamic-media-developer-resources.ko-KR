@@ -5,9 +5,19 @@ title: 문제 해결
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/4m5oktRjrVv4Ro3e74fNYBgsxWfl0t7XOrGtNnCq334'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: 525
 ht-degree: 0%
 
 ---
@@ -31,7 +41,7 @@ ht-degree: 0%
 * [!DNL ImageServerRegistry.xml]에서 실제 메모리 설정을 확인하십시오. 메모리 집약적인 다른 응용 프로그램이 동일한 시스템에서 실행 중인 경우 50% 미만이어야 합니다. 기본값은 20%입니다.
 * 서버의 스왑 공간이 실제 RAM의 두 배 이상인지 확인하십시오. 스왑 공간이 부족하면 이 문제가 발생할 수 있습니다.
 
-**캐시 폴더에서 사용하는 실제 디스크 공간이 ` *[!DNL cache.maxSize]*`에 설정된[!DNL PlatformServer.conf]**&#x200B;을(를) 초과합니다.
+**캐시 폴더에서 사용하는 실제 디스크 공간이[!DNL PlatformServer.conf]**&#x200B;에 설정된 ` *[!DNL cache.maxSize]*`을(를) 초과합니다.
 
 이는 문제를 나타내지는 않습니다. 파일 시스템 오버헤드가 [!DNL Platform Server]의 디스크 캐시 설정에 포함되어 있지 않습니다. 시스템에 의해 보고된 총 양은 설정보다 실질적으로 많을 수 있다. ` *[!DNL cache.maxSize]*`에 지정된 디스크 공간의 두 배를 예약하는 것이 좋습니다.
 

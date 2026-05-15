@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '3029'
+source-wordcount: 3093
 ht-degree: 0%
 
 ---
@@ -1211,7 +1219,7 @@ background-color: #ffffff;
 
 >[!NOTE]
 >
->이 메시지는 가능한 값 `state`, `verifyerror` 및 `senderror`을(를) 가진 `sendsuccess` 특성 선택기를 지원합니다. 인라인 입력 유효성 검사 오류로 인해 메시지가 표시되면 값 `verifyerror`이(가) 설정됩니다. 백 엔드 전자 메일 서비스에서 오류를 보고할 때 값 `senderror`이(가) 설정됩니다. 전자 메일이 전송되면 `sendsuccess` 값이 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지 스타일을 다르게 지정할 수 있습니다.
+>이 메시지는 가능한 값 `verifyerror`, `senderror` 및 `sendsuccess`을(를) 가진 `state` 특성 선택기를 지원합니다. 인라인 입력 유효성 검사 오류로 인해 메시지가 표시되면 값 `verifyerror`이(가) 설정됩니다. 백 엔드 전자 메일 서비스에서 오류를 보고할 때 값 `senderror`이(가) 설정됩니다. 전자 메일이 전송되면 `sendsuccess` 값이 설정됩니다. 이렇게 하면 대화 상자 상태에 따라 메시지 스타일을 다르게 지정할 수 있습니다.
 
 오류 메시지는 현지화할 수 있습니다. 자세한 내용은 [사용자 인터페이스 요소의 지역화](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad)를 참조하십시오.
 

@@ -5,9 +5,17 @@ title: DefaultExpiration
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99103681-c00c-4648-8dee-2314e7e614af
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/v-wtXCBtpHpf9mTjoQ58GZ9eXq-yR2tpGT0Kd-DTyNI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 1%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 1%
 
 ## 속성 {#section-e564512476604fd7b964f9f2903d6d33}
 
-실수, 0 이상. 회신 데이터가 생성된 이후 만료까지 남은 시간 수. 응답 이미지를 항상 즉시 만료하려면 0으로 설정하면 기본 이미지 응답에 대한 클라이언트 캐싱이 효과적으로 비활성화됩니다. `-1`(으)로 표시하려면 `never expire`(으)로 설정합니다.
+실수, 0 이상. 회신 데이터가 생성된 이후 만료까지 남은 시간 수. 응답 이미지를 항상 즉시 만료하려면 0으로 설정하면 기본 이미지 응답에 대한 클라이언트 캐싱이 효과적으로 비활성화됩니다. `never expire`(으)로 표시하려면 `-1`(으)로 설정합니다.
 
 ## 기본값 {#section-131cd32c2e214391857dba5af321f8cd}
 

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/TZi2AdS9MK2A2WtCCJMmMRvwZ70Kdt2aeHOP--QtA4U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 1061
 ht-degree: 2%
 
 ---
@@ -18,7 +26,7 @@ ht-degree: 2%
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - 아비프-알파 | avif | eps | f4m | gif-alpha | gif | 높이 | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf 알파 | swf | swf3-alpha | swf3 | tif-alpha | tif | 웹 알파 | webp
+*`format`* - 아비프-알파 | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-알파 | swf | swf3-alpha | swf3 | tif-alpha | tif | 웹 알파 | webp
 
 | *`format`* | 설명 |
 |---|---|
@@ -71,13 +79,13 @@ ht-degree: 2%
 | `zip` | &quot;수축&quot; 압축(무손실). |
 
 * *`format`*&#x200B;은(는) 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
-* *`pixelType`*&#x200B;이(가) 지정되지 않은 경우 `icc=`을(를) 사용하여 출력 색상 공간 변환을 수행할 수 있습니다.
+* `icc=`이(가) 지정되지 않은 경우 *`pixelType`*&#x200B;을(를) 사용하여 출력 색상 공간 변환을 수행할 수 있습니다.
 
-  *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 유형을 결정하는 *`pixelType`*&#x200B;을(를) 지정하면 `icc=`이(가) 무시됩니다.
+  *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 유형을 결정하는 `icc=`을(를) 지정하면 *`pixelType`*&#x200B;이(가) 무시됩니다.
 
 * *`compression`*&#x200B;은(는) `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` 또는 `jpegxr-alpha`이(가) *`format`*(으)로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
-`qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용하는 TIFF, JPEG 압축을 사용하는 PDF 및 SWF 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. WebP, JPEG 2000 및 JPEG XR도 `qlt=`을(를) 사용하지만 그 결과 서로 다른 형식에 대해 다른 품질을 제공합니다. `quantize=` 또는 `fmt=gif`인 경우 `fmt=gif-alpha`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
+`qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용하는 TIFF, JPEG 압축을 사용하는 PDF 및 SWF 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. WebP, JPEG 2000 및 JPEG XR도 `qlt=`을(를) 사용하지만 그 결과 서로 다른 형식에 대해 다른 품질을 제공합니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 *`formats`* 및 *`pixelTypes`*&#x200B;에 대해 픽셀당 8비트(GIF의 경우 픽셀당 8비트)가 반환됩니다.
 
@@ -148,7 +156,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> </span> 압축 <span class="codeph"> <span class="varname">이(가) </span> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> <span class="varname"> 압축 </span> </span>이(가) <span class="codeph"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -176,7 +184,7 @@ ht-degree: 2%
    <td colname="col2"> <p>rgb, 회색, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>예 </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만 해당. 'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> 압축 </span>이(가) <span class="varname"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> 압축 </span> </span> <p> ( <span class="codeph"> 없음|lzw|zip|jpeg </span>) </p> <p>'tiff'만 해당. 'tiff-alpha'는 jpeg 압축을 지원하지 않습니다. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="varname"> 압축 </span>이(가) <span class="codeph"> jpeg </span>(으)로 설정되지 않은 경우 <span class="codeph"> qlt= </span>이(가) 무시됩니다. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
@@ -192,11 +200,11 @@ ht-degree: 2%
 
 요청 속성입니다. `req=img`(기본값) 또는 `req=mask`인 경우 현재 레이어 설정에 관계없이 적용되고, 그렇지 않은 경우에는 무시됩니다.
 
-*`type`*&#x200B;이(가) 지정된 경우 `iccProfile=`이(가) 무시됩니다.
+`iccProfile=`이(가) 지정된 경우 *`type`*&#x200B;이(가) 무시됩니다.
 
 ## 기본값 {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`. 여기서 *`defaultType`*&#x200B;은(는) 다음과 같이 처리됩니다. `icc=`이(가) 지정된 경우 *`defaultType`*&#x200B;은(는) 지정된 ICC 프로필의 픽셀 유형에 해당합니다. `icc=`이(가) 지정되지 않은 경우 *`defaultType`*&#x200B;은(는) `gray`인 경우 `req=mask`이고, 그렇지 않은 경우 `rgb`입니다.
+` fmt=jpeg, *`defaultType`*,none`. 여기서 *`defaultType`*&#x200B;은(는) 다음과 같이 처리됩니다. `icc=`이(가) 지정된 경우 *`defaultType`*&#x200B;은(는) 지정된 ICC 프로필의 픽셀 유형에 해당합니다. `icc=`이(가) 지정되지 않은 경우 *`defaultType`*&#x200B;은(는) `req=mask`인 경우 `gray`이고, 그렇지 않은 경우 `rgb`입니다.
 
 ## 예제 {#section-b93222e652df404a84c69025247f07df}
 

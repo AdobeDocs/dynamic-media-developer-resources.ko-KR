@@ -5,9 +5,17 @@ title: 타겟
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/kP22kltIPZqErqxNKpYp2eNkII-GdYQQeiVH3wEYOvM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: 331
 ht-degree: 1%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 1%
 
 확대/축소 대상 데이터. 확대/축소 뷰어 클라이언트와 함께 사용할 수 있는 확대/축소 대상 속성이 하나 이상 없습니다.
 
-서버에서 &#39;`req=targets`&#39; 레코드 종결자 토큰을 바꾼 후 `??`에 대한 응답으로 이 필드의 내용을 반환합니다.
+서버에서 &#39;`??`&#39; 레코드 종결자 토큰을 바꾼 후 `req=targets`에 대한 응답으로 이 필드의 내용을 반환합니다.
 
 각 확대/축소 대상에는 최대 4개의 속성이 연관될 수 있습니다.
 
@@ -57,7 +65,7 @@ ht-degree: 1%
 
 타겟. *`num`*.rect는 각 확대/축소 대상에 필요하며 이미지 내에 사각형을 완전히 지정해야 합니다. 다른 모든 속성은 선택 사항입니다.
 
-*`label`* 및 *`userData`*&#x200B;이(가) 텍스트 문자열 로컬라이제이션에 참여합니다. 자세한 내용은 [HTTP 프로토콜 참조](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)의 *텍스트 문자열 지역화*&#x200B;를 참조하십시오.
+*`label`* 및 *`userData`*&#x200B;이(가) 텍스트 문자열 로컬라이제이션에 참여합니다. 자세한 내용은 *HTTP 프로토콜 참조*&#x200B;의 [텍스트 문자열 지역화](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)를 참조하십시오.
 
 회전 및 브로셔 뷰어 클라이언트와 관련된 애플리케이션의 경우 이미지 세트를 정의하는 동일한 카탈로그 레코드에서 확대/축소 대상을 정의해야 합니다. 이미지 집합 멤버의 카탈로그 레코드에 있는 확대/축소 대상 정의는 뷰어에서 무시됩니다.
 

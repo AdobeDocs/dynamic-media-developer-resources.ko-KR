@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6df94fe7-30ea-42f1-a39e-50219259a098
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/IqYyA0CUeENnFYkZ4JLccu--zLHlAOXt7Dhx5gsqZb8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 139
 ht-degree: 2%
 
 ---
@@ -23,7 +31,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 자동|점진적</span> </p> </td> 
-   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. <span class="codeph"> auto</span>이(가) 설정되면 대부분의 데스크톱 브라우저와 모든 iOS 장치에서 뷰어는 HTML5 스트리밍 비디오를 HLS 형식으로 사용합니다. 이전 Internet Explorer 및 Android™과 같은 특정 시스템에서 점진적 HTML5 재생으로 후퇴합니다. </p> <p><span class="codeph"> progressive</span>이(가) 지정된 경우 뷰어는 브라우저에서 기본적으로 지원하는 HTML5 재생에만 의존하며 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드에서 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서 를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 뷰어에서 사용하는 재생 유형을 설정합니다. <span class="codeph"> auto</span>이(가) 설정되면 대부분의 데스크톱 브라우저와 모든 iOS 장치에서 뷰어는 HTML5 스트리밍 비디오를 HLS 형식으로 사용합니다. 이전 Internet Explorer 및 ™과 같은 특정 시스템에서 점진적 HTML5 재생으로 후퇴합니다. </p> <p><span class="codeph"> progressive</span>이(가) 지정된 경우 뷰어는 브라우저에서 기본적으로 지원하는 HTML5 재생에만 의존하며 모든 시스템에서 점진적으로 비디오를 재생합니다. </p> <p>자동 및 점진적 모드에서 재생 선택에 대한 자세한 내용은 뷰어 SDK 사용 안내서 를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -32,8 +40,8 @@ ht-degree: 2%
 
 선택적.
 
-뷰어가 외부 비디오로 작동하는 경우 무시됩니다. [외부 비디오 지원]을 참조하세요.
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+뷰어가 외부 비디오로 작동하는 경우 무시됩니다. [외부 비디오 지원 보기]
+(#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

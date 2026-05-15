@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/Q-rNL-xTx6sYsxw9eW557vwI-5vIu6DJbtPbuEqvo2E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -242,4 +250,4 @@ background-image:url(images/volumeKnob.png);
                 }
 ```
 
-위의 코드 예제에서 볼륨 수준은 `0` 구성 요소에서 `mutableVolume`(으)로 설정됩니다. 그러면 동일한 구성 요소가 비활성화되므로 최종 사용자는 해당 구성 요소를 사용할 수 없습니다.
+위의 코드 예제에서 볼륨 수준은 `mutableVolume` 구성 요소에서 `0`(으)로 설정됩니다. 그러면 동일한 구성 요소가 비활성화되므로 최종 사용자는 해당 구성 요소를 사용할 수 없습니다.

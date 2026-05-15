@@ -5,10 +5,18 @@ title: ControlBar.transition
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2e08a62b-9499-41f8-927b-89bed972b4eb
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/bcpeaqLRZ8ClN2OulOfO9ujXzz44Yb2HTmy-GyPQ8mU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 1%
+source-wordcount: 121
+ht-degree: 2%
 
 ---
 
@@ -20,7 +28,7 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 없음|페이드 </span> </p> </td> 
-   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. 즉시 표시하거나 숨기려면 <span class="codeph"> 없음 </span>을(를) 사용하고, <span class="codeph"> 페이드 인/페이드 아웃 효과를 점진적으로 제공합니다(Internet Explorer 8에서는 지원되지 않음).</span> </p> </td> 
+   <td colname="col2"> <p> 컨트롤 막대 및 해당 내용을 표시하거나 숨기는 데 사용할 효과 유형을 지정합니다. 즉시 표시하거나 숨기려면 <span class="codeph"> 없음 </span>을(를) 사용하고, <span class="codeph"> 페이드 인/페이드 아웃 효과를 점진적으로 제공합니다(Internet Explorer 8에서는 지원되지 않음). </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 지연 숨기기 </span> </span> </p> </td> 
@@ -35,7 +43,7 @@ ht-degree: 1%
 
 ## 속성 {#section-f42369774e2740dcb399626a0e4e930e}
 
-선택 사항입니다. 이 명령은 컨트롤 막대 자동 숨기기가 비활성화된 터치 장치에서는 무시됩니다.
+선택적. 이 명령은 컨트롤 막대 자동 숨기기가 비활성화된 터치 장치에서는 무시됩니다.
 
 ## 기본값 {#section-d016470e92a74f98a18c4ab3489410a5}
 

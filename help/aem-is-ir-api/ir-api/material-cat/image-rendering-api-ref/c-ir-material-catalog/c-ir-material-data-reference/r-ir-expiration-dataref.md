@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
 TQID: 'https://experienceleague.adobe.com/dFnSsD8mmC0aPefS3Z0GujF1A-p1nCQyiNpzMXxOBEQ'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 1%
@@ -26,7 +22,7 @@ ht-degree: 1%
 
 서버는 전송 시간/날짜에 이 값을 더하여 NTTP 응답 데이터의 만료 시간/날짜를 계산한다.
 
-브라우저는 파일의 만료 시간을 사용하여 캐시를 관리합니다. 서버에 요청을 전달하기 전에 브라우저는 해당 캐시를 확인하여 파일이 이미 다운로드되었는지 확인합니다. 이 경우 파일이 아직 만료되지 않은 경우 브라우저는 일반적인 GET 요청이 아닌 조건부 GET 요청(예: If-Modified-Since HTTP 요청 헤더 사용)을 보냅니다. 서버는 &#39;304&#39; 상태로 응답하고 이미지를 전송하지 않는 옵션이 있습니다. 그러면 브라우저가 해당 캐시에서 파일을 로드합니다. 이로 인해 자주 액세스하는 데이터에 대한 전반적인 성능이 크게 향상될 수 있습니다.
+브라우저는 파일의 만료 시간을 사용하여 캐시를 관리합니다. 서버에 요청을 전달하기 전에 브라우저는 해당 캐시를 확인하여 파일이 이미 다운로드되었는지 확인합니다. 이 경우 파일이 아직 만료되지 않은 경우 브라우저는 일반적인 GET 요청이 아닌 조건부 GET 요청(예: If-Modified-Since HTTP 요청 헤더 사용)을 전송합니다. 서버는 &#39;304&#39; 상태로 응답하고 이미지를 전송하지 않는 옵션이 있습니다. 그러면 브라우저가 해당 캐시에서 파일을 로드합니다. 이로 인해 자주 액세스하는 데이터에 대한 전반적인 성능이 크게 향상될 수 있습니다.
 
 서버는 만료 HTTP 응답 헤더를 현재 날짜/시간에 렌더링 작업에 포함된 비네팅 및 모든 자료에 대한 가장 작은 비네팅::Expiration 및 모든 카탈로그::Expiration 값을 더한 값으로 설정합니다.
 
@@ -43,3 +39,4 @@ ht-degree: 1%
 ## 참조 {#section-9d46a9d346fe42f3911edb3bd79f4121}
 
 [특성::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-expiration.md#reference-0f68ad8199c64bd4bc8d27dd78b7d996) , [비네팅::Expiration](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-expiration-vignette.md#reference-df80829da93e4c0ab3f97a1792d9c74c), [req=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb)
+

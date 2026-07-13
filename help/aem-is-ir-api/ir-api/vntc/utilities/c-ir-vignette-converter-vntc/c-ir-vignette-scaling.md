@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f9f92254-41d8-4d22-a168-78b49dd55478
 TQID: 'https://experienceleague.adobe.com/wyDLZwxCnjFWoMtnYBHVDONCy551mbAruNRRuqrEaGE'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 345
 ht-degree: 0%
@@ -46,3 +42,4 @@ ht-degree: 0%
 `-pyramid`을(를) 지정하여 피라미드형 비네팅을 만듭니다. 이러한 비네팅의 최대 해상도 레벨은 단일 해상도 비네팅에 대한 것과 정확히 동일하게 결정된다. 추가 해상도 수준은 각 수준을 이전 수준의 0.5배 크기로 조정하여 자동으로 결정되며, 가장 작은 수준은 128x128픽셀을 초과하지 않습니다.
 
 다중 해상도 비네팅의 경우와 마찬가지로 피라미드 비네팅에 대해서도 추가적인 해상도 레벨을 지정할 수 있다.
+

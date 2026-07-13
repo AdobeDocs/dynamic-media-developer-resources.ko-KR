@@ -6,17 +6,11 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
 TQID: 'https://experienceleague.adobe.com/t9zGehwMxhHq1HrP3mmNGvkthmqYxX2ijeyihn5OEWI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 163
 ht-degree: 0%
@@ -39,3 +33,4 @@ ht-degree: 0%
 이미지 렌더링 설치 폴더(*[!DNL install_folder]*)는 [!DNL *[!DNL install_root]*/ImageRendering]입니다. Windows에서 기본 *[!DNL install_root]*&#x200B;은(는) `C:\Program Files\Scene7`입니다. 설치하는 동안 다른 폴더를 지정할 수 있습니다. Linux에서 *[!DNL install_root]*&#x200B;은(는) 항상 [!DNL /usr/local/scene7]이어야 합니다. 심볼 링크를 사용할 수 있습니다.
 
 모든 파일 경로는 UNIX에서는 대/소문자를 구분하고 Windows에서는 대/소문자를 구분하지 않습니다.
+

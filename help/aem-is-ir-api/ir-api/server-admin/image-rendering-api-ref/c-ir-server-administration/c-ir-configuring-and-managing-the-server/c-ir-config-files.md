@@ -6,17 +6,11 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 44ffebae-4933-455b-a902-4f6e7bb69184
 TQID: 'https://experienceleague.adobe.com/KTBXtuSOstPMi7bPQg70jyUVCqcXlLiLPiFFhyp9iFg'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 0%
@@ -30,3 +24,4 @@ ht-degree: 0%
 플랫폼 서버 구성 파일은 [!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]에 있습니다. 이 파일은 JAVA 속성 파일입니다. 적절한 규칙을 따르도록 주의해야 합니다. 그렇지 않으면 [!DNL Platform Server]을(를) 시작하지 못할 수 있습니다. Windows 파일 경로에서는 단순 백슬래시(\) 대신 이중 백슬래시(`\\`) 또는 단일 슬래시(/)를 사용해야 합니다. 백슬래시가 이러한 유형의 파일에서 이스케이프 문자로 사용되기 때문입니다. 파일에 내부 서버 용이며 수정해서는 안 되는 문서화되지 않은 속성이 있습니다.
 
 모든 이미지 렌더링 구성 설정 목록은 [구성 설정 참조](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81)를 참조하십시오.
+

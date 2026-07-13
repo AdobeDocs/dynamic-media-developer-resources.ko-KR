@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4ece9738-45e0-43c0-ba1c-2a05ef1f39be
 TQID: 'https://experienceleague.adobe.com/dt-baBh9jAyJdjqopFR3AoqRvz5zqLzi8B3SnE04xEs'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 0%
@@ -48,3 +44,4 @@ ht-degree: 0%
 중첩된 요청의 결과 이미지에 마스크(알파) 데이터가 포함되어 있으면 항상 자료에 전달됩니다. 단색 배경 이미지 레이어를 사용하여 원하지 않는 알파를 방지합니다.
 
 포함된 IS 요청의 이미지 결과는 `cache=on`을(를) 포함하여 선택적으로 캐시할 수 있습니다. 기본적으로 중간 데이터의 캐싱은 비활성화되어 있습니다. 적절한 기간 내에 중간 이미지를 다른 요청에서 재사용하는 경우에만 캐싱을 활성화해야 합니다. 표준 서버측 캐시 관리가 적용됩니다. 데이터는 무손실 형식으로 캐시됩니다.
+

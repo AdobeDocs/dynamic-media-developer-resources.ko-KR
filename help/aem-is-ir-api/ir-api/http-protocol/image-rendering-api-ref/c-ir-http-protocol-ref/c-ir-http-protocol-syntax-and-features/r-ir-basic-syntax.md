@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
 TQID: 'https://experienceleague.adobe.com/v-ucFAnnoq6ywaB97QSXodqnO4VWFvaK6I2HJ2-a4Fc'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 227
 ht-degree: 0%
@@ -92,3 +88,4 @@ ht-degree: 0%
 **HTTP 디코딩**
 
 이미지 렌더링은 먼저 들어오는 요청에서 *`object`* 및 *`modifiers`*&#x200B;을(를) 추출합니다. 그런 다음 *`object`*&#x200B;은(는) 개별적으로 HTTP 디코딩되는 경로 요소로 분리됩니다. *`modifiers`* 문자열은 *`command`*= *`value`* 쌍으로 분리되며, *`value`*&#x200B;은(는) 명령별 처리 전에 HTTP 디코딩됩니다.
+

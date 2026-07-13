@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media 뷰어 참조 안내서
 feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 맞춤화하십시오. 대화형 이미지 및 비디오, 회전 메뉴, 스핀 세트 등을 포함합니다.
 nudge: true
-source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 1%
@@ -1013,4 +1013,4 @@ ht-degree: 1%
    + [serverUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-20-cmdref-url-serverurl.md)
    + [videoServerUrl](c-html5-viewer-20-cmdref-url/r-html5-viewer-cmdref-url-videoserverurl.md)
 
-<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=ko) -->
+<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en) -->

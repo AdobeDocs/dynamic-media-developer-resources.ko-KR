@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 81
 ht-degree: 12%
@@ -39,3 +39,4 @@ PDF 파일에서 추출된 검색 문자열 레코드입니다.
 | 높이 | `xsd:int` | 검색 문자열 높이입니다. |
 | fontName | `xsd:string` | 검색 문자열에 사용되는 글꼴의 이름입니다. |
 | pointSize | `xsd:string` | 글꼴 크기입니다. |
+

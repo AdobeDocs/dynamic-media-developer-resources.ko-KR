@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 39
 ht-degree: 12%
@@ -33,3 +33,4 @@ ht-degree: 12%
 | setHandle | `xsd:string` | 속성 집합 핸들. |
 | typeHandle | `xsd:string` | 속성 집합 유형에 대한 핸들입니다. |
 | propertyArray | `types:PropertyArray` | 이름-값 쌍. 0개 항목을 포함할 수 있습니다. |
+

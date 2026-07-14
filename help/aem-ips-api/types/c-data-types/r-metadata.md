@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 13%
@@ -38,3 +38,4 @@ searchAssets에서 반환된 메타데이터 필드.
 | 롱발 | `xsd:long` | 긴 메타데이터 값(내부 유형 필드에만 해당). |
 | doubleVal | `xsd:double` | 이중 메타데이터 값(부동 소수점 형식 필드만 해당). |
 | dateVal | `xsd:dateTime` | 날짜 메타데이터 값(날짜 유형 필드에만 해당). |
+

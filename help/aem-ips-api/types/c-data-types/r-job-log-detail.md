@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 8%
@@ -36,3 +36,4 @@ ht-degree: 8%
 | assetType | `xsd:string` | 에셋 유형 선택. |
 | assetHandle | `xsd:string` | 작업 로그에서 참조된 자산 핸들. |
 | auxArray | `types:JobLogDetailAuxArray` | 위에서 설명한 5가지 작업 로그 유형 이외의 자세한 작업 로그 정보를 제공합니다. |
+

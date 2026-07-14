@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
 TQID: 'https://experienceleague.adobe.com/OFG30nHlkuRT7HeNob0hkEfaygi8b2gNFEiu67LJBmU'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 276
 ht-degree: 3%
@@ -44,14 +40,14 @@ ht-degree: 3%
 | triggerState | `xsd:int` | 작업 트리거 상태 선택. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | 이미지 제공 게시 작업에 대한 작업 세부 정보. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | 이미지 렌더링 작업에 대한 작업 세부 정보. |
-| videoPublishJob | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보. [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ko)을(를) 참조하십시오. |
+| videoPublishJob | `types:VideoPublishJob` | 비디오 게시 작업에 대한 작업 세부 정보. [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을(를) 참조하십시오. |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | 서버 디렉토리 게시 작업에 대한 작업 세부 정보. |
 | upload디렉터리 작업 | `types:UploadDirectoryJob` | 업로드 디렉터리 작업에 대한 작업 세부 정보. |
 | uploadUrlsJob | `types:UploadUrlsJob` | 업로드 URL 작업에 대한 작업 세부 정보. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdf작업 | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | 이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. [내보내기 작업](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=ko)을 참조하세요. |
+| exportJob | `types:ExportJob` | 이전에 업로드한 파일에 대한 승인된 내보내기를 허용합니다. [내보내기 작업](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html)을 참조하세요. |
 
 ## 주의 {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
@@ -63,3 +59,4 @@ ht-degree: 3%
 * `serverDirectoryPublishJob`
 * `uploadDirectorhJob`
 * `uploadUrlsJob`
+

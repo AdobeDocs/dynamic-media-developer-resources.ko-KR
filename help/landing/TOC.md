@@ -9,7 +9,8 @@ breadcrumb-title: Dynamic Media 개발자 리소스
 user-guide-description: 뷰어 참조 안내서, 이미지 제작 시스템 API, 이미지 제공 및 렌더링 API, 보관된 Scene7 릴리스 노트 등의 Dynamic Media 개발자 리소스에 액세스합니다.
 feature-set: Experience Manager Assets
 index: true
-source-git-commit: 476d3ecdc678bb0c2cd84dff4084cfe38d594ec4
+nudge: true
+source-git-commit: 6b86b624461759c511dad9a939e258a2f0cc8552
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -29,4 +30,3 @@ This TOC may not be necessary. Not sure, so leaving it in.
 + [Image Authoring](/help/aem-ia/aem-ia-home.md)
 + [Dynamic Media Classic Release Notes](/help/s7-release-notes/homern.md)
 -->
-

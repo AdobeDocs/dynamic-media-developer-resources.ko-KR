@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic 릴리스 노트
-description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 릴리스 노트입니다.
+description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 릴리스 정보입니다.
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
@@ -10,7 +10,8 @@ feature: Dynamic Media Classic
 role: Developer,User
 user-guide-title: Adobe Dynamic Media Classic 릴리스 노트
 user-guide-description: Adobe Experience Cloud의 Adobe Experience Manager 솔루션의 일부인 Adobe Dynamic Media Classic에 대한 최신 릴리스 정보입니다.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+nudge: true
+source-git-commit: b3ed420d9e4d7adcc76921aa763e253bcfe0d1b3
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

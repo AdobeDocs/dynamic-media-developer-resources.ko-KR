@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 0%
@@ -31,3 +31,4 @@ ht-degree: 0%
 전체 절대 URL(`attribute::AllowDirectUrls`이(가) 설정된 경우) 및 `attribute::RootUrl`에 상대적인 URL이 허용됩니다. 절대 URL이 임베드되어 있고 특성: `AllowDirectUrls`이(가) 0이거나 상대 URL이 지정되어 있고 `attribute::RootUrl`이(가) 비어 있는 경우 오류가 발생합니다.
 
 외부 이미지는 HTTP 응답에 포함된 캐싱 헤더에 따라 서버에 의해 캐시됩니다.
+

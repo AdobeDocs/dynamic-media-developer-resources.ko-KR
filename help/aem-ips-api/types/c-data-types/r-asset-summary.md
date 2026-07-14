@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 10%
@@ -44,3 +44,4 @@ ht-degree: 10%
 | metadataArray | `types:MetadataArray` | 자산과 연결된 메타데이터 값의 배열입니다. |
 | 점수 | `xsd:double` | 유사성 검색이 있는 경우 정밀도를 정의합니다(0 = 일치 없음, 1 = 정확한 일치). |
 | scoreDetail | `xsd:string` | 유사성 검색 결과 유사한 영역에 대한 세부 정보를 보유하고 있다. |
+

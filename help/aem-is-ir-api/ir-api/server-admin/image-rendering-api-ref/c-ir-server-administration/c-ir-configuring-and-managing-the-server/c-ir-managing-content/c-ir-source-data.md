@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -42,3 +42,4 @@ ht-degree: 0%
 원본 데이터 파일의 실제 위치는 일반적으로 [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2)(으)로 지정됩니다. 소스 데이터 파일이 여러 파일 시스템에 분산되도록 여러 값을 지정할 수 있습니다. 렌더링 서버는 데이터 파일이 발견될 때까지 지정된 순서대로 각 경로를 시도합니다.
 
 모든 종류의 새 데이터 파일은 서버를 중지하지 않고 언제든지 추가할 수 있습니다.
+

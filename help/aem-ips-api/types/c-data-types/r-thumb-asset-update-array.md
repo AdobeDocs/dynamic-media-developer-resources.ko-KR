@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 25
 ht-degree: 24%
@@ -33,3 +33,4 @@ ht-degree: 24%
 | 이름 | 유형 | 설명 |
 |---|---|---|
 | 항목 | `types:ThumbAssetUpdates` | 썸네일 에셋 업데이트의 배열입니다. |
+

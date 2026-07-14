@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 9%
@@ -37,3 +37,4 @@ ht-degree: 9%
 | imageFile | `xsd:string` | 창 커버링 이미지의 파일 이름입니다. |
 | 최적화된 경로 | `xsd:string` | 파일에 대한 경로가 최적화되었습니다. |
 | 최적화된 파일 | `xsd:string` | 최적화된 파일 이름입니다. |
+

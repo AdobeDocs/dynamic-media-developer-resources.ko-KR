@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 141
 ht-degree: 9%
@@ -26,8 +26,7 @@ ht-degree: 9%
 
 특정 회사와 연결된 자산 및 자산 수를 가져옵니다.
 
-반환된 `countArray`은(는) 각각 고유한 카운트 필드(데이터 형식 `xsd:int`)가 있는 `assetTypes`(데이터 형식 `xsd:string`)의 배열로 구성되어 배열의 요소당 여러 자산 형식을 표시할 수 있습니다.
-구문
+반환된 `countArray`은(는) 각각 고유한 카운트 필드(데이터 형식 `xsd:int`)가 있는 `assetTypes`(데이터 형식 `xsd:string`)의 배열로 구성되어 배열의 요소당 여러 자산 형식을 표시할 수 있습니다.구문
 
 ## 승인된 사용자 유형 {#section-6234754722184e828352f10eb18fbce9}
 
@@ -83,3 +82,4 @@ ht-degree: 9%
    </countArray>
 </getAssetCountsReturn>
 ```
+

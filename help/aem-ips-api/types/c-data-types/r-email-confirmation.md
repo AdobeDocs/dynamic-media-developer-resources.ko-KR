@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 6%
@@ -32,3 +32,4 @@ cdnCacheInvalidation 작업에 대한 응답으로 지정된 수신자에게 이
 |---|---|---|
 | 작성자 | `xsd:boolean` | true인 경우 에는 사용자의 웹 서비스 사용자 계정이 포함됩니다. 이 계정은 Dynamic Media CDN에서 이메일 확인을 받도록 지정된 이메일 목록입니다. |
 | 기타 배열 | `types:EmailArray` | Dynamic Media CDN에서 확인 알림을 받도록 지정된 이메일 주소 배열(최대 5개)입니다. |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 98
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 이미지 카탈로그의 템플릿에 임베드된 외부 요청을 배치할 수 있습니다.
 
 서버가 최종 외부 URL을 전송하려고 시도하기 전에 다시 인코딩이 적용되지 않으므로 외부 요청으로 대체되는 변수 값은 일반적으로 이중 인코딩이 적용되어야 합니다.
+

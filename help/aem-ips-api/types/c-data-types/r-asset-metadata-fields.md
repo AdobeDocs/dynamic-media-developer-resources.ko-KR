@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 47
 ht-degree: 10%
@@ -34,3 +34,4 @@ ht-degree: 10%
 |---|---|---|
 | assetType | `xsd:string` | 필드 정의와 연결된 에셋 유형(값에 대한 &quot;에셋 유형&quot; 참조). |
 | fieldArray | `types:MetadataFieldArray` | `assetType`에 지정된 에셋 유형과 연결된 메타데이터 필드 정의의 배열입니다. |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 0%
@@ -27,3 +27,4 @@ ht-degree: 0%
 설치 폴더에서 일부 사용자 문서를 제거할 수 있습니다. 제거하기 전에 유지할 모든 파일을 백업합니다.
 
 제거하기 전에 관리 또는 루트 권한으로 서버 호스트에 로그인합니다.
+

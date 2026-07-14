@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 48
 ht-degree: 10%
@@ -40,11 +40,11 @@ ht-degree: 10%
   <tr> 
    <td colname="col1"> <span class="codeph"> 허용 한도</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3">투명도를 기준으로 이미지 가장자리에서 공백을 제거합니다. 사용: 
-    <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
+   <td colname="col3">투명도를 기준으로 이미지 가장자리에서 공백을 제거합니다. 사용: <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0을 지정하면 색상이 정확하게 일치합니다. </li>
      <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 - 대부분의 색상 차이를 활성화합니다. </li>
     </ul></td> 
   </tr> 
  </tbody> 
 </table>
+

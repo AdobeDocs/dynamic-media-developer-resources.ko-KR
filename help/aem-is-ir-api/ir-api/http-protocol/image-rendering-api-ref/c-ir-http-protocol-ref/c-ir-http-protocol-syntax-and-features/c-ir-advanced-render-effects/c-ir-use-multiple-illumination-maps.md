@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 166
 ht-degree: 0%
@@ -33,3 +33,4 @@ ht-degree: 0%
 `illum=`**을(를) 사용한**&#x200B;명시적 선택 - `illum=`이(가) 지정되어 있고 `0`, `1` 또는 `2`(으)로 설정된 경우 렌더러가 해당 조명 맵을 사용합니다. `gloss=`은(는) 조명 맵을 선택할 때 무시됩니다.
 
 비네팅에 조명 맵이 하나만 포함되어 있으면 렌더러는 해당 맵을 사용하고 `illum=` 및 `gloss=` 명령을 무시합니다.
+

@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 1. **[!UICONTROL 보안 설정]** > **[!UICONTROL 로컬 정책]** > **[!UICONTROL 사용자 권한 할당]**&#x200B;을 선택합니다.
 1. **[!UICONTROL 서비스로 로그온]** 정책을 두 번 클릭합니다.
 1. **[!UICONTROL 추가...]**&#x200B;를 선택하고 사용자 또는 그룹을 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 선택하여 확인합니다.
+

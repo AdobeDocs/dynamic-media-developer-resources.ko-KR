@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 628
 ht-degree: 0%
@@ -54,3 +54,4 @@ IR에서는 두 가지 기본 비네팅 유형(*2D* 및 *3D*)을 지원합니다
 
 * [장면 좌표](c-ir-scene-coordinates.md)
 * [재질 해상도](c-ir-material-resolution.md)
+

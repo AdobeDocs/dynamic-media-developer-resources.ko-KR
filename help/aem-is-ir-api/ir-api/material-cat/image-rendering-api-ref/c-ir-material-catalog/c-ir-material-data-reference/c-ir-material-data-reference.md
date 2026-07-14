@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 0%
@@ -25,3 +25,4 @@ ht-degree: 0%
 재료 카탈로그에 재료 데이터가 필요한 경우 속성::CatalogFile에 재료 데이터 파일의 상대 경로나 절대 경로를 지정해야 합니다.
 
 특정 재질 카탈로그의 재질 데이터 파일에 있는 항목은 기본 카탈로그의 재질 데이터 파일에 있는 항목을 덮어씁니다.
+

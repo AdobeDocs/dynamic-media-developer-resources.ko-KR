@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 42
 ht-degree: 0%
@@ -23,3 +23,4 @@ ht-degree: 0%
 # 속성 참조{#attributes-reference}
 
 catalog::RootId를 제외한 모든 카탈로그 속성은 선택 사항입니다. 모든 속성은 기본 카탈로그 속성 파일(default.ini)에 필요합니다.
+

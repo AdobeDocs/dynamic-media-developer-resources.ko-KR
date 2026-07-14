@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 205
 ht-degree: 8%
@@ -51,8 +51,7 @@ ht-degree: 8%
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> 반경</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:double</span></td>
-   <td colname="col3"><p>이미지 가장자리 주변의 픽셀 수를 설정하여 선명도를 제어합니다. 올바른 값은 이미지 크기에 따라 달라집니다. 
-     <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
+   <td colname="col3"><p>이미지 가장자리 주변의 픽셀 수를 설정하여 선명도를 제어합니다. 올바른 값은 이미지 크기에 따라 달라집니다. <ul id="ul_D4391CD407DE4B48AF4523EBD85D0D40">
       <li id="li_8AEF11A489484EFD91416F8A03C4DB25">범위: 0.0 - 250.0 </li>
       <li id="li_9F1D1B52AFBA46B8BDCDF99A21140002">낮은 값은 가장자리 픽셀만 선명하게 합니다. </li>
       <li id="li_7D9FD8AA4899404283D7AB596364A4AF">값이 높으면 픽셀 대역이 더 선명해집니다. </li>
@@ -101,3 +100,4 @@ ht-degree: 8%
 >[!MORELIKETHIS]
 >
 >* [이미지 제공 API 참조: op_usm](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-op-usm.html?lang=ko)
+

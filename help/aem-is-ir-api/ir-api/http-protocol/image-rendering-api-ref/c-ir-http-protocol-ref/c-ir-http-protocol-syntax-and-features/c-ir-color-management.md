@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 0%
@@ -83,3 +83,4 @@ ht-degree: 0%
 `icc=` 명령에서 파일 경로/이름으로 출력 프로필을 지정할 수 있지만 기본 카탈로그 또는 특정 재질 카탈로그의 ICC 프로필 맵에 모든 프로필 파일을 등록하고 파일 경로 대신 바로 가기 식별자(`icc::Name`)를 사용하는 것이 좋습니다.
 
 작업 프로파일은 재료 카탈로그의 ICC 프로파일 맵 또는 기본 카탈로그에 등록되어야 합니다.
+

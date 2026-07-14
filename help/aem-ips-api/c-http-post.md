@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 2%
@@ -78,12 +78,12 @@ https://<server>/scene7/UploadFile
 
 |  HTTP POST 양식 부분   |  uploadPostParams 요소 이름   |  유형   |  설명   |
 |---|---|---|---|
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일을 업로드할 회사에 대해 을(를) 처리합니다.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobName`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 업로드 작업의 이름입니다.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobHandle`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 이전 요청에서 시작된 업로드 작업에 대한 핸들입니다.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택적. 현지화를 위한 언어 및 국가 코드.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택적. 작업에 대한 설명.  |
-| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택적. 특히 파일 이름의 전체 경로를 지원하지 않는 브라우저 및 기타 클라이언트의 경우 파일 이름 속성에 접두사로 사용할 대상 폴더 경로입니다.  |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서)   |   `companyHandle`  |  `xsd:string`  | 필수. 파일을 업로드할 회사에 대해 을(를) 처리합니다. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobName`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 업로드 작업의 이름입니다. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `jobHandle`  |  `xsd:string`  | `jobName` 또는 `jobHandle`이(가) 필요합니다. 이전 요청에서 시작된 업로드 작업에 대한 핸들입니다. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `locale`  |  `xsd:string`  | 선택적. 현지화를 위한 언어 및 국가 코드. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `description`  |  `xsd:string`  | 선택적. 작업에 대한 설명. |
+| `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `destFolder`  |  `xsd:string`  | 선택적. 특히 파일 이름의 전체 경로를 지원하지 않는 브라우저 및 기타 클라이언트의 경우 파일 이름 속성에 접두사로 사용할 대상 폴더 경로입니다. |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `fileName`  |  `xsd:string`  | 선택적. 대상 파일의 이름입니다. 파일 이름 속성을 재정의합니다. |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `endJob`  |  `xsd:boolean`  | 선택적. 기본값은 false입니다. |
 | `uploadParams`(필수). 업로드 매개 변수를 지정하는 XML `uploadParams` 문서) | `uploadParams`  |  `types:UploadPostJob`  | 기존 활성 작업에 대한 후속 요청인 경우 선택 사항입니다. 기존 작업이 있는 경우 `uploadParams`이(가) 무시되고 기존 작업 업로드 매개 변수가 사용됩니다. [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) 보기 |
@@ -212,3 +212,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+

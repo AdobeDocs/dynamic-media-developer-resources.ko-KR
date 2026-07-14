@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 251
 ht-degree: 0%
@@ -41,3 +41,4 @@ ht-degree: 0%
 사용자 지정 변수는 중첩되지 않을 수 있습니다. `[!DNL string]` 내의 모든 `$ [!DNL name]$` 항목은 대체되지 않습니다. 예를 들어 요청 조각 `$var2=apple&$var1=my$var2$tree&text=$var1$`은(는) `text=my$var2$tree`(으)로 확인됩니다.
 
 `$`은(는) 예약된 문자가 아닙니다. 요청에서 다른 문자가 발생할 수 있습니다. 예를 들어 `wid=`에 숫자 인수가 필요하므로 `src=my$texture$file.tif`은(는) 올바른 명령이지만 `[!DNL my$texture$file.tif]`(이)라는 재질 카탈로그 항목 또는 텍스처 파일이 있다고 가정할 경우 `wid=$number$`은(는) 그렇지 않습니다.
+

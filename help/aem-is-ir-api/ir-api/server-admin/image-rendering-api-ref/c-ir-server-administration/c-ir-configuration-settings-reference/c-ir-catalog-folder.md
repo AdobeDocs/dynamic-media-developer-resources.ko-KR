@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 51
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 재질 카탈로그 폴더의 위치(모든 catalog.ini 파일이 있어야 함).
 
 절대 경로이거나 [!DNL *[!DNL install_folder]*]에 상대적인 경로일 수 있습니다. 기본값은 [!DNL *[!DNL install_folder]*/catalog]에 해당하는 [!DNL ./catalog]입니다.
+

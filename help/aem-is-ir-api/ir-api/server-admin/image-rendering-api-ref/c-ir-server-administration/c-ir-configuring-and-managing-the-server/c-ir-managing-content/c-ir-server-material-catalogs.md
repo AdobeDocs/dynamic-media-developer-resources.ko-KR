@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 108
 ht-degree: 0%
@@ -31,3 +31,4 @@ ht-degree: 0%
 재질 카탈로그는 요청에 사용된 비네팅 및 재질 ID를 실제 파일 경로에 매핑하고, 자료와 관련된 모든 메타데이터를 저장하고, 템플릿에 대한 컨테이너를 제공할 수 있습니다. ICC 프로파일 및 명령 매크로를 추적합니다.
 
 재질 카탈로그는 [!DNL Platform Server]과(와) 함께 위치한 이미지 렌더링의 Java 구성 요소에서만 액세스됩니다. 카탈로그 특성 파일은 [!DNL .ini] 접미사를 사용하고 등록된 카탈로그 폴더([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7))에 배치해야 합니다. 기본 재질 카탈로그([!DNL default.ini])는 항상 있어야 하며 이미지 제공의 올바른 작동을 위해 모든 특성으로 채워야 합니다.
+

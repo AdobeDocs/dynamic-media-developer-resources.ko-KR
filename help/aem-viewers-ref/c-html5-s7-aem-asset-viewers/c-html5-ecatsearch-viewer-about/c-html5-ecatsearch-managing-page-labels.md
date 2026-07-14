@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 269
 ht-degree: 0%
@@ -39,3 +39,4 @@ Dynamic Media Classic에 정의된 레이블은 개별 페이지 이미지의 Us
 자동으로 생성된 레이블은 전자 카탈로그의 모든 페이지에 지정된 순차적 번호입니다. 기호 기반 레이블이 정의되어 있거나 Dynamic Media Classic 레이블이 정의된 경우 자동으로 생성된 레이블은 지정된 스프레드에 대해 무시됩니다.
 
 목차에서는 `showdefault` 매개 변수를 사용하여 자동으로 생성된 레이블을 표시하지 않도록 설정할 수 있습니다.
+

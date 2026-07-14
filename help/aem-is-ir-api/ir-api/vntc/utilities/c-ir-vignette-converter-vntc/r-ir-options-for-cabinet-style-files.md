@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 96
 ht-degree: 0%
@@ -30,3 +30,4 @@ ht-degree: 0%
   <td class="stentry"> <p>캐비닛 스타일 파일의 대상 해상도를 지정합니다. 인치당 실제 값(픽셀 단위). 지정하지 않으면 프로덕션 캐비닛 스타일 파일의 해상도가 소스 파일과 같습니다. </p></td> 
  </tr> 
 </table>
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 59
 ht-degree: 15%
@@ -35,3 +35,4 @@ Scene 7 개발자용 이미지 렌더링 재질 카탈로그 참조-카탈로그
 | 회사 핸들 | `xsd:string` | 예 | 회사 핸들. |
 | publishSettingsArray | `types:ConfigSettingArray` | 예 | Scene 7 개발자용 |
 | context핸들 | `xsd:string` | 아니요 | 게시 컨텍스트에 대한 핸들입니다. |
+

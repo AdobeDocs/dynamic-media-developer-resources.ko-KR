@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 55
 ht-degree: 9%
@@ -34,3 +34,4 @@ Adobe Illustrator 파일 옵션
 | [!DNL resolution] | `xsd:string` | 파일 확인. |
 | 색상 공간 | `xsd:string` | 대상 색상 공간. |
 | [!DNL alpha] | `xsd:boolean` | 파일을 이미지로 래스터화할지 여부입니다. 원본 파일이 오버레이 로고를 만들기 위해 이러한 방식으로 정의된 경우 투명 배경을 만듭니다. |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 301
 ht-degree: 0%
@@ -43,3 +43,4 @@ ht-degree: 0%
 필드 이름은 ASCII 문자, 숫자 및 &quot;-&quot;와 &quot;_&quot;의 조합으로 구성될 수 있습니다.
 
 하나 이상의 열을 인덱스 키로 사용할 수 있습니다. 동일한 데이터 파일에서 동일한 키가 두 번 이상 발생하면 이후 인스턴스가 우세합니다.
+

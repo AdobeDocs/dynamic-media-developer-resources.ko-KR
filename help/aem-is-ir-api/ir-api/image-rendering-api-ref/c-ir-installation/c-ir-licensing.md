@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 67
 ht-degree: 0%
@@ -25,3 +25,4 @@ ht-degree: 0%
 Dynamic Media 이미지 렌더링 라이선스 키가 필요하며 이미지 렌더링이 설치된 각 시스템에 설치해야 합니다.
 
 이미지 렌더링은 유효한 라이선스 없이 실행되지 않습니다. 설치 절차에는 라이센스 키를 가져오고 설치하는 단계가 포함됩니다.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 35
 ht-degree: 14%
@@ -31,3 +31,4 @@ ht-degree: 14%
 | company핸들 | `xsd:string` | 회사를 위해 처리하십시오. |
 | 역할 | `xsd:string` | 사용자가 속한 각 회사에 대해 갖는 역할입니다. |
 | 활성 | `xsd:boolean` | 속한 각 회사의 사용자 상태를 설정합니다. |
+

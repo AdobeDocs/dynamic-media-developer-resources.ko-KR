@@ -14,7 +14,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 124
 ht-degree: 0%
@@ -33,3 +33,4 @@ ht-degree: 0%
 * `addMediaPortalEvent` - [작업](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)에서 사용되지 않습니다. 이 매개 변수를 사용하면 Media Portal 이벤트를 IPS에 추가할 수 있습니다.
 * `getMediaPortalEvent` - [작업](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)에서 사용되지 않습니다. 이 매개 변수를 사용하면 지정된 기준과 일치하는 Media Portal 이벤트를 가져올 수 있습니다.
 * `getCdnCacheInvalidationStatus` - [작업](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md)에서 사용되지 않습니다. `cdnCacheInvalidation` 매개 변수가 캐시를 거의 즉시 무효화하므로(약 5초) 이 매개 변수는 더 이상 사용되지 않습니다. 따라서 무효화 상태에 대한 폴링은 더 이상 필요하지 않습니다.
+

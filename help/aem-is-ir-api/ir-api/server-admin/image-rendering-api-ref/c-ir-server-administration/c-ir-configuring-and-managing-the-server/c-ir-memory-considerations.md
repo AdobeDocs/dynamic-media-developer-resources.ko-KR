@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 이미지 렌더링은 이미지 서버의 메모리 관리를 공유합니다. 이미지 렌더링을 사용할 때 추가 메모리를 할당해야 합니다. 물리적 메모리의 30~50%가 적절할 수 있습니다.
 
 이미지 서버 메모리 할당을 변경하는 방법에 대한 자세한 내용은 이미지 제공 설명서(ImageServer::PhysicalMemory)를 참조하십시오.
+

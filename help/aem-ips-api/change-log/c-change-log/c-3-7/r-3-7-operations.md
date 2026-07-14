@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 50
 ht-degree: 2%
@@ -61,3 +61,4 @@ IPS API 버전 3.7에 대한 새로운 작업 및 변경된 작업 방법을 설
 
 * `excludeFieldArray` 및 `getUniqueMetadataValues`을(를) 추가했습니다.
 * `fieldHandle`을(를) 필수 매개 변수로 만들었습니다.
+

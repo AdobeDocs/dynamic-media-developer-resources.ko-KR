@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 138
 ht-degree: 0%
@@ -29,3 +29,4 @@ ht-degree: 0%
 벽 경계는 주로 다이 컷 경계를 지원하기 위해 RGBA 이미지를 지원합니다.
 
 창 변환을 정의하는 [!DNL vnw] 파일에 불투명도 채널이 포함될 수 있습니다. 렌더러에서 반복 가능한 텍스처의 알파 채널과 `opacity=` 값을 사용하여 결합되어 투명 및 반투명 창 처리에 대한 전체 범위의 불투명도 효과를 제공합니다.
+

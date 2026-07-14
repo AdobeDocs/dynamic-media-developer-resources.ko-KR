@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 4%
@@ -38,3 +38,4 @@ ht-degree: 4%
 | [!DNL position] | `xsd:string` | HTML `<area>` 요소의 [!DNL coords] 특성 형식으로 위치를 지정합니다. 예: `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | 이미지 맵이 활성화된 경우 True입니다. |
 | 마지막 수정일 | `xsd:dateTime` | 이미지 맵을 마지막으로 수정한 날짜 및 시간입니다. |
+

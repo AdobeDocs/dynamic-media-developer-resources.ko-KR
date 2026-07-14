@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 48
 ht-degree: 0%
@@ -26,3 +26,4 @@ ht-degree: 0%
 # 구성 설정 참조{#configuration-settings-reference}
 
 모든 렌더링 서버 설정은 install_root/ImageServing/conf/PlatformServer.conf에 있습니다. 구성 변수의 이름은 괄호 안에 표시됩니다.
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 9%
@@ -37,3 +37,4 @@ ht-degree: 9%
 | 기본 역할 | `xsd:string` | 사용자가 속한 각 회사의 사용자에 대한 역할을 설정합니다. 그러나 사용자 역할 `IpsAmin`은(는) 다른 사용자 역할을 재정의합니다. |
 | isValid | `xsd:boolean` | 사용자가 유효한지 여부를 결정합니다. |
 | passwordExpires | `xsd:dateTime` | 암호 만료 날짜를 설정합니다. |
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -61,3 +61,4 @@ ht-degree: 3%
 렌더러가 `type=`에 따라 `gloss=` 및 `rough=` 특성의 범위를 조정합니다. 직물과 같은 일부 재료 유형은 돌 또는 금속과 같은 재료 유형보다 반사성이 적다. 더욱이, 하나에 대해 특정된 동일한 양의 광택은 종종 다른 반사 효과를 초래한다. `type=`이(가) 지정되지 않았거나 `0`(으)로 설정된 경우 특성 `gloss=` 및 거칠기의 색역이 매우 넓습니다.
 
 `glossmap=`을(를) 사용하여 픽셀별로 재료의 광택을 제어합니다.
+

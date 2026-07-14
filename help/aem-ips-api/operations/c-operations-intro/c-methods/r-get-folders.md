@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +26,7 @@ ht-degree: 7%
 
 ## 폴더 용도 {#section-66e344d5333f42f1b060a0cba25935c3}
 
-폴더를 사용하면 하위 폴더와 에셋을 구성할 수 있습니다. 모든 폴더 및 자산 이름은 고유해야 합니다. 동일한 이름을 공유하는 폴더 및 자산은 서로 다른 폴더 계층 구조에 있더라도 네임스페이스 충돌을 일으킵니다.
-구문
+폴더를 사용하면 하위 폴더와 에셋을 구성할 수 있습니다. 모든 폴더 및 자산 이름은 고유해야 합니다. 동일한 이름을 공유하는 폴더 및 자산은 서로 다른 폴더 계층 구조에 있더라도 네임스페이스 충돌을 일으킵니다.구문
 
 ## 승인된 사용자 유형 {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +100,4 @@ ht-degree: 7%
    </folderArray>
 </getFoldersReturn>
 ```
+

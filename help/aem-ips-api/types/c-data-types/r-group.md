@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 38
 ht-degree: 15%
@@ -34,3 +34,4 @@ ht-degree: 15%
 | company핸들 | `xsd:string` | 회사 핸들. |
 | [!DNL name] | `xsd:string` | 그룹 이름. |
 | [!DNL is SystemDefined] | `xsd:string` | 그룹이 시스템에 의해 정의되었는지 여부. |
+

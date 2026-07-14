@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 41
 ht-degree: 19%
@@ -33,3 +33,4 @@ ht-degree: 19%
 | 값 | `xsd:string` | 업데이트에 실패한 태그 값입니다. |
 | 코드 | `xsd:int` | 오류 코드 번호. |
 | 이유 | `xsd:string` | 오류 메시지(일반 텍스트). |
+

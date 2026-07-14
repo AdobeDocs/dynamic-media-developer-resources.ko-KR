@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 40
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 이미지 렌더링은 로그 메시지를 이미지 서비스 제공 로그 메커니즘으로 보냅니다.
 
 로깅 시스템 구성 및 기능에 대한 설명은 이미지 제공 설명서 를 참조하십시오.
+

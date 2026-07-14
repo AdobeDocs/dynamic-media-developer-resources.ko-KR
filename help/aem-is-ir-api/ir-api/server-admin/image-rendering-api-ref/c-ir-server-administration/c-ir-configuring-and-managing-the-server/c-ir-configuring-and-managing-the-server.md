@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 69
 ht-degree: 0%
@@ -32,3 +32,4 @@ ht-degree: 0%
 >이미지 렌더링이 올바르게 작동하려면 이미지 제공이 올바르게 구성되고 작동해야 합니다.
 
 자세한 내용은 재질 카탈로그 참조, HTTP 프로토콜 참조 , 릴리스 노트, 이미지 서비스 설명서 를 참조하십시오
+

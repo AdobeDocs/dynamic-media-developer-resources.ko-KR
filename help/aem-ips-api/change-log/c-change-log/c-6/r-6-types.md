@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 71
 ht-degree: 1%
@@ -81,3 +81,4 @@ IPS API 버전 6의 새로운 형식과 변경된 형식을 설명합니다.
 * `Folder`에서 `permissions`을(를) `permissionsSetHandle`(으)로 변경했습니다.
 
 * `AssetSummary`에서 `type` 및 `name`은(는) 이제 선택 사항입니다.
+

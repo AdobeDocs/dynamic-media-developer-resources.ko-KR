@@ -4,7 +4,7 @@ user-guide-title: Dynamic Media 뷰어 참조 안내서
 feature-set: Experience Manager Assets
 user-guide-description: 데스크탑 및 터치스크린 디바이스에서 사용할 수 있도록 Dynamic Media 뷰어를 맞춤화하십시오. 대화형 이미지 및 비디오, 회전 메뉴, 스핀 세트 등을 포함합니다.
 nudge: true
-source-git-commit: b40d8ed938698a776b4ca6eb8f456b40ad6060f6
+source-git-commit: c9b4e04351d32190a5b27e807c3a752f8a2a26a8
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 1%

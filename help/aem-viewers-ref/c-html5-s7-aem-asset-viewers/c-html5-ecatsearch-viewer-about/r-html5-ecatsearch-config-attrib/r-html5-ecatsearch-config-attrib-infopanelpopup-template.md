@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 200
 ht-degree: 2%
@@ -59,3 +59,4 @@ ht-degree: 2%
 정보 서버 응답이 제품 이름을 변수 `$1$`(으)로 반환하고 제품 이미지 URL이 변수 `$2$`(으)로 반환된다고 가정합니다.
 
 `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
+

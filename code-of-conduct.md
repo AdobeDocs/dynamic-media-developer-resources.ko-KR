@@ -1,7 +1,7 @@
 ---
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 ## 속성
 
-이 행동 수칙은 [기여자 규약](https://www.contributor-covenant.org/), 버전 1.4, 사용 가능 [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
+이 행동 수칙은 [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/)에서 제공하는 [기여자 규약](https://www.contributor-covenant.org/), 버전 1.4에서 채택되었습니다.

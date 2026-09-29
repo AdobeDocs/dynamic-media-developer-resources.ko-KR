@@ -10,15 +10,31 @@ autotag-review: '2026-05-13T22:16:12.254Z'
 TQID: 'https://experienceleague.adobe.com/lqrLpEdrL5vfhuF9GPmw-Yp1-FZmoEC-H-NlG0Z-i2Q'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 1950
+source-wordcount: '1973'
 ht-degree: 0%
-
 ---
-
 # 파노라마{#panoramic}
 
 HTML5 Panoramic Viewer는 파노라마 이미지를 표시하는 이미지 뷰어입니다. 이 뷰어의 목적은, 등장방형적 이미지로도 알려진 구형의 파노라마를 디스플레이하는 것이다. 회전식 움직임에 의한 자동 패닝과 패닝을 지원한다. 데스크탑 및 모바일 장치에서 작동하도록 디자인되었습니다. 가상 현실 뷰잉 모드는 지원되는 모바일 디바이스에서 이용 가능하다.
@@ -282,7 +298,7 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=ko)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 -->
 

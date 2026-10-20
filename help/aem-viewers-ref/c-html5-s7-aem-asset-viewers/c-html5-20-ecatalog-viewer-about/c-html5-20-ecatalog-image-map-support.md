@@ -34,11 +34,11 @@ eCatalog 뷰어는 기본 보기 위에 이미지 맵 아이콘 렌더링을 지
 
 다음은 간단한 URL 리디렉션의 예입니다.
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/kr`
 
 이 예제에서는 동일한 URL을 `loadProduct()` 함수로 래핑합니다.
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/kr");void(0);`
 
 JavaScript 코드를 이미지 맵의 `HREF` 특성에 추가하면 해당 코드가 클라이언트의 컴퓨터에서 실행됩니다. 따라서 JavaScript 코드가 안전한지 확인하십시오.
 

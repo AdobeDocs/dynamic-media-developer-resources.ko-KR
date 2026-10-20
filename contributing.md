@@ -30,7 +30,7 @@ GitHub에서 직접 설명서를 편집할 때의 편의성에 따라 선택할 
 
 >[!NOTE]
 >
->제출하는 기여는 [Adobe 사용 약관](https://www.adobe.com/legal/terms.html)의 적용을 받습니다.
+>제출하는 기여는 [Adobe 사용 약관](https://www.adobe.com/kr/legal/terms.html)의 적용을 받습니다.
 
 ### 문제 만들기 {#create-an-issue}
 

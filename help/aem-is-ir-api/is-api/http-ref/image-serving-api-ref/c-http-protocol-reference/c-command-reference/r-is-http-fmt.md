@@ -17,13 +17,11 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 14d288ca3c2578cb4e0c56a2a08bd794e4b3f8cf
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: '1249'
 ht-degree: 2%
-
 ---
-
 # fmt{#fmt}
 
 응답 이미지 형식.
@@ -82,18 +80,24 @@ ht-degree: 2%
 | `none` | 압축이 해제되었습니다. |
 | `zip` | &quot;수축&quot; 압축(무손실). |
 
-* *`format`*&#x200B;은(는) 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다.
+* *`format`*&#x200B;은(는) 클라이언트로 보낸 이미지 데이터의 이미지 인코딩 형식을 지정하고 HTTP 응답 헤더의 해당 응답 MIME 형식을 지정합니다. JPEG 및 PNG 요청의 경우, 브라우저 형식 전환을 통해 반환되는 형식과 MIME 유형을 변경할 수 있습니다. 이 목록 다음에 나오는 참고 사항을 참조하십시오.
 * `icc=`이(가) 지정되지 않은 경우 *`pixelType`*&#x200B;을(를) 사용하여 출력 색상 공간 변환을 수행할 수 있습니다.
 
   *`pixelType`*&#x200B;에 해당하는 기본 색상 프로필이 적용됩니다. 색상 관리가 비활성화되어 있으면 순조로운 변환이 적용됩니다. 출력 픽셀 유형을 결정하는 `icc=`을(를) 지정하면 *`pixelType`*&#x200B;이(가) 무시됩니다.
 
 * *`compression`*&#x200B;은(는) `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`, `jpegxr` 또는 `jpegxr-alpha`이(가) *`format`*(으)로 지정된 경우에만 허용됩니다. 이러한 이미지 형식에 대해 지원되는 압축 옵션은 아래 표를 참조하십시오.
 
+>[!NOTE]
+>
+>계정에 대해 [스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq)을 사용하도록 설정한 경우 브라우저 형식 변환은 JPEG 및 PNG 이미지에 대해 요청한 *`format`*&#x200B;을(를) 재정의할 수 있습니다. 이 경우 이미지 제공은 WebP 또는 AVIF와 같이 더 작은 브라우저별 형식을 전달할 수 있으며 `Content-Type` 응답 헤더는 요청된 형식 대신 전달된 형식을 반영합니다. 예를 들어 `fmt=png`이(가) 있는 요청은 `Content-Type: image/png` 대신 `Content-Type: image/webp`을(를) 반환할 수 있습니다.
+>
+>`fmt=`(으)로 지정한 정확한 형식 및 응답 MIME 형식을 받으려면 요청에 `bfc=off`을(를) 추가하십시오. 예를 들어 `fmt=png&bfc=off`은(는) `Content-Type: image/png`을(를) 반환합니다. [bfc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md)을(를) 참조하십시오.
+
 `qlt=`을(를) 사용하여 JPEG, JPEG 압축을 사용하는 TIFF, JPEG 압축을 사용하는 PDF 및 SWF 형식에 대한 JPEG 인코딩 옵션을 설정할 수 있습니다. WebP, JPEG 2000 및 JPEG XR도 `qlt=`을(를) 사용하지만 그 결과 서로 다른 형식에 대해 다른 품질을 제공합니다. `fmt=gif` 또는 `fmt=gif-alpha`인 경우 `quantize=`을(를) 사용합니다. 자세한 내용은 명령 설명을 참조하십시오. 다른 형식에는 설정 가능한 옵션이 없습니다.
 
 모든 *`formats`* 및 *`pixelTypes`*&#x200B;에 대해 픽셀당 8비트(GIF의 경우 픽셀당 8비트)가 반환됩니다.
 
-다음 표에는 유효한 *`format`*과(와) *`pixelType`* 조합, 해당 HTTP 응답 MIME 유형, ICC 프로필을 포함할 수 있는지 여부([iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e) 참조) 및 적용할 수 있는 형식별 옵션이 나열되어 있습니다.
+다음 표에는 유효한 *`format`*과(와) *`pixelType`* 조합, 해당 HTTP 응답 MIME 유형, ICC 프로필을 포함할 수 있는지 여부([iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e) 참조) 및 적용할 수 있는 형식별 옵션이 나열되어 있습니다. JPEG 및 PNG 형식에 대한 응답 MIME 유형에서는 브라우저 형식 변환이 적용되지 않는다고 가정합니다. 스마트 이미징을 사용할 수 있을 때 이러한 MIME 형식을 보장하려면 요청에 `bfc=off`을(를) 포함하십시오.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
@@ -224,6 +228,10 @@ ht-degree: 2%
 
 ` http:// *`서버`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
+**응답 헤더가 `Content-Type: image/png`:**&#x200B;이 되도록 PNG 이미지를 요청하고 브라우저 형식 변환을 끕니다.
+
+`http://server/myRootId/myImageId?wid=525&hei=400&fmt=png&bfc=off`
+
 **회색 음영 TIFF 이미지와 동일한 이미지에 대해 알파 채널을 요청합니다.**
 
 ` http:// *`서버`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
@@ -270,4 +278,4 @@ ht-degree: 2%
 
 ## 참조 {#section-fce8d69c74234bf48cf814d799409541}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135).
+[bfc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [quantize=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38), [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e), [pathEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pathembed.md#reference-9ccf0771d6634cf68c1c9c33cd428301), [pscan](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pscan.md#reference-b8101ed8e6c04dd28173f9597e52b135), [스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq).
